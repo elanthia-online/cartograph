@@ -3,7 +3,9 @@ require "json"
 require "cgi"
 require "fileutils"
 require "digest/md5"
+require "benchmark"
 require_relative "../util/opts"
+require_relative "../util/color"
 require_relative "../util/log"
 require_relative "../shims/map"
 require_relative "../shims/stringproc"
@@ -34,9 +36,9 @@ module Import
   end
 
   def self.cleanup_dirs()
-    puts "pruning #{env_dir("string_procs")}"
+    puts Color.red "pruning #{env_dir("string_procs")}"
     FileUtils.rm_rf env_dir("string_procs")
-    puts "pruning #{env_dir("rooms")}"
+    puts Color.red "pruning #{env_dir("rooms")}"
     FileUtils.rm_rf env_dir("rooms")
   end
 
@@ -79,11 +81,15 @@ module Import
   end
 
   def self.main()
-    validate_argv
-    cleanup_dirs if Opts.clean
-    setup_dirs
-    import_rooms
-    import_string_procs
+    runtime = Benchmark.realtime { 
+      validate_argv
+      cleanup_dirs if Opts.clean
+      setup_dirs
+      import_rooms
+      import_string_procs
+    }
+
+    puts Color.blue "wrote #{load_map.size} rooms in #{runtime}s"
   end
 end
 
