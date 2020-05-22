@@ -1,0 +1,1 @@
+fput 'push gargoyl'; fput 'push letter i'; fput 'push letter w'; fput 'push letter n'; fput 'push letter b'; fput 'push letter t'; fput 'push letter c'; move 'go door'

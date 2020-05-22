@@ -1,0 +1,1 @@
+Char.prof == 'Sorcerer' ? 3.0 : nil

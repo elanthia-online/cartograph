@@ -1,0 +1,1 @@
+$SILVERWOOD_TOWN == :wl ? 0.2 : 10000

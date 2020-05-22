@@ -1,0 +1,1 @@
+line = fput 'search' until line =~ /Found that!/;put 'climb vine'

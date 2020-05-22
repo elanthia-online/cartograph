@@ -1,0 +1,1 @@
+move "go opening";move "climb platform";fput "turn wheel";move  "down";move "out";move "go bridge"

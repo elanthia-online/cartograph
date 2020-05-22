@@ -1,0 +1,1 @@
+move 'west' while Room.current.id == 13445

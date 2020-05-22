@@ -1,0 +1,1 @@
+move 'north' while checkpaths.include?('n')

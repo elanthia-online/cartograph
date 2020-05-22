@@ -1,0 +1,1 @@
+move 'southwest';move 'southeast';move 'northwest';move 'southwest';move 'northwest'

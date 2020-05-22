@@ -1,0 +1,11 @@
+unless checkloot.include? 'stairs'
+fput 'push medium moon'
+fput 'pull relief'
+fput 'push letter u'
+fput 'push letter t'
+fput 'push letter h'
+fput 'push letter e'
+fput 'push letter x'
+fput 'pull globe'
+end
+move 'go stair'

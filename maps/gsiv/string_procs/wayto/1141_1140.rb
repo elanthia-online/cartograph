@@ -1,0 +1,2 @@
+move 'shuffle east'
+waitrt?

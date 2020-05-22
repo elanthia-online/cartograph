@@ -1,0 +1,1 @@
+Char.race == 'Giantman' ? 0.2 : nil

@@ -1,0 +1,1 @@
+fput 'stand'; fput 'out'

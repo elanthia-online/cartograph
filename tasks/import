@@ -1,0 +1,90 @@
+#!/usr/bin/env ruby
+require "json"
+require "cgi"
+require "fileutils"
+require "digest/md5"
+require_relative "../util/opts"
+require_relative "../util/log"
+require_relative "../shims/map"
+require_relative "../shims/stringproc"
+
+module Import
+  def self.validate_argv()
+    fail ArgumentError, "--data_dir= is required" unless Opts.data_dir.is_a?(String)
+    Opts[:game] = Opts.data_dir.split("/").pop.downcase
+  end
+
+  def self.newest_mapdb()
+    candidates = Dir.entries(Opts.data_dir)
+      .find_all { |filename| filename =~ /^map\-[0-9]+\.(?:dat|xml)$/ }
+      .sort
+      .reverse
+
+    fail "could not find a map database in #{Opts.data_dir}" if candidates.empty?
+    return File.join(Opts.data_dir, candidates.first)
+  end
+
+  def self.load_map()
+    @_map ||= Marshal.load(
+      File.read(newest_mapdb)).compact
+  end
+
+  def self.env_dir(*args)
+    File.join Dir.pwd, "maps/#{Opts.game}", *args
+  end
+
+  def self.cleanup_dirs()
+    puts "pruning #{env_dir("string_procs")}"
+    FileUtils.rm_rf env_dir("string_procs")
+    puts "pruning #{env_dir("rooms")}"
+    FileUtils.rm_rf env_dir("rooms")
+  end
+
+  def self.setup_dirs()
+    FileUtils.mkdir_p env_dir("string_procs/wayto")
+    FileUtils.mkdir_p env_dir("string_procs/timeto")
+    FileUtils.mkdir_p env_dir("rooms")
+  end
+
+  def self.import_rooms()
+    load_map.each do |room|
+      File.write(
+        env_dir("rooms", "#{room.id}.json"), 
+        JSON.pretty_generate(room))
+    end
+  end
+
+  def self.import_string_procs()
+    load_map
+      .select do |r| r.has_wayto_string_proc? or r.has_timeto_string_proc? end
+      .each do |r| string_proc_to_git(r) end
+  end
+
+  def self.string_proc_to_git(room)
+    room.wayto
+      .select do |_, wayto| wayto.is_a?(StringProc) end
+      .each do |wayto_id, string_proc|
+        File.write(
+          env_dir("string_procs", "wayto", "#{room.id}_#{wayto_id}.rb"), 
+          string_proc.to_rb)
+      end
+
+    room.timeto
+      .select do |_, timeto| timeto.is_a?(StringProc) end
+      .each do |timeto_id, string_proc|
+        File.write(
+          env_dir("string_procs", "timeto", "#{room.id}_#{timeto_id}.rb"), 
+          string_proc.to_rb)
+      end
+  end
+
+  def self.main()
+    validate_argv
+    cleanup_dirs if Opts.clean
+    setup_dirs
+    import_rooms
+    import_string_procs
+  end
+end
+
+Import.main()

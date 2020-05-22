@@ -1,0 +1,1 @@
+echo '***************';echo 'Now we wait til the cab stops. Hang in there.';echo '***************';line = get until line =~ /A ledge comes into view and the cab grinds to a clunky halt/;put 'out'

@@ -1,0 +1,2 @@
+move 'climb up'
+waitrt?

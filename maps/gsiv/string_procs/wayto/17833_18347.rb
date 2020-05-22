@@ -1,0 +1,1 @@
+move 'go panel'
