@@ -2,7 +2,7 @@ class StringProc
   ALL_STRING_PROCS = {}
 
   def self.each(&block)
-    ALL_STRING_PROCS.each &block
+    ALL_STRING_PROCS.each(&block)
   end
 
   def self._load(ruby_string)
@@ -17,6 +17,10 @@ class StringProc
 
   def to_s()
     checksum
+  end
+
+  def to_json(*args)
+    {stringproc: checksum}.to_json(*args)
   end
 
   def to_rb()
