@@ -4,16 +4,28 @@ require "cgi"
 require "fileutils"
 require "digest/md5"
 require "benchmark"
+require "pathname"
 require_relative "../util/opts"
 require_relative "../util/color"
 require_relative "../util/log"
 require_relative "../shims/map"
-require_relative "../shims/stringproc"
+require_relative "../shims/string-proc"
 
 module Import
+  GAME = "gsiv"
+
   def self.validate_argv()
-    fail ArgumentError, "--data_dir= is required" unless Opts.data_dir.is_a?(String)
-    Opts[:game] = Opts.data_dir.split("/").pop.downcase
+    unless [Opts.data_dir, Opts.mapdb].any? {|argv| argv.is_a?(String)}
+      fail ArgumentError, "one of --data= or --mapdb= is required"
+    end
+  end
+
+  def self.mapdb_file()
+    if Opts.mapdb
+      Pathname.new(Opts.mapdb)
+    else
+      newest_mapdb()
+    end
   end
 
   def self.newest_mapdb()
@@ -27,12 +39,11 @@ module Import
   end
 
   def self.load_map()
-    @_map ||= Marshal.load(
-      File.read(newest_mapdb)).compact
+    @_map ||= Marshal.load(File.read(mapdb_file)).compact
   end
 
   def self.env_dir(*args)
-    File.join Dir.pwd, "maps/#{Opts.game}", *args
+    File.join Dir.pwd, "maps/#{GAME}", *args
   end
 
   def self.cleanup_dirs()
