@@ -1,3 +1,5 @@
+require "digest/md5"
+
 class StringProc
   ALL_STRING_PROCS = {}
 

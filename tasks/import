@@ -61,32 +61,25 @@ module Import
 
   def self.import_rooms()
     load_map.each do |room|
-      File.write(
-        env_dir("rooms", "#{room.id}.json"), 
-        JSON.pretty_generate(room))
+      json = JSON.pretty_generate(room)
+      room_file = env_dir("rooms", "#{room.id}.json")
+      File.write(room_file, json)
     end
   end
 
   def self.import_string_procs()
-    load_map
-      .select do |r| r.has_wayto_string_proc? or r.has_timeto_string_proc? end
-      .each do |r| string_proc_to_git(r) end
+    load_map.each do |r| 
+      string_proc_to_git(r, :wayto)  if r.has_wayto_string_proc?
+      string_proc_to_git(r, :timeto) if r.has_timeto_string_proc?
+    end
   end
 
-  def self.string_proc_to_git(room)
-    room.wayto
-      .select do |_, wayto| wayto.is_a?(StringProc) end
+  def self.string_proc_to_git(room, method)
+    room.send(method)
+      .select do |_, value| value.is_a?(StringProc) end
       .each do |wayto_id, string_proc|
         File.write(
-          env_dir("string_procs", "wayto", "#{room.id}_#{wayto_id}.rb"), 
-          string_proc.to_rb)
-      end
-
-    room.timeto
-      .select do |_, timeto| timeto.is_a?(StringProc) end
-      .each do |timeto_id, string_proc|
-        File.write(
-          env_dir("string_procs", "timeto", "#{room.id}_#{timeto_id}.rb"), 
+          env_dir("string_procs", method.to_s, "#{room.id}_#{wayto_id}.rb"), 
           string_proc.to_rb)
       end
   end
