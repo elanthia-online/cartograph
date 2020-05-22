@@ -70,19 +70,27 @@ module Repo
 		[ ssl_socket, socket ]
 	end
 
+	def self.bail()
+		Log.out("checksums match", label: :skipping_download)
+		exit
+	end
+
 	def self.download_mapdb()
-		fail "--out=" unless Opts.out.is_a?(String)
-		FileUtils.mkdir_p File.dirname(Opts.out)
+		fail "--dir= for mapdb & checksum is required" unless Opts.dir.is_a?(String)
+		FileUtils.mkdir_p File.dirname(Opts.dir)
+		mapdb_out_file = File.join(Opts.dir, "map.db")
+		checksum_out_file = File.join(Opts.dir, "checksum")
 		ssl_socket, _socket = Repo.dial()
 		ssl_socket.puth(DOWNLOAD_REQUEST)
 		response = ssl_socket.geth
-		Log.out(response["warning"]) if response['warning']
-		fail response["error"] if response["error"]    
-		response['size'] = response['size'].to_i
-		Log.out("downloading mapdb...")
+		Log.out(response, label: :headers)
+		Log.out(response["warning"], label: :warning) if response['warning']
+		fail response["error"] if response["error"]
+		bail() if response["md5sum"].eql?(Opts.md5sum)
 		inflated = Zlib::GzipReader.new(ssl_socket)
-		file = File.new(Opts.out, 'wb')
+		file = File.new(mapdb_out_file, 'wb')
 		file.write(inflated.read)
+		File.write(checksum_out_file, response["md5sum"])
 	end
 	
 	download_mapdb()
