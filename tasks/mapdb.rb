@@ -11,31 +11,11 @@ require_relative "../util/log"
 require_relative "../shims/map"
 require_relative "../shims/string-proc"
 
-module Import
+module MapDB
   GAME = "gsiv"
 
-  def self.validate_argv()
-    unless [Opts.data_dir, Opts.mapdb].any? {|argv| argv.is_a?(String)}
-      fail ArgumentError, "one of --data= or --mapdb= is required"
-    end
-  end
-
   def self.mapdb_file()
-    if Opts.mapdb
-      Pathname.new(Opts.mapdb)
-    else
-      newest_mapdb()
-    end
-  end
-
-  def self.newest_mapdb()
-    candidates = Dir.entries(Opts.data_dir)
-      .find_all { |filename| filename =~ /^map\-[0-9]+\.(?:dat|xml)$/ }
-      .sort
-      .reverse
-
-    fail "could not find a map database in #{Opts.data_dir}" if candidates.empty?
-    return File.join(Opts.data_dir, candidates.first)
+    File.join Dir.pwd, "tmp", "map.db"
   end
 
   def self.load_map()
@@ -84,10 +64,9 @@ module Import
       end
   end
 
-  def self.main()
+  def self.import_mapdb()
     runtime = Benchmark.realtime { 
-      validate_argv
-      cleanup_dirs if Opts.clean
+      cleanup_dirs
       setup_dirs
       import_rooms
       import_string_procs
@@ -96,5 +75,3 @@ module Import
     puts Color.blue "wrote #{load_map.size} rooms in #{runtime}s"
   end
 end
-
-Import.main()

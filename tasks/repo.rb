@@ -68,22 +68,25 @@ module Repo
 	end
 
 	def self.download_mapdb()
-		fail "--dir= for mapdb & checksum is required" unless Opts.dir.is_a?(String)
-		FileUtils.mkdir_p File.dirname(Opts.dir)
-		mapdb_out_file = File.join(Opts.dir, "map.db")
-		checksum_out_file = File.join(Opts.dir, "checksum")
+		download_dir = File.join(Dir.pwd, "tmp")
+		FileUtils.mkdir_p File.dirname(download_dir)
+		mapdb_out_file = File.join(download_dir, "map.db")
+		checksum_out_file = File.join(download_dir, "checksum")
 		ssl_socket, _socket = Repo.dial()
 		ssl_socket.puth(DOWNLOAD_REQUEST)
 		response = ssl_socket.geth
 		Log.out(response, label: :headers)
 		Log.out(response["warning"], label: :warning) if response['warning']
 		fail response["error"] if response["error"]
-		bail() if response["md5sum"].eql?(Opts.md5sum)
+		bail() if File.exists?("checksum") and response["md5sum"].eql? File.read("checksum")
 		inflated = Zlib::GzipReader.new(ssl_socket)
 		file = File.new(mapdb_out_file, 'wb')
 		file.write(inflated.read)
 		File.write(checksum_out_file, response["md5sum"])
 	end
-	
-	download_mapdb()
+
+	def self.lock_with_checksum()
+		FileUtils.cp(File.join(Dir.pwd, "tmp", "checksum"), Dir.pwd)
+		puts Color.green "locked with new checksum " + File.read(File.join(Dir.pwd, "checksum"))
+	end
 end
