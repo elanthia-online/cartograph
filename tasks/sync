@@ -2,6 +2,29 @@
 require_relative "./repo"
 require_relative "./mapdb"
 
+
 Repo.download_mapdb()
 MapDB.import_mapdb()
 Repo.lock_with_checksum()
+now = Time.now.utc.to_s
+
+changed_map_files = %x(git status --porcelain).strip.split("\n").map {|change| change.split(" ").last}.grep(%r[^maps/gsiv])
+changed_rooms        = changed_map_files.grep(%r[\.json$])
+changed_string_procs = changed_map_files.grep(%r[\.rb$])
+
+if changed_rooms.empty? && changed_string_procs.empty?
+  puts Color.yellow "no changes detected"
+  exit
+end
+
+unless changed_rooms.empty?
+  %x(git add #{changed_rooms.join(" ")})
+  %x(git commit -m "chore/rooms #{now}")
+  puts Color.green "commited #{changed_rooms.size} room changes"
+end
+
+unless changed_string_procs.empty?
+  %x(git add #{changed_string_procs.join(" ")})
+  %x(git commit -m "chore/string-procs #{now}")
+  puts Color.green "commited #{changed_rooms.size} room changes"
+end

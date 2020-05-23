@@ -63,7 +63,7 @@ module Repo
 	end
 
 	def self.bail()
-		Log.out("checksums match", label: :skipping_download)
+		puts "checksums match ... skipping download"
 		exit
 	end
 
@@ -75,8 +75,9 @@ module Repo
 		ssl_socket, _socket = Repo.dial()
 		ssl_socket.puth(DOWNLOAD_REQUEST)
 		response = ssl_socket.geth
-		Log.out(response, label: :headers)
-		Log.out(response["warning"], label: :warning) if response['warning']
+		puts "repo.request.headers:"
+		response.each do |header, value| puts "#{header.rjust(12)}=#{value}" end
+		puts response["warning"] if response['warning']
 		fail response["error"] if response["error"]
 		bail() if File.exists?("checksum") and response["md5sum"].eql? File.read("checksum")
 		inflated = Zlib::GzipReader.new(ssl_socket)
@@ -87,6 +88,6 @@ module Repo
 
 	def self.lock_with_checksum()
 		FileUtils.cp(File.join(Dir.pwd, "tmp", "checksum"), Dir.pwd)
-		puts Color.green "locked with new checksum " + File.read(File.join(Dir.pwd, "checksum"))
+		puts "locked with new checksum " + File.read(File.join(Dir.pwd, "checksum"))
 	end
 end

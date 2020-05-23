@@ -27,9 +27,9 @@ module MapDB
   end
 
   def self.cleanup_dirs()
-    puts Color.red "pruning #{env_dir("string_procs")}"
+    puts "pruning #{env_dir("string_procs")}"
     FileUtils.rm_rf env_dir("string_procs")
-    puts Color.red "pruning #{env_dir("rooms")}"
+    puts "pruning #{env_dir("rooms")}"
     FileUtils.rm_rf env_dir("rooms")
   end
 
@@ -72,6 +72,6 @@ module MapDB
       import_string_procs
     }
 
-    puts Color.blue "wrote #{load_map.size} rooms in #{runtime}s"
+    puts "mapdb synced in #{runtime}s"
   end
 end
