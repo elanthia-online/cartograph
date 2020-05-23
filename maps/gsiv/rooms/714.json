@@ -12,7 +12,7 @@
     217,
     566
   ],
-  "terrain": null,
+  "terrain": "hard, flat",
   "description": [
     "The high city wall is unbroken save for the small postern gate.  Atop the wall, the sapphire and silver pennants of House Illistim shimmer in the moonlight.  The thick ironwork gate is closely guarded by several of the city guard, each watching viligantly the comings and goings of citizenry and travellers.",
     "The high city wall is unbroken save for the small postern gate.  Atop the wall, the sapphire and silver pennants of House Illistim flutter in the breeze.  The thick ironwork gate is closely guarded by several of the city guard, each watching viligantly the comings and goings of citizenry and travellers.",
@@ -20,7 +20,7 @@
     "The high city wall is unbroken save for the postern gate, an arch of heavy blocks with a marble keystone and latticework portcullis.  Atop the wall, the sapphire and silver pennants of House Illistim flutter in the breeze.  The cobblestones around the passage are worn smooth and slick."
   ],
   "image": "en-ta_illistim-new.jpg",
-  "climate": null,
+  "climate": "temperate",
   "title": [
     "[Ta'Illistim, BriarStone Wey]",
     "[Ta'Illistim, Vaeshean Wey]"
@@ -33,7 +33,9 @@
   "id": 714,
   "location": "Ta'Illistim",
   "tags": [
-    "advguard"
+    "advguard",
+    "no forageables",
+    "meta:forage-sensed"
   ],
   "links": [
 

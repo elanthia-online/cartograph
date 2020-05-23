@@ -11,12 +11,12 @@
     671,
     1236
   ],
-  "terrain": null,
+  "terrain": "indoors",
   "description": [
     "You are inside a great temple urn.  You cannot imagine there could be so much room inside any single piece of crockery!  Dust raised by your arrival chokes you, and you shudder to realize that you may have just inhaled some long-departed temple acolyte.  Even though you feel protected in here, you don't want to linger for too long."
   ],
   "image": "wl-catacombs-1264234799.png",
-  "climate": null,
+  "climate": "indoors",
   "title": [
     "[Temple Crypt, Inside Urn]"
   ],
@@ -30,7 +30,9 @@
     "node",
     "meta:mapname:Wehnimer's Landing - Catacombs",
     "meta:mapshortname:Catacombs",
-    "meta:mapcategory:Wehnimer's Landing"
+    "meta:mapcategory:Wehnimer's Landing",
+    "no forageables",
+    "meta:forage-sensed"
   ],
   "links": [
 

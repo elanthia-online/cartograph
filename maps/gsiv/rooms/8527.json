@@ -11,12 +11,12 @@
     884,
     849
   ],
-  "terrain": null,
+  "terrain": "indoors",
   "description": [
     "You are in the main room of the cottage.  A stone fireplace crackles merrily on the south wall, casting a yellow-gold glow throughout the room.  All the furniture here is made of heavy wood and is simple and functional.  Scattered about the room are weapons, traps, bundles of animal skins and sacks of food.  Obviously this is the cottage of a trained woodsman."
   ],
   "image": "wl-trollfang-1264234799.png",
-  "climate": null,
+  "climate": "indoors",
   "title": [
     "[Inside Cottage]"
   ],
@@ -27,7 +27,9 @@
   "id": 8527,
   "location": "the Upper Trollfang",
   "tags": [
-    "forest troll"
+    "forest troll",
+    "no forageables",
+    "meta:forage-sensed"
   ],
   "links": [
 
