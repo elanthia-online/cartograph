@@ -13,7 +13,7 @@
     1638,
     828
   ],
-  "terrain": null,
+  "terrain": "hard, flat",
   "description": [
     "Quiet in the night air, the inner gateyard is home to only a few at this late hour.  The city guards converse amongst themselves, stopping occasionally to inspect the few travellers who journey into the city through the inner portcullis.  A lone wagon rests near one wall, apparently abandoned for the night by its owner.",
     "Filled with raucous noise, the inner gateyard teems with activity.  The city guards converse amongst themselves or stand warily by, watching the populace as they pour into and out of the inner portcullis.  Wagons and carts are lined up to one side of the gateyard, as a trio of guards inspect their contents before allowing their owners to proceed into the city proper.",
@@ -21,7 +21,7 @@
     "The inner gateyard is one in a series of circular chambers of silvery blue stone, its walls rising to a domed ceiling above.  The cobblestones are worn smooth, more so in the center of the chamber than around the walls.  A portcullis, raised upwards into a hidden compartment, reveals only its teeth."
   ],
   "image": "en-ta_illistim-new.jpg",
-  "climate": null,
+  "climate": "temperate",
   "title": [
     "[Ta'Illistim, City Gate]"
   ],
@@ -34,7 +34,9 @@
   "id": 37,
   "location": "Ta'Illistim",
   "tags": [
-    "advguard"
+    "advguard",
+    "no forageables",
+    "meta:forage-sensed"
   ],
   "links": [
 

@@ -12,7 +12,7 @@
     1579,
     759
   ],
-  "terrain": null,
+  "terrain": "hard, flat",
   "description": [
     "The buttressed stonework of the Sapphire Gate looms high above, casting shadows across the cobblestoned street beyond.  Rows of flaming torches line the wey as it wends southwesterly deeper into the city.  A few travellers and townsfolk scurry up and down the wey, each industriously about their business at this late hour.",
     "The buttressed stonework of the Sapphire Gate looms high above, casting shadows across the cobblestoned street beyond.  Carrying the smells and noise of the throngs along them in waves, the crowds push further into the city.",
@@ -20,7 +20,7 @@
     "The ogee arch of the Sapphire Gate looms high above, overlooking the cobblestoned street beyond.  In its shadow, the cobblestones are turned from silver into grey, though a few lanterns give off a dim blue glow, dispelling some of the pooled darkness."
   ],
   "image": "en-ta_illistim-new.jpg",
-  "climate": null,
+  "climate": "temperate",
   "title": [
     "[Ta'Illistim, Mzaarine Wey]"
   ],
@@ -32,7 +32,9 @@
   "id": 34,
   "location": "Ta'Illistim",
   "tags": [
-    "advpickup"
+    "advpickup",
+    "no forageables",
+    "meta:forage-sensed"
   ],
   "links": [
 
