@@ -87,7 +87,8 @@ module Repo
 	end
 
 	def self.lock_with_checksum()
-		FileUtils.cp(File.join(Dir.pwd, "tmp", "checksum"), Dir.pwd)
+		File.join(Dir.pwd, "tmp", "checksum")
+		FileUtils.cp(new_checksum, Dir.pwd)
 		puts "locked with new checksum " + File.read(File.join(Dir.pwd, "checksum"))
 	end
 end

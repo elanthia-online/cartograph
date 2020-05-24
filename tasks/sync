@@ -1,18 +1,23 @@
 #!/usr/bin/env ruby
 require_relative "./repo"
 require_relative "./mapdb"
+require_relative "./hmr"
 
 unless %x[git status --porcelain].strip.split("\n").empty?
-  fail "git status is dirty, please cleanup your working directory"
+  fail "git status is dirty, please cleanup your working directory" unless Opts.force
 end
 
-%x[git pull origin master] unless ENV["CI"]
+%x[git pull origin master] unless ENV["CI"] or Opts["no-git"]
 
 Repo.download_mapdb()
 MapDB.import_mapdb()
 Repo.lock_with_checksum()
 now = Time.now.utc.to_s
 checksum = File.read("checksum")
+hmr_cache = "tmp/#{checksum}.hmr"
+HMR.build(hmr_cache)
+
+exit if Opts["no-git"]
 
 changed_map_files = %x[git status --porcelain].strip.split("\n").map {|change| change.split(" ").last}.grep(%r[^maps/gsiv])
 changed_rooms        = changed_map_files.grep(%r[\.json$])
