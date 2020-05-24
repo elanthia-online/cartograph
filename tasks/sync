@@ -39,6 +39,5 @@ end
 
 %x[git add checksum]
 %x[git commit -m "chore(checksum): #{checksum}]
-%x[git tag md5.#{checksum}]
-%x[git push origin chore/#{checksum} --tags]
+%x[git push origin chore/#{checksum}]
 %x[git checkout master]
