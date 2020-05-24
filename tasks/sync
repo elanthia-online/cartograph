@@ -6,7 +6,7 @@ unless %x[git status --porcelain].strip.split("\n").empty?
   fail "git status is dirty, please cleanup your working directory"
 end
 
-%x[git pull origin master]
+%x[git pull origin master] unless ENV["CI"]
 
 Repo.download_mapdb()
 MapDB.import_mapdb()
