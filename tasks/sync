@@ -2,6 +2,12 @@
 require_relative "./repo"
 require_relative "./mapdb"
 
+unless %x[git status --porcelain].strip.split("\n").empty?
+  fail "git status is dirty, please cleanup your working directory"
+end
+
+%x[git pull origin master]
+
 Repo.download_mapdb()
 MapDB.import_mapdb()
 Repo.lock_with_checksum()
