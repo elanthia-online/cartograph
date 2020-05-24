@@ -2,7 +2,12 @@ language: ruby
 rvm:
 - 2.6
 before_install: gem update --system
-script: tasks/test
+script: 
+  - tasks/test
+before_deploy:
+  - tasks/sync
+  - export TRAVIS_TAG=${$(cat checksum)}
+  - git tag $TRAVIS_TAG
 deploy:
   provider: releases
   api_key:
