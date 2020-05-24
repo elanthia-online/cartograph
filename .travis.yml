@@ -5,10 +5,5 @@ rvm:
 before_install:
   gem update --system
 
-# deploy changes on master to lich repo
-deploy:
-  provider: script
-  script: tasks/sync
-  skip_cleanup: true
-  on:
-    branch: master
+script:
+  tasks/sync
