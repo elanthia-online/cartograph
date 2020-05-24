@@ -4,7 +4,7 @@ The current goals of this proejct are as follows:
 
 - [X] create a git history for the MapDB
 - [X] ability to import directly from the `;repository`
-- [ ] untangle `StringProc` from the node (Room) definitions
+- [X] untangle `StringProc` from the node (Room) definitions
 - [ ] provide tools for working directly with the mapDB
 - [ ] some sort of bot that pulls and merges changes from the MapDB (this is difficult)
 - [ ] create a `;go2` utility that uses the tarball from this repository

@@ -2,7 +2,6 @@
 require_relative "./repo"
 require_relative "./mapdb"
 
-
 Repo.download_mapdb()
 MapDB.import_mapdb()
 Repo.lock_with_checksum()
