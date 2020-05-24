@@ -8,7 +8,7 @@ Repo.lock_with_checksum()
 now = Time.now.utc.to_s
 checksum = File.read("checksum")
 
-changed_map_files = %x(git status --porcelain).strip.split("\n").map {|change| change.split(" ").last}.grep(%r[^maps/gsiv])
+changed_map_files = %x[git status --porcelain].strip.split("\n").map {|change| change.split(" ").last}.grep(%r[^maps/gsiv])
 changed_rooms        = changed_map_files.grep(%r[\.json$])
 changed_string_procs = changed_map_files.grep(%r[\.rb$])
 
@@ -17,20 +17,22 @@ if changed_rooms.empty? && changed_string_procs.empty?
   exit
 end
 
-%x(git checkout -b chore/#{checksum})
+%x[git checkout -b chore/#{checksum}]
 
 unless changed_rooms.empty?
-  %x(git add #{changed_rooms.join(" ")})
-  %x(git commit -m "chore/rooms #{now}")
+  %x[git add #{changed_rooms.join(" ")}]
+  %x[git commit -m "chore(rooms): #{now}")]
   puts Color.green "commited #{changed_rooms.size} room changes"
 end
 
 unless changed_string_procs.empty?
-  %x(git add #{changed_string_procs.join(" ")})
-  %x(git commit -m "chore/string-procs #{now}")
+  %x[git add #{changed_string_procs.join(" ")}]
+  %x[git commit -m "chore(string-procs): #{now}"]
   puts Color.green "commited #{changed_rooms.size} room changes"
 end
 
-%x(git tag md5.#{checksum})
-%x(git push origin chore/#{checksum})
-%x(git checkout master)
+%x[git add checksum]
+%x[git commit -m "chore(checksum): #{checksum}]
+%x[git tag md5.#{checksum}]
+%x[git push origin chore/#{checksum} --tags]
+%x[git checkout master]
