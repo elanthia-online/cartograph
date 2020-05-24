@@ -32,5 +32,6 @@ unless changed_string_procs.empty?
   puts Color.green "commited #{changed_rooms.size} room changes"
 end
 
+%x(git tag md5.#{checksum})
 %x(git push origin chore/#{checksum})
 %x(git checkout master)
