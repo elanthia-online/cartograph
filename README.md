@@ -1,4 +1,4 @@
-# cartograph
+# cartograph [![Build Status](https://travis-ci.org/elanthia-online/cartograph.svg?branch=master)](https://travis-ci.org/elanthia-online/cartograph)
 
 The current goals of this proejct are as follows:
 
