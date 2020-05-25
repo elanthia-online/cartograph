@@ -23,14 +23,21 @@ module HMR
   def self.load_string_proc(kind, from, to)
     from = from.to_i
     to   = to.to_i
-    file = File.join("maps", "gsiv", "string_procs", kind.to_s, "#{from}_#{to}.rb")
     @string_procs[kind.to_sym] ||= {}
     @string_procs[kind.to_sym][from] ||= {}
-    @string_procs[kind.to_sym][from][to] = StringProc.new(%(eval File.read "#{file}"))
+
+    path = File.read File.join("maps", "gsiv", "string_procs", 
+      "#{kind.to_s}", "#{from}_#{to}.rb")
+
+    @string_procs[kind.to_sym][from][to] = <<~Script
+      eval File.read File.join($data_dir, "current", #{path})
+    Script
     return @string_procs[kind.to_sym][from][to]
   end
 
   def self.build(checksum, file)
+    @checksum = checksum
+
     runtime = Benchmark.realtime {
       HMR.load_rooms()
 
