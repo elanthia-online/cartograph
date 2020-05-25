@@ -12,12 +12,12 @@
     667,
     671
   ],
-  "terrain": null,
+  "terrain": "indoors",
   "description": [
     "The walls of this small shop appear to be covered with the furs and skins of all types of creatures.  Closer inspection reveals that many are still being prepared for use, although an occasional impeccably finished specimen is found.  Hunt souvenirs rest on a set of shelves tucked in one corner, where a cluster of roughly clad traders have gathered to examine them closely."
   ],
   "image": "rr-rivers_rest-1266350289.png",
-  "climate": null,
+  "climate": "indoors",
   "title": [
     "[Felinium's Fur Emporium]"
   ],
@@ -29,7 +29,9 @@
   "id": 10934,
   "location": "the town of River's Rest",
   "tags": [
-    "furrier"
+    "furrier",
+    "no forageables",
+    "meta:forage-sensed"
   ],
   "links": [
 
