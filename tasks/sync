@@ -17,7 +17,7 @@ checksum = File.read("checksum")
 hmr_cache = "tmp/#{checksum}.hmr"
 HMR.build(hmr_cache)
 
-exit if Opts["no-git"]
+exit if Opts["no-git"] or Opts["no-commit"]
 
 changed_map_files = %x[git status --porcelain].strip.split("\n").map {|change| change.split(" ").last}.grep(%r[^maps/gsiv])
 changed_rooms        = changed_map_files.grep(%r[\.json$])
