@@ -29,7 +29,7 @@ end
 
 unless changed_rooms.empty?
   %x[git add #{changed_rooms.join(" ")}]
-  %x[git commit -m "chore(rooms): #{now}")]
+  %x[git commit -m "chore(rooms): #{now}"]
   puts Color.green "commited #{changed_rooms.size} room changes"
 end
 
@@ -40,7 +40,7 @@ unless changed_string_procs.empty?
 end
 
 %x[git add checksum]
-%x[git commit -m "chore(checksum): #{checksum}]
-%x[git tag md5.#{checksum}]
+%x[git commit -m "chore(checksum): #{checksum}"]
+%x[git tag map.gsiv.#{checksum}]
 %x[git push origin chore/#{checksum} --tags]
 %x[git checkout master]
