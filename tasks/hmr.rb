@@ -29,14 +29,13 @@ module HMR
     return @string_procs[kind.to_sym][from][to]
   end
 
-  def self.build(file)
+  def self.build(checksum, file)
     HMR.load_rooms()
 
-    File.write(
-      file,
+    File.write(file,
       Marshal.dump({
         rooms: @rooms,
-        checksum: File.read("./checksum"),
+        checksum: checksum,
         string_procs: @string_procs}))
   end
 end

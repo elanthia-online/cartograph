@@ -15,7 +15,7 @@ Repo.lock_with_checksum()
 now = Time.now.utc.to_s
 checksum = File.read("checksum")
 hmr_cache = "tmp/#{checksum}.hmr"
-HMR.build(hmr_cache)
+HMR.build(checksum, hmr_cache)
 
 exit if Opts["no-git"] or Opts["no-commit"]
 
