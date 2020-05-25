@@ -1,6 +1,7 @@
 require "json"
-require_relative "../shims/string-proc"
-require_relative "../util/log"
+require "benchmark"
+require_relative "../../shims/string-proc"
+require_relative "../../util/log"
 
 module HMR
   @rooms = {}
@@ -30,12 +31,16 @@ module HMR
   end
 
   def self.build(checksum, file)
-    HMR.load_rooms()
+    runtime = Benchmark.realtime {
+      HMR.load_rooms()
 
-    File.write(file,
-      Marshal.dump({
-        rooms: @rooms,
-        checksum: checksum,
-        string_procs: @string_procs}))
+      File.write(file,
+        Marshal.dump({
+          rooms: @rooms,
+          checksum: checksum,
+          string_procs: @string_procs}))
+    }
+
+    Log.out(Color.green("built map hmr for checksum=#{checksum} in #{runtime.round(3)}s"), label: :hmr)
   end
 end

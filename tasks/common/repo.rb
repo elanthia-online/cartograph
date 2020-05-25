@@ -3,9 +3,9 @@ require "socket"
 require "openssl"
 require "zlib"
 require "fileutils"
-require_relative "../util/opts"
-require_relative "../util/color"
-require_relative "../util/log"
+require_relative "../../util/opts"
+require_relative "../../util/color"
+require_relative "../../util/log"
 
 module Repo
 	VERSION  = "2.32"
