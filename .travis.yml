@@ -17,4 +17,7 @@ deploy:
   on:
     repo: elanthia-online/cartograph
     tags: true
+    branches:
+      only:
+        - master
   skip_cleanup: true
