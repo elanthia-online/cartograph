@@ -11,10 +11,10 @@ class StringProc
     new(ruby_string)
   end
 
-  attr :contents
-  def initialize(contents)
-    @contents = contents
-    ALL_STRING_PROCS[checksum] = @contents
+  attr :string
+  def initialize(string)
+    @string = string
+    ALL_STRING_PROCS[checksum] = @string
   end
 
   def to_s()
@@ -26,10 +26,10 @@ class StringProc
   end
 
   def to_rb()
-    @contents
+    @string
   end
 
   def checksum()
-    Digest::MD5.hexdigest @contents
+    Digest::MD5.hexdigest @string
   end
 end

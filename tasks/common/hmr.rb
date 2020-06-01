@@ -26,12 +26,11 @@ module HMR
     @string_procs[kind.to_sym] ||= {}
     @string_procs[kind.to_sym][from] ||= {}
 
-    path = File.read File.join("maps", "gsiv", "string_procs", 
+    path = File.join("maps", "gsiv", "string_procs", 
       "#{kind.to_s}", "#{from}_#{to}.rb")
 
-    @string_procs[kind.to_sym][from][to] = <<~Script
-      eval File.read File.join($data_dir, "current", #{path})
-    Script
+    @string_procs[kind.to_sym][from][to] = StringProc.new(
+      %[eval File.read File.join($data_dir, "_cartograph", "current", "#{path}")])
     return @string_procs[kind.to_sym][from][to]
   end
 
