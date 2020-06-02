@@ -12,12 +12,12 @@
     817,
     655
   ],
-  "terrain": null,
+  "terrain": "indoors",
   "description": [
     "The earthen walls of the cellar are deeply gouged by claw marks.  Dirt and dust rise as you move through the room, obscuring your vision and clogging your nose and throat."
   ],
   "image": "imt-south_gate-1264234799.png",
-  "climate": null,
+  "climate": "indoors",
   "title": [
     "[Abandoned Farm, Cellar]"
   ],
@@ -29,7 +29,9 @@
   "id": 3102,
   "location": "the Abandoned Farm",
   "tags": [
-    "zombie"
+    "zombie",
+    "no forageables",
+    "meta:forage-sensed"
   ],
   "links": [
 

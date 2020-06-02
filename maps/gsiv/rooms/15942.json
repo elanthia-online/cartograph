@@ -12,12 +12,12 @@
     845,
     493
   ],
-  "terrain": null,
+  "terrain": "indoors",
   "description": [
     "The slate-tiled floor is weathered and cracked with age, but still in good repair.  Cobwebs covered with dust reach across the ceiling, but there doesn't seem to be any sign of their arachnid owners."
   ],
   "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": null,
+  "climate": "indoors",
   "title": [
     "[Abbey, Ossuary]"
   ],
@@ -29,7 +29,9 @@
   "id": 15942,
   "location": "the Abbey",
   "tags": [
-    "arch wight"
+    "arch wight",
+    "no forageables",
+    "meta:forage-sensed"
   ],
   "links": [
 

@@ -12,12 +12,12 @@
     263,
     1002
   ],
-  "terrain": null,
+  "terrain": "indoors",
   "description": [
     "Littered about the main room of the rickety cottage are cots made of stone.  They look very functional but also very hard and uncomfortable.  Several wounded people lie on them, being tended to by Mirtag, the local healer."
   ],
   "image": "imt-icemule-1474811966.png",
-  "climate": null,
+  "climate": "indoors",
   "title": [
     "[Cottage, Living Room]"
   ],
@@ -29,7 +29,9 @@
   "id": 2406,
   "location": "Icemule Trace",
   "tags": [
-    "npchealer"
+    "npchealer",
+    "no forageables",
+    "meta:forage-sensed"
   ],
   "links": [
 

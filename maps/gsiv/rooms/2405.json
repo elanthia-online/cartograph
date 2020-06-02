@@ -12,12 +12,12 @@
     263,
     1001
   ],
-  "terrain": null,
+  "terrain": "indoors",
   "description": [
     "The back room is cluttered with bits of dried animal hanging on strings from the ceiling, jars full of oddly colored liquids and foul smells that cling to the walls and your clothes like the cloying grip of a banshee.  Sitting amidst the clutter you see a decrepit wreck of a man, his stringy hair jutting at odd angles away from his head, his clothes mere rags that hang limply on his cadaverous frame."
   ],
   "image": "imt-icemule-1474811966.png",
-  "climate": null,
+  "climate": "indoors",
   "title": [
     "[Cottage, Back Room]"
   ],
@@ -28,7 +28,9 @@
   "id": 2405,
   "location": "Icemule Trace",
   "tags": [
-    "npccleric"
+    "npccleric",
+    "no forageables",
+    "meta:forage-sensed"
   ],
   "links": [
 

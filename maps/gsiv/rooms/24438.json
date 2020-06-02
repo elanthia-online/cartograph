@@ -13,12 +13,12 @@
     170,
     408
   ],
-  "terrain": null,
+  "terrain": "indoors",
   "description": [
     "Colorful, glass-paned lanterns strung overhead illuminate the natural stone walls and painted cobblestones.  Wooden tables surrounded by mismatched chairs take up most of the space, except for a large stove and supply bin in one corner with a pair of high-backed rocking chairs arranged in front.  Water trickles down the far wall, pooling into a shallow, carved basin."
   ],
   "image": "imt-icemule-1474811966.png",
-  "climate": null,
+  "climate": "indoors",
   "title": [
     "[The Patio]"
   ],
@@ -31,7 +31,9 @@
   "id": 24438,
   "location": "Icemule Trace",
   "tags": [
-    "node"
+    "node",
+    "no forageables",
+    "meta:forage-sensed"
   ],
   "unique_loot": null,
   "links": [

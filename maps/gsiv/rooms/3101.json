@@ -12,12 +12,12 @@
     789,
     683
   ],
-  "terrain": null,
+  "terrain": "indoors",
   "description": [
     "The narrow windows near the ceiling of the cellar are translucent with grime.  Jagged pieces of blue and green glass litter the ground and crunch under your feet."
   ],
   "image": "imt-south_gate-1264234799.png",
-  "climate": null,
+  "climate": "indoors",
   "title": [
     "[Abandoned Farm, Cellar]"
   ],
@@ -29,7 +29,9 @@
   "id": 3101,
   "location": "the Abandoned Farm",
   "tags": [
-    "zombie"
+    "zombie",
+    "no forageables",
+    "meta:forage-sensed"
   ],
   "links": [
 
