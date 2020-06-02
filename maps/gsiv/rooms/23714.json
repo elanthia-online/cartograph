@@ -12,12 +12,12 @@
     682,
     497
   ],
-  "terrain": null,
+  "terrain": "indoors",
   "description": [
     "The lower half of the stall is made of crumbling stone.  Rust marks are all that is left of the iron gate that shut one stall from the next.  Molding hay lines the manger and fills the air with the scent of decay."
   ],
   "image": "imt-south_gate-1264234799.png",
-  "climate": null,
+  "climate": "indoors",
   "title": [
     "[Abandoned Barn, Stall]"
   ],
@@ -29,7 +29,9 @@
   "id": 23714,
   "location": "the Abandoned Farm",
   "tags": [
-    "wraith"
+    "wraith",
+    "no forageables",
+    "meta:forage-sensed"
   ],
   "unique_loot": null,
   "links": [

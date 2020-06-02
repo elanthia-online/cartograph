@@ -14,12 +14,12 @@
     204,
     375
   ],
-  "terrain": null,
+  "terrain": "indoors",
   "description": [
     "Cobblestones spiral outwards from a dark faceless statue in the center of the nexus.  Veins of assorted natural minerals glitter beneath the cavernous burrow's artificial glow.  Carved twice the height as the rest of the burrow, the ceiling is decorated with several suspended ice sculptures.  A carved ice bench sits facing the statue, with a rhimar-bound barrel next to it."
   ],
   "image": "imt-icemule-1474811966.png",
-  "climate": null,
+  "climate": "indoors",
   "title": [
     "[Ancient Burrow, Nexus]"
   ],
@@ -34,7 +34,9 @@
   "location": "Icemule Trace",
   "tags": [
     "node",
-    "supernode"
+    "supernode",
+    "no forageables",
+    "meta:forage-sensed"
   ],
   "unique_loot": null,
   "links": [
