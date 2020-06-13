@@ -12,12 +12,12 @@
     728,
     530
   ],
-  "terrain": null,
+  "terrain": "indoors",
   "description": [
     "You find yourself teetering precariously on the lip of a deep shaft.  The faint whisper of a freezing wind makes you shiver slightly.  There are rough handholds dug into the walls that you can get to if you lean way out over the unseen depths.  The shaft goes down a long ways, to judge from the length of time you can hear echoes from a small pebble that you knocked into the darkness below.  Above you is a warped wooden grating."
   ],
   "image": "wl-graveyard-1264234799.png",
-  "climate": null,
+  "climate": "indoors",
   "title": [
     "[Under Barrow, Shaft]"
   ],
@@ -29,7 +29,9 @@
   "id": 7237,
   "location": "the Graveyard",
   "tags": [
-    "arch weight"
+    "arch weight",
+    "no forageables",
+    "meta:forage-sensed"
   ],
   "links": [
 

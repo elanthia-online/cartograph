@@ -14,12 +14,12 @@
     1398,
     704
   ],
-  "terrain": null,
+  "terrain": "indoors",
   "description": [
     "You are perched on the ledge of a dangerously steep crevice which juts out from the wall hanging over a dark abyss.  The odd mists within it glow with an ethereal light as they lash about in their chaotic dance.  From above, the sound of thundering hooves reverberate throughout the chasm, seemingly vanishing into the bottomless pit below."
   ],
   "image": "wl-graveyard-1264234799.png",
-  "climate": null,
+  "climate": "indoors",
   "title": [
     "[A Dark Crevice]"
   ],
@@ -31,7 +31,9 @@
   "id": 7331,
   "location": "the Shadow Valley",
   "tags": [
-    "node"
+    "node",
+    "no forageables",
+    "meta:forage-sensed"
   ],
   "links": [
 
