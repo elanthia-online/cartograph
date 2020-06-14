@@ -11,12 +11,12 @@
     551,
     959
   ],
-  "terrain": null,
+  "terrain": "indoors",
   "description": [
     "This room holds niches and chests filled with dusty tomes, yellowing scrolls and brittle manuscripts.  The scrolls are fastened with sealing wax and silk ribbons, while the volumes are bound in rare leathers.  Although fragile from the passage of time, the dry atmosphere of the tomb has preserved them.  The documents arouse your interest but the fear that they may contain evil spells and dangerous knowledge prompts you to leave them be."
   ],
   "image": "wl-graveyard-1264234799.png",
-  "climate": null,
+  "climate": "indoors",
   "title": [
     "[Graveyard, Crypt]"
   ],
@@ -27,7 +27,8 @@
   "id": 4345,
   "location": "the Graveyard",
   "tags": [
-
+    "no forageables",
+    "meta:forage-sensed"
   ],
   "links": [
 
