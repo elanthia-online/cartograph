@@ -12,12 +12,12 @@
     593,
     785
   ],
-  "terrain": null,
+  "terrain": "indoors",
   "description": [
     "Blood-splattered beams line blood-splattered walls and cross a relatively unmarred ceiling in this small healing room.  A few uncomfortable stone slabs occupy places near the walls, and the granite's light grey color in the corners indicates that the floor was not intended to be reddish brown.  A pile of dirty rags nestles in a far corner, and a stone arch provides an exit from the room.  The scent of drying blood and medicinal preparations hangs heavy in the air."
   ],
   "image": "en-zul_logoth-1264234799.png",
-  "climate": null,
+  "climate": "indoors",
   "title": [
     "[Sister Cocytel's Hospice]"
   ],
@@ -30,7 +30,9 @@
   "location": "Zul Logoth",
   "tags": [
     "npchealer",
-    "npccleric"
+    "npccleric",
+    "no forageables",
+    "meta:forage-sensed"
   ],
   "links": [
 
