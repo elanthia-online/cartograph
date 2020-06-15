@@ -1,0 +1,1 @@
+if UserVars.mapdb_fwi_return_room == 2300; 20.0;else;nil;end;
