@@ -14,12 +14,12 @@
     287,
     497
   ],
-  "terrain": null,
+  "terrain": "indoors",
   "description": [
     "Several small torches are mounted upon the walls of this large cavern, casting a dim light across the faces of the occupants.  Half a dozen dwarves scurry about, directing passengers aboard a series of mining carts that barely stop long enough to allow entrance."
   ],
   "image": "en-zul_logoth-1264234799.png",
-  "climate": null,
+  "climate": "indoors",
   "title": [
     "[Kharag 'doth Dzulthu, Tunnels]"
   ],
@@ -31,7 +31,9 @@
   "id": 1266,
   "location": "Kharag 'doth Dzulthu",
   "tags": [
-    "silver-cost:1267:1000"
+    "silver-cost:1267:1000",
+    "no forageables",
+    "meta:forage-sensed"
   ],
   "links": [
 

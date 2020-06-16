@@ -11,12 +11,12 @@
     1205,
     981
   ],
-  "terrain": null,
+  "terrain": "indoors",
   "description": [
     "The pungent scent of curing chemicals assails your nostrils.  The walls are covered with hides from many sorts of animals, some very recognizable, some totally foreign.  Bear hide rugs cover the floor underfoot from wall to wall, the protruding heads with open mouths creating trip hazards in several places.  An unusually lean dwarf moves around toward the back of the room, sorting furs, hides and pelts into piles and muttering to himself."
   ],
   "image": "en-zul_logoth-1264234799.png",
-  "climate": null,
+  "climate": "indoors",
   "title": [
     "[Furrier]"
   ],
@@ -27,7 +27,9 @@
   "id": 9654,
   "location": "Zhindel's Post",
   "tags": [
-    "furrier"
+    "furrier",
+    "no forageables",
+    "meta:forage-sensed"
   ],
   "links": [
 
