@@ -12,12 +12,12 @@
     593,
     112
   ],
-  "terrain": null,
+  "terrain": "indoors",
   "description": [
     "The tunnel ends abruptly at a jagged wall that rises up to a stone ceiling.  Cobwebs shimmer from the light of a nearby torch, which also dimly illuminates a stained steel ladder leading up."
   ],
   "image": "wl-burrow_way-1360361110.png",
-  "climate": null,
+  "climate": "indoors",
   "title": [
     "[Wehnimer's, Burrow Way]"
   ],
@@ -29,7 +29,9 @@
   "id": 23337,
   "location": "the town of Wehnimer's Landing",
   "tags": [
-    "meta:noteleport:fwi"
+    "meta:noteleport:fwi",
+    "no forageables",
+    "meta:forage-sensed"
   ],
   "unique_loot": null,
   "links": [
