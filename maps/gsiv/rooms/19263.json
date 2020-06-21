@@ -13,12 +13,12 @@
     929,
     258
   ],
-  "terrain": null,
+  "terrain": "indoors",
   "description": [
     "A plain stone passageway has been cleanly carved from the solid rock, and leads to the east and west.  The featureless stone is grey, and the surface is abrasive."
   ],
   "image": "wl-broken-1264234799.png",
-  "climate": null,
+  "climate": "indoors",
   "title": [
     "[Dark Shrine, Wide Passageway]"
   ],
@@ -31,7 +31,9 @@
   "id": 19263,
   "location": "the Broken Lands",
   "tags": [
-    "lesser vruul"
+    "lesser vruul",
+    "no forageables",
+    "meta:forage-sensed"
   ],
   "unique_loot": [
     "small stone arch"
