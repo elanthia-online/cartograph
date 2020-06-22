@@ -16,12 +16,12 @@
     1012,
     552
   ],
-  "terrain": null,
+  "terrain": "indoors",
   "description": [
     "Huge steps have been carved into the stone wall of the cavern forming a stairway of gigantic proportions.  No creature that you have ever seen has had the size or length of leg to negotiate stairs of this size.  Details of the cavern floor far below are lost in the shadowy distance."
   ],
   "image": "wl-broken-1264234799.png",
-  "climate": null,
+  "climate": "indoors",
   "title": [
     "[Dark Grotto, Long Stairway]"
   ],
@@ -37,7 +37,9 @@
   "id": 24560,
   "location": "the Broken Lands",
   "tags": [
-    "peer up =~ /^Obvious exits: up, down/"
+    "peer up =~ /^Obvious exits: up, down/",
+    "no forageables",
+    "meta:forage-sensed"
   ],
   "unique_loot": null
 }

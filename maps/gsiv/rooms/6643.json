@@ -16,12 +16,12 @@
     203,
     1137
   ],
-  "terrain": null,
+  "terrain": "indoors",
   "description": [
     "This room appears to be used as living quarters for those who reside in this stronghold.  A row of six bunks lines each of the walls and a row of a dozen cabinets stands opposite the doorway.  A large table stands in the center of the room with a half dozen chairs scattered around it.  Mounted onto the ceiling is a large cast iron chandelier with dozens of small, lit candles dropping wax down onto the top of the table."
   ],
   "image": "wl-broken-1264234799.png",
-  "climate": null,
+  "climate": "indoors",
   "title": [
     "[Monastery, Living Quarters]"
   ],
@@ -33,7 +33,9 @@
   "id": 6643,
   "location": "the Broken Lands",
   "tags": [
-    "no-auto-map"
+    "no-auto-map",
+    "no forageables",
+    "meta:forage-sensed"
   ],
   "links": [
 
