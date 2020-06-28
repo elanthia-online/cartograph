@@ -1,33 +1,30 @@
 {
+  "id": 7192,
+  "title": [
+    "[Graveyard]"
+  ],
+  "description": [
+    "The path girds the northern perimeter of the mound far enough away from it to grant a full view of the slopes.  The closecropped surface vegetation might offer handholds for scaling to the top to the adventurer who travels light.  To the north, the plateau continues off beyond the horizon, a trackless, windswept mesa of tall grass and thick sod that presents a hostile and formidable obstacle."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7191": "southwest",
     "7193": "east"
   },
-  "paths": [
-    "Obvious paths: east, southwest"
-  ],
+  "timeto": {
+    "7191": 0.2,
+    "7193": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     342,
     375,
     352,
     385
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "The path girds the northern perimeter of the mound far enough away from it to grant a full view of the slopes.  The closecropped surface vegetation might offer handholds for scaling to the top to the adventurer who travels light.  To the north, the plateau continues off beyond the horizon, a trackless, windswept mesa of tall grass and thick sod that presents a hostile and formidable obstacle."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Graveyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7191": 0.2,
-    "7193": 0.2
-  },
-  "id": 7192,
-  "location": "the Graveyard",
   "tags": [
     "sprig of larkspur",
     "some wingstem root",
@@ -43,11 +40,6 @@
     "wild chokecherry",
     "blue whortleberry",
     "ironfern root",
-    "wingstem root",
-    "some cothinar flower",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

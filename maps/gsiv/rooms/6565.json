@@ -1,35 +1,32 @@
 {
+  "id": 6565,
+  "title": [
+    "[Kitchen Garden]"
+  ],
+  "description": [
+    "A sprawling bramble of red-berried nettle bushes has spread itself over much of the old kitchen garden.  A few resolute herbs still hold their own -- mint, chervil and a ragged patch of lavender next to the kitchen door.  A low wall divides the garden from a bower beyond, where fruit trees survive.  The wall is richly carved, its vine scrolls inset with hollow-eyed masks, a popular motif during the castle's heyday.  An arched corridor offers passage through the towering wall enclosing this inviting area."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Castle Anwyn",
   "wayto": {
     "6564": "go corridor",
     "6566": "north",
     "6567": "go door"
   },
-  "paths": [
-    "Obvious paths: north"
-  ],
+  "timeto": {
+    "6564": 0.2,
+    "6566": 0.2,
+    "6567": 0.2
+  },
+  "image": "wl-lysierian-1264234799.png",
   "image_coords": [
     1390,
     542,
     1400,
     552
   ],
-  "terrain": "cultivated",
-  "description": [
-    "A sprawling bramble of red-berried nettle bushes has spread itself over much of the old kitchen garden.  A few resolute herbs still hold their own -- mint, chervil and a ragged patch of lavender next to the kitchen door.  A low wall divides the garden from a bower beyond, where fruit trees survive.  The wall is richly carved, its vine scrolls inset with hollow-eyed masks, a popular motif during the castle's heyday.  An arched corridor offers passage through the towering wall enclosing this inviting area."
-  ],
-  "image": "wl-lysierian-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Kitchen Garden]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6564": 0.2,
-    "6566": 0.2,
-    "6567": 0.2
-  },
-  "id": 6565,
-  "location": "Castle Anwyn",
   "tags": [
     "withered black mushroom",
     "some pennyroyal stem",
@@ -41,16 +38,6 @@
     "sassafras leaf",
     "soft white mushroom",
     "some angelica root",
-    "white hook mushroom",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "yew twig",
-    "luckbloom blossom",
-    "wavepetal blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "white hook mushroom"
   ]
 }

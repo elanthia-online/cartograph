@@ -1,36 +1,33 @@
 {
-  "wayto": {
-    "970": {
-      "stringproc": "48967b1b1c7b417e4aeb30516d0634c7"
-    },
-    "972": "up"
-  },
+  "id": 971,
+  "title": [
+    "[Zhindel's Plateau, Trail]"
+  ],
+  "description": [
+    "Narrow streams of melting snow trickle down the hillside, coalescing into small pools around the rough trail.  A high cliff face rises from the rocky earth, its countenance impeding further progress into the valley below.  Near the center of the massive wall of rock, a jagged fissure scars the stony surface, revealing a narrow passage.",
+    "Narrow streams of melting snow trickle down the hillside, coalescing into small shimmering pools around the rough trail.  A high cliff face rises from the rocky earth, its countenance impeding further progress into the valley below.  Near the center of the massive wall of rock, a jagged fissure scars the stony surface, revealing a narrow passage enveloped in shadow."
+  ],
   "paths": [
     "Obvious paths: up"
   ],
+  "location": "Whistler's Pass",
+  "wayto": {
+    "970": {
+      "file": "string_procs/wayto/971_970.rb"
+    },
+    "972": "up"
+  },
+  "timeto": {
+    "970": 0.2,
+    "972": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     1395,
     997,
     1405,
     1007
   ],
-  "terrain": "mountainous",
-  "description": [
-    "Narrow streams of melting snow trickle down the hillside, coalescing into small pools around the rough trail.  A high cliff face rises from the rocky earth, its countenance impeding further progress into the valley below.  Near the center of the massive wall of rock, a jagged fissure scars the stony surface, revealing a narrow passage.",
-    "Narrow streams of melting snow trickle down the hillside, coalescing into small shimmering pools around the rough trail.  A high cliff face rises from the rocky earth, its countenance impeding further progress into the valley below.  Near the center of the massive wall of rock, a jagged fissure scars the stony surface, revealing a narrow passage enveloped in shadow."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Zhindel's Plateau, Trail]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "970": 0.2,
-    "972": 0.2
-  },
-  "id": 971,
-  "location": "Whistler's Pass",
   "tags": [
     "marallis berry",
     "cuctucae berry",
@@ -45,11 +42,6 @@
     "cluster of butterflyweed",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "sunburst blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

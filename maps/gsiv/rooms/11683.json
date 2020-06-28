@@ -1,34 +1,31 @@
 {
+  "id": 11683,
+  "title": [
+    "[Millah's Fens, Foggy Path]"
+  ],
+  "description": [
+    "Thick, impenetrable fog looms over a pathway leading to the west.  In the oppsite direction, the surrounding mist appears to be less dense and is filled with the silhouettes of thousands of tall reeds.  Birds call back and forth to each other from above and to either side, their songs muted by the damp whiteness that plagues the fens.  The sun's light, reduced to a weak presence, filters through a low ceiling of grey.",
+    "Thick, impenetrable fog looms over a pathway leading to the west.  In the oppsite direction, the surrounding mist appears to be less dense and is filled with the silhouettes of thousands of tall reeds.  Birds call back and forth to each other from above and to either side, their songs muted by the damp whiteness that plagues the fens.  Moonlight, reduced to a weak presence, adds an eerie spectral illumination to the marshy area."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Marsh Keep",
   "wayto": {
     "11682": "west",
     "11684": "east"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "11682": 0.2,
+    "11684": 0.2
+  },
+  "image": "rr-marsh_keep-1266356986.png",
   "image_coords": [
     169,
     1162,
     179,
     1172
   ],
-  "terrain": "muddy wetlands",
-  "description": [
-    "Thick, impenetrable fog looms over a pathway leading to the west.  In the oppsite direction, the surrounding mist appears to be less dense and is filled with the silhouettes of thousands of tall reeds.  Birds call back and forth to each other from above and to either side, their songs muted by the damp whiteness that plagues the fens.  The sun's light, reduced to a weak presence, filters through a low ceiling of grey.",
-    "Thick, impenetrable fog looms over a pathway leading to the west.  In the oppsite direction, the surrounding mist appears to be less dense and is filled with the silhouettes of thousands of tall reeds.  Birds call back and forth to each other from above and to either side, their songs muted by the damp whiteness that plagues the fens.  Moonlight, reduced to a weak presence, adds an eerie spectral illumination to the marshy area."
-  ],
-  "image": "rr-marsh_keep-1266356986.png",
-  "climate": "moist",
-  "title": [
-    "[Millah's Fens, Foggy Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11682": 0.2,
-    "11684": 0.2
-  },
-  "id": 11683,
-  "location": "the Marsh Keep",
   "tags": [
     "purple passionflower",
     "blue trafel mushroom",
@@ -42,28 +39,6 @@
     "withered black mushroom",
     "some calamia fruit",
     "orange heliconia",
-    "soft white mushroom",
-    "calamia fruit",
-    "aloeas stem",
-    "trollfear mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "stalk of cattail",
-    "spider lily",
-    "alligator lily",
-    "kylan berry",
-    "yellow heliconia",
-    "red heliconia",
-    "red passionflower",
-    "murdroot",
-    "wavepetal blossom",
-    "bolmara lichen",
-    "talneo root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "soft white mushroom"
   ]
 }

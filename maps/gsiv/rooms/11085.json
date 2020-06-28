@@ -1,46 +1,34 @@
 {
+  "id": 11085,
+  "title": [
+    "[Sea Caves]"
+  ],
+  "description": [
+    "The sound of water can be heard to the west, where the cave widens.  The cave narrows to the northeast, with occasional tarred timbers placed in the walls for added support.  Empty torch braces in the walls show recent use."
+  ],
+  "paths": [
+    "Obvious exits: northeast, west"
+  ],
   "wayto": {
     "11084": "northeast",
     "11086": "west"
   },
-  "paths": [
-    "Obvious exits: northeast, west"
-  ],
+  "timeto": {
+    "11084": 0.2,
+    "11086": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     1161,
     274,
     1171,
     284
   ],
-  "terrain": "indoors",
-  "description": [
-    "The sound of water can be heard to the west, where the cave widens.  The cave narrows to the northeast, with occasional tarred timbers placed in the walls for added support.  Empty torch braces in the walls show recent use."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Caves]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11084": 0.2,
-    "11086": 0.2
-  },
-  "id": 11085,
-  "location": "the Sea Caves",
   "tags": [
     "some wolifrew lichen",
     "some wingstem root",
     "some cave moss",
     "withered black mushroom",
-    "ironfern root",
-    "wolifrew lichen",
-    "cave moss",
-    "murdroot",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

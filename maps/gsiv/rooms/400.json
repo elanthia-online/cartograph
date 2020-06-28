@@ -1,39 +1,31 @@
 {
-  "wayto": {
-    "399": "go low arch"
-  },
+  "id": 400,
+  "title": [
+    "[First Elanith Bank, Teller]"
+  ],
+  "description": [
+    "Most of the teller windows that line this room are missing the gates and gratings that once secured them.  Impatient clients stand at one of the two intact windows, waiting to get the attention of the tellers on the other side."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "Wehnimer's Landing",
+  "wayto": {
+    "399": "go low arch"
+  },
+  "timeto": {
+    "399": 0.2
+  },
+  "image": "wl-wehnimers-1264234799.png",
   "image_coords": [
     196,
     617,
     232,
     653
   ],
-  "terrain": "indoors",
-  "description": [
-    "Most of the teller windows that line this room are missing the gates and gratings that once secured them.  Impatient clients stand at one of the two intact windows, waiting to get the attention of the tellers on the other side."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[First Elanith Bank, Teller]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "399": 0.2
-  },
-  "id": 400,
-  "location": "Wehnimer's Landing",
   "tags": [
     "bank",
     "meta:teleport:fwi",
-    "antimagic",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "antimagic"
   ]
 }

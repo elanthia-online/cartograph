@@ -1,42 +1,32 @@
 {
+  "id": 6863,
+  "title": [
+    "[Abandoned Inn, Attic]"
+  ],
+  "description": [
+    "Obvious effort has been expended to make this attic space respectable and neat.  No boxes or other storage containers clutter the corners, and the floor speaks of a recent soaping.  Brightly burning candles sit in polished sconces on either side of the door to the north.  Little crystals dangle from the holders, as if attempting to catch a casual observer's attention."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south"
+  ],
+  "location": "the Abandoned Inn",
   "wayto": {
     "6883": "north",
     "6884": "south",
     "6885": "east",
     "6856": "go stair"
   },
-  "paths": [
-    "Obvious exits: north, east, south"
-  ],
-  "image_coords": [
-    813,
-    1431,
-    823,
-    1441
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Obvious effort has been expended to make this attic space respectable and neat.  No boxes or other storage containers clutter the corners, and the floor speaks of a recent soaping.  Brightly burning candles sit in polished sconces on either side of the door to the north.  Little crystals dangle from the holders, as if attempting to catch a casual observer's attention."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abandoned Inn, Attic]"
-  ],
-  "check_location": null,
   "timeto": {
     "6883": 0.2,
     "6884": 0.2,
     "6885": 0.2,
     "6856": 0.2
   },
-  "id": 6863,
-  "location": "the Abandoned Inn",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-gates-1264234799.png",
+  "image_coords": [
+    813,
+    1431,
+    823,
+    1441
   ]
 }

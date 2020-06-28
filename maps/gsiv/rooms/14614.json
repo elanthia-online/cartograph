@@ -1,14 +1,8 @@
 {
-  "wayto": {
-    "9377": {
-      "stringproc": "54006ad589cd915b5ee8a1df1baa85e9"
-    }
-  },
-  "paths": [
-    "Obvious paths: north, northeast, east, southeast, south, southwest, west, northwest"
+  "id": 14614,
+  "title": [
+    "[Ranger Guild, Lost]"
   ],
-  "image_coords": null,
-  "terrain": null,
   "description": [
     "The dark night air presses in all around you.  Dense clouds of fireflies float about the woods, littering them with pockets of flashing light and making it more difficult to get your bearings.",
     "You wander deeper into the dark woods then stop.  The area you've wandered into is completely devoid of light.  Looking down, you find that you can barely make out your own form.  Even the fireflies that seem to swarm in the rest of the woods are nowhere to be found.",
@@ -21,17 +15,18 @@
     "Dead leaves rustle and twigs snap as you plod on through the darkness.  Occasional clouds of fireflies flicker by further off in the woods like passing torches.  A fallen branch laying across your path almost trips you and it almost seems the light will never come again.",
     "A cold, damp fog presses in all about you.  Barely able to see your own nose, you quickly lose your sense of direction.  Looking at the forest about you tells you nothing, as every tree looks like the last one you peered at."
   ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Ranger Guild, Lost]"
+  "paths": [
+    "Obvious paths: north, northeast, east, southeast, south, southwest, west, northwest"
   ],
-  "check_location": null,
+  "location": "Solhaven",
+  "wayto": {
+    "9377": {
+      "file": "string_procs/wayto/14614_9377.rb"
+    }
+  },
   "timeto": {
     "9377": 1.0
   },
-  "id": 14614,
-  "location": "Solhaven",
   "tags": [
     "sprig of wild lilac",
     "some acantha leaf",
@@ -39,8 +34,5 @@
     "some calamia fruit",
     "some tree bark",
     "stick"
-  ],
-  "links": [
-
   ]
 }

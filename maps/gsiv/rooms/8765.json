@@ -1,36 +1,33 @@
 {
+  "id": 8765,
+  "title": [
+    "[Liabo Circle, Lumnis' Way]"
+  ],
+  "description": [
+    "A flower garden is planted in the center of this intersection -- white roses, blue tulips and brilliant yellow carnations ablaze in the sun.  On the eastern side of the street, the beginnings of a wooden bridge are flanked by tall, proud fel trees.  Beneath them, a finely garbed halfling snoozes in the sun, occasionally wriggling his toes with some dreamy pleasure.  He keeps a tight grip on his pipe, though.",
+    "A flower garden is planted in the center of this intersection -- white roses, blue tulips and yellow carnations a visible in the moonlight.  On the eastern side of the street, the beginnings of a wooden bridge are flanked by tall, proud fel trees.  Beneath them, a finely garbed halfling snoozes, occasionally wriggling his toes with some dreamy pleasure.  He keeps a tight grip on his pipe, though."
+  ],
+  "paths": [
+    "Obvious paths: northeast, east, southwest"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "8766": "southwest",
     "8767": "northeast",
     "8764": "east"
   },
-  "paths": [
-    "Obvious paths: northeast, east, southwest"
-  ],
+  "timeto": {
+    "8766": 0.2,
+    "8767": 0.2,
+    "8764": 0.2
+  },
+  "image": "wl-homes-1-1264234799.png",
   "image_coords": [
     488,
     1154,
     506,
     1172
   ],
-  "terrain": null,
-  "description": [
-    "A flower garden is planted in the center of this intersection -- white roses, blue tulips and brilliant yellow carnations ablaze in the sun.  On the eastern side of the street, the beginnings of a wooden bridge are flanked by tall, proud fel trees.  Beneath them, a finely garbed halfling snoozes in the sun, occasionally wriggling his toes with some dreamy pleasure.  He keeps a tight grip on his pipe, though.",
-    "A flower garden is planted in the center of this intersection -- white roses, blue tulips and yellow carnations a visible in the moonlight.  On the eastern side of the street, the beginnings of a wooden bridge are flanked by tall, proud fel trees.  Beneath them, a finely garbed halfling snoozes, occasionally wriggling his toes with some dreamy pleasure.  He keeps a tight grip on his pipe, though."
-  ],
-  "image": "wl-homes-1-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Liabo Circle, Lumnis' Way]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8766": 0.2,
-    "8767": 0.2,
-    "8764": 0.2
-  },
-  "id": 8765,
-  "location": "Wehnimer's Landing",
   "tags": [
     "cactacae spine",
     "calamia fruit",
@@ -92,11 +89,6 @@
     "wavepetal blossom",
     "nightbloom blossom",
     "onion skin",
-    "meta:teleport:fwi",
-    "sunburst blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:teleport:fwi"
   ]
 }

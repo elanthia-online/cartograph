@@ -1,39 +1,33 @@
 {
-  "wayto": {
-    "19969": "west",
-    "19948": {
-      "stringproc": "3b0918bc7dffac5d38873a389fde27c1"
-    }
-  },
+  "id": 19970,
+  "title": [
+    "[Landmarks, Danjirland]"
+  ],
+  "description": [
+    "A mural of a forest scene, with thick trunks spaced close together, covers all four walls, lending itself to the primordial ambiance of the room.  A thick grass green rug covers the floor, its expansive surface interrupted by a replica wooden obelisk and a weatherbeaten sign.  On one wall a panoramic painting in a knotty oak frame blocks the mural of trees behind it and resting below the artwork is a glass-fronted oak case."
+  ],
   "paths": [
     "Obvious exits: west"
   ],
+  "location": "Wehnimer's Landing",
+  "wayto": {
+    "19969": "west",
+    "19948": {
+      "file": "string_procs/wayto/19970_19948.rb"
+    }
+  },
+  "timeto": {
+    "19969": 0.2,
+    "19948": 0.2
+  },
+  "image": "wl-museum-1487435869.png",
   "image_coords": [
     1804,
     1033,
     1947,
     1093
   ],
-  "terrain": null,
-  "description": [
-    "A mural of a forest scene, with thick trunks spaced close together, covers all four walls, lending itself to the primordial ambiance of the room.  A thick grass green rug covers the floor, its expansive surface interrupted by a replica wooden obelisk and a weatherbeaten sign.  On one wall a panoramic painting in a knotty oak frame blocks the mural of trees behind it and resting below the artwork is a glass-fronted oak case."
-  ],
-  "image": "wl-museum-1487435869.png",
-  "climate": null,
-  "title": [
-    "[Landmarks, Danjirland]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "19969": 0.2,
-    "19948": 0.2
-  },
-  "id": 19970,
-  "location": "Wehnimer's Landing",
   "tags": [
     "meta:teleport:fwi"
-  ],
-  "links": [
-
   ]
 }

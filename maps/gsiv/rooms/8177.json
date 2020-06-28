@@ -1,46 +1,33 @@
 {
+  "id": 8177,
+  "title": [
+    "[Mine]"
+  ],
+  "description": [
+    "A natural room gives way to the western passage, and an area of over-mined rock lines the southern wall."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east, west"
+  ],
+  "location": "the crystal caves",
   "wayto": {
     "8173": "west",
     "8175": "northeast",
     "8176": "east"
   },
-  "paths": [
-    "Obvious exits: northeast, east, west"
-  ],
+  "timeto": {
+    "8173": 0.2,
+    "8175": 0.2,
+    "8176": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     833,
     527,
     843,
     537
   ],
-  "terrain": "indoors",
-  "description": [
-    "A natural room gives way to the western passage, and an area of over-mined rock lines the southern wall."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8173": 0.2,
-    "8175": 0.2,
-    "8176": 0.2
-  },
-  "id": 8177,
-  "location": "the crystal caves",
   "tags": [
-    "some cave moss",
-    "wolifrew lichen",
-    "withered black mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

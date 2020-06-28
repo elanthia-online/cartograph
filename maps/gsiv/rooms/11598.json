@@ -1,38 +1,27 @@
 {
+  "id": 11598,
+  "title": [
+    "[Smuggler's Lair, Storage]"
+  ],
+  "description": [
+    "Stacks of wooden crates...some small, some the size of coffins...line one wall.  A large heap of moldy, decaying carpets is piled in the center of the room.  A half dozen rolled tapestries, stinking of mildew, lean against one of the oak support columns.  In one corner, barely illuminated by the soft light of a glowing orb, is a wooden rack on which hangs the tattered remnants of cloth."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast"
+  ],
   "wayto": {
     "11596": "northeast",
     "11597": "north"
   },
-  "paths": [
-    "Obvious exits: north, northeast"
-  ],
+  "timeto": {
+    "11596": 0.2,
+    "11597": 0.2
+  },
+  "image": "rr-maelstrom-1266390501.png",
   "image_coords": [
     168,
     672,
     178,
     682
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Stacks of wooden crates...some small, some the size of coffins...line one wall.  A large heap of moldy, decaying carpets is piled in the center of the room.  A half dozen rolled tapestries, stinking of mildew, lean against one of the oak support columns.  In one corner, barely illuminated by the soft light of a glowing orb, is a wooden rack on which hangs the tattered remnants of cloth."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "indoors",
-  "title": [
-    "[Smuggler's Lair, Storage]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11596": 0.2,
-    "11597": 0.2
-  },
-  "id": 11598,
-  "location": "the Shattered Moors",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

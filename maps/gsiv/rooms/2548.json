@@ -1,38 +1,28 @@
 {
+  "id": 2548,
+  "title": [
+    "[Glatoph, Icy Passage]"
+  ],
+  "description": [
+    "The path continues and forms a spectacular ice bridge over a growing stream.  As you look down, the water cascades from a waterfall into a mist that shrouds an opening in the ice."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south"
+  ],
+  "location": "the Icemule Trail",
   "wayto": {
     "2547": "northeast",
     "2549": "south"
   },
-  "paths": [
-    "Obvious exits: northeast, south"
-  ],
+  "timeto": {
+    "2547": 0.2,
+    "2549": 0.2
+  },
+  "image": "imt-trail-1264234799.png",
   "image_coords": [
     730,
     732,
     740,
     742
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The path continues and forms a spectacular ice bridge over a growing stream.  As you look down, the water cascades from a waterfall into a mist that shrouds an opening in the ice."
-  ],
-  "image": "imt-trail-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Glatoph, Icy Passage]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2547": 0.2,
-    "2549": 0.2
-  },
-  "id": 2548,
-  "location": "the Icemule Trail",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

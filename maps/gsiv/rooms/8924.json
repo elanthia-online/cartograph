@@ -1,39 +1,33 @@
 {
+  "id": 8924,
+  "title": [
+    "[Wizard Guild, Library]"
+  ],
+  "description": [
+    "Well-stuffed blue velvet chairs scattered throughout the spacious library provide comfortable seating for lounging wizards.  Bookcases that rise well above the reach of even the tallest giantman line the walls in orderly ranks starkly contrasting with the clutter of scrolls and quills heaped on numerous tables.  A large fireplace dominates the east wall, illuminating the chamber and the portrait hanging above it."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "8931": "go archway",
     "8923": "west",
     "8925": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "8931": 0.2,
+    "8923": 0.2,
+    "8925": 0.2
+  },
+  "image": "imt-wizard_guild.png",
   "image_coords": [
     212,
     488,
     262,
     535
   ],
-  "terrain": null,
-  "description": [
-    "Well-stuffed blue velvet chairs scattered throughout the spacious library provide comfortable seating for lounging wizards.  Bookcases that rise well above the reach of even the tallest giantman line the walls in orderly ranks starkly contrasting with the clutter of scrolls and quills heaped on numerous tables.  A large fireplace dominates the east wall, illuminating the chamber and the portrait hanging above it."
-  ],
-  "image": "imt-wizard_guild.png",
-  "climate": null,
-  "title": [
-    "[Wizard Guild, Library]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8931": 0.2,
-    "8923": 0.2,
-    "8925": 0.2
-  },
-  "id": 8924,
-  "location": "Icemule Trace",
   "tags": [
     "wizard alchemy masters"
-  ],
-  "links": [
-
   ]
 }

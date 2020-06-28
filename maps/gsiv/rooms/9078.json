@@ -1,43 +1,33 @@
 {
+  "id": 9078,
+  "title": [
+    "[Infested Tunnels, Rat's Nest]"
+  ],
+  "description": [
+    "A pool of warm liquid all but blocks the tunnel.  It looks to be only a few inches deep, but the acrid smell of it prevents you from stepping in it to find out for sure. A swarm of large white flies seem elated at the presence of the little pool."
+  ],
+  "paths": [
+    "Obvious exits: southwest, up"
+  ],
+  "location": "the subterranean tunnels",
   "wayto": {
     "9077": "southwest",
     "9079": "up"
   },
-  "paths": [
-    "Obvious exits: southwest, up"
-  ],
+  "timeto": {
+    "9077": 0.2,
+    "9079": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     1350,
     456,
     1360,
     466
   ],
-  "terrain": "indoors",
-  "description": [
-    "A pool of warm liquid all but blocks the tunnel.  It looks to be only a few inches deep, but the acrid smell of it prevents you from stepping in it to find out for sure. A swarm of large white flies seem elated at the presence of the little pool."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Infested Tunnels, Rat's Nest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9077": 0.2,
-    "9079": 0.2
-  },
-  "id": 9078,
-  "location": "the subterranean tunnels",
   "tags": [
     "withered black mushroom",
     "some bur-clover root",
-    "some wingstem root",
-    "murdroot",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

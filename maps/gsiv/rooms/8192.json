@@ -1,60 +1,34 @@
 {
+  "id": 8192,
+  "title": [
+    "[Ridge Line]"
+  ],
+  "description": [
+    "A group of tall, rough cut boulders lies carefully placed in a semi-circle with its opening toward the ocean below.  There are numerous carvings of stone faces, some quite intricate, and others which appear to have been hewn with poor stone tools."
+  ],
+  "paths": [
+    "Obvious paths: west, down"
+  ],
+  "location": "the old Mine Road",
   "wayto": {
     "8194": "go hole",
     "8191": "west",
     "8193": "down"
   },
-  "paths": [
-    "Obvious paths: west, down"
-  ],
+  "timeto": {
+    "8194": 0.2,
+    "8191": 0.2,
+    "8193": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     500,
     590,
     510,
     600
   ],
-  "terrain": "rough",
-  "description": [
-    "A group of tall, rough cut boulders lies carefully placed in a semi-circle with its opening toward the ocean below.  There are numerous carvings of stone faces, some quite intricate, and others which appear to have been hewn with poor stone tools."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "humid",
-  "title": [
-    "[Ridge Line]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8194": 0.2,
-    "8191": 0.2,
-    "8193": 0.2
-  },
-  "id": 8192,
-  "location": "the old Mine Road",
   "tags": [
     "white passionflower",
-    "handful of currants",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "blueberries",
-    "stalk of chicory",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "broken twig",
-    "red clover blossom",
-    "pink clover blossom",
-    "white clover blossom",
-    "purple clover blossom",
-    "yellow clover blossom",
-    "stalk of goldenrod",
-    "sprig of larkspur",
-    "small wild rose",
-    "wild chokecherry",
-    "motherwort",
-    "yellow passionflower",
-    "blue passionflower",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "handful of currants"
   ]
 }

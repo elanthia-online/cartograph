@@ -1,20 +1,8 @@
 {
-  "wayto": {
-    "187": "out",
-    "3668": {
-      "stringproc": "1d41454a8ce526999afe00d553b29bee"
-    }
-  },
-  "paths": [
-    "Obvious paths: out"
+  "id": 188,
+  "title": [
+    "[Ta'Illistim, Hanging Gardens]"
   ],
-  "image_coords": [
-    1185,
-    571,
-    1233,
-    616
-  ],
-  "terrain": "cultivated",
   "description": [
     "Although the floating platform is suspended well above the ground below, it overflows with abundant plant life.  The edges of the dais are brimming with delicate white queen's lace, dark lavender, fragrant rosemary and a variety of other colorful flora.  Thick grass underfoot provides an enticingly peaceful resting spot.  A thin silk canopy is suspended above, providing ample shade from the day's brightness.",
     "Although the floating platform is suspended well above the ground below, it overflows with abundant plant life.  The edges of the dais are brimming with delicate white queen's lace, dark lavender, fragrant rosemary and a variety of other colorful flora.  Thick grass underfoot provides an enticingly peaceful resting spot.  A thin silk canopy is rolled back to permit an unobstructed view of the starry night sky.",
@@ -23,20 +11,23 @@
     "The dais is ringed by a series of slender columns, each one simply fluted and carved from perfectly white marble.  Within the circle of the columns' embrace, and elevated high off of the ground, a tiny garden of cultivated plants grows.  Roses climb around the carved legs of a mistwood bench, which sits alongside neat beds of columbine and a tended plot of white jasmine.  Over the whole enclosure is a coffered dome set with an oculus.  A small crack travels up the column and appears in the dome.",
     "The dais is ringed by a series of slender columns, each one simply fluted and carved from perfectly white marble.  Within the circle of the columns' embrace, and elevated high off of the ground, a tiny garden of cultivated plants grows.  Closed roses climb around the carved legs of a mistwood bench, which sits alongside neat beds of night blooming columbine and a tended plot of white jasmine.  Over the whole enclosure is a coffered dome set with an oculus.  A small crack travels up the column and dome."
   ],
-  "image": "en-ta_illistim-new.jpg",
-  "climate": "temperate",
-  "title": [
-    "[Ta'Illistim, Hanging Gardens]"
+  "paths": [
+    "Obvious paths: out"
   ],
-  "check_location": null,
-  "timeto": {
-    "187": 5.0,
-    "3668": {
-      "stringproc": "2e87af919b7aa36629593478fcf980f8"
-    }
-  },
-  "id": 188,
   "location": "Ta'Illistim",
+  "wayto": {
+    "187": "out"
+  },
+  "timeto": {
+    "187": 3.0
+  },
+  "image": "en-ta_illistim-new.jpg",
+  "image_coords": [
+    1185,
+    571,
+    1233,
+    616
+  ],
   "tags": [
     "some sovyn clove",
     "some calamia fruit",
@@ -133,10 +124,6 @@
     "meta:mapname:Elven Nations - Ta'Illistim",
     "meta:mapshortname:Ta'Illistim",
     "meta:mapcategory:Elven Nations",
-    "meta:mapcategory:Towns",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:mapcategory:Towns"
   ]
 }

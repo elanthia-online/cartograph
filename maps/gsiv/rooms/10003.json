@@ -1,35 +1,32 @@
 {
+  "id": 10003,
+  "title": [
+    "[Yegharren Valley, Ravine]"
+  ],
+  "description": [
+    "Pieces of bushes and dried scrub lie scattered around the dirt and stone floor of the ravine, having fallen over the years from the edges of the moors above.  Tendrils of damp, silvery mist seep down into the ravine, dissipating as they swirl and slide down the ancient sheer rock walls."
+  ],
+  "paths": [
+    "Obvious paths: east, northwest, up"
+  ],
+  "location": "the Yegharren Plains",
   "wayto": {
     "10002": "up",
     "10004": "east",
     "10005": "northwest"
   },
-  "paths": [
-    "Obvious paths: east, northwest, up"
-  ],
+  "timeto": {
+    "10002": 0.2,
+    "10004": 0.2,
+    "10005": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     1322,
     796,
     1332,
     806
   ],
-  "terrain": "rough",
-  "description": [
-    "Pieces of bushes and dried scrub lie scattered around the dirt and stone floor of the ravine, having fallen over the years from the edges of the moors above.  Tendrils of damp, silvery mist seep down into the ravine, dissipating as they swirl and slide down the ancient sheer rock walls."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Yegharren Valley, Ravine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10002": 0.2,
-    "10004": 0.2,
-    "10005": 0.2
-  },
-  "id": 10003,
-  "location": "the Yegharren Plains",
   "tags": [
     "purple clover blossom",
     "yellow primrose",
@@ -37,33 +34,6 @@
     "sprig of larkspur",
     "red clover blossom",
     "handful of currants",
-    "bunch of wild grapes",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "wild strawberry",
-    "blueberries",
-    "stalk of chicory",
-    "elderberries",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "wild grapes",
-    "broken twig",
-    "sprig of alyssum",
-    "heath aster",
-    "golden buttercup",
-    "white clover blossom",
-    "yellow clover blossom",
-    "stalk of goldenrod",
-    "small wild rose",
-    "wild chokecherry",
-    "motherwort",
-    "white baneberry",
-    "pepperthorn root",
-    "ironfern root",
-    "sky-blue delphinuris",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bunch of wild grapes"
   ]
 }

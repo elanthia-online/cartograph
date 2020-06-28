@@ -1,36 +1,30 @@
 {
-  "wayto": {
-    "18850": "go door"
-  },
+  "id": 18851,
+  "title": [
+    "[Twilight Hall, Magical Workshop]"
+  ],
+  "description": [
+    "Crystal towers ward the four corners of the workshop.  Mana crackles and hums as it arcs between the orbs placed atop each, sending out tempestuous tendrils of energy writhing to and fro.  A table, littered with dozens of odd-shaped tools and potions, shimmers in the pyrotechnic display."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "Wehnimer's Landing",
+  "wayto": {
+    "18850": "go door"
+  },
+  "timeto": {
+    "18850": 0.2
+  },
+  "image": "wl-twilight_hall.jpg",
   "image_coords": [
     33,
     444,
     118,
     500
   ],
-  "terrain": null,
-  "description": [
-    "Crystal towers ward the four corners of the workshop.  Mana crackles and hums as it arcs between the orbs placed atop each, sending out tempestuous tendrils of energy writhing to and fro.  A table, littered with dozens of odd-shaped tools and potions, shimmers in the pyrotechnic display."
-  ],
-  "image": "wl-twilight_hall.jpg",
-  "climate": null,
-  "title": [
-    "[Twilight Hall, Magical Workshop]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "18850": 0.2
-  },
-  "id": 18851,
-  "location": "Wehnimer's Landing",
   "tags": [
     "twilight workshop",
     "node"
-  ],
-  "links": [
-
   ]
 }

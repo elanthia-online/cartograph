@@ -1,34 +1,26 @@
 {
+  "id": 25551,
+  "title": [
+    "[Underground Temple, Sunken Tomb]"
+  ],
+  "description": [
+    "Two lone torches light the way, casting little illumination in the hallway to dispel the darkness.  Rubble from the crumbling ruin walls scatters across the ground, some of it half-buried and tromped into the muck formed by water trickling down upon the piles of dirt.  The air is chilled and dank with the added moisture."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east, southwest"
+  ],
+  "location": "Duskruin Arena",
   "wayto": {
     "25552": "southwest",
     "25550": "east",
     "25566": "northeast",
     "25564": "north"
   },
-  "paths": [
-    "Obvious exits: north, northeast, east, southwest"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Two lone torches light the way, casting little illumination in the hallway to dispel the darkness.  Rubble from the crumbling ruin walls scatters across the ground, some of it half-buried and tromped into the muck formed by water trickling down upon the piles of dirt.  The air is chilled and dank with the added moisture."
-  ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Underground Temple, Sunken Tomb]"
-  ],
-  "check_location": true,
   "timeto": {
     "25552": 0.2,
     "25550": 0.2,
     "25566": 0.2,
     "25564": 0.2
   },
-  "id": 25551,
-  "location": "Duskruin Arena",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  "check_location": true
 }

@@ -1,33 +1,25 @@
 {
-  "wayto": {
-    "10083": "southeast",
-    "671": "north",
-    "21690": {
-      "stringproc": "ad59554f4e123d7511cb674bd7bf5157"
-    },
-    "673": "southwest",
-    "21692": "go gates"
-  },
-  "paths": [
-    "Obvious paths: north, southeast, southwest"
+  "id": 672,
+  "title": [
+    "[Sylvarraend Road]"
   ],
-  "image_coords": [
-    646,
-    807,
-    656,
-    817
-  ],
-  "terrain": "hard, flat",
   "description": [
     "Small beds of profusely blooming flowers have been planted alongside this section of the road, testament to the nearby hamlet of Sylvarraend.  The night breeze ruffles the nodding buds and petals, sending a deliciously relaxing fragrance across the road.",
     "Small beds of profusely blooming flowers have been planted alongside this section of the road, testament to the nearby hamlet of Sylvarraend.  The day's breeze ruffles the nodding buds and petals, sending a deliciously relaxing fragrance across the road."
   ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Sylvarraend Road]"
+  "paths": [
+    "Obvious paths: north, southeast, southwest"
   ],
-  "check_location": null,
+  "location": "Sylvarraend Road",
+  "wayto": {
+    "10083": "southeast",
+    "671": "north",
+    "21690": {
+      "file": "string_procs/wayto/672_21690.rb"
+    },
+    "673": "southwest",
+    "21692": "go gates"
+  },
   "timeto": {
     "10083": 0.2,
     "671": 0.2,
@@ -35,13 +27,11 @@
     "673": 0.2,
     "21692": 0.2
   },
-  "id": 672,
-  "location": "Sylvarraend Road",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-sylvarraend-1264234799.png",
+  "image_coords": [
+    646,
+    807,
+    656,
+    817
   ]
 }

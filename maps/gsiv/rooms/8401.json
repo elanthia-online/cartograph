@@ -1,46 +1,34 @@
 {
+  "id": 8401,
+  "title": [
+    "[Thanatoph Bowels, West Lobe]"
+  ],
+  "description": [
+    "The dark corridor widens slightly, allowing several ridged tracks to criss-cross wildly along the damp clay floor.  Bone fragments lodged here and there are the only clue that this place is not as peaceful as it seems."
+  ],
+  "paths": [
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "the bowels of Thanatoph",
   "wayto": {
     "8400": "southeast",
     "8402": "northwest"
   },
-  "paths": [
-    "Obvious exits: southeast, northwest"
-  ],
+  "timeto": {
+    "8400": 0.2,
+    "8402": 0.2
+  },
+  "image": "wl-stronghold-1264234799.png",
   "image_coords": [
     1138,
     682,
     1148,
     692
   ],
-  "terrain": "indoors",
-  "description": [
-    "The dark corridor widens slightly, allowing several ridged tracks to criss-cross wildly along the damp clay floor.  Bone fragments lodged here and there are the only clue that this place is not as peaceful as it seems."
-  ],
-  "image": "wl-stronghold-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thanatoph Bowels, West Lobe]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8400": 0.2,
-    "8402": 0.2
-  },
-  "id": 8401,
-  "location": "the bowels of Thanatoph",
   "tags": [
     "some wolifrew lichen",
     "withered black mushroom",
     "some cave moss",
-    "some wingstem root",
-    "wolifrew lichen",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

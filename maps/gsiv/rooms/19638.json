@@ -1,39 +1,30 @@
 {
-  "wayto": {
-    "19639": {
-      "stringproc": "c6e6b47b68df3ebc462bd22e9810794a"
-    },
-    "19637": "north"
-  },
+  "id": 19638,
+  "title": [
+    "[Albatross, Belowdecks]"
+  ],
+  "description": [
+    "Primarily used for storage, the narrow room is cluttered with various items.  Rolled-up documents and maps are haphazardly placed along the shelves that line the wall, which are hard to make out with the poor lighting.  A linen-covered driftwood crate rests against the back wall, while a jewel-studded ironwood chest is pushed up against a large pile of old canvas rags."
+  ],
   "paths": [
     "Obvious exits: north"
   ],
+  "location": "Wehnimer's Landing",
+  "wayto": {
+    "19639": {
+      "file": "string_procs/wayto/19638_19639.rb"
+    },
+    "19637": "north"
+  },
+  "timeto": {
+    "19639": 0.4,
+    "19637": 0.2
+  },
+  "image": "fest-albatross-1310186668.png",
   "image_coords": [
     332,
     613,
     367,
     647
-  ],
-  "terrain": null,
-  "description": [
-    "Primarily used for storage, the narrow room is cluttered with various items.  Rolled-up documents and maps are haphazardly placed along the shelves that line the wall, which are hard to make out with the poor lighting.  A linen-covered driftwood crate rests against the back wall, while a jewel-studded ironwood chest is pushed up against a large pile of old canvas rags."
-  ],
-  "image": "fest-albatross-1310186668.png",
-  "climate": null,
-  "title": [
-    "[Albatross, Belowdecks]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "19639": 0.4,
-    "19637": 0.2
-  },
-  "id": 19638,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "links": [
-
   ]
 }

@@ -1,39 +1,31 @@
 {
+  "id": 3096,
+  "title": [
+    "[Abandoned Farm, Attic]"
+  ],
+  "description": [
+    "Large patches of the roof are missing, exposing the wattle framework.  The wood floor is warped from the years of exposure to the elements.  The air is heavy with the smell of mildew and decay."
+  ],
+  "paths": [
+    "Obvious exits: north, southwest"
+  ],
+  "location": "the Abandoned Farm",
   "wayto": {
     "3095": "southwest",
     "3097": "north"
   },
-  "paths": [
-    "Obvious exits: north, southwest"
-  ],
+  "timeto": {
+    "3095": 0.2,
+    "3097": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     887,
     513,
     897,
     523
   ],
-  "terrain": "indoors",
-  "description": [
-    "Large patches of the roof are missing, exposing the wattle framework.  The wood floor is warped from the years of exposure to the elements.  The air is heavy with the smell of mildew and decay."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abandoned Farm, Attic]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3095": 0.2,
-    "3097": 0.2
-  },
-  "id": 3096,
-  "location": "the Abandoned Farm",
   "tags": [
-    "zombie",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "zombie"
   ]
 }

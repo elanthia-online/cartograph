@@ -1,33 +1,30 @@
 {
+  "id": 8460,
+  "title": [
+    "[Upper Trollfang, Sentoph]"
+  ],
+  "description": [
+    "You skitter across the side of the mountain, expecting to tumble down the slope any moment.  After a few scary slips you come upon a small trail twisting its way across the rocky incline and into a narrow valley."
+  ],
+  "paths": [
+    "Obvious paths: up"
+  ],
+  "location": "the Temple of Love",
   "wayto": {
     "8449": "up",
     "8461": "go trail"
   },
-  "paths": [
-    "Obvious paths: up"
-  ],
+  "timeto": {
+    "8449": 0.2,
+    "8461": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     491,
     803,
     501,
     813
   ],
-  "terrain": "mountainous",
-  "description": [
-    "You skitter across the side of the mountain, expecting to tumble down the slope any moment.  After a few scary slips you come upon a small trail twisting its way across the rocky incline and into a narrow valley."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Upper Trollfang, Sentoph]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8449": 0.2,
-    "8461": 0.2
-  },
-  "id": 8460,
-  "location": "the Temple of Love",
   "tags": [
     "sweetfern stalk",
     "sprig of larkspur",
@@ -35,21 +32,6 @@
     "cuctucae berry",
     "some pennyroyal stem",
     "some wingstem root",
-    "some valerian root",
-    "marallis berry",
-    "sassafras leaf",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "ironfern root",
-    "sunburst blossom",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some valerian root"
   ]
 }

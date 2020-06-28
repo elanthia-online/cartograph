@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "8013": "west"
-  },
+  "id": 8014,
+  "title": [
+    "[Kobold Mines, Machinery Room]"
+  ],
+  "description": [
+    "This massive stone room contains several odd devices.  A huge leather bellows dominates the place, rising almost to the high ceiling where a heavy chain hangs down from a pulley far above.  The far end of the bellows tapers to an arm-thick tube leading through the wall.  An odd set of pipes and metal drums squats on the floor like an ancient idol.  Broken clay flasks reeking of oil and ruined skins that once held more oil litter the room.  A thin film of congealed oil and grease covers everything."
+  ],
   "paths": [
     "Obvious exits: west"
   ],
+  "location": "the old Mine Road",
+  "wayto": {
+    "8013": "west"
+  },
+  "timeto": {
+    "8013": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     186,
     919,
     196,
     929
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This massive stone room contains several odd devices.  A huge leather bellows dominates the place, rising almost to the high ceiling where a heavy chain hangs down from a pulley far above.  The far end of the bellows tapers to an arm-thick tube leading through the wall.  An odd set of pipes and metal drums squats on the floor like an ancient idol.  Broken clay flasks reeking of oil and ruined skins that once held more oil litter the room.  A thin film of congealed oil and grease covers everything."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Kobold Mines, Machinery Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8013": 0.2
-  },
-  "id": 8014,
-  "location": "the old Mine Road",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

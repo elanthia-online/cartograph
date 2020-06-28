@@ -1,34 +1,31 @@
 {
+  "id": 2573,
+  "title": [
+    "[Upper Trollfang, Glatoph]"
+  ],
+  "description": [
+    "The chill wind whips across the face of the mountain, scouring away what little soil is left and leaving bare rock.  A pair of stunted thorn bushes and some clingy grey-green moss are the only signs of life that you see.",
+    "The chill wind whips across the face of the mountain, scouring away what little soil is left and leaving bare rock.  A pair of stunted thorn bushes, their spikes silvered by moonlight, and some clingy greyish moss are the only signs of life that you see."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "Glatoph",
   "wayto": {
     "2574": "west",
     "2572": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, west"
-  ],
+  "timeto": {
+    "2574": 0.2,
+    "2572": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     613,
     736,
     623,
     746
   ],
-  "terrain": "mountainous",
-  "description": [
-    "The chill wind whips across the face of the mountain, scouring away what little soil is left and leaving bare rock.  A pair of stunted thorn bushes and some clingy grey-green moss are the only signs of life that you see.",
-    "The chill wind whips across the face of the mountain, scouring away what little soil is left and leaving bare rock.  A pair of stunted thorn bushes, their spikes silvered by moonlight, and some clingy greyish moss are the only signs of life that you see."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Upper Trollfang, Glatoph]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2574": 0.2,
-    "2572": 0.2
-  },
-  "id": 2573,
-  "location": "Glatoph",
   "tags": [
     "sweetfern stalk",
     "sprig of larkspur",
@@ -47,10 +44,6 @@
     "pennyroyal stem",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

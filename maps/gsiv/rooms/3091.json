@@ -1,37 +1,34 @@
 {
+  "id": 3091,
+  "title": [
+    "[Abandoned Farm, Garden]"
+  ],
+  "description": [
+    "A broken-down farm house stands just inside the wooden archway, its empty door and broken windows leering over the snow-filled garden.  A dilapidated barn slumps into the snow to the north of the garden.  To the southeast, a thin trail leads around the corner of the house."
+  ],
+  "paths": [
+    "Obvious paths: southeast"
+  ],
+  "location": "the Abandoned Farm",
   "wayto": {
     "3070": "go archway",
     "3092": "go doorway",
     "3104": "go barn",
     "3100": "southeast"
   },
-  "paths": [
-    "Obvious paths: southeast"
-  ],
-  "image_coords": [
-    673,
-    673,
-    683,
-    683
-  ],
-  "terrain": "cultivated",
-  "description": [
-    "A broken-down farm house stands just inside the wooden archway, its empty door and broken windows leering over the snow-filled garden.  A dilapidated barn slumps into the snow to the north of the garden.  To the southeast, a thin trail leads around the corner of the house."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Abandoned Farm, Garden]"
-  ],
-  "check_location": null,
   "timeto": {
     "3070": 0.2,
     "3092": 0.2,
     "3104": 0.2,
     "3100": 0.2
   },
-  "id": 3091,
-  "location": "the Abandoned Farm",
+  "image": "imt-south_gate-1264234799.png",
+  "image_coords": [
+    673,
+    673,
+    683,
+    683
+  ],
   "tags": [
     "wavepetal blossom",
     "moonflower",
@@ -42,13 +39,6 @@
     "winter rose",
     "sassafras leaf",
     "sweetfern stalk",
-    "frostflower",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "frostflower"
   ]
 }

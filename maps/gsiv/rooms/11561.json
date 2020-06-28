@@ -1,38 +1,27 @@
 {
+  "id": 11561,
+  "title": [
+    "[Branding Room]"
+  ],
+  "description": [
+    "An iron brazier is upended against the starboard bulkhead, spilling chunks of pitch-soaked wood.  Hung on the bulkhead is a rack containing a variety of smoke-blackened branding irons.  A low chest is made fast against the wall."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
   "wayto": {
     "11560": "east",
     "11562": "go portside door"
   },
-  "paths": [
-    "Obvious exits: east"
-  ],
+  "timeto": {
+    "11560": 0.2,
+    "11562": 0.2
+  },
+  "image": "rr-maelstrom-1266390501.png",
   "image_coords": [
     109,
     1184,
     119,
     1194
-  ],
-  "terrain": "indoors",
-  "description": [
-    "An iron brazier is upended against the starboard bulkhead, spilling chunks of pitch-soaked wood.  Hung on the bulkhead is a rack containing a variety of smoke-blackened branding irons.  A low chest is made fast against the wall."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "indoors",
-  "title": [
-    "[Branding Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11560": 0.2,
-    "11562": 0.2
-  },
-  "id": 11561,
-  "location": "the Shattered Moors",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

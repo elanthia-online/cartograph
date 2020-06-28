@@ -1,52 +1,33 @@
 {
+  "id": 6715,
+  "title": [
+    "[Crevice Floor]"
+  ],
+  "description": [
+    "The confined space here gives you a sense of claustrophobia.  The wind blowing across the top of the crevice creates a haunting melody throughout this area.  A dark hole lies in the southern wall, and it seems that you can just make out the sound of shuffling footsteps coming from it.  The crevice narrows to the east and a narrow path leads out of the crevice."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the Upper Dragonsclaw",
   "wayto": {
     "6714": "go path",
     "6703": "go hole",
     "6716": "east"
   },
-  "paths": [
-    "Obvious paths: east"
-  ],
+  "timeto": {
+    "6714": 0.2,
+    "6703": 0.2,
+    "6716": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     228,
     1212,
     238,
     1222
   ],
-  "terrain": "mountainous",
-  "description": [
-    "The confined space here gives you a sense of claustrophobia.  The wind blowing across the top of the crevice creates a haunting melody throughout this area.  A dark hole lies in the southern wall, and it seems that you can just make out the sound of shuffling footsteps coming from it.  The crevice narrows to the east and a narrow path leads out of the crevice."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Crevice Floor]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6714": 0.2,
-    "6703": 0.2,
-    "6716": 0.2
-  },
-  "id": 6715,
-  "location": "the Upper Dragonsclaw",
   "tags": [
-    "marallis berry",
-    "cuctucae berry",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "sprig of larkspur",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "marallis berry"
   ]
 }

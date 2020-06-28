@@ -1,43 +1,33 @@
 {
-  "wayto": {
-    "160": "south",
-    "637": "northeast",
-    "201": "west"
-  },
-  "paths": [
-    "Obvious paths: northeast, south, west"
+  "id": 200,
+  "title": [
+    "[Ta'Illistim, Shorchar Wey]"
   ],
-  "image_coords": [
-    290,
-    464,
-    312,
-    486
-  ],
-  "terrain": "hard, flat",
   "description": [
     "Some fireflies circle around a bench to one side of the wey, their aerial ballet leaving green-gold traces against the darkened city walls nearby.  Overhead, a moonlit cloud wanders aimlessly across the otherwise crystal clear night sky.",
     "Two young bards sit on a bench to one side of the wey, their clear elven voices mingling in perfect harmony above the muted strumming of their mandolins.  They seem to pay little attention to the passersby, though on those rare occasions when someone drops a coin into their open cases, their eyes brighten with appreciation.",
     "A bench sits alongside the wey, placed on a little hillock of grass seemingly created for just that purpose.  The cobblestones continue past, each one set with the next in a bumpy, raised pattern of undulating silvery blue.  The unflickering light of silver-sconced lanterns illuminates the street.",
     "A bench sits alongside the wey, placed on a little hillock of grass seemingly created for just that purpose.  The cobblestones continue past, each one set with the next in a bumpy, raised pattern of undulating silvery blue."
   ],
-  "image": "en-ta_illistim-new.jpg",
-  "climate": "temperate",
-  "title": [
-    "[Ta'Illistim, Shorchar Wey]"
+  "paths": [
+    "Obvious paths: northeast, south, west"
   ],
-  "check_location": null,
+  "location": "Ta'Illistim",
+  "wayto": {
+    "160": "south",
+    "637": "northeast",
+    "201": "west"
+  },
   "timeto": {
     "160": 0.2,
     "637": 0.2,
     "201": 0.2
   },
-  "id": 200,
-  "location": "Ta'Illistim",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-ta_illistim-new.jpg",
+  "image_coords": [
+    290,
+    464,
+    312,
+    486
   ]
 }

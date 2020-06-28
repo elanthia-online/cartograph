@@ -1,33 +1,30 @@
 {
+  "id": 2557,
+  "title": [
+    "[Glatoph, Glacier Chasm]"
+  ],
+  "description": [
+    "The snow blowing from the cliffs above makes it hard to see the half-hidden trail.  Heading upward, the trail widens as you reach the top of the glacier while the other end heads deeper into the chasm."
+  ],
+  "paths": [
+    "Obvious paths: up, down"
+  ],
+  "location": "the Icemule Trail",
   "wayto": {
     "2556": "down",
     "2558": "up"
   },
-  "paths": [
-    "Obvious paths: up, down"
-  ],
+  "timeto": {
+    "2556": 0.2,
+    "2558": 0.2
+  },
+  "image": "imt-trail-1264234799.png",
   "image_coords": [
     677,
     802,
     687,
     812
   ],
-  "terrain": "mountainous",
-  "description": [
-    "The snow blowing from the cliffs above makes it hard to see the half-hidden trail.  Heading upward, the trail widens as you reach the top of the glacier while the other end heads deeper into the chasm."
-  ],
-  "image": "imt-trail-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Glatoph, Glacier Chasm]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2556": 0.2,
-    "2558": 0.2
-  },
-  "id": 2557,
-  "location": "the Icemule Trail",
   "tags": [
     "golden aster",
     "snow lily",
@@ -70,10 +67,6 @@
     "small loganberry",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

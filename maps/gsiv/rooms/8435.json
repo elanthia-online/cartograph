@@ -1,35 +1,32 @@
 {
+  "id": 8435,
+  "title": [
+    "[Upper Trollfang, Dead Path]"
+  ],
+  "description": [
+    "At a fork in the trail stands a dead tree.  A little clearing opens to the north."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "8436": "west",
     "8508": "go path",
     "8434": "go clearing"
   },
-  "paths": [
-    "Obvious paths: west"
-  ],
+  "timeto": {
+    "8436": 0.2,
+    "8508": 0.2,
+    "8434": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     713,
     882,
     723,
     892
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "At a fork in the trail stands a dead tree.  A little clearing opens to the north."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Upper Trollfang, Dead Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8436": 0.2,
-    "8508": 0.2,
-    "8434": 0.2
-  },
-  "id": 8435,
-  "location": "the Upper Trollfang",
   "tags": [
     "some sovyn clove",
     "stalk of chicory",
@@ -42,29 +39,6 @@
     "wild carrot",
     "ginger root",
     "some acantha leaf",
-    "some bur-clover root",
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "small flower",
-    "angelica root",
-    "sprig of alyssum",
-    "stalk of goldenrod",
-    "yellow primrose",
-    "small wild rose",
-    "wild chokecherry",
-    "motherwort",
-    "murkweed",
-    "blue whortleberry",
-    "white baneberry",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some bur-clover root"
   ]
 }

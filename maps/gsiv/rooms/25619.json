@@ -1,43 +1,36 @@
 {
-  "wayto": {
-    "18842": {
-      "stringproc": "9bb487520851777a4498d634efa0641d"
-    },
-    "13966": {
-      "stringproc": "96ff2a4397f949da862d12cfef624730"
-    },
-    "25618": {
-      "stringproc": "a37368c4e08ca1379b2ea296e4ee7ea5"
-    }
-  },
-  "paths": [
-    "Obvious paths: southeast, south, southwest, west, northwest, down"
-  ],
-  "image_coords": [
-    1163,
-    690,
-    1181,
-    711
-  ],
-  "terrain": null,
-  "description": [
-    "Along this stretch, the roots of several trees lie exposed where soil has been eroded by the river.  In the midst of one such root cluster, a turtle floats serenely, only its head and upper shell exposed.  Further along, a large oak tilts precariously out over the water, clinging desperately to its worn away foundation.  Some enterprising individual has taken advantage of the tree's situation by attaching a rope swing to one of the stouter branches."
-  ],
-  "image": "en-ravelin.png",
-  "climate": null,
+  "id": 25619,
   "title": [
     "[Mistydeep, Ravelin]"
   ],
-  "check_location": null,
+  "description": [
+    "Along this stretch, the roots of several trees lie exposed where soil has been eroded by the river.  In the midst of one such root cluster, a turtle floats serenely, only its head and upper shell exposed.  Further along, a large oak tilts precariously out over the water, clinging desperately to its worn away foundation.  Some enterprising individual has taken advantage of the tree's situation by attaching a rope swing to one of the stouter branches."
+  ],
+  "paths": [
+    "Obvious paths: southeast, south, southwest, west, northwest, down"
+  ],
+  "location": "the northern reaches of the Mistydeep River",
+  "wayto": {
+    "18842": {
+      "file": "string_procs/wayto/25619_18842.rb"
+    },
+    "13966": {
+      "file": "string_procs/wayto/25619_13966.rb"
+    },
+    "25618": {
+      "file": "string_procs/wayto/25619_25618.rb"
+    }
+  },
   "timeto": {
     "18842": 0.2,
     "13966": 0.2,
     "25618": 0.2
   },
-  "id": 25619,
-  "location": "the northern reaches of the Mistydeep River",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  "image": "en-ravelin.png",
+  "image_coords": [
+    1163,
+    690,
+    1181,
+    711
+  ]
 }

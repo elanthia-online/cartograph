@@ -1,46 +1,38 @@
 {
+  "id": 3190,
+  "title": [
+    "[Icemule Mausoleum, Main Room]"
+  ],
+  "description": [
+    "Archways lead off in three directions from the main chamber of the mausoleum.  Snow, spilling in from the open entryway, makes the ground somewhat slick.  In between the arches are lancet-shaped niches holding large earthenware vases."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, northwest, out"
+  ],
+  "location": "the southern snowfields",
   "wayto": {
     "3189": "out",
     "3191": "northeast",
     "3192": "northwest",
     "3193": "north"
   },
-  "paths": [
-    "Obvious exits: north, northeast, northwest, out"
-  ],
-  "image_coords": [
-    770,
-    1169,
-    782,
-    1181
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Archways lead off in three directions from the main chamber of the mausoleum.  Snow, spilling in from the open entryway, makes the ground somewhat slick.  In between the arches are lancet-shaped niches holding large earthenware vases."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Icemule Mausoleum, Main Room]"
-  ],
-  "check_location": null,
   "timeto": {
     "3189": 0.2,
     "3191": 0.2,
     "3192": 0.2,
     "3193": 0.2
   },
-  "id": 3190,
-  "location": "the southern snowfields",
+  "image": "imt-south_gate-1264234799.png",
+  "image_coords": [
+    770,
+    1169,
+    782,
+    1181
+  ],
   "tags": [
     "white vysan",
     "skeleton",
     "phantom",
-    "dark apparition",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "dark apparition"
   ]
 }

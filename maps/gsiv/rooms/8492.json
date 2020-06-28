@@ -1,42 +1,32 @@
 {
+  "id": 8492,
+  "title": [
+    "[Temple, Sanctuary]"
+  ],
+  "description": [
+    "A damp breeze blows in through a warped door tucked away in an alcove in the west wall.  Dead leaves skitter across the floor, leaving tracings in the dirt.  To the north, at the head of the sanctuary, the altar sits above the floor level for all to see.  Once a comforting presence, the altar now seems dead at best, malevolent at worst."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "the Temple of Love",
   "wayto": {
     "8491": "east",
     "8493": "south",
     "8495": "go door",
     "8499": "go altar"
   },
-  "paths": [
-    "Obvious exits: east, south"
-  ],
-  "image_coords": [
-    279,
-    684,
-    289,
-    694
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A damp breeze blows in through a warped door tucked away in an alcove in the west wall.  Dead leaves skitter across the floor, leaving tracings in the dirt.  To the north, at the head of the sanctuary, the altar sits above the floor level for all to see.  Once a comforting presence, the altar now seems dead at best, malevolent at worst."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Temple, Sanctuary]"
-  ],
-  "check_location": null,
   "timeto": {
     "8491": 0.2,
     "8493": 0.2,
     "8495": 0.2,
     "8499": 0.2
   },
-  "id": 8492,
-  "location": "the Temple of Love",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-trollfang-1264234799.png",
+  "image_coords": [
+    279,
+    684,
+    289,
+    694
   ]
 }

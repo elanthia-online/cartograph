@@ -1,33 +1,30 @@
 {
+  "id": 2995,
+  "title": [
+    "[A Winding Path]"
+  ],
+  "description": [
+    "The pathway rises, shifting sometimes eastward, sometimes westward, ever continuing up the side of the mountain.  Dead grey wood and stunted black pine trees jut into the pathway, but do not obliterate it."
+  ],
+  "paths": [
+    "Obvious paths: southwest, northwest"
+  ],
+  "location": "the Abbey",
   "wayto": {
     "2994": "northwest",
     "2996": "southwest"
   },
-  "paths": [
-    "Obvious paths: southwest, northwest"
-  ],
+  "timeto": {
+    "2994": 0.2,
+    "2996": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     718,
     975,
     728,
     985
   ],
-  "terrain": "mountainous",
-  "description": [
-    "The pathway rises, shifting sometimes eastward, sometimes westward, ever continuing up the side of the mountain.  Dead grey wood and stunted black pine trees jut into the pathway, but do not obliterate it."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[A Winding Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2994": 0.2,
-    "2996": 0.2
-  },
-  "id": 2995,
-  "location": "the Abbey",
   "tags": [
     "some angelica root",
     "winter rose",
@@ -51,18 +48,6 @@
     "marallis berry",
     "some wingstem root",
     "some pennyroyal stem",
-    "small loganberry",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "tundra grass",
-    "snowberries",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "small loganberry"
   ]
 }

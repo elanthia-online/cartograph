@@ -1,33 +1,30 @@
 {
+  "id": 10202,
+  "title": [
+    "[Grassland]"
+  ],
+  "description": [
+    "A large, tranquil pond stretches out to the west, its waters rippling in a soft breeze.  The tips of marsh grass and cattails rise from the surface of the pond, looking as though each plant had decided to take a quick dip in the cool, refreshing water.  Many deep sets of prints and diggings in the muddy shore mark this spot as a favored watering hole for the nearby fauna."
+  ],
+  "paths": [
+    "Obvious paths: north, east"
+  ],
+  "location": "the grasslands",
   "wayto": {
     "10200": "north",
     "10203": "east"
   },
-  "paths": [
-    "Obvious paths: north, east"
-  ],
+  "timeto": {
+    "10200": 0.2,
+    "10203": 0.2
+  },
+  "image": "en-fearling-1264234799.png",
   "image_coords": [
     147,
     489,
     157,
     499
   ],
-  "terrain": null,
-  "description": [
-    "A large, tranquil pond stretches out to the west, its waters rippling in a soft breeze.  The tips of marsh grass and cattails rise from the surface of the pond, looking as though each plant had decided to take a quick dip in the cool, refreshing water.  Many deep sets of prints and diggings in the muddy shore mark this spot as a favored watering hole for the nearby fauna."
-  ],
-  "image": "en-fearling-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Grassland]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10200": 0.2,
-    "10203": 0.2
-  },
-  "id": 10202,
-  "location": "the grasslands",
   "tags": [
     "some acantha leaf",
     "some calamia fruit",
@@ -68,8 +65,5 @@
     "ironfern root",
     "sunburst blossom",
     "talneo root"
-  ],
-  "links": [
-
   ]
 }

@@ -1,51 +1,40 @@
 {
-  "wayto": {
-    "3987": {
-      "stringproc": "395b361a16c8a355265cda519abf9fe5"
-    },
-    "4582": {
-      "stringproc": "dbbfd361e7886ce7121cafa8a1b5c5c5"
-    }
-  },
+  "id": 3988,
+  "title": [
+    "[Griffin's Keen, Western Track]"
+  ],
+  "description": [
+    "Snow drifts accumulate on the ground and fill in the crevices and ridges of the rock face.  Days of thin sunlight and nights of bitter cold have made a permanent layer of ice on the solid rock."
+  ],
   "paths": [
     "Obvious paths: up, down"
   ],
+  "location": "Griffin's Keen",
+  "wayto": {
+    "3987": {
+      "file": "string_procs/wayto/3988_3987.rb"
+    },
+    "4582": {
+      "file": "string_procs/wayto/3988_4582.rb"
+    }
+  },
+  "timeto": {
+    "3987": 4.2,
+    "4582": 4.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     529,
     330,
     539,
     340
   ],
-  "terrain": null,
-  "description": [
-    "Snow drifts accumulate on the ground and fill in the crevices and ridges of the rock face.  Days of thin sunlight and nights of bitter cold have made a permanent layer of ice on the solid rock."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Griffin's Keen, Western Track]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3987": 4.2,
-    "4582": 4.2
-  },
-  "id": 3988,
-  "location": "Griffin's Keen",
   "tags": [
     "sprig of holly",
     "some angelica root",
     "sweetfern stalk",
     "some valerian root",
     "some pennyroyal stem",
-    "sassafras leaf",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sassafras leaf"
   ]
 }

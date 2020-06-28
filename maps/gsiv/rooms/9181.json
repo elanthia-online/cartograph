@@ -1,38 +1,28 @@
 {
+  "id": 9181,
+  "title": [
+    "[Thurfel's Keep]"
+  ],
+  "description": [
+    "Two glowing amber gems partially embedded into the walls provide illumination for this passageway.  The opaque surface of the stones glitter wildly as if a swarm of tiny fireflies might be nesting within.  Interestingly, it radiates a great deal of heat as well."
+  ],
+  "paths": [
+    "Obvious exits: southeast, west"
+  ],
+  "location": "Thurfel's Island",
   "wayto": {
     "9180": "southeast",
     "9182": "west"
   },
-  "paths": [
-    "Obvious exits: southeast, west"
-  ],
+  "timeto": {
+    "9180": 0.2,
+    "9182": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     794,
     821,
     804,
     831
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Two glowing amber gems partially embedded into the walls provide illumination for this passageway.  The opaque surface of the stones glitter wildly as if a swarm of tiny fireflies might be nesting within.  Interestingly, it radiates a great deal of heat as well."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thurfel's Keep]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9180": 0.2,
-    "9182": 0.2
-  },
-  "id": 9181,
-  "location": "Thurfel's Island",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

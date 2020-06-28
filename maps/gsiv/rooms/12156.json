@@ -1,42 +1,39 @@
 {
-  "wayto": {
-    "12096": "northeast",
-    "12097": "west",
-    "12207": {
-      "stringproc": "e92c9dd14f17f62ccd19f33b9f37fe22"
-    },
-    "12235": {
-      "stringproc": "6257723a0157210f5f1e2eb6e7c5dbb4"
-    }
-  },
+  "id": 12156,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "A stone basin sits in the center of the castle courtyard.  Standing within it is a man, badly wounded, up to his knees in blood.  The crimson liquid pours from his cuts, trickling into the pool with a happy sound reminiscent of a burbling fountain.  He holds his hands above his head, as if bound by an invisible cord, although his face registers no emotion at all."
+  ],
   "paths": [
     "Obvious exits: northeast, west",
     "Obvious paths: northeast, west"
   ],
-  "image_coords": [
-    649,
-    1261,
-    659,
-    1271
-  ],
-  "terrain": null,
-  "description": [
-    "A stone basin sits in the center of the castle courtyard.  Standing within it is a man, badly wounded, up to his knees in blood.  The crimson liquid pours from his cuts, trickling into the pool with a happy sound reminiscent of a burbling fountain.  He holds his hands above his head, as if bound by an invisible cord, although his face registers no emotion at all."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12096": "northeast",
+    "12097": "west",
+    "12207": {
+      "file": "string_procs/wayto/12156_12207.rb"
+    },
+    "12235": {
+      "file": "string_procs/wayto/12156_12235.rb"
+    }
+  },
   "timeto": {
     "12096": 0.2,
     "12097": 0.2,
     "12207": 11.4,
     "12235": 11.4
   },
-  "id": 12156,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    649,
+    1261,
+    659,
+    1271
+  ],
   "tags": [
     "oozing fleshsore bulb",
     "twisted black mawflower",
@@ -45,8 +42,5 @@
     "withered deathblossom",
     "rotting bile green fleshbulb",
     "slime-covered grave blossom"
-  ],
-  "links": [
-
   ]
 }

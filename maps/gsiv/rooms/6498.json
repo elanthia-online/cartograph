@@ -1,37 +1,28 @@
 {
-  "wayto": {
-    "6495": {
-      "stringproc": "895d6ce1a0a43ba101f99786fe71840e"
-    },
-    "6496": {
-      "stringproc": "824e06975c0a46a812ca19b01f6cc92d"
-    }
-  },
-  "paths": [
-    "Obvious exits: out"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "This small stone alcove contains nothing more than a small wooden cot and a single iron spike protruding from the wall at head level."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 6498,
   "title": [
     "[Monastery, Monk's Cell]"
   ],
-  "check_location": null,
+  "description": [
+    "This small stone alcove contains nothing more than a small wooden cot and a single iron spike protruding from the wall at head level."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "wayto": {
+    "6495": {
+      "file": "string_procs/wayto/6498_6495.rb"
+    },
+    "6496": {
+      "file": "string_procs/wayto/6498_6496.rb"
+    }
+  },
   "timeto": {
     "6495": 0.2,
     "6496": 0.2
   },
-  "id": 6498,
-  "location": null,
   "tags": [
     "spectral monk",
     "monastic lich"
-  ],
-  "links": [
-
   ]
 }

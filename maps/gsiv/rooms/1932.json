@@ -1,43 +1,34 @@
 {
+  "id": 1932,
+  "title": [
+    "[Dragonspine and Krodera]"
+  ],
+  "description": [
+    "The street widens into a circular plaza several hundred feet across.  Dwarves and giantmen lounge on stone benches by a massive granite fountain in the center.  The burbling of the waters, the low mumblings of the dwarves and the booming laughter of the giants somehow blend together into a vibrant harmony."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south, west"
+  ],
+  "location": "the town of Kharam-Dzu",
   "wayto": {
     "1898": "south",
     "1931": "east",
     "1933": "west",
-    "1944": "north",
-    "3668": {
-      "stringproc": "1d41454a8ce526999afe00d553b29bee"
-    }
+    "1944": "north"
   },
-  "paths": [
-    "Obvious paths: north, east, south, west"
-  ],
+  "timeto": {
+    "1898": 3.0,
+    "1931": 3.0,
+    "1933": 3.0,
+    "1944": 3.0
+  },
+  "image": "ti-teras-1264234799.png",
   "image_coords": [
     1036,
     518,
     1066,
     548
   ],
-  "terrain": null,
-  "description": [
-    "The street widens into a circular plaza several hundred feet across.  Dwarves and giantmen lounge on stone benches by a massive granite fountain in the center.  The burbling of the waters, the low mumblings of the dwarves and the booming laughter of the giants somehow blend together into a vibrant harmony."
-  ],
-  "image": "ti-teras-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Dragonspine and Krodera]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1898": 5.0,
-    "1931": 5.0,
-    "1933": 5.0,
-    "1944": 5.0,
-    "3668": {
-      "stringproc": "2e87af919b7aa36629593478fcf980f8"
-    }
-  },
-  "id": 1932,
-  "location": "the town of Kharam-Dzu",
   "tags": [
     "node",
     "town",
@@ -45,11 +36,6 @@
     "meta:mapname:Teras Isle - Kharam-Dzu",
     "meta:mapshortname:Kharam-Dzu",
     "meta:mapcategory:Teras Isle",
-    "meta:mapcategory:Towns",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:mapcategory:Towns"
   ]
 }

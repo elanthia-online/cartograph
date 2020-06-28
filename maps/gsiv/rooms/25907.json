@@ -1,37 +1,30 @@
 {
+  "id": 25907,
+  "title": [
+    "[Sylinar's Spire]"
+  ],
+  "description": [
+    "The walls of the second level are bare, save for a few sconces and the open door that stands amidst its white stones.  The staircase spirals further upward to the third level of the tower."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Summit Academy",
   "wayto": {
     "25908": "go staircase",
     "25915": "go door",
     "25904": "down"
   },
-  "paths": [
-    "Obvious exits: down"
-  ],
-  "image_coords": [
-    938,
-    528,
-    987,
-    580
-  ],
-  "terrain": null,
-  "description": [
-    "The walls of the second level are bare, save for a few sconces and the open door that stands amidst its white stones.  The staircase spirals further upward to the third level of the tower."
-  ],
-  "image": "Spire_Grounds_5117.png",
-  "climate": null,
-  "title": [
-    "[Sylinar's Spire]"
-  ],
-  "check_location": null,
   "timeto": {
     "25908": 0.2,
     "25915": 0.2,
     "25904": 0.2
   },
-  "id": 25907,
-  "location": "Summit Academy",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  "image": "Spire_Grounds_5117.png",
+  "image_coords": [
+    938,
+    528,
+    987,
+    580
+  ]
 }

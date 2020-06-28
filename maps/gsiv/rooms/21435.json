@@ -1,35 +1,24 @@
 {
-  "wayto": {
-    "21434": "go opening",
-    "23164": {
-      "stringproc": "2ebd88665f269bd2548217be30001bb5"
-    }
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "A lacquered rosewood wardrobe and matching glass-topped bureau stand sentinel at the opening to this dressing room.  The walls are covered with mirrors in all shapes and sizes reflecting the candlelight illuminating from glass globes strung from the ceiling on gilded chains.  A velvet-cushioned chaise lounge reclines in one corner next to a cream leather trunk with gold hardware."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 21435,
   "title": [
     "[My Mummy's Boudoir, Wardrobe]"
   ],
-  "check_location": false,
+  "description": [
+    "A lacquered rosewood wardrobe and matching glass-topped bureau stand sentinel at the opening to this dressing room.  The walls are covered with mirrors in all shapes and sizes reflecting the candlelight illuminating from glass globes strung from the ceiling on gilded chains.  A velvet-cushioned chaise lounge reclines in one corner next to a cream leather trunk with gold hardware."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": false,
+  "wayto": {
+    "21434": "go opening",
+    "23164": {
+      "file": "string_procs/wayto/21435_23164.rb"
+    }
+  },
   "timeto": {
     "21434": 0.2,
     "23164": 0.2
   },
-  "id": 21435,
-  "location": false,
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  "check_location": false
 }

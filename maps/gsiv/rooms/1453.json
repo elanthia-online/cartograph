@@ -1,4 +1,15 @@
 {
+  "id": 1453,
+  "title": [
+    "[Solhaven, North Market East]"
+  ],
+  "description": [
+    "A brown awning stretches across the front of the large stone building here.  Hanging above the entrance is a metal breastplate, rusted from exposure to the salty sea air.  Two giantmen, deeply engrossed in conversation, lean casually against the building."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south, west"
+  ],
+  "location": "the free port of Solhaven",
   "wayto": {
     "1454": "east",
     "12813": "go entrance",
@@ -6,25 +17,6 @@
     "1460": "south",
     "1438": "west"
   },
-  "paths": [
-    "Obvious paths: north, east, south, west"
-  ],
-  "image_coords": [
-    1002,
-    576,
-    1026,
-    600
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "A brown awning stretches across the front of the large stone building here.  Hanging above the entrance is a metal breastplate, rusted from exposure to the salty sea air.  Two giantmen, deeply engrossed in conversation, lean casually against the building."
-  ],
-  "image": "vo-solhaven-1263764670.png",
-  "climate": "temperate",
-  "title": [
-    "[Solhaven, North Market East]"
-  ],
-  "check_location": null,
   "timeto": {
     "1454": 0.2,
     "12813": 0.2,
@@ -32,13 +24,11 @@
     "1460": 0.2,
     "1438": 0.2
   },
-  "id": 1453,
-  "location": "the free port of Solhaven",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "vo-solhaven-1263764670.png",
+  "image_coords": [
+    1002,
+    576,
+    1026,
+    600
   ]
 }

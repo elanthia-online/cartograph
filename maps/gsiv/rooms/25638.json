@@ -1,43 +1,36 @@
 {
-  "wayto": {
-    "13966": {
-      "stringproc": "3ffdea01fd3ae244d1d924bd8ed11d3f"
-    },
-    "18842": {
-      "stringproc": "f4a160dbb758ea2179459fea49e56cfd"
-    },
-    "25617": {
-      "stringproc": "26df9b1dc28ed71ecdddfc09cdbfc28c"
-    }
-  },
-  "paths": [
-    "Obvious paths: north, northeast, east, southeast, down"
-  ],
-  "image_coords": [
-    1124,
-    733,
-    1138,
-    750
-  ],
-  "terrain": null,
-  "description": [
-    "Swelling in breadth and depth, the Mistydeep appears impassive and majestic.  A family of ducks floats single file along one shore while geese peck at morsels between the pebbles nearby.  Deer tracks lead from the forest to the river's edge in a confused mishmash, indicating common use.  Houses commingle with the woods at the western bank while, to the east, the opposite shore is less easily discerned."
-  ],
-  "image": "en-ravelin.png",
-  "climate": null,
+  "id": 25638,
   "title": [
     "[Mistydeep, Ravelin]"
   ],
-  "check_location": null,
+  "description": [
+    "Swelling in breadth and depth, the Mistydeep appears impassive and majestic.  A family of ducks floats single file along one shore while geese peck at morsels between the pebbles nearby.  Deer tracks lead from the forest to the river's edge in a confused mishmash, indicating common use.  Houses commingle with the woods at the western bank while, to the east, the opposite shore is less easily discerned."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, east, southeast, down"
+  ],
+  "location": "the northern reaches of the Mistydeep River",
+  "wayto": {
+    "13966": {
+      "file": "string_procs/wayto/25638_13966.rb"
+    },
+    "18842": {
+      "file": "string_procs/wayto/25638_18842.rb"
+    },
+    "25617": {
+      "file": "string_procs/wayto/25638_25617.rb"
+    }
+  },
   "timeto": {
     "13966": 0.2,
     "18842": 0.2,
     "25617": 0.2
   },
-  "id": 25638,
-  "location": "the northern reaches of the Mistydeep River",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  "image": "en-ravelin.png",
+  "image_coords": [
+    1124,
+    733,
+    1138,
+    750
+  ]
 }

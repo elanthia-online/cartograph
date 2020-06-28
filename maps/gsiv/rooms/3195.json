@@ -1,35 +1,32 @@
 {
+  "id": 3195,
+  "title": [
+    "[Snowflake Vale, Forest]"
+  ],
+  "description": [
+    "The icy path emerges from the darkness of the evergreen forest into a shallow valley of mixed conifers and deciduous trees.  The valley floor is snow-covered, making the meandering trails highly visible."
+  ],
+  "paths": [
+    "Obvious paths: north, northwest"
+  ],
+  "location": "the southern snowfields",
   "wayto": {
     "3200": "north",
     "3196": "northwest",
     "3177": "go path"
   },
-  "paths": [
-    "Obvious paths: north, northwest"
-  ],
+  "timeto": {
+    "3200": 0.2,
+    "3196": 0.2,
+    "3177": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     201,
     1340,
     211,
     1350
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "The icy path emerges from the darkness of the evergreen forest into a shallow valley of mixed conifers and deciduous trees.  The valley floor is snow-covered, making the meandering trails highly visible."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Snowflake Vale, Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3200": 0.2,
-    "3196": 0.2,
-    "3177": 0.2
-  },
-  "id": 3195,
-  "location": "the southern snowfields",
   "tags": [
     "some valerian root",
     "tkaro root",
@@ -47,32 +44,6 @@
     "hobgoblin",
     "handful of snowberries",
     "some tree bark",
-    "some frostweed",
-    "sticks",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "iceblossoms",
-    "snow lily",
-    "winter rose",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "broken twig",
-    "pine needles",
-    "frostweed",
-    "snowberries",
-    "pale thornberry",
-    "tree bark",
-    "frostflower",
-    "ironfern root",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some frostweed"
   ]
 }

@@ -1,34 +1,31 @@
 {
+  "id": 1399,
+  "title": [
+    "[Cairnfang, Stepfalls Gorge]"
+  ],
+  "description": [
+    "The caravan trail ascends a series of sandstone shelves alongside the river.  Having cut through the soft stone, the river fills the air with scintillating mist as it cascades over several small falls in the gorge below.  To the southwest the trail veers from the river and enters a large clearing.",
+    "The caravan trail ascends a series of sandstone shelves alongside the river.  Having cut through the soft stone, the river fills the air with rainbowed mist as it cascades over several small falls in the gorge below.  To the southwest the trail veers from the river and enters a large clearing."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "1398": "northeast",
     "1400": "southwest"
   },
-  "paths": [
-    "Obvious paths: northeast, southwest"
-  ],
+  "timeto": {
+    "1398": 0.2,
+    "1400": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     1153,
     779,
     1163,
     789
   ],
-  "terrain": "riparian",
-  "description": [
-    "The caravan trail ascends a series of sandstone shelves alongside the river.  Having cut through the soft stone, the river fills the air with scintillating mist as it cascades over several small falls in the gorge below.  To the southwest the trail veers from the river and enters a large clearing.",
-    "The caravan trail ascends a series of sandstone shelves alongside the river.  Having cut through the soft stone, the river fills the air with rainbowed mist as it cascades over several small falls in the gorge below.  To the southwest the trail veers from the river and enters a large clearing."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Cairnfang, Stepfalls Gorge]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1398": 0.2,
-    "1400": 0.2
-  },
-  "id": 1399,
-  "location": "the Cairnfang",
   "tags": [
     "sprig of wild lilac",
     "water chestnut",
@@ -66,10 +63,6 @@
     "murdroot",
     "wavepetal blossom",
     "ironfern root",
-    "talneo root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "talneo root"
   ]
 }

@@ -1,45 +1,34 @@
 {
+  "id": 1728,
+  "title": [
+    "[Gossamer Pass]"
+  ],
+  "description": [
+    "The passage slopes gently upward from northwest to southeast.  To the southeast the mountain faces loom ever closer to the path as if they would suddenly clap shut, crushing anyone within.  Northwestward, the mountains take the opposite tack, leaning away from the trail and forming a narrow valley.  Perhaps this is just a different sinister trap, allowing a tremendous amount of snow to collect on the slopes before sending it down in a thunderous avalanche on trapped adventurers below."
+  ],
+  "paths": [
+    "Obvious paths: up, down"
+  ],
+  "location": "Gossamer Valley",
   "wayto": {
     "1727": "up",
     "1729": "down"
   },
-  "paths": [
-    "Obvious paths: up, down"
-  ],
+  "timeto": {
+    "1727": 0.2,
+    "1729": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     285,
     650,
     295,
     660
   ],
-  "terrain": "mountainous",
-  "description": [
-    "The passage slopes gently upward from northwest to southeast.  To the southeast the mountain faces loom ever closer to the path as if they would suddenly clap shut, crushing anyone within.  Northwestward, the mountains take the opposite tack, leaning away from the trail and forming a narrow valley.  Perhaps this is just a different sinister trap, allowing a tremendous amount of snow to collect on the slopes before sending it down in a thunderous avalanche on trapped adventurers below."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Gossamer Pass]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1727": 0.2,
-    "1729": 0.2
-  },
-  "id": 1728,
-  "location": "Gossamer Valley",
   "tags": [
     "sweetfern stalk",
     "sprig of holly",
     "sassafras leaf",
-    "some pennyroyal stem",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some pennyroyal stem"
   ]
 }

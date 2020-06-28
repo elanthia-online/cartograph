@@ -1,38 +1,28 @@
 {
+  "id": 7011,
+  "title": [
+    "[Castle Darkstone, Parapet]"
+  ],
+  "description": [
+    "A great cauldron hangs upside down on a hinged mount on the edge of the parapet, having dumped its contents long ago in a desperate attempt to thwart attackers.  The sooty marks around its base suggest that it was formerly heated over an open fire.  A guardtower lies to the east along the parapet, and the parapet itself continues to the west."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7010": "east",
     "7012": "west"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "7010": 0.2,
+    "7012": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     721,
     321,
     731,
     331
-  ],
-  "terrain": null,
-  "description": [
-    "A great cauldron hangs upside down on a hinged mount on the edge of the parapet, having dumped its contents long ago in a desperate attempt to thwart attackers.  The sooty marks around its base suggest that it was formerly heated over an open fire.  A guardtower lies to the east along the parapet, and the parapet itself continues to the west."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Castle Darkstone, Parapet]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7010": 0.2,
-    "7012": 0.2
-  },
-  "id": 7011,
-  "location": "Darkstone Castle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

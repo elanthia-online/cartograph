@@ -1,52 +1,31 @@
 {
+  "id": 10046,
+  "title": [
+    "[Yegharren Plain, Black Moor]"
+  ],
+  "description": [
+    "Silvery mist seeps through jagged cracks in the blackened ground, collecting in swirls and eddies that glide over and around the rough scrub and broken stones that dot the moor.  Several jet-black crows perch in a skeletal tree in the distance, fluffing their inky feathers against the cold wind as they impassively watch their surroundings."
+  ],
+  "paths": [
+    "Obvious paths: southeast, west"
+  ],
+  "location": "the Yegharren Plains",
   "wayto": {
     "10043": "southeast",
     "10044": "west"
   },
-  "paths": [
-    "Obvious paths: southeast, west"
-  ],
+  "timeto": {
+    "10043": 0.2,
+    "10044": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     1322,
     408,
     1332,
     418
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "Silvery mist seeps through jagged cracks in the blackened ground, collecting in swirls and eddies that glide over and around the rough scrub and broken stones that dot the moor.  Several jet-black crows perch in a skeletal tree in the distance, fluffing their inky feathers against the cold wind as they impassively watch their surroundings."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Yegharren Plain, Black Moor]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10043": 0.2,
-    "10044": 0.2
-  },
-  "id": 10046,
-  "location": "the Yegharren Plains",
   "tags": [
-    "some cothinar flower",
-    "cothinar flower",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "wild strawberry",
-    "blueberries",
-    "stalk of chicory",
-    "broken twig",
-    "sprig of larkspur",
-    "small wild rose",
-    "sprig of wild lilac",
-    "wild chokecherry",
-    "blue whortleberry",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cothinar flower"
   ]
 }

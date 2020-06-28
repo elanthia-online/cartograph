@@ -1,38 +1,31 @@
 {
+  "id": 20038,
+  "title": [
+    "[Cleric Guild, Prayer Room]"
+  ],
+  "description": [
+    "Faces stare out of the stone.  Each is of the same woman, her eyes holding nothing resembling sanity.  Every face is different, some happy, some sad, some angry and some simply lunatic.  In the back corner stands a statue, the place where the face would go smooth and featureless.  A small tunnel leads off behind the statue."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "Kharam-Dzu",
   "wayto": {
     "20037": "southwest",
     "20039": "go tunnel"
   },
-  "paths": [
-    "Obvious exits: southwest"
-  ],
+  "timeto": {
+    "20037": 0.2,
+    "20039": 0.2
+  },
+  "image": "ti-Cleric_Guild-1267238976.jpg",
   "image_coords": [
     553,
     67,
     579,
     96
   ],
-  "terrain": null,
-  "description": [
-    "Faces stare out of the stone.  Each is of the same woman, her eyes holding nothing resembling sanity.  Every face is different, some happy, some sad, some angry and some simply lunatic.  In the back corner stands a statue, the place where the face would go smooth and featureless.  A small tunnel leads off behind the statue."
-  ],
-  "image": "ti-Cleric_Guild-1267238976.jpg",
-  "climate": null,
-  "title": [
-    "[Cleric Guild, Prayer Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "20037": 0.2,
-    "20039": 0.2
-  },
-  "id": 20038,
-  "location": "Kharam-Dzu",
   "tags": [
     "zelia"
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

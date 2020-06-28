@@ -1,42 +1,32 @@
 {
+  "id": 6433,
+  "title": [
+    "[Lysierian Hills, Store]"
+  ],
+  "description": [
+    "A potbellied stove occupies the center of the room, its squat black body now covered with dust and cobwebs.  Some shelves still hang on the walls, but most have fallen down from the brackets that held them."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east, out"
+  ],
+  "location": "the Lysierian Hills",
   "wayto": {
     "6432": "out",
     "6434": "east",
     "6435": "northeast",
     "6436": "north"
   },
-  "paths": [
-    "Obvious exits: north, northeast, east, out"
-  ],
-  "image_coords": [
-    1099,
-    65,
-    1109,
-    75
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A potbellied stove occupies the center of the room, its squat black body now covered with dust and cobwebs.  Some shelves still hang on the walls, but most have fallen down from the brackets that held them."
-  ],
-  "image": "wl-lysierian-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Lysierian Hills, Store]"
-  ],
-  "check_location": null,
   "timeto": {
     "6432": 0.2,
     "6434": 0.2,
     "6435": 0.2,
     "6436": 0.2
   },
-  "id": 6433,
-  "location": "the Lysierian Hills",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-lysierian-1264234799.png",
+  "image_coords": [
+    1099,
+    65,
+    1109,
+    75
   ]
 }

@@ -1,50 +1,31 @@
 {
+  "id": 6711,
+  "title": [
+    "[Ridge End]"
+  ],
+  "description": [
+    "The ridge continues to the northwest and southwest.  The walls of the mountain rise up to the east, providing some shelter from the biting winds.  You notice a small tuft of fur wedged amongst the rocks.  It looks like some animal has been using this area as its lair."
+  ],
+  "paths": [
+    "Obvious paths: southwest, northwest"
+  ],
+  "location": "the Upper Dragonsclaw",
   "wayto": {
     "6710": "southwest",
     "6712": "northwest"
   },
-  "paths": [
-    "Obvious paths: southwest, northwest"
-  ],
+  "timeto": {
+    "6710": 0.2,
+    "6712": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     279,
     1212,
     289,
     1222
   ],
-  "terrain": "mountainous",
-  "description": [
-    "The ridge continues to the northwest and southwest.  The walls of the mountain rise up to the east, providing some shelter from the biting winds.  You notice a small tuft of fur wedged amongst the rocks.  It looks like some animal has been using this area as its lair."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Ridge End]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6710": 0.2,
-    "6712": 0.2
-  },
-  "id": 6711,
-  "location": "the Upper Dragonsclaw",
   "tags": [
-    "marallis berry",
-    "cuctucae berry",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "sprig of larkspur",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "marallis berry"
   ]
 }

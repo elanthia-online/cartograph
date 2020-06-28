@@ -1,33 +1,30 @@
 {
+  "id": 447,
+  "title": [
+    "[Lower Dragonsclaw, Grasslands]"
+  ],
+  "description": [
+    "The waving grasses beneath your feet grow taller, the bright green mingling with the darker hues of the sky.  Hearing a sharp cry far above, you raise your eyes to see a blue-banded hawk spiraling overhead in search of prey."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Lower Dragonsclaw",
   "wayto": {
     "446": "north",
     "448": "south"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "446": 0.2,
+    "448": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     657,
     597,
     667,
     607
   ],
-  "terrain": "grassland",
-  "description": [
-    "The waving grasses beneath your feet grow taller, the bright green mingling with the darker hues of the sky.  Hearing a sharp cry far above, you raise your eyes to see a blue-banded hawk spiraling overhead in search of prey."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Lower Dragonsclaw, Grasslands]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "446": 0.2,
-    "448": 0.2
-  },
-  "id": 447,
-  "location": "the Lower Dragonsclaw",
   "tags": [
     "blue trafel mushroom",
     "some sovyn clove",
@@ -105,10 +102,6 @@
     "ironfern root",
     "nightbloom blossom",
     "brostheras grass",
-    "woad leaves",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "woad leaves"
   ]
 }

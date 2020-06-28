@@ -1,37 +1,28 @@
 {
+  "id": 16667,
+  "title": [
+    "[Underground Tunnel]"
+  ],
+  "description": [
+    "The dirt walls are damp here, and the floor is a bit muddy.  Black beetles crawl in and out around the lattice of roots that protrude through the soil.  The tunnel narrows into a small dead-end passage to the south."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "16656": "northeast",
     "16668": "south"
   },
-  "paths": [
-    "Obvious exits: northeast, south"
-  ],
+  "timeto": {
+    "16656": 0.2,
+    "16668": 0.2
+  },
+  "image": "wl-rogue_guild-1267242645.png",
   "image_coords": [
     244,
     751,
     272,
     779
-  ],
-  "terrain": null,
-  "description": [
-    "The dirt walls are damp here, and the floor is a bit muddy.  Black beetles crawl in and out around the lattice of roots that protrude through the soil.  The tunnel narrows into a small dead-end passage to the south."
-  ],
-  "image": "wl-rogue_guild-1267242645.png",
-  "climate": null,
-  "title": [
-    "[Underground Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "16656": 0.2,
-    "16668": 0.2
-  },
-  "id": 16667,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "links": [
-
   ]
 }

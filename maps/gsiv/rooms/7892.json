@@ -1,35 +1,32 @@
 {
-  "wayto": {
-    "7891": "northwest",
-    "24675": {
-      "stringproc": "632770d5f144cd8d096c4cf5a27605ee"
-    }
-  },
+  "id": 7892,
+  "title": [
+    "[Upper Trollfang, Winding Trees]"
+  ],
+  "description": [
+    "A dense wall of thick fog covers the path to the southeast making it impossible to venture further in that direction.  You feel an odd stirring of mana within it that makes you uneasy, as if it were somehow alive and aware of your presence."
+  ],
   "paths": [
     "Obvious paths: northwest"
   ],
+  "location": "the Upper Trollfang",
+  "wayto": {
+    "7891": "northwest",
+    "24675": {
+      "file": "string_procs/wayto/7892_24675.rb"
+    }
+  },
+  "timeto": {
+    "7891": 0.2,
+    "24675": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     1083,
     1032,
     1093,
     1042
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "A dense wall of thick fog covers the path to the southeast making it impossible to venture further in that direction.  You feel an odd stirring of mana within it that makes you uneasy, as if it were somehow alive and aware of your presence."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Upper Trollfang, Winding Trees]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7891": 0.2,
-    "24675": 0.2
-  },
-  "id": 7892,
-  "location": "the Upper Trollfang",
   "tags": [
     "wild pink geranium",
     "some acantha leaf",
@@ -48,27 +45,6 @@
     "bright red cranberry",
     "some tree bark",
     "wintergreen leaf",
-    "tkaro root",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "sticks",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "broken twig",
-    "tree bark",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "tkaro root"
   ]
 }

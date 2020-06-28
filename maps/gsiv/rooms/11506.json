@@ -1,38 +1,29 @@
 {
-  "wayto": {
-    "11505": "go doorway"
-  },
+  "id": 11506,
+  "title": [
+    "[Ruined Tower, Workshop]"
+  ],
+  "description": [
+    "Heavily corroded brass curtain rods are barely intact over the archway leading westward, the curtains that once draped over the arch long gone.  A large crystal orb stands on a pedestal in the middle of the chamber, a bluish-green viscous fluid writhing on the interior of the sphere.  The sphere gives off a faint glow that fills the chamber, highlighting the alembics, phials, crucibles and retorts that rest on an old workbench."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "wayto": {
+    "11505": "go doorway"
+  },
+  "timeto": {
+    "11505": 0.2
+  },
+  "image": "rr-maelstrom-1266390501.png",
   "image_coords": [
     815,
     1009,
     825,
     1019
   ],
-  "terrain": "indoors",
-  "description": [
-    "Heavily corroded brass curtain rods are barely intact over the archway leading westward, the curtains that once draped over the arch long gone.  A large crystal orb stands on a pedestal in the middle of the chamber, a bluish-green viscous fluid writhing on the interior of the sphere.  The sphere gives off a faint glow that fills the chamber, highlighting the alembics, phials, crucibles and retorts that rest on an old workbench."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "indoors",
-  "title": [
-    "[Ruined Tower, Workshop]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11505": 0.2
-  },
-  "id": 11506,
-  "location": "the Ruined Tower",
   "tags": [
     "workshop",
-    "node",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "node"
   ]
 }

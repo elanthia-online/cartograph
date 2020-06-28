@@ -1,36 +1,25 @@
 {
-  "wayto": {
-    "11098": "go door"
-  },
+  "id": 11099,
+  "title": [
+    "[Krol Ship, Officer's Cabins]"
+  ],
+  "description": [
+    "This cabin is shared by the middle ranking Krolvin officers, and can be distinguished from the junior officers' cabin only in that the room has two beds.  Of course, this leaves little room for anything else, so the room is otherwise empty."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "wayto": {
+    "11098": "go door"
+  },
+  "timeto": {
+    "11098": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     1188,
     451,
     1198,
     461
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This cabin is shared by the middle ranking Krolvin officers, and can be distinguished from the junior officers' cabin only in that the room has two beds.  Of course, this leaves little room for anything else, so the room is otherwise empty."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "indoors",
-  "title": [
-    "[Krol Ship, Officer's Cabins]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11098": 0.2
-  },
-  "id": 11099,
-  "location": "the Sea Caves",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

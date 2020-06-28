@@ -1,38 +1,27 @@
 {
+  "id": 17714,
+  "title": [
+    "[Citadel, Dungeon Corridor]"
+  ],
+  "description": [
+    "Dressed in elaborate robes, a skeleton lies in the corner of the corridor.  A heavy wood spear lies across its lap, its point driven through the skeleton's ribcage.  Scorch marks surround the skeleton in uneven concentric circles, ending only where the corridor turns west and to the southeast."
+  ],
+  "paths": [
+    "Obvious exits: southeast, west"
+  ],
   "wayto": {
     "17712": "southeast",
     "17715": "west"
   },
-  "paths": [
-    "Obvious exits: southeast, west"
-  ],
+  "timeto": {
+    "17712": 0.2,
+    "17715": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     146,
     947,
     156,
     957
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Dressed in elaborate robes, a skeleton lies in the corner of the corridor.  A heavy wood spear lies across its lap, its point driven through the skeleton's ribcage.  Scorch marks surround the skeleton in uneven concentric circles, ending only where the corridor turns west and to the southeast."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Citadel, Dungeon Corridor]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "17712": 0.2,
-    "17715": 0.2
-  },
-  "id": 17714,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

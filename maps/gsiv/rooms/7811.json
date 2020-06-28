@@ -1,44 +1,28 @@
 {
+  "id": 7811,
+  "title": [
+    "[Cave, Ledge]"
+  ],
+  "description": [
+    "This narrow ledge is at least twenty feet above the floor of the high ceilinged room.  From here you have a good view of the room itself and the jumble of stones that provide access to the floor below."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "7810": "go opening",
     "7812": "climb stones"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "7810": 0.2,
+    "7812": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     240,
     677,
     250,
     687
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This narrow ledge is at least twenty feet above the floor of the high ceilinged room.  From here you have a good view of the room itself and the jumble of stones that provide access to the floor below."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Cave, Ledge]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7810": 0.2,
-    "7812": 0.2
-  },
-  "id": 7811,
-  "location": "the Upper Trollfang",
-  "tags": [
-    "withered black mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

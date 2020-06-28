@@ -1,33 +1,30 @@
 {
+  "id": 7499,
+  "title": [
+    "[Catacombs, Steep Passage]"
+  ],
+  "description": [
+    "The otherwise less than interesting tunnel suddenly turns into a steeply sloping passage that extends from the west to the east.  Climbing is rather difficult here since the lichen that covers the walls and ceiling as in the other nearby tunnels now covers the floor as well.  The trickling water has turned into a small flowing stream, also making it harder to stand."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "7493": "east",
     "7498": "west"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "7493": 0.2,
+    "7498": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     768,
     994,
     778,
     1004
   ],
-  "terrain": "indoors",
-  "description": [
-    "The otherwise less than interesting tunnel suddenly turns into a steeply sloping passage that extends from the west to the east.  Climbing is rather difficult here since the lichen that covers the walls and ceiling as in the other nearby tunnels now covers the floor as well.  The trickling water has turned into a small flowing stream, also making it harder to stand."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Catacombs, Steep Passage]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7493": 0.2,
-    "7498": 0.2
-  },
-  "id": 7499,
-  "location": "the catacombs",
   "tags": [
     "red trafel mushroom",
     "some wingstem root",
@@ -36,15 +33,6 @@
     "withered black mushroom",
     "white hook mushroom",
     "soft white mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "blue trafel mushroom"
   ]
 }

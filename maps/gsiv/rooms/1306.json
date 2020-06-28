@@ -1,35 +1,32 @@
 {
+  "id": 1306,
+  "title": [
+    "[Zeltoph Switchbacks]"
+  ],
+  "description": [
+    "Bits of cloth are stuck to the rock wall where others have boldly climbed up to a ledge that shadows the trail.  Huddling under the ledge would also provide protection from the occasional showers of rocks that rain down from above."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "the foothills of Zeltoph",
   "wayto": {
     "1305": "northeast",
     "9312": "climb ledge",
     "1307": "west"
   },
-  "paths": [
-    "Obvious paths: northeast, west"
-  ],
+  "timeto": {
+    "1305": 0.2,
+    "9312": 1.0,
+    "1307": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     338,
     365,
     348,
     375
   ],
-  "terrain": "mountainous",
-  "description": [
-    "Bits of cloth are stuck to the rock wall where others have boldly climbed up to a ledge that shadows the trail.  Huddling under the ledge would also provide protection from the occasional showers of rocks that rain down from above."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Zeltoph Switchbacks]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1305": 0.2,
-    "9312": 1.0,
-    "1307": 0.2
-  },
-  "id": 1306,
-  "location": "the foothills of Zeltoph",
   "tags": [
     "sprig of holly",
     "sprig of ivy",
@@ -46,10 +43,6 @@
     "ironfern root",
     "bolmara lichen",
     "wingstem root",
-    "alder bark",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "alder bark"
   ]
 }

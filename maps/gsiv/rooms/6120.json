@@ -1,33 +1,30 @@
 {
+  "id": 6120,
+  "title": [
+    "[Krag Slopes]"
+  ],
+  "description": [
+    "A worn mountain trail climbs up the side of the slope.  Sparse patches of vegetation testify to the harsh conditions of this rocky mountainside.  A deep chasm yawns to the north, its depths lost in the darkness as it seems to swallow the dim light that manages its way past the towering heights to the south."
+  ],
+  "paths": [
+    "Obvious paths: southwest"
+  ],
+  "location": "the Krag slopes",
   "wayto": {
     "6119": "jump chasm",
     "6121": "southwest"
   },
-  "paths": [
-    "Obvious paths: southwest"
-  ],
+  "timeto": {
+    "6119": 0.2,
+    "6121": 0.2
+  },
+  "image": "wl-wehntoph-1310775397.png",
   "image_coords": [
     1709,
     26,
     1745,
     62
   ],
-  "terrain": null,
-  "description": [
-    "A worn mountain trail climbs up the side of the slope.  Sparse patches of vegetation testify to the harsh conditions of this rocky mountainside.  A deep chasm yawns to the north, its depths lost in the darkness as it seems to swallow the dim light that manages its way past the towering heights to the south."
-  ],
-  "image": "wl-wehntoph-1310775397.png",
-  "climate": null,
-  "title": [
-    "[Krag Slopes]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6119": 0.2,
-    "6121": 0.2
-  },
-  "id": 6120,
-  "location": "the Krag slopes",
   "tags": [
     "sprig of larkspur",
     "wild pink geranium",
@@ -48,8 +45,5 @@
     "ironfern root",
     "bolmara lichen",
     "wingstem root"
-  ],
-  "links": [
-
   ]
 }

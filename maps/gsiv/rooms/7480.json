@@ -1,4 +1,15 @@
 {
+  "id": 7480,
+  "title": [
+    "[Dark Grotto, Huge Cavern]"
+  ],
+  "description": [
+    "The muted gurgle of running water is an odd intrusion into the quietude of the cavern.  A weak flow of water emerges from a small crack high up on the western cavern wall and cascades down over the stone to collect in a small rivulet that runs off to the east.  The stream presents no barrier to passage, being only a foot or two wide, and it is only the shallow stone channel, etched into the floor of the cavern by the flow of water over uncounted years, that keeps it from simply spreading out."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east, southeast, south, southwest"
+  ],
+  "location": "the Broken Lands",
   "wayto": {
     "7481": "north",
     "7482": "northeast",
@@ -7,25 +18,6 @@
     "7478": "southwest",
     "7479": "south"
   },
-  "paths": [
-    "Obvious exits: north, northeast, east, southeast, south, southwest"
-  ],
-  "image_coords": [
-    1001,
-    800,
-    1011,
-    810
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The muted gurgle of running water is an odd intrusion into the quietude of the cavern.  A weak flow of water emerges from a small crack high up on the western cavern wall and cascades down over the stone to collect in a small rivulet that runs off to the east.  The stream presents no barrier to passage, being only a foot or two wide, and it is only the shallow stone channel, etched into the floor of the cavern by the flow of water over uncounted years, that keeps it from simply spreading out."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dark Grotto, Huge Cavern]"
-  ],
-  "check_location": null,
   "timeto": {
     "7481": 0.2,
     "7482": 0.2,
@@ -34,8 +26,13 @@
     "7478": 0.2,
     "7479": 0.2
   },
-  "id": 7480,
-  "location": "the Broken Lands",
+  "image": "wl-broken-1264234799.png",
+  "image_coords": [
+    1001,
+    800,
+    1011,
+    810
+  ],
   "tags": [
     "luminescent green fungus",
     "purple mold",
@@ -53,16 +50,6 @@
     "some glowing green lichen",
     "myklian",
     "red myklian",
-    "purple myklian",
-    "blackened moss",
-    "green lichen",
-    "black toadstool",
-    "green fungus",
-    "cave moss",
-    "molds",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "purple myklian"
   ]
 }

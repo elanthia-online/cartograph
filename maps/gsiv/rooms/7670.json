@@ -1,39 +1,31 @@
 {
+  "id": 7670,
+  "title": [
+    "[Sea Cave, Steep Incline]"
+  ],
+  "description": [
+    "Numerous outcroppings on this steep incline provide convenient footholds.  The stone is dry and dusty.  You spot a small beetle scurrying nervously from rock to rock."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "7669": "down",
     "7671": "up"
   },
-  "paths": [
-    "Obvious exits: up, down"
-  ],
+  "timeto": {
+    "7669": 0.2,
+    "7671": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     952,
     439,
     962,
     449
   ],
-  "terrain": "indoors",
-  "description": [
-    "Numerous outcroppings on this steep incline provide convenient footholds.  The stone is dry and dusty.  You spot a small beetle scurrying nervously from rock to rock."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Cave, Steep Incline]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7669": 0.2,
-    "7671": 0.2
-  },
-  "id": 7670,
-  "location": "the Coastal Cliffs",
   "tags": [
-    "shelfae chieftain",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "shelfae chieftain"
   ]
 }

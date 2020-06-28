@@ -1,4 +1,15 @@
 {
+  "id": 9019,
+  "title": [
+    "[Solhaven, Spiral Passageway]"
+  ],
+  "description": [
+    "Turning slightly, the passageway continues to wind its way underneath the city, never far from the streets or the cool dampness of the bay.  Flickering lamplight from smoky wall sconces does little to dispell the dank surroundings.  The scent of freshly-baked bread from a nearby bakery draws passersby to the steps at either end of this large tunnel."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "Solhaven",
   "wayto": {
     "9020": "northeast",
     "21249": "go quoins-faced store",
@@ -8,25 +19,6 @@
     "13796": "go unrefined store",
     "9018": "west"
   },
-  "paths": [
-    "Obvious paths: northeast, west"
-  ],
-  "image_coords": [
-    1489,
-    488,
-    1501,
-    500
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "Turning slightly, the passageway continues to wind its way underneath the city, never far from the streets or the cool dampness of the bay.  Flickering lamplight from smoky wall sconces does little to dispell the dank surroundings.  The scent of freshly-baked bread from a nearby bakery draws passersby to the steps at either end of this large tunnel."
-  ],
-  "image": "vo-solhaven-1263764670.png",
-  "climate": "temperate",
-  "title": [
-    "[Solhaven, Spiral Passageway]"
-  ],
-  "check_location": null,
   "timeto": {
     "9020": 0.2,
     "21249": 0.2,
@@ -36,13 +28,11 @@
     "13796": 0.2,
     "9018": 0.2
   },
-  "id": 9019,
-  "location": "Solhaven",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "vo-solhaven-1263764670.png",
+  "image_coords": [
+    1489,
+    488,
+    1501,
+    500
   ]
 }

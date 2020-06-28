@@ -1,40 +1,30 @@
 {
-  "wayto": {
-    "39": "north",
-    "41": "out"
-  },
-  "paths": [
-    "Obvious paths: north, out"
+  "id": 40,
+  "title": [
+    "[Ta'Illistim, Portcullis Tunnel]"
   ],
-  "image_coords": [
-    1616,
-    938,
-    1638,
-    959
-  ],
-  "terrain": "hard, flat",
   "description": [
     "The stone walls vault endlessly upwards, lined with glowing amber lanterns and hung high above with the banner of House Illistim.  Hawk-eyed guards stand at the ready just inside the stony gate, watching travellers as they pass beneath the portcullis at the tunnel's mouth.",
     "The stone walls vault endlessly upwards, lined with brightly glowing silver lanterns and hung high above with the banner of Ta'Illistim.  A polished portcullis, its heavy bulk a grid of argent metalwork, is raised above the stony ground, marking the entrance and exit to the tunnel leading into the city.",
     "The stone walls vault endlessly upwards, lined with dimly glowing silver lanterns and hung high above with the banner of Ta'Illistim.  A polished portcullis, its heavy bulk a grid of argent metalwork, is raised above the stony ground, marking the entrance and exit to the tunnel leading into the city."
   ],
-  "image": "en-ta_illistim-new.jpg",
-  "climate": "temperate",
-  "title": [
-    "[Ta'Illistim, Portcullis Tunnel]"
+  "paths": [
+    "Obvious paths: north, out"
   ],
-  "check_location": null,
+  "location": "Whistler's Pass",
+  "wayto": {
+    "39": "north",
+    "41": "out"
+  },
   "timeto": {
     "39": 0.2,
     "41": 0.2
   },
-  "id": 40,
-  "location": "Whistler's Pass",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-ta_illistim-new.jpg",
+  "image_coords": [
+    1616,
+    938,
+    1638,
+    959
   ]
 }

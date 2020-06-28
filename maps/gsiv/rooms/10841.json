@@ -1,52 +1,38 @@
 {
+  "id": 10841,
+  "title": [
+    "[River's Rest, River Road]"
+  ],
+  "description": [
+    "As the river widens here, the growth along the shallows takes stronger hold.  Reeds and rushes sway gently in the slow moving current and crowd the odd structures which line the waterfront as far as you can see.  The noise to the west gives way to the quiet sounds of waterlife of all sorts: croaking frogs, splashing fish and silently stalking them both, a heron standing regally at the waters edge.  Across the river, the forest is held at bay and seems a world apart from this island retreat."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the town of River's Rest",
   "wayto": {
     "10840": "east",
     "10842": "west",
     "10887": "go quarters"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "10840": 0.2,
+    "10842": 0.2,
+    "10887": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     376,
     672,
     414,
     710
   ],
-  "terrain": "sandy",
-  "description": [
-    "As the river widens here, the growth along the shallows takes stronger hold.  Reeds and rushes sway gently in the slow moving current and crowd the odd structures which line the waterfront as far as you can see.  The noise to the west gives way to the quiet sounds of waterlife of all sorts: croaking frogs, splashing fish and silently stalking them both, a heron standing regally at the waters edge.  Across the river, the forest is held at bay and seems a world apart from this island retreat."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "temperate",
-  "title": [
-    "[River's Rest, River Road]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10840": 0.2,
-    "10842": 0.2,
-    "10887": 0.2
-  },
-  "id": 10841,
-  "location": "the town of River's Rest",
   "tags": [
     "some cactacae spine",
     "orange tiger lily",
     "yellow primrose",
     "some acantha leaf",
     "murdroot",
-    "some wingstem root",
-    "acantha leaf",
-    "cactacae spine",
-    "angelica root",
-    "sagebrush root",
-    "tiger lily",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

@@ -1,33 +1,30 @@
 {
+  "id": 5786,
+  "title": [
+    "[Zaerthu Tunnels, Stream]"
+  ],
+  "description": [
+    "Only the sound of the stream lapping against its banks delineates water from rock in the lightless passage.  The slimy walls press closer to the stream they confine as the tunnel snakes to the north."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Zaerthu Tunnels",
   "wayto": {
     "5785": "south",
     "5787": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "5785": 0.2,
+    "5787": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     402,
     812,
     412,
     822
   ],
-  "terrain": "indoors",
-  "description": [
-    "Only the sound of the stream lapping against its banks delineates water from rock in the lightless passage.  The slimy walls press closer to the stream they confine as the tunnel snakes to the north."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Zaerthu Tunnels, Stream]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5785": 0.2,
-    "5787": 0.2
-  },
-  "id": 5786,
-  "location": "the Zaerthu Tunnels",
   "tags": [
     "genkew mushroom",
     "flathead mushroom",
@@ -35,12 +32,6 @@
     "daggerstalk mushroom",
     "some talneo root",
     "withered black mushroom",
-    "soft white mushroom",
-    "murdroot",
-    "talneo root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "soft white mushroom"
   ]
 }

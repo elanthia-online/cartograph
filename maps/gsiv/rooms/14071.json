@@ -1,40 +1,30 @@
 {
+  "id": 14071,
+  "title": [
+    "[Castle Varunar, Inner Ward]"
+  ],
+  "description": [
+    "A large stone building sits along the western wall.  Atop the rectangular structure, several old banner poles sway slightly in the wind, their cloth standards long since gone.  A set of massive double doors stands open leading to the building's interior."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Castle Varunar",
   "wayto": {
     "14058": "south",
     "14069": "north",
     "14072": "go doors"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
-  "image_coords": [
-    652,
-    254,
-    662,
-    264
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "A large stone building sits along the western wall.  Atop the rectangular structure, several old banner poles sway slightly in the wind, their cloth standards long since gone.  A set of massive double doors stands open leading to the building's interior."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Castle Varunar, Inner Ward]"
-  ],
-  "check_location": null,
   "timeto": {
     "14058": 0.2,
     "14069": 0.2,
     "14072": 0.2
   },
-  "id": 14071,
-  "location": "Castle Varunar",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "vo-trail-1264234799.png",
+  "image_coords": [
+    652,
+    254,
+    662,
+    264
   ]
 }

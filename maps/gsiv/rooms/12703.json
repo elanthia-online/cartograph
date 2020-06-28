@@ -1,38 +1,28 @@
 {
+  "id": 12703,
+  "title": [
+    "[Ruined Temple, Second Floor]"
+  ],
+  "description": [
+    "A collapsed archway prevents passage through the southern portion of the hallway, despite the still standing support structures.  Daylight streams in through the window along the western wall, large portions of which have been removed.  The passage continues to the north, and a stable archway, supported by carved marble pillars, offers access to the eastern hall."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "the Ruined Temple",
   "wayto": {
     "12702": "east",
     "12716": "north"
   },
-  "paths": [
-    "Obvious exits: north, east"
-  ],
+  "timeto": {
+    "12702": 0.2,
+    "12716": 0.2
+  },
+  "image": "ti-nelemar-1262373036.png",
   "image_coords": [
     405,
     438,
     441,
     474
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A collapsed archway prevents passage through the southern portion of the hallway, despite the still standing support structures.  Daylight streams in through the window along the western wall, large portions of which have been removed.  The passage continues to the north, and a stable archway, supported by carved marble pillars, offers access to the eastern hall."
-  ],
-  "image": "ti-nelemar-1262373036.png",
-  "climate": "indoors",
-  "title": [
-    "[Ruined Temple, Second Floor]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "12702": 0.2,
-    "12716": 0.2
-  },
-  "id": 12703,
-  "location": "the Ruined Temple",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

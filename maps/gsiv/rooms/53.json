@@ -1,36 +1,33 @@
 {
+  "id": 53,
+  "title": [
+    "[Whistler's Pass, Meadow]"
+  ],
+  "description": [
+    "Tall, ancient trees give way to younger, shorter ones as the forest thins out.  At the dark wood's edge a meadow fans out under the hovering mist.",
+    "Tall, ancient trees give way to younger, shorter ones as the forest thins out.  At the wood's edge a golden meadow fans out under the hovering mist."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "52": "northeast",
     "13167": "go trail",
     "54": "west"
   },
-  "paths": [
-    "Obvious paths: northeast, west"
-  ],
+  "timeto": {
+    "52": 0.2,
+    "13167": 0.2,
+    "54": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     1061,
     322,
     1081,
     342
   ],
-  "terrain": "grassland",
-  "description": [
-    "Tall, ancient trees give way to younger, shorter ones as the forest thins out.  At the dark wood's edge a meadow fans out under the hovering mist.",
-    "Tall, ancient trees give way to younger, shorter ones as the forest thins out.  At the wood's edge a golden meadow fans out under the hovering mist."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Whistler's Pass, Meadow]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "52": 0.2,
-    "13167": 0.2,
-    "54": 0.2
-  },
-  "id": 53,
-  "location": "Whistler's Pass",
   "tags": [
     "some acantha leaf",
     "some ambrominas leaf",
@@ -116,10 +113,6 @@
     "fire lily",
     "murdroot",
     "nightbloom blossom",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

@@ -1,68 +1,35 @@
 {
+  "id": 9987,
+  "title": [
+    "[Yegharren Valley, Ravine]"
+  ],
+  "description": [
+    "The ravine ends abruptly in a wide, rocky area, the floor of the chasm smoothed by the pounding of falling water eons ago.  A few small trees and patches of weeds have taken root in the stony ground, amid piles of fallen rocks and a few bones of fallen adventurers, at the foot of the precipitous wall."
+  ],
+  "paths": [
+    "Obvious paths: down"
+  ],
+  "location": "the Yegharren Plains",
   "wayto": {
     "9988": "down",
     "5010": "climb wall"
   },
-  "paths": [
-    "Obvious paths: down"
-  ],
+  "timeto": {
+    "9988": 0.2,
+    "5010": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     1129,
     474,
     1139,
     484
   ],
-  "terrain": "rough",
-  "description": [
-    "The ravine ends abruptly in a wide, rocky area, the floor of the chasm smoothed by the pounding of falling water eons ago.  A few small trees and patches of weeds have taken root in the stony ground, amid piles of fallen rocks and a few bones of fallen adventurers, at the foot of the precipitous wall."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Yegharren Valley, Ravine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9988": 0.2,
-    "5010": 0.2
-  },
-  "id": 9987,
-  "location": "the Yegharren Plains",
   "tags": [
     "sprig of sky-blue delphinuris",
     "handful of elderberries",
     "red clover blossom",
     "handful of currants",
-    "purple clover blossom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "wild strawberry",
-    "blueberries",
-    "stalk of chicory",
-    "elderberries",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "wild grapes",
-    "broken twig",
-    "sprig of alyssum",
-    "heath aster",
-    "golden buttercup",
-    "pink clover blossom",
-    "white clover blossom",
-    "yellow clover blossom",
-    "stalk of goldenrod",
-    "sprig of larkspur",
-    "yellow primrose",
-    "small wild rose",
-    "wild chokecherry",
-    "motherwort",
-    "white baneberry",
-    "pepperthorn root",
-    "ironfern root",
-    "sky-blue delphinuris",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "purple clover blossom"
   ]
 }

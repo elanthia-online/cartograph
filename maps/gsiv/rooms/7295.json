@@ -1,35 +1,32 @@
 {
+  "id": 7295,
+  "title": [
+    "[Slither Creek]"
+  ],
+  "description": [
+    "A mass of mud and sticks can be seen through the thick plants growing along the bank.  On closer inspection the mass becomes the nest of a water bird, nestled in the grasses and cattails.  Four mottled eggs rest in the bowl, although looking at the placement, one egg may be missing."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7294": "west",
     "7296": "northeast",
     "7280": "go bank"
   },
-  "paths": [
-    "Obvious paths: northeast, west"
-  ],
+  "timeto": {
+    "7294": 0.2,
+    "7296": 0.2,
+    "7280": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     283,
     179,
     293,
     189
   ],
-  "terrain": "riparian",
-  "description": [
-    "A mass of mud and sticks can be seen through the thick plants growing along the bank.  On closer inspection the mass becomes the nest of a water bird, nestled in the grasses and cattails.  Four mottled eggs rest in the bowl, although looking at the placement, one egg may be missing."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "freshwater",
-  "title": [
-    "[Slither Creek]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7294": 0.2,
-    "7296": 0.2,
-    "7280": 0.2
-  },
-  "id": 7295,
-  "location": "the Graveyard",
   "tags": [
     "some aloeas stem",
     "wild gooseberry",
@@ -40,10 +37,6 @@
     "yellow water lily",
     "blue water lily",
     "murdroot",
-    "wavepetal blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wavepetal blossom"
   ]
 }

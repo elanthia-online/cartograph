@@ -1,38 +1,30 @@
 {
-  "wayto": {
-    "6386": "south"
-  },
+  "id": 6388,
+  "title": [
+    "[Smokey Cave, Cavern]"
+  ],
+  "description": [
+    "You find yourself in a small dead-end cavern.  The ceiling here is very low.  Again, all surfaces are covered with a fine black grit."
+  ],
   "paths": [
     "Obvious exits: south"
   ],
+  "location": "the Lysierian Hills",
+  "wayto": {
+    "6386": "south"
+  },
+  "timeto": {
+    "6386": 0.2
+  },
+  "image": "wl-lysierian-1264234799.png",
   "image_coords": [
     526,
     350,
     536,
     360
   ],
-  "terrain": "indoors",
-  "description": [
-    "You find yourself in a small dead-end cavern.  The ceiling here is very low.  Again, all surfaces are covered with a fine black grit."
-  ],
-  "image": "wl-lysierian-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Smokey Cave, Cavern]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6386": 0.2
-  },
-  "id": 6388,
-  "location": "the Lysierian Hills",
   "tags": [
     "fire rat",
-    "fire cat",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "fire cat"
   ]
 }

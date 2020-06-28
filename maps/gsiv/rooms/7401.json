@@ -1,41 +1,28 @@
 {
+  "id": 7401,
+  "title": [
+    "[Mine Tunnels]"
+  ],
+  "description": [
+    "Little clods of dirt and clay are scattered about the ground before you.  Though certainly not unusual to find within a mine of dirt and clay, their presence seems almost intentional despite the lack of any apparent use for them."
+  ],
+  "paths": [
+    "Obvious exits: northeast, west"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7400": "northeast",
     "7402": "west"
   },
-  "paths": [
-    "Obvious exits: northeast, west"
-  ],
+  "timeto": {
+    "7400": 0.2,
+    "7402": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1309,
     165,
     1319,
     175
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Little clods of dirt and clay are scattered about the ground before you.  Though certainly not unusual to find within a mine of dirt and clay, their presence seems almost intentional despite the lack of any apparent use for them."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mine Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7400": 0.2,
-    "7402": 0.2
-  },
-  "id": 7401,
-  "location": "the Shadow Valley",
-  "tags": [
-    "cave moss",
-    "blackgrove root",
-    "shadowlace moss",
-    "blue moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

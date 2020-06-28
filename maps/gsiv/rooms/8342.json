@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "8341": "go door"
-  },
+  "id": 8342,
+  "title": [
+    "[Spider Temple, Cell]"
+  ],
+  "description": [
+    "The murky darkness of the room cloaks its spartan contents in obscurity.  Feeling your way around the chamber, you find it devoid of furnishings save for a low, uncomfortable-looking cot and a few hooks nailed to the wall from which hang tattered and patched black robes."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "the Spider Temple",
+  "wayto": {
+    "8341": "go door"
+  },
+  "timeto": {
+    "8341": 0.2
+  },
+  "image": "wl-spider_temple-1264234799.png",
   "image_coords": [
     436,
     854,
     446,
     864
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The murky darkness of the room cloaks its spartan contents in obscurity.  Feeling your way around the chamber, you find it devoid of furnishings save for a low, uncomfortable-looking cot and a few hooks nailed to the wall from which hang tattered and patched black robes."
-  ],
-  "image": "wl-spider_temple-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Spider Temple, Cell]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8341": 0.2
-  },
-  "id": 8342,
-  "location": "the Spider Temple",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

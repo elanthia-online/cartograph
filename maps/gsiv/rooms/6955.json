@@ -1,37 +1,34 @@
 {
+  "id": 6955,
+  "title": [
+    "[Gorge, Intersection]"
+  ],
+  "description": [
+    "A large stream, or perhaps a small river, has carved a deep, narrow gorge into the native sedimentary stone here.  The walls of the gorge are almost vertical and provide no purchase.  In places, the limestone walls turn to glassy marbleized outcrops, as though some intense heat or force had crystallized or fused the rock together.  Such patches make it impossible to climb your way out."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "6985": {
-      "stringproc": "99716bd039a6315965c28a01aa922956"
+      "file": "string_procs/wayto/6955_6985.rb"
     },
     "22229": "go pool",
     "6954": "north"
   },
-  "paths": [
-    "Obvious paths: north"
-  ],
+  "timeto": {
+    "6985": 30.2,
+    "22229": 0.2,
+    "6954": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     158,
     206,
     168,
     216
   ],
-  "terrain": null,
-  "description": [
-    "A large stream, or perhaps a small river, has carved a deep, narrow gorge into the native sedimentary stone here.  The walls of the gorge are almost vertical and provide no purchase.  In places, the limestone walls turn to glassy marbleized outcrops, as though some intense heat or force had crystallized or fused the rock together.  Such patches make it impossible to climb your way out."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Gorge, Intersection]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6985": 30.2,
-    "22229": 0.2,
-    "6954": 0.2
-  },
-  "id": 6955,
-  "location": "Darkstone Castle",
   "tags": [
     "some wolifrew lichen",
     "wild pink geranium",
@@ -48,28 +45,6 @@
     "some tree bark",
     "white hook mushroom",
     "sweetfern stalk",
-    "some angelica root",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "sticks",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "wintergreen leaf",
-    "broken twig",
-    "tree bark",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some angelica root"
   ]
 }

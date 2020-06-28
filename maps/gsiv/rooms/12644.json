@@ -1,42 +1,32 @@
 {
+  "id": 12644,
+  "title": [
+    "[Temple, West Hall]"
+  ],
+  "description": [
+    "The holiness of this temple did little to preserve it from the ravages of fire that swept through the village.  The roof has been badly damaged and is falling in at many places.  Charred tatters are all that remain of the tapestries that once graced this room.  An ebony door sags from its hinges on one wall, and a vine covered doorway is barely visible to the northwest."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east"
+  ],
+  "location": "the Fhorian Village",
   "wayto": {
     "12645": "northeast",
     "12646": "east",
     "2083": "go doorway",
     "2075": "go door"
   },
-  "paths": [
-    "Obvious exits: northeast, east"
-  ],
-  "image_coords": [
-    612,
-    942,
-    620,
-    950
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The holiness of this temple did little to preserve it from the ravages of fire that swept through the village.  The roof has been badly damaged and is falling in at many places.  Charred tatters are all that remain of the tapestries that once graced this room.  An ebony door sags from its hinges on one wall, and a vine covered doorway is barely visible to the northwest."
-  ],
-  "image": "ti-wilds-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Temple, West Hall]"
-  ],
-  "check_location": null,
   "timeto": {
     "12645": 0.2,
     "12646": 0.2,
     "2083": 0.2,
     "2075": 0.2
   },
-  "id": 12644,
-  "location": "the Fhorian Village",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "ti-wilds-1264234799.png",
+  "image_coords": [
+    612,
+    942,
+    620,
+    950
   ]
 }

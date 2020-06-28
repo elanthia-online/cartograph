@@ -1,49 +1,33 @@
 {
+  "id": 9902,
+  "title": [
+    "[Wraithenmist, Hilltop]"
+  ],
+  "description": [
+    "The hilltop slopes downwards, signs of a narrow trail barely visible in the thickening mist.  Silvery tendrils of wispy fog gather and flow about the trees nearby as if caressing them tenderly."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Wraithenmist",
   "wayto": {
     "9901": "north",
     "9903": "go trail"
   },
-  "paths": [
-    "Obvious paths: north"
-  ],
+  "timeto": {
+    "9901": 0.2,
+    "9903": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     661,
     105,
     671,
     115
   ],
-  "terrain": "rough",
-  "description": [
-    "The hilltop slopes downwards, signs of a narrow trail barely visible in the thickening mist.  Silvery tendrils of wispy fog gather and flow about the trees nearby as if caressing them tenderly."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Wraithenmist, Hilltop]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9901": 0.2,
-    "9903": 0.2
-  },
-  "id": 9902,
-  "location": "Wraithenmist",
   "tags": [
     "wild strawberry",
     "stalk of chicory",
-    "sprig of larkspur",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "blueberries",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "broken twig",
-    "small wild rose",
-    "wild chokecherry",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sprig of larkspur"
   ]
 }

@@ -1,35 +1,32 @@
 {
+  "id": 1817,
+  "title": [
+    "[Wraithenmist, Shrouded Trail]"
+  ],
+  "description": [
+    "The trail splits in three directions, each disappearing into the mist a few feet away.  The weighty limbs of an ancient tree hang low over the trail, forcing passersby to duck beneath.  Moss drips from the limbs in silvery clumps."
+  ],
+  "paths": [
+    "Obvious paths: north, east, west"
+  ],
+  "location": "Wraithenmist",
   "wayto": {
     "1816": "east",
     "1818": "west",
     "9893": "north"
   },
-  "paths": [
-    "Obvious paths: north, east, west"
-  ],
+  "timeto": {
+    "1816": 0.2,
+    "1818": 0.2,
+    "9893": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     251,
     395,
     261,
     405
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "The trail splits in three directions, each disappearing into the mist a few feet away.  The weighty limbs of an ancient tree hang low over the trail, forcing passersby to duck beneath.  Moss drips from the limbs in silvery clumps."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Wraithenmist, Shrouded Trail]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1816": 0.2,
-    "1818": 0.2,
-    "9893": 0.2
-  },
-  "id": 1817,
-  "location": "Wraithenmist",
   "tags": [
     "stick",
     "some brostheras grass",
@@ -45,38 +42,6 @@
     "blue whortleberry",
     "bright red teaberry",
     "white hook mushroom",
-    "handful of blueberries",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "sticks",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "soft white mushroom",
-    "withered black mushroom",
-    "wintergreen leaf",
-    "blueberries",
-    "wild gooseberry",
-    "broken twig",
-    "small wild rose",
-    "sprig of wild lilac",
-    "bright red cranberry",
-    "tree bark",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "handful of blueberries"
   ]
 }

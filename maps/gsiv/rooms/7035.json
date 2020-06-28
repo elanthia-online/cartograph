@@ -1,38 +1,28 @@
 {
+  "id": 7035,
+  "title": [
+    "[Castle Darkstone, Tower]"
+  ],
+  "description": [
+    "This room is in surprisingly good condition.  The walls are solid and unbroken and there are even some furnishings in good repair to be seen.  Perhaps a guardroom or entry hall, it now seems to do duty as both a bedchamber and library.  A rough but servicable bed sits in one corner and a massively solid blackened oak table sits in the center of the room with some ancient leather-bound books upon it.  A woven tapestry hangs on the far wall, heavy and black as primordial sin."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7034": "out",
     "7036": "go staircase"
   },
-  "paths": [
-    "Obvious exits: out"
-  ],
+  "timeto": {
+    "7034": 0.2,
+    "7036": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     595,
     526,
     605,
     536
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This room is in surprisingly good condition.  The walls are solid and unbroken and there are even some furnishings in good repair to be seen.  Perhaps a guardroom or entry hall, it now seems to do duty as both a bedchamber and library.  A rough but servicable bed sits in one corner and a massively solid blackened oak table sits in the center of the room with some ancient leather-bound books upon it.  A woven tapestry hangs on the far wall, heavy and black as primordial sin."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Castle Darkstone, Tower]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7034": 0.2,
-    "7036": 0.2
-  },
-  "id": 7035,
-  "location": "Darkstone Castle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

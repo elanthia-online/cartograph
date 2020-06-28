@@ -1,33 +1,30 @@
 {
+  "id": 9372,
+  "title": [
+    "[Overlook Path]"
+  ],
+  "description": [
+    "This path is so overgrown that it is difficult to tell if human feet had once walked it.  The only sign that persons may have passed this way in the past is an old broken and weathered sign pointing to the west.  Whatever may have been once written on it is now unreadable.  Walking on this path one must be extremely careful not to be tripped by the overgrown vegetation.  A rocky path leads south back toward the village."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "9371": "go path",
     "9373": "west"
   },
-  "paths": [
-    "Obvious paths: west"
-  ],
+  "timeto": {
+    "9371": 0.2,
+    "9373": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     1187,
     167,
     1199,
     179
   ],
-  "terrain": "rough",
-  "description": [
-    "This path is so overgrown that it is difficult to tell if human feet had once walked it.  The only sign that persons may have passed this way in the past is an old broken and weathered sign pointing to the west.  Whatever may have been once written on it is now unreadable.  Walking on this path one must be extremely careful not to be tripped by the overgrown vegetation.  A rocky path leads south back toward the village."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Overlook Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9371": 0.2,
-    "9373": 0.2
-  },
-  "id": 9372,
-  "location": "the Cairnfang",
   "tags": [
     "wintergreen leaf",
     "bright red teaberry",
@@ -56,10 +53,6 @@
     "motherwort",
     "white baneberry",
     "pepperthorn root",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

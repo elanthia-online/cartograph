@@ -1,34 +1,31 @@
 {
+  "id": 964,
+  "title": [
+    "[Whistler's Pass]"
+  ],
+  "description": [
+    "High stone walls reach toward the dim lights of the starry sky, their smooth facades punctuated by small clusters of lichen and withered clumps of pale grass.  A pile of large boulders has fallen here, blocking further passage to the north.  Oddly, the towering stone walls do not appear to have crumbled or been damaged, cloaking the origin of the tumbled boulders in mystery.",
+    "High stone walls drape thick shadows across the narrow cleft, their smooth facades punctuated by small clusters of lichen and withered clumps of yellowed grass.  A pile of large boulders has fallen here, blocking further passage to the north.  Oddly, the towering stone walls do not appear to have crumbled or been damaged, cloaking the origin of the tumbled boulders in mystery."
+  ],
+  "paths": [
+    "Obvious paths: southwest"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "963": "climb boulders",
     "965": "southwest"
   },
-  "paths": [
-    "Obvious paths: southwest"
-  ],
+  "timeto": {
+    "963": 0.2,
+    "965": 0.2
+  },
+  "image": "en-whistlers_pass-1264234799.png",
   "image_coords": [
     296,
     1322,
     306,
     1332
   ],
-  "terrain": "mountainous",
-  "description": [
-    "High stone walls reach toward the dim lights of the starry sky, their smooth facades punctuated by small clusters of lichen and withered clumps of pale grass.  A pile of large boulders has fallen here, blocking further passage to the north.  Oddly, the towering stone walls do not appear to have crumbled or been damaged, cloaking the origin of the tumbled boulders in mystery.",
-    "High stone walls drape thick shadows across the narrow cleft, their smooth facades punctuated by small clusters of lichen and withered clumps of yellowed grass.  A pile of large boulders has fallen here, blocking further passage to the north.  Oddly, the towering stone walls do not appear to have crumbled or been damaged, cloaking the origin of the tumbled boulders in mystery."
-  ],
-  "image": "en-whistlers_pass-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Whistler's Pass]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "963": 0.2,
-    "965": 0.2
-  },
-  "id": 964,
-  "location": "Whistler's Pass",
   "tags": [
     "cuctucae berry",
     "marallis berry",
@@ -43,10 +40,6 @@
     "cluster of butterflyweed",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

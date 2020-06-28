@@ -1,41 +1,31 @@
 {
-  "wayto": {
-    "1533": "northeast",
-    "1569": "west"
-  },
+  "id": 1534,
+  "title": [
+    "[Solhaven, Beacon Circle South]",
+    "[Solhaven, Beacon Monument]"
+  ],
+  "description": [
+    "A few small houses line the street here, their quaint and plain architecture overshadowed by the large wall of the Beacon Tower looming north in the darkness.  Faint candlelight filters out from the a few of the curtained windows, though most appear to be dark.",
+    "A few small houses line the street here, their quaint and plain architecture overshadowed by the large wall of the Beacon Tower looming to the north.  Faint trails of smoke pour from the stunted little chimneys poking from underneath the building's wooden-shingled roofs, and the mild scent of cooking food drifts through the surroundings."
+  ],
   "paths": [
     "Obvious paths: northeast",
     "Obvious paths: northeast, west"
   ],
+  "location": "the southern part of Solhaven",
+  "wayto": {
+    "1533": "northeast",
+    "1569": "west"
+  },
+  "timeto": {
+    "1533": 0.2,
+    "1569": 0.2
+  },
+  "image": "vo-solhaven-1263764670.png",
   "image_coords": [
     1124,
     1395,
     1148,
     1419
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "A few small houses line the street here, their quaint and plain architecture overshadowed by the large wall of the Beacon Tower looming north in the darkness.  Faint candlelight filters out from the a few of the curtained windows, though most appear to be dark.",
-    "A few small houses line the street here, their quaint and plain architecture overshadowed by the large wall of the Beacon Tower looming to the north.  Faint trails of smoke pour from the stunted little chimneys poking from underneath the building's wooden-shingled roofs, and the mild scent of cooking food drifts through the surroundings."
-  ],
-  "image": "vo-solhaven-1263764670.png",
-  "climate": "temperate",
-  "title": [
-    "[Solhaven, Beacon Circle South]",
-    "[Solhaven, Beacon Monument]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1533": 0.2,
-    "1569": 0.2
-  },
-  "id": 1534,
-  "location": "the southern part of Solhaven",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

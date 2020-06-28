@@ -1,34 +1,33 @@
 {
+  "id": 16021,
+  "title": [
+    "[Forest Clearing]"
+  ],
+  "description": [
+    "The trail opens into a wide clearing flooded by moonlight allowed by a break in the massive trees that circle a stucco and timber built building.  A high, thick wall separates the building from a buffer space of broad green lanes that holds back the shadows of the forest.  Giantwomen sentries flank a large gateway offering entry through the wall and to the building within.",
+    "The trail opens into a wide clearing flooded by sunlight allowed by a break in the massive trees that circle a stucco and timber built building.  A high, thick wall separates the building from a buffer space of broad green lanes that holds back the shadows of the forest.  Giantwomen sentries flank a large gateway offering entry through the wall and to the building within."
+  ],
+  "paths": [
+    "Obvious paths: northwest"
+  ],
+  "location": "the Guardians of Sunfist outpost",
+  "climate": "temperate",
+  "terrain": "deciduous forest",
   "wayto": {
     "16018": "northwest",
     "16159": "go gateway"
   },
-  "paths": [
-    "Obvious paths: northwest"
-  ],
+  "timeto": {
+    "16018": 0.2,
+    "16159": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     665,
     1021,
     675,
     1031
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "The trail opens into a wide clearing flooded by moonlight allowed by a break in the massive trees that circle a stucco and timber built building.  A high, thick wall separates the building from a buffer space of broad green lanes that holds back the shadows of the forest.  Giantwomen sentries flank a large gateway offering entry through the wall and to the building within.",
-    "The trail opens into a wide clearing flooded by sunlight allowed by a break in the massive trees that circle a stucco and timber built building.  A high, thick wall separates the building from a buffer space of broad green lanes that holds back the shadows of the forest.  Giantwomen sentries flank a large gateway offering entry through the wall and to the building within."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "temperate",
-  "title": [
-    "[Forest Clearing]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "16018": 0.2,
-    "16159": 0.2
-  },
-  "id": 16021,
-  "location": "the Guardians of Sunfist outpost",
   "tags": [
     "stick",
     "some murkweed",
@@ -79,14 +78,6 @@
     "ebony twig",
     "bolmara lichen",
     "brostheras grass",
-    "walnuts,",
-    "trollfear mushroom",
-    "oxblood lily",
-    "walnuts",
-    "alder bark",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "walnuts,"
   ]
 }

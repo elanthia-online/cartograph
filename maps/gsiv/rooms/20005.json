@@ -1,37 +1,28 @@
 {
+  "id": 20005,
+  "title": [
+    "[Cavernhold, Lower Passage]"
+  ],
+  "description": [
+    "The quiet peeping of tiny bats echoes through this high ceilinged part of the passage.  Several bats flit northward as you enter the room and disappear in the veil of darkness that silently envelops them."
+  ],
+  "paths": [
+    "Obvious exits: north, southwest"
+  ],
+  "location": "the foothills of Zeltoph",
   "wayto": {
     "20004": "north",
     "20006": "southwest"
   },
-  "paths": [
-    "Obvious exits: north, southwest"
-  ],
+  "timeto": {
+    "20004": 0.2,
+    "20006": 0.2
+  },
+  "image": "wl-cavernhold-1295073688.png",
   "image_coords": [
     1077,
     941,
     1087,
     951
-  ],
-  "terrain": null,
-  "description": [
-    "The quiet peeping of tiny bats echoes through this high ceilinged part of the passage.  Several bats flit northward as you enter the room and disappear in the veil of darkness that silently envelops them."
-  ],
-  "image": "wl-cavernhold-1295073688.png",
-  "climate": null,
-  "title": [
-    "[Cavernhold, Lower Passage]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "20004": 0.2,
-    "20006": 0.2
-  },
-  "id": 20005,
-  "location": "the foothills of Zeltoph",
-  "tags": [
-
-  ],
-  "links": [
-
   ]
 }

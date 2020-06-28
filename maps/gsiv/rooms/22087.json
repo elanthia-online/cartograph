@@ -1,33 +1,21 @@
 {
-  "wayto": {
-    "22086": {
-      "stringproc": "cd686e8f6b3c156d4631a5b8da8313ef"
-    }
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "This room is unremarkable in its plainness.  The walls are of perfect obsidian, unmarked and undecorated.  A single lantern lights the area with a dim glow."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 22087,
   "title": [
     "[Locker Storage]"
   ],
-  "check_location": null,
+  "description": [
+    "This room is unremarkable in its plainness.  The walls are of perfect obsidian, unmarked and undecorated.  A single lantern lights the area with a dim glow."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "wayto": {
+    "22086": {
+      "file": "string_procs/wayto/22087_22086.rb"
+    }
+  },
   "timeto": {
     "22086": 0.2
-  },
-  "id": 22087,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  }
 }

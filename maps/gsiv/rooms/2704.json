@@ -1,33 +1,30 @@
 {
+  "id": 2704,
+  "title": [
+    "[Top of the World, Aenatumgana]"
+  ],
+  "description": [
+    "The makeshift trail that leads back to the tundra comes to a halt at the bottom slope of a gigantic glacier, dwarfed only in size by the mountain itself.  Further up the glacier, the going gets even rougher, with piles of rock frozen in place to mark the way across the ice.  Deep rumbles shake the ground as the ice grinds its way down the steep grade."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "the great mountain Aenatumgana",
   "wayto": {
     "2703": "climb slope",
     "2705": "south"
   },
-  "paths": [
-    "Obvious paths: south"
-  ],
+  "timeto": {
+    "2703": 0.2,
+    "2705": 0.2
+  },
+  "image": "imt-pinefar-1264234799.png",
   "image_coords": [
     665,
     554,
     675,
     564
   ],
-  "terrain": "mountainous",
-  "description": [
-    "The makeshift trail that leads back to the tundra comes to a halt at the bottom slope of a gigantic glacier, dwarfed only in size by the mountain itself.  Further up the glacier, the going gets even rougher, with piles of rock frozen in place to mark the way across the ice.  Deep rumbles shake the ground as the ice grinds its way down the steep grade."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Top of the World, Aenatumgana]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2703": 0.2,
-    "2705": 0.2
-  },
-  "id": 2704,
-  "location": "the great mountain Aenatumgana",
   "tags": [
     "some red lichen",
     "feverfern stalk",
@@ -39,18 +36,6 @@
     "red winterberry",
     "some arctic moss",
     "some wyrmwood bark",
-    "some angelica root",
-    "red lichen",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "wyrmwood bark",
-    "daggit root",
-    "arctic moss",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some angelica root"
   ]
 }

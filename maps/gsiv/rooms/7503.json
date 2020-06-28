@@ -1,48 +1,31 @@
 {
+  "id": 7503,
+  "title": [
+    "[Catacombs, Filthy Pool]"
+  ],
+  "description": [
+    "The path dips into a trough here, creating a stagnant, filthy pool that fills the room from wall to wall.  As you wade through the miasma, you notice the water has flooded some of the low-set tombs.  Black water rolls in from the southeast, draining to the northwest.  Clumps and strands of flotsam and jetsam swirl around you, and you cringe each time some of the debris brushes your legs."
+  ],
+  "paths": [
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "7504": "southeast",
     "3935": "northwest"
   },
-  "paths": [
-    "Obvious exits: southeast, northwest"
-  ],
+  "timeto": {
+    "7504": 0.2,
+    "3935": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     955,
     1128,
     965,
     1138
   ],
-  "terrain": "indoors",
-  "description": [
-    "The path dips into a trough here, creating a stagnant, filthy pool that fills the room from wall to wall.  As you wade through the miasma, you notice the water has flooded some of the low-set tombs.  Black water rolls in from the southeast, draining to the northwest.  Clumps and strands of flotsam and jetsam swirl around you, and you cringe each time some of the debris brushes your legs."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Catacombs, Filthy Pool]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7504": 0.2,
-    "3935": 0.2
-  },
-  "id": 7503,
-  "location": "the catacombs",
   "tags": [
-    "some wingstem root",
-    "red trafel mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "black hook mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

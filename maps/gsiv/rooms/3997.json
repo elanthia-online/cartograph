@@ -1,50 +1,36 @@
 {
-  "wayto": {
-    "3996": {
-      "stringproc": "3157bbb118c54a6236859635e57fcbb9"
-    },
-    "3998": {
-      "stringproc": "dbbfd361e7886ce7121cafa8a1b5c5c5"
-    }
-  },
+  "id": 3997,
+  "title": [
+    "[Griffin's Keen, Turnaround]"
+  ],
+  "description": [
+    "The path takes a perpendicular turn here as the slow rising switchbacks below give way to an almost vertical ascent above.  To the north, the DragonSpine Mountains march off into the purple distance, their snow-covered sides glistening in the moonlight.",
+    "The path takes a perpendicular turn here as the slow rising switchbacks below give way to an almost vertical ascent above.  To the north, the DragonSpine Mountains march off into the purple distance, their snow-covered sides spreading below them like so many pure white wedding gowns."
+  ],
   "paths": [
     "Obvious paths: southwest, up"
   ],
+  "location": "Griffin's Keen",
+  "wayto": {
+    "3996": {
+      "file": "string_procs/wayto/3997_3996.rb"
+    },
+    "3998": {
+      "file": "string_procs/wayto/3997_3998.rb"
+    }
+  },
+  "timeto": {
+    "3996": 4.2,
+    "3998": 4.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     825,
     204,
     835,
     214
   ],
-  "terrain": null,
-  "description": [
-    "The path takes a perpendicular turn here as the slow rising switchbacks below give way to an almost vertical ascent above.  To the north, the DragonSpine Mountains march off into the purple distance, their snow-covered sides glistening in the moonlight.",
-    "The path takes a perpendicular turn here as the slow rising switchbacks below give way to an almost vertical ascent above.  To the north, the DragonSpine Mountains march off into the purple distance, their snow-covered sides spreading below them like so many pure white wedding gowns."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Griffin's Keen, Turnaround]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3996": 4.2,
-    "3998": 4.2
-  },
-  "id": 3997,
-  "location": "Griffin's Keen",
   "tags": [
-    "some valerian root",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "sprig of holly",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some valerian root"
   ]
 }

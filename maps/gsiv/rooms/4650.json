@@ -1,4 +1,16 @@
 {
+  "id": 4650,
+  "title": [
+    "[Cysaegir, Disk Statue]"
+  ],
+  "description": [
+    "Thick vines of creeping clematis completely entwine the bole of a hemlock tree.  A curious looking relic rests beneath its spreading branches.  Revolving slowly on an invisible axis above a pedestal made of intricate stonework traceries is an oval-shaped disk of glass.  Relieving the darkness, alternating shades of purple, pink, and white light flash from within the depths of the disk.  The air and ground immediately surrounding the relic seems to shimmer and crackle with energy.",
+    "Thick vines of creeping clematis completely entwine the bole of a hemlock tree.  A curious looking relic rests beneath its spreading branches.  Revolving slowly on an invisible axis above a pedestal made of intricate stonework traceries is an oval-shaped disk of glass.  Paled under the sunlight, alternating shades of purple, pink, and white light flash from within the depths of the disk.  The air and ground immediately surrounding the relic seems to shimmer and crackle with energy."
+  ],
+  "paths": [
+    "Obvious paths: northeast, east"
+  ],
+  "location": "the village of Cysaegir",
   "wayto": {
     "4652": "go bridge",
     "4641": "climb tree",
@@ -6,26 +18,6 @@
     "17130": "climb pedestal",
     "4651": "east"
   },
-  "paths": [
-    "Obvious paths: northeast, east"
-  ],
-  "image_coords": [
-    749,
-    1198,
-    785,
-    1234
-  ],
-  "terrain": "grassland",
-  "description": [
-    "Thick vines of creeping clematis completely entwine the bole of a hemlock tree.  A curious looking relic rests beneath its spreading branches.  Revolving slowly on an invisible axis above a pedestal made of intricate stonework traceries is an oval-shaped disk of glass.  Relieving the darkness, alternating shades of purple, pink, and white light flash from within the depths of the disk.  The air and ground immediately surrounding the relic seems to shimmer and crackle with energy.",
-    "Thick vines of creeping clematis completely entwine the bole of a hemlock tree.  A curious looking relic rests beneath its spreading branches.  Revolving slowly on an invisible axis above a pedestal made of intricate stonework traceries is an oval-shaped disk of glass.  Paled under the sunlight, alternating shades of purple, pink, and white light flash from within the depths of the disk.  The air and ground immediately surrounding the relic seems to shimmer and crackle with energy."
-  ],
-  "image": "en-cysaegir-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Cysaegir, Disk Statue]"
-  ],
-  "check_location": null,
   "timeto": {
     "4652": 0.2,
     "4641": 0.2,
@@ -33,8 +25,13 @@
     "17130": 0.2,
     "4651": 0.2
   },
-  "id": 4650,
-  "location": "the village of Cysaegir",
+  "image": "en-cysaegir-1264234799.png",
+  "image_coords": [
+    749,
+    1198,
+    785,
+    1234
+  ],
   "tags": [
     "crimson dragonstalk",
     "acantha leaf",
@@ -111,10 +108,6 @@
     "wavepetal blossom",
     "ironfern root",
     "nightbloom blossom",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

@@ -1,33 +1,30 @@
 {
+  "id": 24709,
+  "title": [
+    "[Red Forest, Inner Weald]"
+  ],
+  "description": [
+    "Huge bear tracks weave through the forested area, leaving a wake of broken twigs and smashed shrubbery behind them.  A faint stench of decay permeates the area."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast"
+  ],
+  "location": "the Red Forest",
   "wayto": {
     "24710": "southeast",
     "24708": "north"
   },
-  "paths": [
-    "Obvious paths: north, southeast"
-  ],
+  "timeto": {
+    "24710": 0.2,
+    "24708": 0.2
+  },
+  "image": "red_forest-1260914757.png",
   "image_coords": [
     600,
     175,
     613,
     189
   ],
-  "terrain": null,
-  "description": [
-    "Huge bear tracks weave through the forested area, leaving a wake of broken twigs and smashed shrubbery behind them.  A faint stench of decay permeates the area."
-  ],
-  "image": "red_forest-1260914757.png",
-  "climate": null,
-  "title": [
-    "[Red Forest, Inner Weald]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24710": 0.2,
-    "24708": 0.2
-  },
-  "id": 24709,
-  "location": "the Displaced Red Forest",
   "tags": [
     "some tree bark",
     "wild chokecherry",
@@ -46,33 +43,6 @@
     "sweetfern stalk",
     "foe:direwolf",
     "foe:warped tree spirit",
-    "foe:direbear",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "sticks",
-    "sassafras leaf",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "soft white mushroom",
-    "withered black mushroom",
-    "bright red teaberry",
-    "blueberries",
-    "fiddlehead fern",
-    "broken twig",
-    "small wild rose",
-    "sprig of wild lilac",
-    "tree bark",
-    "mistweed",
-    "willow twig",
-    "oak twig",
-    "luckbloom blossom",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+    "foe:direbear"
+  ]
 }

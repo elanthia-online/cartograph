@@ -1,35 +1,32 @@
 {
+  "id": 7186,
+  "title": [
+    "[Graveyard]"
+  ],
+  "description": [
+    "Before you is a hill with an abundance of weeds and groundcover on its slopes.  The mound rises abruptly from the surrounding level land, indicating that it is not a natural feature.  The base runs roughly west to east and tapers to a narrow point at the eastern extreme."
+  ],
+  "paths": [
+    "Obvious paths: east, south, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7185": "south",
     "7187": "east",
     "7189": "west"
   },
-  "paths": [
-    "Obvious paths: east, south, west"
-  ],
+  "timeto": {
+    "7185": 0.2,
+    "7187": 0.2,
+    "7189": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     395,
     481,
     405,
     491
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "Before you is a hill with an abundance of weeds and groundcover on its slopes.  The mound rises abruptly from the surrounding level land, indicating that it is not a natural feature.  The base runs roughly west to east and tapers to a narrow point at the eastern extreme."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Graveyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7185": 0.2,
-    "7187": 0.2,
-    "7189": 0.2
-  },
-  "id": 7186,
-  "location": "the Graveyard",
   "tags": [
     "some wolifrew lichen",
     "some acantha leaf",
@@ -54,10 +51,6 @@
     "bright red cranberry",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

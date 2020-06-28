@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "12152": {
-      "stringproc": "e7b269de45035581300c76daf9e751cf"
-    },
-    "12089": {
-      "stringproc": "df16ace028c72dba18b51257349345d8"
-    },
-    "2635": {
-      "stringproc": "a5fc698b4e8aaa983aa8f5ad92908980"
-    },
-    "12091": "northwest",
-    "12094": "southeast"
-  },
+  "id": 12218,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "An immense statue stands before you towering hundreds of feet high, giving you an excellent view of its ankle.  The statue has a large, muscular frame, and is resting his hands on the pommel of a two-handed sword.  As you look up the statue's length, you realize it has one fatal flaw - it's headless."
+  ],
   "paths": [
     "Obvious exits: southeast, northwest",
     "Obvious paths: southeast, northwest"
   ],
-  "image_coords": [
-    132,
-    1194,
-    142,
-    1204
-  ],
-  "terrain": null,
-  "description": [
-    "An immense statue stands before you towering hundreds of feet high, giving you an excellent view of its ankle.  The statue has a large, muscular frame, and is resting his hands on the pommel of a two-handed sword.  As you look up the statue's length, you realize it has one fatal flaw - it's headless."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12152": {
+      "file": "string_procs/wayto/12218_12152.rb"
+    },
+    "12089": {
+      "file": "string_procs/wayto/12218_12089.rb"
+    },
+    "2635": {
+      "file": "string_procs/wayto/12218_2635.rb"
+    },
+    "12091": "northwest",
+    "12094": "southeast"
+  },
   "timeto": {
     "12152": 21.6,
     "12089": 21.6,
@@ -39,18 +31,19 @@
     "12091": 0.2,
     "12094": 0.2
   },
-  "id": 12218,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    132,
+    1194,
+    142,
+    1204
+  ],
   "tags": [
     "twisted black mawflower",
     "slime-covered grave blossom",
     "mass of congealed slime",
     "oozing fleshsore bulb",
     "rotting bile green fleshbulb",
-    "withered deathblossom",
-    "discolored fleshbinder bud"
-  ],
-  "links": [
-
+    "withered deathblossom"
   ]
 }

@@ -1,42 +1,32 @@
 {
+  "id": 20731,
+  "title": [
+    "[Seamist Hall, Beach]"
+  ],
+  "description": [
+    "Wave upon wave of crushing surf constantly batters the beach, which is more pebbles and stone than sand.  In the distance, barges, sailboats, and other seaworthy vessels float atop the water, near the piers to the north and south.  A set of stone steps leads away from the beach, toward an elegant estate."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Solhaven",
   "wayto": {
     "20730": "go steps",
     "20732": "go surf",
     "25884": {
-      "stringproc": "0ca8b177d043f0b20574fc2a9612f7d2"
+      "file": "string_procs/wayto/20731_25884.rb"
     }
   },
-  "paths": [
-    "Obvious paths: none"
-  ],
-  "image_coords": [
-    1777,
-    1465,
-    1900,
-    1520
-  ],
-  "terrain": null,
-  "description": [
-    "Wave upon wave of crushing surf constantly batters the beach, which is more pebbles and stone than sand.  In the distance, barges, sailboats, and other seaworthy vessels float atop the water, near the piers to the north and south.  A set of stone steps leads away from the beach, toward an elegant estate."
-  ],
-  "image": "premium_halls-1489980086.png",
-  "climate": null,
-  "title": [
-    "[Seamist Hall, Beach]"
-  ],
-  "check_location": null,
   "timeto": {
     "20730": 0.2,
     "20732": 0.2,
     "25884": 0.2
   },
-  "id": 20731,
-  "location": "Solhaven",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
+  "image": "premium_halls-1489980086.png",
+  "image_coords": [
+    1777,
+    1465,
+    1900,
+    1520
   ]
 }

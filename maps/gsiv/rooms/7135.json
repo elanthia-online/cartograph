@@ -1,38 +1,30 @@
 {
-  "wayto": {
-    "7134": "up"
-  },
+  "id": 7135,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "The walls down here are of fitted stone, with a bowl-shaped niche built into the north wall at about waist high.  The niche is full of water, a trickle of which is overflowing the bowl and puddling on the floor.  Hairy molds and bulbous fungus grow across the walls, while the floor is slippery with slime."
+  ],
   "paths": [
     "Obvious exits: up"
   ],
+  "location": "Darkstone Castle",
+  "wayto": {
+    "7134": "up"
+  },
+  "timeto": {
+    "7134": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     1109,
     442,
     1119,
     452
   ],
-  "terrain": "indoors",
-  "description": [
-    "The walls down here are of fitted stone, with a bowl-shaped niche built into the north wall at about waist high.  The niche is full of water, a trickle of which is overflowing the bowl and puddling on the floor.  Hairy molds and bulbous fungus grow across the walls, while the floor is slippery with slime."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7134": 0.2
-  },
-  "id": 7135,
-  "location": "Darkstone Castle",
   "tags": [
     "kiramon defender",
-    "kiramon worker",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "kiramon worker"
   ]
 }

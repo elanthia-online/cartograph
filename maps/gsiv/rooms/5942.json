@@ -1,36 +1,33 @@
 {
+  "id": 5942,
+  "title": [
+    "[Catacombs, Chart Room]"
+  ],
+  "description": [
+    "Ancient maps have been stashed away into a small nook in the wall.",
+    "Ancient maps have been stashed away into a small nook in the wall.  From the looks of them, a slight breeze would send them sailing through the air in a cloud of fine dust.  The sounds of someone or something breathing heavily comes from the darkened corner along the western wall."
+  ],
+  "paths": [
+    "Obvious exits: north, east, west"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "5941": "north",
     "5943": "west",
     "5944": "east"
   },
-  "paths": [
-    "Obvious exits: north, east, west"
-  ],
+  "timeto": {
+    "5941": 0.2,
+    "5943": 0.2,
+    "5944": 0.2
+  },
+  "image": "en-tavaalor-1565907614.png",
   "image_coords": [
     121,
     903,
     129,
     914
   ],
-  "terrain": null,
-  "description": [
-    "Ancient maps have been stashed away into a small nook in the wall.",
-    "Ancient maps have been stashed away into a small nook in the wall.  From the looks of them, a slight breeze would send them sailing through the air in a cloud of fine dust.  The sounds of someone or something breathing heavily comes from the darkened corner along the western wall."
-  ],
-  "image": "en-tavaalor-1565907614.png",
-  "climate": null,
-  "title": [
-    "[Catacombs, Chart Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5941": 0.2,
-    "5943": 0.2,
-    "5944": 0.2
-  },
-  "id": 5942,
-  "location": "the catacombs",
   "tags": [
     "some bolmara lichen",
     "white hook mushroom",
@@ -42,8 +39,5 @@
     "ironfern root",
     "bolmara lichen",
     "wingstem root"
-  ],
-  "links": [
-
   ]
 }

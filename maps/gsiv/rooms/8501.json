@@ -1,38 +1,28 @@
 {
+  "id": 8501,
+  "title": [
+    "[Temple, Crypt]"
+  ],
+  "description": [
+    "Rows of white marble biers flank you, untouched by time and the destruction of the temple above.  Priestesses lay in their final repose, although a feeling of restlessness charges the area, as if those that rest now may not do so for much longer."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "the Temple of Love",
   "wayto": {
     "8502": "south",
     "8500": "west"
   },
-  "paths": [
-    "Obvious exits: south, west"
-  ],
+  "timeto": {
+    "8502": 0.2,
+    "8500": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     386,
     576,
     396,
     586
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Rows of white marble biers flank you, untouched by time and the destruction of the temple above.  Priestesses lay in their final repose, although a feeling of restlessness charges the area, as if those that rest now may not do so for much longer."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Temple, Crypt]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8502": 0.2,
-    "8500": 0.2
-  },
-  "id": 8501,
-  "location": "the Temple of Love",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

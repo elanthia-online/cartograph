@@ -1,4 +1,15 @@
 {
+  "id": 5010,
+  "title": [
+    "[Yegharren Valley, Ravine's Edge]"
+  ],
+  "description": [
+    "The level ground of the old riverbed suddenly disappears as the ground falls away to the east amid a jumble of boulders and fallen branches where a rushing waterfall must have once filled the still air with mist countless years ago.  A huge formation of piled rocks bounds the northern entrance to the ravine, and the more traversable ground of the forest rises in a shady hillside to the south.  High moors rise beyond the deep ravine, their geography shrouded in clouds of darkening mist."
+  ],
+  "paths": [
+    "Obvious paths: south, west, northwest"
+  ],
+  "location": "the Yegharren Plains",
   "wayto": {
     "9987": "climb ravine",
     "5008": "south",
@@ -6,25 +17,6 @@
     "5012": "northwest",
     "9986": "go cave"
   },
-  "paths": [
-    "Obvious paths: south, west, northwest"
-  ],
-  "image_coords": [
-    970,
-    475,
-    980,
-    485
-  ],
-  "terrain": "deciduous forest",
-  "description": [
-    "The level ground of the old riverbed suddenly disappears as the ground falls away to the east amid a jumble of boulders and fallen branches where a rushing waterfall must have once filled the still air with mist countless years ago.  A huge formation of piled rocks bounds the northern entrance to the ravine, and the more traversable ground of the forest rises in a shady hillside to the south.  High moors rise beyond the deep ravine, their geography shrouded in clouds of darkening mist."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Yegharren Valley, Ravine's Edge]"
-  ],
-  "check_location": null,
   "timeto": {
     "9987": 0.2,
     "5008": 0.2,
@@ -32,8 +24,13 @@
     "5012": 0.2,
     "9986": 0.2
   },
-  "id": 5010,
-  "location": "the Yegharren Plains",
+  "image": "en-sylvarraend-1264234799.png",
+  "image_coords": [
+    970,
+    475,
+    980,
+    485
+  ],
   "tags": [
     "some torban leaf",
     "some haphip root",
@@ -44,61 +41,6 @@
     "flathead mushroom",
     "daggerstalk mushroom",
     "stalk of goldenrod",
-    "tkaro root",
-    "acantha leaf",
-    "torban leaf",
-    "calamia fruit",
-    "haphip root",
-    "basal moss",
-    "sticks",
-    "angelica root",
-    "trollfear mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "blueberries",
-    "elderberries",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "wild grapes",
-    "broken twig",
-    "stalk of bluebells",
-    "golden buttercup",
-    "wild pink geranium",
-    "sprig of wild lilac",
-    "wild beechnut",
-    "stalk of burdock",
-    "silver-edged fern",
-    "wild chokecherry",
-    "lady slipper blossom",
-    "wild orchid",
-    "wood violet",
-    "wolfsbane root",
-    "sprig of mistletoe",
-    "tree bark",
-    "murkweed",
-    "white lily",
-    "pink rain lily",
-    "coppery rain lily",
-    "oxblood lily",
-    "white baneberry",
-    "bloodwood twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "nightbloom blossom",
-    "twisted twig",
-    "slender twig",
-    "ebony twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "tkaro root"
   ]
 }

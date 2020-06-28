@@ -1,4 +1,15 @@
 {
+  "id": 2377,
+  "title": [
+    "[Icemule, Incantation Alley]"
+  ],
+  "description": [
+    "Magical workshops, amulet shops, wand stores, and other businesses catering to the magical professions fill this narrow alley, which snakes behind an old abandoned workshop at the end of Wraith Road.  A few tendrils of fog work their way into the alley, leaving the rest of Magical Burrow obscured behind the mist."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "2376": "north",
     "15835": "go building",
@@ -8,25 +19,6 @@
     "25404": "go shop",
     "25406": "go stucco salon"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
-  "image_coords": [
-    49,
-    565,
-    69,
-    585
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "Magical workshops, amulet shops, wand stores, and other businesses catering to the magical professions fill this narrow alley, which snakes behind an old abandoned workshop at the end of Wraith Road.  A few tendrils of fog work their way into the alley, leaving the rest of Magical Burrow obscured behind the mist."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Icemule, Incantation Alley]"
-  ],
-  "check_location": null,
   "timeto": {
     "2376": 0.2,
     "15835": 0.2,
@@ -36,13 +28,11 @@
     "25404": 0.2,
     "25406": 0.2
   },
-  "id": 2377,
-  "location": "Icemule Trace",
-  "tags": [
-    "calmintha flower",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "imt-icemule-1474811966.png",
+  "image_coords": [
+    49,
+    565,
+    69,
+    585
   ]
 }

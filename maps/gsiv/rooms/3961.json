@@ -1,32 +1,23 @@
 {
-  "wayto": {
-    "3937": {
-      "stringproc": "e6714bf6da1a9625fb84734118a3d351"
-    }
-  },
-  "paths": [
-    "Obvious exits: northeast, southwest"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "The trickle of sludge begins to move a bit faster, as the slope steepens.  The small pipes in the walls grow fewer, but no less filthy.  You can feel a touch of moving air, perhaps a bit fresher than that which you've grown used to breathing."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 3961,
   "title": [
     "[Abandoned Sewer]"
   ],
-  "check_location": null,
+  "description": [
+    "The trickle of sludge begins to move a bit faster, as the slope steepens.  The small pipes in the walls grow fewer, but no less filthy.  You can feel a touch of moving air, perhaps a bit fresher than that which you've grown used to breathing."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "wayto": {
+    "3937": {
+      "file": "string_procs/wayto/3961_3937.rb"
+    }
+  },
   "timeto": {
     "3937": 1.6
   },
-  "id": 3961,
-  "location": null,
   "tags": [
     "no-auto-map"
-  ],
-  "links": [
-
   ]
 }

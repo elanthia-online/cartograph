@@ -1,39 +1,32 @@
 {
-  "wayto": {
-    "25766": {
-      "stringproc": "b3903ef3130903d58c1b8b478bec601b"
-    },
-    "25773": {
-      "stringproc": "7c906cf3c37f156a5de40e3486f4dfc0"
-    }
-  },
+  "id": 25772,
+  "title": [
+    "[Eastern Waterway]"
+  ],
+  "description": [
+    "Strange stones spread out from the island to the east and partially block the water course, their round and smooth surfaces speckled with sand and salt water.  To the west, a small swimming area is roped off by a series of blown glass globes, beyond which is a long beach whose sands glitter beneath the attention of the moon."
+  ],
   "paths": [
     "Obvious paths: northeast, southwest"
   ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "25766": {
+      "file": "string_procs/wayto/25772_25766.rb"
+    },
+    "25773": {
+      "file": "string_procs/wayto/25772_25773.rb"
+    }
+  },
+  "timeto": {
+    "25766": 6.0,
+    "25773": 6.0
+  },
+  "image": "ifw-eastern_waterway-1489553700.png",
   "image_coords": [
     1681,
     1359,
     1700,
     1379
-  ],
-  "terrain": null,
-  "description": [
-    "Strange stones spread out from the island to the east and partially block the water course, their round and smooth surfaces speckled with sand and salt water.  To the west, a small swimming area is roped off by a series of blown glass globes, beyond which is a long beach whose sands glitter beneath the attention of the moon."
-  ],
-  "image": "ifw-eastern_waterway-1489553700.png",
-  "climate": null,
-  "title": [
-    "[Eastern Waterway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "25766": 6.0,
-    "25773": 6.0
-  },
-  "id": 25772,
-  "location": "Mist Harbor",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

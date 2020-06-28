@@ -1,47 +1,34 @@
 {
+  "id": 7739,
+  "title": [
+    "[Mossy Caverns, Tunnel]"
+  ],
+  "description": [
+    "A heavy coating of silt has covered the tunnel floor and walls here.  A faint breeze flows past you, kicking up small dust clouds at your feet.  To the southeast, you hear a strange noise in the distance."
+  ],
+  "paths": [
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "7738": "northwest",
     "7740": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast, northwest"
-  ],
+  "timeto": {
+    "7738": 0.2,
+    "7740": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     1028,
     1183,
     1038,
     1193
   ],
-  "terrain": "indoors",
-  "description": [
-    "A heavy coating of silt has covered the tunnel floor and walls here.  A faint breeze flows past you, kicking up small dust clouds at your feet.  To the southeast, you hear a strange noise in the distance."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mossy Caverns, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7738": 0.2,
-    "7740": 0.2
-  },
-  "id": 7739,
-  "location": "the Coastal Cliffs",
   "tags": [
     "black trafel mushroom",
     "some pothinir grass",
     "some cave moss",
-    "some bur-clover root",
-    "pothinir grass",
-    "withered black mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some bur-clover root"
   ]
 }

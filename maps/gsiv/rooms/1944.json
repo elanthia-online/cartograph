@@ -1,48 +1,38 @@
 {
+  "id": 1944,
+  "title": [
+    "[Dragonspine and Imflass]"
+  ],
+  "description": [
+    "Dragonspine broadens into a wide plaza, a bazaar paved with grey and white granite flagstones.  The foot traffic, mostly preoccupied dwarves, mingles with ox carts, pack horses, and burros laden with goods.  Vendors have set up wooden booths to peddle their assorted wares."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south, west"
+  ],
+  "location": "the town of Kharam-Dzu",
   "wayto": {
     "12395": "north",
     "1932": "south",
     "1943": "west",
     "1945": "east",
     "3668": {
-      "stringproc": "592e7660bc67a7aa2aeeed086c964162"
+      "file": "string_procs/wayto/1944_3668.rb"
     }
   },
-  "paths": [
-    "Obvious paths: north, east, south, west"
-  ],
-  "image_coords": [
-    1038,
-    435,
-    1064,
-    461
-  ],
-  "terrain": null,
-  "description": [
-    "Dragonspine broadens into a wide plaza, a bazaar paved with grey and white granite flagstones.  The foot traffic, mostly preoccupied dwarves, mingles with ox carts, pack horses, and burros laden with goods.  Vendors have set up wooden booths to peddle their assorted wares."
-  ],
-  "image": "ti-teras-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Dragonspine and Imflass]"
-  ],
-  "check_location": null,
   "timeto": {
     "12395": 0.2,
     "1932": 0.2,
     "1943": 0.2,
     "1945": 0.2,
     "3668": {
-      "stringproc": "61acd23da00379e24457740bfb0b0b29"
+      "file": "string_procs/timeto/1944_3668.rb"
     }
   },
-  "id": 1944,
-  "location": "the town of Kharam-Dzu",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "ti-teras-1264234799.png",
+  "image_coords": [
+    1038,
+    435,
+    1064,
+    461
   ]
 }

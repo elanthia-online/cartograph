@@ -1,56 +1,48 @@
 {
+  "id": 12319,
+  "title": [
+    "[Luna Rest Tavern, Common Room]"
+  ],
+  "description": [
+    "Pale green curtains frame the windows of the tavern, their expanses filled with glass panes bound in place by oak lattices.  Various tables are scattered about the room and surrounded by cozy chairs covered with rich plum cushions.  To the north the scent of roasting meats and sweet treats wafts in, while the sound of a quiet harp drifts in from the south.",
+    "Pale green curtains frame the windows of the tavern, their expanses filled with glass panes bound in place by oak lattices.  Various tables are scattered about the room and surrounded by cozy chairs covered with rich plum cushions.  To the north the scent of roasting meats and sweet treats wafts in, while the sound of laughter and music drifts in from the south."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Mist Harbor",
   "wayto": {
     "12317": "south",
     "16429": "north",
     "16420": "go archway",
     "26181": {
-      "stringproc": "168a208c193439e62927680e72d5c27a"
+      "file": "string_procs/wayto/12319_26181.rb"
     },
     "26182": {
-      "stringproc": "e3e92b8f5913e541ef95e9f40e242474"
+      "file": "string_procs/wayto/12319_26182.rb"
     },
     "26183": {
-      "stringproc": "7b14b9571a9bab4c8759f691a94141d0"
+      "file": "string_procs/wayto/12319_26183.rb"
     },
     "26184": {
-      "stringproc": "a0270f16e644d569e7d0ad0a92319d05"
+      "file": "string_procs/wayto/12319_26184.rb"
     },
     "26185": {
-      "stringproc": "896512895c69c165a9f770cee51e194d"
+      "file": "string_procs/wayto/12319_26185.rb"
     },
     "26186": {
-      "stringproc": "e4ee3785aec5275148308d490c613cc4"
+      "file": "string_procs/wayto/12319_26186.rb"
     },
     "13612": {
-      "stringproc": "a1cdba99b1614d1adc049fa6fc0489f2"
+      "file": "string_procs/wayto/12319_13612.rb"
     },
     "27041": {
-      "stringproc": "891c90cc6b73ca8d8b77aa1570f8d5df"
+      "file": "string_procs/wayto/12319_27041.rb"
     },
     "23746": {
-      "stringproc": "9c9edaa7542f48fbdca5e1069bb889f9"
+      "file": "string_procs/wayto/12319_23746.rb"
     }
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
-  "image_coords": [
-    1483,
-    2484,
-    1496,
-    2498
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Pale green curtains frame the windows of the tavern, their expanses filled with glass panes bound in place by oak lattices.  Various tables are scattered about the room and surrounded by cozy chairs covered with rich plum cushions.  To the north the scent of roasting meats and sweet treats wafts in, while the sound of a quiet harp drifts in from the south.",
-    "Pale green curtains frame the windows of the tavern, their expanses filled with glass panes bound in place by oak lattices.  Various tables are scattered about the room and surrounded by cozy chairs covered with rich plum cushions.  To the north the scent of roasting meats and sweet treats wafts in, while the sound of laughter and music drifts in from the south."
-  ],
-  "image": "ifw-isle_of_four_winds-1310232949.png",
-  "climate": "indoors",
-  "title": [
-    "[Luna Rest Tavern, Common Room]"
-  ],
-  "check_location": null,
   "timeto": {
     "12317": 0.2,
     "16429": 0.2,
@@ -65,14 +57,14 @@
     "27041": 0.2,
     "23746": 0.2
   },
-  "id": 12319,
-  "location": "Mist Harbor",
-  "tags": [
-    "table",
-    "no forageables",
-    "meta:forage-sensed"
+  "image": "ifw-isle_of_four_winds-1310232949.png",
+  "image_coords": [
+    1483,
+    2484,
+    1496,
+    2498
   ],
-  "links": [
-
+  "tags": [
+    "table"
   ]
 }

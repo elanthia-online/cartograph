@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "403": "go staircase"
-  },
+  "id": 404,
+  "title": [
+    "[Catacombs, Musty Basement]"
+  ],
+  "description": [
+    "Large crates, rusted tools, and broken weapons of every description fill most of the space in this dank cellar.  Cobwebs hang from the raftered ceiling, apparently undisturbed for ages.  On the far wall, you notice a rectangular depression."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "the catacombs",
+  "wayto": {
+    "403": "go staircase"
+  },
+  "timeto": {
+    "403": 0.2
+  },
+  "image": "wl-wehnimers-1264234799.png",
   "image_coords": [
     357,
     351,
     391,
     386
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Large crates, rusted tools, and broken weapons of every description fill most of the space in this dank cellar.  Cobwebs hang from the raftered ceiling, apparently undisturbed for ages.  On the far wall, you notice a rectangular depression."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Catacombs, Musty Basement]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "403": 0.2
-  },
-  "id": 404,
-  "location": "the catacombs",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,40 +1,30 @@
 {
+  "id": 2254,
+  "title": [
+    "[Glaes Caverns]"
+  ],
+  "description": [
+    "The thin trail snakes through pools of molten glaes on the floor, clambering over large bumps and through crevices formed by hardened outbursts of the liquid rock.  Larger obstructions hide other parts of the cave.  Strange shadows flicker across them in crimson hues, thrown by bursts of fire erupting from the bubbling puddles of magma."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest, west"
+  ],
+  "location": "the Eye of V'Tull",
   "wayto": {
     "2255": "west",
     "2258": "southwest",
     "2253": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast, southwest, west"
-  ],
-  "image_coords": [
-    224,
-    591,
-    234,
-    601
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The thin trail snakes through pools of molten glaes on the floor, clambering over large bumps and through crevices formed by hardened outbursts of the liquid rock.  Larger obstructions hide other parts of the cave.  Strange shadows flicker across them in crimson hues, thrown by bursts of fire erupting from the bubbling puddles of magma."
-  ],
-  "image": "ti-vtull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Glaes Caverns]"
-  ],
-  "check_location": null,
   "timeto": {
     "2255": 0.2,
     "2258": 0.2,
     "2253": 0.2
   },
-  "id": 2254,
-  "location": "the Eye of V'Tull",
-  "tags": [
-    "pepperthorn root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "ti-vtull-1264234799.png",
+  "image_coords": [
+    224,
+    591,
+    234,
+    601
   ]
 }

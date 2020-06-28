@@ -1,35 +1,28 @@
 {
+  "id": 26292,
+  "title": [
+    "[Lich Citadel, Darkway]"
+  ],
+  "description": [
+    "The white lines running along the black walls pulsate with energy.  The lines emit a sharp hum, as their light casts an eerie glow throughout the area."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast"
+  ],
+  "location": "Talador",
   "wayto": {
     "26291": "southeast",
     "26317": "north"
   },
-  "paths": [
-    "Obvious exits: north, southeast"
-  ],
+  "timeto": {
+    "26291": 0.2,
+    "26317": 0.2
+  },
+  "image": "wl-lichs_landing-1500800742.png",
   "image_coords": [
     1143,
     772,
     1168,
     798
-  ],
-  "terrain": null,
-  "description": [
-    "The white lines running along the black walls pulsate with energy.  The lines emit a sharp hum, as their light casts an eerie glow throughout the area."
-  ],
-  "image": "wl-lichs_landing-1500800742.png",
-  "climate": null,
-  "title": [
-    "[Lich Citadel, Darkway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26291": 0.2,
-    "26317": 0.2
-  },
-  "id": 26292,
-  "location": "Talador",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

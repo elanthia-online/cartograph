@@ -1,34 +1,31 @@
 {
+  "id": 13945,
+  "title": [
+    "[The Ravelin, South Wall]"
+  ],
+  "description": [
+    "Dark waters of the river flow smoothly and quickly southward again.  Sitting opposite the basalt protective wall, a medium-sized building emanates the smells of baking bread and cooking food.  The occasional crimson-clad soldier wanders over to the mess hall.",
+    "Dark waters of the river flow smoothly and quickly southward again.  Sitting opposite the basalt protective wall, a medium-sized building emanates the smells of baking bread and cooking food.  Steady streams of crimson-clad troops move in and out of the mess hall."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast"
+  ],
+  "location": "the hamlet of Ravelin",
   "wayto": {
     "13944": "north",
     "13946": "northeast"
   },
-  "paths": [
-    "Obvious paths: north, northeast"
-  ],
+  "timeto": {
+    "13944": 0.2,
+    "13946": 0.2
+  },
+  "image": "en-ravelin.png",
   "image_coords": [
     400,
     520,
     448,
     566
   ],
-  "terrain": null,
-  "description": [
-    "Dark waters of the river flow smoothly and quickly southward again.  Sitting opposite the basalt protective wall, a medium-sized building emanates the smells of baking bread and cooking food.  The occasional crimson-clad soldier wanders over to the mess hall.",
-    "Dark waters of the river flow smoothly and quickly southward again.  Sitting opposite the basalt protective wall, a medium-sized building emanates the smells of baking bread and cooking food.  Steady streams of crimson-clad troops move in and out of the mess hall."
-  ],
-  "image": "en-ravelin.png",
-  "climate": null,
-  "title": [
-    "[The Ravelin, South Wall]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "13944": 0.2,
-    "13946": 0.2
-  },
-  "id": 13945,
-  "location": "the hamlet of Ravelin",
   "tags": [
     "ambrominas leaf",
     "tkaro root",
@@ -88,8 +85,5 @@
     "woad leaves",
     "trollfear mushroom",
     "nightbloom blossom"
-  ],
-  "links": [
-
   ]
 }

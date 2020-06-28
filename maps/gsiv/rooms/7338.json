@@ -1,44 +1,34 @@
 {
+  "id": 7338,
+  "title": [
+    "[Shadow Valley, Dark Pasture]"
+  ],
+  "description": [
+    "Some ancient horse tracks have become barren patches of dry earth between the small clumps of yellowed longgrass.  A few starched-white bones stick up at odd angles here and there, like the shattered ribs of the pasture itself."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7337": "northwest",
     "7339": "southeast"
   },
-  "paths": [
-    "Obvious paths: southeast, northwest"
-  ],
+  "timeto": {
+    "7337": 0.2,
+    "7339": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1174,
     784,
     1182,
     792
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "Some ancient horse tracks have become barren patches of dry earth between the small clumps of yellowed longgrass.  A few starched-white bones stick up at odd angles here and there, like the shattered ribs of the pasture itself."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Shadow Valley, Dark Pasture]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7337": 0.2,
-    "7339": 0.2
-  },
-  "id": 7338,
-  "location": "the Shadow Valley",
   "tags": [
     "some petrified shadowstalk",
     "some longgrass",
     "black-tipped wyrm thorn",
-    "night mare",
-    "longgrass",
-    "wyrm thorn",
-    "petrified shadowstalk",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "night mare"
   ]
 }

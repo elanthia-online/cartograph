@@ -1,33 +1,30 @@
 {
+  "id": 1278,
+  "title": [
+    "[Upper Trollfang]"
+  ],
+  "description": [
+    "A carpet of oak and maple leaves cover the trail in this part of the forest.  A stand of oak trees lies further to the north while the forest becomes mixed to the south."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "1277": "north",
     "1279": "south"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "1277": 0.2,
+    "1279": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     741,
     375,
     751,
     385
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "A carpet of oak and maple leaves cover the trail in this part of the forest.  A stand of oak trees lies further to the north while the forest becomes mixed to the south."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Upper Trollfang]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1277": 0.2,
-    "1279": 0.2
-  },
-  "id": 1278,
-  "location": "the Upper Trollfang",
   "tags": [
     "some acantha leaf",
     "some basal moss",
@@ -77,34 +74,6 @@
     "soft white mushroom",
     "trollfear mushroom",
     "fragrant white lily",
-    "twisted twig",
-    "acantha leaf",
-    "torban leaf",
-    "calamia fruit",
-    "haphip root",
-    "basal moss",
-    "sticks",
-    "angelica root",
-    "blueberries",
-    "elderberries",
-    "wild grapes",
-    "broken twig",
-    "tree bark",
-    "murkweed",
-    "white lily",
-    "pink rain lily",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "ebony twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "walnuts",
-    "alder bark",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "twisted twig"
   ]
 }

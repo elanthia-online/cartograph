@@ -1,33 +1,30 @@
 {
+  "id": 3700,
+  "title": [
+    "[Darkstone, A Dark Tunnel]"
+  ],
+  "description": [
+    "The air takes on an uncomfortable thickness here.  Moldy odors invade your senses making each breath you take a bitter, unsavory experience."
+  ],
+  "paths": [
+    "Obvious exits: southeast, up"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "3699": "up",
     "3701": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast, up"
-  ],
+  "timeto": {
+    "3699": 0.2,
+    "3701": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     489,
     1189,
     499,
     1199
   ],
-  "terrain": "indoors",
-  "description": [
-    "The air takes on an uncomfortable thickness here.  Moldy odors invade your senses making each breath you take a bitter, unsavory experience."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, A Dark Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3699": 0.2,
-    "3701": 0.2
-  },
-  "id": 3700,
-  "location": "Darkstone Castle",
   "tags": [
     "soft white mushroom",
     "black hook mushroom",
@@ -38,15 +35,6 @@
     "red trafel mushroom",
     "some bolmara lichen",
     "white hook mushroom",
-    "massive troll king",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "massive troll king"
   ]
 }

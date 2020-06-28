@@ -1,46 +1,30 @@
 {
-  "wayto": {
-    "4570": "up",
-    "4572": {
-      "stringproc": "395b361a16c8a355265cda519abf9fe5"
-    }
-  },
+  "id": 4571,
+  "title": [
+    "[Griffin's Keen, Valley of Peace]"
+  ],
+  "description": [
+    "A worn track threads through piles of broken rock and snow-covered scree.  More suited to mountain rolton than the upright races, it winds up and around toward the north face of the mountainside."
+  ],
   "paths": [
     "Obvious paths: up, down"
   ],
+  "location": "Griffin's Keen",
+  "wayto": {
+    "4570": "up",
+    "4572": {
+      "file": "string_procs/wayto/4571_4572.rb"
+    }
+  },
+  "timeto": {
+    "4570": 0.2,
+    "4572": 4.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     610,
     300,
     620,
     310
-  ],
-  "terrain": null,
-  "description": [
-    "A worn track threads through piles of broken rock and snow-covered scree.  More suited to mountain rolton than the upright races, it winds up and around toward the north face of the mountainside."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Griffin's Keen, Valley of Peace]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4570": 0.2,
-    "4572": 4.2
-  },
-  "id": 4571,
-  "location": "Griffin's Keen",
-  "tags": [
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "sprig of holly",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

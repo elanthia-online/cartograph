@@ -1,33 +1,30 @@
 {
+  "id": 1391,
+  "title": [
+    "[Cairnfang Pineforest]"
+  ],
+  "description": [
+    "A layer of brown needles, decades deep beneath the towering pines, muffles any sounds of movement.  The going is easier and quieter, but the silence is almost sinister.  A log-and-plank bridge spans a gully to the southwest."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "1390": "northeast",
     "1392": "go bridge"
   },
-  "paths": [
-    "Obvious paths: northeast"
-  ],
+  "timeto": {
+    "1390": 0.2,
+    "1392": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     1362,
     518,
     1372,
     528
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "A layer of brown needles, decades deep beneath the towering pines, muffles any sounds of movement.  The going is easier and quieter, but the silence is almost sinister.  A log-and-plank bridge spans a gully to the southwest."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Cairnfang Pineforest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1390": 0.2,
-    "1392": 0.2
-  },
-  "id": 1391,
-  "location": "the Cairnfang",
   "tags": [
     "white baneberry",
     "fragrant white lily",
@@ -73,10 +70,6 @@
     "twisted twig",
     "ebony twig",
     "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

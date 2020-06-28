@@ -1,41 +1,28 @@
 {
+  "id": 7404,
+  "title": [
+    "[Mine Tunnels]"
+  ],
+  "description": [
+    "Smooth streaks of discolored clay paint the walls of the tunnel as it turns northward.  A slight increase in the airflow through the tunnel is noticeable."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7403": "north",
     "7430": "southeast"
   },
-  "paths": [
-    "Obvious exits: north, southeast"
-  ],
+  "timeto": {
+    "7403": 0.2,
+    "7430": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1257,
     244,
     1265,
     252
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Smooth streaks of discolored clay paint the walls of the tunnel as it turns northward.  A slight increase in the airflow through the tunnel is noticeable."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mine Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7403": 0.2,
-    "7430": 0.2
-  },
-  "id": 7404,
-  "location": "the Shadow Valley",
-  "tags": [
-    "cave moss",
-    "blackgrove root",
-    "shadowlace moss",
-    "blue moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

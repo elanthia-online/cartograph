@@ -1,37 +1,28 @@
 {
+  "id": 11612,
+  "title": [
+    "[Miasmal Forest, Old Road]"
+  ],
+  "description": [
+    "To the east, nightmarish trees loom over the fog-enshrouded road, their dead branches reaching out like great skeletal spiders trying to pull in their prey.  The thick, unnatural fog smells faintly of sulfur.  A weathered and faded sign hangs high over the road on a twisted piece of rusted wire."
+  ],
+  "paths": [
+    "Obvious paths: east, southeast, southwest"
+  ],
   "wayto": {
     "11611": "southwest",
     "11613": "southeast",
     "16122": {
-      "stringproc": "6aa32eddf6a7ab233d6f56dca6f30f52"
+      "file": "string_procs/wayto/11612_16122.rb"
     },
     "22218": {
-      "stringproc": "1fe34818799fef5f3a306cd54b02e8c8"
+      "file": "string_procs/wayto/11612_22218.rb"
     },
     "11617": "east",
     "11630": {
-      "stringproc": "404614316a48e098728fa101d98974a0"
+      "file": "string_procs/wayto/11612_11630.rb"
     }
   },
-  "paths": [
-    "Obvious paths: east, southeast, southwest"
-  ],
-  "image_coords": [
-    536,
-    627,
-    546,
-    637
-  ],
-  "terrain": "muddy wetlands",
-  "description": [
-    "To the east, nightmarish trees loom over the fog-enshrouded road, their dead branches reaching out like great skeletal spiders trying to pull in their prey.  The thick, unnatural fog smells faintly of sulfur.  A weathered and faded sign hangs high over the road on a twisted piece of rusted wire."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Miasmal Forest, Old Road]"
-  ],
-  "check_location": null,
   "timeto": {
     "11611": 0.2,
     "11613": 0.2,
@@ -40,8 +31,13 @@
     "11617": 0.2,
     "11630": 1.0
   },
-  "id": 11612,
-  "location": "the Miasmal Forest",
+  "image": "rr-maelstrom-1266390501.png",
+  "image_coords": [
+    536,
+    627,
+    546,
+    637
+  ],
   "tags": [
     "blue trafel mushroom",
     "some wingstem root",
@@ -53,18 +49,6 @@
     "stalk of cattail",
     "small wild rose",
     "soft white mushroom",
-    "some talneo root",
-    "aloeas stem",
-    "white hook mushroom",
-    "mistweed",
-    "murdroot",
-    "wavepetal blossom",
-    "bolmara lichen",
-    "talneo root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some talneo root"
   ]
 }

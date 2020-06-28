@@ -1,47 +1,32 @@
 {
+  "id": 5142,
+  "title": [
+    "[Vornavian Coast, Caverns]"
+  ],
+  "description": [
+    "A crevice has opened in the floor of the cavern here.  The crevice is not very wide, and is only as long as a quarter staff, but no bottom is visible.  A cold draft blows upward out of the crevice.  To the northeast, a ledge overlooks a pool of water gathering below."
+  ],
+  "paths": [
+    "Obvious exits: southwest, down"
+  ],
+  "location": "the Vornavian Coast",
   "wayto": {
     "5137": "southwest",
     "5141": "down"
   },
-  "paths": [
-    "Obvious exits: southwest, down"
-  ],
+  "timeto": {
+    "5137": 0.2,
+    "5141": 0.2
+  },
+  "image": "vo-north_beach-1264234799.png",
   "image_coords": [
     348,
     681,
     358,
     691
   ],
-  "terrain": "indoors",
-  "description": [
-    "A crevice has opened in the floor of the cavern here.  The crevice is not very wide, and is only as long as a quarter staff, but no bottom is visible.  A cold draft blows upward out of the crevice.  To the northeast, a ledge overlooks a pool of water gathering below."
-  ],
-  "image": "vo-north_beach-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Vornavian Coast, Caverns]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5137": 0.2,
-    "5141": 0.2
-  },
-  "id": 5142,
-  "location": "the Vornavian Coast",
   "tags": [
     "black hook mushroom",
-    "red trafel mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "white hook mushroom",
-    "blue trafel mushroom",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "red trafel mushroom"
   ]
 }

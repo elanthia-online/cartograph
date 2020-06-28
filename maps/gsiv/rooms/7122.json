@@ -1,38 +1,30 @@
 {
-  "wayto": {
-    "7121": "go archway"
-  },
+  "id": 7122,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "The walls of this room are set with ledges, shallow depressions that each contain a large jar.  Narrow conical vases are hanging from metal brackets between the ledges, but whatever may have once been in them has rotted away to nothing."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "Darkstone Castle",
+  "wayto": {
+    "7121": "go archway"
+  },
+  "timeto": {
+    "7121": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     921,
     388,
     931,
     398
   ],
-  "terrain": "indoors",
-  "description": [
-    "The walls of this room are set with ledges, shallow depressions that each contain a large jar.  Narrow conical vases are hanging from metal brackets between the ledges, but whatever may have once been in them has rotted away to nothing."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7121": 0.2
-  },
-  "id": 7122,
-  "location": "Darkstone Castle",
   "tags": [
     "kiramon defender",
-    "kiramon worker",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "kiramon worker"
   ]
 }

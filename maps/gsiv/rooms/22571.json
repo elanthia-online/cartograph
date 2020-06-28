@@ -1,35 +1,24 @@
 {
-  "wayto": {
-    "22666": {
-      "stringproc": "0460b83837539203564f0632f43b6cca"
-    },
-    "20122": "go indentations"
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Closely positioned wooden columns help support the earth and ceiling of the small tunnel.  Carved into the limestone walls, several narrow ledges sport a variety of rings, some sparkling as they catch and reflect the light of two torches that are held upright by crude sconces and burn low in the dim space.  A boulder-cramped passageway creates a dead-end, though a light draft of air sweeps up from the small space beneath it.  Despite the presence of a trapdoor overhead, there are no means by which to climb up through it."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 22571,
   "title": [
     "[Smuggling Tunnels, Passage]"
   ],
-  "check_location": true,
+  "description": [
+    "Closely positioned wooden columns help support the earth and ceiling of the small tunnel.  Carved into the limestone walls, several narrow ledges sport a variety of rings, some sparkling as they catch and reflect the light of two torches that are held upright by crude sconces and burn low in the dim space.  A boulder-cramped passageway creates a dead-end, though a light draft of air sweeps up from the small space beneath it.  Despite the presence of a trapdoor overhead, there are no means by which to climb up through it."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": false,
+  "wayto": {
+    "22666": {
+      "file": "string_procs/wayto/22571_22666.rb"
+    },
+    "20122": "go indentations"
+  },
   "timeto": {
     "22666": 0.2,
     "20122": 0.2
   },
-  "id": 22571,
-  "location": false,
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  "check_location": true
 }

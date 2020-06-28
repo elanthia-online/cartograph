@@ -1,48 +1,36 @@
 {
+  "id": 8374,
+  "title": [
+    "[Thanatoph Bowels, Quatrefoil]"
+  ],
+  "description": [
+    "Deepening shadows in the rubbled entryway to this four-lobed structure fade into darkness at the far end of a southeast passage leading into the Stronghold bowels.  Glyphic markings repeat in a puzzling pattern along the crumbling walls, their ancient meaning lost.  Scraping noises from beyond a crude arched opening echo loudly in the emptiness of this underground labyrinth."
+  ],
+  "paths": [
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "the bowels of Thanatoph",
   "wayto": {
     "8375": "go opening",
     "8407": "northwest",
     "8389": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast, northwest"
-  ],
+  "timeto": {
+    "8375": 0.2,
+    "8407": 0.2,
+    "8389": 0.2
+  },
+  "image": "wl-stronghold-1264234799.png",
   "image_coords": [
     1284,
     511,
     1294,
     521
   ],
-  "terrain": "indoors",
-  "description": [
-    "Deepening shadows in the rubbled entryway to this four-lobed structure fade into darkness at the far end of a southeast passage leading into the Stronghold bowels.  Glyphic markings repeat in a puzzling pattern along the crumbling walls, their ancient meaning lost.  Scraping noises from beyond a crude arched opening echo loudly in the emptiness of this underground labyrinth."
-  ],
-  "image": "wl-stronghold-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thanatoph Bowels, Quatrefoil]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8375": 0.2,
-    "8407": 0.2,
-    "8389": 0.2
-  },
-  "id": 8374,
-  "location": "the bowels of Thanatoph",
   "tags": [
     "some wolifrew lichen",
     "withered black mushroom",
     "some wingstem root",
-    "some cave moss",
-    "wolifrew lichen",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

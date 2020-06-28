@@ -1,46 +1,33 @@
 {
+  "id": 5536,
+  "title": [
+    "[Outlands Manor, Stable]"
+  ],
+  "description": [
+    "Smelling more of moldered hay and rotted wood than of horses, the dark interior of the stable provides a faded image of its past glory.  Outlines and nail holes mark the wood where metallic crests once adorned the now warped maoral stalls and the carved haon doorjamb.  An old modwir ladder leads up to the stable's hayloft above the empty stalls."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the Outlands",
   "wayto": {
     "14602": "go stall",
     "5533": "out",
     "5561": "go ladder"
   },
-  "paths": [
-    "Obvious exits: out"
-  ],
+  "timeto": {
+    "14602": 0.2,
+    "5533": 0.2,
+    "5561": 0.2
+  },
+  "image": "vo-outlands-1264234799.png",
   "image_coords": [
     1390,
     629,
     1400,
     639
   ],
-  "terrain": "indoors",
-  "description": [
-    "Smelling more of moldered hay and rotted wood than of horses, the dark interior of the stable provides a faded image of its past glory.  Outlines and nail holes mark the wood where metallic crests once adorned the now warped maoral stalls and the carved haon doorjamb.  An old modwir ladder leads up to the stable's hayloft above the empty stalls."
-  ],
-  "image": "vo-outlands-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Outlands Manor, Stable]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "14602": 0.2,
-    "5533": 0.2,
-    "5561": 0.2
-  },
-  "id": 5536,
-  "location": "the Outlands",
   "tags": [
-    "dobrem",
-    "withered black mushroom",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "dobrem"
   ]
 }

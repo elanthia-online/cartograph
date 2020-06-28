@@ -1,35 +1,32 @@
 {
+  "id": 3553,
+  "title": [
+    "[Glatoph, Glacier]"
+  ],
+  "description": [
+    "The wind here is too fierce for you to see anything but flying snow.  You can barely make out general paths to the west, southwest and southeast, and hope that going one of those directions will lead to a bit of shelter."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest, west"
+  ],
+  "location": "Glatoph",
   "wayto": {
     "3552": "southeast",
     "7855": "southwest",
     "3554": "west"
   },
-  "paths": [
-    "Obvious paths: southeast, southwest, west"
-  ],
+  "timeto": {
+    "3552": 0.2,
+    "7855": 0.2,
+    "3554": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     947,
     511,
     957,
     521
   ],
-  "terrain": "mountainous",
-  "description": [
-    "The wind here is too fierce for you to see anything but flying snow.  You can barely make out general paths to the west, southwest and southeast, and hope that going one of those directions will lead to a bit of shelter."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Glatoph, Glacier]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3552": 0.2,
-    "7855": 0.2,
-    "3554": 0.2
-  },
-  "id": 3553,
-  "location": "Glatoph",
   "tags": [
     "arctic titan",
     "frost giant",
@@ -40,10 +37,6 @@
     "angelica root",
     "valerian root",
     "pennyroyal stem",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

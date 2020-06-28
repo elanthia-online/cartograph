@@ -1,10 +1,11 @@
 {
-  "wayto": {
-    "6239": {
-      "stringproc": "9f428c8213f0ddea1c1b7df431d11b4f"
-    },
-    "6200": "go archway"
-  },
+  "id": 6247,
+  "title": [
+    "[Labyrinth, The Forge]"
+  ],
+  "description": [
+    "Stone pillars support the ceiling above, the wide girths strangled by dark vines.  Rusted and broken weapons, long since discarded, lie scattered haphazardly about the cobblestone floor."
+  ],
   "paths": [
     "Obvious exits: south",
     "Obvious exits: northwest",
@@ -16,33 +17,26 @@
     "Obvious exits: west",
     "Obvious exits: northwest"
   ],
+  "location": "The Hidden Plateau",
+  "wayto": {
+    "6239": {
+      "file": "string_procs/wayto/6247_6239.rb"
+    },
+    "6200": "go archway"
+  },
+  "timeto": {
+    "6239": 0.2,
+    "6200": 0.2
+  },
+  "image": "wl-wehntoph-1310775397.png",
   "image_coords": [
     943,
     501,
     979,
     537
   ],
-  "terrain": null,
-  "description": [
-    "Stone pillars support the ceiling above, the wide girths strangled by dark vines.  Rusted and broken weapons, long since discarded, lie scattered haphazardly about the cobblestone floor."
-  ],
-  "image": "wl-wehntoph-1310775397.png",
-  "climate": null,
-  "title": [
-    "[Labyrinth, The Forge]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6239": 0.2,
-    "6200": 0.2
-  },
-  "id": 6247,
-  "location": "The Hidden Plateau",
   "tags": [
     "withered black mushroom",
     "black hook mushroom"
-  ],
-  "links": [
-
   ]
 }

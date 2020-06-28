@@ -1,38 +1,28 @@
 {
+  "id": 2661,
+  "title": [
+    "[Platform of Ice]"
+  ],
+  "description": [
+    "To the northeast, a flight of steps leads up, so icy that climbing their hazardous incline seems an impossible feat.  This platform is totally encased in a frozen sheet that muffles sound and reflects light in a glistening shimmer.  Above the treacherous ascent, a ledge is visible - and towering above that, a monstrous, serpentine figure reclines, its head and tail forming a protective curve around the ice-sheathed dais."
+  ],
+  "paths": [
+    "Obvious exits: east, south, northwest"
+  ],
+  "location": "Koar's Shrine",
   "wayto": {
     "2662": "northwest",
     "2658": "climb steps"
   },
-  "paths": [
-    "Obvious exits: east, south, northwest"
-  ],
+  "timeto": {
+    "2662": 0.2,
+    "2658": 0.2
+  },
+  "image": "imt-pinefar-1264234799.png",
   "image_coords": [
     335,
     512,
     345,
     522
-  ],
-  "terrain": "indoors",
-  "description": [
-    "To the northeast, a flight of steps leads up, so icy that climbing their hazardous incline seems an impossible feat.  This platform is totally encased in a frozen sheet that muffles sound and reflects light in a glistening shimmer.  Above the treacherous ascent, a ledge is visible - and towering above that, a monstrous, serpentine figure reclines, its head and tail forming a protective curve around the ice-sheathed dais."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Platform of Ice]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2662": 0.2,
-    "2658": 0.2
-  },
-  "id": 2661,
-  "location": "Koar's Shrine",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

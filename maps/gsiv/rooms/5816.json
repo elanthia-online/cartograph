@@ -1,41 +1,31 @@
 {
+  "id": 5816,
+  "title": [
+    "[Zaerthu Tunnels, Switchback]"
+  ],
+  "description": [
+    "Patches of phosphorescent fungi growing along the walls provide dim illumination, the light barely sufficient to reveal the slope of the tunnel floor.  Scars on the surrounding beams mark places where lanterns once hung.  The walls are riddled with shallow holes the size of small wagon wheels, though there is no sign of who or what created them."
+  ],
+  "paths": [
+    "Obvious exits: southwest, northwest"
+  ],
+  "location": "the Zaerthu Tunnels",
   "wayto": {
     "5817": "northwest",
     "5815": "southwest"
   },
-  "paths": [
-    "Obvious exits: southwest, northwest"
-  ],
+  "timeto": {
+    "5817": 0.2,
+    "5815": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     371,
     974,
     381,
     984
   ],
-  "terrain": "indoors",
-  "description": [
-    "Patches of phosphorescent fungi growing along the walls provide dim illumination, the light barely sufficient to reveal the slope of the tunnel floor.  Scars on the surrounding beams mark places where lanterns once hung.  The walls are riddled with shallow holes the size of small wagon wheels, though there is no sign of who or what created them."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Zaerthu Tunnels, Switchback]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5817": 0.2,
-    "5815": 0.2
-  },
-  "id": 5816,
-  "location": "the Zaerthu Tunnels",
   "tags": [
-    "some wolifrew lichen",
-    "wolifrew lichen",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wolifrew lichen"
   ]
 }

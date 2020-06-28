@@ -1,34 +1,25 @@
 {
+  "id": 25362,
+  "title": [
+    "[Delirium Manor, Kitchen]"
+  ],
+  "description": [
+    "A medley of enticing aromas dance and mingle, filling the air with a fragrance that teases the palate.  Pots of soup burble on the stove, freshly baked breads await tasting on a wobbly sideboard, and pies cool upon the sill of an open window.  A trail of scraps and tiny pawprints leads into a curtained pantry."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "Delirium Manor",
   "wayto": {
     "25361": "east",
     "25364": "north",
     "25366": {
-      "stringproc": "3861c12fbd8dcf87c58d79b77303f068"
+      "file": "string_procs/wayto/25362_25366.rb"
     }
   },
-  "paths": [
-    "Obvious exits: north, east"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "A medley of enticing aromas dance and mingle, filling the air with a fragrance that teases the palate.  Pots of soup burble on the stove, freshly baked breads await tasting on a wobbly sideboard, and pies cool upon the sill of an open window.  A trail of scraps and tiny pawprints leads into a curtained pantry."
-  ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Delirium Manor, Kitchen]"
-  ],
-  "check_location": null,
   "timeto": {
     "25361": 0.2,
     "25364": 0.2,
     "25366": 0.2
-  },
-  "id": 25362,
-  "location": "Delirium Manor",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  }
 }

@@ -1,45 +1,34 @@
 {
+  "id": 4970,
+  "title": [
+    "[Maernstrike Caverns, Tunnel]"
+  ],
+  "description": [
+    "A nice-sized hole runs the length of the southern wall of this chamber.  Dozens of furry creatures scramble back inside of it, where they disappear into its depths.  Their high-pitched cries are a clear indication that they are not happy with the intrusion."
+  ],
+  "paths": [
+    "Obvious exits: west, northwest"
+  ],
+  "location": "the Maernstrike Caverns",
   "wayto": {
     "4971": "northwest",
     "4969": "west"
   },
-  "paths": [
-    "Obvious exits: west, northwest"
-  ],
+  "timeto": {
+    "4971": 0.2,
+    "4969": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     1464,
     495,
     1472,
     503
   ],
-  "terrain": "indoors",
-  "description": [
-    "A nice-sized hole runs the length of the southern wall of this chamber.  Dozens of furry creatures scramble back inside of it, where they disappear into its depths.  Their high-pitched cries are a clear indication that they are not happy with the intrusion."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Maernstrike Caverns, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4971": 0.2,
-    "4969": 0.2
-  },
-  "id": 4970,
-  "location": "the Maernstrike Caverns",
   "tags": [
     "some cave moss",
     "white hook mushroom",
     "some bolmara lichen",
-    "some wingstem root",
-    "cave moss",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

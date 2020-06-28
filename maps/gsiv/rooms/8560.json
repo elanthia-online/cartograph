@@ -1,34 +1,31 @@
 {
+  "id": 8560,
+  "title": [
+    "[Alpine Meadow, Imaera's Path]"
+  ],
+  "description": [
+    "The rolling green of the meadow slopes upwards here, making it impossible to see what lies further north along the path.  Scattered wildflowers attract dozens of butterflies, which add even more color to the meadow as they flit about from flower to flower.",
+    "The rolling green of the meadow slopes upwards here, making it impossible to see what lies further north along the path.  Hundreds of fireflies dance about the night sky, their blinking lights flashing like twinkling stars."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the foothills of Zeltoph",
   "wayto": {
     "8559": "south",
     "8561": "north"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "8559": 0.2,
+    "8561": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     1363,
     647,
     1373,
     657
   ],
-  "terrain": "grassland",
-  "description": [
-    "The rolling green of the meadow slopes upwards here, making it impossible to see what lies further north along the path.  Scattered wildflowers attract dozens of butterflies, which add even more color to the meadow as they flit about from flower to flower.",
-    "The rolling green of the meadow slopes upwards here, making it impossible to see what lies further north along the path.  Hundreds of fireflies dance about the night sky, their blinking lights flashing like twinkling stars."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Alpine Meadow, Imaera's Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8559": 0.2,
-    "8561": 0.2
-  },
-  "id": 8560,
-  "location": "the foothills of Zeltoph",
   "tags": [
     "fennel bulb",
     "wild carrot",
@@ -101,11 +98,6 @@
     "ironfern root",
     "nightbloom blossom",
     "brostheras grass",
-    "woad leaves",
-    "sunburst blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "woad leaves"
   ]
 }

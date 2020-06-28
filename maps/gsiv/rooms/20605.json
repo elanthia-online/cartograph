@@ -1,51 +1,29 @@
 {
-  "wayto": {
-    "20604": "east",
-    "20606": "northwest"
-  },
+  "id": 20605,
+  "title": [
+    "[Wehnimer's, Burrow Way]"
+  ],
+  "description": [
+    "The cavern is spacious, with huge wooden rafters running along the stony ceiling above.  A row of crates, barrels, and bolts of cloth line an entire length of a wall."
+  ],
   "paths": [
     "Obvious exits: east, northwest",
     "Obvious exits: east"
   ],
+  "location": "the town of Wehnimer's Landing",
+  "wayto": {
+    "20604": "east",
+    "20606": "northwest"
+  },
+  "timeto": {
+    "20604": 0.2,
+    "20606": 0.2
+  },
+  "image": "wl-burrow_way-1360361110.png",
   "image_coords": [
     308,
     270,
     334,
     297
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The cavern is spacious, with huge wooden rafters running along the stony ceiling above.  A row of crates, barrels, and bolts of cloth line an entire length of a wall."
-  ],
-  "image": "wl-burrow_way-1360361110.png",
-  "climate": "indoors",
-  "title": [
-    "[Wehnimer's, Burrow Way]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "20604": 0.2,
-    "20606": 0.2
-  },
-  "id": 20605,
-  "location": "the town of Wehnimer's Landing",
-  "tags": [
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

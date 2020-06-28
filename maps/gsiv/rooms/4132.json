@@ -1,38 +1,28 @@
 {
+  "id": 4132,
+  "title": [
+    "[Glatoph, Lava Pool]"
+  ],
+  "description": [
+    "The ledge here is barely a double-handspan wide, giving room for your feet with no margin for error.  The rough grey walls offer nothing to hang onto if you should stumble.  Heat rises in waves from the lava below, making the air and everything around you seem to shimmer.  To the east you see what looks like an arch stretching across the cavern, high above the glowing pool."
+  ],
+  "paths": [
+    "Obvious exits: east, southwest"
+  ],
+  "location": "Glatoph",
   "wayto": {
     "4131": "east",
     "4133": "southwest"
   },
-  "paths": [
-    "Obvious exits: east, southwest"
-  ],
+  "timeto": {
+    "4131": 0.2,
+    "4133": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     187,
     383,
     197,
     393
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The ledge here is barely a double-handspan wide, giving room for your feet with no margin for error.  The rough grey walls offer nothing to hang onto if you should stumble.  Heat rises in waves from the lava below, making the air and everything around you seem to shimmer.  To the east you see what looks like an arch stretching across the cavern, high above the glowing pool."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Glatoph, Lava Pool]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4131": 0.2,
-    "4133": 0.2
-  },
-  "id": 4132,
-  "location": "Glatoph",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

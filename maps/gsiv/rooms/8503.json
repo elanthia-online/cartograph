@@ -1,42 +1,32 @@
 {
+  "id": 8503,
+  "title": [
+    "[Temple, Crypt]"
+  ],
+  "description": [
+    "The corpses resting on the biers here are much older than the ones to the north.  The air smells of must and aged linen, and you step quietly with an irrational fear of disturbing the deep silence.  A single row of biers leads off to the south, more ornate than the rest."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south, west"
+  ],
+  "location": "the Temple of Love",
   "wayto": {
     "8502": "east",
     "8504": "west",
     "8506": "south",
     "8500": "north"
   },
-  "paths": [
-    "Obvious exits: north, east, south, west"
-  ],
-  "image_coords": [
-    359,
-    603,
-    369,
-    613
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The corpses resting on the biers here are much older than the ones to the north.  The air smells of must and aged linen, and you step quietly with an irrational fear of disturbing the deep silence.  A single row of biers leads off to the south, more ornate than the rest."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Temple, Crypt]"
-  ],
-  "check_location": null,
   "timeto": {
     "8502": 0.2,
     "8504": 0.2,
     "8506": 0.2,
     "8500": 0.2
   },
-  "id": 8503,
-  "location": "the Temple of Love",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-trollfang-1264234799.png",
+  "image_coords": [
+    359,
+    603,
+    369,
+    613
   ]
 }

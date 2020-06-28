@@ -1,33 +1,30 @@
 {
+  "id": 2934,
+  "title": [
+    "[A Winding Path]"
+  ],
+  "description": [
+    "The walls of the mountain lean over the path, sheltering it from the winds and snows which periodically swirl about.  The remains of the stone pathway reappear and continue around the bend."
+  ],
+  "paths": [
+    "Obvious paths: east, northwest"
+  ],
+  "location": "the Abbey",
   "wayto": {
     "2933": "east",
     "2935": "northwest"
   },
-  "paths": [
-    "Obvious paths: east, northwest"
-  ],
+  "timeto": {
+    "2933": 0.2,
+    "2935": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     666,
     869,
     676,
     879
   ],
-  "terrain": "mountainous",
-  "description": [
-    "The walls of the mountain lean over the path, sheltering it from the winds and snows which periodically swirl about.  The remains of the stone pathway reappear and continue around the bend."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[A Winding Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2933": 0.2,
-    "2935": 0.2
-  },
-  "id": 2934,
-  "location": "the Abbey",
   "tags": [
     "some valerian root",
     "calamintha blossom",
@@ -51,18 +48,6 @@
     "lingonberry",
     "some pennyroyal stem",
     "red winterberry",
-    "buckthorn berry",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "tundra grass",
-    "snowberries",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "buckthorn berry"
   ]
 }

@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "12112": "south",
-    "12134": "southeast",
-    "2635": {
-      "stringproc": "f88a5ac335110328444947aa8fdfa490"
-    },
-    "12093": {
-      "stringproc": "dc0110972ab7e067d5fec20ece15581c"
-    },
-    "2605": {
-      "stringproc": "317c6eedd1ea40322b9b26b259a3053f"
-    }
-  },
+  "id": 12116,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "A large, decrepit building stands on the top of a small hillock here.  Vines cover most of the building, avoiding only the dark stains running from the windows and roof.  The stains are a dark red or brown, giving the appearance the building has been sweating blood.  A weathered metal sign hangs just above the entryway, creaking in the non-existant breeze."
+  ],
   "paths": [
     "Obvious paths: southeast, south",
     "Obvious exits: southeast, south"
   ],
-  "image_coords": [
-    868,
-    619,
-    876,
-    627
-  ],
-  "terrain": null,
-  "description": [
-    "A large, decrepit building stands on the top of a small hillock here.  Vines cover most of the building, avoiding only the dark stains running from the windows and roof.  The stains are a dark red or brown, giving the appearance the building has been sweating blood.  A weathered metal sign hangs just above the entryway, creaking in the non-existant breeze."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12112": "south",
+    "12134": "southeast",
+    "2635": {
+      "file": "string_procs/wayto/12116_2635.rb"
+    },
+    "12093": {
+      "file": "string_procs/wayto/12116_12093.rb"
+    },
+    "2605": {
+      "file": "string_procs/wayto/12116_2605.rb"
+    }
+  },
   "timeto": {
     "12112": 0.2,
     "12134": 0.2,
@@ -39,8 +31,13 @@
     "12093": 21.6,
     "2605": 16.0
   },
-  "id": 12116,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    868,
+    619,
+    876,
+    627
+  ],
   "tags": [
     "withered deathblossom",
     "oozing fleshsore bulb",
@@ -49,8 +46,5 @@
     "slime-covered grave blossom",
     "discolored fleshbinder bud",
     "mass of congealed slime"
-  ],
-  "links": [
-
   ]
 }

@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "12130": "southwest",
-    "12121": "northwest",
-    "2635": {
-      "stringproc": "f88a5ac335110328444947aa8fdfa490"
-    },
-    "12093": {
-      "stringproc": "dc0110972ab7e067d5fec20ece15581c"
-    },
-    "2605": {
-      "stringproc": "317c6eedd1ea40322b9b26b259a3053f"
-    }
-  },
+  "id": 12129,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "Before you stands a large green house, with smoke billowing out the chimney and the windows broken out.  In front of the worn domicile, an older man and woman lie dead, chests slashed open and eyes staring sightlessly into the sky.  Above them stands a young man, resembling them.  He regards you in a cold, calculating manner, hand clenching and unclenching a bloody blade."
+  ],
   "paths": [
     "Obvious exits: southwest, northwest",
     "Obvious paths: southwest, northwest"
   ],
-  "image_coords": [
-    976,
-    618,
-    986,
-    628
-  ],
-  "terrain": null,
-  "description": [
-    "Before you stands a large green house, with smoke billowing out the chimney and the windows broken out.  In front of the worn domicile, an older man and woman lie dead, chests slashed open and eyes staring sightlessly into the sky.  Above them stands a young man, resembling them.  He regards you in a cold, calculating manner, hand clenching and unclenching a bloody blade."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12130": "southwest",
+    "12121": "northwest",
+    "2635": {
+      "file": "string_procs/wayto/12129_2635.rb"
+    },
+    "12093": {
+      "file": "string_procs/wayto/12129_12093.rb"
+    },
+    "2605": {
+      "file": "string_procs/wayto/12129_2605.rb"
+    }
+  },
   "timeto": {
     "12130": 0.2,
     "12121": 0.2,
@@ -39,8 +31,13 @@
     "12093": 21.6,
     "2605": 16.0
   },
-  "id": 12129,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    976,
+    618,
+    986,
+    628
+  ],
   "tags": [
     "withered deathblossom",
     "mass of congealed slime",
@@ -49,8 +46,5 @@
     "oozing fleshsore bulb",
     "rotting bile green fleshbulb",
     "twisted black mawflower"
-  ],
-  "links": [
-
   ]
 }

@@ -1,38 +1,28 @@
 {
+  "id": 7949,
+  "title": [
+    "[Underground Pool]"
+  ],
+  "description": [
+    "The walls of the cavern are rough.  Stalactites drip from the ceiling, some joining with stalagmites to form huge limestone pillars.  The air is damp and cold, and the floor is just slick enough to make you place your feet carefully with each step.  A small cascade of water runs down the back wall into a shallow pool.  The steady trickling sound is soothing to your ears, creating a tranquil atmosphere in the room.  The breeze from a small crevice is warm and fresh, likely from the outside."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Melgorehn's Valley",
   "wayto": {
     "7948": "go crevice",
     "7950": "down"
   },
-  "paths": [
-    "Obvious exits: down"
-  ],
+  "timeto": {
+    "7948": 0.2,
+    "7950": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     844,
     378,
     854,
     388
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The walls of the cavern are rough.  Stalactites drip from the ceiling, some joining with stalagmites to form huge limestone pillars.  The air is damp and cold, and the floor is just slick enough to make you place your feet carefully with each step.  A small cascade of water runs down the back wall into a shallow pool.  The steady trickling sound is soothing to your ears, creating a tranquil atmosphere in the room.  The breeze from a small crevice is warm and fresh, likely from the outside."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Underground Pool]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7948": 0.2,
-    "7950": 0.2
-  },
-  "id": 7949,
-  "location": "Melgorehn's Valley",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,47 +1,32 @@
 {
+  "id": 2850,
+  "title": [
+    "[Northern Mountains, Dark Caves]"
+  ],
+  "description": [
+    "Light from the cave opening above streams in, revealing scattered, gnawed bones and broken weapons. The smell of rotting leaves mixes with the smell of decaying flesh, creating a truly repulsive odor."
+  ],
+  "paths": [
+    "Obvious exits: east, west, up"
+  ],
+  "location": "the Sleeping Lady Mountains",
   "wayto": {
     "2849": "up",
     "2851": "west"
   },
-  "paths": [
-    "Obvious exits: east, west, up"
-  ],
+  "timeto": {
+    "2849": 0.2,
+    "2851": 0.2
+  },
+  "image": "imt-pinefar-1264234799.png",
   "image_coords": [
     193,
     1161,
     203,
     1171
   ],
-  "terrain": "indoors",
-  "description": [
-    "Light from the cave opening above streams in, revealing scattered, gnawed bones and broken weapons. The smell of rotting leaves mixes with the smell of decaying flesh, creating a truly repulsive odor."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Northern Mountains, Dark Caves]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2849": 0.2,
-    "2851": 0.2
-  },
-  "id": 2850,
-  "location": "the Sleeping Lady Mountains",
   "tags": [
     "blue trafel mushroom",
-    "red trafel mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "black hook mushroom",
-    "white hook mushroom",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "red trafel mushroom"
   ]
 }

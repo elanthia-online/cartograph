@@ -1,35 +1,32 @@
 {
+  "id": 4272,
+  "title": [
+    "[Lysierian Hills, Fork in Path]"
+  ],
+  "description": [
+    "You have come to a fork in the path.  The northeast leg seems to plunge steeply down into denser forest.  The southeast leg climbs slightly but steadily to higher elevations.  The northwest leg seems to follow a ridge into thinner forest."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, northwest"
+  ],
+  "location": "the Lysierian Hills",
   "wayto": {
     "4271": "northwest",
     "4273": "southeast",
     "4297": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, southeast, northwest"
-  ],
+  "timeto": {
+    "4271": 0.2,
+    "4273": 0.2,
+    "4297": 0.2
+  },
+  "image": "wl-lysierian-1264234799.png",
   "image_coords": [
     170,
     560,
     180,
     570
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "You have come to a fork in the path.  The northeast leg seems to plunge steeply down into denser forest.  The southeast leg climbs slightly but steadily to higher elevations.  The northwest leg seems to follow a ridge into thinner forest."
-  ],
-  "image": "wl-lysierian-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Lysierian Hills, Fork in Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4271": 0.2,
-    "4273": 0.2,
-    "4297": 0.2
-  },
-  "id": 4272,
-  "location": "the Lysierian Hills",
   "tags": [
     "some calamia fruit",
     "wild pink geranium",
@@ -54,57 +51,6 @@
     "handful of walnuts",
     "tkaro root",
     "some basal moss",
-    "bloodwood twig",
-    "acantha leaf",
-    "torban leaf",
-    "calamia fruit",
-    "haphip root",
-    "basal moss",
-    "sticks",
-    "angelica root",
-    "trollfear mushroom",
-    "soft white mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "bright red teaberry",
-    "blueberries",
-    "elderberries",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "wild grapes",
-    "broken twig",
-    "stalk of bluebells",
-    "golden buttercup",
-    "stalk of goldenrod",
-    "small wild rose",
-    "sprig of wild lilac",
-    "wild beechnut",
-    "stalk of burdock",
-    "tree bark",
-    "murkweed",
-    "white lily",
-    "pink rain lily",
-    "coppery rain lily",
-    "oxblood lily",
-    "blue whortleberry",
-    "white baneberry",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "nightbloom blossom",
-    "twisted twig",
-    "slender twig",
-    "ebony twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "walnuts",
-    "alder bark",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bloodwood twig"
   ]
 }

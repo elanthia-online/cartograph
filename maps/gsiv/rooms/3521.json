@@ -1,50 +1,44 @@
 {
+  "id": 3521,
+  "title": [
+    "[Ta'Vaalor, Victory Court]",
+    "[Ta'Vaalor, Tyrnian Court]",
+    "[Ta'Vaalor, King's Court]"
+  ],
+  "description": [
+    "Thick grey stone walls clad a large structure that dominates this part of the court.  Red and gold House Vaalor pennants flutter atop the crenelated walls, adding the only bit of color the building possesses.  A plain faenor sign is posted beside the entrance to the imposing hall.",
+    "Thick grey stone walls clad a large structure that dominates this part of the court.  Red and gold House Vaalor pennants flutter atop the crenellated walls, adding the only bit of color the building possesses.  A plain faenor sign is posted beside the entrance to the imposing hall."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the city of Ta'Vaalor",
   "wayto": {
     "3519": "west",
     "3522": "east",
     "17215": "go entrance",
     "3668": {
-      "stringproc": "592e7660bc67a7aa2aeeed086c964162"
+      "file": "string_procs/wayto/3521_3668.rb"
     }
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "3519": 0.2,
+    "3522": 0.2,
+    "17215": {
+      "file": "string_procs/timeto/3521_17215.rb"
+    },
+    "3668": {
+      "file": "string_procs/timeto/3521_3668.rb"
+    }
+  },
+  "image": "en-tavaalor-1565907614.png",
   "image_coords": [
     1001,
     854,
     1037,
     890
   ],
-  "terrain": null,
-  "description": [
-    "Thick grey stone walls clad a large structure that dominates this part of the court.  Red and gold House Vaalor pennants flutter atop the crenelated walls, adding the only bit of color the building possesses.  A plain faenor sign is posted beside the entrance to the imposing hall.",
-    "Thick grey stone walls clad a large structure that dominates this part of the court.  Red and gold House Vaalor pennants flutter atop the crenellated walls, adding the only bit of color the building possesses.  A plain faenor sign is posted beside the entrance to the imposing hall."
-  ],
-  "image": "en-tavaalor-1565907614.png",
-  "climate": null,
-  "title": [
-    "[Ta'Vaalor, Victory Court]",
-    "[Ta'Vaalor, Tyrnian Court]",
-    "[Ta'Vaalor, King's Court]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3519": 0.2,
-    "3522": 0.2,
-    "17215": {
-      "stringproc": "2ec7d884d36666428596184d9175fc3d"
-    },
-    "3668": {
-      "stringproc": "61acd23da00379e24457740bfb0b0b29"
-    }
-  },
-  "id": 3521,
-  "location": "the city of Ta'Vaalor",
   "tags": [
     "warriorguild"
-  ],
-  "links": [
-
   ]
 }

@@ -1,38 +1,28 @@
 {
+  "id": 7037,
+  "title": [
+    "[Castle Darkstone, Great Hall]"
+  ],
+  "description": [
+    "Once a hall for meetings and pleasurable dinners, this spacious structure now is the apparent workshop of the new castle occupants.  Several tables have been set up and show recent signs of use.  Empty flasks and mein shavings litter the floor.  The most notable fixture here is a massive stone pedestal that has been placed in the center of the room.  Atop the pedestal is a curious swirling void, and the whole apparatus seems to hum with a mysterious power."
+  ],
+  "paths": [
+    "Obvious exits: east, out"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7034": "out",
     "7038": "east"
   },
-  "paths": [
-    "Obvious exits: east, out"
-  ],
+  "timeto": {
+    "7034": 0.2,
+    "7038": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     667,
     467,
     677,
     477
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Once a hall for meetings and pleasurable dinners, this spacious structure now is the apparent workshop of the new castle occupants.  Several tables have been set up and show recent signs of use.  Empty flasks and mein shavings litter the floor.  The most notable fixture here is a massive stone pedestal that has been placed in the center of the room.  Atop the pedestal is a curious swirling void, and the whole apparatus seems to hum with a mysterious power."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Castle Darkstone, Great Hall]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7034": 0.2,
-    "7038": 0.2
-  },
-  "id": 7037,
-  "location": "Darkstone Castle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,53 +1,34 @@
 {
+  "id": 8085,
+  "title": [
+    "[Luinne Bheinn, Settlement]"
+  ],
+  "description": [
+    "A lone house occupies this area.  Dark shaded shutters and door lend a sad feel to the house and its environs.  A leafless dwarf birch grows next to the house, completing the grey bleakness of the place."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, west"
+  ],
+  "location": "Luinne Bheinn",
   "wayto": {
     "8084": "northeast",
     "8088": "west",
     "8089": "southeast"
   },
-  "paths": [
-    "Obvious paths: northeast, southeast, west"
-  ],
+  "timeto": {
+    "8084": 0.2,
+    "8088": 0.2,
+    "8089": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     1001,
     733,
     1011,
     743
   ],
-  "terrain": "mountainous",
-  "description": [
-    "A lone house occupies this area.  Dark shaded shutters and door lend a sad feel to the house and its environs.  A leafless dwarf birch grows next to the house, completing the grey bleakness of the place."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Luinne Bheinn, Settlement]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8084": 0.2,
-    "8088": 0.2,
-    "8089": 0.2
-  },
-  "id": 8085,
-  "location": "Luinne Bheinn",
   "tags": [
     "some angelica root",
-    "wild pink geranium",
-    "marallis berry",
-    "cuctucae berry",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "stalk of bluebells",
-    "sprig of larkspur",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wild pink geranium"
   ]
 }

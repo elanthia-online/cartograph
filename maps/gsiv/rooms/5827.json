@@ -1,47 +1,41 @@
 {
-  "wayto": {
-    "5828": "northeast",
-    "3490": {
-      "stringproc": "132761fc3aefda51e3182390c445fd0e"
-    }
-  },
-  "paths": [
-    "Obvious paths: northeast"
+  "id": 5827,
+  "title": [
+    "[Ta'Vaalor, Vermilion Gate]"
   ],
-  "image_coords": [
-    263,
-    960,
-    273,
-    970
-  ],
-  "terrain": null,
   "description": [
     "A massive stone wall rises high above, crennelated along the top of the city's last defense as far as the eye can see.  As it reaches the surface of the river the wall disappears into the murky depths of the Mistydeep, leaving no hint as to how far down the stonework may go.  The wall is pierced by the Vermilion Gate, a large ironwork gate above which the crest of House Vaalor is deeply carved into limestone blocks.  Decorated with rich dark red enamel and lined with pure gold, the crest glitters opulently.",
     "A massive stone wall rises high above, crennelated along the top of the city's last defense as far as the eye can see. The wall is pierced by the Vermilion Gate, a large ironwork gate above which the crest of House Vaalor is deeply carved into massive limestone blocks.  Decorated with rich dark red enamel and lined with pure gold, the crest glitters opulently in the light of torches lining the bridge.",
     "A massive stone wall rises high above, crenellated along the top of the city's last defense as far as the eye can see. The wall is pierced by the Vermilion Gate, a large ironwork gate above which the crest of House Vaalor is deeply carved into massive limestone blocks.  Decorated with rich dark red enamel and lined with pure gold, the crest glitters opulently in the light of torches lining the bridge.",
     "A massive stone wall rises high above, crenellated along the top of the city's last defense as far as the eye can see.  As it reaches the surface of the river the wall disappears into the murky depths of the Mistydeep, leaving no hint as to how far down the stonework may go.  The wall is pierced by the Vermilion Gate, a large ironwork gate above which the crest of House Vaalor is deeply carved into limestone blocks.  Decorated with rich dark red enamel and lined with pure gold, the crest glitters opulently."
   ],
-  "image": "en-cemetery-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Ta'Vaalor, Vermilion Gate]"
+  "paths": [
+    "Obvious paths: northeast"
   ],
-  "check_location": null,
+  "location": "the city of Ta'Vaalor",
+  "wayto": {
+    "5828": "northeast",
+    "3490": {
+      "file": "string_procs/wayto/5827_3490.rb"
+    }
+  },
   "timeto": {
     "5828": 0.2,
     "3490": {
-      "stringproc": "c605976957083abdc914cbf50ef48a56"
+      "file": "string_procs/timeto/5827_3490.rb"
     }
   },
-  "id": 5827,
-  "location": "the city of Ta'Vaalor",
+  "image": "en-cemetery-1264234799.png",
+  "image_coords": [
+    263,
+    960,
+    273,
+    970
+  ],
   "tags": [
     "advguard",
     "meta:mapname:Elven Nations - Ta'Vaalor Cemetary and Neartofar Forest",
     "meta:mapshortname:Cemetary/Neartofar Forest",
     "meta:mapcategory:Elven Nations"
-  ],
-  "links": [
-
   ]
 }

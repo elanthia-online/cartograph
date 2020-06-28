@@ -1,33 +1,30 @@
 {
+  "id": 9567,
+  "title": [
+    "[Czeroth Caverns, Tunnel]"
+  ],
+  "description": [
+    "The walls of the tunnel are cool and dry to the touch.  Carved out of redstone, the tunnel is wide enough and tall enough to accommodate three giantmen walking abreast.  A phosphorescent mineral vein through the redstone provides a dim light.  The tunnel slopes gradually to the southwest deeper into the earth."
+  ],
+  "paths": [
+    "Obvious exits: southwest, out"
+  ],
+  "location": "the Czeroth Caverns",
   "wayto": {
     "9440": "out",
     "9568": "southwest"
   },
-  "paths": [
-    "Obvious exits: southwest, out"
-  ],
+  "timeto": {
+    "9440": 0.2,
+    "9568": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     1258,
     168,
     1268,
     178
   ],
-  "terrain": "indoors",
-  "description": [
-    "The walls of the tunnel are cool and dry to the touch.  Carved out of redstone, the tunnel is wide enough and tall enough to accommodate three giantmen walking abreast.  A phosphorescent mineral vein through the redstone provides a dim light.  The tunnel slopes gradually to the southwest deeper into the earth."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Czeroth Caverns, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9440": 0.2,
-    "9568": 0.2
-  },
-  "id": 9567,
-  "location": "the Czeroth Caverns",
   "tags": [
     "genkew mushroom",
     "withered black mushroom",
@@ -37,14 +34,6 @@
     "flathead mushroom",
     "daggerstalk mushroom",
     "some wingstem root",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "pepperthorn root"
   ]
 }

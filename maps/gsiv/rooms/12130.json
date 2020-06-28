@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "12129": "northeast",
-    "2635": {
-      "stringproc": "f88a5ac335110328444947aa8fdfa490"
-    },
-    "12158": "southeast",
-    "12093": {
-      "stringproc": "dc0110972ab7e067d5fec20ece15581c"
-    },
-    "2605": {
-      "stringproc": "317c6eedd1ea40322b9b26b259a3053f"
-    }
-  },
+  "id": 12130,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "The granite wall before you is covered in a huge mural of gouges and scratches.  The pattern spreads from the bottom of the wall upwards, branching much like a tree into various parts.  Studying the damage a bit more, you realize it was all very carefully planned, although why isn't immediately apparent."
+  ],
   "paths": [
     "Obvious exits: northeast, southeast",
     "Obvious paths: northeast, southeast"
   ],
-  "image_coords": [
-    948,
-    644,
-    958,
-    654
-  ],
-  "terrain": null,
-  "description": [
-    "The granite wall before you is covered in a huge mural of gouges and scratches.  The pattern spreads from the bottom of the wall upwards, branching much like a tree into various parts.  Studying the damage a bit more, you realize it was all very carefully planned, although why isn't immediately apparent."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12129": "northeast",
+    "2635": {
+      "file": "string_procs/wayto/12130_2635.rb"
+    },
+    "12158": "southeast",
+    "12093": {
+      "file": "string_procs/wayto/12130_12093.rb"
+    },
+    "2605": {
+      "file": "string_procs/wayto/12130_2605.rb"
+    }
+  },
   "timeto": {
     "12129": 0.2,
     "2635": 16.0,
@@ -39,8 +31,13 @@
     "12093": 21.6,
     "2605": 16.0
   },
-  "id": 12130,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    948,
+    644,
+    958,
+    654
+  ],
   "tags": [
     "withered deathblossom",
     "oozing fleshsore bulb",
@@ -49,8 +46,5 @@
     "mass of congealed slime",
     "rotting bile green fleshbulb",
     "discolored fleshbinder bud"
-  ],
-  "links": [
-
   ]
 }

@@ -1,39 +1,35 @@
 {
-  "wayto": {
-    "24864": "up",
-    "9147": {
-      "stringproc": "07f3131a2a9a495408bcf5b8fbb0215e"
-    }
-  },
+  "id": 24863,
+  "title": [
+    "[A Tunneled Approach]"
+  ],
+  "description": [
+    "A narrow inlet of water trickles into a circular pond that lays eerily still, a watery vortex spinning in its center.  Glowing veins of assorted minerals, rich with ore deposits, line the walls from floor to ceiling.  Pooling on the floor of the cavern is a thick white mist that obscures the surroundings."
+  ],
   "paths": [
     "Obvious exits: up"
   ],
+  "location": "Thurfel's Island",
+  "wayto": {
+    "24864": "up",
+    "9147": {
+      "file": "string_procs/wayto/24863_9147.rb"
+    }
+  },
+  "timeto": {
+    "24864": 0.2,
+    "9147": 2.0
+  },
+  "image": "imt-Reim-1260914759.png",
   "image_coords": [
     769,
     1067,
     782,
     1080
   ],
-  "terrain": null,
-  "description": [
-    "A narrow inlet of water trickles into a circular pond that lays eerily still, a watery vortex spinning in its center.  Glowing veins of assorted minerals, rich with ore deposits, line the walls from floor to ceiling.  Pooling on the floor of the cavern is a thick white mist that obscures the surroundings."
-  ],
-  "image": "imt-Reim-1260914759.png",
-  "climate": null,
-  "title": [
-    "[A Tunneled Approach]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24864": 0.2,
-    "9147": 2.0
-  },
-  "id": 24863,
-  "location": "Thurfel's Island",
   "tags": [
     "meta:mapname:Icemule Trace - The Settlement of Reim",
     "meta:mapshortname:The Settlement of Reim",
     "meta:mapcategory:Icemule Trace"
-  ],
-  "unique_loot": null
+  ]
 }

@@ -1,44 +1,36 @@
 {
-  "wayto": {
-    "13481": {
-      "stringproc": "001b12f719b99abd4732a1d431dfd6a3"
-    },
-    "1808": {
-      "stringproc": "beff6138fe5314a66a5cf49462a6764a"
-    },
-    "1810": {
-      "stringproc": "ad5e59f6e0dd20a14af07e94a44d4e23"
-    },
-    "14664": {
-      "stringproc": "ca2b6d276567a20108840b5cd91b91ec"
-    },
-    "13224": {
-      "stringproc": "29812dbe0ca1311049286cce391f7589"
-    },
-    "14665": {
-      "stringproc": "e3bf131c95d6f2a3827ac7b1d3c8c950"
-    }
-  },
-  "paths": [
-    "Obvious paths: northeast, southeast, southwest, northwest"
+  "id": 1809,
+  "title": [
+    "[Wraithenmist, Maze of Mist]"
   ],
-  "image_coords": [
-    422,
-    330,
-    432,
-    340
-  ],
-  "terrain": "deciduous forest",
   "description": [
     "The silvery mist is so thick it is impossible to even see the trees nearby.  The very air glows faintly, as if the mist were a light source on its own, instead of merely reflecting the light from whatever stars might shine above this desolate place.",
     "The silvery mist is so thick it is impossible even to see the trees nearby.  The very air glows faintly, as if the mist were a light source on its own, instead of merely reflecting the light from whatever stars might shine above this desolate place."
   ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Wraithenmist, Maze of Mist]"
+  "paths": [
+    "Obvious paths: northeast, southeast, southwest, northwest"
   ],
-  "check_location": null,
+  "location": "Wraithenmist",
+  "wayto": {
+    "13481": {
+      "file": "string_procs/wayto/1809_13481.rb"
+    },
+    "1808": {
+      "file": "string_procs/wayto/1809_1808.rb"
+    },
+    "1810": {
+      "file": "string_procs/wayto/1809_1810.rb"
+    },
+    "14664": {
+      "file": "string_procs/wayto/1809_14664.rb"
+    },
+    "13224": {
+      "file": "string_procs/wayto/1809_13224.rb"
+    },
+    "14665": {
+      "file": "string_procs/wayto/1809_14665.rb"
+    }
+  },
   "timeto": {
     "13481": 0.4,
     "1808": 0.4,
@@ -47,8 +39,13 @@
     "13224": 0.4,
     "14665": 0.4
   },
-  "id": 1809,
-  "location": "Wraithenmist",
+  "image": "en-sylvarraend-1264234799.png",
+  "image_coords": [
+    422,
+    330,
+    432,
+    340
+  ],
   "tags": [
     "white hook mushroom",
     "tkaro root",
@@ -62,38 +59,6 @@
     "some bolmara lichen",
     "blue trafel mushroom",
     "stick",
-    "bright red cranberry",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "sticks",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "soft white mushroom",
-    "withered black mushroom",
-    "wintergreen leaf",
-    "blueberries",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "broken twig",
-    "small wild rose",
-    "wild chokecherry",
-    "tree bark",
-    "blue whortleberry",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bright red cranberry"
   ]
 }

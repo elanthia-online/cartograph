@@ -1,47 +1,35 @@
 {
+  "id": 8185,
+  "title": [
+    "[Mine, Crystal Caves]"
+  ],
+  "description": [
+    "Great outcroppings of citrine give this cavern a warm, golden radiance.  As you look around, you notice that many of the crystals are shattered, their fragments littering the floor.  You hear a dripping sound in the distance, but can't quite figure out where it's coming from."
+  ],
+  "paths": [
+    "Obvious exits: east, south, down"
+  ],
+  "location": "the crystal caves",
   "wayto": {
     "8184": "east",
     "8186": "down",
     "8182": "south"
   },
-  "paths": [
-    "Obvious exits: east, south, down"
-  ],
+  "timeto": {
+    "8184": 0.2,
+    "8186": 0.2,
+    "8182": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     991,
     443,
     1001,
     453
   ],
-  "terrain": "indoors",
-  "description": [
-    "Great outcroppings of citrine give this cavern a warm, golden radiance.  As you look around, you notice that many of the crystals are shattered, their fragments littering the floor.  You hear a dripping sound in the distance, but can't quite figure out where it's coming from."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mine, Crystal Caves]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8184": 0.2,
-    "8186": 0.2,
-    "8182": 0.2
-  },
-  "id": 8185,
-  "location": "the crystal caves",
   "tags": [
     "some cave moss",
     "withered black mushroom",
-    "some wolifrew lichen",
-    "wolifrew lichen",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wolifrew lichen"
   ]
 }

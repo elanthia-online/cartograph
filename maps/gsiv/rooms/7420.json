@@ -1,41 +1,28 @@
 {
+  "id": 7420,
+  "title": [
+    "[Mine Tunnels]"
+  ],
+  "description": [
+    "Thick glowing green moss covers the walls of this mine.  The soft glow lends an eerie feel as the tunnel begins to ramp downward steeply towards the northwest."
+  ],
+  "paths": [
+    "Obvious exits: east, northwest"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7417": "east",
     "7421": "northwest"
   },
-  "paths": [
-    "Obvious exits: east, northwest"
-  ],
+  "timeto": {
+    "7417": 0.2,
+    "7421": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1071,
     135,
     1081,
     145
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Thick glowing green moss covers the walls of this mine.  The soft glow lends an eerie feel as the tunnel begins to ramp downward steeply towards the northwest."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mine Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7417": 0.2,
-    "7421": 0.2
-  },
-  "id": 7420,
-  "location": "the Shadow Valley",
-  "tags": [
-    "cave moss",
-    "blackgrove root",
-    "shadowlace moss",
-    "blue moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

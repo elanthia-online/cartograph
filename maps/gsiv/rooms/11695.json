@@ -1,35 +1,32 @@
 {
+  "id": 11695,
+  "title": [
+    "[Marsh Keep, South Wall]"
+  ],
+  "description": [
+    "Passing up and over an earthen barrier, a dirt road runs along the edge of the keep's outer wall toward a portcullis to the east.  The ground is barren but for lichens, mosses, and the occasional patch of brown marsh grass that appear over a layer of gravel spreading outward from the wall for many feet."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest, west"
+  ],
+  "location": "the Marsh Keep",
   "wayto": {
     "11710": "east",
     "11694": "southwest",
     "11697": "west"
   },
-  "paths": [
-    "Obvious paths: east, southwest, west"
-  ],
+  "timeto": {
+    "11710": 0.2,
+    "11694": 0.2,
+    "11697": 0.2
+  },
+  "image": "rr-marsh_keep-1266356986.png",
   "image_coords": [
     637,
     1162,
     647,
     1172
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "Passing up and over an earthen barrier, a dirt road runs along the edge of the keep's outer wall toward a portcullis to the east.  The ground is barren but for lichens, mosses, and the occasional patch of brown marsh grass that appear over a layer of gravel spreading outward from the wall for many feet."
-  ],
-  "image": "rr-marsh_keep-1266356986.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Marsh Keep, South Wall]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11710": 0.2,
-    "11694": 0.2,
-    "11697": 0.2
-  },
-  "id": 11695,
-  "location": "the Marsh Keep",
   "tags": [
     "some acantha leaf",
     "wild chokecherry",
@@ -45,20 +42,6 @@
     "bright red cranberry",
     "withered black mushroom",
     "some angelica root",
-    "cuctucae berry",
-    "acantha leaf",
-    "wolifrew lichen",
-    "aloeas stem",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "mistweed",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "cuctucae berry"
   ]
 }

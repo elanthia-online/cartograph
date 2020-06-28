@@ -1,45 +1,42 @@
 {
-  "wayto": {
-    "3259": {
-      "stringproc": "fb9dc7dc5064608012927d94af509558"
-    },
-    "3250": {
-      "stringproc": "299f6897e4d93ff1f170a6c1f18b76be"
-    },
-    "3261": {
-      "stringproc": "96f762a3c5540f71716927f4f186a4fa"
-    },
-    "3253": {
-      "stringproc": "627e8564b77acb15b93b042e15018ec5"
-    }
-  },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
-  "image_coords": [
-    122,
-    352,
-    132,
-    362
-  ],
-  "terrain": "plain dirt",
-  "description": [
-    "Odd echoes fill the deep trench with malevolent tones, monotonous and constant.  The prevailing shadows formed by the outcroppings of rock and ice seem to dance to the eerie music, making the battlement seem more chill and foreboding."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "cold, damp",
+  "id": 3260,
   "title": [
     "[A Frozen Battlefield, Trench]"
   ],
-  "check_location": null,
+  "description": [
+    "Odd echoes fill the deep trench with malevolent tones, monotonous and constant.  The prevailing shadows formed by the outcroppings of rock and ice seem to dance to the eerie music, making the battlement seem more chill and foreboding."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Ice Plains",
+  "wayto": {
+    "3259": {
+      "file": "string_procs/wayto/3260_3259.rb"
+    },
+    "3250": {
+      "file": "string_procs/wayto/3260_3250.rb"
+    },
+    "3261": {
+      "file": "string_procs/wayto/3260_3261.rb"
+    },
+    "3253": {
+      "file": "string_procs/wayto/3260_3253.rb"
+    }
+  },
   "timeto": {
     "3259": 0.2,
     "3261": 4.0,
     "3250": 0.2,
     "3253": 4.0
   },
-  "id": 3260,
-  "location": "the Ice Plains",
+  "image": "imt-east_west_north_gates-1264234799.png",
+  "image_coords": [
+    122,
+    352,
+    132,
+    362
+  ],
   "tags": [
     "some wolifrew lichen",
     "some acantha leaf",
@@ -64,22 +61,6 @@
     "handful of bearberries",
     "some pennyroyal stem",
     "winter rose",
-    "frostflower",
-    "acantha leaf",
-    "wolifrew lichen",
-    "aloeas stem",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "bearberries",
-    "tundra grass",
-    "arctic brambles",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "frostflower"
   ]
 }

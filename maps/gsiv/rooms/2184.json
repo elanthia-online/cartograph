@@ -1,42 +1,34 @@
 {
+  "id": 2184,
+  "title": [
+    "[Eye of V'Tull, Outer Caverns]"
+  ],
+  "description": [
+    "Spires of crystal rise through the thick ash covering the floor and cast off an eerie blue light.  Blanketing the walls and ceiling, stress cracks spew forth a thick sulfurous gas while a deep fissure cuts the floor like a wound."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south"
+  ],
+  "location": "the Eye of V'Tull",
   "wayto": {
     "2181": "northeast",
     "2185": "south"
   },
-  "paths": [
-    "Obvious exits: northeast, south"
-  ],
+  "timeto": {
+    "2181": 0.2,
+    "2185": 0.2
+  },
+  "image": "ti-vtull-1264234799.png",
   "image_coords": [
     761,
     440,
     771,
     450
   ],
-  "terrain": "indoors",
-  "description": [
-    "Spires of crystal rise through the thick ash covering the floor and cast off an eerie blue light.  Blanketing the walls and ceiling, stress cracks spew forth a thick sulfurous gas while a deep fissure cuts the floor like a wound."
-  ],
-  "image": "ti-vtull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Eye of V'Tull, Outer Caverns]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2181": 0.2,
-    "2185": 0.2
-  },
-  "id": 2184,
-  "location": "the Eye of V'Tull",
   "tags": [
     "pepperthorn root",
     "daggerstalk mushroom",
     "some cave moss",
-    "black trafel mushroom",
-    "cave moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "black trafel mushroom"
   ]
 }

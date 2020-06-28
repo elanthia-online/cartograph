@@ -1,35 +1,32 @@
 {
+  "id": 24722,
+  "title": [
+    "[Red Forest, Derelict Village]"
+  ],
+  "description": [
+    "Scattered bloodstained stones and flattened bones twist in a ghoulish mosaic along the ground, stretching out in a wide circle around a tall scorched tree.  The charred branches of the old oak spread out like shadowy latticework, the wooden limbs resembling sharp, gnarled fingers.  A few patches of brown grass jut out from some cracks within the grisly cobblestone ground, their slender tips speckled with dried blood."
+  ],
+  "paths": [
+    "Obvious paths: east, south, northwest"
+  ],
+  "location": "the Red Forest",
   "wayto": {
     "24718": "northwest",
     "24719": "south",
     "24723": "east"
   },
-  "paths": [
-    "Obvious paths: east, south, northwest"
-  ],
+  "timeto": {
+    "24718": 0.2,
+    "24719": 0.2,
+    "24723": 0.2
+  },
+  "image": "red_forest-1260914757.png",
   "image_coords": [
     171,
     473,
     184,
     486
   ],
-  "terrain": null,
-  "description": [
-    "Scattered bloodstained stones and flattened bones twist in a ghoulish mosaic along the ground, stretching out in a wide circle around a tall scorched tree.  The charred branches of the old oak spread out like shadowy latticework, the wooden limbs resembling sharp, gnarled fingers.  A few patches of brown grass jut out from some cracks within the grisly cobblestone ground, their slender tips speckled with dried blood."
-  ],
-  "image": "red_forest-1260914757.png",
-  "climate": null,
-  "title": [
-    "[Red Forest, Derelict Village]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24718": 0.2,
-    "24719": 0.2,
-    "24723": 0.2
-  },
-  "id": 24722,
-  "location": "the Displaced Red Forest",
   "tags": [
     "bright red cranberry",
     "some angelica root",
@@ -38,41 +35,6 @@
     "blue trafel mushroom",
     "handful of blueberries",
     "some wolifrew lichen",
-    "some tree bark",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "tkaro root",
-    "sticks",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "soft white mushroom",
-    "withered black mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "blueberries",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "broken twig",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "small wild rose",
-    "sprig of wild lilac",
-    "tree bark",
-    "mistweed",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+    "some tree bark"
+  ]
 }

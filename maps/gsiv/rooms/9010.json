@@ -1,4 +1,15 @@
 {
+  "id": 9010,
+  "title": [
+    "[Solhaven, Spiral Passageway]"
+  ],
+  "description": [
+    "Oil lamps flicker in the unnatural breeze coming from the opening at the top of the steps.  Several leaves swirl down around the cobblestones, making dry skittering noises as they are moved further into the passageway."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "Solhaven",
   "wayto": {
     "21214": "go riverstone shop",
     "9009": "west",
@@ -8,25 +19,6 @@
     "17107": "go simple shop",
     "24758": "go emporium"
   },
-  "paths": [
-    "Obvious paths: west"
-  ],
-  "image_coords": [
-    1478,
-    509,
-    1490,
-    521
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "Oil lamps flicker in the unnatural breeze coming from the opening at the top of the steps.  Several leaves swirl down around the cobblestones, making dry skittering noises as they are moved further into the passageway."
-  ],
-  "image": "vo-solhaven-1263764670.png",
-  "climate": "temperate",
-  "title": [
-    "[Solhaven, Spiral Passageway]"
-  ],
-  "check_location": null,
   "timeto": {
     "21214": 0.2,
     "9009": 0.2,
@@ -36,13 +28,11 @@
     "17107": 0.2,
     "24758": 0.2
   },
-  "id": 9010,
-  "location": "Solhaven",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "vo-solhaven-1263764670.png",
+  "image_coords": [
+    1478,
+    509,
+    1490,
+    521
   ]
 }

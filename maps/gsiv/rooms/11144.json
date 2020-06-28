@@ -1,38 +1,28 @@
 {
+  "id": 11144,
+  "title": [
+    "[River Tunnels]"
+  ],
+  "description": [
+    "Cool, salt air fills this passageway which slopes steeply up to the south and steeply down to the northwest.  Small depressions which may once have been tidal pools lie dried and coated in rime, long since cut off from the sea.  The remains of small crustaceans rest in the depressions, trapped here when the seas retreated."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11143": "down",
     "11145": "up"
   },
-  "paths": [
-    "Obvious exits: up, down"
-  ],
+  "timeto": {
+    "11143": 0.2,
+    "11145": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     1006,
     420,
     1016,
     430
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Cool, salt air fills this passageway which slopes steeply up to the south and steeply down to the northwest.  Small depressions which may once have been tidal pools lie dried and coated in rime, long since cut off from the sea.  The remains of small crustaceans rest in the depressions, trapped here when the seas retreated."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[River Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11143": 0.2,
-    "11145": 0.2
-  },
-  "id": 11144,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

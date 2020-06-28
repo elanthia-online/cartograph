@@ -1,50 +1,42 @@
 {
-  "wayto": {
-    "6245": "go stair",
-    "6236": {
-      "stringproc": "e329a54e3dbeb326477da4635dffd0cd"
-    },
-    "6237": {
-      "stringproc": "d29a5982d6fc1159cd1e7cacac300759"
-    },
-    "6238": {
-      "stringproc": "076f244c5424c9c33608f70312615714"
-    },
-    "6239": {
-      "stringproc": "8a49b65a255be1f58b82a86b5a6f73ba"
-    },
-    "6241": {
-      "stringproc": "6384e1b1f45fa52e80b3a9b60dac66c9"
-    },
-    "6242": {
-      "stringproc": "d6c795535870ae4e529b0a450ba0820c"
-    },
-    "6243": {
-      "stringproc": "10c8623fee12a7a8ec7e5f34b893c052"
-    },
-    "6244": {
-      "stringproc": "f68cf309cc2ea95bb055f7955dcd2022"
-    }
-  },
-  "paths": [
-    "Obvious exits: north, northeast, east, southeast, south, southwest, west, northwest"
-  ],
-  "image_coords": [
-    1127,
-    602,
-    1145,
-    620
-  ],
-  "terrain": null,
-  "description": [
-    "The hall ends at an elaborately carved doorway that leads into a dark, open room.  A pair of stone pedestals rests on either side of the doorway, each supporting a bronzed soldier statue."
-  ],
-  "image": "wl-wehntoph-1310775397.png",
-  "climate": null,
+  "id": 6240,
   "title": [
     "[Labyrinth, The Forge]"
   ],
-  "check_location": null,
+  "description": [
+    "The hall ends at an elaborately carved doorway that leads into a dark, open room.  A pair of stone pedestals rests on either side of the doorway, each supporting a bronzed soldier statue."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east, southeast, south, southwest, west, northwest"
+  ],
+  "location": "The Hidden Plateau",
+  "wayto": {
+    "6245": "go stair",
+    "6236": {
+      "file": "string_procs/wayto/6240_6236.rb"
+    },
+    "6237": {
+      "file": "string_procs/wayto/6240_6237.rb"
+    },
+    "6238": {
+      "file": "string_procs/wayto/6240_6238.rb"
+    },
+    "6239": {
+      "file": "string_procs/wayto/6240_6239.rb"
+    },
+    "6241": {
+      "file": "string_procs/wayto/6240_6241.rb"
+    },
+    "6242": {
+      "file": "string_procs/wayto/6240_6242.rb"
+    },
+    "6243": {
+      "file": "string_procs/wayto/6240_6243.rb"
+    },
+    "6244": {
+      "file": "string_procs/wayto/6240_6244.rb"
+    }
+  },
   "timeto": {
     "6245": 0.2,
     "6236": 0.5,
@@ -56,13 +48,15 @@
     "6243": 0.5,
     "6244": 0.5
   },
-  "id": 6240,
-  "location": "The Hidden Plateau",
+  "image": "wl-wehntoph-1310775397.png",
+  "image_coords": [
+    1127,
+    602,
+    1145,
+    620
+  ],
   "tags": [
     "black hook mushroom",
     "withered black mushroom"
-  ],
-  "links": [
-
   ]
 }

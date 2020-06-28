@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "18995": {
-      "stringproc": "752f01b7effd728b5141f0274223f70f"
-    }
-  },
+  "id": 19001,
+  "title": [
+    "[Sorcerer Guild, Guild Shop]"
+  ],
+  "description": [
+    "A profusion of luminescent green and blue moss clings to the rocky ceiling, a vibrant sea of light that brightly illuminates every nook and cranny.  Tidy reinforced steel racks and shelves hold an abundance of sorcery materials available to guild members for the right price.  In a bare corner of the shop, a vibrant wall scroll has been nailed up alongside a painted sign."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "Zul Logoth",
+  "wayto": {
+    "18995": {
+      "file": "string_procs/wayto/19001_18995.rb"
+    }
+  },
+  "timeto": {
+    "18995": 5
+  },
+  "image": "en-zul-sorcerer_guild-1405076623.png",
   "image_coords": [
     901,
     461,
     942,
     500
   ],
-  "terrain": null,
-  "description": [
-    "A profusion of luminescent green and blue moss clings to the rocky ceiling, a vibrant sea of light that brightly illuminates every nook and cranny.  Tidy reinforced steel racks and shelves hold an abundance of sorcery materials available to guild members for the right price.  In a bare corner of the shop, a vibrant wall scroll has been nailed up alongside a painted sign."
-  ],
-  "image": "en-zul-sorcerer_guild-1405076623.png",
-  "climate": null,
-  "title": [
-    "[Sorcerer Guild, Guild Shop]"
-  ],
-  "check_location": false,
-  "timeto": {
-    "18995": 5
-  },
-  "id": 19001,
-  "location": "Zul Logoth",
-  "tags": [
-
-  ],
-  "links": [
-
-  ]
+  "check_location": false
 }

@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "5553": "go door"
-  },
+  "id": 5558,
+  "title": [
+    "[Manor House, Study]"
+  ],
+  "description": [
+    "A large wooden writing desk, partially broken and riddled with dry rot, leans against the east wall beneath a boarded-over window.  Scattered about the room, broken drawer fronts and splintered slats are all that remain of the numerous drawers that once filled the desk.  The smashed pieces of what must once have been a harpsichord lie in a heap near the door."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "the Outlands",
+  "wayto": {
+    "5553": "go door"
+  },
+  "timeto": {
+    "5553": 0.2
+  },
+  "image": "vo-outlands-1264234799.png",
   "image_coords": [
     1070,
     509,
     1080,
     519
   ],
-  "terrain": "indoors",
-  "description": [
-    "A large wooden writing desk, partially broken and riddled with dry rot, leans against the east wall beneath a boarded-over window.  Scattered about the room, broken drawer fronts and splintered slats are all that remain of the numerous drawers that once filled the desk.  The smashed pieces of what must once have been a harpsichord lie in a heap near the door."
-  ],
-  "image": "vo-outlands-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Manor House, Study]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5553": 0.2
-  },
-  "id": 5558,
-  "location": "the Outlands",
   "tags": [
-    "dobrem",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "dobrem"
   ]
 }

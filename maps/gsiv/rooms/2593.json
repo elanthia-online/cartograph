@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "12208": {
-      "stringproc": "a0576f0215d746452e7afb93c1ee082c"
-    },
-    "2592": "east",
-    "2635": {
-      "stringproc": "01b8924575c8d70e4ed7eea7ed00be84"
-    },
-    "12101": {
-      "stringproc": "cf4b8e5b125b22b01c9349827d02c9fd"
-    },
-    "2594": "southwest"
-  },
+  "id": 2593,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "A dilapidated yellow house sits just to the west of you.  It is surrounded by a small, white fence, and a pebble walkway flanked by withered flowers leads to the old domicile.  Sitting in the windowsill is a large, orange cat that looks at you with spectral eyes.  Just behind it is a small, ghostly girl with her hair in pigtails, stroking the fur of her long departed friend. She looks at you with large eyes, seeming to see through you into some other realm altogether."
+  ],
   "paths": [
     "Obvious paths: east, southwest",
     "Obvious exits: east, southwest"
   ],
-  "image_coords": [
-    133,
-    697,
-    141,
-    705
-  ],
-  "terrain": null,
-  "description": [
-    "A dilapidated yellow house sits just to the west of you.  It is surrounded by a small, white fence, and a pebble walkway flanked by withered flowers leads to the old domicile.  Sitting in the windowsill is a large, orange cat that looks at you with spectral eyes.  Just behind it is a small, ghostly girl with her hair in pigtails, stroking the fur of her long departed friend. She looks at you with large eyes, seeming to see through you into some other realm altogether."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12208": {
+      "file": "string_procs/wayto/2593_12208.rb"
+    },
+    "2592": "east",
+    "2635": {
+      "file": "string_procs/wayto/2593_2635.rb"
+    },
+    "12101": {
+      "file": "string_procs/wayto/2593_12101.rb"
+    },
+    "2594": "southwest"
+  },
   "timeto": {
     "12208": 22.0,
     "2592": 0.2,
@@ -39,8 +31,13 @@
     "12101": 26.0,
     "2594": 0.2
   },
-  "id": 2593,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    133,
+    697,
+    141,
+    705
+  ],
   "tags": [
     "mass of congealed slime",
     "oozing fleshsore bulb",
@@ -49,8 +46,5 @@
     "slime-covered grave blossom",
     "withered deathblossom",
     "twisted black mawflower"
-  ],
-  "links": [
-
   ]
 }

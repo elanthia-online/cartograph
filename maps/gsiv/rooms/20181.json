@@ -1,34 +1,22 @@
 {
-  "wayto": {
-    "20182": "go doors",
-    "20178": "go hole"
-  },
-  "paths": [
-    "Obvious exits: none"
+  "id": 20181,
+  "title": [
+    "[Foxfire Manor, Antechamber]"
   ],
-  "image_coords": null,
-  "terrain": null,
   "description": [
     "Fetid, cloudy water has consumed the floor of the manor house, rising to devour the first few steps of a carved wooden stairway.  The stairs themselves are blocked by a pile of white bricks that have fallen from the collapsed ceiling.  All around, the manor's walls creak and groan in protest, as if mourning their own slow death.  A pair of warped double doors, long-since stripped of brasswork and jeweled adornment, open onto the remains of a ballroom to the east.",
     "Fetid, cloudy water has consumed the floor of the manor house, rising to devour the first few steps of a carved wooden stairway.  The stairs themselves are blocked by a pile of white bricks that have fallen from the collapsed ceiling.  All around, the manor's walls creak and groan in protest, as if mourning their own slow death.  A pair of warped double doors, long-since stripped of brasswork and jeweled adornment, opens onto the remains of a ballroom to the east."
   ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Foxfire Manor, Antechamber]"
+  "paths": [
+    "Obvious exits: none"
   ],
-  "check_location": null,
+  "location": "the Feywrot Mire",
+  "wayto": {
+    "20182": "go doors",
+    "20178": "go hole"
+  },
   "timeto": {
     "20182": 0.2,
     "20178": 0.2
-  },
-  "id": 20181,
-  "location": "the Feywrot Mire",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  }
 }

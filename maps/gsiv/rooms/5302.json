@@ -1,79 +1,33 @@
 {
+  "id": 5302,
+  "title": [
+    "[Deep Woods, Overgrowth]"
+  ],
+  "description": [
+    "The ground drops off sharply to the north and northwest, creating a small cliff of dirt and rock.  Far below you can hear the sounds of water falling, but the actual falls are obscured by a thick layer of fog.  A few tenacious bramble bushes cling to the steep face, but the trees have all toppled downwards with the earth."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest"
+  ],
+  "location": "the deep woods",
   "wayto": {
     "5301": "southwest",
     "5303": "southeast"
   },
-  "paths": [
-    "Obvious paths: southeast, southwest"
-  ],
+  "timeto": {
+    "5301": 0.2,
+    "5303": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     1128,
     197,
     1138,
     207
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "The ground drops off sharply to the north and northwest, creating a small cliff of dirt and rock.  Far below you can hear the sounds of water falling, but the actual falls are obscured by a thick layer of fog.  A few tenacious bramble bushes cling to the steep face, but the trees have all toppled downwards with the earth."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Deep Woods, Overgrowth]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5301": 0.2,
-    "5303": 0.2
-  },
-  "id": 5302,
-  "location": "the deep woods",
   "tags": [
     "some angelica root",
     "vesperti",
-    "trollfear mushroom",
-    "acantha leaf",
-    "torban leaf",
-    "calamia fruit",
-    "haphip root",
-    "tkaro root",
-    "sticks",
-    "angelica root",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "handful of pinenuts",
-    "broken twig",
-    "pine cone",
-    "pine needles",
-    "stalk of bluebells",
-    "golden buttercup",
-    "wild pink geranium",
-    "wild chokecherry",
-    "tree bark",
-    "white lily",
-    "pink rain lily",
-    "coppery rain lily",
-    "oxblood lily",
-    "kylan berry",
-    "white baneberry",
-    "yew twig",
-    "ironfern root",
-    "twisted twig",
-    "slender twig",
-    "ebony twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "trollfear mushroom"
   ]
 }

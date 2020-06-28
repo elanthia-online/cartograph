@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "3454": "out"
-  },
+  "id": 3455,
+  "title": [
+    "[Haldrick's Armory]"
+  ],
+  "description": [
+    "This shop lies below street level, half-moon windows along the front illuminating racks of armor and shields.  Recent renovations have left traces of dust currently being excised by an apprentice with a broom."
+  ],
   "paths": [
     "Obvious exits: out"
   ],
+  "location": "Icemule Trace",
+  "wayto": {
+    "3454": "out"
+  },
+  "timeto": {
+    "3454": 0.2
+  },
+  "image": "imt-icemule-1474811966.png",
   "image_coords": [
     226,
     1142,
     262,
     1178
   ],
-  "terrain": "indoors",
-  "description": [
-    "This shop lies below street level, half-moon windows along the front illuminating racks of armor and shields.  Recent renovations have left traces of dust currently being excised by an apprentice with a broom."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "indoors",
-  "title": [
-    "[Haldrick's Armory]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3454": 0.2
-  },
-  "id": 3455,
-  "location": "Icemule Trace",
   "tags": [
-    "armorshop",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "armorshop"
   ]
 }

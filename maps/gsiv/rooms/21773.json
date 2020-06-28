@@ -1,40 +1,30 @@
 {
-  "wayto": {
-    "21781": {
-      "stringproc": "d4a5c346be46b7323a97ec949373c0f8"
-    },
-    "21772": "go archway"
-  },
+  "id": 21773,
+  "title": [
+    "[Phoenix Annex, Quiet Temple]"
+  ],
+  "description": [
+    "The chamber is peaceful and serene, as if compelling one to speak in whispers out of respect for the holy patrons of this temple.  Large white marble pillars line both sides of the congregation area, a series of beautiful frescoes on the walls between them.  Though the room's scope and beauty is inspiring, the center of attention is a brilliant sapphire altar at the far end of the temple.  Heavy polished maple benches, trimmed in ivory, sit in ordered rows before the altar."
+  ],
   "paths": [
     "Obvious exits: east"
   ],
+  "location": "Wehnimer's Landing",
+  "wayto": {
+    "21781": {
+      "file": "string_procs/wayto/21773_21781.rb"
+    },
+    "21772": "go archway"
+  },
+  "timeto": {
+    "21781": 0.2,
+    "21772": 0.2
+  },
+  "image": "wl-house_phoenix-1485115199.png",
   "image_coords": [
     1253,
     1670,
     1370,
     1748
-  ],
-  "terrain": null,
-  "description": [
-    "The chamber is peaceful and serene, as if compelling one to speak in whispers out of respect for the holy patrons of this temple.  Large white marble pillars line both sides of the congregation area, a series of beautiful frescoes on the walls between them.  Though the room's scope and beauty is inspiring, the center of attention is a brilliant sapphire altar at the far end of the temple.  Heavy polished maple benches, trimmed in ivory, sit in ordered rows before the altar."
-  ],
-  "image": "wl-house_phoenix-1485115199.png",
-  "climate": null,
-  "title": [
-    "[Phoenix Annex, Quiet Temple]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "21781": 0.2,
-    "21772": 0.2
-  },
-  "id": 21773,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

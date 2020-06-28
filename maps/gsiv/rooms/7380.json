@@ -1,41 +1,31 @@
 {
+  "id": 7380,
+  "title": [
+    "[Shadow Plain]"
+  ],
+  "description": [
+    "A putrid greenish-yellow spring oozes from a jagged outcropping, forming a small puddle on the ground.  The overwhelming stench of rotted flesh rises up from the puddle, filling the air with a sickly sweet odor."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7384": "southeast",
     "7379": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, southeast"
-  ],
+  "timeto": {
+    "7384": 0.2,
+    "7379": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1252,
     1021,
     1262,
     1031
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "A putrid greenish-yellow spring oozes from a jagged outcropping, forming a small puddle on the ground.  The overwhelming stench of rotted flesh rises up from the puddle, filling the air with a sickly sweet odor."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Shadow Plain]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7384": 0.2,
-    "7379": 0.2
-  },
-  "id": 7380,
-  "location": "the Shadow Valley",
   "tags": [
-    "night mare",
-    "longgrass",
-    "wyrm thorn",
-    "petrified shadowstalk",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "night mare"
   ]
 }

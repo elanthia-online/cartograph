@@ -1,42 +1,33 @@
 {
+  "id": 2201,
+  "title": [
+    "[Eye of V'Tull, Inner Circle]"
+  ],
+  "description": [
+    "A strange whirlwind of heated air picks up some ash from the floor only to rain it back down again as it passes you, covering you from head to toe in black soot."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast"
+  ],
+  "location": "the Eye of V'Tull",
   "wayto": {
     "2200": "northeast",
     "2202": "southeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southeast"
-  ],
+  "timeto": {
+    "2200": 0.2,
+    "2202": 0.2
+  },
+  "image": "ti-vtull-1264234799.png",
   "image_coords": [
     821,
     708,
     829,
     716
   ],
-  "terrain": "indoors",
-  "description": [
-    "A strange whirlwind of heated air picks up some ash from the floor only to rain it back down again as it passes you, covering you from head to toe in black soot."
-  ],
-  "image": "ti-vtull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Eye of V'Tull, Inner Circle]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2200": 0.2,
-    "2202": 0.2
-  },
-  "id": 2201,
-  "location": "the Eye of V'Tull",
   "tags": [
     "black trafel mushroom",
     "daggerstalk mushroom",
-    "some cave moss",
-    "cave moss",
-    "pepperthorn root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

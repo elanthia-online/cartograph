@@ -1,33 +1,30 @@
 {
+  "id": 795,
+  "title": [
+    "[Whistler's Pass, Icy Crags]"
+  ],
+  "description": [
+    "The ice beneath your feet has a layer of reddish brown deep within the icepack, bespeaking some act of terrible violence on this rugged promontory.  The slippery conditions do not provide a good place to fight, and so perhaps an accident caused the bleeding--but would that explain the deep gashes and chipped surface of the surrounding stone?"
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "794": "east",
     "796": "west"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "794": 0.2,
+    "796": 0.2
+  },
+  "image": "en-whistlers_pass-1264234799.png",
   "image_coords": [
     852,
     316,
     862,
     326
   ],
-  "terrain": "mountainous",
-  "description": [
-    "The ice beneath your feet has a layer of reddish brown deep within the icepack, bespeaking some act of terrible violence on this rugged promontory.  The slippery conditions do not provide a good place to fight, and so perhaps an accident caused the bleeding--but would that explain the deep gashes and chipped surface of the surrounding stone?"
-  ],
-  "image": "en-whistlers_pass-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Whistler's Pass, Icy Crags]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "794": 0.2,
-    "796": 0.2
-  },
-  "id": 795,
-  "location": "Whistler's Pass",
   "tags": [
     "sassafras leaf",
     "sweetfern stalk",
@@ -35,10 +32,6 @@
     "valerian root",
     "pennyroyal stem",
     "sprig of holly",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

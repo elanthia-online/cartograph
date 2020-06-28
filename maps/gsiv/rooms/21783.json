@@ -1,42 +1,35 @@
 {
+  "id": 21783,
+  "title": [
+    "[Road to Talador]"
+  ],
+  "description": [
+    "A worn dirt road winds through a thickly wooded area, the path wide enough to allow wagons to navigate freely.  A crisp breeze travels across the region as the remnants of winter still blanket many trees with snow."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Talador",
   "wayto": {
     "21784": "north",
     "299": "go portal",
     "228": "go fog"
   },
-  "paths": [
-    "Obvious paths: north"
-  ],
+  "timeto": {
+    "21784": 0.2,
+    "299": 0.2,
+    "228": 0.2
+  },
+  "image": "wl-talador-east-1392305660.png",
   "image_coords": [
     339,
     590,
     352,
     603
   ],
-  "terrain": null,
-  "description": [
-    "A worn dirt road winds through a thickly wooded area, the path wide enough to allow wagons to navigate freely.  A crisp breeze travels across the region as the remnants of winter still blanket many trees with snow."
-  ],
-  "image": "wl-talador-east-1392305660.png",
-  "climate": null,
-  "title": [
-    "[Road to Talador]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "21784": 0.2,
-    "299": 0.2,
-    "228": 0.2
-  },
-  "id": 21783,
-  "location": "Talador",
   "tags": [
     "meta:mapname:Wehnimer's Landing - Talador Hunting East",
     "meta:mapshortname:Talador Hunting East",
     "meta:mapcategory:Wehnimer's Landing"
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

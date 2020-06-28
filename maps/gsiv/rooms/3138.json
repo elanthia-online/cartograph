@@ -1,33 +1,30 @@
 {
+  "id": 3138,
+  "title": [
+    "[Abandoned Farm, Forest]"
+  ],
+  "description": [
+    "The frozen snowbanks loom high here, allowing one to look down upon the area below.  From this vantage, a large field lies to the south, along with an odd shed nearby.  The wind swirls about, seeking any chance to chill the area further."
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest"
+  ],
+  "location": "the Abandoned Farm",
   "wayto": {
     "3137": "northwest",
     "3139": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, northwest"
-  ],
+  "timeto": {
+    "3137": 0.2,
+    "3139": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     992,
     687,
     1002,
     697
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "The frozen snowbanks loom high here, allowing one to look down upon the area below.  From this vantage, a large field lies to the south, along with an odd shed nearby.  The wind swirls about, seeking any chance to chill the area further."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Abandoned Farm, Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3137": 0.2,
-    "3139": 0.2
-  },
-  "id": 3138,
-  "location": "the Abandoned Farm",
   "tags": [
     "tkaro root",
     "some tree bark",
@@ -67,26 +64,6 @@
     "rockberry",
     "bright red iceblossom",
     "bright green iceblossom",
-    "soft orange iceblossom",
-    "sticks",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "iceblossoms",
-    "moonflowers",
-    "pine needles",
-    "frostweed",
-    "snowberries",
-    "tree bark",
-    "ironfern root",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "soft orange iceblossom"
   ]
 }

@@ -1,45 +1,28 @@
 {
+  "id": 11133,
+  "title": [
+    "[Sea Tunnels]"
+  ],
+  "description": [
+    "The iridescent glow from the various growths in these tunnels is dimmer here, probably due to the partial cave-in of the northern wall that has littered the ground with sharp, brittle stones.  The tunnel continues onward to the south and west, though it is too dark to see what lies in either direction."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11129": "west",
     "11132": "s"
   },
-  "paths": [
-    "Obvious exits: south, west"
-  ],
+  "timeto": {
+    "11129": 0.2,
+    "11132": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     585,
     115,
     595,
     125
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The iridescent glow from the various growths in these tunnels is dimmer here, probably due to the partial cave-in of the northern wall that has littered the ground with sharp, brittle stones.  The tunnel continues onward to the south and west, though it is too dark to see what lies in either direction."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11129": 0.2,
-    "11132": 0.2
-  },
-  "id": 11133,
-  "location": "the Citadel",
-  "tags": [
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "murdroot",
-    "talneo root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

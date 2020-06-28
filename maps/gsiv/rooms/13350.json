@@ -1,35 +1,24 @@
 {
-  "wayto": {
-    "17837": "go gold door",
-    "709": "out"
-  },
-  "paths": [
-    "Obvious paths: out"
+  "id": 13350,
+  "title": [
+    "[Arboretum]"
   ],
-  "image_coords": null,
-  "terrain": null,
   "description": [
     "A well dressed but well armed guard stands before a pair of elegant wooden doors, one trimmed in gold and the other colorfully painted.  He bears a friendly expression on his face, but his eyes remain vigilant and alert.  A gleaming silver sign hangs between the doors.",
     "A well dressed but well armed guard stands before a pair of elegant wooden doors, one trimmed in gold and the other colorfully painted.  She appears to be relatively amiable, but her eyes remain vigilant and alert.  A gleaming silver sign hangs between the doors."
   ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Arboretum]"
+  "paths": [
+    "Obvious paths: out"
   ],
-  "check_location": null,
+  "location": "Ta'Illistim",
+  "wayto": {
+    "17837": "go gold door",
+    "709": "out"
+  },
   "timeto": {
     "17837": {
-      "stringproc": "bbd0aa909419c7dc4e3447f5532c51bc"
+      "file": "string_procs/timeto/13350_17837.rb"
     },
     "709": 0.2
-  },
-  "id": 13350,
-  "location": "Ta'Illistim",
-  "tags": [
-
-  ],
-  "links": [
-
-  ]
+  }
 }

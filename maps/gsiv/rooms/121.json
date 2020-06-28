@@ -1,38 +1,28 @@
 {
+  "id": 121,
+  "title": [
+    "[Temple Wyneb, Calvaria]"
+  ],
+  "description": [
+    "The unexpected touch of a soft breeze on your face draws your attention to a crack in the granite wall.  As you watch, a bat wings through the narrow opening and flits away down the dark tunnel."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Temple Wyneb",
   "wayto": {
     "120": "west",
     "122": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "120": 0.2,
+    "122": 0.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     665,
     790,
     675,
     800
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The unexpected touch of a soft breeze on your face draws your attention to a crack in the granite wall.  As you watch, a bat wings through the narrow opening and flits away down the dark tunnel."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Temple Wyneb, Calvaria]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "120": 0.2,
-    "122": 0.2
-  },
-  "id": 121,
-  "location": "Temple Wyneb",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

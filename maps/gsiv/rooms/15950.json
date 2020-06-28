@@ -1,32 +1,24 @@
 {
-  "wayto": {
-    "15949": {
-      "stringproc": "0ad5e3c2c1d32e2da906d817c34f30e6"
-    }
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "This is a secluded alcove toward the rear of the vault.  One of the lockers has been removed for you and rests open on a stone counter."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 15950,
   "title": [
     "[Paupers, Vault]"
   ],
-  "check_location": true,
+  "description": [
+    "This is a secluded alcove toward the rear of the vault.  One of the lockers has been removed for you and rests open on a stone counter."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "wayto": {
+    "15949": {
+      "file": "string_procs/wayto/15950_15949.rb"
+    }
+  },
   "timeto": {
     "15949": 0.2
   },
-  "id": 15950,
-  "location": null,
   "tags": [
     "peer opening =~ /^Obvious exits: north, south, west$/"
   ],
-  "links": [
-
-  ]
+  "check_location": true
 }

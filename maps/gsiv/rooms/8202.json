@@ -1,50 +1,36 @@
 {
+  "id": 8202,
+  "title": [
+    "[Sea Caverns, Tunnel]"
+  ],
+  "description": [
+    "The tunnel is narrow and light is barely able to intrude.  Garbage is also present here, muffling the sound of footsteps.  To the southeast, the darkness deepens making visibility difficult, and it appears the going gets more confining in that direction."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast"
+  ],
+  "location": "the sea caverns",
   "wayto": {
     "8198": "north",
     "8203": "southeast"
   },
-  "paths": [
-    "Obvious exits: north, southeast"
-  ],
+  "timeto": {
+    "8198": 0.2,
+    "8203": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     527,
     130,
     537,
     140
   ],
-  "terrain": "indoors",
-  "description": [
-    "The tunnel is narrow and light is barely able to intrude.  Garbage is also present here, muffling the sound of footsteps.  To the southeast, the darkness deepens making visibility difficult, and it appears the going gets more confining in that direction."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Caverns, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8198": 0.2,
-    "8203": 0.2
-  },
-  "id": 8202,
-  "location": "the sea caverns",
   "tags": [
     "red trafel mushroom",
     "some wingstem root",
     "some bolmara lichen",
     "soft white mushroom",
     "white hook mushroom",
-    "blue trafel mushroom",
-    "withered black mushroom",
-    "black hook mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "blue trafel mushroom"
   ]
 }

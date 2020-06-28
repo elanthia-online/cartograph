@@ -1,38 +1,31 @@
 {
+  "id": 7655,
+  "title": [
+    "[Sea Cave, Narrow Tunnel]"
+  ],
+  "description": [
+    "The damp walls of this confining tunnel are of grey and pitted stone.  The rough floor descending westward at a steep pitch makes walking a chore.  Amongst the eerie, near-silent sounds echoing about the caves, you hear an underlying thrumming noise coming from the west."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "7656": "west",
     "7654": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "7656": 0.2,
+    "7654": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     1096,
     385,
     1106,
     395
   ],
-  "terrain": "indoors",
-  "description": [
-    "The damp walls of this confining tunnel are of grey and pitted stone.  The rough floor descending westward at a steep pitch makes walking a chore.  Amongst the eerie, near-silent sounds echoing about the caves, you hear an underlying thrumming noise coming from the west."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Cave, Narrow Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7656": 0.2,
-    "7654": 0.2
-  },
-  "id": 7655,
-  "location": "the Coastal Cliffs",
   "tags": [
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

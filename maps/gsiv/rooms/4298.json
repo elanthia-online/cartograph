@@ -1,35 +1,32 @@
 {
+  "id": 4298,
+  "title": [
+    "[Lysierian Hills, Winding Path]"
+  ],
+  "description": [
+    "Standing on a high ridge, you can see a lush valley before you to the north.  A trail to the southeast leads deeper into the foothills, down into denser forest.  The path to the west leads gently downhill.  Dense bushes grow along the edges of the trail, making it difficult to see into the forest."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "the Lysierian Hills",
   "wayto": {
     "6410": "go path",
     "4274": "west",
     "6461": "go trail"
   },
-  "paths": [
-    "Obvious paths: west"
-  ],
+  "timeto": {
+    "6410": 0.2,
+    "4274": 0.2,
+    "6461": 0.2
+  },
+  "image": "wl-lysierian-1264234799.png",
   "image_coords": [
     249,
     585,
     259,
     595
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "Standing on a high ridge, you can see a lush valley before you to the north.  A trail to the southeast leads deeper into the foothills, down into denser forest.  The path to the west leads gently downhill.  Dense bushes grow along the edges of the trail, making it difficult to see into the forest."
-  ],
-  "image": "wl-lysierian-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Lysierian Hills, Winding Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6410": 0.2,
-    "4274": 0.2,
-    "6461": 0.2
-  },
-  "id": 4298,
-  "location": "the Lysierian Hills",
   "tags": [
     "some torban leaf",
     "some calamia fruit",
@@ -49,58 +46,6 @@
     "some basal moss",
     "some angelica root",
     "blue whortleberry",
-    "stalk of bluebells",
-    "acantha leaf",
-    "torban leaf",
-    "calamia fruit",
-    "haphip root",
-    "basal moss",
-    "tkaro root",
-    "sticks",
-    "angelica root",
-    "trollfear mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "bright red teaberry",
-    "blueberries",
-    "elderberries",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "wild grapes",
-    "broken twig",
-    "golden buttercup",
-    "wild pink geranium",
-    "stalk of goldenrod",
-    "small wild rose",
-    "sprig of wild lilac",
-    "wild beechnut",
-    "stalk of burdock",
-    "wild orchid",
-    "sprig of mistletoe",
-    "tree bark",
-    "murkweed",
-    "white lily",
-    "pink rain lily",
-    "white baneberry",
-    "bloodwood twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "nightbloom blossom",
-    "twisted twig",
-    "slender twig",
-    "ebony twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "walnuts",
-    "alder bark",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "stalk of bluebells"
   ]
 }

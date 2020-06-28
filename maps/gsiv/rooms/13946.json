@@ -1,33 +1,30 @@
 {
+  "id": 13946,
+  "title": [
+    "[The Ravelin, Southeast Wall]"
+  ],
+  "description": [
+    "Completing its eastward arc, the river once again returns to a generally southerly direction.  Inside the chest-high perimeter wall is a large sward of immaculately-kept grass bordered with grey slate walkways.  Near it, a large armory with a spectacular view of the golden walls of Ta'Vaalor rings with the sound of equipment repair and maintenance."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "the hamlet of Ravelin",
   "wayto": {
     "13945": "southwest",
     "13949": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, southwest"
-  ],
+  "timeto": {
+    "13945": 0.2,
+    "13949": 0.2
+  },
+  "image": "en-ravelin.png",
   "image_coords": [
     518,
     397,
     567,
     446
   ],
-  "terrain": null,
-  "description": [
-    "Completing its eastward arc, the river once again returns to a generally southerly direction.  Inside the chest-high perimeter wall is a large sward of immaculately-kept grass bordered with grey slate walkways.  Near it, a large armory with a spectacular view of the golden walls of Ta'Vaalor rings with the sound of equipment repair and maintenance."
-  ],
-  "image": "en-ravelin.png",
-  "climate": null,
-  "title": [
-    "[The Ravelin, Southeast Wall]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "13945": 0.2,
-    "13949": 0.2
-  },
-  "id": 13946,
-  "location": "the hamlet of Ravelin",
   "tags": [
     "ambrominas leaf",
     "tkaro root",
@@ -87,8 +84,5 @@
     "woad leaves",
     "trollfear mushroom",
     "nightbloom blossom"
-  ],
-  "links": [
-
   ]
 }

@@ -1,20 +1,8 @@
 {
-  "wayto": {
-    "10376": "go gate",
-    "3534": "north",
-    "3540": "south",
-    "25192": "go building"
-  },
-  "paths": [
-    "Obvious paths: north, south"
+  "id": 3535,
+  "title": [
+    "[Ta'Vaalor, Shimaerslin Wey]"
   ],
-  "image_coords": [
-    1373,
-    478,
-    1411,
-    515
-  ],
-  "terrain": null,
   "description": [
     "The trees thin somewhat as they surround an elegant stone structure nestled at the foot of the city wall.  Constructed of amber-hued sandstone, the building boasts numerous glaes-paned windows that reflect the deep green of the surrounding foliage.  A small sign is mounted upon the ironwork doorpost.",
     "The trees thin somewhat as they surround an elegant stone structure nestled at the foot of the city wall.  Constructed of amber-hued sandstone, the building boasts numerous glaes-paned windows that reflect the moonlight filtering through the foliage.  A small sign is mounted upon the ironwork doorpost.",
@@ -23,24 +11,27 @@
     "Far off the wey, a thin copse of trees surrounds a large stone building nestled at the foot of the city wall.  Constructed of grey sandstone, the structure boasts numerous windows that reflect the moonlight filtering through the foliage.  To the east side of the wey stands an ornate silver gate, past which can be seen an ivory-walled building.",
     "Far off the wey, a thin copse of trees surrounds a large stone building nestled at the foot of the city wall.  Constructed of grey sandstone, the structure boasts numerous windows that reflect the deep green of the surrounding foliage.  Numerous soldiers mill outside the building, engaged in a variety of leisure activities.  To the east side of the wey stands an ornate silver gate, past which can be seen an ivory-walled building."
   ],
-  "image": "en-tavaalor-1565907614.png",
-  "climate": null,
-  "title": [
-    "[Ta'Vaalor, Shimaerslin Wey]"
+  "paths": [
+    "Obvious paths: north, south"
   ],
-  "check_location": null,
+  "location": "the city of Ta'Vaalor",
+  "wayto": {
+    "10376": "go gate",
+    "3534": "north",
+    "3540": "south",
+    "25192": "go building"
+  },
   "timeto": {
     "10376": 0.2,
     "3534": 0.2,
     "3540": 0.2,
     "25192": 0.2
   },
-  "id": 3535,
-  "location": "the city of Ta'Vaalor",
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "en-tavaalor-1565907614.png",
+  "image_coords": [
+    1373,
+    478,
+    1411,
+    515
   ]
 }

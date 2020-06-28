@@ -1,40 +1,33 @@
 {
+  "id": 2368,
+  "title": [
+    "[Magical Burrow, Demons Lane]"
+  ],
+  "description": [
+    "A cold wind blows down this lonesome street, feeling as if it's blowing right off the glacier itself.  The chill in the air and the tightly shuttered windows of the houses add to the trepidation one feels at passing through this burrow."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, southwest"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "2367": "southwest",
     "2369": "southeast",
     "2370": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, southeast, southwest"
-  ],
+  "timeto": {
+    "2367": 0.2,
+    "2369": 0.2,
+    "2370": 0.2
+  },
+  "image": "imt-icemule-1474811966.png",
   "image_coords": [
     404,
     608,
     440,
     644
   ],
-  "terrain": "hard, flat",
-  "description": [
-    "A cold wind blows down this lonesome street, feeling as if it's blowing right off the glacier itself.  The chill in the air and the tightly shuttered windows of the houses add to the trepidation one feels at passing through this burrow."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Magical Burrow, Demons Lane]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2367": 0.2,
-    "2369": 0.2,
-    "2370": 0.2
-  },
-  "id": 2368,
-  "location": "Icemule Trace",
   "tags": [
-    "calmintha flower",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "calmintha flower"
   ]
 }

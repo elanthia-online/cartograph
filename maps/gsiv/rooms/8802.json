@@ -1,38 +1,28 @@
 {
+  "id": 8802,
+  "title": [
+    "[Dragonsclaw Arms, Second Floor]"
+  ],
+  "description": [
+    "The remains of a few colorful streamers hang from the brass chandelier, left over from some past celebration.  An old brass shield has been nailed up on the oaken wall, with two hooks that look to have once held some ornamental weapon below them."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "8801": "west",
     "8803": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "8801": 0.2,
+    "8803": 0.2
+  },
+  "image": "wl-homes-1-1264234799.png",
   "image_coords": [
     596,
     852,
     614,
     870
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The remains of a few colorful streamers hang from the brass chandelier, left over from some past celebration.  An old brass shield has been nailed up on the oaken wall, with two hooks that look to have once held some ornamental weapon below them."
-  ],
-  "image": "wl-homes-1-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dragonsclaw Arms, Second Floor]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8801": 0.2,
-    "8803": 0.2
-  },
-  "id": 8802,
-  "location": "Wehnimer's Landing",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

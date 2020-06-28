@@ -1,43 +1,36 @@
 {
-  "wayto": {
-    "25760": {
-      "stringproc": "9b05cb4429e6ad5efbe157efd92e6023"
-    },
-    "25757": {
-      "stringproc": "b3903ef3130903d58c1b8b478bec601b"
-    },
-    "25770": {
-      "stringproc": "7c906cf3c37f156a5de40e3486f4dfc0"
-    }
-  },
-  "paths": [
-    "Obvious paths: northeast, southwest, northwest"
-  ],
-  "image_coords": [
-    2081,
-    1279,
-    2100,
-    1300
-  ],
-  "terrain": null,
-  "description": [
-    "Glistening in the ambient light, the tiny swells of the waterway roll in a rhythmic motion that is almost hypnotic.  Tiny white caps mark the waters that will grow into waves, while those lacking caps simply disappear into the dark blue depths."
-  ],
-  "image": "ifw-eastern_waterway-1489553700.png",
-  "climate": null,
+  "id": 25759,
   "title": [
     "[Eastern Waterway]"
   ],
-  "check_location": null,
+  "description": [
+    "Glistening in the ambient light, the tiny swells of the waterway roll in a rhythmic motion that is almost hypnotic.  Tiny white caps mark the waters that will grow into waves, while those lacking caps simply disappear into the dark blue depths."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest, northwest"
+  ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "25760": {
+      "file": "string_procs/wayto/25759_25760.rb"
+    },
+    "25757": {
+      "file": "string_procs/wayto/25759_25757.rb"
+    },
+    "25770": {
+      "file": "string_procs/wayto/25759_25770.rb"
+    }
+  },
   "timeto": {
     "25760": 6.0,
     "25757": 6.0,
     "25770": 6.0
   },
-  "id": 25759,
-  "location": "Mist Harbor",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  "image": "ifw-eastern_waterway-1489553700.png",
+  "image_coords": [
+    2081,
+    1279,
+    2100,
+    1300
+  ]
 }

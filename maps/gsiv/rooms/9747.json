@@ -1,38 +1,28 @@
 {
+  "id": 9747,
+  "title": [
+    "[Maaghara Tower, Stair]"
+  ],
+  "description": [
+    "The tree towers up and up into the misty darkness, while the spiraling steps continue their climb up the side of the trunk.  High above, bats circle in and amongst the huge, woody branches and growths that run across the interior of the tree.  Mists rise from below, cloaking the bottom of the tower in a hazy shroud."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Ta'Illistim",
   "wayto": {
     "9748": "east",
     "9740": "climb staircase"
   },
-  "paths": [
-    "Obvious exits: east"
-  ],
+  "timeto": {
+    "9748": 0.2,
+    "9740": 0.2
+  },
+  "image": "en-tower-1264234799.png",
   "image_coords": [
     807,
     518,
     817,
     528
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The tree towers up and up into the misty darkness, while the spiraling steps continue their climb up the side of the trunk.  High above, bats circle in and amongst the huge, woody branches and growths that run across the interior of the tree.  Mists rise from below, cloaking the bottom of the tower in a hazy shroud."
-  ],
-  "image": "en-tower-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Maaghara Tower, Stair]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9748": 0.2,
-    "9740": 0.2
-  },
-  "id": 9747,
-  "location": "Ta'Illistim",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

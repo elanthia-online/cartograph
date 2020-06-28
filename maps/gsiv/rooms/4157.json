@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "4156": "east"
-  },
+  "id": 4157,
+  "title": [
+    "[Hall of the Dead, Common Crypt]"
+  ],
+  "description": [
+    "Bodies are stuffed into the extremely small wall pockets.  Looking into one of the pockets, you notice that there are actually two bodies in it.  To save time and space, dead dwarves are being packed, two and sometimes three bodies at a time into the slots.  Bodies of giantmen seem to be folded to fit into the openings."
+  ],
   "paths": [
     "Obvious exits: east"
   ],
+  "location": "the Graveyard",
+  "wayto": {
+    "4156": "east"
+  },
+  "timeto": {
+    "4156": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     889,
     787,
     899,
     797
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Bodies are stuffed into the extremely small wall pockets.  Looking into one of the pockets, you notice that there are actually two bodies in it.  To save time and space, dead dwarves are being packed, two and sometimes three bodies at a time into the slots.  Bodies of giantmen seem to be folded to fit into the openings."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Hall of the Dead, Common Crypt]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4156": 0.2
-  },
-  "id": 4157,
-  "location": "the Graveyard",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

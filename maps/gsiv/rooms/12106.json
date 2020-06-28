@@ -1,50 +1,41 @@
 {
-  "wayto": {
-    "12139": "northwest",
-    "12207": {
-      "stringproc": "e92c9dd14f17f62ccd19f33b9f37fe22"
-    },
-    "12235": {
-      "stringproc": "6257723a0157210f5f1e2eb6e7c5dbb4"
-    }
-  },
+  "id": 12106,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "Ash covers the ground, deep as a halfling's waist.  For miles around, all there is to see is grey dust.  The air is full of the smell of sulphur and decaying flesh.  In the distance sits a large mountain, belching smoke and grey flakes like the ones beneath you."
+  ],
   "paths": [
     "Obvious exits: northwest",
     "Obvious paths: northwest"
   ],
+  "location": "the Rift",
+  "wayto": {
+    "12139": "northwest",
+    "12207": {
+      "file": "string_procs/wayto/12106_12207.rb"
+    },
+    "12235": {
+      "file": "string_procs/wayto/12106_12235.rb"
+    }
+  },
+  "timeto": {
+    "12139": 0.2,
+    "12207": 11.4,
+    "12235": 11.4
+  },
+  "image": "imt-rift-1554575848.png",
   "image_coords": [
     541,
     1262,
     551,
     1272
   ],
-  "terrain": null,
-  "description": [
-    "Ash covers the ground, deep as a halfling's waist.  For miles around, all there is to see is grey dust.  The air is full of the smell of sulphur and decaying flesh.  In the distance sits a large mountain, belching smoke and grey flakes like the ones beneath you."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "12139": 0.2,
-    "12207": 11.4,
-    "12235": 11.4
-  },
-  "id": 12106,
-  "location": "the Rift",
   "tags": [
     "mass of congealed slime",
     "oozing fleshsore bulb",
     "twisted black mawflower",
-    "slime-covered grave blossom",
-    "withered deathblossom",
-    "rotting bile green fleshbulb",
-    "discolored fleshbinder bud"
-  ],
-  "links": [
-
+    "slime-covered grave blossom"
   ]
 }

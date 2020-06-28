@@ -1,39 +1,32 @@
 {
-  "wayto": {
-    "26046": {
-      "stringproc": "9b05cb4429e6ad5efbe157efd92e6023"
-    },
-    "25787": {
-      "stringproc": "63861e792c32be37a4b34134ce147413"
-    }
-  },
+  "id": 25786,
+  "title": [
+    "[Eastern Waterway]"
+  ],
+  "description": [
+    "Tidy and narrow, the thin dock that extends from the small island is painted grey and lined with dozens of frosted globes that glitter with a warm, welcoming radiance.  Small and large rocks decorated with orange, blue, and white pigments create an ornamental border that rises from the rushing waves and up the steep sides of the coast."
+  ],
   "paths": [
     "Obvious paths: north, northwest"
   ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "26046": {
+      "file": "string_procs/wayto/25786_26046.rb"
+    },
+    "25787": {
+      "file": "string_procs/wayto/25786_25787.rb"
+    }
+  },
+  "timeto": {
+    "26046": 6.0,
+    "25787": 6.0
+  },
+  "image": "ifw-eastern_waterway-1489553700.png",
   "image_coords": [
     2321,
     1839,
     2340,
     1858
-  ],
-  "terrain": null,
-  "description": [
-    "Tidy and narrow, the thin dock that extends from the small island is painted grey and lined with dozens of frosted globes that glitter with a warm, welcoming radiance.  Small and large rocks decorated with orange, blue, and white pigments create an ornamental border that rises from the rushing waves and up the steep sides of the coast."
-  ],
-  "image": "ifw-eastern_waterway-1489553700.png",
-  "climate": null,
-  "title": [
-    "[Eastern Waterway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26046": 6.0,
-    "25787": 6.0
-  },
-  "id": 25786,
-  "location": "Mist Harbor",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

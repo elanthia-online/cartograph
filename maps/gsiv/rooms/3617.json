@@ -1,36 +1,33 @@
 {
+  "id": 3617,
+  "title": [
+    "[Glatoph, Glacier]"
+  ],
+  "description": [
+    "It is hard to walk in the screaming wind.  Ice and snow cake your form, making you shiver.  You can barely hear your footsteps over the wind and your own chattering teeth.  A large mound of snow to the northwest seems to provide some shelter.",
+    "It is hard to walk in the screaming wind.  Ice and snow cake your form, making you shiver.  You can barely hear your footsteps over the wind and your own chattering teeth.  You find yourself missing even the pallid sunlight this frigid place sees, as the moons provide little light and no heat at all.  A large mound of snow to the northwest seems to provide some shelter."
+  ],
+  "paths": [
+    "Obvious paths: north, east, northwest"
+  ],
+  "location": "Glatoph",
   "wayto": {
     "2566": "north",
     "2567": "northwest",
     "7853": "east"
   },
-  "paths": [
-    "Obvious paths: north, east, northwest"
-  ],
+  "timeto": {
+    "2566": 0.2,
+    "2567": 0.2,
+    "7853": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     838,
     565,
     848,
     575
   ],
-  "terrain": "mountainous",
-  "description": [
-    "It is hard to walk in the screaming wind.  Ice and snow cake your form, making you shiver.  You can barely hear your footsteps over the wind and your own chattering teeth.  A large mound of snow to the northwest seems to provide some shelter.",
-    "It is hard to walk in the screaming wind.  Ice and snow cake your form, making you shiver.  You can barely hear your footsteps over the wind and your own chattering teeth.  You find yourself missing even the pallid sunlight this frigid place sees, as the moons provide little light and no heat at all.  A large mound of snow to the northwest seems to provide some shelter."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Glatoph, Glacier]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2566": 0.2,
-    "2567": 0.2,
-    "7853": 0.2
-  },
-  "id": 3617,
-  "location": "Glatoph",
   "tags": [
     "arctic titan",
     "frost giant",
@@ -42,10 +39,6 @@
     "valerian root",
     "pennyroyal stem",
     "sprig of holly",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

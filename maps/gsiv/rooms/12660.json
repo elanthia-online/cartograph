@@ -1,38 +1,28 @@
 {
+  "id": 12660,
+  "title": [
+    "[Fhorian Village, Storage Shed]"
+  ],
+  "description": [
+    "This room must have housed the armor as well as the extra blades.  You can see shelves to the west which have labels attached to them.  Looking closer you see that they identify the size and strength of the armor each shelf was to hold.  The weapon rack that would house all the swords is empty.  Nothing has been left behind that could be of any value to you."
+  ],
+  "paths": [
+    "Obvious exits: south, out"
+  ],
+  "location": "the Fhorian Village",
   "wayto": {
     "12661": "south",
     "2088": "out"
   },
-  "paths": [
-    "Obvious exits: south, out"
-  ],
+  "timeto": {
+    "12661": 0.2,
+    "2088": 0.2
+  },
+  "image": "ti-wilds-1264234799.png",
   "image_coords": [
     1144,
     914,
     1154,
     924
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This room must have housed the armor as well as the extra blades.  You can see shelves to the west which have labels attached to them.  Looking closer you see that they identify the size and strength of the armor each shelf was to hold.  The weapon rack that would house all the swords is empty.  Nothing has been left behind that could be of any value to you."
-  ],
-  "image": "ti-wilds-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Fhorian Village, Storage Shed]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "12661": 0.2,
-    "2088": 0.2
-  },
-  "id": 12660,
-  "location": "the Fhorian Village",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

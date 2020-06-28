@@ -1,35 +1,23 @@
 {
-  "wayto": {
-    "22408": "go curtain",
-    "16700": {
-      "stringproc": "6fd0a5c764bfcc9a1defd261debac4f4"
-    }
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Simple, but elegant, the teakwood flooring of this room is polished to a lustrous sheen.  A crimson velvet pennant edged with ivory hangs near a heavy, white muslin curtain."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 22407,
   "title": [
     "[Annex, Beacon Hall Lobby]"
   ],
-  "check_location": null,
+  "description": [
+    "Simple, but elegant, the teakwood flooring of this room is polished to a lustrous sheen.  A crimson velvet pennant edged with ivory hangs near a heavy, white muslin curtain."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "22408": "go curtain",
+    "16700": {
+      "file": "string_procs/wayto/22407_16700.rb"
+    }
+  },
   "timeto": {
     "22408": 0.2,
     "16700": 0.2
-  },
-  "id": 22407,
-  "location": "Mist Harbor",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  }
 }

@@ -1,33 +1,30 @@
 {
+  "id": 9346,
+  "title": [
+    "[Rocky Pass]"
+  ],
+  "description": [
+    "The pass widens out into a meadow leading down into a small valley.  There is a stream meandering through the valley, and beyond a bend in its bed an overgrown and ruined village can be seen.  The source of the stream is hidden in a ravine on the far side of the valley."
+  ],
+  "paths": [
+    "Obvious paths: south, northwest"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "9345": "south",
     "9347": "northwest"
   },
-  "paths": [
-    "Obvious paths: south, northwest"
-  ],
+  "timeto": {
+    "9345": 0.2,
+    "9347": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     1213,
     272,
     1225,
     284
   ],
-  "terrain": "rough",
-  "description": [
-    "The pass widens out into a meadow leading down into a small valley.  There is a stream meandering through the valley, and beyond a bend in its bed an overgrown and ruined village can be seen.  The source of the stream is hidden in a ravine on the far side of the valley."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Rocky Pass]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9345": 0.2,
-    "9347": 0.2
-  },
-  "id": 9346,
-  "location": "the Cairnfang",
   "tags": [
     "white clover blossom",
     "wintergreen leaf",
@@ -56,10 +53,6 @@
     "motherwort",
     "white baneberry",
     "pepperthorn root",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

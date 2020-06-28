@@ -1,4 +1,15 @@
 {
+  "id": 1195,
+  "title": [
+    "[Raging Thrak Inn, Barroom]"
+  ],
+  "description": [
+    "A long and polished wooden bar occupies the whole north wall of the tavern here in The Raging Thrak, which is named for the fiery proprietor.  Hard wooden chairs, tables and benches are spaced liberally throughout the room.  The tavern does good business, and seems to be at least half full, no matter what time of day."
+  ],
+  "paths": [
+    "Obvious exits: north, south, west, out"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "227": "out",
     "8670": "go doorway",
@@ -6,25 +17,6 @@
     "1194": "north",
     "1259": "west"
   },
-  "paths": [
-    "Obvious exits: north, south, west, out"
-  ],
-  "image_coords": [
-    208,
-    365,
-    218,
-    375
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A long and polished wooden bar occupies the whole north wall of the tavern here in The Raging Thrak, which is named for the fiery proprietor.  Hard wooden chairs, tables and benches are spaced liberally throughout the room.  The tavern does good business, and seems to be at least half full, no matter what time of day."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Raging Thrak Inn, Barroom]"
-  ],
-  "check_location": null,
   "timeto": {
     "227": 0.2,
     "8670": 0.2,
@@ -32,13 +24,11 @@
     "1194": 0.2,
     "1259": 0.2
   },
-  "id": 1195,
-  "location": "Wehnimer's Landing",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-wehnimers-1264234799.png",
+  "image_coords": [
+    208,
+    365,
+    218,
+    375
   ]
 }

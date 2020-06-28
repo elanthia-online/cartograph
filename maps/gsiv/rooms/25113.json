@@ -1,35 +1,28 @@
 {
+  "id": 25113,
+  "title": [
+    "[Reim Castle, West Wing]"
+  ],
+  "description": [
+    "Some tables, carved from mahogany, complement low wooden benches sitting next to them.  Atop each table is a collection of neatly stacked playing cards accompanied by a pile of colorful chips.  The crimson carpet ends here, while polished planks of knotted and burled hardwood continue onward towards the servants chambers."
+  ],
+  "paths": [
+    "Obvious exits: north, southwest"
+  ],
+  "location": "the Settlement of Reim",
   "wayto": {
     "25114": "southwest",
     "25112": "north"
   },
-  "paths": [
-    "Obvious exits: north, southwest"
-  ],
+  "timeto": {
+    "25114": 0.2,
+    "25112": 0.2
+  },
+  "image": "imt-Reim-1260914759.png",
   "image_coords": [
     242,
     376,
     254,
     388
-  ],
-  "terrain": null,
-  "description": [
-    "Some tables, carved from mahogany, complement low wooden benches sitting next to them.  Atop each table is a collection of neatly stacked playing cards accompanied by a pile of colorful chips.  The crimson carpet ends here, while polished planks of knotted and burled hardwood continue onward towards the servants chambers."
-  ],
-  "image": "imt-Reim-1260914759.png",
-  "climate": null,
-  "title": [
-    "[Reim Castle, West Wing]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "25114": 0.2,
-    "25112": 0.2
-  },
-  "id": 25113,
-  "location": "the Settlement of Reim",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

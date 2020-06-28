@@ -1,4 +1,15 @@
 {
+  "id": 8491,
+  "title": [
+    "[Temple, Sanctuary]"
+  ],
+  "description": [
+    "The shadows are deep on this side of the sanctuary.  To the north is the altar, sitting above the level of the pews, seemingly casting the shadows down upon you.  To the east, a small prayer chapel sits apart from the sanctuary in a small alcove and a small passageway leads northeast."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south, west"
+  ],
+  "location": "the Temple of Love",
   "wayto": {
     "8492": "west",
     "8497": "northeast",
@@ -6,25 +17,6 @@
     "8499": "go altar",
     "8490": "south"
   },
-  "paths": [
-    "Obvious exits: northeast, south, west"
-  ],
-  "image_coords": [
-    305,
-    683,
-    315,
-    693
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The shadows are deep on this side of the sanctuary.  To the north is the altar, sitting above the level of the pews, seemingly casting the shadows down upon you.  To the east, a small prayer chapel sits apart from the sanctuary in a small alcove and a small passageway leads northeast."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Temple, Sanctuary]"
-  ],
-  "check_location": null,
   "timeto": {
     "8492": 0.2,
     "8497": 0.2,
@@ -32,13 +24,11 @@
     "8499": 0.2,
     "8490": 0.2
   },
-  "id": 8491,
-  "location": "the Temple of Love",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-trollfang-1264234799.png",
+  "image_coords": [
+    305,
+    683,
+    315,
+    693
   ]
 }

@@ -1,33 +1,30 @@
 {
+  "id": 6958,
+  "title": [
+    "[Lower Dragonsclaw, Wooded Hills]"
+  ],
+  "description": [
+    "The forest thins nearer the top of the hill, and you find yourself bracing against the constant, nagging chill.  Old trees, gnarled by years of assault, shudder against the cold winds, cowering yet strong against the constant harassment of the elements."
+  ],
+  "paths": [
+    "Obvious paths: up"
+  ],
+  "location": "the distant forest",
   "wayto": {
     "6959": "up",
     "425": "go trees"
   },
-  "paths": [
-    "Obvious paths: up"
-  ],
+  "timeto": {
+    "6959": 0.2,
+    "425": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     522,
     388,
     532,
     398
   ],
-  "terrain": "hilly",
-  "description": [
-    "The forest thins nearer the top of the hill, and you find yourself bracing against the constant, nagging chill.  Old trees, gnarled by years of assault, shudder against the cold winds, cowering yet strong against the constant harassment of the elements."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Lower Dragonsclaw, Wooded Hills]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6959": 0.2,
-    "425": 0.2
-  },
-  "id": 6958,
-  "location": "the distant forest",
   "tags": [
     "marallis berry",
     "willow twig",
@@ -40,26 +37,6 @@
     "luckbloom blossom",
     "sweetfern stalk",
     "sprig of larkspur",
-    "twisted twig",
-    "sticks",
-    "sassafras leaf",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "stalk of chicory",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "tree bark",
-    "yew twig",
-    "ironfern root",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "twisted twig"
   ]
 }

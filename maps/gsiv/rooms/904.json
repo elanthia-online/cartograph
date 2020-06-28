@@ -1,42 +1,35 @@
 {
+  "id": 904,
+  "title": [
+    "[Whistler's Pass, Tunnel]"
+  ],
+  "description": [
+    "A cold gust of wind passes through the tunnel, a barely audible groaning following in its wake.  Motes of dust whirl with its passing, and then return to their places amid the rough sediment of the stone floor."
+  ],
+  "paths": [
+    "Obvious exits: north, southwest"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "903": "north",
     "905": "southwest"
   },
-  "paths": [
-    "Obvious exits: north, southwest"
-  ],
+  "timeto": {
+    "903": 0.2,
+    "905": 0.2
+  },
+  "image": "en-whistlers_pass-1264234799.png",
   "image_coords": [
     421,
     255,
     431,
     265
   ],
-  "terrain": "indoors",
-  "description": [
-    "A cold gust of wind passes through the tunnel, a barely audible groaning following in its wake.  Motes of dust whirl with its passing, and then return to their places amid the rough sediment of the stone floor."
-  ],
-  "image": "en-whistlers_pass-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Whistler's Pass, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "903": 0.2,
-    "905": 0.2
-  },
-  "id": 904,
-  "location": "Whistler's Pass",
   "tags": [
     "white hook mushroom",
     "cave moss",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

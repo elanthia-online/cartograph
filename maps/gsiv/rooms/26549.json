@@ -1,19 +1,11 @@
 {
-  "wayto": {
-    "26548": "out",
-    "26551": "northwest",
-    "26552": "northeast"
-  },
-  "paths": [
-    "Obvious exits: northeast, northwest, out"
+  "id": 26549,
+  "title": [
+    "[Ruined Structure, Entry]",
+    "[Reconstructed Temple, Entry]",
+    "[Temple, Entry]",
+    "[Granite Temple, Entry]"
   ],
-  "image_coords": [
-    363,
-    451,
-    377,
-    464
-  ],
-  "terrain": null,
   "description": [
     "Holes in the structure's ceiling gape like yawning maws and offer glimpses of the sky, while what little remains appears precariously close to collapse.  To one side of the walkway is a tangle of iron that might once have been something decorative but now looks like little more than a knotted mass of petrified eels.  All around, the ruins are in a state of utter destruction and chaos.",
     "Just over the threshold is a stack of crates with tufts of straw protruding from their seams, and an iron pry bar rests askew atop them.  Battered buckets of refuse and debris line the wall near the doorway, waiting to be removed and discarded.",
@@ -21,24 +13,25 @@
     "The vestibule is lit from above by a myriad indigo candles perched upon a circular iron chandelier hung from the peak of the ogee arched ceiling.  Decorative wrought iron railings span the width between black granite pillars, allowing passage down the central aisle before lengthening to create a barrier around the perimeter of the sanctuary.   A narrow carpet trails down the aisle to the altar at the head of the temple.",
     "The vestibule is lit from above by myriad indigo candles perched upon a circular iron chandelier hung from the peak of the ogee arched ceiling.  Decorative wrought iron railings span the width between black granite pillars, allowing passage down the central aisle before lengthening to create a barrier around the perimeter of the sanctuary.   A narrow carpet trails down the aisle to the altar at the head of the temple."
   ],
-  "image": "fest-ebon_gate-caligos_isle-1539222190.png",
-  "climate": null,
-  "title": [
-    "[Ruined Structure, Entry]",
-    "[Reconstructed Temple, Entry]",
-    "[Temple, Entry]",
-    "[Granite Temple, Entry]"
+  "paths": [
+    "Obvious exits: northeast, northwest, out"
   ],
-  "check_location": null,
+  "location": "Caligos Isle",
+  "wayto": {
+    "26548": "out",
+    "26551": "northwest",
+    "26552": "northeast"
+  },
   "timeto": {
     "26548": 0.2,
     "26551": 0.2,
     "26552": 0.2
   },
-  "id": 26549,
-  "location": "Caligos Isle",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  "image": "fest-ebon_gate-caligos_isle-1539222190.png",
+  "image_coords": [
+    363,
+    451,
+    377,
+    464
+  ]
 }

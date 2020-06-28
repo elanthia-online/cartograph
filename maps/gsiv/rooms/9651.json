@@ -1,37 +1,28 @@
 {
-  "wayto": {
-    "6135": {
-      "stringproc": "d017660b3dc37f3cb4a014e0c161da0f"
-    }
-  },
+  "id": 9651,
+  "title": [
+    "[Plateau's Edge, Steep Path]"
+  ],
+  "description": [
+    "Slick and frozen terrain prevents passage back up the cliff.  The path continues sharply down the edge of the plateau, ending abruptly several feet above the ground of the frozen slopes below."
+  ],
   "paths": [
     "Obvious paths: none"
   ],
+  "location": "The Hidden Plateau",
+  "wayto": {
+    "6135": {
+      "file": "string_procs/wayto/9651_6135.rb"
+    }
+  },
+  "timeto": {
+    "6135": 30.0
+  },
+  "image": "wl-wehntoph-1310775397.png",
   "image_coords": [
     844,
     26,
     878,
     60
-  ],
-  "terrain": null,
-  "description": [
-    "Slick and frozen terrain prevents passage back up the cliff.  The path continues sharply down the edge of the plateau, ending abruptly several feet above the ground of the frozen slopes below."
-  ],
-  "image": "wl-wehntoph-1310775397.png",
-  "climate": null,
-  "title": [
-    "[Plateau's Edge, Steep Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6135": 30.0
-  },
-  "id": 9651,
-  "location": "The Hidden Plateau",
-  "tags": [
-
-  ],
-  "links": [
-
   ]
 }

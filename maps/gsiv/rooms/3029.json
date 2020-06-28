@@ -1,33 +1,30 @@
 {
+  "id": 3029,
+  "title": [
+    "[Arctic Tundra, High Plain]"
+  ],
+  "description": [
+    "Towering frozen walls curve over the path.  The ground is covered by ice blanketed with snow, which masks a beautiful yet slippery danger."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest"
+  ],
+  "location": "the High Plains",
   "wayto": {
     "3013": "north",
     "3028": "southwest"
   },
-  "paths": [
-    "Obvious paths: north, southwest"
-  ],
+  "timeto": {
+    "3013": 0.2,
+    "3028": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     621,
     891,
     631,
     901
   ],
-  "terrain": "mountainous",
-  "description": [
-    "Towering frozen walls curve over the path.  The ground is covered by ice blanketed with snow, which masks a beautiful yet slippery danger."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Arctic Tundra, High Plain]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3013": 0.2,
-    "3028": 0.2
-  },
-  "id": 3029,
-  "location": "the High Plains",
   "tags": [
     "some valerian root",
     "some wingstem root",
@@ -53,15 +50,6 @@
     "lingonberry",
     "orange rowanberry",
     "ironfern root",
-    "bolmara lichen",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "arctic moss",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bolmara lichen"
   ]
 }

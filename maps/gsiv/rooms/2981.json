@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "2980": "north"
-  },
+  "id": 2981,
+  "title": [
+    "[Abbey, Ossuary]"
+  ],
+  "description": [
+    "A freshly built barrier of white brick bars any further passage down the tunnel.  A tall, slender vase has been placed on a thin marble shelf, a ring of dried roses draped around its neck.  Scattered at the base of the relatively new masonry is a layer of fine white dust."
+  ],
   "paths": [
     "Obvious exits: north"
   ],
+  "location": "the Abbey",
+  "wayto": {
+    "2980": "north"
+  },
+  "timeto": {
+    "2980": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     836,
     537,
     846,
     547
   ],
-  "terrain": "indoors",
-  "description": [
-    "A freshly built barrier of white brick bars any further passage down the tunnel.  A tall, slender vase has been placed on a thin marble shelf, a ring of dried roses draped around its neck.  Scattered at the base of the relatively new masonry is a layer of fine white dust."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abbey, Ossuary]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2980": 0.2
-  },
-  "id": 2981,
-  "location": "the Abbey",
   "tags": [
-    "arch wight",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "arch wight"
   ]
 }

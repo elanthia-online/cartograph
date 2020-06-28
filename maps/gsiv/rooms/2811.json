@@ -1,35 +1,32 @@
 {
-  "wayto": {
-    "2810": {
-      "stringproc": "c2f35339ece466ff7a209eab5eb2ca59"
-    },
-    "2812": "up"
-  },
+  "id": 2811,
+  "title": [
+    "[Northern Slopes, Rocky Incline]"
+  ],
+  "description": [
+    "The precarious path down the steep face of the bluff levels off briefly, forming a small ledge with dangerously unstable edges.  Wind whips by, buffeting the precipice with sleet and snow.  Lodged pitifully in a pile of boulders next to the sheer rock face lies the carcass of an antelope.  Its limbs are broken across the granite, and little more than a pile of hide and protruding bones remains of the graceful creature, mute testament to the brutality of the region."
+  ],
   "paths": [
     "Obvious paths: up"
   ],
+  "location": "the Pinefar forests",
+  "wayto": {
+    "2810": {
+      "file": "string_procs/wayto/2811_2810.rb"
+    },
+    "2812": "up"
+  },
+  "timeto": {
+    "2810": 0.2,
+    "2812": 0.2
+  },
+  "image": "imt-pinefar-1264234799.png",
   "image_coords": [
     431,
     1184,
     441,
     1194
   ],
-  "terrain": "mountainous",
-  "description": [
-    "The precarious path down the steep face of the bluff levels off briefly, forming a small ledge with dangerously unstable edges.  Wind whips by, buffeting the precipice with sleet and snow.  Lodged pitifully in a pile of boulders next to the sheer rock face lies the carcass of an antelope.  Its limbs are broken across the granite, and little more than a pile of hide and protruding bones remains of the graceful creature, mute testament to the brutality of the region."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Northern Slopes, Rocky Incline]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2810": 0.2,
-    "2812": 0.2
-  },
-  "id": 2811,
-  "location": "the Pinefar forests",
   "tags": [
     "sweetfern stalk",
     "sassafras leaf",
@@ -65,23 +62,6 @@
     "soft orange iceblossom",
     "lavender iceblossom",
     "some arctic moss",
-    "pale violet iceblossom",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "edelweiss",
-    "iceblossoms",
-    "arctic moss",
-    "tundra grass",
-    "snowberries",
-    "small loganberry",
-    "lingonberry",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "pale violet iceblossom"
   ]
 }

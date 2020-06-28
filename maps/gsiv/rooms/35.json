@@ -1,41 +1,31 @@
 {
-  "wayto": {
-    "34": "go gate",
-    "36": "southwest"
-  },
-  "paths": [
-    "Obvious paths: southwest"
+  "id": 35,
+  "title": [
+    "[Ta'Illistim, Sapphire Gate]"
   ],
-  "image_coords": [
-    1615,
-    735,
-    1638,
-    758
-  ],
-  "terrain": "hard, flat",
   "description": [
     "The few people entering and exiting the city at this hour are forced down a narrow path as the gateyard terminates at the Sapphire Gate.  Crafted of glittering mica-flecked blue granite, the gate arches high overhead, buttressed on either side by equally imposing carved granite gargoyles.  Sandblasted into the granite just above the gate's open archway, the crest of House Illistim is outlined with silver tracery.",
     "The throngs of people entering and exiting the city are forced down a narrow path as the gateyard terminates at the Sapphire Gate.  Crafted of glittering mica-flecked blue granite, the gate arches high overhead, buttressed on either side by equally imposing carved granite gargoyles.  Sandblasted into the granite just above the gate's open archway, the crest of House Illistim is outlined with silver tracery.",
     "The gateyard terminates at the Sapphire Gate, through which Ta'Illistim proper and the open night sky can be seen.  Above the keystone of the gate itself are two enameled peacocks pavonated, facing inwards towards one another to just barely brush beaks.  Their brightly colored plumage stands out against the mica-flecked silvery blue stonework of the city.",
     "The gateyard terminates at the Sapphire Gate, through which Ta'Illistim proper and the open sky of day can be seen.  Above the keystone of the gate itself are two enameled peacocks pavonated, facing inwards towards one another to just barely brush beaks.  Their brightly colored plumage stands out against the mica-flecked silvery blue stonework of the city."
   ],
-  "image": "en-ta_illistim-new.jpg",
-  "climate": "temperate",
-  "title": [
-    "[Ta'Illistim, Sapphire Gate]"
+  "paths": [
+    "Obvious paths: southwest"
   ],
-  "check_location": null,
+  "location": "Ta'Illistim",
+  "wayto": {
+    "34": "go gate",
+    "36": "southwest"
+  },
   "timeto": {
     "34": 0.2,
     "36": 0.2
   },
-  "id": 35,
-  "location": "Ta'Illistim",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-ta_illistim-new.jpg",
+  "image_coords": [
+    1615,
+    735,
+    1638,
+    758
   ]
 }

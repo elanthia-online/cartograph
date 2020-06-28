@@ -1,37 +1,34 @@
 {
+  "id": 9242,
+  "title": [
+    "[Black Wolves Manor, Courtyard]"
+  ],
+  "description": [
+    "Tucked away from the bustle of town, the courtyard is awash with the warm light that streams through the manor's windows.  Cascades of cool water glint in the moonlight as they tumble down from a white marble fountain.  Flower-laden gardens are nestled under trees, curving around benches, and running alongside the creek stone path that leads to a large manor.  Above the manor's door hangs a brilliant red banner emblazoned with the head of a great black wolf.",
+    "Tucked away from the bustle of town, the courtyard is surrounded by a tall stone wall brimming with honeysuckle and yellow trumpet vines.  Cascades of cool water tumble down from a marble fountain into a shallow pool.  Flower-laden gardens are nestled under trees, curving around benches, and running alongside the creek stone path that leads to a large manor.  Above the manor's door hangs a brilliant red banner emblazoned with the head of a great black wolf.",
+    "Tucked away from the bustle of town, the courtyard is awash with the warm light that streams through the manor's windows.  Cascades of cool water glint in the moonlight as they tumble down from a marble fountain.  Flower-laden gardens are nestled under trees, curving around benches, and running alongside the creek stone path that leads to a large manor.  Above the manor's door hangs a brilliant red banner emblazoned with the head of a great black wolf."
+  ],
+  "paths": [
+    "Obvious paths: out"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "245": "out",
     "24561": "go door",
     "24562": "go path"
   },
-  "paths": [
-    "Obvious paths: out"
-  ],
+  "timeto": {
+    "245": 0.2,
+    "24561": 0.2,
+    "24562": 0.2
+  },
+  "image": "wl-black_wolves_manor.png",
   "image_coords": [
     355,
     564,
     381,
     591
   ],
-  "terrain": null,
-  "description": [
-    "Tucked away from the bustle of town, the courtyard is awash with the warm light that streams through the manor's windows.  Cascades of cool water glint in the moonlight as they tumble down from a white marble fountain.  Flower-laden gardens are nestled under trees, curving around benches, and running alongside the creek stone path that leads to a large manor.  Above the manor's door hangs a brilliant red banner emblazoned with the head of a great black wolf.",
-    "Tucked away from the bustle of town, the courtyard is surrounded by a tall stone wall brimming with honeysuckle and yellow trumpet vines.  Cascades of cool water tumble down from a marble fountain into a shallow pool.  Flower-laden gardens are nestled under trees, curving around benches, and running alongside the creek stone path that leads to a large manor.  Above the manor's door hangs a brilliant red banner emblazoned with the head of a great black wolf.",
-    "Tucked away from the bustle of town, the courtyard is awash with the warm light that streams through the manor's windows.  Cascades of cool water glint in the moonlight as they tumble down from a marble fountain.  Flower-laden gardens are nestled under trees, curving around benches, and running alongside the creek stone path that leads to a large manor.  Above the manor's door hangs a brilliant red banner emblazoned with the head of a great black wolf."
-  ],
-  "image": "wl-black_wolves_manor.png",
-  "climate": null,
-  "title": [
-    "[Black Wolves Manor, Courtyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "245": 0.2,
-    "24561": 0.2,
-    "24562": 0.2
-  },
-  "id": 9242,
-  "location": "Wehnimer's Landing",
   "tags": [
     "node",
     "supernode",
@@ -39,8 +36,5 @@
     "meta:mapshortname:Black Wolves",
     "meta:mapcategory:Wehnimer's Landing",
     "meta:mapcategory:MHO"
-  ],
-  "links": [
-
   ]
 }

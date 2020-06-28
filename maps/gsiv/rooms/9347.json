@@ -1,35 +1,32 @@
 {
+  "id": 9347,
+  "title": [
+    "[Abandoned Village]"
+  ],
+  "description": [
+    "The buildings in the village surround a central square, which is completely overgrown now. In the center of the square is a large tree.  Even though old fire scars are still visible on the tree, it still seems to thrive.  All that remains of the buildings in this corner of the square are the stone foundations and a few old burned beams thrusting up through the vegetation now covering the wounds."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast, southwest"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "9371": "north",
     "9346": "southeast",
     "9348": "southwest"
   },
-  "paths": [
-    "Obvious paths: north, southeast, southwest"
-  ],
+  "timeto": {
+    "9371": 0.2,
+    "9346": 0.2,
+    "9348": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     1188,
     247,
     1198,
     257
   ],
-  "terrain": "grassland",
-  "description": [
-    "The buildings in the village surround a central square, which is completely overgrown now. In the center of the square is a large tree.  Even though old fire scars are still visible on the tree, it still seems to thrive.  All that remains of the buildings in this corner of the square are the stone foundations and a few old burned beams thrusting up through the vegetation now covering the wounds."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Abandoned Village]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9371": 0.2,
-    "9346": 0.2,
-    "9348": 0.2
-  },
-  "id": 9347,
-  "location": "the Cairnfang",
   "tags": [
     "handful of raspberries",
     "daggerstalk mushroom",
@@ -83,10 +80,6 @@
     "wavepetal blossom",
     "ironfern root",
     "nightbloom blossom",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

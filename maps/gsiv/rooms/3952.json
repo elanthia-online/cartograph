@@ -1,39 +1,32 @@
 {
+  "id": 3952,
+  "title": [
+    "[Abandoned Sewer]"
+  ],
+  "description": [
+    "It appears that some of the ceiling has fallen, partially damming up the noxious liquid that could only be called water by a distant stretch of the imagination.  You shudder, as you realize that in order to pass, you are going to have to wade, for at least a few feet."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "3951": "south",
     "3953": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "3951": 0.2,
+    "3953": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     585,
     276,
     595,
     287
   ],
-  "terrain": null,
-  "description": [
-    "It appears that some of the ceiling has fallen, partially damming up the noxious liquid that could only be called water by a distant stretch of the imagination.  You shudder, as you realize that in order to pass, you are going to have to wade, for at least a few feet."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Abandoned Sewer]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3951": 0.2,
-    "3953": 0.2
-  },
-  "id": 3952,
-  "location": "the catacombs",
   "tags": [
     "red trafel mushroom",
-    "blue trafel mushroom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "blue trafel mushroom"
   ]
 }

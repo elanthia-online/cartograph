@@ -1,43 +1,28 @@
 {
+  "id": 5654,
+  "title": [
+    "[Warrens]"
+  ],
+  "description": [
+    "A deep rumble can be heard reverberating about the burrow, sounding almost as if it were coming from within the walls.  It's hard to determine exactly what might cause such a noise, but judging from the rhythm of the sound, it clearly isn't natural."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast"
+  ],
+  "location": "the Vornavian Coast",
   "wayto": {
     "5653": "southeast",
     "5656": "north"
   },
-  "paths": [
-    "Obvious exits: north, southeast"
-  ],
+  "timeto": {
+    "5653": 0.2,
+    "5656": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     630,
     739,
     640,
     749
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A deep rumble can be heard reverberating about the burrow, sounding almost as if it were coming from within the walls.  It's hard to determine exactly what might cause such a noise, but judging from the rhythm of the sound, it clearly isn't natural."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Warrens]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5653": 0.2,
-    "5656": 0.2
-  },
-  "id": 5654,
-  "location": "the Vornavian Coast",
-  "tags": [
-    "withered black mushroom",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

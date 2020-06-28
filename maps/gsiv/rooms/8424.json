@@ -1,48 +1,36 @@
 {
+  "id": 8424,
+  "title": [
+    "[Thanatoph Bowels, Cavern]"
+  ],
+  "description": [
+    "A huge cracked boulder has fallen into the path and now leans heavily against the cavern wall.  Passage is possible on one side of the massive stone, but it's a long drop into steamy, sulphur-scented water below, through the hole where the cavern wall gave way under collision with the boulder."
+  ],
+  "paths": [
+    "Obvious exits: north, east, northwest"
+  ],
+  "location": "the bowels of Thanatoph",
   "wayto": {
     "8418": "east",
     "8429": "north",
     "8423": "northwest"
   },
-  "paths": [
-    "Obvious exits: north, east, northwest"
-  ],
+  "timeto": {
+    "8418": 0.2,
+    "8429": 0.2,
+    "8423": 0.2
+  },
+  "image": "wl-stronghold-1264234799.png",
   "image_coords": [
     1222,
     735,
     1232,
     745
   ],
-  "terrain": "indoors",
-  "description": [
-    "A huge cracked boulder has fallen into the path and now leans heavily against the cavern wall.  Passage is possible on one side of the massive stone, but it's a long drop into steamy, sulphur-scented water below, through the hole where the cavern wall gave way under collision with the boulder."
-  ],
-  "image": "wl-stronghold-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thanatoph Bowels, Cavern]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8418": 0.2,
-    "8429": 0.2,
-    "8423": 0.2
-  },
-  "id": 8424,
-  "location": "the bowels of Thanatoph",
   "tags": [
     "some wolifrew lichen",
     "withered black mushroom",
     "some cave moss",
-    "some wingstem root",
-    "wolifrew lichen",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

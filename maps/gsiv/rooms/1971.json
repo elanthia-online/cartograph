@@ -1,37 +1,28 @@
 {
+  "id": 1971,
+  "title": [
+    "[Wizard Guild, East Hallway]"
+  ],
+  "description": [
+    "Lava flows dangerously close in a channel along the hallway just a few feet from where you pass.  Unconcerned apprentice wizards hurry to and fro down the hallway without giving the lava any more heed than they might a cool mountain stream.  The corridor widens further to the east."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Kharam-Dzu",
   "wayto": {
     "1972": "east",
     "1968": "west"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "1972": 0.2,
+    "1968": 0.2
+  },
+  "image": "ti-wizard_guild.png",
   "image_coords": [
     668,
     534,
     733,
     598
-  ],
-  "terrain": null,
-  "description": [
-    "Lava flows dangerously close in a channel along the hallway just a few feet from where you pass.  Unconcerned apprentice wizards hurry to and fro down the hallway without giving the lava any more heed than they might a cool mountain stream.  The corridor widens further to the east."
-  ],
-  "image": "ti-wizard_guild.png",
-  "climate": null,
-  "title": [
-    "[Wizard Guild, East Hallway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1972": 0.2,
-    "1968": 0.2
-  },
-  "id": 1971,
-  "location": "Kharam-Dzu",
-  "tags": [
-
-  ],
-  "links": [
-
   ]
 }

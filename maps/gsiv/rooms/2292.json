@@ -1,38 +1,28 @@
 {
+  "id": 2292,
+  "title": [
+    "[Mausoleum, Catacombs]"
+  ],
+  "description": [
+    "Dust-covered stone urns are stacked against the walls.  The splintered remains of a wood cabinet rot in a corner, just under a tattered old tapestry.  This room seems unusually dry, compared to the moisture and seepage in other, nearby chambers."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "the Fhorian Village",
   "wayto": {
     "2291": "up",
     "2293": "down"
   },
-  "paths": [
-    "Obvious exits: up, down"
-  ],
+  "timeto": {
+    "2291": 0.2,
+    "2293": 0.2
+  },
+  "image": "ti-wilds-1264234799.png",
   "image_coords": [
     39,
     1054,
     47,
     1062
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Dust-covered stone urns are stacked against the walls.  The splintered remains of a wood cabinet rot in a corner, just under a tattered old tapestry.  This room seems unusually dry, compared to the moisture and seepage in other, nearby chambers."
-  ],
-  "image": "ti-wilds-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mausoleum, Catacombs]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2291": 0.2,
-    "2293": 0.2
-  },
-  "id": 2292,
-  "location": "the Fhorian Village",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

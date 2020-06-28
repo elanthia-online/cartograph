@@ -1,40 +1,30 @@
 {
-  "wayto": {
-    "8550": "north",
-    "8552": {
-      "stringproc": "5a00abf0aba49ca5cb2ff4b344beccc3"
-    }
-  },
+  "id": 8551,
+  "title": [
+    "[Rubble Pile]"
+  ],
+  "description": [
+    "You are atop the huge rubble pile.  From here you can travel a few yards to the north or you can climb down to the valley floor to the south."
+  ],
   "paths": [
     "Obvious paths: north"
   ],
+  "location": "the foothills of Zeltoph",
+  "wayto": {
+    "8550": "north",
+    "8552": {
+      "file": "string_procs/wayto/8551_8552.rb"
+    }
+  },
+  "timeto": {
+    "8550": 0.2,
+    "8552": 5.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     1266,
     647,
     1276,
     657
-  ],
-  "terrain": "missing",
-  "description": [
-    "You are atop the huge rubble pile.  From here you can travel a few yards to the north or you can climb down to the valley floor to the south."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "missing",
-  "title": [
-    "[Rubble Pile]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8550": 0.2,
-    "8552": 5.2
-  },
-  "id": 8551,
-  "location": "the foothills of Zeltoph",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

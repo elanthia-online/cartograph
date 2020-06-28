@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "6855": "go door"
-  },
+  "id": 6865,
+  "title": [
+    "[Abandoned Inn, Guest Room]"
+  ],
+  "description": [
+    "A small hearth burns brightly in the corner of the room, grated against popping embers.  Comforters of deep blue shroud the bed in the opposite corner.  They are turned down invitingly, revealing soft cotton sheets and plump pillows.  A sunny yellow wash basin sits atop a small table placed under the windows, and thick curtains keep out any unwanted light."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "the Abandoned Inn",
+  "wayto": {
+    "6855": "go door"
+  },
+  "timeto": {
+    "6855": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     844,
     1285,
     854,
     1295
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A small hearth burns brightly in the corner of the room, grated against popping embers.  Comforters of deep blue shroud the bed in the opposite corner.  They are turned down invitingly, revealing soft cotton sheets and plump pillows.  A sunny yellow wash basin sits atop a small table placed under the windows, and thick curtains keep out any unwanted light."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abandoned Inn, Guest Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6855": 0.2
-  },
-  "id": 6865,
-  "location": "the Abandoned Inn",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

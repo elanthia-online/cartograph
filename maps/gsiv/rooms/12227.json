@@ -1,44 +1,41 @@
 {
-  "wayto": {
-    "12152": {
-      "stringproc": "e7b269de45035581300c76daf9e751cf"
-    },
-    "12089": {
-      "stringproc": "df16ace028c72dba18b51257349345d8"
-    },
-    "2635": {
-      "stringproc": "a5fc698b4e8aaa983aa8f5ad92908980"
-    },
-    "12226": "northwest"
-  },
+  "id": 12227,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "The darkness seems to wrap about you, seeking to hold you and bind you to it.  But the darkness is cold, burning and scalding you with its icy touch.  Too alien to be the comfortable darkness of the night, too hungry to be the peace of a room with curtains drawn, it leeches and draws the strength from you, threatening to leave you a dried husk."
+  ],
   "paths": [
     "Obvious paths: northwest",
     "Obvious exits: northwest"
   ],
-  "image_coords": [
-    280,
-    1113,
-    290,
-    1123
-  ],
-  "terrain": null,
-  "description": [
-    "The darkness seems to wrap about you, seeking to hold you and bind you to it.  But the darkness is cold, burning and scalding you with its icy touch.  Too alien to be the comfortable darkness of the night, too hungry to be the peace of a room with curtains drawn, it leeches and draws the strength from you, threatening to leave you a dried husk."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12152": {
+      "file": "string_procs/wayto/12227_12152.rb"
+    },
+    "12089": {
+      "file": "string_procs/wayto/12227_12089.rb"
+    },
+    "2635": {
+      "file": "string_procs/wayto/12227_2635.rb"
+    },
+    "12226": "northwest"
+  },
   "timeto": {
     "12152": 21.6,
     "12089": 21.6,
     "2635": 21.6,
     "12226": 0.2
   },
-  "id": 12227,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    280,
+    1113,
+    290,
+    1123
+  ],
   "tags": [
     "twisted black mawflower",
     "withered deathblossom",
@@ -47,8 +44,5 @@
     "oozing fleshsore bulb",
     "discolored fleshbinder bud",
     "rotting bile green fleshbulb"
-  ],
-  "links": [
-
   ]
 }

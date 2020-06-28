@@ -1,33 +1,30 @@
 {
+  "id": 1412,
+  "title": [
+    "[Cairnfang, North Bank]"
+  ],
+  "description": [
+    "An expanse of cattails and open pockets of water spread westward from the river just south of here, forcing the trail to veer to the southwest to stay on dry ground.  To the north, the trail is able to keep close to the river atop its firm western bank."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "1411": "north",
     "1413": "southwest"
   },
-  "paths": [
-    "Obvious paths: north, southwest"
-  ],
+  "timeto": {
+    "1411": 0.2,
+    "1413": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     970,
     1120,
     980,
     1130
   ],
-  "terrain": "grassland",
-  "description": [
-    "An expanse of cattails and open pockets of water spread westward from the river just south of here, forcing the trail to veer to the southwest to stay on dry ground.  To the north, the trail is able to keep close to the river atop its firm western bank."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Cairnfang, North Bank]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1411": 0.2,
-    "1413": 0.2
-  },
-  "id": 1412,
-  "location": "the Cairnfang",
   "tags": [
     "some sovyn clove",
     "some acantha leaf",
@@ -87,10 +84,6 @@
     "murdroot",
     "wavepetal blossom",
     "ironfern root",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

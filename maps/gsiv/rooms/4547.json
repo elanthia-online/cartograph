@@ -1,46 +1,36 @@
 {
+  "id": 4547,
+  "title": [
+    "[Dark Tunnel]"
+  ],
+  "description": [
+    "Dust is thick in the air making breathing a chore.  Tunnels break off in three directions, the one leading west marked with a pillar carefully bracing the ceiling."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, west"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "4554": "west",
     "4546": "northeast",
     "4548": "southeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southeast, west"
-  ],
+  "timeto": {
+    "4554": 0.2,
+    "4546": 0.2,
+    "4548": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1092,
     538,
     1102,
     548
   ],
-  "terrain": "indoors",
-  "description": [
-    "Dust is thick in the air making breathing a chore.  Tunnels break off in three directions, the one leading west marked with a pillar carefully bracing the ceiling."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dark Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4554": 0.2,
-    "4546": 0.2,
-    "4548": 0.2
-  },
-  "id": 4547,
-  "location": "the Shadow Valley",
   "tags": [
     "blackgrove root",
     "some blue moss",
     "some shadowlace moss",
-    "ghostly pooka",
-    "cave moss",
-    "shadowlace moss",
-    "blue moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ghostly pooka"
   ]
 }

@@ -1,40 +1,32 @@
 {
-  "wayto": {
-    "3190": "southwest"
-  },
+  "id": 3191,
+  "title": [
+    "[Icemule Mausoleum, Chamber]"
+  ],
+  "description": [
+    "High upon the wall, narrow slit windows provide some light to this otherwise gloomy chamber.  Empty iron brackets are spaced along the walls in between the windows."
+  ],
   "paths": [
     "Obvious exits: southwest"
   ],
+  "location": "the southern snowfields",
+  "wayto": {
+    "3190": "southwest"
+  },
+  "timeto": {
+    "3190": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     798,
     1144,
     808,
     1154
   ],
-  "terrain": "indoors",
-  "description": [
-    "High upon the wall, narrow slit windows provide some light to this otherwise gloomy chamber.  Empty iron brackets are spaced along the walls in between the windows."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Icemule Mausoleum, Chamber]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3190": 0.2
-  },
-  "id": 3191,
-  "location": "the southern snowfields",
   "tags": [
     "white vysan",
     "skeleton",
     "phantom",
-    "dark apparition",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "dark apparition"
   ]
 }

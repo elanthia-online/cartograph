@@ -1,35 +1,28 @@
 {
+  "id": 25645,
+  "title": [
+    "[Blacksmith, Scorched Hall]"
+  ],
+  "description": [
+    "The hall turns here, opening up to give view to a massive chamber filled with rows and rows of forges.  An intense heat rolls into the room, causing the air to shimmer with a faint haze."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Talador",
   "wayto": {
     "25685": "west",
     "25591": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "25685": 0.2,
+    "25591": 0.2
+  },
+  "image": "wl-lichs_landing-1500800742.png",
   "image_coords": [
     827,
     734,
     854,
     762
-  ],
-  "terrain": null,
-  "description": [
-    "The hall turns here, opening up to give view to a massive chamber filled with rows and rows of forges.  An intense heat rolls into the room, causing the air to shimmer with a faint haze."
-  ],
-  "image": "wl-lichs_landing-1500800742.png",
-  "climate": null,
-  "title": [
-    "[Blacksmith, Scorched Hall]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "25685": 0.2,
-    "25591": 0.2
-  },
-  "id": 25645,
-  "location": "Talador",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

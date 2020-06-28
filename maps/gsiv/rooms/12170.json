@@ -1,40 +1,37 @@
 {
-  "wayto": {
-    "12207": "south",
-    "12209": "northeast",
-    "2579": {
-      "stringproc": "8770ecf721b2f46d9bc09a8706aab02e"
-    },
-    "12215": "west"
-  },
+  "id": 12170,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "The river of blood moves through a hole to the east.  Your feet squelch and squish with each step, and you are forced to place them carefully for fear of slipping.  The walls are crawling with worms, greenish grey and horrible, slowly weakening the structure.  The squeezing of the walls is not as strong here as in other places, as if the creepers had already damaged them."
+  ],
   "paths": [
     "Obvious paths: northeast, south, west",
     "Obvious exits: northeast, south, west"
   ],
-  "image_coords": [
-    829,
-    1136,
-    839,
-    1146
-  ],
-  "terrain": null,
-  "description": [
-    "The river of blood moves through a hole to the east.  Your feet squelch and squish with each step, and you are forced to place them carefully for fear of slipping.  The walls are crawling with worms, greenish grey and horrible, slowly weakening the structure.  The squeezing of the walls is not as strong here as in other places, as if the creepers had already damaged them."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12207": "south",
+    "12209": "northeast",
+    "2579": {
+      "file": "string_procs/wayto/12170_2579.rb"
+    },
+    "12215": "west"
+  },
   "timeto": {
     "12207": 0.2,
     "12209": 0.2,
     "2579": 6.8,
     "12215": 0.2
   },
-  "id": 12170,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    829,
+    1136,
+    839,
+    1146
+  ],
   "tags": [
     "oozing fleshsore bulb",
     "mass of congealed slime",
@@ -42,10 +39,6 @@
     "fleshsore bulb",
     "withered deathblossom",
     "discolored fleshbinder bud",
-    "slime-covered grave blossom",
-    "rotting bile green fleshbulb"
-  ],
-  "links": [
-
+    "slime-covered grave blossom"
   ]
 }

@@ -1,39 +1,31 @@
 {
+  "id": 4683,
+  "title": [
+    "[Urgaen's Pawnshop]"
+  ],
+  "description": [
+    "Melodic chimes dangle above the ash door, signaling the arrivals and departures from this cozy pawnshop.  Dangling above a polished white oak counter, a crooked plank has been decorated with a child's colorful beadwork that reads, \"Pawnshop.\"  A fringed curtain obscures an archway that leads to the rear of the shop."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Cysaegir",
   "wayto": {
     "17162": "go archway",
     "4682": "out"
   },
-  "paths": [
-    "Obvious exits: out"
-  ],
+  "timeto": {
+    "17162": 0.2,
+    "4682": 0.2
+  },
+  "image": "en-cysaegir-1264234799.png",
   "image_coords": [
     503,
     1306,
     541,
     1344
   ],
-  "terrain": "indoors",
-  "description": [
-    "Melodic chimes dangle above the ash door, signaling the arrivals and departures from this cozy pawnshop.  Dangling above a polished white oak counter, a crooked plank has been decorated with a child's colorful beadwork that reads, \"Pawnshop.\"  A fringed curtain obscures an archway that leads to the rear of the shop."
-  ],
-  "image": "en-cysaegir-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Urgaen's Pawnshop]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "17162": 0.2,
-    "4682": 0.2
-  },
-  "id": 4683,
-  "location": "Cysaegir",
   "tags": [
-    "pawnshop",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "pawnshop"
   ]
 }

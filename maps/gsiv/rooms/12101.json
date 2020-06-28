@@ -1,44 +1,41 @@
 {
-  "wayto": {
-    "2635": {
-      "stringproc": "f88a5ac335110328444947aa8fdfa490"
-    },
-    "12124": "south",
-    "12093": {
-      "stringproc": "dc0110972ab7e067d5fec20ece15581c"
-    },
-    "2605": {
-      "stringproc": "317c6eedd1ea40322b9b26b259a3053f"
-    }
-  },
+  "id": 12101,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "Chains creak and strain under the load they are holding in the center of this stone-walled room.  Eight rolaren chains reach up, entangle, and reach down to the ground on the opposite side of the large shadowy mass hovering just above the floor.  It shifts and moves, as if alive and seeking an escape from the bindings.  The chains glow slightly in the dim light, throwing unusual shadows on the walls while keeping the mass from growing too much."
+  ],
   "paths": [
     "Obvious paths: south",
     "Obvious exits: south"
   ],
-  "image_coords": [
-    1030,
-    590,
-    1040,
-    600
-  ],
-  "terrain": null,
-  "description": [
-    "Chains creak and strain under the load they are holding in the center of this stone-walled room.  Eight rolaren chains reach up, entangle, and reach down to the ground on the opposite side of the large shadowy mass hovering just above the floor.  It shifts and moves, as if alive and seeking an escape from the bindings.  The chains glow slightly in the dim light, throwing unusual shadows on the walls while keeping the mass from growing too much."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "2635": {
+      "file": "string_procs/wayto/12101_2635.rb"
+    },
+    "12124": "south",
+    "12093": {
+      "file": "string_procs/wayto/12101_12093.rb"
+    },
+    "2605": {
+      "file": "string_procs/wayto/12101_2605.rb"
+    }
+  },
   "timeto": {
     "2635": 16.0,
     "12124": 0.2,
     "12093": 21.6,
     "2605": 16.0
   },
-  "id": 12101,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    1030,
+    590,
+    1040,
+    600
+  ],
   "tags": [
     "withered deathblossom",
     "discolored fleshbinder bud",
@@ -47,8 +44,5 @@
     "rotting bile green fleshbulb",
     "mass of congealed slime",
     "slime-covered grave blossom"
-  ],
-  "links": [
-
   ]
 }

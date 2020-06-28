@@ -1,4 +1,15 @@
 {
+  "id": 9412,
+  "title": [
+    "[Zul Logoth, Crystalline Cavern]"
+  ],
+  "description": [
+    "Dwarven miners pass in and out of the stone arch on the west wall in this corner of the crystalline cavern.  Most of the dwarves going in carry bulging sacks, while those who exit have flattened sacks and a rather satisfied expression.  A huge ruby is set into the stone wall just above the arch.  On the south wall, a steel door operates as the entry to a windowless shop.  The sounds of hammering and grinding emanate from the shop."
+  ],
+  "paths": [
+    "Obvious exits: north, east, northwest"
+  ],
+  "location": "the tunnels and caverns of Zul Logoth",
   "wayto": {
     "9474": "go door",
     "9475": "go arch",
@@ -6,25 +17,6 @@
     "1006": "northwest",
     "9413": "east"
   },
-  "paths": [
-    "Obvious exits: north, east, northwest"
-  ],
-  "image_coords": [
-    601,
-    582,
-    621,
-    602
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Dwarven miners pass in and out of the stone arch on the west wall in this corner of the crystalline cavern.  Most of the dwarves going in carry bulging sacks, while those who exit have flattened sacks and a rather satisfied expression.  A huge ruby is set into the stone wall just above the arch.  On the south wall, a steel door operates as the entry to a windowless shop.  The sounds of hammering and grinding emanate from the shop."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Zul Logoth, Crystalline Cavern]"
-  ],
-  "check_location": null,
   "timeto": {
     "9474": 0.2,
     "9475": 0.2,
@@ -32,23 +24,15 @@
     "1006": 0.2,
     "9413": 0.2
   },
-  "id": 9412,
-  "location": "the tunnels and caverns of Zul Logoth",
+  "image": "en-zul_logoth-1264234799.png",
+  "image_coords": [
+    601,
+    582,
+    621,
+    602
+  ],
   "tags": [
     "pepperthorn root",
-    "ironfern root",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "murdroot",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

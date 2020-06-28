@@ -1,73 +1,36 @@
 {
-  "wayto": {
-    "1698": {
-      "stringproc": "8f900b613dd5e82b91d0343bceae7a05"
-    },
-    "1689": "north"
-  },
+  "id": 1697,
+  "title": [
+    "[Abandoned Homestead, Well]"
+  ],
+  "description": [
+    "The stone well is placed only a few yards from the green waters of Lake Tanai.  Dragonflies dart restlessly among the reeds that line the bank.  The sound of lapping water is punctuated by the occasional croak of frog.  A tall oak tree is visible on the opposite shore of the narrow lake."
+  ],
   "paths": [
     "Obvious paths: north"
   ],
+  "location": "Teorainn Dale",
+  "wayto": {
+    "1698": {
+      "file": "string_procs/wayto/1697_1698.rb"
+    },
+    "1689": "north"
+  },
+  "timeto": {
+    "1698": 0.2,
+    "1689": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     1160,
     932,
     1170,
     942
   ],
-  "terrain": "riparian",
-  "description": [
-    "The stone well is placed only a few yards from the green waters of Lake Tanai.  Dragonflies dart restlessly among the reeds that line the bank.  The sound of lapping water is punctuated by the occasional croak of frog.  A tall oak tree is visible on the opposite shore of the narrow lake."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Abandoned Homestead, Well]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1698": 0.2,
-    "1689": 0.2
-  },
-  "id": 1697,
-  "location": "Teorainn Dale",
   "tags": [
     "some acantha leaf",
     "handful of currants",
     "fiddlehead fern",
-    "pink clover blossom",
-    "acantha leaf",
-    "calamia fruit",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "blueberries",
-    "wild gooseberry",
-    "wild grapes",
-    "stalk of cattail",
-    "stalk of bluebells",
-    "red clover blossom",
-    "white clover blossom",
-    "purple clover blossom",
-    "yellow clover blossom",
-    "stalk of goldenrod",
-    "small wild rose",
-    "sprig of wild lilac",
-    "Imaera's Lace",
-    "wild chokecherry",
-    "wood violet",
-    "pepperthorn root",
-    "murdroot",
-    "wavepetal blossom",
-    "ironfern root",
-    "talneo root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "pink clover blossom"
   ]
 }

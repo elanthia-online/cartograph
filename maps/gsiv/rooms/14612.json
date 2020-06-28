@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "14610": "go door"
-  },
+  "id": 14612,
+  "title": [
+    "[Manor House, Bedchamber]"
+  ],
+  "description": [
+    "A four-poster bed stands against the room's south wall between a pair of boarded up windows.  The bed frame is worm-ridden, and the curtains that once screened the bed have been torn down and lie stained across the empty frame."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "the Outlands",
+  "wayto": {
+    "14610": "go door"
+  },
+  "timeto": {
+    "14610": 0.2
+  },
+  "image": "vo-outlands-1264234799.png",
   "image_coords": [
     1047,
     709,
     1057,
     719
   ],
-  "terrain": "indoors",
-  "description": [
-    "A four-poster bed stands against the room's south wall between a pair of boarded up windows.  The bed frame is worm-ridden, and the curtains that once screened the bed have been torn down and lie stained across the empty frame."
-  ],
-  "image": "vo-outlands-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Manor House, Bedchamber]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "14610": 0.2
-  },
-  "id": 14612,
-  "location": "the Outlands",
   "tags": [
-    "dobrem",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "dobrem"
   ]
 }

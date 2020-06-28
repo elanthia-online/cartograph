@@ -1,51 +1,35 @@
 {
+  "id": 6732,
+  "title": [
+    "[Upper Dragonsclaw, Twisted Path]"
+  ],
+  "description": [
+    "A small hilltop looms to the southeast, marking the end of this quiet path.  Clouds roll in from the valley below, and you try to catch your breath as you realize you've climbed quite high into the mountainside.  The chilling wind whistles down from above, stirring dust along the path."
+  ],
+  "paths": [
+    "Obvious paths: southeast, west"
+  ],
+  "location": "the Upper Dragonsclaw",
   "wayto": {
     "6731": "west",
     "6733": "southeast"
   },
-  "paths": [
-    "Obvious paths: southeast, west"
-  ],
+  "timeto": {
+    "6731": 0.2,
+    "6733": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     311,
     874,
     321,
     884
   ],
-  "terrain": "mountainous",
-  "description": [
-    "A small hilltop looms to the southeast, marking the end of this quiet path.  Clouds roll in from the valley below, and you try to catch your breath as you realize you've climbed quite high into the mountainside.  The chilling wind whistles down from above, stirring dust along the path."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Upper Dragonsclaw, Twisted Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6731": 0.2,
-    "6733": 0.2
-  },
-  "id": 6732,
-  "location": "the Upper Dragonsclaw",
   "tags": [
     "marallis berry",
     "some wingstem root",
     "cuctucae berry",
     "sweetfern stalk",
-    "sprig of larkspur",
-    "sassafras leaf",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sprig of larkspur"
   ]
 }

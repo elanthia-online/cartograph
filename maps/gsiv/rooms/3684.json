@@ -1,4 +1,15 @@
 {
+  "id": 3684,
+  "title": [
+    "[Hall of Brotherhood]"
+  ],
+  "description": [
+    "Members of the order walk along the stone floor under the graceful arch of the ceiling in hushed conversation, their footsteps echoing as they pass by.  Tapestries depicting key events in the order cover the walls extending eastward."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "3685": "go hall",
     "18212": "go arch",
@@ -7,28 +18,9 @@
     "18215": "south",
     "3683": "west"
   },
-  "paths": [
-    "Obvious exits: south, west"
-  ],
-  "image_coords": [
-    1163,
-    67,
-    1173,
-    77
-  ],
-  "terrain": null,
-  "description": [
-    "Members of the order walk along the stone floor under the graceful arch of the ceiling in hushed conversation, their footsteps echoing as they pass by.  Tapestries depicting key events in the order cover the walls extending eastward."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Hall of Brotherhood]"
-  ],
-  "check_location": null,
   "timeto": {
     "3685": {
-      "stringproc": "40f6068c19d179b79b479e3553277621"
+      "file": "string_procs/timeto/3684_3685.rb"
     },
     "18212": 0.2,
     "18213": 0.2,
@@ -36,12 +28,11 @@
     "18215": 0.2,
     "3683": 0.2
   },
-  "id": 3684,
-  "location": "the Graveyard",
-  "tags": [
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-gates-1264234799.png",
+  "image_coords": [
+    1163,
+    67,
+    1173,
+    77
   ]
 }

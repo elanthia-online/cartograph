@@ -1,34 +1,31 @@
 {
+  "id": 68,
+  "title": [
+    "[Whistler's Pass, Hill]"
+  ],
+  "description": [
+    "To the northeast a path begins to head down the hillside.  Clouds float above, almost as low as the always present mist in the night.",
+    "To the northeast a path begins to head down the hillside.  Clouds float above, almost as low as the always present mist."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "67": "northeast",
     "69": "south"
   },
-  "paths": [
-    "Obvious paths: northeast, south"
-  ],
+  "timeto": {
+    "67": 0.2,
+    "69": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     949,
     513,
     959,
     523
   ],
-  "terrain": "hilly",
-  "description": [
-    "To the northeast a path begins to head down the hillside.  Clouds float above, almost as low as the always present mist in the night.",
-    "To the northeast a path begins to head down the hillside.  Clouds float above, almost as low as the always present mist."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Whistler's Pass, Hill]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "67": 0.2,
-    "69": 0.2
-  },
-  "id": 68,
-  "location": "Whistler's Pass",
   "tags": [
     "stick",
     "ebony twig",
@@ -87,11 +84,6 @@
     "slender twig",
     "bolmara lichen",
     "brostheras grass",
-    "sky-blue delphinuris",
-    "mountain dryad",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sky-blue delphinuris"
   ]
 }

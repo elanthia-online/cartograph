@@ -1,37 +1,34 @@
 {
-  "wayto": {
-    "2918": "up",
-    "2909": {
-      "stringproc": "17c6781d1c14cacc5df848a0572e1cba"
-    },
-    "2902": "west"
-  },
+  "id": 2908,
+  "title": [
+    "[Southern Slopes, Alpine Ridge]"
+  ],
+  "description": [
+    "Aspen cover the ridge, some as slender as an elf's wrist.  The trees are almost as white as the snow, a stark contrast to the dark colored spruce and maple that also reside upon this mountain.  Peculiarly, the aspen spring from the ground perpendicular to the angled ridge, only to curve straight upwards after a few feet.  Northwards, the grade of the mountain steepens until it joins a rocky shelf above."
+  ],
   "paths": [
     "Obvious paths: east, west, up"
   ],
+  "location": "the Sleeping Lady Mountains",
+  "wayto": {
+    "2918": "up",
+    "2909": {
+      "file": "string_procs/wayto/2908_2909.rb"
+    },
+    "2902": "west"
+  },
+  "timeto": {
+    "2918": 0.2,
+    "2909": 0.2,
+    "2902": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     1105,
     394,
     1115,
     404
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "Aspen cover the ridge, some as slender as an elf's wrist.  The trees are almost as white as the snow, a stark contrast to the dark colored spruce and maple that also reside upon this mountain.  Peculiarly, the aspen spring from the ground perpendicular to the angled ridge, only to curve straight upwards after a few feet.  Northwards, the grade of the mountain steepens until it joins a rocky shelf above."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Southern Slopes, Alpine Ridge]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2918": 0.2,
-    "2909": 0.2,
-    "2902": 0.2
-  },
-  "id": 2908,
-  "location": "the Sleeping Lady Mountains",
   "tags": [
     "bright red teaberry",
     "small loganberry",
@@ -43,25 +40,6 @@
     "some angelica root",
     "pale thornberry",
     "slender twig",
-    "broken twig",
-    "sticks",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "iceblossoms",
-    "winter rose",
-    "frostweed",
-    "snowberries",
-    "red winterberry",
-    "tree bark",
-    "murdroot",
-    "twisted twig",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "broken twig"
   ]
 }

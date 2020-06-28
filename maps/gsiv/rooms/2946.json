@@ -1,41 +1,34 @@
 {
+  "id": 2946,
+  "title": [
+    "[Abbey Porch]"
+  ],
+  "description": [
+    "Wide steps curve downward from the porch.  At the end of the low balustrade, a stone figurine stands poised, as though ready to leap to the snowy courtyard below."
+  ],
+  "paths": [
+    "Obvious paths: south, down"
+  ],
+  "location": "the Abbey",
   "wayto": {
     "2945": "south",
     "2947": "down"
   },
-  "paths": [
-    "Obvious paths: south, down"
-  ],
+  "timeto": {
+    "2945": 0.2,
+    "2947": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     717,
     669,
     727,
     679
   ],
-  "terrain": "hard, flat",
-  "description": [
-    "Wide steps curve downward from the porch.  At the end of the low balustrade, a stone figurine stands poised, as though ready to leap to the snowy courtyard below."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Abbey Porch]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2945": 0.2,
-    "2947": 0.2
-  },
-  "id": 2946,
-  "location": "the Abbey",
   "tags": [
     "calmintha flower",
     "nedum vereri",
     "dark shambler",
-    "arctic puma",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "arctic puma"
   ]
 }

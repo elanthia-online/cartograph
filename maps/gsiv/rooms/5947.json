@@ -1,34 +1,31 @@
 {
+  "id": 5947,
+  "title": [
+    "[Catacombs, Sewers]"
+  ],
+  "description": [
+    "The low uneven ceiling with jagged protrusions makes walking upright burdensome.",
+    "The low uneven ceiling with jagged protrusions makes walking upright burdensome.  An almost new helmet sits on its base in the corner of the room.  Closer inspection shows a decapitated head with glossed over eyes raised to the ceiling seeing nothing.  In a small nook of the chamber the remaining dismembered body parts of the corpse rest silently.  Small armies of rodents scamper, with high-pitched squeals, back into a hole in the ground."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "5924": "east",
     "5946": "west"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "5924": 0.2,
+    "5946": 0.2
+  },
+  "image": "en-tavaalor-1565907614.png",
   "image_coords": [
     233,
     903,
     240,
     911
   ],
-  "terrain": null,
-  "description": [
-    "The low uneven ceiling with jagged protrusions makes walking upright burdensome.",
-    "The low uneven ceiling with jagged protrusions makes walking upright burdensome.  An almost new helmet sits on its base in the corner of the room.  Closer inspection shows a decapitated head with glossed over eyes raised to the ceiling seeing nothing.  In a small nook of the chamber the remaining dismembered body parts of the corpse rest silently.  Small armies of rodents scamper, with high-pitched squeals, back into a hole in the ground."
-  ],
-  "image": "en-tavaalor-1565907614.png",
-  "climate": null,
-  "title": [
-    "[Catacombs, Sewers]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5924": 0.2,
-    "5946": 0.2
-  },
-  "id": 5947,
-  "location": "the catacombs",
   "tags": [
     "white hook mushroom",
     "withered black mushroom",
@@ -39,8 +36,5 @@
     "ironfern root",
     "bolmara lichen",
     "wingstem root"
-  ],
-  "links": [
-
   ]
 }

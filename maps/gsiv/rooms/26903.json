@@ -1,37 +1,31 @@
 {
+  "id": 26903,
+  "title": [
+    "[Bloodriven Village, Exterior]"
+  ],
+  "description": [
+    "The cobblestones are crumbling on this stretch of the path.  Alongside the road, wagon wheel-sized ruts run deep in the dirt, and a broken wheel lays forgotten in the high weeds."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest"
+  ],
+  "location": "the sewers of Bloodriven Village",
   "wayto": {
     "26904": "southwest",
     "26848": "north",
     "23732": "go studio"
   },
-  "paths": [
-    "Obvious paths: north, southwest"
-  ],
+  "timeto": {
+    "26904": 0.2,
+    "26848": 0.2,
+    "23732": 0.2
+  },
+  "image": "fest-duskruin-1503606263.png",
   "image_coords": [
     108,
     704,
     137,
     736
   ],
-  "terrain": null,
-  "description": [
-    "The cobblestones are crumbling on this stretch of the path.  Alongside the road, wagon wheel-sized ruts run deep in the dirt, and a broken wheel lays forgotten in the high weeds."
-  ],
-  "image": "fest-duskruin-1503606263.png",
-  "climate": null,
-  "title": [
-    "[Bloodriven Village, Exterior]"
-  ],
-  "check_location": false,
-  "timeto": {
-    "26904": 0.2,
-    "26848": 0.2,
-    "23732": 0.2
-  },
-  "id": 26903,
-  "location": "the sewers of Bloodriven Village",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  "check_location": false
 }

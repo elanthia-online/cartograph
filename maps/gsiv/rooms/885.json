@@ -1,34 +1,31 @@
 {
+  "id": 885,
+  "title": [
+    "[Whistler's Pass]"
+  ],
+  "description": [
+    "Occasionally, black-winged owls can be seen gliding overhead, their ominous forms circling the pass and its occupants.  With an infrequent shriek or piercing cry, the owls descend slightly, perhaps to get a better view of their prey below.",
+    "Occasionally, black-winged birds of prey can be seen gliding overhead, their sleek forms circling the pass and its occupants.  With an infrequent shriek or piercing cry, the birds descend slightly, perhaps to get a better view of their prey below."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "886": "southwest",
     "884": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, southwest"
-  ],
+  "timeto": {
+    "886": 0.2,
+    "884": 0.2
+  },
+  "image": "en-whistlers_pass-1264234799.png",
   "image_coords": [
     719,
     1342,
     729,
     1352
   ],
-  "terrain": "mountainous",
-  "description": [
-    "Occasionally, black-winged owls can be seen gliding overhead, their ominous forms circling the pass and its occupants.  With an infrequent shriek or piercing cry, the owls descend slightly, perhaps to get a better view of their prey below.",
-    "Occasionally, black-winged birds of prey can be seen gliding overhead, their sleek forms circling the pass and its occupants.  With an infrequent shriek or piercing cry, the birds descend slightly, perhaps to get a better view of their prey below."
-  ],
-  "image": "en-whistlers_pass-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Whistler's Pass]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "886": 0.2,
-    "884": 0.2
-  },
-  "id": 885,
-  "location": "Whistler's Pass",
   "tags": [
     "marallis berry",
     "cuctucae berry",
@@ -43,10 +40,6 @@
     "cluster of butterflyweed",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

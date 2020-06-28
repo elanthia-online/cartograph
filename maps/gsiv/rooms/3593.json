@@ -1,40 +1,30 @@
 {
-  "wayto": {
-    "3592": "west",
-    "3594": {
-      "stringproc": "e1b570dc7b5c98ee0512c9ed01464221"
-    }
-  },
+  "id": 3593,
+  "title": [
+    "[Stronghold, Barracks]"
+  ],
+  "description": [
+    "The two rows of titanic slabs inhabiting the sleeping quarters leave little room for other furnishings.  Each slab could easily accommodate a large wagon, and fine glyphs skitter across their surfaces like a sorcerous dressing of bedclothes.  The ornament of carvings is fine and subtle, only evident at close examination.  An ora door at the room's end offers access to the hallway outside."
+  ],
   "paths": [
     "Obvious exits: west"
   ],
+  "location": "Stone Valley",
+  "wayto": {
+    "3592": "west",
+    "3594": {
+      "file": "string_procs/wayto/3593_3594.rb"
+    }
+  },
+  "timeto": {
+    "3592": 2.0,
+    "3594": 6.0
+  },
+  "image": "wl-stronghold-1264234799.png",
   "image_coords": [
     570,
     577,
     580,
     587
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The two rows of titanic slabs inhabiting the sleeping quarters leave little room for other furnishings.  Each slab could easily accommodate a large wagon, and fine glyphs skitter across their surfaces like a sorcerous dressing of bedclothes.  The ornament of carvings is fine and subtle, only evident at close examination.  An ora door at the room's end offers access to the hallway outside."
-  ],
-  "image": "wl-stronghold-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Stronghold, Barracks]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3592": 2.0,
-    "3594": 6.0
-  },
-  "id": 3593,
-  "location": "Stone Valley",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,35 +1,32 @@
 {
+  "id": 7212,
+  "title": [
+    "[Graveyard, Barrow Tunnel]"
+  ],
+  "description": [
+    "Faint scratching sounds echo through the dark passages of the tunnels from all directions, breaking the deathly silence.  Walls of grey stone encroach on both sides here, reducing the tunnel to a narrow passage for a few feet before it widens to the west and splits to the east around a carved rock outcropping."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7211": "west",
     "7213": "northeast",
     "7247": "southeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southeast, west"
-  ],
+  "timeto": {
+    "7211": 0.2,
+    "7213": 0.2,
+    "7247": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     451,
     214,
     461,
     224
   ],
-  "terrain": "indoors",
-  "description": [
-    "Faint scratching sounds echo through the dark passages of the tunnels from all directions, breaking the deathly silence.  Walls of grey stone encroach on both sides here, reducing the tunnel to a narrow passage for a few feet before it widens to the west and splits to the east around a carved rock outcropping."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Graveyard, Barrow Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7211": 0.2,
-    "7213": 0.2,
-    "7247": 0.2
-  },
-  "id": 7212,
-  "location": "the Graveyard",
   "tags": [
     "some wolifrew lichen",
     "some cave moss",
@@ -38,10 +35,6 @@
     "cave moss",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

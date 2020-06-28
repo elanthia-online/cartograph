@@ -1,52 +1,43 @@
 {
-  "wayto": {
-    "11468": {
-      "stringproc": "84d7e9c5466c56efd7dc0ac337b0a9ea"
-    },
-    "11459": {
-      "stringproc": "b9248cfc9b113e5b3c9341af010fa35e"
-    },
-    "11470": {
-      "stringproc": "18c4b59ed599a02893a4dbb26b362e46"
-    },
-    "11460": {
-      "stringproc": "2475b19f394c069e111c2fa06831c1f7"
-    },
-    "11471": {
-      "stringproc": "e531eb47f19700d00ac81ca15d619ca8"
-    },
-    "11473": {
-      "stringproc": "9eaa131926e46e6090f2390aa24f278f"
-    },
-    "11463": {
-      "stringproc": "8590757048f346da70e2325b7e9ba8ea"
-    },
-    "11464": {
-      "stringproc": "83255565d617dbe7b0ecdb04e9a96925"
-    },
-    "11466": {
-      "stringproc": "84803c6220b0581d4151763c46ccdbbc"
-    }
-  },
-  "paths": [
-    "Obvious exits: north, northeast, east, southeast, south, southwest, west, northwest, up"
-  ],
-  "image_coords": [
-    949,
-    1234,
-    959,
-    1244
-  ],
-  "terrain": null,
-  "description": [
-    "A pair of tall elkhorn corals stand in the sand of the bay floor like sentinels.  Bluish turtle grass, thick as a lawn, surrounds the coral.  A few grey, egg-sized stones lay scattered in the turtle grass.  Dozens of yellow-striped fish, no bigger than a dwarf's thumb, meander through the thick grasses."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": null,
+  "id": 11467,
   "title": [
     "[Maelstrom Bay, Bottom]"
   ],
-  "check_location": null,
+  "description": [
+    "A pair of tall elkhorn corals stand in the sand of the bay floor like sentinels.  Bluish turtle grass, thick as a lawn, surrounds the coral.  A few grey, egg-sized stones lay scattered in the turtle grass.  Dozens of yellow-striped fish, no bigger than a dwarf's thumb, meander through the thick grasses."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east, southeast, south, southwest, west, northwest, up"
+  ],
+  "wayto": {
+    "11468": {
+      "file": "string_procs/wayto/11467_11468.rb"
+    },
+    "11459": {
+      "file": "string_procs/wayto/11467_11459.rb"
+    },
+    "11470": {
+      "file": "string_procs/wayto/11467_11470.rb"
+    },
+    "11460": {
+      "file": "string_procs/wayto/11467_11460.rb"
+    },
+    "11471": {
+      "file": "string_procs/wayto/11467_11471.rb"
+    },
+    "11473": {
+      "file": "string_procs/wayto/11467_11473.rb"
+    },
+    "11463": {
+      "file": "string_procs/wayto/11467_11463.rb"
+    },
+    "11464": {
+      "file": "string_procs/wayto/11467_11464.rb"
+    },
+    "11466": {
+      "file": "string_procs/wayto/11467_11466.rb"
+    }
+  },
   "timeto": {
     "11468": 2.0,
     "11459": 2.0,
@@ -58,12 +49,11 @@
     "11464": 2.0,
     "11466": 3.0
   },
-  "id": 11467,
-  "location": null,
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "rr-maelstrom-1266390501.png",
+  "image_coords": [
+    949,
+    1234,
+    959,
+    1244
   ]
 }

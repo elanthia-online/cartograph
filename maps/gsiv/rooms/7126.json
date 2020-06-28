@@ -1,38 +1,30 @@
 {
-  "wayto": {
-    "7125": "go door"
-  },
+  "id": 7126,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "Rats scuttle back and forth across the floor, chittering and squeaking and hissing at you, expressing their displeasure at being disturbed.  In the dust on the floor, you see a few footprints that are far too large to have been made by a rat, or by a normal rat anyway, but before you can examine them, they're obliterated by the smaller rats scurrying across them."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "Darkstone Castle",
+  "wayto": {
+    "7125": "go door"
+  },
+  "timeto": {
+    "7125": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     1028,
     309,
     1038,
     319
   ],
-  "terrain": "indoors",
-  "description": [
-    "Rats scuttle back and forth across the floor, chittering and squeaking and hissing at you, expressing their displeasure at being disturbed.  In the dust on the floor, you see a few footprints that are far too large to have been made by a rat, or by a normal rat anyway, but before you can examine them, they're obliterated by the smaller rats scurrying across them."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7125": 0.2
-  },
-  "id": 7126,
-  "location": "Darkstone Castle",
   "tags": [
     "kiramon defender",
-    "kiramon worker",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "kiramon worker"
   ]
 }

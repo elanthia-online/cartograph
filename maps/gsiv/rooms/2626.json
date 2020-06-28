@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "12208": {
-      "stringproc": "a0576f0215d746452e7afb93c1ee082c"
-    },
-    "2635": {
-      "stringproc": "01b8924575c8d70e4ed7eea7ed00be84"
-    },
-    "12101": {
-      "stringproc": "cf4b8e5b125b22b01c9349827d02c9fd"
-    },
-    "2625": "south",
-    "2627": "east"
-  },
+  "id": 2626,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "A white pillar stretches up into the vast reaches of the dark sky here.  On either side of the enruned pillar are two full length mirrors, slowly rotating horizontally.  One mirror is lined with a white haon frame, the other with a black thanot one.  A small pool of blood has coagulated around the white pillar, and while something appears to be written in it, the letters are too messy to make out."
+  ],
   "paths": [
     "Obvious exits: east, south, west",
     "Obvious paths: east, south, west"
   ],
-  "image_coords": [
-    118,
-    832,
-    128,
-    842
-  ],
-  "terrain": null,
-  "description": [
-    "A white pillar stretches up into the vast reaches of the dark sky here.  On either side of the enruned pillar are two full length mirrors, slowly rotating horizontally.  One mirror is lined with a white haon frame, the other with a black thanot one.  A small pool of blood has coagulated around the white pillar, and while something appears to be written in it, the letters are too messy to make out."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12208": {
+      "file": "string_procs/wayto/2626_12208.rb"
+    },
+    "2635": {
+      "file": "string_procs/wayto/2626_2635.rb"
+    },
+    "12101": {
+      "file": "string_procs/wayto/2626_12101.rb"
+    },
+    "2625": "south",
+    "2627": "east"
+  },
   "timeto": {
     "12208": 22.0,
     "2635": 22.0,
@@ -39,8 +31,13 @@
     "2625": 0.2,
     "2627": 0.2
   },
-  "id": 2626,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    118,
+    832,
+    128,
+    842
+  ],
   "tags": [
     "mass of congealed slime",
     "slime-covered grave blossom",
@@ -49,8 +46,5 @@
     "rotting bile green fleshbulb",
     "twisted black mawflower",
     "withered deathblossom"
-  ],
-  "links": [
-
   ]
 }

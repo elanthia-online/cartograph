@@ -1,33 +1,30 @@
 {
+  "id": 11330,
+  "title": [
+    "[Citadel, Gardens]"
+  ],
+  "description": [
+    "The path, like a snake surrounded by tall grass on either side, twists and turns through the area.  Crickets chirping alongside and grasshoppers jumping from beneath your feet provide some small entertainment as you walk through."
+  ],
+  "paths": [
+    "Obvious paths: southeast, west"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11329": "southeast",
     "11331": "w"
   },
-  "paths": [
-    "Obvious paths: southeast, west"
-  ],
+  "timeto": {
+    "11329": 0.2,
+    "11331": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     1088,
     875,
     1098,
     885
   ],
-  "terrain": "grassland",
-  "description": [
-    "The path, like a snake surrounded by tall grass on either side, twists and turns through the area.  Crickets chirping alongside and grasshoppers jumping from beneath your feet provide some small entertainment as you walk through."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "moist",
-  "title": [
-    "[Citadel, Gardens]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11329": 0.2,
-    "11331": 0.2
-  },
-  "id": 11330,
-  "location": "the Citadel",
   "tags": [
     "flaming violet",
     "blue trafel mushroom",
@@ -46,15 +43,6 @@
     "some motherwort",
     "luckbloom blossom",
     "murdroot",
-    "wavepetal blossom",
-    "acantha leaf",
-    "motherwort",
-    "flaeshorn berry",
-    "murkweed",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wavepetal blossom"
   ]
 }

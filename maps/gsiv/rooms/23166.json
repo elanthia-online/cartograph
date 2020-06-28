@@ -1,37 +1,25 @@
 {
+  "id": 23166,
+  "title": [
+    "[Halfway Midway, Carousel]"
+  ],
+  "description": [
+    "Like a loose floorboard underfoot, the carousel creaks as it turns as the wooden planks comprising the floor are aged and wobbly after years of swelling and contracting with varying weather conditions.  The floor's red paint is markedly scuffed beside each brass-poled creature, and the painted scenes on the central column have faded to unflattering shades.  Though the ting-twang music is ever constant and the lights overhead cease to fade, the source behind them is anything but obvious."
+  ],
+  "paths": [
+    "Obvious paths: southwest, northwest, out"
+  ],
+  "location": "the Feywrot Mire",
   "wayto": {
     "23173": {
-      "stringproc": "88db04c5491c4f0175dab395539ecf2f"
+      "file": "string_procs/wayto/23166_23173.rb"
     },
     "23165": "northwest",
     "23169": "southwest"
   },
-  "paths": [
-    "Obvious paths: southwest, northwest, out"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Like a loose floorboard underfoot, the carousel creaks as it turns as the wooden planks comprising the floor are aged and wobbly after years of swelling and contracting with varying weather conditions.  The floor's red paint is markedly scuffed beside each brass-poled creature, and the painted scenes on the central column have faded to unflattering shades.  Though the ting-twang music is ever constant and the lights overhead cease to fade, the source behind them is anything but obvious."
-  ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Halfway Midway, Carousel]"
-  ],
-  "check_location": null,
   "timeto": {
     "23173": 0.2,
     "23165": 0.2,
     "23169": 0.2
-  },
-  "id": 23166,
-  "location": "the Feywrot Mire",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  }
 }

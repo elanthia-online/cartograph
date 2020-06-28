@@ -1,47 +1,36 @@
 {
+  "id": 2865,
+  "title": [
+    "[Northern Mountains, Dark Caves]"
+  ],
+  "description": [
+    "The walls are particularly smooth here, and damp to the touch. Smooth rock covers the floor and, unlike the remainder of the cave, is free from all debris."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "the Sleeping Lady Mountains",
   "wayto": {
     "2864": "up",
     "2866": "down"
   },
-  "paths": [
-    "Obvious exits: up, down"
-  ],
+  "timeto": {
+    "2864": 0.2,
+    "2866": 0.2
+  },
+  "image": "imt-pinefar-1264234799.png",
   "image_coords": [
     194,
     1244,
     204,
     1254
   ],
-  "terrain": "indoors",
-  "description": [
-    "The walls are particularly smooth here, and damp to the touch. Smooth rock covers the floor and, unlike the remainder of the cave, is free from all debris."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Northern Mountains, Dark Caves]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2864": 0.2,
-    "2866": 0.2
-  },
-  "id": 2865,
-  "location": "the Sleeping Lady Mountains",
   "tags": [
     "withered black mushroom",
     "black hook mushroom",
     "soft white mushroom",
     "white hook mushroom",
     "red trafel mushroom",
-    "blue trafel mushroom",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "blue trafel mushroom"
   ]
 }

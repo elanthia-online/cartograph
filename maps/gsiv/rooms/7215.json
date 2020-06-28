@@ -1,33 +1,30 @@
 {
+  "id": 7215,
+  "title": [
+    "[Underbarrow, Tunnels]"
+  ],
+  "description": [
+    "The steady drip of water echoes in the bleak rock chamber.  The scents of must and decay fill your nose, hanging heavy in the stagnant air.  Large blocks of grey stone have tumbled from the ceiling and walls, piling against the ancient arch that seems to lead out of the tunnels."
+  ],
+  "paths": [
+    "Obvious exits: southeast"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7216": "southeast",
     "7214": "go arch"
   },
-  "paths": [
-    "Obvious exits: southeast"
-  ],
+  "timeto": {
+    "7216": 0.2,
+    "7214": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     597,
     188,
     607,
     198
   ],
-  "terrain": "indoors",
-  "description": [
-    "The steady drip of water echoes in the bleak rock chamber.  The scents of must and decay fill your nose, hanging heavy in the stagnant air.  Large blocks of grey stone have tumbled from the ceiling and walls, piling against the ancient arch that seems to lead out of the tunnels."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Underbarrow, Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7216": 0.2,
-    "7214": 0.2
-  },
-  "id": 7215,
-  "location": "the Graveyard",
   "tags": [
     "some wolifrew lichen",
     "some cave moss",
@@ -36,10 +33,6 @@
     "cave moss",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

@@ -1,36 +1,33 @@
 {
+  "id": 3680,
+  "title": [
+    "[Glatoph, Glacier]"
+  ],
+  "description": [
+    "Time and again you wish there was something for you to duck behind to get out of the raging blizzard.  With no shelter in sight your only choice is to trudge onward through the night in hopes that you do not become a living icicle before you've gone ten steps.",
+    "Time and again you wish there was something for you to duck behind to get out of the raging blizzard.  With no shelter in sight your only choice is to trudge onward in hopes that you do not become a living icicle before you've gone ten steps."
+  ],
+  "paths": [
+    "Obvious paths: northeast, east, southeast"
+  ],
+  "location": "Glatoph",
   "wayto": {
     "3679": "northeast",
     "3681": "southeast",
     "3682": "east"
   },
-  "paths": [
-    "Obvious paths: northeast, east, southeast"
-  ],
+  "timeto": {
+    "3679": 0.2,
+    "3681": 0.2,
+    "3682": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     932,
     714,
     942,
     724
   ],
-  "terrain": "mountainous",
-  "description": [
-    "Time and again you wish there was something for you to duck behind to get out of the raging blizzard.  With no shelter in sight your only choice is to trudge onward through the night in hopes that you do not become a living icicle before you've gone ten steps.",
-    "Time and again you wish there was something for you to duck behind to get out of the raging blizzard.  With no shelter in sight your only choice is to trudge onward in hopes that you do not become a living icicle before you've gone ten steps."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Glatoph, Glacier]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3679": 0.2,
-    "3681": 0.2,
-    "3682": 0.2
-  },
-  "id": 3680,
-  "location": "Glatoph",
   "tags": [
     "arctic titan",
     "frost giant",
@@ -42,10 +39,6 @@
     "valerian root",
     "pennyroyal stem",
     "sprig of holly",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

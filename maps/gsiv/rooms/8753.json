@@ -1,34 +1,31 @@
 {
-  "wayto": {
-    "21330": "go door",
-    "302": "go path"
-  },
+  "id": 8753,
+  "title": [
+    "[House Sylvanfair, Courtyard]"
+  ],
+  "description": [
+    "A majestic tree stands before you, larger than any other tree in the entire Landing.  The bright green leaves are bigger than a giantman's hand, and the branches appear to cradle whole rooms in their gigantic embrace!  A soft light glows from the various knotholes and windows set in the tree.  A door set under a large archway formed from living wood leads into the trunk."
+  ],
   "paths": [
     "Obvious paths: none",
     "Obvious paths: west"
   ],
+  "location": "Wehnimer's Landing",
+  "wayto": {
+    "21330": "go door",
+    "302": "go path"
+  },
+  "timeto": {
+    "21330": 0.2,
+    "302": 0.2
+  },
+  "image": "wl-wehnimers-1264234799.png",
   "image_coords": [
     431,
     964,
     467,
     1000
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "A majestic tree stands before you, larger than any other tree in the entire Landing.  The bright green leaves are bigger than a giantman's hand, and the branches appear to cradle whole rooms in their gigantic embrace!  A soft light glows from the various knotholes and windows set in the tree.  A door set under a large archway formed from living wood leads into the trunk."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[House Sylvanfair, Courtyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "21330": 0.2,
-    "302": 0.2
-  },
-  "id": 8753,
-  "location": "Wehnimer's Landing",
   "tags": [
     "some calamia fruit",
     "some wingstem root",
@@ -61,10 +58,6 @@
     "ironfern root",
     "wingstem root",
     "bur-clover root",
-    "meta:noteleport:fwi",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:noteleport:fwi"
   ]
 }

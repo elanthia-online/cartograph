@@ -1,46 +1,29 @@
 {
-  "wayto": {
-    "7503": "northwest"
-  },
+  "id": 7504,
+  "title": [
+    "[Catacombs, Effluent]"
+  ],
+  "description": [
+    "Brackish water seeps in through the joints in the stone walls, and mingles with occasional gushes of black, malodorous liquid from several pipes set into the masonry.  A few of the tombs have been carved into the rock but it appears they were left unused.  Just as you move closer to examine them, one of the pipes spews out a stream of filthy sludge and deposits an oozing puddle of gunk at your feet.  It lazily flows to the northwest and vanishes into the tunnels."
+  ],
   "paths": [
     "Obvious exits: northwest"
   ],
+  "location": "the catacombs",
+  "wayto": {
+    "7503": "northwest"
+  },
+  "timeto": {
+    "7503": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     981,
     1155,
     991,
     1165
   ],
-  "terrain": "indoors",
-  "description": [
-    "Brackish water seeps in through the joints in the stone walls, and mingles with occasional gushes of black, malodorous liquid from several pipes set into the masonry.  A few of the tombs have been carved into the rock but it appears they were left unused.  Just as you move closer to examine them, one of the pipes spews out a stream of filthy sludge and deposits an oozing puddle of gunk at your feet.  It lazily flows to the northwest and vanishes into the tunnels."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Catacombs, Effluent]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7503": 0.2
-  },
-  "id": 7504,
-  "location": "the catacombs",
   "tags": [
-    "some wingstem root",
-    "red trafel mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "black hook mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

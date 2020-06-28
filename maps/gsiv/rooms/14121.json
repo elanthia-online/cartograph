@@ -1,39 +1,36 @@
 {
-  "wayto": {
-    "14120": {
-      "stringproc": "6cdb3c94ff0a0ed33e644a18ce97541b"
-    },
-    "5692": {
-      "stringproc": "77250a3d81181bfffdc779d232626023"
-    },
-    "19339": {
-      "stringproc": "1a58b37a6cdbed6440ac53c5e43c9184"
-    },
-    "14114": {
-      "stringproc": "069a1d6c43aaabeb65f83ef598af9c1b"
-    },
-    "14116": {
-      "stringproc": "8f36e71dcc97607c014201e43f41e374"
-    },
-    "5410": {
-      "stringproc": "9f6971db918a41714a8b66aa53ae5a2b"
-    },
-    "18248": "go door"
-  },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "This tight, north-south hallway is dark and dank.  Musty smells from the warehouse below waft up though obvious gaps in the floorboards.  Sawdust and discarded bent nails litter the floors."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 14121,
   "title": [
     "[Warehouse, Second Floor Hall]"
   ],
-  "check_location": null,
+  "description": [
+    "This tight, north-south hallway is dark and dank.  Musty smells from the warehouse below waft up though obvious gaps in the floorboards.  Sawdust and discarded bent nails litter the floors."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Solhaven",
+  "wayto": {
+    "14120": {
+      "file": "string_procs/wayto/14121_14120.rb"
+    },
+    "5692": {
+      "file": "string_procs/wayto/14121_5692.rb"
+    },
+    "19339": {
+      "file": "string_procs/wayto/14121_19339.rb"
+    },
+    "14114": {
+      "file": "string_procs/wayto/14121_14114.rb"
+    },
+    "14116": {
+      "file": "string_procs/wayto/14121_14116.rb"
+    },
+    "5410": {
+      "file": "string_procs/wayto/14121_5410.rb"
+    },
+    "18248": "go door"
+  },
   "timeto": {
     "14120": 1.0,
     "5692": 1.4,
@@ -43,12 +40,7 @@
     "5410": 1.4,
     "18248": 0.2
   },
-  "id": 14121,
-  "location": "Solhaven",
   "tags": [
     "no-auto-map"
-  ],
-  "links": [
-
   ]
 }

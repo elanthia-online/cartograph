@@ -1,40 +1,31 @@
 {
+  "id": 9074,
+  "title": [
+    "[Underground Tunnel]"
+  ],
+  "description": [
+    "Water has seeped down from above and run down the walls and floor only to freeze in the frigid air of the tunnel.  A thin sheet of ice covers everything, making the footing treacherous.  A cold draft blows from some unseen vent."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the subterranean tunnels",
   "wayto": {
     "9075": "go boulder",
     "9072": "west"
   },
-  "paths": [
-    "Obvious exits: west"
-  ],
+  "timeto": {
+    "9075": 0.2,
+    "9072": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     1171,
     171,
     1181,
     181
   ],
-  "terrain": "indoors",
-  "description": [
-    "Water has seeped down from above and run down the walls and floor only to freeze in the frigid air of the tunnel.  A thin sheet of ice covers everything, making the footing treacherous.  A cold draft blows from some unseen vent."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Underground Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9075": 0.2,
-    "9072": 0.2
-  },
-  "id": 9074,
-  "location": "the subterranean tunnels",
   "tags": [
-    "some arctic moss",
-    "arctic moss",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some arctic moss"
   ]
 }

@@ -1,35 +1,32 @@
 {
+  "id": 10656,
+  "title": [
+    "[Neartofar Forest, Hillside]"
+  ],
+  "description": [
+    "The expansive grassy hillside somehow renders the forest beyond the tree line more threatening, as the trees hide the threats that lurk therein.  Cold comfort lies in the other direction, where the malevolent structure of the wooden stockade boldly declares its defenders' presence and hostile intent.  A cold wind whisks across the hillside, barely stirring the grass that was trampled by legions unknown."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast, southwest"
+  ],
+  "location": "the Neartofar Forest",
   "wayto": {
     "10653": "north",
     "10644": "southeast",
     "10657": "southwest"
   },
-  "paths": [
-    "Obvious paths: north, southeast, southwest"
-  ],
+  "timeto": {
+    "10653": 0.2,
+    "10644": 0.2,
+    "10657": 0.2
+  },
+  "image": "en-cemetery-1264234799.png",
   "image_coords": [
     764,
     690,
     774,
     700
   ],
-  "terrain": null,
-  "description": [
-    "The expansive grassy hillside somehow renders the forest beyond the tree line more threatening, as the trees hide the threats that lurk therein.  Cold comfort lies in the other direction, where the malevolent structure of the wooden stockade boldly declares its defenders' presence and hostile intent.  A cold wind whisks across the hillside, barely stirring the grass that was trampled by legions unknown."
-  ],
-  "image": "en-cemetery-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Neartofar Forest, Hillside]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10653": 0.2,
-    "10644": 0.2,
-    "10657": 0.2
-  },
-  "id": 10656,
-  "location": "the Neartofar Forest",
   "tags": [
     "wood violet",
     "stick",
@@ -84,8 +81,5 @@
     "ebony twig",
     "bolmara lichen",
     "brostheras grass"
-  ],
-  "links": [
-
   ]
 }

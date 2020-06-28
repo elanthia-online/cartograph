@@ -1,41 +1,33 @@
 {
-  "wayto": {
-    "25179": {
-      "stringproc": "5195b6073d0ad39db7ac27f0c5eb4944"
-    },
-    "25219": {
-      "stringproc": "a146fe96a8ce2bd1da174029f5af9b3c"
-    },
-    "25227": {
-      "stringproc": "7b7b630797055515a20f211fc83ea2ef"
-    },
-    "25150": {
-      "stringproc": "7b58686b02d999fad3a30fe06f6d69b2"
-    },
-    "25224": {
-      "stringproc": "7b58686b02d999fad3a30fe06f6d69b2"
-    }
-  },
-  "paths": [
-    "Obvious paths: north, northeast, east, southeast, south, southwest, west, northwest"
+  "id": 25149,
+  "title": [
+    "[Sea of Fire, Desert]"
   ],
-  "image_coords": [
-    657,
-    446,
-    676,
-    464
-  ],
-  "terrain": null,
   "description": [
     "Surrounding you is the apotheosis of all deserts, a wildly shifting sea of sands that swirl in pools of tawny and ruddy hue.  Sunlight pounds down from an open sky that is as blue as a jewel, reflecting in rippling waves off of the superheated grit.  Winds sweep down in stinging waves, blowing golden veils before them.",
     "Surrounding you is the apotheosis of all deserts, a wildly shifting sea of sands that swirl in pools of silver and shadow beneath the starlit sky.  Cold moonlight stretches its icy talons down from a sky as black as a bed of jeweler's velvet.  Frigid winds scream by in stinging waves, blowing veils of pallid grit before them."
   ],
-  "image": "sanctum-1474169333.png",
-  "climate": null,
-  "title": [
-    "[Sea of Fire, Desert]"
+  "paths": [
+    "Obvious paths: north, northeast, east, southeast, south, southwest, west, northwest"
   ],
-  "check_location": null,
+  "location": "the shadow of the Sanctum",
+  "wayto": {
+    "25179": {
+      "file": "string_procs/wayto/25149_25179.rb"
+    },
+    "25219": {
+      "file": "string_procs/wayto/25149_25219.rb"
+    },
+    "25227": {
+      "file": "string_procs/wayto/25149_25227.rb"
+    },
+    "25150": {
+      "file": "string_procs/wayto/25149_25150.rb"
+    },
+    "25224": {
+      "file": "string_procs/wayto/25149_25224.rb"
+    }
+  },
   "timeto": {
     "25179": 10,
     "25219": 10,
@@ -43,8 +35,13 @@
     "25150": 10,
     "25224": 10
   },
-  "id": 25149,
-  "location": "the shadow of the Sanctum",
+  "image": "sanctum-1474169333.png",
+  "image_coords": [
+    657,
+    446,
+    676,
+    464
+  ],
   "tags": [
     "some strigae cactus",
     "cactus flower",
@@ -58,6 +55,5 @@
     "sweetfern stalk",
     "some pennyroyal stem",
     "yellow primrose"
-  ],
-  "unique_loot": null
+  ]
 }

@@ -1,33 +1,30 @@
 {
+  "id": 4209,
+  "title": [
+    "[Upper Trollfang]"
+  ],
+  "description": [
+    "The trail narrows as you pass between the two rock faces.  To the west, a pile of fallen rock impedes your passage.  To the east, you view a winding trail descending into a grassy valley meadow."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the old Mine Road",
   "wayto": {
     "4208": "climb rockslide",
     "4210": "east"
   },
-  "paths": [
-    "Obvious paths: east"
-  ],
+  "timeto": {
+    "4208": 0.2,
+    "4210": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     474,
     786,
     484,
     796
   ],
-  "terrain": "rough",
-  "description": [
-    "The trail narrows as you pass between the two rock faces.  To the west, a pile of fallen rock impedes your passage.  To the east, you view a winding trail descending into a grassy valley meadow."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Upper Trollfang]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4208": 0.2,
-    "4210": 0.2
-  },
-  "id": 4209,
-  "location": "the old Mine Road",
   "tags": [
     "small wild rose",
     "stalk of chicory",
@@ -35,31 +32,6 @@
     "yellow clover blossom",
     "sprig of larkspur",
     "wild chokecherry",
-    "white clover blossom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "wild strawberry",
-    "blueberries",
-    "handful of currants",
-    "elderberries",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "wild grapes",
-    "broken twig",
-    "sprig of alyssum",
-    "heath aster",
-    "golden buttercup",
-    "red clover blossom",
-    "purple clover blossom",
-    "stalk of goldenrod",
-    "yellow primrose",
-    "motherwort",
-    "white baneberry",
-    "pepperthorn root",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "white clover blossom"
   ]
 }

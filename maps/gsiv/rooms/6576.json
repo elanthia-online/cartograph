@@ -1,4 +1,15 @@
 {
+  "id": 6576,
+  "title": [
+    "[Castle Anwyn Keep]"
+  ],
+  "description": [
+    "The cylindrical keep looks as if it's much older than the other parts of the castle, which follows a more modern, rectangular design.  The keep's ground floor stands two-stories tall.  Its old 'murder-holes' -- through which rocks or scalding oil were once thrown down on unwelcome guests -- are now filled in.  Halls lead off to the east and to the south, and a handsomely carved, arched door leads outside."
+  ],
+  "paths": [
+    "Obvious exits: east, south, up, down"
+  ],
+  "location": "Castle Anwyn",
   "wayto": {
     "6607": "south",
     "6609": "down",
@@ -6,25 +17,6 @@
     "6578": "go door",
     "6574": "east"
   },
-  "paths": [
-    "Obvious exits: east, south, up, down"
-  ],
-  "image_coords": [
-    1095,
-    517,
-    1105,
-    527
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The cylindrical keep looks as if it's much older than the other parts of the castle, which follows a more modern, rectangular design.  The keep's ground floor stands two-stories tall.  Its old 'murder-holes' -- through which rocks or scalding oil were once thrown down on unwelcome guests -- are now filled in.  Halls lead off to the east and to the south, and a handsomely carved, arched door leads outside."
-  ],
-  "image": "wl-lysierian-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Castle Anwyn Keep]"
-  ],
-  "check_location": null,
   "timeto": {
     "6607": 0.2,
     "6609": 0.2,
@@ -32,13 +24,11 @@
     "6578": 0.2,
     "6574": 0.2
   },
-  "id": 6576,
-  "location": "Castle Anwyn",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-lysierian-1264234799.png",
+  "image_coords": [
+    1095,
+    517,
+    1105,
+    527
   ]
 }

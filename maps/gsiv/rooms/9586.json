@@ -1,49 +1,31 @@
 {
+  "id": 9586,
+  "title": [
+    "[Czeroth Caverns, Cavern]"
+  ],
+  "description": [
+    "Broad stalagmites grow up from the cavern floor, reaching up to the stalactites above them.  The sound of water dripping can be heard echoing throughout the cavern as nature continues to build here.  Floor-to-ceiling columns appear to support the roof of the cavern."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest"
+  ],
+  "location": "the Czeroth Caverns",
   "wayto": {
     "9585": "northwest",
     "9587": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, northwest"
-  ],
+  "timeto": {
+    "9585": 0.2,
+    "9587": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     1258,
     408,
     1268,
     418
   ],
-  "terrain": "indoors",
-  "description": [
-    "Broad stalagmites grow up from the cavern floor, reaching up to the stalactites above them.  The sound of water dripping can be heard echoing throughout the cavern as nature continues to build here.  Floor-to-ceiling columns appear to support the roof of the cavern."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Czeroth Caverns, Cavern]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9585": 0.2,
-    "9587": 0.2
-  },
-  "id": 9586,
-  "location": "the Czeroth Caverns",
   "tags": [
-    "some wingstem root",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

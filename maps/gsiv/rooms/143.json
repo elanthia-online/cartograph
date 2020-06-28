@@ -1,38 +1,28 @@
 {
+  "id": 143,
+  "title": [
+    "[Temple Wyneb, Calvaria]"
+  ],
+  "description": [
+    "The rocky walls are hard and utterly bereft of life, unable to nurture even the tiniest scrap of moss or lichen.  Even the air is dead, trapped underground and unwilling to stir.  All you can hear is the sound of your own heart pounding in your ears."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "Temple Wyneb",
   "wayto": {
     "142": "northeast",
     "144": "southwest"
   },
-  "paths": [
-    "Obvious exits: northeast, southwest"
-  ],
+  "timeto": {
+    "142": 0.2,
+    "144": 0.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     583,
     467,
     593,
     477
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The rocky walls are hard and utterly bereft of life, unable to nurture even the tiniest scrap of moss or lichen.  Even the air is dead, trapped underground and unwilling to stir.  All you can hear is the sound of your own heart pounding in your ears."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Temple Wyneb, Calvaria]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "142": 0.2,
-    "144": 0.2
-  },
-  "id": 143,
-  "location": "Temple Wyneb",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

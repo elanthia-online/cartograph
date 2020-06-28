@@ -1,40 +1,33 @@
 {
+  "id": 2470,
+  "title": [
+    "[Commerce Burrow, Bazaar]"
+  ],
+  "description": [
+    "The sights and sounds of this bustling bazaar almost overwhelm you.  Stands are set up all through this area selling various wares.  A group of halflings wander past, heading straight for the nearest food stand."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "2469": "west",
     "2471": "east",
     "8972": "go tent"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "2469": 0.2,
+    "2471": 0.2,
+    "8972": 0.2
+  },
+  "image": "imt-icemule-1474811966.png",
   "image_coords": [
     847,
     1052,
     883,
     1088
   ],
-  "terrain": "hard, flat",
-  "description": [
-    "The sights and sounds of this bustling bazaar almost overwhelm you.  Stands are set up all through this area selling various wares.  A group of halflings wander past, heading straight for the nearest food stand."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Commerce Burrow, Bazaar]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2469": 0.2,
-    "2471": 0.2,
-    "8972": 0.2
-  },
-  "id": 2470,
-  "location": "Icemule Trace",
   "tags": [
-    "calmintha flower",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "calmintha flower"
   ]
 }

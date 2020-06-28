@@ -1,38 +1,27 @@
 {
+  "id": 17702,
+  "title": [
+    "[Citadel, Workshop]"
+  ],
+  "description": [
+    "Long and wide, the room is divided by many worktables and bookshelves.  Hot air stirs about the area, rustling papers and the canvas coverings over small and large cages.  Absent is dust with much of the room appearing as if it was only recently abandoned."
+  ],
+  "paths": [
+    "Obvious exits: west, out"
+  ],
   "wayto": {
     "11385": "out",
     "17703": "west"
   },
-  "paths": [
-    "Obvious exits: west, out"
-  ],
+  "timeto": {
+    "11385": 0.2,
+    "17703": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     364,
     1230,
     374,
     1240
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Long and wide, the room is divided by many worktables and bookshelves.  Hot air stirs about the area, rustling papers and the canvas coverings over small and large cages.  Absent is dust with much of the room appearing as if it was only recently abandoned."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Citadel, Workshop]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11385": 0.2,
-    "17703": 0.2
-  },
-  "id": 17702,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,41 +1,31 @@
 {
+  "id": 5818,
+  "title": [
+    "[Zaerthu Tunnels]"
+  ],
+  "description": [
+    "The air smells of horses, but faintly as if none have passed this way too recently.  A fine sifting of sand coats the sloping floor where it meets the walls and the rock above you is almost completely hidden by a maze of crossbeams.  Metal bolts holding the beams to the ceiling and to each other reflect the wan light of distant lanterns.  The floor slants sharply down to the southwest."
+  ],
+  "paths": [
+    "Obvious exits: east, southwest"
+  ],
+  "location": "the Zaerthu Tunnels",
   "wayto": {
     "5817": "southwest",
     "5819": "east"
   },
-  "paths": [
-    "Obvious exits: east, southwest"
-  ],
+  "timeto": {
+    "5817": 0.2,
+    "5819": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     370,
     921,
     380,
     931
   ],
-  "terrain": "indoors",
-  "description": [
-    "The air smells of horses, but faintly as if none have passed this way too recently.  A fine sifting of sand coats the sloping floor where it meets the walls and the rock above you is almost completely hidden by a maze of crossbeams.  Metal bolts holding the beams to the ceiling and to each other reflect the wan light of distant lanterns.  The floor slants sharply down to the southwest."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Zaerthu Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5817": 0.2,
-    "5819": 0.2
-  },
-  "id": 5818,
-  "location": "the Zaerthu Tunnels",
   "tags": [
-    "some wolifrew lichen",
-    "wolifrew lichen",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wolifrew lichen"
   ]
 }

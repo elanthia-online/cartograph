@@ -1,4 +1,15 @@
 {
+  "id": 28362,
+  "title": [
+    "[Tower of Lornon, Balcony]"
+  ],
+  "description": [
+    "Gleaming bricks of smooth black onyx reflect the light from a wall-mounted vaalin lamp.  No window disturbs the flame and the lamp's unwavering glow suffuses the air, which is noticeably heavy and still.  A narrow staircase leads back down to the main hall, and enclosed corridors stretch off to the north and southeast."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast, down"
+  ],
+  "location": "the dark woods",
   "wayto": {
     "28363": "go staircase",
     "28364": "go ebonwood door",
@@ -7,20 +18,6 @@
     "28378": "southeast",
     "28376": "north"
   },
-  "paths": [
-    "Obvious exits: north, southeast, down"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Gleaming bricks of smooth black onyx reflect the light from a wall-mounted vaalin lamp.  No window disturbs the flame and the lamp's unwavering glow suffuses the air, which is noticeably heavy and still.  A narrow staircase leads back down to the main hall, and enclosed corridors stretch off to the north and southeast."
-  ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Tower of Lornon, Balcony]"
-  ],
-  "check_location": null,
   "timeto": {
     "28363": 0.2,
     "28364": 0.2,
@@ -28,11 +25,5 @@
     "28355": 0.2,
     "28378": 0.2,
     "28376": 0.2
-  },
-  "id": 28362,
-  "location": "the dark woods",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  }
 }

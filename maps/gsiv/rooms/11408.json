@@ -1,33 +1,32 @@
 {
+  "id": 11408,
+  "title": [
+    "[Hidden Vale, Slopes]"
+  ],
+  "description": [
+    "The ground slopes down into a quiet grassy vale which extends off into the misty horizon.  The wind is fresh and crisp on your face, and a slight breeze ruffles the surface of the quiet stream that winds into an opening in the rocky mountainside."
+  ],
+  "paths": [
+    "Obvious paths: down"
+  ],
+  "location": "the Hidden Vale",
+  "climate": "moist",
+  "terrain": "hilly ",
   "wayto": {
     "11407": "go opening",
     "11409": "down"
   },
-  "paths": [
-    "Obvious paths: down"
-  ],
+  "timeto": {
+    "11407": 0.2,
+    "11409": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     920,
     1139,
     930,
     1149
   ],
-  "terrain": "hilly ",
-  "description": [
-    "The ground slopes down into a quiet grassy vale which extends off into the misty horizon.  The wind is fresh and crisp on your face, and a slight breeze ruffles the surface of the quiet stream that winds into an opening in the rocky mountainside."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "moist",
-  "title": [
-    "[Hidden Vale, Slopes]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11407": 0.2,
-    "11409": 0.2
-  },
-  "id": 11408,
-  "location": "the Hidden Vale",
   "tags": [
     "stalk of bluebells",
     "blue trafel mushroom",
@@ -57,11 +56,6 @@
     "murkweed",
     "twisted twig",
     "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bolmara lichen"
   ]
 }

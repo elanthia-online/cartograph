@@ -1,33 +1,30 @@
 {
+  "id": 972,
+  "title": [
+    "[Zhindel's Plateau, Trail]"
+  ],
+  "description": [
+    "A rock-strewn trail descends into the valley, its edges bordered by sparse patches of melting snow which send finger-like rivulets of icy water running down the hillside.  Overhead, a chill wind whistles among unseen crags and caverns, emitting high-pitched squeals and dull moans as reminders of its passage."
+  ],
+  "paths": [
+    "Obvious paths: up, down"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "971": "down",
     "973": "up"
   },
-  "paths": [
-    "Obvious paths: up, down"
-  ],
+  "timeto": {
+    "971": 0.2,
+    "973": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     1396,
     971,
     1406,
     981
   ],
-  "terrain": "mountainous",
-  "description": [
-    "A rock-strewn trail descends into the valley, its edges bordered by sparse patches of melting snow which send finger-like rivulets of icy water running down the hillside.  Overhead, a chill wind whistles among unseen crags and caverns, emitting high-pitched squeals and dull moans as reminders of its passage."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Zhindel's Plateau, Trail]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "971": 0.2,
-    "973": 0.2
-  },
-  "id": 972,
-  "location": "Whistler's Pass",
   "tags": [
     "marallis berry",
     "cuctucae berry",
@@ -42,11 +39,6 @@
     "cluster of butterflyweed",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "sunburst blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

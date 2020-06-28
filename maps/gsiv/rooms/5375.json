@@ -1,44 +1,32 @@
 {
+  "id": 5375,
+  "title": [
+    "[Noman's Land, Cave]"
+  ],
+  "description": [
+    "A large pit has been dug in the center of this cavern.  It overflows with carrion, the torsos, skulls and limbs of several species.  Several piles of urgh hides are spread about the pit as makeshift beds."
+  ],
+  "paths": [
+    "Obvious exits: east, southwest"
+  ],
+  "location": "Noman's Land",
   "wayto": {
     "5374": "southwest",
     "5376": "east"
   },
-  "paths": [
-    "Obvious exits: east, southwest"
-  ],
+  "timeto": {
+    "5374": 0.2,
+    "5376": 0.2
+  },
+  "image": "vo-caravansary-1264234799.png",
   "image_coords": [
     239,
     637,
     249,
     647
   ],
-  "terrain": "indoors",
-  "description": [
-    "A large pit has been dug in the center of this cavern.  It overflows with carrion, the torsos, skulls and limbs of several species.  Several piles of urgh hides are spread about the pit as makeshift beds."
-  ],
-  "image": "vo-caravansary-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Noman's Land, Cave]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5374": 0.2,
-    "5376": 0.2
-  },
-  "id": 5375,
-  "location": "Noman's Land",
   "tags": [
     "some wolifrew lichen",
-    "cyclops",
-    "wolifrew lichen",
-    "withered black mushroom",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "cyclops"
   ]
 }

@@ -1,38 +1,28 @@
 {
+  "id": 2251,
+  "title": [
+    "[Glaes Tunnel]"
+  ],
+  "description": [
+    "As the tunnel bends around an outcropping, the flickering light from a blazing pocket of lava illuminates the opposite wall.  There, scrawled in archaic dwarven script, words have been hewn into the black glaes wall.  Clouds of steam shift and roil, casting menacing-looking shadows on the walls of the passageway."
+  ],
+  "paths": [
+    "Obvious exits: south, northwest"
+  ],
+  "location": "the Eye of V'Tull",
   "wayto": {
     "2250": "south",
     "2252": "northwest"
   },
-  "paths": [
-    "Obvious exits: south, northwest"
-  ],
+  "timeto": {
+    "2250": 0.2,
+    "2252": 0.2
+  },
+  "image": "ti-vtull-1264234799.png",
   "image_coords": [
     250,
     671,
     260,
     681
-  ],
-  "terrain": "indoors",
-  "description": [
-    "As the tunnel bends around an outcropping, the flickering light from a blazing pocket of lava illuminates the opposite wall.  There, scrawled in archaic dwarven script, words have been hewn into the black glaes wall.  Clouds of steam shift and roil, casting menacing-looking shadows on the walls of the passageway."
-  ],
-  "image": "ti-vtull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Glaes Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2250": 0.2,
-    "2252": 0.2
-  },
-  "id": 2251,
-  "location": "the Eye of V'Tull",
-  "tags": [
-    "pepperthorn root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

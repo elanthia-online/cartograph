@@ -1,47 +1,39 @@
 {
+  "id": 8795,
+  "title": [
+    "[Dragonsclaw Arms, Lobby]"
+  ],
+  "description": [
+    "The spacious lobby is furnished with old but well-kept chairs and couches in a variety of deep-toned upholstery.  Several residents and locals lounge around the quiet room, reading and drinking coffee or bottles of ale.  An expansive carpet woven with the image of an ancient dragon bordered in elaborate mystical patterns covers the floor.  A polished wooden staircase leads up."
+  ],
+  "paths": [
+    "Obvious exits: east, up, out"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "8800": "up",
     "255": "out",
     "8796": "east",
     "14632": "go arch"
   },
-  "paths": [
-    "Obvious exits: east, up, out"
-  ],
-  "image_coords": [
-    541,
-    888,
-    559,
-    906
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The spacious lobby is furnished with old but well-kept chairs and couches in a variety of deep-toned upholstery.  Several residents and locals lounge around the quiet room, reading and drinking coffee or bottles of ale.  An expansive carpet woven with the image of an ancient dragon bordered in elaborate mystical patterns covers the floor.  A polished wooden staircase leads up."
-  ],
-  "image": "wl-homes-1-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dragonsclaw Arms, Lobby]"
-  ],
-  "check_location": null,
   "timeto": {
     "8800": 0.2,
     "255": 0.2,
     "8796": 0.2,
     "14632": 0.2
   },
-  "id": 8795,
-  "location": "Wehnimer's Landing",
+  "image": "wl-homes-1-1264234799.png",
+  "image_coords": [
+    541,
+    888,
+    559,
+    906
+  ],
   "tags": [
     "node",
     "meta:mapname:Neighborhoods of Wehnimer's Landing #1",
     "meta:mapcategory:Wehnimer's Landing",
     "meta:mapcategory:Neighborhoods",
-    "meta:mapcategory:Premium",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:mapcategory:Premium"
   ]
 }

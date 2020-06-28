@@ -1,42 +1,31 @@
 {
+  "id": 11366,
+  "title": [
+    "[Citadel, Hallway]"
+  ],
+  "description": [
+    "The forces of time seem to have left the smooth granite of this hallway untouched as no cracks show in the walls."
+  ],
+  "paths": [
+    "Obvious exits: north, south, southwest"
+  ],
   "wayto": {
     "17706": "go door",
     "11363": "north",
     "11367": "south",
     "11368": "southwest"
   },
-  "paths": [
-    "Obvious exits: north, south, southwest"
-  ],
-  "image_coords": [
-    177,
-    1224,
-    187,
-    1234
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The forces of time seem to have left the smooth granite of this hallway untouched as no cracks show in the walls."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Citadel, Hallway]"
-  ],
-  "check_location": null,
   "timeto": {
     "17706": 0.2,
     "11363": 0.2,
     "11367": 0.2,
     "11368": 0.2
   },
-  "id": 11366,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-citadel-1267238976.png",
+  "image_coords": [
+    177,
+    1224,
+    187,
+    1234
   ]
 }

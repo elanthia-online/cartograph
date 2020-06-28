@@ -1,39 +1,32 @@
 {
-  "wayto": {
-    "25700": {
-      "stringproc": "7c97847f49fd5aa0407dedb0e3609199"
-    },
-    "25698": {
-      "stringproc": "9b05cb4429e6ad5efbe157efd92e6023"
-    }
-  },
+  "id": 25699,
+  "title": [
+    "[Eastern Waterway]"
+  ],
+  "description": [
+    "Bouncing on the tumultuous waves, a series of blown glass globes creates a small barrier that prevents swimmers from entering the traffic of the harbor and boats from invading the recreational area.  Multihued, scaly bodies churn the surface of the water as hundreds of fish rise from the depths to take part in a moonlit meal."
+  ],
   "paths": [
     "Obvious paths: southeast, northwest"
   ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "25700": {
+      "file": "string_procs/wayto/25699_25700.rb"
+    },
+    "25698": {
+      "file": "string_procs/wayto/25699_25698.rb"
+    }
+  },
+  "timeto": {
+    "25700": 6.0,
+    "25698": 6.0
+  },
+  "image": "ifw-eastern_waterway-1489553700.png",
   "image_coords": [
     1360,
     1359,
     1381,
     1378
-  ],
-  "terrain": null,
-  "description": [
-    "Bouncing on the tumultuous waves, a series of blown glass globes creates a small barrier that prevents swimmers from entering the traffic of the harbor and boats from invading the recreational area.  Multihued, scaly bodies churn the surface of the water as hundreds of fish rise from the depths to take part in a moonlit meal."
-  ],
-  "image": "ifw-eastern_waterway-1489553700.png",
-  "climate": null,
-  "title": [
-    "[Eastern Waterway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "25700": 6.0,
-    "25698": 6.0
-  },
-  "id": 25699,
-  "location": "Mist Harbor",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

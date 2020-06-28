@@ -1,49 +1,31 @@
 {
+  "id": 9563,
+  "title": [
+    "[The Waggler's Warehouse]"
+  ],
+  "description": [
+    "Reflective tiles of polished steel have been deeply imbedded into the natural walls in a repeating pattern of diamonds.  A navy blue wool curtain drapes across a small passageway leading into the shop's storage area, though access to it is restricted by an expansive granite counter.  Prominently displayed on a series of wrought iron tables and racks are magical devices and tools of differing origin, each merely a small example of the wares for sale."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Zul Logoth",
   "wayto": {
     "996": "go doors",
     "9564": "west"
   },
-  "paths": [
-    "Obvious exits: west"
-  ],
+  "timeto": {
+    "996": 0.2,
+    "9564": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     1120,
     603,
     1146,
     629
   ],
-  "terrain": "indoors",
-  "description": [
-    "Reflective tiles of polished steel have been deeply imbedded into the natural walls in a repeating pattern of diamonds.  A navy blue wool curtain drapes across a small passageway leading into the shop's storage area, though access to it is restricted by an expansive granite counter.  Prominently displayed on a series of wrought iron tables and racks are magical devices and tools of differing origin, each merely a small example of the wares for sale."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[The Waggler's Warehouse]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "996": 0.2,
-    "9564": 0.2
-  },
-  "id": 9563,
-  "location": "Zul Logoth",
   "tags": [
-    "alchemist",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "alchemist"
   ]
 }

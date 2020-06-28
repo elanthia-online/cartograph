@@ -1,39 +1,36 @@
 {
+  "id": 1834,
+  "title": [
+    "[Wraithenmist, Narrow Trail]"
+  ],
+  "description": [
+    "The trail winds its way into the edge of the forest, twisting around enormous tree trunks and bushes so tall and thick they stand higher than a giantman.  Odd vines climb the trees, twisting in a sinuous pattern around the trunks and draping themselves across limbs with a snake-like grace."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest"
+  ],
+  "location": "Wraithenmist",
   "wayto": {
     "1833": "southeast",
     "1835": "southwest",
     "27470": {
-      "stringproc": "2ea6d0ca12e8525b1d2d8f8dcce48033"
+      "file": "string_procs/wayto/1834_27470.rb"
     }
   },
-  "paths": [
-    "Obvious paths: southeast, southwest"
-  ],
+  "timeto": {
+    "1833": 0.2,
+    "1835": 0.2,
+    "27470": {
+      "file": "string_procs/timeto/1834_27470.rb"
+    }
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     53,
     369,
     63,
     379
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "The trail winds its way into the edge of the forest, twisting around enormous tree trunks and bushes so tall and thick they stand higher than a giantman.  Odd vines climb the trees, twisting in a sinuous pattern around the trunks and draping themselves across limbs with a snake-like grace."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Wraithenmist, Narrow Trail]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1833": 0.2,
-    "1835": 0.2,
-    "27470": {
-      "stringproc": "129e68fb9e2827e0582e1d3e22127e11"
-    }
-  },
-  "id": 1834,
-  "location": "Wraithenmist",
   "tags": [
     "some wolifrew lichen",
     "some acantha leaf",
@@ -64,28 +61,6 @@
     "bright red teaberry",
     "some bolmara lichen",
     "willow twig",
-    "handful of blueberries",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "sticks",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "blueberries",
-    "broken twig",
-    "tree bark",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "handful of blueberries"
   ]
 }

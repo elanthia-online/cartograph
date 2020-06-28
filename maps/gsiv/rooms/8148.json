@@ -1,44 +1,34 @@
 {
+  "id": 8148,
+  "title": [
+    "[Shrine of Leya, South Niche]"
+  ],
+  "description": [
+    "The area within the alcove is almost completely overtaken by the sculpture it harbors.  An ensemble of two figures, the monument bears a carved legend across its base that reads \"Mercy\".  Appropriately, the soft illumination bathing the statuary promotes a meditative ambiance."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, northwest"
+  ],
+  "location": "the distant forest",
   "wayto": {
     "8145": "north",
     "8147": "northwest",
     "8149": "northeast",
     "25890": {
-      "stringproc": "27c2bb3545095fb82ae051051b9c531e"
+      "file": "string_procs/wayto/8148_25890.rb"
     }
   },
-  "paths": [
-    "Obvious exits: north, northeast, northwest"
-  ],
-  "image_coords": [
-    1091,
-    100,
-    1101,
-    110
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The area within the alcove is almost completely overtaken by the sculpture it harbors.  An ensemble of two figures, the monument bears a carved legend across its base that reads \"Mercy\".  Appropriately, the soft illumination bathing the statuary promotes a meditative ambiance."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Shrine of Leya, South Niche]"
-  ],
-  "check_location": null,
   "timeto": {
     "8145": 0.2,
     "8147": 0.2,
     "8149": 0.2,
     "25890": 0.3
   },
-  "id": 8148,
-  "location": "the distant forest",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-mineroad-1264234799.png",
+  "image_coords": [
+    1091,
+    100,
+    1101,
+    110
   ]
 }

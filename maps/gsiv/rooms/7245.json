@@ -1,45 +1,38 @@
 {
+  "id": 7245,
+  "title": [
+    "[Graveyard, Tunnel]"
+  ],
+  "description": [
+    "Stone gives way to dirt walls, shored up by several stripped treetrunks.  A short, crude stairway of fir timber leads up to a hole in the earth ceiling."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7305": "southwest",
     "7306": "go hole",
     "7244": "go pile"
   },
-  "paths": [
-    "Obvious exits: southwest"
-  ],
+  "timeto": {
+    "7305": 0.2,
+    "7306": 0.2,
+    "7244": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     621,
     412,
     631,
     422
   ],
-  "terrain": "indoors",
-  "description": [
-    "Stone gives way to dirt walls, shored up by several stripped treetrunks.  A short, crude stairway of fir timber leads up to a hole in the earth ceiling."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Graveyard, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7305": 0.2,
-    "7306": 0.2,
-    "7244": 0.2
-  },
-  "id": 7245,
-  "location": "the Graveyard",
   "tags": [
     "wolifrew lichen",
     "withered black mushroom",
     "cave moss",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

@@ -1,35 +1,32 @@
 {
-  "wayto": {
-    "2996": "up",
-    "2998": {
-      "stringproc": "7d0c48e10f3083fe5348b9ca9e27470d"
-    }
-  },
+  "id": 2997,
+  "title": [
+    "[A Winding Path]"
+  ],
+  "description": [
+    "An enormous landslide chokes the pathway, yet it is not as impenetrable as it first appeared.  Beneath the rubble, traces of a wider, stone pathway emerge and continue upwards and around the base of a broad mountain."
+  ],
   "paths": [
     "Obvious paths: up"
   ],
+  "location": "the Abbey",
+  "wayto": {
+    "2996": "up",
+    "2998": {
+      "file": "string_procs/wayto/2997_2998.rb"
+    }
+  },
+  "timeto": {
+    "2996": 0.2,
+    "2998": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     691,
     1028,
     701,
     1038
   ],
-  "terrain": "mountainous",
-  "description": [
-    "An enormous landslide chokes the pathway, yet it is not as impenetrable as it first appeared.  Beneath the rubble, traces of a wider, stone pathway emerge and continue upwards and around the base of a broad mountain."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[A Winding Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2996": 0.2,
-    "2998": 0.2
-  },
-  "id": 2997,
-  "location": "the Abbey",
   "tags": [
     "some angelica root",
     "winter rose",
@@ -53,18 +50,6 @@
     "calamintha blossom",
     "red winterberry",
     "some wingstem root",
-    "orange rowanberry",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "tundra grass",
-    "snowberries",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "orange rowanberry"
   ]
 }

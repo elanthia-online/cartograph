@@ -1,32 +1,20 @@
 {
-  "wayto": {
-    "11906": {
-      "stringproc": "6514cada336258899c63fc82d0aae8c9"
-    }
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "It is dark and cozy inside the trunk of the tree, the curving wooden walls provide a feeling of warm security against the dangers of the night.  A thick growth of moss has crept within the trunk, forming a soft, spongy carpet the entire length of the hollow space.  An opening at the end of the trunk leads out to the woods."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 12259,
   "title": [
     "[East Woods, Hollow Tree]"
   ],
-  "check_location": null,
+  "description": [
+    "It is dark and cozy inside the trunk of the tree, the curving wooden walls provide a feeling of warm security against the dangers of the night.  A thick growth of moss has crept within the trunk, forming a soft, spongy carpet the entire length of the hollow space.  An opening at the end of the trunk leads out to the woods."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "wayto": {
+    "11906": {
+      "file": "string_procs/wayto/12259_11906.rb"
+    }
+  },
   "timeto": {
     "11906": 0.4
-  },
-  "id": 12259,
-  "location": null,
-  "tags": [
-
-  ],
-  "links": [
-
-  ]
+  }
 }

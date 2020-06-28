@@ -1,48 +1,28 @@
 {
+  "id": 9600,
+  "title": [
+    "[Czeroth Caverns, Tunnel]"
+  ],
+  "description": [
+    "A large indentation along the southern wall looks as though something tried to burrow a new tunnel.  The phosphorescent glow is more pronounced here, casting an eerie luminescence about the tunnel.  The tunnel opens wider to the northeast and the air feels damper."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "the Czeroth Caverns",
   "wayto": {
     "9599": "southwest",
     "9601": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southwest"
-  ],
+  "timeto": {
+    "9599": 0.2,
+    "9601": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     1311,
     328,
     1321,
     338
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A large indentation along the southern wall looks as though something tried to burrow a new tunnel.  The phosphorescent glow is more pronounced here, casting an eerie luminescence about the tunnel.  The tunnel opens wider to the northeast and the air feels damper."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Czeroth Caverns, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9599": 0.2,
-    "9601": 0.2
-  },
-  "id": 9600,
-  "location": "the Czeroth Caverns",
-  "tags": [
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

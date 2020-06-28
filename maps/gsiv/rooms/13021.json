@@ -1,41 +1,33 @@
 {
+  "id": 13021,
+  "title": [
+    "[Bonespear Tower, Secret Passage]"
+  ],
+  "description": [
+    "Several sconces remain intact on the walls, but they no longer illuminate this hallway.  The passage is so well preserved however, it would take very little to make this area usable again.  The question does remain however as to what this hall might have been used for in the past."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Bonespear Tower",
   "wayto": {
     "13020": "south",
     "13022": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "13020": 0.2,
+    "13022": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     1100,
     1069,
     1110,
     1079
   ],
-  "terrain": "indoors",
-  "description": [
-    "Several sconces remain intact on the walls, but they no longer illuminate this hallway.  The passage is so well preserved however, it would take very little to make this area usable again.  The question does remain however as to what this hall might have been used for in the past."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Bonespear Tower, Secret Passage]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "13020": 0.2,
-    "13022": 0.2
-  },
-  "id": 13021,
-  "location": "Bonespear Tower",
   "tags": [
     "waern",
     "dybbuk",
-    "eidolon",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "eidolon"
   ]
 }

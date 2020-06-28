@@ -1,35 +1,32 @@
 {
+  "id": 2566,
+  "title": [
+    "[Glatoph, Glacier]"
+  ],
+  "description": [
+    "The howling wind drives snow and ice into your face and clothing.  You can barely see three feet in front of you, and are forced to blink rapidly to clear your eyelashes of frost.  You can see vague shapes that look like hills about you, but it is hard to make anything out for certain.  The hill to the southwest might provide a bit of cover from the gale."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south, southwest"
+  ],
+  "location": "Glatoph",
   "wayto": {
     "3617": "south",
     "2565": "northeast",
     "2567": "southwest"
   },
-  "paths": [
-    "Obvious paths: northeast, south, southwest"
-  ],
+  "timeto": {
+    "3617": 0.2,
+    "2565": 0.2,
+    "2567": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     839,
     511,
     849,
     521
   ],
-  "terrain": "mountainous",
-  "description": [
-    "The howling wind drives snow and ice into your face and clothing.  You can barely see three feet in front of you, and are forced to blink rapidly to clear your eyelashes of frost.  You can see vague shapes that look like hills about you, but it is hard to make anything out for certain.  The hill to the southwest might provide a bit of cover from the gale."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Glatoph, Glacier]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3617": 0.2,
-    "2565": 0.2,
-    "2567": 0.2
-  },
-  "id": 2566,
-  "location": "Glatoph",
   "tags": [
     "arctic titan",
     "frost giant",
@@ -43,10 +40,6 @@
     "valerian root",
     "pennyroyal stem",
     "sprig of holly",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

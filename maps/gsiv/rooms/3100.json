@@ -1,35 +1,32 @@
 {
+  "id": 3100,
+  "title": [
+    "[Abandoned Farm, Garden]"
+  ],
+  "description": [
+    "A rain barrel has been upturned and placed beneath an open window.  Deep scratches mar the walls and the door which leads down into the cellar.  A withered vine still clings to a broken trellis against the house."
+  ],
+  "paths": [
+    "Obvious paths: east, northwest"
+  ],
+  "location": "the Abandoned Farm",
   "wayto": {
     "3101": "go door",
     "3091": "northwest",
     "3120": "east"
   },
-  "paths": [
-    "Obvious paths: east, northwest"
-  ],
+  "timeto": {
+    "3101": 0.2,
+    "3091": 0.2,
+    "3120": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     717,
     733,
     727,
     743
   ],
-  "terrain": "cultivated",
-  "description": [
-    "A rain barrel has been upturned and placed beneath an open window.  Deep scratches mar the walls and the door which leads down into the cellar.  A withered vine still clings to a broken trellis against the house."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Abandoned Farm, Garden]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3101": 0.2,
-    "3091": 0.2,
-    "3120": 0.2
-  },
-  "id": 3100,
-  "location": "the Abandoned Farm",
   "tags": [
     "wavepetal blossom",
     "moonflower",
@@ -42,13 +39,6 @@
     "some valerian root",
     "frostflower",
     "zombie",
-    "tree spirit",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "tree spirit"
   ]
 }

@@ -1,51 +1,36 @@
 {
+  "id": 8207,
+  "title": [
+    "[Sea Caverns, Small Chamber]"
+  ],
+  "description": [
+    "This small space is unremarkable except for the hideous stench of the refuse.  Peeking out of an impressive pile heaped against the south wall are various bones and ragged pelts, obviously unpalatable even to goblins.  To the southeast, a shimmer of light can be discerned. To the northeast, the darkness thickens."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast"
+  ],
+  "location": "the sea caverns",
   "wayto": {
     "8208": "southeast",
     "8222": "go wall",
     "8204": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southeast"
-  ],
+  "timeto": {
+    "8208": 0.2,
+    "8222": 0.2,
+    "8204": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     526,
     209,
     536,
     219
   ],
-  "terrain": "indoors",
-  "description": [
-    "This small space is unremarkable except for the hideous stench of the refuse.  Peeking out of an impressive pile heaped against the south wall are various bones and ragged pelts, obviously unpalatable even to goblins.  To the southeast, a shimmer of light can be discerned. To the northeast, the darkness thickens."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Caverns, Small Chamber]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8208": 0.2,
-    "8222": 0.2,
-    "8204": 0.2
-  },
-  "id": 8207,
-  "location": "the sea caverns",
   "tags": [
     "red trafel mushroom",
     "white hook mushroom",
     "blue trafel mushroom",
-    "some wingstem root",
-    "soft white mushroom",
-    "withered black mushroom",
-    "black hook mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

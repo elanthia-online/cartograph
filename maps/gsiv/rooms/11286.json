@@ -1,40 +1,32 @@
 {
+  "id": 11286,
+  "title": [
+    "[Zoo, Cage Area]"
+  ],
+  "description": [
+    "You peer through the steel bars of the cage before you and see a large number of bones scattered about the floor.  No signs of life seem to stir within the cage."
+  ],
+  "paths": [
+    "Obvious paths: east, south"
+  ],
+  "location": "the Citadel",
+  "climate": "humid",
+  "terrain": "hard, flat ",
   "wayto": {
     "11284": "east",
     "11287": "go door",
     "11288": "south"
   },
-  "paths": [
-    "Obvious paths: east, south"
-  ],
-  "image_coords": [
-    562,
-    734,
-    572,
-    744
-  ],
-  "terrain": "hard, flat ",
-  "description": [
-    "You peer through the steel bars of the cage before you and see a large number of bones scattered about the floor.  No signs of life seem to stir within the cage."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "humid",
-  "title": [
-    "[Zoo, Cage Area]"
-  ],
-  "check_location": null,
   "timeto": {
     "11284": 0.2,
     "11287": 0.2,
     "11288": 0.2
   },
-  "id": 11286,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-citadel-1267238976.png",
+  "image_coords": [
+    562,
+    734,
+    572,
+    744
   ]
 }

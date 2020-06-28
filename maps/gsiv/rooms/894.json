@@ -1,42 +1,35 @@
 {
+  "id": 894,
+  "title": [
+    "[Whistler's Pass, Tunnel]"
+  ],
+  "description": [
+    "A set of precisely-cut, squared steps has been crafted into the tunnel here, perhaps to allow for an easier ascension as the tunnel continues its incline to the north.  Half a dozen in number, the steps have been carved out of the rocky floor itself, their straight edges and well-defined lines the marks of true stonesmiths."
+  ],
+  "paths": [
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "893": "northwest",
     "895": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast, northwest"
-  ],
+  "timeto": {
+    "893": 0.2,
+    "895": 0.2
+  },
+  "image": "en-whistlers_pass-1264234799.png",
   "image_coords": [
     599,
     112,
     609,
     122
   ],
-  "terrain": "indoors",
-  "description": [
-    "A set of precisely-cut, squared steps has been crafted into the tunnel here, perhaps to allow for an easier ascension as the tunnel continues its incline to the north.  Half a dozen in number, the steps have been carved out of the rocky floor itself, their straight edges and well-defined lines the marks of true stonesmiths."
-  ],
-  "image": "en-whistlers_pass-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Whistler's Pass, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "893": 0.2,
-    "895": 0.2
-  },
-  "id": 894,
-  "location": "Whistler's Pass",
   "tags": [
     "white hook mushroom",
     "cave moss",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

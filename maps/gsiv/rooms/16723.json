@@ -1,66 +1,36 @@
 {
-  "wayto": {
-    "16722": {
-      "stringproc": "95c4b0c47e7d4a92e2e6cd82a5236f90"
-    },
-    "16724": {
-      "stringproc": "8139705a2d84a636c08f9b86513ddb2d"
-    },
-    "18755": {
-      "stringproc": "c5b2b8821ae8026a9b9d7c21f233d46f"
-    }
-  },
-  "paths": [
-    "Obvious paths: northwest"
-  ],
-  "image_coords": [
-    329,
-    559,
-    348,
-    576
-  ],
-  "terrain": "mountainous",
-  "description": [
-    "Wrapped securely around the base of a weathered a stone column is a thick rope leading downward, which disappears over the precipice edge and out of sight.  Directly opposite the column is the shattered remains of another, the pair of stone sentinels guarding the entrance to a broken bridge that ends abruptly after only a few feet.  Further ahead and in the ravine, a broken section of the stone bridge stands alone, reachable only by flying creatures or those who wish to attempt a dangerous leap."
-  ],
-  "image": "en-aradhul-road-1308194332.png",
-  "climate": "temperate",
+  "id": 16723,
   "title": [
     "[Aradhul Road, Precipice]"
   ],
-  "check_location": null,
+  "description": [
+    "Wrapped securely around the base of a weathered a stone column is a thick rope leading downward, which disappears over the precipice edge and out of sight.  Directly opposite the column is the shattered remains of another, the pair of stone sentinels guarding the entrance to a broken bridge that ends abruptly after only a few feet.  Further ahead and in the ravine, a broken section of the stone bridge stands alone, reachable only by flying creatures or those who wish to attempt a dangerous leap."
+  ],
+  "paths": [
+    "Obvious paths: northwest"
+  ],
+  "location": "Aradhul Road",
+  "wayto": {
+    "16722": {
+      "file": "string_procs/wayto/16723_16722.rb"
+    },
+    "16724": {
+      "file": "string_procs/wayto/16723_16724.rb"
+    },
+    "18755": {
+      "file": "string_procs/wayto/16723_18755.rb"
+    }
+  },
   "timeto": {
     "16722": 0.2,
     "16724": 5.0,
     "18755": 10
   },
-  "id": 16723,
-  "location": "Aradhul Road",
-  "tags": [
-    "angelica root",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "sprig of larkspur",
-    "yellow primrose",
-    "wild sage",
-    "golden aster",
-    "sprig of columbine",
-    "small dandelion",
-    "crimson dragonstalk",
-    "mountain dryad",
-    "stalk of monkeyflower",
-    "sprig of holly",
-    "sprig of ivy",
-    "small apple",
-    "juicy plum",
-    "pepperthorn root",
-    "ironfern root",
-    "sunburst blossom",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-aradhul-road-1308194332.png",
+  "image_coords": [
+    329,
+    559,
+    348,
+    576
   ]
 }

@@ -1,78 +1,38 @@
 {
+  "id": 1811,
+  "title": [
+    "[Wraithenmist, Boughs of Shadow]"
+  ],
+  "description": [
+    "Three sections of trail converge in this small clearing.  No grass grows underfoot, only a greyish mossy substance that apparently needs little light to thrive.  The mist rolling in from the lake thickens as it finds the pocket of air between the trees."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest, northwest"
+  ],
+  "location": "Wraithenmist",
   "wayto": {
     "1810": "southeast",
     "1812": "northwest",
     "1814": "southwest"
   },
-  "paths": [
-    "Obvious paths: southeast, southwest, northwest"
-  ],
+  "timeto": {
+    "1810": 0.2,
+    "1812": 0.2,
+    "1814": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     332,
     317,
     340,
     325
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "Three sections of trail converge in this small clearing.  No grass grows underfoot, only a greyish mossy substance that apparently needs little light to thrive.  The mist rolling in from the lake thickens as it finds the pocket of air between the trees."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Wraithenmist, Boughs of Shadow]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1810": 0.2,
-    "1812": 0.2,
-    "1814": 0.2
-  },
-  "id": 1811,
-  "location": "Wraithenmist",
   "tags": [
     "fiddlehead fern",
     "some ephlox moss",
     "sassafras leaf",
     "withered black mushroom",
     "blue whortleberry",
-    "stick",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "tkaro root",
-    "sticks",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "soft white mushroom",
-    "white hook mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "blueberries",
-    "wild gooseberry",
-    "broken twig",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "small wild rose",
-    "sprig of wild lilac",
-    "wild chokecherry",
-    "bright red cranberry",
-    "tree bark",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "stick"
   ]
 }

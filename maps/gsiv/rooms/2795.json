@@ -1,35 +1,32 @@
 {
-  "wayto": {
-    "2807": "west",
-    "2768": {
-      "stringproc": "c2f35339ece466ff7a209eab5eb2ca59"
-    }
-  },
+  "id": 2795,
+  "title": [
+    "[Nightmare Gorge]"
+  ],
+  "description": [
+    "An eruption of boulders, detritus of a rockslide, blocks the trail's advance to the east.  Many of the huge stones show cracks and scars from the violence of the fall down the precipice.  The resulting stair-stepped slope offers an escape from the gorge, made perilous by the continual onslaught of ice and snow."
+  ],
   "paths": [
     "Obvious paths: west"
   ],
+  "location": "the Pinefar forests",
+  "wayto": {
+    "2807": "west",
+    "2768": {
+      "file": "string_procs/wayto/2795_2768.rb"
+    }
+  },
+  "timeto": {
+    "2807": 0.2,
+    "2768": 0.2
+  },
+  "image": "imt-pinefar-1264234799.png",
   "image_coords": [
     490,
     1084,
     500,
     1094
   ],
-  "terrain": "mountainous",
-  "description": [
-    "An eruption of boulders, detritus of a rockslide, blocks the trail's advance to the east.  Many of the huge stones show cracks and scars from the violence of the fall down the precipice.  The resulting stair-stepped slope offers an escape from the gorge, made perilous by the continual onslaught of ice and snow."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Nightmare Gorge]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2807": 0.2,
-    "2768": 0.2
-  },
-  "id": 2795,
-  "location": "the Pinefar forests",
   "tags": [
     "calamintha blossom",
     "sprig of edelweiss",
@@ -45,30 +42,6 @@
     "fiery red iceblossom",
     "soft yellow iceblossom",
     "pink iceblossom",
-    "ice blue iceblossom",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "edelweiss",
-    "iceblossoms",
-    "snow lily",
-    "arctic moss",
-    "tundra grass",
-    "golden aster",
-    "snowberries",
-    "pale thornberry",
-    "red winterberry",
-    "rockberry",
-    "crowberry",
-    "lingonberry",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ice blue iceblossom"
   ]
 }

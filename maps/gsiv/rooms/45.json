@@ -1,39 +1,29 @@
 {
+  "id": 45,
+  "title": [
+    "[Whistler's Pass, Road]"
+  ],
+  "description": [
+    "The road changes to cobblestone steps as the road ascends the steepest part of the hill.  Burning torches stand on either side of the steps.",
+    "The road changes to cobblestone steps as the road ascends the steepest part of the hill.  Unlit torches stand on either side of the steps."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "44": "north",
     "46": "southwest"
   },
-  "paths": [
-    "Obvious paths: north, southwest"
-  ],
+  "timeto": {
+    "44": 0.2,
+    "46": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     1125,
     180,
     1135,
     190
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "The road changes to cobblestone steps as the road ascends the steepest part of the hill.  Burning torches stand on either side of the steps.",
-    "The road changes to cobblestone steps as the road ascends the steepest part of the hill.  Unlit torches stand on either side of the steps."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Whistler's Pass, Road]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "44": 0.2,
-    "46": 0.2
-  },
-  "id": 45,
-  "location": "Whistler's Pass",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

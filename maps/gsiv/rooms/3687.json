@@ -1,40 +1,30 @@
 {
+  "id": 3687,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "A row of small, desolate cells stands along the east side of the corridor.  Gleaming, new chains and locks have been added to reinforce the bolts on the heavy, iron door to a nearby cell.  Odd, scuffling noises can be heard from within the tiny chamber."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "3686": "go door",
     "3688": "south",
     "3691": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
-  "image_coords": [
-    174,
-    1118,
-    184,
-    1128
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A row of small, desolate cells stands along the east side of the corridor.  Gleaming, new chains and locks have been added to reinforce the bolts on the heavy, iron door to a nearby cell.  Odd, scuffling noises can be heard from within the tiny chamber."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
   "timeto": {
     "3686": 0.2,
     "3688": 0.2,
     "3691": 0.2
   },
-  "id": 3687,
-  "location": "Darkstone Castle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-darkstone-1264234799.png",
+  "image_coords": [
+    174,
+    1118,
+    184,
+    1128
   ]
 }

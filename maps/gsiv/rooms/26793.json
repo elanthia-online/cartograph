@@ -1,35 +1,28 @@
 {
+  "id": 26793,
+  "title": [
+    "[Catacombs, Dark Tunnels]"
+  ],
+  "description": [
+    "The walls of the tunnel are still fairly intact here, with little sign of decay.  A draft of stale air wafts up from a shaft in the center of the floor.  The tattered remains of a rope cling to a small ring in the ceiling, poised directly over the shaft."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "7502": "go shaft",
     "26791": "southwest"
   },
-  "paths": [
-    "Obvious exits: southwest"
-  ],
+  "timeto": {
+    "7502": 0.2,
+    "26791": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     1007,
     1198,
     1018,
     1209
-  ],
-  "terrain": null,
-  "description": [
-    "The walls of the tunnel are still fairly intact here, with little sign of decay.  A draft of stale air wafts up from a shaft in the center of the floor.  The tattered remains of a rope cling to a small ring in the ceiling, poised directly over the shaft."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Catacombs, Dark Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7502": 0.2,
-    "26791": 0.2
-  },
-  "id": 26793,
-  "location": "the catacombs",
-  "tags": [
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+  ]
 }

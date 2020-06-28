@@ -1,38 +1,30 @@
 {
+  "id": 2612,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "The fog parts revealing a pitch black area.  Blackness wraps around you like a velvety greatcloak as you step tenatively into the dark.  A slithering hiss surrounds you, circling you several times before retreating into the heavy silence and darkness."
+  ],
+  "paths": [
+    "Obvious exits: east, southeast, west",
+    "Obvious paths: east, southeast, west"
+  ],
+  "location": "the Rift",
   "wayto": {
     "12208": {
-      "stringproc": "a0576f0215d746452e7afb93c1ee082c"
+      "file": "string_procs/wayto/2612_12208.rb"
     },
     "2611": "west",
     "12090": "southeast",
     "2613": "east",
     "2635": {
-      "stringproc": "01b8924575c8d70e4ed7eea7ed00be84"
+      "file": "string_procs/wayto/2612_2635.rb"
     },
     "12101": {
-      "stringproc": "cf4b8e5b125b22b01c9349827d02c9fd"
+      "file": "string_procs/wayto/2612_12101.rb"
     }
   },
-  "paths": [
-    "Obvious exits: east, southeast, west",
-    "Obvious paths: east, southeast, west"
-  ],
-  "image_coords": [
-    227,
-    778,
-    235,
-    786
-  ],
-  "terrain": null,
-  "description": [
-    "The fog parts revealing a pitch black area.  Blackness wraps around you like a velvety greatcloak as you step tenatively into the dark.  A slithering hiss surrounds you, circling you several times before retreating into the heavy silence and darkness."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
   "timeto": {
     "12208": 22.0,
     "2611": 0.2,
@@ -41,8 +33,13 @@
     "2635": 22.0,
     "12101": 26.0
   },
-  "id": 2612,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    227,
+    778,
+    235,
+    786
+  ],
   "tags": [
     "mass of congealed slime",
     "discolored fleshbinder bud",
@@ -51,8 +48,5 @@
     "slime-covered grave blossom",
     "twisted black mawflower",
     "withered deathblossom"
-  ],
-  "links": [
-
   ]
 }

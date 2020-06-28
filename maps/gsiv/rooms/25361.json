@@ -1,34 +1,25 @@
 {
+  "id": 25361,
+  "title": [
+    "[Delirium Manor, Entry Hall]"
+  ],
+  "description": [
+    "Alternating tiles of black and white marble, though elegant in design, give a whimsical welcome with chalked barefoot footprints marching across every other tile.  Thick arrows scrawled with various words serve as directional guides to other areas, and a grand staircase leads to the manor's upper floors."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Delirium Manor",
   "wayto": {
     "25362": "west",
     "25363": "east",
     "25374": {
-      "stringproc": "04e0f7442881143b76c5384fe9079e09"
+      "file": "string_procs/wayto/25361_25374.rb"
     }
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Alternating tiles of black and white marble, though elegant in design, give a whimsical welcome with chalked barefoot footprints marching across every other tile.  Thick arrows scrawled with various words serve as directional guides to other areas, and a grand staircase leads to the manor's upper floors."
-  ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Delirium Manor, Entry Hall]"
-  ],
-  "check_location": null,
   "timeto": {
     "25362": 0.2,
     "25363": 0.2,
     "25374": 0.2
-  },
-  "id": 25361,
-  "location": "Delirium Manor",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  }
 }

@@ -1,38 +1,28 @@
 {
+  "id": 9138,
+  "title": [
+    "[Raised Stone Path]"
+  ],
+  "description": [
+    "The water swells and ebbs in an easy, soft rhythm, occasionally slopping over the sides of the smooth stone path that pokes up from the clear, dark surface of the underground lake.  From time to time, a small splash breaks the water, ripples gliding away from the obvious point of disturbance."
+  ],
+  "paths": [
+    "Obvious exits: northeast, west"
+  ],
+  "location": "Thurfel's Island",
   "wayto": {
     "9137": "west",
     "9139": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, west"
-  ],
+  "timeto": {
+    "9137": 0.2,
+    "9139": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     360,
     1018,
     370,
     1028
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The water swells and ebbs in an easy, soft rhythm, occasionally slopping over the sides of the smooth stone path that pokes up from the clear, dark surface of the underground lake.  From time to time, a small splash breaks the water, ripples gliding away from the obvious point of disturbance."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Raised Stone Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9137": 0.2,
-    "9139": 0.2
-  },
-  "id": 9138,
-  "location": "Thurfel's Island",
-  "tags": [
-    "murdroot",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

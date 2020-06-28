@@ -1,35 +1,32 @@
 {
+  "id": 11707,
+  "title": [
+    "[Marsh Keep, East Wall]"
+  ],
+  "description": [
+    "Ending abruptly to the south, the wall continues to the north toward the end of the eastern side of the fortification.  The narrow pathway continues along the same basic direction, skirting away from the wall where the earth has given way to a gaping hole in the ground.  Footprints, none of them from the civilized races, lead in and out of the hole and down into the nearby fens."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Marsh Keep",
   "wayto": {
     "11743": "go hole",
     "11706": "north",
     "11708": "south"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "11743": 0.2,
+    "11706": 0.2,
+    "11708": 0.2
+  },
+  "image": "rr-marsh_keep-1266356986.png",
   "image_coords": [
     1135,
     586,
     1145,
     596
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "Ending abruptly to the south, the wall continues to the north toward the end of the eastern side of the fortification.  The narrow pathway continues along the same basic direction, skirting away from the wall where the earth has given way to a gaping hole in the ground.  Footprints, none of them from the civilized races, lead in and out of the hole and down into the nearby fens."
-  ],
-  "image": "rr-marsh_keep-1266356986.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Marsh Keep, East Wall]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11743": 0.2,
-    "11706": 0.2,
-    "11708": 0.2
-  },
-  "id": 11707,
-  "location": "the Marsh Keep",
   "tags": [
     "some acantha leaf",
     "cuctucae berry",
@@ -38,23 +35,6 @@
     "some mistweed",
     "bright red cranberry",
     "sweetfern stalk",
-    "some valerian root",
-    "acantha leaf",
-    "wolifrew lichen",
-    "aloeas stem",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "withered black mushroom",
-    "stalk of chicory",
-    "small wild rose",
-    "mistweed",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some valerian root"
   ]
 }

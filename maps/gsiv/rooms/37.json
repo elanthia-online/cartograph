@@ -1,44 +1,36 @@
 {
-  "wayto": {
-    "36": "northwest",
-    "38": "go portcullis",
-    "10836": "west"
-  },
-  "paths": [
-    "Obvious paths: west, northwest"
+  "id": 37,
+  "title": [
+    "[Ta'Illistim, City Gate]"
   ],
-  "image_coords": [
-    1616,
-    808,
-    1638,
-    828
-  ],
-  "terrain": "hard, flat",
   "description": [
     "Quiet in the night air, the inner gateyard is home to only a few at this late hour.  The city guards converse amongst themselves, stopping occasionally to inspect the few travellers who journey into the city through the inner portcullis.  A lone wagon rests near one wall, apparently abandoned for the night by its owner.",
     "Filled with raucous noise, the inner gateyard teems with activity.  The city guards converse amongst themselves or stand warily by, watching the populace as they pour into and out of the inner portcullis.  Wagons and carts are lined up to one side of the gateyard, as a trio of guards inspect their contents before allowing their owners to proceed into the city proper.",
     "The inner gateyard is a circular chamber of silvery blue stone, its walls rising to a domed ceiling above.  The cobblestones are worn smooth, more so in the center of the chamber than around the walls.  A portcullis, raised halfway into a hidden compartment, reveals its teeth and a few feet of its gridded metal screen.",
     "The inner gateyard is one in a series of circular chambers of silvery blue stone, its walls rising to a domed ceiling above.  The cobblestones are worn smooth, more so in the center of the chamber than around the walls.  A portcullis, raised upwards into a hidden compartment, reveals only its teeth."
   ],
-  "image": "en-ta_illistim-new.jpg",
-  "climate": "temperate",
-  "title": [
-    "[Ta'Illistim, City Gate]"
+  "paths": [
+    "Obvious paths: west, northwest"
   ],
-  "check_location": null,
+  "location": "Ta'Illistim",
+  "wayto": {
+    "36": "northwest",
+    "38": "go portcullis",
+    "10836": "west"
+  },
   "timeto": {
     "36": 0.2,
     "38": 0.2,
     "10836": 0.2
   },
-  "id": 37,
-  "location": "Ta'Illistim",
-  "tags": [
-    "advguard",
-    "no forageables",
-    "meta:forage-sensed"
+  "image": "en-ta_illistim-new.jpg",
+  "image_coords": [
+    1616,
+    808,
+    1638,
+    828
   ],
-  "links": [
-
+  "tags": [
+    "advguard"
   ]
 }

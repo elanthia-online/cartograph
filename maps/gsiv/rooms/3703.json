@@ -1,33 +1,30 @@
 {
+  "id": 3703,
+  "title": [
+    "[Darkstone, A Dark Tunnel]"
+  ],
+  "description": [
+    "Scattered debris covers the floor and you find yourself laboring to keep a steady foothold.  A draft of fetid air rolls in from some unseen direction."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "3717": "east",
     "3702": "west"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "3717": 0.2,
+    "3702": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     569,
     1214,
     579,
     1224
   ],
-  "terrain": "indoors",
-  "description": [
-    "Scattered debris covers the floor and you find yourself laboring to keep a steady foothold.  A draft of fetid air rolls in from some unseen direction."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, A Dark Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3717": 0.2,
-    "3702": 0.2
-  },
-  "id": 3703,
-  "location": "Darkstone Castle",
   "tags": [
     "black hook mushroom",
     "withered black mushroom",
@@ -38,15 +35,6 @@
     "blue trafel mushroom",
     "red trafel mushroom",
     "white hook mushroom",
-    "massive troll king",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "massive troll king"
   ]
 }

@@ -1,46 +1,33 @@
 {
-  "wayto": {
-    "7965": {
-      "stringproc": "e2ceeda5f28646a90b5566a5a8f6e663"
-    },
-    "7963": "east"
-  },
+  "id": 7964,
+  "title": [
+    "[Burrows, Excavation]"
+  ],
+  "description": [
+    "Signs of fresh digging are evident here.  A few tools lie in the dirt, as well as large chunks of rock taken from the face of the wall.  The main focus of the excavation seems to be a small fissure in the rock, just large enough for you to slide through if you exhale completely."
+  ],
   "paths": [
     "Obvious exits: east"
   ],
+  "location": "Melgorehn's Valley",
+  "wayto": {
+    "7965": {
+      "file": "string_procs/wayto/7964_7965.rb"
+    },
+    "7963": "east"
+  },
+  "timeto": {
+    "7965": 0.2,
+    "7963": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     683,
     539,
     693,
     549
   ],
-  "terrain": "indoors",
-  "description": [
-    "Signs of fresh digging are evident here.  A few tools lie in the dirt, as well as large chunks of rock taken from the face of the wall.  The main focus of the excavation seems to be a small fissure in the rock, just large enough for you to slide through if you exhale completely."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Burrows, Excavation]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7965": 0.2,
-    "7963": 0.2
-  },
-  "id": 7964,
-  "location": "Melgorehn's Valley",
   "tags": [
-    "some wolifrew lichen",
-    "wolifrew lichen",
-    "withered black mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wolifrew lichen"
   ]
 }

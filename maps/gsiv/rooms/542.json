@@ -1,34 +1,31 @@
 {
+  "id": 542,
+  "title": [
+    "[Whistler's Pass, Grassy Field]"
+  ],
+  "description": [
+    "The trail heads down a hill to the northeast, looping around an ancient maoral.  A gap in a line of bushes provides a moonlit path to the southwest.",
+    "The trail heads down a hill to the northeast, looping around an ancient maoral.  A gap in a line of bushes provides a path to the southwest."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "541": "northeast",
     "543": "southwest"
   },
-  "paths": [
-    "Obvious paths: northeast, southwest"
-  ],
+  "timeto": {
+    "541": 0.2,
+    "543": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     782,
     612,
     792,
     622
   ],
-  "terrain": "hilly",
-  "description": [
-    "The trail heads down a hill to the northeast, looping around an ancient maoral.  A gap in a line of bushes provides a moonlit path to the southwest.",
-    "The trail heads down a hill to the northeast, looping around an ancient maoral.  A gap in a line of bushes provides a path to the southwest."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Whistler's Pass, Grassy Field]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "541": 0.2,
-    "543": 0.2
-  },
-  "id": 542,
-  "location": "Whistler's Pass",
   "tags": [
     "twisted twig",
     "crimson dragonstalk",
@@ -86,11 +83,6 @@
     "ebony twig",
     "bolmara lichen",
     "brostheras grass",
-    "sky-blue delphinuris",
-    "mountain dryad",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sky-blue delphinuris"
   ]
 }

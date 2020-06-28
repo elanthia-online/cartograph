@@ -1,54 +1,35 @@
 {
+  "id": 2153,
+  "title": [
+    "[Lava Flows, Stone Forest]"
+  ],
+  "description": [
+    "Tall formations of black rock form a small forest of stone here.  Some among them are scarred and battered well above the ground, as if they have been attacked."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, southwest"
+  ],
+  "location": "the volcano",
   "wayto": {
     "2151": "southwest",
     "2141": "northeast",
     "2152": "southeast"
   },
-  "paths": [
-    "Obvious paths: northeast, southeast, southwest"
-  ],
+  "timeto": {
+    "2151": 0.2,
+    "2141": 0.2,
+    "2152": 0.2
+  },
+  "image": "ti-vtull-1264234799.png",
   "image_coords": [
     1263,
     543,
     1273,
     553
   ],
-  "terrain": null,
-  "description": [
-    "Tall formations of black rock form a small forest of stone here.  Some among them are scarred and battered well above the ground, as if they have been attacked."
-  ],
-  "image": "ti-vtull-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Lava Flows, Stone Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2151": 0.2,
-    "2141": 0.2,
-    "2152": 0.2
-  },
-  "id": 2153,
-  "location": "the volcano",
   "tags": [
     "pepperthorn root",
     "blue poppy",
-    "stalk of drakefern",
-    "stalk of chicory",
-    "broken twig",
-    "heath aster",
-    "yellow primrose",
-    "small wild rose",
-    "cactus flower",
-    "white poppy",
-    "pink poppy",
-    "yellow poppy",
-    "golden poppy",
-    "red poppy",
-    "purple poppy",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "stalk of drakefern"
   ]
 }

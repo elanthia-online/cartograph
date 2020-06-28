@@ -1,33 +1,30 @@
 {
+  "id": 883,
+  "title": [
+    "[Whistler's Pass]"
+  ],
+  "description": [
+    "Overhead, the edge of one of the high rock walls has crumbled, sending a large pile of boulders down into the pass.  Contrasting round and jagged edges protrude from the conglomeration of rock, effectively barring the pass from further movement to the south.  Strangely, a few shallow indentations have been cut into the rock, perhaps as an aid to those who might wish to climb them."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "882": "northeast",
     "884": "climb boulders"
   },
-  "paths": [
-    "Obvious paths: northeast"
-  ],
+  "timeto": {
+    "882": 0.2,
+    "884": 0.2
+  },
+  "image": "en-whistlers_pass-1264234799.png",
   "image_coords": [
     735,
     1442,
     745,
     1452
   ],
-  "terrain": "mountainous",
-  "description": [
-    "Overhead, the edge of one of the high rock walls has crumbled, sending a large pile of boulders down into the pass.  Contrasting round and jagged edges protrude from the conglomeration of rock, effectively barring the pass from further movement to the south.  Strangely, a few shallow indentations have been cut into the rock, perhaps as an aid to those who might wish to climb them."
-  ],
-  "image": "en-whistlers_pass-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Whistler's Pass]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "882": 0.2,
-    "884": 0.2
-  },
-  "id": 883,
-  "location": "Whistler's Pass",
   "tags": [
     "marallis berry",
     "cuctucae berry",
@@ -42,10 +39,6 @@
     "cluster of butterflyweed",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

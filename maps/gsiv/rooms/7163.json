@@ -1,33 +1,30 @@
 {
+  "id": 7163,
+  "title": [
+    "[Graveyard]"
+  ],
+  "description": [
+    "The crypt casts fell shadows that block out any bleak light imparted by the heavens.  They also seem to absorb all sounds and signs of life.  The rough stone walls that enclose the graveyard stretch far to the northeast, sheltering the irregular rows of burial sites from unwanted intrusions."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7164": "north",
     "4141": "southwest"
   },
-  "paths": [
-    "Obvious paths: north, southwest"
-  ],
+  "timeto": {
+    "7164": 0.2,
+    "4141": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     263,
     860,
     273,
     870
   ],
-  "terrain": "rough",
-  "description": [
-    "The crypt casts fell shadows that block out any bleak light imparted by the heavens.  They also seem to absorb all sounds and signs of life.  The rough stone walls that enclose the graveyard stretch far to the northeast, sheltering the irregular rows of burial sites from unwanted intrusions."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Graveyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7164": 0.2,
-    "4141": 0.2
-  },
-  "id": 7163,
-  "location": "the Graveyard",
   "tags": [
     "small wild rose",
     "wild chokecherry",
@@ -41,10 +38,6 @@
     "fiddlehead fern",
     "blueberries",
     "broken twig",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

@@ -1,64 +1,32 @@
 {
+  "id": 1034,
+  "title": [
+    "[Glo'antern Moor]"
+  ],
+  "description": [
+    "The trail drops gently to the southwest, descending into thick fog.  To the northeast it climbs steeply, rising out of the surrounding mists.  Long-bladed grass has taken root all over the area, but its attempts to cover the area are interrupted by boulders, the occasional odd tree stump, and patches of bare ground.  Even a few small pine trees make valiant attempts to combat the encroaching grass."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "the Locksmehr Trail",
   "wayto": {
     "1033": "northeast",
     "1035": "southwest"
   },
-  "paths": [
-    "Obvious paths: northeast, southwest"
-  ],
+  "timeto": {
+    "1033": 0.2,
+    "1035": 0.2
+  },
+  "image": "en-trail-1264234799.png",
   "image_coords": [
     1312,
     460,
     1322,
     470
   ],
-  "terrain": "grassland",
-  "description": [
-    "The trail drops gently to the southwest, descending into thick fog.  To the northeast it climbs steeply, rising out of the surrounding mists.  Long-bladed grass has taken root all over the area, but its attempts to cover the area are interrupted by boulders, the occasional odd tree stump, and patches of bare ground.  Even a few small pine trees make valiant attempts to combat the encroaching grass."
-  ],
-  "image": "en-trail-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Glo'antern Moor]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1033": 0.2,
-    "1035": 0.2
-  },
-  "id": 1034,
-  "location": "the Locksmehr Trail",
   "tags": [
     "fairy primrose",
-    "bright red teaberry",
-    "acantha leaf",
-    "wolifrew lichen",
-    "cuctucae berry",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "soft white mushroom",
-    "withered black mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "wild strawberry",
-    "stalk of chicory",
-    "sprig of larkspur",
-    "small wild rose",
-    "wild chokecherry",
-    "bright red cranberry",
-    "golden aster",
-    "luckbloom blossom",
-    "murdroot",
-    "wavepetal blossom",
-    "ironfern root",
-    "sunburst blossom",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bright red teaberry"
   ]
 }

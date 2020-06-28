@@ -1,45 +1,34 @@
 {
+  "id": 7569,
+  "title": [
+    "[Dark Cavern, Tunnels]"
+  ],
+  "description": [
+    "Bits of dirt fall from the ceiling as you make your way through the dim tunnel, your eyes adjusting to the glow of the lichen that grows in the nooks and crannies of the walls.  Your nose wrinkles at the sour scent that permeates the passage with each waft of air from the west."
+  ],
+  "paths": [
+    "Obvious exits: southeast, west"
+  ],
+  "location": "the dark caverns",
   "wayto": {
     "7568": "southeast",
     "7570": "west"
   },
-  "paths": [
-    "Obvious exits: southeast, west"
-  ],
+  "timeto": {
+    "7568": 0.2,
+    "7570": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     198,
     1315,
     208,
     1325
   ],
-  "terrain": "indoors",
-  "description": [
-    "Bits of dirt fall from the ceiling as you make your way through the dim tunnel, your eyes adjusting to the glow of the lichen that grows in the nooks and crannies of the walls.  Your nose wrinkles at the sour scent that permeates the passage with each waft of air from the west."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dark Cavern, Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7568": 0.2,
-    "7570": 0.2
-  },
-  "id": 7569,
-  "location": "the dark caverns",
   "tags": [
     "withered black mushroom",
     "some wingstem root",
     "some cave moss",
-    "some bur-clover root",
-    "cave moss",
-    "murdroot",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some bur-clover root"
   ]
 }

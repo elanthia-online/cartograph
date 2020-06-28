@@ -1,32 +1,26 @@
 {
+  "id": 11032,
+  "title": [
+    "[South River Road]"
+  ],
+  "description": [
+    "The trees alongside the road filter out the majority of the sound from the falls to the northeast, shielding your ears from the noise.  The road also runs westward along the bank of the river."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "the South River Road",
+  "climate": "moist",
+  "terrain": "riparian",
   "wayto": {
     "11025": "west",
     "16015": "go pathway",
     "16016": "go track",
     "11033": "northeast",
     "6274": {
-      "stringproc": "646d96b67088539745a52e8186dd33dd"
+      "file": "string_procs/wayto/11032_6274.rb"
     }
   },
-  "paths": [
-    "Obvious paths: northeast, west"
-  ],
-  "image_coords": [
-    636,
-    899,
-    646,
-    909
-  ],
-  "terrain": "riparian",
-  "description": [
-    "The trees alongside the road filter out the majority of the sound from the falls to the northeast, shielding your ears from the noise.  The road also runs westward along the bank of the river."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "moist",
-  "title": [
-    "[South River Road]"
-  ],
-  "check_location": null,
   "timeto": {
     "11025": 0.2,
     "16015": 0.2,
@@ -34,8 +28,13 @@
     "11033": 0.2,
     "6274": 100
   },
-  "id": 11032,
-  "location": "the South River Road",
+  "image": "rr-rivers_rest-1266350289.png",
+  "image_coords": [
+    636,
+    899,
+    646,
+    909
+  ],
   "tags": [
     "some acantha leaf",
     "some aloeas stem",
@@ -59,11 +58,6 @@
     "kylan berry",
     "murdroot",
     "wavepetal blossom",
-    "sunburst blossom",
-    "talneo root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sunburst blossom"
   ]
 }

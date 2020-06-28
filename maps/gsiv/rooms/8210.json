@@ -1,50 +1,33 @@
 {
+  "id": 8210,
+  "title": [
+    "[Sea Caverns, Sleeping Quarters]"
+  ],
+  "description": [
+    "This is the northeast corner of the large chamber.  The piles of rags are so thick here, progress in any direction requires wading through them, stirring up a noxious stink."
+  ],
+  "paths": [
+    "Obvious exits: south, southwest, west"
+  ],
+  "location": "the sea caverns",
   "wayto": {
     "8208": "west",
     "8209": "south",
     "8211": "southwest"
   },
-  "paths": [
-    "Obvious exits: south, southwest, west"
-  ],
+  "timeto": {
+    "8208": 0.2,
+    "8209": 0.2,
+    "8211": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     580,
     235,
     590,
     245
   ],
-  "terrain": "indoors",
-  "description": [
-    "This is the northeast corner of the large chamber.  The piles of rags are so thick here, progress in any direction requires wading through them, stirring up a noxious stink."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Caverns, Sleeping Quarters]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8208": 0.2,
-    "8209": 0.2,
-    "8211": 0.2
-  },
-  "id": 8210,
-  "location": "the sea caverns",
   "tags": [
-    "red trafel mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "black hook mushroom",
-    "white hook mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "red trafel mushroom"
   ]
 }

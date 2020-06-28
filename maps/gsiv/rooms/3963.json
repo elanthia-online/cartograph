@@ -1,38 +1,28 @@
 {
+  "id": 3963,
+  "title": [
+    "[Abandoned Sewer]"
+  ],
+  "description": [
+    "You carefully pick your way around the bits and pieces of debris.  Just thinking about the nature of this debris makes you a bit nauseous.  The smell of the place is revolting, making matters even worse."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "3937": "east",
     "3964": "west"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "3937": 0.2,
+    "3964": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     558,
     490,
     568,
     500
-  ],
-  "terrain": "indoors",
-  "description": [
-    "You carefully pick your way around the bits and pieces of debris.  Just thinking about the nature of this debris makes you a bit nauseous.  The smell of the place is revolting, making matters even worse."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abandoned Sewer]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3937": 0.2,
-    "3964": 0.2
-  },
-  "id": 3963,
-  "location": "the catacombs",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

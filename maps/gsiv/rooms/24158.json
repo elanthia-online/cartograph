@@ -1,37 +1,25 @@
 {
-  "wayto": {
-    "24152": {
-      "stringproc": "ed4d935b7b38bde56a3024fd82dff85f"
-    },
-    "24159": {
-      "stringproc": "4bf150ec332bc5c8fbe02a4239d68de0"
-    }
-  },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Bits and pieces of debris bob in the eerie stillness of the underground lake.  The putrid scent of swamp gas rises from the water, a familiar smell of Feywrot Mire."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 24158,
   "title": [
     "[Necropolis, Underground Lake]"
   ],
-  "check_location": null,
+  "description": [
+    "Bits and pieces of debris bob in the eerie stillness of the underground lake.  The putrid scent of swamp gas rises from the water, a familiar smell of Feywrot Mire."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Feywrot Mire",
+  "wayto": {
+    "24152": {
+      "file": "string_procs/wayto/24158_24152.rb"
+    },
+    "24159": {
+      "file": "string_procs/wayto/24158_24159.rb"
+    }
+  },
   "timeto": {
     "24152": 0.2,
     "24159": 0.2
-  },
-  "id": 24158,
-  "location": "the Feywrot Mire",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  }
 }

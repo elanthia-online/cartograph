@@ -1,42 +1,32 @@
 {
+  "id": 7830,
+  "title": [
+    "[Glatoph, Ruins]"
+  ],
+  "description": [
+    "This is an intersection in a dull grey corridor.  There's a door on the east wall, and passages lead in three directions."
+  ],
+  "paths": [
+    "Obvious exits: north, south, west"
+  ],
+  "location": "Glatoph",
   "wayto": {
     "7843": "go door",
     "7828": "south",
     "7840": "west",
     "7829": "north"
   },
-  "paths": [
-    "Obvious exits: north, south, west"
-  ],
-  "image_coords": [
-    655,
-    492,
-    663,
-    502
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This is an intersection in a dull grey corridor.  There's a door on the east wall, and passages lead in three directions."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Glatoph, Ruins]"
-  ],
-  "check_location": null,
   "timeto": {
     "7843": 0.2,
     "7828": 0.2,
     "7840": 0.2,
     "7829": 0.2
   },
-  "id": 7830,
-  "location": "Glatoph",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-danjirland-1264234799.png",
+  "image_coords": [
+    655,
+    492,
+    663,
+    502
   ]
 }

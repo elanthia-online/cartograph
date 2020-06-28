@@ -1,40 +1,32 @@
 {
+  "id": 9885,
+  "title": [
+    "[Deep Forest, Path]"
+  ],
+  "description": [
+    "Trees grow so densely within the fastness of the forest, the origin of the boughs overhead is practically indistinguishable from one massive bole to the next.  The crisscrossed canopy shades everything beneath them with deep shadow.  Here and there, lacy-edged lichens frill the edge of a rock or up-thrust root with their ivory toned growth, casting a supernatural luminescence in the darkness."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the dark woods",
   "wayto": {
     "18803": {
-      "stringproc": "9530e7b353488450abf514d7328187a8"
+      "file": "string_procs/wayto/9885_18803.rb"
     },
     "13183": {
-      "stringproc": "9bf57bf3fda33e99abb00f61f6b4286d"
+      "file": "string_procs/wayto/9885_13183.rb"
     },
     "16956": {
-      "stringproc": "be97885db95624bceef2deaffc5e02c4"
+      "file": "string_procs/wayto/9885_16956.rb"
     },
     "16957": {
-      "stringproc": "3ec966178521e1f4be79cba045229179"
+      "file": "string_procs/wayto/9885_16957.rb"
     },
     "18896": "go forest",
     "9884": "south",
     "9886": "north"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
-  "image_coords": [
-    1044,
-    246,
-    1054,
-    256
-  ],
-  "terrain": "deciduous forest",
-  "description": [
-    "Trees grow so densely within the fastness of the forest, the origin of the boughs overhead is practically indistinguishable from one massive bole to the next.  The crisscrossed canopy shades everything beneath them with deep shadow.  Here and there, lacy-edged lichens frill the edge of a rock or up-thrust root with their ivory toned growth, casting a supernatural luminescence in the darkness."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Deep Forest, Path]"
-  ],
-  "check_location": null,
   "timeto": {
     "18803": 15.0,
     "13183": 15.0,
@@ -44,8 +36,13 @@
     "9884": 0.2,
     "9886": 0.2
   },
-  "id": 9885,
-  "location": "the dark woods",
+  "image": "en-sapphire-1264234799.png",
+  "image_coords": [
+    1044,
+    246,
+    1054,
+    256
+  ],
   "tags": [
     "some acantha leaf",
     "some torban leaf",
@@ -62,59 +59,6 @@
     "some basal moss",
     "some haphip root",
     "twisted twig",
-    "ebony twig",
-    "acantha leaf",
-    "torban leaf",
-    "calamia fruit",
-    "haphip root",
-    "basal moss",
-    "sticks",
-    "angelica root",
-    "trollfear mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "blueberries",
-    "elderberries",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "wild grapes",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "stalk of goldenrod",
-    "small wild rose",
-    "sprig of wild lilac",
-    "wild beechnut",
-    "stalk of burdock",
-    "silver-edged fern",
-    "wild chokecherry",
-    "lady slipper blossom",
-    "wild orchid",
-    "wood violet",
-    "wolfsbane root",
-    "sprig of mistletoe",
-    "tree bark",
-    "murkweed",
-    "white lily",
-    "pink rain lily",
-    "coppery rain lily",
-    "oxblood lily",
-    "blue whortleberry",
-    "white baneberry",
-    "yew twig",
-    "oak twig",
-    "murdroot",
-    "nightbloom blossom",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ebony twig"
   ]
 }

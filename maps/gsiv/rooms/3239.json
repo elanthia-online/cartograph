@@ -1,37 +1,34 @@
 {
+  "id": 3239,
+  "title": [
+    "[Ice Plains, Hill Base]"
+  ],
+  "description": [
+    "A small path leads towards the foothill and forks sharply here with another path heading north and a well-worn, wider path headed east.  A massive rolaren gate blocks the path to the east with solid, snow-covered stone walls on both sides of the gate."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "the Ice Plains",
   "wayto": {
     "3238": "go trail",
     "3240": "north",
     "3264": {
-      "stringproc": "0b4759fb574bec98fdf9b49dee4fb65b"
+      "file": "string_procs/wayto/3239_3264.rb"
     }
   },
-  "paths": [
-    "Obvious paths: north"
-  ],
+  "timeto": {
+    "3238": 0.2,
+    "3240": 0.2,
+    "3264": 1.0
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     149,
     586,
     159,
     596
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "A small path leads towards the foothill and forks sharply here with another path heading north and a well-worn, wider path headed east.  A massive rolaren gate blocks the path to the east with solid, snow-covered stone walls on both sides of the gate."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Ice Plains, Hill Base]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3238": 0.2,
-    "3240": 0.2,
-    "3264": 1.0
-  },
-  "id": 3239,
-  "location": "the Ice Plains",
   "tags": [
     "some angelica root",
     "some valerian root",
@@ -40,15 +37,6 @@
     "some pennyroyal stem",
     "winter rose",
     "some arctic moss",
-    "frostflower",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "arctic moss",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "frostflower"
   ]
 }

@@ -1,47 +1,34 @@
 {
-  "wayto": {
-    "4568": "up",
-    "4570": {
-      "stringproc": "395b361a16c8a355265cda519abf9fe5"
-    }
-  },
+  "id": 4569,
+  "title": [
+    "[Griffin's Keen, Inner Trail]"
+  ],
+  "description": [
+    "A rock overhang partially shelters this part of the trail.  A curve of moonlit snow dips below the edge of it like an apron.  This small protection from the constant wind has been noticed by other inhabitants of the area as evidenced by faint hoof prints in the dense snow underfoot.",
+    "A rock overhang partially shelters this part of the trail.  A curve of bright white snow dips below the edge of it like an apron.  This small protection from the constant wind has been noticed by other inhabitants of the area as evidenced by faint hoof prints in the dense snow underfoot."
+  ],
   "paths": [
     "Obvious paths: up, down"
   ],
+  "location": "Griffin's Keen",
+  "wayto": {
+    "4568": "up",
+    "4570": {
+      "file": "string_procs/wayto/4569_4570.rb"
+    }
+  },
+  "timeto": {
+    "4568": 0.2,
+    "4570": 4.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     610,
     231,
     620,
     241
   ],
-  "terrain": null,
-  "description": [
-    "A rock overhang partially shelters this part of the trail.  A curve of moonlit snow dips below the edge of it like an apron.  This small protection from the constant wind has been noticed by other inhabitants of the area as evidenced by faint hoof prints in the dense snow underfoot.",
-    "A rock overhang partially shelters this part of the trail.  A curve of bright white snow dips below the edge of it like an apron.  This small protection from the constant wind has been noticed by other inhabitants of the area as evidenced by faint hoof prints in the dense snow underfoot."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Griffin's Keen, Inner Trail]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4568": 0.2,
-    "4570": 4.2
-  },
-  "id": 4569,
-  "location": "Griffin's Keen",
   "tags": [
-    "sweetfern stalk",
-    "sassafras leaf",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "sprig of holly",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sweetfern stalk"
   ]
 }

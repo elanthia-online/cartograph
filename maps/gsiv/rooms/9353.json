@@ -1,33 +1,30 @@
 {
+  "id": 9353,
+  "title": [
+    "[Ravine]"
+  ],
+  "description": [
+    "A glance upwards reveals a steep drop from above to the rocky floor of the ravine.  The sides rise so high that most of the ravine is cast in total darkness.  A small stream trickles past, seemingly in no hurry to get anywhere, though the depth of the ravine attests that this was not always so."
+  ],
+  "paths": [
+    "Obvious paths: northwest"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "9352": "go entrance",
     "9354": "northwest"
   },
-  "paths": [
-    "Obvious paths: northwest"
-  ],
+  "timeto": {
+    "9352": 0.2,
+    "9354": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     1060,
     220,
     1072,
     232
   ],
-  "terrain": "riparian",
-  "description": [
-    "A glance upwards reveals a steep drop from above to the rocky floor of the ravine.  The sides rise so high that most of the ravine is cast in total darkness.  A small stream trickles past, seemingly in no hurry to get anywhere, though the depth of the ravine attests that this was not always so."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Ravine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9352": 0.2,
-    "9354": 0.2
-  },
-  "id": 9353,
-  "location": "the Cairnfang",
   "tags": [
     "sprig of wild lilac",
     "handful of currants",
@@ -63,10 +60,6 @@
     "murdroot",
     "wavepetal blossom",
     "ironfern root",
-    "talneo root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "talneo root"
   ]
 }

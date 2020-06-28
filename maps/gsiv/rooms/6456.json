@@ -1,42 +1,32 @@
 {
+  "id": 6456,
+  "title": [
+    "[Cavern, Stalagmite Forest]"
+  ],
+  "description": [
+    "Tall columns of limestone surge upward from floor to ceiling, mingling there with splendid formations of multicolored stalactites that drape like a magical canopy over this enchanting forest.  At the very highest point of the expansive ceiling, a large cluster of crystals have formed, and each flicker of light passing through the natural prisms splits into thin beams that dance across the cavern."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, southwest, northwest"
+  ],
+  "location": "the Lysierian Hills",
   "wayto": {
     "6454": "northwest",
     "6455": "southwest",
     "6451": "southeast",
     "6452": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southeast, southwest, northwest"
-  ],
-  "image_coords": [
-    1305,
-    160,
-    1315,
-    170
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Tall columns of limestone surge upward from floor to ceiling, mingling there with splendid formations of multicolored stalactites that drape like a magical canopy over this enchanting forest.  At the very highest point of the expansive ceiling, a large cluster of crystals have formed, and each flicker of light passing through the natural prisms splits into thin beams that dance across the cavern."
-  ],
-  "image": "wl-lysierian-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Cavern, Stalagmite Forest]"
-  ],
-  "check_location": null,
   "timeto": {
     "6454": 0.2,
     "6455": 0.2,
     "6451": 0.2,
     "6452": 0.2
   },
-  "id": 6456,
-  "location": "the Lysierian Hills",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-lysierian-1264234799.png",
+  "image_coords": [
+    1305,
+    160,
+    1315,
+    170
   ]
 }

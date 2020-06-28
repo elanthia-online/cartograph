@@ -1,33 +1,30 @@
 {
+  "id": 888,
+  "title": [
+    "[Whistler's Pass]"
+  ],
+  "description": [
+    "A few scraggly pine trees dot the landscape, their thin trunks rising from mounds of broken shale and windblown dust.  Each branch droops slightly, its surface sprouting small clusters of yellowing pine needles and its bark thin and wrinkled.  The base of each tree is surrounded by a shadow of drying needles."
+  ],
+  "paths": [
+    "Obvious paths: south, northwest"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "887": "northwest",
     "889": "south"
   },
-  "paths": [
-    "Obvious paths: south, northwest"
-  ],
+  "timeto": {
+    "887": 0.2,
+    "889": 0.2
+  },
+  "image": "en-whistlers_pass-1264234799.png",
   "image_coords": [
     718,
     1395,
     728,
     1405
   ],
-  "terrain": "mountainous",
-  "description": [
-    "A few scraggly pine trees dot the landscape, their thin trunks rising from mounds of broken shale and windblown dust.  Each branch droops slightly, its surface sprouting small clusters of yellowing pine needles and its bark thin and wrinkled.  The base of each tree is surrounded by a shadow of drying needles."
-  ],
-  "image": "en-whistlers_pass-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Whistler's Pass]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "887": 0.2,
-    "889": 0.2
-  },
-  "id": 888,
-  "location": "Whistler's Pass",
   "tags": [
     "marallis berry",
     "cuctucae berry",
@@ -42,10 +39,6 @@
     "cluster of butterflyweed",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

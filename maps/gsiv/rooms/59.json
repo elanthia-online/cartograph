@@ -1,34 +1,31 @@
 {
+  "id": 59,
+  "title": [
+    "[Whistler's Pass, Field]"
+  ],
+  "description": [
+    "Finger-like tendrils of mist extend towards the ground, permeating the area with moist, cool air.  The thick atmosphere and dark night obscure all of the surrounding territory.",
+    "Finger-like tendrils of mist extend towards the ground, permeating the area with moist, cool air.  The thick atmosphere hinders your vision of the far-off horizon."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "58": "north",
     "60": "southeast"
   },
-  "paths": [
-    "Obvious paths: north, southeast"
-  ],
+  "timeto": {
+    "58": 0.2,
+    "60": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     1037,
     424,
     1047,
     434
   ],
-  "terrain": "grassland",
-  "description": [
-    "Finger-like tendrils of mist extend towards the ground, permeating the area with moist, cool air.  The thick atmosphere and dark night obscure all of the surrounding territory.",
-    "Finger-like tendrils of mist extend towards the ground, permeating the area with moist, cool air.  The thick atmosphere hinders your vision of the far-off horizon."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Whistler's Pass, Field]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "58": 0.2,
-    "60": 0.2
-  },
-  "id": 59,
-  "location": "Whistler's Pass",
   "tags": [
     "some sovyn clove",
     "sprig of alyssum",
@@ -110,10 +107,6 @@
     "murdroot",
     "ironfern root",
     "nightbloom blossom",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

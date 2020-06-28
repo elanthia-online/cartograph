@@ -1,33 +1,30 @@
 {
+  "id": 11680,
+  "title": [
+    "[Ghastly Swamp, Foggy Path]"
+  ],
+  "description": [
+    "The thick fog reduces visiblity to the surrounding reeds, great brown and tan stalks that rise high over head and frame the twisting soggy pathway.  Muted screams from unknown inhabitants filter through the thick, white wall of mist that hides their origin and location.  Occasionally, something splashes through the water and mud just beyond the wall of reeds, drawing close, then fading away."
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest"
+  ],
+  "location": "the Marsh Keep",
   "wayto": {
     "11679": "northwest",
     "11681": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, northwest"
-  ],
+  "timeto": {
+    "11679": 0.2,
+    "11681": 0.2
+  },
+  "image": "rr-marsh_keep-1266356986.png",
   "image_coords": [
     97,
     1233,
     107,
     1243
   ],
-  "terrain": "muddy wetlands",
-  "description": [
-    "The thick fog reduces visiblity to the surrounding reeds, great brown and tan stalks that rise high over head and frame the twisting soggy pathway.  Muted screams from unknown inhabitants filter through the thick, white wall of mist that hides their origin and location.  Occasionally, something splashes through the water and mud just beyond the wall of reeds, drawing close, then fading away."
-  ],
-  "image": "rr-marsh_keep-1266356986.png",
-  "climate": "moist",
-  "title": [
-    "[Ghastly Swamp, Foggy Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11679": 0.2,
-    "11681": 0.2
-  },
-  "id": 11680,
-  "location": "the Marsh Keep",
   "tags": [
     "pink heliconia",
     "kylan berry",
@@ -50,21 +47,6 @@
     "some talneo root",
     "soft white mushroom",
     "orange heliconia",
-    "yellow heliconia",
-    "calamia fruit",
-    "aloeas stem",
-    "withered black mushroom",
-    "spider lily",
-    "alligator lily",
-    "murdroot",
-    "wavepetal blossom",
-    "bolmara lichen",
-    "talneo root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "yellow heliconia"
   ]
 }

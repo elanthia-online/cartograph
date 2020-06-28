@@ -1,42 +1,35 @@
 {
+  "id": 2392,
+  "title": [
+    "[Tavern Burrow, Pilsner Avenue]"
+  ],
+  "description": [
+    "In the shadow of the city's western wall stands a long workshop, its door propped open by an over-sized claidhmore.  Bright white walls contrast tastefully with the dark blue that trims the windows and the eaves, while new slate tiles defend the sloping roof from the elements.  Through an open window, the *clang* of metal on metal and an acrid smell of burning wood drift out onto the street.  A green and gold sign identifies the shop of Dalt Wineberry, one of the richest halflings in town."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "3453": "go door",
     "3454": "east",
     "2391": "north",
     "2393": "south"
   },
-  "paths": [
-    "Obvious paths: north, east, south"
-  ],
-  "image_coords": [
-    139,
-    1143,
-    175,
-    1179
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "In the shadow of the city's western wall stands a long workshop, its door propped open by an over-sized claidhmore.  Bright white walls contrast tastefully with the dark blue that trims the windows and the eaves, while new slate tiles defend the sloping roof from the elements.  Through an open window, the *clang* of metal on metal and an acrid smell of burning wood drift out onto the street.  A green and gold sign identifies the shop of Dalt Wineberry, one of the richest halflings in town."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Tavern Burrow, Pilsner Avenue]"
-  ],
-  "check_location": null,
   "timeto": {
     "3453": 0.2,
     "3454": 0.2,
     "2391": 0.2,
     "2393": 0.2
   },
-  "id": 2392,
-  "location": "Icemule Trace",
-  "tags": [
-    "calmintha flower",
-    "meta:forage-sensed"
+  "image": "imt-icemule-1474811966.png",
+  "image_coords": [
+    139,
+    1143,
+    175,
+    1179
   ],
-  "links": [
-
+  "tags": [
+    "calmintha flower"
   ]
 }

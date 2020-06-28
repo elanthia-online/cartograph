@@ -1,49 +1,32 @@
 {
-  "wayto": {
-    "11689": "go bank",
-    "11687": {
-      "stringproc": "530dd466014564af4d54e56550d87c48"
-    }
-  },
+  "id": 11688,
+  "title": [
+    "[Millah's Fen, Cold Stream]"
+  ],
+  "description": [
+    "A ruined cobbled road rises from the waters of the cold stream and ascends a nearby stream bank.  The tall reeds give way to smaller reeds and grasses that overwhelm the stream and prevent any further passage north.  A gnarled sycamore bends over the stream with pale white limbs draped in hanging moss."
+  ],
   "paths": [
     "Obvious paths: south"
   ],
+  "wayto": {
+    "11689": "go bank",
+    "11687": {
+      "file": "string_procs/wayto/11688_11687.rb"
+    }
+  },
+  "timeto": {
+    "11689": 0.2,
+    "11687": 0.2
+  },
+  "image": "rr-marsh_keep-1266356986.png",
   "image_coords": [
     278,
     967,
     288,
     977
   ],
-  "terrain": "riparian",
-  "description": [
-    "A ruined cobbled road rises from the waters of the cold stream and ascends a nearby stream bank.  The tall reeds give way to smaller reeds and grasses that overwhelm the stream and prevent any further passage north.  A gnarled sycamore bends over the stream with pale white limbs draped in hanging moss."
-  ],
-  "image": "rr-marsh_keep-1266356986.png",
-  "climate": "freshwater",
-  "title": [
-    "[Millah's Fen, Cold Stream]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11689": 0.2,
-    "11687": 0.2
-  },
-  "id": 11688,
-  "location": "the Marsh Keep",
   "tags": [
-    "blue water lily",
-    "aloeas stem",
-    "wild gooseberry",
-    "water chestnut",
-    "stalk of cattail",
-    "white water lily",
-    "yellow water lily",
-    "pink water lily",
-    "murdroot",
-    "wavepetal blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "blue water lily"
   ]
 }

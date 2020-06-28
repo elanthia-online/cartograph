@@ -1,37 +1,25 @@
 {
+  "id": 24088,
+  "title": [
+    "[Necropolis, Hall of the Dead]"
+  ],
+  "description": [
+    "Upon the moss-covered limestone walls, shallow niches house a number of sarcophagi.  Iron sconces give off a pale green illumination, giving the hall an eerie presence.  Smeared trails of blood and gore lead in every direction.  Lengths of tattered cloth are scattered across the floor."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest"
+  ],
+  "location": "the Feywrot Mire",
   "wayto": {
     "24092": {
-      "stringproc": "98c0f9e586c84e6f6267520af9501db9"
+      "file": "string_procs/wayto/24088_24092.rb"
     },
     "24089": "southeast",
     "24091": "southwest"
   },
-  "paths": [
-    "Obvious exits: southeast, southwest"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Upon the moss-covered limestone walls, shallow niches house a number of sarcophagi.  Iron sconces give off a pale green illumination, giving the hall an eerie presence.  Smeared trails of blood and gore lead in every direction.  Lengths of tattered cloth are scattered across the floor."
-  ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Necropolis, Hall of the Dead]"
-  ],
-  "check_location": null,
   "timeto": {
     "24092": 0.2,
     "24089": 0.2,
     "24091": 0.2
-  },
-  "id": 24088,
-  "location": "the Feywrot Mire",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  }
 }

@@ -1,53 +1,39 @@
 {
+  "id": 9463,
+  "title": [
+    "[Mraent Cavern, Garnet Mine]"
+  ],
+  "description": [
+    "The walls of this small mine remain studded with almandine garnets, despite the pockmarks that show where gems have been pried from the black and grey gneiss.  A thin layer of flaky stone covers one corner of the floor like dust."
+  ],
+  "paths": [
+    "Obvious exits: northeast, west"
+  ],
+  "location": "the Mraent Caverns",
   "wayto": {
     "9462": "northeast",
     "9464": "west",
     "9465": {
-      "stringproc": "09eba86b362f7550a2b920627d00cfa7"
+      "file": "string_procs/wayto/9463_9465.rb"
     }
   },
-  "paths": [
-    "Obvious exits: northeast, west"
-  ],
+  "timeto": {
+    "9462": 0.2,
+    "9464": 0.2,
+    "9465": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     357,
     279,
     367,
     289
   ],
-  "terrain": "indoors",
-  "description": [
-    "The walls of this small mine remain studded with almandine garnets, despite the pockmarks that show where gems have been pried from the black and grey gneiss.  A thin layer of flaky stone covers one corner of the floor like dust."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mraent Cavern, Garnet Mine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9462": 0.2,
-    "9464": 0.2,
-    "9465": 0.2
-  },
-  "id": 9463,
-  "location": "the Mraent Caverns",
   "tags": [
     "red trafel mushroom",
     "giant glowing toadstool",
     "some wingstem root",
     "withered black mushroom",
-    "soft white mushroom",
-    "black hook mushroom",
-    "blue trafel mushroom",
-    "glowing toadstool",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "soft white mushroom"
   ]
 }

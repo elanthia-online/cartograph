@@ -1,40 +1,30 @@
 {
+  "id": 12755,
+  "title": [
+    "[Ruined Temple, Second Floor]"
+  ],
+  "description": [
+    "Dense smoke stains mar the walls and ceiling as it continues onward, and a portion of the northern wall has collapsed.  An iron sconce hangs on the southern wall, nearly rusted to the point of collapse."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east, west"
+  ],
+  "location": "the Ruined Temple",
   "wayto": {
     "12756": "northeast",
     "12760": "east",
     "12754": "west"
   },
-  "paths": [
-    "Obvious exits: northeast, east, west"
-  ],
-  "image_coords": [
-    743,
-    303,
-    779,
-    339
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Dense smoke stains mar the walls and ceiling as it continues onward, and a portion of the northern wall has collapsed.  An iron sconce hangs on the southern wall, nearly rusted to the point of collapse."
-  ],
-  "image": "ti-nelemar-1262373036.png",
-  "climate": "indoors",
-  "title": [
-    "[Ruined Temple, Second Floor]"
-  ],
-  "check_location": null,
   "timeto": {
     "12756": 0.2,
     "12760": 0.2,
     "12754": 0.2
   },
-  "id": 12755,
-  "location": "the Ruined Temple",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "ti-nelemar-1262373036.png",
+  "image_coords": [
+    743,
+    303,
+    779,
+    339
   ]
 }

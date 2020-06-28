@@ -1,43 +1,36 @@
 {
+  "id": 16804,
+  "title": [
+    "[Hall of the Dead, Debtors Vault]"
+  ],
+  "description": [
+    "More of the wall has been carved to hold the dead, and the rock from the excavation litters the floor from the new drilling going on.  Looking into the notches you notice that all of the crypts are empty."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "4171": "south",
     "16803": "east"
   },
-  "paths": [
-    "Obvious exits: east, south"
-  ],
+  "timeto": {
+    "4171": 0.2,
+    "16803": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     886,
     808,
     896,
     818
   ],
-  "terrain": "indoors",
-  "description": [
-    "More of the wall has been carved to hold the dead, and the rock from the excavation litters the floor from the new drilling going on.  Looking into the notches you notice that all of the crypts are empty."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Hall of the Dead, Debtors Vault]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4171": 0.2,
-    "16803": 0.2
-  },
-  "id": 16804,
-  "location": "the Graveyard",
   "tags": [
     "wolifrew lichen",
     "withered black mushroom",
     "cave moss",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

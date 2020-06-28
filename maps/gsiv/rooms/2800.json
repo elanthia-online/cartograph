@@ -1,33 +1,30 @@
 {
+  "id": 2800,
+  "title": [
+    "[A Silent Path]"
+  ],
+  "description": [
+    "A large stone cuts the path in two, its surface mottled and dark against the background of misty snow.  Lichens trace a pattern of fancy lace over it, as delicate and fine as the flakes of snow powdering the rock.  The canopy of trees is especially thick overhead, as though they are grouped above the boulder like a curious crowd of giants."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest"
+  ],
+  "location": "the Pinefar Trading Post",
   "wayto": {
     "2799": "southeast",
     "2801": "southwest"
   },
-  "paths": [
-    "Obvious paths: southeast, southwest"
-  ],
+  "timeto": {
+    "2799": 0.2,
+    "2801": 0.2
+  },
+  "image": "imt-pinefar-1264234799.png",
   "image_coords": [
     181,
     898,
     191,
     908
   ],
-  "terrain": "missing",
-  "description": [
-    "A large stone cuts the path in two, its surface mottled and dark against the background of misty snow.  Lichens trace a pattern of fancy lace over it, as delicate and fine as the flakes of snow powdering the rock.  The canopy of trees is especially thick overhead, as though they are grouped above the boulder like a curious crowd of giants."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[A Silent Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2799": 0.2,
-    "2801": 0.2
-  },
-  "id": 2800,
-  "location": "the Pinefar Trading Post",
   "tags": [
     "some wyrmwood bark",
     "crowberry",
@@ -76,11 +73,6 @@
     "twisted twig",
     "slender twig",
     "bolmara lichen",
-    "brostheras grass",
-    "wyrmwood bark",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

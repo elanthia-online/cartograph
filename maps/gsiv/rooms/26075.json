@@ -1,34 +1,25 @@
 {
-  "wayto": {
-    "26076": {
-      "stringproc": "2be5e1713fd441fb9d96ee2c6b6c09c0"
-    },
-    "26074": {
-      "stringproc": "b0be0d51fa1a6a17201f92c65e8511c2"
-    }
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Housed within patterns that alternate between frenzied whorls and even, tidy lines, the three murals that occupy the walls in this chamber are wildly different from each other.  Where one is a study of order, another is rife with chaotic destruction, and the third bears a cold indifference in the lines of its imagery.  The warm illumination that spreads across the floor is borrowed from the stairs that leads upward, while only a faint reddish glow rises from the downward spiraling stairs."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 26075,
   "title": [
     "[Zul Logoth, Ancient Passage]"
   ],
-  "check_location": null,
+  "description": [
+    "Housed within patterns that alternate between frenzied whorls and even, tidy lines, the three murals that occupy the walls in this chamber are wildly different from each other.  Where one is a study of order, another is rife with chaotic destruction, and the third bears a cold indifference in the lines of its imagery.  The warm illumination that spreads across the floor is borrowed from the stairs that leads upward, while only a faint reddish glow rises from the downward spiraling stairs."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Zul Logoth",
+  "wayto": {
+    "26076": {
+      "file": "string_procs/wayto/26075_26076.rb"
+    },
+    "26074": {
+      "file": "string_procs/wayto/26075_26074.rb"
+    }
+  },
   "timeto": {
     "26076": 12.0,
     "26074": 24.0
-  },
-  "id": 26075,
-  "location": "Zul Logoth",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  }
 }

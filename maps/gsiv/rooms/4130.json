@@ -1,38 +1,28 @@
 {
+  "id": 4130,
+  "title": [
+    "[Glatoph, Lava Pool]"
+  ],
+  "description": [
+    "You feel a strong, hot breeze here.  Looking around, you see a hole far above your head, about twice as far up the wall as you could hope to reach.  The lava below glows a brighter orange, stimulated by the rushing air."
+  ],
+  "paths": [
+    "Obvious exits: south, northwest"
+  ],
+  "location": "Glatoph",
   "wayto": {
     "4129": "south",
     "4131": "northwest"
   },
-  "paths": [
-    "Obvious exits: south, northwest"
-  ],
+  "timeto": {
+    "4129": 0.2,
+    "4131": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     294,
     410,
     304,
     420
-  ],
-  "terrain": "indoors",
-  "description": [
-    "You feel a strong, hot breeze here.  Looking around, you see a hole far above your head, about twice as far up the wall as you could hope to reach.  The lava below glows a brighter orange, stimulated by the rushing air."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Glatoph, Lava Pool]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4129": 0.2,
-    "4131": 0.2
-  },
-  "id": 4130,
-  "location": "Glatoph",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

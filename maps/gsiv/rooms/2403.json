@@ -1,40 +1,33 @@
 {
+  "id": 2403,
+  "title": [
+    "[Tavern Burrow, Malt Road]"
+  ],
+  "description": [
+    "The cobblestones of Malt Road are new enough to still have sharp edges.  Merrily whistling a tune, a delivery boy pushes along a cart with some oak casks on it.  The wheel of the cart just catches on the edge of a cobble, but the boy manages to right the cart before losing any cargo."
+  ],
+  "paths": [
+    "Obvious paths: north, east"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "2402": "north",
     "2404": "east",
     "2406": "go cottage"
   },
-  "paths": [
-    "Obvious paths: north, east"
-  ],
+  "timeto": {
+    "2402": 0.2,
+    "2404": 0.2,
+    "2406": 0.2
+  },
+  "image": "imt-icemule-1474811966.png",
   "image_coords": [
     227,
     966,
     263,
     1002
   ],
-  "terrain": "hard, flat",
-  "description": [
-    "The cobblestones of Malt Road are new enough to still have sharp edges.  Merrily whistling a tune, a delivery boy pushes along a cart with some oak casks on it.  The wheel of the cart just catches on the edge of a cobble, but the boy manages to right the cart before losing any cargo."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Tavern Burrow, Malt Road]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2402": 0.2,
-    "2404": 0.2,
-    "2406": 0.2
-  },
-  "id": 2403,
-  "location": "Icemule Trace",
   "tags": [
-    "calmintha flower",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "calmintha flower"
   ]
 }

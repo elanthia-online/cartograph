@@ -1,45 +1,35 @@
 {
-  "wayto": {
-    "183": "southwest",
-    "726": "northeast",
-    "29": "northwest",
-    "31": "south"
-  },
-  "paths": [
-    "Obvious paths: northeast, south, southwest, northwest"
+  "id": 30,
+  "title": [
+    "[Ta'Illistim, Stearriza Var]"
   ],
-  "image_coords": [
-    1353,
-    736,
-    1376,
-    757
-  ],
-  "terrain": "hard, flat",
   "description": [
     "The pitched roof of a nearby cottage slopes gently towards its stonework support, the roof tiles carefully laid atop one another in neat rows.  A large bougainvillea, its slender boughs laden with deep pink blossoms, drapes itself gently over one end of the cottage.",
     "The domed roof of a nearby house is a shiny sapphire blue, its tiles carefully laid against one another in neat rows.  A large cluster of climbing vines, laden with tightly closed white roses, drapes itself gently over one end of the building.",
     "The domed roof of a nearby house is a shiny sapphire blue, its tiles carefully laid against one another in neat rows.  A large cluster of climbing vines, laden with blooming white roses, drapes itself gently over one end of the building.",
     "The domed roof of a nearby house is a shiny sapphire blue, its tiles carefully laid against one another in neat rows.  A large cluster of climbing vines, laden with tightly closed white roses, drapes itself gently over one end of the building.  A cobblestone path leads east towards a large marble tower."
   ],
-  "image": "en-ta_illistim-new.jpg",
-  "climate": "temperate",
-  "title": [
-    "[Ta'Illistim, Stearriza Var]"
+  "paths": [
+    "Obvious paths: northeast, south, southwest, northwest"
   ],
-  "check_location": null,
+  "location": "Ta'Illistim",
+  "wayto": {
+    "183": "southwest",
+    "726": "northeast",
+    "29": "northwest",
+    "31": "south"
+  },
   "timeto": {
     "183": 0.2,
     "726": 0.2,
     "29": 0.2,
     "31": 0.2
   },
-  "id": 30,
-  "location": "Ta'Illistim",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-ta_illistim-new.jpg",
+  "image_coords": [
+    1353,
+    736,
+    1376,
+    757
   ]
 }

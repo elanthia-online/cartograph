@@ -1,46 +1,30 @@
 {
-  "wayto": {
-    "4604": {
-      "stringproc": "395b361a16c8a355265cda519abf9fe5"
-    },
-    "4606": "northeast"
-  },
+  "id": 4605,
+  "title": [
+    "[Griffin's Keen, Ruby Point]"
+  ],
+  "description": [
+    "Above, a jagged red peak looks close enough to touch.  Fierce wind streaming down the mountainside makes it difficult to stay on the trail, and the climb from here is very steep."
+  ],
   "paths": [
     "Obvious paths: northeast, down"
   ],
+  "location": "Griffin's Keen",
+  "wayto": {
+    "4604": {
+      "file": "string_procs/wayto/4605_4604.rb"
+    },
+    "4606": "northeast"
+  },
+  "timeto": {
+    "4604": 4.2,
+    "4606": 0.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     691,
     168,
     701,
     178
-  ],
-  "terrain": null,
-  "description": [
-    "Above, a jagged red peak looks close enough to touch.  Fierce wind streaming down the mountainside makes it difficult to stay on the trail, and the climb from here is very steep."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Griffin's Keen, Ruby Point]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4604": 4.2,
-    "4606": 0.2
-  },
-  "id": 4605,
-  "location": "Griffin's Keen",
-  "tags": [
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "sprig of holly",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

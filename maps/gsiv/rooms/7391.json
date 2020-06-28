@@ -1,43 +1,32 @@
 {
+  "id": 7391,
+  "title": [
+    "[Mine Shaft]"
+  ],
+  "description": [
+    "Something about this part of the shaft sends a chill down your spine.  Warily looking about the area, you find the source of the uneasiness.  Embedded into the walls are the skeletal remains of several unfortunate former humanoids.  From this vantage point you cannot quite make out their race."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7390": "west",
     "7392": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "7390": 0.2,
+    "7392": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1386,
     339,
     1394,
     347
   ],
-  "terrain": "indoors",
-  "description": [
-    "Something about this part of the shaft sends a chill down your spine.  Warily looking about the area, you find the source of the uneasiness.  Embedded into the walls are the skeletal remains of several unfortunate former humanoids.  From this vantage point you cannot quite make out their race."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mine Shaft]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7390": 0.2,
-    "7392": 0.2
-  },
-  "id": 7391,
-  "location": "the Shadow Valley",
   "tags": [
     "some blue moss",
-    "some cave moss",
-    "cave moss",
-    "blackgrove root",
-    "shadowlace moss",
-    "blue moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

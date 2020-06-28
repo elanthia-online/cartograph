@@ -1,49 +1,37 @@
 {
+  "id": 7736,
+  "title": [
+    "[Mossy Caverns, Cave]"
+  ],
+  "description": [
+    "The ground levels out here and a large cave opens before you.  Glowing moss grows from the ceiling and walls, bathing the entire area in a soft yellow light.  A pair of side passages lead out of the cave, one to the southeast and the other to the southwest."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast, southwest"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "7735": "north",
     "7737": "southeast",
     "7742": "southwest"
   },
-  "paths": [
-    "Obvious exits: north, southeast, southwest"
-  ],
+  "timeto": {
+    "7735": 0.2,
+    "7737": 0.2,
+    "7742": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     947,
     1100,
     957,
     1110
   ],
-  "terrain": "indoors",
-  "description": [
-    "The ground levels out here and a large cave opens before you.  Glowing moss grows from the ceiling and walls, bathing the entire area in a soft yellow light.  A pair of side passages lead out of the cave, one to the southeast and the other to the southwest."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mossy Caverns, Cave]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7735": 0.2,
-    "7737": 0.2,
-    "7742": 0.2
-  },
-  "id": 7736,
-  "location": "the Coastal Cliffs",
   "tags": [
     "some cave moss",
     "black trafel mushroom",
     "some bur-clover root",
     "some pothinir grass",
-    "withered black mushroom",
-    "pothinir grass",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "withered black mushroom"
   ]
 }

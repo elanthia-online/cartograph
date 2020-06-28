@@ -1,40 +1,30 @@
 {
-  "wayto": {
-    "13": "north",
-    "211": "south"
-  },
-  "paths": [
-    "Obvious paths: north, south"
+  "id": 635,
+  "title": [
+    "[Ta'Illistim, Aelis Var]"
   ],
-  "image_coords": [
-    589,
-    619,
-    612,
-    638
-  ],
-  "terrain": "hard, flat",
   "description": [
     "The tree-lined cobblestone widens considerably as it meets Erissian Var.  The ancient and imposing facade of the city's bank stands to the north, awash in moonlight as it has been for nights untold, and testament to the lasting nature of the elven culture.",
     "The tree-lined cobblestone widens considerably as it meets Erissian Var.  The ancient and imposing facade of the city's bank stands to the north, testament to the lasting nature of the elven culture.",
     "The tree-lined cobblestoned road widens considerably as it meets Erissian Var.  The ancient and imposing facade of the city's bank stands to the north across Ta'Illistim Green, testament to the lasting nature of the elven culture and the continued importance of elven commerce."
   ],
-  "image": "en-ta_illistim-new.jpg",
-  "climate": "temperate",
-  "title": [
-    "[Ta'Illistim, Aelis Var]"
+  "paths": [
+    "Obvious paths: north, south"
   ],
-  "check_location": null,
+  "location": "Ta'Illistim",
+  "wayto": {
+    "13": "north",
+    "211": "south"
+  },
   "timeto": {
     "13": 0.2,
     "211": 0.2
   },
-  "id": 635,
-  "location": "Ta'Illistim",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-ta_illistim-new.jpg",
+  "image_coords": [
+    589,
+    619,
+    612,
+    638
   ]
 }

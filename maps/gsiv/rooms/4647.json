@@ -1,41 +1,33 @@
 {
+  "id": 4647,
+  "title": [
+    "[Gaertira's Herbs]"
+  ],
+  "description": [
+    "Colorfully-painted planters brimming with fresh herbs and flowers are supported by wooden poles that are evenly spaced around this open-air platform.  The numerous fragrances of this tiny treetop garden mingle together into a delightful harmony of aroma.  A modwir counter has been topped off with a granite slab, serving as a worktable for creating tinctures, tonics, and other healing concoctions."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south"
+  ],
+  "location": "Cysaegir",
   "wayto": {
     "4645": "north",
     "4648": "east",
     "4649": "south"
   },
-  "paths": [
-    "Obvious exits: north, east, south"
-  ],
+  "timeto": {
+    "4645": 0.2,
+    "4648": 0.2,
+    "4649": 0.2
+  },
+  "image": "en-cysaegir-1264234799.png",
   "image_coords": [
     677,
     712,
     713,
     748
   ],
-  "terrain": "indoors",
-  "description": [
-    "Colorfully-painted planters brimming with fresh herbs and flowers are supported by wooden poles that are evenly spaced around this open-air platform.  The numerous fragrances of this tiny treetop garden mingle together into a delightful harmony of aroma.  A modwir counter has been topped off with a granite slab, serving as a worktable for creating tinctures, tonics, and other healing concoctions."
-  ],
-  "image": "en-cysaegir-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Gaertira's Herbs]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4645": 0.2,
-    "4648": 0.2,
-    "4649": 0.2
-  },
-  "id": 4647,
-  "location": "Cysaegir",
   "tags": [
-    "herbalist",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "herbalist"
   ]
 }

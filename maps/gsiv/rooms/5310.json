@@ -1,41 +1,33 @@
 {
+  "id": 5310,
+  "title": [
+    "[Deep Woods, Ruined Temple]"
+  ],
+  "description": [
+    "The remains of a marble arch have fallen about the floor.  The ceiling sags dangerously, bereft of its support, held in place only by the interloping branches of a pine outside.  Melted wax has spilled over the walls, spattered by candles set in the mangled gold candelabras that lean there."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, west"
+  ],
+  "location": "the deep woods",
   "wayto": {
     "5697": "southeast",
     "5309": "northeast",
     "5311": "west"
   },
-  "paths": [
-    "Obvious exits: northeast, southeast, west"
-  ],
+  "timeto": {
+    "5697": 0.2,
+    "5309": 0.2,
+    "5311": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     1234,
     278,
     1242,
     286
   ],
-  "terrain": "indoors",
-  "description": [
-    "The remains of a marble arch have fallen about the floor.  The ceiling sags dangerously, bereft of its support, held in place only by the interloping branches of a pine outside.  Melted wax has spilled over the walls, spattered by candles set in the mangled gold candelabras that lean there."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Deep Woods, Ruined Temple]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5697": 0.2,
-    "5309": 0.2,
-    "5311": 0.2
-  },
-  "id": 5310,
-  "location": "the deep woods",
   "tags": [
-    "vesperti",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "vesperti"
   ]
 }

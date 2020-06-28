@@ -1,35 +1,23 @@
 {
-  "wayto": {
-    "20348": {
-      "stringproc": "6e51dbd9bddf0263d934f0a33078b679"
-    },
-    "23147": "east"
-  },
-  "paths": [
-    "Obvious paths: east"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Within this secluded fen, the chirping of frogs is nearly the only sound to be heard as the surrounding trees block much of the artifical noise from the grounds beyond.  A break in the tree cover offers a glimpse of the sky overhead, and random clumps of thick grasses rise from the mire here and there along the path.  Nearby is an abandoned bird nest cradled in the fork of some tree branches, and further along is a woven basket hanging from a mossy tree limb."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 23146,
   "title": [
     "[Savagery, Tree-Shrouded Morass]"
   ],
-  "check_location": null,
+  "description": [
+    "Within this secluded fen, the chirping of frogs is nearly the only sound to be heard as the surrounding trees block much of the artifical noise from the grounds beyond.  A break in the tree cover offers a glimpse of the sky overhead, and random clumps of thick grasses rise from the mire here and there along the path.  Nearby is an abandoned bird nest cradled in the fork of some tree branches, and further along is a woven basket hanging from a mossy tree limb."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": false,
+  "wayto": {
+    "20348": {
+      "file": "string_procs/wayto/23146_20348.rb"
+    },
+    "23147": "east"
+  },
   "timeto": {
     "20348": 0.2,
     "23147": 0.2
-  },
-  "id": 23146,
-  "location": false,
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  }
 }

@@ -1,35 +1,32 @@
 {
+  "id": 9348,
+  "title": [
+    "[Abandoned Village]"
+  ],
+  "description": [
+    "A single building sits here, its ivy-wreathed walls still standing, though the roof is long gone.  Patches of color to either side of the ruined doorway show where flowerbeds may once have been, though they are quite overgrown."
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "9349": "go doorway",
     "9350": "northwest",
     "9347": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, northwest"
-  ],
+  "timeto": {
+    "9349": 0.2,
+    "9350": 0.2,
+    "9347": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     1161,
     272,
     1173,
     284
   ],
-  "terrain": "grassland",
-  "description": [
-    "A single building sits here, its ivy-wreathed walls still standing, though the roof is long gone.  Patches of color to either side of the ruined doorway show where flowerbeds may once have been, though they are quite overgrown."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Abandoned Village]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9349": 0.2,
-    "9350": 0.2,
-    "9347": 0.2
-  },
-  "id": 9348,
-  "location": "the Cairnfang",
   "tags": [
     "handful of raspberries",
     "acantha leaf",
@@ -83,10 +80,6 @@
     "wavepetal blossom",
     "ironfern root",
     "nightbloom blossom",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

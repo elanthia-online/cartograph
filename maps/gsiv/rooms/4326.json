@@ -1,43 +1,28 @@
 {
+  "id": 4326,
+  "title": [
+    "[Mine]"
+  ],
+  "description": [
+    "The passage is well shorn with timbers but the ceiling is low compared to the other passages.  You notice an odd stench that has not been present in the rest of this mine."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the crystal caves",
   "wayto": {
     "4325": "south",
     "4327": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "4325": 0.2,
+    "4327": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     677,
     472,
     687,
     482
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The passage is well shorn with timbers but the ceiling is low compared to the other passages.  You notice an odd stench that has not been present in the rest of this mine."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4325": 0.2,
-    "4327": 0.2
-  },
-  "id": 4326,
-  "location": "the crystal caves",
-  "tags": [
-    "wolifrew lichen",
-    "withered black mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

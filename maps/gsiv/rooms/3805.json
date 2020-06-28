@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "3714": "go door"
-  },
+  "id": 3805,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "A lone set of rusted shackles still hangs from the wall of this dungeon cell.  The drab grey walls are dotted with patches of mold that give off a peculiar sour odor.  A heavy iron door appears to be the only exit from this dank room."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "Darkstone Castle",
+  "wayto": {
+    "3714": "go door"
+  },
+  "timeto": {
+    "3714": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     202,
     1234,
     212,
     1244
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A lone set of rusted shackles still hangs from the wall of this dungeon cell.  The drab grey walls are dotted with patches of mold that give off a peculiar sour odor.  A heavy iron door appears to be the only exit from this dank room."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3714": 0.2
-  },
-  "id": 3805,
-  "location": "Darkstone Castle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

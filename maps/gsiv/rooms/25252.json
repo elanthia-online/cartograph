@@ -1,35 +1,28 @@
 {
+  "id": 25252,
+  "title": [
+    "[Sanctum Tower, Second Floor]"
+  ],
+  "description": [
+    "Shadows drape a lacy fan of darkness over of the stony hallway, despite the addition of several copper-crested sconces burning tallow candles in the far corners.  A frenzy of primitive drawings done in brown iron gall ink are scrawled over the floor and threshold leading to the isolated balcony to the southwest."
+  ],
+  "paths": [
+    "Obvious exits: north, southwest"
+  ],
+  "location": "the shadow of the Sanctum",
   "wayto": {
     "25251": "north",
     "25253": "southwest"
   },
-  "paths": [
-    "Obvious exits: north, southwest"
-  ],
+  "timeto": {
+    "25251": 0.2,
+    "25253": 0.2
+  },
+  "image": "sanctum-1474169333.png",
   "image_coords": [
     231,
     316,
     246,
     331
-  ],
-  "terrain": null,
-  "description": [
-    "Shadows drape a lacy fan of darkness over of the stony hallway, despite the addition of several copper-crested sconces burning tallow candles in the far corners.  A frenzy of primitive drawings done in brown iron gall ink are scrawled over the floor and threshold leading to the isolated balcony to the southwest."
-  ],
-  "image": "sanctum-1474169333.png",
-  "climate": null,
-  "title": [
-    "[Sanctum Tower, Second Floor]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "25251": 0.2,
-    "25253": 0.2
-  },
-  "id": 25252,
-  "location": "the shadow of the Sanctum",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

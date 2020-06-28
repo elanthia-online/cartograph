@@ -1,35 +1,32 @@
 {
+  "id": 3717,
+  "title": [
+    "[Darkstone, Winding Tunnel]"
+  ],
+  "description": [
+    "A subtle change in the atmosphere brings an eerie silence to your ears.  The tunnel begins to slope downward and splits off into two directions.  Traces of blood mark the path to the southeast."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, west"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "3718": "northeast",
     "3819": "southeast",
     "3703": "west"
   },
-  "paths": [
-    "Obvious exits: northeast, southeast, west"
-  ],
+  "timeto": {
+    "3718": 0.2,
+    "3819": 0.2,
+    "3703": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     596,
     1215,
     606,
     1225
   ],
-  "terrain": "indoors",
-  "description": [
-    "A subtle change in the atmosphere brings an eerie silence to your ears.  The tunnel begins to slope downward and splits off into two directions.  Traces of blood mark the path to the southeast."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Winding Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3718": 0.2,
-    "3819": 0.2,
-    "3703": 0.2
-  },
-  "id": 3717,
-  "location": "Darkstone Castle",
   "tags": [
     "some cave moss",
     "withered black mushroom",
@@ -40,15 +37,6 @@
     "red trafel mushroom",
     "white hook mushroom",
     "black hook mushroom",
-    "massive troll king",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "massive troll king"
   ]
 }

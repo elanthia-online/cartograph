@@ -1,38 +1,28 @@
 {
+  "id": 13985,
+  "title": [
+    "[Castle Varunar, Barbican]"
+  ],
+  "description": [
+    "The stone barbican surrounds you, with a massive portcullis standing at each end.  The walls are covered with scorching and brownish stains that might be blood.  Above you, numerous murder holes have been cut into the ceiling and you can imagine the destruction that might have rained down on any invader unlucky enough to find themselves trapped between the closed gates.  To the north you see the inner drawbridge spanning the castle moat.  To the south you see the outer drawbridge."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "Castle Varunar",
   "wayto": {
     "13986": "go drawbridge",
     "13984": "south"
   },
-  "paths": [
-    "Obvious paths: south"
-  ],
+  "timeto": {
+    "13986": 0.2,
+    "13984": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     656,
     512,
     666,
     522
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "The stone barbican surrounds you, with a massive portcullis standing at each end.  The walls are covered with scorching and brownish stains that might be blood.  Above you, numerous murder holes have been cut into the ceiling and you can imagine the destruction that might have rained down on any invader unlucky enough to find themselves trapped between the closed gates.  To the north you see the inner drawbridge spanning the castle moat.  To the south you see the outer drawbridge."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Castle Varunar, Barbican]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "13986": 0.2,
-    "13984": 0.2
-  },
-  "id": 13985,
-  "location": "Castle Varunar",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

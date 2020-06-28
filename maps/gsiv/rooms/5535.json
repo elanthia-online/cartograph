@@ -1,43 +1,35 @@
 {
+  "id": 5535,
+  "title": [
+    "[Manor House, East Entryway]"
+  ],
+  "description": [
+    "Unadorned woodwork surrounds the maoral door that is the eastern entrance to the manor house.  Doorways leading to the north and south provide ready access to the manor's laundry and kitchen respectively.  A wide corridor runs to the west, with doors leading off of it and the manor's western entryway visible at the far end.  The inlaid pattern of the wooden floor has warped and discolored, but the plaster of the walls and ceiling is still intact."
+  ],
+  "paths": [
+    "Obvious exits: north, south, west"
+  ],
+  "location": "the Outlands",
   "wayto": {
     "5532": "go door",
     "5546": "north",
     "5547": "south",
     "5548": "west"
   },
-  "paths": [
-    "Obvious exits: north, south, west"
-  ],
-  "image_coords": [
-    1181,
-    628,
-    1191,
-    638
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Unadorned woodwork surrounds the maoral door that is the eastern entrance to the manor house.  Doorways leading to the north and south provide ready access to the manor's laundry and kitchen respectively.  A wide corridor runs to the west, with doors leading off of it and the manor's western entryway visible at the far end.  The inlaid pattern of the wooden floor has warped and discolored, but the plaster of the walls and ceiling is still intact."
-  ],
-  "image": "vo-outlands-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Manor House, East Entryway]"
-  ],
-  "check_location": null,
   "timeto": {
     "5532": 0.2,
     "5546": 0.2,
     "5547": 0.2,
     "5548": 0.2
   },
-  "id": 5535,
-  "location": "the Outlands",
-  "tags": [
-    "dobrem",
-    "no forageables",
-    "meta:forage-sensed"
+  "image": "vo-outlands-1264234799.png",
+  "image_coords": [
+    1181,
+    628,
+    1191,
+    638
   ],
-  "links": [
-
+  "tags": [
+    "dobrem"
   ]
 }

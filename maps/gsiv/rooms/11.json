@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "9": "out"
-  },
+  "id": 11,
+  "title": [
+    "[United Bank of City-States]"
+  ],
+  "description": [
+    "Rich wine-hued brocade draperies cover the walls of the small teller's room, leaving one to wonder who might be watching from behind.  The rich blue carpeting underfoot muffles the sound of movement as patrons conduct their business in hushed tones and move back out into the lobby.  The teller sits behind a tall counter, flanked by two elven guards."
+  ],
   "paths": [
     "Obvious exits: out"
   ],
+  "location": "Ta'Illistim",
+  "wayto": {
+    "9": "out"
+  },
+  "timeto": {
+    "9": 0.2
+  },
+  "image": "en-ta_illistim-new.jpg",
   "image_coords": [
     576,
     404,
     598,
     426
   ],
-  "terrain": "indoors",
-  "description": [
-    "Rich wine-hued brocade draperies cover the walls of the small teller's room, leaving one to wonder who might be watching from behind.  The rich blue carpeting underfoot muffles the sound of movement as patrons conduct their business in hushed tones and move back out into the lobby.  The teller sits behind a tall counter, flanked by two elven guards."
-  ],
-  "image": "en-ta_illistim-new.jpg",
-  "climate": "indoors",
-  "title": [
-    "[United Bank of City-States]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9": 0.2
-  },
-  "id": 11,
-  "location": "Ta'Illistim",
   "tags": [
-    "bank",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bank"
   ]
 }

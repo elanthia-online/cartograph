@@ -1,33 +1,30 @@
 {
+  "id": 6126,
+  "title": [
+    "[Krag Slopes]"
+  ],
+  "description": [
+    "The bitterly cold wind screeches endlessly as it batters against the barren, blackened rocks.  No sign of life can be found in this desolate place."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest"
+  ],
+  "location": "the Krag slopes",
   "wayto": {
     "6125": "north",
     "6127": "southwest"
   },
-  "paths": [
-    "Obvious paths: north, southwest"
-  ],
+  "timeto": {
+    "6125": 0.2,
+    "6127": 0.2
+  },
+  "image": "wl-wehntoph-1310775397.png",
   "image_coords": [
     1376,
     426,
     1412,
     462
   ],
-  "terrain": null,
-  "description": [
-    "The bitterly cold wind screeches endlessly as it batters against the barren, blackened rocks.  No sign of life can be found in this desolate place."
-  ],
-  "image": "wl-wehntoph-1310775397.png",
-  "climate": null,
-  "title": [
-    "[Krag Slopes]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6125": 0.2,
-    "6127": 0.2
-  },
-  "id": 6126,
-  "location": "the Krag slopes",
   "tags": [
     "some bolmara lichen",
     "some angelica root",
@@ -47,8 +44,5 @@
     "ironfern root",
     "bolmara lichen",
     "wingstem root"
-  ],
-  "links": [
-
   ]
 }

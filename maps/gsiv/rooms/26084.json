@@ -1,34 +1,25 @@
 {
-  "wayto": {
-    "26085": {
-      "stringproc": "2be5e1713fd441fb9d96ee2c6b6c09c0"
-    },
-    "26083": {
-      "stringproc": "b0be0d51fa1a6a17201f92c65e8511c2"
-    }
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Carved stone creates a forest glade of thick bushes, lush grasses, and tall trees.  Roughly textured, even the floor that is carved with tangled roots that spread outward from the thick tree trunks, and rendered tufts of grass and moss that make the ground uneven, but not unpleasantly so.  Nestled within a particularly ornate tree is a large stone niche that is surrounded by much smaller ones filled with candles.  At either end of the landing are staircases that lead up and down."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 26084,
   "title": [
     "[Ancient Passage, Niche]"
   ],
-  "check_location": null,
+  "description": [
+    "Carved stone creates a forest glade of thick bushes, lush grasses, and tall trees.  Roughly textured, even the floor that is carved with tangled roots that spread outward from the thick tree trunks, and rendered tufts of grass and moss that make the ground uneven, but not unpleasantly so.  Nestled within a particularly ornate tree is a large stone niche that is surrounded by much smaller ones filled with candles.  At either end of the landing are staircases that lead up and down."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Zul Logoth",
+  "wayto": {
+    "26085": {
+      "file": "string_procs/wayto/26084_26085.rb"
+    },
+    "26083": {
+      "file": "string_procs/wayto/26084_26083.rb"
+    }
+  },
   "timeto": {
     "26085": 12.0,
     "26083": 24.0
-  },
-  "id": 26084,
-  "location": "Zul Logoth",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  }
 }

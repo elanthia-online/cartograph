@@ -1,41 +1,31 @@
 {
+  "id": 9079,
+  "title": [
+    "[Infested Tunnels, Rat's Nest]"
+  ],
+  "description": [
+    "Shredded paper, scraps of leather, dried grass, and some unidentifiable wispy stuff with an odd odor line the walls and ceiling.  Trash is piled against the walls, and round indentations show where rodents nuzzle together for their night's rest."
+  ],
+  "paths": [
+    "Obvious exits: northwest, down"
+  ],
+  "location": "the subterranean tunnels",
   "wayto": {
     "9078": "down",
     "9080": "northwest"
   },
-  "paths": [
-    "Obvious exits: northwest, down"
-  ],
+  "timeto": {
+    "9078": 0.2,
+    "9080": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     1350,
     429,
     1360,
     439
   ],
-  "terrain": "indoors",
-  "description": [
-    "Shredded paper, scraps of leather, dried grass, and some unidentifiable wispy stuff with an odd odor line the walls and ceiling.  Trash is piled against the walls, and round indentations show where rodents nuzzle together for their night's rest."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Infested Tunnels, Rat's Nest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9078": 0.2,
-    "9080": 0.2
-  },
-  "id": 9079,
-  "location": "the subterranean tunnels",
   "tags": [
-    "some wolifrew lichen",
-    "wolifrew lichen",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wolifrew lichen"
   ]
 }

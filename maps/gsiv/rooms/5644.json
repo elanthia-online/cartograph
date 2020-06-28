@@ -1,47 +1,35 @@
 {
+  "id": 5644,
+  "title": [
+    "[Warrens]"
+  ],
+  "description": [
+    "Large gnarled roots run along the walls and roof of this tunnelway, likely the only support for the soft earth forming this passage.  Dim light peeking through a jagged hole overhead is managing to provide a bit of illumination for this otherwise darkened lair.  Curious grunts echo from all about, the sound magnified by the claustrophobic terrain."
+  ],
+  "paths": [
+    "Obvious exits: north, south, southwest"
+  ],
+  "location": "the Vornavian Coast",
   "wayto": {
     "5645": "north",
     "5646": "south",
     "5647": "southwest",
     "5637": "climb hole"
   },
-  "paths": [
-    "Obvious exits: north, south, southwest"
-  ],
-  "image_coords": [
-    762,
-    661,
-    772,
-    671
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Large gnarled roots run along the walls and roof of this tunnelway, likely the only support for the soft earth forming this passage.  Dim light peeking through a jagged hole overhead is managing to provide a bit of illumination for this otherwise darkened lair.  Curious grunts echo from all about, the sound magnified by the claustrophobic terrain."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Warrens]"
-  ],
-  "check_location": null,
   "timeto": {
     "5645": 0.2,
     "5646": 0.2,
     "5647": 0.2,
     "5637": 0.2
   },
-  "id": 5644,
-  "location": "the Vornavian Coast",
-  "tags": [
-    "withered black mushroom",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
+  "image": "vo-foggy_valley-1264234799.png",
+  "image_coords": [
+    762,
+    661,
+    772,
+    671
   ],
-  "links": [
-
+  "tags": [
+    "withered black mushroom"
   ]
 }

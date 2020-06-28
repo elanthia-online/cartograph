@@ -1,33 +1,30 @@
 {
+  "id": 9345,
+  "title": [
+    "[Rocky Pass]"
+  ],
+  "description": [
+    "At the summit of the pass even the few plants have lost their hold.  If someone were to grow rocks for a living, this would be a good place.  The wind and time have scoured them into odd shapes, faintly reminiscent of unpleasant childhood dreams."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "9344": "south",
     "9346": "north"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "9344": 0.2,
+    "9346": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     1213,
     298,
     1225,
     310
   ],
-  "terrain": "rough",
-  "description": [
-    "At the summit of the pass even the few plants have lost their hold.  If someone were to grow rocks for a living, this would be a good place.  The wind and time have scoured them into odd shapes, faintly reminiscent of unpleasant childhood dreams."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Rocky Pass]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9344": 0.2,
-    "9346": 0.2
-  },
-  "id": 9345,
-  "location": "the Cairnfang",
   "tags": [
     "wintergreen leaf",
     "bright red teaberry",
@@ -56,10 +53,6 @@
     "motherwort",
     "white baneberry",
     "pepperthorn root",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

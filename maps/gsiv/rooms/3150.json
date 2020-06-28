@@ -1,47 +1,32 @@
 {
+  "id": 3150,
+  "title": [
+    "[Abandoned Farm, Orchard]"
+  ],
+  "description": [
+    "A stack of timber has been piled here, topped with a heavy dusting of snow.  The stumps of several trees barely peak the snowfall, their axe-scarred wood surfaces darkened with time."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "the Abandoned Farm",
   "wayto": {
     "3147": "east",
     "3151": "southwest"
   },
-  "paths": [
-    "Obvious paths: east, southwest"
-  ],
+  "timeto": {
+    "3147": 0.2,
+    "3151": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     1010,
     849,
     1020,
     859
   ],
-  "terrain": "cultivated",
-  "description": [
-    "A stack of timber has been piled here, topped with a heavy dusting of snow.  The stumps of several trees barely peak the snowfall, their axe-scarred wood surfaces darkened with time."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Abandoned Farm, Orchard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3147": 0.2,
-    "3151": 0.2
-  },
-  "id": 3150,
-  "location": "the Abandoned Farm",
   "tags": [
     "wavepetal blossom",
-    "moonflower",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "ice tulip",
-    "winter rose",
-    "frostflower",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "moonflower"
   ]
 }

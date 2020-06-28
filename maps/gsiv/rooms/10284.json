@@ -1,33 +1,30 @@
 {
+  "id": 10284,
+  "title": [
+    "[Briar Thicket]"
+  ],
+  "description": [
+    "The ladder reaches a wooden platform in the heart of the briar thicket.  Constructed of pine boards, now weathered and warped and eaten by worms, the platform offers little in the way of shelter or security.  A three-legged stool dangles from a thorny branch several feet above the platform, almost as if the hawthorn grabbed it as the thicket grew.  A series of handholds have been cleared of thorns to allow those with sufficient courage to climb even higher into the thicket."
+  ],
+  "paths": [
+    "Obvious paths: up"
+  ],
+  "location": "the briar thicket",
   "wayto": {
     "10283": "climb ladder",
     "10285": "up"
   },
-  "paths": [
-    "Obvious paths: up"
-  ],
+  "timeto": {
+    "10283": 0.2,
+    "10285": 0.2
+  },
+  "image": "en-fearling-1264234799.png",
   "image_coords": [
     1276,
     700,
     1286,
     710
   ],
-  "terrain": null,
-  "description": [
-    "The ladder reaches a wooden platform in the heart of the briar thicket.  Constructed of pine boards, now weathered and warped and eaten by worms, the platform offers little in the way of shelter or security.  A three-legged stool dangles from a thorny branch several feet above the platform, almost as if the hawthorn grabbed it as the thicket grew.  A series of handholds have been cleared of thorns to allow those with sufficient courage to climb even higher into the thicket."
-  ],
-  "image": "en-fearling-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Briar Thicket]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10283": 0.2,
-    "10285": 0.2
-  },
-  "id": 10284,
-  "location": "the briar thicket",
   "tags": [
     "some acantha leaf",
     "some basal moss",
@@ -88,8 +85,5 @@
     "ebony twig",
     "bolmara lichen",
     "brostheras grass"
-  ],
-  "links": [
-
   ]
 }

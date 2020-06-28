@@ -1,39 +1,29 @@
 {
-  "wayto": {
-    "16788": {
-      "stringproc": "33ed633dc88cb129a574ab488072fb12"
-    }
-  },
+  "id": 16787,
+  "title": [
+    "[Temple Wyneb, Belvedere]"
+  ],
+  "description": [
+    "Open to the outside world, this room is filled with clean, brisk mountain air and the soft moonlight gives a much less sinister cast to the cool red marble of the walls and floor.  From here you can look out over the treacherous rocks of the Gorget Trails and the brilliant green of the Emerald Forest.",
+    "Open to the outside world, this room is filled with clean, brisk mountain air and the flood of daylight gives a much less sinister cast to the cool red marble of the walls and floor.  From here you can look out over the treacherous rocks of the Gorget Trails and the brilliant green of the Emerald Forest."
+  ],
   "paths": [
     "Obvious paths: none"
   ],
+  "location": "Temple Wyneb",
+  "wayto": {
+    "16788": {
+      "file": "string_procs/wayto/16787_16788.rb"
+    }
+  },
+  "timeto": {
+    "16788": 0.4
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     581,
     572,
     591,
     582
-  ],
-  "terrain": null,
-  "description": [
-    "Open to the outside world, this room is filled with clean, brisk mountain air and the soft moonlight gives a much less sinister cast to the cool red marble of the walls and floor.  From here you can look out over the treacherous rocks of the Gorget Trails and the brilliant green of the Emerald Forest.",
-    "Open to the outside world, this room is filled with clean, brisk mountain air and the flood of daylight gives a much less sinister cast to the cool red marble of the walls and floor.  From here you can look out over the treacherous rocks of the Gorget Trails and the brilliant green of the Emerald Forest."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Temple Wyneb, Belvedere]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "16788": 0.4
-  },
-  "id": 16787,
-  "location": "Temple Wyneb",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

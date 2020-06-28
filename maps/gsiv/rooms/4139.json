@@ -1,33 +1,30 @@
 {
+  "id": 4139,
+  "title": [
+    "[Graveyard]"
+  ],
+  "description": [
+    "The trees part to reveal a trodden dirt path.  Along its edges grow scraggly clumps of creeping dirge-vaon vines.  The scant leaves on the few sickly trees that support the vines seem to tremble in some unfelt and disquieting breeze.  A narrow trail leads southwest."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "4138": "go trail",
     "4140": "go path"
   },
-  "paths": [
-    "Obvious paths: none"
-  ],
+  "timeto": {
+    "4138": 0.2,
+    "4140": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     351,
     996,
     361,
     1006
   ],
-  "terrain": "missing",
-  "description": [
-    "The trees part to reveal a trodden dirt path.  Along its edges grow scraggly clumps of creeping dirge-vaon vines.  The scant leaves on the few sickly trees that support the vines seem to tremble in some unfelt and disquieting breeze.  A narrow trail leads southwest."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Graveyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4138": 0.2,
-    "4140": 0.2
-  },
-  "id": 4139,
-  "location": "the Graveyard",
   "tags": [
     "some wolifrew lichen",
     "some acantha leaf",
@@ -77,10 +74,6 @@
     "twisted twig",
     "slender twig",
     "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

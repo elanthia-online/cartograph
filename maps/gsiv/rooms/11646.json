@@ -1,35 +1,32 @@
 {
+  "id": 11646,
+  "title": [
+    "[Dismal Slough]"
+  ],
+  "description": [
+    "A slow-moving, green tidal creek feeds into a wide, reed-choked, fetid mire.  Trees line both sides of the creek.  Some of the branches that would have overhung the creek have been systematically lopped off.  The scars left on those branches are grey and overgrown, indicating they were removed many years in the past.  Wisps of fog hover over the creek."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, west"
+  ],
+  "location": "the Miasmal Forest",
   "wayto": {
     "11647": "southeast",
     "11639": "west",
     "11664": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, southeast, west"
-  ],
+  "timeto": {
+    "11647": 0.2,
+    "11639": 0.2,
+    "11664": 0.2
+  },
+  "image": "rr-maelstrom-1266390501.png",
   "image_coords": [
     728,
     248,
     740,
     260
   ],
-  "terrain": "muddy wetlands",
-  "description": [
-    "A slow-moving, green tidal creek feeds into a wide, reed-choked, fetid mire.  Trees line both sides of the creek.  Some of the branches that would have overhung the creek have been systematically lopped off.  The scars left on those branches are grey and overgrown, indicating they were removed many years in the past.  Wisps of fog hover over the creek."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "moist",
-  "title": [
-    "[Dismal Slough]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11647": 0.2,
-    "11639": 0.2,
-    "11664": 0.2
-  },
-  "id": 11646,
-  "location": "the Miasmal Forest",
   "tags": [
     "genkew mushroom",
     "red heliconia",
@@ -54,20 +51,6 @@
     "flathead mushroom",
     "some wingstem root",
     "daggerstalk mushroom",
-    "purple passionflower",
-    "calamia fruit",
-    "aloeas stem",
-    "spider lily",
-    "alligator lily",
-    "murdroot",
-    "wavepetal blossom",
-    "bolmara lichen",
-    "talneo root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "purple passionflower"
   ]
 }

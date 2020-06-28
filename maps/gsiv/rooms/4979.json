@@ -1,45 +1,34 @@
 {
+  "id": 4979,
+  "title": [
+    "[Maernstrike Caverns, Tunnel]"
+  ],
+  "description": [
+    "Resembling a plush carpet, chunky blue and green fuzzy mold covers the floors entirely, muffling the steps of anyone or anything that may be moving about.  The mildew on the walls is thick enough to be scraped off with a fingernail, making the walls even denser.  Emptied of its contents and almost buried in a small nook lies a corroded treasure chest."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "the Maernstrike Caverns",
   "wayto": {
     "4977": "south",
     "4980": "west"
   },
-  "paths": [
-    "Obvious exits: south, west"
-  ],
+  "timeto": {
+    "4977": 0.2,
+    "4980": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     1383,
     308,
     1393,
     318
   ],
-  "terrain": "indoors",
-  "description": [
-    "Resembling a plush carpet, chunky blue and green fuzzy mold covers the floors entirely, muffling the steps of anyone or anything that may be moving about.  The mildew on the walls is thick enough to be scraped off with a fingernail, making the walls even denser.  Emptied of its contents and almost buried in a small nook lies a corroded treasure chest."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Maernstrike Caverns, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4977": 0.2,
-    "4980": 0.2
-  },
-  "id": 4979,
-  "location": "the Maernstrike Caverns",
   "tags": [
     "some cave moss",
     "some bolmara lichen",
     "some wingstem root",
-    "white hook mushroom",
-    "cave moss",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "white hook mushroom"
   ]
 }

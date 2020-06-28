@@ -1,38 +1,30 @@
 {
-  "wayto": {
-    "2406": "west"
-  },
+  "id": 2405,
+  "title": [
+    "[Cottage, Back Room]"
+  ],
+  "description": [
+    "The back room is cluttered with bits of dried animal hanging on strings from the ceiling, jars full of oddly colored liquids and foul smells that cling to the walls and your clothes like the cloying grip of a banshee.  Sitting amidst the clutter you see a decrepit wreck of a man, his stringy hair jutting at odd angles away from his head, his clothes mere rags that hang limply on his cadaverous frame."
+  ],
   "paths": [
     "Obvious exits: west, out",
     "Obvious exits: west"
   ],
+  "location": "Icemule Trace",
+  "wayto": {
+    "2406": "west"
+  },
+  "timeto": {
+    "2406": 0.2
+  },
+  "image": "imt-icemule-1474811966.png",
   "image_coords": [
     227,
     965,
     263,
     1001
   ],
-  "terrain": "indoors",
-  "description": [
-    "The back room is cluttered with bits of dried animal hanging on strings from the ceiling, jars full of oddly colored liquids and foul smells that cling to the walls and your clothes like the cloying grip of a banshee.  Sitting amidst the clutter you see a decrepit wreck of a man, his stringy hair jutting at odd angles away from his head, his clothes mere rags that hang limply on his cadaverous frame."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "indoors",
-  "title": [
-    "[Cottage, Back Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2406": 0.2
-  },
-  "id": 2405,
-  "location": "Icemule Trace",
   "tags": [
-    "npccleric",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "npccleric"
   ]
 }

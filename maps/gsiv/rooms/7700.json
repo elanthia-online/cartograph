@@ -1,40 +1,30 @@
 {
-  "wayto": {
-    "7701": "north",
-    "7684": {
-      "stringproc": "7d607eaceb5d0f0d034931900125f5ac"
-    }
-  },
+  "id": 7700,
+  "title": [
+    "[Underground, Hidden Wing]"
+  ],
+  "description": [
+    "The walls, floor and ceiling of this room are finished smooth.  Unlike other rooms, these surfaces are not covered with finished stones, but are polished to a dull luster."
+  ],
   "paths": [
     "Obvious exits: north"
   ],
+  "location": "the Coastal Cliffs",
+  "wayto": {
+    "7701": "north",
+    "7684": {
+      "file": "string_procs/wayto/7700_7684.rb"
+    }
+  },
+  "timeto": {
+    "7701": 0.2,
+    "7684": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     375,
     1083,
     385,
     1093
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The walls, floor and ceiling of this room are finished smooth.  Unlike other rooms, these surfaces are not covered with finished stones, but are polished to a dull luster."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Underground, Hidden Wing]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7701": 0.2,
-    "7684": 0.2
-  },
-  "id": 7700,
-  "location": "the Coastal Cliffs",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

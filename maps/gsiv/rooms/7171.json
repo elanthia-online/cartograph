@@ -1,35 +1,32 @@
 {
+  "id": 7171,
+  "title": [
+    "[Graveyard]"
+  ],
+  "description": [
+    "The back wall of the crypt is a solid vertical mass of granite.  The blocks are held firmly in place by the clever shaping, with no mortar.  The path continues around the tomb, while to the north, a trail weaves through the shrubs and wilds."
+  ],
+  "paths": [
+    "Obvious paths: southeast, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7184": "go trail",
     "7165": "southeast",
     "7170": "west"
   },
-  "paths": [
-    "Obvious paths: southeast, west"
-  ],
+  "timeto": {
+    "7184": 0.2,
+    "7165": 0.2,
+    "7170": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     240,
     785,
     250,
     795
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The back wall of the crypt is a solid vertical mass of granite.  The blocks are held firmly in place by the clever shaping, with no mortar.  The path continues around the tomb, while to the north, a trail weaves through the shrubs and wilds."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Graveyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7184": 0.2,
-    "7165": 0.2,
-    "7170": 0.2
-  },
-  "id": 7171,
-  "location": "the Graveyard",
   "tags": [
     "some wolifrew lichen",
     "some acantha leaf",
@@ -55,10 +52,6 @@
     "pennyroyal stem",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

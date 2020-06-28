@@ -1,33 +1,30 @@
 {
+  "id": 8508,
+  "title": [
+    "[Upper Trollfang, Dead Path]"
+  ],
+  "description": [
+    "The path becomes less and less lush, and the grass withers off to straw beneath your feet.  Whatever sinister force has caused the very sap of living things to curdle and run dry chills you to the depths of your being.  Still something draws you to the dark circle of trees to the southeast."
+  ],
+  "paths": [
+    "Obvious paths: southeast"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "8509": "southeast",
     "8435": "go path"
   },
-  "paths": [
-    "Obvious paths: southeast"
-  ],
+  "timeto": {
+    "8509": 0.2,
+    "8435": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     767,
     937,
     777,
     947
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "The path becomes less and less lush, and the grass withers off to straw beneath your feet.  Whatever sinister force has caused the very sap of living things to curdle and run dry chills you to the depths of your being.  Still something draws you to the dark circle of trees to the southeast."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Upper Trollfang, Dead Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8509": 0.2,
-    "8435": 0.2
-  },
-  "id": 8508,
-  "location": "the Upper Trollfang",
   "tags": [
     "some cactacae spine",
     "sprig of Imaera's Lace",
@@ -40,31 +37,6 @@
     "purple clover blossom",
     "red clover blossom",
     "white clover blossom",
-    "sprig of wild lilac",
-    "cactacae spine",
-    "bright red teaberry",
-    "blueberries",
-    "handful of currants",
-    "elderberries",
-    "wild grapes",
-    "broken twig",
-    "sprig of alyssum",
-    "golden buttercup",
-    "stalk of goldenrod",
-    "sprig of larkspur",
-    "yellow primrose",
-    "small wild rose",
-    "Imaera's Lace",
-    "wild chokecherry",
-    "murkweed",
-    "blue whortleberry",
-    "pepperthorn root",
-    "ironfern root",
-    "sunburst blossom",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sprig of wild lilac"
   ]
 }

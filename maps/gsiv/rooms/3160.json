@@ -1,31 +1,28 @@
 {
-  "wayto": {
-    "3161": "south"
-  },
+  "id": 3160,
+  "title": [
+    "[Frozen Garden, Shack]"
+  ],
+  "description": [
+    "The remains of a small shack or shed rises out of the snow like skeletal hands grasping for life.  The amount of snow and ice built up around it testifies to the manner of its destruction.  A steady wind blows through the wreckage, causing a broken door to sway on its rusted hinges."
+  ],
   "paths": [
     "Obvious paths: northeast, south"
   ],
+  "location": "the Frozen Garden",
+  "wayto": {
+    "3161": "south"
+  },
+  "timeto": {
+    "3161": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     46,
     656,
     56,
     666
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "The remains of a small shack or shed rises out of the snow like skeletal hands grasping for life.  The amount of snow and ice built up around it testifies to the manner of its destruction.  A steady wind blows through the wreckage, causing a broken door to sway on its rusted hinges."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Frozen Garden, Shack]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3161": 0.2
-  },
-  "id": 3160,
-  "location": "the Frozen Garden",
   "tags": [
     "slender twig",
     "tkaro root",
@@ -38,34 +35,6 @@
     "stick",
     "some frostweed",
     "sassafras leaf",
-    "some bolmara lichen",
-    "sticks",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "iceblossoms",
-    "snow lily",
-    "winter rose",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "broken twig",
-    "pine cone",
-    "pine needles",
-    "frostweed",
-    "snowberries",
-    "pale thornberry",
-    "red winterberry",
-    "small loganberry",
-    "tree bark",
-    "frostflower",
-    "rockberry",
-    "crowberry",
-    "lingonberry",
-    "ironfern root",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some bolmara lichen"
   ]
 }

@@ -1,33 +1,32 @@
 {
+  "id": 11026,
+  "title": [
+    "[A Narrow Path]"
+  ],
+  "description": [
+    "Trees crowd the path, growing so close to your north that it is hard to see a trail through them at all.  Birdsong is the only accompaniment to the sound of leaves rustling beneath your feet as you pass and the bustle of civilization is nowhere to be heard."
+  ],
+  "paths": [
+    "Obvious paths: north, out"
+  ],
+  "location": "River's Rest",
+  "climate": "temperate",
+  "terrain": "deciduous forest",
   "wayto": {
     "11025": "out",
     "16022": "north"
   },
-  "paths": [
-    "Obvious paths: north, out"
-  ],
+  "timeto": {
+    "11025": 0.2,
+    "16022": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     671,
     942,
     681,
     952
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "Trees crowd the path, growing so close to your north that it is hard to see a trail through them at all.  Birdsong is the only accompaniment to the sound of leaves rustling beneath your feet as you pass and the bustle of civilization is nowhere to be heard."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "temperate",
-  "title": [
-    "[A Narrow Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11025": 0.2,
-    "16022": 0.2
-  },
-  "id": 11026,
-  "location": "River's Rest",
   "tags": [
     "some basal moss",
     "some torban leaf",
@@ -79,14 +78,6 @@
     "ebony twig",
     "bolmara lichen",
     "brostheras grass",
-    "walnuts,",
-    "trollfear mushroom",
-    "oxblood lily",
-    "walnuts",
-    "alder bark",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "walnuts,"
   ]
 }

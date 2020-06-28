@@ -1,43 +1,35 @@
 {
+  "id": 14607,
+  "title": [
+    "[Manor House, Second Floor]"
+  ],
+  "description": [
+    "Light shines into the end of this hallway where boards lie scattered beneath a window.  The boards have been clawed and gouged, but whether they were broken in from the outside or pulled loose from the inside isn't clear.  A chestnut door and a birch door face each other across the hallway just a few paces from the corridor's east end."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "the Outlands",
   "wayto": {
     "14604": "south",
     "14608": "go birch door",
     "14597": "west",
     "14609": "go chestnut door"
   },
-  "paths": [
-    "Obvious exits: south, west"
-  ],
-  "image_coords": [
-    1154,
-    824,
-    1164,
-    834
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Light shines into the end of this hallway where boards lie scattered beneath a window.  The boards have been clawed and gouged, but whether they were broken in from the outside or pulled loose from the inside isn't clear.  A chestnut door and a birch door face each other across the hallway just a few paces from the corridor's east end."
-  ],
-  "image": "vo-outlands-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Manor House, Second Floor]"
-  ],
-  "check_location": null,
   "timeto": {
     "14604": 0.2,
     "14608": 0.2,
     "14597": 0.2,
     "14609": 0.2
   },
-  "id": 14607,
-  "location": "the Outlands",
-  "tags": [
-    "dobrem",
-    "no forageables",
-    "meta:forage-sensed"
+  "image": "vo-outlands-1264234799.png",
+  "image_coords": [
+    1154,
+    824,
+    1164,
+    834
   ],
-  "links": [
-
+  "tags": [
+    "dobrem"
   ]
 }

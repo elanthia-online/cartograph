@@ -1,4 +1,16 @@
 {
+  "id": 234,
+  "title": [
+    "[Wehnimer's, Erebor Square]"
+  ],
+  "description": [
+    "The dome of a large temple rises above this peaceful square, silhouetted against the starlit sky.  The circular building is surrounded by marble porticos and teak columns, and a promenade leads to two pillars, through which the inner sanctum can be glimpsed.  Priests and worshippers wander here and there, engaged in various rituals of devotion or study.  A locked almsbox is securely bolted to an iron pole alongside the pillars.",
+    "The dome of a large temple rises above this peaceful square.  The circular building is surrounded by marble porticos and teak columns, and a promenade leads to two pillars, through which the inner sanctum can be glimpsed.  Priests, acolytes, monks and worshippers move here and there, engaged in various rituals of devotion or study.  A locked almsbox is securely bolted to an iron pole alongside the pillars."
+  ],
+  "paths": [
+    "Obvious paths: east, south, west"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "8689": "go gate",
     "19949": "put 1 coin in almsbox\ngo pillar",
@@ -8,26 +20,6 @@
     "235": "east",
     "258": "south"
   },
-  "paths": [
-    "Obvious paths: east, south, west"
-  ],
-  "image_coords": [
-    586,
-    876,
-    620,
-    912
-  ],
-  "terrain": "plain dirt",
-  "description": [
-    "The dome of a large temple rises above this peaceful square, silhouetted against the starlit sky.  The circular building is surrounded by marble porticos and teak columns, and a promenade leads to two pillars, through which the inner sanctum can be glimpsed.  Priests and worshippers wander here and there, engaged in various rituals of devotion or study.  A locked almsbox is securely bolted to an iron pole alongside the pillars.",
-    "The dome of a large temple rises above this peaceful square.  The circular building is surrounded by marble porticos and teak columns, and a promenade leads to two pillars, through which the inner sanctum can be glimpsed.  Priests, acolytes, monks and worshippers move here and there, engaged in various rituals of devotion or study.  A locked almsbox is securely bolted to an iron pole alongside the pillars."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Wehnimer's, Erebor Square]"
-  ],
-  "check_location": null,
   "timeto": {
     "8689": 0.2,
     "19949": 0.2,
@@ -37,41 +29,17 @@
     "235": 0.2,
     "258": 0.2
   },
-  "id": 234,
-  "location": "the town of Wehnimer's Landing",
+  "image": "wl-wehnimers-1264234799.png",
+  "image_coords": [
+    586,
+    876,
+    620,
+    912
+  ],
   "tags": [
     "some calamia fruit",
     "pepperthorn root",
     "some acantha leaf",
-    "meta:teleport:fwi",
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "small flower",
-    "small rose",
-    "small daisy",
-    "angelica root",
-    "withered black mushroom",
-    "stalk of chicory",
-    "sprig of alyssum",
-    "heath aster",
-    "stalk of goldenrod",
-    "yellow primrose",
-    "small wild rose",
-    "wild carrot",
-    "ginger root",
-    "wild chokecherry",
-    "motherwort",
-    "murkweed",
-    "blue whortleberry",
-    "white baneberry",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:teleport:fwi"
   ]
 }

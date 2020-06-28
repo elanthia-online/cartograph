@@ -1,39 +1,31 @@
 {
+  "id": 12120,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "Your wandering brings you to a small clearing.  The ground is dry and parched, and there are large lines scratched into the surface and coated in a red, sticky substance.  Following the lines a moment, you realize they make a rune covered circle, and that you are standing in the center of it.  A cold wind whips around you at that point, and you hear howls in the distance."
+  ],
+  "paths": [
+    "Obvious paths: east, southeast, west, northwest",
+    "Obvious exits: east, southeast, west, northwest"
+  ],
+  "location": "the Rift",
   "wayto": {
     "12131": "southeast",
     "12154": "northwest",
     "12121": "east",
     "2635": {
-      "stringproc": "f88a5ac335110328444947aa8fdfa490"
+      "file": "string_procs/wayto/12120_2635.rb"
     },
     "12102": "west",
     "12093": {
-      "stringproc": "dc0110972ab7e067d5fec20ece15581c"
+      "file": "string_procs/wayto/12120_12093.rb"
     },
     "2605": {
-      "stringproc": "317c6eedd1ea40322b9b26b259a3053f"
+      "file": "string_procs/wayto/12120_2605.rb"
     }
   },
-  "paths": [
-    "Obvious paths: east, southeast, west, northwest",
-    "Obvious exits: east, southeast, west, northwest"
-  ],
-  "image_coords": [
-    922,
-    592,
-    932,
-    602
-  ],
-  "terrain": null,
-  "description": [
-    "Your wandering brings you to a small clearing.  The ground is dry and parched, and there are large lines scratched into the surface and coated in a red, sticky substance.  Following the lines a moment, you realize they make a rune covered circle, and that you are standing in the center of it.  A cold wind whips around you at that point, and you hear howls in the distance."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
   "timeto": {
     "12131": 0.2,
     "12154": 0.2,
@@ -43,8 +35,13 @@
     "12093": 21.6,
     "2605": 16.0
   },
-  "id": 12120,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    922,
+    592,
+    932,
+    602
+  ],
   "tags": [
     "withered deathblossom",
     "rotting bile green fleshbulb",
@@ -53,8 +50,5 @@
     "slime-covered grave blossom",
     "discolored fleshbinder bud",
     "twisted black mawflower"
-  ],
-  "links": [
-
   ]
 }

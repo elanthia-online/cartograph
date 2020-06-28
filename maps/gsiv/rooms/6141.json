@@ -1,37 +1,34 @@
 {
+  "id": 6141,
+  "title": [
+    "[Upper Krag Slopes]"
+  ],
+  "description": [
+    "A steep landslide has tumbled masses of rocks and boulders down the western slope, preventing further passage in that direction.  The tip of a boot-clad foot protrudes from beneath the rubble."
+  ],
+  "paths": [
+    "Obvious paths: northeast, east"
+  ],
+  "location": "the Krag slopes",
   "wayto": {
     "6140": "east",
     "6145": "northeast",
     "6152": {
-      "stringproc": "0e1983b848a9e5b6084d4c4fee360a27"
+      "file": "string_procs/wayto/6141_6152.rb"
     }
   },
-  "paths": [
-    "Obvious paths: northeast, east"
-  ],
+  "timeto": {
+    "6140": 0.2,
+    "6152": 0.2,
+    "6145": 0.2
+  },
+  "image": "wl-wehntoph-1310775397.png",
   "image_coords": [
     627,
     893,
     661,
     927
   ],
-  "terrain": null,
-  "description": [
-    "A steep landslide has tumbled masses of rocks and boulders down the western slope, preventing further passage in that direction.  The tip of a boot-clad foot protrudes from beneath the rubble."
-  ],
-  "image": "wl-wehntoph-1310775397.png",
-  "climate": null,
-  "title": [
-    "[Upper Krag Slopes]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6140": 0.2,
-    "6152": 0.2,
-    "6145": 0.2
-  },
-  "id": 6141,
-  "location": "the Krag slopes",
   "tags": [
     "golden aster",
     "some pennyroyal stem",
@@ -50,8 +47,5 @@
     "ironfern root",
     "bolmara lichen",
     "wingstem root"
-  ],
-  "links": [
-
   ]
 }

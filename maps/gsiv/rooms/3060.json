@@ -1,33 +1,30 @@
 {
+  "id": 3060,
+  "title": [
+    "[Icemule Trace, Snowfield]"
+  ],
+  "description": [
+    "The dark line in the distance does not appear to be any closer.  Quick, sudden gusts of ice and snow swirl around you, making progress difficult."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south"
+  ],
+  "location": "the southern snowfields",
   "wayto": {
     "3059": "northeast",
     "3061": "south"
   },
-  "paths": [
-    "Obvious paths: northeast, south"
-  ],
+  "timeto": {
+    "3059": 0.2,
+    "3061": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     547,
     728,
     557,
     738
   ],
-  "terrain": "grassland",
-  "description": [
-    "The dark line in the distance does not appear to be any closer.  Quick, sudden gusts of ice and snow swirl around you, making progress difficult."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Icemule Trace, Snowfield]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3059": 0.2,
-    "3061": 0.2
-  },
-  "id": 3060,
-  "location": "the southern snowfields",
   "tags": [
     "wavepetal blossom",
     "sweetfern stalk",
@@ -42,20 +39,6 @@
     "sprig of edelweiss",
     "sassafras leaf",
     "wintergreen leaf",
-    "some valerian root",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "edelweiss",
-    "iceblossoms",
-    "bright red teaberry",
-    "arctic moss",
-    "tundra grass",
-    "murdroot",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some valerian root"
   ]
 }

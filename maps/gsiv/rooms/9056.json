@@ -1,34 +1,31 @@
 {
+  "id": 9056,
+  "title": [
+    "[Warrior Guild Entryway]"
+  ],
+  "description": [
+    "The unadorned facade of a sturdy limestone building rises before you, its weathered surface broken only by several vertical slits in the ancient stone and a heavy mithril portcullis bearing an engraved brass plaque.  Well-groomed hedges fill the small flagstone courtyard with a peaceful scent of sunlit leaves, but the sounds of grunts and clashing weapons echoing from somewhere above dispel any sense of calm.",
+    "The unadorned facade of a sturdy limestone building rises before you, its weathered surface broken only by several vertical slits in the ancient stone and a heavy mithril portcullis bearing an engraved brass plaque.  Well-groomed hedges fill the small flagstone courtyard with a peaceful scent of moonlit leaves, but the sounds of grunts and clashing weapons echoing from somewhere above dispel any sense of calm."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Solhaven's Warrior Guild",
   "wayto": {
     "17001": "go portcullis",
     "1459": "go steps"
   },
-  "paths": [
-    "Obvious paths: none"
-  ],
+  "timeto": {
+    "17001": 0.2,
+    "1459": 0.2
+  },
+  "image": "warrior_guilds-1268684755.png",
   "image_coords": [
     1047,
     349,
     1067,
     370
   ],
-  "terrain": null,
-  "description": [
-    "The unadorned facade of a sturdy limestone building rises before you, its weathered surface broken only by several vertical slits in the ancient stone and a heavy mithril portcullis bearing an engraved brass plaque.  Well-groomed hedges fill the small flagstone courtyard with a peaceful scent of sunlit leaves, but the sounds of grunts and clashing weapons echoing from somewhere above dispel any sense of calm.",
-    "The unadorned facade of a sturdy limestone building rises before you, its weathered surface broken only by several vertical slits in the ancient stone and a heavy mithril portcullis bearing an engraved brass plaque.  Well-groomed hedges fill the small flagstone courtyard with a peaceful scent of moonlit leaves, but the sounds of grunts and clashing weapons echoing from somewhere above dispel any sense of calm."
-  ],
-  "image": "warrior_guilds-1268684755.png",
-  "climate": null,
-  "title": [
-    "[Warrior Guild Entryway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "17001": 0.2,
-    "1459": 0.2
-  },
-  "id": 9056,
-  "location": "Solhaven's Warrior Guild",
   "tags": [
     "meta:mapname:Warrior Guilds",
     "meta:mapcategory:Guilds",
@@ -38,8 +35,5 @@
     "meta:mapcategory:Wehnimer's Landing",
     "meta:mapcategory:River's Rest",
     "meta:mapcategory:Teras Isle"
-  ],
-  "links": [
-
   ]
 }

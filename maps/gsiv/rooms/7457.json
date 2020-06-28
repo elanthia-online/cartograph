@@ -1,55 +1,46 @@
 {
-  "wayto": {
-    "7448": {
-      "stringproc": "3ef87e7eac63e97210b4aedf89dfae9b"
-    },
-    "7453": {
-      "stringproc": "a38d807719728a1c1440a08cf22304a4"
-    },
-    "7455": {
-      "stringproc": "a234c4dfb9348f43358e56adea9291ed"
-    },
-    "7456": {
-      "stringproc": "e3d799eb84e7700f4a3e6d2be8ca0cfa"
-    }
-  },
-  "paths": [
-    "Obvious paths: north, southwest, west, northwest"
-  ],
-  "image_coords": [
-    757,
-    897,
-    767,
-    907
-  ],
-  "terrain": null,
-  "description": [
-    "A huge sea of boiling mud stretches out to the south and east.  Steam rises off the churning mass, choking the air with a dense, malodorous fog."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": null,
+  "id": 7457,
   "title": [
     "[The Broken Lands, Jagged Plain]"
   ],
-  "check_location": null,
+  "description": [
+    "A huge sea of boiling mud stretches out to the south and east.  Steam rises off the churning mass, choking the air with a dense, malodorous fog."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest, west, northwest"
+  ],
+  "location": "the Broken Lands",
+  "wayto": {
+    "7448": {
+      "file": "string_procs/wayto/7457_7448.rb"
+    },
+    "7453": {
+      "file": "string_procs/wayto/7457_7453.rb"
+    },
+    "7455": {
+      "file": "string_procs/wayto/7457_7455.rb"
+    },
+    "7456": {
+      "file": "string_procs/wayto/7457_7456.rb"
+    }
+  },
   "timeto": {
     "7448": 3.2,
     "7453": 3.2,
     "7455": 3.2,
     "7456": 3.2
   },
-  "id": 7457,
-  "location": "the Broken Lands",
+  "image": "wl-broken-1264234799.png",
+  "image_coords": [
+    757,
+    897,
+    767,
+    907
+  ],
   "tags": [
     "large black toadstool",
     "hooded figure",
     "giant fog beetle",
-    "some blackened moss",
-    "blackened moss",
-    "black toadstool",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some blackened moss"
   ]
 }

@@ -1,38 +1,28 @@
 {
+  "id": 7841,
+  "title": [
+    "[Glatoph, Ruins]"
+  ],
+  "description": [
+    "This looks like a dining hall of some sort.  Two long plank tables with benches sit in the middle of the room.  They're coated with dust, and look like they'll collapse if you put too much weight on them.  A huge fireplace takes up most of the western wall.  Piles of wood that were probably once shelves fixed to the wall lie amid various rusty and dented cooking implements."
+  ],
+  "paths": [
+    "Obvious exits: east, southeast"
+  ],
+  "location": "Glatoph",
   "wayto": {
     "7827": "southeast",
     "7828": "east"
   },
-  "paths": [
-    "Obvious exits: east, southeast"
-  ],
+  "timeto": {
+    "7827": 0.2,
+    "7828": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     600,
     520,
     610,
     530
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This looks like a dining hall of some sort.  Two long plank tables with benches sit in the middle of the room.  They're coated with dust, and look like they'll collapse if you put too much weight on them.  A huge fireplace takes up most of the western wall.  Piles of wood that were probably once shelves fixed to the wall lie amid various rusty and dented cooking implements."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Glatoph, Ruins]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7827": 0.2,
-    "7828": 0.2
-  },
-  "id": 7841,
-  "location": "Glatoph",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,40 +1,30 @@
 {
+  "id": 690,
+  "title": [
+    "[Ta'Illistim, Weyr Var]"
+  ],
+  "description": [
+    "The impenetrable stone facade of a guild hall looms above, dwarfed only by BriarStone Keep to the west and the spire of a belltower soaring above the rooftops to the north.  A small moat encircles the hall, a short wooden bridge spanning its breadth with ease.  A mithglin sign is posted nearby."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south"
+  ],
+  "location": "Ta'Illistim",
   "wayto": {
     "206": "south",
     "207": "northeast",
     "13307": "go bridge"
   },
-  "paths": [
-    "Obvious paths: northeast, south"
-  ],
-  "image_coords": [
-    527,
-    202,
-    552,
-    224
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "The impenetrable stone facade of a guild hall looms above, dwarfed only by BriarStone Keep to the west and the spire of a belltower soaring above the rooftops to the north.  A small moat encircles the hall, a short wooden bridge spanning its breadth with ease.  A mithglin sign is posted nearby."
-  ],
-  "image": "en-ta_illistim-new.jpg",
-  "climate": "temperate",
-  "title": [
-    "[Ta'Illistim, Weyr Var]"
-  ],
-  "check_location": null,
   "timeto": {
     "206": 0.2,
     "207": 0.2,
     "13307": 0.2
   },
-  "id": 690,
-  "location": "Ta'Illistim",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-ta_illistim-new.jpg",
+  "image_coords": [
+    527,
+    202,
+    552,
+    224
   ]
 }

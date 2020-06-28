@@ -1,40 +1,30 @@
 {
-  "wayto": {
-    "2645": {
-      "stringproc": "e107950bba888356ceb4a9b8f3841828"
-    },
-    "2647": "go rim"
-  },
+  "id": 2646,
+  "title": [
+    "[Pool]"
+  ],
+  "description": [
+    "The water is a startling shade of cerulean blue, edged with deeper blue shadows.  It moves vigorously, tossing itself over and under, and throwing sprays of drops high into the air at the command of hidden currents.  Above the pool, a large finger of stone extends over the pool, casting a shadow on the waves below it.  Standing behind the pool's rim, a throne can be seen, sitting silently as if meditating on the movement of the water."
+  ],
   "paths": [
     "Obvious exits: down"
   ],
+  "location": "Koar's Shrine",
+  "wayto": {
+    "2645": {
+      "file": "string_procs/wayto/2646_2645.rb"
+    },
+    "2647": "go rim"
+  },
+  "timeto": {
+    "2645": 5.0,
+    "2647": 0.2
+  },
+  "image": "imt-pinefar-1264234799.png",
   "image_coords": [
     296,
     355,
     306,
     365
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The water is a startling shade of cerulean blue, edged with deeper blue shadows.  It moves vigorously, tossing itself over and under, and throwing sprays of drops high into the air at the command of hidden currents.  Above the pool, a large finger of stone extends over the pool, casting a shadow on the waves below it.  Standing behind the pool's rim, a throne can be seen, sitting silently as if meditating on the movement of the water."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Pool]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2645": 5.0,
-    "2647": 0.2
-  },
-  "id": 2646,
-  "location": "Koar's Shrine",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

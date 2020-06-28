@@ -1,80 +1,33 @@
 {
+  "id": 5707,
+  "title": [
+    "[Deep Woods, Overgrowth]"
+  ],
+  "description": [
+    "The thorn bushes grow thicker to the east, shredding cloth and flesh with equal voracity.  The mighty pines fight the brush for space, leaving hardly any room to stand, let alone walk, uninjured.  Furry moss creeps up the trees, unable to find another space in which to live."
+  ],
+  "paths": [
+    "Obvious paths: northeast, east, west"
+  ],
+  "location": "the deep woods",
   "wayto": {
     "5708": "east",
     "5709": "northeast",
     "5705": "west"
   },
-  "paths": [
-    "Obvious paths: northeast, east, west"
-  ],
+  "timeto": {
+    "5708": 0.2,
+    "5709": 0.2,
+    "5705": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     1326,
     369,
     1336,
     379
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "The thorn bushes grow thicker to the east, shredding cloth and flesh with equal voracity.  The mighty pines fight the brush for space, leaving hardly any room to stand, let alone walk, uninjured.  Furry moss creeps up the trees, unable to find another space in which to live."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Deep Woods, Overgrowth]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5708": 0.2,
-    "5709": 0.2,
-    "5705": 0.2
-  },
-  "id": 5707,
-  "location": "the deep woods",
   "tags": [
-    "vesperti",
-    "acantha leaf",
-    "torban leaf",
-    "calamia fruit",
-    "haphip root",
-    "tkaro root",
-    "sticks",
-    "angelica root",
-    "trollfear mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "handful of pinenuts",
-    "broken twig",
-    "pine cone",
-    "pine needles",
-    "stalk of bluebells",
-    "golden buttercup",
-    "wild pink geranium",
-    "wild chokecherry",
-    "tree bark",
-    "white lily",
-    "pink rain lily",
-    "coppery rain lily",
-    "oxblood lily",
-    "kylan berry",
-    "white baneberry",
-    "yew twig",
-    "ironfern root",
-    "twisted twig",
-    "slender twig",
-    "ebony twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "vesperti"
   ]
 }

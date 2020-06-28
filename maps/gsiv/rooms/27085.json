@@ -1,35 +1,28 @@
 {
+  "id": 27085,
+  "title": [
+    "[Wildwood of the Dryad, Terminus]"
+  ],
+  "description": [
+    "Impassible thickets, comprised of the white bones of silver birch and the thorny limbs of wild briar, guard the narrow path that wends its way through the dense forest.  Moonlight dances upon metal in the distance, its source some old farming tools that are half-buried in the thick undergrowth."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Coraesine Forest",
   "wayto": {
     "27084": "north",
     "27086": "south"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "27084": 0.2,
+    "27086": 0.2
+  },
+  "image": "en-wildwood.png",
   "image_coords": [
     80,
     1347,
     130,
     1398
-  ],
-  "terrain": null,
-  "description": [
-    "Impassible thickets, comprised of the white bones of silver birch and the thorny limbs of wild briar, guard the narrow path that wends its way through the dense forest.  Moonlight dances upon metal in the distance, its source some old farming tools that are half-buried in the thick undergrowth."
-  ],
-  "image": "en-wildwood.png",
-  "climate": null,
-  "title": [
-    "[Wildwood of the Dryad, Terminus]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "27084": 0.2,
-    "27086": 0.2
-  },
-  "id": 27085,
-  "location": "Coraesine Forest",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

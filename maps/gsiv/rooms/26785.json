@@ -1,35 +1,28 @@
 {
+  "id": 26785,
+  "title": [
+    "[Catacombs, Dark Tunnels]"
+  ],
+  "description": [
+    "The tunnel narrows here and the ceiling slopes downward forcing you to duck your head.  The timbers that reinforce the tunnel here appear to be strong and give you a way to pull yourself through the passage in some of the tighter spots."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "26786": "south",
     "26782": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "26786": 0.2,
+    "26782": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     1007,
     1386,
     1017,
     1396
-  ],
-  "terrain": null,
-  "description": [
-    "The tunnel narrows here and the ceiling slopes downward forcing you to duck your head.  The timbers that reinforce the tunnel here appear to be strong and give you a way to pull yourself through the passage in some of the tighter spots."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Catacombs, Dark Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26786": 0.2,
-    "26782": 0.2
-  },
-  "id": 26785,
-  "location": "the catacombs",
-  "tags": [
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+  ]
 }

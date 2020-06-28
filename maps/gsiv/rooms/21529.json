@@ -1,34 +1,23 @@
 {
-  "wayto": {
-    "20198": "out",
-    "21530": "go door"
-  },
-  "paths": [
-    "Obvious exits: out"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Cramped and dark, the interior of this wagon is littered with bladed weapons in various stages of disrepair.  Barely visible amid the mess are two weapon racks and several shelves on the far wall.  A shoddy door is nearly buried behind a pile of discarded sword hilts."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 21529,
   "title": [
     "[The Edge of Life, Inside]",
     "[A Teak Shack, Pole Party]"
   ],
-  "check_location": false,
+  "description": [
+    "Cramped and dark, the interior of this wagon is littered with bladed weapons in various stages of disrepair.  Barely visible amid the mess are two weapon racks and several shelves on the far wall.  A shoddy door is nearly buried behind a pile of discarded sword hilts."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": false,
+  "wayto": {
+    "20198": "out",
+    "21530": "go door"
+  },
   "timeto": {
     "20198": 0.2,
     "21530": 0.2
   },
-  "id": 21529,
-  "location": false,
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  "check_location": false
 }

@@ -1,64 +1,38 @@
 {
+  "id": 89,
+  "title": [
+    "[Emerald Forest, Peat Bog]"
+  ],
+  "description": [
+    "This peaty walkway wanders past a labyrinth of roots and waterlogged tunnels.  A wrybill picks its way along the soggy ground, searching for food.  Two willows lean against one another, drooping wearily."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast, up"
+  ],
+  "location": "the Emerald Forest",
   "wayto": {
     "88": "southeast",
     "90": "north",
     "9850": "up"
   },
-  "paths": [
-    "Obvious paths: north, southeast, up"
-  ],
+  "timeto": {
+    "88": 0.2,
+    "90": 0.2,
+    "9850": 0.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     582,
     1237,
     592,
     1247
   ],
-  "terrain": null,
-  "description": [
-    "This peaty walkway wanders past a labyrinth of roots and waterlogged tunnels.  A wrybill picks its way along the soggy ground, searching for food.  Two willows lean against one another, drooping wearily."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Emerald Forest, Peat Bog]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "88": 0.2,
-    "90": 0.2,
-    "9850": 0.2
-  },
-  "id": 89,
-  "location": "the Emerald Forest",
   "tags": [
     "some calamia fruit",
     "some talneo root",
     "some wingstem root",
     "blue trafel mushroom",
     "soft white mushroom",
-    "trollfear mushroom",
-    "calamia fruit",
-    "haphip root",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "wild gooseberry",
-    "stalk of cattail",
-    "small wild rose",
-    "lady slipper blossom",
-    "wood violet",
-    "blue whortleberry",
-    "pepperthorn root",
-    "murdroot",
-    "wavepetal blossom",
-    "bolmara lichen",
-    "talneo root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "trollfear mushroom"
   ]
 }

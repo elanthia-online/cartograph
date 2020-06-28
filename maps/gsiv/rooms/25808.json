@@ -1,43 +1,36 @@
 {
-  "wayto": {
-    "25810": {
-      "stringproc": "b3903ef3130903d58c1b8b478bec601b"
-    },
-    "25809": {
-      "stringproc": "7c906cf3c37f156a5de40e3486f4dfc0"
-    },
-    "25807": {
-      "stringproc": "9b05cb4429e6ad5efbe157efd92e6023"
-    }
-  },
-  "paths": [
-    "Obvious paths: northeast, southwest, northwest"
-  ],
-  "image_coords": [
-    1600,
-    1919,
-    1621,
-    1939
-  ],
-  "terrain": null,
-  "description": [
-    "Darkly ominous, Charl's Teeth overshadow the lapping waves of the harbor, though its dark presence does not seem to extend to the islands that rise out of the ocean on the east and west.  Moonlight lends its silvery glow to the small coral structures that lay upon the ocean floor where glittering anemones wave in the current."
-  ],
-  "image": "ifw-eastern_waterway-1489553700.png",
-  "climate": null,
+  "id": 25808,
   "title": [
     "[Eastern Waterway]"
   ],
-  "check_location": null,
+  "description": [
+    "Darkly ominous, Charl's Teeth overshadow the lapping waves of the harbor, though its dark presence does not seem to extend to the islands that rise out of the ocean on the east and west.  Moonlight lends its silvery glow to the small coral structures that lay upon the ocean floor where glittering anemones wave in the current."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest, northwest"
+  ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "25810": {
+      "file": "string_procs/wayto/25808_25810.rb"
+    },
+    "25809": {
+      "file": "string_procs/wayto/25808_25809.rb"
+    },
+    "25807": {
+      "file": "string_procs/wayto/25808_25807.rb"
+    }
+  },
   "timeto": {
     "25810": 6.0,
     "25809": 6.0,
     "25807": 6.0
   },
-  "id": 25808,
-  "location": "Mist Harbor",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  "image": "ifw-eastern_waterway-1489553700.png",
+  "image_coords": [
+    1600,
+    1919,
+    1621,
+    1939
+  ]
 }

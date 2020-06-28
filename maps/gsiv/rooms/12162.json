@@ -1,51 +1,43 @@
 {
-  "wayto": {
-    "12207": "northwest",
-    "2579": {
-      "stringproc": "8770ecf721b2f46d9bc09a8706aab02e"
-    },
-    "12210": "east",
-    "12211": "southwest"
-  },
+  "id": 12162,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "The walls are a deep red color, pulsating and constricting.  At times you wonder if they will crush you, but you are only soundly squeezed between them as they contract and release, over and over.  Blood flows in rivers over the floor, forced out of the chamber by the movement of the walls and into a corridor to the north."
+  ],
   "paths": [
     "Obvious paths: east, southwest, northwest",
     "Obvious exits: east, southwest, northwest"
   ],
-  "image_coords": [
-    887,
-    1248,
-    897,
-    1258
-  ],
-  "terrain": null,
-  "description": [
-    "The walls are a deep red color, pulsating and constricting.  At times you wonder if they will crush you, but you are only soundly squeezed between them as they contract and release, over and over.  Blood flows in rivers over the floor, forced out of the chamber by the movement of the walls and into a corridor to the north."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12207": "northwest",
+    "2579": {
+      "file": "string_procs/wayto/12162_2579.rb"
+    },
+    "12210": "east",
+    "12211": "southwest"
+  },
   "timeto": {
     "12207": 0.2,
     "2579": 6.8,
     "12210": 0.2,
     "12211": 0.2
   },
-  "id": 12162,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    887,
+    1248,
+    897,
+    1258
+  ],
   "tags": [
     "withered deathblossom",
     "mass of congealed slime",
     "discolored fleshbinder bud",
     "rotting bile green fleshbulb",
     "oozing fleshsore bulb",
-    "fleshsore bulb",
-    "slime-covered grave blossom",
-    "twisted black mawflower"
-  ],
-  "links": [
-
+    "fleshsore bulb"
   ]
 }

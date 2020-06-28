@@ -1,41 +1,30 @@
 {
-  "wayto": {
-    "3446": "out",
-    "22233": "north",
-    "22234": "south"
-  },
-  "paths": [
-    "Obvious exits: north, south, out"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Enclosed by honey gold oak walls, the shop features a well-pruned lemon tree in the center of its gold oak floor.  A colorful Icemule map hangs under the stucco ceiling.  Right near the front is a heavy wooden desk and a narrow glass-topped table.",
-    "A mounted fish skeleton hangs on one of the painted black oak walls, and an oak beam ceiling rises overhead.  A well-pruned lemon tree sits in one corner of a honey gold oak floor.  There is a low wrought iron table on one side of the shop and a heavy wooden desk on the other."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 22232,
   "title": [
     "[Drafix's Magic Shoppe]",
     "[Drafix's Weaponry]",
     "[Drafix's General Store]",
     "[Drafix's Outfitting]",
-    "[Drafix's Combat Gear]",
-    "[Finwe's Fineries]"
+    "[Drafix's Combat Gear]"
   ],
-  "check_location": null,
+  "description": [
+    "Enclosed by honey gold oak walls, the shop features a well-pruned lemon tree in the center of its gold oak floor.  A colorful Icemule map hangs under the stucco ceiling.  Right near the front is a heavy wooden desk and a narrow glass-topped table."
+  ],
+  "paths": [
+    "Obvious exits: north, south, out"
+  ],
+  "location": "Icemule Trace",
+  "wayto": {
+    "3446": "out",
+    "22233": "north",
+    "22234": "south"
+  },
   "timeto": {
     "3446": 0.2,
     "22233": 0.2,
     "22234": 0.2
   },
-  "id": 22232,
-  "location": "Icemule Trace",
   "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
+    "drafix"
   ]
 }

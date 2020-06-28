@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "12208": {
-      "stringproc": "a0576f0215d746452e7afb93c1ee082c"
-    },
-    "2600": "east",
-    "2635": {
-      "stringproc": "01b8924575c8d70e4ed7eea7ed00be84"
-    },
-    "2602": "west",
-    "12101": {
-      "stringproc": "cf4b8e5b125b22b01c9349827d02c9fd"
-    }
-  },
+  "id": 2601,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "Deep in the forest rests what was once a small shrine carefully carved of the butchered haon wood that surrounds you.  Screams and the violent falling of trees fill the air with a strong sense of destruction.  From somewhere nearby, the angry sound of a river rapids completes the unusual symphony.  Little else alters the disquiet save for an occasional muted plea drifting in on the breeze."
+  ],
   "paths": [
     "Obvious paths: east, west",
     "Obvious exits: east, west"
   ],
-  "image_coords": [
-    240,
-    751,
-    250,
-    761
-  ],
-  "terrain": null,
-  "description": [
-    "Deep in the forest rests what was once a small shrine carefully carved of the butchered haon wood that surrounds you.  Screams and the violent falling of trees fill the air with a strong sense of destruction.  From somewhere nearby, the angry sound of a river rapids completes the unusual symphony.  Little else alters the disquiet save for an occasional muted plea drifting in on the breeze."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12208": {
+      "file": "string_procs/wayto/2601_12208.rb"
+    },
+    "2600": "east",
+    "2635": {
+      "file": "string_procs/wayto/2601_2635.rb"
+    },
+    "2602": "west",
+    "12101": {
+      "file": "string_procs/wayto/2601_12101.rb"
+    }
+  },
   "timeto": {
     "12208": 22.0,
     "2600": 0.2,
@@ -39,8 +31,13 @@
     "2602": 0.2,
     "12101": 26.0
   },
-  "id": 2601,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    240,
+    751,
+    250,
+    761
+  ],
   "tags": [
     "discolored fleshbinder bud",
     "slime-covered grave blossom",
@@ -49,8 +46,5 @@
     "oozing fleshsore bulb",
     "twisted black mawflower",
     "withered deathblossom"
-  ],
-  "links": [
-
   ]
 }

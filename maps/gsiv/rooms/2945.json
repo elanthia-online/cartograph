@@ -1,43 +1,36 @@
 {
+  "id": 2945,
+  "title": [
+    "[Abbey Porch]"
+  ],
+  "description": [
+    "The porch provides a sweeping view of the valley, which stretches in a sea of white and grey to the horizon.  The stonehold below leans against a lower fold of the mountainside, blocking the view of the trail leading away from the abbey.  Broken double doors leading into the abbey are flung open like outstretched, welcoming arms.  The lintel above the doors is intricately carved."
+  ],
+  "paths": [
+    "Obvious paths: north, down"
+  ],
+  "location": "the Abbey",
   "wayto": {
     "2944": "down",
     "2989": "go doors",
     "2946": "north"
   },
-  "paths": [
-    "Obvious paths: north, down"
-  ],
+  "timeto": {
+    "2944": 0.2,
+    "2989": 0.2,
+    "2946": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     718,
     696,
     728,
     706
   ],
-  "terrain": "hard, flat",
-  "description": [
-    "The porch provides a sweeping view of the valley, which stretches in a sea of white and grey to the horizon.  The stonehold below leans against a lower fold of the mountainside, blocking the view of the trail leading away from the abbey.  Broken double doors leading into the abbey are flung open like outstretched, welcoming arms.  The lintel above the doors is intricately carved."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Abbey Porch]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2944": 0.2,
-    "2989": 0.2,
-    "2946": 0.2
-  },
-  "id": 2945,
-  "location": "the Abbey",
   "tags": [
     "calmintha flower",
     "nedum vereri",
     "dark shambler",
-    "arctic puma",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "arctic puma"
   ]
 }

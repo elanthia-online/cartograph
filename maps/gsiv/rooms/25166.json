@@ -1,36 +1,29 @@
 {
+  "id": 25166,
+  "title": [
+    "[Sanctum of Scales, Columns]"
+  ],
+  "description": [
+    "Narrow paneled windows provide an ample view of the courtyard's remnants and the vast desert beyond.  The sun's rays bathe the large dunes in a warm amber glow, the same light piercing through to halo the pallid columns in an eerie luminosity.  The tiled ground is chipped, resembling run down cobblestones.",
+    "Narrow paneled windows provide an ample view of the courtyard's remnants and the vast desert beyond.  The chill moonlight bathes the black dunes in swathes of silver, the same light piercing through to halo the pallid columns in an eerie luminosity.  The tiled ground is chipped, resembling run-down cobblestones."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "the shadow of the Sanctum",
   "wayto": {
     "25165": "east",
     "25171": "north"
   },
-  "paths": [
-    "Obvious exits: north, east"
-  ],
+  "timeto": {
+    "25165": 0.2,
+    "25171": 0.2
+  },
+  "image": "sanctum-1474169333.png",
   "image_coords": [
     562,
     151,
     576,
     166
-  ],
-  "terrain": null,
-  "description": [
-    "Narrow paneled windows provide an ample view of the courtyard's remnants and the vast desert beyond.  The sun's rays bathe the large dunes in a warm amber glow, the same light piercing through to halo the pallid columns in an eerie luminosity.  The tiled ground is chipped, resembling run down cobblestones.",
-    "Narrow paneled windows provide an ample view of the courtyard's remnants and the vast desert beyond.  The chill moonlight bathes the black dunes in swathes of silver, the same light piercing through to halo the pallid columns in an eerie luminosity.  The tiled ground is chipped, resembling run-down cobblestones."
-  ],
-  "image": "sanctum-1474169333.png",
-  "climate": null,
-  "title": [
-    "[Sanctum of Scales, Columns]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "25165": 0.2,
-    "25171": 0.2
-  },
-  "id": 25166,
-  "location": "the shadow of the Sanctum",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

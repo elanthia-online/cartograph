@@ -1,35 +1,32 @@
 {
+  "id": 10203,
+  "title": [
+    "[Grassland]"
+  ],
+  "description": [
+    "Algae-coated stones provide dry but slippery footing along the edge of the streambed.  The shadowy forms of larger boulders can be seen beneath the surface of the water, closer to the center of the stream.  To the west, the stream widens out into a small deep pond."
+  ],
+  "paths": [
+    "Obvious paths: north, east, west"
+  ],
+  "location": "the grasslands",
   "wayto": {
     "10201": "north",
     "10202": "west",
     "10205": "east"
   },
-  "paths": [
-    "Obvious paths: north, east, west"
-  ],
+  "timeto": {
+    "10201": 0.2,
+    "10202": 0.2,
+    "10205": 0.2
+  },
+  "image": "en-fearling-1264234799.png",
   "image_coords": [
     173,
     489,
     183,
     499
   ],
-  "terrain": null,
-  "description": [
-    "Algae-coated stones provide dry but slippery footing along the edge of the streambed.  The shadowy forms of larger boulders can be seen beneath the surface of the water, closer to the center of the stream.  To the west, the stream widens out into a small deep pond."
-  ],
-  "image": "en-fearling-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Grassland]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10201": 0.2,
-    "10202": 0.2,
-    "10205": 0.2
-  },
-  "id": 10203,
-  "location": "the grasslands",
   "tags": [
     "some acantha leaf",
     "some calamia fruit",
@@ -71,8 +68,5 @@
     "ironfern root",
     "sunburst blossom",
     "talneo root"
-  ],
-  "links": [
-
   ]
 }

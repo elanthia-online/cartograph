@@ -1,48 +1,31 @@
 {
+  "id": 7720,
+  "title": [
+    "[Caverns, Tunnel]"
+  ],
+  "description": [
+    "A few sparkling spokes of crystals protrude from the craggy ceiling, reflecting the faint light filtering into the area.  The tunnel turns sharply here, crossing into a sharp descent then beginning an ascent to the southwest.  Green and white lichen spreads across the rough floor, serving as a tattered and fuzzy carpet."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "7719": "southwest",
     "7721": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast, southwest"
-  ],
+  "timeto": {
+    "7719": 0.2,
+    "7721": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     321,
     1411,
     331,
     1421
   ],
-  "terrain": "indoors",
-  "description": [
-    "A few sparkling spokes of crystals protrude from the craggy ceiling, reflecting the faint light filtering into the area.  The tunnel turns sharply here, crossing into a sharp descent then beginning an ascent to the southwest.  Green and white lichen spreads across the rough floor, serving as a tattered and fuzzy carpet."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Caverns, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7719": 0.2,
-    "7721": 0.2
-  },
-  "id": 7720,
-  "location": "the Coastal Cliffs",
   "tags": [
-    "some cave moss",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

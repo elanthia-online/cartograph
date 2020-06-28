@@ -1,33 +1,30 @@
 {
+  "id": 7193,
+  "title": [
+    "[Graveyard]"
+  ],
+  "description": [
+    "The mysterious mound seems like an unanswered riddle yet the worn dirt path around it and the curiously domed crest of the hill arouse your suspicion.  Judging from the deep tracks in all directions, others before you must have felt it worthy of investigation."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7192": "west",
     "7194": "east"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "7192": 0.2,
+    "7194": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     394,
     374,
     404,
     384
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The mysterious mound seems like an unanswered riddle yet the worn dirt path around it and the curiously domed crest of the hill arouse your suspicion.  Judging from the deep tracks in all directions, others before you must have felt it worthy of investigation."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Graveyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7192": 0.2,
-    "7194": 0.2
-  },
-  "id": 7193,
-  "location": "the Graveyard",
   "tags": [
     "some wolifrew lichen",
     "some acantha leaf",
@@ -52,10 +49,6 @@
     "blue whortleberry",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

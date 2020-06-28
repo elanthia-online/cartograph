@@ -1,53 +1,39 @@
 {
+  "id": 7508,
+  "title": [
+    "[Catacombs, East-West Tunnel]"
+  ],
+  "description": [
+    "This smallish, circular chamber seems to mark the beginning of a series of branching tunnels.  To the east, a long passage recedes into the murk, while a narrower one leads southwest.  Sepulchers line the walls, broken into at random intervals.  A tangle of roots on the northwest side of the chamber conceals the source of a tiny streamlet.  A channel in the floor of the tunnel cradles the trickling water."
+  ],
+  "paths": [
+    "Obvious exits: east, southwest"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "7515": "say well",
     "7527": "go roots",
     "7507": "east",
     "7509": "southwest"
   },
-  "paths": [
-    "Obvious exits: east, southwest"
-  ],
-  "image_coords": [
-    687,
-    1100,
-    697,
-    1110
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This smallish, circular chamber seems to mark the beginning of a series of branching tunnels.  To the east, a long passage recedes into the murk, while a narrower one leads southwest.  Sepulchers line the walls, broken into at random intervals.  A tangle of roots on the northwest side of the chamber conceals the source of a tiny streamlet.  A channel in the floor of the tunnel cradles the trickling water."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Catacombs, East-West Tunnel]"
-  ],
-  "check_location": null,
   "timeto": {
     "7515": 0.2,
     "7527": 0.2,
     "7507": 0.2,
     "7509": 0.2
   },
-  "id": 7508,
-  "location": "the catacombs",
+  "image": "wl-catacombs-1264234799.png",
+  "image_coords": [
+    687,
+    1100,
+    697,
+    1110
+  ],
   "tags": [
     "some bolmara lichen",
     "black hook mushroom",
     "withered black mushroom",
     "soft white mushroom",
-    "some cave moss",
-    "red trafel mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

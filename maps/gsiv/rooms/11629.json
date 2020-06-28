@@ -1,54 +1,33 @@
 {
+  "id": 11629,
+  "title": [
+    "[Miasmal Forest, Slough]"
+  ],
+  "description": [
+    "The trees along the pathway through the slough have a diseased look about them.  A patch of color visible through the dull grey fog reveals itself to be a deep, reddish-purple patch of mold on the side of a gnarled and dying haon tree.  The boggy path disappears into the fog to the north and northeast."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast"
+  ],
   "wayto": {
     "11623": "northeast",
     "11628": "north"
   },
-  "paths": [
-    "Obvious paths: north, northeast"
-  ],
+  "timeto": {
+    "11623": 0.2,
+    "11628": 0.2
+  },
+  "image": "rr-maelstrom-1266390501.png",
   "image_coords": [
     769,
     693,
     781,
     705
   ],
-  "terrain": "muddy wetlands",
-  "description": [
-    "The trees along the pathway through the slough have a diseased look about them.  A patch of color visible through the dull grey fog reveals itself to be a deep, reddish-purple patch of mold on the side of a gnarled and dying haon tree.  The boggy path disappears into the fog to the north and northeast."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Miasmal Forest, Slough]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11623": 0.2,
-    "11628": 0.2
-  },
-  "id": 11629,
-  "location": "the Miasmal Forest",
   "tags": [
     "withered black mushroom",
     "some wingstem root",
     "some talneo root",
-    "ringable",
-    "aloeas stem",
-    "soft white mushroom",
-    "white hook mushroom",
-    "blue trafel mushroom",
-    "wild gooseberry",
-    "stalk of cattail",
-    "small wild rose",
-    "mistweed",
-    "murdroot",
-    "wavepetal blossom",
-    "bolmara lichen",
-    "talneo root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ringable"
   ]
 }

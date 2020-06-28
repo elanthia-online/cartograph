@@ -1,43 +1,35 @@
 {
+  "id": 19261,
+  "title": [
+    "[Dark Shrine, Chapel]"
+  ],
+  "description": [
+    "Here, surrounded by dark frescoes presenting frightening images of terror, foul beasts and macabre rituals, confronted by the huge, ghastly statue that dominates the center of the chamber, the sense of evil is a palpable force that threatens to smother and consume all that it can."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest"
+  ],
+  "location": "the Broken Lands",
   "wayto": {
     "19267": "northeast",
     "19262": "northwest",
     "7489": {
-      "stringproc": "0887aebfb6cfd20996357f75e1b1086d"
+      "file": "string_procs/wayto/19261_7489.rb"
     }
   },
-  "paths": [
-    "Obvious exits: northeast, northwest"
-  ],
+  "timeto": {
+    "19267": 0.2,
+    "19262": 0.2,
+    "7489": 0.2
+  },
+  "image": "wl-broken-1264234799.png",
   "image_coords": [
     1000,
     276,
     1010,
     286
   ],
-  "terrain": "indoors",
-  "description": [
-    "Here, surrounded by dark frescoes presenting frightening images of terror, foul beasts and macabre rituals, confronted by the huge, ghastly statue that dominates the center of the chamber, the sense of evil is a palpable force that threatens to smother and consume all that it can."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dark Shrine, Chapel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "19267": 0.2,
-    "19262": 0.2,
-    "7489": 0.2
-  },
-  "id": 19261,
-  "location": "the Broken Lands",
   "tags": [
-    "lesser vruul",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "lesser vruul"
   ]
 }

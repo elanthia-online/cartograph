@@ -1,37 +1,28 @@
 {
-  "wayto": {
-    "14605": "go door"
-  },
+  "id": 12258,
+  "title": [
+    "[Manor House, Study]"
+  ],
+  "description": [
+    "Devoid of furniture, it's unclear how this room was originally used.  From its size and the lack of windows it was probably either a study or servants' quarters."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "wayto": {
+    "14605": "go door"
+  },
+  "timeto": {
+    "14605": 0.2
+  },
+  "image": "vo-outlands-1264234799.png",
   "image_coords": [
     1128,
     838,
     1138,
     848
   ],
-  "terrain": "indoors",
-  "description": [
-    "Devoid of furniture, it's unclear how this room was originally used.  From its size and the lack of windows it was probably either a study or servants' quarters."
-  ],
-  "image": "vo-outlands-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Manor House, Study]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "14605": 0.2
-  },
-  "id": 12258,
-  "location": "the Outlands",
   "tags": [
-    "dobrem",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "dobrem"
   ]
 }

@@ -1,34 +1,23 @@
 {
-  "wayto": {
-    "1500": "climb wall",
-    "4584": {
-      "stringproc": "46e03e5b8a6c793e2440c4b666f2e6e2"
-    }
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Standing in the center of the walled courtyard is a masterfully crafted water fountain created in the image of a sea kraken.  Wrapped in the kraken's tentacles is a flawless crown-of-Charl shell, from which the water cascades into the base of the fountain.  Well-kept flowerbeds containing an assortment of exotic flowers have been bordered with a collection of ruby-lined nassa shells, along with yellow, pink, and blue coquina shells.  An opal-flecked walkway leads up to a set of double doors."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 4583,
   "title": [
     "[Kraken Manor, Courtyard]"
   ],
-  "check_location": null,
+  "description": [
+    "Standing in the center of the walled courtyard is a masterfully crafted water fountain created in the image of a sea kraken.  Wrapped in the kraken's tentacles is a flawless crown-of-Charl shell, from which the water cascades into the base of the fountain.  Well-kept flowerbeds containing an assortment of exotic flowers have been bordered with a collection of ruby-lined nassa shells, along with yellow, pink, and blue coquina shells.  An opal-flecked walkway leads up to a set of double doors."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Solhaven",
+  "wayto": {
+    "1500": "climb wall",
+    "4584": {
+      "file": "string_procs/wayto/4583_4584.rb"
+    }
+  },
   "timeto": {
     "1500": 0.2,
     "4584": 1.6
-  },
-  "id": 4583,
-  "location": "Solhaven",
-  "tags": [
-
-  ],
-  "links": [
-
-  ]
+  }
 }

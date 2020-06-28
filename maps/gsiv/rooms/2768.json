@@ -1,37 +1,34 @@
 {
+  "id": 2768,
+  "title": [
+    "[Northern Slopes, Bluff]"
+  ],
+  "description": [
+    "Lichen mottles the surface of boulders forming the bluff, their surface sheared of snow by gusting winds blowing up from the gorge below.  The flurries are buffered to the northwest by a dense forest of pines that stand dark and seemingly impenetrable.  A trail forms and winds away to the northeast, as though fleeing the maw of the shadowy ravine.  It soon disappears, lost in a vast expanse of blizzard-swept tundra."
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest"
+  ],
+  "location": "the Pinefar forests",
   "wayto": {
     "2795": {
-      "stringproc": "c2f35339ece466ff7a209eab5eb2ca59"
+      "file": "string_procs/wayto/2768_2795.rb"
     },
     "2767": "northeast",
     "2769": "northwest"
   },
-  "paths": [
-    "Obvious paths: northeast, northwest"
-  ],
+  "timeto": {
+    "2795": 0.2,
+    "2767": 0.2,
+    "2769": 0.2
+  },
+  "image": "imt-pinefar-1264234799.png",
   "image_coords": [
     489,
     1008,
     499,
     1018
   ],
-  "terrain": "mountainous",
-  "description": [
-    "Lichen mottles the surface of boulders forming the bluff, their surface sheared of snow by gusting winds blowing up from the gorge below.  The flurries are buffered to the northwest by a dense forest of pines that stand dark and seemingly impenetrable.  A trail forms and winds away to the northeast, as though fleeing the maw of the shadowy ravine.  It soon disappears, lost in a vast expanse of blizzard-swept tundra."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Northern Slopes, Bluff]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2795": 0.2,
-    "2767": 0.2,
-    "2769": 0.2
-  },
-  "id": 2768,
-  "location": "the Pinefar forests",
   "tags": [
     "some daggit root",
     "some red lichen",
@@ -53,18 +50,6 @@
     "lingonberry",
     "orange rowanberry",
     "ironfern root",
-    "wingstem root",
-    "red lichen",
-    "valerian root",
-    "pennyroyal stem",
-    "wyrmwood bark",
-    "daggit root",
-    "arctic moss",
-    "tundra grass",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

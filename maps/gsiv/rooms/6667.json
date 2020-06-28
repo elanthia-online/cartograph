@@ -1,40 +1,30 @@
 {
+  "id": 6667,
+  "title": [
+    "[Monastery, Well-Lit Hallway]"
+  ],
+  "description": [
+    "An open doorway leads to the south, and a faint musty smell drifts in from that direction.  There are three faceted crystal orbs hanging in this section of the hallway, casting their strange yellow light down upon the spidersilk carpeting."
+  ],
+  "paths": [
+    "Obvious exits: east, south, west"
+  ],
+  "location": "the Broken Lands",
   "wayto": {
     "6655": "west",
     "6668": "south",
     "6669": "east"
   },
-  "paths": [
-    "Obvious exits: east, south, west"
-  ],
-  "image_coords": [
-    439,
-    1182,
-    449,
-    1192
-  ],
-  "terrain": "indoors",
-  "description": [
-    "An open doorway leads to the south, and a faint musty smell drifts in from that direction.  There are three faceted crystal orbs hanging in this section of the hallway, casting their strange yellow light down upon the spidersilk carpeting."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Monastery, Well-Lit Hallway]"
-  ],
-  "check_location": null,
   "timeto": {
     "6655": 0.2,
     "6668": 0.2,
     "6669": 0.2
   },
-  "id": 6667,
-  "location": "the Broken Lands",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-broken-1264234799.png",
+  "image_coords": [
+    439,
+    1182,
+    449,
+    1192
   ]
 }

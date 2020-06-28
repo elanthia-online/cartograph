@@ -1,39 +1,32 @@
 {
+  "id": 17752,
+  "title": [
+    "[Warrior Guild, Entrance]"
+  ],
+  "description": [
+    "Just inside the doorway, a hallway slopes downward on either side.  Gold sconces on the walls provide steady lighting but little heat to the interior.  The rock walls look as if they had been painstakingly carved from solid granite blocks.  Everywhere, the walls and ceilings show deliberate, broad cuts made by some inconceivably large instrument."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
   "wayto": {
     "17751": "south",
     "17753": "go doors",
     "17754": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "17751": 0.2,
+    "17753": 0.2,
+    "17754": 0.2
+  },
+  "image": "warrior_guilds-1268684755.png",
   "image_coords": [
     657,
     473,
     676,
     490
   ],
-  "terrain": null,
-  "description": [
-    "Just inside the doorway, a hallway slopes downward on either side.  Gold sconces on the walls provide steady lighting but little heat to the interior.  The rock walls look as if they had been painstakingly carved from solid granite blocks.  Everywhere, the walls and ceilings show deliberate, broad cuts made by some inconceivably large instrument."
-  ],
-  "image": "warrior_guilds-1268684755.png",
-  "climate": null,
-  "title": [
-    "[Warrior Guild, Entrance]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "17751": 0.2,
-    "17753": 0.2,
-    "17754": 0.2
-  },
-  "id": 17752,
-  "location": null,
   "tags": [
     "warrior guild floor"
-  ],
-  "links": [
-
   ]
 }

@@ -1,39 +1,31 @@
 {
+  "id": 2953,
+  "title": [
+    "[Abbey Grand Stair]"
+  ],
+  "description": [
+    "Seven broad, stone steps lead upwards, bracketed by ornate wooden bannisters.  The balusters are carved into the spearheaded shapes of irises, while the newels are shaped like frogs upon lilypads."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "the Abbey",
   "wayto": {
     "2952": "down",
     "2954": "up"
   },
-  "paths": [
-    "Obvious exits: up, down"
-  ],
+  "timeto": {
+    "2952": 0.2,
+    "2954": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     858,
     762,
     868,
     772
   ],
-  "terrain": "indoors",
-  "description": [
-    "Seven broad, stone steps lead upwards, bracketed by ornate wooden bannisters.  The balusters are carved into the spearheaded shapes of irises, while the newels are shaped like frogs upon lilypads."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abbey Grand Stair]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2952": 0.2,
-    "2954": 0.2
-  },
-  "id": 2953,
-  "location": "the Abbey",
   "tags": [
-    "nedum vereri",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "nedum vereri"
   ]
 }

@@ -1,34 +1,33 @@
 {
+  "id": 10870,
+  "title": [
+    "[River's Rest Museum]"
+  ],
+  "description": [
+    "A dense grove of tall persimmon trees surround a small green lawn.  In the center of the lawn stands a squat, circular stucco tower illuminated by the flaming torches that line the white gravel walkway.  The torches cast strange, flickering shadows on the trees.",
+    "A dense grove of tall persimmon trees surround a small green lawn.  In the center of the lawn stands a squat, circular tower made of stucco.  Unlit torches line the white gravel walkway leading to the tower.  Muted birdsong filters in through the trees."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "the town of River's Rest",
+  "climate": "temperate",
+  "terrain": "grassland",
   "wayto": {
     "10997": "go doorway",
     "10868": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast"
-  ],
+  "timeto": {
+    "10997": 0.2,
+    "10868": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     598,
     450,
     636,
     488
   ],
-  "terrain": "grassland",
-  "description": [
-    "A dense grove of tall persimmon trees surround a small green lawn.  In the center of the lawn stands a squat, circular stucco tower illuminated by the flaming torches that line the white gravel walkway.  The torches cast strange, flickering shadows on the trees.",
-    "A dense grove of tall persimmon trees surround a small green lawn.  In the center of the lawn stands a squat, circular tower made of stucco.  Unlit torches line the white gravel walkway leading to the tower.  Muted birdsong filters in through the trees."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "temperate",
-  "title": [
-    "[River's Rest Museum]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10997": 0.2,
-    "10868": 0.2
-  },
-  "id": 10870,
-  "location": "the town of River's Rest",
   "tags": [
     "some sovyn clove",
     "some acantha leaf",
@@ -88,13 +87,6 @@
     "murdroot",
     "wavepetal blossom",
     "ironfern root",
-    "sunburst blossom",
-    "trollfear mushroom",
-    "fire lily",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sunburst blossom"
   ]
 }

@@ -1,48 +1,33 @@
 {
+  "id": 6700,
+  "title": [
+    "[Gnome Mine, Living Area]"
+  ],
+  "description": [
+    "This is the central area of the gnome mine.  A small stove burns low near the center of the room.  Near the stove, a pile of freshly mined ore is stacked neatly against a small forge.  Some furs are stacked in the northwestern corner near a large cask of water.  The tunnel to the southeast leads to a much larger cavern."
+  ],
+  "paths": [
+    "Obvious exits: east, southeast"
+  ],
+  "location": "the Upper Dragonsclaw",
   "wayto": {
     "6699": "southeast",
     "6701": "east"
   },
-  "paths": [
-    "Obvious exits: east, southeast"
-  ],
+  "timeto": {
+    "6699": 0.2,
+    "6701": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     99,
     1338,
     109,
     1348
   ],
-  "terrain": "indoors",
-  "description": [
-    "This is the central area of the gnome mine.  A small stove burns low near the center of the room.  Near the stove, a pile of freshly mined ore is stacked neatly against a small forge.  Some furs are stacked in the northwestern corner near a large cask of water.  The tunnel to the southeast leads to a much larger cavern."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Gnome Mine, Living Area]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6699": 0.2,
-    "6701": 0.2
-  },
-  "id": 6700,
-  "location": "the Upper Dragonsclaw",
   "tags": [
     "white hook mushroom",
     "black hook mushroom",
-    "some cave moss",
-    "soft white mushroom",
-    "withered black mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

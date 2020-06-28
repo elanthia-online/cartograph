@@ -1,38 +1,28 @@
 {
+  "id": 7018,
+  "title": [
+    "[Castle Darkstone, Gatehouse]"
+  ],
+  "description": [
+    "This is the top of the northern gatehouse, which protects the entrance to the outer keep.  Some machinery rests here that looks as if it may control the operation of the drawbridge and portcullis below, but you cannot find any way to manipulate it.  A thin plank connects this tower to the other of the pair, to the south."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7019": "go plank",
     "7017": "north"
   },
-  "paths": [
-    "Obvious paths: north"
-  ],
+  "timeto": {
+    "7019": 0.2,
+    "7017": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     305,
     376,
     315,
     386
-  ],
-  "terrain": null,
-  "description": [
-    "This is the top of the northern gatehouse, which protects the entrance to the outer keep.  Some machinery rests here that looks as if it may control the operation of the drawbridge and portcullis below, but you cannot find any way to manipulate it.  A thin plank connects this tower to the other of the pair, to the south."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Castle Darkstone, Gatehouse]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7019": 0.2,
-    "7017": 0.2
-  },
-  "id": 7018,
-  "location": "Darkstone Castle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

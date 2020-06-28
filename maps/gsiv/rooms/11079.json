@@ -1,38 +1,27 @@
 {
+  "id": 11079,
+  "title": [
+    "[Sea Caves]"
+  ],
+  "description": [
+    "The cave continues to the northeast, but a short cliff face stops further progress to the south.  The cliff is not tall, and can be easily climbed.  Small swatches of cloth can be found among the sharp rocks of the cliff face."
+  ],
+  "paths": [
+    "Obvious exits: northeast, up"
+  ],
   "wayto": {
     "11080": "up",
     "11078": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, up"
-  ],
+  "timeto": {
+    "11080": 0.2,
+    "11078": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     1242,
     220,
     1252,
     230
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The cave continues to the northeast, but a short cliff face stops further progress to the south.  The cliff is not tall, and can be easily climbed.  Small swatches of cloth can be found among the sharp rocks of the cliff face."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Caves]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11080": 0.2,
-    "11078": 0.2
-  },
-  "id": 11079,
-  "location": "the Sea Caves",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

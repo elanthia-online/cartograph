@@ -1,35 +1,28 @@
 {
+  "id": 26780,
+  "title": [
+    "[Catacombs, Dark Tunnels]"
+  ],
+  "description": [
+    "Light filters down from a large opening in the ceiling above but the room remains in darkness and shadow.  A wooden railing encircles the opening as it continues downward beyond your sight.  The railing has long since rotted in many places and broken pieces lay strewn across the floor."
+  ],
+  "paths": [
+    "Obvious exits: north, down"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "26781": "down",
     "26779": "north"
   },
-  "paths": [
-    "Obvious exits: north, down"
-  ],
+  "timeto": {
+    "26781": 0.2,
+    "26779": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     1007,
     1306,
     1016,
     1316
-  ],
-  "terrain": null,
-  "description": [
-    "Light filters down from a large opening in the ceiling above but the room remains in darkness and shadow.  A wooden railing encircles the opening as it continues downward beyond your sight.  The railing has long since rotted in many places and broken pieces lay strewn across the floor."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Catacombs, Dark Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26781": 0.2,
-    "26779": 0.2
-  },
-  "id": 26780,
-  "location": "the catacombs",
-  "tags": [
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+  ]
 }

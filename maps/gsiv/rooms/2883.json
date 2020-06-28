@@ -1,45 +1,35 @@
 {
-  "wayto": {
-    "2884": {
-      "stringproc": "2fb6391f797bcfe2e20411b34f7a7446"
-    },
-    "2881": {
-      "stringproc": "3e154b8c4cde86b26a253f1601170992"
-    }
-  },
+  "id": 2883,
+  "title": [
+    "[Northern Slopes, Narrow Chute]"
+  ],
+  "description": [
+    "The wintry winds are unable to invade this narrow chute.  Formed by a fracture in the slope, it slices vertically through the basalt, a deep scar marring the mountain.  To either side, dark rock walls constrict the narrow space available.  An outcropping looms overhead, capping the upper end of the chute."
+  ],
   "paths": [
     "Obvious exits: down"
   ],
+  "location": "the Sleeping Lady Mountains",
+  "wayto": {
+    "2884": {
+      "file": "string_procs/wayto/2883_2884.rb"
+    },
+    "2881": {
+      "file": "string_procs/wayto/2883_2881.rb"
+    }
+  },
+  "timeto": {
+    "2884": 0.2,
+    "2881": 7.0
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     1321,
     229,
     1331,
     239
   ],
-  "terrain": "indoors",
-  "description": [
-    "The wintry winds are unable to invade this narrow chute.  Formed by a fracture in the slope, it slices vertically through the basalt, a deep scar marring the mountain.  To either side, dark rock walls constrict the narrow space available.  An outcropping looms overhead, capping the upper end of the chute."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Northern Slopes, Narrow Chute]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2884": 0.2,
-    "2881": 7.0
-  },
-  "id": 2883,
-  "location": "the Sleeping Lady Mountains",
   "tags": [
-    "some wingstem root",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

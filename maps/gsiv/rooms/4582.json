@@ -1,50 +1,38 @@
 {
-  "wayto": {
-    "4581": {
-      "stringproc": "dbbfd361e7886ce7121cafa8a1b5c5c5"
-    },
-    "3988": {
-      "stringproc": "395b361a16c8a355265cda519abf9fe5"
-    }
-  },
+  "id": 4582,
+  "title": [
+    "[Griffin's Keen, Snow Scramble]"
+  ],
+  "description": [
+    "Getting a purchase on wall or ground is difficult here as any handhold is hidden under layers of ice.  The air is white with blowing snow, and visibility is about as good as it would be for a bug inside a bag of flour."
+  ],
   "paths": [
     "Obvious paths: up, down"
   ],
+  "location": "Griffin's Keen",
+  "wayto": {
+    "4581": {
+      "file": "string_procs/wayto/4582_4581.rb"
+    },
+    "3988": {
+      "file": "string_procs/wayto/4582_3988.rb"
+    }
+  },
+  "timeto": {
+    "4581": 4.2,
+    "3988": 4.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     528,
     290,
     538,
     300
   ],
-  "terrain": null,
-  "description": [
-    "Getting a purchase on wall or ground is difficult here as any handhold is hidden under layers of ice.  The air is white with blowing snow, and visibility is about as good as it would be for a bug inside a bag of flour."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Griffin's Keen, Snow Scramble]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4581": 4.2,
-    "3988": 4.2
-  },
-  "id": 4582,
-  "location": "Griffin's Keen",
   "tags": [
     "some valerian root",
     "some angelica root",
     "sprig of holly",
-    "sweetfern stalk",
-    "sassafras leaf",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sweetfern stalk"
   ]
 }

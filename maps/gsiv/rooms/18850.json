@@ -1,37 +1,34 @@
 {
+  "id": 18850,
+  "title": [
+    "[Twilight Hall, Warble's Parlor]"
+  ],
+  "description": [
+    "The west end of the great hall opens up into a bright, airy parlor.  As you step into the room, your eyes are immediately drawn to an ancient elven harp set up on a small dais.  A plush snowcat rug covers the floor in front of a white marble fireplace, and white cushions made of the softest Arachnian silk lie scattered about the room, inviting you to relax and enjoy yourself.  A spiral staircase in one corner leads both upstairs and downstairs."
+  ],
+  "paths": [
+    "Obvious exits: east, up, down"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "18848": "east",
     "18851": "go door",
     "18852": "down",
     "18856": "up"
   },
-  "paths": [
-    "Obvious exits: east, up, down"
-  ],
-  "image_coords": [
-    152,
-    444,
-    236,
-    502
-  ],
-  "terrain": null,
-  "description": [
-    "The west end of the great hall opens up into a bright, airy parlor.  As you step into the room, your eyes are immediately drawn to an ancient elven harp set up on a small dais.  A plush snowcat rug covers the floor in front of a white marble fireplace, and white cushions made of the softest Arachnian silk lie scattered about the room, inviting you to relax and enjoy yourself.  A spiral staircase in one corner leads both upstairs and downstairs."
-  ],
-  "image": "wl-twilight_hall.jpg",
-  "climate": null,
-  "title": [
-    "[Twilight Hall, Warble's Parlor]"
-  ],
-  "check_location": null,
   "timeto": {
     "18848": 0.2,
     "18851": 0.2,
     "18852": 0.2,
     "18856": 0.2
   },
-  "id": 18850,
-  "location": "Wehnimer's Landing",
+  "image": "wl-twilight_hall.jpg",
+  "image_coords": [
+    152,
+    444,
+    236,
+    502
+  ],
   "tags": [
     "node",
     "supernode",
@@ -39,8 +36,5 @@
     "meta:mapshortname:Twilight Hall",
     "meta:mapcategory:Wehnimer's Landing",
     "meta:mapcategory:CHE"
-  ],
-  "links": [
-
   ]
 }

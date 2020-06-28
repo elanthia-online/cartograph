@@ -1,41 +1,33 @@
 {
+  "id": 5573,
+  "title": [
+    "[Outlands Manor, Tower]"
+  ],
+  "description": [
+    "The arrow slits in this chamber face east, towards the Mestanir border and overlooking the eastern hillside where any foreign threat to the manor or the village would be expected.  Surprisingly, the most noticeable feature in this room is the faintly glowing circle drawn in the center of the floor and circumscribed with arcane symbols."
+  ],
+  "paths": [
+    "Obvious exits: southwest, west, northwest"
+  ],
+  "location": "the Outlands",
   "wayto": {
     "5571": "northwest",
     "5574": "west",
     "5575": "southwest"
   },
-  "paths": [
-    "Obvious exits: southwest, west, northwest"
-  ],
+  "timeto": {
+    "5571": 0.2,
+    "5574": 0.2,
+    "5575": 0.2
+  },
+  "image": "vo-outlands-1264234799.png",
   "image_coords": [
     1003,
     157,
     1013,
     167
   ],
-  "terrain": "indoors",
-  "description": [
-    "The arrow slits in this chamber face east, towards the Mestanir border and overlooking the eastern hillside where any foreign threat to the manor or the village would be expected.  Surprisingly, the most noticeable feature in this room is the faintly glowing circle drawn in the center of the floor and circumscribed with arcane symbols."
-  ],
-  "image": "vo-outlands-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Outlands Manor, Tower]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5571": 0.2,
-    "5574": 0.2,
-    "5575": 0.2
-  },
-  "id": 5573,
-  "location": "the Outlands",
   "tags": [
-    "dobrem",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "dobrem"
   ]
 }

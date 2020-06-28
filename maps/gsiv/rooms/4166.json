@@ -1,38 +1,28 @@
 {
+  "id": 4166,
+  "title": [
+    "[Hall of the Dead, Lavish Crypts]"
+  ],
+  "description": [
+    "This room is obviously one where the well-to-do have been laid to rest.  Although not private crypts, each is meticulously carved from the stone, with gold leaf brushed into the deeply carved nameplates.  Solid gold would only bring out the lust of grave robbers."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "4165": "west",
     "4167": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "4165": 0.2,
+    "4167": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     748,
     734,
     758,
     744
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This room is obviously one where the well-to-do have been laid to rest.  Although not private crypts, each is meticulously carved from the stone, with gold leaf brushed into the deeply carved nameplates.  Solid gold would only bring out the lust of grave robbers."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Hall of the Dead, Lavish Crypts]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4165": 0.2,
-    "4167": 0.2
-  },
-  "id": 4166,
-  "location": "the Graveyard",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

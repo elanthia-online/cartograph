@@ -1,47 +1,41 @@
 {
+  "id": 6102,
+  "title": [
+    "[Cleric Guild, Courtyard]"
+  ],
+  "description": [
+    "A limestone walkway crosses briefly with a tiny rivulet as it winds its way towards a mist-shrouded stone temple.  Rows of slender limbed trees nearly obscure the high seashell-inset walls that enclose this courtyard.  As the sea breeze propels the leafy foliage into motion, a shady bower reveals a darkened tunnel leading into the earth."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Solhaven",
   "wayto": {
     "18627": "go shop",
     "1485": "go gate",
     "6105": "go tunnel",
     "18625": "go temple"
   },
-  "paths": [
-    "Obvious paths: none"
-  ],
+  "timeto": {
+    "18627": {
+      "file": "string_procs/timeto/6102_18627.rb"
+    },
+    "1485": 0.2,
+    "6105": 0.2,
+    "18625": 0.2
+  },
+  "image": "vo-cleric_guild-1275418702.png",
   "image_coords": [
     695,
     201,
     739,
     245
   ],
-  "terrain": null,
-  "description": [
-    "A limestone walkway crosses briefly with a tiny rivulet as it winds its way towards a mist-shrouded stone temple.  Rows of slender limbed trees nearly obscure the high seashell-inset walls that enclose this courtyard.  As the sea breeze propels the leafy foliage into motion, a shady bower reveals a darkened tunnel leading into the earth."
-  ],
-  "image": "vo-cleric_guild-1275418702.png",
-  "climate": null,
-  "title": [
-    "[Cleric Guild, Courtyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "18627": {
-      "stringproc": "d17486e46a9d449a09af5ee961486217"
-    },
-    "1485": 0.2,
-    "6105": 0.2,
-    "18625": 0.2
-  },
-  "id": 6102,
-  "location": "Solhaven",
   "tags": [
     "clericguild",
     "meta:mapname:Vornavis - Cleric Guild",
     "meta:mapshortname:Cleric Guild (VO)",
     "meta:mapcategory:Vornavis",
     "meta:mapcategory:Guilds"
-  ],
-  "links": [
-
   ]
 }

@@ -1,36 +1,25 @@
 {
-  "wayto": {
-    "18144": {
-      "stringproc": "d49f68db42585e2b2383f7c7f502fa1a"
-    },
-    "18140": {
-      "stringproc": "2a8ae81efc1e03f55c705690d59c92ef"
-    }
-  },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "The narrow stone passageway is entirely silvery grey -- floor, ceiling, and walls alike -- save for a peacock blue silk curtain."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 18145,
   "title": [
     "[Ta'Illistim Keep, Hallway]"
   ],
-  "check_location": null,
+  "description": [
+    "The narrow stone passageway is entirely silvery grey -- floor, ceiling, and walls alike -- save for a peacock blue silk curtain."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Ta'Illistim",
+  "wayto": {
+    "18144": {
+      "file": "string_procs/wayto/18145_18144.rb"
+    },
+    "18140": {
+      "file": "string_procs/wayto/18145_18140.rb"
+    }
+  },
   "timeto": {
     "18144": 0.8,
     "18140": 0.8
-  },
-  "id": 18145,
-  "location": "Ta'Illistim",
-  "tags": [
-
-  ],
-  "links": [
-
-  ]
+  }
 }

@@ -1,33 +1,30 @@
 {
+  "id": 3027,
+  "title": [
+    "[Arctic Tundra, High Plain]"
+  ],
+  "description": [
+    "Rough tundra grass grows at the base of the south castle wall, sheltered from the elements.  A small pile of stones rests here, carefully arranged into a pyramid of unknown origin."
+  ],
+  "paths": [
+    "Obvious paths: east, northwest"
+  ],
+  "location": "the High Plains",
   "wayto": {
     "3028": "east",
     "3010": "northwest"
   },
-  "paths": [
-    "Obvious paths: east, northwest"
-  ],
+  "timeto": {
+    "3028": 0.2,
+    "3010": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     376,
     916,
     386,
     926
   ],
-  "terrain": "mountainous",
-  "description": [
-    "Rough tundra grass grows at the base of the south castle wall, sheltered from the elements.  A small pile of stones rests here, carefully arranged into a pyramid of unknown origin."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Arctic Tundra, High Plain]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3028": 0.2,
-    "3010": 0.2
-  },
-  "id": 3027,
-  "location": "the High Plains",
   "tags": [
     "some valerian root",
     "silverback orc",
@@ -42,11 +39,6 @@
     "pale thornberry",
     "red winterberry",
     "small loganberry",
-    "ironfern root",
-    "valerian root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

@@ -1,35 +1,32 @@
 {
+  "id": 8447,
+  "title": [
+    "[Upper Trollfang, Sentoph]"
+  ],
+  "description": [
+    "A few greyish-brown shrubs cling to the cracks and crevices that pit the slope.  They must suck moisture from the fog that blankets this side of the mountain, since no spring or stream is in evidence.  A narrow ridge of stone winds its way up toward the mountaintop, losing itself in the grey mist within a few dozen yards."
+  ],
+  "paths": [
+    "Obvious paths: southeast, west"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "8448": "west",
     "8450": "climb ridge",
     "8446": "southeast"
   },
-  "paths": [
-    "Obvious paths: southeast, west"
-  ],
+  "timeto": {
+    "8448": 0.2,
+    "8450": 0.2,
+    "8446": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     545,
     748,
     555,
     758
   ],
-  "terrain": "mountainous",
-  "description": [
-    "A few greyish-brown shrubs cling to the cracks and crevices that pit the slope.  They must suck moisture from the fog that blankets this side of the mountain, since no spring or stream is in evidence.  A narrow ridge of stone winds its way up toward the mountaintop, losing itself in the grey mist within a few dozen yards."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Upper Trollfang, Sentoph]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8448": 0.2,
-    "8450": 0.2,
-    "8446": 0.2
-  },
-  "id": 8447,
-  "location": "the Upper Trollfang",
   "tags": [
     "some valerian root",
     "sprig of larkspur",
@@ -38,19 +35,6 @@
     "cuctucae berry",
     "wild pink geranium",
     "some wingstem root",
-    "marallis berry",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "stalk of bluebells",
-    "golden aster",
-    "ironfern root",
-    "sunburst blossom",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "marallis berry"
   ]
 }

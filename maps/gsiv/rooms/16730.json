@@ -1,77 +1,32 @@
 {
-  "wayto": {
-    "16729": {
-      "stringproc": "a9e04daa890259e81b6fe32face561ff"
-    },
-    "16731": {
-      "stringproc": "f29f4747fa54b98de54ce602799a74f7"
-    }
-  },
+  "id": 16730,
+  "title": [
+    "[Floor of the Ravine]"
+  ],
+  "description": [
+    "The constant dull roar of water echoes loudly, drowning out all ambient sound.  Past flooding is evidenced by faint high water marks on the ravine walls, which rise high above both banks of the fast-moving river.  Aside from debris washed up on the river bank, only scraggly scrub brush has survived to flourish in the immediate area."
+  ],
   "paths": [
     "Obvious paths: none"
   ],
+  "location": "Aradhul Road",
+  "wayto": {
+    "16729": {
+      "file": "string_procs/wayto/16730_16729.rb"
+    },
+    "16731": {
+      "file": "string_procs/wayto/16730_16731.rb"
+    }
+  },
+  "timeto": {
+    "16729": 10.0,
+    "16731": 5.0
+  },
+  "image": "en-aradhul-road-1308194332.png",
   "image_coords": [
     427,
     708,
     451,
     730
-  ],
-  "terrain": "riparian",
-  "description": [
-    "The constant dull roar of water echoes loudly, drowning out all ambient sound.  Past flooding is evidenced by faint high water marks on the ravine walls, which rise high above both banks of the fast-moving river.  Aside from debris washed up on the river bank, only scraggly scrub brush has survived to flourish in the immediate area."
-  ],
-  "image": "en-aradhul-road-1308194332.png",
-  "climate": "temperate",
-  "title": [
-    "[Floor of the Ravine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "16729": 10.0,
-    "16731": 5.0
-  },
-  "id": 16730,
-  "location": "Aradhul Road",
-  "tags": [
-    "acantha leaf",
-    "calamia fruit",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "blueberries",
-    "handful of currants",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "water chestnut",
-    "wild grapes",
-    "stalk of cattail",
-    "stalk of bluebells",
-    "red clover blossom",
-    "pink clover blossom",
-    "white clover blossom",
-    "purple clover blossom",
-    "yellow clover blossom",
-    "stalk of goldenrod",
-    "small wild rose",
-    "sprig of wild lilac",
-    "Imaera's Lace",
-    "wild chokecherry",
-    "wood violet",
-    "mistweed",
-    "pepperthorn root",
-    "murdroot",
-    "wavepetal blossom",
-    "ironfern root",
-    "sunburst blossom",
-    "talneo root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

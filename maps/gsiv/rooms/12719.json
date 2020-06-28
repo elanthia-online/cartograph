@@ -1,38 +1,28 @@
 {
+  "id": 12719,
+  "title": [
+    "[Ruined Temple, Second Floor]"
+  ],
+  "description": [
+    "Rotted pieces of wood float around haphazardly, drifting to and fro gently across the surface of the water.  Portions of the walls are faded or white, bleached over time by the salt of the sea."
+  ],
+  "paths": [
+    "Obvious exits: west, northwest"
+  ],
+  "location": "the Ruined Temple",
   "wayto": {
     "12717": "west",
     "12718": "northwest"
   },
-  "paths": [
-    "Obvious exits: west, northwest"
-  ],
+  "timeto": {
+    "12717": 0.2,
+    "12718": 0.2
+  },
+  "image": "ti-nelemar-1262373036.png",
   "image_coords": [
     321,
     573,
     357,
     609
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Rotted pieces of wood float around haphazardly, drifting to and fro gently across the surface of the water.  Portions of the walls are faded or white, bleached over time by the salt of the sea."
-  ],
-  "image": "ti-nelemar-1262373036.png",
-  "climate": "indoors",
-  "title": [
-    "[Ruined Temple, Second Floor]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "12717": 0.2,
-    "12718": 0.2
-  },
-  "id": 12719,
-  "location": "the Ruined Temple",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

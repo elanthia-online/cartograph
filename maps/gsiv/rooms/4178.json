@@ -1,38 +1,28 @@
 {
+  "id": 4178,
+  "title": [
+    "[Minion Quarters]"
+  ],
+  "description": [
+    "A long table designed to hold many a guest sits in the middle of the room.  Dishes and silverware are scattered across the surface of the table.  Chairs are turned over and sprawled throughout the room.  It's as if everyone left in a hurry."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "4179": "south",
     "4177": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "4179": 0.2,
+    "4177": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     694,
     1031,
     704,
     1041
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A long table designed to hold many a guest sits in the middle of the room.  Dishes and silverware are scattered across the surface of the table.  Chairs are turned over and sprawled throughout the room.  It's as if everyone left in a hurry."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Minion Quarters]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4179": 0.2,
-    "4177": 0.2
-  },
-  "id": 4178,
-  "location": "the Graveyard",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

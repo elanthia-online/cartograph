@@ -1,64 +1,31 @@
 {
+  "id": 1063,
+  "title": [
+    "[Glo'antern Moor]"
+  ],
+  "description": [
+    "A tall grey boulder stands to the south, blocking passage in the direction.  The bulk of its mass extends to the west, while the trail skirts around it to the southeast.  Fat white grubs as large as a giantman's finger feed along the edge of the boulder, underneath its sheltering side in the thick rich loam of decomposing grasses.  Their bodies ooze and pulsate as they move along in search of more digestible matter."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast"
+  ],
+  "location": "the Locksmehr Trail",
   "wayto": {
     "1064": "southeast",
     "1062": "north"
   },
-  "paths": [
-    "Obvious paths: north, southeast"
-  ],
+  "timeto": {
+    "1064": 0.2,
+    "1062": 0.2
+  },
+  "image": "en-trail-1264234799.png",
   "image_coords": [
     877,
     685,
     887,
     695
   ],
-  "terrain": "grassland",
-  "description": [
-    "A tall grey boulder stands to the south, blocking passage in the direction.  The bulk of its mass extends to the west, while the trail skirts around it to the southeast.  Fat white grubs as large as a giantman's finger feed along the edge of the boulder, underneath its sheltering side in the thick rich loam of decomposing grasses.  Their bodies ooze and pulsate as they move along in search of more digestible matter."
-  ],
-  "image": "en-trail-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Glo'antern Moor]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1064": 0.2,
-    "1062": 0.2
-  },
-  "id": 1063,
-  "location": "the Locksmehr Trail",
   "tags": [
-    "fairy primrose",
-    "acantha leaf",
-    "wolifrew lichen",
-    "cuctucae berry",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "soft white mushroom",
-    "withered black mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "wild strawberry",
-    "stalk of chicory",
-    "sprig of larkspur",
-    "small wild rose",
-    "wild chokecherry",
-    "bright red cranberry",
-    "golden aster",
-    "luckbloom blossom",
-    "murdroot",
-    "wavepetal blossom",
-    "ironfern root",
-    "sunburst blossom",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "fairy primrose"
   ]
 }

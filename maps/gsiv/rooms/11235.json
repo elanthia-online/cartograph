@@ -1,40 +1,30 @@
 {
+  "id": 11235,
+  "title": [
+    "[Infirmary, Hallway]"
+  ],
+  "description": [
+    "The wide-planked pine hallway floor has been worn and scuffed in the middle by the passage of many shuffling feet.  The lower third of the walls are lined with pale green ceramic tiles.  A brass lantern hangs from the ceiling.  The air smells of dust and mold."
+  ],
+  "paths": [
+    "Obvious exits: north, south, west"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11229": "south",
     "16048": "west",
     "11236": "north"
   },
-  "paths": [
-    "Obvious exits: north, south, west"
-  ],
-  "image_coords": [
-    136,
-    547,
-    146,
-    557
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The wide-planked pine hallway floor has been worn and scuffed in the middle by the passage of many shuffling feet.  The lower third of the walls are lined with pale green ceramic tiles.  A brass lantern hangs from the ceiling.  The air smells of dust and mold."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Infirmary, Hallway]"
-  ],
-  "check_location": null,
   "timeto": {
     "11229": 0.2,
     "16048": 0.2,
     "11236": 0.2
   },
-  "id": 11235,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-citadel-1267238976.png",
+  "image_coords": [
+    136,
+    547,
+    146,
+    557
   ]
 }

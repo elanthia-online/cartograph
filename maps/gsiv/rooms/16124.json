@@ -1,49 +1,39 @@
 {
-  "wayto": {
-    "11623": {
-      "stringproc": "31e198340939076d5b388f5bded18adb"
-    },
-    "22219": {
-      "stringproc": "57e3ea970c870824c3cf642d462f1cfa"
-    },
-    "11653": {
-      "stringproc": "57e3ea970c870824c3cf642d462f1cfa"
-    },
-    "11620": {
-      "stringproc": "26550994bca413d5606c7722d4303edd"
-    }
-  },
-  "paths": [
-    "Obvious paths: northeast, southeast, southwest, northwest"
-  ],
-  "image_coords": [
-    738,
-    515,
-    748,
-    525
-  ],
-  "terrain": null,
-  "description": [
-    "Rotting reeds and marsh grasses mix with the turbid water to befoul the air with a noxious stench.  The sickly trees rising from the miasma look like skeletal figures reaching into the befouled mist.  The trails disappear into the thick chalky mist."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": null,
+  "id": 16124,
   "title": [
     "[Miasmal Forest, Ghostly Trees]"
   ],
-  "check_location": null,
+  "description": [
+    "Rotting reeds and marsh grasses mix with the turbid water to befoul the air with a noxious stench.  The sickly trees rising from the miasma look like skeletal figures reaching into the befouled mist.  The trails disappear into the thick chalky mist."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, southwest, northwest"
+  ],
+  "wayto": {
+    "11623": {
+      "file": "string_procs/wayto/16124_11623.rb"
+    },
+    "22219": {
+      "file": "string_procs/wayto/16124_22219.rb"
+    },
+    "11653": {
+      "file": "string_procs/wayto/16124_11653.rb"
+    },
+    "11620": {
+      "file": "string_procs/wayto/16124_11620.rb"
+    }
+  },
   "timeto": {
     "11623": 10.0,
     "22219": 10.0,
     "11653": 10.0,
     "11620": 10.0
   },
-  "id": 16124,
-  "location": null,
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "rr-maelstrom-1266390501.png",
+  "image_coords": [
+    738,
+    515,
+    748,
+    525
   ]
 }

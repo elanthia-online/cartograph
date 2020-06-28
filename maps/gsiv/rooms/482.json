@@ -1,33 +1,30 @@
 {
+  "id": 482,
+  "title": [
+    "[Coastal Cliffs, Quiet Path]"
+  ],
+  "description": [
+    "Here along this quiet, narrow path through the woods, you are sheltered from the bracing winds that buffet the cliffs to the north."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "525": "south",
     "481": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, south"
-  ],
+  "timeto": {
+    "525": 0.2,
+    "481": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     525,
     839,
     535,
     849
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "Here along this quiet, narrow path through the woods, you are sheltered from the bracing winds that buffet the cliffs to the north."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Coastal Cliffs, Quiet Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "525": 0.2,
-    "481": 0.2
-  },
-  "id": 482,
-  "location": "the Coastal Cliffs",
   "tags": [
     "some ephlox moss",
     "murdroot",
@@ -70,10 +67,6 @@
     "twisted twig",
     "slender twig",
     "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

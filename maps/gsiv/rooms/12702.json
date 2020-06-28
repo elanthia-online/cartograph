@@ -1,42 +1,32 @@
 {
+  "id": 12702,
+  "title": [
+    "[Ruined Temple, Second Floor]"
+  ],
+  "description": [
+    "A break in the debris of the west wall allows access to the parallel hallway.  Above a gap leading to a wide stone causeway, the remains of a large mosaic still cling to the eastern wall, though most are badly marred or burned."
+  ],
+  "paths": [
+    "Obvious exits: north, south, west"
+  ],
+  "location": "the Ruined Temple",
   "wayto": {
     "12701": "go causeway",
     "12703": "west",
     "12704": "south",
     "12708": "north"
   },
-  "paths": [
-    "Obvious exits: north, south, west"
-  ],
-  "image_coords": [
-    473,
-    438,
-    509,
-    474
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A break in the debris of the west wall allows access to the parallel hallway.  Above a gap leading to a wide stone causeway, the remains of a large mosaic still cling to the eastern wall, though most are badly marred or burned."
-  ],
-  "image": "ti-nelemar-1262373036.png",
-  "climate": "indoors",
-  "title": [
-    "[Ruined Temple, Second Floor]"
-  ],
-  "check_location": null,
   "timeto": {
     "12701": 0.2,
     "12703": 0.2,
     "12704": 0.2,
     "12708": 0.2
   },
-  "id": 12702,
-  "location": "the Ruined Temple",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "ti-nelemar-1262373036.png",
+  "image_coords": [
+    473,
+    438,
+    509,
+    474
   ]
 }

@@ -1,38 +1,28 @@
 {
+  "id": 4160,
+  "title": [
+    "[Hall of the Dead]"
+  ],
+  "description": [
+    "You note the crevices have lost most of their neatness.  In fact, some are not carved deeply enough to hold some of the bodies.  As a result, an occasional arm or leg hangs out of the slots.  Still, each is labeled with a small sign, identifying the brave adventurer resting within."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "4150": "north",
     "4161": "west"
   },
-  "paths": [
-    "Obvious exits: north, west"
-  ],
+  "timeto": {
+    "4150": 0.2,
+    "4161": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     801,
     786,
     811,
     796
-  ],
-  "terrain": "indoors",
-  "description": [
-    "You note the crevices have lost most of their neatness.  In fact, some are not carved deeply enough to hold some of the bodies.  As a result, an occasional arm or leg hangs out of the slots.  Still, each is labeled with a small sign, identifying the brave adventurer resting within."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Hall of the Dead]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4150": 0.2,
-    "4161": 0.2
-  },
-  "id": 4160,
-  "location": "the Graveyard",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

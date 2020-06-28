@@ -1,41 +1,34 @@
 {
+  "id": 2483,
+  "title": [
+    "[Icemule, Barter Alley]"
+  ],
+  "description": [
+    "Long shadows creep out from under shop awnings, and mud-covered ice is pushed into mounds on either side of the packing-crate pavement.  A halfling merchant holds up two pieces of jewelry to a potential customer, who offers an ivory dagger in exchange.  The wary merchant keeps a close eye on the customer's small child, who keeps trying to enter the shop without supervision.",
+    "Darkness fills this quiet alley, and mud-covered ice is pushed into mounds on either side of the packing-crate pavement.  Wagons move slowly through the area, delivering goods to the shops and kiosks whose colorful awnings brighten this moonlit edge of town."
+  ],
+  "paths": [
+    "Obvious paths: east, west, out"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "2482": "east",
     "2484": "west",
     "2418": "out"
   },
-  "paths": [
-    "Obvious paths: east, west, out"
-  ],
+  "timeto": {
+    "2482": 0.2,
+    "2484": 0.2,
+    "2418": 0.2
+  },
+  "image": "imt-icemule-1474811966.png",
   "image_coords": [
     768,
     1400,
     788,
     1420
   ],
-  "terrain": "hard, flat",
-  "description": [
-    "Long shadows creep out from under shop awnings, and mud-covered ice is pushed into mounds on either side of the packing-crate pavement.  A halfling merchant holds up two pieces of jewelry to a potential customer, who offers an ivory dagger in exchange.  The wary merchant keeps a close eye on the customer's small child, who keeps trying to enter the shop without supervision.",
-    "Darkness fills this quiet alley, and mud-covered ice is pushed into mounds on either side of the packing-crate pavement.  Wagons move slowly through the area, delivering goods to the shops and kiosks whose colorful awnings brighten this moonlit edge of town."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Icemule, Barter Alley]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2482": 0.2,
-    "2484": 0.2,
-    "2418": 0.2
-  },
-  "id": 2483,
-  "location": "Icemule Trace",
   "tags": [
-    "calmintha flower",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "calmintha flower"
   ]
 }

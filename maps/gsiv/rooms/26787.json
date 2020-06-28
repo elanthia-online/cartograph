@@ -1,35 +1,28 @@
 {
+  "id": 26787,
+  "title": [
+    "[Catacombs, Dark Tunnels]"
+  ],
+  "description": [
+    "The dim light here makes it difficult to see very well.  Several rusty sconces dot the walls and broken torches lay scattered on the floor.  The air is thick and the scent of decay is evident with every breath you take."
+  ],
+  "paths": [
+    "Obvious exits: southwest, up"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "26786": "up",
     "26788": "southwest"
   },
-  "paths": [
-    "Obvious exits: southwest, up"
-  ],
+  "timeto": {
+    "26786": 0.2,
+    "26788": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     1007,
     1439,
     1017,
     1450
-  ],
-  "terrain": null,
-  "description": [
-    "The dim light here makes it difficult to see very well.  Several rusty sconces dot the walls and broken torches lay scattered on the floor.  The air is thick and the scent of decay is evident with every breath you take."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Catacombs, Dark Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26786": 0.2,
-    "26788": 0.2
-  },
-  "id": 26787,
-  "location": "the catacombs",
-  "tags": [
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+  ]
 }

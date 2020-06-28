@@ -1,41 +1,32 @@
 {
-  "wayto": {
-    "5831": "northeast",
-    "23525": {
-      "stringproc": "1dc60887282b57d1d39a9a9e10508988"
-    },
-    "5829": "go bridge"
-  },
-  "paths": [
-    "Obvious paths: northeast"
-  ],
-  "image_coords": [
-    342,
-    882,
-    352,
-    892
-  ],
-  "terrain": null,
-  "description": [
-    "A vibrant deciduous forest presses toward the waters of the Mistydeep River, leaving scant room for passage between the trees and the riverbank.  Cutting into the forest to the northeast, a well-maintained cobblestone road provides sure footing for travelers wishing to venture that direction, while a massive limestone bridge leads southwest, out over the river's waters toward an impressive city."
-  ],
-  "image": "en-cemetery-1264234799.png",
-  "climate": null,
+  "id": 5830,
   "title": [
     "[Timmorain Road]"
   ],
-  "check_location": null,
+  "description": [
+    "A vibrant deciduous forest presses toward the waters of the Mistydeep River, leaving scant room for passage between the trees and the riverbank.  Cutting into the forest to the northeast, a well-maintained cobblestone road provides sure footing for travelers wishing to venture that direction, while a massive limestone bridge leads southwest, out over the river's waters toward an impressive city."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "Timmorain Road",
+  "wayto": {
+    "5831": "northeast",
+    "23525": {
+      "file": "string_procs/wayto/5830_23525.rb"
+    },
+    "5829": "go bridge"
+  },
   "timeto": {
     "5831": 0.2,
     "23525": 0.2,
     "5829": 0.2
   },
-  "id": 5830,
-  "location": "Timmorain Road",
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "en-cemetery-1264234799.png",
+  "image_coords": [
+    342,
+    882,
+    352,
+    892
   ]
 }

@@ -1,44 +1,29 @@
 {
+  "id": 4325,
+  "title": [
+    "[Mine]"
+  ],
+  "description": [
+    "Rubble fills most of this cavernous space you occupy and it is difficult to see past the fallen pillars or to move between them without disturbing them and bringing down the rest of the rocky roof.",
+    "Rubble fills most of this cavernous space you occupy and it is difficult to see past the pillars or to move between them without disturbing them and bringing down the rest of the rocky roof."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast"
+  ],
+  "location": "the crystal caves",
   "wayto": {
     "4324": "southeast",
     "4326": "north"
   },
-  "paths": [
-    "Obvious exits: north, southeast"
-  ],
+  "timeto": {
+    "4324": 0.2,
+    "4326": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     676,
     499,
     686,
     509
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Rubble fills most of this cavernous space you occupy and it is difficult to see past the fallen pillars or to move between them without disturbing them and bringing down the rest of the rocky roof.",
-    "Rubble fills most of this cavernous space you occupy and it is difficult to see past the pillars or to move between them without disturbing them and bringing down the rest of the rocky roof."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4324": 0.2,
-    "4326": 0.2
-  },
-  "id": 4325,
-  "location": "the crystal caves",
-  "tags": [
-    "wolifrew lichen",
-    "withered black mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

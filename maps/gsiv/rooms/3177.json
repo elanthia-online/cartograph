@@ -1,35 +1,32 @@
 {
+  "id": 3177,
+  "title": [
+    "[Icemule Trace, Forest]"
+  ],
+  "description": [
+    "The trail becomes narrower with branches jutting into it from all sides.  It takes some skill to balance your steps without losing an eye to the sharp twigs that always seem to be in the wrong place.  An icy path heads north into the woods and is clear of the treacherous branches."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the southern snowfields",
   "wayto": {
     "3178": "east",
     "3195": "go path",
     "3176": "west"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "3178": 0.2,
+    "3195": 0.2,
+    "3176": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     370,
     709,
     380,
     719
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "The trail becomes narrower with branches jutting into it from all sides.  It takes some skill to balance your steps without losing an eye to the sharp twigs that always seem to be in the wrong place.  An icy path heads north into the woods and is clear of the treacherous branches."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Icemule Trace, Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3178": 0.2,
-    "3195": 0.2,
-    "3176": 0.2
-  },
-  "id": 3177,
-  "location": "the southern snowfields",
   "tags": [
     "slender twig",
     "tkaro root",
@@ -50,27 +47,6 @@
     "some valerian root",
     "frostflower",
     "orange rowanberry",
-    "twisted twig",
-    "sticks",
-    "sassafras leaf",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "iceblossoms",
-    "winter rose",
-    "bright red teaberry",
-    "handful of pinenuts",
-    "broken twig",
-    "pine needles",
-    "frostweed",
-    "snowberries",
-    "pale thornberry",
-    "tree bark",
-    "ironfern root",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "twisted twig"
   ]
 }

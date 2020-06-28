@@ -1,38 +1,28 @@
 {
+  "id": 9742,
+  "title": [
+    "[Maaghara Tower, Stair]"
+  ],
+  "description": [
+    "The stairs seem to stretch out for miles in either direction.  Below, they circle down into the mists and above they stretch out into the darkness.  Mist rises from below and forms small, dusky, cloud-like patches that drift across the interior of the tree."
+  ],
+  "paths": [
+    "Obvious exits: east, up"
+  ],
+  "location": "Ta'Illistim",
   "wayto": {
     "9741": "east",
     "9743": "up"
   },
-  "paths": [
-    "Obvious exits: east, up"
-  ],
+  "timeto": {
+    "9741": 0.2,
+    "9743": 0.2
+  },
+  "image": "en-tower-1264234799.png",
   "image_coords": [
     612,
     519,
     622,
     529
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The stairs seem to stretch out for miles in either direction.  Below, they circle down into the mists and above they stretch out into the darkness.  Mist rises from below and forms small, dusky, cloud-like patches that drift across the interior of the tree."
-  ],
-  "image": "en-tower-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Maaghara Tower, Stair]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9741": 0.2,
-    "9743": 0.2
-  },
-  "id": 9742,
-  "location": "Ta'Illistim",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

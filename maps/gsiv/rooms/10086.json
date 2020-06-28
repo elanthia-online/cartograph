@@ -1,38 +1,28 @@
 {
+  "id": 10086,
+  "title": [
+    "[Sylvarraend Road]"
+  ],
+  "description": [
+    "The road continues along the trail, shifting with the change in direction.  Small blades of grass peek through the creases between the grey cobblestones.  The density of the lush forest wanes as it continues eastward."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast"
+  ],
+  "location": "Sylvarraend Road",
   "wayto": {
     "10085": "north",
     "10087": "southeast"
   },
-  "paths": [
-    "Obvious paths: north, southeast"
-  ],
+  "timeto": {
+    "10085": 0.2,
+    "10087": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     697,
     876,
     707,
     886
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "The road continues along the trail, shifting with the change in direction.  Small blades of grass peek through the creases between the grey cobblestones.  The density of the lush forest wanes as it continues eastward."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Sylvarraend Road]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10085": 0.2,
-    "10087": 0.2
-  },
-  "id": 10086,
-  "location": "Sylvarraend Road",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

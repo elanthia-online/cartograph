@@ -1,45 +1,28 @@
 {
+  "id": 11136,
+  "title": [
+    "[Sea Tunnels]"
+  ],
+  "description": [
+    "A small stream trickles down from a steep incline before gathering steam and plunging down towards the east.  The walls around you are covered in some sort of mucous or slime.  It's hard to tell which without actually testing, or tasting, it.  It looks like the only purchase here is in the stream bed itself."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11137": "down",
     "11135": "up"
   },
-  "paths": [
-    "Obvious exits: up, down"
-  ],
+  "timeto": {
+    "11135": 0.2,
+    "11137": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     898,
     34,
     908,
     44
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A small stream trickles down from a steep incline before gathering steam and plunging down towards the east.  The walls around you are covered in some sort of mucous or slime.  It's hard to tell which without actually testing, or tasting, it.  It looks like the only purchase here is in the stream bed itself."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11135": 0.2,
-    "11137": 0.2
-  },
-  "id": 11136,
-  "location": "the Citadel",
-  "tags": [
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "murdroot",
-    "talneo root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

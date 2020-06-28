@@ -1,41 +1,33 @@
 {
-  "wayto": {
-    "1261": {
-      "stringproc": "7758cb31322782a124f2c3ded27c8263"
-    },
-    "994": "west"
-  },
+  "id": 1260,
+  "title": [
+    "[Zul Logoth, Marcasite Tunnel]"
+  ],
+  "description": [
+    "Smooth granite walls taper into a narrow passageway.  Through the tunnel visible ahead, mining carts careen past upon a set of metal rails, screeching and whining their way under the DragonSpine.  Several dwarves move about the tunnel, efficiently getting passengers loaded and keeping the carts moving along."
+  ],
   "paths": [
     "Obvious exits: west"
   ],
+  "location": "Zul Logoth",
+  "wayto": {
+    "1261": {
+      "file": "string_procs/wayto/1260_1261.rb"
+    },
+    "994": "west"
+  },
+  "timeto": {
+    "1261": 180.0,
+    "994": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     1240,
     537,
     1260,
     557
   ],
-  "terrain": "indoors",
-  "description": [
-    "Smooth granite walls taper into a narrow passageway.  Through the tunnel visible ahead, mining carts careen past upon a set of metal rails, screeching and whining their way under the DragonSpine.  Several dwarves move about the tunnel, efficiently getting passengers loaded and keeping the carts moving along."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Zul Logoth, Marcasite Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1261": 180.0,
-    "994": 0.2
-  },
-  "id": 1260,
-  "location": "Zul Logoth",
   "tags": [
-    "silver-cost:1261:1000",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "silver-cost:1261:1000"
   ]
 }

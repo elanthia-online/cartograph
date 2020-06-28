@@ -1,33 +1,30 @@
 {
+  "id": 5274,
+  "title": [
+    "[Vornavian Coast, The Hills]"
+  ],
+  "description": [
+    "The rocks and boulders which flank either side of this crevice force a zigzag direction, making it impossible to see very far ahead.  Occasional clattering stones, dislodged by something moving through the crevices, rain down from the walls which rise high above."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Vornavian Coast",
   "wayto": {
     "5272": "west",
     "5285": "east"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "5272": 0.2,
+    "5285": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     731,
     475,
     741,
     485
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The rocks and boulders which flank either side of this crevice force a zigzag direction, making it impossible to see very far ahead.  Occasional clattering stones, dislodged by something moving through the crevices, rain down from the walls which rise high above."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Vornavian Coast, The Hills]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5272": 0.2,
-    "5285": 0.2
-  },
-  "id": 5274,
-  "location": "the Vornavian Coast",
   "tags": [
     "some sovyn clove",
     "some wingstem root",
@@ -35,28 +32,6 @@
     "some bur-clover root",
     "small flower",
     "heath aster",
-    "small daisy",
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "small rose",
-    "angelica root",
-    "withered black mushroom",
-    "stalk of chicory",
-    "sprig of alyssum",
-    "stalk of goldenrod",
-    "yellow primrose",
-    "small wild rose",
-    "wild chokecherry",
-    "motherwort",
-    "white baneberry",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "small daisy"
   ]
 }

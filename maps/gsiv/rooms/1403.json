@@ -1,33 +1,30 @@
 {
+  "id": 1403,
+  "title": [
+    "[Cairnfang Forest]"
+  ],
+  "description": [
+    "The prone trunk of a massive modwir lies to either side of the trail.  Easily thicker than the height of a tall Giantman, a large section of the rotted wood has been chopped away so the trail could avoid detouring around the fallen giant."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "1402": "north",
     "1404": "south"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "1402": 0.2,
+    "1404": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     1101,
     884,
     1111,
     894
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "The prone trunk of a massive modwir lies to either side of the trail.  Easily thicker than the height of a tall Giantman, a large section of the rotted wood has been chopped away so the trail could avoid detouring around the fallen giant."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Cairnfang Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1402": 0.2,
-    "1404": 0.2
-  },
-  "id": 1403,
-  "location": "the Cairnfang",
   "tags": [
     "sprig of wild lilac",
     "handful of elderberries",
@@ -83,10 +80,6 @@
     "ebony twig",
     "bolmara lichen",
     "brostheras grass",
-    "alder bark",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "alder bark"
   ]
 }

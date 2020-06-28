@@ -1,35 +1,28 @@
 {
+  "id": 26265,
+  "title": [
+    "[Banshee Tower, Fourth Floor]"
+  ],
+  "description": [
+    "Sharp, ear-piercing screams rattle the cold air, while dark shapeless forms fly about the room.  The shriveled form of an elf lays up against a wall, his face pale and drained of life."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "Talador",
   "wayto": {
     "26264": "west",
     "26266": "north"
   },
-  "paths": [
-    "Obvious exits: north, west"
-  ],
+  "timeto": {
+    "26264": 0.2,
+    "26266": 0.2
+  },
+  "image": "wl-lichs_landing-1500800742.png",
   "image_coords": [
     170,
     331,
     197,
     357
-  ],
-  "terrain": null,
-  "description": [
-    "Sharp, ear-piercing screams rattle the cold air, while dark shapeless forms fly about the room.  The shriveled form of an elf lays up against a wall, his face pale and drained of life."
-  ],
-  "image": "wl-lichs_landing-1500800742.png",
-  "climate": null,
-  "title": [
-    "[Banshee Tower, Fourth Floor]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26264": 0.2,
-    "26266": 0.2
-  },
-  "id": 26265,
-  "location": "Talador",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

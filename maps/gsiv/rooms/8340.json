@@ -1,38 +1,28 @@
 {
+  "id": 8340,
+  "title": [
+    "[Spider Temple, Leg of Acolytes]"
+  ],
+  "description": [
+    "The austere antechamber in this leg contains only one wooden chair.  A long, narrow hallway stretches to the west."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the Spider Temple",
   "wayto": {
     "8337": "go door",
     "8341": "west"
   },
-  "paths": [
-    "Obvious exits: west"
-  ],
+  "timeto": {
+    "8337": 0.2,
+    "8341": 0.2
+  },
+  "image": "wl-spider_temple-1264234799.png",
   "image_coords": [
     461,
     800,
     471,
     810
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The austere antechamber in this leg contains only one wooden chair.  A long, narrow hallway stretches to the west."
-  ],
-  "image": "wl-spider_temple-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Spider Temple, Leg of Acolytes]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8337": 0.2,
-    "8341": 0.2
-  },
-  "id": 8340,
-  "location": "the Spider Temple",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

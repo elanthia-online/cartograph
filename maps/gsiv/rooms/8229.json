@@ -1,42 +1,32 @@
 {
+  "id": 8229,
+  "title": [
+    "[Wolves' Den, Seal Room]"
+  ],
+  "description": [
+    "In the center of the floor is a great red and black seal.  Ancient footprints in the dust lead in circles around it, heading down the passages that lead off in all directions.  A makeshift barricade leans against the northwest corner."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south, west"
+  ],
+  "location": "the Wolves' Den",
   "wayto": {
     "8228": "north",
     "8230": "east",
     "8233": "south",
     "8234": "west"
   },
-  "paths": [
-    "Obvious exits: north, east, south, west"
-  ],
-  "image_coords": [
-    134,
-    336,
-    144,
-    346
-  ],
-  "terrain": "indoors",
-  "description": [
-    "In the center of the floor is a great red and black seal.  Ancient footprints in the dust lead in circles around it, heading down the passages that lead off in all directions.  A makeshift barricade leans against the northwest corner."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Wolves' Den, Seal Room]"
-  ],
-  "check_location": null,
   "timeto": {
     "8228": 0.2,
     "8230": 0.2,
     "8233": 0.2,
     "8234": 0.2
   },
-  "id": 8229,
-  "location": "the Wolves' Den",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-mineroad-1264234799.png",
+  "image_coords": [
+    134,
+    336,
+    144,
+    346
   ]
 }

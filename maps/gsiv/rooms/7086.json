@@ -1,38 +1,28 @@
 {
+  "id": 7086,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "Stones and gravel and gritty stuff cover the floor, making your footsteps crunch.  There are cracks in the walls, and the ceiling looks like it's missing a few chunks.  You hear a pebble fall and bounce off of a couple of other rocks, landing with a click on the floor."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7087": "east",
     "7084": "west"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "7087": 0.2,
+    "7084": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     895,
     898,
     905,
     908
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Stones and gravel and gritty stuff cover the floor, making your footsteps crunch.  There are cracks in the walls, and the ceiling looks like it's missing a few chunks.  You hear a pebble fall and bounce off of a couple of other rocks, landing with a click on the floor."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7087": 0.2,
-    "7084": 0.2
-  },
-  "id": 7086,
-  "location": "Darkstone Castle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

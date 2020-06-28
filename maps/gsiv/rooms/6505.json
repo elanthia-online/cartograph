@@ -1,42 +1,36 @@
 {
-  "wayto": {
-    "6621": {
-      "stringproc": "7c5c929dfad068bc4c2cc91af00aaba9"
-    },
-    "6504": "out"
-  },
+  "id": 6505,
+  "title": [
+    "[Monastery, Misty Chamber]"
+  ],
+  "description": [
+    "A damp mist seems to seep from the very walls of this vast chamber casting the walls in an eerie green pallor.  A large round stone stands upright in the center of the room, rotating like a coin that has been stood on edge and spun.  The opening at the center of the stone is pitch black and odd runes are engraved around the edge.  A low steady hum emanates from the stone, and the sound soothes your tired nerves."
+  ],
   "paths": [
     "Obvious exits: out"
   ],
+  "location": "the Lysierian Hills",
+  "wayto": {
+    "6621": {
+      "file": "string_procs/wayto/6505_6621.rb"
+    },
+    "6504": "out"
+  },
+  "timeto": {
+    "6621": 0.2,
+    "6504": 0.2
+  },
+  "image": "wl-lysierian-1264234799.png",
   "image_coords": [
     168,
     1101,
     178,
     1111
   ],
-  "terrain": null,
-  "description": [
-    "A damp mist seems to seep from the very walls of this vast chamber casting the walls in an eerie green pallor.  A large round stone stands upright in the center of the room, rotating like a coin that has been stood on edge and spun.  The opening at the center of the stone is pitch black and odd runes are engraved around the edge.  A low steady hum emanates from the stone, and the sound soothes your tired nerves."
-  ],
-  "image": "wl-lysierian-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Monastery, Misty Chamber]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6621": 0.2,
-    "6504": 0.2
-  },
-  "id": 6505,
-  "location": "the Lysierian Hills",
   "tags": [
     "node",
     "meta:mapname:Wehnimer's Landing - Lysierian Hills",
     "meta:mapshortname:Lysierian Hills",
     "meta:mapcategory:Wehnimer's Landing"
-  ],
-  "links": [
-
   ]
 }

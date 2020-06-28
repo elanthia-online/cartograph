@@ -1,33 +1,30 @@
 {
+  "id": 11966,
+  "title": [
+    "[Old Ta'Faendryl, West Woods]"
+  ],
+  "description": [
+    "Faint footprints have beaten the grasses here, leaving a faint trail to the southeast where a small clearing is visible.  An opening in the trees allows passage to the north, leading off into the depths of the woods."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south"
+  ],
+  "location": "Old Ta'Faendryl",
   "wayto": {
     "11965": "northeast",
     "11967": "south"
   },
-  "paths": [
-    "Obvious paths: northeast, south"
-  ],
+  "timeto": {
+    "11965": 0.2,
+    "11967": 0.2
+  },
+  "image": "en-old_ta_faendryl-1264234799.png",
   "image_coords": [
     35,
     517,
     45,
     527
   ],
-  "terrain": null,
-  "description": [
-    "Faint footprints have beaten the grasses here, leaving a faint trail to the southeast where a small clearing is visible.  An opening in the trees allows passage to the north, leading off into the depths of the woods."
-  ],
-  "image": "en-old_ta_faendryl-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Old Ta'Faendryl, West Woods]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11965": 0.2,
-    "11967": 0.2
-  },
-  "id": 11966,
-  "location": "Old Ta'Faendryl",
   "tags": [
     "some acantha leaf",
     "some basal moss",
@@ -43,28 +40,6 @@
     "wild chokecherry",
     "some brostheras grass",
     "some angelica root",
-    "wild orchid",
-    "acantha leaf",
-    "torban leaf",
-    "calamia fruit",
-    "haphip root",
-    "basal moss",
-    "sticks",
-    "angelica root",
-    "tree bark",
-    "bloodwood twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "twisted twig",
-    "slender twig",
-    "ebony twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wild orchid"
   ]
 }

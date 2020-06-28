@@ -1,42 +1,32 @@
 {
+  "id": 2421,
+  "title": [
+    "[Commerce Burrow, Trader's Way]"
+  ],
+  "description": [
+    "A group of elves tightens their cloaks against the chilling north wind as they pass along the road.  To the east sits the gemshop, a sturdy stone building bearing a shiny gold plaque."
+  ],
+  "paths": [
+    "Obvious paths: north, south, west"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "2410": "west",
     "2422": "go gemshop",
     "2423": "north",
     "2414": "south"
   },
-  "paths": [
-    "Obvious paths: north, south, west"
-  ],
-  "image_coords": [
-    673,
-    1051,
-    709,
-    1087
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "A group of elves tightens their cloaks against the chilling north wind as they pass along the road.  To the east sits the gemshop, a sturdy stone building bearing a shiny gold plaque."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Commerce Burrow, Trader's Way]"
-  ],
-  "check_location": null,
   "timeto": {
     "2410": 0.2,
     "2422": 0.2,
     "2423": 0.2,
     "2414": 0.2
   },
-  "id": 2421,
-  "location": "Icemule Trace",
-  "tags": [
-    "calmintha flower",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "imt-icemule-1474811966.png",
+  "image_coords": [
+    673,
+    1051,
+    709,
+    1087
   ]
 }

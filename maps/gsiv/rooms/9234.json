@@ -1,38 +1,28 @@
 {
+  "id": 9234,
+  "title": [
+    "[Thurfel's Cellar]"
+  ],
+  "description": [
+    "Clearly this cellar could use a bit more ventilation, as the air is old and stale.  There are no visible openings or windows, and the entire area is quite claustrophic to say the least."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Thurfel's Island",
   "wayto": {
     "9221": "north",
     "9233": "south"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "9221": 0.2,
+    "9233": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     1145,
     950,
     1155,
     960
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Clearly this cellar could use a bit more ventilation, as the air is old and stale.  There are no visible openings or windows, and the entire area is quite claustrophic to say the least."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thurfel's Cellar]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9221": 0.2,
-    "9233": 0.2
-  },
-  "id": 9234,
-  "location": "Thurfel's Island",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

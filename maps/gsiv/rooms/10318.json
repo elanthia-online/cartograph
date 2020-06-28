@@ -1,42 +1,36 @@
 {
+  "id": 10318,
+  "title": [
+    "[Wyvern Keep, Hallway]"
+  ],
+  "description": [
+    "A runner of thick, red woolen carpet follows the hallway north and south.  The runner covers the center of the red marble floor, providing a stable, soft, quiet area on which to walk.  Along the hallway, heavy golden curtains allow entrance to private booths where one can access a personal locker.  Candles burn steadily in brass candleholders spaced evenly along the hallway's walls, casting a dim but consistent illumination throughout the corridor.",
+    "A runner of thick, red woolen carpet follows the hallway north and south.  The runner covers the center of the red marble floor, providing a stable, soft, quiet area on which to walk.  Along the hallway, heavy golden velvet curtains allow entrance to private booths where one can access a personal locker.  Candles burn steadily in brass candleholders spaced evenly along the hallway's walnut walls, casting a dim but consistent illumination throughout the corridor."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Ta'Vaalor",
   "wayto": {
     "10322": "go office",
     "10317": "north",
     "28255": "go curtain"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "10322": 0.2,
+    "10317": 0.2,
+    "28255": 0.2
+  },
+  "image": "en-ta_vaalor-wyverns_keep-1488759285.png",
   "image_coords": [
     836,
     467,
     977,
     526
   ],
-  "terrain": null,
-  "description": [
-    "A runner of thick, red woolen carpet follows the hallway north and south.  The runner covers the center of the red marble floor, providing a stable, soft, quiet area on which to walk.  Along the hallway, heavy golden curtains allow entrance to private booths where one can access a personal locker.  Candles burn steadily in brass candleholders spaced evenly along the hallway's walls, casting a dim but consistent illumination throughout the corridor.",
-    "A runner of thick, red woolen carpet follows the hallway north and south.  The runner covers the center of the red marble floor, providing a stable, soft, quiet area on which to walk.  Along the hallway, heavy golden velvet curtains allow entrance to private booths where one can access a personal locker.  Candles burn steadily in brass candleholders spaced evenly along the hallway's walnut walls, casting a dim but consistent illumination throughout the corridor."
-  ],
-  "image": "en-ta_vaalor-wyverns_keep-1488759285.png",
-  "climate": null,
-  "title": [
-    "[Wyvern Keep, Hallway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10322": 0.2,
-    "10317": 0.2,
-    "28255": 0.2
-  },
-  "id": 10318,
-  "location": "Ta'Vaalor",
   "tags": [
     "publiclockers",
     "public lockers",
     "public locker"
-  ],
-  "links": [
-
   ]
 }

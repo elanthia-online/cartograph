@@ -1,35 +1,32 @@
 {
+  "id": 7527,
+  "title": [
+    "[Catacombs, Underground Lake]"
+  ],
+  "description": [
+    "Ripples from a small underground lake gently lap at the black, muddy shore in this cavernous chamber.  Occasionally, soft splashes and gurgles resound, seeming to originate to the northwest.  The shore curves north and west from here, punctuated by tracks of humans and animals and by a slimy trail whose maker you would rather not come face to face with."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "7528": "north",
     "7529": "west",
     "7508": "go roots"
   },
-  "paths": [
-    "Obvious exits: north, west"
-  ],
+  "timeto": {
+    "7528": 0.2,
+    "7529": 0.2,
+    "7508": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     527,
     1288,
     537,
     1298
   ],
-  "terrain": "indoors",
-  "description": [
-    "Ripples from a small underground lake gently lap at the black, muddy shore in this cavernous chamber.  Occasionally, soft splashes and gurgles resound, seeming to originate to the northwest.  The shore curves north and west from here, punctuated by tracks of humans and animals and by a slimy trail whose maker you would rather not come face to face with."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Catacombs, Underground Lake]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7528": 0.2,
-    "7529": 0.2,
-    "7508": 0.2
-  },
-  "id": 7527,
-  "location": "the catacombs",
   "tags": [
     "withered black mushroom",
     "black hook mushroom",
@@ -38,15 +35,6 @@
     "some wingstem root",
     "some bolmara lichen",
     "red trafel mushroom",
-    "soft white mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "soft white mushroom"
   ]
 }

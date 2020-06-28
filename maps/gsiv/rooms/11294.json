@@ -1,40 +1,30 @@
 {
+  "id": 11294,
+  "title": [
+    "[Alchemist, Hallway]"
+  ],
+  "description": [
+    "Every ancient tapestry lining this hall has been torn into long tatters, which sway and twist drunkenly with even the ghost of a breeze.  To the east, the walls have caved and crumbled, with jagged timbers spiking like the points of a morning star from the impenetrable heap of rubble.  A dreamlike quality possesses the place, induced by the eye-stinging yellow haze that fills the ruined hall."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11293": "go doorway",
     "11295": "south",
     "11296": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
-  "image_coords": [
-    764,
-    893,
-    774,
-    903
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Every ancient tapestry lining this hall has been torn into long tatters, which sway and twist drunkenly with even the ghost of a breeze.  To the east, the walls have caved and crumbled, with jagged timbers spiking like the points of a morning star from the impenetrable heap of rubble.  A dreamlike quality possesses the place, induced by the eye-stinging yellow haze that fills the ruined hall."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Alchemist, Hallway]"
-  ],
-  "check_location": null,
   "timeto": {
     "11293": 0.2,
     "11295": 0.2,
     "11296": 0.2
   },
-  "id": 11294,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-citadel-1267238976.png",
+  "image_coords": [
+    764,
+    893,
+    774,
+    903
   ]
 }

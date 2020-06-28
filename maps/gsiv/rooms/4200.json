@@ -1,35 +1,32 @@
 {
+  "id": 4200,
+  "title": [
+    "[Upper Trollfang]"
+  ],
+  "description": [
+    "As you reach the crest of a small hill you can see a trail to the south that leads in the general direction of Wehnimer's Landing.  You also see the gradual climbing slope of the hills as you proceed to the northeast."
+  ],
+  "paths": [
+    "Obvious paths: northeast, east, south"
+  ],
+  "location": "the old Mine Road",
   "wayto": {
     "4201": "northeast",
     "4263": "south",
     "4199": "east"
   },
-  "paths": [
-    "Obvious paths: northeast, east, south"
-  ],
+  "timeto": {
+    "4201": 0.2,
+    "4263": 0.2,
+    "4199": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     291,
     866,
     301,
     876
   ],
-  "terrain": "hilly",
-  "description": [
-    "As you reach the crest of a small hill you can see a trail to the south that leads in the general direction of Wehnimer's Landing.  You also see the gradual climbing slope of the hills as you proceed to the northeast."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Upper Trollfang]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4201": 0.2,
-    "4263": 0.2,
-    "4199": 0.2
-  },
-  "id": 4200,
-  "location": "the old Mine Road",
   "tags": [
     "some ambrominas leaf",
     "wild pansy blossom",
@@ -51,41 +48,6 @@
     "daggerstalk mushroom",
     "withered black mushroom",
     "handful of elderberries",
-    "golden aster",
-    "ambrominas leaf",
-    "tkaro root",
-    "sticks",
-    "angelica root",
-    "trollfear mushroom",
-    "soft white mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "stalk of chicory",
-    "elderberries",
-    "wild pink geranium",
-    "sprig of larkspur",
-    "sprig of wild lilac",
-    "motherwort",
-    "sprig of ivy",
-    "tree bark",
-    "wiregrass",
-    "murkweed",
-    "white lily",
-    "bloodwood twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "ironfern root",
-    "nightbloom blossom",
-    "twisted twig",
-    "slender twig",
-    "ebony twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "woad leaves",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "golden aster"
   ]
 }

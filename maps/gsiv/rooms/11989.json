@@ -1,35 +1,32 @@
 {
+  "id": 11989,
+  "title": [
+    "[Old Ta'Faendryl, Foothill]"
+  ],
+  "description": [
+    "Perched atop the foothill is a squat granite tower topped with a white quartz dome.  The rounded roof of the edifice is shattered along the northern side, like a soft-boiled egg tapped open by a teaspoon.  A narrow path leads down the hill through the scattered ruins of the city, while a wider walk circles around a rise to the south."
+  ],
+  "paths": [
+    "Obvious paths: south, west"
+  ],
+  "location": "Old Ta'Faendryl",
   "wayto": {
     "11988": "west",
     "11990": "south",
     "12046": "go path"
   },
-  "paths": [
-    "Obvious paths: south, west"
-  ],
+  "timeto": {
+    "11988": 0.2,
+    "11990": 0.2,
+    "12046": 0.2
+  },
+  "image": "en-old_ta_faendryl-1264234799.png",
   "image_coords": [
     437,
     467,
     447,
     477
   ],
-  "terrain": null,
-  "description": [
-    "Perched atop the foothill is a squat granite tower topped with a white quartz dome.  The rounded roof of the edifice is shattered along the northern side, like a soft-boiled egg tapped open by a teaspoon.  A narrow path leads down the hill through the scattered ruins of the city, while a wider walk circles around a rise to the south."
-  ],
-  "image": "en-old_ta_faendryl-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Old Ta'Faendryl, Foothill]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11988": 0.2,
-    "11990": 0.2,
-    "12046": 0.2
-  },
-  "id": 11989,
-  "location": "Old Ta'Faendryl",
   "tags": [
     "some bur-clover root",
     "some wingstem root",
@@ -38,21 +35,6 @@
     "some angelica root",
     "some acantha leaf",
     "small flower",
-    "small rose",
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "small daisy",
-    "angelica root",
-    "wild chokecherry",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "small rose"
   ]
 }

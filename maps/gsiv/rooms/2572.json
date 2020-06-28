@@ -1,34 +1,31 @@
 {
+  "id": 2572,
+  "title": [
+    "[Upper Trollfang, Glatoph]"
+  ],
+  "description": [
+    "A layer of frost covers everything, making the rocks slick and treacherous.  A lonely hawk glides through the clear sky, searching vainly for prey.",
+    "A layer of frost covers everything, making the rocks you can see in the faint light slick and treacherous.  A lonely owl glides through the clear sky, searching vainly for prey."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "Glatoph",
   "wayto": {
     "2571": "northeast",
     "2573": "southwest"
   },
-  "paths": [
-    "Obvious paths: northeast, southwest"
-  ],
+  "timeto": {
+    "2571": 0.2,
+    "2573": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     640,
     708,
     650,
     718
   ],
-  "terrain": "rough",
-  "description": [
-    "A layer of frost covers everything, making the rocks slick and treacherous.  A lonely hawk glides through the clear sky, searching vainly for prey.",
-    "A layer of frost covers everything, making the rocks you can see in the faint light slick and treacherous.  A lonely owl glides through the clear sky, searching vainly for prey."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Upper Trollfang, Glatoph]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2571": 0.2,
-    "2573": 0.2
-  },
-  "id": 2572,
-  "location": "Glatoph",
   "tags": [
     "wild strawberry",
     "sprig of larkspur",
@@ -42,10 +39,6 @@
     "fiddlehead fern",
     "broken twig",
     "wild chokecherry",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

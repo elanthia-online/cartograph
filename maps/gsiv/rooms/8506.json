@@ -1,38 +1,28 @@
 {
+  "id": 8506,
+  "title": [
+    "[Temple, Crypt]"
+  ],
+  "description": [
+    "Ten wide marble biers stand here, five to each side.  They are carved with runes along the edges, and the surfaces have been polished so smooth that you could nearly use them as a mirror.  Upon five of the biers rest bodies shrouded in white silk.  The graveclothes are embroidered with gold thread, the symbols denoting High Priestesses of the order.  The silk has been draped unevenly over the fifth body, as if she was hastily covered."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Temple of Love",
   "wayto": {
     "8503": "north",
     "8507": "south"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "8503": 0.2,
+    "8507": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     359,
     629,
     369,
     639
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Ten wide marble biers stand here, five to each side.  They are carved with runes along the edges, and the surfaces have been polished so smooth that you could nearly use them as a mirror.  Upon five of the biers rest bodies shrouded in white silk.  The graveclothes are embroidered with gold thread, the symbols denoting High Priestesses of the order.  The silk has been draped unevenly over the fifth body, as if she was hastily covered."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Temple, Crypt]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8503": 0.2,
-    "8507": 0.2
-  },
-  "id": 8506,
-  "location": "the Temple of Love",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

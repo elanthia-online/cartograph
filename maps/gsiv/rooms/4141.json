@@ -1,41 +1,40 @@
 {
+  "id": 4141,
+  "title": [
+    "[Graveyard]"
+  ],
+  "description": [
+    "You pause inside the gates to survey the eerie scene.  A magnificently crafted granite crypt to the north inspires wonder and loathing.  The carvings on the facade are horrific, detailing the onslaughts of the Unlife throughout the chaotic history of Elanthia.  A gravel path wraps around the structure, while thorny brambles growing among the tombstones deter you from leaving the paved route."
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest, up"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7163": "northeast",
     "7167": "northwest",
     "4140": {
-      "stringproc": "d28f94ae716a95146386a8c051dcc7a3"
+      "file": "string_procs/wayto/4141_4140.rb"
     },
-    "4142": "go crypt"
+    "4142": "go crypt",
+    "28746": "up"
   },
-  "paths": [
-    "Obvious paths: northeast, northwest"
-  ],
+  "timeto": {
+    "7163": 0.2,
+    "7167": 0.2,
+    "4140": {
+      "file": "string_procs/timeto/4141_4140.rb"
+    },
+    "4142": 0.2,
+    "28746": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     227,
     897,
     237,
     907
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "You pause inside the gates to survey the eerie scene.  A magnificently crafted granite crypt to the north inspires wonder and loathing.  The carvings on the facade are horrific, detailing the onslaughts of the Unlife throughout the chaotic history of Elanthia.  A gravel path wraps around the structure, while thorny brambles growing among the tombstones deter you from leaving the paved route."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Graveyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7163": 0.2,
-    "7167": 0.2,
-    "4140": {
-      "stringproc": "95ae040b7fbf8f167e596e02d31e9463"
-    },
-    "4142": 0.2
-  },
-  "id": 4141,
-  "location": "the Graveyard",
   "tags": [
     "small wild rose",
     "wild strawberry",
@@ -53,10 +52,6 @@
     "cothinar flower",
     "blueberries",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

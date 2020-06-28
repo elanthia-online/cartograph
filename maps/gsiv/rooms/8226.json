@@ -1,38 +1,28 @@
 {
+  "id": 8226,
+  "title": [
+    "[Wolves' Den, Stagnant Pool]"
+  ],
+  "description": [
+    "Grey stone blocks form the walls of this small, square room.  The sturdy gates against the eastern wall are surrounded by arrow slits.  A pool of brackish water, perhaps 15 feet across, lies in the northwest corner."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Wolves' Den",
   "wayto": {
     "8227": "go gate",
     "8225": "swim opening"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "8227": 0.2,
+    "8225": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     132,
     191,
     142,
     201
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Grey stone blocks form the walls of this small, square room.  The sturdy gates against the eastern wall are surrounded by arrow slits.  A pool of brackish water, perhaps 15 feet across, lies in the northwest corner."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Wolves' Den, Stagnant Pool]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8227": 0.2,
-    "8225": 0.2
-  },
-  "id": 8226,
-  "location": "the Wolves' Den",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

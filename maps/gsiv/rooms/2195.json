@@ -1,46 +1,38 @@
 {
+  "id": 2195,
+  "title": [
+    "[Eye of V'Tull, Crystal Chamber]"
+  ],
+  "description": [
+    "The rumbling of the ground is drowned out by the roar of the lava river to the southeast.  All around, crystal stalactites crash to the ground, losing their glow as they are pulverized on impact.  Amidst this the plume of super heated steam sends shimmering wave after shimmering wave of light as it blasts the remaining stalactites clean."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east, southwest"
+  ],
+  "location": "the Eye of V'Tull",
   "wayto": {
     "2192": "northeast",
     "2193": "east",
     "2194": "north",
     "2196": "southwest"
   },
-  "paths": [
-    "Obvious exits: north, northeast, east, southwest"
-  ],
-  "image_coords": [
-    868,
-    576,
-    876,
-    584
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The rumbling of the ground is drowned out by the roar of the lava river to the southeast.  All around, crystal stalactites crash to the ground, losing their glow as they are pulverized on impact.  Amidst this the plume of super heated steam sends shimmering wave after shimmering wave of light as it blasts the remaining stalactites clean."
-  ],
-  "image": "ti-vtull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Eye of V'Tull, Crystal Chamber]"
-  ],
-  "check_location": null,
   "timeto": {
     "2192": 0.2,
     "2193": 0.2,
     "2194": 0.2,
     "2196": 0.2
   },
-  "id": 2195,
-  "location": "the Eye of V'Tull",
+  "image": "ti-vtull-1264234799.png",
+  "image_coords": [
+    868,
+    576,
+    876,
+    584
+  ],
   "tags": [
     "some cave moss",
     "black trafel mushroom",
     "daggerstalk mushroom",
-    "pepperthorn root",
-    "cave moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "pepperthorn root"
   ]
 }

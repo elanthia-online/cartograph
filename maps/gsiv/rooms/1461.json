@@ -1,40 +1,30 @@
 {
+  "id": 1461,
+  "title": [
+    "[Solhaven, Wentletrap Lane]"
+  ],
+  "description": [
+    "The crowds are thick here, travelling towards the Market Square.  Prosperous-looking merchants hurry in and out of the Bank of Solhaven, their coin purses jingling.  Two giantman guards flank the arched doors, carefully scrutinizing all who enter."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the free port of Solhaven",
   "wayto": {
     "5710": "go doors",
     "1459": "east",
     "1460": "west"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
-  "image_coords": [
-    1063,
-    639,
-    1087,
-    663
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "The crowds are thick here, travelling towards the Market Square.  Prosperous-looking merchants hurry in and out of the Bank of Solhaven, their coin purses jingling.  Two giantman guards flank the arched doors, carefully scrutinizing all who enter."
-  ],
-  "image": "vo-solhaven-1263764670.png",
-  "climate": "temperate",
-  "title": [
-    "[Solhaven, Wentletrap Lane]"
-  ],
-  "check_location": null,
   "timeto": {
     "5710": 0.2,
     "1459": 0.2,
     "1460": 0.2
   },
-  "id": 1461,
-  "location": "the free port of Solhaven",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "vo-solhaven-1263764670.png",
+  "image_coords": [
+    1063,
+    639,
+    1087,
+    663
   ]
 }

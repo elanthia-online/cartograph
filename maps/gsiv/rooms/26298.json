@@ -1,35 +1,28 @@
 {
+  "id": 26298,
+  "title": [
+    "[Lich Citadel, Ascent]"
+  ],
+  "description": [
+    "The floor continues to climb, stretching into darkness above.  Only dim lights illuminate the walkway, their source the white lines of energy running up the walls."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "Talador",
   "wayto": {
     "26296": "down",
     "26299": "up"
   },
-  "paths": [
-    "Obvious exits: up, down"
-  ],
+  "timeto": {
+    "26296": 0.2,
+    "26299": 0.2
+  },
+  "image": "wl-lichs_landing-1500800742.png",
   "image_coords": [
     1368,
     721,
     1394,
     746
-  ],
-  "terrain": null,
-  "description": [
-    "The floor continues to climb, stretching into darkness above.  Only dim lights illuminate the walkway, their source the white lines of energy running up the walls."
-  ],
-  "image": "wl-lichs_landing-1500800742.png",
-  "climate": null,
-  "title": [
-    "[Lich Citadel, Ascent]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26296": 0.2,
-    "26299": 0.2
-  },
-  "id": 26298,
-  "location": "Talador",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

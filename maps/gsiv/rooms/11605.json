@@ -1,49 +1,27 @@
 {
+  "id": 11605,
+  "title": [
+    "[Smuggler's Tunnel]"
+  ],
+  "description": [
+    "Pale yellow light filters through the tunnel from upstairs, reflecting on the thin trickle of dark, tannic water that dribbles down the wide plank steps.  The rough walls of the narrow tunnel are shored up with stout, tarred timbers.  The smell of loamy dirt fills the tunnel."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
   "wayto": {
     "11604": "up",
     "11606": "down"
   },
-  "paths": [
-    "Obvious exits: up, down"
-  ],
+  "timeto": {
+    "11604": 0.2,
+    "11606": 0.2
+  },
+  "image": "rr-maelstrom-1266390501.png",
   "image_coords": [
     82,
     564,
     92,
     574
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Pale yellow light filters through the tunnel from upstairs, reflecting on the thin trickle of dark, tannic water that dribbles down the wide plank steps.  The rough walls of the narrow tunnel are shored up with stout, tarred timbers.  The smell of loamy dirt fills the tunnel."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "indoors",
-  "title": [
-    "[Smuggler's Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11604": 0.2,
-    "11606": 0.2
-  },
-  "id": 11605,
-  "location": "the Shattered Moors",
-  "tags": [
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "11240": "north"
-  },
+  "id": 11241,
+  "title": [
+    "[Infirmary, Supply Closet]"
+  ],
+  "description": [
+    "The walls of the closet are line with shelves containing the necessities of a well-run infirmary.  Time has worked its effect on the infirmary supplies.  The neat rolls of bandages are brown with rot.  Crisply folded sheets are nests for beetles and other insects.  A foul smell wafts from the jars and crocks of spoiled healing salves."
+  ],
   "paths": [
     "Obvious exits: north"
   ],
+  "location": "the Citadel",
+  "wayto": {
+    "11240": "north"
+  },
+  "timeto": {
+    "11240": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     219,
     547,
     229,
     557
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The walls of the closet are line with shelves containing the necessities of a well-run infirmary.  Time has worked its effect on the infirmary supplies.  The neat rolls of bandages are brown with rot.  Crisply folded sheets are nests for beetles and other insects.  A foul smell wafts from the jars and crocks of spoiled healing salves."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Infirmary, Supply Closet]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11240": 0.2
-  },
-  "id": 11241,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

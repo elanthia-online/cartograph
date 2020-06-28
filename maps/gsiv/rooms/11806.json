@@ -1,49 +1,36 @@
 {
+  "id": 11806,
+  "title": [
+    "[Ta'Faendryl Approach]"
+  ],
+  "description": [
+    "A flat expanse of reddish-black mud follows the road on both sides, trying vainly to suck the few remaining cobblestones down into its dank depths.  In several spots the mud has actually dried a bit, and large cracks crisscross the surface of the swamp, breaking each patch into multisided plates.  A slight fog rises from the swampy ground, merely a mist that causes the ground further away to appear to waver slightly."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "Old Ta'Faendryl",
   "wayto": {
     "11805": "west",
     "11807": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, west"
-  ],
+  "timeto": {
+    "11805": 0.2,
+    "11807": 0.2
+  },
+  "image": "en-old_ta_faendryl-1264234799.png",
   "image_coords": [
     436,
     1107,
     446,
     1117
   ],
-  "terrain": null,
-  "description": [
-    "A flat expanse of reddish-black mud follows the road on both sides, trying vainly to suck the few remaining cobblestones down into its dank depths.  In several spots the mud has actually dried a bit, and large cracks crisscross the surface of the swamp, breaking each patch into multisided plates.  A slight fog rises from the swampy ground, merely a mist that causes the ground further away to appear to waver slightly."
-  ],
-  "image": "en-old_ta_faendryl-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Ta'Faendryl Approach]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11805": 0.2,
-    "11807": 0.2
-  },
-  "id": 11806,
-  "location": "Old Ta'Faendryl",
   "tags": [
     "some acantha leaf",
     "some wingstem root",
     "some pothinir grass",
     "some bur-clover root",
     "some calamia fruit",
-    "wild chokecherry",
-    "acantha leaf",
-    "calamia fruit",
-    "pothinir grass",
-    "murdroot",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wild chokecherry"
   ]
 }

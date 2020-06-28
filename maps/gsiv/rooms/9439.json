@@ -1,48 +1,31 @@
 {
+  "id": 9439,
+  "title": [
+    "[Zul Logoth, Marcasite Tunnel]"
+  ],
+  "description": [
+    "Only two toadstools, growing in large pots, remain alive along the tunnel, and their weak glows indicate that they are not long for this world.  The others have died and fallen over, extinguishing their luminescence and plunging those areas into darkness.  Several of the crossing support beams have broken, littering the floor with sharp wooden pieces, and the ceiling sags dangerously in these sections.  To the north, a timber extends across a wide trench that traverses the floor from wall to wall."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the tunnels and caverns of Zul Logoth",
   "wayto": {
     "9438": "east",
     "9440": "go timber"
   },
-  "paths": [
-    "Obvious exits: east"
-  ],
+  "timeto": {
+    "9438": 0.2,
+    "9440": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     1018,
     492,
     1038,
     512
   ],
-  "terrain": "indoors",
-  "description": [
-    "Only two toadstools, growing in large pots, remain alive along the tunnel, and their weak glows indicate that they are not long for this world.  The others have died and fallen over, extinguishing their luminescence and plunging those areas into darkness.  Several of the crossing support beams have broken, littering the floor with sharp wooden pieces, and the ceiling sags dangerously in these sections.  To the north, a timber extends across a wide trench that traverses the floor from wall to wall."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Zul Logoth, Marcasite Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9438": 0.2,
-    "9440": 0.2
-  },
-  "id": 9439,
-  "location": "the tunnels and caverns of Zul Logoth",
   "tags": [
-    "pepperthorn root",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "pepperthorn root"
   ]
 }

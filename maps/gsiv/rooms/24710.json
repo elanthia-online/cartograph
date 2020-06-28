@@ -1,35 +1,32 @@
 {
+  "id": 24710,
+  "title": [
+    "[Red Forest, Inner Weald]"
+  ],
+  "description": [
+    "The ground is a tangled mess of overgrown vines and other foliage, completely concealing the dirt with an interwoven layer of greenery.  The withering remains of a small rabbit rests within the shadow of a huge dark green bush."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south, northwest"
+  ],
+  "location": "the Red Forest",
   "wayto": {
     "24709": "northwest",
     "24711": "south",
     "24715": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, south, northwest"
-  ],
+  "timeto": {
+    "24709": 0.2,
+    "24711": 0.2,
+    "24715": 0.2
+  },
+  "image": "red_forest-1260914757.png",
   "image_coords": [
     633,
     209,
     646,
     221
   ],
-  "terrain": null,
-  "description": [
-    "The ground is a tangled mess of overgrown vines and other foliage, completely concealing the dirt with an interwoven layer of greenery.  The withering remains of a small rabbit rests within the shadow of a huge dark green bush."
-  ],
-  "image": "red_forest-1260914757.png",
-  "climate": null,
-  "title": [
-    "[Red Forest, Inner Weald]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24709": 0.2,
-    "24711": 0.2,
-    "24715": 0.2
-  },
-  "id": 24710,
-  "location": "the Displaced Red Forest",
   "tags": [
     "some tree bark",
     "wild chokecherry",
@@ -52,31 +49,6 @@
     "withered black mushroom",
     "foe:direwolf",
     "foe:warped tree spirit",
-    "foe:direbear",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "sticks",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "blueberries",
-    "fiddlehead fern",
-    "broken twig",
-    "stalk of bluebells",
-    "sprig of wild lilac",
-    "tree bark",
-    "mistweed",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "murdroot",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+    "foe:direbear"
+  ]
 }

@@ -1,35 +1,32 @@
 {
+  "id": 3145,
+  "title": [
+    "[A Frozen Glen]"
+  ],
+  "description": [
+    "A single young tree has managed to gain purchase, its branches covered with tiny leaves.  Stacked nearby is a pyramid of four stones, each lightly capped with a hat of white frost.  The small boulders are perfectly round, about the size of a human head, and unmarked."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south, northwest"
+  ],
+  "location": "the Abandoned Farm",
   "wayto": {
     "3146": "northwest",
     "3148": "south",
     "3144": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, south, northwest"
-  ],
+  "timeto": {
+    "3146": 0.2,
+    "3148": 0.2,
+    "3144": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     1092,
     786,
     1102,
     796
   ],
-  "terrain": "hilly",
-  "description": [
-    "A single young tree has managed to gain purchase, its branches covered with tiny leaves.  Stacked nearby is a pyramid of four stones, each lightly capped with a hat of white frost.  The small boulders are perfectly round, about the size of a human head, and unmarked."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[A Frozen Glen]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3146": 0.2,
-    "3148": 0.2,
-    "3144": 0.2
-  },
-  "id": 3145,
-  "location": "the Abandoned Farm",
   "tags": [
     "small loganberry",
     "some arctic moss",
@@ -58,26 +55,6 @@
     "silver iceblossom",
     "pale green iceblossom",
     "peach iceblossom",
-    "bright green iceblossom",
-    "sticks",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "iceblossoms",
-    "winter rose",
-    "arctic moss",
-    "snowberries",
-    "tree bark",
-    "frostflower",
-    "ironfern root",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bright green iceblossom"
   ]
 }

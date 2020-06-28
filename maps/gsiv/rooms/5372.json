@@ -1,44 +1,32 @@
 {
+  "id": 5372,
+  "title": [
+    "[Noman's Land, Cave]"
+  ],
+  "description": [
+    "Some large, fetid-smelling piles of urgh hides are grouped about a fire pit.  A small cookpot hangs above the fire from an iron spear driven into the soil.  Koar only knows what's for supper, but it smells a lot like wet, long-dead orc."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east"
+  ],
+  "location": "Noman's Land",
   "wayto": {
     "5371": "northeast",
     "5373": "east"
   },
-  "paths": [
-    "Obvious exits: northeast, east"
-  ],
+  "timeto": {
+    "5371": 0.2,
+    "5373": 0.2
+  },
+  "image": "vo-caravansary-1264234799.png",
   "image_coords": [
     161,
     665,
     169,
     673
   ],
-  "terrain": "indoors",
-  "description": [
-    "Some large, fetid-smelling piles of urgh hides are grouped about a fire pit.  A small cookpot hangs above the fire from an iron spear driven into the soil.  Koar only knows what's for supper, but it smells a lot like wet, long-dead orc."
-  ],
-  "image": "vo-caravansary-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Noman's Land, Cave]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5371": 0.2,
-    "5373": 0.2
-  },
-  "id": 5372,
-  "location": "Noman's Land",
   "tags": [
     "some wolifrew lichen",
-    "cyclops",
-    "wolifrew lichen",
-    "withered black mushroom",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "cyclops"
   ]
 }

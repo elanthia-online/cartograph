@@ -1,36 +1,33 @@
 {
+  "id": 1820,
+  "title": [
+    "[Wraithenmist, Crooked Fork]"
+  ],
+  "description": [
+    "The faint trail branches off in three directions, each leading back into the thick forest, from this small clearing.  A single spot of sky is visible through a break in the trees directly above, allowing a narrow shaft of moonlight to penetrate the clearing.",
+    "The faint trail branches off in three directions, each leading back into the thick forest, from this small clearing.  A single spot of sky is visible through a break in the trees directly above, allowing a narrow shaft of daylight to penetrate the clearing."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast, southwest"
+  ],
+  "location": "Wraithenmist",
   "wayto": {
     "1819": "southeast",
     "1831": "southwest",
     "1821": "north"
   },
-  "paths": [
-    "Obvious paths: north, southeast, southwest"
-  ],
+  "timeto": {
+    "1819": 0.2,
+    "1831": 0.2,
+    "1821": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     172,
     342,
     182,
     352
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "The faint trail branches off in three directions, each leading back into the thick forest, from this small clearing.  A single spot of sky is visible through a break in the trees directly above, allowing a narrow shaft of moonlight to penetrate the clearing.",
-    "The faint trail branches off in three directions, each leading back into the thick forest, from this small clearing.  A single spot of sky is visible through a break in the trees directly above, allowing a narrow shaft of daylight to penetrate the clearing."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Wraithenmist, Crooked Fork]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1819": 0.2,
-    "1831": 0.2,
-    "1821": 0.2
-  },
-  "id": 1820,
-  "location": "Wraithenmist",
   "tags": [
     "some wolifrew lichen",
     "some acantha leaf",
@@ -57,32 +54,6 @@
     "bright red teaberry",
     "soft white mushroom",
     "some pennyroyal stem",
-    "bright red cranberry",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "sticks",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "white hook mushroom",
-    "blueberries",
-    "wild gooseberry",
-    "broken twig",
-    "stalk of bluebells",
-    "small wild rose",
-    "tree bark",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bright red cranberry"
   ]
 }

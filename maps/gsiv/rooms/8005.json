@@ -1,51 +1,32 @@
 {
+  "id": 8005,
+  "title": [
+    "[Kobold Mines, Sublevel One]"
+  ],
+  "description": [
+    "Several small caverns lead off from this landing.  There is a slope running up towards the surface and continuing down into the depths.  Rusted iron rails gleam dully in the gloom.  A broken ore cart sits to one side where it was apparently abandoned long ago.  Smashed chunks of ore and rusted iron litter the floor and there is a tang of metal in the air."
+  ],
+  "paths": [
+    "Obvious exits: north, east, up, down"
+  ],
+  "location": "the old Mine Road",
   "wayto": {
     "8007": "east",
     "7999": "up",
     "8008": "down",
     "8006": "north"
   },
-  "paths": [
-    "Obvious exits: north, east, up, down"
-  ],
-  "image_coords": [
-    123,
-    866,
-    133,
-    876
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Several small caverns lead off from this landing.  There is a slope running up towards the surface and continuing down into the depths.  Rusted iron rails gleam dully in the gloom.  A broken ore cart sits to one side where it was apparently abandoned long ago.  Smashed chunks of ore and rusted iron litter the floor and there is a tang of metal in the air."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Kobold Mines, Sublevel One]"
-  ],
-  "check_location": null,
   "timeto": {
     "8007": 0.2,
     "7999": 0.2,
     "8008": 0.2,
     "8006": 0.2
   },
-  "id": 8005,
-  "location": "the old Mine Road",
-  "tags": [
-    "soft white mushroom",
-    "withered black mushroom",
-    "black hook mushroom",
-    "white hook mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-mineroad-1264234799.png",
+  "image_coords": [
+    123,
+    866,
+    133,
+    876
   ]
 }

@@ -1,33 +1,22 @@
 {
-  "wayto": {
-    "18209": "northwest",
-    "18211": "southeast"
-  },
-  "paths": [
-    "Obvious exits: southeast, northwest"
+  "id": 18210,
+  "title": [
+    "[Path to Enlightenment]"
   ],
-  "image_coords": null,
-  "terrain": null,
   "description": [
     "Sunlight shines through several branches of a tree, warming everything it touches.  Swaying gently in a breeze, a large garden of roses moves like a red blanket caught in the wind.  Small birds can be seen chasing one another through the branches of the trees, while bees drink the nectar from the roses.",
     "Moonlight filters through several branches of a tree, limning everything it touches with silver.  Swaying gently in a breeze, a large garden of roses moves like a red blanket caught in the wind.  Nocturnal birds can be seen chasing one another through the branches of the trees, while moths circle in apparently aimless paths to avoid them."
   ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Path to Enlightenment]"
+  "paths": [
+    "Obvious exits: southeast, northwest"
   ],
-  "check_location": null,
+  "location": "the Graveyard",
+  "wayto": {
+    "18209": "northwest",
+    "18211": "southeast"
+  },
   "timeto": {
     "18209": 0.2,
     "18211": 0.2
-  },
-  "id": 18210,
-  "location": "the Graveyard",
-  "tags": [
-
-  ],
-  "links": [
-
-  ]
+  }
 }

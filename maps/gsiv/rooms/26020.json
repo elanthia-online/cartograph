@@ -1,35 +1,28 @@
 {
+  "id": 26020,
+  "title": [
+    "[Burghal Enclave, Vaalorn Tunnel]"
+  ],
+  "description": [
+    "A meandering vein of unmined vaalorn sparkles brightly in the soft glow from the west.  Tufa walls encroach drastically, and the ceiling is quite low in this tight corridor.  The occasional cluster of crystals along the floor provides a lighted path leading east."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Ta'Vaalor",
   "wayto": {
     "25296": "west",
     "26023": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "25296": 0.2,
+    "26023": 0.2
+  },
+  "image": "EN-tavaalor-1534463105.png",
   "image_coords": [
     537,
     2059,
     575,
     2096
-  ],
-  "terrain": null,
-  "description": [
-    "A meandering vein of unmined vaalorn sparkles brightly in the soft glow from the west.  Tufa walls encroach drastically, and the ceiling is quite low in this tight corridor.  The occasional cluster of crystals along the floor provides a lighted path leading east."
-  ],
-  "image": "EN-tavaalor-1534463105.png",
-  "climate": null,
-  "title": [
-    "[Burghal Enclave, Vaalorn Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "25296": 0.2,
-    "26023": 0.2
-  },
-  "id": 26020,
-  "location": "Ta'Vaalor",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

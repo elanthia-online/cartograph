@@ -1,49 +1,27 @@
 {
+  "id": 11606,
+  "title": [
+    "[Smuggler's Tunnel]"
+  ],
+  "description": [
+    "The absence of light in the tunnel magnifies the sound of the water trickling down the stairs and the smell of the dirt.  The wide plank steps are moldy and slippery underfoot.  A slight breeze rises up the tunnel."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
   "wayto": {
     "11605": "up",
     "11607": "down"
   },
-  "paths": [
-    "Obvious exits: up, down"
-  ],
+  "timeto": {
+    "11605": 0.2,
+    "11607": 0.2
+  },
+  "image": "rr-maelstrom-1266390501.png",
   "image_coords": [
     82,
     591,
     92,
     601
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The absence of light in the tunnel magnifies the sound of the water trickling down the stairs and the smell of the dirt.  The wide plank steps are moldy and slippery underfoot.  A slight breeze rises up the tunnel."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "indoors",
-  "title": [
-    "[Smuggler's Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11605": 0.2,
-    "11607": 0.2
-  },
-  "id": 11606,
-  "location": "the Shattered Moors",
-  "tags": [
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

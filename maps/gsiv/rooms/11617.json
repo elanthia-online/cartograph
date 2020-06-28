@@ -1,37 +1,28 @@
 {
+  "id": 11617,
+  "title": [
+    "[Miasmal Forest, Old Road]"
+  ],
+  "description": [
+    "Grotesquely twisted trees stretch out on both sides of the old road.  A slight breeze eddies the fog, creating tendrils that snake through the trees.  On the northern side of the old road is a tree that appears to have been struck by lightning.  The tree's upper trunk is splintered and blackened, its lower limbs hang low over the scrub brush."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest, west"
+  ],
   "wayto": {
     "11612": "west",
     "11613": "southwest",
     "16122": {
-      "stringproc": "3b112b5633f311a4c59f84f7bd5e800d"
+      "file": "string_procs/wayto/11617_16122.rb"
     },
     "22218": {
-      "stringproc": "90130269266389f25e988c14c293ef87"
+      "file": "string_procs/wayto/11617_22218.rb"
     },
     "11618": "southeast",
     "11630": {
-      "stringproc": "49b3f36ca13a2089e920b333fce2e036"
+      "file": "string_procs/wayto/11617_11630.rb"
     }
   },
-  "paths": [
-    "Obvious paths: southeast, southwest, west"
-  ],
-  "image_coords": [
-    589,
-    627,
-    599,
-    637
-  ],
-  "terrain": "muddy wetlands",
-  "description": [
-    "Grotesquely twisted trees stretch out on both sides of the old road.  A slight breeze eddies the fog, creating tendrils that snake through the trees.  On the northern side of the old road is a tree that appears to have been struck by lightning.  The tree's upper trunk is splintered and blackened, its lower limbs hang low over the scrub brush."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Miasmal Forest, Old Road]"
-  ],
-  "check_location": null,
   "timeto": {
     "11612": 0.2,
     "11613": 0.2,
@@ -40,27 +31,19 @@
     "11618": 0.2,
     "11630": 1.0
   },
-  "id": 11617,
-  "location": "the Miasmal Forest",
+  "image": "rr-maelstrom-1266390501.png",
+  "image_coords": [
+    589,
+    627,
+    599,
+    637
+  ],
   "tags": [
     "blue trafel mushroom",
     "stalk of cattail",
     "white hook mushroom",
     "small wild rose",
     "some aloeas stem",
-    "withered black mushroom",
-    "aloeas stem",
-    "soft white mushroom",
-    "wild gooseberry",
-    "mistweed",
-    "murdroot",
-    "wavepetal blossom",
-    "bolmara lichen",
-    "talneo root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "withered black mushroom"
   ]
 }

@@ -1,37 +1,34 @@
 {
-  "wayto": {
-    "3493": "north",
-    "18041": {
-      "stringproc": "904cc74619af1bcc2a60be8adb1a7346"
-    }
-  },
+  "id": 3495,
+  "title": [
+    "[Ta'Vaalor, Amaranth Court]"
+  ],
+  "description": [
+    "A small garden has been cultivated near the exterior wall of Guardian Keep.  Thick towering maoral trees provide shade to a thick carpet of grass surrounded by an abundance of flora.  Fragrant herbs mingle with outrageously colorful flowers, bringing a serenity and cheer to the otherwise austere court.",
+    "A small garden has been cultivated near the exterior wall of Guardian Keep in the shadow of the shining eahnor gates.  Thick towering maoral trees provide shade to a thick carpet of grass surrounded by an abundance of flora.  Fragrant herbs mingle with outrageously colorful flowers, bringing a serenity and cheer to the otherwise austere court.",
+    "The towering exterior wall of Guardian Keep is covered with skillfully cultivated vines of creeping fig.  On either side of the shining eahnor gates, an exquisite cutout in the greenery outlines the shape of a wyvern rampant.  At the base of the wall, meticulously planted beds of vivid crimson and gold flowers depict the crest of House Vaalor, the white marble path splitting to lead visitors around to one side or the other."
+  ],
   "paths": [
     "Obvious paths: north"
   ],
+  "location": "the city of Ta'Vaalor",
+  "wayto": {
+    "3493": "north",
+    "18041": {
+      "file": "string_procs/wayto/3495_18041.rb"
+    }
+  },
+  "timeto": {
+    "3493": 0.2,
+    "18041": 0.4
+  },
+  "image": "en-tavaalor-1565907614.png",
   "image_coords": [
     926,
     330,
     958,
     364
   ],
-  "terrain": null,
-  "description": [
-    "A small garden has been cultivated near the exterior wall of Guardian Keep.  Thick towering maoral trees provide shade to a thick carpet of grass surrounded by an abundance of flora.  Fragrant herbs mingle with outrageously colorful flowers, bringing a serenity and cheer to the otherwise austere court.",
-    "A small garden has been cultivated near the exterior wall of Guardian Keep in the shadow of the shining eahnor gates.  Thick towering maoral trees provide shade to a thick carpet of grass surrounded by an abundance of flora.  Fragrant herbs mingle with outrageously colorful flowers, bringing a serenity and cheer to the otherwise austere court.",
-    "The towering exterior wall of Guardian Keep is covered with skillfully cultivated vines of creeping fig.  On either side of the shining eahnor gates, an exquisite cutout in the greenery outlines the shape of a wyvern rampant.  At the base of the wall, meticulously planted beds of vivid crimson and gold flowers depict the crest of House Vaalor, the white marble path splitting to lead visitors around to one side or the other."
-  ],
-  "image": "en-tavaalor-1565907614.png",
-  "climate": null,
-  "title": [
-    "[Ta'Vaalor, Amaranth Court]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3493": 0.2,
-    "18041": 0.4
-  },
-  "id": 3495,
-  "location": "the city of Ta'Vaalor",
   "tags": [
     "some sovyn clove",
     "some calamia fruit",
@@ -123,8 +120,5 @@
     "luckbloom blossom",
     "sunburst blossom",
     "onion skin"
-  ],
-  "links": [
-
   ]
 }

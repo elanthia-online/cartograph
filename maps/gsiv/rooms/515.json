@@ -1,33 +1,30 @@
 {
+  "id": 515,
+  "title": [
+    "[Coastal Cliffs, Wrecked Village]"
+  ],
+  "description": [
+    "A few rotting boards propped against the one remaining rock wall of a pitiful stone hovel appear to have been a boat of some kind.  Broken bits of several rusted tools lay scattered about."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "523": "south",
     "514": "north"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "523": 0.2,
+    "514": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     510,
     961,
     520,
     971
   ],
-  "terrain": "rough",
-  "description": [
-    "A few rotting boards propped against the one remaining rock wall of a pitiful stone hovel appear to have been a boat of some kind.  Broken bits of several rusted tools lay scattered about."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Coastal Cliffs, Wrecked Village]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "523": 0.2,
-    "514": 0.2
-  },
-  "id": 515,
-  "location": "the Coastal Cliffs",
   "tags": [
     "wintergreen leaf",
     "bright red teaberry",
@@ -40,10 +37,6 @@
     "sprig of larkspur",
     "small wild rose",
     "wild chokecherry",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

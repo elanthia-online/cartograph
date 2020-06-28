@@ -1,47 +1,35 @@
 {
+  "id": 7060,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "Huge, black beetles crawl in and out of the eyesockets of a twisted skeleton.  Bits of cloth still cling to its fragile frame, and bony fingers clutch a sharpened piece of scrap metal."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7059": "northeast",
     "7061": "southwest"
   },
-  "paths": [
-    "Obvious exits: northeast, southwest"
-  ],
+  "timeto": {
+    "7059": 0.2,
+    "7061": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     324,
     845,
     334,
     855
   ],
-  "terrain": "indoors",
-  "description": [
-    "Huge, black beetles crawl in and out of the eyesockets of a twisted skeleton.  Bits of cloth still cling to its fragile frame, and bony fingers clutch a sharpened piece of scrap metal."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7059": 0.2,
-    "7061": 0.2
-  },
-  "id": 7060,
-  "location": "Darkstone Castle",
   "tags": [
     "some wingstem root",
     "some cave moss",
     "withered black mushroom",
     "some wolifrew lichen",
-    "roa'ter",
-    "wolifrew lichen",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "roa'ter"
   ]
 }

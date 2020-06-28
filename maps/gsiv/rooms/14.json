@@ -1,44 +1,36 @@
 {
-  "wayto": {
-    "13237": "go house",
-    "13": "west",
-    "15": "east"
-  },
-  "paths": [
-    "Obvious paths: east, west"
+  "id": 14,
+  "title": [
+    "[Ta'Illistim, Erissian Var]"
   ],
-  "image_coords": [
-    632,
-    547,
-    653,
-    568
-  ],
-  "terrain": "hard, flat",
   "description": [
     "A small blue slate-clad manor house sits back from the var, apparently enjoying a second life as a shop judging from the small mithglin sign posted on the front steps.  Sweet-smelling fruit trees frame the manor's rough-hewn slate facade.  Tiny glaesine globes mounted on small iron stakes cast a gentle glow across the area.",
     "A small blue slate-clad manor house sits back from the var, apparently enjoying a second life as a shop judging from the small mithglin sign posted on the front steps.  Sweet-smelling fruit trees frame the manor's rough-hewn slate facade.",
     "A marble-clad manor house sits back from the var, apparently enjoying a second life as a shop, judging from the small silver sign posted on the front steps.  Sweet-smelling fruit trees frame the manor's smooth white facade.  Tiny glass globes mounted on small argent stakes cast a gentle glow across the area.",
     "A marble-clad manor house sits back from the var, apparently enjoying a second life as a shop, judging from the small silver sign posted on the front steps.  Sweet-smelling fruit trees frame the manor's smooth white facade."
   ],
-  "image": "en-ta_illistim-new.jpg",
-  "climate": "temperate",
-  "title": [
-    "[Ta'Illistim, Erissian Var]"
+  "paths": [
+    "Obvious paths: east, west"
   ],
-  "check_location": null,
+  "location": "Ta'Illistim",
+  "wayto": {
+    "13237": "go house",
+    "13": "west",
+    "15": "east"
+  },
   "timeto": {
     "13237": 0.2,
     "13": 0.2,
     "15": 0.2
   },
-  "id": 14,
-  "location": "Ta'Illistim",
-  "tags": [
-    "boutique",
-    "no forageables",
-    "meta:forage-sensed"
+  "image": "en-ta_illistim-new.jpg",
+  "image_coords": [
+    632,
+    547,
+    653,
+    568
   ],
-  "links": [
-
+  "tags": [
+    "boutique"
   ]
 }

@@ -1,38 +1,29 @@
 {
-  "wayto": {
-    "3276": "east"
-  },
+  "id": 3279,
+  "title": [
+    "[Ice Plains, Dark Cavern]"
+  ],
+  "description": [
+    "This area is small and cramped and houses several sets of shelves with all sorts of dusty, dirt-covered jars.  Bones of varying humanoid and avian skeletons are scattered about the floor.  Set off to one side are skulls of various size, several of which have large circular holes in them.  The air is stale and an aftertaste of death lingers with each breath."
+  ],
   "paths": [
     "Obvious exits: east"
   ],
+  "location": "the Ice Plains",
+  "wayto": {
+    "3276": "east"
+  },
+  "timeto": {
+    "3276": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     264,
     301,
     274,
     311
   ],
-  "terrain": "indoors",
-  "description": [
-    "This area is small and cramped and houses several sets of shelves with all sorts of dusty, dirt-covered jars.  Bones of varying humanoid and avian skeletons are scattered about the floor.  Set off to one side are skulls of various size, several of which have large circular holes in them.  The air is stale and an aftertaste of death lingers with each breath."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Ice Plains, Dark Cavern]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3276": 0.2
-  },
-  "id": 3279,
-  "location": "the Ice Plains",
   "tags": [
-    "some arctic moss",
-    "arctic moss",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some arctic moss"
   ]
 }

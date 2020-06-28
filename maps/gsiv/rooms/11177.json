@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "11176": "north"
-  },
+  "id": 11177,
+  "title": [
+    "[Garrison, Common Room]"
+  ],
+  "description": [
+    "The only furnishings left in this room are a wooden table, bracketed by two chairs.  The long-ago interrupted game on the table seems as if it still awaits finishing."
+  ],
   "paths": [
     "Obvious exits: north"
   ],
+  "location": "the Citadel",
+  "wayto": {
+    "11176": "north"
+  },
+  "timeto": {
+    "11176": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     516,
     524,
     526,
     534
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The only furnishings left in this room are a wooden table, bracketed by two chairs.  The long-ago interrupted game on the table seems as if it still awaits finishing."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Garrison, Common Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11176": 0.2
-  },
-  "id": 11177,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

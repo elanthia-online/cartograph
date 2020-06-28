@@ -1,38 +1,28 @@
 {
+  "id": 9173,
+  "title": [
+    "[Thurfel's Keep]"
+  ],
+  "description": [
+    "The irregularly shaped stones that were used to construct these walls are marred by a series of deep gouges that score the surface from top to bottom.  The marks look animal-like, but it's difficult to imagine what sort of beast might have the power to leave such jagged cuts in the sturdy rock."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Thurfel's Island",
   "wayto": {
     "9163": "west",
     "9172": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "9163": 0.2,
+    "9172": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     808,
     1021,
     818,
     1031
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The irregularly shaped stones that were used to construct these walls are marred by a series of deep gouges that score the surface from top to bottom.  The marks look animal-like, but it's difficult to imagine what sort of beast might have the power to leave such jagged cuts in the sturdy rock."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thurfel's Keep]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9163": 0.2,
-    "9172": 0.2
-  },
-  "id": 9173,
-  "location": "Thurfel's Island",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

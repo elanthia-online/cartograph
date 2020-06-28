@@ -1,49 +1,34 @@
 {
+  "id": 3148,
+  "title": [
+    "[Abandoned Farm, Orchard]"
+  ],
+  "description": [
+    "Tiny pawprints lead into a growth of wild brush, from which a faint rustling can be heard.  The frigid air never wearies, its touch unending and merciless."
+  ],
+  "paths": [
+    "Obvious paths: north, east, northwest"
+  ],
+  "location": "the Abandoned Farm",
   "wayto": {
     "3145": "north",
     "3147": "northwest",
     "3149": "east"
   },
-  "paths": [
-    "Obvious paths: north, east, northwest"
-  ],
+  "timeto": {
+    "3145": 0.2,
+    "3147": 0.2,
+    "3149": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     1091,
     876,
     1101,
     886
   ],
-  "terrain": "cultivated",
-  "description": [
-    "Tiny pawprints lead into a growth of wild brush, from which a faint rustling can be heard.  The frigid air never wearies, its touch unending and merciless."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Abandoned Farm, Orchard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3145": 0.2,
-    "3147": 0.2,
-    "3149": 0.2
-  },
-  "id": 3148,
-  "location": "the Abandoned Farm",
   "tags": [
     "wavepetal blossom",
-    "moonflower",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "ice tulip",
-    "winter rose",
-    "frostflower",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "moonflower"
   ]
 }

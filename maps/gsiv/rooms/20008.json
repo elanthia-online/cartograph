@@ -1,41 +1,32 @@
 {
+  "id": 20008,
+  "title": [
+    "[Cavernhold, Lower Passage]"
+  ],
+  "description": [
+    "The narrow passage makes an extremely sharp turn in this area as it bends from a north-south tunnel to one that runs generally east to west.  Built into the south wall of the bend is a sturdy stone door which seems oddly out of place."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast"
+  ],
+  "location": "the foothills of Zeltoph",
   "wayto": {
     "20007": "north",
     "20009": "southeast",
     "20011": {
-      "stringproc": "2c89ea511f1c6af25b13dc5a01177c92"
+      "file": "string_procs/wayto/20008_20011.rb"
     }
   },
-  "paths": [
-    "Obvious exits: north, southeast"
-  ],
-  "image_coords": [
-    1044,
-    1038,
-    1054,
-    1049
-  ],
-  "terrain": null,
-  "description": [
-    "The narrow passage makes an extremely sharp turn in this area as it bends from a north-south tunnel to one that runs generally east to west.  Built into the south wall of the bend is a sturdy stone door which seems oddly out of place."
-  ],
-  "image": "wl-cavernhold-1295073688.png",
-  "climate": null,
-  "title": [
-    "[Cavernhold, Lower Passage]"
-  ],
-  "check_location": null,
   "timeto": {
     "20007": 0.2,
     "20009": 0.2,
     "20011": 0.2
   },
-  "id": 20008,
-  "location": "the foothills of Zeltoph",
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "wl-cavernhold-1295073688.png",
+  "image_coords": [
+    1044,
+    1038,
+    1054,
+    1049
   ]
 }

@@ -1,33 +1,30 @@
 {
+  "id": 4253,
+  "title": [
+    "[The Slope, Thicket]"
+  ],
+  "description": [
+    "A thicket envelopes the rocky path, tall enough to block any view.  Small trees dot the area, but they are thin and scraggly."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast"
+  ],
+  "location": "the Slope",
   "wayto": {
     "4252": "southeast",
     "4254": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, southeast"
-  ],
+  "timeto": {
+    "4252": 0.2,
+    "4254": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     1226,
     342,
     1236,
     352
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "A thicket envelopes the rocky path, tall enough to block any view.  Small trees dot the area, but they are thin and scraggly."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[The Slope, Thicket]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4252": 0.2,
-    "4254": 0.2
-  },
-  "id": 4253,
-  "location": "the Slope",
   "tags": [
     "some sovyn clove",
     "small flower",
@@ -36,31 +33,6 @@
     "small daisy",
     "small rose",
     "blue whortleberry",
-    "some bur-clover root",
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "angelica root",
-    "withered black mushroom",
-    "stalk of chicory",
-    "sprig of alyssum",
-    "stalk of goldenrod",
-    "yellow primrose",
-    "small wild rose",
-    "wild carrot",
-    "ginger root",
-    "wild chokecherry",
-    "motherwort",
-    "murkweed",
-    "white baneberry",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some bur-clover root"
   ]
 }

@@ -1,56 +1,37 @@
 {
-  "wayto": {
-    "2926": {
-      "stringproc": "e9699cd356d61859730642b4a6678b0e"
-    },
-    "2924": {
-      "stringproc": "40d6b979547b430b68f7039c1c764806"
-    }
-  },
+  "id": 2925,
+  "title": [
+    "[Northward Trail, Snow Plains]"
+  ],
+  "description": [
+    "Snowflakes whirl around you.  Occasionally a vague form will materialize in the distance, only to disappear in a gust of blowing snow.  Nothing else can be seen in the dim haze but an endless sea of white in all directions.",
+    "Snowflakes whirl around you.  Occasionally a vague form will materialize in the distance, only to disappear in a gust of blowing snow.  Nothing else can be seen in the darkness."
+  ],
   "paths": [
     "Obvious paths: north, northeast, east, southeast, south, southwest, west, northwest"
   ],
+  "location": "the Sleeping Lady Mountains",
+  "wayto": {
+    "2926": {
+      "file": "string_procs/wayto/2925_2926.rb"
+    },
+    "2924": {
+      "file": "string_procs/wayto/2925_2924.rb"
+    }
+  },
+  "timeto": {
+    "2926": 2.0,
+    "2924": 2.0
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     1052,
     765,
     1062,
     775
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "Snowflakes whirl around you.  Occasionally a vague form will materialize in the distance, only to disappear in a gust of blowing snow.  Nothing else can be seen in the dim haze but an endless sea of white in all directions.",
-    "Snowflakes whirl around you.  Occasionally a vague form will materialize in the distance, only to disappear in a gust of blowing snow.  Nothing else can be seen in the darkness."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Northward Trail, Snow Plains]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2926": 2.0,
-    "2924": 2.0
-  },
-  "id": 2925,
-  "location": "the Sleeping Lady Mountains",
   "tags": [
     "frostflower",
-    "orange rowanberry",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "winter rose",
-    "arctic moss",
-    "tundra grass",
-    "frostweed",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "orange rowanberry"
   ]
 }

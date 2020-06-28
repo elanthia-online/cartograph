@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "7107": "go door"
-  },
+  "id": 7108,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "A dozen large barrels are stacked in here, and the acid smell of sour vinegar is staggering.  The wood of the barrels is old and rotted, and a touch could cause them to disintegrate, a truly horrifying thought."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "Darkstone Castle",
+  "wayto": {
+    "7107": "go door"
+  },
+  "timeto": {
+    "7107": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     1055,
     1113,
     1065,
     1123
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A dozen large barrels are stacked in here, and the acid smell of sour vinegar is staggering.  The wood of the barrels is old and rotted, and a touch could cause them to disintegrate, a truly horrifying thought."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7107": 0.2
-  },
-  "id": 7108,
-  "location": "Darkstone Castle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

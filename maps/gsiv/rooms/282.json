@@ -1,4 +1,16 @@
 {
+  "id": 282,
+  "title": [
+    "[Town Square, Southeast]"
+  ],
+  "description": [
+    "Pedestrians and wagon traffic move off in all directions here, some going to the large intersection with South Ring Road, others crisscrossing the square via the bazaar.  Men and women carrying neatly tied parcels or sacks and coils of rope slung over their arms emerge from the wooden facade of the old general store.",
+    "Foot and wagon traffic swarms off in all directions here, some going to the large intersection with South Ring Road, others crisscrossing the square via the bazaar.  Men and women carrying neatly tied parcels or sacks and coils of rope slung over their arms emerge from the wooden facade of the old general store."
+  ],
+  "paths": [
+    "Obvious paths: north, south, west, northwest"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "228": "northwest",
     "283": "south",
@@ -7,26 +19,6 @@
     "8664": "go store",
     "28303": "go black door"
   },
-  "paths": [
-    "Obvious paths: north, south, west, northwest"
-  ],
-  "image_coords": [
-    357,
-    878,
-    393,
-    914
-  ],
-  "terrain": "plain dirt",
-  "description": [
-    "Pedestrians and wagon traffic move off in all directions here, some going to the large intersection with South Ring Road, others crisscrossing the square via the bazaar.  Men and women carrying neatly tied parcels or sacks and coils of rope slung over their arms emerge from the wooden facade of the old general store.",
-    "Foot and wagon traffic swarms off in all directions here, some going to the large intersection with South Ring Road, others crisscrossing the square via the bazaar.  Men and women carrying neatly tied parcels or sacks and coils of rope slung over their arms emerge from the wooden facade of the old general store."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Town Square, Southeast]"
-  ],
-  "check_location": null,
   "timeto": {
     "228": 0.2,
     "283": 0.2,
@@ -35,8 +27,13 @@
     "8664": 0.2,
     "28303": 0.2
   },
-  "id": 282,
-  "location": "the town of Wehnimer's Landing",
+  "image": "wl-wehnimers-1264234799.png",
+  "image_coords": [
+    357,
+    878,
+    393,
+    914
+  ],
   "tags": [
     "some acantha leaf",
     "small daisy",
@@ -67,12 +64,6 @@
     "some calamia fruit",
     "some bur-clover root",
     "wagon",
-    "meta:teleport:fwi",
-    "acantha leaf",
-    "sovyn clove",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:teleport:fwi"
   ]
 }

@@ -1,41 +1,32 @@
 {
+  "id": 5832,
+  "title": [
+    "[Timmorain Road]"
+  ],
+  "description": [
+    "The road runs steadily northeast and southwest, and though the trees press in rather close, no cobblestones are buckled by encroaching tree roots.  The road's surface is smooth, and the cobblestones huddle closely together to allow fast, unhindered travel.  Strangely, the cobblestones are cleaner than one might expect for a road through the forest, as if someone has recently come out and given them a brisk sweeping."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "Timmorain Road",
   "wayto": {
     "5831": "southwest",
     "5833": "northeast",
     "25637": {
-      "stringproc": "75c2c0383830841b13b99fbb774a218c"
+      "file": "string_procs/wayto/5832_25637.rb"
     }
   },
-  "paths": [
-    "Obvious paths: northeast, southwest"
-  ],
-  "image_coords": [
-    395,
-    827,
-    405,
-    837
-  ],
-  "terrain": null,
-  "description": [
-    "The road runs steadily northeast and southwest, and though the trees press in rather close, no cobblestones are buckled by encroaching tree roots.  The road's surface is smooth, and the cobblestones huddle closely together to allow fast, unhindered travel.  Strangely, the cobblestones are cleaner than one might expect for a road through the forest, as if someone has recently come out and given them a brisk sweeping."
-  ],
-  "image": "en-cemetery-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Timmorain Road]"
-  ],
-  "check_location": null,
   "timeto": {
     "5831": 0.2,
     "5833": 0.2,
     "25637": 6.2
   },
-  "id": 5832,
-  "location": "Timmorain Road",
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "en-cemetery-1264234799.png",
+  "image_coords": [
+    395,
+    827,
+    405,
+    837
   ]
 }

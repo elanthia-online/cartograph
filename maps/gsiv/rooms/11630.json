@@ -1,39 +1,30 @@
 {
-  "wayto": {
-    "11612": {
-      "stringproc": "f76a5a1dba40cfaaa2e7d5602f77dd5a"
-    },
-    "16122": "southeast",
-    "22218": {
-      "stringproc": "69bc875b5c971136c47666d0b7815d80"
-    },
-    "11617": {
-      "stringproc": "ff4df2e435e83b5c07932f90cfbffcac"
-    },
-    "11618": {
-      "stringproc": "8565dad4a0e802c519ec107ab53998fc"
-    },
-    "11631": "north"
-  },
-  "paths": [
-    "Obvious paths: north, southeast, southwest"
-  ],
-  "image_coords": [
-    582,
-    471,
-    592,
-    481
-  ],
-  "terrain": "muddy wetlands",
-  "description": [
-    "Weeds, black and slick with some singularly foul form of rot, grow thick in the malodorous bogs that line the twisting trails.  The bone-grey fog eddies slowly through the bent, skeletal trees.  The listless breeze is tainted with the stink of decay."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "cold, damp",
+  "id": 11630,
   "title": [
     "[Miasmal Forest, Spectral Mist]"
   ],
-  "check_location": null,
+  "description": [
+    "Weeds, black and slick with some singularly foul form of rot, grow thick in the malodorous bogs that line the twisting trails.  The bone-grey fog eddies slowly through the bent, skeletal trees.  The listless breeze is tainted with the stink of decay."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast, southwest"
+  ],
+  "wayto": {
+    "11612": {
+      "file": "string_procs/wayto/11630_11612.rb"
+    },
+    "16122": "southeast",
+    "22218": {
+      "file": "string_procs/wayto/11630_22218.rb"
+    },
+    "11617": {
+      "file": "string_procs/wayto/11630_11617.rb"
+    },
+    "11618": {
+      "file": "string_procs/wayto/11630_11618.rb"
+    },
+    "11631": "north"
+  },
   "timeto": {
     "11612": 1.0,
     "16122": 0.2,
@@ -42,30 +33,14 @@
     "11618": 0.8,
     "11631": 0.2
   },
-  "id": 11630,
-  "location": "the Miasmal Forest",
-  "tags": [
-    "ringable",
-    "aloeas stem",
-    "soft white mushroom",
-    "withered black mushroom",
-    "white hook mushroom",
-    "blue trafel mushroom",
-    "wild gooseberry",
-    "stalk of cattail",
-    "small wild rose",
-    "mistweed",
-    "murdroot",
-    "wavepetal blossom",
-    "bolmara lichen",
-    "talneo root",
-    "wingstem root",
-    "meta:forage-sensed"
+  "image": "rr-maelstrom-1266390501.png",
+  "image_coords": [
+    582,
+    471,
+    592,
+    481
   ],
   "unique_loot": [
     "parrot skull"
-  ],
-  "links": [
-
   ]
 }

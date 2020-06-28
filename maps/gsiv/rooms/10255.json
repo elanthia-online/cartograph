@@ -1,35 +1,32 @@
 {
+  "id": 10255,
+  "title": [
+    "[Apple Orchard]"
+  ],
+  "description": [
+    "A menacing bramble bush grows among a few of the larger apple trees, forming a low wall that blocks passage to the south. Bits of feathers and patches of fur are caught in the spiky tangles, showing the effectiveness of the natural barrier."
+  ],
+  "paths": [
+    "Obvious paths: north, east, west"
+  ],
+  "location": "the grasslands",
   "wayto": {
     "10259": "west",
     "10260": "east",
     "10230": "north"
   },
-  "paths": [
-    "Obvious paths: north, east, west"
-  ],
+  "timeto": {
+    "10259": 0.2,
+    "10260": 0.2,
+    "10230": 0.2
+  },
+  "image": "en-fearling-1264234799.png",
   "image_coords": [
     438,
     788,
     448,
     798
   ],
-  "terrain": null,
-  "description": [
-    "A menacing bramble bush grows among a few of the larger apple trees, forming a low wall that blocks passage to the south. Bits of feathers and patches of fur are caught in the spiky tangles, showing the effectiveness of the natural barrier."
-  ],
-  "image": "en-fearling-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Apple Orchard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10259": 0.2,
-    "10260": 0.2,
-    "10230": 0.2
-  },
-  "id": 10255,
-  "location": "the grasslands",
   "tags": [
     "some acantha leaf",
     "some basal moss",
@@ -87,8 +84,5 @@
     "ebony twig",
     "bolmara lichen",
     "brostheras grass"
-  ],
-  "links": [
-
   ]
 }

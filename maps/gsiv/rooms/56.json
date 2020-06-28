@@ -1,34 +1,31 @@
 {
+  "id": 56,
+  "title": [
+    "[Whistler's Pass, Forest]"
+  ],
+  "description": [
+    "As the wood continues on, tall evergreens and oaks stand proudly in vigilance over the winding trail.  A thin blanket of mist rises up from the dense forest floor, lingering in the night air.",
+    "As the wood continues on, tall evergreens and oaks stand proudly in vigilance over the winding trail.  A thin blanket of mist rises up from the dense forest floor, lingering in mid-air."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "55": "north",
     "57": "southwest"
   },
-  "paths": [
-    "Obvious paths: north, southwest"
-  ],
+  "timeto": {
+    "55": 0.2,
+    "57": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     1073,
     372,
     1083,
     382
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "As the wood continues on, tall evergreens and oaks stand proudly in vigilance over the winding trail.  A thin blanket of mist rises up from the dense forest floor, lingering in the night air.",
-    "As the wood continues on, tall evergreens and oaks stand proudly in vigilance over the winding trail.  A thin blanket of mist rises up from the dense forest floor, lingering in mid-air."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Whistler's Pass, Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "55": 0.2,
-    "57": 0.2
-  },
-  "id": 56,
-  "location": "Whistler's Pass",
   "tags": [
     "some acantha leaf",
     "some basal moss",
@@ -96,10 +93,6 @@
     "murdroot",
     "nightbloom blossom",
     "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

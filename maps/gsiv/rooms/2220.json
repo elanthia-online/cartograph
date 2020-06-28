@@ -1,42 +1,33 @@
 {
+  "id": 2220,
+  "title": [
+    "[Depths of V'Tull, Lower Eye]"
+  ],
+  "description": [
+    "Small, hardened obsidian droplets have formed on the ceiling overhead.  Spherical, tear-shaped lava formations cascade down the walls on either side of you.  If the floor were the roof here, it would almost seem as if the eyes were crying stone tears."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest, northwest"
+  ],
+  "location": "the Eye of V'Tull",
   "wayto": {
     "2219": "southwest",
     "2221": "northwest"
   },
-  "paths": [
-    "Obvious exits: southeast, southwest, northwest"
-  ],
+  "timeto": {
+    "2219": 0.2,
+    "2221": 0.2
+  },
+  "image": "ti-vtull-1264234799.png",
   "image_coords": [
     340,
     866,
     350,
     876
   ],
-  "terrain": "indoors",
-  "description": [
-    "Small, hardened obsidian droplets have formed on the ceiling overhead.  Spherical, tear-shaped lava formations cascade down the walls on either side of you.  If the floor were the roof here, it would almost seem as if the eyes were crying stone tears."
-  ],
-  "image": "ti-vtull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Depths of V'Tull, Lower Eye]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2219": 0.2,
-    "2221": 0.2
-  },
-  "id": 2220,
-  "location": "the Eye of V'Tull",
   "tags": [
     "some cave moss",
     "black trafel mushroom",
-    "daggerstalk mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "daggerstalk mushroom"
   ]
 }

@@ -1,41 +1,32 @@
 {
+  "id": 17052,
+  "title": [
+    "[Wizard Guild, Cavern]"
+  ],
+  "description": [
+    "The twisting corridor splits into two passages, one of which veers suddenly downwards.  A spiralling stair has been carved into the stone to aid the unwary traveler, but each step varies from its cousins in width and height, making for uneasy purchase.  Intaglio carvings adorn the walls, the smoothness of the stone attesting to their use as easy handholds as well as decoration."
+  ],
+  "paths": [
+    "Obvious exits: south, southwest, down"
+  ],
+  "location": "River's Rest",
   "wayto": {
     "17057": "go doorway",
     "17058": "down",
     "17059": "southwest",
     "17007": "south"
   },
-  "paths": [
-    "Obvious exits: south, southwest, down"
-  ],
-  "image_coords": [
-    279,
-    31,
-    338,
-    91
-  ],
-  "terrain": null,
-  "description": [
-    "The twisting corridor splits into two passages, one of which veers suddenly downwards.  A spiralling stair has been carved into the stone to aid the unwary traveler, but each step varies from its cousins in width and height, making for uneasy purchase.  Intaglio carvings adorn the walls, the smoothness of the stone attesting to their use as easy handholds as well as decoration."
-  ],
-  "image": "rr-wizard_guild.png",
-  "climate": null,
-  "title": [
-    "[Wizard Guild, Cavern]"
-  ],
-  "check_location": null,
   "timeto": {
     "17057": 0.2,
     "17058": 0.2,
     "17059": 0.2,
     "17007": 0.2
   },
-  "id": 17052,
-  "location": "River's Rest",
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "rr-wizard_guild.png",
+  "image_coords": [
+    279,
+    31,
+    338,
+    91
   ]
 }

@@ -1,4 +1,15 @@
 {
+  "id": 1473,
+  "title": [
+    "[Solhaven, North Market SW]"
+  ],
+  "description": [
+    "Trappers, still dusty from traveling the caravan route, drift into and out of this small shop.  A velnalin pelt, stretched across a wooden frame, hangs above the narrow entrance.  An old man sits nearby, playing a merry tune on his cornet."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, east, south, west"
+  ],
+  "location": "the free port of Solhaven",
   "wayto": {
     "1474": "north",
     "1475": "south",
@@ -7,25 +18,6 @@
     "1438": "northeast",
     "1472": "east"
   },
-  "paths": [
-    "Obvious paths: north, northeast, east, south, west"
-  ],
-  "image_coords": [
-    880,
-    639,
-    904,
-    663
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "Trappers, still dusty from traveling the caravan route, drift into and out of this small shop.  A velnalin pelt, stretched across a wooden frame, hangs above the narrow entrance.  An old man sits nearby, playing a merry tune on his cornet."
-  ],
-  "image": "vo-solhaven-1263764670.png",
-  "climate": "temperate",
-  "title": [
-    "[Solhaven, North Market SW]"
-  ],
-  "check_location": null,
   "timeto": {
     "1474": 0.2,
     "1475": 0.2,
@@ -34,13 +26,11 @@
     "1438": 0.2,
     "1472": 0.2
   },
-  "id": 1473,
-  "location": "the free port of Solhaven",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "vo-solhaven-1263764670.png",
+  "image_coords": [
+    880,
+    639,
+    904,
+    663
   ]
 }

@@ -1,35 +1,32 @@
 {
+  "id": 4682,
+  "title": [
+    "[Cysaegir, Cave]"
+  ],
+  "description": [
+    "A dozen or so torches line the walls of the cave, which probably aids in keeping these walls dry.  Small square marble tiles decorate the surface of an open wood-framed doorway.  Along the back of the cave, broken crates and barrels are piled almost to the ceiling."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the village of Cysaegir",
   "wayto": {
     "9669": "go opening",
     "4680": "climb tunnel",
     "4683": "go doorway"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "9669": 0.2,
+    "4680": 0.2,
+    "4683": 0.2
+  },
+  "image": "en-cysaegir-1264234799.png",
   "image_coords": [
     371,
     1307,
     407,
     1343
   ],
-  "terrain": "indoors",
-  "description": [
-    "A dozen or so torches line the walls of the cave, which probably aids in keeping these walls dry.  Small square marble tiles decorate the surface of an open wood-framed doorway.  Along the back of the cave, broken crates and barrels are piled almost to the ceiling."
-  ],
-  "image": "en-cysaegir-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Cysaegir, Cave]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9669": 0.2,
-    "4680": 0.2,
-    "4683": 0.2
-  },
-  "id": 4682,
-  "location": "the village of Cysaegir",
   "tags": [
     "soft white mushroom",
     "withered black mushroom",
@@ -42,10 +39,6 @@
     "murdroot",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

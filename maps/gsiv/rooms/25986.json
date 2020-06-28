@@ -1,39 +1,32 @@
 {
+  "id": 25986,
+  "title": [
+    "[Journey's End, Foyer]"
+  ],
+  "description": [
+    "Covered with stone tiles, the floor of the entryway is a colorful mosaic depicting a rose pattern.  A mirrored coat rack stands next to a carved beechwood door, a reflection of the room echoed in the smooth glass.  Suspended from a silver chain, a large candelabra hangs above, illuminating the area.  A curtained archway covered with a rose-patterned carving dominates the west wall."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Ta'Illistim",
   "wayto": {
     "25987": "go archway",
     "25991": "north",
     "25985": {
-      "stringproc": "de2361cc27eb3a891ef246282dc27502"
+      "file": "string_procs/wayto/25986_25985.rb"
     }
   },
-  "paths": [
-    "Obvious exits: north"
-  ],
-  "image_coords": [
-    369,
-    601,
-    441,
-    650
-  ],
-  "terrain": null,
-  "description": [
-    "Covered with stone tiles, the floor of the entryway is a colorful mosaic depicting a rose pattern.  A mirrored coat rack stands next to a carved beechwood door, a reflection of the room echoed in the smooth glass.  Suspended from a silver chain, a large candelabra hangs above, illuminating the area.  A curtained archway covered with a rose-patterned carving dominates the west wall."
-  ],
-  "image": "JourneysEnd.jpg",
-  "climate": null,
-  "title": [
-    "[Journey's End, Foyer]"
-  ],
-  "check_location": null,
   "timeto": {
     "25985": 0.2,
     "25987": 0.2,
     "25991": 0.2
   },
-  "id": 25986,
-  "location": "Ta'Illistim",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  "image": "JourneysEnd.jpg",
+  "image_coords": [
+    369,
+    601,
+    441,
+    650
+  ]
 }

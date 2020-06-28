@@ -1,33 +1,32 @@
 {
+  "id": 10867,
+  "title": [
+    "[Bramble Thicket, Clearing]"
+  ],
+  "description": [
+    "Cordoned off from the town by an impenetrable hedge is a quaint little spot, its immaculate lawn dotted with myrtle.  A row of date palms frames a path of crushed shell that leads from the edge of the thicket straight to an impressive building at the center of the lawn.  An arched doorway leads into the building, and a weathered lattice keeps the local fauna from entering the open windows to either side."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "the Adventurer's Guild",
+  "climate": "temperate",
+  "terrain": "cultivated",
   "wayto": {
     "10991": "go building",
     "10866": "go hedge"
   },
-  "paths": [
-    "Obvious paths: none"
-  ],
+  "timeto": {
+    "10991": 0.2,
+    "10866": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     857,
     378,
     895,
     416
   ],
-  "terrain": "cultivated",
-  "description": [
-    "Cordoned off from the town by an impenetrable hedge is a quaint little spot, its immaculate lawn dotted with myrtle.  A row of date palms frames a path of crushed shell that leads from the edge of the thicket straight to an impressive building at the center of the lawn.  An arched doorway leads into the building, and a weathered lattice keeps the local fauna from entering the open windows to either side."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "temperate",
-  "title": [
-    "[Bramble Thicket, Clearing]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10991": 0.2,
-    "10866": 0.2
-  },
-  "id": 10867,
-  "location": "the Adventurer's Guild",
   "tags": [
     "some cactacae spine",
     "white alligator lily",
@@ -71,14 +70,6 @@
     "yew twig",
     "luckbloom blossom",
     "wavepetal blossom",
-    "sunburst blossom",
-    "trollfear mushroom",
-    "spider lily",
-    "fire lily",
-    "onion skin",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sunburst blossom"
   ]
 }

@@ -1,55 +1,35 @@
 {
-  "wayto": {
-    "2675": {
-      "stringproc": "ab4344c6bc2c40c94dc440a49c5ac524"
-    },
-    "2678": "northeast"
-  },
+  "id": 2677,
+  "title": [
+    "[Top of the World, Aenatumgana]"
+  ],
+  "description": [
+    "Whirling snow is tinted an incongruous rose color by the low arctic light.  Then, a lull in the wind offers a breathtaking vision!  Mantled by the storm's flurry, a monument perches on the mountain's top, immense in size and of extraordinary beauty.  Columns march across the facade, their tops almost lost in the clouds, framing a colossal door.  Beside the door, a shining gold crown is mounted in bas-relief, erratically throwing out brilliant reflections as light fights through the fog to caress it.",
+    "Whirling snow is tinted silvery grey by the low arctic moonlight.  Then, a lull in the wind offers a breathtaking vision!  Mantled by the storm's flurry, a monument perches on the mountain's top, immense in size and of extraordinary beauty.  Columns march across the facade, their tops almost lost in the clouds, framing a colossal door.  Beside the door, a gold crown is mounted in bas-relief, erratically throwing out muted reflections as moonlight fights through the fog to caress it."
+  ],
   "paths": [
     "Obvious paths: northeast"
   ],
+  "location": "the great mountain Aenatumgana",
+  "wayto": {
+    "2675": {
+      "file": "string_procs/wayto/2677_2675.rb"
+    },
+    "2678": "northeast"
+  },
+  "timeto": {
+    "2675": 12.0,
+    "2678": 0.2
+  },
+  "image": "imt-pinefar-1264234799.png",
   "image_coords": [
     747,
     526,
     758,
     537
   ],
-  "terrain": "mountainous",
-  "description": [
-    "Whirling snow is tinted an incongruous rose color by the low arctic light.  Then, a lull in the wind offers a breathtaking vision!  Mantled by the storm's flurry, a monument perches on the mountain's top, immense in size and of extraordinary beauty.  Columns march across the facade, their tops almost lost in the clouds, framing a colossal door.  Beside the door, a shining gold crown is mounted in bas-relief, erratically throwing out brilliant reflections as light fights through the fog to caress it.",
-    "Whirling snow is tinted silvery grey by the low arctic moonlight.  Then, a lull in the wind offers a breathtaking vision!  Mantled by the storm's flurry, a monument perches on the mountain's top, immense in size and of extraordinary beauty.  Columns march across the facade, their tops almost lost in the clouds, framing a colossal door.  Beside the door, a gold crown is mounted in bas-relief, erratically throwing out muted reflections as moonlight fights through the fog to caress it."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Top of the World, Aenatumgana]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2675": 12.0,
-    "2678": 0.2
-  },
-  "id": 2677,
-  "location": "the great mountain Aenatumgana",
   "tags": [
     "some daggit root",
-    "gok nut",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "red lichen",
-    "feverfern stalk",
-    "manroot stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "wyrmwood bark",
-    "daggit root",
-    "arctic moss",
-    "red winterberry",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "gok nut"
   ]
 }

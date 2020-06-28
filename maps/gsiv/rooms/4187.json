@@ -1,42 +1,32 @@
 {
+  "id": 4187,
+  "title": [
+    "[Minion Quarters]"
+  ],
+  "description": [
+    "The walls still have that melted look except where some excavation has been done to widen the area or search for something.  You see a few thin lines of gold in the rock.  As you reach out to touch the gold, you can feel the warmth like a great oven assault your fingertips.  It is not hot enough to instantly burn you, but hot enough to make you recoil in surprise."
+  ],
+  "paths": [
+    "Obvious exits: north, south, southwest, northwest"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "4191": "northwest",
     "4192": "southwest",
     "4186": "south",
     "4188": "north"
   },
-  "paths": [
-    "Obvious exits: north, south, southwest, northwest"
-  ],
-  "image_coords": [
-    837,
-    1067,
-    847,
-    1077
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The walls still have that melted look except where some excavation has been done to widen the area or search for something.  You see a few thin lines of gold in the rock.  As you reach out to touch the gold, you can feel the warmth like a great oven assault your fingertips.  It is not hot enough to instantly burn you, but hot enough to make you recoil in surprise."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Minion Quarters]"
-  ],
-  "check_location": null,
   "timeto": {
     "4191": 0.2,
     "4192": 0.2,
     "4186": 0.2,
     "4188": 0.2
   },
-  "id": 4187,
-  "location": "the Graveyard",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-graveyard-1264234799.png",
+  "image_coords": [
+    837,
+    1067,
+    847,
+    1077
   ]
 }

@@ -1,35 +1,32 @@
 {
+  "id": 2845,
+  "title": [
+    "[Mountains, Quiet Forest]"
+  ],
+  "description": [
+    "An immense boulder covered with snow and ice sits in the middle of a clearing. Smaller rocks lie in various positions around the boulder, casting irregular shadows on the fresh snow. The wind is almost non-existent, and the scent of fresh pine needles is overpowering."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Sleeping Lady Mountains",
   "wayto": {
     "2844": "east",
     "2846": "climb bou",
     "2847": "west"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "2844": 0.2,
+    "2846": 0.2,
+    "2847": 0.2
+  },
+  "image": "imt-pinefar-1264234799.png",
   "image_coords": [
     301,
     1084,
     311,
     1094
   ],
-  "terrain": "mountainous",
-  "description": [
-    "An immense boulder covered with snow and ice sits in the middle of a clearing. Smaller rocks lie in various positions around the boulder, casting irregular shadows on the fresh snow. The wind is almost non-existent, and the scent of fresh pine needles is overpowering."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Mountains, Quiet Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2844": 0.2,
-    "2846": 0.2,
-    "2847": 0.2
-  },
-  "id": 2845,
-  "location": "the Sleeping Lady Mountains",
   "tags": [
     "some valerian root",
     "sweetfern stalk",
@@ -44,32 +41,6 @@
     "azure iceblossom",
     "snow white iceblossom",
     "pale violet iceblossom",
-    "pink iceblossom",
-    "sassafras leaf",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "edelweiss",
-    "iceblossoms",
-    "snow lily",
-    "winter rose",
-    "arctic moss",
-    "tundra grass",
-    "golden aster",
-    "calamintha blossom",
-    "snowberries",
-    "pale thornberry",
-    "red winterberry",
-    "small loganberry",
-    "rockberry",
-    "crowberry",
-    "orange rowanberry",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "pink iceblossom"
   ]
 }

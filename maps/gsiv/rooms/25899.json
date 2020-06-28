@@ -1,41 +1,34 @@
 {
-  "wayto": {
-    "25900": "go house",
-    "25901": "go walkway",
-    "25898": "northwest",
-    "25919": "northeast",
-    "25916": "north"
-  },
+  "id": 25899,
+  "title": [
+    "[Summit Academy, South Ellipse]"
+  ],
+  "description": [
+    "A current of warm air flows from the walkway that winds south beneath an arched canopy of trees.  As it mixes with the frosty air, a constant breeze swirls through the area.  A narrow flagstone path leads up to a tile-roofed manor house."
+  ],
   "paths": [
     "Obvious paths: north, northeast, northwest"
   ],
+  "location": "Summit Academy",
+  "wayto": {
+    "25900": "go house",
+    "25898": "northwest",
+    "25919": "northeast",
+    "25916": "north",
+    "28088": "go walkway"
+  },
+  "timeto": {
+    "25900": 0.2,
+    "25898": 0.2,
+    "25919": 0.2,
+    "25916": 0.2,
+    "28088": 0.2
+  },
+  "image": "Spire_Grounds_5117.png",
   "image_coords": [
     408,
     435,
     460,
     486
-  ],
-  "terrain": null,
-  "description": [
-    "A current of warm air flows from the walkway that winds south beneath an arched canopy of trees.  As it mixes with the frosty air, a constant breeze swirls through the area.  A narrow flagstone path leads up to a tile-roofed manor house."
-  ],
-  "image": "Spire_Grounds_5117.png",
-  "climate": null,
-  "title": [
-    "[Summit Academy, South Ellipse]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "25900": 0.2,
-    "25901": 0.2,
-    "25898": 0.2,
-    "25919": 0.2,
-    "25916": 0.2
-  },
-  "id": 25899,
-  "location": "Summit Academy",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

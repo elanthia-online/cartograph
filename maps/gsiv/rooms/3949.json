@@ -1,33 +1,25 @@
 {
-  "wayto": {
-    "3937": {
-      "stringproc": "1b05168490a4bc4256a681555163ac06"
-    }
-  },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "The tunnel slopes gently downward, and much of the floor is shattered and broken.  You could easily do without the slight movement of the air, as it only brings ever more appalling scents to your attention."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 3949,
   "title": [
     "[Abandoned Sewer]"
   ],
-  "check_location": null,
+  "description": [
+    "The tunnel slopes gently downward, and much of the floor is shattered and broken.  You could easily do without the slight movement of the air, as it only brings ever more appalling scents to your attention."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the catacombs",
+  "wayto": {
+    "3937": {
+      "file": "string_procs/wayto/3949_3937.rb"
+    }
+  },
   "timeto": {
     "3937": 1.6
   },
-  "id": 3949,
-  "location": "the catacombs",
   "tags": [
     "red trafel mushroom",
     "blue trafel mushroom"
-  ],
-  "links": [
-
   ]
 }

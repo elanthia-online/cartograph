@@ -1,38 +1,28 @@
 {
+  "id": 9106,
+  "title": [
+    "[Great Cavern, Stalagmite Forest]"
+  ],
+  "description": [
+    "A clearing opens unexpectedly among the columns of stone.  The strange double-layer of fog still obscures floor and ceiling, but you begin to get a sense of how truly large this cavern is.  In the open space, the charred remnants of a fire mar the stone floor beneath the mist.  It's impossible to say whether this was some battle, a camp, or perhaps a religious rite."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east"
+  ],
+  "location": "the subterranean tunnels",
   "wayto": {
     "9107": "east",
     "9104": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, east"
-  ],
+  "timeto": {
+    "9107": 0.2,
+    "9104": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     64,
     596,
     74,
     606
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A clearing opens unexpectedly among the columns of stone.  The strange double-layer of fog still obscures floor and ceiling, but you begin to get a sense of how truly large this cavern is.  In the open space, the charred remnants of a fire mar the stone floor beneath the mist.  It's impossible to say whether this was some battle, a camp, or perhaps a religious rite."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Great Cavern, Stalagmite Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9107": 0.2,
-    "9104": 0.2
-  },
-  "id": 9106,
-  "location": "the subterranean tunnels",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

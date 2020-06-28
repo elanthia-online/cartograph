@@ -1,36 +1,33 @@
 {
+  "id": 4726,
+  "title": [
+    "[Gyldemar Forest, Cobbled Path]"
+  ],
+  "description": [
+    "A hollow rasping sound emanates from some shadowed corner of the woods, its source well-hidden in the darkness.  The underbrush has grown profusely, leaving only a few scattered cobblestones to mark the path amidst a tangle of fan-like ferns and creeping briars.  A trampled area in the foliage seems to mark the beginning of a small animal run.",
+    "A hollow rasping sound emanates from some corner of the woods, its source well-hidden in the darkness.  The underbrush has grown profusely, leaving only a few scattered cobblestones to mark the path amidst a tangle of fan-like ferns and creeping briars.  A trampled area in the foliage seems to mark the beginning of a small animal run."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "Gyldemar Forest",
   "wayto": {
     "4728": "southeast",
     "4725": "northwest",
     "4727": "go run"
   },
-  "paths": [
-    "Obvious paths: southeast, northwest"
-  ],
+  "timeto": {
+    "4728": 0.2,
+    "4725": 0.2,
+    "4727": 0.2
+  },
+  "image": "en-gyldemar-1264234799.png",
   "image_coords": [
     489,
     867,
     499,
     877
   ],
-  "terrain": "missing",
-  "description": [
-    "A hollow rasping sound emanates from some shadowed corner of the woods, its source well-hidden in the darkness.  The underbrush has grown profusely, leaving only a few scattered cobblestones to mark the path amidst a tangle of fan-like ferns and creeping briars.  A trampled area in the foliage seems to mark the beginning of a small animal run.",
-    "A hollow rasping sound emanates from some corner of the woods, its source well-hidden in the darkness.  The underbrush has grown profusely, leaving only a few scattered cobblestones to mark the path amidst a tangle of fan-like ferns and creeping briars.  A trampled area in the foliage seems to mark the beginning of a small animal run."
-  ],
-  "image": "en-gyldemar-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Gyldemar Forest, Cobbled Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4728": 0.2,
-    "4725": 0.2,
-    "4727": 0.2
-  },
-  "id": 4726,
-  "location": "Gyldemar Forest",
   "tags": [
     "some valerian root",
     "wild pink geranium",
@@ -47,28 +44,6 @@
     "tkaro root",
     "wintergreen leaf",
     "stalk of bluebells",
-    "bright red teaberry",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "sticks",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "broken twig",
-    "bright red cranberry",
-    "tree bark",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bright red teaberry"
   ]
 }

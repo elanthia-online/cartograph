@@ -1,41 +1,32 @@
 {
-  "wayto": {
-    "11479": {
-      "stringproc": "c5de6a93c272509e579c13cc8cd916bf"
-    },
-    "11485": {
-      "stringproc": "7f6b5df374874a116df8c0e5af649e62"
-    },
-    "11441": {
-      "stringproc": "d1ab0fc82426b99746caa62b1f882697"
-    },
-    "11453": {
-      "stringproc": "ecb29216e38b2eccfa243d0a331e41b2"
-    },
-    "11443": {
-      "stringproc": "edcc0cccbc99a29a586ead6328949de9"
-    }
-  },
-  "paths": [
-    "Obvious paths: southeast, south, southwest, down"
+  "id": 11442,
+  "title": [
+    "[Maelstrom Bay, Surface]"
   ],
-  "image_coords": [
-    675,
-    1153,
-    685,
-    1163
-  ],
-  "terrain": "missing",
   "description": [
     "The cliffs of the headland curve away to the north.  Powerful currents swirl and spiral crazily, making any movement to the north or west impossible.  A low dip in the headland reveals a tall, pale tower, which has a ghostly gleam in the moonlight.",
     "The cliffs of the headland curve away to the north.  Powerful currents swirl and spiral crazily, making any movement to the north or west impossible.  A low dip in the headland reveals a tall, pale tower, which gleams whitely in the sunlight."
   ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "missing",
-  "title": [
-    "[Maelstrom Bay, Surface]"
+  "paths": [
+    "Obvious paths: southeast, south, southwest, down"
   ],
-  "check_location": null,
+  "wayto": {
+    "11479": {
+      "file": "string_procs/wayto/11442_11479.rb"
+    },
+    "11485": {
+      "file": "string_procs/wayto/11442_11485.rb"
+    },
+    "11441": {
+      "file": "string_procs/wayto/11442_11441.rb"
+    },
+    "11453": {
+      "file": "string_procs/wayto/11442_11453.rb"
+    },
+    "11443": {
+      "file": "string_procs/wayto/11442_11443.rb"
+    }
+  },
   "timeto": {
     "11479": 3.0,
     "11485": 0.2,
@@ -43,13 +34,11 @@
     "11453": 2.0,
     "11443": 2.0
   },
-  "id": 11442,
-  "location": "Maelstrom Bay",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-maelstrom-1266390501.png",
+  "image_coords": [
+    675,
+    1153,
+    685,
+    1163
   ]
 }

@@ -1,40 +1,30 @@
 {
+  "id": 22082,
+  "title": [
+    "[Paupers, Upstairs Hall]"
+  ],
+  "description": [
+    "Sunlight streams through a small dormer window, bathing the hallway in a soft, golden light.  An unlit brass lamp hangs above the winding stairs.  A small, ale-stained, sisal rug covers the floor.  The pleasant smell of ale and the sound of clinking glasses comes from the west."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "22081": "go stairs",
     "22085": "go door",
     "22078": "west"
   },
-  "paths": [
-    "Obvious exits: west"
-  ],
-  "image_coords": [
-    285,
-    561,
-    367,
-    612
-  ],
-  "terrain": null,
-  "description": [
-    "Sunlight streams through a small dormer window, bathing the hallway in a soft, golden light.  An unlit brass lamp hangs above the winding stairs.  A small, ale-stained, sisal rug covers the floor.  The pleasant smell of ale and the sound of clinking glasses comes from the west."
-  ],
-  "image": "wl-house_paupers.jpg",
-  "climate": null,
-  "title": [
-    "[Paupers, Upstairs Hall]"
-  ],
-  "check_location": null,
   "timeto": {
     "22081": 0.2,
     "22085": 0.2,
     "22078": 0.2
   },
-  "id": 22082,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
+  "image": "wl-house_paupers.jpg",
+  "image_coords": [
+    285,
+    561,
+    367,
+    612
   ]
 }

@@ -1,51 +1,36 @@
 {
+  "id": 12232,
+  "title": [
+    "[The Rift, Scatter]"
+  ],
+  "description": [
+    "Stalactites of blue-white ice glisten dangerously overhead, reflected clearly in the mirror-like floor.  Someone or something flits around the formations with only a faint whirring indicating its presence.  A bower crafted of sticks and twine stands in the cavern's center, encrusted with silvery rime.",
+    "Dull, grey stone is slick with dampness underfoot.  Someone or something flits around in the distant shadows, with only a faint whirring indicating its presence.  A bower crafted of sticks and twine stands in the cavern's center, singed black."
+  ],
+  "paths": [
+    "Obvious exits: southwest, up, down",
+    "Obvious paths: southwest, up, down"
+  ],
+  "location": "the Rift",
   "wayto": {
     "12151": {
-      "stringproc": "c01b87e914b9cdeee3471070ec5e96d5"
+      "file": "string_procs/wayto/12232_12151.rb"
     },
     "12240": "up",
     "12230": "southwest",
     "12235": "down"
   },
-  "paths": [
-    "Obvious exits: southwest, up, down",
-    "Obvious paths: southwest, up, down"
-  ],
-  "image_coords": [
-    294,
-    154,
-    318,
-    178
-  ],
-  "terrain": null,
-  "description": [
-    "Stalactites of blue-white ice glisten dangerously overhead, reflected clearly in the mirror-like floor.  Someone or something flits around the formations with only a faint whirring indicating its presence.  A bower crafted of sticks and twine stands in the cavern's center, encrusted with silvery rime.",
-    "Dull, grey stone is slick with dampness underfoot.  Someone or something flits around in the distant shadows, with only a faint whirring indicating its presence.  A bower crafted of sticks and twine stands in the cavern's center, singed black."
-  ],
-  "image": "imt-scatter-1264234799.png",
-  "climate": null,
-  "title": [
-    "[The Rift, Scatter]"
-  ],
-  "check_location": null,
   "timeto": {
     "12151": 11.4,
     "12240": 0.2,
     "12230": 0.2,
     "12235": 0.2
   },
-  "id": 12232,
-  "location": "the Rift",
-  "tags": [
-    "mass of congealed slime",
-    "oozing fleshsore bulb",
-    "withered deathblossom",
-    "rotting bile green fleshbulb",
-    "slime-covered grave blossom",
-    "discolored fleshbinder bud",
-    "twisted black mawflower"
-  ],
-  "links": [
-
+  "image": "imt-scatter-1264234799.png",
+  "image_coords": [
+    294,
+    154,
+    318,
+    178
   ]
 }

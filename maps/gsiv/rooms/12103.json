@@ -1,53 +1,46 @@
 {
-  "wayto": {
-    "12152": "southeast",
-    "12207": {
-      "stringproc": "e92c9dd14f17f62ccd19f33b9f37fe22"
-    },
-    "12252": "northeast",
-    "12235": {
-      "stringproc": "6257723a0157210f5f1e2eb6e7c5dbb4"
-    }
-  },
-  "paths": [
-    "Obvious paths: northeast, southeast",
-    "Obvious exits: northeast, southeast"
+  "id": 12103,
+  "title": [
+    "[The Rift]"
   ],
-  "image_coords": [
-    541,
-    1180,
-    551,
-    1190
-  ],
-  "terrain": null,
   "description": [
     "The wedding revel is in full swing.  Men and women clad in bright attire swirl over the floor in a breathless dance, beneath fluttering ribbons and sweet smelling flowers.  Foods with mouthwatering aromas line the walls, served by smiling butlers in finely tailored clothing.  At the head of the table sit the bride and groom, holding a golden cup to each other's lips.  By the advanced stages of decay, you estimate that the happy couple has been dead for several hundred years.",
     "The wedding revel is in full swing.  Men and women clad in bright attire swirl over the floor in a breathless dance beneath fluttering ribbons and sweet smelling flowers.  Foods with mouthwatering aromas line the walls, served by smiling butlers in finely tailored clothing.  At the head of the table sit the bride and groom, holding a golden cup to each other's lips.  By the advanced stages of decay, you estimate that the happy couple has been dead for several hundred years."
   ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
+  "paths": [
+    "Obvious paths: northeast, southeast",
+    "Obvious exits: northeast, southeast"
   ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12152": "southeast",
+    "12207": {
+      "file": "string_procs/wayto/12103_12207.rb"
+    },
+    "12252": "northeast",
+    "12235": {
+      "file": "string_procs/wayto/12103_12235.rb"
+    }
+  },
   "timeto": {
     "12152": 0.2,
     "12207": 11.4,
     "12252": 0.2,
     "12235": 11.4
   },
-  "id": 12103,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    541,
+    1180,
+    551,
+    1190
+  ],
   "tags": [
     "withered deathblossom",
     "mass of congealed slime",
     "discolored fleshbinder bud",
     "twisted black mawflower",
     "oozing fleshsore bulb",
-    "slime-covered grave blossom",
-    "rotting bile green fleshbulb"
-  ],
-  "links": [
-
+    "slime-covered grave blossom"
   ]
 }

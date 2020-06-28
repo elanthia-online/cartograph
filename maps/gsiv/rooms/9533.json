@@ -1,41 +1,31 @@
 {
+  "id": 9533,
+  "title": [
+    "[Troll Burial Grounds]"
+  ],
+  "description": [
+    "Clouds of fireflies swarm above the pile of bones, providing an eerily shifting, cold light.  It is difficult to find stable footing through the pile of bones, especially in the dim light provided by the fireflies.  The depth of the sea of bones is as indeterminable as the height of the ceiling.  Occasionally, the sounds of wings flapping high overhead and the scurrying of rodents in the pile echo through the room."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Troll Burial Grounds",
   "wayto": {
     "9532": "east",
     "9534": "west"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "9532": 0.2,
+    "9534": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     792,
     1131,
     802,
     1141
   ],
-  "terrain": "indoors",
-  "description": [
-    "Clouds of fireflies swarm above the pile of bones, providing an eerily shifting, cold light.  It is difficult to find stable footing through the pile of bones, especially in the dim light provided by the fireflies.  The depth of the sea of bones is as indeterminable as the height of the ceiling.  Occasionally, the sounds of wings flapping high overhead and the scurrying of rodents in the pile echo through the room."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Troll Burial Grounds]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9532": 0.2,
-    "9534": 0.2
-  },
-  "id": 9533,
-  "location": "the Troll Burial Grounds",
   "tags": [
-    "blue trafel mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "pepperthorn root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "blue trafel mushroom"
   ]
 }

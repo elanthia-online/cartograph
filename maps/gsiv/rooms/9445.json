@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "9442": "northeast"
-  },
+  "id": 9445,
+  "title": [
+    "[Zaratek Hall, Alcove]"
+  ],
+  "description": [
+    "Pale stone walls enclose this alcove on three sides, flecked randomly with glossy mica.  Corkboards and bulletins are occupied by an abundance of scrolls delineating tasks and requested services of the guild.  The lone piece of furniture, a sturdy iron-worked stand, supports a thick leather-bound logbook."
+  ],
   "paths": [
     "Obvious exits: northeast"
   ],
+  "location": "Zul Logoth",
+  "wayto": {
+    "9442": "northeast"
+  },
+  "timeto": {
+    "9442": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     352,
     576,
     388,
     612
   ],
-  "terrain": "indoors",
-  "description": [
-    "Pale stone walls enclose this alcove on three sides, flecked randomly with glossy mica.  Corkboards and bulletins are occupied by an abundance of scrolls delineating tasks and requested services of the guild.  The lone piece of furniture, a sturdy iron-worked stand, supports a thick leather-bound logbook."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Zaratek Hall, Alcove]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9442": 0.2
-  },
-  "id": 9445,
-  "location": "Zul Logoth",
   "tags": [
-    "advguild",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "advguild"
   ]
 }

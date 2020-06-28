@@ -1,43 +1,34 @@
 {
-  "wayto": {
-    "9146": "west",
-    "24863": {
-      "stringproc": "07f3131a2a9a495408bcf5b8fbb0215e"
-    }
-  },
+  "id": 9147,
+  "title": [
+    "[Thurfel's Island]"
+  ],
+  "description": [
+    "The pier comes to a sudden and abrupt end with no guard rail or warning.  The broken and cracked bits of plank point to either storm damage or just plain rot.",
+    "The pier comes to a sudden and abrupt end with no guard rail or warning.  The broken and cracked bits of plank point to either storm damage or just plain rot.  A watery vortex churns dangerously in the waters just below the pier, its center crackling with energy."
+  ],
   "paths": [
     "Obvious exits: west"
   ],
+  "location": "Thurfel's Island",
+  "wayto": {
+    "9146": "west",
+    "24863": {
+      "file": "string_procs/wayto/9147_24863.rb"
+    }
+  },
+  "timeto": {
+    "9146": 0.2,
+    "24863": 2.0
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     589,
     910,
     599,
     920
   ],
-  "terrain": "indoors",
-  "description": [
-    "The pier comes to a sudden and abrupt end with no guard rail or warning.  The broken and cracked bits of plank point to either storm damage or just plain rot.",
-    "The pier comes to a sudden and abrupt end with no guard rail or warning.  The broken and cracked bits of plank point to either storm damage or just plain rot.  A watery vortex churns dangerously in the waters just below the pier, its center crackling with energy."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thurfel's Island]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9146": 0.2,
-    "24863": 2.0
-  },
-  "id": 9147,
-  "location": "Thurfel's Island",
   "tags": [
-    "some bur-clover root",
-    "murdroot",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some bur-clover root"
   ]
 }

@@ -1,43 +1,35 @@
 {
+  "id": 14597,
+  "title": [
+    "[Manor House, Second Floor]"
+  ],
+  "description": [
+    "This landing overlooks the first floor foyer and the curving stairway that ascends from it.  From here, short corridors lead to the north, east and south."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south"
+  ],
+  "location": "the Outlands",
   "wayto": {
     "14605": "south",
     "14607": "east",
     "5549": "go stairway",
     "14610": "north"
   },
-  "paths": [
-    "Obvious exits: north, east, south"
-  ],
-  "image_coords": [
-    1047,
-    824,
-    1057,
-    834
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This landing overlooks the first floor foyer and the curving stairway that ascends from it.  From here, short corridors lead to the north, east and south."
-  ],
-  "image": "vo-outlands-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Manor House, Second Floor]"
-  ],
-  "check_location": null,
   "timeto": {
     "14605": 0.2,
     "14607": 0.2,
     "5549": 0.2,
     "14610": 0.2
   },
-  "id": 14597,
-  "location": "the Outlands",
-  "tags": [
-    "dobrem",
-    "no forageables",
-    "meta:forage-sensed"
+  "image": "vo-outlands-1264234799.png",
+  "image_coords": [
+    1047,
+    824,
+    1057,
+    834
   ],
-  "links": [
-
+  "tags": [
+    "dobrem"
   ]
 }

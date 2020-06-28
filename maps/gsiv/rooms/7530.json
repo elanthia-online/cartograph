@@ -1,40 +1,30 @@
 {
+  "id": 7530,
+  "title": [
+    "[Catacombs, Underground Lake]"
+  ],
+  "description": [
+    "Water tumbles gently out of a brick passage to the north and slowly winds its way across rounded rocks and into a lake to the southeast.  From the smell of things, the lake is a bit cleaner than the sewage water pouring out of the northern passage.  Occasional splashes and gurgling noises echo throughout the chamber."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "7528": "east",
     "7529": "south",
     "7531": "north"
   },
-  "paths": [
-    "Obvious exits: north, east, south"
-  ],
-  "image_coords": [
-    500,
-    1261,
-    510,
-    1271
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Water tumbles gently out of a brick passage to the north and slowly winds its way across rounded rocks and into a lake to the southeast.  From the smell of things, the lake is a bit cleaner than the sewage water pouring out of the northern passage.  Occasional splashes and gurgling noises echo throughout the chamber."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Catacombs, Underground Lake]"
-  ],
-  "check_location": null,
   "timeto": {
     "7528": 0.2,
     "7529": 0.2,
     "7531": 0.2
   },
-  "id": 7530,
-  "location": "the catacombs",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-catacombs-1264234799.png",
+  "image_coords": [
+    500,
+    1261,
+    510,
+    1271
   ]
 }

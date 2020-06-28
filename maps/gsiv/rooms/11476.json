@@ -1,46 +1,37 @@
 {
-  "wayto": {
-    "11479": {
-      "stringproc": "9eaa131926e46e6090f2390aa24f278f"
-    },
-    "11469": {
-      "stringproc": "b9248cfc9b113e5b3c9341af010fa35e"
-    },
-    "16121": {
-      "stringproc": "8590757048f346da70e2325b7e9ba8ea"
-    },
-    "11472": {
-      "stringproc": "2475b19f394c069e111c2fa06831c1f7"
-    },
-    "11453": {
-      "stringproc": "84803c6220b0581d4151763c46ccdbbc"
-    },
-    "11475": {
-      "stringproc": "83255565d617dbe7b0ecdb04e9a96925"
-    },
-    "11477": {
-      "stringproc": "c5de6a93c272509e579c13cc8cd916bf"
-    }
-  },
-  "paths": [
-    "Obvious exits: southeast, south, southwest, west, northwest, up, down"
-  ],
-  "image_coords": [
-    788,
-    1180,
-    798,
-    1190
-  ],
-  "terrain": null,
-  "description": [
-    "Light green water above, deep green water below, green water all around. Organ-pipe sponges grow among the knotted rockweed on the rocky wall to the northeast.  Overhead, the shimmering surface of the bay rolls sinuously."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": null,
+  "id": 11476,
   "title": [
     "[Maelstrom Bay, Under Water]"
   ],
-  "check_location": null,
+  "description": [
+    "Light green water above, deep green water below, green water all around. Organ-pipe sponges grow among the knotted rockweed on the rocky wall to the northeast.  Overhead, the shimmering surface of the bay rolls sinuously."
+  ],
+  "paths": [
+    "Obvious exits: southeast, south, southwest, west, northwest, up, down"
+  ],
+  "wayto": {
+    "11479": {
+      "file": "string_procs/wayto/11476_11479.rb"
+    },
+    "11469": {
+      "file": "string_procs/wayto/11476_11469.rb"
+    },
+    "16121": {
+      "file": "string_procs/wayto/11476_16121.rb"
+    },
+    "11472": {
+      "file": "string_procs/wayto/11476_11472.rb"
+    },
+    "11453": {
+      "file": "string_procs/wayto/11476_11453.rb"
+    },
+    "11475": {
+      "file": "string_procs/wayto/11476_11475.rb"
+    },
+    "11477": {
+      "file": "string_procs/wayto/11476_11477.rb"
+    }
+  },
   "timeto": {
     "11479": 2.0,
     "11469": 2.0,
@@ -50,12 +41,11 @@
     "11475": 2.0,
     "11477": 3.0
   },
-  "id": 11476,
-  "location": null,
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "rr-maelstrom-1266390501.png",
+  "image_coords": [
+    788,
+    1180,
+    798,
+    1190
   ]
 }

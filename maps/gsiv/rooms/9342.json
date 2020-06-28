@@ -1,33 +1,30 @@
 {
+  "id": 9342,
+  "title": [
+    "[Cairnfang, East Valley]"
+  ],
+  "description": [
+    "The valley continues to wind between sheer rock walls extending hundreds of feet high.  A few stunted trees can be seen at the upper edge of the walls.  To the northeast the valley widens out once again."
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "9341": "northwest",
     "9343": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, northwest"
-  ],
+  "timeto": {
+    "9341": 0.2,
+    "9343": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     1187,
     403,
     1199,
     415
   ],
-  "terrain": "rough",
-  "description": [
-    "The valley continues to wind between sheer rock walls extending hundreds of feet high.  A few stunted trees can be seen at the upper edge of the walls.  To the northeast the valley widens out once again."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Cairnfang, East Valley]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9341": 0.2,
-    "9343": 0.2
-  },
-  "id": 9342,
-  "location": "the Cairnfang",
   "tags": [
     "golden buttercup",
     "handful of blueberries",
@@ -58,10 +55,6 @@
     "motherwort",
     "white baneberry",
     "pepperthorn root",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

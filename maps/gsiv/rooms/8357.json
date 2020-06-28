@@ -1,48 +1,38 @@
 {
-  "wayto": {
-    "8337": {
-      "stringproc": "ef2dd66a59359c65cdd6a638612ae0f0"
-    },
-    "8318": {
-      "stringproc": "f077f0a77f9a3949b9f0afb9fa5bfffa"
-    },
-    "8352": "go ironbound door",
-    "25497": {
-      "stringproc": "e6acb39fb6820567308713f7174dca51"
-    }
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": [
-    553,
-    601,
-    563,
-    611
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A small cot is jammed into one corner of the hard basalt walls of the cell.  Its awkward position would seem to make cramped sleeping quarters.  Holding out the promise of passing an even more restless night are the sets of iron manacles sunk into the wall opposite the cot.  The exit afforded by the iron-bound oak door seems to offer the best alternative."
-  ],
-  "image": "wl-spider_temple-1264234799.png",
-  "climate": "indoors",
+  "id": 8357,
   "title": [
     "[Spider Temple, Cell]"
   ],
-  "check_location": null,
+  "description": [
+    "A small cot is jammed into one corner of the hard basalt walls of the cell.  Its awkward position would seem to make cramped sleeping quarters.  Holding out the promise of passing an even more restless night are the sets of iron manacles sunk into the wall opposite the cot.  The exit afforded by the iron-bound oak door seems to offer the best alternative."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Spider Temple",
+  "wayto": {
+    "8337": {
+      "file": "string_procs/wayto/8357_8337.rb"
+    },
+    "8318": {
+      "file": "string_procs/wayto/8357_8318.rb"
+    },
+    "8352": "go ironbound door",
+    "25497": {
+      "file": "string_procs/wayto/8357_25497.rb"
+    }
+  },
   "timeto": {
     "8337": 3.4,
     "8318": 3.4,
     "8352": 0.2,
     "25497": 10.0
   },
-  "id": 8357,
-  "location": "the Spider Temple",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-spider_temple-1264234799.png",
+  "image_coords": [
+    553,
+    601,
+    563,
+    611
   ]
 }

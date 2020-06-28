@@ -1,35 +1,32 @@
 {
-  "wayto": {
-    "8551": {
-      "stringproc": "5a00abf0aba49ca5cb2ff4b344beccc3"
-    },
-    "8553": "southeast"
-  },
+  "id": 8552,
+  "title": [
+    "[Mountain Path]"
+  ],
+  "description": [
+    "A huge pile of rubble has tumbled down from the surrounding cliff face and appears to effectively block further travel to the north.  To the southeast, a narrow road leads up and then twists out of sight around a large boulder."
+  ],
   "paths": [
     "Obvious paths: southeast"
   ],
+  "location": "the foothills of Zeltoph",
+  "wayto": {
+    "8551": {
+      "file": "string_procs/wayto/8552_8551.rb"
+    },
+    "8553": "southeast"
+  },
+  "timeto": {
+    "8551": 5.2,
+    "8553": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     1265,
     732,
     1275,
     742
   ],
-  "terrain": "mountainous",
-  "description": [
-    "A huge pile of rubble has tumbled down from the surrounding cliff face and appears to effectively block further travel to the north.  To the southeast, a narrow road leads up and then twists out of sight around a large boulder."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Mountain Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8551": 5.2,
-    "8553": 0.2
-  },
-  "id": 8552,
-  "location": "the foothills of Zeltoph",
   "tags": [
     "small apple",
     "some alder bark",
@@ -45,11 +42,6 @@
     "ironfern root",
     "bolmara lichen",
     "wingstem root",
-    "alder bark",
-    "sunburst blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "alder bark"
   ]
 }

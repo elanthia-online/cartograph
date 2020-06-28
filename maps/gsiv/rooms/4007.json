@@ -1,46 +1,33 @@
 {
-  "wayto": {
-    "4003": {
-      "stringproc": "395b361a16c8a355265cda519abf9fe5"
-    },
-    "4008": "up"
-  },
+  "id": 4007,
+  "title": [
+    "[Griffin's Keen, Inner Trail]"
+  ],
+  "description": [
+    "The trail curls up out of the gully, hugging the grey-white mountainside closely.  Shrieking wails sound from all around, but whether they are the tortured cries of intelligent souls or the whistling screech of the wind is unclear."
+  ],
   "paths": [
     "Obvious paths: up, down"
   ],
+  "location": "Griffin's Keen",
+  "wayto": {
+    "4003": {
+      "file": "string_procs/wayto/4007_4003.rb"
+    },
+    "4008": "up"
+  },
+  "timeto": {
+    "4003": 4.2,
+    "4008": 0.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     771,
     290,
     781,
     300
   ],
-  "terrain": null,
-  "description": [
-    "The trail curls up out of the gully, hugging the grey-white mountainside closely.  Shrieking wails sound from all around, but whether they are the tortured cries of intelligent souls or the whistling screech of the wind is unclear."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Griffin's Keen, Inner Trail]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4003": 4.2,
-    "4008": 0.2
-  },
-  "id": 4007,
-  "location": "Griffin's Keen",
   "tags": [
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "sprig of holly",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sassafras leaf"
   ]
 }

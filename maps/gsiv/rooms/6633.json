@@ -1,38 +1,28 @@
 {
+  "id": 6633,
+  "title": [
+    "[Broken Lands, Passage]"
+  ],
+  "description": [
+    "The passage ends at a small wooden door set into the western wall.  Small globes hang to either side of the door and a faint rustle can be heard from that direction."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the Broken Lands",
   "wayto": {
     "6632": "east",
     "6634": "go door"
   },
-  "paths": [
-    "Obvious exits: east"
-  ],
+  "timeto": {
+    "6632": 0.2,
+    "6634": 0.2
+  },
+  "image": "wl-broken-1264234799.png",
   "image_coords": [
     278,
     1073,
     288,
     1083
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The passage ends at a small wooden door set into the western wall.  Small globes hang to either side of the door and a faint rustle can be heard from that direction."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Broken Lands, Passage]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6632": 0.2,
-    "6634": 0.2
-  },
-  "id": 6633,
-  "location": "the Broken Lands",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

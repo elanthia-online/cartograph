@@ -1,43 +1,28 @@
 {
+  "id": 4330,
+  "title": [
+    "[Mine]"
+  ],
+  "description": [
+    "You are at the northeastern edge of this cavern and the walls appear to have been laboriously carved from the rock hillside.  The number of timbers in place remind you that the room is a man made creation rather than a natural chamber."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "the crystal caves",
   "wayto": {
     "4329": "west",
     "4331": "south"
   },
-  "paths": [
-    "Obvious exits: south, west"
-  ],
+  "timeto": {
+    "4329": 0.2,
+    "4331": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     702,
     393,
     712,
     403
-  ],
-  "terrain": "indoors",
-  "description": [
-    "You are at the northeastern edge of this cavern and the walls appear to have been laboriously carved from the rock hillside.  The number of timbers in place remind you that the room is a man made creation rather than a natural chamber."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4329": 0.2,
-    "4331": 0.2
-  },
-  "id": 4330,
-  "location": "the crystal caves",
-  "tags": [
-    "wolifrew lichen",
-    "withered black mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

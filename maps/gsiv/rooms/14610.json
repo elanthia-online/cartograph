@@ -1,41 +1,33 @@
 {
+  "id": 14610,
+  "title": [
+    "[Manor House, Second Floor]"
+  ],
+  "description": [
+    "The windows along the corridor have all been broken in for some time, the floorboards beneath each of them having warped badly.  A pale green door fills the north end of the hallway, and a peeling blue door is set in the east wall opposite the middle window."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the Outlands",
   "wayto": {
     "14612": "go green door",
     "14597": "south",
     "14611": "go blue door"
   },
-  "paths": [
-    "Obvious exits: south"
-  ],
+  "timeto": {
+    "14612": 0.2,
+    "14597": 0.2,
+    "14611": 0.2
+  },
+  "image": "vo-outlands-1264234799.png",
   "image_coords": [
     1046,
     797,
     1058,
     809
   ],
-  "terrain": "indoors",
-  "description": [
-    "The windows along the corridor have all been broken in for some time, the floorboards beneath each of them having warped badly.  A pale green door fills the north end of the hallway, and a peeling blue door is set in the east wall opposite the middle window."
-  ],
-  "image": "vo-outlands-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Manor House, Second Floor]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "14612": 0.2,
-    "14597": 0.2,
-    "14611": 0.2
-  },
-  "id": 14610,
-  "location": "the Outlands",
   "tags": [
-    "dobrem",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "dobrem"
   ]
 }

@@ -1,38 +1,28 @@
 {
+  "id": 8274,
+  "title": [
+    "[Wolves' Den, Aramur's Room]"
+  ],
+  "description": [
+    "The walls were once wood-paneled, but dry rot has left patches of stone exposed.  The bed, its frame collapsed, lies in a pile of moldering cloth.  Tarnished metal globes and stars hang from the ceiling on nearly invisible wires.  The small hearth to the south is filled with cold ash, and the bookcases along the northern wall have long since begun their slow collapse."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the Wolves' Den",
   "wayto": {
     "8241": "out",
     "8275": "go passage behind board"
   },
-  "paths": [
-    "Obvious exits: out"
-  ],
+  "timeto": {
+    "8241": 0.2,
+    "8275": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     361,
     486,
     371,
     496
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The walls were once wood-paneled, but dry rot has left patches of stone exposed.  The bed, its frame collapsed, lies in a pile of moldering cloth.  Tarnished metal globes and stars hang from the ceiling on nearly invisible wires.  The small hearth to the south is filled with cold ash, and the bookcases along the northern wall have long since begun their slow collapse."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Wolves' Den, Aramur's Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8241": 0.2,
-    "8275": 0.2
-  },
-  "id": 8274,
-  "location": "the Wolves' Den",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

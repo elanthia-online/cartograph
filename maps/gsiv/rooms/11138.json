@@ -1,42 +1,28 @@
 {
+  "id": 11138,
+  "title": [
+    "[River Tunnels]"
+  ],
+  "description": [
+    "It is very hard to keep your footing on this steep section of tunnel, as the ground is covered with very damp moss.  Some small amount of light is provided here though, as the moss underfoot seems to glow with an internal luminescence."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11134": "up",
     "11139": "down"
   },
-  "paths": [
-    "Obvious exits: up, down"
-  ],
+  "timeto": {
+    "11139": 0.2,
+    "11134": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     639,
     34,
     649,
     44
-  ],
-  "terrain": "indoors",
-  "description": [
-    "It is very hard to keep your footing on this steep section of tunnel, as the ground is covered with very damp moss.  Some small amount of light is provided here though, as the moss underfoot seems to glow with an internal luminescence."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "indoors",
-  "title": [
-    "[River Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11139": 0.2,
-    "11134": 0.2
-  },
-  "id": 11138,
-  "location": "the Citadel",
-  "tags": [
-    "withered black mushroom",
-    "cave moss",
-    "murdroot",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

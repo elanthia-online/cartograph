@@ -1,33 +1,30 @@
 {
+  "id": 5925,
+  "title": [
+    "[Catacombs, Sewers]"
+  ],
+  "description": [
+    "The flow of the murky water is abruptly halted by a huge mass of garbage.  Rats and roaches hunt through the refuse for signs of food.  Crumpled papers sail across the water on the damp breezes of the cavern.  The walls of the cavern sweat from the cold dampness of the stale air."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "5924": "west",
     "5926": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "5924": 0.2,
+    "5926": 0.2
+  },
+  "image": "en-tavaalor-1565907614.png",
   "image_coords": [
     288,
     904,
     296,
     913
   ],
-  "terrain": null,
-  "description": [
-    "The flow of the murky water is abruptly halted by a huge mass of garbage.  Rats and roaches hunt through the refuse for signs of food.  Crumpled papers sail across the water on the damp breezes of the cavern.  The walls of the cavern sweat from the cold dampness of the stale air."
-  ],
-  "image": "en-tavaalor-1565907614.png",
-  "climate": null,
-  "title": [
-    "[Catacombs, Sewers]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5924": 0.2,
-    "5926": 0.2
-  },
-  "id": 5925,
-  "location": "the catacombs",
   "tags": [
     "black hook mushroom",
     "some wingstem root",
@@ -40,8 +37,5 @@
     "murdroot",
     "bolmara lichen",
     "wingstem root"
-  ],
-  "links": [
-
   ]
 }

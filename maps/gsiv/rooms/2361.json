@@ -1,4 +1,15 @@
 {
+  "id": 2361,
+  "title": [
+    "[Magical Burrow, Banshee Lane]"
+  ],
+  "description": [
+    "Low-eaved houses line the streets and halflings bustle in and out of them.  Despite the chill in the air, a small group of halfling children play nearby, running around and giggling continuously."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, south, southwest, northwest"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "3332": "go alley",
     "3354": "south",
@@ -7,25 +18,6 @@
     "2360": "northeast",
     "2362": "northwest"
   },
-  "paths": [
-    "Obvious paths: northeast, southeast, south, southwest, northwest"
-  ],
-  "image_coords": [
-    405,
-    432,
-    441,
-    468
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "Low-eaved houses line the streets and halflings bustle in and out of them.  Despite the chill in the air, a small group of halfling children play nearby, running around and giggling continuously."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Magical Burrow, Banshee Lane]"
-  ],
-  "check_location": null,
   "timeto": {
     "3332": 0.2,
     "3354": 0.2,
@@ -34,13 +26,14 @@
     "2360": 0.2,
     "2362": 0.2
   },
-  "id": 2361,
-  "location": "Icemule Trace",
-  "tags": [
-    "calmintha flower",
-    "meta:forage-sensed"
+  "image": "imt-icemule-1474811966.png",
+  "image_coords": [
+    405,
+    432,
+    441,
+    468
   ],
-  "links": [
-
+  "tags": [
+    "calmintha flower"
   ]
 }

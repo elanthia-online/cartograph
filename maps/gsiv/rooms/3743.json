@@ -1,41 +1,33 @@
 {
-  "wayto": {
-    "3740": "west",
-    "3744": {
-      "stringproc": "958d6023c3667e9b5d3dd0ff279c81a4"
-    },
-    "17371": {
-      "stringproc": "a57486b4f3bf15e49aba0b01089a909d"
-    },
-    "17372": {
-      "stringproc": "010277bc65d9235d1512b9589267e147"
-    },
-    "17373": {
-      "stringproc": "19979136fcd11b66470485cf6dfaf5fb"
-    },
-    "17374": {
-      "stringproc": "32c6eadce4dc5d656a75c8692e3f5546"
-    }
-  },
-  "paths": [
-    "Obvious exits: west"
-  ],
-  "image_coords": [
-    884,
-    152,
-    967,
-    206
-  ],
-  "terrain": null,
-  "description": [
-    "The serving maid stops in at each of the tables to check on her customers, and she nods a greeting in your direction.  The conversation is louder here, and someone's cigar adds to the smoky haze that fills one side of the room."
-  ],
-  "image": "wl-silvergate_inn-1487242763.png",
-  "climate": null,
+  "id": 3743,
   "title": [
     "[Silvergate Inn, Lion's Den Pub]"
   ],
-  "check_location": null,
+  "description": [
+    "The serving maid stops in at each of the tables to check on her customers, and she nods a greeting in your direction.  The conversation is louder here, and someone's cigar adds to the smoky haze that fills one side of the room."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Wehnimer's Landing",
+  "wayto": {
+    "3740": "west",
+    "3744": {
+      "file": "string_procs/wayto/3743_3744.rb"
+    },
+    "17371": {
+      "file": "string_procs/wayto/3743_17371.rb"
+    },
+    "17372": {
+      "file": "string_procs/wayto/3743_17372.rb"
+    },
+    "17373": {
+      "file": "string_procs/wayto/3743_17373.rb"
+    },
+    "17374": {
+      "file": "string_procs/wayto/3743_17374.rb"
+    }
+  },
   "timeto": {
     "3740": 0.2,
     "3744": 0.2,
@@ -44,12 +36,11 @@
     "17373": 0.2,
     "17374": 0.2
   },
-  "id": 3743,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "wl-silvergate_inn-1487242763.png",
+  "image_coords": [
+    884,
+    152,
+    967,
+    206
   ]
 }

@@ -1,42 +1,36 @@
 {
+  "id": 10377,
+  "title": [
+    "[Cleric Guild, Courtyard]"
+  ],
+  "description": [
+    "Thin columns of ivory form a circular design around the golden domed building situated in the northern end of the courtyard, the metal gleaming in the sunlight.  Pale white cobblestones lead toward the shallow steps of the low structure.  Vines are twined around the large iron gates enclosing the area, the verdant growths blocking all but the tallest buildings of the city from view.",
+    "Thin columns of ivory form a circular design around the golden domed building situated in the northern end of the courtyard, the metal cast in a dim illumination from the moons.  Pale white cobblestones lead toward the shallow steps of the low structure.  Vines are twined around the large iron gates enclosing the area, the verdant growths blocking all but the tallest buildings of the city from view."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "Ta'Vaalor",
   "wayto": {
     "10376": "south",
     "13502": "go building",
     "19810": "go shop"
   },
-  "paths": [
-    "Obvious paths: south"
-  ],
+  "timeto": {
+    "10376": 0.2,
+    "13502": 0.2,
+    "19810": {
+      "file": "string_procs/timeto/10377_19810.rb"
+    }
+  },
+  "image": "en-ta_vaalor_cleric_guild.png",
   "image_coords": [
     208,
     827,
     260,
     880
   ],
-  "terrain": null,
-  "description": [
-    "Thin columns of ivory form a circular design around the golden domed building situated in the northern end of the courtyard, the metal gleaming in the sunlight.  Pale white cobblestones lead toward the shallow steps of the low structure.  Vines are twined around the large iron gates enclosing the area, the verdant growths blocking all but the tallest buildings of the city from view.",
-    "Thin columns of ivory form a circular design around the golden domed building situated in the northern end of the courtyard, the metal cast in a dim illumination from the moons.  Pale white cobblestones lead toward the shallow steps of the low structure.  Vines are twined around the large iron gates enclosing the area, the verdant growths blocking all but the tallest buildings of the city from view."
-  ],
-  "image": "en-ta_vaalor_cleric_guild.png",
-  "climate": null,
-  "title": [
-    "[Cleric Guild, Courtyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10376": 0.2,
-    "13502": 0.2,
-    "19810": {
-      "stringproc": "d17486e46a9d449a09af5ee961486217"
-    }
-  },
-  "id": 10377,
-  "location": "Ta'Vaalor",
   "tags": [
     "some acantha leaf"
-  ],
-  "links": [
-
   ]
 }

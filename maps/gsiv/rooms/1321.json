@@ -1,33 +1,30 @@
 {
+  "id": 1321,
+  "title": [
+    "[Plateau, Flynth River]"
+  ],
+  "description": [
+    "To the southwest, gravel lines the banks of the Flynth River where the trail crosses it.  A natural ford has been built up over time, widening the river, but making it shallow enough not to cause undue hardship for the caravans."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "the foothills of Zeltoph",
   "wayto": {
     "1320": "northeast",
     "1322": "go ford"
   },
-  "paths": [
-    "Obvious paths: northeast"
-  ],
+  "timeto": {
+    "1320": 0.2,
+    "1322": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     80,
     688,
     90,
     698
   ],
-  "terrain": "riparian",
-  "description": [
-    "To the southwest, gravel lines the banks of the Flynth River where the trail crosses it.  A natural ford has been built up over time, widening the river, but making it shallow enough not to cause undue hardship for the caravans."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Plateau, Flynth River]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1320": 0.2,
-    "1322": 0.2
-  },
-  "id": 1321,
-  "location": "the foothills of Zeltoph",
   "tags": [
     "acantha leaf",
     "ephlox moss",
@@ -37,10 +34,6 @@
     "stalk of bluebells",
     "bright red cranberry",
     "ironfern root",
-    "talneo root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "talneo root"
   ]
 }

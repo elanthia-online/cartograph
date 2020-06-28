@@ -1,35 +1,32 @@
 {
+  "id": 7772,
+  "title": [
+    "[Upper Trollfang]"
+  ],
+  "description": [
+    "An expanse of grassy meadow stretches before you, a lake of green bounded by grayish firs.  Bright golden butterflies flit among the flowers that dot the grass.  A pile of churned earth to one side marks a gopher's back door.  A trail winds through the trees to the northeast, and curves around to a gentle climb up a hill to the southeast."
+  ],
+  "paths": [
+    "Obvious paths: southeast, west"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "7800": "go trail",
     "7771": "west",
     "7773": "southeast"
   },
-  "paths": [
-    "Obvious paths: southeast, west"
-  ],
+  "timeto": {
+    "7800": 0.2,
+    "7771": 0.2,
+    "7773": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     267,
     898,
     277,
     908
   ],
-  "terrain": "grassland",
-  "description": [
-    "An expanse of grassy meadow stretches before you, a lake of green bounded by grayish firs.  Bright golden butterflies flit among the flowers that dot the grass.  A pile of churned earth to one side marks a gopher's back door.  A trail winds through the trees to the northeast, and curves around to a gentle climb up a hill to the southeast."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Upper Trollfang]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7800": 0.2,
-    "7771": 0.2,
-    "7773": 0.2
-  },
-  "id": 7772,
-  "location": "the Upper Trollfang",
   "tags": [
     "handful of raspberries",
     "some ambrominas leaf",
@@ -38,74 +35,6 @@
     "wild carrot",
     "some sovyn clove",
     "stalk of chicory",
-    "war troll",
-    "acantha leaf",
-    "ambrominas leaf",
-    "sovyn clove",
-    "spearmint leaf",
-    "small flower",
-    "small rose",
-    "small daisy",
-    "angelica root",
-    "trollfear mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "small violet",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "wild strawberry",
-    "wild grapes",
-    "sprig of alyssum",
-    "heath aster",
-    "golden buttercup",
-    "red clover blossom",
-    "pink clover blossom",
-    "white clover blossom",
-    "purple clover blossom",
-    "yellow clover blossom",
-    "stalk of goldenrod",
-    "sprig of larkspur",
-    "yellow primrose",
-    "small wild rose",
-    "Imaera's Lace",
-    "stalk of burdock",
-    "monkey grass",
-    "fennel bulb",
-    "ginger root",
-    "rose-marrow root",
-    "wild chokecherry",
-    "motherwort",
-    "golden aster",
-    "honeysuckle vine",
-    "sprig of jasmine",
-    "sprig of lavender",
-    "sprig of mournbloom",
-    "wild orchid",
-    "wild pansy blossom",
-    "traesharm berry",
-    "sprig of ivy",
-    "small pumpkin",
-    "raspberries",
-    "small apple",
-    "wiregrass",
-    "murkweed",
-    "white lily",
-    "fire lily",
-    "pepperthorn root",
-    "luckbloom blossom",
-    "murdroot",
-    "wavepetal blossom",
-    "ironfern root",
-    "nightbloom blossom",
-    "brostheras grass",
-    "woad leaves",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "war troll"
   ]
 }

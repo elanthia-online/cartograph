@@ -1,33 +1,30 @@
 {
+  "id": 24692,
+  "title": [
+    "[Red Forest, Ring of Mist]"
+  ],
+  "description": [
+    "Bright patches of moss cling to the outer rim of a huge hollowed log that dominates the center of the woodland clearing.  The fragments of a family of rabbits, most half-eaten, can be spotted just within the entry of the fallen tree, indicating a predator left in a hurry, or will be back soon."
+  ],
+  "paths": [
+    "Obvious paths: east, northwest"
+  ],
+  "location": "the Red Forest",
   "wayto": {
     "24691": "northwest",
     "24693": "east"
   },
-  "paths": [
-    "Obvious paths: east, northwest"
-  ],
+  "timeto": {
+    "24691": 0.2,
+    "24693": 0.2
+  },
+  "image": "red_forest-1260914757.png",
   "image_coords": [
     237,
     274,
     250,
     288
   ],
-  "terrain": null,
-  "description": [
-    "Bright patches of moss cling to the outer rim of a huge hollowed log that dominates the center of the woodland clearing.  The fragments of a family of rabbits, most half-eaten, can be spotted just within the entry of the fallen tree, indicating a predator left in a hurry, or will be back soon."
-  ],
-  "image": "red_forest-1260914757.png",
-  "climate": null,
-  "title": [
-    "[Red Forest, Ring of Mist]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24691": 0.2,
-    "24693": 0.2
-  },
-  "id": 24692,
-  "location": "the Displaced Red Forest",
   "tags": [
     "some pennyroyal stem",
     "some tree bark",
@@ -58,26 +55,6 @@
     "winged viper",
     "sweetfern stalk",
     "bright red teaberry",
-    "small wild rose",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "tkaro root",
-    "sticks",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "blueberries",
-    "tree bark",
-    "mistweed",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+    "small wild rose"
+  ]
 }

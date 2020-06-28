@@ -1,37 +1,34 @@
 {
+  "id": 7248,
+  "title": [
+    "[Graveyard, Burial Mound]"
+  ],
+  "description": [
+    "The dark earth sinks into a deep depression, providing slippery footing as you make your way among the collection of mummified flesh and bone that has fallen here, loosed from the soil by the movements of the earth and the passage of wandering visitors.  A sun-bleached skull grins up at the sky, still firmly attached to its body buried somewhere beneath the loam."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, southwest, northwest"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7250": "northwest",
     "7249": "northeast",
     "7208": "southeast",
     "7209": "southwest"
   },
-  "paths": [
-    "Obvious paths: northeast, southeast, southwest, northwest"
-  ],
-  "image_coords": [
-    451,
-    133,
-    461,
-    143
-  ],
-  "terrain": "plain dirt",
-  "description": [
-    "The dark earth sinks into a deep depression, providing slippery footing as you make your way among the collection of mummified flesh and bone that has fallen here, loosed from the soil by the movements of the earth and the passage of wandering visitors.  A sun-bleached skull grins up at the sky, still firmly attached to its body buried somewhere beneath the loam."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Graveyard, Burial Mound]"
-  ],
-  "check_location": null,
   "timeto": {
     "7250": 0.2,
     "7249": 0.2,
     "7208": 0.2,
     "7209": 0.2
   },
-  "id": 7248,
-  "location": "the Graveyard",
+  "image": "wl-graveyard-1264234799.png",
+  "image_coords": [
+    451,
+    133,
+    461,
+    143
+  ],
   "tags": [
     "some wolifrew lichen",
     "some acantha leaf",
@@ -53,10 +50,6 @@
     "bright red cranberry",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

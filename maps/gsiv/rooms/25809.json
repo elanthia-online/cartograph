@@ -1,35 +1,28 @@
 {
-  "wayto": {
-    "25808": {
-      "stringproc": "b3903ef3130903d58c1b8b478bec601b"
-    }
-  },
+  "id": 25809,
+  "title": [
+    "[Eastern Waterway]"
+  ],
+  "description": [
+    "Water swirls in tiny pools as the waves round the edge of the island and collide with the colossal, obsidian faces of Charl's Teeth.  Shattered shards and jagged rocks, comprised of both the glossy black volcanic glass and the shale from the nearby island, surround the tiny inlet and deny further passage to the west or south."
+  ],
   "paths": [
     "Obvious paths: northeast"
   ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "25808": {
+      "file": "string_procs/wayto/25809_25808.rb"
+    }
+  },
+  "timeto": {
+    "25808": 6.0
+  },
+  "image": "ifw-eastern_waterway-1489553700.png",
   "image_coords": [
     1521,
     2000,
     1540,
     2018
-  ],
-  "terrain": null,
-  "description": [
-    "Water swirls in tiny pools as the waves round the edge of the island and collide with the colossal, obsidian faces of Charl's Teeth.  Shattered shards and jagged rocks, comprised of both the glossy black volcanic glass and the shale from the nearby island, surround the tiny inlet and deny further passage to the west or south."
-  ],
-  "image": "ifw-eastern_waterway-1489553700.png",
-  "climate": null,
-  "title": [
-    "[Eastern Waterway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "25808": 6.0
-  },
-  "id": 25809,
-  "location": "Mist Harbor",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

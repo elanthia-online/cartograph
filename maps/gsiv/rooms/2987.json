@@ -1,41 +1,33 @@
 {
+  "id": 2987,
+  "title": [
+    "[Abbey, Ossuary]"
+  ],
+  "description": [
+    "Small golden studs have been pounded into the wall with symmetrical precision, perhaps as markers to remember those who faithfully served the goddess.  A quiet stillness encompasses the area, not even the faintest of sounds penetrating this gloom."
+  ],
+  "paths": [
+    "Obvious exits: east, south, southwest"
+  ],
+  "location": "the Abbey",
   "wayto": {
     "2985": "south",
     "2975": "east",
     "2986": "southwest"
   },
-  "paths": [
-    "Obvious exits: east, south, southwest"
-  ],
+  "timeto": {
+    "2985": 0.2,
+    "2975": 0.2,
+    "2986": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     808,
     432,
     818,
     442
   ],
-  "terrain": "indoors",
-  "description": [
-    "Small golden studs have been pounded into the wall with symmetrical precision, perhaps as markers to remember those who faithfully served the goddess.  A quiet stillness encompasses the area, not even the faintest of sounds penetrating this gloom."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abbey, Ossuary]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2985": 0.2,
-    "2975": 0.2,
-    "2986": 0.2
-  },
-  "id": 2987,
-  "location": "the Abbey",
   "tags": [
-    "arch wight",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "arch wight"
   ]
 }

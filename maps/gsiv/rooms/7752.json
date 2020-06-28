@@ -1,46 +1,33 @@
 {
+  "id": 7752,
+  "title": [
+    "[Mossy Caverns]"
+  ],
+  "description": [
+    "A massive cavern opens before you.  North and south, fields of glowing moss grow in what appears to be a well tended farm.  A worn trail runs west through the fields.  To the northeast, you see a tunnel opening in the cavern wall."
+  ],
+  "paths": [
+    "Obvious exits: northeast, west"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "7751": "west",
     "7753": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, west"
-  ],
+  "timeto": {
+    "7751": 0.2,
+    "7753": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     1028,
     1317,
     1038,
     1327
   ],
-  "terrain": "indoors",
-  "description": [
-    "A massive cavern opens before you.  North and south, fields of glowing moss grow in what appears to be a well tended farm.  A worn trail runs west through the fields.  To the northeast, you see a tunnel opening in the cavern wall."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mossy Caverns]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7751": 0.2,
-    "7753": 0.2
-  },
-  "id": 7752,
-  "location": "the Coastal Cliffs",
   "tags": [
     "black trafel mushroom",
     "some pothinir grass",
-    "some bur-clover root",
-    "pothinir grass",
-    "withered black mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some bur-clover root"
   ]
 }

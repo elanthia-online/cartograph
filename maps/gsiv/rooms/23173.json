@@ -1,35 +1,23 @@
 {
-  "wayto": {
-    "21413": "go wooden gate",
-    "23165": {
-      "stringproc": "a4435f861baddbf24259d6f6930248e0"
-    }
-  },
-  "paths": [
-    "Obvious paths: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Small boulders mark the pathway that leads into the area, their grey faces lost beneath yellow-tinged moss and the dust of frequent footsteps.  Where the path's end opens into a clearing, a tall wyrmwood tree stretches upward, and within its branches are small, hollow-reed windchimes that add flat, discordent accents to the out of tune melody from the painted wooden carousel nearby.  A creeping mist silvered by ambient light haunts the ground, and its grey fingers reach into the air as it is stirred by churning breezes."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 23173,
   "title": [
     "[Halfway Midway, Fairway]"
   ],
-  "check_location": null,
+  "description": [
+    "Small boulders mark the pathway that leads into the area, their grey faces lost beneath yellow-tinged moss and the dust of frequent footsteps.  Where the path's end opens into a clearing, a tall wyrmwood tree stretches upward, and within its branches are small, hollow-reed windchimes that add flat, discordent accents to the out of tune melody from the painted wooden carousel nearby.  A creeping mist silvered by ambient light haunts the ground, and its grey fingers reach into the air as it is stirred by churning breezes."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "the Feywrot Mire",
+  "wayto": {
+    "21413": "go wooden gate",
+    "23165": {
+      "file": "string_procs/wayto/23173_23165.rb"
+    }
+  },
   "timeto": {
     "21413": 0.2,
     "23165": 0.2
-  },
-  "id": 23173,
-  "location": "the Feywrot Mire",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  }
 }

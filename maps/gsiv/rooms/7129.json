@@ -1,38 +1,30 @@
 {
-  "wayto": {
-    "7128": "go door"
-  },
+  "id": 7129,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "The floor in here is torn up, with rocks and rubble piled around against the walls.  There's a shallow pit in the middle of the room, with some rags and a broken pick in it."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "Darkstone Castle",
+  "wayto": {
+    "7128": "go door"
+  },
+  "timeto": {
+    "7128": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     1083,
     310,
     1093,
     320
   ],
-  "terrain": "indoors",
-  "description": [
-    "The floor in here is torn up, with rocks and rubble piled around against the walls.  There's a shallow pit in the middle of the room, with some rags and a broken pick in it."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7128": 0.2
-  },
-  "id": 7129,
-  "location": "Darkstone Castle",
   "tags": [
     "kiramon defender",
-    "kiramon worker",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "kiramon worker"
   ]
 }

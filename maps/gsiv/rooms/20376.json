@@ -1,37 +1,25 @@
 {
-  "wayto": {
-    "20378": "southeast",
-    "20377": {
-      "stringproc": "66447173e307b322a4d281a1f2b8f354"
-    },
-    "20124": "northwest"
-  },
-  "paths": [
-    "Obvious paths: southeast, northwest"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Rows of elm benches are clustered atop a gently sloping knoll, providing a clear view of a span of trenched swampland below.  Bits and pieces of rope and clothing litter the area, each stained with blood, mud, and a multitude of unrecognized substances."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 20376,
   "title": [
     "[Tug-of-War, Elm Knoll]"
   ],
-  "check_location": null,
+  "description": [
+    "Rows of elm benches are clustered atop a gently sloping knoll, providing a clear view of a span of trenched swampland below.  Bits and pieces of rope and clothing litter the area, each stained with blood, mud, and a multitude of unrecognized substances."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "the Feywrot Mire",
+  "wayto": {
+    "20378": "southeast",
+    "20377": {
+      "file": "string_procs/wayto/20376_20377.rb"
+    },
+    "20124": "northwest"
+  },
   "timeto": {
     "20378": 0.2,
     "20377": 0.2,
     "20124": 0.2
-  },
-  "id": 20376,
-  "location": "the Feywrot Mire",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  }
 }

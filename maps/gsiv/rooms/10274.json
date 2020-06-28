@@ -1,35 +1,32 @@
 {
+  "id": 10274,
+  "title": [
+    "[Briar Thicket]"
+  ],
+  "description": [
+    "At the edge of the grove of crab apple trees, the bittersweet vines open onto a vast growth of hawthorn.  These massive shrubs grow to a height of more than thirty feet, completely obscuring the view to the north.  The ground runs sharply downhill to the southeast, from which direction you can hear the pleasant melody of a gently burbling brook."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast, southwest"
+  ],
+  "location": "the briar thicket",
   "wayto": {
     "10276": "north",
     "10273": "southwest",
     "10275": "southeast"
   },
-  "paths": [
-    "Obvious paths: north, southeast, southwest"
-  ],
+  "timeto": {
+    "10276": 0.2,
+    "10273": 0.2,
+    "10275": 0.2
+  },
+  "image": "en-fearling-1264234799.png",
   "image_coords": [
     1301,
     885,
     1311,
     895
   ],
-  "terrain": null,
-  "description": [
-    "At the edge of the grove of crab apple trees, the bittersweet vines open onto a vast growth of hawthorn.  These massive shrubs grow to a height of more than thirty feet, completely obscuring the view to the north.  The ground runs sharply downhill to the southeast, from which direction you can hear the pleasant melody of a gently burbling brook."
-  ],
-  "image": "en-fearling-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Briar Thicket]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10276": 0.2,
-    "10273": 0.2,
-    "10275": 0.2
-  },
-  "id": 10274,
-  "location": "the briar thicket",
   "tags": [
     "some acantha leaf",
     "some basal moss",
@@ -96,8 +93,5 @@
     "ebony twig",
     "bolmara lichen",
     "brostheras grass"
-  ],
-  "links": [
-
   ]
 }

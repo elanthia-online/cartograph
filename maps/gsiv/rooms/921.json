@@ -1,33 +1,30 @@
 {
+  "id": 921,
+  "title": [
+    "[Whistler's Pass, Tunnel]"
+  ],
+  "description": [
+    "The twisting tunnel opens up into a huge cavern, its ultimate height lost in the darkness above.  An awe-inspiring waterfall, the roar of its passage emitting a thunderous wave of sound through the tunnels, cascades into a shadowy pit at the bottom of the cavern.  Thick clouds of water vapor reach upward from the pit, their curling, snake-like forms dissipating into the cold air."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "920": "go cavern",
     "922": "south"
   },
-  "paths": [
-    "Obvious exits: south"
-  ],
+  "timeto": {
+    "920": 0.2,
+    "922": 0.2
+  },
+  "image": "en-whistlers_pass-1264234799.png",
   "image_coords": [
     363,
     522,
     373,
     532
   ],
-  "terrain": "indoors",
-  "description": [
-    "The twisting tunnel opens up into a huge cavern, its ultimate height lost in the darkness above.  An awe-inspiring waterfall, the roar of its passage emitting a thunderous wave of sound through the tunnels, cascades into a shadowy pit at the bottom of the cavern.  Thick clouds of water vapor reach upward from the pit, their curling, snake-like forms dissipating into the cold air."
-  ],
-  "image": "en-whistlers_pass-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Whistler's Pass, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "920": 0.2,
-    "922": 0.2
-  },
-  "id": 921,
-  "location": "Whistler's Pass",
   "tags": [
     "soft white mushroom",
     "withered black mushroom",
@@ -38,10 +35,6 @@
     "murdroot",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

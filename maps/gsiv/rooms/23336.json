@@ -1,41 +1,30 @@
 {
+  "id": 23336,
+  "title": [
+    "[Wehnimer's, Burrow Way]"
+  ],
+  "description": [
+    "The tunnel twists to the north here, and then bends left and right, each passage disappearing into the darkness.  A few broken wooden arrow shafts litter the ground."
+  ],
+  "paths": [
+    "Obvious exits: east, south, west"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "23335": "west",
     "23337": "east",
     "20600": "south"
   },
-  "paths": [
-    "Obvious exits: east, south, west"
-  ],
-  "image_coords": [
-    511,
-    83,
-    543,
-    112
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The tunnel twists to the north here, and then bends left and right, each passage disappearing into the darkness.  A few broken wooden arrow shafts litter the ground."
-  ],
-  "image": "wl-burrow_way-1360361110.png",
-  "climate": "indoors",
-  "title": [
-    "[Wehnimer's, Burrow Way]"
-  ],
-  "check_location": null,
   "timeto": {
     "23335": 0.2,
     "23337": 0.2,
     "20600": 0.2
   },
-  "id": 23336,
-  "location": "the town of Wehnimer's Landing",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null,
-  "links": [
-
+  "image": "wl-burrow_way-1360361110.png",
+  "image_coords": [
+    511,
+    83,
+    543,
+    112
   ]
 }

@@ -1,38 +1,28 @@
 {
+  "id": 11738,
+  "title": [
+    "[Marsh Keep, Dungeon Hallway]"
+  ],
+  "description": [
+    "Three torches placed on the curving wall of the hallway provide ample light for passage between walls built of mostly roughly-hewn granite, and near the floor, smooth black stones.  Scattered across the floor are rotting heaps of skin, removed from their possessors by some unknown instrument, and left to decay.  Insects swarm over the flesh, chewing up from underneath to crawl across the surface, the repulsive sight not enough to distract from the stench."
+  ],
+  "paths": [
+    "Obvious exits: southwest, northwest"
+  ],
+  "location": "the Marsh Keep",
   "wayto": {
     "11726": "northwest",
     "11739": "southwest"
   },
-  "paths": [
-    "Obvious exits: southwest, northwest"
-  ],
+  "timeto": {
+    "11726": 0.2,
+    "11739": 0.2
+  },
+  "image": "rr-marsh_keep-1266356986.png",
   "image_coords": [
     746,
     496,
     756,
     506
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Three torches placed on the curving wall of the hallway provide ample light for passage between walls built of mostly roughly-hewn granite, and near the floor, smooth black stones.  Scattered across the floor are rotting heaps of skin, removed from their possessors by some unknown instrument, and left to decay.  Insects swarm over the flesh, chewing up from underneath to crawl across the surface, the repulsive sight not enough to distract from the stench."
-  ],
-  "image": "rr-marsh_keep-1266356986.png",
-  "climate": "indoors",
-  "title": [
-    "[Marsh Keep, Dungeon Hallway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11726": 0.2,
-    "11739": 0.2
-  },
-  "id": 11738,
-  "location": "the Marsh Keep",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

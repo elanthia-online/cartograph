@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "7057": "down"
-  },
+  "id": 7058,
+  "title": [
+    "[Darkstone, Tunnel]"
+  ],
+  "description": [
+    "Darkness surrounds you in this rocky, steeply sloped passage.  The air below you is chilly and stale, making breathing difficult."
+  ],
   "paths": [
     "Obvious exits: down"
   ],
+  "location": "Darkstone Castle",
+  "wayto": {
+    "7057": "down"
+  },
+  "timeto": {
+    "7057": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     403,
     763,
     413,
     773
   ],
-  "terrain": "indoors",
-  "description": [
-    "Darkness surrounds you in this rocky, steeply sloped passage.  The air below you is chilly and stale, making breathing difficult."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7057": 0.2
-  },
-  "id": 7058,
-  "location": "Darkstone Castle",
   "tags": [
-    "roa'ter",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "roa'ter"
   ]
 }

@@ -1,38 +1,30 @@
 {
-  "wayto": {
-    "2585": "northeast",
-    "2587": "west",
-    "12208": {
-      "stringproc": "a0576f0215d746452e7afb93c1ee082c"
-    },
-    "2589": "southeast",
-    "2635": {
-      "stringproc": "01b8924575c8d70e4ed7eea7ed00be84"
-    },
-    "12101": {
-      "stringproc": "cf4b8e5b125b22b01c9349827d02c9fd"
-    }
-  },
+  "id": 2588,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "In the distance walks a tall man.  His robe is grey and tattered, but the frame beneath it remains strong.  Above his head floats the symbol of infinity, black and tarnished as the path he walks.  No matter how rapidly you proceed towards him, you cannot seem to catch him, although he moves no faster than a saunter."
+  ],
   "paths": [
     "Obvious paths: northeast, southeast, west",
     "Obvious exits: northeast, southeast, west"
   ],
-  "image_coords": [
-    226,
-    670,
-    234,
-    678
-  ],
-  "terrain": null,
-  "description": [
-    "In the distance walks a tall man.  His robe is grey and tattered, but the frame beneath it remains strong.  Above his head floats the symbol of infinity, black and tarnished as the path he walks.  No matter how rapidly you proceed towards him, you cannot seem to catch him, although he moves no faster than a saunter."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "2585": "northeast",
+    "2587": "west",
+    "12208": {
+      "file": "string_procs/wayto/2588_12208.rb"
+    },
+    "2589": "southeast",
+    "2635": {
+      "file": "string_procs/wayto/2588_2635.rb"
+    },
+    "12101": {
+      "file": "string_procs/wayto/2588_12101.rb"
+    }
+  },
   "timeto": {
     "2585": 0.2,
     "2587": 0.2,
@@ -41,8 +33,13 @@
     "2635": 22.0,
     "12101": 26.0
   },
-  "id": 2588,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    226,
+    670,
+    234,
+    678
+  ],
   "tags": [
     "mass of congealed slime",
     "oozing fleshsore bulb",
@@ -51,8 +48,5 @@
     "slime-covered grave blossom",
     "twisted black mawflower",
     "withered deathblossom"
-  ],
-  "links": [
-
   ]
 }

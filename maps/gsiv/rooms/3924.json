@@ -1,42 +1,32 @@
 {
+  "id": 3924,
+  "title": [
+    "[Stronghold, Eastern Skew]"
+  ],
+  "description": [
+    "Large boulders litter the passageway, making progress difficult.  The walls, however, show no evidence that the debris originated there, and the ceiling high above is likewise unmarred.  Yet the stone floor is a hazardous tumble, the huge slabs broken and thrust up in places like broken teeth."
+  ],
+  "paths": [
+    "Obvious exits: east, down"
+  ],
+  "location": "Stone Valley",
   "wayto": {
     "3925": "east",
     "3923": "down",
     "3584": {
-      "stringproc": "e1b570dc7b5c98ee0512c9ed01464221"
+      "file": "string_procs/wayto/3924_3584.rb"
     }
   },
-  "paths": [
-    "Obvious exits: east, down"
-  ],
-  "image_coords": [
-    615,
-    436,
-    625,
-    446
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Large boulders litter the passageway, making progress difficult.  The walls, however, show no evidence that the debris originated there, and the ceiling high above is likewise unmarred.  Yet the stone floor is a hazardous tumble, the huge slabs broken and thrust up in places like broken teeth."
-  ],
-  "image": "wl-stronghold-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Stronghold, Eastern Skew]"
-  ],
-  "check_location": null,
   "timeto": {
     "3925": 0.2,
     "3923": 0.2,
     "3584": 0.2
   },
-  "id": 3924,
-  "location": "Stone Valley",
-  "tags": [
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-stronghold-1264234799.png",
+  "image_coords": [
+    615,
+    436,
+    625,
+    446
   ]
 }

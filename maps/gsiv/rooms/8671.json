@@ -1,40 +1,32 @@
 {
+  "id": 8671,
+  "title": [
+    "[Raging Thrak Inn, Front Desk]"
+  ],
+  "description": [
+    "A polished wooden desk sits to the side of the staircase, and bears the placard of the Thrak's proprietor.  At the top of the creaky wooden stairs are the establishment's guest rooms."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "8672": "go stairs",
     "1195": "north"
   },
-  "paths": [
-    "Obvious exits: north"
-  ],
+  "timeto": {
+    "8672": 0.2,
+    "1195": 0.2
+  },
+  "image": "wl-wehnimers-1264234799.png",
   "image_coords": [
     201,
     354,
     231,
     384
   ],
-  "terrain": "indoors",
-  "description": [
-    "A polished wooden desk sits to the side of the staircase, and bears the placard of the Thrak's proprietor.  At the top of the creaky wooden stairs are the establishment's guest rooms."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Raging Thrak Inn, Front Desk]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8672": 0.2,
-    "1195": 0.2
-  },
-  "id": 8671,
-  "location": "Wehnimer's Landing",
   "tags": [
     "node",
-    "inn",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "inn"
   ]
 }

@@ -1,45 +1,26 @@
 {
-  "wayto": {
-    "7999": "south"
-  },
+  "id": 8000,
+  "title": [
+    "[Kobold Mines, Blank Wall]"
+  ],
+  "description": [
+    "The cave ends abruptly with a sheer wall of basalt apparently thrust up through a fissure in the floor by a long ago and forgotten volcanic eruption.  Faint tool marks, rusted bits of broken tools and some small chips knocked out of the glass-smooth surface are the only evidence of attempts to pass here."
+  ],
   "paths": [
     "Obvious exits: south"
   ],
+  "location": "the old Mine Road",
+  "wayto": {
+    "7999": "south"
+  },
+  "timeto": {
+    "7999": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     106,
     787,
     116,
     797
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The cave ends abruptly with a sheer wall of basalt apparently thrust up through a fissure in the floor by a long ago and forgotten volcanic eruption.  Faint tool marks, rusted bits of broken tools and some small chips knocked out of the glass-smooth surface are the only evidence of attempts to pass here."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Kobold Mines, Blank Wall]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7999": 0.2
-  },
-  "id": 8000,
-  "location": "the old Mine Road",
-  "tags": [
-    "soft white mushroom",
-    "withered black mushroom",
-    "black hook mushroom",
-    "white hook mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

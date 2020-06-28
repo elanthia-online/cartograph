@@ -1,38 +1,28 @@
 {
+  "id": 10774,
+  "title": [
+    "[Calelith Villa, Root Cellar]"
+  ],
+  "description": [
+    "Empty sacks and broken crates cover the floor, the contents long since decomposed.  A chittering noise can be heard coming from behind a stack of crates.  A chill permeates the air."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "Gyldemar Forest",
   "wayto": {
     "10775": "south",
     "4815": "west"
   },
-  "paths": [
-    "Obvious exits: south, west"
-  ],
+  "timeto": {
+    "10775": 0.2,
+    "4815": 0.2
+  },
+  "image": "en-gyldemar-1264234799.png",
   "image_coords": [
     223,
     454,
     233,
     464
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Empty sacks and broken crates cover the floor, the contents long since decomposed.  A chittering noise can be heard coming from behind a stack of crates.  A chill permeates the air."
-  ],
-  "image": "en-gyldemar-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Calelith Villa, Root Cellar]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10775": 0.2,
-    "4815": 0.2
-  },
-  "id": 10774,
-  "location": "Gyldemar Forest",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

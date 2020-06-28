@@ -1,38 +1,28 @@
 {
+  "id": 7113,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "This narrow corridor is thick with dust and crawling with beetles.  They scatter at your approach, clicking furiously, waiting in the dark corners just out of sight."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7112": "go passage",
     "7114": "east"
   },
-  "paths": [
-    "Obvious exits: east"
-  ],
+  "timeto": {
+    "7112": 0.2,
+    "7114": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     1042,
     1176,
     1052,
     1186
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This narrow corridor is thick with dust and crawling with beetles.  They scatter at your approach, clicking furiously, waiting in the dark corners just out of sight."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7112": 0.2,
-    "7114": 0.2
-  },
-  "id": 7113,
-  "location": "Darkstone Castle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

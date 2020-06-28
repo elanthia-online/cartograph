@@ -1,37 +1,27 @@
 {
+  "id": 3960,
+  "title": [
+    "[Abandoned Sewer]"
+  ],
+  "description": [
+    "It appears that some of the ceiling has fallen, partially damming up the noxious liquid that could only be called water by a distant stretch of the imagination.  You shudder, as you realize that in order to pass, you are going to have to wade, for at least a few feet."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
   "wayto": {
     "3959": "southwest",
     "3961": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southwest"
-  ],
+  "timeto": {
+    "3959": 0.2,
+    "3961": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     745,
     330,
     755,
     339
-  ],
-  "terrain": null,
-  "description": [
-    "It appears that some of the ceiling has fallen, partially damming up the noxious liquid that could only be called water by a distant stretch of the imagination.  You shudder, as you realize that in order to pass, you are going to have to wade, for at least a few feet."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Abandoned Sewer]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3959": 0.2,
-    "3961": 0.2
-  },
-  "id": 3960,
-  "location": null,
-  "tags": [
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

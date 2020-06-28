@@ -1,43 +1,34 @@
 {
-  "wayto": {
-    "11446": {
-      "stringproc": "84803c6220b0581d4151763c46ccdbbc"
-    },
-    "11461": {
-      "stringproc": "84d7e9c5466c56efd7dc0ac337b0a9ea"
-    },
-    "11463": {
-      "stringproc": "c5de6a93c272509e579c13cc8cd916bf"
-    },
-    "11465": {
-      "stringproc": "e531eb47f19700d00ac81ca15d619ca8"
-    },
-    "11466": {
-      "stringproc": "18c4b59ed599a02893a4dbb26b362e46"
-    },
-    "11456": {
-      "stringproc": "b9248cfc9b113e5b3c9341af010fa35e"
-    }
-  },
-  "paths": [
-    "Obvious exits: north, northeast, east, southeast, up, down"
-  ],
-  "image_coords": [
-    761,
-    1260,
-    771,
-    1270
-  ],
-  "terrain": null,
-  "description": [
-    "Light green water above, deep green water below, green water all around.  The shimmering surface of the bay rolls sinuously overhead.  A powerful and steady current pushing in from the west prevents swimming in that direction."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": null,
+  "id": 11462,
   "title": [
     "[Maelstrom Bay, Underwater]"
   ],
-  "check_location": null,
+  "description": [
+    "Light green water above, deep green water below, green water all around.  The shimmering surface of the bay rolls sinuously overhead.  A powerful and steady current pushing in from the west prevents swimming in that direction."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east, southeast, up, down"
+  ],
+  "wayto": {
+    "11446": {
+      "file": "string_procs/wayto/11462_11446.rb"
+    },
+    "11461": {
+      "file": "string_procs/wayto/11462_11461.rb"
+    },
+    "11463": {
+      "file": "string_procs/wayto/11462_11463.rb"
+    },
+    "11465": {
+      "file": "string_procs/wayto/11462_11465.rb"
+    },
+    "11466": {
+      "file": "string_procs/wayto/11462_11466.rb"
+    },
+    "11456": {
+      "file": "string_procs/wayto/11462_11456.rb"
+    }
+  },
   "timeto": {
     "11446": 3.0,
     "11461": 2.0,
@@ -46,12 +37,11 @@
     "11466": 2.0,
     "11456": 2.0
   },
-  "id": 11462,
-  "location": null,
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "rr-maelstrom-1266390501.png",
+  "image_coords": [
+    761,
+    1260,
+    771,
+    1270
   ]
 }

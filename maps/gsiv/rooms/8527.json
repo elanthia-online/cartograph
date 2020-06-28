@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "8526": "go door"
-  },
+  "id": 8527,
+  "title": [
+    "[Inside Cottage]"
+  ],
+  "description": [
+    "You are in the main room of the cottage.  A stone fireplace crackles merrily on the south wall, casting a yellow-gold glow throughout the room.  All the furniture here is made of heavy wood and is simple and functional.  Scattered about the room are weapons, traps, bundles of animal skins and sacks of food.  Obviously this is the cottage of a trained woodsman."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "the Upper Trollfang",
+  "wayto": {
+    "8526": "go door"
+  },
+  "timeto": {
+    "8526": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     874,
     839,
     884,
     849
   ],
-  "terrain": "indoors",
-  "description": [
-    "You are in the main room of the cottage.  A stone fireplace crackles merrily on the south wall, casting a yellow-gold glow throughout the room.  All the furniture here is made of heavy wood and is simple and functional.  Scattered about the room are weapons, traps, bundles of animal skins and sacks of food.  Obviously this is the cottage of a trained woodsman."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Inside Cottage]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8526": 0.2
-  },
-  "id": 8527,
-  "location": "the Upper Trollfang",
   "tags": [
-    "forest troll",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "forest troll"
   ]
 }

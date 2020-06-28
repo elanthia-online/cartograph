@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "6559": "go door"
-  },
+  "id": 6560,
+  "title": [
+    "[Anwyn Castle, Storage Shed]"
+  ],
+  "description": [
+    "This near-dilapidated building was apparently once used to store supplies and tools.  Broken barrels and rusty pieces of metal pepper the floor, making it difficult to walk through the place without tripping.  Squeaks and scratching sounds join the cooing of doves in the rafters, producing a soft harmony."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "Castle Anwyn",
+  "wayto": {
+    "6559": "go door"
+  },
+  "timeto": {
+    "6559": 0.2
+  },
+  "image": "wl-lysierian-1264234799.png",
   "image_coords": [
     1265,
     787,
     1275,
     797
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This near-dilapidated building was apparently once used to store supplies and tools.  Broken barrels and rusty pieces of metal pepper the floor, making it difficult to walk through the place without tripping.  Squeaks and scratching sounds join the cooing of doves in the rafters, producing a soft harmony."
-  ],
-  "image": "wl-lysierian-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Anwyn Castle, Storage Shed]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6559": 0.2
-  },
-  "id": 6560,
-  "location": "Castle Anwyn",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

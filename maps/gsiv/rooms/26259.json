@@ -1,35 +1,28 @@
 {
+  "id": 26259,
+  "title": [
+    "[Banshee Tower, Second Floor]"
+  ],
+  "description": [
+    "The piercing wail of a banshee reverberates through the tower, her cry sharp and forlorn.  Ghosts float about, their faces formed into silent screams."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Talador",
   "wayto": {
     "26260": "go mist",
     "26258": "west"
   },
-  "paths": [
-    "Obvious exits: west"
-  ],
+  "timeto": {
+    "26260": 0.2,
+    "26258": 0.2
+  },
+  "image": "wl-lichs_landing-1500800742.png",
   "image_coords": [
     170,
     523,
     197,
     550
-  ],
-  "terrain": null,
-  "description": [
-    "The piercing wail of a banshee reverberates through the tower, her cry sharp and forlorn.  Ghosts float about, their faces formed into silent screams."
-  ],
-  "image": "wl-lichs_landing-1500800742.png",
-  "climate": null,
-  "title": [
-    "[Banshee Tower, Second Floor]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26260": 0.2,
-    "26258": 0.2
-  },
-  "id": 26259,
-  "location": "Talador",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

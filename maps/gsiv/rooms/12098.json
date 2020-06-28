@@ -1,50 +1,42 @@
 {
-  "wayto": {
-    "12097": "southeast",
-    "12207": {
-      "stringproc": "e92c9dd14f17f62ccd19f33b9f37fe22"
-    },
-    "12235": {
-      "stringproc": "6257723a0157210f5f1e2eb6e7c5dbb4"
-    }
-  },
+  "id": 12098,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "Rain pours from the ground.  It falls upwards, drenching the clouds with moisture and forming small puddles in the sky.  The occasional bolt of lightning strikes upwards, and thunder rolls through the air, bouncing off distant mountains to echo back with a faint roar."
+  ],
   "paths": [
     "Obvious exits: southeast",
     "Obvious paths: southeast"
   ],
+  "location": "the Rift",
+  "wayto": {
+    "12097": "southeast",
+    "12207": {
+      "file": "string_procs/wayto/12098_12207.rb"
+    },
+    "12235": {
+      "file": "string_procs/wayto/12098_12235.rb"
+    }
+  },
+  "timeto": {
+    "12097": 0.2,
+    "12207": 11.4,
+    "12235": 11.4
+  },
+  "image": "imt-rift-1554575848.png",
   "image_coords": [
     596,
     1236,
     604,
     1244
   ],
-  "terrain": null,
-  "description": [
-    "Rain pours from the ground.  It falls upwards, drenching the clouds with moisture and forming small puddles in the sky.  The occasional bolt of lightning strikes upwards, and thunder rolls through the air, bouncing off distant mountains to echo back with a faint roar."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "12097": 0.2,
-    "12207": 11.4,
-    "12235": 11.4
-  },
-  "id": 12098,
-  "location": "the Rift",
   "tags": [
     "slime-covered grave blossom",
     "mass of congealed slime",
     "twisted black mawflower",
     "rotting bile green fleshbulb",
-    "withered deathblossom",
-    "oozing fleshsore bulb",
-    "discolored fleshbinder bud"
-  ],
-  "links": [
-
+    "withered deathblossom"
   ]
 }

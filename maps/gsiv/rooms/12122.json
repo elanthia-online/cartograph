@@ -1,52 +1,45 @@
 {
-  "wayto": {
-    "12207": {
-      "stringproc": "e92c9dd14f17f62ccd19f33b9f37fe22"
-    },
-    "12153": "northwest",
-    "12157": "southeast",
-    "12235": {
-      "stringproc": "6257723a0157210f5f1e2eb6e7c5dbb4"
-    }
-  },
+  "id": 12122,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "A white bier rests in the center of a copse of dead trees.  Four swords stand about it, one at each corner.  Resting upon the cold stone bed is a man.  His grey hair is held back by a golden crown, and his beard flows down his broad chest.  Upon the side of the stone is carved a set of characters.  Most of the letters have been lost to time, leaving only \"---r, K--g of -h- -od-.\""
+  ],
   "paths": [
     "Obvious paths: southeast, northwest",
     "Obvious exits: southeast, northwest"
   ],
-  "image_coords": [
-    568,
-    1126,
-    578,
-    1136
-  ],
-  "terrain": null,
-  "description": [
-    "A white bier rests in the center of a copse of dead trees.  Four swords stand about it, one at each corner.  Resting upon the cold stone bed is a man.  His grey hair is held back by a golden crown, and his beard flows down his broad chest.  Upon the side of the stone is carved a set of characters.  Most of the letters have been lost to time, leaving only \"---r, K--g of -h- -od-.\""
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12207": {
+      "file": "string_procs/wayto/12122_12207.rb"
+    },
+    "12153": "northwest",
+    "12157": "southeast",
+    "12235": {
+      "file": "string_procs/wayto/12122_12235.rb"
+    }
+  },
   "timeto": {
     "12207": 11.4,
     "12153": 0.2,
     "12157": 0.2,
     "12235": 11.4
   },
-  "id": 12122,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    568,
+    1126,
+    578,
+    1136
+  ],
   "tags": [
     "twisted black mawflower",
     "slime-covered grave blossom",
     "withered deathblossom",
     "mass of congealed slime",
     "discolored fleshbinder bud",
-    "rotting bile green fleshbulb",
-    "oozing fleshsore bulb"
-  ],
-  "links": [
-
+    "rotting bile green fleshbulb"
   ]
 }

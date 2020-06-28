@@ -1,35 +1,32 @@
 {
+  "id": 10027,
+  "title": [
+    "[Yegharren Plain, Forest's Edge]"
+  ],
+  "description": [
+    "Narrow trails lead through the dark woods in several directions, beneath the tangled arches of the trees that encroach on the twisting paths from all sides.  Clumps of deep green and brown moss dangle from the branches, hanging over the trail to brush at unwary hunters with their weblike tendrils."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south, west"
+  ],
+  "location": "the Yegharren Plains",
   "wayto": {
     "10026": "south",
     "10028": "northeast",
     "10033": "west"
   },
-  "paths": [
-    "Obvious paths: northeast, south, west"
-  ],
+  "timeto": {
+    "10026": 0.2,
+    "10028": 0.2,
+    "10033": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     1191,
     408,
     1199,
     416
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "Narrow trails lead through the dark woods in several directions, beneath the tangled arches of the trees that encroach on the twisting paths from all sides.  Clumps of deep green and brown moss dangle from the branches, hanging over the trail to brush at unwary hunters with their weblike tendrils."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Yegharren Plain, Forest's Edge]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10026": 0.2,
-    "10028": 0.2,
-    "10033": 0.2
-  },
-  "id": 10027,
-  "location": "the Yegharren Plains",
   "tags": [
     "white hook mushroom",
     "some wolifrew lichen",
@@ -41,40 +38,6 @@
     "bright red cranberry",
     "wild pink geranium",
     "some bolmara lichen",
-    "sweetfern stalk",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "tkaro root",
-    "sticks",
-    "sassafras leaf",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "withered black mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "blueberries",
-    "fiddlehead fern",
-    "broken twig",
-    "stalk of bluebells",
-    "small wild rose",
-    "sprig of wild lilac",
-    "wild chokecherry",
-    "tree bark",
-    "blue whortleberry",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sweetfern stalk"
   ]
 }

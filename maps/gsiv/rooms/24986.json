@@ -1,35 +1,28 @@
 {
+  "id": 24986,
+  "title": [
+    "[Lich's Landing, Specter Lane]"
+  ],
+  "description": [
+    "The spacious and shadowy caverns outside of town can be glimpsed through a crack in the south palisade wall.  Faded, ghostly forms float through the air, their haunting cries echoing as they pass."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Talador",
   "wayto": {
     "25941": "west",
     "24985": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "25941": 0.2,
+    "24985": 0.2
+  },
+  "image": "wl-lichs_landing-1500800742.png",
   "image_coords": [
     799,
     597,
     825,
     623
-  ],
-  "terrain": null,
-  "description": [
-    "The spacious and shadowy caverns outside of town can be glimpsed through a crack in the south palisade wall.  Faded, ghostly forms float through the air, their haunting cries echoing as they pass."
-  ],
-  "image": "wl-lichs_landing-1500800742.png",
-  "climate": null,
-  "title": [
-    "[Lich's Landing, Specter Lane]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "25941": 0.2,
-    "24985": 0.2
-  },
-  "id": 24986,
-  "location": "Talador",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

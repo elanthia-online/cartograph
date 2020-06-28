@@ -1,53 +1,38 @@
 {
+  "id": 5360,
+  "title": [
+    "[Noman's Land, Valley]"
+  ],
+  "description": [
+    "There's little vegetation here -- it's mostly rocks and mud.  The few gnarled trees struggling to survive have been stripped of their leaves.  Well-trodden, soggy paths lead off to the southwest and southeast, past low walls of stacked rocks."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast, southwest"
+  ],
+  "location": "Noman's Land",
   "wayto": {
     "5361": "southwest",
     "5362": "southeast",
     "5079": "north"
   },
-  "paths": [
-    "Obvious paths: north, southeast, southwest"
-  ],
+  "timeto": {
+    "5361": 0.2,
+    "5362": 0.2,
+    "5079": 0.2
+  },
+  "image": "vo-caravansary-1264234799.png",
   "image_coords": [
     187,
     466,
     197,
     476
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "There's little vegetation here -- it's mostly rocks and mud.  The few gnarled trees struggling to survive have been stripped of their leaves.  Well-trodden, soggy paths lead off to the southwest and southeast, past low walls of stacked rocks."
-  ],
-  "image": "vo-caravansary-1264234799.png",
-  "climate": "moist",
-  "title": [
-    "[Noman's Land, Valley]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5361": 0.2,
-    "5362": 0.2,
-    "5079": 0.2
-  },
-  "id": 5360,
-  "location": "Noman's Land",
   "tags": [
     "some aloeas stem",
     "bright red cranberry",
     "some motherwort",
     "some acantha leaf",
     "withered black mushroom",
-    "some calamia fruit",
-    "acantha leaf",
-    "calamia fruit",
-    "aloeas stem",
-    "wild chokecherry",
-    "motherwort",
-    "murdroot",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some calamia fruit"
   ]
 }

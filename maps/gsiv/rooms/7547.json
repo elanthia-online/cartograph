@@ -1,51 +1,36 @@
 {
+  "id": 7547,
+  "title": [
+    "[Catacombs, Dark Cavern]"
+  ],
+  "description": [
+    "The thick limestone columns are spaced widely apart here forming a clearing in the forest of stone.  Rivulets of water run down the walls of the cavern to gather in large puddles where the walls meet the floor.  A dark passage opens to the north and continues out of sight."
+  ],
+  "paths": [
+    "Obvious exits: north, southwest, west"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "7546": "west",
     "7548": "north",
     "7545": "southwest"
   },
-  "paths": [
-    "Obvious exits: north, southwest, west"
-  ],
+  "timeto": {
+    "7546": 0.2,
+    "7548": 0.2,
+    "7545": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     394,
     1070,
     404,
     1080
   ],
-  "terrain": "indoors",
-  "description": [
-    "The thick limestone columns are spaced widely apart here forming a clearing in the forest of stone.  Rivulets of water run down the walls of the cavern to gather in large puddles where the walls meet the floor.  A dark passage opens to the north and continues out of sight."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Catacombs, Dark Cavern]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7546": 0.2,
-    "7548": 0.2,
-    "7545": 0.2
-  },
-  "id": 7547,
-  "location": "the catacombs",
   "tags": [
     "some wingstem root",
     "some cave moss",
     "black hook mushroom",
-    "red trafel mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "red trafel mushroom"
   ]
 }

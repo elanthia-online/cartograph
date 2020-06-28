@@ -1,42 +1,32 @@
 {
+  "id": 7517,
+  "title": [
+    "[Catacombs, Dank Cellar]"
+  ],
+  "description": [
+    "A few brown sewer rats dart across the floor and scurry north, in the direction of the odor of spoiled food and ancient cooking grease.  In a far bleak corner stands a filthy cot, a heap of dirty laundry piled high at its foot.  Anchored into the southern wall is a ladder, which disappears into the total darkness that obscures the vaulted ceiling."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "7516": "go hole",
     "7518": "north",
     "8686": {
-      "stringproc": "a23650e26bd22c33e68ae0c7b0be530e"
+      "file": "string_procs/wayto/7517_8686.rb"
     }
   },
-  "paths": [
-    "Obvious exits: north"
-  ],
-  "image_coords": [
-    661,
-    989,
-    671,
-    999
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A few brown sewer rats dart across the floor and scurry north, in the direction of the odor of spoiled food and ancient cooking grease.  In a far bleak corner stands a filthy cot, a heap of dirty laundry piled high at its foot.  Anchored into the southern wall is a ladder, which disappears into the total darkness that obscures the vaulted ceiling."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Catacombs, Dank Cellar]"
-  ],
-  "check_location": null,
   "timeto": {
     "7516": 0.2,
     "7518": 0.2,
     "8686": 15.0
   },
-  "id": 7517,
-  "location": "the catacombs",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-catacombs-1264234799.png",
+  "image_coords": [
+    661,
+    989,
+    671,
+    999
   ]
 }

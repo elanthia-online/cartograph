@@ -1,37 +1,34 @@
 {
+  "id": 7323,
+  "title": [
+    "[Secluded Valley]"
+  ],
+  "description": [
+    "A sea of grey clouds fills the sky above.  From somewhere in the distance, the sound of pounding hooves echoes across the valley."
+  ],
+  "paths": [
+    "Obvious paths: east, southeast, south, southwest"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7320": "southeast",
     "7321": "east",
     "7322": "south",
     "7324": "southwest"
   },
-  "paths": [
-    "Obvious paths: east, southeast, south, southwest"
-  ],
-  "image_coords": [
-    941,
-    315,
-    951,
-    325
-  ],
-  "terrain": "barren scrub",
-  "description": [
-    "A sea of grey clouds fills the sky above.  From somewhere in the distance, the sound of pounding hooves echoes across the valley."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Secluded Valley]"
-  ],
-  "check_location": null,
   "timeto": {
     "7320": 0.2,
     "7321": 0.2,
     "7322": 0.2,
     "7324": 0.2
   },
-  "id": 7323,
-  "location": "the Graveyard",
+  "image": "wl-graveyard-1264234799.png",
+  "image_coords": [
+    941,
+    315,
+    951,
+    325
+  ],
   "tags": [
     "stalk of chicory",
     "wild chokecherry",
@@ -47,10 +44,6 @@
     "small wild rose",
     "blue whortleberry",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

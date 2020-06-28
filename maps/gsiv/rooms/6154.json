@@ -1,33 +1,30 @@
 {
+  "id": 6154,
+  "title": [
+    "[Hidden Plateau]"
+  ],
+  "description": [
+    "A thin rock wall runs northwest to southeast, separating the plateau from the steep cliffs nearby.  Flowers of red, orange, yellow, and blue flourish along the base of the mountain, each more vibrant than the last.  A small stream flows down from the peaks above, supplying water to the plethora of flora along its banks."
+  ],
+  "paths": [
+    "Obvious paths: north, south, west"
+  ],
+  "location": "The Hidden Plateau",
   "wayto": {
     "6153": "north",
     "6155": "south"
   },
-  "paths": [
-    "Obvious paths: north, south, west"
-  ],
+  "timeto": {
+    "6153": 0.2,
+    "6155": 0.2
+  },
+  "image": "wl-wehntoph-1310775397.png",
   "image_coords": [
     544,
     951,
     578,
     985
   ],
-  "terrain": null,
-  "description": [
-    "A thin rock wall runs northwest to southeast, separating the plateau from the steep cliffs nearby.  Flowers of red, orange, yellow, and blue flourish along the base of the mountain, each more vibrant than the last.  A small stream flows down from the peaks above, supplying water to the plethora of flora along its banks."
-  ],
-  "image": "wl-wehntoph-1310775397.png",
-  "climate": null,
-  "title": [
-    "[Hidden Plateau]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6153": 0.2,
-    "6155": 0.2
-  },
-  "id": 6154,
-  "location": "The Hidden Plateau",
   "tags": [
     "some brostheras grass",
     "some murkweed",
@@ -89,8 +86,5 @@
     "wild tulip",
     "blue trafel mushroom",
     "heath aster"
-  ],
-  "links": [
-
   ]
 }

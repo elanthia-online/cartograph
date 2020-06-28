@@ -1,45 +1,42 @@
 {
-  "wayto": {
-    "5880": {
-      "stringproc": "0acec449dfd5a5dfdb04c28bdcff6064"
-    },
-    "5881": {
-      "stringproc": "6afbb7de8b6764a2a2e2cec033013d6b"
-    },
-    "5870": {
-      "stringproc": "f6c83f04062dbe72ed69f5316f9fb7ad"
-    },
-    "5872": {
-      "stringproc": "78127360e41abc3af30ac5ec2707be3f"
-    }
-  },
-  "paths": [
-    "Obvious paths: southeast, northwest"
-  ],
-  "image_coords": [
-    370,
-    590,
-    379,
-    597
-  ],
-  "terrain": null,
-  "description": [
-    "Headstones flank both sides of the gravel path here.  Weatherworn, the headstones in this area are obviously older than those which follow the fence enclosing the cemetery.  The gravel path crunches underfoot, but provides an easy route to follow."
-  ],
-  "image": "en-cemetery-1264234799.png",
-  "climate": null,
+  "id": 5871,
   "title": [
     "[Glaise Cnoc, Cemetery]"
   ],
-  "check_location": null,
+  "description": [
+    "Headstones flank both sides of the gravel path here.  Weatherworn, the headstones in this area are obviously older than those which follow the fence enclosing the cemetery.  The gravel path crunches underfoot, but provides an easy route to follow."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "the Glaise Cnoc Cemetary",
+  "wayto": {
+    "5880": {
+      "file": "string_procs/wayto/5871_5880.rb"
+    },
+    "5881": {
+      "file": "string_procs/wayto/5871_5881.rb"
+    },
+    "5870": {
+      "file": "string_procs/wayto/5871_5870.rb"
+    },
+    "5872": {
+      "file": "string_procs/wayto/5871_5872.rb"
+    }
+  },
   "timeto": {
     "5880": 1.4,
     "5881": 1.4,
     "5870": 1.4,
     "5872": 1.2
   },
-  "id": 5871,
-  "location": "the Glaise Cnoc Cemetary",
+  "image": "en-cemetery-1264234799.png",
+  "image_coords": [
+    370,
+    590,
+    379,
+    597
+  ],
   "tags": [
     "stargazer lily",
     "cactacae spine",
@@ -116,8 +113,5 @@
     "wavepetal blossom",
     "sunburst blossom",
     "onion skin"
-  ],
-  "links": [
-
   ]
 }

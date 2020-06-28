@@ -1,40 +1,30 @@
 {
-  "wayto": {
-    "5731": "north",
-    "11749": {
-      "stringproc": "53ba7ef67f37b336277002c5ff79f5f0"
-    }
-  },
+  "id": 11753,
+  "title": [
+    "[Marshtown, Glok's Pier]"
+  ],
+  "description": [
+    "This pier is crowded with merchants and sailors alike, all moving from ship to ship, and some from ship to shore.  Dozens of small sea craft anchor here, tied off by thick but worn ropes.  Taller mooring posts designed for ships and galleys are on the southern part of the pier.  A number of barrels litter the pier at various places, and a cast iron fish is fastened securely at its center."
+  ],
   "paths": [
     "Obvious paths: north"
   ],
+  "location": "the lowlands of Marshtown",
+  "wayto": {
+    "5731": "north",
+    "11749": {
+      "file": "string_procs/wayto/11753_11749.rb"
+    }
+  },
+  "timeto": {
+    "5731": 0.2,
+    "11749": 300.0
+  },
+  "image": "vo-caravansary-1264234799.png",
   "image_coords": [
     838,
     801,
     848,
     811
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "This pier is crowded with merchants and sailors alike, all moving from ship to ship, and some from ship to shore.  Dozens of small sea craft anchor here, tied off by thick but worn ropes.  Taller mooring posts designed for ships and galleys are on the southern part of the pier.  A number of barrels litter the pier at various places, and a cast iron fish is fastened securely at its center."
-  ],
-  "image": "vo-caravansary-1264234799.png",
-  "climate": "humid",
-  "title": [
-    "[Marshtown, Glok's Pier]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5731": 0.2,
-    "11749": 300.0
-  },
-  "id": 11753,
-  "location": "the lowlands of Marshtown",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,36 +1,32 @@
 {
+  "id": 26091,
+  "title": [
+    "[Bloodforge, Workshop]"
+  ],
+  "description": [
+    "Encased in stacked slabs of ur-barath, this cold and damp chamber reeks of metallic-tinged aromas, as if it were a carnage-filled battleground in recent times.  Thin blades sharpened to a fine point jut out from the front of a crimson-tinged stone bloodforge, and droplets of what appears to be dried blood stain the floor surrounding the workspace.",
+    "Encased in stacked slabs of ur-barath, this cold and damp chamber reeks of metallic-tinged aromas, as if it were a carnage-filled battleground in recent times.  Thin blades sharpened to a fine point jut out from the front of a crimson-tinged stone bloodforge, and droplets of what appears to be dried blood stain the floor surrounding the workspace.  Piles of crimson powder cover the floor beneath a large opening.  A dwarven blacksmith assistant stands in front of a narrow archway leading toward the smithy.  An undorned staircase spirals toward the temple."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Duskruin Arena",
   "wayto": {
     "26092": "go staircase",
     "26388": "go opening"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "26092": 0.2,
+    "26388": 0.2
+  },
+  "image": "fest-duskruin-1503606263.png",
   "image_coords": [
     914,
     735,
     930,
     750
   ],
-  "terrain": null,
-  "description": [
-    "Encased in stacked slabs of ur-barath, this cold and damp chamber reeks of metallic-tinged aromas, as if it were a carnage-filled battleground in recent times.  Thin blades sharpened to a fine point jut out from the front of a crimson-tinged stone bloodforge, and droplets of what appears to be dried blood stain the floor surrounding the workspace.",
-    "Encased in stacked slabs of ur-barath, this cold and damp chamber reeks of metallic-tinged aromas, as if it were a carnage-filled battleground in recent times.  Thin blades sharpened to a fine point jut out from the front of a crimson-tinged stone bloodforge, and droplets of what appears to be dried blood stain the floor surrounding the workspace.  Piles of crimson powder cover the floor beneath a large opening.  A dwarven blacksmith assistant stands in front of a narrow archway leading toward the smithy.  An undorned staircase spirals toward the temple."
-  ],
-  "image": "fest-duskruin-1503606263.png",
-  "climate": null,
-  "title": [
-    "[Bloodforge, Workshop]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26092": 0.2,
-    "26388": 0.2
-  },
-  "id": 26091,
-  "location": "Duskruin Arena",
   "tags": [
     "duskruin:smithy"
-  ],
-  "unique_loot": null
+  ]
 }

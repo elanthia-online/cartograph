@@ -1,40 +1,30 @@
 {
+  "id": 11204,
+  "title": [
+    "[Armory, Hallway]"
+  ],
+  "description": [
+    "The hallway has been narrowed over time by large stone blocks that may have fallen from the armory's roof.  A thick matting of vines now shrouds the ceiling, so that light and sound are muffled."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11205": "north",
     "11219": "west",
     "11203": "go door"
   },
-  "paths": [
-    "Obvious exits: north, west"
-  ],
-  "image_coords": [
-    251,
-    260,
-    261,
-    270
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The hallway has been narrowed over time by large stone blocks that may have fallen from the armory's roof.  A thick matting of vines now shrouds the ceiling, so that light and sound are muffled."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Armory, Hallway]"
-  ],
-  "check_location": null,
   "timeto": {
     "11205": 0.2,
     "11219": 0.2,
     "11203": 0.2
   },
-  "id": 11204,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-citadel-1267238976.png",
+  "image_coords": [
+    251,
+    260,
+    261,
+    270
   ]
 }

@@ -1,38 +1,28 @@
 {
+  "id": 128,
+  "title": [
+    "[Temple Wyneb, Calvaria]"
+  ],
+  "description": [
+    "Huge blocks of stone must have been removed from the walls here to create so vast an opening.  Undoubtedly years of work went into this construction, which is now host to nothing but slumbering colonies of bats.  You cannot help but appreciate the defensive value of these dark tunnels and wonder what dangers still remain."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "Temple Wyneb",
   "wayto": {
     "127": "southwest",
     "129": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southwest"
-  ],
+  "timeto": {
+    "127": 0.2,
+    "129": 0.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     798,
     684,
     808,
     694
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Huge blocks of stone must have been removed from the walls here to create so vast an opening.  Undoubtedly years of work went into this construction, which is now host to nothing but slumbering colonies of bats.  You cannot help but appreciate the defensive value of these dark tunnels and wonder what dangers still remain."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Temple Wyneb, Calvaria]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "127": 0.2,
-    "129": 0.2
-  },
-  "id": 128,
-  "location": "Temple Wyneb",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

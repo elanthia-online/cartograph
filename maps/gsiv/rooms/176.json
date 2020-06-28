@@ -1,41 +1,31 @@
 {
-  "wayto": {
-    "175": "southwest",
-    "177": "northeast"
-  },
-  "paths": [
-    "Obvious paths: northeast, southwest"
+  "id": 176,
+  "title": [
+    "[Ta'Illistim, Ellaerin Var]"
   ],
-  "image_coords": [
-    1007,
-    866,
-    1028,
-    888
-  ],
-  "terrain": "hard, flat",
   "description": [
     "Near the southwest end of the var, a round belltower stands tall above the rooftops, considerably higher than the massive city wall.  Blue fire glints from the tower's lapis-tiled spiral cap.",
     "Near the southwest end of the var, a round belltower stands tall above the rooftops, considerably higher than the massive city wall.  Pale moonlight glints from the tower's lapis-tiled spiral cap.",
     "Near the southwest end of the var, a round bell tower stands tall above the rooftops, considerably higher than the massive city wall.  Pale moonlight glints from the tower's lapis-tiled spiral cap.",
     "Near the southwest end of the var, a round bell tower stands tall above the rooftops, considerably higher than the massive city wall.  Blue fire glints from the tower's lapis-tiled spiral cap."
   ],
-  "image": "en-ta_illistim-new.jpg",
-  "climate": "temperate",
-  "title": [
-    "[Ta'Illistim, Ellaerin Var]"
+  "paths": [
+    "Obvious paths: northeast, southwest"
   ],
-  "check_location": null,
+  "location": "Ta'Illistim",
+  "wayto": {
+    "175": "southwest",
+    "177": "northeast"
+  },
   "timeto": {
     "175": 0.2,
     "177": 0.2
   },
-  "id": 176,
-  "location": "Ta'Illistim",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-ta_illistim-new.jpg",
+  "image_coords": [
+    1007,
+    866,
+    1028,
+    888
   ]
 }

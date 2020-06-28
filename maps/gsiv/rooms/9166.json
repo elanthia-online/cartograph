@@ -1,38 +1,28 @@
 {
+  "id": 9166,
+  "title": [
+    "[Thurfel's Keep]"
+  ],
+  "description": [
+    "There is no apparent reason for the odd bowl-like depression that cracks the floor tiles of this passage, but perhaps the ominous sound of rushing water coming from beneath the keep lends a clue."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Thurfel's Island",
   "wayto": {
     "9165": "south",
     "9167": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "9165": 0.2,
+    "9167": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     686,
     794,
     696,
     804
-  ],
-  "terrain": "indoors",
-  "description": [
-    "There is no apparent reason for the odd bowl-like depression that cracks the floor tiles of this passage, but perhaps the ominous sound of rushing water coming from beneath the keep lends a clue."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thurfel's Keep]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9165": 0.2,
-    "9167": 0.2
-  },
-  "id": 9166,
-  "location": "Thurfel's Island",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

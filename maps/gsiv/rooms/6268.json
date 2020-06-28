@@ -1,33 +1,30 @@
 {
+  "id": 6268,
+  "title": [
+    "[Kobold Village]"
+  ],
+  "description": [
+    "A fetid pond of murky green slime swirls lazily around a gurgling spring at the lowest point of the vale.  A circle of tumbled stones nearby suggests that this was once the site of a well, and a few scattered buckets and washboards hint that the kobolds might actually use the brackish filth here as a water supply.  It's not a pleasant thought."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "the Lower Dragonsclaw",
   "wayto": {
     "6269": "southwest",
     "6265": "east"
   },
-  "paths": [
-    "Obvious paths: east, southwest"
-  ],
+  "timeto": {
+    "6269": 0.2,
+    "6265": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     175,
     400,
     185,
     410
   ],
-  "terrain": "rough",
-  "description": [
-    "A fetid pond of murky green slime swirls lazily around a gurgling spring at the lowest point of the vale.  A circle of tumbled stones nearby suggests that this was once the site of a well, and a few scattered buckets and washboards hint that the kobolds might actually use the brackish filth here as a water supply.  It's not a pleasant thought."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Kobold Village]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6269": 0.2,
-    "6265": 0.2
-  },
-  "id": 6268,
-  "location": "the Lower Dragonsclaw",
   "tags": [
     "wintergreen leaf",
     "wild strawberry",
@@ -40,10 +37,6 @@
     "sprig of larkspur",
     "small wild rose",
     "wild chokecherry",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

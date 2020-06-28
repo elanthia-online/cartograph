@@ -1,35 +1,26 @@
 {
-  "wayto": {
-    "22444": {
-      "stringproc": "b1c126bdbd56e20263fec8be7d8962c5"
-    },
-    "297": "out"
-  },
-  "paths": [
-    "Obvious paths: out"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Cloaked in pervasive shades of black and grey, nebulous shadows conceal the features of this covert back street.  Any hint of sunlight is mercilessly smothered by the close-set buildings to either side.  Underfoot, the worn cobblestones remain perpetually slick as moisture seeps from the walls, coalescing into thin rivulets of slimy water that feed both moss and algae.  A single sputtering torch looks oddly out of place where its wan illumination dances on the stark brickwork at the alley's dead end."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 22349,
   "title": [
     "[Wehnimer's, A Very Dark Alley]"
   ],
-  "check_location": null,
+  "description": [
+    "Cloaked in pervasive shades of black and grey, nebulous shadows conceal the features of this covert back street.  Any hint of sunlight is mercilessly smothered by the close-set buildings to either side.  Underfoot, the worn cobblestones remain perpetually slick as moisture seeps from the walls, coalescing into thin rivulets of slimy water that feed both moss and algae.  A single sputtering torch looks oddly out of place where its wan illumination dances on the stark brickwork at the alley's dead end."
+  ],
+  "paths": [
+    "Obvious paths: out"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "wayto": {
+    "22444": {
+      "file": "string_procs/wayto/22349_22444.rb"
+    },
+    "297": "out"
+  },
   "timeto": {
     "22444": 1.0,
     "297": 0.2
   },
-  "id": 22349,
-  "location": "the town of Wehnimer's Landing",
   "tags": [
     "meta:teleport:fwi"
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

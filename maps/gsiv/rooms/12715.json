@@ -1,38 +1,28 @@
 {
+  "id": 12715,
+  "title": [
+    "[Ruined Temple, Second Floor]"
+  ],
+  "description": [
+    "Arched windows adorn the southern and western walls, each weathered with time.  A tattered tapestry, faded and soaked, still decorates this portion of the hall, and several small puddles have formed near the base of the wall, fed by the tiny streams of water that flow down a marble pillar in the corner."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "the Ruined Temple",
   "wayto": {
     "12714": "east",
     "12707": "north"
   },
-  "paths": [
-    "Obvious exits: north, east"
-  ],
+  "timeto": {
+    "12714": 0.2,
+    "12707": 0.2
+  },
+  "image": "ti-nelemar-1262373036.png",
   "image_coords": [
     405,
     776,
     441,
     812
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Arched windows adorn the southern and western walls, each weathered with time.  A tattered tapestry, faded and soaked, still decorates this portion of the hall, and several small puddles have formed near the base of the wall, fed by the tiny streams of water that flow down a marble pillar in the corner."
-  ],
-  "image": "ti-nelemar-1262373036.png",
-  "climate": "indoors",
-  "title": [
-    "[Ruined Temple, Second Floor]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "12714": 0.2,
-    "12707": 0.2
-  },
-  "id": 12715,
-  "location": "the Ruined Temple",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

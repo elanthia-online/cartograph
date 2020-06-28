@@ -1,35 +1,32 @@
 {
+  "id": 24734,
+  "title": [
+    "[Red Forest, Deep Woods]"
+  ],
+  "description": [
+    "The trees scattered around the open forest all reach to the sky in unnaturally even heights.  The carcass of a deer has been skewered by a large sharp branch as small rivulets of blood steadily drip from the corpse, coating a series of roots unearthed in the dirt below."
+  ],
+  "paths": [
+    "Obvious paths: east, southeast, west"
+  ],
+  "location": "the Red Forest",
   "wayto": {
     "24730": "west",
     "24733": "southeast",
     "24735": "east"
   },
-  "paths": [
-    "Obvious paths: east, southeast, west"
-  ],
+  "timeto": {
+    "24730": 0.2,
+    "24733": 0.2,
+    "24735": 0.2
+  },
+  "image": "red_forest-1260914757.png",
   "image_coords": [
     468,
     472,
     480,
     484
   ],
-  "terrain": null,
-  "description": [
-    "The trees scattered around the open forest all reach to the sky in unnaturally even heights.  The carcass of a deer has been skewered by a large sharp branch as small rivulets of blood steadily drip from the corpse, coating a series of roots unearthed in the dirt below."
-  ],
-  "image": "red_forest-1260914757.png",
-  "climate": null,
-  "title": [
-    "[Red Forest, Deep Woods]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24730": 0.2,
-    "24733": 0.2,
-    "24735": 0.2
-  },
-  "id": 24734,
-  "location": "the Displaced Red Forest",
   "tags": [
     "some ephlox moss",
     "fiddlehead fern",
@@ -50,32 +47,6 @@
     "some wolifrew lichen",
     "sweetfern stalk",
     "small wild rose",
-    "withered black mushroom",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "tkaro root",
-    "sticks",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "wintergreen leaf",
-    "blueberries",
-    "wild gooseberry",
-    "broken twig",
-    "wild pink geranium",
-    "tree bark",
-    "mistweed",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+    "withered black mushroom"
+  ]
 }

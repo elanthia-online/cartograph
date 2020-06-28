@@ -1,33 +1,30 @@
 {
+  "id": 3199,
+  "title": [
+    "[Snowflake Vale, Forest]"
+  ],
+  "description": [
+    "A wide, half-frozen pond appears suddenly from under the blanket of snow.  The ice does not extend to the middle of the pond, making it impossible to cross.  Faint footprints in the snow indicate that the edge of the pond is used often as a trail to the northeast."
+  ],
+  "paths": [
+    "Obvious paths: southeast"
+  ],
+  "location": "the southern snowfields",
   "wayto": {
     "3200": "southeast",
     "3198": "go pond"
   },
-  "paths": [
-    "Obvious paths: southeast"
-  ],
+  "timeto": {
+    "3200": 0.2,
+    "3198": 10.0
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     172,
     1132,
     182,
     1142
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "A wide, half-frozen pond appears suddenly from under the blanket of snow.  The ice does not extend to the middle of the pond, making it impossible to cross.  Faint footprints in the snow indicate that the edge of the pond is used often as a trail to the northeast."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Snowflake Vale, Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3200": 0.2,
-    "3198": 10.0
-  },
-  "id": 3199,
-  "location": "the southern snowfields",
   "tags": [
     "tkaro root",
     "orange rowanberry",
@@ -37,34 +34,6 @@
     "pale thornberry",
     "red winterberry",
     "rockberry",
-    "pine cone",
-    "sticks",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "iceblossoms",
-    "snow lily",
-    "winter rose",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "handful of pinenuts",
-    "broken twig",
-    "pine needles",
-    "frostweed",
-    "snowberries",
-    "tree bark",
-    "frostflower",
-    "crowberry",
-    "lingonberry",
-    "ironfern root",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "pine cone"
   ]
 }

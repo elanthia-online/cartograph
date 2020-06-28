@@ -1,4 +1,15 @@
 {
+  "id": 339,
+  "title": [
+    "[East Row, Modwir Way]"
+  ],
+  "description": [
+    "A pair of modwirs stand sentinel for the roadway heading east.  A cooing morning dove lends a rhythmic pace to the surroundings, causing merchant and townsfolk alike to walk slowly along the dusty paths in measured time."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "15021": "go boutique",
     "338": "south",
@@ -6,29 +17,10 @@
     "340": "north",
     "366": "east",
     "24768": {
-      "stringproc": "2cb4b2ab5350389d644ad91437a598a4"
+      "file": "string_procs/wayto/339_24768.rb"
     },
     "15024": "go treehouse"
   },
-  "paths": [
-    "Obvious paths: north, east, south"
-  ],
-  "image_coords": [
-    1344,
-    144,
-    1350,
-    152
-  ],
-  "terrain": "plain dirt",
-  "description": [
-    "A pair of modwirs stand sentinel for the roadway heading east.  A cooing morning dove lends a rhythmic pace to the surroundings, causing merchant and townsfolk alike to walk slowly along the dusty paths in measured time."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[East Row, Modwir Way]"
-  ],
-  "check_location": null,
   "timeto": {
     "15021": 0.2,
     "338": 0.2,
@@ -38,40 +30,15 @@
     "24768": 0.2,
     "15024": 0.2
   },
-  "id": 339,
-  "location": "Wehnimer's Landing",
+  "image": "wl-wehnimers-1264234799.png",
+  "image_coords": [
+    1344,
+    144,
+    1350,
+    152
+  ],
   "tags": [
     "some acantha leaf",
-    "some sovyn clove",
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "small flower",
-    "small rose",
-    "small daisy",
-    "angelica root",
-    "withered black mushroom",
-    "stalk of chicory",
-    "sprig of alyssum",
-    "heath aster",
-    "stalk of goldenrod",
-    "yellow primrose",
-    "small wild rose",
-    "wild carrot",
-    "ginger root",
-    "wild chokecherry",
-    "motherwort",
-    "murkweed",
-    "blue whortleberry",
-    "white baneberry",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some sovyn clove"
   ]
 }

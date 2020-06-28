@@ -1,4 +1,15 @@
 {
+  "id": 3587,
+  "title": [
+    "[Stronghold, South Hall]"
+  ],
+  "description": [
+    "The passageway widens into an expansive chamber, with branches in various directions and the beginning of a wide, winding stairway.  To the north sits an alcove, its darker interior creating a gloomy maw at its entrance.  The southern hallway is likewise shadowy, however braziers can be glimpsed on the walls, promising the possibility of illumination."
+  ],
+  "paths": [
+    "Obvious exits: east, south, northwest"
+  ],
+  "location": "Stone Valley",
   "wayto": {
     "3588": "south",
     "3590": "east",
@@ -6,25 +17,6 @@
     "3580": "northwest",
     "3613": "climb stairway"
   },
-  "paths": [
-    "Obvious exits: east, south, northwest"
-  ],
-  "image_coords": [
-    517,
-    524,
-    527,
-    534
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The passageway widens into an expansive chamber, with branches in various directions and the beginning of a wide, winding stairway.  To the north sits an alcove, its darker interior creating a gloomy maw at its entrance.  The southern hallway is likewise shadowy, however braziers can be glimpsed on the walls, promising the possibility of illumination."
-  ],
-  "image": "wl-stronghold-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Stronghold, South Hall]"
-  ],
-  "check_location": null,
   "timeto": {
     "3588": 0.2,
     "3590": 0.2,
@@ -32,13 +24,11 @@
     "3580": 0.2,
     "3613": 0.2
   },
-  "id": 3587,
-  "location": "Stone Valley",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-stronghold-1264234799.png",
+  "image_coords": [
+    517,
+    524,
+    527,
+    534
   ]
 }

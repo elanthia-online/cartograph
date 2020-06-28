@@ -1,4 +1,15 @@
 {
+  "id": 6654,
+  "title": [
+    "[Monastery, Stone Corridor]"
+  ],
+  "description": [
+    "Torches are mounted on the walls at evenly spaced five-foot intervals down this corridor.  A portcullis is raised into the ceiling here, looking as if it could drop down at any moment to bar access in either direction.  A single iron-bound door stands on the east side of the portcullis."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east, southeast, west"
+  ],
+  "location": "the Broken Lands",
   "wayto": {
     "6655": "east",
     "6656": "go door",
@@ -6,25 +17,6 @@
     "6637": "west",
     "6662": "southeast"
   },
-  "paths": [
-    "Obvious exits: northeast, east, southeast, west"
-  ],
-  "image_coords": [
-    357,
-    1184,
-    367,
-    1194
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Torches are mounted on the walls at evenly spaced five-foot intervals down this corridor.  A portcullis is raised into the ceiling here, looking as if it could drop down at any moment to bar access in either direction.  A single iron-bound door stands on the east side of the portcullis."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Monastery, Stone Corridor]"
-  ],
-  "check_location": null,
   "timeto": {
     "6655": 0.2,
     "6656": 0.2,
@@ -32,13 +24,11 @@
     "6637": 0.2,
     "6662": 0.2
   },
-  "id": 6654,
-  "location": "the Broken Lands",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-broken-1264234799.png",
+  "image_coords": [
+    357,
+    1184,
+    367,
+    1194
   ]
 }

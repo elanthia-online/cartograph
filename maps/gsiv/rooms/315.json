@@ -1,68 +1,38 @@
 {
+  "id": 315,
+  "title": [
+    "[Wehnimer's, Shanty Town]"
+  ],
+  "description": [
+    "The tracks of wagon wheels rut the path through here, forming tiny rivulets that connect the puddles.  A few sparse bushes and a tiny garden outside one of the shanties do little to relieve the monotony of the otherwise indistinguishable dwellings to the north and east.  The western path leads back to town."
+  ],
+  "paths": [
+    "Obvious paths: north, east, west"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "314": "east",
     "309": "west",
     "311": "north"
   },
-  "paths": [
-    "Obvious paths: north, east, west"
-  ],
+  "timeto": {
+    "314": 0.2,
+    "309": 0.2,
+    "311": 0.2
+  },
+  "image": "wl-wehnimers-1264234799.png",
   "image_coords": [
     1124,
     1054,
     1161,
     1089
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The tracks of wagon wheels rut the path through here, forming tiny rivulets that connect the puddles.  A few sparse bushes and a tiny garden outside one of the shanties do little to relieve the monotony of the otherwise indistinguishable dwellings to the north and east.  The western path leads back to town."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Wehnimer's, Shanty Town]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "314": 0.2,
-    "309": 0.2,
-    "311": 0.2
-  },
-  "id": 315,
-  "location": "the town of Wehnimer's Landing",
   "tags": [
     "some sovyn clove",
     "some acantha leaf",
     "some calamia fruit",
     "pepperthorn root",
     "small daisy",
-    "wild carrot",
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "small flower",
-    "small rose",
-    "angelica root",
-    "withered black mushroom",
-    "stalk of chicory",
-    "sprig of alyssum",
-    "heath aster",
-    "stalk of goldenrod",
-    "yellow primrose",
-    "small wild rose",
-    "ginger root",
-    "wild chokecherry",
-    "motherwort",
-    "murkweed",
-    "blue whortleberry",
-    "white baneberry",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wild carrot"
   ]
 }

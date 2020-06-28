@@ -1,37 +1,34 @@
 {
+  "id": 7479,
+  "title": [
+    "[Dark Grotto, Huge Cavern]"
+  ],
+  "description": [
+    "Making your way among the spires of stone that rise from the cavern floor is like traveling through a strange and exotic forest.  Instead of vines and bushes, long growths of stringy moss and huge mushrooms and toadstools provide an undergrowth that chokes the way.  The small creatures of a sylvan setting, mice, squirrels and other small furry beasts are not present.  Instead, the pale bulging eyes of small lizards blink at you silently before the owners scurry away through the growths of fungi."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east, west"
+  ],
+  "location": "the Broken Lands",
   "wayto": {
     "7484": "east",
     "7485": "northeast",
     "7478": "west",
     "7480": "north"
   },
-  "paths": [
-    "Obvious exits: north, northeast, east, west"
-  ],
-  "image_coords": [
-    1001,
-    826,
-    1011,
-    836
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Making your way among the spires of stone that rise from the cavern floor is like traveling through a strange and exotic forest.  Instead of vines and bushes, long growths of stringy moss and huge mushrooms and toadstools provide an undergrowth that chokes the way.  The small creatures of a sylvan setting, mice, squirrels and other small furry beasts are not present.  Instead, the pale bulging eyes of small lizards blink at you silently before the owners scurry away through the growths of fungi."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dark Grotto, Huge Cavern]"
-  ],
-  "check_location": null,
   "timeto": {
     "7484": 0.2,
     "7485": 0.2,
     "7478": 0.2,
     "7480": 0.2
   },
-  "id": 7479,
-  "location": "the Broken Lands",
+  "image": "wl-broken-1264234799.png",
+  "image_coords": [
+    1001,
+    826,
+    1011,
+    836
+  ],
   "tags": [
     "pink mold",
     "blue mold",
@@ -49,16 +46,6 @@
     "myklian",
     "red myklian",
     "purple myklian",
-    "bone mushroom",
-    "blackened moss",
-    "green lichen",
-    "black toadstool",
-    "green fungus",
-    "cave moss",
-    "molds",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bone mushroom"
   ]
 }

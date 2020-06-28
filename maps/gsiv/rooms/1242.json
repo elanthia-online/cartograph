@@ -1,36 +1,33 @@
 {
-  "wayto": {
-    "1193": "east",
-    "1241": {
-      "stringproc": "ce5fdf2aa27f9eee9ad5cad474f35d88"
-    }
-  },
+  "id": 1242,
+  "title": [
+    "[Vipershroud, Locksmehr River]"
+  ],
+  "description": [
+    "Moonlight sparkles off the Locksmehr River as it rushes toward the west.  The current is very fast here, and the flow is interrupted by several protruding rocks.  To the east, a ferry service for crossing the river operates from a sturdy wooden dock.  The Vipershroud, a near impenetrable forest, looms to the south and west.",
+    "Sunlight sparkles off the Locksmehr River as it rushes toward the west.  The current is very fast here, and the flow is interrupted by several protruding rocks.  To the east, a ferry service for crossing the river operates from a sturdy wooden dock.  The Vipershroud, a near impenetrable forest, looms to the south and west."
+  ],
   "paths": [
     "Obvious paths: east"
   ],
+  "location": "the Vipershroud",
+  "wayto": {
+    "1193": "east",
+    "1241": {
+      "file": "string_procs/wayto/1242_1241.rb"
+    }
+  },
+  "timeto": {
+    "1193": 0.2,
+    "1241": 10.0
+  },
+  "image": "en-trail-1264234799.png",
   "image_coords": [
     171,
     546,
     181,
     556
   ],
-  "terrain": "riparian",
-  "description": [
-    "Moonlight sparkles off the Locksmehr River as it rushes toward the west.  The current is very fast here, and the flow is interrupted by several protruding rocks.  To the east, a ferry service for crossing the river operates from a sturdy wooden dock.  The Vipershroud, a near impenetrable forest, looms to the south and west.",
-    "Sunlight sparkles off the Locksmehr River as it rushes toward the west.  The current is very fast here, and the flow is interrupted by several protruding rocks.  To the east, a ferry service for crossing the river operates from a sturdy wooden dock.  The Vipershroud, a near impenetrable forest, looms to the south and west."
-  ],
-  "image": "en-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Vipershroud, Locksmehr River]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1193": 0.2,
-    "1241": 10.0
-  },
-  "id": 1242,
-  "location": "the Vipershroud",
   "tags": [
     "bunch of wild grapes",
     "some acantha leaf",
@@ -45,36 +42,6 @@
     "sprig of wild lilac",
     "sprig of Imaera's Lace",
     "some talneo root",
-    "handful of blueberries",
-    "acantha leaf",
-    "calamia fruit",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "blueberries",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "water chestnut",
-    "wild grapes",
-    "stalk of bluebells",
-    "stalk of goldenrod",
-    "small wild rose",
-    "Imaera's Lace",
-    "wild chokecherry",
-    "pepperthorn root",
-    "murdroot",
-    "wavepetal blossom",
-    "ironfern root",
-    "sunburst blossom",
-    "talneo root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "handful of blueberries"
   ]
 }

@@ -1,66 +1,36 @@
 {
+  "id": 5514,
+  "title": [
+    "[Ruined Village]"
+  ],
+  "description": [
+    "The remains of a tiny shop are collapsed against the back of the general store.  Half a small dress dummy sticks out from beneath the rubble, and a tatter of cloth flutters from beneath a brick."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south"
+  ],
+  "location": "the Outlands",
   "wayto": {
     "5512": "north",
     "5515": "south",
     "5516": "east"
   },
-  "paths": [
-    "Obvious paths: north, east, south"
-  ],
+  "timeto": {
+    "5512": 0.2,
+    "5515": 0.2,
+    "5516": 0.2
+  },
+  "image": "vo-outlands-1264234799.png",
   "image_coords": [
     808,
     469,
     818,
     479
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The remains of a tiny shop are collapsed against the back of the general store.  Half a small dress dummy sticks out from beneath the rubble, and a tatter of cloth flutters from beneath a brick."
-  ],
-  "image": "vo-outlands-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Ruined Village]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5512": 0.2,
-    "5515": 0.2,
-    "5516": 0.2
-  },
-  "id": 5514,
-  "location": "the Outlands",
   "tags": [
     "ayana'al root",
     "crested basilisk",
     "dobrem",
-    "no-magic",
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "small flower",
-    "small rose",
-    "small daisy",
-    "angelica root",
-    "withered black mushroom",
-    "stalk of chicory",
-    "sprig of alyssum",
-    "heath aster",
-    "stalk of goldenrod",
-    "yellow primrose",
-    "small wild rose",
-    "wild chokecherry",
-    "motherwort",
-    "white baneberry",
-    "ayana'al leaf",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "no-magic"
   ]
 }

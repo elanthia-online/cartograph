@@ -1,33 +1,30 @@
 {
+  "id": 485,
+  "title": [
+    "[Coastal Cliffs]"
+  ],
+  "description": [
+    "To the north, the sea stretches endlessly blue, dotted by tiny breakers and the occasional sleek line of a merchant ship as it slices through the chill waters to the bustling docks of Wehnimer's Landing."
+  ],
+  "paths": [
+    "Obvious paths: east, northwest"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "484": "east",
     "486": "northwest"
   },
-  "paths": [
-    "Obvious paths: east, northwest"
-  ],
+  "timeto": {
+    "484": 0.2,
+    "486": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     469,
     813,
     479,
     823
   ],
-  "terrain": "hilly",
-  "description": [
-    "To the north, the sea stretches endlessly blue, dotted by tiny breakers and the occasional sleek line of a merchant ship as it slices through the chill waters to the bustling docks of Wehnimer's Landing."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Coastal Cliffs]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "484": 0.2,
-    "486": 0.2
-  },
-  "id": 485,
-  "location": "the Coastal Cliffs",
   "tags": [
     "tkaro root",
     "withered black mushroom",
@@ -64,11 +61,6 @@
     "twisted twig",
     "slender twig",
     "bolmara lichen",
-    "brostheras grass",
-    "sunburst blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

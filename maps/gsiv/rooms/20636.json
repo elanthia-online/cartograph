@@ -1,54 +1,32 @@
 {
+  "id": 20636,
+  "title": [
+    "[Wehnimer's, Burrow Way]"
+  ],
+  "description": [
+    "The faded light of nearby sconces causes a number of cobwebs among the rafters to shimmer slightly.  Trapped among the silk, a tiny black bug squirms uselessly to try to avoid the shared fate of the insect husks next to it."
+  ],
+  "paths": [
+    "Obvious exits: east, northwest"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "20643": {
-      "stringproc": "b7f862885eec5e52898c0c679faf4198"
+      "file": "string_procs/wayto/20636_20643.rb"
     },
     "20635": "northwest",
     "20637": "east"
   },
-  "paths": [
-    "Obvious exits: east, northwest"
-  ],
-  "image_coords": [
-    820,
-    412,
-    845,
-    438
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The faded light of nearby sconces causes a number of cobwebs among the rafters to shimmer slightly.  Trapped among the silk, a tiny black bug squirms uselessly to try to avoid the shared fate of the insect husks next to it."
-  ],
-  "image": "wl-burrow_way-1360361110.png",
-  "climate": "indoors",
-  "title": [
-    "[Wehnimer's, Burrow Way]"
-  ],
-  "check_location": null,
   "timeto": {
     "20643": 0.2,
     "20635": 0.2,
     "20637": 0.2
   },
-  "id": 20636,
-  "location": "the town of Wehnimer's Landing",
-  "tags": [
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null,
-  "links": [
-
+  "image": "wl-burrow_way-1360361110.png",
+  "image_coords": [
+    820,
+    412,
+    845,
+    438
   ]
 }

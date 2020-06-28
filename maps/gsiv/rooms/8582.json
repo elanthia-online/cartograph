@@ -1,43 +1,36 @@
 {
+  "id": 8582,
+  "title": [
+    "[Field, Exterior]"
+  ],
+  "description": [
+    "The grassy field widens here, providing a cool spot to rest and a good point to ponder the keep and its mysteries.  Peering out over the moat through the steamy haze above, you can see the entrance and a half-lowered drawbridge.  Below in the moat, small eddies froth and gurgle.  A dilapidated catapult stands forlornly on a clear swath of ground, silent witness to past battles."
+  ],
+  "paths": [
+    "Obvious paths: north, west"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "8581": "west",
     "8583": "north",
     "8598": "go moat"
   },
-  "paths": [
-    "Obvious paths: north, west"
-  ],
+  "timeto": {
+    "8581": 0.2,
+    "8583": 0.2,
+    "8598": 15.0
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     1328,
     296,
     1338,
     306
   ],
-  "terrain": null,
-  "description": [
-    "The grassy field widens here, providing a cool spot to rest and a good point to ponder the keep and its mysteries.  Peering out over the moat through the steamy haze above, you can see the entrance and a half-lowered drawbridge.  Below in the moat, small eddies froth and gurgle.  A dilapidated catapult stands forlornly on a clear swath of ground, silent witness to past battles."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Field, Exterior]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8581": 0.2,
-    "8583": 0.2,
-    "8598": 15.0
-  },
-  "id": 8582,
-  "location": "the Upper Trollfang",
   "tags": [
     "sprig of lavender",
     "wild strawberry",
     "honeysuckle vine",
-    "rose-marrow root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "rose-marrow root"
   ]
 }

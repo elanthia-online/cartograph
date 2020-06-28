@@ -1,37 +1,34 @@
 {
+  "id": 7534,
+  "title": [
+    "[Catacombs, Twisting Tunnels]"
+  ],
+  "description": [
+    "This junction of tunnels is very disorienting.  Here the walls are perfectly smooth and featureless except for an occasional streak of mineral deposits.  The tunnel slopes sharply upward to the north and east, while the ceiling arches up in the center to form a small, dark hole."
+  ],
+  "paths": [
+    "Obvious exits: north, east, up"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "7535": "east",
     "7537": "up",
     "7565": "go deep crack",
     "7533": "north"
   },
-  "paths": [
-    "Obvious exits: north, east, up"
-  ],
-  "image_coords": [
-    447,
-    1367,
-    457,
-    1377
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This junction of tunnels is very disorienting.  Here the walls are perfectly smooth and featureless except for an occasional streak of mineral deposits.  The tunnel slopes sharply upward to the north and east, while the ceiling arches up in the center to form a small, dark hole."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Catacombs, Twisting Tunnels]"
-  ],
-  "check_location": null,
   "timeto": {
     "7535": 0.2,
     "7537": 0.2,
     "7565": 0.2,
     "7533": 0.2
   },
-  "id": 7534,
-  "location": "the catacombs",
+  "image": "wl-catacombs-1264234799.png",
+  "image_coords": [
+    447,
+    1367,
+    457,
+    1377
+  ],
   "tags": [
     "some bolmara lichen",
     "withered black mushroom",
@@ -39,15 +36,6 @@
     "black hook mushroom",
     "soft white mushroom",
     "red trafel mushroom",
-    "some wingstem root",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

@@ -1,4 +1,15 @@
 {
+  "id": 2790,
+  "title": [
+    "[Pinefar, Second Floor Hallway]"
+  ],
+  "description": [
+    "The hall ends at the foot of an oak door, but branches to the left and right diagonals.  A second door to the right stands opposite a fine painting, depicting a strange, craggy mountain of seemingly pure ice.  The mount is surrounded by low, thick clouds, giving it a moody, introspective quality."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south, northwest"
+  ],
+  "location": "the Pinefar Trading Post",
   "wayto": {
     "2789": "south",
     "2791": "northwest",
@@ -6,25 +17,6 @@
     "15601": "go oak door",
     "25400": "go large door"
   },
-  "paths": [
-    "Obvious exits: northeast, south, northwest"
-  ],
-  "image_coords": [
-    211,
-    845,
-    221,
-    855
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The hall ends at the foot of an oak door, but branches to the left and right diagonals.  A second door to the right stands opposite a fine painting, depicting a strange, craggy mountain of seemingly pure ice.  The mount is surrounded by low, thick clouds, giving it a moody, introspective quality."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Pinefar, Second Floor Hallway]"
-  ],
-  "check_location": null,
   "timeto": {
     "2789": 0.2,
     "2791": 0.2,
@@ -32,13 +24,11 @@
     "15601": 0.2,
     "25400": 0.2
   },
-  "id": 2790,
-  "location": "the Pinefar Trading Post",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "imt-pinefar-1264234799.png",
+  "image_coords": [
+    211,
+    845,
+    221,
+    855
   ]
 }

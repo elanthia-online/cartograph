@@ -1,38 +1,28 @@
 {
-  "wayto": {
-    "16188": {
-      "stringproc": "7f796d46f137a6d162b16774c2088e4a"
-    }
-  },
+  "id": 22224,
+  "title": [
+    "[Beacon Hall, Attic]"
+  ],
+  "description": [
+    "Cobwebs stretch in intricate patterns across every nook and corner of the attic, and the smell of mildew hangs in the air like an invisible presence.  Layers upon layers of dust coat scattered shelves housing books with indecipherable titles, and high overhead and opaque with grime, a single, small octagonal window allows slight bits of light to trickle in."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "Maelstrom Bay",
+  "wayto": {
+    "16188": {
+      "file": "string_procs/wayto/22224_16188.rb"
+    }
+  },
+  "timeto": {
+    "16188": 0.3
+  },
+  "image": "rr-beacon_hall-1405076623.png",
   "image_coords": [
     1007,
     464,
     1055,
     510
-  ],
-  "terrain": null,
-  "description": [
-    "Cobwebs stretch in intricate patterns across every nook and corner of the attic, and the smell of mildew hangs in the air like an invisible presence.  Layers upon layers of dust coat scattered shelves housing books with indecipherable titles, and high overhead and opaque with grime, a single, small octagonal window allows slight bits of light to trickle in."
-  ],
-  "image": "rr-beacon_hall-1405076623.png",
-  "climate": null,
-  "title": [
-    "[Beacon Hall, Attic]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "16188": 0.3
-  },
-  "id": 22224,
-  "location": "Maelstrom Bay",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

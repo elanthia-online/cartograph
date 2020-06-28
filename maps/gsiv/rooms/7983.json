@@ -1,39 +1,36 @@
 {
-  "wayto": {
-    "284": "go cobblestone walkway",
-    "7984": {
-      "stringproc": "94302c4d3ac516fe6f2954ae18933bd8"
-    },
-    "8752": "go riverstone path"
-  },
+  "id": 7983,
+  "title": [
+    "[Paupers, Outer Grounds]",
+    "[House of Paupers, Outer Grounds]"
+  ],
+  "description": [
+    "A weathered stone building is nestled low among tall modwir and weeping willow trees.  A gleaming vultite plaque is affixed to the dark, wrought iron fence which surrounds and defines the grounds, through which formally clipped hedges and an elegant fountain in the midst of a rose garden are visible.  Beyond the wrought iron gate, a red-carpeted walkway covered by a long, narrow awning leads up to massive double doors.",
+    "Clouds scuttle across the harvest moon, their shapes reminiscent of ghastly images seen only in fevered dreams.  In the dim light, you see a battered plaque dangling from a rusty spike on the wrought iron fence.  Swirling about your feet, a blanket of mist lines what appears to be a freshly dug grave.  A crooked tree grabs desperately at the sky and you can see the flickering silhouette of a broken-down house through tortured branches.  A cobblestone walkway leads back to the square."
+  ],
   "paths": [
     "Obvious paths: none"
   ],
+  "location": "Wehnimer's Landing",
+  "wayto": {
+    "284": "go cobblestone walkway",
+    "7984": {
+      "file": "string_procs/wayto/7983_7984.rb"
+    },
+    "8752": "go riverstone path"
+  },
+  "timeto": {
+    "284": 0.2,
+    "7984": 0.4,
+    "8752": 0.2
+  },
+  "image": "wl-house_paupers.jpg",
   "image_coords": [
     129,
     185,
     215,
     235
   ],
-  "terrain": null,
-  "description": [
-    "A weathered stone building is nestled low among tall modwir and weeping willow trees.  A gleaming vultite plaque is affixed to the dark, wrought iron fence which surrounds and defines the grounds, through which formally clipped hedges and an elegant fountain in the midst of a rose garden are visible.  Beyond the wrought iron gate, a red-carpeted walkway covered by a long, narrow awning leads up to massive double doors.",
-    "Clouds scuttle across the harvest moon, their shapes reminiscent of ghastly images seen only in fevered dreams.  In the dim light, you see a battered plaque dangling from a rusty spike on the wrought iron fence.  Swirling about your feet, a blanket of mist lines what appears to be a freshly dug grave.  A crooked tree grabs desperately at the sky and you can see the flickering silhouette of a broken-down house through tortured branches.  A cobblestone walkway leads back to the square."
-  ],
-  "image": "wl-house_paupers.jpg",
-  "climate": null,
-  "title": [
-    "[Paupers, Outer Grounds]",
-    "[House of Paupers, Outer Grounds]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "284": 0.2,
-    "7984": 0.4,
-    "8752": 0.2
-  },
-  "id": 7983,
-  "location": "Wehnimer's Landing",
   "tags": [
     "some cactacae spine",
     "some haphip root",
@@ -48,8 +45,5 @@
     "paupers",
     "house of paupers",
     "meta:teleport:fwi"
-  ],
-  "links": [
-
   ]
 }

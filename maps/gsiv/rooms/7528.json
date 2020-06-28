@@ -1,38 +1,28 @@
 {
+  "id": 7528,
+  "title": [
+    "[Catacombs, Underground Lake]"
+  ],
+  "description": [
+    "The northeastern edge of this underground lake cuts abruptly into the smooth stone wall of the cavern here, forming a narrow, half-submerged grotto.  The slick rock surrounding it on either side forms a dangerous but passable route to the west."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "7527": "south",
     "7530": "west"
   },
-  "paths": [
-    "Obvious exits: south, west"
-  ],
+  "timeto": {
+    "7527": 0.2,
+    "7530": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     527,
     1262,
     537,
     1272
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The northeastern edge of this underground lake cuts abruptly into the smooth stone wall of the cavern here, forming a narrow, half-submerged grotto.  The slick rock surrounding it on either side forms a dangerous but passable route to the west."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Catacombs, Underground Lake]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7527": 0.2,
-    "7530": 0.2
-  },
-  "id": 7528,
-  "location": "the catacombs",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

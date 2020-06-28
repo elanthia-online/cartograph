@@ -1,52 +1,38 @@
 {
+  "id": 5213,
+  "title": [
+    "[Vornavian Coast, Pine Forest]"
+  ],
+  "description": [
+    "A break in the dunes reveals a path leading southwest to the beach and northeast into the pine woods.  The scent of pine wafts in from the path, and the tops of pine trees can be seen towering over the dunes.  Pine cones and small branches litter the dunes, and tall grasses provide haven for scores of small animals who move quickly onto and off of the beach."
+  ],
+  "paths": [
+    "Obvious paths: northeast, east"
+  ],
+  "location": "the Vornavian Coast",
   "wayto": {
     "1272": "northeast",
     "5265": "east",
     "5211": "go path"
   },
-  "paths": [
-    "Obvious paths: northeast, east"
-  ],
+  "timeto": {
+    "1272": 0.2,
+    "5265": 0.2,
+    "5211": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     339,
     554,
     349,
     564
   ],
-  "terrain": "sandy",
-  "description": [
-    "A break in the dunes reveals a path leading southwest to the beach and northeast into the pine woods.  The scent of pine wafts in from the path, and the tops of pine trees can be seen towering over the dunes.  Pine cones and small branches litter the dunes, and tall grasses provide haven for scores of small animals who move quickly onto and off of the beach."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Vornavian Coast, Pine Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1272": 0.2,
-    "5265": 0.2,
-    "5211": 0.2
-  },
-  "id": 5213,
-  "location": "the Vornavian Coast",
   "tags": [
     "some wingstem root",
     "some bur-clover root",
     "some cactacae spine",
     "some acantha leaf",
     "orange tiger lily",
-    "yellow primrose",
-    "acantha leaf",
-    "cactacae spine",
-    "angelica root",
-    "tiger lily",
-    "murdroot",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "yellow primrose"
   ]
 }

@@ -1,36 +1,25 @@
 {
-  "wayto": {
-    "11101": "go door"
-  },
+  "id": 11103,
+  "title": [
+    "[Krol Ship, Officer's Cabins]"
+  ],
+  "description": [
+    "This cabin is shared by the second and third officers of the ship, and is slightly larger than that of their underlings.  Two beds and a desk are all the furniture that could fit in this cabin."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "wayto": {
+    "11101": "go door"
+  },
+  "timeto": {
+    "11101": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     1419,
     396,
     1429,
     406
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This cabin is shared by the second and third officers of the ship, and is slightly larger than that of their underlings.  Two beds and a desk are all the furniture that could fit in this cabin."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "indoors",
-  "title": [
-    "[Krol Ship, Officer's Cabins]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11101": 0.2
-  },
-  "id": 11103,
-  "location": "the Sea Caves",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

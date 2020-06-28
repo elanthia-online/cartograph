@@ -1,41 +1,38 @@
 {
-  "wayto": {
-    "3826": {
-      "stringproc": "66eeec2267fcae3d0619d5845c0a1fd8"
-    },
-    "3563": {
-      "stringproc": "3ef87e7eac63e97210b4aedf89dfae9b"
-    },
-    "3565": {
-      "stringproc": "a234c4dfb9348f43358e56adea9291ed"
-    }
-  },
+  "id": 3564,
+  "title": [
+    "[Thanatoph, Stone Valley]"
+  ],
+  "description": [
+    "The tall longgrass obscures your vision, forcing you to slowly hack your way through.  As you struggle through the underbrush, you notice the half-buried remains of an unfortunate adventurer lying under a boulder.  Apparently, a vulture circling high above has noticed the dried remains as well."
+  ],
   "paths": [
     "Obvious paths: southwest, northwest, up"
   ],
+  "location": "Stone Valley",
+  "wayto": {
+    "3826": {
+      "file": "string_procs/wayto/3564_3826.rb"
+    },
+    "3563": {
+      "file": "string_procs/wayto/3564_3563.rb"
+    },
+    "3565": {
+      "file": "string_procs/wayto/3564_3565.rb"
+    }
+  },
+  "timeto": {
+    "3826": 3.0,
+    "3563": 3.0,
+    "3565": 0.2
+  },
+  "image": "wl-stronghold-1264234799.png",
   "image_coords": [
     165,
     726,
     175,
     736
   ],
-  "terrain": null,
-  "description": [
-    "The tall longgrass obscures your vision, forcing you to slowly hack your way through.  As you struggle through the underbrush, you notice the half-buried remains of an unfortunate adventurer lying under a boulder.  Apparently, a vulture circling high above has noticed the dried remains as well."
-  ],
-  "image": "wl-stronghold-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Thanatoph, Stone Valley]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3826": 3.0,
-    "3563": 3.0,
-    "3565": 0.2
-  },
-  "id": 3564,
-  "location": "Stone Valley",
   "tags": [
     "some acantha leaf",
     "some pothinir grass",
@@ -62,26 +59,6 @@
     "sprig of wild lilac",
     "flathead mushroom",
     "trollfear mushroom",
-    "soft white mushroom",
-    "acantha leaf",
-    "woth flower",
-    "calamia fruit",
-    "haphip root",
-    "pothinir grass",
-    "sticks",
-    "broken twig",
-    "tree bark",
-    "murkweed",
-    "bloodwood twig",
-    "murdroot",
-    "twisted twig",
-    "slender twig",
-    "ebony twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "soft white mushroom"
   ]
 }

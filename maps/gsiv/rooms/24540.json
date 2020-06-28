@@ -1,45 +1,28 @@
 {
+  "id": 24540,
+  "title": [
+    "[Frozen Bramble Patch]"
+  ],
+  "description": [
+    "Even the tallest of giantmen would have trouble seeing over the brush within this area.  The shrubs here have grown into a fortress of nails, their cover providing anything but safe haven.  A glance in any direction reveals little change in the scenery."
+  ],
+  "paths": [
+    "Obvious paths: southeast, south"
+  ],
+  "location": "the Abandoned Farm",
   "wayto": {
     "24541": "south",
     "24539": "southeast"
   },
-  "paths": [
-    "Obvious paths: southeast, south"
-  ],
+  "timeto": {
+    "24541": 0.2,
+    "24539": 0.2
+  },
+  "image": "imt-bramble_patch-1307499864.png",
   "image_coords": [
     267,
     157,
     279,
     172
-  ],
-  "terrain": "barren scrub",
-  "description": [
-    "Even the tallest of giantmen would have trouble seeing over the brush within this area.  The shrubs here have grown into a fortress of nails, their cover providing anything but safe haven.  A glance in any direction reveals little change in the scenery."
-  ],
-  "image": "imt-bramble_patch-1307499864.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Frozen Bramble Patch]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24541": 0.2,
-    "24539": 0.2
-  },
-  "id": 24540,
-  "location": "the Abandoned Farm",
-  "tags": [
-    "snow lily",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "arctic moss",
-    "broken twig",
-    "rockberry",
-    "crowberry",
-    "lingonberry",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+  ]
 }

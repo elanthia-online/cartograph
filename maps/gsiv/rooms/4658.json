@@ -1,33 +1,30 @@
 {
+  "id": 4658,
+  "title": [
+    "[Cysaegir, Tribute]"
+  ],
+  "description": [
+    "Erected on a clover-covered section of the field is an elaborate sculpture protected behind a barrier of hedges surrounded by a rail fence.  Frozen in time and locked in mortal combat are two bronze figures, one of an elf, the other of a kiramon."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "the village of Cysaegir",
   "wayto": {
     "4654": "west",
     "4661": "go bridge"
   },
-  "paths": [
-    "Obvious paths: west"
-  ],
+  "timeto": {
+    "4654": 0.2,
+    "4661": 0.2
+  },
+  "image": "en-cysaegir-1264234799.png",
   "image_coords": [
     892,
     1055,
     928,
     1091
   ],
-  "terrain": "grassland",
-  "description": [
-    "Erected on a clover-covered section of the field is an elaborate sculpture protected behind a barrier of hedges surrounded by a rail fence.  Frozen in time and locked in mortal combat are two bronze figures, one of an elf, the other of a kiramon."
-  ],
-  "image": "en-cysaegir-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Cysaegir, Tribute]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4654": 0.2,
-    "4661": 0.2
-  },
-  "id": 4658,
-  "location": "the village of Cysaegir",
   "tags": [
     "acantha leaf",
     "ambrominas leaf",
@@ -104,10 +101,6 @@
     "wavepetal blossom",
     "ironfern root",
     "nightbloom blossom",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

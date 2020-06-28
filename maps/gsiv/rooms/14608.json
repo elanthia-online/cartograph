@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "14607": "go door"
-  },
+  "id": 14608,
+  "title": [
+    "[Manor House, Bath]"
+  ],
+  "description": [
+    "A large wooden tub sits in the center of this room, wearing a thin coat of plaster dust.  Several small ceramic jars lie on the floor, their contents taken or devoured by insects or something else."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "the Outlands",
+  "wayto": {
+    "14607": "go door"
+  },
+  "timeto": {
+    "14607": 0.2
+  },
+  "image": "vo-outlands-1264234799.png",
   "image_coords": [
     1239,
     824,
     1249,
     834
   ],
-  "terrain": "indoors",
-  "description": [
-    "A large wooden tub sits in the center of this room, wearing a thin coat of plaster dust.  Several small ceramic jars lie on the floor, their contents taken or devoured by insects or something else."
-  ],
-  "image": "vo-outlands-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Manor House, Bath]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "14607": 0.2
-  },
-  "id": 14608,
-  "location": "the Outlands",
   "tags": [
-    "dobrem",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "dobrem"
   ]
 }

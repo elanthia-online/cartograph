@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "12183": "north",
-    "12185": "south",
-    "12152": {
-      "stringproc": "e7b269de45035581300c76daf9e751cf"
-    },
-    "12089": {
-      "stringproc": "df16ace028c72dba18b51257349345d8"
-    },
-    "2635": {
-      "stringproc": "a5fc698b4e8aaa983aa8f5ad92908980"
-    }
-  },
+  "id": 12184,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "Before you stands a large green house, with smoke billowing out the chimney and the windows broken out.  In front of the worn domicile, an older man and woman lie dead, chests slashed open and eyes staring sightlessly into the sky.  Above them stands a young man, resembling them.  He regards you in a cold, calculating manner, hand clenching and unclenching a bloody blade."
+  ],
   "paths": [
     "Obvious exits: north, south",
     "Obvious paths: north, south"
   ],
-  "image_coords": [
-    348,
-    1135,
-    358,
-    1145
-  ],
-  "terrain": null,
-  "description": [
-    "Before you stands a large green house, with smoke billowing out the chimney and the windows broken out.  In front of the worn domicile, an older man and woman lie dead, chests slashed open and eyes staring sightlessly into the sky.  Above them stands a young man, resembling them.  He regards you in a cold, calculating manner, hand clenching and unclenching a bloody blade."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12183": "north",
+    "12185": "south",
+    "12152": {
+      "file": "string_procs/wayto/12184_12152.rb"
+    },
+    "12089": {
+      "file": "string_procs/wayto/12184_12089.rb"
+    },
+    "2635": {
+      "file": "string_procs/wayto/12184_2635.rb"
+    }
+  },
   "timeto": {
     "12183": 0.2,
     "12185": 0.2,
@@ -39,8 +31,13 @@
     "12089": 21.6,
     "2635": 21.6
   },
-  "id": 12184,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    348,
+    1135,
+    358,
+    1145
+  ],
   "tags": [
     "twisted black mawflower",
     "mass of congealed slime",
@@ -49,8 +46,5 @@
     "slime-covered grave blossom",
     "oozing fleshsore bulb",
     "rotting bile green fleshbulb"
-  ],
-  "links": [
-
   ]
 }

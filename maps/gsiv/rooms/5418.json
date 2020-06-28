@@ -1,43 +1,35 @@
 {
+  "id": 5418,
+  "title": [
+    "[Bonespear Tower, Hallway]"
+  ],
+  "description": [
+    "Several jagged holes have been blasted into the walls, and tiny bits of bone fragments and white dust are scattered all over the floor from whatever it was that might have caused this damage.  Amidst the rubble is a yellowed skull with its eye sockets chewed out, but it's impossible to determine if this is part of the structure or a recent arrival."
+  ],
+  "paths": [
+    "Obvious exits: north, south, west"
+  ],
+  "location": "Bonespear Tower",
   "wayto": {
     "13017": "west",
     "5417": "south",
     "5419": "north"
   },
-  "paths": [
-    "Obvious exits: north, south, west"
-  ],
+  "timeto": {
+    "13017": 0.2,
+    "5417": 0.2,
+    "5419": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     907,
     1017,
     915,
     1025
   ],
-  "terrain": "indoors",
-  "description": [
-    "Several jagged holes have been blasted into the walls, and tiny bits of bone fragments and white dust are scattered all over the floor from whatever it was that might have caused this damage.  Amidst the rubble is a yellowed skull with its eye sockets chewed out, but it's impossible to determine if this is part of the structure or a recent arrival."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Bonespear Tower, Hallway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "13017": 0.2,
-    "5417": 0.2,
-    "5419": 0.2
-  },
-  "id": 5418,
-  "location": "Bonespear Tower",
   "tags": [
     "waern",
     "dybbuk",
-    "eidolon",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "eidolon"
   ]
 }

@@ -1,33 +1,21 @@
 {
-  "wayto": {
-    "21349": {
-      "stringproc": "bf2e15cc9c3d72cdd5f00d7b77940c0b"
-    }
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Long branches curl protectively around a narrow counter, and glossy leaves almost hide the locker that sits there.  A burl in one of the walls looks eerily like a staring eyeball."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 21347,
   "title": [
     "[Sylvanfair, Locker Room]"
   ],
-  "check_location": null,
+  "description": [
+    "Long branches curl protectively around a narrow counter, and glossy leaves almost hide the locker that sits there.  A burl in one of the walls looks eerily like a staring eyeball."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "wayto": {
+    "21349": {
+      "file": "string_procs/wayto/21347_21349.rb"
+    }
+  },
   "timeto": {
     "21349": 0.2
-  },
-  "id": 21347,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  }
 }

@@ -1,34 +1,33 @@
 {
+  "id": 11347,
+  "title": [
+    "[Citadel, Walkway]"
+  ],
+  "description": [
+    "Stifling waves of heat blow a hot mist over you making breathing difficult.  Small droplets of water condense onto the orchids, which have replaced the roses in the arch overhead.  A small amount of moonlight filters its way through the thick foliage of the arch to illuminate your way.",
+    "Stifling waves of heat blow a hot mist over you making breathing difficult.  Small droplets of water condense onto the orchids, which have replaced the roses in the arch overhead.  A small amount of light filters its way through the thick foliage of the arch to illuminate your way."
+  ],
+  "paths": [
+    "Obvious paths: southwest, northwest"
+  ],
+  "location": "the Citadel",
+  "climate": "humid",
+  "terrain": "cultivated",
   "wayto": {
     "11348": "southwest",
     "11346": "northwest"
   },
-  "paths": [
-    "Obvious paths: southwest, northwest"
-  ],
+  "timeto": {
+    "11348": 0.2,
+    "11346": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     628,
     1389,
     638,
     1399
   ],
-  "terrain": "cultivated",
-  "description": [
-    "Stifling waves of heat blow a hot mist over you making breathing difficult.  Small droplets of water condense onto the orchids, which have replaced the roses in the arch overhead.  A small amount of moonlight filters its way through the thick foliage of the arch to illuminate your way.",
-    "Stifling waves of heat blow a hot mist over you making breathing difficult.  Small droplets of water condense onto the orchids, which have replaced the roses in the arch overhead.  A small amount of light filters its way through the thick foliage of the arch to illuminate your way."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "humid",
-  "title": [
-    "[Citadel, Walkway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11348": 0.2,
-    "11346": 0.2
-  },
-  "id": 11347,
-  "location": "the Citadel",
   "tags": [
     "some pothinir grass",
     "daggerstalk mushroom",
@@ -61,12 +60,6 @@
     "pink passionflower",
     "white passionflower",
     "yellow passionflower",
-    "blue passionflower",
-    "spider lily",
-    "onion skin",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "blue passionflower"
   ]
 }

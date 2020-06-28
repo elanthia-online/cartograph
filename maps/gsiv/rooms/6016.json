@@ -1,43 +1,40 @@
 {
+  "id": 6016,
+  "title": [
+    "[Yander's Farm, Barn]"
+  ],
+  "description": [
+    "Bands of light and dark splay across the beams and floor in alternating bright moonlight stripes and darker shade stripes.",
+    "Bands of light and dark splay across the beams and floor in alternating bright moonlight stripes and darker shade stripes.  Fine particles of dust float lazily through the moonlit areas.  The air inside the barn moves only slightly, though the wind's whistling reverberates loudly at times from the openings in the roof overhead.  The wind's modulating whistle echoes eerily within the empty barn, and the darkness of the shadows in the corners adds to a feeling of uneasiness.",
+    "Bands of light and dark splay across the beams and floor in alternating bright sunlight stripes and darker shade stripes.  Fine particles of dust float lazily through the sunlit areas.  The air inside the barn moves only slightly, though the wind's whistling reverberates loudly at times from the openings in the roof overhead.  The wind's modulating whistle echoes eerily within the empty barn, and the darkness of the shadows in the corners adds to a feeling of uneasiness."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south"
+  ],
+  "location": "Yander's Farm",
   "wayto": {
     "6014": "south",
     "18748": {
-      "stringproc": "860a7948dcbf2026309d09b21906a8b9"
+      "file": "string_procs/wayto/6016_18748.rb"
     },
     "6017": "east",
     "6018": "north"
   },
-  "paths": [
-    "Obvious exits: north, east, south"
-  ],
+  "timeto": {
+    "6014": 0.2,
+    "18748": {
+      "file": "string_procs/timeto/6016_18748.rb"
+    },
+    "6017": 0.2,
+    "6018": 0.2
+  },
+  "image": "en-victory-1264234799.png",
   "image_coords": [
     752,
     427,
     762,
     437
   ],
-  "terrain": null,
-  "description": [
-    "Bands of light and dark splay across the beams and floor in alternating bright moonlight stripes and darker shade stripes.",
-    "Bands of light and dark splay across the beams and floor in alternating bright moonlight stripes and darker shade stripes.  Fine particles of dust float lazily through the moonlit areas.  The air inside the barn moves only slightly, though the wind's whistling reverberates loudly at times from the openings in the roof overhead.  The wind's modulating whistle echoes eerily within the empty barn, and the darkness of the shadows in the corners adds to a feeling of uneasiness.",
-    "Bands of light and dark splay across the beams and floor in alternating bright sunlight stripes and darker shade stripes.  Fine particles of dust float lazily through the sunlit areas.  The air inside the barn moves only slightly, though the wind's whistling reverberates loudly at times from the openings in the roof overhead.  The wind's modulating whistle echoes eerily within the empty barn, and the darkness of the shadows in the corners adds to a feeling of uneasiness."
-  ],
-  "image": "en-victory-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Yander's Farm, Barn]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6014": 0.2,
-    "18748": {
-      "stringproc": "6f433477121129ba40531e589ec75a29"
-    },
-    "6017": 0.2,
-    "6018": 0.2
-  },
-  "id": 6016,
-  "location": "Yander's Farm",
   "tags": [
     "pepperthorn root",
     "sorcererguild",
@@ -47,8 +44,5 @@
     "ironfern root",
     "wingstem root",
     "bur-clover root"
-  ],
-  "links": [
-
   ]
 }

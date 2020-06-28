@@ -1,52 +1,36 @@
 {
+  "id": 999,
+  "title": [
+    "[Zul Logoth, Sapphire Tunnel]"
+  ],
+  "description": [
+    "Traffic steadily moves north, east and southwest through this tunnel junction.  A small brown door nestles unobtrusively into the west wall next to a wide glass window.  Dwarves, particularly children, move up to press their noses against the window's glass and stare in at the displays.  Then they either happily enter the shop or they move along, usually with a sigh and a wistful expression, and go about their business."
+  ],
+  "paths": [
+    "Obvious exits: north, east, southwest"
+  ],
+  "location": "the tunnels and caverns of Zul Logoth",
   "wayto": {
     "1000": "north",
     "998": "east",
     "9429": "southwest",
     "9501": "go door"
   },
-  "paths": [
-    "Obvious exits: north, east, southwest"
-  ],
-  "image_coords": [
-    804,
-    668,
-    824,
-    688
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Traffic steadily moves north, east and southwest through this tunnel junction.  A small brown door nestles unobtrusively into the west wall next to a wide glass window.  Dwarves, particularly children, move up to press their noses against the window's glass and stare in at the displays.  Then they either happily enter the shop or they move along, usually with a sigh and a wistful expression, and go about their business."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Zul Logoth, Sapphire Tunnel]"
-  ],
-  "check_location": null,
   "timeto": {
     "1000": 0.2,
     "998": 0.2,
     "9429": 0.2,
     "9501": 0.2
   },
-  "id": 999,
-  "location": "the tunnels and caverns of Zul Logoth",
+  "image": "en-zul_logoth-1264234799.png",
+  "image_coords": [
+    804,
+    668,
+    824,
+    688
+  ],
   "tags": [
     "pepperthorn root",
-    "ironfern root",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "murdroot",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

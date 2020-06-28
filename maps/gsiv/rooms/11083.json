@@ -1,40 +1,30 @@
 {
+  "id": 11083,
+  "title": [
+    "[Sea Caves]"
+  ],
+  "description": [
+    "The cave turns sharply to the northwest and southwest here.  The caves to the northwest look like they were naturally worn by rushing water years ago, but to the southwest, the cave has certainly been dug."
+  ],
+  "paths": [
+    "Obvious exits: southwest, northwest"
+  ],
   "wayto": {
     "11084": "southwest",
     "11073": "northwest"
   },
-  "paths": [
-    "Obvious exits: southwest, northwest"
-  ],
+  "timeto": {
+    "11084": 0.2,
+    "11073": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     1215,
     220,
     1225,
     230
   ],
-  "terrain": "indoors",
-  "description": [
-    "The cave turns sharply to the northwest and southwest here.  The caves to the northwest look like they were naturally worn by rushing water years ago, but to the southwest, the cave has certainly been dug."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Caves]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11084": 0.2,
-    "11073": 0.2
-  },
-  "id": 11083,
-  "location": "the Sea Caves",
   "tags": [
-    "some wingstem root",
-    "murdroot",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

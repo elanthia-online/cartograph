@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "3095": "west"
-  },
+  "id": 3098,
+  "title": [
+    "[Abandoned Farm, Bedroom]"
+  ],
+  "description": [
+    "The low ceiling slopes downward almost to the floor.  As in the hallway below, furniture is piled against the barred window as though the occupants had tried in vain to keep something out."
+  ],
   "paths": [
     "Obvious exits: west"
   ],
+  "location": "the Abandoned Farm",
+  "wayto": {
+    "3095": "west"
+  },
+  "timeto": {
+    "3095": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     889,
     539,
     899,
     549
   ],
-  "terrain": "indoors",
-  "description": [
-    "The low ceiling slopes downward almost to the floor.  As in the hallway below, furniture is piled against the barred window as though the occupants had tried in vain to keep something out."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abandoned Farm, Bedroom]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3095": 0.2
-  },
-  "id": 3098,
-  "location": "the Abandoned Farm",
   "tags": [
-    "zombie",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "zombie"
   ]
 }

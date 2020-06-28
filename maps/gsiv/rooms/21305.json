@@ -1,38 +1,28 @@
 {
+  "id": 21305,
+  "title": [
+    "[House Brigatta, Hallway]"
+  ],
+  "description": [
+    "This narrow hallway ends in a blank wall and at the other end a curtained opening."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "21306": "go opening",
     "21308": "north"
   },
-  "paths": [
-    "Obvious exits: north"
-  ],
+  "timeto": {
+    "21306": 0.2,
+    "21308": 0.2
+  },
+  "image": "wl-brigatta.jpg",
   "image_coords": [
     430,
     560,
     517,
     614
-  ],
-  "terrain": null,
-  "description": [
-    "This narrow hallway ends in a blank wall and at the other end a curtained opening."
-  ],
-  "image": "wl-brigatta.jpg",
-  "climate": null,
-  "title": [
-    "[House Brigatta, Hallway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "21306": 0.2,
-    "21308": 0.2
-  },
-  "id": 21305,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

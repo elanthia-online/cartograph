@@ -1,4 +1,15 @@
 {
+  "id": 2108,
+  "title": [
+    "[Manor House, Entry Hall]"
+  ],
+  "description": [
+    "Pale marble peeks through the thick layer of soot on the floor, hinting at an elegant past for this house.  Graceful stone pedestals line the walls, empty now, but for a few broken shards of crockery that might have once been fine ceramic urns."
+  ],
+  "paths": [
+    "Obvious exits: east, south, southwest, west"
+  ],
+  "location": "the Fhorian Village",
   "wayto": {
     "2112": "go arch",
     "2107": "south",
@@ -6,25 +17,6 @@
     "2109": "east",
     "2111": "southwest"
   },
-  "paths": [
-    "Obvious exits: east, south, southwest, west"
-  ],
-  "image_coords": [
-    965,
-    1066,
-    975,
-    1076
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Pale marble peeks through the thick layer of soot on the floor, hinting at an elegant past for this house.  Graceful stone pedestals line the walls, empty now, but for a few broken shards of crockery that might have once been fine ceramic urns."
-  ],
-  "image": "ti-wilds-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Manor House, Entry Hall]"
-  ],
-  "check_location": null,
   "timeto": {
     "2112": 0.2,
     "2107": 0.2,
@@ -32,13 +24,11 @@
     "2109": 0.2,
     "2111": 0.2
   },
-  "id": 2108,
-  "location": "the Fhorian Village",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "ti-wilds-1264234799.png",
+  "image_coords": [
+    965,
+    1066,
+    975,
+    1076
   ]
 }

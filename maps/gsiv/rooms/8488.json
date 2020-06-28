@@ -1,42 +1,32 @@
 {
+  "id": 8488,
+  "title": [
+    "[Temple, Sanctuary]"
+  ],
+  "description": [
+    "Your footsteps echo through the large, open sanctuary.  Chandeliers hang from the square beams above you, the red wax dripping from them looking disturbingly like blood.  Overturned and splintered pews litter the floor, sprinkled with sparkling dust from the ruined stained glass windows in the walls.  To the east opens a collapsing archway, sagging beneath the stone above it.  A pair of double doors opens to the south."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "the Temple of Love",
   "wayto": {
     "8471": "go double doors",
     "8494": "west",
     "8489": "go arch",
     "8490": "north"
   },
-  "paths": [
-    "Obvious exits: north, west"
-  ],
-  "image_coords": [
-    305,
-    735,
-    315,
-    745
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Your footsteps echo through the large, open sanctuary.  Chandeliers hang from the square beams above you, the red wax dripping from them looking disturbingly like blood.  Overturned and splintered pews litter the floor, sprinkled with sparkling dust from the ruined stained glass windows in the walls.  To the east opens a collapsing archway, sagging beneath the stone above it.  A pair of double doors opens to the south."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Temple, Sanctuary]"
-  ],
-  "check_location": null,
   "timeto": {
     "8471": 0.2,
     "8494": 0.2,
     "8489": 0.2,
     "8490": 0.2
   },
-  "id": 8488,
-  "location": "the Temple of Love",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-trollfang-1264234799.png",
+  "image_coords": [
+    305,
+    735,
+    315,
+    745
   ]
 }

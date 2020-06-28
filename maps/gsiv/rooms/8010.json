@@ -1,38 +1,28 @@
 {
+  "id": 8010,
+  "title": [
+    "[Kobold Mines, Crevice]"
+  ],
+  "description": [
+    "Low and narrow and cramped, this crevice twists and turns sharply.  Fungous growths cling to the clammy walls and send puffs of spores into the air at every touch.  Blind cave insects scuttle about and their long thin feelers brush your hands, seeking food in this eternal darkness."
+  ],
+  "paths": [
+    "Obvious exits: east, down"
+  ],
+  "location": "the old Mine Road",
   "wayto": {
     "8008": "east",
     "8011": "down"
   },
-  "paths": [
-    "Obvious exits: east, down"
-  ],
+  "timeto": {
+    "8008": 0.2,
+    "8011": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     80,
     918,
     90,
     928
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Low and narrow and cramped, this crevice twists and turns sharply.  Fungous growths cling to the clammy walls and send puffs of spores into the air at every touch.  Blind cave insects scuttle about and their long thin feelers brush your hands, seeking food in this eternal darkness."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Kobold Mines, Crevice]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8008": 0.2,
-    "8011": 0.2
-  },
-  "id": 8010,
-  "location": "the old Mine Road",
-  "tags": [
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

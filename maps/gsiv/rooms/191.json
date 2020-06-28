@@ -1,42 +1,32 @@
 {
-  "wayto": {
-    "174": "southeast",
-    "13047": "go walkway",
-    "192": "north"
-  },
-  "paths": [
-    "Obvious paths: north, southeast"
+  "id": 191,
+  "title": [
+    "[Ta'Illistim, Fraendel Var]"
   ],
-  "image_coords": [
-    828,
-    808,
-    850,
-    828
-  ],
-  "terrain": "hard, flat",
   "description": [
     "Stray sunlight gleams off the polished granite buildings as townsfolk wander about on their daily tasks.  Southward above the rooftops, the tip of a lapis-tiled spire can be seen, with a silver and sapphire pennant waving in the breeze.  On this stretch of the var, the roadway seems worn and often used.",
     "Stray moonlight casts a muted, multicolored hue on the granite buildings as a few townsfolk complete their late night tasks along the var.  Southward above the rooftops, the tip of a lapis-tiled spire can be seen, with a silver and sapphire pennant waving in the breeze.  On this stretch of the var, the roadway seems worn and often used.",
     "Southward above the rooftops, the tip of a lapis-tiled spire can be seen, with a silver and sapphire pennant waving in the breeze.  On this stretch of the var, the roadway seems worn and often used, as does the start of a pebbled walkway that branches off the main thoroughfare."
   ],
-  "image": "en-ta_illistim-new.jpg",
-  "climate": "temperate",
-  "title": [
-    "[Ta'Illistim, Fraendel Var]"
+  "paths": [
+    "Obvious paths: north, southeast"
   ],
-  "check_location": null,
+  "location": "Ta'Illistim",
+  "wayto": {
+    "174": "southeast",
+    "13047": "go walkway",
+    "192": "north"
+  },
   "timeto": {
     "174": 0.2,
     "13047": 0.2,
     "192": 0.2
   },
-  "id": 191,
-  "location": "Ta'Illistim",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-ta_illistim-new.jpg",
+  "image_coords": [
+    828,
+    808,
+    850,
+    828
   ]
 }

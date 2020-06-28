@@ -1,42 +1,32 @@
 {
+  "id": 6658,
+  "title": [
+    "[Monastery, Granite Hallway]"
+  ],
+  "description": [
+    "Open doorways lead into small offices to the east and west.  The floors and walls are made of granite slabs cut to fit perfectly to form a seamless surface.  Religious trappings for some of the dark gods adorn the walls at randomly spaced intervals down the hallway."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south, west"
+  ],
+  "location": "the Broken Lands",
   "wayto": {
     "6657": "south",
     "6659": "north",
     "6660": "east",
     "6661": "west"
   },
-  "paths": [
-    "Obvious exits: north, east, south, west"
-  ],
-  "image_coords": [
-    384,
-    1101,
-    394,
-    1111
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Open doorways lead into small offices to the east and west.  The floors and walls are made of granite slabs cut to fit perfectly to form a seamless surface.  Religious trappings for some of the dark gods adorn the walls at randomly spaced intervals down the hallway."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Monastery, Granite Hallway]"
-  ],
-  "check_location": null,
   "timeto": {
     "6657": 0.2,
     "6659": 0.2,
     "6660": 0.2,
     "6661": 0.2
   },
-  "id": 6658,
-  "location": "the Broken Lands",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-broken-1264234799.png",
+  "image_coords": [
+    384,
+    1101,
+    394,
+    1111
   ]
 }

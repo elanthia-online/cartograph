@@ -1,40 +1,29 @@
 {
+  "id": 11518,
+  "title": [
+    "[Ruined Dungeon, Passageway]"
+  ],
+  "description": [
+    "Dark shadows play off of the walls of the dank corridor, giving the impression of scampering imps just out of your sight.  The passage continues in two directions, angling slightly upward to the northwest, with a gentle downward slope to the northeast.  Web-shrouded steps descend into the darkness below."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest, down"
+  ],
   "wayto": {
     "11526": "down",
     "11516": "northwest",
     "11519": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, northwest, down"
-  ],
-  "image_coords": [
-    954,
-    1036,
-    964,
-    1046
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Dark shadows play off of the walls of the dank corridor, giving the impression of scampering imps just out of your sight.  The passage continues in two directions, angling slightly upward to the northwest, with a gentle downward slope to the northeast.  Web-shrouded steps descend into the darkness below."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "indoors",
-  "title": [
-    "[Ruined Dungeon, Passageway]"
-  ],
-  "check_location": null,
   "timeto": {
     "11526": 0.2,
     "11516": 0.2,
     "11519": 0.2
   },
-  "id": 11518,
-  "location": "the Ruined Tower",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-maelstrom-1266390501.png",
+  "image_coords": [
+    954,
+    1036,
+    964,
+    1046
   ]
 }

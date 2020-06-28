@@ -1,40 +1,30 @@
 {
-  "wayto": {
-    "7316": {
-      "stringproc": "a35f1e01ad80df6fde775bf0fbe72cb0"
-    },
-    "7314": "west"
-  },
+  "id": 7315,
+  "title": [
+    "[Underground Chamber]"
+  ],
+  "description": [
+    "This underground chamber seems to be naturally formed, perhaps from some tectonic movement or similar seismic activity.  The tunnel leading away however is obviously recently dug and, it appears, somewhat hastily done.  The layout of this place is rounded, with a concave floor in the middle."
+  ],
   "paths": [
     "Obvious exits: west"
   ],
+  "location": "the Graveyard",
+  "wayto": {
+    "7316": {
+      "file": "string_procs/wayto/7315_7316.rb"
+    },
+    "7314": "west"
+  },
+  "timeto": {
+    "7316": 0.2,
+    "7314": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     966,
     482,
     976,
     492
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This underground chamber seems to be naturally formed, perhaps from some tectonic movement or similar seismic activity.  The tunnel leading away however is obviously recently dug and, it appears, somewhat hastily done.  The layout of this place is rounded, with a concave floor in the middle."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Underground Chamber]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7316": 0.2,
-    "7314": 0.2
-  },
-  "id": 7315,
-  "location": "the Graveyard",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

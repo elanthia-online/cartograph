@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "12143": "southwest",
-    "2635": {
-      "stringproc": "f88a5ac335110328444947aa8fdfa490"
-    },
-    "12093": {
-      "stringproc": "dc0110972ab7e067d5fec20ece15581c"
-    },
-    "12137": "northwest",
-    "2605": {
-      "stringproc": "317c6eedd1ea40322b9b26b259a3053f"
-    }
-  },
+  "id": 12142,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "Gargoyles hover above a huge, dark pit in the ground a small distance off.  They occasionally swoop into it, then shoot out on a burst of air, screaming with excitement.  All manner of bugs and small creatures swarm around the lip of the hole, the thick ring oozing slowly outward from its point of origin."
+  ],
   "paths": [
     "Obvious paths: southwest, northwest",
     "Obvious exits: southwest, northwest"
   ],
-  "image_coords": [
-    921,
-    726,
-    931,
-    736
-  ],
-  "terrain": null,
-  "description": [
-    "Gargoyles hover above a huge, dark pit in the ground a small distance off.  They occasionally swoop into it, then shoot out on a burst of air, screaming with excitement.  All manner of bugs and small creatures swarm around the lip of the hole, the thick ring oozing slowly outward from its point of origin."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12143": "southwest",
+    "2635": {
+      "file": "string_procs/wayto/12142_2635.rb"
+    },
+    "12093": {
+      "file": "string_procs/wayto/12142_12093.rb"
+    },
+    "12137": "northwest",
+    "2605": {
+      "file": "string_procs/wayto/12142_2605.rb"
+    }
+  },
   "timeto": {
     "12143": 0.2,
     "2635": 16.0,
@@ -39,18 +31,19 @@
     "12137": 0.2,
     "2605": 16.0
   },
-  "id": 12142,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    921,
+    726,
+    931,
+    736
+  ],
   "tags": [
     "withered deathblossom",
     "mass of congealed slime",
     "twisted black mawflower",
     "slime-covered grave blossom",
     "discolored fleshbinder bud",
-    "oozing fleshsore bulb",
-    "rotting bile green fleshbulb"
-  ],
-  "links": [
-
+    "oozing fleshsore bulb"
   ]
 }

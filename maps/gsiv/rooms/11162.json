@@ -1,35 +1,32 @@
 {
+  "id": 11162,
+  "title": [
+    "[Citadel, Outside]"
+  ],
+  "description": [
+    "To the east you can see a huge old oak tree and to the west, the windowless walls of the old building.  The walkway continues to the north and south and seems to be in somewhat better shape than elsewhere."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11161": "s",
     "11163": "n",
     "11201": "climb tree"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "11161": 0.2,
+    "11163": 0.2,
+    "11201": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     940,
     606,
     950,
     616
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "To the east you can see a huge old oak tree and to the west, the windowless walls of the old building.  The walkway continues to the north and south and seems to be in somewhat better shape than elsewhere."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "moist",
-  "title": [
-    "[Citadel, Outside]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11161": 0.2,
-    "11163": 0.2,
-    "11201": 0.2
-  },
-  "id": 11162,
-  "location": "the Citadel",
   "tags": [
     "some aloeas stem",
     "bright red cranberry",
@@ -41,17 +38,6 @@
     "some wingstem root",
     "some calamia fruit",
     "wild chokecherry",
-    "some motherwort",
-    "acantha leaf",
-    "calamia fruit",
-    "aloeas stem",
-    "motherwort",
-    "murkweed",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some motherwort"
   ]
 }

@@ -1,38 +1,28 @@
 {
+  "id": 12706,
+  "title": [
+    "[Ruined Temple, Second Floor]"
+  ],
+  "description": [
+    "The ruined hall continues north and south, the environment oddly undisturbed, save for the occasional drop of water that falls from the ceiling.  A pair of clay pots rests at the base of the wall, each filled to the brim with water."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Ruined Temple",
   "wayto": {
     "12705": "north",
     "12707": "south"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "12705": 0.2,
+    "12707": 0.2
+  },
+  "image": "ti-nelemar-1262373036.png",
   "image_coords": [
     405,
     641,
     441,
     677
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The ruined hall continues north and south, the environment oddly undisturbed, save for the occasional drop of water that falls from the ceiling.  A pair of clay pots rests at the base of the wall, each filled to the brim with water."
-  ],
-  "image": "ti-nelemar-1262373036.png",
-  "climate": "indoors",
-  "title": [
-    "[Ruined Temple, Second Floor]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "12705": 0.2,
-    "12707": 0.2
-  },
-  "id": 12706,
-  "location": "the Ruined Temple",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

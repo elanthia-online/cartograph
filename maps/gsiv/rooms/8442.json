@@ -1,33 +1,30 @@
 {
+  "id": 8442,
+  "title": [
+    "[Upper Trollfang, Sentoph]"
+  ],
+  "description": [
+    "You stumble and trip over the loose rocks and pebbles that litter the narrow path.  Greyish bushes cling to the rock, dusty, half-dead things that look like they haven't had water in months."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "8436": "northeast",
     "8441": "west"
   },
-  "paths": [
-    "Obvious paths: northeast, west"
-  ],
+  "timeto": {
+    "8436": 0.2,
+    "8441": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     659,
     910,
     669,
     920
   ],
-  "terrain": "rough",
-  "description": [
-    "You stumble and trip over the loose rocks and pebbles that litter the narrow path.  Greyish bushes cling to the rock, dusty, half-dead things that look like they haven't had water in months."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Upper Trollfang, Sentoph]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8436": 0.2,
-    "8441": 0.2
-  },
-  "id": 8442,
-  "location": "the Upper Trollfang",
   "tags": [
     "handful of currants",
     "sprig of alyssum",
@@ -42,25 +39,6 @@
     "bright red teaberry",
     "fiddlehead fern",
     "sprig of larkspur",
-    "purple clover blossom",
-    "wild strawberry",
-    "blueberries",
-    "elderberries",
-    "wild gooseberry",
-    "wild grapes",
-    "broken twig",
-    "golden buttercup",
-    "stalk of goldenrod",
-    "yellow primrose",
-    "small wild rose",
-    "wild chokecherry",
-    "motherwort",
-    "white baneberry",
-    "pepperthorn root",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "purple clover blossom"
   ]
 }

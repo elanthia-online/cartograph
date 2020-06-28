@@ -1,41 +1,33 @@
 {
-  "wayto": {
-    "12978": "south",
-    "26": "out"
-  },
+  "id": 1439,
+  "title": [
+    "[Tanzania's Gems & Jewelry]"
+  ],
+  "description": [
+    "Soft amber-hued velvet curtains frame the shop's glaesine windows.  Thick garnet-colored carpeting muffles all sounds of footfalls as shoppers mill about the shop, buying and selling various pieces of jewelry and gems.  Sunlight streams in through the glaesine windowpanes, illuminating the jewels displayed in cases along the rear wall.",
+    "Soft amber-hued velvet curtains frame the shop's glaesine windows.  Thick garnet-colored carpeting muffles all sounds of footfalls as shoppers mill about the shop, buying and selling various pieces of jewelry and gems.  Moonlight streams in through the glaesine windowpanes, illuminating the jewels displayed in cases along the rear wall."
+  ],
   "paths": [
     "Obvious exits: south, out",
     "Obvious exits: out"
   ],
+  "location": "Ta'Illistim",
+  "wayto": {
+    "12978": "south",
+    "26": "out"
+  },
+  "timeto": {
+    "12978": 0.2,
+    "26": 0.2
+  },
+  "image": "en-ta_illistim-new.jpg",
   "image_coords": [
     1150,
     770,
     1171,
     794
   ],
-  "terrain": "indoors",
-  "description": [
-    "Soft amber-hued velvet curtains frame the shop's glaesine windows.  Thick garnet-colored carpeting muffles all sounds of footfalls as shoppers mill about the shop, buying and selling various pieces of jewelry and gems.  Sunlight streams in through the glaesine windowpanes, illuminating the jewels displayed in cases along the rear wall.",
-    "Soft amber-hued velvet curtains frame the shop's glaesine windows.  Thick garnet-colored carpeting muffles all sounds of footfalls as shoppers mill about the shop, buying and selling various pieces of jewelry and gems.  Moonlight streams in through the glaesine windowpanes, illuminating the jewels displayed in cases along the rear wall."
-  ],
-  "image": "en-ta_illistim-new.jpg",
-  "climate": "indoors",
-  "title": [
-    "[Tanzania's Gems & Jewelry]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "12978": 0.2,
-    "26": 0.2
-  },
-  "id": 1439,
-  "location": "Ta'Illistim",
   "tags": [
-    "gemshop",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "gemshop"
   ]
 }

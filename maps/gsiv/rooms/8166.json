@@ -1,43 +1,28 @@
 {
+  "id": 8166,
+  "title": [
+    "[Mine]"
+  ],
+  "description": [
+    "A large natural cavern starts to expand as you step amid piles of rock debris.  The north wall has been chipped and hewn up to the edge of the crevice.  The black maw of a chasm before you is broken only by a single rotted plank that bridges it."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the crystal caves",
   "wayto": {
     "8165": "go plank",
     "8167": "east"
   },
-  "paths": [
-    "Obvious exits: east"
-  ],
+  "timeto": {
+    "8165": 0.2,
+    "8167": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     890,
     574,
     900,
     584
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A large natural cavern starts to expand as you step amid piles of rock debris.  The north wall has been chipped and hewn up to the edge of the crevice.  The black maw of a chasm before you is broken only by a single rotted plank that bridges it."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8165": 0.2,
-    "8167": 0.2
-  },
-  "id": 8166,
-  "location": "the crystal caves",
-  "tags": [
-    "wolifrew lichen",
-    "withered black mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

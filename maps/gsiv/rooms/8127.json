@@ -1,33 +1,30 @@
 {
+  "id": 8127,
+  "title": [
+    "[Dubh Brugh, Cavern]"
+  ],
+  "description": [
+    "The cavern slopes up steeply, though cracks and dips in the speckled granite make it fairly easy to climb.  A tiny stream of water runs down along the side, but the ground is mostly dry underfoot."
+  ],
+  "paths": [
+    "Obvious exits: southeast, up"
+  ],
+  "location": "Dubh Brugh",
   "wayto": {
     "8128": "southeast",
     "8125": "up"
   },
-  "paths": [
-    "Obvious exits: southeast, up"
-  ],
+  "timeto": {
+    "8128": 0.2,
+    "8125": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     1122,
     669,
     1132,
     679
   ],
-  "terrain": "indoors",
-  "description": [
-    "The cavern slopes up steeply, though cracks and dips in the speckled granite make it fairly easy to climb.  A tiny stream of water runs down along the side, but the ground is mostly dry underfoot."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dubh Brugh, Cavern]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8128": 0.2,
-    "8125": 0.2
-  },
-  "id": 8127,
-  "location": "Dubh Brugh",
   "tags": [
     "blue trafel mushroom",
     "some cave moss",
@@ -37,16 +34,6 @@
     "daggerstalk mushroom",
     "some wingstem root",
     "genkew mushroom",
-    "withered black mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "withered black mushroom"
   ]
 }

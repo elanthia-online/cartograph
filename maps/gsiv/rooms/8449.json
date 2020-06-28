@@ -1,35 +1,32 @@
 {
+  "id": 8449,
+  "title": [
+    "[Upper Trollfang, Sentoph]"
+  ],
+  "description": [
+    "The path narrows to a mere handspan, forcing you to turn sideways and edge your way across, one careful step at a time.  No trees nor even bushes grow here to give you a handhold.  An occasional gust of wind howls past, threatening to pluck you from your unsteady perch, setting your heart thumping with terror."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, down"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "8448": "northeast",
     "8460": "down",
     "8443": "southeast"
   },
-  "paths": [
-    "Obvious paths: northeast, southeast, down"
-  ],
+  "timeto": {
+    "8448": 0.2,
+    "8460": 0.2,
+    "8443": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     491,
     775,
     501,
     785
   ],
-  "terrain": "mountainous",
-  "description": [
-    "The path narrows to a mere handspan, forcing you to turn sideways and edge your way across, one careful step at a time.  No trees nor even bushes grow here to give you a handhold.  An occasional gust of wind howls past, threatening to pluck you from your unsteady perch, setting your heart thumping with terror."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Upper Trollfang, Sentoph]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8448": 0.2,
-    "8460": 0.2,
-    "8443": 0.2
-  },
-  "id": 8449,
-  "location": "the Upper Trollfang",
   "tags": [
     "some valerian root",
     "sweetfern stalk",
@@ -37,20 +34,6 @@
     "sprig of larkspur",
     "some pennyroyal stem",
     "cuctucae berry",
-    "some wingstem root",
-    "marallis berry",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "ironfern root",
-    "sunburst blossom",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

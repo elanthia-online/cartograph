@@ -1,35 +1,32 @@
 {
+  "id": 480,
+  "title": [
+    "[Coastal Cliffs]"
+  ],
+  "description": [
+    "A sparse stand of trees partially blocks your view to the south and west.  Gnarled branches bend inland, yet seem to defy the coastal winds with their endurance."
+  ],
+  "paths": [
+    "Obvious paths: east, northwest"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "479": "east",
     "481": "northwest",
     "15980": "go trail"
   },
-  "paths": [
-    "Obvious paths: east, northwest"
-  ],
+  "timeto": {
+    "479": 0.2,
+    "481": 0.2,
+    "15980": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     577,
     839,
     607,
     869
   ],
-  "terrain": "hilly",
-  "description": [
-    "A sparse stand of trees partially blocks your view to the south and west.  Gnarled branches bend inland, yet seem to defy the coastal winds with their endurance."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Coastal Cliffs]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "479": 0.2,
-    "481": 0.2,
-    "15980": 0.2
-  },
-  "id": 480,
-  "location": "the Coastal Cliffs",
   "tags": [
     "withered black mushroom",
     "tkaro root",
@@ -68,11 +65,6 @@
     "twisted twig",
     "slender twig",
     "bolmara lichen",
-    "brostheras grass",
-    "sunburst blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

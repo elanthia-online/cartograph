@@ -1,41 +1,32 @@
 {
-  "wayto": {
-    "2642": {
-      "stringproc": "a0113a72c39f5ee9f6b11ca3b87797f7"
-    },
-    "2646": {
-      "stringproc": "36fc97c8e449671ab797c6b425552c81"
-    }
-  },
+  "id": 2645,
+  "title": [
+    "[Pool]"
+  ],
+  "description": [
+    "The depths churn with ferocious tenacity, tossing everything within its embrace like leaves caught in a wind.  Directions are difficult to ascertain, and even the brave beams of light filtering down into the morass seem to bend and stretch in response the currents' vicious onslaught.  Through a momentary lull in the flux, the rough surface of the rock wall of the pool is revealed, scarred by pits and depressions."
+  ],
   "paths": [
     "Obvious exits: up"
   ],
+  "location": false,
+  "wayto": {
+    "2642": {
+      "file": "string_procs/wayto/2645_2642.rb"
+    },
+    "2646": {
+      "file": "string_procs/wayto/2645_2646.rb"
+    }
+  },
+  "timeto": {
+    "2642": 5.0,
+    "2646": 5.0
+  },
+  "image": "imt-pinefar-1264234799.png",
   "image_coords": [
     296,
     428,
     306,
     438
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The depths churn with ferocious tenacity, tossing everything within its embrace like leaves caught in a wind.  Directions are difficult to ascertain, and even the brave beams of light filtering down into the morass seem to bend and stretch in response the currents' vicious onslaught.  Through a momentary lull in the flux, the rough surface of the rock wall of the pool is revealed, scarred by pits and depressions."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Pool]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2642": 5.0,
-    "2646": 5.0
-  },
-  "id": 2645,
-  "location": false,
-  "tags": [
-
-  ],
-  "links": [
-
   ]
 }

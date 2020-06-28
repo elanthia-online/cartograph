@@ -1,44 +1,32 @@
 {
+  "id": 1764,
+  "title": [
+    "[Gossamer Valley, Blind Canyon]"
+  ],
+  "description": [
+    "The glacier continues its relentless descent from northeast to southwest, fueled by the constant supply of snow from the mountainsides.  The snow slides down, piling high on top of the glacier and turning the lower levels of snow into ice.  This ice, in turn, becomes part of the glacier, and the combined weight forces the entire ice mass downward to the southwest in a slow, imperceptible, grinding movement."
+  ],
+  "paths": [
+    "Obvious paths: up, down"
+  ],
+  "location": "Gossamer Valley",
   "wayto": {
     "1763": "down",
     "1765": "up"
   },
-  "paths": [
-    "Obvious paths: up, down"
-  ],
+  "timeto": {
+    "1763": 0.2,
+    "1765": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     338,
     492,
     348,
     502
   ],
-  "terrain": "mountainous",
-  "description": [
-    "The glacier continues its relentless descent from northeast to southwest, fueled by the constant supply of snow from the mountainsides.  The snow slides down, piling high on top of the glacier and turning the lower levels of snow into ice.  This ice, in turn, becomes part of the glacier, and the combined weight forces the entire ice mass downward to the southwest in a slow, imperceptible, grinding movement."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Gossamer Valley, Blind Canyon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1763": 0.2,
-    "1765": 0.2
-  },
-  "id": 1764,
-  "location": "Gossamer Valley",
   "tags": [
     "sweetfern stalk",
-    "sprig of holly",
-    "sassafras leaf",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sprig of holly"
   ]
 }

@@ -1,39 +1,28 @@
 {
+  "id": 3271,
+  "title": [
+    "[Ice Plains, Dark Cavern]"
+  ],
+  "description": [
+    "The passage here is long and narrow with several timbers in place to shore up the ceiling in several places.  The well-travelled floor is littered with tracks of some very large creatures but you can't quite identify them."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Ice Plains",
   "wayto": {
     "3272": "north",
     "3265": "go open"
   },
-  "paths": [
-    "Obvious exits: north"
-  ],
+  "timeto": {
+    "3272": 0.2,
+    "3265": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     343,
     354,
     353,
     364
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The passage here is long and narrow with several timbers in place to shore up the ceiling in several places.  The well-travelled floor is littered with tracks of some very large creatures but you can't quite identify them."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Ice Plains, Dark Cavern]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3272": 0.2,
-    "3265": 0.2
-  },
-  "id": 3271,
-  "location": "the Ice Plains",
-  "tags": [
-    "arctic moss",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,38 +1,31 @@
 {
+  "id": 2367,
+  "title": [
+    "[Magical Burrow, Demons Lane]"
+  ],
+  "description": [
+    "A constant chilly breeze together with the short dark houses surrounded by intricately patterned wrought-iron fences give you an uneasy feeling about this part of town.  It does not quite feel evil, but there is something disquieting in the air."
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "2366": "northwest",
     "2368": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, northwest"
-  ],
+  "timeto": {
+    "2366": 0.2,
+    "2368": 0.2
+  },
+  "image": "imt-icemule-1474811966.png",
   "image_coords": [
     316,
     698,
     352,
     734
   ],
-  "terrain": "hard, flat",
-  "description": [
-    "A constant chilly breeze together with the short dark houses surrounded by intricately patterned wrought-iron fences give you an uneasy feeling about this part of town.  It does not quite feel evil, but there is something disquieting in the air."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Magical Burrow, Demons Lane]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2366": 0.2,
-    "2368": 0.2
-  },
-  "id": 2367,
-  "location": "Icemule Trace",
   "tags": [
-    "calmintha flower",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "calmintha flower"
   ]
 }

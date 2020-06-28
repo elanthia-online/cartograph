@@ -1,37 +1,34 @@
 {
+  "id": 25194,
+  "title": [
+    "[Crimson Raven, Bar]"
+  ],
+  "description": [
+    "A polished cherry bar extends along the south wall of the room, behind which can be seen an impressive selection of wines and liquors.  Soldiers mill about, some leaning against the bar having a solitary drink, some gathered in conversation around a few tall tables, and some crowding around the arch to the game room, people-watching.  A large mirror over the back of the bar has been painstakingly cut into the shape of a raven, with shallower cuts picking out the detail of feathers, beak, and glittering eyes."
+  ],
+  "paths": [
+    "Obvious exits: west, northwest"
+  ],
+  "location": "Ta'Vaalor Inns",
   "wayto": {
     "25196": "northwest",
     "25192": "west",
     "25200": {
-      "stringproc": "e58105ab8fd98ab6589759d81bea879d"
+      "file": "string_procs/wayto/25194_25200.rb"
     },
     "25197": {
-      "stringproc": "7097538c0a5d9f32b0c7681477133610"
+      "file": "string_procs/wayto/25194_25197.rb"
     },
     "25198": {
-      "stringproc": "1b6c2417010177a5952b5b25635743b5"
+      "file": "string_procs/wayto/25194_25198.rb"
     },
     "25199": {
-      "stringproc": "9bdaa3ca15bc447fa2663990fd0b2e2b"
+      "file": "string_procs/wayto/25194_25199.rb"
     },
     "25201": {
-      "stringproc": "abf1cdd045163b4840e151b0a93e8984"
+      "file": "string_procs/wayto/25194_25201.rb"
     }
   },
-  "paths": [
-    "Obvious exits: west, northwest"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "A polished cherry bar extends along the south wall of the room, behind which can be seen an impressive selection of wines and liquors.  Soldiers mill about, some leaning against the bar having a solitary drink, some gathered in conversation around a few tall tables, and some crowding around the arch to the game room, people-watching.  A large mirror over the back of the bar has been painstakingly cut into the shape of a raven, with shallower cuts picking out the detail of feathers, beak, and glittering eyes."
-  ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Crimson Raven, Bar]"
-  ],
-  "check_location": null,
   "timeto": {
     "25196": 0.2,
     "25192": 0.2,
@@ -40,11 +37,5 @@
     "25198": 0.2,
     "25199": 0.2,
     "25201": 0.2
-  },
-  "id": 25194,
-  "location": "Ta'Vaalor Inns",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  }
 }

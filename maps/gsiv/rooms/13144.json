@@ -1,48 +1,28 @@
 {
+  "id": 13144,
+  "title": [
+    "[Zul Logoth, Moss Tunnel]"
+  ],
+  "description": [
+    "A blackened iron gate cuts off passage through a hole in the tunnel to the west.  Darkness shrouds the area beyond the blockage, though water can be heard dripping from somewhere on high."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east"
+  ],
+  "location": "the tunnels and caverns of Zul Logoth",
   "wayto": {
     "13143": "east",
     "13145": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, east"
-  ],
+  "timeto": {
+    "13143": 0.2,
+    "13145": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     1107,
     492,
     1127,
     512
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A blackened iron gate cuts off passage through a hole in the tunnel to the west.  Darkness shrouds the area beyond the blockage, though water can be heard dripping from somewhere on high."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Zul Logoth, Moss Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "13143": 0.2,
-    "13145": 0.2
-  },
-  "id": 13144,
-  "location": "the tunnels and caverns of Zul Logoth",
-  "tags": [
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

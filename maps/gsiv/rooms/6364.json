@@ -1,40 +1,31 @@
 {
-  "wayto": {
-    "6245": {
-      "stringproc": "d5fba80dc1c7437649e734294a0335b7"
-    },
-    "6365": "west"
-  },
+  "id": 6364,
+  "title": [
+    "[Labyrinth, The Dark Altar]"
+  ],
+  "description": [
+    "Moonlight teases the area from the ceiling, hinting at the unreachable surface above.  Unnatural yellow fires burn steadily in bronze fire bowls along the path, but emanate no heat.",
+    "Daylight teases the area from the ceiling, hinting at the unreachable surface above.  Unnatural yellow fires burn steadily in bronze fire bowls along the path, but emanate no heat."
+  ],
   "paths": [
     "Obvious exits: west"
   ],
+  "location": "The Hidden Plateau",
+  "wayto": {
+    "6245": {
+      "file": "string_procs/wayto/6364_6245.rb"
+    },
+    "6365": "west"
+  },
+  "timeto": {
+    "6245": 30.0,
+    "6365": 0.2
+  },
+  "image": "wl-wehntoph-1310775397.png",
   "image_coords": [
     1111,
     493,
     1129,
     511
-  ],
-  "terrain": null,
-  "description": [
-    "Moonlight teases the area from the ceiling, hinting at the unreachable surface above.  Unnatural yellow fires burn steadily in bronze fire bowls along the path, but emanate no heat.",
-    "Daylight teases the area from the ceiling, hinting at the unreachable surface above.  Unnatural yellow fires burn steadily in bronze fire bowls along the path, but emanate no heat."
-  ],
-  "image": "wl-wehntoph-1310775397.png",
-  "climate": null,
-  "title": [
-    "[Labyrinth, The Dark Altar]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6245": 30.0,
-    "6365": 0.2
-  },
-  "id": 6364,
-  "location": "The Hidden Plateau",
-  "tags": [
-
-  ],
-  "links": [
-
   ]
 }

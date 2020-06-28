@@ -1,41 +1,28 @@
 {
+  "id": 7426,
+  "title": [
+    "[Mine Tunnels]"
+  ],
+  "description": [
+    "The walls are mottled with little holes, probably from the random pickings of miners searching for silver metal.  No sign of the mineral still exists that you can see."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7425": "north",
     "7427": "southeast"
   },
-  "paths": [
-    "Obvious exits: north, southeast"
-  ],
+  "timeto": {
+    "7425": 0.2,
+    "7427": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1177,
     163,
     1185,
     171
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The walls are mottled with little holes, probably from the random pickings of miners searching for silver metal.  No sign of the mineral still exists that you can see."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mine Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7425": 0.2,
-    "7427": 0.2
-  },
-  "id": 7426,
-  "location": "the Shadow Valley",
-  "tags": [
-    "cave moss",
-    "blackgrove root",
-    "shadowlace moss",
-    "blue moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

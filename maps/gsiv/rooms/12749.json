@@ -1,38 +1,28 @@
 {
+  "id": 12749,
+  "title": [
+    "[Ruined Temple, Second Floor]"
+  ],
+  "description": [
+    "Daylight streams in through a window along the northern wall, revealing dark scorch marks along the stone walls.  The floor is completely submerged below nearly a foot of water, and several large pieces of rotted wood float about haphazardly."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the Ruined Temple",
   "wayto": {
     "12750": "east",
     "12708": "go stairs"
   },
-  "paths": [
-    "Obvious exits: east"
-  ],
+  "timeto": {
+    "12750": 0.2,
+    "12708": 0.2
+  },
+  "image": "ti-nelemar-1262373036.png",
   "image_coords": [
     405,
     236,
     441,
     272
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Daylight streams in through a window along the northern wall, revealing dark scorch marks along the stone walls.  The floor is completely submerged below nearly a foot of water, and several large pieces of rotted wood float about haphazardly."
-  ],
-  "image": "ti-nelemar-1262373036.png",
-  "climate": "indoors",
-  "title": [
-    "[Ruined Temple, Second Floor]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "12750": 0.2,
-    "12708": 0.2
-  },
-  "id": 12749,
-  "location": "the Ruined Temple",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,48 +1,31 @@
 {
+  "id": 9572,
+  "title": [
+    "[Czeroth Caverns, Tunnel]"
+  ],
+  "description": [
+    "The tunnel narrows and slopes more steeply to the southeast.  The walls of the tunnel are rough here, small crevices and niches dimly illuminated with phosphorescent minerals.  The sound of something scratching seems to come from all directions."
+  ],
+  "paths": [
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "the Czeroth Caverns",
   "wayto": {
     "9571": "northwest",
     "9573": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast, northwest"
-  ],
+  "timeto": {
+    "9571": 0.2,
+    "9573": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     1213,
     390,
     1223,
     400
   ],
-  "terrain": "indoors",
-  "description": [
-    "The tunnel narrows and slopes more steeply to the southeast.  The walls of the tunnel are rough here, small crevices and niches dimly illuminated with phosphorescent minerals.  The sound of something scratching seems to come from all directions."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Czeroth Caverns, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9571": 0.2,
-    "9573": 0.2
-  },
-  "id": 9572,
-  "location": "the Czeroth Caverns",
   "tags": [
-    "flathead mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "flathead mushroom"
   ]
 }

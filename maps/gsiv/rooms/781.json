@@ -1,34 +1,31 @@
 {
+  "id": 781,
+  "title": [
+    "[Whistler's Pass, Tunnel]"
+  ],
+  "description": [
+    "The tunnel opens out to a large antechamber lit by a triangular beam of moonlight that glimmers through a distinctively-shaped entryway.  The chamber appears to have begun as a small cave, but was later widened to provide room for travelers to take shelter at night or during inclement weather.",
+    "The tunnel opens out to a large antechamber lit by a triangular beam of light that streams through a distinctively-shaped entryway.  The chamber appears to have begun as a cave, but was later widened to provide room for travelers to take shelter at night or during inclement weather."
+  ],
+  "paths": [
+    "Obvious paths: southwest, out"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "780": "out",
     "782": "southwest"
   },
-  "paths": [
-    "Obvious paths: southwest, out"
-  ],
+  "timeto": {
+    "780": 0.2,
+    "782": 0.2
+  },
+  "image": "en-whistlers_pass-1264234799.png",
   "image_coords": [
     1053,
     177,
     1063,
     187
   ],
-  "terrain": "subterranean",
-  "description": [
-    "The tunnel opens out to a large antechamber lit by a triangular beam of moonlight that glimmers through a distinctively-shaped entryway.  The chamber appears to have begun as a small cave, but was later widened to provide room for travelers to take shelter at night or during inclement weather.",
-    "The tunnel opens out to a large antechamber lit by a triangular beam of light that streams through a distinctively-shaped entryway.  The chamber appears to have begun as a cave, but was later widened to provide room for travelers to take shelter at night or during inclement weather."
-  ],
-  "image": "en-whistlers_pass-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Whistler's Pass, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "780": 0.2,
-    "782": 0.2
-  },
-  "id": 781,
-  "location": "Whistler's Pass",
   "tags": [
     "white hook mushroom",
     "ironfern root",
@@ -36,10 +33,6 @@
     "wingstem root",
     "meta:mapname:Elven Nations - Whistler's Pass",
     "meta:mapshortname:Whistler's Pass",
-    "meta:mapcategory:Elven Nations",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:mapcategory:Elven Nations"
   ]
 }

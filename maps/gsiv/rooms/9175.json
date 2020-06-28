@@ -1,38 +1,28 @@
 {
+  "id": 9175,
+  "title": [
+    "[Thurfel's Keep]"
+  ],
+  "description": [
+    "A pulsating green and yellow mist fills this room, making it nearly impossible to see anything further than your own hand.  There doesn't appear to be any reason for the fog or the slowly dancing lights within it, but it does bear a rather pleasant light citrus smell."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Thurfel's Island",
   "wayto": {
     "9174": "south",
     "9204": "go mist"
   },
-  "paths": [
-    "Obvious exits: south"
-  ],
+  "timeto": {
+    "9174": 0.2,
+    "9204": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     767,
     910,
     777,
     920
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A pulsating green and yellow mist fills this room, making it nearly impossible to see anything further than your own hand.  There doesn't appear to be any reason for the fog or the slowly dancing lights within it, but it does bear a rather pleasant light citrus smell."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thurfel's Keep]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9174": 0.2,
-    "9204": 0.2
-  },
-  "id": 9175,
-  "location": "Thurfel's Island",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

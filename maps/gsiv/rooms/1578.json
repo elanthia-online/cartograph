@@ -1,42 +1,32 @@
 {
+  "id": 1578,
+  "title": [
+    "[Solhaven, Fishmarket Pier]"
+  ],
+  "description": [
+    "A group of sailors wanders past, holding steaming fishcakes that they consume as they walk.  A small wooden shack rests on the quay, and through the open door comes the strong odor of frying fish."
+  ],
+  "paths": [
+    "Obvious paths: east, south, west"
+  ],
+  "location": "the southern part of Solhaven",
   "wayto": {
     "1577": "east",
     "9310": "go shack",
     "1580": "west",
     "1579": "south"
   },
-  "paths": [
-    "Obvious paths: east, south, west"
-  ],
-  "image_coords": [
-    453,
-    1332,
-    477,
-    1356
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "A group of sailors wanders past, holding steaming fishcakes that they consume as they walk.  A small wooden shack rests on the quay, and through the open door comes the strong odor of frying fish."
-  ],
-  "image": "vo-solhaven-1263764670.png",
-  "climate": "hot, damp",
-  "title": [
-    "[Solhaven, Fishmarket Pier]"
-  ],
-  "check_location": null,
   "timeto": {
     "1577": 0.2,
     "9310": 0.2,
     "1580": 0.2,
     "1579": 0.2
   },
-  "id": 1578,
-  "location": "the southern part of Solhaven",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "vo-solhaven-1263764670.png",
+  "image_coords": [
+    453,
+    1332,
+    477,
+    1356
   ]
 }

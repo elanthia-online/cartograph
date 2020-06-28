@@ -1,36 +1,24 @@
 {
-  "wayto": {
-    "20071": "go steps",
-    "23120": {
-      "stringproc": "fc5d7bd4af9eda1c279209af61339d75"
-    }
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Along the walls, a group of ebonwood coffins has been plundered, leaving only some skeletal remains.  The circular room is a dead end, and the only exit is the flight of steps leading back toward the front.  A rusted iron plaque, its surface barely legible, is hammered into the granite wall."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 20072,
   "title": [
     "[Sunken Mausoleam, Dead End]",
     "[Sunken Mausoleum, Dead End]"
   ],
-  "check_location": null,
+  "description": [
+    "Along the walls, a group of ebonwood coffins has been plundered, leaving only some skeletal remains.  The circular room is a dead end, and the only exit is the flight of steps leading back toward the front.  A rusted iron plaque, its surface barely legible, is hammered into the granite wall."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Feymist Cemetery",
+  "wayto": {
+    "20071": "go steps",
+    "23120": {
+      "file": "string_procs/wayto/20072_23120.rb"
+    }
+  },
   "timeto": {
     "20071": 0.2,
     "23120": 0.2
-  },
-  "id": 20072,
-  "location": "the Feymist Cemetery",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  }
 }

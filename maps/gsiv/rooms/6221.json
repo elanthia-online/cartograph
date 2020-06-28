@@ -1,43 +1,37 @@
 {
-  "wayto": {
-    "6222": {
-      "stringproc": "f73fe1f69d8ebae05434293b7cfcc23c"
-    },
-    "6200": "west"
-  },
+  "id": 6221,
+  "title": [
+    "[Labyrinth]"
+  ],
+  "description": [
+    "A large, open room stretches outward from the doorway, its contents dilapidated and dust-covered."
+  ],
   "paths": [
     "Obvious exits: west, northwest",
     "Obvious exits: southwest, west"
   ],
+  "location": "The Hidden Plateau",
+  "wayto": {
+    "6222": {
+      "file": "string_procs/wayto/6221_6222.rb"
+    },
+    "6200": "west"
+  },
+  "timeto": {
+    "6222": 0.2,
+    "6200": 0.2
+  },
+  "image": "wl-wehntoph-1310775397.png",
   "image_coords": [
     1144,
     401,
     1178,
     435
   ],
-  "terrain": null,
-  "description": [
-    "A large, open room stretches outward from the doorway, its contents dilapidated and dust-covered."
-  ],
-  "image": "wl-wehntoph-1310775397.png",
-  "climate": null,
-  "title": [
-    "[Labyrinth]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6222": 0.2,
-    "6200": 0.2
-  },
-  "id": 6221,
-  "location": "The Hidden Plateau",
   "tags": [
     "black hook mushroom",
     "withered black mushroom",
     "some cave moss",
     "blue trafel mushroom"
-  ],
-  "links": [
-
   ]
 }

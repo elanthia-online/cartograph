@@ -1,52 +1,43 @@
 {
-  "wayto": {
-    "16041": {
-      "stringproc": "d1ab0fc82426b99746caa62b1f882697"
-    },
-    "16121": {
-      "stringproc": "c5de6a93c272509e579c13cc8cd916bf"
-    },
-    "11441": {
-      "stringproc": "e874f03e7b4c2d51bbdcaccf4bb927c8"
-    },
-    "11453": {
-      "stringproc": "df0635901e9065a4aadbe5056471d5c8"
-    },
-    "11454": {
-      "stringproc": "311ee2488122f711ecdb848822003512"
-    },
-    "11443": {
-      "stringproc": "6ec0d3f2602af819251801455c03b9d7"
-    },
-    "11455": {
-      "stringproc": "ecb29216e38b2eccfa243d0a331e41b2"
-    },
-    "11444": {
-      "stringproc": "fca73c0fdfb5b02d3b95efa24885592a"
-    },
-    "11445": {
-      "stringproc": "edcc0cccbc99a29a586ead6328949de9"
-    }
-  },
-  "paths": [
-    "Obvious paths: north, northeast, east, southeast, south, southwest, west, northwest, down"
-  ],
-  "image_coords": [
-    675,
-    1207,
-    685,
-    1217
-  ],
-  "terrain": "missing",
-  "description": [
-    "Maelstrom Bay stretches out in all directions.  Foam-flecked swells roll in from the great western sea in a long, dilatory, rhythmic motion.  The roof of a tower is visible on the mainland to the northeast.  Sea birds pirouette above a wide patch of floating sargassum."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "missing",
+  "id": 11440,
   "title": [
     "[Maelstrom Bay, Surface]"
   ],
-  "check_location": null,
+  "description": [
+    "Maelstrom Bay stretches out in all directions.  Foam-flecked swells roll in from the great western sea in a long, dilatory, rhythmic motion.  The roof of a tower is visible on the mainland to the northeast.  Sea birds pirouette above a wide patch of floating sargassum."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, east, southeast, south, southwest, west, northwest, down"
+  ],
+  "wayto": {
+    "16041": {
+      "file": "string_procs/wayto/11440_16041.rb"
+    },
+    "16121": {
+      "file": "string_procs/wayto/11440_16121.rb"
+    },
+    "11441": {
+      "file": "string_procs/wayto/11440_11441.rb"
+    },
+    "11453": {
+      "file": "string_procs/wayto/11440_11453.rb"
+    },
+    "11454": {
+      "file": "string_procs/wayto/11440_11454.rb"
+    },
+    "11443": {
+      "file": "string_procs/wayto/11440_11443.rb"
+    },
+    "11455": {
+      "file": "string_procs/wayto/11440_11455.rb"
+    },
+    "11444": {
+      "file": "string_procs/wayto/11440_11444.rb"
+    },
+    "11445": {
+      "file": "string_procs/wayto/11440_11445.rb"
+    }
+  },
   "timeto": {
     "16041": 2.0,
     "16121": 3.0,
@@ -58,13 +49,11 @@
     "11444": 2.0,
     "11445": 2.0
   },
-  "id": 11440,
-  "location": "Maelstrom Bay",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-maelstrom-1266390501.png",
+  "image_coords": [
+    675,
+    1207,
+    685,
+    1217
   ]
 }

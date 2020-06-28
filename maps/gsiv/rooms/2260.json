@@ -1,42 +1,33 @@
 {
-  "wayto": {
-    "2261": {
-      "stringproc": "cb0d9fb7918d6eb7478eab75537a1f66"
-    },
-    "1965": {
-      "stringproc": "161efdde0539c4724825ea6d70a7db07"
-    }
-  },
+  "id": 2260,
+  "title": [
+    "[On A Ferryboat]"
+  ],
+  "description": [
+    "Were it not for the thick chain holding this squat ferryboat back, the current would certainly sweep it along the river and eventually out to sea.  The boat heaves and sways dangerously now and again, but seems safe enough for the moment."
+  ],
   "paths": [
     "Obvious paths: out",
     "Obvious paths: none"
   ],
+  "location": "the Abandoned Mine",
+  "wayto": {
+    "2261": {
+      "file": "string_procs/wayto/2260_2261.rb"
+    },
+    "1965": {
+      "file": "string_procs/wayto/2260_1965.rb"
+    }
+  },
+  "timeto": {
+    "2261": 120.0,
+    "1965": 120.0
+  },
+  "image": "ti-teras-1264234799.png",
   "image_coords": [
     867,
     892,
     883,
     908
-  ],
-  "terrain": null,
-  "description": [
-    "Were it not for the thick chain holding this squat ferryboat back, the current would certainly sweep it along the river and eventually out to sea.  The boat heaves and sways dangerously now and again, but seems safe enough for the moment."
-  ],
-  "image": "ti-teras-1264234799.png",
-  "climate": null,
-  "title": [
-    "[On A Ferryboat]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2261": 120.0,
-    "1965": 120.0
-  },
-  "id": 2260,
-  "location": "the Abandoned Mine",
-  "tags": [
-
-  ],
-  "links": [
-
   ]
 }

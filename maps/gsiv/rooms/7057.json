@@ -1,47 +1,35 @@
 {
+  "id": 7057,
+  "title": [
+    "[Darkstone, Tunnel]"
+  ],
+  "description": [
+    "A narrow tunnel runs like a gash through the natural rock, intersecting here with a carved, dirt passage that leads off to the west. The passage slopes steeply upwards, and the jagged rocks provide a precarious foothold at best."
+  ],
+  "paths": [
+    "Obvious exits: west, up"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7056": "west",
     "7058": "up"
   },
-  "paths": [
-    "Obvious exits: west, up"
-  ],
+  "timeto": {
+    "7056": 0.2,
+    "7058": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     404,
     791,
     414,
     801
   ],
-  "terrain": "indoors",
-  "description": [
-    "A narrow tunnel runs like a gash through the natural rock, intersecting here with a carved, dirt passage that leads off to the west. The passage slopes steeply upwards, and the jagged rocks provide a precarious foothold at best."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7056": 0.2,
-    "7058": 0.2
-  },
-  "id": 7057,
-  "location": "Darkstone Castle",
   "tags": [
     "some cave moss",
     "some wolifrew lichen",
     "withered black mushroom",
     "roa'ter",
-    "some wingstem root",
-    "wolifrew lichen",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

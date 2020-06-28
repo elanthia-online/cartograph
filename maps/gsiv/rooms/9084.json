@@ -1,4 +1,15 @@
 {
+  "id": 9084,
+  "title": [
+    "[Infested Tunnels, Rat's Nest]"
+  ],
+  "description": [
+    "A natural ledge gives a clear view of a large chamber.  The ceiling is far above and the floor far below.  You might be able to make it down if you climbed over the edge.  But then who'd want to go down there?"
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, southwest, northwest"
+  ],
+  "location": "the subterranean tunnels",
   "wayto": {
     "9085": "southwest",
     "9086": "northeast",
@@ -6,25 +17,6 @@
     "9088": "southeast",
     "9083": "climb edge"
   },
-  "paths": [
-    "Obvious exits: northeast, southeast, southwest, northwest"
-  ],
-  "image_coords": [
-    1296,
-    264,
-    1306,
-    274
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A natural ledge gives a clear view of a large chamber.  The ceiling is far above and the floor far below.  You might be able to make it down if you climbed over the edge.  But then who'd want to go down there?"
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Infested Tunnels, Rat's Nest]"
-  ],
-  "check_location": null,
   "timeto": {
     "9085": 0.2,
     "9086": 0.2,
@@ -32,16 +24,14 @@
     "9088": 0.2,
     "9083": 0.2
   },
-  "id": 9084,
-  "location": "the subterranean tunnels",
-  "tags": [
-    "some wolifrew lichen",
-    "wolifrew lichen",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
+  "image": "imt-underground-1264234799.png",
+  "image_coords": [
+    1296,
+    264,
+    1306,
+    274
   ],
-  "links": [
-
+  "tags": [
+    "some wolifrew lichen"
   ]
 }

@@ -1,34 +1,31 @@
 {
+  "id": 494,
+  "title": [
+    "[Coastal Cliffs]"
+  ],
+  "description": [
+    "The sea breeze is cool and salty, and it dampens your face as you look out over the breathtaking expanse of moonlit water below.  The sound of the waves crashing against the rocks roars in your ears.",
+    "The sea breeze is cool and salty, and it dampens your face as you look out over the breathtaking expanse of blue-green water below.  The sound of the waves crashing against the rocks roars in your ears."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "493": "east",
     "495": "southwest"
   },
-  "paths": [
-    "Obvious paths: east, southwest"
-  ],
+  "timeto": {
+    "493": 0.2,
+    "495": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     240,
     798,
     250,
     808
   ],
-  "terrain": "rough",
-  "description": [
-    "The sea breeze is cool and salty, and it dampens your face as you look out over the breathtaking expanse of moonlit water below.  The sound of the waves crashing against the rocks roars in your ears.",
-    "The sea breeze is cool and salty, and it dampens your face as you look out over the breathtaking expanse of blue-green water below.  The sound of the waves crashing against the rocks roars in your ears."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Coastal Cliffs]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "493": 0.2,
-    "495": 0.2
-  },
-  "id": 494,
-  "location": "the Coastal Cliffs",
   "tags": [
     "wild strawberry",
     "sea nymph",
@@ -42,10 +39,6 @@
     "sprig of larkspur",
     "small wild rose",
     "wild chokecherry",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

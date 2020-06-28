@@ -1,40 +1,30 @@
 {
+  "id": 2035,
+  "title": [
+    "[Cave]"
+  ],
+  "description": [
+    "The tunnel drops as it makes a turn, and there, puddles collect into a shallow, slippery pool of water across the passageway's floor.  Steam rises off the surface of the water, mixing with fog crowding the pool's edge.  Complex patterns of lichens cover the southern wall, which glows with eerie phosphorescent light."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, northwest"
+  ],
+  "location": "Greymist Woods",
   "wayto": {
     "2036": "northwest",
     "2038": "northeast",
     "2034": "north"
   },
-  "paths": [
-    "Obvious exits: north, northeast, northwest"
-  ],
-  "image_coords": [
-    150,
-    552,
-    160,
-    562
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The tunnel drops as it makes a turn, and there, puddles collect into a shallow, slippery pool of water across the passageway's floor.  Steam rises off the surface of the water, mixing with fog crowding the pool's edge.  Complex patterns of lichens cover the southern wall, which glows with eerie phosphorescent light."
-  ],
-  "image": "ti-wilds-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Cave]"
-  ],
-  "check_location": null,
   "timeto": {
     "2036": 0.2,
     "2038": 0.2,
     "2034": 0.2
   },
-  "id": 2035,
-  "location": "Greymist Woods",
-  "tags": [
-    "pepperthorn root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "ti-wilds-1264234799.png",
+  "image_coords": [
+    150,
+    552,
+    160,
+    562
   ]
 }

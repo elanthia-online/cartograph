@@ -1,33 +1,30 @@
 {
+  "id": 7822,
+  "title": [
+    "[Upper Trollfang, Glatoph]"
+  ],
+  "description": [
+    "There are no bushes here -- the cold and altitude keep such plants to the lower slopes.  A variety of mosses and lichens spread over the bare rock faces, wherever the thin soil has been stripped away by the wind.  Upslope, you notice a large dark spot on the side of the mountain."
+  ],
+  "paths": [
+    "Obvious paths: up, down"
+  ],
+  "location": "Glatoph",
   "wayto": {
     "7821": "down",
     "7823": "up"
   },
-  "paths": [
-    "Obvious paths: up, down"
-  ],
+  "timeto": {
+    "7821": 0.2,
+    "7823": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     573,
     683,
     583,
     693
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "There are no bushes here -- the cold and altitude keep such plants to the lower slopes.  A variety of mosses and lichens spread over the bare rock faces, wherever the thin soil has been stripped away by the wind.  Upslope, you notice a large dark spot on the side of the mountain."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Upper Trollfang, Glatoph]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7821": 0.2,
-    "7823": 0.2
-  },
-  "id": 7822,
-  "location": "Glatoph",
   "tags": [
     "wild strawberry",
     "some cothinar flower",
@@ -45,10 +42,6 @@
     "broken twig",
     "wild chokecherry",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

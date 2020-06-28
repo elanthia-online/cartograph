@@ -1,39 +1,31 @@
 {
+  "id": 8758,
+  "title": [
+    "[Liabo Circle, Ronan's Way]"
+  ],
+  "description": [
+    "A horse-drawn carriage waits in front of one stately home, its driver leaning back in sleep.  The animals stare placidly ahead, ignoring a small dog sniffing curiously at their hooves."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "8757": "west",
     "8759": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, west"
-  ],
+  "timeto": {
+    "8757": 0.2,
+    "8759": 0.2
+  },
+  "image": "wl-homes-1-1264234799.png",
   "image_coords": [
     560,
     1298,
     578,
     1316
   ],
-  "terrain": null,
-  "description": [
-    "A horse-drawn carriage waits in front of one stately home, its driver leaning back in sleep.  The animals stare placidly ahead, ignoring a small dog sniffing curiously at their hooves."
-  ],
-  "image": "wl-homes-1-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Liabo Circle, Ronan's Way]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8757": 0.2,
-    "8759": 0.2
-  },
-  "id": 8758,
-  "location": "Wehnimer's Landing",
   "tags": [
-    "meta:teleport:fwi",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:teleport:fwi"
   ]
 }

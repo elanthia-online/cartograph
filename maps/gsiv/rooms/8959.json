@@ -1,40 +1,33 @@
 {
+  "id": 8959,
+  "title": [
+    "[Spitfire Alley, Gunner's Lane]"
+  ],
+  "description": [
+    "The Crow's Nest pub stands shakily on the north side of the street, its clapboard walls peeling paint and desperately in need of a good cleaning.  Whenever the doors to the place swing open, loud sea chanties tumble out, usually followed by a flying body or two and an emphatic \"And don't come back neither, ya lubbers!\""
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "8958": "northeast",
     "8960": "northwest",
     "23640": "go pub"
   },
-  "paths": [
-    "Obvious paths: northeast, northwest"
-  ],
+  "timeto": {
+    "8958": 0.2,
+    "8960": 0.2,
+    "23640": 0.2
+  },
+  "image": "imt-homes-1264234799.png",
   "image_coords": [
     928,
     506,
     948,
     526
   ],
-  "terrain": null,
-  "description": [
-    "The Crow's Nest pub stands shakily on the north side of the street, its clapboard walls peeling paint and desperately in need of a good cleaning.  Whenever the doors to the place swing open, loud sea chanties tumble out, usually followed by a flying body or two and an emphatic \"And don't come back neither, ya lubbers!\""
-  ],
-  "image": "imt-homes-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Spitfire Alley, Gunner's Lane]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8958": 0.2,
-    "8960": 0.2,
-    "23640": 0.2
-  },
-  "id": 8959,
-  "location": "Icemule Trace",
   "tags": [
-    "calmintha flower",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "calmintha flower"
   ]
 }

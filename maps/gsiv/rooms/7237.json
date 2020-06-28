@@ -1,39 +1,31 @@
 {
+  "id": 7237,
+  "title": [
+    "[Under Barrow, Shaft]"
+  ],
+  "description": [
+    "You find yourself teetering precariously on the lip of a deep shaft.  The faint whisper of a freezing wind makes you shiver slightly.  There are rough handholds dug into the walls that you can get to if you lean way out over the unseen depths.  The shaft goes down a long ways, to judge from the length of time you can hear echoes from a small pebble that you knocked into the darkness below.  Above you is a warped wooden grating."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7238": "go grating",
     "7236": "down"
   },
-  "paths": [
-    "Obvious exits: down"
-  ],
+  "timeto": {
+    "7238": 0.2,
+    "7236": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     718,
     520,
     728,
     530
   ],
-  "terrain": "indoors",
-  "description": [
-    "You find yourself teetering precariously on the lip of a deep shaft.  The faint whisper of a freezing wind makes you shiver slightly.  There are rough handholds dug into the walls that you can get to if you lean way out over the unseen depths.  The shaft goes down a long ways, to judge from the length of time you can hear echoes from a small pebble that you knocked into the darkness below.  Above you is a warped wooden grating."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Under Barrow, Shaft]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7238": 0.2,
-    "7236": 0.2
-  },
-  "id": 7237,
-  "location": "the Graveyard",
   "tags": [
-    "arch weight",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "arch weight"
   ]
 }

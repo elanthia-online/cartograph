@@ -1,38 +1,31 @@
 {
+  "id": 6310,
+  "title": [
+    "[Dirt Mines, Mud Pits]"
+  ],
+  "description": [
+    "Water runs down the walls in grimy rivulets, turning the muddy ground into a bog ahead.  There's no telling how deep it goes, but thankfully someone has placed several rotten planks across the mire, making an incomplete floor."
+  ],
+  "paths": [
+    "Obvious exits: southeast, south"
+  ],
+  "location": "the Lower Dragonsclaw",
   "wayto": {
     "6311": "south",
     "6309": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast, south"
-  ],
+  "timeto": {
+    "6311": 0.2,
+    "6309": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     38,
     29,
     48,
     39
   ],
-  "terrain": "indoors",
-  "description": [
-    "Water runs down the walls in grimy rivulets, turning the muddy ground into a bog ahead.  There's no telling how deep it goes, but thankfully someone has placed several rotten planks across the mire, making an incomplete floor."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dirt Mines, Mud Pits]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6311": 0.2,
-    "6309": 0.2
-  },
-  "id": 6310,
-  "location": "the Lower Dragonsclaw",
   "tags": [
-    "murdroot",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "murdroot"
   ]
 }

@@ -1,38 +1,29 @@
 {
-  "wayto": {
-    "11622": "west",
-    "11624": "northeast",
-    "22219": {
-      "stringproc": "4b6820a3e206fa03515255fc3f1ed609"
-    },
-    "11629": "southwest",
-    "16124": {
-      "stringproc": "6aa32eddf6a7ab233d6f56dca6f30f52"
-    },
-    "11653": {
-      "stringproc": "8279fa28c80db5a22757381cb3a42ad5"
-    }
-  },
-  "paths": [
-    "Obvious paths: northeast, southwest, west"
+  "id": 11623,
+  "title": [
+    "[Miasmal Forest, Old Road]"
   ],
-  "image_coords": [
-    851,
-    613,
-    861,
-    623
-  ],
-  "terrain": "muddy wetlands",
   "description": [
     "Small pearls of dew are gathered on the tall blades of grass growing in the middle of the old road.  Dead and dying trees line the road like ancient, stoic sentries.  A faint odor of putrefaction hovers in the fog.",
     "The moisture gathered on the tall blades of grass growing in the middle of the old road glow like dull pearls in the weak sunlight.  Dead and dying trees line the road like ancient, stoic sentries.  A faint odor of putrefaction hovers in the fog."
   ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Miasmal Forest, Old Road]"
+  "paths": [
+    "Obvious paths: northeast, southwest, west"
   ],
-  "check_location": null,
+  "wayto": {
+    "11622": "west",
+    "11624": "northeast",
+    "22219": {
+      "file": "string_procs/wayto/11623_22219.rb"
+    },
+    "11629": "southwest",
+    "16124": {
+      "file": "string_procs/wayto/11623_16124.rb"
+    },
+    "11653": {
+      "file": "string_procs/wayto/11623_11653.rb"
+    }
+  },
   "timeto": {
     "11622": 0.2,
     "11624": 0.2,
@@ -41,27 +32,15 @@
     "16124": 0.4,
     "11653": 0.6
   },
-  "id": 11623,
-  "location": "the Miasmal Forest",
+  "image": "rr-maelstrom-1266390501.png",
+  "image_coords": [
+    851,
+    613,
+    861,
+    623
+  ],
   "tags": [
     "some talneo root",
-    "withered black mushroom",
-    "aloeas stem",
-    "soft white mushroom",
-    "white hook mushroom",
-    "blue trafel mushroom",
-    "wild gooseberry",
-    "stalk of cattail",
-    "small wild rose",
-    "mistweed",
-    "murdroot",
-    "wavepetal blossom",
-    "bolmara lichen",
-    "talneo root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "withered black mushroom"
   ]
 }

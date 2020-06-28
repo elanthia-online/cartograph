@@ -1,41 +1,31 @@
 {
+  "id": 5793,
+  "title": [
+    "[Zaerthu Tunnels, Chimney]"
+  ],
+  "description": [
+    "The only way to travel up or down within the smooth and featureless vertical passage is to brace hands and feet along its sides.  Your halting motion along the slick walls is uncomfortably reminescent of peristalsis."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "the Zaerthu Tunnels",
   "wayto": {
     "5792": "down",
     "5794": "up"
   },
-  "paths": [
-    "Obvious exits: up, down"
-  ],
+  "timeto": {
+    "5792": 0.2,
+    "5794": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     268,
     713,
     278,
     723
   ],
-  "terrain": "indoors",
-  "description": [
-    "The only way to travel up or down within the smooth and featureless vertical passage is to brace hands and feet along its sides.  Your halting motion along the slick walls is uncomfortably reminescent of peristalsis."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Zaerthu Tunnels, Chimney]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5792": 0.2,
-    "5794": 0.2
-  },
-  "id": 5793,
-  "location": "the Zaerthu Tunnels",
   "tags": [
-    "some wolifrew lichen",
-    "wolifrew lichen",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wolifrew lichen"
   ]
 }

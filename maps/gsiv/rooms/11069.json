@@ -1,40 +1,29 @@
 {
-  "wayto": {
-    "11068": {
-      "stringproc": "64a243a0f5906391f0f99e43f5e1d763"
-    },
-    "11070": "east"
-  },
+  "id": 11069,
+  "title": [
+    "[Sea Caves]"
+  ],
+  "description": [
+    "Water bubbles up into a large pool that nearly fills this room.  The shores of the pool are sandy, and booted footprints in the sand are evidence of regular travel here.  The pool drains to the west.  A natural opening to the east leads into some sea caves."
+  ],
   "paths": [
     "Obvious exits: east"
   ],
+  "wayto": {
+    "11068": {
+      "file": "string_procs/wayto/11069_11068.rb"
+    },
+    "11070": "east"
+  },
+  "timeto": {
+    "11068": 0.2,
+    "11070": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     1079,
     138,
     1089,
     148
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Water bubbles up into a large pool that nearly fills this room.  The shores of the pool are sandy, and booted footprints in the sand are evidence of regular travel here.  The pool drains to the west.  A natural opening to the east leads into some sea caves."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Caves]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11068": 0.2,
-    "11070": 0.2
-  },
-  "id": 11069,
-  "location": "the Sea Caves",
-  "tags": [
-    "murdroot",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,41 +1,33 @@
 {
+  "id": 15944,
+  "title": [
+    "[Abbey, Ossuary]"
+  ],
+  "description": [
+    "A low moaning reverberates off the hard stone surfaces of the ossuary, interspersed with quiet shuffling noises.  The darkness and shadows engulfing the area only serve to emphasize these dread sounds."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south"
+  ],
+  "location": "the Abbey",
   "wayto": {
     "15943": "north",
     "2978": "east",
     "2979": "south"
   },
-  "paths": [
-    "Obvious exits: north, east, south"
-  ],
+  "timeto": {
+    "15943": 0.2,
+    "2978": 0.2,
+    "2979": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     863,
     484,
     873,
     494
   ],
-  "terrain": "indoors",
-  "description": [
-    "A low moaning reverberates off the hard stone surfaces of the ossuary, interspersed with quiet shuffling noises.  The darkness and shadows engulfing the area only serve to emphasize these dread sounds."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abbey, Ossuary]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "15943": 0.2,
-    "2978": 0.2,
-    "2979": 0.2
-  },
-  "id": 15944,
-  "location": "the Abbey",
   "tags": [
-    "arch wight",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "arch wight"
   ]
 }

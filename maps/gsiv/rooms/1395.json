@@ -1,33 +1,30 @@
 {
+  "id": 1395,
+  "title": [
+    "[Cairnfang Pineforest]"
+  ],
+  "description": [
+    "A silvery mist and the roar of falling water drifts through the trees from the south, while to the north the pines close in along the trail."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "1394": "north",
     "1396": "south"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "1394": 0.2,
+    "1396": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     1233,
     674,
     1243,
     684
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "A silvery mist and the roar of falling water drifts through the trees from the south, while to the north the pines close in along the trail."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Cairnfang Pineforest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1394": 0.2,
-    "1396": 0.2
-  },
-  "id": 1395,
-  "location": "the Cairnfang",
   "tags": [
     "genkew mushroom",
     "handful of pinenuts",
@@ -70,10 +67,6 @@
     "twisted twig",
     "ebony twig",
     "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

@@ -1,35 +1,28 @@
 {
+  "id": 26319,
+  "title": [
+    "[Lich Citadel, Soul Pit]"
+  ],
+  "description": [
+    "The floor is narrow here, as it winds around the huge pit beyond.  Gusts of wind spiral up out of the pit, twisting into the air and twirling about."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "Talador",
   "wayto": {
     "26320": "west",
     "26317": "south"
   },
-  "paths": [
-    "Obvious exits: south, west"
-  ],
+  "timeto": {
+    "26320": 0.2,
+    "26317": 0.2
+  },
+  "image": "wl-lichs_landing-1500800742.png",
   "image_coords": [
     1144,
     685,
     1170,
     711
-  ],
-  "terrain": null,
-  "description": [
-    "The floor is narrow here, as it winds around the huge pit beyond.  Gusts of wind spiral up out of the pit, twisting into the air and twirling about."
-  ],
-  "image": "wl-lichs_landing-1500800742.png",
-  "climate": null,
-  "title": [
-    "[Lich Citadel, Soul Pit]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26320": 0.2,
-    "26317": 0.2
-  },
-  "id": 26319,
-  "location": "Talador",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

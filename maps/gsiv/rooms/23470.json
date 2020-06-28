@@ -1,35 +1,23 @@
 {
-  "wayto": {
-    "23469": "crawl passage",
-    "23471": {
-      "stringproc": "d19d5d2194e0a53d74eb2637cc5570df"
-    }
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "The ceiling is barely high enough to accommodate standing, and indirect light filters through into this narrow space from a small crack in the wall, illuminating a pile of rat droppings in the corner.  The scent of mold is pervasive, and dust motes hang in the stagnant air, barely visible in the dim light.  Stale drafts of air drift in through a dimly lit passage."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 23470,
   "title": [
     "[Swords 'n Boards, Dead End]"
   ],
-  "check_location": null,
+  "description": [
+    "The ceiling is barely high enough to accommodate standing, and indirect light filters through into this narrow space from a small crack in the wall, illuminating a pile of rat droppings in the corner.  The scent of mold is pervasive, and dust motes hang in the stagnant air, barely visible in the dim light.  Stale drafts of air drift in through a dimly lit passage."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "wayto": {
+    "23469": "crawl passage",
+    "23471": {
+      "file": "string_procs/wayto/23470_23471.rb"
+    }
+  },
   "timeto": {
     "23469": 0.2,
     "23471": 0.2
-  },
-  "id": 23470,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  }
 }

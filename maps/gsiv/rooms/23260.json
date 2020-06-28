@@ -1,40 +1,32 @@
 {
-  "wayto": {
-    "23261": {
-      "stringproc": "a38d807719728a1c1440a08cf22304a4"
-    },
-    "23262": {
-      "stringproc": "e3d799eb84e7700f4a3e6d2be8ca0cfa"
-    },
-    "23264": {
-      "stringproc": "3ef87e7eac63e97210b4aedf89dfae9b"
-    },
-    "7454": {
-      "stringproc": "a234c4dfb9348f43358e56adea9291ed"
-    },
-    "7455": {
-      "stringproc": "b0515112b374f0190d8dd3851a3d8b9c"
-    }
-  },
-  "paths": [
-    "Obvious paths: north, northeast, southwest, west, northwest"
-  ],
-  "image_coords": [
-    703,
-    951,
-    713,
-    961
-  ],
-  "terrain": null,
-  "description": [
-    "A huge sea of boiling mud stretches out to the south and east.  Steam rises off the churning mass, choking the air with a dense, malodorous fog."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": null,
+  "id": 23260,
   "title": [
     "[The Broken Lands, Jagged Plain]"
   ],
-  "check_location": null,
+  "description": [
+    "A huge sea of boiling mud stretches out to the south and east.  Steam rises off the churning mass, choking the air with a dense, malodorous fog."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, southwest, west, northwest"
+  ],
+  "location": "the Broken Lands",
+  "wayto": {
+    "23261": {
+      "file": "string_procs/wayto/23260_23261.rb"
+    },
+    "23262": {
+      "file": "string_procs/wayto/23260_23262.rb"
+    },
+    "23264": {
+      "file": "string_procs/wayto/23260_23264.rb"
+    },
+    "7454": {
+      "file": "string_procs/wayto/23260_7454.rb"
+    },
+    "7455": {
+      "file": "string_procs/wayto/23260_7455.rb"
+    }
+  },
   "timeto": {
     "23261": 3.2,
     "23262": 3.2,
@@ -42,17 +34,15 @@
     "7454": 3.2,
     "7455": 3.2
   },
-  "id": 23260,
-  "location": "the Broken Lands",
+  "image": "wl-broken-1264234799.png",
+  "image_coords": [
+    703,
+    951,
+    713,
+    961
+  ],
   "tags": [
     "hooded figure",
-    "giant fog beetle",
-    "blackened moss",
-    "black toadstool",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null,
-  "links": [
-
+    "giant fog beetle"
   ]
 }

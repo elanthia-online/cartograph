@@ -1,41 +1,28 @@
 {
+  "id": 7430,
+  "title": [
+    "[Mine Tunnels]"
+  ],
+  "description": [
+    "A patch of black roots hangs low from the ceiling above.  The walls of soft clay jut out into your path, making travel through this section of tunnel somewhat uncomfortable."
+  ],
+  "paths": [
+    "Obvious exits: east, northwest"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7404": "northwest",
     "7431": "east"
   },
-  "paths": [
-    "Obvious exits: east, northwest"
-  ],
+  "timeto": {
+    "7404": 0.2,
+    "7431": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1284,
     271,
     1292,
     279
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A patch of black roots hangs low from the ceiling above.  The walls of soft clay jut out into your path, making travel through this section of tunnel somewhat uncomfortable."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mine Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7404": 0.2,
-    "7431": 0.2
-  },
-  "id": 7430,
-  "location": "the Shadow Valley",
-  "tags": [
-    "cave moss",
-    "blackgrove root",
-    "shadowlace moss",
-    "blue moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

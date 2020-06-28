@@ -1,33 +1,30 @@
 {
+  "id": 1833,
+  "title": [
+    "[Wraithenmist, Narrow Trail]"
+  ],
+  "description": [
+    "An ancient tree lies across the path, the wood half-rotted and infested with insects.  Several small boulders, apparently overturned and moved aside at some time long past, lie alongside the path."
+  ],
+  "paths": [
+    "Obvious paths: northwest"
+  ],
+  "location": "Wraithenmist",
   "wayto": {
     "1832": "climb tree",
     "1834": "northwest"
   },
-  "paths": [
-    "Obvious paths: northwest"
-  ],
+  "timeto": {
+    "1832": 0.2,
+    "1834": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     80,
     395,
     90,
     405
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "An ancient tree lies across the path, the wood half-rotted and infested with insects.  Several small boulders, apparently overturned and moved aside at some time long past, lie alongside the path."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Wraithenmist, Narrow Trail]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1832": 0.2,
-    "1834": 0.2
-  },
-  "id": 1833,
-  "location": "Wraithenmist",
   "tags": [
     "some wolifrew lichen",
     "some acantha leaf",
@@ -58,28 +55,6 @@
     "stalk of bluebells",
     "soft white mushroom",
     "sweetfern stalk",
-    "some bolmara lichen",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "sticks",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "blueberries",
-    "broken twig",
-    "tree bark",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some bolmara lichen"
   ]
 }

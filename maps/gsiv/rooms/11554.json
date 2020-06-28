@@ -1,65 +1,37 @@
 {
+  "id": 11554,
+  "title": [
+    "[Maelstrom Bay, Headland]"
+  ],
+  "description": [
+    "The ground here has split open, torn asunder by some ancient cataclysm.  Large sections of the headland have collapsed, sliding downward, leaving a geological scar that is still obvious.  The unstable ground makes further travel along the headland impossible."
+  ],
+  "paths": [
+    "Obvious paths: northeast, east, southeast"
+  ],
+  "location": "the Shattered Moors",
   "wayto": {
     "11540": "east",
     "11541": "southeast",
     "11553": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, east, southeast"
-  ],
+  "timeto": {
+    "11540": 0.2,
+    "11541": 0.2,
+    "11553": 0.2
+  },
+  "image": "rr-maelstrom-1266390501.png",
   "image_coords": [
     405,
     681,
     415,
     691
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The ground here has split open, torn asunder by some ancient cataclysm.  Large sections of the headland have collapsed, sliding downward, leaving a geological scar that is still obvious.  The unstable ground makes further travel along the headland impossible."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "temperate",
-  "title": [
-    "[Maelstrom Bay, Headland]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11540": 0.2,
-    "11541": 0.2,
-    "11553": 0.2
-  },
-  "id": 11554,
-  "location": "the Shattered Moors",
   "tags": [
     "heath aster",
     "small daisy",
     "wild chokecherry",
     "small flower",
-    "sagebrush root",
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "small rose",
-    "angelica root",
-    "withered black mushroom",
-    "stalk of chicory",
-    "sprig of alyssum",
-    "stalk of goldenrod",
-    "yellow primrose",
-    "small wild rose",
-    "handful of oats",
-    "motherwort",
-    "sprig of thanot",
-    "murkweed",
-    "mistweed",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sagebrush root"
   ]
 }

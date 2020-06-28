@@ -1,33 +1,30 @@
 {
+  "id": 3144,
+  "title": [
+    "[A Frozen Glen]"
+  ],
+  "description": [
+    "A tumble of fallen trees blocks passage to the east, each torn asunder by some fierce storm that ripped through the area.  Branches and loose twigs cover the ground, nearly obscuring the carpet of snow at your feet."
+  ],
+  "paths": [
+    "Obvious paths: southwest, northwest"
+  ],
+  "location": "the Abandoned Farm",
   "wayto": {
     "3145": "southwest",
     "3143": "northwest"
   },
-  "paths": [
-    "Obvious paths: southwest, northwest"
-  ],
+  "timeto": {
+    "3145": 0.2,
+    "3143": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     1117,
     759,
     1127,
     769
   ],
-  "terrain": "hilly",
-  "description": [
-    "A tumble of fallen trees blocks passage to the east, each torn asunder by some fierce storm that ripped through the area.  Branches and loose twigs cover the ground, nearly obscuring the carpet of snow at your feet."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[A Frozen Glen]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3145": 0.2,
-    "3143": 0.2
-  },
-  "id": 3144,
-  "location": "the Abandoned Farm",
   "tags": [
     "ice blue iceblossom",
     "azure iceblossom",
@@ -59,26 +56,6 @@
     "soft orange iceblossom",
     "bright red teaberry",
     "red winterberry",
-    "some angelica root",
-    "sticks",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "iceblossoms",
-    "winter rose",
-    "arctic moss",
-    "snowberries",
-    "tree bark",
-    "frostflower",
-    "ironfern root",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some angelica root"
   ]
 }

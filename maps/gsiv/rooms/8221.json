@@ -1,51 +1,36 @@
 {
+  "id": 8221,
+  "title": [
+    "[Sea Caverns, Lower Level]"
+  ],
+  "description": [
+    "Moss clings to the walls of this small, chilly cavern.  The smashed remains of a barrel rot in one corner.  A cool draft blows toward the east, and progress to the south is blocked by a crude but sturdy gate."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the sea caverns",
   "wayto": {
     "8220": "east",
     "8213": "go trapdoor",
     "8224": "go gate"
   },
-  "paths": [
-    "Obvious exits: east"
-  ],
+  "timeto": {
+    "8220": 0.2,
+    "8213": 0.2,
+    "8224": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     381,
     230,
     391,
     240
   ],
-  "terrain": "indoors",
-  "description": [
-    "Moss clings to the walls of this small, chilly cavern.  The smashed remains of a barrel rot in one corner.  A cool draft blows toward the east, and progress to the south is blocked by a crude but sturdy gate."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Caverns, Lower Level]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8220": 0.2,
-    "8213": 0.2,
-    "8224": 0.2
-  },
-  "id": 8221,
-  "location": "the sea caverns",
   "tags": [
     "black hook mushroom",
     "some bolmara lichen",
     "withered black mushroom",
-    "red trafel mushroom",
-    "soft white mushroom",
-    "white hook mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "red trafel mushroom"
   ]
 }

@@ -1,35 +1,28 @@
 {
+  "id": 26244,
+  "title": [
+    "[Lich's Landing, Corpse Row]"
+  ],
+  "description": [
+    "The stomach of a spiked corpse has recently exploded, as fresh maggots and bugs crawl about in the cavity of its gut.  Pale, white fog drifts along the crooked road, obscuring much of the uneven stone."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Talador",
   "wayto": {
     "26243": "south",
     "26245": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "26243": 0.2,
+    "26245": 0.2
+  },
+  "image": "wl-lichs_landing-1500800742.png",
   "image_coords": [
     282,
     523,
     309,
     549
-  ],
-  "terrain": null,
-  "description": [
-    "The stomach of a spiked corpse has recently exploded, as fresh maggots and bugs crawl about in the cavity of its gut.  Pale, white fog drifts along the crooked road, obscuring much of the uneven stone."
-  ],
-  "image": "wl-lichs_landing-1500800742.png",
-  "climate": null,
-  "title": [
-    "[Lich's Landing, Corpse Row]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26243": 0.2,
-    "26245": 0.2
-  },
-  "id": 26244,
-  "location": "Talador",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

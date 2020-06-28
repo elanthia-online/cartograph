@@ -1,33 +1,32 @@
 {
+  "id": 11410,
+  "title": [
+    "[Hidden Vale, Hill Wall]"
+  ],
+  "description": [
+    "A steep hill blocks the path to the north and east, its vine-covered slope providing little anchor for climbing.  Atop the hill, a stand of trees extends into the distance."
+  ],
+  "paths": [
+    "Obvious paths: south, southwest, west"
+  ],
+  "location": "the Hidden Vale",
+  "climate": "moist",
+  "terrain": "hilly ",
   "wayto": {
     "11409": "southwest",
     "11411": "west"
   },
-  "paths": [
-    "Obvious paths: south, southwest, west"
-  ],
+  "timeto": {
+    "11409": 0.2,
+    "11411": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     870,
     1193,
     880,
     1203
   ],
-  "terrain": "hilly ",
-  "description": [
-    "A steep hill blocks the path to the north and east, its vine-covered slope providing little anchor for climbing.  Atop the hill, a stand of trees extends into the distance."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "moist",
-  "title": [
-    "[Hidden Vale, Hill Wall]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11409": 0.2,
-    "11411": 0.2
-  },
-  "id": 11410,
-  "location": "the Hidden Vale",
   "tags": [
     "some tree bark",
     "some brostheras grass",
@@ -57,11 +56,6 @@
     "murkweed",
     "twisted twig",
     "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bolmara lichen"
   ]
 }

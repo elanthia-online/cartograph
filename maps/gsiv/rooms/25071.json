@@ -1,35 +1,28 @@
 {
+  "id": 25071,
+  "title": [
+    "[Reim Settlement, Dungeon]"
+  ],
+  "description": [
+    "A single, narrow hole is carved directly overhead, casting a spotlight into the center of the dungeon.  Water trickles down the moss-covered stone walls, the drops echoing loudly amidst the sounds of strange clicking, hissing, and screams.  The stairwell narrows as it continues down, deeper into the dungeon."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "the Settlement of Reim",
   "wayto": {
     "25072": "down",
     "25070": "up"
   },
-  "paths": [
-    "Obvious exits: up, down"
-  ],
+  "timeto": {
+    "25072": 0.2,
+    "25070": 0.2
+  },
+  "image": "imt-Reim-1260914759.png",
   "image_coords": [
     209,
     606,
     221,
     618
-  ],
-  "terrain": null,
-  "description": [
-    "A single, narrow hole is carved directly overhead, casting a spotlight into the center of the dungeon.  Water trickles down the moss-covered stone walls, the drops echoing loudly amidst the sounds of strange clicking, hissing, and screams.  The stairwell narrows as it continues down, deeper into the dungeon."
-  ],
-  "image": "imt-Reim-1260914759.png",
-  "climate": null,
-  "title": [
-    "[Reim Settlement, Dungeon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "25072": 0.2,
-    "25070": 0.2
-  },
-  "id": 25071,
-  "location": "the Settlement of Reim",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

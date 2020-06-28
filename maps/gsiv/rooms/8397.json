@@ -1,48 +1,36 @@
 {
+  "id": 8397,
+  "title": [
+    "[Thanatoph Bowels, South Lobe]"
+  ],
+  "description": [
+    "A narrow slit window fitted with ruby crystals floods a blood-like bath over the room.  Soot climbs the walls, evidence of a great fire.  The black stains obscure the glyphs carved deeply in the stone."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, northwest"
+  ],
+  "location": "the bowels of Thanatoph",
   "wayto": {
     "8417": "north",
     "8396": "northeast",
     "8398": "northwest"
   },
-  "paths": [
-    "Obvious exits: north, northeast, northwest"
-  ],
+  "timeto": {
+    "8417": 0.2,
+    "8396": 0.2,
+    "8398": 0.2
+  },
+  "image": "wl-stronghold-1264234799.png",
   "image_coords": [
     1257,
     801,
     1267,
     811
   ],
-  "terrain": "indoors",
-  "description": [
-    "A narrow slit window fitted with ruby crystals floods a blood-like bath over the room.  Soot climbs the walls, evidence of a great fire.  The black stains obscure the glyphs carved deeply in the stone."
-  ],
-  "image": "wl-stronghold-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thanatoph Bowels, South Lobe]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8417": 0.2,
-    "8396": 0.2,
-    "8398": 0.2
-  },
-  "id": 8397,
-  "location": "the bowels of Thanatoph",
   "tags": [
     "some wingstem root",
     "some cave moss",
     "withered black mushroom",
-    "some wolifrew lichen",
-    "wolifrew lichen",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wolifrew lichen"
   ]
 }

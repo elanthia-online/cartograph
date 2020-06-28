@@ -1,35 +1,23 @@
 {
-  "wayto": {
-    "1961": {
-      "stringproc": "8901e0d5285df5ce78f9b4a7edb884eb"
-    },
-    "23928": "go arch"
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "A single, flickering lantern provides a gloomy light that dances off the rusty broken cell doors lining the dark stone walls.  The air is warm and uncomfortably moist in this cramped chamber.  A fetid stink of rotting garbage, soiled disregarded clothing and worse assaults you like a slap in the face."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 23927,
   "title": [
     "[Abandoned Asylum]"
   ],
-  "check_location": null,
+  "description": [
+    "A single, flickering lantern provides a gloomy light that dances off the rusty broken cell doors lining the dark stone walls.  The air is warm and uncomfortably moist in this cramped chamber.  A fetid stink of rotting garbage, soiled disregarded clothing and worse assaults you like a slap in the face."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "wayto": {
+    "1961": {
+      "file": "string_procs/wayto/23927_1961.rb"
+    },
+    "23928": "go arch"
+  },
   "timeto": {
     "1961": 0.8,
     "23928": 0.2
-  },
-  "id": 23927,
-  "location": "the town of Kharam-Dzu",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  }
 }

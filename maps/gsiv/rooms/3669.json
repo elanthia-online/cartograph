@@ -1,96 +1,86 @@
 {
-  "wayto": {
-    "3673": "east",
-    "3668": "west",
-    "3670": "go bank",
-    "7": {
-      "stringproc": "53a638dbcab02420f62fd18c88907024"
-    },
-    "284": {
-      "stringproc": "592e7660bc67a7aa2aeeed086c964162"
-    },
-    "9410": {
-      "stringproc": "53a638dbcab02420f62fd18c88907024"
-    },
-    "1448": {
-      "stringproc": "53a638dbcab02420f62fd18c88907024"
-    },
-    "1944": {
-      "stringproc": "53a638dbcab02420f62fd18c88907024"
-    },
-    "2426": {
-      "stringproc": "53a638dbcab02420f62fd18c88907024"
-    },
-    "3521": {
-      "stringproc": "53a638dbcab02420f62fd18c88907024"
-    },
-    "4651": {
-      "stringproc": "53a638dbcab02420f62fd18c88907024"
-    },
-    "10862": {
-      "stringproc": "53a638dbcab02420f62fd18c88907024"
-    }
-  },
-  "paths": [
-    "Obvious paths: east, west"
+  "id": 3669,
+  "title": [
+    "[Gardenia Lane]"
   ],
-  "image_coords": [
-    2910,
-    1320,
-    2951,
-    1361
-  ],
-  "terrain": "hard, flat",
   "description": [
     "A pair of tall, beribboned stone columns flanks the entrance to the Four Winds National Bank.  The three-story building dwarfs the surrounding shops and remains the largest in the city proper.  Tiled in a rustic red shingle, the roof of the bank appears to be a cool silvery purple hue as the moonlight reflects off its surface.  A pair of armor-clad elven warriors guard the entrance, their gaze never wavering as they protect the city's treasure.",
     "A pair of tall, beribboned stone columns flanks the entrance to the Mist Harbor National Bank.  The three-story building dwarfs the surrounding shops and remains the largest in the city proper.  Tiled in a rustic red shingle, the roof of the bank appears to be a cool silvery purple hue as the moonlight reflects off its surface.  A pair of armor-clad elven warriors guard the entrance, their gaze never wavering as they protect the city's treasure.",
     "A pair of tall, beribboned stone columns flanks the entrance to the Four Winds National Bank.  The three-story building dwarfs the surrounding shops and remains the largest in the city proper.  Tiled in a rustic red shingle, the roof of the bank appears to be on fire, as sun glints off its surface.  A pair of armor-clad elven warriors guard the entrance, their gaze never wavering as they protect the city's treasure."
   ],
-  "image": "ifw-isle_of_four_winds-1310232949.png",
-  "climate": "temperate",
-  "title": [
-    "[Gardenia Lane]"
+  "paths": [
+    "Obvious paths: east, west"
   ],
-  "check_location": null,
+  "location": "the Isle of Four Winds",
+  "wayto": {
+    "3673": "east",
+    "3668": "west",
+    "3670": "go bank",
+    "7": {
+      "file": "string_procs/wayto/3669_7.rb"
+    },
+    "284": {
+      "file": "string_procs/wayto/3669_284.rb"
+    },
+    "9410": {
+      "file": "string_procs/wayto/3669_9410.rb"
+    },
+    "1448": {
+      "file": "string_procs/wayto/3669_1448.rb"
+    },
+    "1944": {
+      "file": "string_procs/wayto/3669_1944.rb"
+    },
+    "2426": {
+      "file": "string_procs/wayto/3669_2426.rb"
+    },
+    "3521": {
+      "file": "string_procs/wayto/3669_3521.rb"
+    },
+    "4651": {
+      "file": "string_procs/wayto/3669_4651.rb"
+    },
+    "10862": {
+      "file": "string_procs/wayto/3669_10862.rb"
+    }
+  },
   "timeto": {
     "3673": 0.2,
     "3668": 0.2,
     "3670": 0.2,
     "7": {
-      "stringproc": "6805f003e8068c8b896705a59325316b"
+      "file": "string_procs/timeto/3669_7.rb"
     },
     "284": {
-      "stringproc": "1ef43ba5adf4603d09cc44933fb7941e"
+      "file": "string_procs/timeto/3669_284.rb"
     },
     "9410": {
-      "stringproc": "c89e8870811d4b1bbe6aea6a7b93c404"
+      "file": "string_procs/timeto/3669_9410.rb"
     },
     "1448": {
-      "stringproc": "2c9904dec9acc4cd895ebde2dfecef3c"
+      "file": "string_procs/timeto/3669_1448.rb"
     },
     "1944": {
-      "stringproc": "c7379382e44b95d96de32c47e12f413a"
+      "file": "string_procs/timeto/3669_1944.rb"
     },
     "2426": {
-      "stringproc": "0c20da7c9ea752c6d05ff4f8db7dfb63"
+      "file": "string_procs/timeto/3669_2426.rb"
     },
     "3521": {
-      "stringproc": "ce65ae06d0c30bb4d510b9acfc4d8920"
+      "file": "string_procs/timeto/3669_3521.rb"
     },
     "4651": {
-      "stringproc": "c435d4fa72c6f99fc05ca49fb8f5ccc7"
+      "file": "string_procs/timeto/3669_4651.rb"
     },
     "10862": {
-      "stringproc": "28dac55737c2c3c0c6e205b1d0c49704"
+      "file": "string_procs/timeto/3669_10862.rb"
     }
   },
-  "id": 3669,
-  "location": "the Isle of Four Winds",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "ifw-isle_of_four_winds-1310232949.png",
+  "image_coords": [
+    2910,
+    1320,
+    2951,
+    1361
   ]
 }

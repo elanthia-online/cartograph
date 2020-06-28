@@ -1,35 +1,34 @@
 {
+  "id": 11013,
+  "title": [
+    "[Shady Trail]"
+  ],
+  "description": [
+    "Olive trees, their trunks gnarled like the calloused hands of old crones, grow ragged and wild on either side of the path.  A soft breeze rustling through the grey-green leaves carries the faint and distant sound of birdsong."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the South River Road",
+  "climate": "temperate",
+  "terrain": "tropical",
   "wayto": {
     "11014": "south",
     "23529": "go shack",
     "11012": "north"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "11014": 0.2,
+    "23529": 0.2,
+    "11012": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     499,
     981,
     509,
     991
   ],
-  "terrain": "tropical",
-  "description": [
-    "Olive trees, their trunks gnarled like the calloused hands of old crones, grow ragged and wild on either side of the path.  A soft breeze rustling through the grey-green leaves carries the faint and distant sound of birdsong."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "temperate",
-  "title": [
-    "[Shady Trail]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11014": 0.2,
-    "23529": 0.2,
-    "11012": 0.2
-  },
-  "id": 11013,
-  "location": "the South River Road",
   "tags": [
     "some torban leaf",
     "stick",
@@ -53,12 +52,6 @@
     "slender twig",
     "ebony twig",
     "talneo root",
-    "brostheras grass",
-    "oxblood lily",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

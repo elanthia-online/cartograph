@@ -1,42 +1,35 @@
 {
+  "id": 2635,
+  "title": [
+    "[Birthing Sands, Cavern of Ages]"
+  ],
+  "description": [
+    "This part of the cavern seems intimate after the expansiveness just around a bend of the red stone.  Recesses all along the east wall give the rock a filigreed appearance which belies the vast size of each enclosure.  The fine sand is a constant carpet, however, the light it expends is much dimmer here, fading to a soft twilight within the eastern niches.  To the south, the walls swirl to create an oval passageway into another cavern where more of the recesses can be glimpsed."
+  ],
+  "paths": [
+    "Obvious exits: south, southwest"
+  ],
+  "location": "Koar's Shrine",
   "wayto": {
     "2636": "south",
     "2637": "southwest"
   },
-  "paths": [
-    "Obvious exits: south, southwest"
-  ],
+  "timeto": {
+    "2636": 0.2,
+    "2637": 0.2
+  },
+  "image": "imt-pinefar-1264234799.png",
   "image_coords": [
     140,
     147,
     148,
     155
   ],
-  "terrain": "indoors",
-  "description": [
-    "This part of the cavern seems intimate after the expansiveness just around a bend of the red stone.  Recesses all along the east wall give the rock a filigreed appearance which belies the vast size of each enclosure.  The fine sand is a constant carpet, however, the light it expends is much dimmer here, fading to a soft twilight within the eastern niches.  To the south, the walls swirl to create an oval passageway into another cavern where more of the recesses can be glimpsed."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Birthing Sands, Cavern of Ages]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2636": 0.2,
-    "2637": 0.2
-  },
-  "id": 2635,
-  "location": "Koar's Shrine",
   "tags": [
     "supernode",
     "node",
     "sands",
     "murdroot",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bur-clover root"
   ]
 }

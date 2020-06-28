@@ -1,38 +1,28 @@
 {
+  "id": 2258,
+  "title": [
+    "[Glaes Caverns]"
+  ],
+  "description": [
+    "The vast chamber is starkly uncluttered, save for a strange formation of glaes that extends from the center of a pool of magma.  With its grotesque appendages, it seems to reach from the heart of the hissing magma like a misshapen claw clenched in agony.  From the 'palm' of the thing, a slow rivulet of viscous black liquid pulses out, dripping down over the gnarled surface of the outcropping and pooling on the roiling face of the bubbling glaes."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "the Eye of V'Tull",
   "wayto": {
     "2256": "southwest",
     "2254": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southwest"
-  ],
+  "timeto": {
+    "2256": 0.2,
+    "2254": 0.2
+  },
+  "image": "ti-vtull-1264234799.png",
   "image_coords": [
     198,
     619,
     206,
     627
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The vast chamber is starkly uncluttered, save for a strange formation of glaes that extends from the center of a pool of magma.  With its grotesque appendages, it seems to reach from the heart of the hissing magma like a misshapen claw clenched in agony.  From the 'palm' of the thing, a slow rivulet of viscous black liquid pulses out, dripping down over the gnarled surface of the outcropping and pooling on the roiling face of the bubbling glaes."
-  ],
-  "image": "ti-vtull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Glaes Caverns]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2256": 0.2,
-    "2254": 0.2
-  },
-  "id": 2258,
-  "location": "the Eye of V'Tull",
-  "tags": [
-    "pepperthorn root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

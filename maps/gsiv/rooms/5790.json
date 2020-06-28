@@ -1,44 +1,33 @@
 {
+  "id": 5790,
+  "title": [
+    "[Zaerthu Tunnels, Narrow Passage]"
+  ],
+  "description": [
+    "Stalactites cluster closely overhead, their dagger-like points a grim reminder of the incalculable weight of rock poised above you.  A few luminescent insects flit among the rock formations like bees in a garden, alighting for a moment only to move on to the next stalactite.  Flickering, but brighter light from the east casts phantasmagoric shadows on the smooth walls."
+  ],
+  "paths": [
+    "Obvious exits: east, northwest"
+  ],
+  "location": "the Zaerthu Tunnels",
   "wayto": {
     "5791": "northwest",
     "5783": "east"
   },
-  "paths": [
-    "Obvious exits: east, northwest"
-  ],
+  "timeto": {
+    "5791": 0.2,
+    "5783": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     295,
     838,
     305,
     848
   ],
-  "terrain": "indoors",
-  "description": [
-    "Stalactites cluster closely overhead, their dagger-like points a grim reminder of the incalculable weight of rock poised above you.  A few luminescent insects flit among the rock formations like bees in a garden, alighting for a moment only to move on to the next stalactite.  Flickering, but brighter light from the east casts phantasmagoric shadows on the smooth walls."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Zaerthu Tunnels, Narrow Passage]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5791": 0.2,
-    "5783": 0.2
-  },
-  "id": 5790,
-  "location": "the Zaerthu Tunnels",
   "tags": [
     "some pothinir grass",
     "some wingstem root",
-    "withered black mushroom",
-    "pothinir grass",
-    "murdroot",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "withered black mushroom"
   ]
 }

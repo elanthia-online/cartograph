@@ -1,39 +1,31 @@
 {
+  "id": 12593,
+  "title": [
+    "[Wind Tunnel]"
+  ],
+  "description": [
+    "A single crack mars the side of the tunnel here.  It must surely have appeared in a fairly recent trembling of the island floating here at sea, for the wind does not seem to have smoothed its rough edges.  You might be tempted to run a finger over those rough edges, but for the skeletal hand wedged between them."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Dark Palisade",
   "wayto": {
     "12592": "east",
     "12598": "west"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "12592": 0.2,
+    "12598": 0.2
+  },
+  "image": "ti-wilds-1264234799.png",
   "image_coords": [
     1006,
     729,
     1016,
     739
   ],
-  "terrain": "indoors",
-  "description": [
-    "A single crack mars the side of the tunnel here.  It must surely have appeared in a fairly recent trembling of the island floating here at sea, for the wind does not seem to have smoothed its rough edges.  You might be tempted to run a finger over those rough edges, but for the skeletal hand wedged between them."
-  ],
-  "image": "ti-wilds-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Wind Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "12592": 0.2,
-    "12598": 0.2
-  },
-  "id": 12593,
-  "location": "the Dark Palisade",
   "tags": [
-    "wind wraith",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wind wraith"
   ]
 }

@@ -1,36 +1,33 @@
 {
+  "id": 5929,
+  "title": [
+    "[Catacombs, Sewers]"
+  ],
+  "description": [
+    "Faint scratching emanates from behind the walls as rats forage for a snack.",
+    "Faint scratching emanates from behind the walls as rats forage for a snack.  A large spider web is constructed perfectly in front of one of the recesses in the wall.  A grey spider nestles inconspicuously at the top corner watching for prey."
+  ],
+  "paths": [
+    "Obvious exits: north, east, west"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "5928": "west",
     "5930": "east",
     "5931": "north"
   },
-  "paths": [
-    "Obvious exits: north, east, west"
-  ],
+  "timeto": {
+    "5928": 0.2,
+    "5930": 0.2,
+    "5931": 0.2
+  },
+  "image": "en-tavaalor-1565907614.png",
   "image_coords": [
     401,
     905,
     407,
     912
   ],
-  "terrain": null,
-  "description": [
-    "Faint scratching emanates from behind the walls as rats forage for a snack.",
-    "Faint scratching emanates from behind the walls as rats forage for a snack.  A large spider web is constructed perfectly in front of one of the recesses in the wall.  A grey spider nestles inconspicuously at the top corner watching for prey."
-  ],
-  "image": "en-tavaalor-1565907614.png",
-  "climate": null,
-  "title": [
-    "[Catacombs, Sewers]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5928": 0.2,
-    "5930": 0.2,
-    "5931": 0.2
-  },
-  "id": 5929,
-  "location": "the catacombs",
   "tags": [
     "black hook mushroom",
     "ironfern root",
@@ -41,8 +38,5 @@
     "murdroot",
     "bolmara lichen",
     "wingstem root"
-  ],
-  "links": [
-
   ]
 }

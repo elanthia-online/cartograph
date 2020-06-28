@@ -1,34 +1,31 @@
 {
+  "id": 10747,
+  "title": [
+    "[Plains of Bone, Mound Top]"
+  ],
+  "description": [
+    "Crowning the mound is the rubble of what once was a tower.  Now the black stone lies broken, with only the entrance and lowest portion of the tower still standing.  A doorway darker than the night leads into the tower.",
+    "Crowning the mound is the rubble of what once was a tower.  Now the black stone lies broken, with only the entrance and lowest portion of the tower still standing.  A dark doorway leads into the tower."
+  ],
+  "paths": [
+    "Obvious paths: southwest"
+  ],
+  "location": "the Plains of Bone",
   "wayto": {
     "10746": "southwest",
     "10748": "go doorway"
   },
-  "paths": [
-    "Obvious paths: southwest"
-  ],
+  "timeto": {
+    "10746": 0.2,
+    "10748": 0.2
+  },
+  "image": "en-cemetery-1264234799.png",
   "image_coords": [
     475,
     189,
     485,
     199
   ],
-  "terrain": null,
-  "description": [
-    "Crowning the mound is the rubble of what once was a tower.  Now the black stone lies broken, with only the entrance and lowest portion of the tower still standing.  A doorway darker than the night leads into the tower.",
-    "Crowning the mound is the rubble of what once was a tower.  Now the black stone lies broken, with only the entrance and lowest portion of the tower still standing.  A dark doorway leads into the tower."
-  ],
-  "image": "en-cemetery-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Plains of Bone, Mound Top]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10746": 0.2,
-    "10748": 0.2
-  },
-  "id": 10747,
-  "location": "the Plains of Bone",
   "tags": [
     "some calamia fruit",
     "sprig of alyssum",
@@ -57,8 +54,5 @@
     "ironfern root",
     "wingstem root",
     "bur-clover root"
-  ],
-  "links": [
-
   ]
 }

@@ -1,40 +1,30 @@
 {
+  "id": 3580,
+  "title": [
+    "[Stronghold, Entry Hall]"
+  ],
+  "description": [
+    "The entry hall is immense, with walls reaching up into darkness high above.  Fanned by an intermittent breeze, the air is markedly cooler than the courtyard outside.  Passages lead off in two directions, both shrouded in an unnerving haze, which lends the shadows the appearance of movement.  A stone lintel is placed over the huge arch leading outside.  Its surface is covered with ancient glyphs, their meaning lost in antiquity."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast"
+  ],
+  "location": "Stone Valley",
   "wayto": {
     "3587": "southeast",
     "3579": "go arch",
     "3581": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southeast"
-  ],
-  "image_coords": [
-    455,
-    462,
-    465,
-    472
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The entry hall is immense, with walls reaching up into darkness high above.  Fanned by an intermittent breeze, the air is markedly cooler than the courtyard outside.  Passages lead off in two directions, both shrouded in an unnerving haze, which lends the shadows the appearance of movement.  A stone lintel is placed over the huge arch leading outside.  Its surface is covered with ancient glyphs, their meaning lost in antiquity."
-  ],
-  "image": "wl-stronghold-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Stronghold, Entry Hall]"
-  ],
-  "check_location": null,
   "timeto": {
     "3587": 0.2,
     "3579": 0.2,
     "3581": 0.2
   },
-  "id": 3580,
-  "location": "Stone Valley",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-stronghold-1264234799.png",
+  "image_coords": [
+    455,
+    462,
+    465,
+    472
   ]
 }

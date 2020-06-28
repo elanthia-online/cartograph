@@ -1,38 +1,28 @@
 {
+  "id": 12762,
+  "title": [
+    "[Ruined Temple, Second Floor]"
+  ],
+  "description": [
+    "The ceiling has collapsed to the west, blocking further travel in that direction.  Gentle trickles travel down the debris, streaming until they soundlessly meet with the water flowing across the surface of the hallway."
+  ],
+  "paths": [
+    "Obvious exits: east, northwest"
+  ],
+  "location": "the Ruined Temple",
   "wayto": {
     "12750": "northwest",
     "12753": "east"
   },
-  "paths": [
-    "Obvious exits: east, northwest"
-  ],
+  "timeto": {
+    "12750": 0.2,
+    "12753": 0.2
+  },
+  "image": "ti-nelemar-1262373036.png",
   "image_coords": [
     540,
     304,
     576,
     340
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The ceiling has collapsed to the west, blocking further travel in that direction.  Gentle trickles travel down the debris, streaming until they soundlessly meet with the water flowing across the surface of the hallway."
-  ],
-  "image": "ti-nelemar-1262373036.png",
-  "climate": "indoors",
-  "title": [
-    "[Ruined Temple, Second Floor]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "12750": 0.2,
-    "12753": 0.2
-  },
-  "id": 12762,
-  "location": "the Ruined Temple",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

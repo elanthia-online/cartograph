@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "12208": {
-      "stringproc": "a0576f0215d746452e7afb93c1ee082c"
-    },
-    "2635": {
-      "stringproc": "01b8924575c8d70e4ed7eea7ed00be84"
-    },
-    "12101": {
-      "stringproc": "cf4b8e5b125b22b01c9349827d02c9fd"
-    },
-    "2593": "northeast",
-    "2595": "east"
-  },
+  "id": 2594,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "A graveyard lies before you.  Unlike a normal graveyard, however, the things that now rest here never were alive.  Hundreds of broken statues litter the field, some gazing sightlessly off into the distance, others reaching with stone hands up to whatever salvation waits for them beyond.  The forgotten relics' final resting place gives an eerie air to the surrounding areas, as if you could share their unfortunate fate."
+  ],
   "paths": [
     "Obvious exits: northeast, east",
     "Obvious paths: northeast, east"
   ],
-  "image_coords": [
-    119,
-    725,
-    127,
-    733
-  ],
-  "terrain": null,
-  "description": [
-    "A graveyard lies before you.  Unlike a normal graveyard, however, the things that now rest here never were alive.  Hundreds of broken statues litter the field, some gazing sightlessly off into the distance, others reaching with stone hands up to whatever salvation waits for them beyond.  The forgotten relics' final resting place gives an eerie air to the surrounding areas, as if you could share their unfortunate fate."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12208": {
+      "file": "string_procs/wayto/2594_12208.rb"
+    },
+    "2635": {
+      "file": "string_procs/wayto/2594_2635.rb"
+    },
+    "12101": {
+      "file": "string_procs/wayto/2594_12101.rb"
+    },
+    "2593": "northeast",
+    "2595": "east"
+  },
   "timeto": {
     "12208": 22.0,
     "2635": 22.0,
@@ -39,8 +31,13 @@
     "2593": 0.2,
     "2595": 0.2
   },
-  "id": 2594,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    119,
+    725,
+    127,
+    733
+  ],
   "tags": [
     "mass of congealed slime",
     "rotting bile green fleshbulb",
@@ -49,8 +46,5 @@
     "slime-covered grave blossom",
     "twisted black mawflower",
     "withered deathblossom"
-  ],
-  "links": [
-
   ]
 }

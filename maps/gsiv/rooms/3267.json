@@ -1,40 +1,30 @@
 {
+  "id": 3267,
+  "title": [
+    "[Ice Plains, Dark Cavern]"
+  ],
+  "description": [
+    "The entrance opens into a large cavern that continues to the north and the northeast.  The opening is the only apparent source of light making it difficult to see further into the cavern."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast"
+  ],
+  "location": "the Ice Plains",
   "wayto": {
     "3266": "go open",
     "3268": "north",
     "3270": "northeast"
   },
-  "paths": [
-    "Obvious exits: north, northeast"
-  ],
-  "image_coords": [
-    369,
-    352,
-    379,
-    362
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The entrance opens into a large cavern that continues to the north and the northeast.  The opening is the only apparent source of light making it difficult to see further into the cavern."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Ice Plains, Dark Cavern]"
-  ],
-  "check_location": null,
   "timeto": {
     "3266": 0.2,
     "3268": 0.2,
     "3270": 0.2
   },
-  "id": 3267,
-  "location": "the Ice Plains",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "imt-east_west_north_gates-1264234799.png",
+  "image_coords": [
+    369,
+    352,
+    379,
+    362
   ]
 }

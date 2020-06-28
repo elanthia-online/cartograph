@@ -1,44 +1,33 @@
 {
+  "id": 5377,
+  "title": [
+    "[Noman's Land, Cave]"
+  ],
+  "description": [
+    "The cave narrows here, and the ceiling is much lower -- barely large enough for a giantman to stand upright.  Splintered bones, scraps of cloth and various unidentifiable bits of trash are scattered on the ground.  To the east, a narrow opening leads into darkness."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Noman's Land",
   "wayto": {
     "5379": "go opening",
     "5376": "west"
   },
-  "paths": [
-    "Obvious exits: west"
-  ],
+  "timeto": {
+    "5379": 0.2,
+    "5376": 0.2
+  },
+  "image": "vo-caravansary-1264234799.png",
   "image_coords": [
     292,
     638,
     302,
     648
   ],
-  "terrain": "indoors",
-  "description": [
-    "The cave narrows here, and the ceiling is much lower -- barely large enough for a giantman to stand upright.  Splintered bones, scraps of cloth and various unidentifiable bits of trash are scattered on the ground.  To the east, a narrow opening leads into darkness."
-  ],
-  "image": "vo-caravansary-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Noman's Land, Cave]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5379": 0.2,
-    "5376": 0.2
-  },
-  "id": 5377,
-  "location": "Noman's Land",
   "tags": [
     "withered black mushroom",
     "some wolifrew lichen",
-    "cyclops",
-    "wolifrew lichen",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "cyclops"
   ]
 }

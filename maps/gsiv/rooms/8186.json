@@ -1,4 +1,15 @@
 {
+  "id": 8186,
+  "title": [
+    "[Mine, Crystal Caves]"
+  ],
+  "description": [
+    "This huge, circular cavern glitters pink and gold and green around the edges, fading to sparkling white in the center.  In the middle of the room, you see a round pool full of milky liquid, its surface disturbed by the drops that drip off of a great white stalactite hanging from the center of the ceiling.  The PLOP, PLOP, PLOP echoes throughout the room and beyond."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south, southwest, west, northwest"
+  ],
+  "location": "the crystal caves",
   "wayto": {
     "8183": "south",
     "8184": "northeast",
@@ -6,25 +17,6 @@
     "8185": "northwest",
     "8182": "west"
   },
-  "paths": [
-    "Obvious exits: northeast, south, southwest, west, northwest"
-  ],
-  "image_coords": [
-    1023,
-    472,
-    1033,
-    482
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This huge, circular cavern glitters pink and gold and green around the edges, fading to sparkling white in the center.  In the middle of the room, you see a round pool full of milky liquid, its surface disturbed by the drops that drip off of a great white stalactite hanging from the center of the ceiling.  The PLOP, PLOP, PLOP echoes throughout the room and beyond."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mine, Crystal Caves]"
-  ],
-  "check_location": null,
   "timeto": {
     "8183": 0.2,
     "8184": 0.2,
@@ -32,21 +24,17 @@
     "8185": 0.2,
     "8182": 0.2
   },
-  "id": 8186,
-  "location": "the crystal caves",
+  "image": "wl-mineroad-1264234799.png",
+  "image_coords": [
+    1023,
+    472,
+    1033,
+    482
+  ],
   "tags": [
     "some wolifrew lichen",
     "some wingstem root",
     "withered black mushroom",
-    "some cave moss",
-    "wolifrew lichen",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

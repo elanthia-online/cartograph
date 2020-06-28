@@ -1,35 +1,34 @@
 {
+  "id": 11412,
+  "title": [
+    "[Hidden Vale, Slopes]"
+  ],
+  "description": [
+    "The lower slope of the vale drops off into a small but unpassably deep ravine to the northwest.  A line of trees extends to the east, and the grassy mountain slopes rise steeply to the south."
+  ],
+  "paths": [
+    "Obvious paths: east, southeast, southwest"
+  ],
+  "location": "the Hidden Vale",
+  "climate": "moist",
+  "terrain": "hilly ",
   "wayto": {
     "11413": "southwest",
     "11409": "southeast",
     "11411": "east"
   },
-  "paths": [
-    "Obvious paths: east, southeast, southwest"
-  ],
+  "timeto": {
+    "11413": 0.2,
+    "11409": 0.2,
+    "11411": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     814,
     1194,
     824,
     1204
   ],
-  "terrain": "hilly ",
-  "description": [
-    "The lower slope of the vale drops off into a small but unpassably deep ravine to the northwest.  A line of trees extends to the east, and the grassy mountain slopes rise steeply to the south."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "moist",
-  "title": [
-    "[Hidden Vale, Slopes]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11413": 0.2,
-    "11409": 0.2,
-    "11411": 0.2
-  },
-  "id": 11412,
-  "location": "the Hidden Vale",
   "tags": [
     "soft white mushroom",
     "trollfear mushroom",
@@ -59,11 +58,6 @@
     "murkweed",
     "twisted twig",
     "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bolmara lichen"
   ]
 }

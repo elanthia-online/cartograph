@@ -1,35 +1,32 @@
 {
+  "id": 5050,
+  "title": [
+    "[Vornavis, Ruins]"
+  ],
+  "description": [
+    "Near the path, cut stone blocks can be found in the underbrush.  Far off to either side of the path, ruins of small stone buildings can be seen.  Long worn by the elements and overgrown with mosses and vines, these buildings seem to have been uninhabited for a very long time."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south"
+  ],
+  "location": "the plains of Vornavis",
   "wayto": {
     "5049": "south",
     "5051": "east",
     "5052": "north"
   },
-  "paths": [
-    "Obvious paths: north, east, south"
-  ],
+  "timeto": {
+    "5049": 0.2,
+    "5051": 0.2,
+    "5052": 0.2
+  },
+  "image": "vo-caravansary-1264234799.png",
   "image_coords": [
     747,
     383,
     757,
     393
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "Near the path, cut stone blocks can be found in the underbrush.  Far off to either side of the path, ruins of small stone buildings can be seen.  Long worn by the elements and overgrown with mosses and vines, these buildings seem to have been uninhabited for a very long time."
-  ],
-  "image": "vo-caravansary-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Vornavis, Ruins]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5049": 0.2,
-    "5051": 0.2,
-    "5052": 0.2
-  },
-  "id": 5050,
-  "location": "the plains of Vornavis",
   "tags": [
     "yellow primrose",
     "handful of currants",
@@ -40,32 +37,6 @@
     "pink clover blossom",
     "vermilion fire lily",
     "some cactacae spine",
-    "sprig of wild lilac",
-    "cactacae spine",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "wild strawberry",
-    "blueberries",
-    "stalk of chicory",
-    "elderberries",
-    "wild grapes",
-    "broken twig",
-    "golden buttercup",
-    "white clover blossom",
-    "purple clover blossom",
-    "yellow clover blossom",
-    "stalk of goldenrod",
-    "sprig of larkspur",
-    "small wild rose",
-    "Imaera's Lace",
-    "wild chokecherry",
-    "fire lily",
-    "pepperthorn root",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sprig of wild lilac"
   ]
 }

@@ -1,38 +1,28 @@
 {
+  "id": 3295,
+  "title": [
+    "[Ice Plains, Master Quarters]"
+  ],
+  "description": [
+    "Several torches line the walls as the cavern heads deeper into the foothill.  There is stout-looking timber reinforcing this entire corridor.  Some of the timbers have recently been replaced, but by whom or what you don't know."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Ice Plains",
   "wayto": {
     "3294": "go open",
     "3296": "north"
   },
-  "paths": [
-    "Obvious exits: north"
-  ],
+  "timeto": {
+    "3294": 0.2,
+    "3296": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     682,
     351,
     692,
     361
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Several torches line the walls as the cavern heads deeper into the foothill.  There is stout-looking timber reinforcing this entire corridor.  Some of the timbers have recently been replaced, but by whom or what you don't know."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Ice Plains, Master Quarters]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3294": 0.2,
-    "3296": 0.2
-  },
-  "id": 3295,
-  "location": "the Ice Plains",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

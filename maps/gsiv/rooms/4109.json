@@ -1,69 +1,35 @@
 {
+  "id": 4109,
+  "title": [
+    "[Upper Trollfang]"
+  ],
+  "description": [
+    "Tumbling from a rock ledge several feet above the floor of the valley is a torrent of ice cold water.  As the cascade crashes on the rocks beneath it, a great plume of silver mist billows into the damp, and refreshingly cool, air of this shadowed glen."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "4108": "southwest",
     "4110": "north",
     "18694": "go gate"
   },
-  "paths": [
-    "Obvious paths: north, southwest"
-  ],
+  "timeto": {
+    "4108": 0.2,
+    "4110": 0.2,
+    "18694": {
+      "file": "string_procs/timeto/4109_18694.rb"
+    }
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     375,
     1140,
     385,
     1150
   ],
-  "terrain": "rough",
-  "description": [
-    "Tumbling from a rock ledge several feet above the floor of the valley is a torrent of ice cold water.  As the cascade crashes on the rocks beneath it, a great plume of silver mist billows into the damp, and refreshingly cool, air of this shadowed glen."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Upper Trollfang]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4108": 0.2,
-    "4110": 0.2,
-    "18694": {
-      "stringproc": "5874723c29f503b4a5fb93520503434f"
-    }
-  },
-  "id": 4109,
-  "location": "the Upper Trollfang",
   "tags": [
-    "heath aster",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "wild strawberry",
-    "blueberries",
-    "stalk of chicory",
-    "handful of currants",
-    "elderberries",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "wild grapes",
-    "broken twig",
-    "sprig of alyssum",
-    "golden buttercup",
-    "red clover blossom",
-    "pink clover blossom",
-    "white clover blossom",
-    "purple clover blossom",
-    "yellow clover blossom",
-    "stalk of goldenrod",
-    "sprig of larkspur",
-    "yellow primrose",
-    "small wild rose",
-    "wild chokecherry",
-    "motherwort",
-    "white baneberry",
-    "pepperthorn root",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "heath aster"
   ]
 }

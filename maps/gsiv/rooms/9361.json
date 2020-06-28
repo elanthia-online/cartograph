@@ -1,38 +1,31 @@
 {
+  "id": 9361,
+  "title": [
+    "[Caves]"
+  ],
+  "description": [
+    "There is definitely an odd smell in this corner of the caves, as though something crept back here into the eternal inky night and died...quite some time ago.  The temptation to cast about looking for it with the torch is not stronger than the desire to flee the odor, however."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "9360": "east",
     "9362": "south"
   },
-  "paths": [
-    "Obvious exits: east, south"
-  ],
+  "timeto": {
+    "9360": 0.2,
+    "9362": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     930,
     63,
     942,
     75
   ],
-  "terrain": "indoors",
-  "description": [
-    "There is definitely an odd smell in this corner of the caves, as though something crept back here into the eternal inky night and died...quite some time ago.  The temptation to cast about looking for it with the torch is not stronger than the desire to flee the odor, however."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Caves]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9360": 0.2,
-    "9362": 0.2
-  },
-  "id": 9361,
-  "location": "the Cairnfang",
   "tags": [
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

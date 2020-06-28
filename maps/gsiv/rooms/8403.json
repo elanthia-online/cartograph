@@ -1,46 +1,34 @@
 {
+  "id": 8403,
+  "title": [
+    "[Thanatoph Bowels, West Lobe]"
+  ],
+  "description": [
+    "The stillness of the passage is broken by an occasional rumbling and a low buzz, the origin of which cannot be determined.  A fine dust covers the walls, almost obscuring the glyphs carved into them.  Rivulets of water gather in the ridged clay tracks along the floor, pooling in tiny puddles whose surfaces shimmer slightly when far-off tremors occur."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "the bowels of Thanatoph",
   "wayto": {
     "8404": "northeast",
     "8402": "southwest"
   },
-  "paths": [
-    "Obvious exits: northeast, southwest"
-  ],
+  "timeto": {
+    "8404": 0.2,
+    "8402": 0.2
+  },
+  "image": "wl-stronghold-1264234799.png",
   "image_coords": [
     1138,
     603,
     1148,
     613
   ],
-  "terrain": "indoors",
-  "description": [
-    "The stillness of the passage is broken by an occasional rumbling and a low buzz, the origin of which cannot be determined.  A fine dust covers the walls, almost obscuring the glyphs carved into them.  Rivulets of water gather in the ridged clay tracks along the floor, pooling in tiny puddles whose surfaces shimmer slightly when far-off tremors occur."
-  ],
-  "image": "wl-stronghold-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thanatoph Bowels, West Lobe]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8404": 0.2,
-    "8402": 0.2
-  },
-  "id": 8403,
-  "location": "the bowels of Thanatoph",
   "tags": [
     "some wolifrew lichen",
     "some cave moss",
     "withered black mushroom",
-    "some wingstem root",
-    "wolifrew lichen",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

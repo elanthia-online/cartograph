@@ -1,38 +1,28 @@
 {
+  "id": 8804,
+  "title": [
+    "[Dragonsclaw Arms, Second Floor]"
+  ],
+  "description": [
+    "A dwarven workman stands atop a ladder in the center of the hall, changing the candles in one of the chandeliers.  His movements throw flickering shadows on the deep green carpet and polished oaken walls."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "8800": "west",
     "8805": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "8800": 0.2,
+    "8805": 0.2
+  },
+  "image": "wl-homes-1-1264234799.png",
   "image_coords": [
     596,
     816,
     614,
     834
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A dwarven workman stands atop a ladder in the center of the hall, changing the candles in one of the chandeliers.  His movements throw flickering shadows on the deep green carpet and polished oaken walls."
-  ],
-  "image": "wl-homes-1-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dragonsclaw Arms, Second Floor]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8800": 0.2,
-    "8805": 0.2
-  },
-  "id": 8804,
-  "location": "Wehnimer's Landing",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

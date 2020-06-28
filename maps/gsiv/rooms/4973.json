@@ -1,45 +1,34 @@
 {
+  "id": 4973,
+  "title": [
+    "[Maernstrike Caverns, Tunnel]"
+  ],
+  "description": [
+    "Hundreds of fire beetles dance hypnotically in the air.  The eerie green light from their underbellies casts unsettling shadows on the far walls.  The floor is littered with rocks and debris making movement dangerous and burdensome."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Maernstrike Caverns",
   "wayto": {
     "4972": "south",
     "4974": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "4972": 0.2,
+    "4974": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     1437,
     415,
     1447,
     425
   ],
-  "terrain": "indoors",
-  "description": [
-    "Hundreds of fire beetles dance hypnotically in the air.  The eerie green light from their underbellies casts unsettling shadows on the far walls.  The floor is littered with rocks and debris making movement dangerous and burdensome."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Maernstrike Caverns, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4972": 0.2,
-    "4974": 0.2
-  },
-  "id": 4973,
-  "location": "the Maernstrike Caverns",
   "tags": [
     "some bolmara lichen",
     "some cave moss",
     "white hook mushroom",
-    "some wingstem root",
-    "cave moss",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

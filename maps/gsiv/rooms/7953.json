@@ -1,46 +1,33 @@
 {
+  "id": 7953,
+  "title": [
+    "[Burrows, Bend]"
+  ],
+  "description": [
+    "The tunnel takes a sharp bend around a large boulder here.  It looks as if the diggers hit the stone, and decided it would be easier to go around it rather than remove it from the area.  Larger roots dangle from the ceiling, showing a lovely array of subterranean insects."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "Melgorehn's Valley",
   "wayto": {
     "7955": "west",
     "7951": "north"
   },
-  "paths": [
-    "Obvious exits: north, west"
-  ],
+  "timeto": {
+    "7955": 0.2,
+    "7951": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     817,
     458,
     827,
     468
   ],
-  "terrain": "indoors",
-  "description": [
-    "The tunnel takes a sharp bend around a large boulder here.  It looks as if the diggers hit the stone, and decided it would be easier to go around it rather than remove it from the area.  Larger roots dangle from the ceiling, showing a lovely array of subterranean insects."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Burrows, Bend]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7955": 0.2,
-    "7951": 0.2
-  },
-  "id": 7953,
-  "location": "Melgorehn's Valley",
   "tags": [
     "some wolifrew lichen",
     "some wingstem root",
-    "some cave moss",
-    "wolifrew lichen",
-    "withered black mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

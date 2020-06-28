@@ -1,40 +1,33 @@
 {
+  "id": 2451,
+  "title": [
+    "[Icemule Trace, East Road]"
+  ],
+  "description": [
+    "Crowds of adventurers flock along this main road, traveling back and forth between the East Gate and the Icemule town center.  Young children run around, tugging at travellers' coattails as they hawk cheap gems.  A rather squat wooden building sits comfortably on the north side of the road."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "3372": "go building",
     "2427": "west",
     "2452": "east"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "3372": 0.2,
+    "2427": 0.2,
+    "2452": 0.2
+  },
+  "image": "imt-icemule-1474811966.png",
   "image_coords": [
     848,
     785,
     884,
     821
   ],
-  "terrain": "hard, flat",
-  "description": [
-    "Crowds of adventurers flock along this main road, traveling back and forth between the East Gate and the Icemule town center.  Young children run around, tugging at travellers' coattails as they hawk cheap gems.  A rather squat wooden building sits comfortably on the north side of the road."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Icemule Trace, East Road]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3372": 0.2,
-    "2427": 0.2,
-    "2452": 0.2
-  },
-  "id": 2451,
-  "location": "Icemule Trace",
   "tags": [
-    "calmintha flower",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "calmintha flower"
   ]
 }

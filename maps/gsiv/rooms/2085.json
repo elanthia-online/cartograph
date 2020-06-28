@@ -1,54 +1,38 @@
 {
+  "id": 2085,
+  "title": [
+    "[Teras Isle, Sumendar Road]"
+  ],
+  "description": [
+    "A broad road, deeply cut from the passage of heavily laden carts and wagons, makes its way through the overgrown forest to the northeast.  The dense foliage allows no moonlight to pass, leaving the forest in total darkness.",
+    "A broad road, deeply cut from the passage of heavily laden carts and wagons, makes its way through the overgrown forest to the northeast.  The dense foliage allows no light to pass, leaving the forest in total darkness."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, west"
+  ],
+  "location": "the Fhorian Village",
   "wayto": {
     "2082": "west",
     "2086": "northeast",
     "2067": "southeast"
   },
-  "paths": [
-    "Obvious paths: northeast, southeast, west"
-  ],
+  "timeto": {
+    "2082": 0.2,
+    "2086": 0.2,
+    "2067": 0.2
+  },
+  "image": "ti-wilds-1264234799.png",
   "image_coords": [
     562,
     766,
     572,
     776
   ],
-  "terrain": null,
-  "description": [
-    "A broad road, deeply cut from the passage of heavily laden carts and wagons, makes its way through the overgrown forest to the northeast.  The dense foliage allows no moonlight to pass, leaving the forest in total darkness.",
-    "A broad road, deeply cut from the passage of heavily laden carts and wagons, makes its way through the overgrown forest to the northeast.  The dense foliage allows no light to pass, leaving the forest in total darkness."
-  ],
-  "image": "ti-wilds-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Teras Isle, Sumendar Road]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2082": 0.2,
-    "2086": 0.2,
-    "2067": 0.2
-  },
-  "id": 2085,
-  "location": "the Fhorian Village",
   "tags": [
     "some calamia fruit",
     "some bur-clover root",
     "withered black mushroom",
     "wild chokecherry",
-    "small wild rose",
-    "acantha leaf",
-    "calamia fruit",
-    "pothinir grass",
-    "stalk of chicory",
-    "stalk of goldenrod",
-    "motherwort",
-    "murdroot",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "small wild rose"
   ]
 }

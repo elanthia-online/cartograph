@@ -1,4 +1,15 @@
 {
+  "id": 8267,
+  "title": [
+    "[Wolves' Den, Prison]"
+  ],
+  "description": [
+    "An iron-banded wooden post, wrapped with corroded chains, stands next to the fire-pit in the center of the room.  Iron cell doors yawn open to the east, south and west, and an iron-grilled trapdoor leads down."
+  ],
+  "paths": [
+    "Obvious exits: east, south, west, up"
+  ],
+  "location": "the Wolves' Den",
   "wayto": {
     "8271": "go trapdoor",
     "8266": "up",
@@ -6,25 +17,6 @@
     "8269": "east",
     "8270": "south"
   },
-  "paths": [
-    "Obvious exits: east, south, west, up"
-  ],
-  "image_coords": [
-    185,
-    590,
-    195,
-    600
-  ],
-  "terrain": "indoors",
-  "description": [
-    "An iron-banded wooden post, wrapped with corroded chains, stands next to the fire-pit in the center of the room.  Iron cell doors yawn open to the east, south and west, and an iron-grilled trapdoor leads down."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Wolves' Den, Prison]"
-  ],
-  "check_location": null,
   "timeto": {
     "8271": 0.2,
     "8266": 0.2,
@@ -32,13 +24,11 @@
     "8269": 0.2,
     "8270": 0.2
   },
-  "id": 8267,
-  "location": "the Wolves' Den",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-mineroad-1264234799.png",
+  "image_coords": [
+    185,
+    590,
+    195,
+    600
   ]
 }

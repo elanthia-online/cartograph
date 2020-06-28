@@ -1,49 +1,35 @@
 {
-  "wayto": {
-    "4607": {
-      "stringproc": "dbbfd361e7886ce7121cafa8a1b5c5c5"
-    },
-    "4006": {
-      "stringproc": "395b361a16c8a355265cda519abf9fe5"
-    }
-  },
+  "id": 4609,
+  "title": [
+    "[Griffin's Keen, Inner Trail]"
+  ],
+  "description": [
+    "The trail is almost vertical here, and travel would be impossible if not for the metal rings that some long ago hand has hammered into the rock to serve as handholds.  They seem to have held steady for years as they themselves are covered with layers of the black ice that is everywhere."
+  ],
   "paths": [
     "Obvious paths: up, down"
   ],
+  "location": "Griffin's Keen",
+  "wayto": {
+    "4607": {
+      "file": "string_procs/wayto/4609_4607.rb"
+    },
+    "4006": {
+      "file": "string_procs/wayto/4609_4006.rb"
+    }
+  },
+  "timeto": {
+    "4607": 4.2,
+    "4006": 4.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     744,
     209,
     754,
     219
   ],
-  "terrain": null,
-  "description": [
-    "The trail is almost vertical here, and travel would be impossible if not for the metal rings that some long ago hand has hammered into the rock to serve as handholds.  They seem to have held steady for years as they themselves are covered with layers of the black ice that is everywhere."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Griffin's Keen, Inner Trail]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4607": 4.2,
-    "4006": 4.2
-  },
-  "id": 4609,
-  "location": "Griffin's Keen",
   "tags": [
-    "some pennyroyal stem",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "sprig of holly",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some pennyroyal stem"
   ]
 }

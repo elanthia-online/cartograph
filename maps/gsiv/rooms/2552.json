@@ -1,38 +1,28 @@
 {
+  "id": 2552,
+  "title": [
+    "[Glatoph, Icy Passage]"
+  ],
+  "description": [
+    "Huge icicles are suspended from the ceiling and overhang the stream, dripping into its frigid waters.  The dripping sounds echo throughout this passage sending shivers down your spine.  Off to the south you see the passage widen."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south"
+  ],
+  "location": "the Icemule Trail",
   "wayto": {
     "2553": "south",
     "2551": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, south"
-  ],
+  "timeto": {
+    "2553": 0.2,
+    "2551": 0.2
+  },
+  "image": "imt-trail-1264234799.png",
   "image_coords": [
     712,
     801,
     722,
     811
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Huge icicles are suspended from the ceiling and overhang the stream, dripping into its frigid waters.  The dripping sounds echo throughout this passage sending shivers down your spine.  Off to the south you see the passage widen."
-  ],
-  "image": "imt-trail-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Glatoph, Icy Passage]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2553": 0.2,
-    "2551": 0.2
-  },
-  "id": 2552,
-  "location": "the Icemule Trail",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

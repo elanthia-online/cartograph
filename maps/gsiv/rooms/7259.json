@@ -1,34 +1,31 @@
 {
+  "id": 7259,
+  "title": [
+    "[Wormwood Slough, Excavated Pit]"
+  ],
+  "description": [
+    "The thick, mossy branches of the overhanging yews cast shifting shadows over the walls and floor of the excavation, and filtered light flickers on the ground where a few shallow puddles of dampness have seeped in from the bog.  The walls of the pit are riddled with gnarled roots and long-buried bones still imbedded in the earth, and matted with layers of dirt and moss that hint that the depression was dug at least a century ago.  The south wall forms a slope leading up to the path.",
+    "The thick, mossy branches of the overhanging yews cast shifting shadows over the walls and floor of the excavation, and filtered moonlight flickers on the ground where a few shallow puddles of dampness have seeped in from the bog.  The walls of the pit are riddled with gnarled roots and long-buried bones still imbedded in the earth, and matted with layers of dirt and moss that hint that the depression was dug at least a century ago.  The south wall forms a slope leading up to the path."
+  ],
+  "paths": [
+    "Obvious paths: up"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7258": "up",
     "7260": "go archway"
   },
-  "paths": [
-    "Obvious paths: up"
-  ],
+  "timeto": {
+    "7258": 0.2,
+    "7260": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     107,
     532,
     117,
     542
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "The thick, mossy branches of the overhanging yews cast shifting shadows over the walls and floor of the excavation, and filtered light flickers on the ground where a few shallow puddles of dampness have seeped in from the bog.  The walls of the pit are riddled with gnarled roots and long-buried bones still imbedded in the earth, and matted with layers of dirt and moss that hint that the depression was dug at least a century ago.  The south wall forms a slope leading up to the path.",
-    "The thick, mossy branches of the overhanging yews cast shifting shadows over the walls and floor of the excavation, and filtered moonlight flickers on the ground where a few shallow puddles of dampness have seeped in from the bog.  The walls of the pit are riddled with gnarled roots and long-buried bones still imbedded in the earth, and matted with layers of dirt and moss that hint that the depression was dug at least a century ago.  The south wall forms a slope leading up to the path."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "humid",
-  "title": [
-    "[Wormwood Slough, Excavated Pit]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7258": 0.2,
-    "7260": 0.2
-  },
-  "id": 7259,
-  "location": "the Graveyard",
   "tags": [
     "some pothinir grass",
     "some wingstem root",
@@ -54,10 +51,6 @@
     "wild chokecherry",
     "murkweed",
     "blue whortleberry",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

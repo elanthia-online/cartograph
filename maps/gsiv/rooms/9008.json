@@ -1,4 +1,15 @@
 {
+  "id": 9008,
+  "title": [
+    "[Solhaven, Spiral Passageway]"
+  ],
+  "description": [
+    "Several steps down from street level, this passageway winds a twisting path that tunnels underneath city buildings.  Here, the cobblestones of the roads above are repeated, however they're less weathered and more cumbersome to navigate with sound footing.  Oil lamps glow permanently, day and night, due to the subterranean nature of the area."
+  ],
+  "paths": [
+    "Obvious paths: southeast"
+  ],
+  "location": "Solhaven",
   "wayto": {
     "1441": "go steps",
     "13524": "go gallery",
@@ -8,25 +19,6 @@
     "13521": "go building",
     "13525": "go hutch"
   },
-  "paths": [
-    "Obvious paths: southeast"
-  ],
-  "image_coords": [
-    1435,
-    488,
-    1447,
-    500
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "Several steps down from street level, this passageway winds a twisting path that tunnels underneath city buildings.  Here, the cobblestones of the roads above are repeated, however they're less weathered and more cumbersome to navigate with sound footing.  Oil lamps glow permanently, day and night, due to the subterranean nature of the area."
-  ],
-  "image": "vo-solhaven-1263764670.png",
-  "climate": "temperate",
-  "title": [
-    "[Solhaven, Spiral Passageway]"
-  ],
-  "check_location": null,
   "timeto": {
     "1441": 0.2,
     "13524": 0.2,
@@ -36,13 +28,11 @@
     "13521": 0.2,
     "13525": 0.2
   },
-  "id": 9008,
-  "location": "Solhaven",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "vo-solhaven-1263764670.png",
+  "image_coords": [
+    1435,
+    488,
+    1447,
+    500
   ]
 }

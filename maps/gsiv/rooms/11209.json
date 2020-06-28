@@ -1,38 +1,28 @@
 {
+  "id": 11209,
+  "title": [
+    "[Armory, Hallway]"
+  ],
+  "description": [
+    "The walls are broken and battered.  The fact that they have not completely crumbled is a testament to the builders who first crafted this place years ago.  A broken sword hilt lies in a pile of rocks that nearly blocks the entrance to the smithy."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11207": "west",
     "11210": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "11207": 0.2,
+    "11210": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     305,
     205,
     315,
     215
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The walls are broken and battered.  The fact that they have not completely crumbled is a testament to the builders who first crafted this place years ago.  A broken sword hilt lies in a pile of rocks that nearly blocks the entrance to the smithy."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Armory, Hallway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11207": 0.2,
-    "11210": 0.2
-  },
-  "id": 11209,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

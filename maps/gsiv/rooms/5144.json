@@ -1,49 +1,34 @@
 {
+  "id": 5144,
+  "title": [
+    "[Vornavian Coast, Caverns]"
+  ],
+  "description": [
+    "A warm breeze blows into this chilled room from the east, and a faint light can be seen reflecting from pools of water on the floor.  The dampness increases to the west, while the drier, warmer air to the east seems much more inviting.  Small piles of sand dot the floor occasionally."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, west"
+  ],
+  "location": "the Vornavian Coast",
   "wayto": {
     "5131": "west",
     "5145": "northeast",
     "5146": "southeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southeast, west"
-  ],
+  "timeto": {
+    "5131": 0.2,
+    "5145": 0.2,
+    "5146": 0.2
+  },
+  "image": "vo-north_beach-1264234799.png",
   "image_coords": [
     318,
     844,
     328,
     854
   ],
-  "terrain": "indoors",
-  "description": [
-    "A warm breeze blows into this chilled room from the east, and a faint light can be seen reflecting from pools of water on the floor.  The dampness increases to the west, while the drier, warmer air to the east seems much more inviting.  Small piles of sand dot the floor occasionally."
-  ],
-  "image": "vo-north_beach-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Vornavian Coast, Caverns]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5131": 0.2,
-    "5145": 0.2,
-    "5146": 0.2
-  },
-  "id": 5144,
-  "location": "the Vornavian Coast",
   "tags": [
     "blue trafel mushroom",
-    "red trafel mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "black hook mushroom",
-    "white hook mushroom",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "red trafel mushroom"
   ]
 }

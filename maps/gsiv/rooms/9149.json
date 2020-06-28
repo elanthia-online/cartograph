@@ -1,40 +1,31 @@
 {
+  "id": 9149,
+  "title": [
+    "[Thurfel's Island]"
+  ],
+  "description": [
+    "The pounding surf beats upon the shore with monotonous intensity, seeking nothing more than to make its presence felt.  The constant slap of the waves has dragged off most of the sand within the area, and the slow erosion has revealed the tip of a buried object made of obsidian.  It is impossible to discern what exactly is protruding from the sand."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast"
+  ],
+  "location": "Thurfel's Island",
   "wayto": {
     "9141": "southeast",
     "9150": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southeast"
-  ],
+  "timeto": {
+    "9141": 0.2,
+    "9150": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     331,
     912,
     341,
     922
   ],
-  "terrain": "indoors",
-  "description": [
-    "The pounding surf beats upon the shore with monotonous intensity, seeking nothing more than to make its presence felt.  The constant slap of the waves has dragged off most of the sand within the area, and the slow erosion has revealed the tip of a buried object made of obsidian.  It is impossible to discern what exactly is protruding from the sand."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thurfel's Island]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9141": 0.2,
-    "9150": 0.2
-  },
-  "id": 9149,
-  "location": "Thurfel's Island",
   "tags": [
-    "some bur-clover root",
-    "murdroot",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some bur-clover root"
   ]
 }

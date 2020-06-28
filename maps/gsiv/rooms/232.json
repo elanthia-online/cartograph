@@ -1,68 +1,36 @@
 {
+  "id": 232,
+  "title": [
+    "[Wehnimer's, Cheridin Ave.]"
+  ],
+  "description": [
+    "On the west side of this narrow stretch of Cheridin Avenue is the unlit back of the Moot Hall, and the dour building that houses the local constabulary and its jail looms along the other side of the street.  To the southeast, a stone dome rises over the compound that surrounds the Landing's largest temple.  Passers-by here move quickly north and south without much pause.",
+    "On the west side of this narrow stretch of Cheridin Avenue is the wooden back of the Moot Hall, and the dour building that houses the local constabulary and its jail looms along the other side of the street.  To the southeast, a stone dome rises over the compound that surrounds the Landing's largest temple.  The traffic here flows quickly north and south without much pause."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "231": "north",
     "233": "south",
     "8686": "go constabulary"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "231": 0.2,
+    "233": 0.2,
+    "8686": 0.2
+  },
+  "image": "wl-wehnimers-1264234799.png",
   "image_coords": [
     509,
     735,
     545,
     771
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "On the west side of this narrow stretch of Cheridin Avenue is the unlit back of the Moot Hall, and the dour building that houses the local constabulary and its jail looms along the other side of the street.  To the southeast, a stone dome rises over the compound that surrounds the Landing's largest temple.  Passers-by here move quickly north and south without much pause.",
-    "On the west side of this narrow stretch of Cheridin Avenue is the wooden back of the Moot Hall, and the dour building that houses the local constabulary and its jail looms along the other side of the street.  To the southeast, a stone dome rises over the compound that surrounds the Landing's largest temple.  The traffic here flows quickly north and south without much pause."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Wehnimer's, Cheridin Ave.]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "231": 0.2,
-    "233": 0.2,
-    "8686": 0.2
-  },
-  "id": 232,
-  "location": "the town of Wehnimer's Landing",
   "tags": [
     "some calamia fruit",
     "pepperthorn root",
-    "meta:teleport:fwi",
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "small flower",
-    "small rose",
-    "small daisy",
-    "angelica root",
-    "withered black mushroom",
-    "stalk of chicory",
-    "sprig of alyssum",
-    "heath aster",
-    "stalk of goldenrod",
-    "yellow primrose",
-    "small wild rose",
-    "wild carrot",
-    "ginger root",
-    "wild chokecherry",
-    "motherwort",
-    "murkweed",
-    "blue whortleberry",
-    "white baneberry",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:teleport:fwi"
   ]
 }

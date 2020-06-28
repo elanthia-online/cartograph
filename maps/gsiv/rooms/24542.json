@@ -1,47 +1,30 @@
 {
+  "id": 24542,
+  "title": [
+    "[Frozen Bramble Patch]"
+  ],
+  "description": [
+    "A tiny flurry of snow swirls all around, its touch far softer than the unrelenting sting of the endless thorns.  The brambles twist together vertically to form a sword-like entity, pieces of frozen, unfortunate creatures stuck to its thorns."
+  ],
+  "paths": [
+    "Obvious paths: north, south, northwest"
+  ],
+  "location": "the Abandoned Farm",
   "wayto": {
     "24541": "northwest",
     "24532": "south",
     "24539": "north"
   },
-  "paths": [
-    "Obvious paths: north, south, northwest"
-  ],
-  "image_coords": [
-    301,
-    226,
-    311,
-    236
-  ],
-  "terrain": "barren scrub",
-  "description": [
-    "A tiny flurry of snow swirls all around, its touch far softer than the unrelenting sting of the endless thorns.  The brambles twist together vertically to form a sword-like entity, pieces of frozen, unfortunate creatures stuck to its thorns."
-  ],
-  "image": "imt-bramble_patch-1307499864.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Frozen Bramble Patch]"
-  ],
-  "check_location": null,
   "timeto": {
     "24541": 0.2,
     "24532": 0.2,
     "24539": 0.2
   },
-  "id": 24542,
-  "location": "the Abandoned Farm",
-  "tags": [
-    "snow lily",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "arctic moss",
-    "broken twig",
-    "rockberry",
-    "crowberry",
-    "lingonberry",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+  "image": "imt-bramble_patch-1307499864.png",
+  "image_coords": [
+    301,
+    226,
+    311,
+    236
+  ]
 }

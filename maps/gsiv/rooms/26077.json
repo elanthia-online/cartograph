@@ -1,34 +1,25 @@
 {
-  "wayto": {
-    "26078": {
-      "stringproc": "2be5e1713fd441fb9d96ee2c6b6c09c0"
-    },
-    "26076": {
-      "stringproc": "b0be0d51fa1a6a17201f92c65e8511c2"
-    }
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Four large murals line the smooth stones walls, their images ranging in hues from sanguine to niveous.  Carved patterns, each transforming from one mural to the other, travel between the pieces and are illuminated by a tall pillar of candles that occupies the center of the floor.  Traveling in opposing directions, a pair of staircases provides twin exits from the chamber."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 26077,
   "title": [
     "[Zul Logoth, Ancient Passage]"
   ],
-  "check_location": null,
+  "description": [
+    "Four large murals line the smooth stones walls, their images ranging in hues from sanguine to niveous.  Carved patterns, each transforming from one mural to the other, travel between the pieces and are illuminated by a tall pillar of candles that occupies the center of the floor.  Traveling in opposing directions, a pair of staircases provides twin exits from the chamber."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Zul Logoth",
+  "wayto": {
+    "26078": {
+      "file": "string_procs/wayto/26077_26078.rb"
+    },
+    "26076": {
+      "file": "string_procs/wayto/26077_26076.rb"
+    }
+  },
   "timeto": {
     "26078": 12.0,
     "26076": 24.0
-  },
-  "id": 26077,
-  "location": "Zul Logoth",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  }
 }

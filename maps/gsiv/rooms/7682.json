@@ -1,38 +1,28 @@
 {
+  "id": 7682,
+  "title": [
+    "[Underground Ruin, Entrance Hall]"
+  ],
+  "description": [
+    "You are in the northern end of a huge entrance hall.  It goes on to the south beyound the reach of your eyesight.  Your feet kick up small clouds of dust as you make your way around.  The smooth walls are covered with the faint rememberings of murals depicting great sea battles."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "7683": "south",
     "520": "go steps"
   },
-  "paths": [
-    "Obvious exits: south"
-  ],
+  "timeto": {
+    "7683": 0.2,
+    "520": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     349,
     1096,
     359,
     1106
-  ],
-  "terrain": "indoors",
-  "description": [
-    "You are in the northern end of a huge entrance hall.  It goes on to the south beyound the reach of your eyesight.  Your feet kick up small clouds of dust as you make your way around.  The smooth walls are covered with the faint rememberings of murals depicting great sea battles."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Underground Ruin, Entrance Hall]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7683": 0.2,
-    "520": 0.2
-  },
-  "id": 7682,
-  "location": "the Coastal Cliffs",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

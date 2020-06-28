@@ -1,41 +1,33 @@
 {
+  "id": 9495,
+  "title": [
+    "[Rockslinger's, Dark Hallway]"
+  ],
+  "description": [
+    "A dark hallway stretches east and west, although quite a bit of light intrudes from the eastern end.  No carpet covers the hard granite floor, and footsteps echo loudly.  Strangely, the walls on either side are constructed from sheet metal, as if the section was not originally excavated for its current purpose.  The odor of mushrooms pervades the entire area."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Zul Logoth",
   "wayto": {
     "9494": "east",
     "16853": "west",
     "24497": "go woolen curtain"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "9494": 0.2,
+    "16853": 0.2,
+    "24497": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     810,
     629,
     820,
     639
   ],
-  "terrain": "indoors",
-  "description": [
-    "A dark hallway stretches east and west, although quite a bit of light intrudes from the eastern end.  No carpet covers the hard granite floor, and footsteps echo loudly.  Strangely, the walls on either side are constructed from sheet metal, as if the section was not originally excavated for its current purpose.  The odor of mushrooms pervades the entire area."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Rockslinger's, Dark Hallway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9494": 0.2,
-    "16853": 0.2,
-    "24497": 0.2
-  },
-  "id": 9495,
-  "location": "Zul Logoth",
   "tags": [
-    "publiclockers",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "publiclockers"
   ]
 }

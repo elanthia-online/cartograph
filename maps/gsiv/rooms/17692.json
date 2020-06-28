@@ -1,37 +1,28 @@
 {
-  "wayto": {
-    "11722": "go door"
-  },
+  "id": 17692,
+  "title": [
+    "[Marsh Keep, Secret Study]"
+  ],
+  "description": [
+    "Two rectangular windows offer light to the small, dust-laden study.  A desk is placed against one wall, atop of which rests a tattered journal, and bookshelves line the wall opposite.  A small, jeweled chest sits beneath the window, a lock lying shattered on the ground beside it.  In addition to the broken lock, several glass jars lie smashed across the faded carpeted floor."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "wayto": {
+    "11722": "go door"
+  },
+  "timeto": {
+    "11722": 0.2
+  },
+  "image": "rr-marsh_keep-1266356986.png",
   "image_coords": [
     796,
     811,
     806,
     821
   ],
-  "terrain": "indoors",
-  "description": [
-    "Two rectangular windows offer light to the small, dust-laden study.  A desk is placed against one wall, atop of which rests a tattered journal, and bookshelves line the wall opposite.  A small, jeweled chest sits beneath the window, a lock lying shattered on the ground beside it.  In addition to the broken lock, several glass jars lie smashed across the faded carpeted floor."
-  ],
-  "image": "rr-marsh_keep-1266356986.png",
-  "climate": "indoors",
-  "title": [
-    "[Marsh Keep, Secret Study]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11722": 0.2
-  },
-  "id": 17692,
-  "location": "the Marsh Keep",
   "tags": [
-    "ringable",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ringable"
   ]
 }

@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "9125": "climb fissure"
-  },
+  "id": 9126,
+  "title": [
+    "[Gas Pocket]"
+  ],
+  "description": [
+    "This chamber is almost perfectly round except where it is marred by cracks and openings in floor and ceiling.  A powerful stench fills the nostrils.  Whatever foul wizard's breath gathers here, it must be light, for it seems to pool in the ceiling and spark into flame periodically.  The unnatural flashes of lighting illuminate the chamber fitfully."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "the subterranean tunnels",
+  "wayto": {
+    "9125": "climb fissure"
+  },
+  "timeto": {
+    "9125": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     144,
     821,
     154,
     831
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This chamber is almost perfectly round except where it is marred by cracks and openings in floor and ceiling.  A powerful stench fills the nostrils.  Whatever foul wizard's breath gathers here, it must be light, for it seems to pool in the ceiling and spark into flame periodically.  The unnatural flashes of lighting illuminate the chamber fitfully."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Gas Pocket]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9125": 0.2
-  },
-  "id": 9126,
-  "location": "the subterranean tunnels",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

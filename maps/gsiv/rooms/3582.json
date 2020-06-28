@@ -1,42 +1,32 @@
 {
-  "wayto": {
-    "3581": "west",
-    "17747": {
-      "stringproc": "e1b570dc7b5c98ee0512c9ed01464221"
-    },
-    "3583": "east"
-  },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
-  "image_coords": [
-    508,
-    435,
-    518,
-    445
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The hall runs in an east to west direction, its progress marked with ora braziers bolted to the stone walls.  Clouds of dust float and dance down the nave in the twilight like cavorting spirits caught up in celebrating some revel of old.  On the north wall, an immense ora door is bolted into the stone, its proportions as ponderous as the slabs that form the walls of the thoroughfare."
-  ],
-  "image": "wl-stronghold-1264234799.png",
-  "climate": "indoors",
+  "id": 3582,
   "title": [
     "[Stronghold, North Hall]"
   ],
-  "check_location": null,
+  "description": [
+    "The hall runs in an east to west direction, its progress marked with ora braziers bolted to the stone walls.  Clouds of dust float and dance down the nave in the twilight like cavorting spirits caught up in celebrating some revel of old.  On the north wall, an immense ora door is bolted into the stone, its proportions as ponderous as the slabs that form the walls of the thoroughfare."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Stone Valley",
+  "wayto": {
+    "3581": "west",
+    "17747": {
+      "file": "string_procs/wayto/3582_17747.rb"
+    },
+    "3583": "east"
+  },
   "timeto": {
     "3581": 0.2,
     "17747": 0.6,
     "3583": 0.2
   },
-  "id": 3582,
-  "location": "Stone Valley",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-stronghold-1264234799.png",
+  "image_coords": [
+    508,
+    435,
+    518,
+    445
   ]
 }

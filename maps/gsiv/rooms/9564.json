@@ -1,49 +1,31 @@
 {
+  "id": 9564,
+  "title": [
+    "[The Waggler's, Consignment]"
+  ],
+  "description": [
+    "Mirrors line the walls of this shop from east to west, multiplying the tiniest amount of light to create a well-lit area.  Many objects are stockpiled, offering a cluttered appearance."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Zul Logoth",
   "wayto": {
     "9563": "east",
     "9565": "west"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "9563": 0.2,
+    "9565": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     1118,
     605,
     1144,
     631
   ],
-  "terrain": "indoors",
-  "description": [
-    "Mirrors line the walls of this shop from east to west, multiplying the tiniest amount of light to create a well-lit area.  Many objects are stockpiled, offering a cluttered appearance."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[The Waggler's, Consignment]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9563": 0.2,
-    "9565": 0.2
-  },
-  "id": 9564,
-  "location": "Zul Logoth",
   "tags": [
-    "consignment",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "consignment"
   ]
 }

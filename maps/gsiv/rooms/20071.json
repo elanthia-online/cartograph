@@ -1,34 +1,22 @@
 {
-  "wayto": {
-    "20070": "go archway",
-    "20072": "go steps"
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Stagnant water pools at the back of the mausoleum on the opposite side of where the archway leads back to the entry.  The walls are a green tinge with patches of moss growing up the granite.  The slope in the floor comes to an end just before a short flight of steps leading further inside."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 20071,
   "title": [
     "[Sunken Mausoleam, Hallway]",
     "[Sunken Mausoleum, Hallway]"
   ],
-  "check_location": null,
+  "description": [
+    "Stagnant water pools at the back of the mausoleum on the opposite side of where the archway leads back to the entry.  The walls are a green tinge with patches of moss growing up the granite.  The slope in the floor comes to an end just before a short flight of steps leading further inside."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Feymist Cemetery",
+  "wayto": {
+    "20070": "go archway",
+    "20072": "go steps"
+  },
   "timeto": {
     "20070": 0.2,
     "20072": 0.2
-  },
-  "id": 20071,
-  "location": "the Feymist Cemetery",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  }
 }

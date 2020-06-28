@@ -1,73 +1,35 @@
 {
+  "id": 24727,
+  "title": [
+    "[Red Forest, Derelict Village]"
+  ],
+  "description": [
+    "A slow churning wall of ethereal mist swells along a stretch of the town, with the dark, indistinct silhouettes of buildings obscured beyond.  The scorched frames of wooden wagons lay undisturbed in the ground, relatively close together, as if positioned in some grim display of art."
+  ],
+  "paths": [
+    "Obvious paths: north, northwest"
+  ],
+  "location": "the Red Forest",
   "wayto": {
     "24725": "northwest",
     "24729": "north"
   },
-  "paths": [
-    "Obvious paths: north, northwest"
-  ],
+  "timeto": {
+    "24725": 0.2,
+    "24729": 0.2
+  },
+  "image": "red_forest-1260914757.png",
   "image_coords": [
     270,
     506,
     283,
     518
   ],
-  "terrain": null,
-  "description": [
-    "A slow churning wall of ethereal mist swells along a stretch of the town, with the dark, indistinct silhouettes of buildings obscured beyond.  The scorched frames of wooden wagons lay undisturbed in the ground, relatively close together, as if positioned in some grim display of art."
-  ],
-  "image": "red_forest-1260914757.png",
-  "climate": null,
-  "title": [
-    "[Red Forest, Derelict Village]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24725": 0.2,
-    "24729": 0.2
-  },
-  "id": 24727,
-  "location": "the Displaced Red Forest",
   "tags": [
     "some bolmara lichen",
     "some wolifrew lichen",
     "sprig of wild lilac",
     "small wild rose",
-    "bright red cranberry",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "tkaro root",
-    "sticks",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "soft white mushroom",
-    "withered black mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "blueberries",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "broken twig",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "wild chokecherry",
-    "tree bark",
-    "mistweed",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+    "bright red cranberry"
+  ]
 }

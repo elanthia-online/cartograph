@@ -1,35 +1,28 @@
 {
+  "id": 25069,
+  "title": [
+    "[Reim Settlement, Stable]"
+  ],
+  "description": [
+    "Bales of hay are stacked to the ceiling along the walls of the stable, and a single stool sits underneath a leather harness hanging from a low beam that stretches from the east wall to the west.  A myriad of tools used to clean and groom animals hang in an orderly fashion on an iron rack.  Below the tool rack is a small shelf filled with iron ingots."
+  ],
+  "paths": [
+    "Obvious exits: west, out"
+  ],
+  "location": "the Settlement of Reim",
   "wayto": {
     "25068": "out",
     "25097": "west"
   },
-  "paths": [
-    "Obvious exits: west, out"
-  ],
+  "timeto": {
+    "25068": 0.2,
+    "25097": 0.2
+  },
+  "image": "imt-Reim-1260914759.png",
   "image_coords": [
     209,
     507,
     222,
     518
-  ],
-  "terrain": null,
-  "description": [
-    "Bales of hay are stacked to the ceiling along the walls of the stable, and a single stool sits underneath a leather harness hanging from a low beam that stretches from the east wall to the west.  A myriad of tools used to clean and groom animals hang in an orderly fashion on an iron rack.  Below the tool rack is a small shelf filled with iron ingots."
-  ],
-  "image": "imt-Reim-1260914759.png",
-  "climate": null,
-  "title": [
-    "[Reim Settlement, Stable]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "25068": 0.2,
-    "25097": 0.2
-  },
-  "id": 25069,
-  "location": "the Settlement of Reim",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

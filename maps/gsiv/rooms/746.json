@@ -1,37 +1,28 @@
 {
+  "id": 746,
+  "title": [
+    "[Hall of Patrons, Corridor]"
+  ],
+  "description": [
+    "The walls of the corridor are unadorned except for a pair of brass wall sconces, used to illuminate the area.  An arch to the west opens into the rotunda and silver-veined marble covers the floor."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Ta'Illistim",
   "wayto": {
     "745": "west",
     "747": "go panel"
   },
-  "paths": [
-    "Obvious exits: west"
-  ],
+  "timeto": {
+    "745": 0.2,
+    "747": 0.2
+  },
+  "image": "en-ta_illistim_buildings.png",
   "image_coords": [
     568,
     2015,
     626,
     2070
-  ],
-  "terrain": null,
-  "description": [
-    "The walls of the corridor are unadorned except for a pair of brass wall sconces, used to illuminate the area.  An arch to the west opens into the rotunda and silver-veined marble covers the floor."
-  ],
-  "image": "en-ta_illistim_buildings.png",
-  "climate": null,
-  "title": [
-    "[Hall of Patrons, Corridor]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "745": 0.2,
-    "747": 0.2
-  },
-  "id": 746,
-  "location": "Ta'Illistim",
-  "tags": [
-
-  ],
-  "links": [
-
   ]
 }

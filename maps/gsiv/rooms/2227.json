@@ -1,44 +1,35 @@
 {
+  "id": 2227,
+  "title": [
+    "[Depths of V'Tull, Lower Eye]"
+  ],
+  "description": [
+    "Hypnotic orange-red flames blaze across the surface here.  The fires feed off a steady, slow moving stream of molten rock.  They burn continuously, cutting ever deeper into the heated rock floor."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east, southwest"
+  ],
+  "location": "the Eye of V'Tull",
   "wayto": {
     "2212": "northeast",
     "2226": "southwest",
     "2228": "east"
   },
-  "paths": [
-    "Obvious exits: northeast, east, southwest"
-  ],
+  "timeto": {
+    "2212": 0.2,
+    "2226": 0.2,
+    "2228": 0.2
+  },
+  "image": "ti-vtull-1264234799.png",
   "image_coords": [
     419,
     680,
     429,
     690
   ],
-  "terrain": "indoors",
-  "description": [
-    "Hypnotic orange-red flames blaze across the surface here.  The fires feed off a steady, slow moving stream of molten rock.  They burn continuously, cutting ever deeper into the heated rock floor."
-  ],
-  "image": "ti-vtull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Depths of V'Tull, Lower Eye]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2212": 0.2,
-    "2226": 0.2,
-    "2228": 0.2
-  },
-  "id": 2227,
-  "location": "the Eye of V'Tull",
   "tags": [
     "black trafel mushroom",
     "some cave moss",
-    "daggerstalk mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "daggerstalk mushroom"
   ]
 }

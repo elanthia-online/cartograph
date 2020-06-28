@@ -1,39 +1,32 @@
 {
+  "id": 28424,
+  "title": [
+    "[Windfellow's Retreat, Dungeon]"
+  ],
+  "description": [
+    "You find yourself in a wide, stone hallway that leads to a shadowy dead end.  A putrid odor permeates this part of the dungeon with such intensity that it's hard to draw a steady breath.  The strange, glowing light reveals barred cell doors lining either side of the hall."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Mist Harbor",
   "wayto": {
     "28432": "go entryway",
     "28433": "go iron-banded door",
     "28434": "go cav",
     "28423": "n"
   },
-  "paths": [
-    "Obvious paths: north"
-  ],
-  "image_coords": [
-    825,
-    2098,
-    897,
-    2171
-  ],
-  "terrain": null,
-  "description": [
-    "You find yourself in a wide, stone hallway that leads to a shadowy dead end.  A putrid odor permeates this part of the dungeon with such intensity that it's hard to draw a steady breath.  The strange, glowing light reveals barred cell doors lining either side of the hall."
-  ],
-  "image": "fest-windfellows_retreat-1566674846.jpg",
-  "climate": null,
-  "title": [
-    "[Windfellow's Retreat, Dungeon]"
-  ],
-  "check_location": null,
   "timeto": {
     "28423": 0.2,
     "28432": 0.2,
     "28433": 0.2,
     "28434": 0.2
   },
-  "id": 28424,
-  "location": "Mist Harbor",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  "image": "fest-windfellows_retreat-1566674846.jpg",
+  "image_coords": [
+    825,
+    2098,
+    897,
+    2171
+  ]
 }

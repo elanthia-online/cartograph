@@ -1,35 +1,32 @@
 {
-  "wayto": {
-    "3565": {
-      "stringproc": "dd327a7d7e6da0f8c2d0540fbd754be2"
-    },
-    "3567": "northeast"
-  },
+  "id": 3566,
+  "title": [
+    "[Thanatoph, Stone Valley]"
+  ],
+  "description": [
+    "The valley dips here providing even sharper contrast between the living green of the valley and the brown desolation of the surrounding hills and the gloomy Thanatoph.  Having retreated to more hospitable clime, the fel trees that dominated the northwestern ridgeline are nowhere to be seen.  A slightly foul undertone invades the fresh green smells of life around you."
+  ],
   "paths": [
     "Obvious paths: northeast"
   ],
+  "location": "Stone Valley",
+  "wayto": {
+    "3565": {
+      "file": "string_procs/wayto/3566_3565.rb"
+    },
+    "3567": "northeast"
+  },
+  "timeto": {
+    "3565": 0.2,
+    "3567": 0.2
+  },
+  "image": "wl-stronghold-1264234799.png",
   "image_coords": [
     188,
     754,
     198,
     764
   ],
-  "terrain": null,
-  "description": [
-    "The valley dips here providing even sharper contrast between the living green of the valley and the brown desolation of the surrounding hills and the gloomy Thanatoph.  Having retreated to more hospitable clime, the fel trees that dominated the northwestern ridgeline are nowhere to be seen.  A slightly foul undertone invades the fresh green smells of life around you."
-  ],
-  "image": "wl-stronghold-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Thanatoph, Stone Valley]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3565": 0.2,
-    "3567": 0.2
-  },
-  "id": 3566,
-  "location": "Stone Valley",
   "tags": [
     "some acantha leaf",
     "some pothinir grass",
@@ -56,26 +53,6 @@
     "yellow passionflower",
     "some bolmara lichen",
     "blue passionflower",
-    "wild chokecherry",
-    "acantha leaf",
-    "woth flower",
-    "calamia fruit",
-    "haphip root",
-    "pothinir grass",
-    "sticks",
-    "broken twig",
-    "tree bark",
-    "murkweed",
-    "bloodwood twig",
-    "murdroot",
-    "twisted twig",
-    "slender twig",
-    "ebony twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wild chokecherry"
   ]
 }

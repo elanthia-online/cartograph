@@ -1,33 +1,30 @@
 {
+  "id": 495,
+  "title": [
+    "[Coastal Cliffs]"
+  ],
+  "description": [
+    "Deep crevices have split the solid rock beneath your feet, and you catch a glimpse of what must surely be the center of Elanthia as you carefully step over and around them.  The sound of the sea echoes up through some of the crevices, indicating the presence of underground water flows."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "494": "northeast",
     "496": "west"
   },
-  "paths": [
-    "Obvious paths: northeast, west"
-  ],
+  "timeto": {
+    "494": 0.2,
+    "496": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     214,
     826,
     224,
     836
   ],
-  "terrain": "rough",
-  "description": [
-    "Deep crevices have split the solid rock beneath your feet, and you catch a glimpse of what must surely be the center of Elanthia as you carefully step over and around them.  The sound of the sea echoes up through some of the crevices, indicating the presence of underground water flows."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Coastal Cliffs]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "494": 0.2,
-    "496": 0.2
-  },
-  "id": 495,
-  "location": "the Coastal Cliffs",
   "tags": [
     "wild strawberry",
     "sea nymph",
@@ -41,10 +38,6 @@
     "sprig of larkspur",
     "small wild rose",
     "wild chokecherry",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

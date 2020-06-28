@@ -1,35 +1,28 @@
 {
+  "id": 25534,
+  "title": [
+    "[Blacksmith, Slab Hall]"
+  ],
+  "description": [
+    "The shadowy forms of wraiths drift between large piles of metal slabs, consisting of mithril, glaes and vultite.  The heavy sound of feet stomping echoes down the hall."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Talador",
   "wayto": {
     "25535": "west",
     "25533": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "25535": 0.2,
+    "25533": 0.2
+  },
+  "image": "wl-lichs_landing-1500800742.png",
   "image_coords": [
     871,
     866,
     898,
     894
-  ],
-  "terrain": null,
-  "description": [
-    "The shadowy forms of wraiths drift between large piles of metal slabs, consisting of mithril, glaes and vultite.  The heavy sound of feet stomping echoes down the hall."
-  ],
-  "image": "wl-lichs_landing-1500800742.png",
-  "climate": null,
-  "title": [
-    "[Blacksmith, Slab Hall]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "25535": 0.2,
-    "25533": 0.2
-  },
-  "id": 25534,
-  "location": "Talador",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

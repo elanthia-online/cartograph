@@ -1,39 +1,33 @@
 {
-  "wayto": {
-    "19213": {
-      "stringproc": "2887aa06d6eaa302d12e852de37ff08f"
-    },
-    "17940": "go curtain"
-  },
+  "id": 17941,
+  "title": [
+    "[Rogue Guild, Pantry]"
+  ],
+  "description": [
+    "A large set of shelves covers one wall, filled with cobwebs and dust-covered table settings.  An ornate wrought iron lantern broods over the room, casting a sickly glow through grimy glass panes.  The floor is curiously scratched in a pattern before the shelves."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "Solhaven",
+  "wayto": {
+    "19213": {
+      "file": "string_procs/wayto/17941_19213.rb"
+    },
+    "17940": "go curtain"
+  },
+  "timeto": {
+    "19213": 0.4,
+    "17940": 0.2
+  },
+  "image": "vo-rogue_guild-1305438533.png",
   "image_coords": [
     304,
     425,
     333,
     449
   ],
-  "terrain": null,
-  "description": [
-    "A large set of shelves covers one wall, filled with cobwebs and dust-covered table settings.  An ornate wrought iron lantern broods over the room, casting a sickly glow through grimy glass panes.  The floor is curiously scratched in a pattern before the shelves."
-  ],
-  "image": "vo-rogue_guild-1305438533.png",
-  "climate": null,
-  "title": [
-    "[Rogue Guild, Pantry]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "19213": 0.4,
-    "17940": 0.2
-  },
-  "id": 17941,
-  "location": "Solhaven",
   "tags": [
     "rogue guild tools"
-  ],
-  "links": [
-
   ]
 }

@@ -1,45 +1,35 @@
 {
+  "id": 1504,
+  "title": [
+    "[Solhaven, Eastbridge Lane]",
+    "[Eastbridge, Disaster Area]"
+  ],
+  "description": [
+    "Paired temple gates stand on either side of the street, the gate to the east bearing the silver clenched fist of Kai and the gate to the west bearing the silver sword of Ronan.  Flanking Eastbridge Lane, the two temples guard the roadway from the bridge and the temples of Lornon south of the canal.",
+    "Paired temples stand to either side of the street.  The gate to the east bears the silver clenched fist of Kai, while to the west, a ruined opening leads in to the ransacked grounds of Ronan's Temple.  Flanking Eastbridge Lane, the two temples guard the roadway from the temples of Lornon south of the canal."
+  ],
+  "paths": [
+    "Obvious paths: north, south",
+    "Obvious paths: north, south, west"
+  ],
+  "location": "the free port of Solhaven",
   "wayto": {
     "1600": "west",
     "1470": "north",
     "1503": "south",
     "17053": "go black gate"
   },
-  "paths": [
-    "Obvious paths: north, south",
-    "Obvious paths: north, south, west"
-  ],
-  "image_coords": [
-    1063,
-    828,
-    1087,
-    852
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "Paired temple gates stand on either side of the street, the gate to the east bearing the silver clenched fist of Kai and the gate to the west bearing the silver sword of Ronan.  Flanking Eastbridge Lane, the two temples guard the roadway from the bridge and the temples of Lornon south of the canal.",
-    "Paired temples stand to either side of the street.  The gate to the east bears the silver clenched fist of Kai, while to the west, a ruined opening leads in to the ransacked grounds of Ronan's Temple.  Flanking Eastbridge Lane, the two temples guard the roadway from the temples of Lornon south of the canal."
-  ],
-  "image": "vo-solhaven-1263764670.png",
-  "climate": "temperate",
-  "title": [
-    "[Solhaven, Eastbridge Lane]",
-    "[Eastbridge, Disaster Area]"
-  ],
-  "check_location": null,
   "timeto": {
     "1600": 0.2,
     "1470": 0.2,
     "1503": 0.2,
     "17053": 0.2
   },
-  "id": 1504,
-  "location": "the free port of Solhaven",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "vo-solhaven-1263764670.png",
+  "image_coords": [
+    1063,
+    828,
+    1087,
+    852
   ]
 }

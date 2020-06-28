@@ -1,38 +1,28 @@
 {
+  "id": 6629,
+  "title": [
+    "[The Broken Lands, Workshop]"
+  ],
+  "description": [
+    "Other than a few shards of glass scattered about the floor of this small chamber, the only object here is a large, plain wooden table.  A sour odor still hangs in the air, and the almost metallic smell sets your teeth on edge."
+  ],
+  "paths": [
+    "Obvious exits: southeast"
+  ],
+  "location": "the Broken Lands",
   "wayto": {
     "6630": "go curtain",
     "6622": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast"
-  ],
+  "timeto": {
+    "6630": 0.2,
+    "6622": 0.2
+  },
+  "image": "wl-broken-1264234799.png",
   "image_coords": [
     474,
     789,
     484,
     799
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Other than a few shards of glass scattered about the floor of this small chamber, the only object here is a large, plain wooden table.  A sour odor still hangs in the air, and the almost metallic smell sets your teeth on edge."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[The Broken Lands, Workshop]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6630": 0.2,
-    "6622": 0.2
-  },
-  "id": 6629,
-  "location": "the Broken Lands",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

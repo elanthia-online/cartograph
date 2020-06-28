@@ -1,40 +1,30 @@
 {
+  "id": 12718,
+  "title": [
+    "[Ruined Temple, Second Floor]"
+  ],
+  "description": [
+    "A pair of large stone statues, carved to resemble large droplets of water, rests on either side of the spiral staircase that leads to the floor above.  The statues are partially submerged and have been bleached with natural wavy patterns formed by years of sea meeting rock.  Ruined tapestries cling to the walls, soaked with the moisture that has claimed dominance over the room."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest"
+  ],
+  "location": "the Ruined Temple",
   "wayto": {
     "12717": "southwest",
     "12719": "southeast",
     "12720": "go staircase"
   },
-  "paths": [
-    "Obvious exits: southeast, southwest"
-  ],
-  "image_coords": [
-    253,
-    506,
-    289,
-    542
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A pair of large stone statues, carved to resemble large droplets of water, rests on either side of the spiral staircase that leads to the floor above.  The statues are partially submerged and have been bleached with natural wavy patterns formed by years of sea meeting rock.  Ruined tapestries cling to the walls, soaked with the moisture that has claimed dominance over the room."
-  ],
-  "image": "ti-nelemar-1262373036.png",
-  "climate": "indoors",
-  "title": [
-    "[Ruined Temple, Second Floor]"
-  ],
-  "check_location": null,
   "timeto": {
     "12717": 0.2,
     "12719": 0.2,
     "12720": 0.2
   },
-  "id": 12718,
-  "location": "the Ruined Temple",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "ti-nelemar-1262373036.png",
+  "image_coords": [
+    253,
+    506,
+    289,
+    542
   ]
 }

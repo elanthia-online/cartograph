@@ -1,35 +1,32 @@
 {
+  "id": 1281,
+  "title": [
+    "[Upper Trollfang]"
+  ],
+  "description": [
+    "You are standing on the northern bank of a wide and surprisingly deep stream.  The trail splits here as it follows the course of the water.  The main trail runs off to the southeast while a smaller trail heads northwest."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast, northwest"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "1280": "north",
     "1282": "southeast",
     "7158": "northwest"
   },
-  "paths": [
-    "Obvious paths: north, southeast, northwest"
-  ],
+  "timeto": {
+    "1280": 0.2,
+    "1282": 0.2,
+    "7158": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     740,
     455,
     750,
     465
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "You are standing on the northern bank of a wide and surprisingly deep stream.  The trail splits here as it follows the course of the water.  The main trail runs off to the southeast while a smaller trail heads northwest."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "moist",
-  "title": [
-    "[Upper Trollfang]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1280": 0.2,
-    "1282": 0.2,
-    "7158": 0.2
-  },
-  "id": 1281,
-  "location": "the Upper Trollfang",
   "tags": [
     "some acantha leaf",
     "some calamia fruit",
@@ -58,25 +55,6 @@
     "withered black mushroom",
     "white passionflower",
     "murdroot",
-    "twisted twig",
-    "acantha leaf",
-    "woth flower",
-    "calamia fruit",
-    "haphip root",
-    "sticks",
-    "soft white mushroom",
-    "broken twig",
-    "tree bark",
-    "murkweed",
-    "yew twig",
-    "luckbloom blossom",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "walnuts",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "twisted twig"
   ]
 }

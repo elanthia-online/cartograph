@@ -1,36 +1,33 @@
 {
+  "id": 214,
+  "title": [
+    "[Lower Dragonsclaw, Forest]"
+  ],
+  "description": [
+    "You pause to allow your eyes to adjust to the further dimming of the light as you move deeper into the trees.  The oaks surrounding you loom larger, and are interspersed with modwir trees, further blocking the rays of the moon.",
+    "You pause to allow your eyes to adjust to the further dimming of the light as you move deeper into the trees.  The oaks surrounding you loom larger, and are interspersed with modwir trees, further blocking the rays of the sun."
+  ],
+  "paths": [
+    "Obvious paths: north, south, west"
+  ],
+  "location": "the Lower Dragonsclaw",
   "wayto": {
     "215": "north",
     "421": "south",
     "213": "west"
   },
-  "paths": [
-    "Obvious paths: north, south, west"
-  ],
+  "timeto": {
+    "215": 0.2,
+    "421": 0.2,
+    "213": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     550,
     413,
     560,
     423
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "You pause to allow your eyes to adjust to the further dimming of the light as you move deeper into the trees.  The oaks surrounding you loom larger, and are interspersed with modwir trees, further blocking the rays of the moon.",
-    "You pause to allow your eyes to adjust to the further dimming of the light as you move deeper into the trees.  The oaks surrounding you loom larger, and are interspersed with modwir trees, further blocking the rays of the sun."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Lower Dragonsclaw, Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "215": 0.2,
-    "421": 0.2,
-    "213": 0.2
-  },
-  "id": 214,
-  "location": "the Lower Dragonsclaw",
   "tags": [
     "blue trafel mushroom",
     "some bolmara lichen",
@@ -74,10 +71,6 @@
     "wild chokecherry",
     "tree bark",
     "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

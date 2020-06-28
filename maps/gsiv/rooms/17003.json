@@ -1,38 +1,32 @@
 {
+  "id": 17003,
+  "title": [
+    "[Warrior Guild, South Hall]"
+  ],
+  "description": [
+    "The series of vertical slits in the thick stone wall emit beams of sunlight, transforming the hall into an alternating pattern of dark and light.  Ancient weapons and crests hang along the inner stone wall, their polished surfaces reflecting glimmers of light.",
+    "The series of vertical slits in the thick stone wall emit beams of moonlight, transforming the hall into an alternating pattern of dark and light.  Ancient weapons and crests hang along the inner stone wall, their polished surfaces reflecting glimmers of light."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Solhaven's Warrior Guild",
   "wayto": {
     "17001": "east",
     "17004": "west"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "17001": 0.2,
+    "17004": 0.2
+  },
+  "image": "warrior_guilds-1268684755.png",
   "image_coords": [
     985,
     288,
     1005,
     308
   ],
-  "terrain": null,
-  "description": [
-    "The series of vertical slits in the thick stone wall emit beams of sunlight, transforming the hall into an alternating pattern of dark and light.  Ancient weapons and crests hang along the inner stone wall, their polished surfaces reflecting glimmers of light.",
-    "The series of vertical slits in the thick stone wall emit beams of moonlight, transforming the hall into an alternating pattern of dark and light.  Ancient weapons and crests hang along the inner stone wall, their polished surfaces reflecting glimmers of light."
-  ],
-  "image": "warrior_guilds-1268684755.png",
-  "climate": null,
-  "title": [
-    "[Warrior Guild, South Hall]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "17001": 0.2,
-    "17004": 0.2
-  },
-  "id": 17003,
-  "location": "Solhaven's Warrior Guild",
   "tags": [
     "warrior guild floor"
-  ],
-  "links": [
-
   ]
 }

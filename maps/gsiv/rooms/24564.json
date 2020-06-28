@@ -1,37 +1,33 @@
 {
+  "id": 24564,
+  "title": [
+    "[Defender Hall, Auditorium]"
+  ],
+  "description": [
+    "Directly across from the entryway stands a prominent rounded dais set off by an elegant tapestry on the wall behind it.  Ebonwood benches are staggered downwards to the dais curving in a semi-circle to provide a clear view of the speakers.  Trails of crimson carpet line the steps and aisles of a pale grey marble floor, granting quiet and safe travel through the auditorium.  Brushed silver oil lamps encircle the room and reflect their light off the thick glass panels that arch up to form a high domed ceiling."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "24561": "go doors",
     "24569": "go heavy door",
     "24570": "go crack"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "24561": 0.2,
+    "24569": 0.2,
+    "24570": 0.2
+  },
+  "image": "wl-black_wolves_manor.png",
   "image_coords": [
     355,
     341,
     382,
     368
   ],
-  "terrain": null,
-  "description": [
-    "Directly across from the entryway stands a prominent rounded dais set off by an elegant tapestry on the wall behind it.  Ebonwood benches are staggered downwards to the dais curving in a semi-circle to provide a clear view of the speakers.  Trails of crimson carpet line the steps and aisles of a pale grey marble floor, granting quiet and safe travel through the auditorium.  Brushed silver oil lamps encircle the room and reflect their light off the thick glass panels that arch up to form a high domed ceiling."
-  ],
-  "image": "wl-black_wolves_manor.png",
-  "climate": null,
-  "title": [
-    "[Defender Hall, Auditorium]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24561": 0.2,
-    "24569": 0.2,
-    "24570": 0.2
-  },
-  "id": 24564,
-  "location": "Wehnimer's Landing",
   "tags": [
     "node"
-  ],
-  "unique_loot": null
+  ]
 }

@@ -1,40 +1,31 @@
 {
-  "wayto": {
-    "11457": {
-      "stringproc": "84d7e9c5466c56efd7dc0ac337b0a9ea"
-    },
-    "11458": {
-      "stringproc": "18c4b59ed599a02893a4dbb26b362e46"
-    },
-    "11447": {
-      "stringproc": "84803c6220b0581d4151763c46ccdbbc"
-    },
-    "11461": {
-      "stringproc": "e531eb47f19700d00ac81ca15d619ca8"
-    },
-    "11462": {
-      "stringproc": "9eaa131926e46e6090f2390aa24f278f"
-    }
-  },
-  "paths": [
-    "Obvious exits: north, northeast, east, northwest, up"
-  ],
-  "image_coords": [
-    787,
-    1287,
-    797,
-    1297
-  ],
-  "terrain": null,
-  "description": [
-    "Light green water above, gold-colored sand below, green water all around.  The shimmering surface of the bay rolls sinuously overhead.  A powerful and steady current pushing in from the west prevents swimming in that direction."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": null,
+  "id": 11456,
   "title": [
     "[Maelstrom Bay, Underwater]"
   ],
-  "check_location": null,
+  "description": [
+    "Light green water above, gold-colored sand below, green water all around.  The shimmering surface of the bay rolls sinuously overhead.  A powerful and steady current pushing in from the west prevents swimming in that direction."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east, northwest, up"
+  ],
+  "wayto": {
+    "11457": {
+      "file": "string_procs/wayto/11456_11457.rb"
+    },
+    "11458": {
+      "file": "string_procs/wayto/11456_11458.rb"
+    },
+    "11447": {
+      "file": "string_procs/wayto/11456_11447.rb"
+    },
+    "11461": {
+      "file": "string_procs/wayto/11456_11461.rb"
+    },
+    "11462": {
+      "file": "string_procs/wayto/11456_11462.rb"
+    }
+  },
   "timeto": {
     "11457": 2.0,
     "11458": 2.0,
@@ -42,12 +33,11 @@
     "11461": 2.0,
     "11462": 2.0
   },
-  "id": 11456,
-  "location": null,
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "rr-maelstrom-1266390501.png",
+  "image_coords": [
+    787,
+    1287,
+    797,
+    1297
   ]
 }

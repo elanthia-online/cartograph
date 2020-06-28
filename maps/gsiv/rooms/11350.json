@@ -1,38 +1,30 @@
 {
+  "id": 11350,
+  "title": [
+    "[Citadel, Walkway]"
+  ],
+  "description": [
+    "The archway above is almost entirely made of flaming vines, causing you to duck your head in order to keep from getting your hair singed.  Obviously the ancients who once used this pathway had access to some protective material or spell in order to pass this way."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "the Citadel",
+  "climate": "humid",
+  "terrain": "hard, flat ",
   "wayto": {
     "11349": "northeast",
     "11351": "west"
   },
-  "paths": [
-    "Obvious paths: northeast, west"
-  ],
+  "timeto": {
+    "11349": 0.2,
+    "11351": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     601,
     1471,
     611,
     1481
-  ],
-  "terrain": "hard, flat ",
-  "description": [
-    "The archway above is almost entirely made of flaming vines, causing you to duck your head in order to keep from getting your hair singed.  Obviously the ancients who once used this pathway had access to some protective material or spell in order to pass this way."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "humid",
-  "title": [
-    "[Citadel, Walkway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11349": 0.2,
-    "11351": 0.2
-  },
-  "id": 11350,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

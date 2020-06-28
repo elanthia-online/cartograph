@@ -1,42 +1,35 @@
 {
+  "id": 2416,
+  "title": [
+    "[Commerce Burrow, Elven Alley]"
+  ],
+  "description": [
+    "Twisting and turning between weathered buildings of stone and wood, the alley slopes steeply downward.  Shadows dance along the high walls and across the packed earth road."
+  ],
+  "paths": [
+    "Obvious paths: north, down"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "3402": "go wagon",
     "2415": "north",
     "2417": "go shop",
     "2418": "down"
   },
-  "paths": [
-    "Obvious paths: north, down"
-  ],
-  "image_coords": [
-    759,
-    1232,
-    795,
-    1268
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "Twisting and turning between weathered buildings of stone and wood, the alley slopes steeply downward.  Shadows dance along the high walls and across the packed earth road."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Commerce Burrow, Elven Alley]"
-  ],
-  "check_location": null,
   "timeto": {
     "3402": 0.2,
     "2415": 0.2,
     "2417": 0.2,
     "2418": 0.2
   },
-  "id": 2416,
-  "location": "Icemule Trace",
-  "tags": [
-    "calmintha flower",
-    "meta:forage-sensed"
+  "image": "imt-icemule-1474811966.png",
+  "image_coords": [
+    759,
+    1232,
+    795,
+    1268
   ],
-  "links": [
-
+  "tags": [
+    "calmintha flower"
   ]
 }

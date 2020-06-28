@@ -1,47 +1,28 @@
 {
+  "id": 8219,
+  "title": [
+    "[Sea Caverns, Spider Lair]"
+  ],
+  "description": [
+    "This cavern is shaped like an elbow, and a dim glow creeps in from the northeast passage.  The walls are pocked with small, dark openings, through which drift faint scuffling sounds and chitterings.  The air is damp and still."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest"
+  ],
+  "location": "the sea caverns",
   "wayto": {
     "8217": "northwest",
     "8218": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, northwest"
-  ],
+  "timeto": {
+    "8217": 0.2,
+    "8218": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     461,
     310,
     471,
     320
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This cavern is shaped like an elbow, and a dim glow creeps in from the northeast passage.  The walls are pocked with small, dark openings, through which drift faint scuffling sounds and chitterings.  The air is damp and still."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Caverns, Spider Lair]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8217": 0.2,
-    "8218": 0.2
-  },
-  "id": 8219,
-  "location": "the sea caverns",
-  "tags": [
-    "soft white mushroom",
-    "withered black mushroom",
-    "black hook mushroom",
-    "white hook mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

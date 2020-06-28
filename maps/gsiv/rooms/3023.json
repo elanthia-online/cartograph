@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "3022": "northeast"
-  },
+  "id": 3023,
+  "title": [
+    "[Snow Fort, Battlement]"
+  ],
+  "description": [
+    "A high wall of ice and snow bends over the battlement, forming a ceiling of sorts.  Resting beneath it, an ominous gallows stands guard over several stone benches arranged as pews before it.  The walls of this room, while still ice and snow, seem less smooth than elsewhere in the fort and somewhat disturbing as well."
+  ],
   "paths": [
     "Obvious exits: northeast"
   ],
+  "location": "the High Plains",
+  "wayto": {
+    "3022": "northeast"
+  },
+  "timeto": {
+    "3022": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     516,
     846,
     526,
     856
   ],
-  "terrain": "indoors",
-  "description": [
-    "A high wall of ice and snow bends over the battlement, forming a ceiling of sorts.  Resting beneath it, an ominous gallows stands guard over several stone benches arranged as pews before it.  The walls of this room, while still ice and snow, seem less smooth than elsewhere in the fort and somewhat disturbing as well."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Snow Fort, Battlement]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3022": 0.2
-  },
-  "id": 3023,
-  "location": "the High Plains",
   "tags": [
-    "snow spectre",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "snow spectre"
   ]
 }

@@ -1,33 +1,30 @@
 {
+  "id": 1377,
+  "title": [
+    "[Cairnfang Uplands]"
+  ],
+  "description": [
+    "The clatter of claws on bark, and fleeting glimpses of a bushy tail proclaim this stand of modwirs as the home of a family of red squirrels."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "1376": "north",
     "1378": "south"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "1376": 0.2,
+    "1378": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     984,
     456,
     994,
     466
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "The clatter of claws on bark, and fleeting glimpses of a bushy tail proclaim this stand of modwirs as the home of a family of red squirrels."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Cairnfang Uplands]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1376": 0.2,
-    "1378": 0.2
-  },
-  "id": 1377,
-  "location": "the Cairnfang",
   "tags": [
     "some bolmara lichen",
     "sprig of wild lilac",
@@ -86,10 +83,6 @@
     "ebony twig",
     "bolmara lichen",
     "brostheras grass",
-    "alder bark",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "alder bark"
   ]
 }

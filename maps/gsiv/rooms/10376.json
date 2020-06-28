@@ -1,43 +1,37 @@
 {
+  "id": 10376,
+  "title": [
+    "[Cleric Guild, Courtyard]"
+  ],
+  "description": [
+    "Rows of neatly-trimmed hedges line the walkway leading toward an ivory-walled building to the east, while a smaller domed structure is visible to the north.  Oak trees stretch their gnarled limbs across the sky, their large boughs filled with a healthy collection of verdant leaves.  Carved wooden benches beneath the trees bear ornate, looping designs across their richly-stained surfaces, and the buzz of daily life filters in faintly from beyond the courtyard."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Ta'Vaalor",
   "wayto": {
     "10377": "north",
     "19809": "go building",
     "3535": "go gate"
   },
-  "paths": [
-    "Obvious paths: north"
-  ],
+  "timeto": {
+    "10377": 0.2,
+    "19809": {
+      "file": "string_procs/timeto/10376_19809.rb"
+    },
+    "3535": 0.2
+  },
+  "image": "en-ta_vaalor_cleric_guild.png",
   "image_coords": [
     208,
     931,
     260,
     983
   ],
-  "terrain": null,
-  "description": [
-    "Rows of neatly-trimmed hedges line the walkway leading toward an ivory-walled building to the east, while a smaller domed structure is visible to the north.  Oak trees stretch their gnarled limbs across the sky, their large boughs filled with a healthy collection of verdant leaves.  Carved wooden benches beneath the trees bear ornate, looping designs across their richly-stained surfaces, and the buzz of daily life filters in faintly from beyond the courtyard."
-  ],
-  "image": "en-ta_vaalor_cleric_guild.png",
-  "climate": null,
-  "title": [
-    "[Cleric Guild, Courtyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10377": 0.2,
-    "19809": {
-      "stringproc": "6dc12560745ec395c785ef4ffcd45478"
-    },
-    "3535": 0.2
-  },
-  "id": 10376,
-  "location": "Ta'Vaalor",
   "tags": [
     "clericguild",
     "small daisy",
     "some acantha leaf"
-  ],
-  "links": [
-
   ]
 }

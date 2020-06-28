@@ -1,40 +1,30 @@
 {
+  "id": 9167,
+  "title": [
+    "[Thurfel's Keep]"
+  ],
+  "description": [
+    "Four flat boulders dangerously support a legless desk and provide what looks to be a very unsafe method of reaching the upper level.  Considering how badly the desk is wobbling just from the faint breeze, it's hardly going to be an easy climb."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "Thurfel's Island",
   "wayto": {
     "9166": "south",
     "9168": "east",
     "9191": "climb desk"
   },
-  "paths": [
-    "Obvious exits: east, south"
-  ],
-  "image_coords": [
-    688,
-    572,
-    698,
-    582
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Four flat boulders dangerously support a legless desk and provide what looks to be a very unsafe method of reaching the upper level.  Considering how badly the desk is wobbling just from the faint breeze, it's hardly going to be an easy climb."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thurfel's Keep]"
-  ],
-  "check_location": null,
   "timeto": {
     "9166": 0.2,
     "9168": 0.2,
     "9191": 0.2
   },
-  "id": 9167,
-  "location": "Thurfel's Island",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "imt-underground-1264234799.png",
+  "image_coords": [
+    688,
+    572,
+    698,
+    582
   ]
 }

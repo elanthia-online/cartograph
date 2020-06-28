@@ -1,41 +1,33 @@
 {
+  "id": 297,
+  "title": [
+    "[Town Square, South Alley]"
+  ],
+  "description": [
+    "This narrow alleyway passes crookedly between the old wood and stone walls of the surrounding buildings, providing a shaded byway from the busy road to the south to a small park nestled in a grassy niche to the north.  An occasional stray mutt sniffs around the foundations, searching for rats or morsels."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "296": "south",
     "22349": "search\ngo alleyway",
     "288": "north"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "296": 0.2,
+    "22349": 0.2,
+    "288": 0.2
+  },
+  "image": "wl-wehnimers-1264234799.png",
   "image_coords": [
     197,
     992,
     234,
     1028
   ],
-  "terrain": "hard, flat",
-  "description": [
-    "This narrow alleyway passes crookedly between the old wood and stone walls of the surrounding buildings, providing a shaded byway from the busy road to the south to a small park nestled in a grassy niche to the north.  An occasional stray mutt sniffs around the foundations, searching for rats or morsels."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Town Square, South Alley]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "296": 0.2,
-    "22349": 0.2,
-    "288": 0.2
-  },
-  "id": 297,
-  "location": "the town of Wehnimer's Landing",
   "tags": [
-    "meta:teleport:fwi",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:teleport:fwi"
   ]
 }

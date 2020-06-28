@@ -1,33 +1,30 @@
 {
+  "id": 1297,
+  "title": [
+    "[Foothills]"
+  ],
+  "description": [
+    "Scattered pines stand above the hillside grasses, with brown needles blotting out the vegetation beneath their boughs.  To the south the trees close in and the grasslands give way to forest."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the foothills of Zeltoph",
   "wayto": {
     "1298": "south",
     "1296": "north"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "1298": 0.2,
+    "1296": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     337,
     182,
     347,
     192
   ],
-  "terrain": "hilly",
-  "description": [
-    "Scattered pines stand above the hillside grasses, with brown needles blotting out the vegetation beneath their boughs.  To the south the trees close in and the grasslands give way to forest."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Foothills]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1298": 0.2,
-    "1296": 0.2
-  },
-  "id": 1297,
-  "location": "the foothills of Zeltoph",
   "tags": [
     "sprig of jasmine",
     "traesharm berry",
@@ -85,10 +82,6 @@
     "ebony twig",
     "bolmara lichen",
     "brostheras grass",
-    "woad leaves",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "woad leaves"
   ]
 }

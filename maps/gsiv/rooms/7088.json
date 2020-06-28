@@ -1,38 +1,28 @@
 {
+  "id": 7088,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "A rat scuttles down the hallway, drawing your attention to the floor.  Low on one wall, you notice some writing."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7087": "north",
     "7089": "south"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "7087": 0.2,
+    "7089": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     922,
     978,
     932,
     988
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A rat scuttles down the hallway, drawing your attention to the floor.  Low on one wall, you notice some writing."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7087": 0.2,
-    "7089": 0.2
-  },
-  "id": 7088,
-  "location": "Darkstone Castle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

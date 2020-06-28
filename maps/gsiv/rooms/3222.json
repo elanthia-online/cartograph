@@ -1,4 +1,15 @@
 {
+  "id": 3222,
+  "title": [
+    "[Icemule Trace, West Gate]"
+  ],
+  "description": [
+    "The wind whistles around you as it passes along this side of the town walls.  The road leading up to the gate itself is merely a dirt path but you notice it has seen some extensive use.  A huge snowbank is off to one side from all the snow being removed in front of the gates.  Just to the south of the gate is a stout building with a large sign over the door that reads \"The Icehouse Tavern\"."
+  ],
+  "paths": [
+    "Obvious paths: north, south, west"
+  ],
+  "location": "the Ice Plains",
   "wayto": {
     "3069": "north",
     "3235": "west",
@@ -6,25 +17,6 @@
     "3229": "go gates",
     "3221": "south"
   },
-  "paths": [
-    "Obvious paths: north, south, west"
-  ],
-  "image_coords": [
-    255,
-    631,
-    265,
-    641
-  ],
-  "terrain": "plain dirt",
-  "description": [
-    "The wind whistles around you as it passes along this side of the town walls.  The road leading up to the gate itself is merely a dirt path but you notice it has seen some extensive use.  A huge snowbank is off to one side from all the snow being removed in front of the gates.  Just to the south of the gate is a stout building with a large sign over the door that reads \"The Icehouse Tavern\"."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Icemule Trace, West Gate]"
-  ],
-  "check_location": null,
   "timeto": {
     "3069": 0.2,
     "3235": 0.2,
@@ -32,8 +24,13 @@
     "3229": 0.2,
     "3221": 0.2
   },
-  "id": 3222,
-  "location": "the Ice Plains",
+  "image": "imt-east_west_north_gates-1264234799.png",
+  "image_coords": [
+    255,
+    631,
+    265,
+    641
+  ],
   "tags": [
     "sweetfern stalk",
     "some tundra grass",
@@ -49,17 +46,6 @@
     "some angelica root",
     "murdroot",
     "advguard2",
-    "ironfern root",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "arctic moss",
-    "tundra grass",
-    "frostweed",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

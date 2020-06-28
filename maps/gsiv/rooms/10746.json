@@ -1,34 +1,31 @@
 {
+  "id": 10746,
+  "title": [
+    "[Plains of Bone, Mound Top]"
+  ],
+  "description": [
+    "At the top of the stairs the hill flattens, small dark blades of grass cover the hilltop.  A thick mist seems to cling to everything in the area.  A gentle slope to the northeast leads to a ruined structure awash in moonlight.",
+    "At the top of the stairs the hill flattens, small dark blades of grass cover the hilltop.  A thick mist seems to cling to everything in the area.  A gentle slope to the northeast leads to a ruined structure."
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest"
+  ],
+  "location": "the Plains of Bone",
   "wayto": {
     "10745": "northwest",
     "10747": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, northwest"
-  ],
+  "timeto": {
+    "10745": 0.2,
+    "10747": 0.2
+  },
+  "image": "en-cemetery-1264234799.png",
   "image_coords": [
     423,
     243,
     433,
     253
   ],
-  "terrain": null,
-  "description": [
-    "At the top of the stairs the hill flattens, small dark blades of grass cover the hilltop.  A thick mist seems to cling to everything in the area.  A gentle slope to the northeast leads to a ruined structure awash in moonlight.",
-    "At the top of the stairs the hill flattens, small dark blades of grass cover the hilltop.  A thick mist seems to cling to everything in the area.  A gentle slope to the northeast leads to a ruined structure."
-  ],
-  "image": "en-cemetery-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Plains of Bone, Mound Top]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10745": 0.2,
-    "10747": 0.2
-  },
-  "id": 10746,
-  "location": "the Plains of Bone",
   "tags": [
     "sprig of alyssum",
     "withered black mushroom",
@@ -55,8 +52,5 @@
     "ironfern root",
     "wingstem root",
     "bur-clover root"
-  ],
-  "links": [
-
   ]
 }

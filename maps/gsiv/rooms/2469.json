@@ -1,42 +1,35 @@
 {
+  "id": 2469,
+  "title": [
+    "[Commerce Burrow, Dwarven Circle]"
+  ],
+  "description": [
+    "Passing merchants, laden with pelts of all shapes and sizes, trudge southeast towards Furryback's Pelt and Skin.  An earthen-worked cottage faces the street, the snow cleared from its front path.  The trilling sounds of a flute drift from the cottage's doorway.  To the east lie the sights and sounds of the Icemule Bazaar."
+  ],
+  "paths": [
+    "Obvious paths: northeast, east, southeast"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "2465": "southeast",
     "2470": "east",
     "2472": "northeast",
     "3395": "go doorway"
   },
-  "paths": [
-    "Obvious paths: northeast, east, southeast"
-  ],
-  "image_coords": [
-    758,
-    1053,
-    794,
-    1089
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "Passing merchants, laden with pelts of all shapes and sizes, trudge southeast towards Furryback's Pelt and Skin.  An earthen-worked cottage faces the street, the snow cleared from its front path.  The trilling sounds of a flute drift from the cottage's doorway.  To the east lie the sights and sounds of the Icemule Bazaar."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Commerce Burrow, Dwarven Circle]"
-  ],
-  "check_location": null,
   "timeto": {
     "2465": 0.2,
     "2470": 0.2,
     "2472": 0.2,
     "3395": 0.2
   },
-  "id": 2469,
-  "location": "Icemule Trace",
-  "tags": [
-    "calmintha flower",
-    "meta:forage-sensed"
+  "image": "imt-icemule-1474811966.png",
+  "image_coords": [
+    758,
+    1053,
+    794,
+    1089
   ],
-  "links": [
-
+  "tags": [
+    "calmintha flower"
   ]
 }

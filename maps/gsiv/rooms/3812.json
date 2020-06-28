@@ -1,33 +1,30 @@
 {
+  "id": 3812,
+  "title": [
+    "[A Dark Cavern]"
+  ],
+  "description": [
+    "The steady dripping that echoes through the dark cavern seems to fade away somewhat as you stumble upon its eastern edge.  Peering around you can see no visible signs of exit further to the east."
+  ],
+  "paths": [
+    "Obvious exits: southwest, west"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "3723": "west",
     "3811": "southwest"
   },
-  "paths": [
-    "Obvious exits: southwest, west"
-  ],
+  "timeto": {
+    "3723": 0.2,
+    "3811": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     596,
     1269,
     606,
     1279
   ],
-  "terrain": "indoors",
-  "description": [
-    "The steady dripping that echoes through the dark cavern seems to fade away somewhat as you stumble upon its eastern edge.  Peering around you can see no visible signs of exit further to the east."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[A Dark Cavern]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3723": 0.2,
-    "3811": 0.2
-  },
-  "id": 3812,
-  "location": "Darkstone Castle",
   "tags": [
     "soft white mushroom",
     "some cave moss",
@@ -35,16 +32,6 @@
     "black hook mushroom",
     "red trafel mushroom",
     "Sheruvian herbringer",
-    "nightmare steed",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "nightmare steed"
   ]
 }

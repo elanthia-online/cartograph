@@ -1,40 +1,29 @@
 {
+  "id": 11385,
+  "title": [
+    "[Citadel, Hallway]"
+  ],
+  "description": [
+    "Dulled by age and dust, a large wood-paneled door stands at the end of the corner of the hallway.  From beneath the door flows warm drafts that stir the dust into the air, where it hangs in transparent light brown clouds before slowly dropping to the floor."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
   "wayto": {
     "11384": "south",
     "11386": "east",
     "17702": "go door"
   },
-  "paths": [
-    "Obvious exits: east, south"
-  ],
-  "image_coords": [
-    437,
-    1230,
-    447,
-    1240
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Dulled by age and dust, a large wood-paneled door stands at the end of the corner of the hallway.  From beneath the door flows warm drafts that stir the dust into the air, where it hangs in transparent light brown clouds before slowly dropping to the floor."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Citadel, Hallway]"
-  ],
-  "check_location": null,
   "timeto": {
     "11384": 0.2,
     "11386": 0.2,
     "17702": 0.2
   },
-  "id": 11385,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-citadel-1267238976.png",
+  "image_coords": [
+    437,
+    1230,
+    447,
+    1240
   ]
 }

@@ -1,39 +1,33 @@
 {
+  "id": 2382,
+  "title": [
+    "[Underground Tunnel]"
+  ],
+  "description": [
+    "Fog rolls in from above, obscuring your view of the ground beneath your feet.  The walls are hard, packed dirt with hanging roots that entwine around themselves and the small rocks embedded in the walls."
+  ],
+  "paths": [
+    "Obvious exits: west, up"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "2381": "up",
     "2383": "west"
   },
-  "paths": [
-    "Obvious exits: west, up"
-  ],
+  "timeto": {
+    "2381": 0.2,
+    "2383": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     1229,
     143,
     1239,
     153
   ],
-  "terrain": null,
-  "description": [
-    "Fog rolls in from above, obscuring your view of the ground beneath your feet.  The walls are hard, packed dirt with hanging roots that entwine around themselves and the small rocks embedded in the walls."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Underground Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2381": 0.2,
-    "2383": 0.2
-  },
-  "id": 2382,
-  "location": "Icemule Trace",
   "tags": [
     "meta:mapname:Icemule Trace - Underground",
     "meta:mapshortname:Underground",
     "meta:mapcategory:Icemule Trace"
-  ],
-  "links": [
-
   ]
 }

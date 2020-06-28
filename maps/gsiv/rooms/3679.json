@@ -1,33 +1,30 @@
 {
+  "id": 3679,
+  "title": [
+    "[Glatoph, Glacier]"
+  ],
+  "description": [
+    "You are forced to take a moment to remove the cakes of snow from your eyelashes before continuing on.  The wind is as bad as ever, turning the simple task of walking into the challenge of a lifetime."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "Glatoph",
   "wayto": {
     "3678": "east",
     "3680": "southwest"
   },
-  "paths": [
-    "Obvious paths: east, southwest"
-  ],
+  "timeto": {
+    "3678": 0.2,
+    "3680": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     959,
     689,
     969,
     699
   ],
-  "terrain": "mountainous",
-  "description": [
-    "You are forced to take a moment to remove the cakes of snow from your eyelashes before continuing on.  The wind is as bad as ever, turning the simple task of walking into the challenge of a lifetime."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Glatoph, Glacier]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3678": 0.2,
-    "3680": 0.2
-  },
-  "id": 3679,
-  "location": "Glatoph",
   "tags": [
     "arctic titan",
     "frost giant",
@@ -39,10 +36,6 @@
     "angelica root",
     "valerian root",
     "pennyroyal stem",
-    "sprig of holly",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sprig of holly"
   ]
 }

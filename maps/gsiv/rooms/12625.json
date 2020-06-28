@@ -1,38 +1,28 @@
 {
+  "id": 12625,
+  "title": [
+    "[Temple of Luukos, Damp Valve]"
+  ],
+  "description": [
+    "Water pours down the walls in rivulets and puddles on the floor.  The pressure feels greater here than in the depths of the deepest dwarven mine.  The whole room almost seems to throb."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Dark Palisade",
   "wayto": {
     "12626": "go hatch",
     "12619": "go membrane"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "12626": 0.2,
+    "12619": 0.2
+  },
+  "image": "ti-wilds-1264234799.png",
   "image_coords": [
     1051,
     483,
     1061,
     493
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Water pours down the walls in rivulets and puddles on the floor.  The pressure feels greater here than in the depths of the deepest dwarven mine.  The whole room almost seems to throb."
-  ],
-  "image": "ti-wilds-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Temple of Luukos, Damp Valve]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "12626": 0.2,
-    "12619": 0.2
-  },
-  "id": 12625,
-  "location": "the Dark Palisade",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

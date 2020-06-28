@@ -1,49 +1,35 @@
 {
+  "id": 8203,
+  "title": [
+    "[Sea Caverns, Crawl Space]"
+  ],
+  "description": [
+    "The rough-hewn stone walls have narrowed, becoming nothing more than a crawl space.  The darkness here is almost a palpable thing, making the thought of fresh air and sunlight difficult to imagine."
+  ],
+  "paths": [
+    "Obvious exits: south, northwest"
+  ],
+  "location": "the sea caverns",
   "wayto": {
     "8202": "northwest",
     "8204": "south"
   },
-  "paths": [
-    "Obvious exits: south, northwest"
-  ],
+  "timeto": {
+    "8202": 0.2,
+    "8204": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     553,
     156,
     563,
     166
   ],
-  "terrain": "indoors",
-  "description": [
-    "The rough-hewn stone walls have narrowed, becoming nothing more than a crawl space.  The darkness here is almost a palpable thing, making the thought of fresh air and sunlight difficult to imagine."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Caverns, Crawl Space]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8202": 0.2,
-    "8204": 0.2
-  },
-  "id": 8203,
-  "location": "the sea caverns",
   "tags": [
     "red trafel mushroom",
     "white hook mushroom",
     "some bolmara lichen",
     "soft white mushroom",
-    "blue trafel mushroom",
-    "withered black mushroom",
-    "black hook mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "blue trafel mushroom"
   ]
 }

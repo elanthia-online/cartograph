@@ -1,40 +1,30 @@
 {
+  "id": 9113,
+  "title": [
+    "[Great Cavern, Stalagmite Forest]"
+  ],
+  "description": [
+    "Shattered stone covers the ground, crunching underfoot and seeking to lame the unwary with its sharp edges.  Several columns lie in cracked sections where they seem to have been cast down to either side by some great force.  Whatever the force was, it came from the bog to the south."
+  ],
+  "paths": [
+    "Obvious exits: northeast, west, down"
+  ],
+  "location": "the subterranean tunnels",
   "wayto": {
     "9119": "down",
     "9110": "west",
     "9112": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, west, down"
-  ],
-  "image_coords": [
-    223,
-    702,
-    233,
-    712
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Shattered stone covers the ground, crunching underfoot and seeking to lame the unwary with its sharp edges.  Several columns lie in cracked sections where they seem to have been cast down to either side by some great force.  Whatever the force was, it came from the bog to the south."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Great Cavern, Stalagmite Forest]"
-  ],
-  "check_location": null,
   "timeto": {
     "9119": 0.2,
     "9110": 0.2,
     "9112": 0.2
   },
-  "id": 9113,
-  "location": "the subterranean tunnels",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "imt-underground-1264234799.png",
+  "image_coords": [
+    223,
+    702,
+    233,
+    712
   ]
 }

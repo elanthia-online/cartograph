@@ -1,49 +1,36 @@
 {
+  "id": 6922,
+  "title": [
+    "[Smuggling Tunnels, Passage]"
+  ],
+  "description": [
+    "Most of the ceiling has fallen in to the south, closing the tunnel almost completely.  Signs of recent excavation and repair are evident, but the work seems to be progressing slowly.  An orc claw hanging out of the wall may explain the delay."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, west"
+  ],
+  "location": "the smuggling tunnels",
   "wayto": {
     "6919": "northeast",
     "6921": "north",
     "6923": "west"
   },
-  "paths": [
-    "Obvious exits: north, northeast, west"
-  ],
+  "timeto": {
+    "6919": 0.2,
+    "6921": 0.2,
+    "6923": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     934,
     1464,
     944,
     1474
   ],
-  "terrain": "indoors",
-  "description": [
-    "Most of the ceiling has fallen in to the south, closing the tunnel almost completely.  Signs of recent excavation and repair are evident, but the work seems to be progressing slowly.  An orc claw hanging out of the wall may explain the delay."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Smuggling Tunnels, Passage]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6919": 0.2,
-    "6921": 0.2,
-    "6923": 0.2
-  },
-  "id": 6922,
-  "location": "the smuggling tunnels",
   "tags": [
     "some bur-clover root",
     "some cave moss",
     "some wingstem root",
-    "withered black mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "withered black mushroom"
   ]
 }

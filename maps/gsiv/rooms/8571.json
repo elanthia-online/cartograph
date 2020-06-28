@@ -1,35 +1,32 @@
 {
+  "id": 8571,
+  "title": [
+    "[Secluded Valley]"
+  ],
+  "description": [
+    "Thick and sturdy undergrowth flourishes on the jumble of rocks that are scattered about on this side of the valley.  Scores of tiny eyes peer out at you from the many nooks and crannies formed by the haphazard assemblage of stone."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, southeast"
+  ],
+  "location": "the foothills of Zeltoph",
   "wayto": {
     "8570": "north",
     "8572": "southeast",
     "8574": "northeast"
   },
-  "paths": [
-    "Obvious paths: north, northeast, southeast"
-  ],
+  "timeto": {
+    "8570": 0.2,
+    "8572": 0.2,
+    "8574": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     1266,
     950,
     1276,
     960
   ],
-  "terrain": "rough",
-  "description": [
-    "Thick and sturdy undergrowth flourishes on the jumble of rocks that are scattered about on this side of the valley.  Scores of tiny eyes peer out at you from the many nooks and crannies formed by the haphazard assemblage of stone."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Secluded Valley]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8570": 0.2,
-    "8572": 0.2,
-    "8574": 0.2
-  },
-  "id": 8571,
-  "location": "the foothills of Zeltoph",
   "tags": [
     "wild gooseberry",
     "heath aster",
@@ -58,10 +55,6 @@
     "motherwort",
     "white baneberry",
     "pepperthorn root",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

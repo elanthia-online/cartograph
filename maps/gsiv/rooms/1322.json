@@ -1,48 +1,33 @@
 {
+  "id": 1322,
+  "title": [
+    "[Plateau, Flynth River]"
+  ],
+  "description": [
+    "Scattered along the trail is some gravel from the river ford, caught in wagon wheels and carried southward.  Tangled threads flutter from a thorny bush where previous travelers have draped their clothing to dry."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "the grasslands",
   "wayto": {
     "1321": "go ford",
     "1323": "south"
   },
-  "paths": [
-    "Obvious paths: south"
-  ],
+  "timeto": {
+    "1321": 0.2,
+    "1323": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     180,
     636,
     190,
     646
   ],
-  "terrain": "riparian",
-  "description": [
-    "Scattered along the trail is some gravel from the river ford, caught in wagon wheels and carried southward.  Tangled threads flutter from a thorny bush where previous travelers have draped their clothing to dry."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Plateau, Flynth River]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1321": 0.2,
-    "1323": 0.2
-  },
-  "id": 1322,
-  "location": "the grasslands",
   "tags": [
     "bright red cranberry",
     "some acantha leaf",
-    "some ephlox moss",
-    "acantha leaf",
-    "ephlox moss",
-    "white hook mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "stalk of bluebells",
-    "ironfern root",
-    "talneo root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some ephlox moss"
   ]
 }

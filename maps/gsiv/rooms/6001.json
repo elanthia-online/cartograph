@@ -1,36 +1,33 @@
 {
+  "id": 6001,
+  "title": [
+    "[Rambling Meadows, Hilltop]"
+  ],
+  "description": [
+    "The tufts of overgrown grass flow freely over the hilltop, passing along the side of a ruined farmhouse to the east.",
+    "The tufts of overgrown grass flow freely over the hilltop, passing along the side of a ruined farmhouse to the east.  Little more than the raised foundation remains, but there appears to be no clear entrance to the ruin from this direction."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, southwest"
+  ],
+  "location": "the Rambling Meadows",
   "wayto": {
     "5999": "northeast",
     "6000": "north",
     "6002": "southwest"
   },
-  "paths": [
-    "Obvious paths: north, northeast, southwest"
-  ],
+  "timeto": {
+    "5999": 0.2,
+    "6000": 0.2,
+    "6002": 0.2
+  },
+  "image": "en-victory-1264234799.png",
   "image_coords": [
     1211,
     1009,
     1221,
     1019
   ],
-  "terrain": null,
-  "description": [
-    "The tufts of overgrown grass flow freely over the hilltop, passing along the side of a ruined farmhouse to the east.",
-    "The tufts of overgrown grass flow freely over the hilltop, passing along the side of a ruined farmhouse to the east.  Little more than the raised foundation remains, but there appears to be no clear entrance to the ruin from this direction."
-  ],
-  "image": "en-victory-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Rambling Meadows, Hilltop]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5999": 0.2,
-    "6000": 0.2,
-    "6002": 0.2
-  },
-  "id": 6001,
-  "location": "the Rambling Meadows",
   "tags": [
     "some sovyn clove",
     "some acantha leaf",
@@ -113,8 +110,5 @@
     "sunburst blossom",
     "brostheras grass",
     "woad leaves"
-  ],
-  "links": [
-
   ]
 }

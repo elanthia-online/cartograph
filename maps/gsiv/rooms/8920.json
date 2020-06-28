@@ -1,41 +1,32 @@
 {
+  "id": 8920,
+  "title": [
+    "[Wizard Guild, Foyer]"
+  ],
+  "description": [
+    "The rippling and faintly bluish light that fills the foyer seems to have no visible source, but is bright enough to reveal the vivid colors of the mosaics that line the curving walls.  A confluence of warm air from the hall to the east and a chill breeze from the arch to the west leaves the flagstones damp with condensation.  A curtained passage opens to the north."
+  ],
+  "paths": [
+    "Obvious exits: north, east, west"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "8921": "west",
     "8927": "east",
     "8928": "north",
     "8918": "go doors"
   },
-  "paths": [
-    "Obvious exits: north, east, west"
-  ],
-  "image_coords": [
-    213,
-    698,
-    265,
-    746
-  ],
-  "terrain": null,
-  "description": [
-    "The rippling and faintly bluish light that fills the foyer seems to have no visible source, but is bright enough to reveal the vivid colors of the mosaics that line the curving walls.  A confluence of warm air from the hall to the east and a chill breeze from the arch to the west leaves the flagstones damp with condensation.  A curtained passage opens to the north."
-  ],
-  "image": "imt-wizard_guild.png",
-  "climate": null,
-  "title": [
-    "[Wizard Guild, Foyer]"
-  ],
-  "check_location": null,
   "timeto": {
     "8921": 0.2,
     "8927": 0.2,
     "8928": 0.2,
     "8918": 0.2
   },
-  "id": 8920,
-  "location": "Icemule Trace",
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "imt-wizard_guild.png",
+  "image_coords": [
+    213,
+    698,
+    265,
+    746
   ]
 }

@@ -1,35 +1,32 @@
 {
-  "wayto": {
-    "3245": "climb wall",
-    "3262": {
-      "stringproc": "627e8564b77acb15b93b042e15018ec5"
-    }
-  },
+  "id": 3263,
+  "title": [
+    "[A Frozen Battlefield, Trench]"
+  ],
+  "description": [
+    "The wind howls with menace above, but finds itself unable to gain entrance to the deep battlement.  The stone-reinforced walls are covered with slick ice, and what might have granted sanctuary long ago seems nothing more than an icy prison now."
+  ],
   "paths": [
     "Obvious paths: east"
   ],
+  "location": "the Ice Plains",
+  "wayto": {
+    "3245": "climb wall",
+    "3262": {
+      "file": "string_procs/wayto/3263_3262.rb"
+    }
+  },
+  "timeto": {
+    "3245": 0.2,
+    "3262": 4.0
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     42,
     325,
     52,
     335
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The wind howls with menace above, but finds itself unable to gain entrance to the deep battlement.  The stone-reinforced walls are covered with slick ice, and what might have granted sanctuary long ago seems nothing more than an icy prison now."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[A Frozen Battlefield, Trench]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3245": 0.2,
-    "3262": 4.0
-  },
-  "id": 3263,
-  "location": "the Ice Plains",
   "tags": [
     "some wolifrew lichen",
     "some acantha leaf",
@@ -53,23 +50,6 @@
     "some angelica root",
     "cuctucae berry",
     "some wingstem root",
-    "blue whortleberry",
-    "acantha leaf",
-    "wolifrew lichen",
-    "aloeas stem",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "bearberries",
-    "tundra grass",
-    "frostflower",
-    "arctic brambles",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "blue whortleberry"
   ]
 }

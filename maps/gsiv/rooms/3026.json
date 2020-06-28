@@ -1,38 +1,30 @@
 {
-  "wayto": {
-    "3015": "go trap"
-  },
+  "id": 3026,
+  "title": [
+    "[Arctic Tundra, Under Altar]"
+  ],
+  "description": [
+    "Several lanterns light the corners of this tiny room.  Warm fur throws cover the floor, providing a sense of comfort.  Nestled in one corner is a tiny trapdoor."
+  ],
   "paths": [
     "Obvious exits: none",
     "Obvious exits: out"
   ],
+  "location": "the High Plains",
+  "wayto": {
+    "3015": "go trap"
+  },
+  "timeto": {
+    "3015": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     451,
     873,
     461,
     883
   ],
-  "terrain": "indoors",
-  "description": [
-    "Several lanterns light the corners of this tiny room.  Warm fur throws cover the floor, providing a sense of comfort.  Nestled in one corner is a tiny trapdoor."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Arctic Tundra, Under Altar]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3015": 0.2
-  },
-  "id": 3026,
-  "location": "the High Plains",
   "tags": [
-    "snow spectre",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "snow spectre"
   ]
 }

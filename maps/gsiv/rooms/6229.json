@@ -1,55 +1,47 @@
 {
-  "wayto": {
-    "6223": {
-      "stringproc": "d9ac4bb3b2a57993e5dbf4a6f1edf2d1"
-    },
-    "6234": {
-      "stringproc": "c1d790c6f637bccd93ae48df43d3b3f1"
-    },
-    "6224": {
-      "stringproc": "ff2478c75c38ad19367eafed783de195"
-    },
-    "6235": {
-      "stringproc": "95e99095b8a4cc1349f77bd5b02975c9"
-    },
-    "6225": {
-      "stringproc": "613d9d619d83aa282d4b4359e2ff46a7"
-    },
-    "6230": {
-      "stringproc": "b73070289af1197141e94bd36a3b7cbe"
-    },
-    "6231": {
-      "stringproc": "00448e8e63f79bf7fdbb4fdda0a150a8"
-    },
-    "6232": {
-      "stringproc": "cc19102eef9c6ca29dba64cbac086fce"
-    },
-    "6222": {
-      "stringproc": "f20c3d394c4ab45e63857281ffd9e99b"
-    },
-    "6233": {
-      "stringproc": "47af4c624917f6a6824d5a0156ded934"
-    }
-  },
-  "paths": [
-    "Obvious exits: north, northeast, east, southeast, south, southwest, west, northwest"
-  ],
-  "image_coords": [
-    1018,
-    277,
-    1036,
-    295
-  ],
-  "terrain": null,
-  "description": [
-    "Dimly glowing mushrooms cast light across the metal surface of an extinguished fire bowl that rests at the base of the wall."
-  ],
-  "image": "wl-wehntoph-1310775397.png",
-  "climate": null,
+  "id": 6229,
   "title": [
     "[Labyrinth]"
   ],
-  "check_location": null,
+  "description": [
+    "Dimly glowing mushrooms cast light across the metal surface of an extinguished fire bowl that rests at the base of the wall."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east, southeast, south, southwest, west, northwest"
+  ],
+  "location": "The Hidden Plateau",
+  "wayto": {
+    "6223": {
+      "file": "string_procs/wayto/6229_6223.rb"
+    },
+    "6234": {
+      "file": "string_procs/wayto/6229_6234.rb"
+    },
+    "6224": {
+      "file": "string_procs/wayto/6229_6224.rb"
+    },
+    "6235": {
+      "file": "string_procs/wayto/6229_6235.rb"
+    },
+    "6225": {
+      "file": "string_procs/wayto/6229_6225.rb"
+    },
+    "6230": {
+      "file": "string_procs/wayto/6229_6230.rb"
+    },
+    "6231": {
+      "file": "string_procs/wayto/6229_6231.rb"
+    },
+    "6232": {
+      "file": "string_procs/wayto/6229_6232.rb"
+    },
+    "6222": {
+      "file": "string_procs/wayto/6229_6222.rb"
+    },
+    "6233": {
+      "file": "string_procs/wayto/6229_6233.rb"
+    }
+  },
   "timeto": {
     "6223": 0.5,
     "6234": 0.5,
@@ -62,14 +54,16 @@
     "6222": 0.5,
     "6233": 0.5
   },
-  "id": 6229,
-  "location": "The Hidden Plateau",
+  "image": "wl-wehntoph-1310775397.png",
+  "image_coords": [
+    1018,
+    277,
+    1036,
+    295
+  ],
   "tags": [
     "withered black mushroom",
     "black hook mushroom",
     "blue trafel mushroom"
-  ],
-  "links": [
-
   ]
 }

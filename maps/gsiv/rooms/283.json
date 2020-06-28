@@ -1,68 +1,38 @@
 {
+  "id": 283,
+  "title": [
+    "[Wehnimer's, Parsnips St.]"
+  ],
+  "description": [
+    "This broad conduit leading between the south wall and the square stands nearly deserted after dark, only a few footsteps echoing on the lamplit cobblestones.  To one side stands a sedate and dignified shop, the scroll-like sign over its door inscribed in a striking and elegant manner.",
+    "This broad conduit leading between the south wall and the square hums with the activities of those passing through.  To one side stands a sedate and dignified shop, the scroll-like sign over its door inscribed in a striking and elegant manner."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "20588": "go shop",
     "282": "north",
     "299": "south"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "20588": 0.2,
+    "282": 0.2,
+    "299": 0.2
+  },
+  "image": "wl-wehnimers-1264234799.png",
   "image_coords": [
     356,
     965,
     392,
     1001
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "This broad conduit leading between the south wall and the square stands nearly deserted after dark, only a few footsteps echoing on the lamplit cobblestones.  To one side stands a sedate and dignified shop, the scroll-like sign over its door inscribed in a striking and elegant manner.",
-    "This broad conduit leading between the south wall and the square hums with the activities of those passing through.  To one side stands a sedate and dignified shop, the scroll-like sign over its door inscribed in a striking and elegant manner."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Wehnimer's, Parsnips St.]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "20588": 0.2,
-    "282": 0.2,
-    "299": 0.2
-  },
-  "id": 283,
-  "location": "the town of Wehnimer's Landing",
   "tags": [
     "small rose",
     "small daisy",
     "pepperthorn root",
     "some acantha leaf",
-    "meta:teleport:fwi",
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "small flower",
-    "angelica root",
-    "withered black mushroom",
-    "stalk of chicory",
-    "sprig of alyssum",
-    "heath aster",
-    "stalk of goldenrod",
-    "yellow primrose",
-    "small wild rose",
-    "wild carrot",
-    "ginger root",
-    "wild chokecherry",
-    "motherwort",
-    "murkweed",
-    "blue whortleberry",
-    "white baneberry",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:teleport:fwi"
   ]
 }

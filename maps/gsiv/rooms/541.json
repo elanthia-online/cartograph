@@ -1,34 +1,31 @@
 {
+  "id": 541,
+  "title": [
+    "[Whistler's Pass, Grassy Field]"
+  ],
+  "description": [
+    "A dense bank of fog has settled into the area, hiding all but the closest section of the trail from view.  A dark fog fills the area to the northeast.",
+    "A dense bank of fog has settled into the area, hiding all but the closest section of the trail from view.  A fog fills the area to the northeast."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "540": "northeast",
     "542": "southwest"
   },
-  "paths": [
-    "Obvious paths: northeast, southwest"
-  ],
+  "timeto": {
+    "540": 0.2,
+    "542": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     801,
     594,
     811,
     604
   ],
-  "terrain": "grassland",
-  "description": [
-    "A dense bank of fog has settled into the area, hiding all but the closest section of the trail from view.  A dark fog fills the area to the northeast.",
-    "A dense bank of fog has settled into the area, hiding all but the closest section of the trail from view.  A fog fills the area to the northeast."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Whistler's Pass, Grassy Field]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "540": 0.2,
-    "542": 0.2
-  },
-  "id": 541,
-  "location": "Whistler's Pass",
   "tags": [
     "acantha leaf",
     "ambrominas leaf",
@@ -106,10 +103,6 @@
     "wavepetal blossom",
     "ironfern root",
     "nightbloom blossom",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

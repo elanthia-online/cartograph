@@ -1,37 +1,34 @@
 {
+  "id": 7254,
+  "title": [
+    "[Graveyard, Boggy Path]"
+  ],
+  "description": [
+    "The overgrown trail that winds through the scrawny trees to the east sinks deep into the bog here, barely forming patches of ground solid enough to walk on.  The darkness is deeper and the swamp gas thicker to the west, where thick patches of scrub and twisted yew trees stand amid pits of swirling muck and water.  Two somewhat drier paths wind along the edges of the bog to the northwest and southwest."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest, west, northwest"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7264": "southwest",
     "7253": "east",
     "7265": "west",
     "7255": "northwest"
   },
-  "paths": [
-    "Obvious paths: east, southwest, west, northwest"
-  ],
-  "image_coords": [
-    134,
-    586,
-    144,
-    596
-  ],
-  "terrain": "barren scrub",
-  "description": [
-    "The overgrown trail that winds through the scrawny trees to the east sinks deep into the bog here, barely forming patches of ground solid enough to walk on.  The darkness is deeper and the swamp gas thicker to the west, where thick patches of scrub and twisted yew trees stand amid pits of swirling muck and water.  Two somewhat drier paths wind along the edges of the bog to the northwest and southwest."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "moist",
-  "title": [
-    "[Graveyard, Boggy Path]"
-  ],
-  "check_location": null,
   "timeto": {
     "7264": 0.2,
     "7253": 0.2,
     "7265": 0.2,
     "7255": 0.2
   },
-  "id": 7254,
-  "location": "the Graveyard",
+  "image": "wl-graveyard-1264234799.png",
+  "image_coords": [
+    134,
+    586,
+    144,
+    596
+  ],
   "tags": [
     "spotted heart mushroom",
     "golden hook mushroom",
@@ -40,10 +37,6 @@
     "wild chokecherry",
     "murkweed",
     "blue whortleberry",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

@@ -1,41 +1,33 @@
 {
-  "wayto": {
-    "1267": {
-      "stringproc": "7758cb31322782a124f2c3ded27c8263"
-    },
-    "1013": "out"
-  },
+  "id": 1266,
+  "title": [
+    "[Kharag 'doth Dzulthu, Tunnels]"
+  ],
+  "description": [
+    "Several small torches are mounted upon the walls of this large cavern, casting a dim light across the faces of the occupants.  Half a dozen dwarves scurry about, directing passengers aboard a series of mining carts that barely stop long enough to allow entrance."
+  ],
   "paths": [
     "Obvious exits: out"
   ],
+  "location": "Kharag 'doth Dzulthu",
+  "wayto": {
+    "1267": {
+      "file": "string_procs/wayto/1266_1267.rb"
+    },
+    "1013": "out"
+  },
+  "timeto": {
+    "1267": 180.0,
+    "1013": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     277,
     487,
     287,
     497
   ],
-  "terrain": "indoors",
-  "description": [
-    "Several small torches are mounted upon the walls of this large cavern, casting a dim light across the faces of the occupants.  Half a dozen dwarves scurry about, directing passengers aboard a series of mining carts that barely stop long enough to allow entrance."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Kharag 'doth Dzulthu, Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1267": 180.0,
-    "1013": 0.2
-  },
-  "id": 1266,
-  "location": "Kharag 'doth Dzulthu",
   "tags": [
-    "silver-cost:1267:1000",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "silver-cost:1267:1000"
   ]
 }

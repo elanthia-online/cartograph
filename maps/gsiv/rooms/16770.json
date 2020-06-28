@@ -1,42 +1,32 @@
 {
-  "wayto": {
-    "16769": "west",
-    "16781": {
-      "stringproc": "baea8fdcc3dbd9dcd934123d65cfe31b"
-    },
-    "16771": "south"
-  },
-  "paths": [
-    "Obvious exits: south, west"
-  ],
-  "image_coords": [
-    690,
-    572,
-    700,
-    582
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Water streams out of a clay jug that forms part of a larger carving in the marble wall.  It collects in an oval basin, but instead of pouring gracefully down from there, the liquid trickles unevenly off the broken spout and clings shyly to the yellow-streaked stone as it descends."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": "indoors",
+  "id": 16770,
   "title": [
     "[Temple Wyneb, Effluentorium]"
   ],
-  "check_location": null,
+  "description": [
+    "Water streams out of a clay jug that forms part of a larger carving in the marble wall.  It collects in an oval basin, but instead of pouring gracefully down from there, the liquid trickles unevenly off the broken spout and clings shyly to the yellow-streaked stone as it descends."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "Temple Wyneb",
+  "wayto": {
+    "16769": "west",
+    "16781": {
+      "file": "string_procs/wayto/16770_16781.rb"
+    },
+    "16771": "south"
+  },
   "timeto": {
     "16769": 0.2,
     "16781": 0.4,
     "16771": 0.2
   },
-  "id": 16770,
-  "location": "Temple Wyneb",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-skull-1264234799.png",
+  "image_coords": [
+    690,
+    572,
+    700,
+    582
   ]
 }

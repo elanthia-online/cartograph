@@ -1,43 +1,28 @@
 {
+  "id": 4312,
+  "title": [
+    "[Mine]"
+  ],
+  "description": [
+    "The ceiling takes an abrupt upward swing revealing an expansive natural cavern.  The formations of stalactites on the cavern's ceiling provide a wonderous race course as thousands of bats glide between the rocky pillars."
+  ],
+  "paths": [
+    "Obvious exits: south, down"
+  ],
+  "location": "the crystal caves",
   "wayto": {
     "4311": "south",
     "4313": "down"
   },
-  "paths": [
-    "Obvious exits: south, down"
-  ],
+  "timeto": {
+    "4311": 0.2,
+    "4313": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     753,
     390,
     763,
     400
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The ceiling takes an abrupt upward swing revealing an expansive natural cavern.  The formations of stalactites on the cavern's ceiling provide a wonderous race course as thousands of bats glide between the rocky pillars."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4311": 0.2,
-    "4313": 0.2
-  },
-  "id": 4312,
-  "location": "the crystal caves",
-  "tags": [
-    "wolifrew lichen",
-    "withered black mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

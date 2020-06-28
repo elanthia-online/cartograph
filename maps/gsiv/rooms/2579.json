@@ -1,44 +1,41 @@
 {
-  "wayto": {
-    "12208": {
-      "stringproc": "a0576f0215d746452e7afb93c1ee082c"
-    },
-    "2580": "southwest",
-    "2635": {
-      "stringproc": "01b8924575c8d70e4ed7eea7ed00be84"
-    },
-    "12101": {
-      "stringproc": "cf4b8e5b125b22b01c9349827d02c9fd"
-    }
-  },
+  "id": 2579,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "A cold, grey mist swirls around you, making it difficult to gain any sense of what is here.  Through the haze a huge, gnarled hand stretches upward reaching grimly for something past your vision.  As you move closer, it turns out to be only a dead tree, the bent and gnarled limbs twisting toward a blood eagle hovering just out of reach."
+  ],
   "paths": [
     "Obvious exits: southwest",
     "Obvious paths: southwest"
   ],
-  "image_coords": [
-    186,
-    589,
-    194,
-    597
-  ],
-  "terrain": null,
-  "description": [
-    "A cold, grey mist swirls around you, making it difficult to gain any sense of what is here.  Through the haze a huge, gnarled hand stretches upward reaching grimly for something past your vision.  As you move closer, it turns out to be only a dead tree, the bent and gnarled limbs twisting toward a blood eagle hovering just out of reach."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12208": {
+      "file": "string_procs/wayto/2579_12208.rb"
+    },
+    "2580": "southwest",
+    "2635": {
+      "file": "string_procs/wayto/2579_2635.rb"
+    },
+    "12101": {
+      "file": "string_procs/wayto/2579_12101.rb"
+    }
+  },
   "timeto": {
     "12208": 22.0,
     "2580": 0.2,
     "2635": 22.0,
     "12101": 26.0
   },
-  "id": 2579,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    186,
+    589,
+    194,
+    597
+  ],
   "tags": [
     "mass of congealed slime",
     "oozing fleshsore bulb",
@@ -50,8 +47,5 @@
     "meta:mapname:Icemule Trace - Rift, The",
     "meta:mapshortname:Rift, The",
     "meta:mapcategory:Icemule Trace"
-  ],
-  "links": [
-
   ]
 }

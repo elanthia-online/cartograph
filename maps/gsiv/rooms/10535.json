@@ -1,33 +1,30 @@
 {
+  "id": 10535,
+  "title": [
+    "[The Toadwort, Blackened Morass]"
+  ],
+  "description": [
+    "A thicket of odd-shaped purple flowers stand sentinel over a burrow directly below it.  Tufts of fur cling to the tiny barbs that protrude from the flowers' stems.  Paw prints in the mud lead both to and from the burrow and a gnawed bone lies partially buried not far from its entrance.  Off in the distance, deep guttural growls and snarls are audible."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Toadwort",
   "wayto": {
     "10534": "south",
     "10536": "north"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "10534": 0.2,
+    "10536": 0.2
+  },
+  "image": "en-cemetery-1264234799.png",
   "image_coords": [
     320,
     1274,
     330,
     1284
   ],
-  "terrain": null,
-  "description": [
-    "A thicket of odd-shaped purple flowers stand sentinel over a burrow directly below it.  Tufts of fur cling to the tiny barbs that protrude from the flowers' stems.  Paw prints in the mud lead both to and from the burrow and a gnawed bone lies partially buried not far from its entrance.  Off in the distance, deep guttural growls and snarls are audible."
-  ],
-  "image": "en-cemetery-1264234799.png",
-  "climate": null,
-  "title": [
-    "[The Toadwort, Blackened Morass]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10534": 0.2,
-    "10536": 0.2
-  },
-  "id": 10535,
-  "location": "the Toadwort",
   "tags": [
     "lady slipper blossom",
     "some haphip root",
@@ -54,8 +51,5 @@
     "talneo root",
     "wingstem root",
     "bur-clover root"
-  ],
-  "links": [
-
   ]
 }

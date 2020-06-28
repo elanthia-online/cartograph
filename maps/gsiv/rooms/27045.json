@@ -1,43 +1,36 @@
 {
-  "wayto": {
-    "27044": {
-      "stringproc": "9b05cb4429e6ad5efbe157efd92e6023"
-    },
-    "25702": {
-      "stringproc": "9b05cb4429e6ad5efbe157efd92e6023"
-    },
-    "25704": {
-      "stringproc": "7c97847f49fd5aa0407dedb0e3609199"
-    }
-  },
-  "paths": [
-    "Obvious paths: northeast, southeast, northwest"
-  ],
-  "image_coords": [
-    1680,
-    1679,
-    1700,
-    1698
-  ],
-  "terrain": null,
-  "description": [
-    "Sunlight highlights the puffy white clouds that stretch across the horizon in a golden sheen.  Clouds and sunrays are reflected in the rippling waters of the harbor, their white and gold hues flashing in and out as the waves jockey for position near the rocky shoals of the southern island."
-  ],
-  "image": "ifw-eastern_waterway-1489553700.png",
-  "climate": null,
+  "id": 27045,
   "title": [
     "[Eastern Waterway]"
   ],
-  "check_location": null,
+  "description": [
+    "Sunlight highlights the puffy white clouds that stretch across the horizon in a golden sheen.  Clouds and sunrays are reflected in the rippling waters of the harbor, their white and gold hues flashing in and out as the waves jockey for position near the rocky shoals of the southern island."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, northwest"
+  ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "27044": {
+      "file": "string_procs/wayto/27045_27044.rb"
+    },
+    "25702": {
+      "file": "string_procs/wayto/27045_25702.rb"
+    },
+    "25704": {
+      "file": "string_procs/wayto/27045_25704.rb"
+    }
+  },
   "timeto": {
     "27044": 6.0,
     "25702": 6.0,
     "25704": 6.0
   },
-  "id": 27045,
-  "location": "Mist Harbor",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  "image": "ifw-eastern_waterway-1489553700.png",
+  "image_coords": [
+    1680,
+    1679,
+    1700,
+    1698
+  ]
 }

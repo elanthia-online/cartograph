@@ -1,32 +1,29 @@
 {
-  "wayto": {
-    "6016": "west"
-  },
+  "id": 6017,
+  "title": [
+    "[Yander's Farm, Feed Storage]"
+  ],
+  "description": [
+    "Large wooden bins line the walls of this area of the barn.",
+    "Large wooden bins line the walls of this area of the barn.  Each bin has a heavy, hinged top that opens upward, and a smaller, hinged door on the front.  Small piles of dried corn litter the floor beneath the small door on each bin, spreading out to blend in with the chaff that covers the entire floor.  Two shiny metal buckets hang from hooks on the central beam.  Mice skitter through the area, frantically looking for little bits of sustenance that they can consume or take back to their nests."
+  ],
   "paths": [
     "Obvious exits: west"
   ],
+  "location": "Yander's Farm",
+  "wayto": {
+    "6016": "west"
+  },
+  "timeto": {
+    "6016": 0.2
+  },
+  "image": "en-victory-1264234799.png",
   "image_coords": [
     778,
     427,
     788,
     437
   ],
-  "terrain": null,
-  "description": [
-    "Large wooden bins line the walls of this area of the barn.",
-    "Large wooden bins line the walls of this area of the barn.  Each bin has a heavy, hinged top that opens upward, and a smaller, hinged door on the front.  Small piles of dried corn litter the floor beneath the small door on each bin, spreading out to blend in with the chaff that covers the entire floor.  Two shiny metal buckets hang from hooks on the central beam.  Mice skitter through the area, frantically looking for little bits of sustenance that they can consume or take back to their nests."
-  ],
-  "image": "en-victory-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Yander's Farm, Feed Storage]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6016": 0.2
-  },
-  "id": 6017,
-  "location": "Yander's Farm",
   "tags": [
     "pepperthorn root",
     "withered black mushroom",
@@ -34,8 +31,5 @@
     "ironfern root",
     "wingstem root",
     "bur-clover root"
-  ],
-  "links": [
-
   ]
 }

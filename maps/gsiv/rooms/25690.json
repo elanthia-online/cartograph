@@ -1,30 +1,21 @@
 {
-  "wayto": {
-    "18248": {
-      "stringproc": "0ad5e3c2c1d32e2da906d817c34f30e6"
-    }
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "The far wall of this small room is filled with an array of small, locked doors."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 25690,
   "title": [
     "[Warehouse, Lockers]"
   ],
-  "check_location": null,
+  "description": [
+    "The far wall of this small room is filled with an array of small, locked doors."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Solhaven",
+  "wayto": {
+    "18248": {
+      "file": "string_procs/wayto/25690_18248.rb"
+    }
+  },
   "timeto": {
     "18248": 0.2
-  },
-  "id": 25690,
-  "location": "Solhaven",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  }
 }

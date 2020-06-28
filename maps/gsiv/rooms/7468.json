@@ -1,53 +1,41 @@
 {
-  "wayto": {
-    "7469": {
-      "stringproc": "6ca1cc833b334ac3c8528f898928a54c"
-    },
-    "7475": {
-      "stringproc": "22a794b0f5bb3d04c7f49a30055543f3"
-    },
-    "7467": {
-      "stringproc": "9562739203983e062dd5fcc7a8104b4e"
-    }
-  },
+  "id": 7468,
+  "title": [
+    "[Dark Grotto, Small Tunnel]"
+  ],
+  "description": [
+    "The tunnel is quiet.  Abnormally so.  Even the sounds that you make as you navigate the tunnel are muted and seem to die in the air almost immediately.  There are no echoes from the stone surfaces as one might expect in a tunnel through solid rock."
+  ],
   "paths": [
     "Obvious exits: northeast, south, southwest"
   ],
+  "location": "the Broken Lands",
+  "wayto": {
+    "7469": {
+      "file": "string_procs/wayto/7468_7469.rb"
+    },
+    "7475": {
+      "file": "string_procs/wayto/7468_7475.rb"
+    },
+    "7467": {
+      "file": "string_procs/wayto/7468_7467.rb"
+    }
+  },
+  "timeto": {
+    "7469": 0.2,
+    "7475": 0.2,
+    "7467": 0.2
+  },
+  "image": "wl-broken-1264234799.png",
   "image_coords": [
     860,
     934,
     870,
     944
   ],
-  "terrain": "indoors",
-  "description": [
-    "The tunnel is quiet.  Abnormally so.  Even the sounds that you make as you navigate the tunnel are muted and seem to die in the air almost immediately.  There are no echoes from the stone surfaces as one might expect in a tunnel through solid rock."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dark Grotto, Small Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7469": 0.2,
-    "7475": 0.2,
-    "7467": 0.2
-  },
-  "id": 7468,
-  "location": "the Broken Lands",
   "tags": [
     "some cave moss",
     "magru",
-    "some glowing green lichen",
-    "blackened moss",
-    "green lichen",
-    "bone mushroom",
-    "cave moss",
-    "sponge mushroom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some glowing green lichen"
   ]
 }

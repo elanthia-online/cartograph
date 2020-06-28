@@ -1,42 +1,30 @@
 {
-  "wayto": {
-    "5376": "north"
-  },
+  "id": 5378,
+  "title": [
+    "[Noman's Land, Cave]"
+  ],
+  "description": [
+    "A massive pile of urgh hides lies in the center of this room.  A cloud of fleas rises from the putrid rags.  A splintered barrel lies at the foot of this makeshift bed.  The firepit is cold, though someone has already prepared their next meal and left it here for cooking.  The flayed and quartered corpse was probably a goblin."
+  ],
   "paths": [
     "Obvious exits: north"
   ],
+  "location": "Noman's Land",
+  "wayto": {
+    "5376": "north"
+  },
+  "timeto": {
+    "5376": 0.2
+  },
+  "image": "vo-caravansary-1264234799.png",
   "image_coords": [
     267,
     665,
     275,
     673
   ],
-  "terrain": "indoors",
-  "description": [
-    "A massive pile of urgh hides lies in the center of this room.  A cloud of fleas rises from the putrid rags.  A splintered barrel lies at the foot of this makeshift bed.  The firepit is cold, though someone has already prepared their next meal and left it here for cooking.  The flayed and quartered corpse was probably a goblin."
-  ],
-  "image": "vo-caravansary-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Noman's Land, Cave]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5376": 0.2
-  },
-  "id": 5378,
-  "location": "Noman's Land",
   "tags": [
     "some wolifrew lichen",
-    "cyclops",
-    "wolifrew lichen",
-    "withered black mushroom",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "cyclops"
   ]
 }

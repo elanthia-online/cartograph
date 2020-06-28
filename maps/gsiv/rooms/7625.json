@@ -1,44 +1,36 @@
 {
+  "id": 7625,
+  "title": [
+    "[The Black Sands]"
+  ],
+  "description": [
+    "A narrow strip of black sand winds between the pulsing sea and the huddled rocks.  You look out at the dark waters of the bay, set against the grey sky.  With the black sands beneath your feet and the frozen black lava behind you, you feel as though all the color has been blotted out of the world."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "20619": "search\ngo gap",
     "7623": "east",
     "7626": "west"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "20619": 0.2,
+    "7623": 0.2,
+    "7626": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     115,
     529,
     125,
     539
   ],
-  "terrain": "sandy",
-  "description": [
-    "A narrow strip of black sand winds between the pulsing sea and the huddled rocks.  You look out at the dark waters of the bay, set against the grey sky.  With the black sands beneath your feet and the frozen black lava behind you, you feel as though all the color has been blotted out of the world."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "saltwater",
-  "title": [
-    "[The Black Sands]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "20619": 0.2,
-    "7623": 0.2,
-    "7626": 0.2
-  },
-  "id": 7625,
-  "location": "the Coastal Cliffs",
   "tags": [
     "yabathilium fruit",
     "strand of seaweed",
     "murdroot",
-    "greater kappa",
-    "strof seaweed",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "greater kappa"
   ]
 }

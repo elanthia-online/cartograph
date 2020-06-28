@@ -1,43 +1,28 @@
 {
+  "id": 8178,
+  "title": [
+    "[Mine]"
+  ],
+  "description": [
+    "The ledge above the cavern is larger than appeared from the room below.  It continues to the east and appears to be covered with more of the pine branches that you saw at the entrance to the cavern."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the crystal caves",
   "wayto": {
     "8179": "east",
     "4321": "go steps"
   },
-  "paths": [
-    "Obvious exits: east"
-  ],
+  "timeto": {
+    "8179": 0.2,
+    "4321": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     886,
     446,
     896,
     456
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The ledge above the cavern is larger than appeared from the room below.  It continues to the east and appears to be covered with more of the pine branches that you saw at the entrance to the cavern."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8179": 0.2,
-    "4321": 0.2
-  },
-  "id": 8178,
-  "location": "the crystal caves",
-  "tags": [
-    "wolifrew lichen",
-    "withered black mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

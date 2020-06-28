@@ -1,47 +1,34 @@
 {
+  "id": 7738,
+  "title": [
+    "[Mossy Caverns, Tunnel]"
+  ],
+  "description": [
+    "The silence here is almost absolute.  Patches of glowing moss sprout from the tunnel walls and cast a dim light on the sandy passage.  Strange impressions in the sand leave you wondering what might inhabit these lonely tunnels."
+  ],
+  "paths": [
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "7737": "northwest",
     "7739": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast, northwest"
-  ],
+  "timeto": {
+    "7737": 0.2,
+    "7739": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     1001,
     1155,
     1011,
     1165
   ],
-  "terrain": "indoors",
-  "description": [
-    "The silence here is almost absolute.  Patches of glowing moss sprout from the tunnel walls and cast a dim light on the sandy passage.  Strange impressions in the sand leave you wondering what might inhabit these lonely tunnels."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mossy Caverns, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7737": 0.2,
-    "7739": 0.2
-  },
-  "id": 7738,
-  "location": "the Coastal Cliffs",
   "tags": [
     "some cave moss",
     "some pothinir grass",
     "black trafel mushroom",
-    "some bur-clover root",
-    "pothinir grass",
-    "withered black mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some bur-clover root"
   ]
 }

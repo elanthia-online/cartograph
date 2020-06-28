@@ -1,4 +1,15 @@
 {
+  "id": 3723,
+  "title": [
+    "[A Dark Cavern]"
+  ],
+  "description": [
+    "Though you feel the immense open space of this cavern, the darkness succeeds in hiding its boundaries.  Somewhere in the distance, a steady dripping joins the chorus of your echoing footsteps."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east, south, southwest, west, northwest"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "3815": "north",
     "3816": "southwest",
@@ -8,25 +19,6 @@
     "3812": "east",
     "3814": "northwest"
   },
-  "paths": [
-    "Obvious exits: north, northeast, east, south, southwest, west, northwest"
-  ],
-  "image_coords": [
-    569,
-    1268,
-    579,
-    1278
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Though you feel the immense open space of this cavern, the darkness succeeds in hiding its boundaries.  Somewhere in the distance, a steady dripping joins the chorus of your echoing footsteps."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[A Dark Cavern]"
-  ],
-  "check_location": null,
   "timeto": {
     "3815": 0.2,
     "3816": 0.2,
@@ -36,8 +28,13 @@
     "3812": 0.2,
     "3814": 0.2
   },
-  "id": 3723,
-  "location": "Darkstone Castle",
+  "image": "wl-darkstone-1264234799.png",
+  "image_coords": [
+    569,
+    1268,
+    579,
+    1278
+  ],
   "tags": [
     "withered black mushroom",
     "black hook mushroom",
@@ -47,15 +44,6 @@
     "soft white mushroom",
     "some wingstem root",
     "Sheruvian herbringer",
-    "nightmare steed",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "nightmare steed"
   ]
 }

@@ -1,38 +1,28 @@
 {
+  "id": 2384,
+  "title": [
+    "[Underground Tunnel]"
+  ],
+  "description": [
+    "Tangled roots hang from the walls while a few larger ones lie on the ground, making walking difficult.  To the south, you can see an opening in the roots that looks like some sort of burrow."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "2383": "north",
     "2385": "go burrow"
   },
-  "paths": [
-    "Obvious exits: north"
-  ],
+  "timeto": {
+    "2383": 0.2,
+    "2385": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     1203,
     170,
     1213,
     180
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Tangled roots hang from the walls while a few larger ones lie on the ground, making walking difficult.  To the south, you can see an opening in the roots that looks like some sort of burrow."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Underground Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2383": 0.2,
-    "2385": 0.2
-  },
-  "id": 2384,
-  "location": "Icemule Trace",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,38 +1,28 @@
 {
+  "id": 2298,
+  "title": [
+    "[Mausoleum, Catacombs]"
+  ],
+  "description": [
+    "A stone fountain sits in the center of this circular chamber.  In the basin is a statue, arms raised high.  The basin itself is filled with a foamy brown sludge.  The stone walls are covered with a fetid purple fungus, and you gag at the sulphurous smell.  A narrow corridor leads off to the north."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Fhorian Village",
   "wayto": {
     "2299": "north",
     "2297": "south"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "2299": 0.2,
+    "2297": 0.2
+  },
+  "image": "ti-wilds-1264234799.png",
   "image_coords": [
     119,
     1027,
     129,
     1037
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A stone fountain sits in the center of this circular chamber.  In the basin is a statue, arms raised high.  The basin itself is filled with a foamy brown sludge.  The stone walls are covered with a fetid purple fungus, and you gag at the sulphurous smell.  A narrow corridor leads off to the north."
-  ],
-  "image": "ti-wilds-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mausoleum, Catacombs]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2299": 0.2,
-    "2297": 0.2
-  },
-  "id": 2298,
-  "location": "the Fhorian Village",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,33 +1,30 @@
 {
+  "id": 2263,
+  "title": [
+    "[Abandoned Mine]"
+  ],
+  "description": [
+    "Pale yellow eyes peer out from jagged rocks overhead, blinking silently in the darkness.  The tiny rock lizards, obviously comfortable here in the dark, stare impassively at all who pass."
+  ],
+  "paths": [
+    "Obvious exits: south, up"
+  ],
+  "location": "the Abandoned Mine",
   "wayto": {
     "2262": "up",
     "2264": "south"
   },
-  "paths": [
-    "Obvious exits: south, up"
-  ],
+  "timeto": {
+    "2262": 0.2,
+    "2264": 0.2
+  },
+  "image": "ti-teras-1264234799.png",
   "image_coords": [
     523,
     923,
     531,
     931
   ],
-  "terrain": "indoors",
-  "description": [
-    "Pale yellow eyes peer out from jagged rocks overhead, blinking silently in the darkness.  The tiny rock lizards, obviously comfortable here in the dark, stare impassively at all who pass."
-  ],
-  "image": "ti-teras-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abandoned Mine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2262": 0.2,
-    "2264": 0.2
-  },
-  "id": 2263,
-  "location": "the Abandoned Mine",
   "tags": [
     "genkew mushroom",
     "soft white mushroom",
@@ -39,14 +36,6 @@
     "some wingstem root",
     "flathead mushroom",
     "withered black mushroom",
-    "black hook mushroom",
-    "cave moss",
-    "murdroot",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "black hook mushroom"
   ]
 }

@@ -1,40 +1,29 @@
 {
+  "id": 11371,
+  "title": [
+    "[Citadel, Hallway]"
+  ],
+  "description": [
+    "The silence of the long-deserted citadel is oppressive here as no sounds seem to reach you from the outside.  A door of shining black enamel is set into one wall of the hallway."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
   "wayto": {
     "11370": "west",
     "11372": "go door",
     "11375": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
-  "image_coords": [
-    269,
-    1141,
-    279,
-    1151
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The silence of the long-deserted citadel is oppressive here as no sounds seem to reach you from the outside.  A door of shining black enamel is set into one wall of the hallway."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Citadel, Hallway]"
-  ],
-  "check_location": null,
   "timeto": {
     "11370": 0.2,
     "11372": 0.2,
     "11375": 0.2
   },
-  "id": 11371,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-citadel-1267238976.png",
+  "image_coords": [
+    269,
+    1141,
+    279,
+    1151
   ]
 }

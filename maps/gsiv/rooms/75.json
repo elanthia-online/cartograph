@@ -1,34 +1,31 @@
 {
+  "id": 75,
+  "title": [
+    "[Whistler's Pass, Hills]"
+  ],
+  "description": [
+    "A wall of rock, barely as tall as the average giantman, surrounds the eastern side of the hill.  Earth chinking fills the space between the stones.  A few stones jut from the barrier, serving as hand and footholds for climbers.  Moonlight splashes across the stone walls.",
+    "A wall of rock, barely as tall as the average giantman, surrounds the eastern side of the hill.  Earth chinking fills the space between the stones.  A few stones jut from the barrier, serving as hand and footholds for climbers."
+  ],
+  "paths": [
+    "Obvious paths: southwest"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "74": "climb wall",
     "76": "southwest"
   },
-  "paths": [
-    "Obvious paths: southwest"
-  ],
+  "timeto": {
+    "74": 0.2,
+    "76": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     890,
     255,
     900,
     265
   ],
-  "terrain": "hilly",
-  "description": [
-    "A wall of rock, barely as tall as the average giantman, surrounds the eastern side of the hill.  Earth chinking fills the space between the stones.  A few stones jut from the barrier, serving as hand and footholds for climbers.  Moonlight splashes across the stone walls.",
-    "A wall of rock, barely as tall as the average giantman, surrounds the eastern side of the hill.  Earth chinking fills the space between the stones.  A few stones jut from the barrier, serving as hand and footholds for climbers."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Whistler's Pass, Hills]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "74": 0.2,
-    "76": 0.2
-  },
-  "id": 75,
-  "location": "Whistler's Pass",
   "tags": [
     "stick",
     "oak twig",
@@ -88,11 +85,6 @@
     "ebony twig",
     "bolmara lichen",
     "brostheras grass",
-    "sky-blue delphinuris",
-    "mountain dryad",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sky-blue delphinuris"
   ]
 }

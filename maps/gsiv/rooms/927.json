@@ -1,42 +1,35 @@
 {
+  "id": 927,
+  "title": [
+    "[Whistler's Pass, Tunnel]"
+  ],
+  "description": [
+    "Nearly invisible patches of mortar fill small cracks and seams in the tunnel walls, as if this section had begun to succumb to the enormous weight of the mountain atop it.  Carefully applied and flush with the dark stone, the repairs appear to have accomplished their task, as no new fractures mar the stone surface.  The steady hum of the underground river is audible here, its force vibrating through the passage."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "926": "northeast",
     "928": "south"
   },
-  "paths": [
-    "Obvious exits: northeast, south"
-  ],
+  "timeto": {
+    "926": 0.2,
+    "928": 0.2
+  },
+  "image": "en-whistlers_pass-1264234799.png",
   "image_coords": [
     326,
     629,
     336,
     639
   ],
-  "terrain": "indoors",
-  "description": [
-    "Nearly invisible patches of mortar fill small cracks and seams in the tunnel walls, as if this section had begun to succumb to the enormous weight of the mountain atop it.  Carefully applied and flush with the dark stone, the repairs appear to have accomplished their task, as no new fractures mar the stone surface.  The steady hum of the underground river is audible here, its force vibrating through the passage."
-  ],
-  "image": "en-whistlers_pass-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Whistler's Pass, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "926": 0.2,
-    "928": 0.2
-  },
-  "id": 927,
-  "location": "Whistler's Pass",
   "tags": [
     "white hook mushroom",
     "cave moss",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

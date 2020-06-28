@@ -1,42 +1,36 @@
 {
+  "id": 396,
+  "title": [
+    "[Moot Hall, Upstairs Corridor]"
+  ],
+  "description": [
+    "This part of the upstairs corridor is fairly busy.  Several benches line the walls alongside the sturdy oak door at the far end.  Citizens of various ranks and classes mill about, grasping scrolls and bundles of documents in their hands and talking in serious whispers.",
+    "Several benches line the walls alongside the sturdy oak door at the far end of the corridor.  Several paintings are hung depicting various landmarks around Wehnimer's Landing."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "7977": "go archway",
     "7978": "go door",
     "395": "west",
     "397": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
-  "image_coords": [
-    592,
-    494,
-    733,
-    555
-  ],
-  "terrain": null,
-  "description": [
-    "This part of the upstairs corridor is fairly busy.  Several benches line the walls alongside the sturdy oak door at the far end.  Citizens of various ranks and classes mill about, grasping scrolls and bundles of documents in their hands and talking in serious whispers.",
-    "Several benches line the walls alongside the sturdy oak door at the far end of the corridor.  Several paintings are hung depicting various landmarks around Wehnimer's Landing."
-  ],
-  "image": "wl-moot_hall-1486755929.png",
-  "climate": null,
-  "title": [
-    "[Moot Hall, Upstairs Corridor]"
-  ],
-  "check_location": null,
   "timeto": {
     "7977": 0.2,
     "7978": 0.2,
     "395": 0.2,
     "397": 0.2
   },
-  "id": 396,
-  "location": "Wehnimer's Landing",
+  "image": "wl-moot_hall-1486755929.png",
+  "image_coords": [
+    592,
+    494,
+    733,
+    555
+  ],
   "tags": [
     "meta:teleport:fwi"
-  ],
-  "links": [
-
   ]
 }

@@ -1,31 +1,28 @@
 {
-  "wayto": {
-    "3114": "southeast"
-  },
+  "id": 3115,
+  "title": [
+    "[Bramble Ravine]"
+  ],
+  "description": [
+    "The footing is treacherous beyond this point as icy rocks and sharp spikes combine in an effort to throw you to the ground.  Branches snap and crackle in the undergrowth as though some small creature is attempting to bypass this route."
+  ],
   "paths": [
     "Obvious paths: southeast"
   ],
+  "location": "the Abandoned Farm",
+  "wayto": {
+    "3114": "southeast"
+  },
+  "timeto": {
+    "3114": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     856,
     353,
     866,
     363
   ],
-  "terrain": "rough",
-  "description": [
-    "The footing is treacherous beyond this point as icy rocks and sharp spikes combine in an effort to throw you to the ground.  Branches snap and crackle in the undergrowth as though some small creature is attempting to bypass this route."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Bramble Ravine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3114": 0.2
-  },
-  "id": 3115,
-  "location": "the Abandoned Farm",
   "tags": [
     "fiddlehead fern",
     "bright red teaberry",
@@ -38,14 +35,6 @@
     "handful of bearberries",
     "stalk of chicory",
     "wintergreen leaf",
-    "wraith",
-    "blueberries",
-    "bearberries",
-    "broken twig",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wraith"
   ]
 }

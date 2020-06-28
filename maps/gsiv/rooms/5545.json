@@ -1,41 +1,29 @@
 {
-  "wayto": {
-    "5544": "go hole"
-  },
+  "id": 5545,
+  "title": [
+    "[Egg Room]"
+  ],
+  "description": [
+    "A large depression has been dug in the southeast corner of the room.  Under a thin layer of moist dirt, several mottled eggs can be seen in the pit.  The room smells of musk and refuse, and the claw tracks in the dirt confirm that this is the basilisks' lair and egging ground.  The only way out seems to be through the hole in the north wall."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "the Outlands",
+  "wayto": {
+    "5544": "go hole"
+  },
+  "timeto": {
+    "5544": 0.2
+  },
+  "image": "vo-outlands-1264234799.png",
   "image_coords": [
     807,
     695,
     817,
     705
   ],
-  "terrain": "indoors",
-  "description": [
-    "A large depression has been dug in the southeast corner of the room.  Under a thin layer of moist dirt, several mottled eggs can be seen in the pit.  The room smells of musk and refuse, and the claw tracks in the dirt confirm that this is the basilisks' lair and egging ground.  The only way out seems to be through the hole in the north wall."
-  ],
-  "image": "vo-outlands-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Egg Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5544": 0.2
-  },
-  "id": 5545,
-  "location": "the Outlands",
   "tags": [
-    "some pothinir grass",
-    "pothinir grass",
-    "withered black mushroom",
-    "murdroot",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some pothinir grass"
   ]
 }

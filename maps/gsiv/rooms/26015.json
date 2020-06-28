@@ -1,35 +1,28 @@
 {
+  "id": 26015,
+  "title": [
+    "[Burghal Enclave, Gem Passage]"
+  ],
+  "description": [
+    "The mouth of the tunnel opens into a wide crossing corridor running off to the east.  The rough ceiling of bedrock above descends into white tufa walls.  Sturdy brick arches bolster the tunnel's ceiling and are fashioned from unmortared stone bricks."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Ta'Vaalor",
   "wayto": {
     "26016": "go tunnel",
     "26014": "east"
   },
-  "paths": [
-    "Obvious exits: east"
-  ],
+  "timeto": {
+    "26016": 0.2,
+    "26014": 0.2
+  },
+  "image": "EN-tavaalor-1534463105.png",
   "image_coords": [
     239,
     2059,
     275,
     2097
-  ],
-  "terrain": null,
-  "description": [
-    "The mouth of the tunnel opens into a wide crossing corridor running off to the east.  The rough ceiling of bedrock above descends into white tufa walls.  Sturdy brick arches bolster the tunnel's ceiling and are fashioned from unmortared stone bricks."
-  ],
-  "image": "EN-tavaalor-1534463105.png",
-  "climate": null,
-  "title": [
-    "[Burghal Enclave, Gem Passage]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26016": 0.2,
-    "26014": 0.2
-  },
-  "id": 26015,
-  "location": "Ta'Vaalor",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

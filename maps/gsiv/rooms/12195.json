@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "12194": "south",
-    "12196": "north",
-    "12152": {
-      "stringproc": "e7b269de45035581300c76daf9e751cf"
-    },
-    "12089": {
-      "stringproc": "df16ace028c72dba18b51257349345d8"
-    },
-    "2635": {
-      "stringproc": "a5fc698b4e8aaa983aa8f5ad92908980"
-    }
-  },
+  "id": 12195,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "Four banks of mist flow together, a distant scene forming within them.  A bustling town comes together in the square.  Halflings dressed in old style clothing stand about, some yelling angrily, others slain as they lay on their cloaks on the ground.  One ancient dark elf leans against the base of the large frozen statue of a pack animal, smirking arrogantly."
+  ],
   "paths": [
     "Obvious exits: north, south",
     "Obvious paths: north, south"
   ],
-  "image_coords": [
-    78,
-    1104,
-    88,
-    1114
-  ],
-  "terrain": null,
-  "description": [
-    "Four banks of mist flow together, a distant scene forming within them.  A bustling town comes together in the square.  Halflings dressed in old style clothing stand about, some yelling angrily, others slain as they lay on their cloaks on the ground.  One ancient dark elf leans against the base of the large frozen statue of a pack animal, smirking arrogantly."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12194": "south",
+    "12196": "north",
+    "12152": {
+      "file": "string_procs/wayto/12195_12152.rb"
+    },
+    "12089": {
+      "file": "string_procs/wayto/12195_12089.rb"
+    },
+    "2635": {
+      "file": "string_procs/wayto/12195_2635.rb"
+    }
+  },
   "timeto": {
     "12194": 0.2,
     "12196": 0.2,
@@ -39,8 +31,13 @@
     "12089": 21.6,
     "2635": 21.6
   },
-  "id": 12195,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    78,
+    1104,
+    88,
+    1114
+  ],
   "tags": [
     "twisted black mawflower",
     "mass of congealed slime",
@@ -49,8 +46,5 @@
     "discolored fleshbinder bud",
     "withered deathblossom",
     "rotting bile green fleshbulb"
-  ],
-  "links": [
-
   ]
 }

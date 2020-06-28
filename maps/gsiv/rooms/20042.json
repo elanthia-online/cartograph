@@ -1,38 +1,31 @@
 {
+  "id": 20042,
+  "title": [
+    "[Cleric Guild, Master's Hall]"
+  ],
+  "description": [
+    "Cleverly designed to take advantage of the native heat inevitably given off by the walls, a narrow planter defines a rectangle in the middle of the room.  Within the rectangle's confines the temperature drops noticeably, allowing the hierophants to await their students in comfort."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "Kharam-Dzu",
   "wayto": {
     "20031": "east",
     "20044": "north"
   },
-  "paths": [
-    "Obvious exits: north, east"
-  ],
+  "timeto": {
+    "20031": 0.2,
+    "20044": 0.2
+  },
+  "image": "ti-Cleric_Guild-1267238976.jpg",
   "image_coords": [
     3,
     196,
     38,
     229
   ],
-  "terrain": null,
-  "description": [
-    "Cleverly designed to take advantage of the native heat inevitably given off by the walls, a narrow planter defines a rectangle in the middle of the room.  Within the rectangle's confines the temperature drops noticeably, allowing the hierophants to await their students in comfort."
-  ],
-  "image": "ti-Cleric_Guild-1267238976.jpg",
-  "climate": null,
-  "title": [
-    "[Cleric Guild, Master's Hall]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "20031": 0.2,
-    "20044": 0.2
-  },
-  "id": 20042,
-  "location": "Kharam-Dzu",
   "tags": [
     "cleric alchemy masters"
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

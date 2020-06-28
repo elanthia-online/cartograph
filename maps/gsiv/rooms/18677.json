@@ -1,36 +1,24 @@
 {
-  "wayto": {
-    "11006": "go path",
-    "11749": {
-      "stringproc": "62de735f7689b689fb8a81790fa2abc2"
-    },
-    "18678": "go shack"
-  },
-  "paths": [
-    "Obvious paths: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Tall cattails and water grasses take up much of the space beneath the drawbridge above, and beyond them the Tempest River flows swiftly.  Wavering shadows in the shallower waters indicate potential meals to the enterprising fishermen, while the soothing sound of moving water -- a chorus of gurgles and chuckles -- fills the air.  A cast iron fish sits forelonely before a rickety shack nestled against the underside of the bridge and the bank."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 18677,
   "title": [
     "[River's Rest, Underbridge]"
   ],
-  "check_location": null,
+  "description": [
+    "Tall cattails and water grasses take up much of the space beneath the drawbridge above, and beyond them the Tempest River flows swiftly.  Wavering shadows in the shallower waters indicate potential meals to the enterprising fishermen, while the soothing sound of moving water -- a chorus of gurgles and chuckles -- fills the air.  A cast iron fish sits forelonely before a rickety shack nestled against the underside of the bridge and the bank."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "wayto": {
+    "11006": "go path",
+    "11749": {
+      "file": "string_procs/wayto/18677_11749.rb"
+    },
+    "18678": "go shack"
+  },
   "timeto": {
     "11006": 0.2,
     "11749": 300.0,
     "18678": 0.2
-  },
-  "id": 18677,
-  "location": null,
-  "tags": [
-
-  ],
-  "links": [
-
-  ]
+  }
 }

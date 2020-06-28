@@ -1,43 +1,28 @@
 {
+  "id": 20970,
+  "title": [
+    "[Forbidden Hills, Grasslands]"
+  ],
+  "description": [
+    "Uneven patches of wildflowers and grass make the terrain here slightly difficult to travel.  There is no visible path through the foothills, though there is the occasional faint footprint in the dirt, possibly left by a previous traveler.  In the distance, a rather large mountain is visible, though the top is hidden by a shroud of misty clouds."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "the Forbidden Hills",
   "wayto": {
     "20969": "southeast",
     "20971": "northwest"
   },
-  "paths": [
-    "Obvious paths: southeast, northwest"
-  ],
+  "timeto": {
+    "20969": 0.2,
+    "20971": 0.2
+  },
+  "image": "ifw-wilds-1368242816.png",
   "image_coords": [
     1040,
     2479,
     1059,
     2499
-  ],
-  "terrain": "grassland",
-  "description": [
-    "Uneven patches of wildflowers and grass make the terrain here slightly difficult to travel.  There is no visible path through the foothills, though there is the occasional faint footprint in the dirt, possibly left by a previous traveler.  In the distance, a rather large mountain is visible, though the top is hidden by a shroud of misty clouds."
-  ],
-  "image": "ifw-wilds-1368242816.png",
-  "climate": "humid",
-  "title": [
-    "[Forbidden Hills, Grasslands]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "20969": 0.2,
-    "20971": 0.2
-  },
-  "id": 20970,
-  "location": "the Forbidden Hills",
-  "tags": [
-    "acantha leaf",
-    "luckbloom blossom",
-    "murdroot",
-    "wavepetal blossom",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

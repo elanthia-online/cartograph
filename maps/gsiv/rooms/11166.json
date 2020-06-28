@@ -1,35 +1,32 @@
 {
+  "id": 11166,
+  "title": [
+    "[Citadel, Outside]"
+  ],
+  "description": [
+    "This section of the wall has remained mostly intact although charred, as if a large bonfire had been set beside it.  Stray gusts of wind bluster around the edges, carrying damp wisps of mist.  The massive stone structure just south of the pathway was apparently the garrison for the citadel's troops."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11165": "e",
     "11167": "go garrison",
     "11202": "west"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "11165": 0.2,
+    "11167": 0.2,
+    "11202": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     886,
     552,
     896,
     562
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "This section of the wall has remained mostly intact although charred, as if a large bonfire had been set beside it.  Stray gusts of wind bluster around the edges, carrying damp wisps of mist.  The massive stone structure just south of the pathway was apparently the garrison for the citadel's troops."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "moist",
-  "title": [
-    "[Citadel, Outside]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11165": 0.2,
-    "11167": 0.2,
-    "11202": 0.2
-  },
-  "id": 11166,
-  "location": "the Citadel",
   "tags": [
     "some aloeas stem",
     "bright red cranberry",
@@ -41,17 +38,6 @@
     "some wingstem root",
     "some calamia fruit",
     "wild chokecherry",
-    "some motherwort",
-    "acantha leaf",
-    "calamia fruit",
-    "aloeas stem",
-    "motherwort",
-    "murkweed",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some motherwort"
   ]
 }

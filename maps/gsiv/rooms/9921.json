@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "9920": "south"
-  },
+  "id": 9921,
+  "title": [
+    "[The Feystone Inn, Front Desk]"
+  ],
+  "description": [
+    "A bored-looking clerk sits behind a scarred wooden desk, occasionally handing out keys to patrons, who accept their keys from him with expressions varying from blank stares to annoyed grimaces.  Although this establishment is fairly shady, many of the customers look even shadier."
+  ],
   "paths": [
     "Obvious exits: south"
   ],
+  "location": "Ta'Illistim",
+  "wayto": {
+    "9920": "south"
+  },
+  "timeto": {
+    "9920": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     433,
     613,
     443,
     623
   ],
-  "terrain": "indoors",
-  "description": [
-    "A bored-looking clerk sits behind a scarred wooden desk, occasionally handing out keys to patrons, who accept their keys from him with expressions varying from blank stares to annoyed grimaces.  Although this establishment is fairly shady, many of the customers look even shadier."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[The Feystone Inn, Front Desk]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9920": 0.2
-  },
-  "id": 9921,
-  "location": "Ta'Illistim",
   "tags": [
-    "inn",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "inn"
   ]
 }

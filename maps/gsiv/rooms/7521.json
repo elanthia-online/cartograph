@@ -1,38 +1,28 @@
 {
+  "id": 7521,
+  "title": [
+    "[Temple Crypt, Black Stair]"
+  ],
+  "description": [
+    "The stone on this stairway is curiously worn, in a manner that almost makes each step slope backwards.  Very little in the way of illumination guides you.  Drafts of air, alternatingly fresh and fetid, offer the only proof there really is an end to this winding and twisting series of steps."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "7510": "down",
     "7522": "up"
   },
-  "paths": [
-    "Obvious exits: up, down"
-  ],
+  "timeto": {
+    "7510": 0.2,
+    "7522": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     567,
     1181,
     577,
     1191
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The stone on this stairway is curiously worn, in a manner that almost makes each step slope backwards.  Very little in the way of illumination guides you.  Drafts of air, alternatingly fresh and fetid, offer the only proof there really is an end to this winding and twisting series of steps."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Temple Crypt, Black Stair]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7510": 0.2,
-    "7522": 0.2
-  },
-  "id": 7521,
-  "location": "the catacombs",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,35 +1,32 @@
 {
+  "id": 430,
+  "title": [
+    "[Lower Dragonsclaw, Forest]"
+  ],
+  "description": [
+    "Pine cones are scattered about the ground here, knocked down by the movement of small animals through the trees and the wind that buffets this outlying section of the forest."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest, west"
+  ],
+  "location": "the Lower Dragonsclaw",
   "wayto": {
     "429": "north",
     "432": "west",
     "433": "southwest"
   },
-  "paths": [
-    "Obvious paths: north, southwest, west"
-  ],
+  "timeto": {
+    "429": 0.2,
+    "432": 0.2,
+    "433": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     551,
     574,
     561,
     584
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "Pine cones are scattered about the ground here, knocked down by the movement of small animals through the trees and the wind that buffets this outlying section of the forest."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Lower Dragonsclaw, Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "429": 0.2,
-    "432": 0.2,
-    "433": 0.2
-  },
-  "id": 430,
-  "location": "the Lower Dragonsclaw",
   "tags": [
     "blue trafel mushroom",
     "some bolmara lichen",
@@ -73,10 +70,6 @@
     "blue whortleberry",
     "ironfern root",
     "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

@@ -1,47 +1,40 @@
 {
-  "wayto": {
-    "25617": {
-      "stringproc": "19db68d9209843fc6f6a11c7cf09bf68"
-    },
-    "25619": {
-      "stringproc": "3a0a95f133cb9f95035ab69eb891313b"
-    },
-    "18842": {
-      "stringproc": "06b4748b58f08f55e2569447e50a5b85"
-    },
-    "18843": {
-      "stringproc": "06b4748b58f08f55e2569447e50a5b85"
-    }
-  },
-  "paths": [
-    "Obvious paths: south, southwest, west, northwest, down"
-  ],
-  "image_coords": [
-    1204,
-    730,
-    1222,
-    750
-  ],
-  "terrain": null,
-  "description": [
-    "To the northwest, a sprinkling of homes can be spotted among the assorted hardwoods, but here, the river glides past patches of pristine wilderness.  The howl of a wolf resounds somewhere in the distance, yet two egrets wading on stilt-like legs at the shore seem unperturbed.  To the south, a large shape looms in the midst of the river."
-  ],
-  "image": "en-ravelin.png",
-  "climate": null,
+  "id": 25618,
   "title": [
     "[Mistydeep, South of Ravelin]"
   ],
-  "check_location": null,
+  "description": [
+    "To the northwest, a sprinkling of homes can be spotted among the assorted hardwoods, but here, the river glides past patches of pristine wilderness.  The howl of a wolf resounds somewhere in the distance, yet two egrets wading on stilt-like legs at the shore seem unperturbed.  To the south, a large shape looms in the midst of the river."
+  ],
+  "paths": [
+    "Obvious paths: south, southwest, west, northwest, down"
+  ],
+  "location": "the northern reaches of the Mistydeep River",
+  "wayto": {
+    "25617": {
+      "file": "string_procs/wayto/25618_25617.rb"
+    },
+    "25619": {
+      "file": "string_procs/wayto/25618_25619.rb"
+    },
+    "18842": {
+      "file": "string_procs/wayto/25618_18842.rb"
+    },
+    "18843": {
+      "file": "string_procs/wayto/25618_18843.rb"
+    }
+  },
   "timeto": {
     "25617": 0.2,
     "25619": 0.2,
     "18842": 0.2,
     "18843": 0.2
   },
-  "id": 25618,
-  "location": "the northern reaches of the Mistydeep River",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  "image": "en-ravelin.png",
+  "image_coords": [
+    1204,
+    730,
+    1222,
+    750
+  ]
 }

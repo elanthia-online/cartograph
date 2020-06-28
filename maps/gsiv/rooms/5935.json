@@ -1,34 +1,31 @@
 {
+  "id": 5935,
+  "title": [
+    "[Catacombs, Lair]"
+  ],
+  "description": [
+    "In the middle of this room lies a stack of discarded paper-thin skins.",
+    "In the middle of this room lies a stack of discarded paper-thin skins.  Closer inspection reveals them to be the cracked and dried outer coverings from various breeds of serpents.  As they crunch under foot, sloughed off scales litter the ground along the far wall."
+  ],
+  "paths": [
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "5934": "southeast",
     "5936": "northwest"
   },
-  "paths": [
-    "Obvious exits: southeast, northwest"
-  ],
+  "timeto": {
+    "5934": 0.2,
+    "5936": 0.2
+  },
+  "image": "en-tavaalor-1565907614.png",
   "image_coords": [
     290,
     763,
     299,
     774
   ],
-  "terrain": null,
-  "description": [
-    "In the middle of this room lies a stack of discarded paper-thin skins.",
-    "In the middle of this room lies a stack of discarded paper-thin skins.  Closer inspection reveals them to be the cracked and dried outer coverings from various breeds of serpents.  As they crunch under foot, sloughed off scales litter the ground along the far wall."
-  ],
-  "image": "en-tavaalor-1565907614.png",
-  "climate": null,
-  "title": [
-    "[Catacombs, Lair]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5934": 0.2,
-    "5936": 0.2
-  },
-  "id": 5935,
-  "location": "the catacombs",
   "tags": [
     "soft white mushroom",
     "withered black mushroom",
@@ -39,8 +36,5 @@
     "ironfern root",
     "bolmara lichen",
     "wingstem root"
-  ],
-  "links": [
-
   ]
 }

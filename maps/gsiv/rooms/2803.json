@@ -1,33 +1,30 @@
 {
+  "id": 2803,
+  "title": [
+    "[A Silent Path]"
+  ],
+  "description": [
+    "The trail winds through its silent escort of pines, angling upwards in a gentle climb to the southeast.  Snow has drifted into irregular eddies between the dark trunks, the shadows created there cloaked in beautiful tones of purple, blue and grey.  A fine wind gusts down the path, sculpting the snow in languid motions."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast"
+  ],
+  "location": "the Pinefar Trading Post",
   "wayto": {
     "2802": "north",
     "2804": "southeast"
   },
-  "paths": [
-    "Obvious paths: north, southeast"
-  ],
+  "timeto": {
+    "2802": 0.2,
+    "2804": 0.2
+  },
+  "image": "imt-pinefar-1264234799.png",
   "image_coords": [
     127,
     977,
     137,
     987
   ],
-  "terrain": "missing",
-  "description": [
-    "The trail winds through its silent escort of pines, angling upwards in a gentle climb to the southeast.  Snow has drifted into irregular eddies between the dark trunks, the shadows created there cloaked in beautiful tones of purple, blue and grey.  A fine wind gusts down the path, sculpting the snow in languid motions."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[A Silent Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2802": 0.2,
-    "2804": 0.2
-  },
-  "id": 2803,
-  "location": "the Pinefar Trading Post",
   "tags": [
     "some wyrmwood bark",
     "acantha leaf",
@@ -76,11 +73,6 @@
     "twisted twig",
     "slender twig",
     "bolmara lichen",
-    "brostheras grass",
-    "wyrmwood bark",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

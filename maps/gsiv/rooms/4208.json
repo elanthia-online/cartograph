@@ -1,65 +1,33 @@
 {
+  "id": 4208,
+  "title": [
+    "[Upper Trollfang]"
+  ],
+  "description": [
+    "You reach a rock filled crevice that used to be a narrow passage.  It looks as if a rockslide from above has decided to impede your progress.  It could take days to remove all the rocks and clear the passageway."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "the old Mine Road",
   "wayto": {
     "4207": "south",
     "4209": "climb rockslide"
   },
-  "paths": [
-    "Obvious paths: south"
-  ],
+  "timeto": {
+    "4207": 0.2,
+    "4209": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     394,
     656,
     404,
     666
   ],
-  "terrain": "rough",
-  "description": [
-    "You reach a rock filled crevice that used to be a narrow passage.  It looks as if a rockslide from above has decided to impede your progress.  It could take days to remove all the rocks and clear the passageway."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Upper Trollfang]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4207": 0.2,
-    "4209": 0.2
-  },
-  "id": 4208,
-  "location": "the old Mine Road",
   "tags": [
     "sprig of larkspur",
     "red clover blossom",
-    "yellow clover blossom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "wild strawberry",
-    "blueberries",
-    "stalk of chicory",
-    "handful of currants",
-    "elderberries",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "wild grapes",
-    "broken twig",
-    "sprig of alyssum",
-    "heath aster",
-    "golden buttercup",
-    "pink clover blossom",
-    "white clover blossom",
-    "purple clover blossom",
-    "stalk of goldenrod",
-    "yellow primrose",
-    "small wild rose",
-    "wild chokecherry",
-    "motherwort",
-    "white baneberry",
-    "pepperthorn root",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "yellow clover blossom"
   ]
 }

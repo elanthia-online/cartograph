@@ -1,38 +1,28 @@
 {
+  "id": 7081,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "Large rocks and piles of dirt make the footing here difficult.  The walls are webbed with cracks, and chunks appear to be missing from the ceiling.  Dust fills the air as you move through."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7079": "south",
     "7082": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "7079": 0.2,
+    "7082": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     841,
     980,
     851,
     990
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Large rocks and piles of dirt make the footing here difficult.  The walls are webbed with cracks, and chunks appear to be missing from the ceiling.  Dust fills the air as you move through."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7079": 0.2,
-    "7082": 0.2
-  },
-  "id": 7081,
-  "location": "Darkstone Castle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

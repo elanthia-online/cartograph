@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "12208": {
-      "stringproc": "a0576f0215d746452e7afb93c1ee082c"
-    },
-    "2644": "south",
-    "2633": "east",
-    "2635": {
-      "stringproc": "01b8924575c8d70e4ed7eea7ed00be84"
-    },
-    "12101": {
-      "stringproc": "cf4b8e5b125b22b01c9349827d02c9fd"
-    }
-  },
+  "id": 2632,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "A wide stretch of forest opens before you, the huge border of trees giving the impression of stoic guards protecting their land and secrets.  Packs of ghostly dogs run toward you at the will of a huge, antlered man commanding them at the forest border.  His bony finger points to you, and the dark gleam in his eye tells you he will not allow passage further into the woods."
+  ],
   "paths": [
     "Obvious exits: east, south, west",
     "Obvious paths: east, south, west"
   ],
-  "image_coords": [
-    280,
-    831,
-    290,
-    841
-  ],
-  "terrain": null,
-  "description": [
-    "A wide stretch of forest opens before you, the huge border of trees giving the impression of stoic guards protecting their land and secrets.  Packs of ghostly dogs run toward you at the will of a huge, antlered man commanding them at the forest border.  His bony finger points to you, and the dark gleam in his eye tells you he will not allow passage further into the woods."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12208": {
+      "file": "string_procs/wayto/2632_12208.rb"
+    },
+    "2644": "south",
+    "2633": "east",
+    "2635": {
+      "file": "string_procs/wayto/2632_2635.rb"
+    },
+    "12101": {
+      "file": "string_procs/wayto/2632_12101.rb"
+    }
+  },
   "timeto": {
     "12208": 22.0,
     "2644": 0.2,
@@ -39,8 +31,13 @@
     "2635": 22.0,
     "12101": 26.0
   },
-  "id": 2632,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    280,
+    831,
+    290,
+    841
+  ],
   "tags": [
     "slime-covered grave blossom",
     "discolored fleshbinder bud",
@@ -49,8 +46,5 @@
     "mass of congealed slime",
     "withered deathblossom",
     "twisted black mawflower"
-  ],
-  "links": [
-
   ]
 }

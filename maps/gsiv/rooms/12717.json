@@ -1,40 +1,30 @@
 {
+  "id": 12717,
+  "title": [
+    "[Ruined Temple, Second Floor]"
+  ],
+  "description": [
+    "A pair of rusted iron sconces flank the doorway that rests at the top of half-submerged ascending stairs.  The room is otherwise unadorned, and there is no evidence to suggest it ever was."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east"
+  ],
+  "location": "the Ruined Temple",
   "wayto": {
     "12707": "go stairs",
     "12718": "northeast",
     "12719": "east"
   },
-  "paths": [
-    "Obvious exits: northeast, east"
-  ],
-  "image_coords": [
-    186,
-    573,
-    222,
-    609
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A pair of rusted iron sconces flank the doorway that rests at the top of half-submerged ascending stairs.  The room is otherwise unadorned, and there is no evidence to suggest it ever was."
-  ],
-  "image": "ti-nelemar-1262373036.png",
-  "climate": "indoors",
-  "title": [
-    "[Ruined Temple, Second Floor]"
-  ],
-  "check_location": null,
   "timeto": {
     "12707": 0.2,
     "12718": 0.2,
     "12719": 0.2
   },
-  "id": 12717,
-  "location": "the Ruined Temple",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "ti-nelemar-1262373036.png",
+  "image_coords": [
+    186,
+    573,
+    222,
+    609
   ]
 }

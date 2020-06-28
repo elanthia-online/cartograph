@@ -1,35 +1,32 @@
 {
+  "id": 6740,
+  "title": [
+    "[Graendlor Pasture]"
+  ],
+  "description": [
+    "Thousands of hooves have worn a track around a large yellow pine that has fallen into the pasture, as the herds have been forced to acknowledge the massive intruder.  As testament to a blaze long past, a large fire scar has blackened nearly half of the butt of the fallen tree."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest, northwest"
+  ],
+  "location": "Graendlor Pasture",
   "wayto": {
     "6739": "southeast",
     "6741": "northwest",
     "6753": "southwest"
   },
-  "paths": [
-    "Obvious paths: southeast, southwest, northwest"
-  ],
+  "timeto": {
+    "6739": 0.2,
+    "6741": 0.2,
+    "6753": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     577,
     758,
     587,
     768
   ],
-  "terrain": "rough",
-  "description": [
-    "Thousands of hooves have worn a track around a large yellow pine that has fallen into the pasture, as the herds have been forced to acknowledge the massive intruder.  As testament to a blaze long past, a large fire scar has blackened nearly half of the butt of the fallen tree."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Graendlor Pasture]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6739": 0.2,
-    "6741": 0.2,
-    "6753": 0.2
-  },
-  "id": 6740,
-  "location": "Graendlor Pasture",
   "tags": [
     "pepperthorn root",
     "sprig of larkspur",
@@ -55,17 +52,6 @@
     "small wild rose",
     "golden buttercup",
     "handful of blueberries",
-    "heath aster",
-    "blueberries",
-    "elderberries",
-    "wild grapes",
-    "broken twig",
-    "pink clover blossom",
-    "motherwort",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "heath aster"
   ]
 }

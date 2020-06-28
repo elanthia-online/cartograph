@@ -1,38 +1,28 @@
 {
+  "id": 9120,
+  "title": [
+    "[Great Cavern, Stalagmite Forest]"
+  ],
+  "description": [
+    "The west wall of the cavern rises suddenly out of the mist.  A thin layer of fog pours down like a waterfall, but there's no telling quite where the fog is coming from.  The stone is cool to the touch and covered with glowing moss.  To the south, the stone floor of the cavern is swallowed by a mushy bog."
+  ],
+  "paths": [
+    "Obvious exits: east, down"
+  ],
+  "location": "the subterranean tunnels",
   "wayto": {
     "9110": "east",
     "9117": "down"
   },
-  "paths": [
-    "Obvious exits: east, down"
-  ],
+  "timeto": {
+    "9110": 0.2,
+    "9117": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     171,
     701,
     181,
     711
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The west wall of the cavern rises suddenly out of the mist.  A thin layer of fog pours down like a waterfall, but there's no telling quite where the fog is coming from.  The stone is cool to the touch and covered with glowing moss.  To the south, the stone floor of the cavern is swallowed by a mushy bog."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Great Cavern, Stalagmite Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9110": 0.2,
-    "9117": 0.2
-  },
-  "id": 9120,
-  "location": "the subterranean tunnels",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

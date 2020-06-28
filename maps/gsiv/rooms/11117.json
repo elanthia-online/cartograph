@@ -1,38 +1,27 @@
 {
+  "id": 11117,
+  "title": [
+    "[Krol Ship, Anchor Chain]"
+  ],
+  "description": [
+    "You are holding on to the wet anchor chain with the greatest of care, fully aware of the water swirling under the ship, below you.  Although the bowsprit is not high above you, trying to climb up to it would be suicide.  A few feet above you, the chain disappears into the ship's hull through the hawse hole.  You may be able to squeeze through it."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
   "wayto": {
     "11118": "go hole",
     "11122": "climb chain"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "11118": 0.2,
+    "11122": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     1260,
     745,
     1270,
     755
-  ],
-  "terrain": "indoors",
-  "description": [
-    "You are holding on to the wet anchor chain with the greatest of care, fully aware of the water swirling under the ship, below you.  Although the bowsprit is not high above you, trying to climb up to it would be suicide.  A few feet above you, the chain disappears into the ship's hull through the hawse hole.  You may be able to squeeze through it."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "indoors",
-  "title": [
-    "[Krol Ship, Anchor Chain]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11118": 0.2,
-    "11122": 0.2
-  },
-  "id": 11117,
-  "location": "the Sea Caves",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

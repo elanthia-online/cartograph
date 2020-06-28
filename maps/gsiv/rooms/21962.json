@@ -1,42 +1,35 @@
 {
-  "wayto": {
-    "22007": {
-      "stringproc": "434646ea7e2742cc9724dd3370203d26"
-    },
-    "22010": {
-      "stringproc": "079b2143486ab506673b0bcfc113205a"
-    }
-  },
+  "id": 21962,
+  "title": [
+    "[Talador Mines, Old Tunnel]"
+  ],
+  "description": [
+    "The walls of the tunnel are swarming with slimy, glowing white maggots that crawl along like a cascade of bright opals.  Amidst the darkness of the passage, thick cobwebs hang from the uneven ceiling."
+  ],
   "paths": [
     "Obvious exits: east, west"
   ],
+  "location": "Talador",
+  "wayto": {
+    "22007": {
+      "file": "string_procs/wayto/21962_22007.rb"
+    },
+    "22010": {
+      "file": "string_procs/wayto/21962_22010.rb"
+    }
+  },
+  "timeto": {
+    "22007": 0.2,
+    "22010": 0.2
+  },
+  "image": "wl-talador-east-1392305660.png",
   "image_coords": [
     867,
     427,
     880,
     440
   ],
-  "terrain": null,
-  "description": [
-    "The walls of the tunnel are swarming with slimy, glowing white maggots that crawl along like a cascade of bright opals.  Amidst the darkness of the passage, thick cobwebs hang from the uneven ceiling."
-  ],
-  "image": "wl-talador-east-1392305660.png",
-  "climate": null,
-  "title": [
-    "[Talador Mines, Old Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "22007": 0.2,
-    "22010": 0.2
-  },
-  "id": 21962,
-  "location": "Talador",
   "tags": [
     "peer east =~ /^Obvious exits: south, west/"
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

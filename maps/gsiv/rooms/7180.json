@@ -1,4 +1,15 @@
 {
+  "id": 7180,
+  "title": [
+    "[Graveyard, Burial Grounds]"
+  ],
+  "description": [
+    "The undergrowth from the woods to the east has taken over this part of the grounds.  Weeds grow up around grave markers that are nothing more than lashed-together sticks and branches, or piles of rocks.  The graves have been violated, left as humps of overturned earth from freshly dug to completely overgrown."
+  ],
+  "paths": [
+    "Obvious paths: north, south, southwest, west, northwest"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7174": "west",
     "7175": "northwest",
@@ -6,25 +17,6 @@
     "7181": "south",
     "7182": "southwest"
   },
-  "paths": [
-    "Obvious paths: north, south, southwest, west, northwest"
-  ],
-  "image_coords": [
-    465,
-    834,
-    475,
-    844
-  ],
-  "terrain": "barren scrub",
-  "description": [
-    "The undergrowth from the woods to the east has taken over this part of the grounds.  Weeds grow up around grave markers that are nothing more than lashed-together sticks and branches, or piles of rocks.  The graves have been violated, left as humps of overturned earth from freshly dug to completely overgrown."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Graveyard, Burial Grounds]"
-  ],
-  "check_location": null,
   "timeto": {
     "7174": 0.2,
     "7175": 0.2,
@@ -32,8 +24,13 @@
     "7181": 0.2,
     "7182": 0.2
   },
-  "id": 7180,
-  "location": "the Graveyard",
+  "image": "wl-graveyard-1264234799.png",
+  "image_coords": [
+    465,
+    834,
+    475,
+    844
+  ],
   "tags": [
     "sprig of larkspur",
     "wild strawberry",
@@ -50,10 +47,6 @@
     "broken twig",
     "wild chokecherry",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

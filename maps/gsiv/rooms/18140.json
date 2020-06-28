@@ -1,32 +1,24 @@
 {
+  "id": 18140,
+  "title": [
+    "[Ta'Illistim Keep, Vaults]"
+  ],
+  "description": [
+    "Long, narrow passageways lead away from the stone-walled cavity, each one passing beneath the graceful bend of a glaes-tiled arch.  Winding its way upwards in a tight spiral is a silver staircase, its steep path enclosed within a cage of equally argent metalwork."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south"
+  ],
+  "location": "Ta'Illistim",
   "wayto": {
     "18144": "climb silver staircase",
     "4029": "north",
     "4027": {
-      "stringproc": "dc9257c4a22a091bf84b25826fa84c14"
+      "file": "string_procs/wayto/18140_4027.rb"
     },
     "26798": "east",
     "26800": "north"
   },
-  "paths": [
-    "Obvious exits: north, east, south"
-  ],
-  "image_coords": [
-    412,
-    1067,
-    435,
-    1089
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Long, narrow passageways lead away from the stone-walled cavity, each one passing beneath the graceful bend of a glaes-tiled arch.  Winding its way upwards in a tight spiral is a silver staircase, its steep path enclosed within a cage of equally argent metalwork."
-  ],
-  "image": "en-ta_illistim-new.jpg",
-  "climate": "indoors",
-  "title": [
-    "[Ta'Illistim Keep, Vaults]"
-  ],
-  "check_location": null,
   "timeto": {
     "18144": 0.2,
     "4029": 0.2,
@@ -34,13 +26,11 @@
     "26798": 0.2,
     "26800": 0.2
   },
-  "id": 18140,
-  "location": "Ta'Illistim",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-ta_illistim-new.jpg",
+  "image_coords": [
+    412,
+    1067,
+    435,
+    1089
   ]
 }

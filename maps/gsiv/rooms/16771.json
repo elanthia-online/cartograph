@@ -1,38 +1,28 @@
 {
+  "id": 16771,
+  "title": [
+    "[Temple Wyneb, Effluentorium]"
+  ],
+  "description": [
+    "The stream continues to huddle against the eastern wall as it glides along.  You can feel the weight of the air, thick with moisture and stale with time."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Temple Wyneb",
   "wayto": {
     "16770": "north",
     "16772": "south"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "16770": 0.2,
+    "16772": 0.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     690,
     600,
     700,
     610
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The stream continues to huddle against the eastern wall as it glides along.  You can feel the weight of the air, thick with moisture and stale with time."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Temple Wyneb, Effluentorium]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "16770": 0.2,
-    "16772": 0.2
-  },
-  "id": 16771,
-  "location": "Temple Wyneb",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

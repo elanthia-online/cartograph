@@ -1,33 +1,30 @@
 {
+  "id": 7211,
+  "title": [
+    "[Graveyard, Barrow Tunnel]"
+  ],
+  "description": [
+    "A stone ledge, carved into the chamber walls, circles the passage and leads upward into darkness.  A foul miasma settles from above, filling the chamber with a heavy odor of tainted soil and ancient decay.  The passage narrows to the east, its walls still showing the marks of the tools used to painstakingly carve it from the rock countless centuries ago."
+  ],
+  "paths": [
+    "Obvious exits: east, up"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7210": "up",
     "7212": "east"
   },
-  "paths": [
-    "Obvious exits: east, up"
-  ],
+  "timeto": {
+    "7210": 0.2,
+    "7212": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     427,
     213,
     437,
     223
   ],
-  "terrain": "indoors",
-  "description": [
-    "A stone ledge, carved into the chamber walls, circles the passage and leads upward into darkness.  A foul miasma settles from above, filling the chamber with a heavy odor of tainted soil and ancient decay.  The passage narrows to the east, its walls still showing the marks of the tools used to painstakingly carve it from the rock countless centuries ago."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Graveyard, Barrow Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7210": 0.2,
-    "7212": 0.2
-  },
-  "id": 7211,
-  "location": "the Graveyard",
   "tags": [
     "some wolifrew lichen",
     "some cave moss",
@@ -36,10 +33,6 @@
     "cave moss",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

@@ -1,37 +1,31 @@
 {
+  "id": 8605,
+  "title": [
+    "[Krag Slopes, Darkened Chamber]"
+  ],
+  "description": [
+    "The floor of this small area is strewn with bits of bone, decaying flesh and tufts of fur, all of which indicate that some carnivorous creature could be close at hand.  The faint light that creeps in through the cleft offers very little illumination.  There is nothing here to offer comfort to the faint of heart."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the Krag slopes",
   "wayto": {
     "8604": "go cleft",
     "8606": "east"
   },
-  "paths": [
-    "Obvious exits: east"
-  ],
+  "timeto": {
+    "8604": 0.2,
+    "8606": 0.2
+  },
+  "image": "wl-wehntoph-1310775397.png",
   "image_coords": [
     1502,
     492,
     1538,
     528
   ],
-  "terrain": null,
-  "description": [
-    "The floor of this small area is strewn with bits of bone, decaying flesh and tufts of fur, all of which indicate that some carnivorous creature could be close at hand.  The faint light that creeps in through the cleft offers very little illumination.  There is nothing here to offer comfort to the faint of heart."
-  ],
-  "image": "wl-wehntoph-1310775397.png",
-  "climate": null,
-  "title": [
-    "[Krag Slopes, Darkened Chamber]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8604": 0.2,
-    "8606": 0.2
-  },
-  "id": 8605,
-  "location": "the Krag slopes",
   "tags": [
     "ironfern root"
-  ],
-  "links": [
-
   ]
 }

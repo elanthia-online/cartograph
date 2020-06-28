@@ -1,39 +1,31 @@
 {
+  "id": 2970,
+  "title": [
+    "[Abbey Chapel, Vaulted Aisle]"
+  ],
+  "description": [
+    "The posts, each hewn from a single tree, stand wide and straight.  Sounds, no matter how slight, travel lightly along the high ceiling and seem magnified by the distance they must travel."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Abbey",
   "wayto": {
     "2971": "east",
     "2969": "west"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "2971": 0.2,
+    "2969": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     886,
     605,
     896,
     615
   ],
-  "terrain": "indoors",
-  "description": [
-    "The posts, each hewn from a single tree, stand wide and straight.  Sounds, no matter how slight, travel lightly along the high ceiling and seem magnified by the distance they must travel."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abbey Chapel, Vaulted Aisle]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2971": 0.2,
-    "2969": 0.2
-  },
-  "id": 2970,
-  "location": "the Abbey",
   "tags": [
-    "nedum vereri",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "nedum vereri"
   ]
 }

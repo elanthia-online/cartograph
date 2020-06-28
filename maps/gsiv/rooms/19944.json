@@ -1,37 +1,32 @@
 {
+  "id": 19944,
+  "title": [
+    "[Stone Baths, Theatre]"
+  ],
+  "description": [
+    "A large wooden stage extends across one whole side of the room, where heavy, deep blue curtains have been pulled aside to reveal numerous wooden sets and props.  Arrayed before the stage are several rows of cushioned chairs, while small brass sconces along the walls provide a dim glow to the theatre."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "19936": "go doors",
     "19945": "go passageway"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "19936": 0.2,
+    "19945": 0.2
+  },
+  "image": "wl-stone_baths-1487292814.png",
   "image_coords": [
     1147,
     618,
     1289,
     679
   ],
-  "terrain": null,
-  "description": [
-    "A large wooden stage extends across one whole side of the room, where heavy, deep blue curtains have been pulled aside to reveal numerous wooden sets and props.  Arrayed before the stage are several rows of cushioned chairs, while small brass sconces along the walls provide a dim glow to the theatre."
-  ],
-  "image": "wl-stone_baths-1487292814.png",
-  "climate": null,
-  "title": [
-    "[Stone Baths, Theatre]"
-  ],
-  "check_location": false,
-  "timeto": {
-    "19936": 0.2,
-    "19945": 0.2
-  },
-  "id": 19944,
-  "location": "the town of Wehnimer's Landing",
   "tags": [
     "meta:teleport:fwi"
   ],
-  "links": [
-
-  ]
+  "check_location": false
 }

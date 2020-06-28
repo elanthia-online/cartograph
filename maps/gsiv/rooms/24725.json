@@ -1,75 +1,38 @@
 {
+  "id": 24725,
+  "title": [
+    "[Red Forest, Derelict Village]"
+  ],
+  "description": [
+    "Perhaps once a trading hub, the area here is littered with a wooden graveyard full of half-standing wooden stalls and the scattered wreckage of wagons and carts.  Along much of the wooden debris, old bloodstains still cling to the jagged pieces strewn about.  Nestled below the canopy of a small tree is a short wooden table, seemingly freshly painted and holding piles of rotting fruit and food."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast, west"
+  ],
+  "location": "the Red Forest",
   "wayto": {
     "24723": "west",
     "24727": "southeast",
     "24728": "north"
   },
-  "paths": [
-    "Obvious paths: north, southeast, west"
-  ],
+  "timeto": {
+    "24723": 0.2,
+    "24727": 0.2,
+    "24728": 0.2
+  },
+  "image": "red_forest-1260914757.png",
   "image_coords": [
     237,
     472,
     250,
     486
   ],
-  "terrain": null,
-  "description": [
-    "Perhaps once a trading hub, the area here is littered with a wooden graveyard full of half-standing wooden stalls and the scattered wreckage of wagons and carts.  Along much of the wooden debris, old bloodstains still cling to the jagged pieces strewn about.  Nestled below the canopy of a small tree is a short wooden table, seemingly freshly painted and holding piles of rotting fruit and food."
-  ],
-  "image": "red_forest-1260914757.png",
-  "climate": null,
-  "title": [
-    "[Red Forest, Derelict Village]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24723": 0.2,
-    "24727": 0.2,
-    "24728": 0.2
-  },
-  "id": 24725,
-  "location": "the Displaced Red Forest",
   "tags": [
     "some valerian root",
     "fiddlehead fern",
     "some acantha leaf",
     "tkaro root",
     "sassafras leaf",
-    "wintergreen leaf",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "sticks",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "soft white mushroom",
-    "withered black mushroom",
-    "blue trafel mushroom",
-    "bright red teaberry",
-    "blueberries",
-    "wild gooseberry",
-    "broken twig",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "small wild rose",
-    "sprig of wild lilac",
-    "wild chokecherry",
-    "bright red cranberry",
-    "tree bark",
-    "mistweed",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+    "wintergreen leaf"
+  ]
 }

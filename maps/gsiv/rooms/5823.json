@@ -1,50 +1,34 @@
 {
+  "id": 5823,
+  "title": [
+    "[Zul Logoth, Ruby Tunnel]"
+  ],
+  "description": [
+    "The tunnel has been sealed off directly to the south.  Thick chunks of granite are piled to the ceiling and filled with mortar to try to prevent anyone from proceeding further down the tunnel...or to prevent something from proceeding up the tunnel.  The workmanship is not up to the usual dwarven standards, though, and shrinkage, or seismic activity, or something else totally unknown has caused a narrow but deep crevasse to appear on one side along the wall."
+  ],
+  "paths": [
+    "Obvious exits: north, northwest"
+  ],
+  "location": "the tunnels and caverns of Zul Logoth",
   "wayto": {
     "1009": "north",
     "1010": "northwest",
     "5822": "go crevasse"
   },
-  "paths": [
-    "Obvious exits: north, northwest"
-  ],
+  "timeto": {
+    "1009": 0.2,
+    "1010": 0.2,
+    "5822": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     406,
     669,
     426,
     689
   ],
-  "terrain": "indoors",
-  "description": [
-    "The tunnel has been sealed off directly to the south.  Thick chunks of granite are piled to the ceiling and filled with mortar to try to prevent anyone from proceeding further down the tunnel...or to prevent something from proceeding up the tunnel.  The workmanship is not up to the usual dwarven standards, though, and shrinkage, or seismic activity, or something else totally unknown has caused a narrow but deep crevasse to appear on one side along the wall."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Zul Logoth, Ruby Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1009": 0.2,
-    "1010": 0.2,
-    "5822": 0.2
-  },
-  "id": 5823,
-  "location": "the tunnels and caverns of Zul Logoth",
   "tags": [
     "pepperthorn root",
-    "ironfern root",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "murdroot",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

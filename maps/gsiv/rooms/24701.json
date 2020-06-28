@@ -1,33 +1,30 @@
 {
+  "id": 24701,
+  "title": [
+    "[Red Forest, Ring of Mist]"
+  ],
+  "description": [
+    "Ribbons of ethereal mist dance about the grove like a web of ashen silk, stretching and spiraling along branches and tree trunks.  The loud snort of a pack of boars echoes within the deep miasma, suffocating the area."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "the Red Forest",
   "wayto": {
     "24688": "southwest",
     "24700": "east"
   },
-  "paths": [
-    "Obvious paths: east, southwest"
-  ],
+  "timeto": {
+    "24688": 0.2,
+    "24700": 0.2
+  },
+  "image": "red_forest-1260914757.png",
   "image_coords": [
     171,
     76,
     183,
     90
   ],
-  "terrain": null,
-  "description": [
-    "Ribbons of ethereal mist dance about the grove like a web of ashen silk, stretching and spiraling along branches and tree trunks.  The loud snort of a pack of boars echoes within the deep miasma, suffocating the area."
-  ],
-  "image": "red_forest-1260914757.png",
-  "climate": null,
-  "title": [
-    "[Red Forest, Ring of Mist]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24688": 0.2,
-    "24700": 0.2
-  },
-  "id": 24701,
-  "location": "the Displaced Red Forest",
   "tags": [
     "some wolifrew lichen",
     "some tree bark",
@@ -62,25 +59,6 @@
     "massive black boar",
     "winged viper",
     "some mistweed",
-    "yew twig",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "sticks",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "blueberries",
-    "broken twig",
-    "tree bark",
-    "mistweed",
-    "willow twig",
-    "oak twig",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+    "yew twig"
+  ]
 }

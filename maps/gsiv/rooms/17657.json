@@ -1,38 +1,27 @@
 {
+  "id": 17657,
+  "title": [
+    "[The Stone Eye, Basement]"
+  ],
+  "description": [
+    "Damp and dark, the room is constructed out of large blocks and thick oak timbers.  Lined up on one wall are a series of wooden crates stacked upon each other, while on the opposite wall are numerous iron-bound casks.  Water trickles from nearly invisible cracks in the walls, creating pools of water in several spots on the granite floor which reflect light from a handful torches set against the wall."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
   "wayto": {
     "17656": "go door",
     "11434": "go stairwell"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "17656": 0.2,
+    "11434": 0.2
+  },
+  "image": "rr-warrens-1266380776.png",
   "image_coords": [
     308,
     852,
     344,
     888
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Damp and dark, the room is constructed out of large blocks and thick oak timbers.  Lined up on one wall are a series of wooden crates stacked upon each other, while on the opposite wall are numerous iron-bound casks.  Water trickles from nearly invisible cracks in the walls, creating pools of water in several spots on the granite floor which reflect light from a handful torches set against the wall."
-  ],
-  "image": "rr-warrens-1266380776.png",
-  "climate": "indoors",
-  "title": [
-    "[The Stone Eye, Basement]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "17656": 0.2,
-    "11434": 0.2
-  },
-  "id": 17657,
-  "location": "the town of River's Rest",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

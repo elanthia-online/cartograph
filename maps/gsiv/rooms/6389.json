@@ -1,40 +1,32 @@
 {
+  "id": 6389,
+  "title": [
+    "[Smokey Cave, Tunnel]"
+  ],
+  "description": [
+    "You are in a broad twisting tunnel.  There is a strong odor of burnt wood pervading the entire area.  The floor, walls and ceiling of the entire length of this tunnel are covered in the same fine black grit as you have seen throughout all of these caves."
+  ],
+  "paths": [
+    "Obvious exits: east, southwest"
+  ],
+  "location": "the Lysierian Hills",
   "wayto": {
     "6390": "southwest",
     "6386": "east"
   },
-  "paths": [
-    "Obvious exits: east, southwest"
-  ],
+  "timeto": {
+    "6390": 0.2,
+    "6386": 0.2
+  },
+  "image": "wl-lysierian-1264234799.png",
   "image_coords": [
     500,
     376,
     510,
     386
   ],
-  "terrain": "indoors",
-  "description": [
-    "You are in a broad twisting tunnel.  There is a strong odor of burnt wood pervading the entire area.  The floor, walls and ceiling of the entire length of this tunnel are covered in the same fine black grit as you have seen throughout all of these caves."
-  ],
-  "image": "wl-lysierian-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Smokey Cave, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6390": 0.2,
-    "6386": 0.2
-  },
-  "id": 6389,
-  "location": "the Lysierian Hills",
   "tags": [
     "fire rat",
-    "fire cat",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "fire cat"
   ]
 }

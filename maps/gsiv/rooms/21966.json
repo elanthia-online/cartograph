@@ -1,40 +1,30 @@
 {
-  "wayto": {
-    "21965": "down",
-    "21967": {
-      "stringproc": "0ea5f8d2bd08b719d859a258fb4cb01c"
-    }
-  },
+  "id": 21966,
+  "title": [
+    "[Talador Mines, Rocky Ledge]"
+  ],
+  "description": [
+    "A large outcropping extends from the cavern wall.  The air is chilled and engulfed in darkness, save for the glowing maggots crawling along the walls."
+  ],
   "paths": [
     "Obvious exits: down"
   ],
+  "location": "Talador",
+  "wayto": {
+    "21965": "down",
+    "21967": {
+      "file": "string_procs/wayto/21966_21967.rb"
+    }
+  },
+  "timeto": {
+    "21965": 0.2,
+    "21967": 0.2
+  },
+  "image": "wl-talador-east-1392305660.png",
   "image_coords": [
     900,
     328,
     914,
     341
-  ],
-  "terrain": null,
-  "description": [
-    "A large outcropping extends from the cavern wall.  The air is chilled and engulfed in darkness, save for the glowing maggots crawling along the walls."
-  ],
-  "image": "wl-talador-east-1392305660.png",
-  "climate": null,
-  "title": [
-    "[Talador Mines, Rocky Ledge]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "21965": 0.2,
-    "21967": 0.2
-  },
-  "id": 21966,
-  "location": "Talador",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

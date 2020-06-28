@@ -1,54 +1,51 @@
 {
+  "id": 10125,
+  "title": [
+    "[Voln Forecourt]"
+  ],
+  "description": [
+    "Several cast iron park benches back against a swiftly moving stream along one side of the large, open courtyard.  A cobbled walkway extends through the courtyard's center and continues over a small bridge which spans the moat, connecting the forecourt to the gated entryway of a large fortress.  Opposite the flowing water lies a narrow knot garden with a meadow beyond.",
+    "Several cast iron park benches back against a swiftly moving stream that reflects the moonlight as it flows along one side of the courtyard.  A cobbled walkway extends through the courtyard's center and continues over a small bridge which spans the moat, connecting the forecourt to the gated entryway of a large fortress.  Opposite the flowing water lies a narrow knot garden with a meadow beyond."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "Ta'Vaalor",
   "wayto": {
     "10124": "south",
     "21535": "go bridge",
     "13979": "go stream",
     "10578": {
-      "stringproc": "1d338fb36e6e29df7413e64d1a03e07c"
+      "file": "string_procs/wayto/10125_10578.rb"
     },
     "10748": {
-      "stringproc": "2280e574c147ea978eb97c2bbfac49bf"
+      "file": "string_procs/wayto/10125_10748.rb"
     },
     "24715": {
-      "stringproc": "04f0549b1400bf80b500685047b7fece"
+      "file": "string_procs/wayto/10125_24715.rb"
     }
   },
-  "paths": [
-    "Obvious paths: south"
-  ],
+  "timeto": {
+    "10124": 0.2,
+    "21535": 0.2,
+    "13979": 0.2,
+    "10578": {
+      "file": "string_procs/timeto/10125_10578.rb"
+    },
+    "10748": {
+      "file": "string_procs/timeto/10125_10748.rb"
+    },
+    "24715": {
+      "file": "string_procs/timeto/10125_24715.rb"
+    }
+  },
+  "image": "en-fearling-1264234799.png",
   "image_coords": [
     720,
     233,
     730,
     243
   ],
-  "terrain": null,
-  "description": [
-    "Several cast iron park benches back against a swiftly moving stream along one side of the large, open courtyard.  A cobbled walkway extends through the courtyard's center and continues over a small bridge which spans the moat, connecting the forecourt to the gated entryway of a large fortress.  Opposite the flowing water lies a narrow knot garden with a meadow beyond.",
-    "Several cast iron park benches back against a swiftly moving stream that reflects the moonlight as it flows along one side of the courtyard.  A cobbled walkway extends through the courtyard's center and continues over a small bridge which spans the moat, connecting the forecourt to the gated entryway of a large fortress.  Opposite the flowing water lies a narrow knot garden with a meadow beyond."
-  ],
-  "image": "en-fearling-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Voln Forecourt]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10124": 0.2,
-    "21535": 0.2,
-    "13979": 0.2,
-    "10578": {
-      "stringproc": "467966f8c6d8ca28fdc846eaec1daeaa"
-    },
-    "10748": {
-      "stringproc": "467966f8c6d8ca28fdc846eaec1daeaa"
-    },
-    "24715": {
-      "stringproc": "467966f8c6d8ca28fdc846eaec1daeaa"
-    }
-  },
-  "id": 10125,
-  "location": "Ta'Vaalor",
   "tags": [
     "some sovyn clove",
     "some calamia fruit",
@@ -66,8 +63,5 @@
     "meta:mapname:Elven Nations - Fearling Pass",
     "meta:mapshortname:Fearling Pass",
     "meta:mapcategory:Elven Nations"
-  ],
-  "links": [
-
   ]
 }

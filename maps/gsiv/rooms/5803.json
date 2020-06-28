@@ -1,41 +1,31 @@
 {
+  "id": 5803,
+  "title": [
+    "[Zaerthu Tunnels, Abandoned Mine]"
+  ],
+  "description": [
+    "Dim fungous light and an uneven floor make walking a potentially bone-breaking hazard.  The beams bracing up the rock bear scratches and look none too sturdy despite their girth."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south"
+  ],
+  "location": "the Zaerthu Tunnels",
   "wayto": {
     "5802": "south",
     "5804": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, south"
-  ],
+  "timeto": {
+    "5802": 0.2,
+    "5804": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     153,
     873,
     163,
     883
   ],
-  "terrain": "indoors",
-  "description": [
-    "Dim fungous light and an uneven floor make walking a potentially bone-breaking hazard.  The beams bracing up the rock bear scratches and look none too sturdy despite their girth."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Zaerthu Tunnels, Abandoned Mine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5802": 0.2,
-    "5804": 0.2
-  },
-  "id": 5803,
-  "location": "the Zaerthu Tunnels",
   "tags": [
-    "some wolifrew lichen",
-    "wolifrew lichen",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wolifrew lichen"
   ]
 }

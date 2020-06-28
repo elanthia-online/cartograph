@@ -1,33 +1,30 @@
 {
+  "id": 2571,
+  "title": [
+    "[Glatoph, Glacier]"
+  ],
+  "description": [
+    "This side of the mountain is covered with ice.  The ice field is almost big enough to be called a glacier, except that the conditions are all wrong for a glacier.  You suspect some sort of magic at work, and wonder at the wizard powerful enough to freeze half a mountain."
+  ],
+  "paths": [
+    "Obvious paths: southwest"
+  ],
+  "location": "Glatoph",
   "wayto": {
     "2570": "go glacier",
     "2572": "southwest"
   },
-  "paths": [
-    "Obvious paths: southwest"
-  ],
+  "timeto": {
+    "2570": 0.2,
+    "2572": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     667,
     682,
     677,
     692
   ],
-  "terrain": "mountainous",
-  "description": [
-    "This side of the mountain is covered with ice.  The ice field is almost big enough to be called a glacier, except that the conditions are all wrong for a glacier.  You suspect some sort of magic at work, and wonder at the wizard powerful enough to freeze half a mountain."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Glatoph, Glacier]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2570": 0.2,
-    "2572": 0.2
-  },
-  "id": 2571,
-  "location": "Glatoph",
   "tags": [
     "sweetfern stalk",
     "sprig of holly",
@@ -37,10 +34,6 @@
     "angelica root",
     "valerian root",
     "pennyroyal stem",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

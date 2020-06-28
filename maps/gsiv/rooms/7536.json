@@ -1,33 +1,30 @@
 {
+  "id": 7536,
+  "title": [
+    "[Catacombs, Twisting Tunnels]"
+  ],
+  "description": [
+    "A cave-in some time in the distant past must have sealed off the western extension of the manmade tunnel here.  Pristinely clear water cascades in waves over the heap of rubble left in the wake of the collapse, forming a limpid pool at its base.  Overflow from the pool runs off eastward down the center of the floor along a time-worn channel."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "7543": "climb rubble",
     "7533": "east"
   },
-  "paths": [
-    "Obvious exits: east"
-  ],
+  "timeto": {
+    "7543": 0.2,
+    "7533": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     420,
     1288,
     430,
     1298
   ],
-  "terrain": "indoors",
-  "description": [
-    "A cave-in some time in the distant past must have sealed off the western extension of the manmade tunnel here.  Pristinely clear water cascades in waves over the heap of rubble left in the wake of the collapse, forming a limpid pool at its base.  Overflow from the pool runs off eastward down the center of the floor along a time-worn channel."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Catacombs, Twisting Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7543": 0.2,
-    "7533": 0.2
-  },
-  "id": 7536,
-  "location": "the catacombs",
   "tags": [
     "some bolmara lichen",
     "some wingstem root",
@@ -37,15 +34,6 @@
     "black hook mushroom",
     "red trafel mushroom",
     "soft white mushroom",
-    "white hook mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "white hook mushroom"
   ]
 }

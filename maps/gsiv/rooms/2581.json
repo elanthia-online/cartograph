@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "12208": {
-      "stringproc": "a0576f0215d746452e7afb93c1ee082c"
-    },
-    "2580": "northeast",
-    "2635": {
-      "stringproc": "01b8924575c8d70e4ed7eea7ed00be84"
-    },
-    "12101": {
-      "stringproc": "cf4b8e5b125b22b01c9349827d02c9fd"
-    },
-    "2582": "southeast"
-  },
+  "id": 2581,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "Your wandering brings you to a small clearing.  The ground is dry and parched, and there are large lines scratched into the surface and coated in a red, sticky substance.  Following the lines a moment, you realize they make a rune covered circle, and that you are standing in the center of it.  A cold wind whips around you at that point, and you hear howls in the distance."
+  ],
   "paths": [
     "Obvious paths: northeast, southeast, west",
     "Obvious exits: northeast, southeast, west"
   ],
-  "image_coords": [
-    200,
-    616,
-    208,
-    624
-  ],
-  "terrain": null,
-  "description": [
-    "Your wandering brings you to a small clearing.  The ground is dry and parched, and there are large lines scratched into the surface and coated in a red, sticky substance.  Following the lines a moment, you realize they make a rune covered circle, and that you are standing in the center of it.  A cold wind whips around you at that point, and you hear howls in the distance."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12208": {
+      "file": "string_procs/wayto/2581_12208.rb"
+    },
+    "2580": "northeast",
+    "2635": {
+      "file": "string_procs/wayto/2581_2635.rb"
+    },
+    "12101": {
+      "file": "string_procs/wayto/2581_12101.rb"
+    },
+    "2582": "southeast"
+  },
   "timeto": {
     "12208": 22.0,
     "2580": 0.2,
@@ -39,8 +31,13 @@
     "12101": 26.0,
     "2582": 0.2
   },
-  "id": 2581,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    200,
+    616,
+    208,
+    624
+  ],
   "tags": [
     "oozing fleshsore bulb",
     "discolored fleshbinder bud",
@@ -49,8 +46,5 @@
     "mass of congealed slime",
     "withered deathblossom",
     "twisted black mawflower"
-  ],
-  "links": [
-
   ]
 }

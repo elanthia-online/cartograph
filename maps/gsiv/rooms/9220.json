@@ -1,38 +1,28 @@
 {
+  "id": 9220,
+  "title": [
+    "[Thurfel's Cellar]"
+  ],
+  "description": [
+    "Pitted and stained stone covers the floor, the damage quite old.  A frenzied commotion below disturbs the silence, clearly coming from a badly rattling cage.  Something is trying very hard to get out."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Thurfel's Island",
   "wayto": {
     "9206": "south",
     "9219": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "9206": 0.2,
+    "9219": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     1199,
     760,
     1209,
     770
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Pitted and stained stone covers the floor, the damage quite old.  A frenzied commotion below disturbs the silence, clearly coming from a badly rattling cage.  Something is trying very hard to get out."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thurfel's Cellar]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9206": 0.2,
-    "9219": 0.2
-  },
-  "id": 9220,
-  "location": "Thurfel's Island",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

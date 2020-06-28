@@ -1,49 +1,34 @@
 {
+  "id": 7506,
+  "title": [
+    "[Catacombs, East-West Tunnel]"
+  ],
+  "description": [
+    "Dark openings in the walls remind you of your own fragile mortality as you try to peer inside them.  Most are empty, but others contain old bones and tattered rags, evidence of plundering.  A narrow ribbon of water flows gently eastward along the tunnel floor."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "7507": "west",
     "3934": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "7507": 0.2,
+    "3934": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     830,
     1102,
     840,
     1112
   ],
-  "terrain": "indoors",
-  "description": [
-    "Dark openings in the walls remind you of your own fragile mortality as you try to peer inside them.  Most are empty, but others contain old bones and tattered rags, evidence of plundering.  A narrow ribbon of water flows gently eastward along the tunnel floor."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Catacombs, East-West Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7507": 0.2,
-    "3934": 0.2
-  },
-  "id": 7506,
-  "location": "the catacombs",
   "tags": [
     "some cave moss",
     "some wingstem root",
     "black hook mushroom",
-    "withered black mushroom",
-    "red trafel mushroom",
-    "soft white mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "withered black mushroom"
   ]
 }

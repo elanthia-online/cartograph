@@ -1,42 +1,32 @@
 {
-  "wayto": {
-    "23526": {
-      "stringproc": "b93235eccf2f982577c69bc0df45bc79"
-    },
-    "23528": {
-      "stringproc": "1a2f1f6f7d7201bc459570c986b94f9c"
-    }
-  },
+  "id": 23527,
+  "title": [
+    "[Mistydeep, Northern Strand]"
+  ],
+  "description": [
+    "While wider and slower to the north, here the Mistydeep River gathers itself to squeeze between steep, narrowing banks.  Gaining speed in its southward passage, the water surges over hundreds of rocky cascades.  Small pools eddy deceptively before overflowing into churning rapids.  Safe on the trunk of a fallen tree, a pudgy raccoon grasps some unknown morsel in its paws, dunking it daintily in the water between bites."
+  ],
   "paths": [
     "Obvious paths: north, south, southwest, west, northwest, down"
   ],
+  "location": "the northern reaches of the Mistydeep River",
+  "wayto": {
+    "23526": {
+      "file": "string_procs/wayto/23527_23526.rb"
+    },
+    "23528": {
+      "file": "string_procs/wayto/23527_23528.rb"
+    }
+  },
+  "timeto": {
+    "23526": 3.2,
+    "23528": 3.2
+  },
+  "image": "en-ravelin.png",
   "image_coords": [
     1279,
     888,
     1306,
     914
-  ],
-  "terrain": null,
-  "description": [
-    "While wider and slower to the north, here the Mistydeep River gathers itself to squeeze between steep, narrowing banks.  Gaining speed in its southward passage, the water surges over hundreds of rocky cascades.  Small pools eddy deceptively before overflowing into churning rapids.  Safe on the trunk of a fallen tree, a pudgy raccoon grasps some unknown morsel in its paws, dunking it daintily in the water between bites."
-  ],
-  "image": "en-ravelin.png",
-  "climate": null,
-  "title": [
-    "[Mistydeep, Northern Strand]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "23526": 3.2,
-    "23528": 3.2
-  },
-  "id": 23527,
-  "location": "the northern reaches of the Mistydeep River",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

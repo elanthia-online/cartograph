@@ -1,41 +1,33 @@
 {
+  "id": 19269,
+  "title": [
+    "[Dark Shrine, Wide Passageway]"
+  ],
+  "description": [
+    "A plain stone passageway has been cleanly carved from the solid rock, and leads to the east and west.  The featureless stone is grey, and the surface is abrasive."
+  ],
+  "paths": [
+    "Obvious exits: east, south, west"
+  ],
+  "location": "the Broken Lands",
   "wayto": {
     "22445": "west",
     "22446": "east",
     "19271": "south"
   },
-  "paths": [
-    "Obvious exits: east, south, west"
-  ],
+  "timeto": {
+    "22445": 0.2,
+    "22446": 0.2,
+    "19271": 0.2
+  },
+  "image": "wl-broken-1264234799.png",
   "image_coords": [
     866,
     248,
     876,
     259
   ],
-  "terrain": "indoors",
-  "description": [
-    "A plain stone passageway has been cleanly carved from the solid rock, and leads to the east and west.  The featureless stone is grey, and the surface is abrasive."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dark Shrine, Wide Passageway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "22445": 0.2,
-    "22446": 0.2,
-    "19271": 0.2
-  },
-  "id": 19269,
-  "location": "the Broken Lands",
   "tags": [
-    "lesser vruul",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "lesser vruul"
   ]
 }

@@ -1,38 +1,28 @@
 {
+  "id": 11252,
+  "title": [
+    "[Infirmary, Hallway]"
+  ],
+  "description": [
+    "Old, tattered cobwebs hang from the ceiling and the dusty, brass oil lamp.  The tiled hallway floor is badly scratched and scored.  Tiny, half-rusted metal shavings litter the floor.  As you move through the hallway the metal shavings grind into the tile under your feet, creating a whispery screech."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11250": "south",
     "11253": "east"
   },
-  "paths": [
-    "Obvious exits: east, south"
-  ],
+  "timeto": {
+    "11250": 0.2,
+    "11253": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     36,
     492,
     46,
     502
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Old, tattered cobwebs hang from the ceiling and the dusty, brass oil lamp.  The tiled hallway floor is badly scratched and scored.  Tiny, half-rusted metal shavings litter the floor.  As you move through the hallway the metal shavings grind into the tile under your feet, creating a whispery screech."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Infirmary, Hallway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11250": 0.2,
-    "11253": 0.2
-  },
-  "id": 11252,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

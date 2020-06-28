@@ -1,34 +1,31 @@
 {
+  "id": 548,
+  "title": [
+    "[Whistler's Pass, Copse]"
+  ],
+  "description": [
+    "The trail disappears into a dark copse of trees to the north.  Several bushes hug the night-darkened walls of the pass near the copse.  Songbirds fill the air with their melody.",
+    "The trail disappears into a dark copse of trees to the north.  Several bushes hug the walls of the pass near the copse.  Songbirds fill the air with their melody."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "547": "north",
     "549": "southwest"
   },
-  "paths": [
-    "Obvious paths: north, southwest"
-  ],
+  "timeto": {
+    "547": 0.2,
+    "549": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     713,
     700,
     723,
     710
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "The trail disappears into a dark copse of trees to the north.  Several bushes hug the night-darkened walls of the pass near the copse.  Songbirds fill the air with their melody.",
-    "The trail disappears into a dark copse of trees to the north.  Several bushes hug the walls of the pass near the copse.  Songbirds fill the air with their melody."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Whistler's Pass, Copse]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "547": 0.2,
-    "549": 0.2
-  },
-  "id": 548,
-  "location": "Whistler's Pass",
   "tags": [
     "some torban leaf",
     "some calamia fruit",
@@ -91,10 +88,6 @@
     "slender twig",
     "ebony twig",
     "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

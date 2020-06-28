@@ -1,38 +1,27 @@
 {
+  "id": 3945,
+  "title": [
+    "[Abandoned Sewer]"
+  ],
+  "description": [
+    "The air smells unbelievably fresh, and you inhale great gasping breaths, having nearly forgotten what fresh air smells like.  You seem to have reached the end of the tunnel, as it empties out into a large underground river.  The slope is quite steep, and the small stream of sludge would be racing along, if it was any less thick."
+  ],
+  "paths": [
+    "Obvious exits: southeast"
+  ],
   "wayto": {
     "3944": "southeast",
     "24818": "jump\njump"
   },
-  "paths": [
-    "Obvious exits: southeast"
-  ],
+  "timeto": {
+    "3944": 0.2,
+    "24818": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     343,
     249,
     354,
     259
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The air smells unbelievably fresh, and you inhale great gasping breaths, having nearly forgotten what fresh air smells like.  You seem to have reached the end of the tunnel, as it empties out into a large underground river.  The slope is quite steep, and the small stream of sludge would be racing along, if it was any less thick."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abandoned Sewer]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3944": 0.2,
-    "24818": 0.2
-  },
-  "id": 3945,
-  "location": "the catacombs",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

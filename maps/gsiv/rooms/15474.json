@@ -1,4 +1,15 @@
 {
+  "id": 15474,
+  "title": [
+    "[Helden Hall, 1st Floor Balcony]"
+  ],
+  "description": [
+    "The stairs continue up to the second floor, while this passage leads east and west.  Laughter and loud boasting float up from the Great Hall below you."
+  ],
+  "paths": [
+    "Obvious exits: east, west, up"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "3880": "go stairs",
     "24249": "go white door",
@@ -9,25 +20,6 @@
     "24764": "west",
     "24769": "east"
   },
-  "paths": [
-    "Obvious exits: east, west, up"
-  ],
-  "image_coords": [
-    735,
-    731,
-    775,
-    768
-  ],
-  "terrain": null,
-  "description": [
-    "The stairs continue up to the second floor, while this passage leads east and west.  Laughter and loud boasting float up from the Great Hall below you."
-  ],
-  "image": "wl-heldenhall-1502386358.png",
-  "climate": null,
-  "title": [
-    "[Helden Hall, 1st Floor Balcony]"
-  ],
-  "check_location": null,
   "timeto": {
     "3880": 0.2,
     "24249": 0.2,
@@ -38,10 +30,11 @@
     "24764": 0.2,
     "24769": 0.2
   },
-  "id": 15474,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  "image": "wl-heldenhall-1502386358.png",
+  "image_coords": [
+    735,
+    731,
+    775,
+    768
+  ]
 }

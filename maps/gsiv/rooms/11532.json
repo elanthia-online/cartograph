@@ -1,36 +1,33 @@
 {
+  "id": 11532,
+  "title": [
+    "[Shattered Moors, Salt Marsh]"
+  ],
+  "description": [
+    "A massive boulder rises from the muck and mud of the marsh.  The air is gravid with the primordial odor of decaying vegetation, thick alluvial ooze, and slow-moving brackish water.  Through the reeds and bullrushes to the southeast one can glimpse the moonlight glinting off the blue roof of an ancient tower.",
+    "A massive boulder rises from the muck and mud of the marsh.  The air is gravid with the primordial odor of decaying vegetation, thick alluvial ooze, and slow-moving brackish water.  Through the reeds and bullrushes to the southeast one can glimpse the sun glinting off the blue roof of an ancient tower."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, west"
+  ],
+  "location": "the Shattered Moors",
   "wayto": {
     "11552": "west",
     "11531": "southeast",
     "11533": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, southeast, west"
-  ],
+  "timeto": {
+    "11552": 0.2,
+    "11531": 0.2,
+    "11533": 0.2
+  },
+  "image": "rr-maelstrom-1266390501.png",
   "image_coords": [
     513,
     896,
     523,
     906
   ],
-  "terrain": "muddy wetlands",
-  "description": [
-    "A massive boulder rises from the muck and mud of the marsh.  The air is gravid with the primordial odor of decaying vegetation, thick alluvial ooze, and slow-moving brackish water.  Through the reeds and bullrushes to the southeast one can glimpse the moonlight glinting off the blue roof of an ancient tower.",
-    "A massive boulder rises from the muck and mud of the marsh.  The air is gravid with the primordial odor of decaying vegetation, thick alluvial ooze, and slow-moving brackish water.  Through the reeds and bullrushes to the southeast one can glimpse the sun glinting off the blue roof of an ancient tower."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "temperate",
-  "title": [
-    "[Shattered Moors, Salt Marsh]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11552": 0.2,
-    "11531": 0.2,
-    "11533": 0.2
-  },
-  "id": 11532,
-  "location": "the Shattered Moors",
   "tags": [
     "blue trafel mushroom",
     "some wingstem root",
@@ -46,23 +43,6 @@
     "water chestnut",
     "stalk of cattail",
     "trollfear mushroom",
-    "daggerstalk mushroom",
-    "calamia fruit",
-    "flathead mushroom",
-    "small wild rose",
-    "mistweed",
-    "spider lily",
-    "alligator lily",
-    "pepperthorn root",
-    "murdroot",
-    "wavepetal blossom",
-    "bolmara lichen",
-    "talneo root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "daggerstalk mushroom"
   ]
 }

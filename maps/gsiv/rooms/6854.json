@@ -1,42 +1,32 @@
 {
+  "id": 6854,
+  "title": [
+    "[Abandoned Inn, Entry]"
+  ],
+  "description": [
+    "A large rug woven in shades of light and dark green protects the floor in front of the door, looking comforting to tired feet.  Light from several candelabras plays over the golden grain of a polished wood desk, illuminating the neat stack of papers and ledgers necessary to keep an inn running smoothly.  The hall stretches north, flanked on the east by a curved wooden stair, and on the immediate west by a curtain of rich green brocade."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Abandoned Inn",
   "wayto": {
     "472": "go thanot door",
     "6855": "go stair",
     "6869": "go modwir door",
     "6870": "go curtain"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": [
-    857,
-    1050,
-    867,
-    1060
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A large rug woven in shades of light and dark green protects the floor in front of the door, looking comforting to tired feet.  Light from several candelabras plays over the golden grain of a polished wood desk, illuminating the neat stack of papers and ledgers necessary to keep an inn running smoothly.  The hall stretches north, flanked on the east by a curved wooden stair, and on the immediate west by a curtain of rich green brocade."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abandoned Inn, Entry]"
-  ],
-  "check_location": null,
   "timeto": {
     "472": 0.2,
     "6855": 0.2,
     "6869": 0.2,
     "6870": 0.2
   },
-  "id": 6854,
-  "location": "the Abandoned Inn",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-gates-1264234799.png",
+  "image_coords": [
+    857,
+    1050,
+    867,
+    1060
   ]
 }

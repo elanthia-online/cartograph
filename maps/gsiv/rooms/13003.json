@@ -1,78 +1,35 @@
 {
+  "id": 13003,
+  "title": [
+    "[Vornavian Coast, Pine Forest]"
+  ],
+  "description": [
+    "The path takes a sharp bend here, ascending toward the coast and descending into a deep pine-filled valley.  The valley is cold and a thick fog gathers over the forest floor, secluding the thick pine needle carpet from view.  A chill is in the air, and the cold is accentuated by the dampness."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest"
+  ],
+  "location": "the Vornavian Coast",
   "wayto": {
     "13002": "southwest",
     "13004": "southeast"
   },
-  "paths": [
-    "Obvious paths: southeast, southwest"
-  ],
+  "timeto": {
+    "13002": 0.2,
+    "13004": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     471,
     422,
     479,
     430
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "The path takes a sharp bend here, ascending toward the coast and descending into a deep pine-filled valley.  The valley is cold and a thick fog gathers over the forest floor, secluding the thick pine needle carpet from view.  A chill is in the air, and the cold is accentuated by the dampness."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Vornavian Coast, Pine Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "13002": 0.2,
-    "13004": 0.2
-  },
-  "id": 13003,
-  "location": "the Vornavian Coast",
   "tags": [
     "oxblood lily",
     "ebony twig",
     "handful of pinenuts",
     "blue trafel mushroom",
-    "some calamia fruit",
-    "acantha leaf",
-    "torban leaf",
-    "calamia fruit",
-    "haphip root",
-    "tkaro root",
-    "sticks",
-    "angelica root",
-    "trollfear mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "broken twig",
-    "pine cone",
-    "pine needles",
-    "stalk of bluebells",
-    "golden buttercup",
-    "wild pink geranium",
-    "wild chokecherry",
-    "tree bark",
-    "white lily",
-    "pink rain lily",
-    "coppery rain lily",
-    "kylan berry",
-    "white baneberry",
-    "yew twig",
-    "ironfern root",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some calamia fruit"
   ]
 }

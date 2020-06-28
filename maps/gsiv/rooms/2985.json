@@ -1,41 +1,33 @@
 {
+  "id": 2985,
+  "title": [
+    "[Abbey, Ossuary]"
+  ],
+  "description": [
+    "The floor tiling stops at a sunken rectangular pit completely filled with bones.  A faint rattling sound disturbs the silence, nothing more than a soft echo, and low clouds of dust filter from the pit as if something were moving underneath the collection of skulls and tibiae."
+  ],
+  "paths": [
+    "Obvious exits: north, south, west"
+  ],
+  "location": "the Abbey",
   "wayto": {
     "2984": "south",
     "2986": "west",
     "2987": "north"
   },
-  "paths": [
-    "Obvious exits: north, south, west"
-  ],
+  "timeto": {
+    "2984": 0.2,
+    "2986": 0.2,
+    "2987": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     808,
     459,
     818,
     469
   ],
-  "terrain": "indoors",
-  "description": [
-    "The floor tiling stops at a sunken rectangular pit completely filled with bones.  A faint rattling sound disturbs the silence, nothing more than a soft echo, and low clouds of dust filter from the pit as if something were moving underneath the collection of skulls and tibiae."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abbey, Ossuary]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2984": 0.2,
-    "2986": 0.2,
-    "2987": 0.2
-  },
-  "id": 2985,
-  "location": "the Abbey",
   "tags": [
-    "arch wight",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "arch wight"
   ]
 }

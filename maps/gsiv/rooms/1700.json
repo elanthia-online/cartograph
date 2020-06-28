@@ -1,46 +1,33 @@
 {
+  "id": 1700,
+  "title": [
+    "[Bottom of the Well]"
+  ],
+  "description": [
+    "The wind blowing over the top of the well creates an odd, eerie moaning sound.  The moonlight slants into the well, illuminating the rope so that it looks like a bright strand of spidersilk.  The air at the bottom is rank, smelling of mud and mold.  A narrow tunnel in the wall leads north under the lake.",
+    "The wind blowing over the top of the well creates an odd, eerie moaning sound.  The sunlight slants into the well, illuminating the rope so that it looks like a bright strand of spidersilk.  The air at the bottom is rank, smelling of mud and mold.  A narrow tunnel in the wall leads north under the lake."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Teorainn Dale",
   "wayto": {
     "1699": "north",
     "1701": "climb rope"
   },
-  "paths": [
-    "Obvious exits: north"
-  ],
+  "timeto": {
+    "1699": 0.2,
+    "1701": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     1161,
     1104,
     1171,
     1114
   ],
-  "terrain": "indoors",
-  "description": [
-    "The wind blowing over the top of the well creates an odd, eerie moaning sound.  The moonlight slants into the well, illuminating the rope so that it looks like a bright strand of spidersilk.  The air at the bottom is rank, smelling of mud and mold.  A narrow tunnel in the wall leads north under the lake.",
-    "The wind blowing over the top of the well creates an odd, eerie moaning sound.  The sunlight slants into the well, illuminating the rope so that it looks like a bright strand of spidersilk.  The air at the bottom is rank, smelling of mud and mold.  A narrow tunnel in the wall leads north under the lake."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Bottom of the Well]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1699": 0.2,
-    "1701": 0.2
-  },
-  "id": 1700,
-  "location": "Teorainn Dale",
   "tags": [
     "soft white mushroom",
-    "some talneo root",
-    "withered black mushroom",
-    "white hook mushroom",
-    "blue trafel mushroom",
-    "murdroot",
-    "ironfern root",
-    "talneo root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some talneo root"
   ]
 }

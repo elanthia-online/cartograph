@@ -1,33 +1,30 @@
 {
+  "id": 7197,
+  "title": [
+    "[Graveyard]"
+  ],
+  "description": [
+    "Along the roadside is a wide swath of grass holding a series of tombstones resting at the heads of narrow mounds of dirt in regular array.  The graves are now overgrown with weeds and wildflowers.  Despite their state of ruin, it is still apparent that this is the ancestral burial plot of some ancient, noble family.  The firm path continues around the bog."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7196": "north",
     "7201": "south"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "7196": 0.2,
+    "7201": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     262,
     622,
     272,
     632
   ],
-  "terrain": "grassland",
-  "description": [
-    "Along the roadside is a wide swath of grass holding a series of tombstones resting at the heads of narrow mounds of dirt in regular array.  The graves are now overgrown with weeds and wildflowers.  Despite their state of ruin, it is still apparent that this is the ancestral burial plot of some ancient, noble family.  The firm path continues around the bog."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Graveyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7196": 0.2,
-    "7201": 0.2
-  },
-  "id": 7197,
-  "location": "the Graveyard",
   "tags": [
     "some wolifrew lichen",
     "some acantha leaf",
@@ -57,10 +54,6 @@
     "murdroot",
     "wavepetal blossom",
     "ironfern root",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

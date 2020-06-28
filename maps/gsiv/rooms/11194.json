@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "11193": "east"
-  },
+  "id": 11194,
+  "title": [
+    "[Garrison, Hallway]"
+  ],
+  "description": [
+    "It appears that the soldiers tried to barricade against the trolls and krolvin, but failed.  Broken furnishings are strewn about in a disorder that matches the skeletons which also lie here."
+  ],
   "paths": [
     "Obvious exits: north, east, south, west"
   ],
+  "location": "the Citadel",
+  "wayto": {
+    "11193": "east"
+  },
+  "timeto": {
+    "11193": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     516,
     193,
     526,
     203
-  ],
-  "terrain": "indoors",
-  "description": [
-    "It appears that the soldiers tried to barricade against the trolls and krolvin, but failed.  Broken furnishings are strewn about in a disorder that matches the skeletons which also lie here."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Garrison, Hallway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11193": 0.2
-  },
-  "id": 11194,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

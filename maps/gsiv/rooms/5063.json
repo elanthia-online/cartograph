@@ -1,37 +1,34 @@
 {
+  "id": 5063,
+  "title": [
+    "[Vornavis, West Road]"
+  ],
+  "description": [
+    "The road continues to the east into a wide, flat area marked by fields of tall grasses.  To the west, a small wooded area crosses the road, becoming more dense and lush far to the north.  The road remains well defined, and wagon wheel ruts show regular use."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the plains of Vornavis",
   "wayto": {
     "9033": {
-      "stringproc": "0a4b42ba94fae0d4d1a1aef587716c80"
+      "file": "string_procs/wayto/5063_9033.rb"
     },
     "5062": "east",
     "5064": "west"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "9033": 0.2,
+    "5062": 0.2,
+    "5064": 0.2
+  },
+  "image": "vo-caravansary-1264234799.png",
   "image_coords": [
     616,
     334,
     626,
     344
   ],
-  "terrain": "grassland",
-  "description": [
-    "The road continues to the east into a wide, flat area marked by fields of tall grasses.  To the west, a small wooded area crosses the road, becoming more dense and lush far to the north.  The road remains well defined, and wagon wheel ruts show regular use."
-  ],
-  "image": "vo-caravansary-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Vornavis, West Road]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9033": 0.2,
-    "5062": 0.2,
-    "5064": 0.2
-  },
-  "id": 5063,
-  "location": "the plains of Vornavis",
   "tags": [
     "some sovyn clove",
     "some ambrominas leaf",
@@ -55,47 +52,6 @@
     "wolfsbane root",
     "handful of huckleberries",
     "purple clover blossom",
-    "some motherwort",
-    "acantha leaf",
-    "ambrominas leaf",
-    "sovyn clove",
-    "small flower",
-    "small rose",
-    "angelica root",
-    "trollfear mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "stalk of chicory",
-    "wild grapes",
-    "sprig of alyssum",
-    "heath aster",
-    "golden buttercup",
-    "red clover blossom",
-    "pink clover blossom",
-    "stalk of goldenrod",
-    "yellow primrose",
-    "small wild rose",
-    "Imaera's Lace",
-    "wild chokecherry",
-    "motherwort",
-    "huckleberries",
-    "raspberries",
-    "wiregrass",
-    "white lily",
-    "fire lily",
-    "pepperthorn root",
-    "luckbloom blossom",
-    "murdroot",
-    "wavepetal blossom",
-    "ironfern root",
-    "nightbloom blossom",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some motherwort"
   ]
 }

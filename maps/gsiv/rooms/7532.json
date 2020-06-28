@@ -1,33 +1,30 @@
 {
+  "id": 7532,
+  "title": [
+    "[Catacombs, Twisting Tunnels]"
+  ],
+  "description": [
+    "This section of the tunnels is almost perfectly elliptical and leads generally in an east-west direction.  It seems to have been formed by rapidly moving water eons ago, but now it is almost dry as time and use have forced the water table down deeper.  A small trickle of clear water still travels along the center of the tunnel eastward."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "7529": "east",
     "7533": "west"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "7529": 0.2,
+    "7533": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     474,
     1288,
     484,
     1298
   ],
-  "terrain": "indoors",
-  "description": [
-    "This section of the tunnels is almost perfectly elliptical and leads generally in an east-west direction.  It seems to have been formed by rapidly moving water eons ago, but now it is almost dry as time and use have forced the water table down deeper.  A small trickle of clear water still travels along the center of the tunnel eastward."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Catacombs, Twisting Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7529": 0.2,
-    "7533": 0.2
-  },
-  "id": 7532,
-  "location": "the catacombs",
   "tags": [
     "some bolmara lichen",
     "withered black mushroom",
@@ -37,15 +34,6 @@
     "red trafel mushroom",
     "white hook mushroom",
     "soft white mushroom",
-    "black hook mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "black hook mushroom"
   ]
 }

@@ -1,43 +1,36 @@
 {
-  "wayto": {
-    "25761": {
-      "stringproc": "b3903ef3130903d58c1b8b478bec601b"
-    },
-    "25763": {
-      "stringproc": "9b05cb4429e6ad5efbe157efd92e6023"
-    },
-    "25765": {
-      "stringproc": "7c906cf3c37f156a5de40e3486f4dfc0"
-    }
-  },
-  "paths": [
-    "Obvious paths: northeast, southwest, northwest"
-  ],
-  "image_coords": [
-    1760,
-    1119,
-    1781,
-    1139
-  ],
-  "terrain": null,
-  "description": [
-    "Flowing around the curve of an island to the southeast, the waterway opens up here; the water calms once away from the tidal fury that is characteristic of the various shorelines of the harbor.  Barely discernable, an odd coral formation glistens in the water's depths as the ambient light plays off of its skeletal structure.  Schools of bright yellow tangs dart in and out of the organic architecture as if playing hide and seek, their bright eyes wide and their demeanor skittish."
-  ],
-  "image": "ifw-eastern_waterway-1489553700.png",
-  "climate": null,
+  "id": 25764,
   "title": [
     "[Eastern Waterway]"
   ],
-  "check_location": null,
+  "description": [
+    "Flowing around the curve of an island to the southeast, the waterway opens up here; the water calms once away from the tidal fury that is characteristic of the various shorelines of the harbor.  Barely discernable, an odd coral formation glistens in the water's depths as the ambient light plays off of its skeletal structure.  Schools of bright yellow tangs dart in and out of the organic architecture as if playing hide and seek, their bright eyes wide and their demeanor skittish."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest, northwest"
+  ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "25761": {
+      "file": "string_procs/wayto/25764_25761.rb"
+    },
+    "25763": {
+      "file": "string_procs/wayto/25764_25763.rb"
+    },
+    "25765": {
+      "file": "string_procs/wayto/25764_25765.rb"
+    }
+  },
   "timeto": {
     "25761": 6.0,
     "25763": 6.0,
     "25765": 6.0
   },
-  "id": 25764,
-  "location": "Mist Harbor",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  "image": "ifw-eastern_waterway-1489553700.png",
+  "image_coords": [
+    1760,
+    1119,
+    1781,
+    1139
+  ]
 }

@@ -1,43 +1,36 @@
 {
-  "wayto": {
-    "11423": "climb opening"
-  },
+  "id": 11426,
+  "title": [
+    "[The Pit]"
+  ],
+  "description": [
+    "You are trapped in a very deep pit.  It really smells of rotted meat here.  If you dare to look about you, you'll see the moldy bones of others who did not escape."
+  ],
   "paths": [
     "Obvious paths: none"
   ],
+  "location": "the Hidden Vale",
+  "climate": "cold, damp",
+  "terrain": "subterranean",
+  "wayto": {
+    "11423": "climb opening"
+  },
+  "timeto": {
+    "11423": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     811,
     1360,
     817,
     1366
   ],
-  "terrain": "subterranean",
-  "description": [
-    "You are trapped in a very deep pit.  It really smells of rotted meat here.  If you dare to look about you, you'll see the moldy bones of others who did not escape."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "cold, damp",
-  "title": [
-    "[The Pit]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11423": 0.2
-  },
-  "id": 11426,
-  "location": "the Hidden Vale",
   "tags": [
     "soft white mushroom",
     "withered black mushroom",
     "blue trafel mushroom",
     "murdroot",
     "ironfern root",
-    "bolmara lichen",
-    "white hook mushroom",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bolmara lichen"
   ]
 }

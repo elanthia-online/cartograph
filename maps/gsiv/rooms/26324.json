@@ -1,35 +1,28 @@
 {
+  "id": 26324,
+  "title": [
+    "[Lich's Landing, Wraith Way]"
+  ],
+  "description": [
+    "A line of disfigured ghoul soldiers march along the lane, moving between the barracks and the guard towers at either end of the road.  Disembodied eyes, all having red pupils, float through the area, scanning the surroundings as blood drips from their fleshy veins."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Talador",
   "wayto": {
     "26322": "west",
     "26327": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "26322": 0.2,
+    "26327": 0.2
+  },
+  "image": "wl-lichs_landing-1500800742.png",
   "image_coords": [
     842,
     333,
     868,
     359
-  ],
-  "terrain": null,
-  "description": [
-    "A line of disfigured ghoul soldiers march along the lane, moving between the barracks and the guard towers at either end of the road.  Disembodied eyes, all having red pupils, float through the area, scanning the surroundings as blood drips from their fleshy veins."
-  ],
-  "image": "wl-lichs_landing-1500800742.png",
-  "climate": null,
-  "title": [
-    "[Lich's Landing, Wraith Way]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26322": 0.2,
-    "26327": 0.2
-  },
-  "id": 26324,
-  "location": "Talador",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

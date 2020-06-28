@@ -1,45 +1,38 @@
 {
+  "id": 4168,
+  "title": [
+    "[Hall of the Dead, Debtors Vault]"
+  ],
+  "description": [
+    "The smell of death and decay almost overcomes you and you gasp for air, but your lungs refuse it.  Although you have smelled death before, you have never experienced the revulsion you feel entering this area.  You wonder if you should advance any further as the nausea drains your strength."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "16801": "south",
     "4169": "west",
     "4154": "go stairway"
   },
-  "paths": [
-    "Obvious exits: south, west"
-  ],
+  "timeto": {
+    "16801": 0.2,
+    "4169": 0.2,
+    "4154": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     969,
     840,
     979,
     850
   ],
-  "terrain": "indoors",
-  "description": [
-    "The smell of death and decay almost overcomes you and you gasp for air, but your lungs refuse it.  Although you have smelled death before, you have never experienced the revulsion you feel entering this area.  You wonder if you should advance any further as the nausea drains your strength."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Hall of the Dead, Debtors Vault]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "16801": 0.2,
-    "4169": 0.2,
-    "4154": 0.2
-  },
-  "id": 4168,
-  "location": "the Graveyard",
   "tags": [
     "wolifrew lichen",
     "withered black mushroom",
     "cave moss",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

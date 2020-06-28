@@ -1,48 +1,28 @@
 {
+  "id": 9581,
+  "title": [
+    "[Czeroth Caverns, Tunnel]"
+  ],
+  "description": [
+    "The tunnel has widened and passage is relatively easy here.  A rank, acidic odor emanates from the southwest.  What appear to be skeletal remains jut out from behind a pile of rubble."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "the Czeroth Caverns",
   "wayto": {
     "9580": "northeast",
     "9582": "southwest"
   },
-  "paths": [
-    "Obvious exits: northeast, southwest"
-  ],
+  "timeto": {
+    "9580": 0.2,
+    "9582": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     1222,
     230,
     1232,
     240
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The tunnel has widened and passage is relatively easy here.  A rank, acidic odor emanates from the southwest.  What appear to be skeletal remains jut out from behind a pile of rubble."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Czeroth Caverns, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9580": 0.2,
-    "9582": 0.2
-  },
-  "id": 9581,
-  "location": "the Czeroth Caverns",
-  "tags": [
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

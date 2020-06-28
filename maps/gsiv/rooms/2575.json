@@ -1,33 +1,30 @@
 {
+  "id": 2575,
+  "title": [
+    "[Upper Trollfang, Foothills]"
+  ],
+  "description": [
+    "A lone modwir stands on this bare slope, its gnarled branches swept bare by the winds that whistle down from the mountains.  You feel dwarfed by the huge tree as you climb past it."
+  ],
+  "paths": [
+    "Obvious paths: up, down"
+  ],
+  "location": "Glatoph",
   "wayto": {
     "2574": "up",
     "2576": "down"
   },
-  "paths": [
-    "Obvious paths: up, down"
-  ],
+  "timeto": {
+    "2574": 0.2,
+    "2576": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     572,
     789,
     582,
     799
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "A lone modwir stands on this bare slope, its gnarled branches swept bare by the winds that whistle down from the mountains.  You feel dwarfed by the huge tree as you climb past it."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Upper Trollfang, Foothills]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2574": 0.2,
-    "2576": 0.2
-  },
-  "id": 2575,
-  "location": "Glatoph",
   "tags": [
     "sassafras leaf",
     "white hook mushroom",
@@ -72,10 +69,6 @@
     "twisted twig",
     "slender twig",
     "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

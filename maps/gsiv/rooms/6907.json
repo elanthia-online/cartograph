@@ -1,45 +1,32 @@
 {
+  "id": 6907,
+  "title": [
+    "[Smuggling Tunnels, Passage]"
+  ],
+  "description": [
+    "The air is completely motionless, stagnant after centuries of pooling.  Dirt completely blocks the tunnel to the south, leaving this as the end of this smuggling line.  Only weak light filters in from the northeast, casting the area in shadow."
+  ],
+  "paths": [
+    "Obvious exits: northeast, west"
+  ],
+  "location": "the smuggling tunnels",
   "wayto": {
     "6905": "northeast",
     "6908": "west"
   },
-  "paths": [
-    "Obvious exits: northeast, west"
-  ],
+  "timeto": {
+    "6905": 0.2,
+    "6908": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     1130,
     1464,
     1140,
     1474
   ],
-  "terrain": "indoors",
-  "description": [
-    "The air is completely motionless, stagnant after centuries of pooling.  Dirt completely blocks the tunnel to the south, leaving this as the end of this smuggling line.  Only weak light filters in from the northeast, casting the area in shadow."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Smuggling Tunnels, Passage]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6905": 0.2,
-    "6908": 0.2
-  },
-  "id": 6907,
-  "location": "the smuggling tunnels",
   "tags": [
     "withered black mushroom",
-    "some bur-clover root",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some bur-clover root"
   ]
 }

@@ -1,58 +1,30 @@
 {
-  "wayto": {
-    "20955": "go opening",
-    "21087": {
-      "stringproc": "fb0ac1790708c440aff97163e24b52c0"
-    }
-  },
+  "id": 21086,
+  "title": [
+    "[Monsoon Jungle, Mist Haven]"
+  ],
+  "description": [
+    "Thick vines hang down from overhead trees, their lengths tangled up with one another to create an extra curtain of green in the already dense jungle.  A heavy mist floats through the air, completely covering the jungle floor, as well as nearly obscuring the montage of mossy trees that clump together and create a barrier in all directions."
+  ],
   "paths": [
     "Obvious paths: none"
   ],
+  "location": "the Monsoon Jungle",
+  "wayto": {
+    "20955": "go opening",
+    "21087": {
+      "file": "string_procs/wayto/21086_21087.rb"
+    }
+  },
+  "timeto": {
+    "20955": 0.2,
+    "21087": 0.2
+  },
+  "image": "ifw-wilds-1368242816.png",
   "image_coords": [
     1060,
     420,
     1079,
     439
-  ],
-  "terrain": "tropical",
-  "description": [
-    "Thick vines hang down from overhead trees, their lengths tangled up with one another to create an extra curtain of green in the already dense jungle.  A heavy mist floats through the air, completely covering the jungle floor, as well as nearly obscuring the montage of mossy trees that clump together and create a barrier in all directions."
-  ],
-  "image": "ifw-wilds-1368242816.png",
-  "climate": "hot, damp",
-  "title": [
-    "[Monsoon Jungle, Mist Haven]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "20955": 0.2,
-    "21087": 0.2
-  },
-  "id": 21086,
-  "location": "the Monsoon Jungle",
-  "tags": [
-    "acantha leaf",
-    "yellow heliconia",
-    "orange heliconia",
-    "pink heliconia",
-    "red heliconia",
-    "purple passionflower",
-    "pink passionflower",
-    "red passionflower",
-    "white passionflower",
-    "yellow passionflower",
-    "blue passionflower",
-    "murdroot",
-    "wavepetal blossom",
-    "twisted twig",
-    "slender twig",
-    "ebony twig",
-    "brostheras grass",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

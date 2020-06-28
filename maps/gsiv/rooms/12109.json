@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "12110": "west",
-    "12088": "east",
-    "2635": {
-      "stringproc": "f88a5ac335110328444947aa8fdfa490"
-    },
-    "12093": {
-      "stringproc": "dc0110972ab7e067d5fec20ece15581c"
-    },
-    "2605": {
-      "stringproc": "317c6eedd1ea40322b9b26b259a3053f"
-    }
-  },
+  "id": 12109,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "A woman stands at the head of the huge cavern.  The right half of her is perhaps the most beautiful woman you have seen.  Her skin is the color of milk, and blonde hair streams down over one feathered wing.  The other half of her body is the opposite.  The skin is rough, with matted hair tangled with a wing like leather.  In her right hand she holds a staff of light, with which she gestures towards a field of surpassing beauty.  Her left bears a scythe, pointing towards a pit of angry flames."
+  ],
   "paths": [
     "Obvious exits: east, west",
     "Obvious paths: east, west"
   ],
-  "image_coords": [
-    1031,
-    780,
-    1039,
-    788
-  ],
-  "terrain": null,
-  "description": [
-    "A woman stands at the head of the huge cavern.  The right half of her is perhaps the most beautiful woman you have seen.  Her skin is the color of milk, and blonde hair streams down over one feathered wing.  The other half of her body is the opposite.  The skin is rough, with matted hair tangled with a wing like leather.  In her right hand she holds a staff of light, with which she gestures towards a field of surpassing beauty.  Her left bears a scythe, pointing towards a pit of angry flames."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12110": "west",
+    "12088": "east",
+    "2635": {
+      "file": "string_procs/wayto/12109_2635.rb"
+    },
+    "12093": {
+      "file": "string_procs/wayto/12109_12093.rb"
+    },
+    "2605": {
+      "file": "string_procs/wayto/12109_2605.rb"
+    }
+  },
   "timeto": {
     "12110": 0.2,
     "12088": 0.2,
@@ -39,8 +31,13 @@
     "12093": 21.6,
     "2605": 16.0
   },
-  "id": 12109,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    1031,
+    780,
+    1039,
+    788
+  ],
   "tags": [
     "withered deathblossom",
     "twisted black mawflower",
@@ -49,8 +46,5 @@
     "discolored fleshbinder bud",
     "oozing fleshsore bulb",
     "slime-covered grave blossom"
-  ],
-  "links": [
-
   ]
 }

@@ -1,35 +1,32 @@
 {
+  "id": 1277,
+  "title": [
+    "[Upper Trollfang]"
+  ],
+  "description": [
+    "Several grey squirrels bark in protest as your presence has greatly disturbed their work.  Countless numbers of acorns litter the ground surrounding the many large oak trees that grow here.  Obviously, these squirrels will be busy for quite some time yet."
+  ],
+  "paths": [
+    "Obvious paths: east, south"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "1278": "south",
     "8431": "go path",
     "475": "east"
   },
-  "paths": [
-    "Obvious paths: east, south"
-  ],
+  "timeto": {
+    "1278": 0.2,
+    "8431": 0.2,
+    "475": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     740,
     349,
     750,
     359
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "Several grey squirrels bark in protest as your presence has greatly disturbed their work.  Countless numbers of acorns litter the ground surrounding the many large oak trees that grow here.  Obviously, these squirrels will be busy for quite some time yet."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Upper Trollfang]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1278": 0.2,
-    "8431": 0.2,
-    "475": 0.2
-  },
-  "id": 1277,
-  "location": "the Upper Trollfang",
   "tags": [
     "some acantha leaf",
     "some basal moss",
@@ -82,32 +79,6 @@
     "genkew mushroom",
     "broken twig",
     "fragrant white lily",
-    "yew twig",
-    "acantha leaf",
-    "torban leaf",
-    "calamia fruit",
-    "haphip root",
-    "basal moss",
-    "sticks",
-    "angelica root",
-    "blueberries",
-    "elderberries",
-    "wild grapes",
-    "tree bark",
-    "murkweed",
-    "white lily",
-    "pink rain lily",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "ebony twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "walnuts",
-    "alder bark",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "yew twig"
   ]
 }

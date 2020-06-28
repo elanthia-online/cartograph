@@ -1,43 +1,36 @@
 {
+  "id": 2940,
+  "title": [
+    "[Abbey Courtyard]"
+  ],
+  "description": [
+    "A crumbling stone doorway leads into the abbey's guest house, part of an old stonehold that masks the trail to the valley.  A thick stone wall hewn from massive granite blocks circles the courtyard and continues along the edge of the abbey.  To the northwest, a timber-framed building sags against the wall."
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest"
+  ],
+  "location": "the Abbey",
   "wayto": {
     "2937": "go doorway",
     "2941": "northwest",
     "2944": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, northwest"
-  ],
+  "timeto": {
+    "2937": 0.2,
+    "2941": 0.2,
+    "2944": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     690,
     748,
     701,
     758
   ],
-  "terrain": "hard, flat",
-  "description": [
-    "A crumbling stone doorway leads into the abbey's guest house, part of an old stonehold that masks the trail to the valley.  A thick stone wall hewn from massive granite blocks circles the courtyard and continues along the edge of the abbey.  To the northwest, a timber-framed building sags against the wall."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Abbey Courtyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2937": 0.2,
-    "2941": 0.2,
-    "2944": 0.2
-  },
-  "id": 2940,
-  "location": "the Abbey",
   "tags": [
     "calmintha flower",
     "nedum vereri",
     "dark shambler",
-    "arctic puma",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "arctic puma"
   ]
 }

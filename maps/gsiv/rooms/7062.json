@@ -1,47 +1,35 @@
 {
+  "id": 7062,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "A skeletal arm protrudes, fingers outstretched in a gesture of supplication, from the rubble of a section of collapsed dirt wall."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7063": "southwest",
     "7061": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southwest"
-  ],
+  "timeto": {
+    "7063": 0.2,
+    "7061": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     271,
     899,
     281,
     909
   ],
-  "terrain": "indoors",
-  "description": [
-    "A skeletal arm protrudes, fingers outstretched in a gesture of supplication, from the rubble of a section of collapsed dirt wall."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7063": 0.2,
-    "7061": 0.2
-  },
-  "id": 7062,
-  "location": "Darkstone Castle",
   "tags": [
     "some cave moss",
     "withered black mushroom",
     "some wolifrew lichen",
     "some wingstem root",
-    "roa'ter",
-    "wolifrew lichen",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "roa'ter"
   ]
 }

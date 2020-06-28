@@ -1,41 +1,33 @@
 {
+  "id": 3107,
+  "title": [
+    "[Abandoned Farm, Yard]"
+  ],
+  "description": [
+    "The hard-packed earth of the yard is cluttered with heaps of broken equipment and rusty tools.  Ramshackle wooden buildings lean into each other, as though a sudden gust of wind might come through and demolish them all.  A broken plank leads into the barn."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the Abandoned Farm",
   "wayto": {
     "3116": "go build",
     "3106": "go plank",
     "3108": "east"
   },
-  "paths": [
-    "Obvious paths: east"
-  ],
+  "timeto": {
+    "3116": 0.2,
+    "3106": 0.2,
+    "3108": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     731,
     461,
     741,
     471
   ],
-  "terrain": "hard, flat",
-  "description": [
-    "The hard-packed earth of the yard is cluttered with heaps of broken equipment and rusty tools.  Ramshackle wooden buildings lean into each other, as though a sudden gust of wind might come through and demolish them all.  A broken plank leads into the barn."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Abandoned Farm, Yard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3116": 0.2,
-    "3106": 0.2,
-    "3108": 0.2
-  },
-  "id": 3107,
-  "location": "the Abandoned Farm",
   "tags": [
-    "wraith",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wraith"
   ]
 }

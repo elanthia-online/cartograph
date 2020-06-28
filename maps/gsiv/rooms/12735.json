@@ -1,38 +1,28 @@
 {
+  "id": 12735,
+  "title": [
+    "[Ruined Temple, Third Floor]"
+  ],
+  "description": [
+    "A mountain of rubble blocks passage to the east, rising nearly to the top of the remaining walls.  While the debris appears packed together at the base, traversing the upper portion is hazardous.  The damaged floor wears a visible slant in one area, with seawater from below pooling in the corner."
+  ],
+  "paths": [
+    "Obvious paths: north, east"
+  ],
+  "location": "the Ruined Temple",
   "wayto": {
     "12734": "north",
     "12739": "east"
   },
-  "paths": [
-    "Obvious paths: north, east"
-  ],
+  "timeto": {
+    "12734": 0.2,
+    "12739": 0.2
+  },
+  "image": "ti-nelemar-1262373036.png",
   "image_coords": [
     608,
     168,
     644,
     204
-  ],
-  "terrain": null,
-  "description": [
-    "A mountain of rubble blocks passage to the east, rising nearly to the top of the remaining walls.  While the debris appears packed together at the base, traversing the upper portion is hazardous.  The damaged floor wears a visible slant in one area, with seawater from below pooling in the corner."
-  ],
-  "image": "ti-nelemar-1262373036.png",
-  "climate": null,
-  "title": [
-    "[Ruined Temple, Third Floor]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "12734": 0.2,
-    "12739": 0.2
-  },
-  "id": 12735,
-  "location": "the Ruined Temple",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

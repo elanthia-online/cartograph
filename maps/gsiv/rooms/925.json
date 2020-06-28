@@ -1,42 +1,35 @@
 {
+  "id": 925,
+  "title": [
+    "[Whistler's Pass, Tunnel]"
+  ],
+  "description": [
+    "The tunnel twists, following a course determined centuries ago by the flow of water.  Although sound within the passage seems muffled, the muted thunder of an underground river, its source hidden within the mountain itself, rolls across the stone, sending a discernible shudder through the tunnel system."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "924": "northeast",
     "926": "southeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southeast"
-  ],
+  "timeto": {
+    "924": 0.2,
+    "926": 0.2
+  },
+  "image": "en-whistlers_pass-1264234799.png",
   "image_coords": [
     327,
     593,
     337,
     603
   ],
-  "terrain": "indoors",
-  "description": [
-    "The tunnel twists, following a course determined centuries ago by the flow of water.  Although sound within the passage seems muffled, the muted thunder of an underground river, its source hidden within the mountain itself, rolls across the stone, sending a discernible shudder through the tunnel system."
-  ],
-  "image": "en-whistlers_pass-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Whistler's Pass, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "924": 0.2,
-    "926": 0.2
-  },
-  "id": 925,
-  "location": "Whistler's Pass",
   "tags": [
     "white hook mushroom",
     "cave moss",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

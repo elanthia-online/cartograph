@@ -1,38 +1,28 @@
 {
+  "id": 8328,
+  "title": [
+    "[Spider Temple, Leg of Aldemur]"
+  ],
+  "description": [
+    "The walls of this room are covered with fine tapestries.  Among them, the small bed, wooden chair and simple table that furnish the room, look out of place."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the Spider Temple",
   "wayto": {
     "8327": "go door",
     "8329": "east"
   },
-  "paths": [
-    "Obvious exits: east"
-  ],
+  "timeto": {
+    "8327": 0.2,
+    "8329": 0.2
+  },
+  "image": "wl-spider_temple-1264234799.png",
   "image_coords": [
     708,
     701,
     718,
     711
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The walls of this room are covered with fine tapestries.  Among them, the small bed, wooden chair and simple table that furnish the room, look out of place."
-  ],
-  "image": "wl-spider_temple-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Spider Temple, Leg of Aldemur]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8327": 0.2,
-    "8329": 0.2
-  },
-  "id": 8328,
-  "location": "the Spider Temple",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

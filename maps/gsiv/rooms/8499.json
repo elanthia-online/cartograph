@@ -1,38 +1,28 @@
 {
+  "id": 8499,
+  "title": [
+    "[Temple, Altar]"
+  ],
+  "description": [
+    "The old altar sits overlooking the sanctuary.  From here, the shadows seem deeper, the silence more ominous, as if the sonorous breathing of a majestic life had suddenly ceased, leaving you alone and afraid.  Set into the wall behind the altar is a massive glass window, not yet broken, although a creeping dark stain has spread over it, turning the colors an unwholesome red-black.  Some marble stairs lead down into darkness, providing an alternative to going back to the sanctuary itself."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Temple of Love",
   "wayto": {
     "8492": "go sanctuary",
     "8500": "go stairs"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "8492": 0.2,
+    "8500": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     291,
     549,
     301,
     559
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The old altar sits overlooking the sanctuary.  From here, the shadows seem deeper, the silence more ominous, as if the sonorous breathing of a majestic life had suddenly ceased, leaving you alone and afraid.  Set into the wall behind the altar is a massive glass window, not yet broken, although a creeping dark stain has spread over it, turning the colors an unwholesome red-black.  Some marble stairs lead down into darkness, providing an alternative to going back to the sanctuary itself."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Temple, Altar]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8492": 0.2,
-    "8500": 0.2
-  },
-  "id": 8499,
-  "location": "the Temple of Love",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "3249": "southeast"
-  },
+  "id": 3248,
+  "title": [
+    "[A Frozen Battlefield]"
+  ],
+  "description": [
+    "Snowdrifts cover the area in random patterns, the swirling wind leaving nothing of permanence within this wasteland of ice and frost.  The gusting wind bites deep, reinforcing the unrelenting chill."
+  ],
   "paths": [
     "Obvious paths: southeast, south, southwest, west"
   ],
+  "location": "the Ice Plains",
+  "wayto": {
+    "3249": "southeast"
+  },
+  "timeto": {
+    "3249": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     68,
     428,
     78,
     438
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "Snowdrifts cover the area in random patterns, the swirling wind leaving nothing of permanence within this wasteland of ice and frost.  The gusting wind bites deep, reinforcing the unrelenting chill."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[A Frozen Battlefield]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3249": 0.2
-  },
-  "id": 3248,
-  "location": "the Ice Plains",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

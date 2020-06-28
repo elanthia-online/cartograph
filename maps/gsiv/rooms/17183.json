@@ -1,37 +1,31 @@
 {
+  "id": 17183,
+  "title": [
+    "[Warrior Guild, Hall of Arms]"
+  ],
+  "description": [
+    "The hall of arms ends here, with each parallel wall subtly converging into a semicircle marked by a heavy wooden door with dark metal hinges and reinforced with darkened studs.  The flickering light emanating from the sconces on the empty walls barely reaches the door, giving it a slightly foreboding appearance."
+  ],
+  "paths": [
+    "Obvious exits: southeast"
+  ],
+  "location": "Ta'Illistim",
   "wayto": {
     "17214": "go door",
     "17182": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast"
-  ],
+  "timeto": {
+    "17214": 0.2,
+    "17182": 0.2
+  },
+  "image": "en-ta_illistim-warrior_guild.png",
   "image_coords": [
     1116,
     573,
     1138,
     598
   ],
-  "terrain": null,
-  "description": [
-    "The hall of arms ends here, with each parallel wall subtly converging into a semicircle marked by a heavy wooden door with dark metal hinges and reinforced with darkened studs.  The flickering light emanating from the sconces on the empty walls barely reaches the door, giving it a slightly foreboding appearance."
-  ],
-  "image": "en-ta_illistim-warrior_guild.png",
-  "climate": null,
-  "title": [
-    "[Warrior Guild, Hall of Arms]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "17214": 0.2,
-    "17182": 0.2
-  },
-  "id": 17183,
-  "location": "Ta'Illistim",
   "tags": [
     "warrior guild floor"
-  ],
-  "links": [
-
   ]
 }

@@ -1,84 +1,36 @@
 {
+  "id": 5709,
+  "title": [
+    "[Deep Woods, Overgrowth]"
+  ],
+  "description": [
+    "The trees, brambles and fog all conspire to lose you within the forest, making visibility uncertain at best.  Any movement becomes a shambling stagger, more controlled tripping than a true walk as the bushes seem to reach out to purposely snare you.  Brambles obscure a crumbling section of the temple wall."
+  ],
+  "paths": [
+    "Obvious paths: south, southwest"
+  ],
+  "location": "the deep woods",
   "wayto": {
     "5707": "southwest",
     "5708": "south",
     "5698": {
-      "stringproc": "81571f225ff63e98466ef664e88610dd"
+      "file": "string_procs/wayto/5709_5698.rb"
     }
   },
-  "paths": [
-    "Obvious paths: south, southwest"
-  ],
+  "timeto": {
+    "5707": 0.2,
+    "5708": 0.2,
+    "5698": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     1352,
     342,
     1362,
     352
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "The trees, brambles and fog all conspire to lose you within the forest, making visibility uncertain at best.  Any movement becomes a shambling stagger, more controlled tripping than a true walk as the bushes seem to reach out to purposely snare you.  Brambles obscure a crumbling section of the temple wall."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Deep Woods, Overgrowth]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5707": 0.2,
-    "5708": 0.2,
-    "5698": 0.2
-  },
-  "id": 5709,
-  "location": "the deep woods",
   "tags": [
     "vesperti",
-    "no-magic",
-    "acantha leaf",
-    "torban leaf",
-    "calamia fruit",
-    "haphip root",
-    "tkaro root",
-    "sticks",
-    "angelica root",
-    "trollfear mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "handful of pinenuts",
-    "broken twig",
-    "pine cone",
-    "pine needles",
-    "stalk of bluebells",
-    "golden buttercup",
-    "wild pink geranium",
-    "wild chokecherry",
-    "tree bark",
-    "white lily",
-    "pink rain lily",
-    "coppery rain lily",
-    "oxblood lily",
-    "kylan berry",
-    "white baneberry",
-    "ayana'al leaf",
-    "yew twig",
-    "ironfern root",
-    "twisted twig",
-    "slender twig",
-    "ebony twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "no-magic"
   ]
 }

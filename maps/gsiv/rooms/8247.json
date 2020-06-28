@@ -1,38 +1,28 @@
 {
+  "id": 8247,
+  "title": [
+    "[Wolves' Den, Barracks]"
+  ],
+  "description": [
+    "Most of the floor is submerged under a shallow pool of brackish water.  A blanket of light green scum floats atop it.  Nothing remains of whatever furnished this room, save for a few rusted torch sconces along the southern wall.  A wooden doorway to the east remains intact, just out of the water's reach."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Wolves' Den",
   "wayto": {
     "8227": "go iron door",
     "8246": "go wooden doorway"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "8227": 0.2,
+    "8246": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     190,
     200,
     200,
     210
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Most of the floor is submerged under a shallow pool of brackish water.  A blanket of light green scum floats atop it.  Nothing remains of whatever furnished this room, save for a few rusted torch sconces along the southern wall.  A wooden doorway to the east remains intact, just out of the water's reach."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Wolves' Den, Barracks]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8227": 0.2,
-    "8246": 0.2
-  },
-  "id": 8247,
-  "location": "the Wolves' Den",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

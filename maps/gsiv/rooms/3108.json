@@ -1,39 +1,31 @@
 {
+  "id": 3108,
+  "title": [
+    "[Abandoned Farm, Yard]"
+  ],
+  "description": [
+    "Packed snow covers the yard, making the area seem rather large and open.  Several rain barrels are frozen along a thin wood-framed building in puddles of brownish ice."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Abandoned Farm",
   "wayto": {
     "3107": "west",
     "3109": "east"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "3107": 0.2,
+    "3109": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     758,
     461,
     768,
     471
   ],
-  "terrain": "hard, flat",
-  "description": [
-    "Packed snow covers the yard, making the area seem rather large and open.  Several rain barrels are frozen along a thin wood-framed building in puddles of brownish ice."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Abandoned Farm, Yard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3107": 0.2,
-    "3109": 0.2
-  },
-  "id": 3108,
-  "location": "the Abandoned Farm",
   "tags": [
-    "wraith",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wraith"
   ]
 }

@@ -1,34 +1,31 @@
 {
+  "id": 7287,
+  "title": [
+    "[Slither Creek, South Bank]"
+  ],
+  "description": [
+    "Just downstream, the creek empties into a small lake.  Cattails grow at the edge of the water, waving in a slight breeze, and jewel-hued dragonflies dart about the pool.  Although the banks are marshy, they look stable enough to support you, giving you safe access to the creek.",
+    "Just downstream, the creek empties into a small lake.  Cattails grow at the edge of the water, waving in a slight breeze, and you hear insects darting about the pool.  Although the banks are marshy, they look stable enough to support you, giving you safe access to the creek."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7286": "northeast",
     "7288": "go creek"
   },
-  "paths": [
-    "Obvious paths: northeast"
-  ],
+  "timeto": {
+    "7286": 0.2,
+    "7288": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     36,
     276,
     46,
     286
   ],
-  "terrain": "riparian",
-  "description": [
-    "Just downstream, the creek empties into a small lake.  Cattails grow at the edge of the water, waving in a slight breeze, and jewel-hued dragonflies dart about the pool.  Although the banks are marshy, they look stable enough to support you, giving you safe access to the creek.",
-    "Just downstream, the creek empties into a small lake.  Cattails grow at the edge of the water, waving in a slight breeze, and you hear insects darting about the pool.  Although the banks are marshy, they look stable enough to support you, giving you safe access to the creek."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Slither Creek, South Bank]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7286": 0.2,
-    "7288": 0.2
-  },
-  "id": 7287,
-  "location": "the Graveyard",
   "tags": [
     "some acantha leaf",
     "some ephlox moss",
@@ -54,10 +51,6 @@
     "murdroot",
     "wavepetal blossom",
     "ironfern root",
-    "talneo root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "talneo root"
   ]
 }

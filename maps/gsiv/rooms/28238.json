@@ -1,30 +1,19 @@
 {
-  "wayto": {
-    "291": "go ladder",
-    "28699": "go trapdoor"
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "A rough angled ceiling of thin iron plates arcs overhead, supported by thick poles of iron that continue down to the ground that is far below.  Planks of wood make up the sturdy albeit rough floor, and a few small notches are cut into the dark metal walls.  The countryside expands out beneath you, its terrain easily visible from this high vantage point, the moonlight gently illuminating the interior of the tower."
-  ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Tower]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "291": 0.2,
-    "28699": 0.2
-  },
   "id": 28238,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
+  "title": [
+    "[Wehnimer's, Dagmar Lane]"
   ],
-  "unique_loot": null
+  "description": [
+    "This long, narrow dirt road presses between several buildings, connecting one of the quieter corners of this part of town with the main thoroughfares, where small residences and humble shops give way to the larger emporia, offices and grander structures.  A heavy iron-banded door has been set into a high wall of the town barracks."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "wayto": {
+    "28237": "go door"
+  },
+  "timeto": {
+    "28237": 0.2
+  }
 }

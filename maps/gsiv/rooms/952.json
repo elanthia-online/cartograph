@@ -1,33 +1,30 @@
 {
+  "id": 952,
+  "title": [
+    "[Whistler's Pass]"
+  ],
+  "description": [
+    "Scattered shale and loose gravel confound movement through the rocky cleft, making footing uneasy and at times treacherous.  Stones seem to shift with each step, and the frequent gusts of chill mountain air only add to the difficulty of the trek."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "953": "southwest",
     "951": "east"
   },
-  "paths": [
-    "Obvious paths: east, southwest"
-  ],
+  "timeto": {
+    "953": 0.2,
+    "951": 0.2
+  },
+  "image": "en-whistlers_pass-1264234799.png",
   "image_coords": [
     309,
     1127,
     319,
     1137
   ],
-  "terrain": "mountainous",
-  "description": [
-    "Scattered shale and loose gravel confound movement through the rocky cleft, making footing uneasy and at times treacherous.  Stones seem to shift with each step, and the frequent gusts of chill mountain air only add to the difficulty of the trek."
-  ],
-  "image": "en-whistlers_pass-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Whistler's Pass]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "953": 0.2,
-    "951": 0.2
-  },
-  "id": 952,
-  "location": "Whistler's Pass",
   "tags": [
     "marallis berry",
     "cuctucae berry",
@@ -42,10 +39,6 @@
     "cluster of butterflyweed",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

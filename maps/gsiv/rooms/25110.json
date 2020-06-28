@@ -1,37 +1,30 @@
 {
+  "id": 25110,
+  "title": [
+    "[Reim Castle, West Wing]"
+  ],
+  "description": [
+    "Framed with solid gold, an iron-bound door, carved from dark heartwood bars the way forward.  Above the door is a golden plaque, elegantly hung from two golden rods.  The plush carpet from the south continues to the west, leading down another wing of the castle."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "the Settlement of Reim",
   "wayto": {
     "25111": "west",
     "25109": "south",
     "25120": "go door"
   },
-  "paths": [
-    "Obvious exits: south, west"
-  ],
-  "image_coords": [
-    308,
-    342,
-    319,
-    352
-  ],
-  "terrain": null,
-  "description": [
-    "Framed with solid gold, an iron-bound door, carved from dark heartwood bars the way forward.  Above the door is a golden plaque, elegantly hung from two golden rods.  The plush carpet from the south continues to the west, leading down another wing of the castle."
-  ],
-  "image": "imt-Reim-1260914759.png",
-  "climate": null,
-  "title": [
-    "[Reim Castle, West Wing]"
-  ],
-  "check_location": null,
   "timeto": {
     "25111": 0.2,
     "25109": 0.2,
     "25120": 0.2
   },
-  "id": 25110,
-  "location": "the Settlement of Reim",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  "image": "imt-Reim-1260914759.png",
+  "image_coords": [
+    308,
+    342,
+    319,
+    352
+  ]
 }

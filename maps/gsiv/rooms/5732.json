@@ -1,47 +1,39 @@
 {
+  "id": 5732,
+  "title": [
+    "[Marshtown, Shoreline]"
+  ],
+  "description": [
+    "The boardwalk widens at this point to a circular-shaped gathering area, almost a town square.  Many folks loiter about on the docks or on benches, watching the ships and sailors at their work.  To the northwest sits a chandler's shop, the center of most of the commotion in the area.  Supplies are brought in and out of the building almost constantly."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest, northwest"
+  ],
+  "location": "the lowlands of Marshtown",
   "wayto": {
     "11799": "go shop",
     "5731": "east",
     "5733": "northwest",
     "5734": "southwest"
   },
-  "paths": [
-    "Obvious paths: east, southwest, northwest"
-  ],
-  "image_coords": [
-    813,
-    753,
-    823,
-    763
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "The boardwalk widens at this point to a circular-shaped gathering area, almost a town square.  Many folks loiter about on the docks or on benches, watching the ships and sailors at their work.  To the northwest sits a chandler's shop, the center of most of the commotion in the area.  Supplies are brought in and out of the building almost constantly."
-  ],
-  "image": "vo-caravansary-1264234799.png",
-  "climate": "humid",
-  "title": [
-    "[Marshtown, Shoreline]"
-  ],
-  "check_location": null,
   "timeto": {
     "11799": 0.2,
     "5731": 0.2,
     "5733": 0.2,
     "5734": 0.2
   },
-  "id": 5732,
-  "location": "the lowlands of Marshtown",
+  "image": "vo-caravansary-1264234799.png",
+  "image_coords": [
+    813,
+    753,
+    823,
+    763
+  ],
   "tags": [
     "node",
     "supernode",
     "meta:mapname:Vornavis - Caravansary",
     "meta:mapshortname:Caravansary",
-    "meta:mapcategory:Vornavis",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:mapcategory:Vornavis"
   ]
 }

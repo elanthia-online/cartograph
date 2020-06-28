@@ -1,42 +1,32 @@
 {
+  "id": 9784,
+  "title": [
+    "[Maaghara Labyrinth]"
+  ],
+  "description": [
+    "Patches of phosphorescent red fungus grow along ceiling of this circular tunnel, the invasive confines of the room tinted a melancholy sanguine by the growth.  Vertical fissures spread across the walls like jagged crackles of energy.  A light coating of moisture edges the deep scars upon the earth, the tiny drops imparting a sparkling sheen to the otherwise dismal surroundings."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast"
+  ],
+  "location": "the Maaghara Tower",
   "wayto": {
     "9734": {
-      "stringproc": "8ba72f5b45e4c6cad5790295e680ffb9"
+      "file": "string_procs/wayto/9784_9734.rb"
     },
     "9769": "southeast",
     "9771": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southeast"
-  ],
-  "image_coords": [
-    1069,
-    705,
-    1079,
-    715
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Patches of phosphorescent red fungus grow along ceiling of this circular tunnel, the invasive confines of the room tinted a melancholy sanguine by the growth.  Vertical fissures spread across the walls like jagged crackles of energy.  A light coating of moisture edges the deep scars upon the earth, the tiny drops imparting a sparkling sheen to the otherwise dismal surroundings."
-  ],
-  "image": "en-tower-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Maaghara Labyrinth]"
-  ],
-  "check_location": null,
   "timeto": {
     "9734": 100.0,
     "9769": 0.2,
     "9771": 0.2
   },
-  "id": 9784,
-  "location": "the Maaghara Tower",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-tower-1264234799.png",
+  "image_coords": [
+    1069,
+    705,
+    1079,
+    715
   ]
 }

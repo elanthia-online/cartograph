@@ -1,53 +1,37 @@
 {
+  "id": 1002,
+  "title": [
+    "[Zul Logoth, Sapphire Tunnel]"
+  ],
+  "description": [
+    "The tunnel turns ever so slightly as it makes its way through this portion of the business district.  A wrought iron pole protrudes several feet out of the south wall, and a silvery metal key hangs from the pole.  Below the key, a heavy black door with several deadbolt locks allows entrance into the building.  A wide, unpainted, metal rollup door occupies the north wall.  The sound of many roltons bleating pathetically emanates from behind the door."
+  ],
+  "paths": [
+    "Obvious exits: east, northwest"
+  ],
+  "location": "the tunnels and caverns of Zul Logoth",
   "wayto": {
     "1001": "east",
     "16848": "go cottage",
     "1003": "northwest",
     "9490": "go black door"
   },
-  "paths": [
-    "Obvious exits: east, northwest"
-  ],
-  "image_coords": [
-    760,
-    580,
-    780,
-    600
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The tunnel turns ever so slightly as it makes its way through this portion of the business district.  A wrought iron pole protrudes several feet out of the south wall, and a silvery metal key hangs from the pole.  Below the key, a heavy black door with several deadbolt locks allows entrance into the building.  A wide, unpainted, metal rollup door occupies the north wall.  The sound of many roltons bleating pathetically emanates from behind the door."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Zul Logoth, Sapphire Tunnel]"
-  ],
-  "check_location": null,
   "timeto": {
     "1001": 0.2,
     "16848": 0.2,
     "1003": 0.2,
     "9490": 0.2
   },
-  "id": 1002,
-  "location": "the tunnels and caverns of Zul Logoth",
+  "image": "en-zul_logoth-1264234799.png",
+  "image_coords": [
+    760,
+    580,
+    780,
+    600
+  ],
   "tags": [
     "pepperthorn root",
     "ironfern root",
-    "some bolmara lichen",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "murdroot",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some bolmara lichen"
   ]
 }

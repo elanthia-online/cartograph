@@ -1,34 +1,31 @@
 {
+  "id": 5919,
+  "title": [
+    "[Catacombs, Cavern]"
+  ],
+  "description": [
+    "Wet black sludge lines the base of the catacombs walls.",
+    "Wet black sludge lines the base of the catacombs walls.  The monotonous sound of dripping water fills the otherwise silent cavern.  Empty sconces, which once lit the arched corridor, are evenly spaced along the slimy, mold-ridden walls.  The corridor stretches to the north and south as far as the dim light carries."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "5918": "south",
     "5920": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "5918": 0.2,
+    "5920": 0.2
+  },
+  "image": "en-tavaalor-1565907614.png",
   "image_coords": [
     258,
     1045,
     267,
     1053
   ],
-  "terrain": null,
-  "description": [
-    "Wet black sludge lines the base of the catacombs walls.",
-    "Wet black sludge lines the base of the catacombs walls.  The monotonous sound of dripping water fills the otherwise silent cavern.  Empty sconces, which once lit the arched corridor, are evenly spaced along the slimy, mold-ridden walls.  The corridor stretches to the north and south as far as the dim light carries."
-  ],
-  "image": "en-tavaalor-1565907614.png",
-  "climate": null,
-  "title": [
-    "[Catacombs, Cavern]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5918": 0.2,
-    "5920": 0.2
-  },
-  "id": 5919,
-  "location": "the catacombs",
   "tags": [
     "some bolmara lichen",
     "withered black mushroom",
@@ -42,8 +39,5 @@
     "murdroot",
     "bolmara lichen",
     "wingstem root"
-  ],
-  "links": [
-
   ]
 }

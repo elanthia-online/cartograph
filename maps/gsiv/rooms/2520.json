@@ -1,33 +1,30 @@
 {
+  "id": 2520,
+  "title": [
+    "[Blue Glacier, Mountain Pass]"
+  ],
+  "description": [
+    "You are hardly aware of your surroundings as you slowly and painfully work your way through the treacherous mountains.  The mind-numbing cold clouds your thinking and you find you have been traveling for hours with no conscious thought."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "the Icemule Trail",
   "wayto": {
     "2519": "northeast",
     "2521": "southwest"
   },
-  "paths": [
-    "Obvious paths: northeast, southwest"
-  ],
+  "timeto": {
+    "2519": 0.2,
+    "2521": 0.2
+  },
+  "image": "imt-trail-1264234799.png",
   "image_coords": [
     1100,
     521,
     1110,
     531
   ],
-  "terrain": "mountainous",
-  "description": [
-    "You are hardly aware of your surroundings as you slowly and painfully work your way through the treacherous mountains.  The mind-numbing cold clouds your thinking and you find you have been traveling for hours with no conscious thought."
-  ],
-  "image": "imt-trail-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Blue Glacier, Mountain Pass]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2519": 0.2,
-    "2521": 0.2
-  },
-  "id": 2520,
-  "location": "the Icemule Trail",
   "tags": [
     "calamintha blossom",
     "some valerian root",
@@ -42,10 +39,6 @@
     "snowberries",
     "pale thornberry",
     "red winterberry",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

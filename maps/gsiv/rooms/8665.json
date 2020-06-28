@@ -1,40 +1,32 @@
 {
+  "id": 8665,
+  "title": [
+    "[Wehnimer's, Treehouse]"
+  ],
+  "description": [
+    "This sturdy wooden platform, built of planks and wedged into a fork of the oak's trunk, provides a place to sit and rest in the shade of an overhanging branch.  A glance through the foliage affords a bird's-eye view of the town square below.",
+    "This sturdy wooden platform, built of planks and wedged into a fork of the oak's trunk, provides a place to sit and rest in the shadow of an overhanging branch.  A glance through the foliage affords a bird's-eye view of the lamplit town square below."
+  ],
+  "paths": [
+    "Obvious paths: down"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "17793": "go dark hollow",
     "228": "down"
   },
-  "paths": [
-    "Obvious paths: down"
-  ],
+  "timeto": {
+    "17793": 0.2,
+    "228": 0.2
+  },
+  "image": "wl-wehnimers-1264234799.png",
   "image_coords": [
     277,
     736,
     312,
     773
   ],
-  "terrain": "hard, flat",
-  "description": [
-    "This sturdy wooden platform, built of planks and wedged into a fork of the oak's trunk, provides a place to sit and rest in the shade of an overhanging branch.  A glance through the foliage affords a bird's-eye view of the town square below.",
-    "This sturdy wooden platform, built of planks and wedged into a fork of the oak's trunk, provides a place to sit and rest in the shadow of an overhanging branch.  A glance through the foliage affords a bird's-eye view of the lamplit town square below."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Wehnimer's, Treehouse]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "17793": 0.2,
-    "228": 0.2
-  },
-  "id": 8665,
-  "location": "the town of Wehnimer's Landing",
   "tags": [
-    "meta:teleport:fwi",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:teleport:fwi"
   ]
 }

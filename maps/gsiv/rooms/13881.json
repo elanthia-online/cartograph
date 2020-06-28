@@ -1,38 +1,28 @@
 {
+  "id": 13881,
+  "title": [
+    "[Cavernfast, Ne'Halin River Turn]"
+  ],
+  "description": [
+    "A granite bridge traverses the headlong rush of River Ne'Halin, its arched form tall and elegant.  A row of bas-relief carving follows the bridge's curve on either side, depicting herds of antelope leaping and galloping along.  The two herds stampede in opposite directions like streams of wagons passing on two sides of a road."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "13882": "go bridge",
     "13851": "southwest"
   },
-  "paths": [
-    "Obvious exits: southwest"
-  ],
+  "timeto": {
+    "13882": 0.2,
+    "13851": 0.2
+  },
+  "image": "wl-homes-2-1264234799.png",
   "image_coords": [
     899,
     1160,
     919,
     1180
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A granite bridge traverses the headlong rush of River Ne'Halin, its arched form tall and elegant.  A row of bas-relief carving follows the bridge's curve on either side, depicting herds of antelope leaping and galloping along.  The two herds stampede in opposite directions like streams of wagons passing on two sides of a road."
-  ],
-  "image": "wl-homes-2-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Cavernfast, Ne'Halin River Turn]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "13882": 0.2,
-    "13851": 0.2
-  },
-  "id": 13881,
-  "location": "Wehnimer's Landing",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

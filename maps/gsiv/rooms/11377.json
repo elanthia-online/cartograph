@@ -1,40 +1,29 @@
 {
+  "id": 11377,
+  "title": [
+    "[Citadel, Hallway]"
+  ],
+  "description": [
+    "The hallway is adorned with oak paneling which would look beautiful if polished.  However, it doesn't appear as if anyone has been by in many decades to perform that function.  It's a wonder that the wood has survived at all, with the obvious lack of care."
+  ],
+  "paths": [
+    "Obvious exits: east, south, west"
+  ],
   "wayto": {
     "11382": "south",
     "11376": "east",
     "11378": "west"
   },
-  "paths": [
-    "Obvious exits: east, south, west"
-  ],
-  "image_coords": [
-    324,
-    1289,
-    334,
-    1299
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The hallway is adorned with oak paneling which would look beautiful if polished.  However, it doesn't appear as if anyone has been by in many decades to perform that function.  It's a wonder that the wood has survived at all, with the obvious lack of care."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Citadel, Hallway]"
-  ],
-  "check_location": null,
   "timeto": {
     "11382": 0.2,
     "11376": 0.2,
     "11378": 0.2
   },
-  "id": 11377,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-citadel-1267238976.png",
+  "image_coords": [
+    324,
+    1289,
+    334,
+    1299
   ]
 }

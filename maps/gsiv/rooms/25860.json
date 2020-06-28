@@ -1,37 +1,33 @@
 {
-  "wayto": {
-    "25858": "out",
-    "25975": {
-      "stringproc": "543aea62ceeec0fdf75e3c211c24d01b"
-    }
-  },
+  "id": 25860,
+  "title": [
+    "[Stone Baths, Siren Suite]"
+  ],
+  "description": [
+    "The scent of lavender lingers in the air, the source being several dried stalks that have been placed in delicate blown glass vases set around the room.  The stone walls are covered with silken tapestries depicting various scenes of women in repose, while a tiled fireplace along the back wall serves as the focal point for a half ring of overstuffed sofas and divans.  Plush, pale violet carpeting rests beneath the furniture, and a curtained archway to the northeast exudes a floral aroma."
+  ],
   "paths": [
     "Obvious exits: out"
   ],
+  "location": "the town of Wehnimer's Landing",
+  "wayto": {
+    "25858": "out",
+    "25975": {
+      "file": "string_procs/wayto/25860_25975.rb"
+    }
+  },
+  "timeto": {
+    "25858": 0.2,
+    "25975": 0.3
+  },
+  "image": "wl-stone_baths-1487292814.png",
   "image_coords": [
     944,
     880,
     1086,
     941
   ],
-  "terrain": null,
-  "description": [
-    "The scent of lavender lingers in the air, the source being several dried stalks that have been placed in delicate blown glass vases set around the room.  The stone walls are covered with silken tapestries depicting various scenes of women in repose, while a tiled fireplace along the back wall serves as the focal point for a half ring of overstuffed sofas and divans.  Plush, pale violet carpeting rests beneath the furniture, and a curtained archway to the northeast exudes a floral aroma."
-  ],
-  "image": "wl-stone_baths-1487292814.png",
-  "climate": null,
-  "title": [
-    "[Stone Baths, Siren Suite]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "25858": 0.2,
-    "25975": 0.3
-  },
-  "id": 25860,
-  "location": "the town of Wehnimer's Landing",
   "tags": [
     "silver-cost:25975:2000"
-  ],
-  "unique_loot": null
+  ]
 }

@@ -1,36 +1,33 @@
 {
+  "id": 5017,
+  "title": [
+    "[Yegharren Plain, Grasslands]"
+  ],
+  "description": [
+    "A faint, narrow trail winds through the tall grass, the ground cleared of vegetation along a narrow strip where untold hundreds of hunters and hunted have passed.  A single acacia tree stands near the trail here, its lacy branches spreading like a filigreed umbrella under the night sky.",
+    "A faint, narrow trail winds through the tall grass, the ground cleared of vegetation along a narrow strip where untold hundreds of hunters and hunted have passed.  A single acacia tree stands near the trail here, its flowered branches spreading like a filigreed umbrella in the bright sun."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south, west"
+  ],
+  "location": "the Yegharren Plains",
   "wayto": {
     "5020": "south",
     "5019": "west",
     "5009": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, south, west"
-  ],
+  "timeto": {
+    "5020": 0.2,
+    "5019": 0.2,
+    "5009": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     919,
     603,
     927,
     611
   ],
-  "terrain": "grassland",
-  "description": [
-    "A faint, narrow trail winds through the tall grass, the ground cleared of vegetation along a narrow strip where untold hundreds of hunters and hunted have passed.  A single acacia tree stands near the trail here, its lacy branches spreading like a filigreed umbrella under the night sky.",
-    "A faint, narrow trail winds through the tall grass, the ground cleared of vegetation along a narrow strip where untold hundreds of hunters and hunted have passed.  A single acacia tree stands near the trail here, its flowered branches spreading like a filigreed umbrella in the bright sun."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Yegharren Plain, Grasslands]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5020": 0.2,
-    "5019": 0.2,
-    "5009": 0.2
-  },
-  "id": 5017,
-  "location": "the Yegharren Plains",
   "tags": [
     "some sovyn clove",
     "sprig of columbine",
@@ -85,46 +82,6 @@
     "vermilion fire lily",
     "small apple",
     "ear of corn",
-    "stalk of monkeyflower",
-    "acantha leaf",
-    "ambrominas leaf",
-    "sovyn clove",
-    "angelica root",
-    "wild grapes",
-    "golden buttercup",
-    "stalk of goldenrod",
-    "sprig of larkspur",
-    "Imaera's Lace",
-    "stalk of burdock",
-    "barley grass",
-    "wheat grass",
-    "fig",
-    "mustard seeds",
-    "rose-marrow root",
-    "wild sage",
-    "motherwort",
-    "blaestonberry blossom",
-    "honeysuckle vine",
-    "sprig of lavender",
-    "sprig of mournbloom",
-    "wild orchid",
-    "wild pansy blossom",
-    "wood violet",
-    "wolfsbane root",
-    "huckleberries",
-    "raspberries",
-    "murkweed",
-    "white lily",
-    "fire lily",
-    "luckbloom blossom",
-    "murdroot",
-    "wavepetal blossom",
-    "ironfern root",
-    "nightbloom blossom",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "stalk of monkeyflower"
   ]
 }

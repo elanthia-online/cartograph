@@ -1,41 +1,31 @@
 {
+  "id": 7379,
+  "title": [
+    "[Shadow Plain]"
+  ],
+  "description": [
+    "The dried out and barren remains of this once beautiful plain are peppered by small mounds of black sand.  Dark clouds overhead cast haunting shadows that ooze over the barren ground.  Stretched out to the southeast lie long stretches of shattered and dead land."
+  ],
+  "paths": [
+    "Obvious paths: southwest, northwest"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7378": "northwest",
     "7380": "southwest"
   },
-  "paths": [
-    "Obvious paths: southwest, northwest"
-  ],
+  "timeto": {
+    "7378": 0.2,
+    "7380": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1279,
     996,
     1289,
     1006
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "The dried out and barren remains of this once beautiful plain are peppered by small mounds of black sand.  Dark clouds overhead cast haunting shadows that ooze over the barren ground.  Stretched out to the southeast lie long stretches of shattered and dead land."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Shadow Plain]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7378": 0.2,
-    "7380": 0.2
-  },
-  "id": 7379,
-  "location": "the Shadow Valley",
   "tags": [
-    "night mare",
-    "longgrass",
-    "wyrm thorn",
-    "petrified shadowstalk",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "night mare"
   ]
 }

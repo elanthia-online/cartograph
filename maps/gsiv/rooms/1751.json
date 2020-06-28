@@ -1,42 +1,31 @@
 {
+  "id": 1751,
+  "title": [
+    "[Gossamer Valley, North Valley]"
+  ],
+  "description": [
+    "Heavy snow blankets the area and makes progress slow.  To the northeast low, heavy clouds cover a conifer forest, and every so often a tendril reaches out of the cloudbank and drops some snow in your area.  The snowfall does not last long as the tendril dissipates quickly in the frigid cold.  The wind adds more snow, driving it in from the east in lashing gusts then forcing it up the mountainside where it adds to the heavy weight already there.  Soon it will all come down at once."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "Gossamer Valley",
   "wayto": {
     "1750": "southwest",
     "1752": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, southwest"
-  ],
+  "timeto": {
+    "1750": 0.2,
+    "1752": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     231,
     304,
     241,
     314
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "Heavy snow blankets the area and makes progress slow.  To the northeast low, heavy clouds cover a conifer forest, and every so often a tendril reaches out of the cloudbank and drops some snow in your area.  The snowfall does not last long as the tendril dissipates quickly in the frigid cold.  The wind adds more snow, driving it in from the east in lashing gusts then forcing it up the mountainside where it adds to the heavy weight already there.  Soon it will all come down at once."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Gossamer Valley, North Valley]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1750": 0.2,
-    "1752": 0.2
-  },
-  "id": 1751,
-  "location": "Gossamer Valley",
   "tags": [
-    "wintergreen leaf",
-    "bright red teaberry",
-    "broken twig",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wintergreen leaf"
   ]
 }

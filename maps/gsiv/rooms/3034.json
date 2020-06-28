@@ -1,33 +1,30 @@
 {
+  "id": 3034,
+  "title": [
+    "[A Wooded Path]"
+  ],
+  "description": [
+    "Fresh snow rests on the branches of the cedar trees lining the narrow path.  The conifers choke out much of the underbrush that grows here, the remaining scattered shrubs struggle for light."
+  ],
+  "paths": [
+    "Obvious paths: north, out"
+  ],
+  "location": "Icemule Ranger Guild",
   "wayto": {
     "3035": "north",
     "3033": "out"
   },
-  "paths": [
-    "Obvious paths: north, out"
-  ],
+  "timeto": {
+    "3035": 0.2,
+    "3033": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     237,
     988,
     247,
     998
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "Fresh snow rests on the branches of the cedar trees lining the narrow path.  The conifers choke out much of the underbrush that grows here, the remaining scattered shrubs struggle for light."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[A Wooded Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3035": 0.2,
-    "3033": 0.2
-  },
-  "id": 3034,
-  "location": "Icemule Ranger Guild",
   "tags": [
     "stick",
     "pine cone",
@@ -61,15 +58,6 @@
     "crowberry",
     "lingonberry",
     "ironfern root",
-    "slender twig",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "tree bark",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "slender twig"
   ]
 }

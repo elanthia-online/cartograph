@@ -1,42 +1,31 @@
 {
+  "id": 7408,
+  "title": [
+    "[Mine Tunnels]"
+  ],
+  "description": [
+    "Light is definitely in short supply within these twisting tunnels.  Nowhere can you find even the remnants of a lantern or torch.  You wonder if the former miners had some unnatural source of light to work by."
+  ],
+  "paths": [
+    "Obvious exits: south, northwest"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7407": "south",
     "7409": "northwest"
   },
-  "paths": [
-    "Obvious exits: south, northwest"
-  ],
+  "timeto": {
+    "7407": 0.2,
+    "7409": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1258,
     83,
     1266,
     91
   ],
-  "terrain": "indoors",
-  "description": [
-    "Light is definitely in short supply within these twisting tunnels.  Nowhere can you find even the remnants of a lantern or torch.  You wonder if the former miners had some unnatural source of light to work by."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mine Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7407": 0.2,
-    "7409": 0.2
-  },
-  "id": 7408,
-  "location": "the Shadow Valley",
   "tags": [
-    "some blue moss",
-    "cave moss",
-    "blackgrove root",
-    "shadowlace moss",
-    "blue moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some blue moss"
   ]
 }

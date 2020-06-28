@@ -1,39 +1,35 @@
 {
+  "id": 25858,
+  "title": [
+    "[Stone Baths, Nexus]"
+  ],
+  "description": [
+    "The dimly lit hallway opens up into a wide spherical chamber with a smooth, dark slate floor.  Maoral-framed paintings enhance the russet-hued walls, and arched windows provide a profusion of silvery moonlight.  Ceramic pots of white gardenia rest between a silver arch, a brass arch and a gold arch."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "25859": "go gold arch",
     "25860": "go silver arch",
     "25861": "go brass arch",
     "19929": "go hallway"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": [
-    702,
-    1045,
-    838,
-    1102
-  ],
-  "terrain": null,
-  "description": [
-    "The dimly lit hallway opens up into a wide spherical chamber with a smooth, dark slate floor.  Maoral-framed paintings enhance the russet-hued walls, and arched windows provide a profusion of silvery moonlight.  Ceramic pots of white gardenia rest between a silver arch, a brass arch and a gold arch."
-  ],
-  "image": "wl-stone_baths-1487292814.png",
-  "climate": null,
-  "title": [
-    "[Stone Baths, Nexus]"
-  ],
-  "check_location": null,
   "timeto": {
     "25859": 0.2,
     "25860": 0.2,
     "25861": 0.2,
     "19929": 0.2
   },
-  "id": 25858,
-  "location": "the town of Wehnimer's Landing",
+  "image": "wl-stone_baths-1487292814.png",
+  "image_coords": [
+    702,
+    1045,
+    838,
+    1102
+  ],
   "tags": [
     "meta:noteleport:fwi"
-  ],
-  "unique_loot": null
+  ]
 }

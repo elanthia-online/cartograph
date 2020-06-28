@@ -1,38 +1,28 @@
 {
+  "id": 16809,
+  "title": [
+    "[Castle Varunar, Keep]"
+  ],
+  "description": [
+    "Along the rounded keep walls you see numerous cloth banners hanging from iron nails.  Many of the once-proud standards have been shredded by what appears to be giant animal claws.  You also notice bits of rotting hair and bone stuck amongst the seams in the stone walls.  Above and below you, the spiral stairs continue into the gloom."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "Castle Varunar",
   "wayto": {
     "16810": "up",
     "16808": "down"
   },
-  "paths": [
-    "Obvious exits: up, down"
-  ],
+  "timeto": {
+    "16810": 0.2,
+    "16808": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     512,
     94,
     522,
     104
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Along the rounded keep walls you see numerous cloth banners hanging from iron nails.  Many of the once-proud standards have been shredded by what appears to be giant animal claws.  You also notice bits of rotting hair and bone stuck amongst the seams in the stone walls.  Above and below you, the spiral stairs continue into the gloom."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Castle Varunar, Keep]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "16810": 0.2,
-    "16808": 0.2
-  },
-  "id": 16809,
-  "location": "Castle Varunar",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

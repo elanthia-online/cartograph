@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "3256": "west"
-  },
+  "id": 3255,
+  "title": [
+    "[A Frozen Battlefield]"
+  ],
+  "description": [
+    "Old axes, rusted swords and broken clubs litter this icy tundra, all of them nothing more then wreckage now.  A battered, wooden sign leans toward the ground, the letters eroded and unreadable."
+  ],
   "paths": [
     "Obvious paths: southeast, south, southwest, west"
   ],
+  "location": "the Ice Plains",
+  "wayto": {
+    "3256": "west"
+  },
+  "timeto": {
+    "3256": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     123,
     225,
     133,
     235
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "Old axes, rusted swords and broken clubs litter this icy tundra, all of them nothing more then wreckage now.  A battered, wooden sign leans toward the ground, the letters eroded and unreadable."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[A Frozen Battlefield]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3256": 0.2
-  },
-  "id": 3255,
-  "location": "the Ice Plains",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,35 +1,32 @@
 {
-  "wayto": {
-    "6272": "out",
-    "11032": {
-      "stringproc": "076aef32dc087f3143ab75f5b8074137"
-    }
-  },
+  "id": 6274,
+  "title": [
+    "[Kobold Village, King's Loo]"
+  ],
+  "description": [
+    "Clearly His Majesty spends a great deal of time here when he isn't hiding from adventurers.  The decor is certainly the best that generations of kobold artists have produced, the centerpiece consisting of a dented helm balanced on a stick so that it rattles a bit if you tap it.  There are other equally fine treasures here, no doubt taken as spoils from the king's many victories and each almost as marvelous as the last."
+  ],
   "paths": [
     "Obvious exits: out"
   ],
+  "location": "the Lower Dragonsclaw",
+  "wayto": {
+    "6272": "out",
+    "11032": {
+      "file": "string_procs/wayto/6274_11032.rb"
+    }
+  },
+  "timeto": {
+    "6272": 0.2,
+    "11032": 100
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     100,
     400,
     110,
     410
   ],
-  "terrain": "indoors",
-  "description": [
-    "Clearly His Majesty spends a great deal of time here when he isn't hiding from adventurers.  The decor is certainly the best that generations of kobold artists have produced, the centerpiece consisting of a dented helm balanced on a stick so that it rattles a bit if you tap it.  There are other equally fine treasures here, no doubt taken as spoils from the king's many victories and each almost as marvelous as the last."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Kobold Village, King's Loo]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6272": 0.2,
-    "11032": 100
-  },
-  "id": 6274,
-  "location": "the Lower Dragonsclaw",
   "tags": [
     "some wolifrew lichen",
     "some wingstem root",
@@ -39,10 +36,6 @@
     "cave moss",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

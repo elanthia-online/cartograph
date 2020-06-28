@@ -1,50 +1,28 @@
 {
+  "id": 20635,
+  "title": [
+    "[Wehnimer's, Burrow Way]"
+  ],
+  "description": [
+    "Tiny, beady-eyed rodents scamper about the uneven ground.  The marmots gnaw and snap at insects darting between cracks."
+  ],
+  "paths": [
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "20634": "northwest",
     "20636": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast, northwest"
-  ],
+  "timeto": {
+    "20634": 0.2,
+    "20636": 0.2
+  },
+  "image": "wl-burrow_way-1360361110.png",
   "image_coords": [
     787,
     378,
     813,
     404
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Tiny, beady-eyed rodents scamper about the uneven ground.  The marmots gnaw and snap at insects darting between cracks."
-  ],
-  "image": "wl-burrow_way-1360361110.png",
-  "climate": "indoors",
-  "title": [
-    "[Wehnimer's, Burrow Way]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "20634": 0.2,
-    "20636": 0.2
-  },
-  "id": 20635,
-  "location": "the town of Wehnimer's Landing",
-  "tags": [
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

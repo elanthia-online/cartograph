@@ -1,4 +1,15 @@
 {
+  "id": 15924,
+  "title": [
+    "[Twisting Tunnels]"
+  ],
+  "description": [
+    "A maze of tunnels leads away from this small chamber in all directions.  The low ceiling, poor lighting, and sudden twists and turns make it impossible to see far enough in any direction to get your bearings.  Some passageways lead only a few feet and dead end, while others twist and turn in odd directions before opening into another chamber."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east, south, southwest, down"
+  ],
+  "location": "the subterranean tunnels",
   "wayto": {
     "15925": "down",
     "15915": "southwest",
@@ -6,25 +17,6 @@
     "23256": "east",
     "9073": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, east, south, southwest, down"
-  ],
-  "image_coords": [
-    1086,
-    321,
-    1096,
-    331
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A maze of tunnels leads away from this small chamber in all directions.  The low ceiling, poor lighting, and sudden twists and turns make it impossible to see far enough in any direction to get your bearings.  Some passageways lead only a few feet and dead end, while others twist and turn in odd directions before opening into another chamber."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Twisting Tunnels]"
-  ],
-  "check_location": null,
   "timeto": {
     "15925": 0.2,
     "15915": 0.2,
@@ -32,18 +24,16 @@
     "23256": 0.2,
     "9073": 0.2
   },
-  "id": 15924,
-  "location": "the subterranean tunnels",
+  "image": "imt-underground-1264234799.png",
+  "image_coords": [
+    1086,
+    321,
+    1096,
+    331
+  ],
   "tags": [
     "some bolmara lichen",
     "white hook mushroom",
-    "some wingstem root",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

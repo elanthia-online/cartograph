@@ -1,35 +1,32 @@
 {
+  "id": 7190,
+  "title": [
+    "[Graveyard]"
+  ],
+  "description": [
+    "You are led right up against the mound's west slope, which meets the ground at a right angle.  The precision of the angle leads you to suspect that this hill is actually an earth-sheltered structure of some sort.  As you continue to explore, the brooding remnants of some ancient monoliths to the northwest cast a sense of abiding melancholy and sadness over the scene."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast, northwest"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7195": "northwest",
     "7189": "southeast",
     "7191": "north"
   },
-  "paths": [
-    "Obvious paths: north, southeast, northwest"
-  ],
+  "timeto": {
+    "7195": 0.2,
+    "7189": 0.2,
+    "7191": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     315,
     454,
     325,
     464
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "You are led right up against the mound's west slope, which meets the ground at a right angle.  The precision of the angle leads you to suspect that this hill is actually an earth-sheltered structure of some sort.  As you continue to explore, the brooding remnants of some ancient monoliths to the northwest cast a sense of abiding melancholy and sadness over the scene."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Graveyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7195": 0.2,
-    "7189": 0.2,
-    "7191": 0.2
-  },
-  "id": 7190,
-  "location": "the Graveyard",
   "tags": [
     "some wolifrew lichen",
     "some acantha leaf",
@@ -53,10 +50,6 @@
     "blue whortleberry",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

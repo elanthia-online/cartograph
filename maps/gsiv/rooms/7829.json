@@ -1,40 +1,30 @@
 {
+  "id": 7829,
+  "title": [
+    "[Glatoph, Ruins]"
+  ],
+  "description": [
+    "This is a bend in a dull grey corridor.  There's a door on the east wall, and passages lead northwest and south."
+  ],
+  "paths": [
+    "Obvious exits: south, northwest"
+  ],
+  "location": "Glatoph",
   "wayto": {
     "7844": "go door",
     "7836": "northwest",
     "7830": "south"
   },
-  "paths": [
-    "Obvious exits: south, northwest"
-  ],
-  "image_coords": [
-    654,
-    411,
-    664,
-    421
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This is a bend in a dull grey corridor.  There's a door on the east wall, and passages lead northwest and south."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Glatoph, Ruins]"
-  ],
-  "check_location": null,
   "timeto": {
     "7844": 0.2,
     "7836": 0.2,
     "7830": 0.2
   },
-  "id": 7829,
-  "location": "Glatoph",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-danjirland-1264234799.png",
+  "image_coords": [
+    654,
+    411,
+    664,
+    421
   ]
 }

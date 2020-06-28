@@ -1,35 +1,32 @@
 {
+  "id": 5297,
+  "title": [
+    "[Deep Woods, Hillock]"
+  ],
+  "description": [
+    "Fog eddies and swirls around the trunks of the tall pines standing on this hillock.  Moisture beads on the rough trunks, feeding the velvety growths of moss that blanket the trees in a rich green.  The ground slopes downward both to the west and northeast, barely seen under the thick mist."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, down"
+  ],
+  "location": "the deep woods",
   "wayto": {
     "5296": "down",
     "5321": "southeast",
     "5299": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, southeast, down"
-  ],
+  "timeto": {
+    "5296": 0.2,
+    "5321": 0.2,
+    "5299": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     1008,
     342,
     1018,
     352
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "Fog eddies and swirls around the trunks of the tall pines standing on this hillock.  Moisture beads on the rough trunks, feeding the velvety growths of moss that blanket the trees in a rich green.  The ground slopes downward both to the west and northeast, barely seen under the thick mist."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Deep Woods, Hillock]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5296": 0.2,
-    "5321": 0.2,
-    "5299": 0.2
-  },
-  "id": 5297,
-  "location": "the deep woods",
   "tags": [
     "some acantha leaf",
     "pine cone",
@@ -58,31 +55,6 @@
     "handful of pinenuts",
     "blue trafel mushroom",
     "vesperti",
-    "red vornalite mushroom",
-    "acantha leaf",
-    "torban leaf",
-    "calamia fruit",
-    "haphip root",
-    "tkaro root",
-    "sticks",
-    "angelica root",
-    "fiddlehead fern",
-    "broken twig",
-    "pine needles",
-    "tree bark",
-    "white lily",
-    "pink rain lily",
-    "coppery rain lily",
-    "yew twig",
-    "ironfern root",
-    "twisted twig",
-    "slender twig",
-    "ebony twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "red vornalite mushroom"
   ]
 }

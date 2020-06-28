@@ -1,37 +1,28 @@
 {
+  "id": 11622,
+  "title": [
+    "[Miasmal Forest, Old Road]"
+  ],
+  "description": [
+    "The old road wends it way in and out of the gnarled forest.  Saplings grow in the weedy row between the wagon ruts.  The faint odor of damp animal fur lingers in the air.  To the south is a well-trodden foot trail.  The ancient road runs primarily east and west, where it rapidly disappears into the mist."
+  ],
+  "paths": [
+    "Obvious paths: east, south, west"
+  ],
   "wayto": {
     "11623": "east",
     "11627": "south",
     "22219": {
-      "stringproc": "e31ff81c4475cb375fd9584421b9b92b"
+      "file": "string_procs/wayto/11622_22219.rb"
     },
     "16124": {
-      "stringproc": "3b112b5633f311a4c59f84f7bd5e800d"
+      "file": "string_procs/wayto/11622_16124.rb"
     },
     "11653": {
-      "stringproc": "f3581cc5757402e2b8b48798e5116055"
+      "file": "string_procs/wayto/11622_11653.rb"
     },
     "11621": "west"
   },
-  "paths": [
-    "Obvious paths: east, south, west"
-  ],
-  "image_coords": [
-    743,
-    613,
-    753,
-    623
-  ],
-  "terrain": "muddy wetlands",
-  "description": [
-    "The old road wends it way in and out of the gnarled forest.  Saplings grow in the weedy row between the wagon ruts.  The faint odor of damp animal fur lingers in the air.  To the south is a well-trodden foot trail.  The ancient road runs primarily east and west, where it rapidly disappears into the mist."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Miasmal Forest, Old Road]"
-  ],
-  "check_location": null,
   "timeto": {
     "11623": 0.2,
     "11627": 0.2,
@@ -40,27 +31,14 @@
     "11653": 0.6,
     "11621": 0.2
   },
-  "id": 11622,
-  "location": "the Miasmal Forest",
-  "tags": [
-    "some talneo root",
-    "aloeas stem",
-    "soft white mushroom",
-    "withered black mushroom",
-    "white hook mushroom",
-    "blue trafel mushroom",
-    "wild gooseberry",
-    "stalk of cattail",
-    "small wild rose",
-    "mistweed",
-    "murdroot",
-    "wavepetal blossom",
-    "bolmara lichen",
-    "talneo root",
-    "wingstem root",
-    "meta:forage-sensed"
+  "image": "rr-maelstrom-1266390501.png",
+  "image_coords": [
+    743,
+    613,
+    753,
+    623
   ],
-  "links": [
-
+  "tags": [
+    "some talneo root"
   ]
 }

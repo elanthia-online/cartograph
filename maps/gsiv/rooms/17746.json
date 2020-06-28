@@ -1,38 +1,28 @@
 {
-  "wayto": {
-    "3595": {
-      "stringproc": "e1b570dc7b5c98ee0512c9ed01464221"
-    }
-  },
+  "id": 17746,
+  "title": [
+    "[Stronghold, Storage Room]"
+  ],
+  "description": [
+    "Broken containers litter the floor of the storage room, the debris consisting of wooden planks as well as pieces of stone.  Large piles have been heaped against the walls, forming a rugged landscape that slopes down to a valley where the path winds between them.  Little light intrudes here, adding to the illusion of a mountainous terrain."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "Stone Valley",
+  "wayto": {
+    "3595": {
+      "file": "string_procs/wayto/17746_3595.rb"
+    }
+  },
+  "timeto": {
+    "3595": 0.2
+  },
+  "image": "wl-stronghold-1264234799.png",
   "image_coords": [
     650,
     524,
     660,
     534
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Broken containers litter the floor of the storage room, the debris consisting of wooden planks as well as pieces of stone.  Large piles have been heaped against the walls, forming a rugged landscape that slopes down to a valley where the path winds between them.  Little light intrudes here, adding to the illusion of a mountainous terrain."
-  ],
-  "image": "wl-stronghold-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Stronghold, Storage Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3595": 0.2
-  },
-  "id": 17746,
-  "location": "Stone Valley",
-  "tags": [
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

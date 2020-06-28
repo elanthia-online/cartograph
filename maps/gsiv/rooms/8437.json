@@ -1,33 +1,30 @@
 {
+  "id": 8437,
+  "title": [
+    "[Upper Trollfang, Sentoph]"
+  ],
+  "description": [
+    "A thick fog clings to Sentoph on this side.  Chilly grey tendrils of fog wind through the rocks and in between the branches of the half-dead trees.  They remind you of ghostly grey tentacles, and send a shiver down your back."
+  ],
+  "paths": [
+    "Obvious paths: south, northwest"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "8436": "south",
     "8438": "northwest"
   },
-  "paths": [
-    "Obvious paths: south, northwest"
-  ],
+  "timeto": {
+    "8436": 0.2,
+    "8438": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     687,
     856,
     697,
     866
   ],
-  "terrain": "mountainous",
-  "description": [
-    "A thick fog clings to Sentoph on this side.  Chilly grey tendrils of fog wind through the rocks and in between the branches of the half-dead trees.  They remind you of ghostly grey tentacles, and send a shiver down your back."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Upper Trollfang, Sentoph]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8436": 0.2,
-    "8438": 0.2
-  },
-  "id": 8437,
-  "location": "the Upper Trollfang",
   "tags": [
     "some valerian root",
     "some pennyroyal stem",
@@ -37,20 +34,6 @@
     "some wingstem root",
     "marallis berry",
     "sassafras leaf",
-    "some angelica root",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "golden aster",
-    "ironfern root",
-    "sunburst blossom",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some angelica root"
   ]
 }

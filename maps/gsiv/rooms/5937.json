@@ -1,34 +1,31 @@
 {
+  "id": 5937,
+  "title": [
+    "[Catacombs, Crypt]"
+  ],
+  "description": [
+    "Eight masterfully designed sarcophagi fill the chamber.",
+    "Eight masterfully designed sarcophagi fill the chamber.  Entombed within each sarcophagus are the bodies of fallen legends, killed during one or more of the many great wars against different invaders of the city.  Carved to resemble scrolls, the walls above each of the biers served as tombstones with the epitaphs for the slain heroes.  Unfortunately, they are all now very unreadable."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "5938": "southwest",
     "5936": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southwest"
-  ],
+  "timeto": {
+    "5938": 0.2,
+    "5936": 0.2
+  },
+  "image": "en-tavaalor-1565907614.png",
   "image_coords": [
     233,
     762,
     240,
     771
   ],
-  "terrain": null,
-  "description": [
-    "Eight masterfully designed sarcophagi fill the chamber.",
-    "Eight masterfully designed sarcophagi fill the chamber.  Entombed within each sarcophagus are the bodies of fallen legends, killed during one or more of the many great wars against different invaders of the city.  Carved to resemble scrolls, the walls above each of the biers served as tombstones with the epitaphs for the slain heroes.  Unfortunately, they are all now very unreadable."
-  ],
-  "image": "en-tavaalor-1565907614.png",
-  "climate": null,
-  "title": [
-    "[Catacombs, Crypt]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5938": 0.2,
-    "5936": 0.2
-  },
-  "id": 5937,
-  "location": "the catacombs",
   "tags": [
     "blue trafel mushroom",
     "white hook mushroom",
@@ -39,8 +36,5 @@
     "ironfern root",
     "bolmara lichen",
     "wingstem root"
-  ],
-  "links": [
-
   ]
 }

@@ -1,48 +1,32 @@
 {
+  "id": 17649,
+  "title": [
+    "[Smuggler's Tunnels, Opening]"
+  ],
+  "description": [
+    "The whistling of a cool breeze through the tunnels is joined by the sound of lapping water echoing off nearby ceilings and walls.  The tunnel opens considerably to the north, encompassing a small cove illuminated by torch light.  Crates and barrels line the sides of the tunnel along a well-worn track in a sandy dirt floor.  Small paw prints cover the ground near a corner formed by two crates."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
   "wayto": {
     "17650": "south",
     "17648": "go cove"
   },
-  "paths": [
-    "Obvious exits: south"
-  ],
+  "timeto": {
+    "17650": 0.2,
+    "17648": 0.2
+  },
+  "image": "rr-warrens-1266380776.png",
   "image_coords": [
     562,
     560,
     600,
     598
   ],
-  "terrain": "indoors",
-  "description": [
-    "The whistling of a cool breeze through the tunnels is joined by the sound of lapping water echoing off nearby ceilings and walls.  The tunnel opens considerably to the north, encompassing a small cove illuminated by torch light.  Crates and barrels line the sides of the tunnel along a well-worn track in a sandy dirt floor.  Small paw prints cover the ground near a corner formed by two crates."
-  ],
-  "image": "rr-warrens-1266380776.png",
-  "climate": "indoors",
-  "title": [
-    "[Smuggler's Tunnels, Opening]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "17650": 0.2,
-    "17648": 0.2
-  },
-  "id": 17649,
-  "location": "River's Rest",
   "tags": [
     "withered black mushroom",
     "genkew mushroom",
-    "black hook mushroom",
-    "soft white mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "black hook mushroom"
   ]
 }

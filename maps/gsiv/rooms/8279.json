@@ -1,33 +1,30 @@
 {
+  "id": 8279,
+  "title": [
+    "[Lower Trollfang, Forest]"
+  ],
+  "description": [
+    "The scents of pine, of resin, pitch and tar assault you as you trudge through this thickly forested region.  Although it seems for the most part like virgin forest, a few trunks lay scattered on the ground, with roughly hewn or gnawed stumps nearby."
+  ],
+  "paths": [
+    "Obvious paths: east, northwest"
+  ],
+  "location": "the Lower Trollfang",
   "wayto": {
     "8278": "northwest",
     "8280": "east"
   },
-  "paths": [
-    "Obvious paths: east, northwest"
-  ],
+  "timeto": {
+    "8278": 0.2,
+    "8280": 0.2
+  },
+  "image": "wl-spider_temple-1264234799.png",
   "image_coords": [
     276,
     1388,
     286,
     1398
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "The scents of pine, of resin, pitch and tar assault you as you trudge through this thickly forested region.  Although it seems for the most part like virgin forest, a few trunks lay scattered on the ground, with roughly hewn or gnawed stumps nearby."
-  ],
-  "image": "wl-spider_temple-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Lower Trollfang, Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8278": 0.2,
-    "8280": 0.2
-  },
-  "id": 8279,
-  "location": "the Lower Trollfang",
   "tags": [
     "some calamia fruit",
     "some cactacae spine",
@@ -49,26 +46,6 @@
     "bunch of wild grapes",
     "sprig of larkspur",
     "wintergreen leaf",
-    "stalk of chicory",
-    "cactacae spine",
-    "bright red teaberry",
-    "blueberries",
-    "elderberries",
-    "wild grapes",
-    "broken twig",
-    "golden buttercup",
-    "pink clover blossom",
-    "Imaera's Lace",
-    "wild chokecherry",
-    "murkweed",
-    "fire lily",
-    "blue whortleberry",
-    "pepperthorn root",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "stalk of chicory"
   ]
 }

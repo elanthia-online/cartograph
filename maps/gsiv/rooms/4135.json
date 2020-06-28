@@ -1,34 +1,31 @@
 {
+  "id": 4135,
+  "title": [
+    "[Lower Trollfang, Forest]"
+  ],
+  "description": [
+    "The moon shines through the canopy of hundreds of vibrant young trees, dappling everything beneath them with pockets of light and shadow.",
+    "The sun shines merrily through the canopy of hundreds of vibrant young trees, dappling everything beneath them with pockets of light and shadow."
+  ],
+  "paths": [
+    "Obvious paths: east, southeast, west"
+  ],
+  "location": "the Lower Dragonsclaw",
   "wayto": {
     "4136": "east",
     "4134": "west"
   },
-  "paths": [
-    "Obvious paths: east, southeast, west"
-  ],
+  "timeto": {
+    "4136": 0.2,
+    "4134": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     271,
     1102,
     281,
     1112
   ],
-  "terrain": "missing",
-  "description": [
-    "The moon shines through the canopy of hundreds of vibrant young trees, dappling everything beneath them with pockets of light and shadow.",
-    "The sun shines merrily through the canopy of hundreds of vibrant young trees, dappling everything beneath them with pockets of light and shadow."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Lower Trollfang, Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4136": 0.2,
-    "4134": 0.2
-  },
-  "id": 4135,
-  "location": "the Lower Dragonsclaw",
   "tags": [
     "some wolifrew lichen",
     "some acantha leaf",
@@ -76,10 +73,6 @@
     "twisted twig",
     "slender twig",
     "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

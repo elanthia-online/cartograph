@@ -1,34 +1,25 @@
 {
+  "id": 25655,
+  "title": [
+    "[Bard Guild, Corridor]"
+  ],
+  "description": [
+    "Cloaked in shadow and muted by a thick carpet runner extending along its length, the long hallway features a vaulted ceiling and dark wood-paneled walls.  Its somber atmosphere is anything but quiet, however, as strains of music and snippets of melody create an impromptu backdrop.  Their tones are muffled and the rhythms are haphazard as musicians and singers practice their craft behind closed doors in adjacent chambers.  A sign on a mahogany door reads \"Hall of the Ancient Instruments\"."
+  ],
+  "paths": [
+    "Obvious exits: south, southwest"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "25656": "go arch",
     "25654": "southwest",
     "25657": "south",
     "25662": "go mahogany door"
   },
-  "paths": [
-    "Obvious exits: south, southwest"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Cloaked in shadow and muted by a thick carpet runner extending along its length, the long hallway features a vaulted ceiling and dark wood-paneled walls.  Its somber atmosphere is anything but quiet, however, as strains of music and snippets of melody create an impromptu backdrop.  Their tones are muffled and the rhythms are haphazard as musicians and singers practice their craft behind closed doors in adjacent chambers.  A sign on a mahogany door reads \"Hall of the Ancient Instruments\"."
-  ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Bard Guild, Corridor]"
-  ],
-  "check_location": null,
   "timeto": {
     "25656": 0.2,
     "25654": 0.2,
     "25657": 0.2,
     "25662": 0.2
-  },
-  "id": 25655,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  }
 }

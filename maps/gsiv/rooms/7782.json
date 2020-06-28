@@ -1,68 +1,33 @@
 {
+  "id": 7782,
+  "title": [
+    "[Upper Trollfang]"
+  ],
+  "description": [
+    "This small and uncharacteristically flat expanse of land surrounds the crumbling remnants of a once great tower that still manages despite its great age to stand tall.  Stones and rocks, some natural, some part of the original construct lie scattered around the landscape.  A rotted log stretches over the moat, leading shakily up to the battered and time weary doors which hang awkwardly from their hinges."
+  ],
+  "paths": [
+    "Obvious paths: northeast, east, northwest"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "7788": "northeast",
     "7781": "east",
     "7783": "northwest"
   },
-  "paths": [
-    "Obvious paths: northeast, east, northwest"
-  ],
+  "timeto": {
+    "7788": 0.2,
+    "7781": 0.2,
+    "7783": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     106,
     1073,
     116,
     1083
   ],
-  "terrain": "rough",
-  "description": [
-    "This small and uncharacteristically flat expanse of land surrounds the crumbling remnants of a once great tower that still manages despite its great age to stand tall.  Stones and rocks, some natural, some part of the original construct lie scattered around the landscape.  A rotted log stretches over the moat, leading shakily up to the battered and time weary doors which hang awkwardly from their hinges."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Upper Trollfang]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7788": 0.2,
-    "7781": 0.2,
-    "7783": 0.2
-  },
-  "id": 7782,
-  "location": "the Upper Trollfang",
   "tags": [
-    "bone golem",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "wild strawberry",
-    "blueberries",
-    "stalk of chicory",
-    "handful of currants",
-    "elderberries",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "wild grapes",
-    "broken twig",
-    "sprig of alyssum",
-    "heath aster",
-    "golden buttercup",
-    "red clover blossom",
-    "pink clover blossom",
-    "white clover blossom",
-    "purple clover blossom",
-    "yellow clover blossom",
-    "stalk of goldenrod",
-    "sprig of larkspur",
-    "yellow primrose",
-    "small wild rose",
-    "wild chokecherry",
-    "motherwort",
-    "white baneberry",
-    "pepperthorn root",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bone golem"
   ]
 }

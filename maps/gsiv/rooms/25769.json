@@ -1,39 +1,32 @@
 {
-  "wayto": {
-    "25770": {
-      "stringproc": "b3903ef3130903d58c1b8b478bec601b"
-    },
-    "25768": {
-      "stringproc": "9b05cb4429e6ad5efbe157efd92e6023"
-    }
-  },
+  "id": 25769,
+  "title": [
+    "[Eastern Waterway]"
+  ],
+  "description": [
+    "Capped with white, the ocean waters bounce against each other as they seek purchase upon the nearby islands.  Occasionally, the frolicking waves collide, causing a spray of water to burst into the air, only to rain back down into the tide moments later."
+  ],
   "paths": [
     "Obvious paths: northeast, northwest"
   ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "25770": {
+      "file": "string_procs/wayto/25769_25770.rb"
+    },
+    "25768": {
+      "file": "string_procs/wayto/25769_25768.rb"
+    }
+  },
+  "timeto": {
+    "25770": 6.0,
+    "25768": 6.0
+  },
+  "image": "ifw-eastern_waterway-1489553700.png",
   "image_coords": [
     1920,
     1439,
     1941,
     1460
-  ],
-  "terrain": null,
-  "description": [
-    "Capped with white, the ocean waters bounce against each other as they seek purchase upon the nearby islands.  Occasionally, the frolicking waves collide, causing a spray of water to burst into the air, only to rain back down into the tide moments later."
-  ],
-  "image": "ifw-eastern_waterway-1489553700.png",
-  "climate": null,
-  "title": [
-    "[Eastern Waterway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "25770": 6.0,
-    "25768": 6.0
-  },
-  "id": 25769,
-  "location": "Mist Harbor",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

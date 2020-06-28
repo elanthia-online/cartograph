@@ -1,46 +1,32 @@
 {
-  "wayto": {
-    "21072": {
-      "stringproc": "33cfbebf60fac526621a584ea88dc94d"
-    },
-    "21074": {
-      "stringproc": "25b57a47fa24e6f4eea217034f76e70e"
-    }
-  },
+  "id": 21073,
+  "title": [
+    "[Alhan'naht River, Jungle Pass]"
+  ],
+  "description": [
+    "Careening into the eastern banks, the river rises high against the smooth granite wall that causes it to bend to the south.  Mangroves and banyan trees clog the western rise, their verdant leaves creating deep shadows throughout the passage."
+  ],
   "paths": [
     "Obvious paths: south, northwest"
   ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "21072": {
+      "file": "string_procs/wayto/21073_21072.rb"
+    },
+    "21074": {
+      "file": "string_procs/wayto/21073_21074.rb"
+    }
+  },
+  "timeto": {
+    "21072": 2.0,
+    "21074": 2.0
+  },
+  "image": "ifw-wilds-1368242816.png",
   "image_coords": [
     1659,
     2320,
     1679,
     2341
-  ],
-  "terrain": "riparian",
-  "description": [
-    "Careening into the eastern banks, the river rises high against the smooth granite wall that causes it to bend to the south.  Mangroves and banyan trees clog the western rise, their verdant leaves creating deep shadows throughout the passage."
-  ],
-  "image": "ifw-wilds-1368242816.png",
-  "climate": "freshwater",
-  "title": [
-    "[Alhan'naht River, Jungle Pass]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "21072": 2.0,
-    "21074": 2.0
-  },
-  "id": 21073,
-  "location": "Mist Harbor",
-  "tags": [
-    "stalk of cattail",
-    "murdroot",
-    "wavepetal blossom",
-    "sunburst blossom",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

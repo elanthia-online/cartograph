@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "12134": "southwest",
-    "2635": {
-      "stringproc": "f88a5ac335110328444947aa8fdfa490"
-    },
-    "12102": "northwest",
-    "12093": {
-      "stringproc": "dc0110972ab7e067d5fec20ece15581c"
-    },
-    "2605": {
-      "stringproc": "317c6eedd1ea40322b9b26b259a3053f"
-    }
-  },
+  "id": 2634,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "The path you travel upon winds its way through the scrubby ground.  Amid the bushes hangs a man, suspended from his ankle.  His face is a purple crimson from the blood pooled within, and his eyes have rolled back into his head.  While this is not uncommon, perhaps more remarkable is the fact that the rope is anchored in the ground, and the man hangs upwards."
+  ],
   "paths": [
     "Obvious paths: southwest, northwest",
     "Obvious exits: southwest, northwest"
   ],
-  "image_coords": [
-    923,
-    619,
-    931,
-    627
-  ],
-  "terrain": null,
-  "description": [
-    "The path you travel upon winds its way through the scrubby ground.  Amid the bushes hangs a man, suspended from his ankle.  His face is a purple crimson from the blood pooled within, and his eyes have rolled back into his head.  While this is not uncommon, perhaps more remarkable is the fact that the rope is anchored in the ground, and the man hangs upwards."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12134": "southwest",
+    "2635": {
+      "file": "string_procs/wayto/2634_2635.rb"
+    },
+    "12102": "northwest",
+    "12093": {
+      "file": "string_procs/wayto/2634_12093.rb"
+    },
+    "2605": {
+      "file": "string_procs/wayto/2634_2605.rb"
+    }
+  },
   "timeto": {
     "12134": 0.2,
     "2635": 16.0,
@@ -39,8 +31,13 @@
     "12093": 21.6,
     "2605": 16.0
   },
-  "id": 2634,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    923,
+    619,
+    931,
+    627
+  ],
   "tags": [
     "withered deathblossom",
     "rotting bile green fleshbulb",
@@ -49,8 +46,5 @@
     "slime-covered grave blossom",
     "discolored fleshbinder bud",
     "twisted black mawflower"
-  ],
-  "links": [
-
   ]
 }

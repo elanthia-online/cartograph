@@ -1,39 +1,32 @@
 {
+  "id": 26595,
+  "title": [
+    "[Caligos Isle, Shadow Playground]"
+  ],
+  "description": [
+    "The air weighs heavily with the overwhelming scent of sulfur, the plumes of gas stabbing out from vein-like fissures covering the shadowed ground.  Loose rocks, jarred from the inward angled walls, become heated projectiles as they roll across the temperamental fissures."
+  ],
+  "paths": [
+    "Obvious exits: northwest, up"
+  ],
+  "location": "Caligos Isle",
   "wayto": {
     "26594": "up",
     "26596": "northwest",
     "26610": {
-      "stringproc": "004648796df7c22c33d94fa18ff07dd6"
+      "file": "string_procs/wayto/26595_26610.rb"
     }
   },
-  "paths": [
-    "Obvious exits: northwest, up"
-  ],
-  "image_coords": [
-    659,
-    220,
-    674,
-    233
-  ],
-  "terrain": null,
-  "description": [
-    "The air weighs heavily with the overwhelming scent of sulfur, the plumes of gas stabbing out from vein-like fissures covering the shadowed ground.  Loose rocks, jarred from the inward angled walls, become heated projectiles as they roll across the temperamental fissures."
-  ],
-  "image": "fest-ebon_gate-caligos_isle-1539222190.png",
-  "climate": null,
-  "title": [
-    "[Caligos Isle, Shadow Playground]"
-  ],
-  "check_location": null,
   "timeto": {
     "26594": 0.2,
     "26596": 0.2,
     "26610": 0.2
   },
-  "id": 26595,
-  "location": "Caligos Isle",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  "image": "fest-ebon_gate-caligos_isle-1539222190.png",
+  "image_coords": [
+    659,
+    220,
+    674,
+    233
+  ]
 }

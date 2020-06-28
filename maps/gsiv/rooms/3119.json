@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "3118": "south"
-  },
+  "id": 3119,
+  "title": [
+    "[Abandoned Barn, Hayloft]"
+  ],
+  "description": [
+    "A chill breeze flows in through the chinks in the walls and the gaping holes in the barn roof.  It looks as though this loft had been used as a camping spot for vagrants."
+  ],
   "paths": [
     "Obvious paths: south"
   ],
+  "location": "the Abandoned Farm",
+  "wayto": {
+    "3118": "south"
+  },
+  "timeto": {
+    "3118": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     753,
     515,
     763,
     525
   ],
-  "terrain": "hard, flat",
-  "description": [
-    "A chill breeze flows in through the chinks in the walls and the gaping holes in the barn roof.  It looks as though this loft had been used as a camping spot for vagrants."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Abandoned Barn, Hayloft]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3118": 0.2
-  },
-  "id": 3119,
-  "location": "the Abandoned Farm",
   "tags": [
-    "wraith",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wraith"
   ]
 }

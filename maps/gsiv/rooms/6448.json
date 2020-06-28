@@ -1,38 +1,28 @@
 {
+  "id": 6448,
+  "title": [
+    "[Abandoned Mine, Tunnel]"
+  ],
+  "description": [
+    "The stone floors in this narrow passageway are stable enough, but the boulders jutting out from the walls appear to be teetering precariously from whatever holds them in place.  Faint light is visible at what is probably the northern end of the tunnel, though the winding path snaking through the depths of the mine make it difficult to be certain of compass directions."
+  ],
+  "paths": [
+    "Obvious exits: north, up"
+  ],
+  "location": "the Lysierian Hills",
   "wayto": {
     "6447": "up",
     "6449": "north"
   },
-  "paths": [
-    "Obvious exits: north, up"
-  ],
+  "timeto": {
+    "6447": 0.2,
+    "6449": 0.2
+  },
+  "image": "wl-lysierian-1264234799.png",
   "image_coords": [
     1230,
     241,
     1240,
     251
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The stone floors in this narrow passageway are stable enough, but the boulders jutting out from the walls appear to be teetering precariously from whatever holds them in place.  Faint light is visible at what is probably the northern end of the tunnel, though the winding path snaking through the depths of the mine make it difficult to be certain of compass directions."
-  ],
-  "image": "wl-lysierian-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abandoned Mine, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6447": 0.2,
-    "6449": 0.2
-  },
-  "id": 6448,
-  "location": "the Lysierian Hills",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

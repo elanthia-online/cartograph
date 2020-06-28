@@ -1,40 +1,30 @@
 {
+  "id": 8353,
+  "title": [
+    "[Spider Temple, Leg of Victim]"
+  ],
+  "description": [
+    "A long hallway, its thick stone walls beaded with moisture from the humidity, presses close as it stretches its way west and southeast."
+  ],
+  "paths": [
+    "Obvious exits: southeast, west"
+  ],
+  "location": "the Spider Temple",
   "wayto": {
     "8352": "southeast",
     "8354": "west",
     "8358": "go door"
   },
-  "paths": [
-    "Obvious exits: southeast, west"
-  ],
-  "image_coords": [
-    524,
-    695,
-    534,
-    705
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A long hallway, its thick stone walls beaded with moisture from the humidity, presses close as it stretches its way west and southeast."
-  ],
-  "image": "wl-spider_temple-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Spider Temple, Leg of Victim]"
-  ],
-  "check_location": null,
   "timeto": {
     "8352": 0.2,
     "8354": 0.2,
     "8358": 0.2
   },
-  "id": 8353,
-  "location": "the Spider Temple",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-spider_temple-1264234799.png",
+  "image_coords": [
+    524,
+    695,
+    534,
+    705
   ]
 }

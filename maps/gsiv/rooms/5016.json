@@ -1,35 +1,32 @@
 {
+  "id": 5016,
+  "title": [
+    "[Yegharren Plain, Grasslands]"
+  ],
+  "description": [
+    "Tall grass surrounds the narrow strip of the hunting trail on all sides, the saw-edged blades rustling in the constant wind.  The silence is broken by a heavy rustling as some large creature thunders through the vegetation somewhere nearby."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south, west"
+  ],
+  "location": "the Yegharren Plains",
   "wayto": {
     "5028": "south",
     "5030": "northeast",
     "5009": "west"
   },
-  "paths": [
-    "Obvious paths: northeast, south, west"
-  ],
+  "timeto": {
+    "5028": 0.2,
+    "5030": 0.2,
+    "5009": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     970,
     576,
     980,
     586
   ],
-  "terrain": "grassland",
-  "description": [
-    "Tall grass surrounds the narrow strip of the hunting trail on all sides, the saw-edged blades rustling in the constant wind.  The silence is broken by a heavy rustling as some large creature thunders through the vegetation somewhere nearby."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Yegharren Plain, Grasslands]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5028": 0.2,
-    "5030": 0.2,
-    "5009": 0.2
-  },
-  "id": 5016,
-  "location": "the Yegharren Plains",
   "tags": [
     "heath aster",
     "small daisy",
@@ -71,52 +68,6 @@
     "small violet",
     "ear of corn",
     "fennel bulb",
-    "large sunflower",
-    "acantha leaf",
-    "ambrominas leaf",
-    "sovyn clove",
-    "small rose",
-    "angelica root",
-    "trollfear mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "flathead mushroom",
-    "blue trafel mushroom",
-    "wild grapes",
-    "golden buttercup",
-    "yellow clover blossom",
-    "yellow primrose",
-    "Imaera's Lace",
-    "stalk of burdock",
-    "barley grass",
-    "wheat grass",
-    "fig",
-    "mustard seeds",
-    "rose-marrow root",
-    "wild sage",
-    "wild chokecherry",
-    "motherwort",
-    "honeysuckle vine",
-    "stalk of monkeyflower",
-    "sprig of mournbloom",
-    "wild orchid",
-    "sprig of wild phlox",
-    "wood violet",
-    "wolfsbane root",
-    "huckleberries",
-    "raspberries",
-    "murkweed",
-    "white lily",
-    "fire lily",
-    "luckbloom blossom",
-    "murdroot",
-    "wavepetal blossom",
-    "ironfern root",
-    "nightbloom blossom",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "large sunflower"
   ]
 }

@@ -1,37 +1,34 @@
 {
+  "id": 6109,
+  "title": [
+    "[A Mountain Trail]"
+  ],
+  "description": [
+    "The trail here is barely passable, probably due to the avalanche that occurred here many years ago."
+  ],
+  "paths": [
+    "Obvious paths: up"
+  ],
+  "location": "the Upper Dragonsclaw",
   "wayto": {
     "7922": "up",
     "6108": "go trail",
     "6110": {
-      "stringproc": "65c3a74ab000f46eefdc568b715005fa"
+      "file": "string_procs/wayto/6109_6110.rb"
     }
   },
-  "paths": [
-    "Obvious paths: up"
-  ],
+  "timeto": {
+    "7922": 0.2,
+    "6108": 0.2,
+    "6110": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     305,
     1201,
     315,
     1211
   ],
-  "terrain": "mountainous",
-  "description": [
-    "The trail here is barely passable, probably due to the avalanche that occurred here many years ago."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[A Mountain Trail]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7922": 0.2,
-    "6108": 0.2,
-    "6110": 0.2
-  },
-  "id": 6109,
-  "location": "the Upper Dragonsclaw",
   "tags": [
     "some bolmara lichen",
     "cuctucae berry",
@@ -43,18 +40,6 @@
     "some pennyroyal stem",
     "golden aster",
     "ironfern root",
-    "some angelica root",
-    "sassafras leaf",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "stalk of bluebells",
-    "sprig of larkspur",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some angelica root"
   ]
 }

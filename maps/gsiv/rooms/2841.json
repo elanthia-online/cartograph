@@ -1,63 +1,30 @@
 {
-  "wayto": {
-    "2840": {
-      "stringproc": "80a59b21c47bc053be2dbc95000a8d36"
-    },
-    "2842": "east"
-  },
+  "id": 2841,
+  "title": [
+    "[Northern Slopes, Quiet Forest]"
+  ],
+  "description": [
+    "The huge trees provide shelter from the harsh wind, and the air is crisp and still. Melting ice drips from branches, pattering softly like raindrops as they fall into the snow.  Partially frozen rivulets are formed by the melting ice, running down a slippery incline nearby."
+  ],
   "paths": [
     "Obvious paths: east"
   ],
+  "location": "the Sleeping Lady Mountains",
+  "wayto": {
+    "2840": {
+      "file": "string_procs/wayto/2841_2840.rb"
+    },
+    "2842": "east"
+  },
+  "timeto": {
+    "2840": 0.2,
+    "2842": 0.2
+  },
+  "image": "imt-pinefar-1264234799.png",
   "image_coords": [
     248,
     1163,
     258,
     1173
-  ],
-  "terrain": "mountainous",
-  "description": [
-    "The huge trees provide shelter from the harsh wind, and the air is crisp and still. Melting ice drips from branches, pattering softly like raindrops as they fall into the snow.  Partially frozen rivulets are formed by the melting ice, running down a slippery incline nearby."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Northern Slopes, Quiet Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2840": 0.2,
-    "2842": 0.2
-  },
-  "id": 2841,
-  "location": "the Sleeping Lady Mountains",
-  "tags": [
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "edelweiss",
-    "iceblossoms",
-    "snow lily",
-    "winter rose",
-    "arctic moss",
-    "tundra grass",
-    "golden aster",
-    "calamintha blossom",
-    "snowberries",
-    "pale thornberry",
-    "red winterberry",
-    "small loganberry",
-    "rockberry",
-    "crowberry",
-    "lingonberry",
-    "orange rowanberry",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

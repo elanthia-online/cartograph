@@ -1,42 +1,33 @@
 {
+  "id": 24438,
+  "title": [
+    "[The Patio]"
+  ],
+  "description": [
+    "Colorful, glass-paned lanterns strung overhead illuminate the natural stone walls and painted cobblestones.  Wooden tables surrounded by mismatched chairs take up most of the space, except for a large stove and supply bin in one corner with a pair of high-backed rocking chairs arranged in front.  Water trickles down the far wall, pooling into a shallow, carved basin."
+  ],
+  "paths": [
+    "Obvious exits: east, west, out"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "24434": "out",
     "24436": "east",
     "24437": "west"
   },
-  "paths": [
-    "Obvious exits: east, west, out"
-  ],
+  "timeto": {
+    "24434": 0.2,
+    "24436": 0.2,
+    "24437": 0.2
+  },
+  "image": "imt-icemule-1474811966.png",
   "image_coords": [
     156,
     393,
     170,
     408
   ],
-  "terrain": "indoors",
-  "description": [
-    "Colorful, glass-paned lanterns strung overhead illuminate the natural stone walls and painted cobblestones.  Wooden tables surrounded by mismatched chairs take up most of the space, except for a large stove and supply bin in one corner with a pair of high-backed rocking chairs arranged in front.  Water trickles down the far wall, pooling into a shallow, carved basin."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "indoors",
-  "title": [
-    "[The Patio]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24434": 0.2,
-    "24436": 0.2,
-    "24437": 0.2
-  },
-  "id": 24438,
-  "location": "Icemule Trace",
   "tags": [
-    "node",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null,
-  "links": [
-
+    "node"
   ]
 }

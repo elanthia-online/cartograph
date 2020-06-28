@@ -1,36 +1,27 @@
 {
-  "wayto": {
-    "25603": {
-      "stringproc": "a7e69ab5da4a84c934955d862aa28aec"
-    },
-    "25604": {
-      "stringproc": "52ba7f53447479dc5eceb7ff3fcce921"
-    },
-    "25605": "out"
-  },
-  "paths": [
-    "Obvious exits: out"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Cholen's Pub is a comfortable chamber of dark, polished teak walls and ceiling fans turning in lazy circles overhead.  A couple of tables are placed toward the back of the room, shielded with carved wooden screens for privacy.  However, most of the furnishings are small wooden tables set conveniently between comfortable-looking armchairs.  A pile of pillows is also provided for more relaxed seating."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 25602,
   "title": [
     "[Bard Guild, Cholen's Pub]"
   ],
-  "check_location": null,
+  "description": [
+    "Cholen's Pub is a comfortable chamber of dark, polished teak walls and ceiling fans turning in lazy circles overhead.  A couple of tables are placed toward the back of the room, shielded with carved wooden screens for privacy.  However, most of the furnishings are small wooden tables set conveniently between comfortable-looking armchairs.  A pile of pillows is also provided for more relaxed seating."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "River's Rest",
+  "wayto": {
+    "25603": {
+      "file": "string_procs/wayto/25602_25603.rb"
+    },
+    "25604": {
+      "file": "string_procs/wayto/25602_25604.rb"
+    },
+    "25605": "out"
+  },
   "timeto": {
     "25603": 0.2,
     "25604": 0.2,
     "25605": 0.2
-  },
-  "id": 25602,
-  "location": "River's Rest",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  }
 }

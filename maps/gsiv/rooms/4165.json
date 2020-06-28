@@ -1,40 +1,30 @@
 {
+  "id": 4165,
+  "title": [
+    "[Hall of the Dead, Lavish Crypts]"
+  ],
+  "description": [
+    "Only the richest of the lands could afford such a burial crypt.  The walls between the well spaced crypts are covered with artwork depicting their life before death.  Each has been mortared over to cover and protect the dead from the would-be robber."
+  ],
+  "paths": [
+    "Obvious exits: east, southeast, southwest"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "4146": "southwest",
     "4148": "southeast",
     "4166": "east"
   },
-  "paths": [
-    "Obvious exits: east, southeast, southwest"
-  ],
-  "image_coords": [
-    722,
-    732,
-    732,
-    742
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Only the richest of the lands could afford such a burial crypt.  The walls between the well spaced crypts are covered with artwork depicting their life before death.  Each has been mortared over to cover and protect the dead from the would-be robber."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Hall of the Dead, Lavish Crypts]"
-  ],
-  "check_location": null,
   "timeto": {
     "4146": 0.2,
     "4148": 0.2,
     "4166": 0.2
   },
-  "id": 4165,
-  "location": "the Graveyard",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-graveyard-1264234799.png",
+  "image_coords": [
+    722,
+    732,
+    732,
+    742
   ]
 }

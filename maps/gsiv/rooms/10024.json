@@ -1,53 +1,32 @@
 {
+  "id": 10024,
+  "title": [
+    "[Yegharren Plain, High Plains]"
+  ],
+  "description": [
+    "Mist swirls down from the higher moors to the north, swept by the constant wind in an ethereal dance.  Patches of silvery heather stand interspersed with patches of barren, stony ground, and the gusting wind occasionally blows an uprooted branch across the desolate plain.",
+    "Mist swirls down from the higher moors to the north, swept by the constant wind in an ethereal dance.  Patches of moonlit heather stand interspersed with patches of barren, stony ground, and the gusting wind occasionally blows an uprooted branch across the desolate plain."
+  ],
+  "paths": [
+    "Obvious paths: southeast, west"
+  ],
+  "location": "the Yegharren Plains",
   "wayto": {
     "10023": "west",
     "10019": "southeast"
   },
-  "paths": [
-    "Obvious paths: southeast, west"
-  ],
+  "timeto": {
+    "10023": 0.2,
+    "10019": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     1270,
     437,
     1278,
     445
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "Mist swirls down from the higher moors to the north, swept by the constant wind in an ethereal dance.  Patches of silvery heather stand interspersed with patches of barren, stony ground, and the gusting wind occasionally blows an uprooted branch across the desolate plain.",
-    "Mist swirls down from the higher moors to the north, swept by the constant wind in an ethereal dance.  Patches of moonlit heather stand interspersed with patches of barren, stony ground, and the gusting wind occasionally blows an uprooted branch across the desolate plain."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Yegharren Plain, High Plains]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10023": 0.2,
-    "10019": 0.2
-  },
-  "id": 10024,
-  "location": "the Yegharren Plains",
   "tags": [
-    "some cothinar flower",
-    "cothinar flower",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "wild strawberry",
-    "blueberries",
-    "stalk of chicory",
-    "broken twig",
-    "sprig of larkspur",
-    "small wild rose",
-    "sprig of wild lilac",
-    "wild chokecherry",
-    "blue whortleberry",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cothinar flower"
   ]
 }

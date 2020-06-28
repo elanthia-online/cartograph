@@ -1,33 +1,30 @@
 {
+  "id": 1305,
+  "title": [
+    "[Zeltoph Switchbacks]"
+  ],
+  "description": [
+    "Narrowing severely, the trail bends around a rock outcropping that appears to have grown from the side of the mountain.  You stay close to the western side of the trail after glancing cautiously over the edge and seeing that the bottom is several hundred feet below."
+  ],
+  "paths": [
+    "Obvious paths: southwest, northwest"
+  ],
+  "location": "the foothills of Zeltoph",
   "wayto": {
     "1304": "northwest",
     "1306": "southwest"
   },
-  "paths": [
-    "Obvious paths: southwest, northwest"
-  ],
+  "timeto": {
+    "1304": 0.2,
+    "1306": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     363,
     338,
     373,
     348
   ],
-  "terrain": "mountainous",
-  "description": [
-    "Narrowing severely, the trail bends around a rock outcropping that appears to have grown from the side of the mountain.  You stay close to the western side of the trail after glancing cautiously over the edge and seeing that the bottom is several hundred feet below."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Zeltoph Switchbacks]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1304": 0.2,
-    "1306": 0.2
-  },
-  "id": 1305,
-  "location": "the foothills of Zeltoph",
   "tags": [
     "sprig of holly",
     "sprig of ivy",
@@ -43,10 +40,6 @@
     "ironfern root",
     "bolmara lichen",
     "wingstem root",
-    "alder bark",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "alder bark"
   ]
 }

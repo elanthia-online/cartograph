@@ -1,34 +1,31 @@
 {
+  "id": 5936,
+  "title": [
+    "[Catacombs, Sewers]"
+  ],
+  "description": [
+    "Interestingly, the walls have been crafted with stacked bones and skulls in artsy, symmetric patterns.",
+    "Interestingly, the walls have been crafted with stacked bones and skulls in artsy, symmetric patterns.  Even more unusual than the walls is a massive statue, meticulously crafted into a detailed image of a rat.  The statue stands at least ten feet high and looms in the center of this chamber.  The raised platform that the statue resides on is a pile of skulls and bones.  Located on the base of the platform is a plaque."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "5935": "southeast",
     "5937": "southwest"
   },
-  "paths": [
-    "Obvious exits: southeast, southwest"
-  ],
+  "timeto": {
+    "5935": 0.2,
+    "5937": 0.2
+  },
+  "image": "en-tavaalor-1565907614.png",
   "image_coords": [
     262,
     735,
     269,
     745
   ],
-  "terrain": null,
-  "description": [
-    "Interestingly, the walls have been crafted with stacked bones and skulls in artsy, symmetric patterns.",
-    "Interestingly, the walls have been crafted with stacked bones and skulls in artsy, symmetric patterns.  Even more unusual than the walls is a massive statue, meticulously crafted into a detailed image of a rat.  The statue stands at least ten feet high and looms in the center of this chamber.  The raised platform that the statue resides on is a pile of skulls and bones.  Located on the base of the platform is a plaque."
-  ],
-  "image": "en-tavaalor-1565907614.png",
-  "climate": null,
-  "title": [
-    "[Catacombs, Sewers]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5935": 0.2,
-    "5937": 0.2
-  },
-  "id": 5936,
-  "location": "the catacombs",
   "tags": [
     "some bolmara lichen",
     "blue trafel mushroom",
@@ -40,8 +37,5 @@
     "ironfern root",
     "bolmara lichen",
     "wingstem root"
-  ],
-  "links": [
-
   ]
 }

@@ -1,38 +1,30 @@
 {
+  "id": 12102,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "The sound of hoofbeats approaches rapidly.  When you whirl around, a white horse emerges from the surrounding mist with a black robed figure on its back.  As the horse gallops by, the sound of a blade cutting the air fills your ears, and a burst of wind brushes your neck.  The horseman quickly fades into the mist before you, a scythe the last thing you see as it disappears."
+  ],
+  "paths": [
+    "Obvious paths: east, southeast, west",
+    "Obvious exits: east, southeast, west"
+  ],
+  "location": "the Rift",
   "wayto": {
     "12118": "west",
     "12120": "east",
     "2634": "southeast",
     "2635": {
-      "stringproc": "f88a5ac335110328444947aa8fdfa490"
+      "file": "string_procs/wayto/12102_2635.rb"
     },
     "12093": {
-      "stringproc": "dc0110972ab7e067d5fec20ece15581c"
+      "file": "string_procs/wayto/12102_12093.rb"
     },
     "2605": {
-      "stringproc": "317c6eedd1ea40322b9b26b259a3053f"
+      "file": "string_procs/wayto/12102_2605.rb"
     }
   },
-  "paths": [
-    "Obvious paths: east, southeast, west",
-    "Obvious exits: east, southeast, west"
-  ],
-  "image_coords": [
-    894,
-    590,
-    904,
-    600
-  ],
-  "terrain": null,
-  "description": [
-    "The sound of hoofbeats approaches rapidly.  When you whirl around, a white horse emerges from the surrounding mist with a black robed figure on its back.  As the horse gallops by, the sound of a blade cutting the air fills your ears, and a burst of wind brushes your neck.  The horseman quickly fades into the mist before you, a scythe the last thing you see as it disappears."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
   "timeto": {
     "12118": 0.2,
     "12120": 0.2,
@@ -41,8 +33,13 @@
     "12093": 21.6,
     "2605": 16.0
   },
-  "id": 12102,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    894,
+    590,
+    904,
+    600
+  ],
   "tags": [
     "withered deathblossom",
     "rotting bile green fleshbulb",
@@ -51,8 +48,5 @@
     "mass of congealed slime",
     "oozing fleshsore bulb",
     "discolored fleshbinder bud"
-  ],
-  "links": [
-
   ]
 }

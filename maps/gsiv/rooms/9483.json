@@ -1,42 +1,32 @@
 {
+  "id": 9483,
+  "title": [
+    "[Bawdy Bard Inn, Hallway]"
+  ],
+  "description": [
+    "The short hallway extends to the east, and a lone toadstool in a stone pot at the hallway's far end casts a pool of light to dimly illuminate the entire corridor.  Thick cedar timbers support both the granite walls and the sturdy cedar ceiling timbers at regular intervals, except where doors allow entrance to the sleeping rooms. Soft, thick green carpet muffles the sound of footsteps.  A faux-birch door occupies the south wall while a faux-maple door allows passage through the north wall."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Zul Logoth",
   "wayto": {
     "9482": "west",
     "9484": "east",
     "9486": "go faux-birch door",
     "9489": "go faux-maple door"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
-  "image_coords": [
-    766,
-    480,
-    776,
-    490
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The short hallway extends to the east, and a lone toadstool in a stone pot at the hallway's far end casts a pool of light to dimly illuminate the entire corridor.  Thick cedar timbers support both the granite walls and the sturdy cedar ceiling timbers at regular intervals, except where doors allow entrance to the sleeping rooms. Soft, thick green carpet muffles the sound of footsteps.  A faux-birch door occupies the south wall while a faux-maple door allows passage through the north wall."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Bawdy Bard Inn, Hallway]"
-  ],
-  "check_location": null,
   "timeto": {
     "9482": 0.2,
     "9484": 0.2,
     "9486": 0.2,
     "9489": 0.2
   },
-  "id": 9483,
-  "location": "Zul Logoth",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-zul_logoth-1264234799.png",
+  "image_coords": [
+    766,
+    480,
+    776,
+    490
   ]
 }

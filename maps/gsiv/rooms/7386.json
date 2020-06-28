@@ -1,41 +1,31 @@
 {
+  "id": 7386,
+  "title": [
+    "[Shadow Plain]"
+  ],
+  "description": [
+    "A narrow ravine leads off to the southeast, providing a brief windbreak."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7387": "southeast",
     "7381": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, southeast"
-  ],
+  "timeto": {
+    "7387": 0.2,
+    "7381": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1199,
     1074,
     1209,
     1084
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "A narrow ravine leads off to the southeast, providing a brief windbreak."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Shadow Plain]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7387": 0.2,
-    "7381": 0.2
-  },
-  "id": 7386,
-  "location": "the Shadow Valley",
   "tags": [
-    "night mare",
-    "longgrass",
-    "wyrm thorn",
-    "petrified shadowstalk",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "night mare"
   ]
 }

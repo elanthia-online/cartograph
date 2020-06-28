@@ -1,47 +1,32 @@
 {
+  "id": 4313,
+  "title": [
+    "[Mine]"
+  ],
+  "description": [
+    "The floor is covered with guano which makes footing unsure as you make your way between the stalagmites.  The sounds from the bats above you grow louder as you sense that they are disturbed by your presence."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, southwest, northwest, up"
+  ],
+  "location": "the crystal caves",
   "wayto": {
     "4312": "up",
     "4314": "southeast",
     "4315": "northwest",
     "4316": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southeast, southwest, northwest, up"
-  ],
-  "image_coords": [
-    754,
-    305,
-    764,
-    315
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The floor is covered with guano which makes footing unsure as you make your way between the stalagmites.  The sounds from the bats above you grow louder as you sense that they are disturbed by your presence."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mine]"
-  ],
-  "check_location": null,
   "timeto": {
     "4312": 0.2,
     "4314": 0.2,
     "4315": 0.2,
     "4316": 0.2
   },
-  "id": 4313,
-  "location": "the crystal caves",
-  "tags": [
-    "wolifrew lichen",
-    "withered black mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-mineroad-1264234799.png",
+  "image_coords": [
+    754,
+    305,
+    764,
+    315
   ]
 }

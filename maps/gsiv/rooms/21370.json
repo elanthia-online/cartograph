@@ -1,36 +1,30 @@
 {
-  "wayto": {
-    "19275": "go carved door"
-  },
+  "id": 21370,
+  "title": [
+    "[Moot Hall, Wedding Hall]"
+  ],
+  "description": [
+    "Lots of big, square windows give this room an open, airy feel, and let in a large amount of light.  Branches and flowers are draped over the windows, and piled around the plain wooden altar opposite the carved door.  Dozens of chairs sit in rows across the floor, with a long narrow table to one side.  On the wall above the altar hangs a double silhouette, a man's face on one side and a woman's on the other, each carved of dark wood and polished brightly."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "the town of Wehnimer's Landing",
+  "wayto": {
+    "19275": "go carved door"
+  },
+  "timeto": {
+    "19275": 0.2
+  },
+  "image": "wl-moot_hall-1486755929.png",
   "image_coords": [
     288,
     1386,
     429,
     1448
   ],
-  "terrain": null,
-  "description": [
-    "Lots of big, square windows give this room an open, airy feel, and let in a large amount of light.  Branches and flowers are draped over the windows, and piled around the plain wooden altar opposite the carved door.  Dozens of chairs sit in rows across the floor, with a long narrow table to one side.  On the wall above the altar hangs a double silhouette, a man's face on one side and a woman's on the other, each carved of dark wood and polished brightly."
-  ],
-  "image": "wl-moot_hall-1486755929.png",
-  "climate": null,
-  "title": [
-    "[Moot Hall, Wedding Hall]"
-  ],
-  "check_location": false,
-  "timeto": {
-    "19275": 0.2
-  },
-  "id": 21370,
-  "location": "the town of Wehnimer's Landing",
   "tags": [
     "meta:teleport:fwi"
   ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  "check_location": false
 }

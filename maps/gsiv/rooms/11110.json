@@ -1,36 +1,25 @@
 {
-  "wayto": {
-    "11109": "go doors"
-  },
+  "id": 11110,
+  "title": [
+    "[Krol Ship, Captain's Cabin]"
+  ],
+  "description": [
+    "This cabin extends from the companionway aft to the stern, and across the entire width of the ship.  Compared to the squalor of the crew's and officers' quarters, the elegance of this cavernous room is unbelievable.  Plush carpets cover the floor, and tapestries hang on the walls.  Gold trim shines brightly on the ornate woodwork, and comfortable furniture invites the visitor to relax."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "wayto": {
+    "11109": "go doors"
+  },
+  "timeto": {
+    "11109": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     1251,
     532,
     1261,
     542
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This cabin extends from the companionway aft to the stern, and across the entire width of the ship.  Compared to the squalor of the crew's and officers' quarters, the elegance of this cavernous room is unbelievable.  Plush carpets cover the floor, and tapestries hang on the walls.  Gold trim shines brightly on the ornate woodwork, and comfortable furniture invites the visitor to relax."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "indoors",
-  "title": [
-    "[Krol Ship, Captain's Cabin]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11109": 0.2
-  },
-  "id": 11110,
-  "location": "the Sea Caves",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

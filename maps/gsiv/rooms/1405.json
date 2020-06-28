@@ -1,33 +1,30 @@
 {
+  "id": 1405,
+  "title": [
+    "[Cairnfang Forest]"
+  ],
+  "description": [
+    "The caravan trail parallels a small gully.  The fallen trunks of trees undercut by the collected rainwaters span the miniature chasm -- moss-covered foot bridges to nowhere in particular."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "1404": "north",
     "1406": "southwest"
   },
-  "paths": [
-    "Obvious paths: north, southwest"
-  ],
+  "timeto": {
+    "1404": 0.2,
+    "1406": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     1100,
     936,
     1110,
     946
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "The caravan trail parallels a small gully.  The fallen trunks of trees undercut by the collected rainwaters span the miniature chasm -- moss-covered foot bridges to nowhere in particular."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Cairnfang Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1404": 0.2,
-    "1406": 0.2
-  },
-  "id": 1405,
-  "location": "the Cairnfang",
   "tags": [
     "sprig of wild lilac",
     "nightbloom blossom",
@@ -84,10 +81,6 @@
     "ebony twig",
     "bolmara lichen",
     "brostheras grass",
-    "alder bark",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "alder bark"
   ]
 }

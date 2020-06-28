@@ -1,61 +1,38 @@
 {
+  "id": 10002,
+  "title": [
+    "[Yegharren Valley, Ravine Ledge]"
+  ],
+  "description": [
+    "The stone ledge is narrow here, but the rough wall of the ravine provides plenty of handholds.  A huge nest built of grass and sticks and mud, large enough for a family of giantmen to sleep in, is tucked into a crevice just off the ledge."
+  ],
+  "paths": [
+    "Obvious paths: northwest, down"
+  ],
+  "location": "the Yegharren Plains",
   "wayto": {
     "10001": "northwest",
     "10003": "down",
     "9894": "go nest"
   },
-  "paths": [
-    "Obvious paths: northwest, down"
-  ],
+  "timeto": {
+    "10001": 0.2,
+    "10003": 0.2,
+    "9894": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     1323,
     770,
     1331,
     778
   ],
-  "terrain": "mountainous",
-  "description": [
-    "The stone ledge is narrow here, but the rough wall of the ravine provides plenty of handholds.  A huge nest built of grass and sticks and mud, large enough for a family of giantmen to sleep in, is tucked into a crevice just off the ledge."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Yegharren Valley, Ravine Ledge]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10001": 0.2,
-    "10003": 0.2,
-    "9894": 0.2
-  },
-  "id": 10002,
-  "location": "the Yegharren Plains",
   "tags": [
     "mountain dryan",
     "sprig of holly",
     "small dandelion",
     "small apple",
     "stalk of bluebells",
-    "some wild sage",
-    "angelica root",
-    "wild pink geranium",
-    "sprig of larkspur",
-    "yellow primrose",
-    "wild sage",
-    "golden aster",
-    "sprig of columbine",
-    "crimson dragonstalk",
-    "mountain dryad",
-    "stalk of monkeyflower",
-    "sprig of ivy",
-    "juicy plum",
-    "pepperthorn root",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wild sage"
   ]
 }

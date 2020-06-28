@@ -1,33 +1,30 @@
 {
+  "id": 5406,
+  "title": [
+    "[Ruined Courtyard]"
+  ],
+  "description": [
+    "Numerous small bones that could either be human or animal have been piled into a large mound.  Judging by the structure of the tower, it's clear that these are just the leftovers used in building it.  The sheer number of corpses that must have been needed to construct this grim keep is staggering."
+  ],
+  "paths": [
+    "Obvious paths: north, west"
+  ],
+  "location": "Bonespear Tower",
   "wayto": {
     "5394": "west",
     "5405": "north"
   },
-  "paths": [
-    "Obvious paths: north, west"
-  ],
+  "timeto": {
+    "5394": 0.2,
+    "5405": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     1251,
     986,
     1261,
     996
   ],
-  "terrain": "rough",
-  "description": [
-    "Numerous small bones that could either be human or animal have been piled into a large mound.  Judging by the structure of the tower, it's clear that these are just the leftovers used in building it.  The sheer number of corpses that must have been needed to construct this grim keep is staggering."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "humid",
-  "title": [
-    "[Ruined Courtyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5394": 0.2,
-    "5405": 0.2
-  },
-  "id": 5406,
-  "location": "Bonespear Tower",
   "tags": [
     "pink clover blossom",
     "some motherwort",
@@ -49,13 +46,6 @@
     "fiddlehead fern",
     "purple clover blossom",
     "white passionflower",
-    "stalk of goldenrod",
-    "blueberries",
-    "broken twig",
-    "motherwort",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "stalk of goldenrod"
   ]
 }

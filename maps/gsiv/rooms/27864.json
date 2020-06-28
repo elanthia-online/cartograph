@@ -1,38 +1,29 @@
 {
-  "wayto": {
-    "27865": {
-      "stringproc": "e0856c401e3d5b43c75b6c59b844083e"
-    },
-    "27860": {
-      "stringproc": "0ba9889d354322ab74c751c7e8c2a0b5"
-    }
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "High ceilings make this room feel larger than it is.  The front hosts brocade armchairs facing a small fireplace.  Over the mantel, a colorful painting is hung.  A dark wood display case cordons off the back of the room.  In one corner, a long oak counter isolates a cast iron stove and a large oak pantry.  A maoral table and an antique wood buffet occupy the other corner.  A set of stained glass doors leads out the back.  A large expanse of windows allow muted sunlight to fill the room.  Near the front door, a tall window provides a view of guests."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 27864,
   "title": [
     "[Greatroom]"
   ],
-  "check_location": null,
-  "timeto": {
+  "description": [
+    "High ceilings make this room feel larger than it is.  The front hosts brocade armchairs facing a small fireplace.  Over the mantel, a colorful painting is hung.  A dark wood display case cordons off the back of the room.  In one corner, a long oak counter isolates a cast iron stove and a large oak pantry.  A maoral table and an antique wood buffet occupy the other corner.  A set of stained glass doors leads out the back.  A large expanse of windows allow muted sunlight to fill the room.  Near the front door, a tall window provides a view of guests."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Keh'nira Fyr'sah",
+  "wayto": {
     "27865": {
-      "stringproc": "c9bf0e8e20e6569db935057826b9963e"
+      "file": "string_procs/wayto/27864_27865.rb"
     },
     "27860": {
-      "stringproc": "c9bf0e8e20e6569db935057826b9963e"
+      "file": "string_procs/wayto/27864_27860.rb"
     }
   },
-  "id": 27864,
-  "location": "Keh'nira Fyr'sah",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  "timeto": {
+    "27865": {
+      "file": "string_procs/timeto/27864_27865.rb"
+    },
+    "27860": {
+      "file": "string_procs/timeto/27864_27860.rb"
+    }
+  }
 }

@@ -1,38 +1,28 @@
 {
+  "id": 9825,
+  "title": [
+    "[Maaghara Labyrinth]"
+  ],
+  "description": [
+    "Thick, smooth roots grow along the walls, their dark forms illuminated by the tiny colonies of luminescent fungi growing upon them.  A light fog creeps across the floor, brought on by the heavy chill hanging over the area.  A few yellowed bones have been staked into the ground, the curling mists rising up to caress each of the macabre artifacts."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south"
+  ],
+  "location": "the Maaghara Tower",
   "wayto": {
     "9822": "south",
     "9811": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, south"
-  ],
+  "timeto": {
+    "9822": 0.2,
+    "9811": 0.2
+  },
+  "image": "en-tower-1264234799.png",
   "image_coords": [
     1097,
     464,
     1107,
     474
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Thick, smooth roots grow along the walls, their dark forms illuminated by the tiny colonies of luminescent fungi growing upon them.  A light fog creeps across the floor, brought on by the heavy chill hanging over the area.  A few yellowed bones have been staked into the ground, the curling mists rising up to caress each of the macabre artifacts."
-  ],
-  "image": "en-tower-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Maaghara Labyrinth]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9822": 0.2,
-    "9811": 0.2
-  },
-  "id": 9825,
-  "location": "the Maaghara Tower",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

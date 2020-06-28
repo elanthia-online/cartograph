@@ -1,51 +1,36 @@
 {
+  "id": 5770,
+  "title": [
+    "[Mraent Cavern, Granite Tunnel]"
+  ],
+  "description": [
+    "A broad ramp leads from the lower tunnels to the main quarry above.  A pleasant sound of falling water reaches your ears from some unseen, distant source."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "the Mraent Caverns",
   "wayto": {
     "5760": "go ramp",
     "5771": "north",
     "5772": "west"
   },
-  "paths": [
-    "Obvious exits: north, west"
-  ],
+  "timeto": {
+    "5760": 0.2,
+    "5771": 0.2,
+    "5772": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     411,
     177,
     421,
     187
   ],
-  "terrain": "indoors",
-  "description": [
-    "A broad ramp leads from the lower tunnels to the main quarry above.  A pleasant sound of falling water reaches your ears from some unseen, distant source."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mraent Cavern, Granite Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5760": 0.2,
-    "5771": 0.2,
-    "5772": 0.2
-  },
-  "id": 5770,
-  "location": "the Mraent Caverns",
   "tags": [
     "red trafel mushroom",
     "some wingstem root",
     "giant glowing toadstool",
-    "soft white mushroom",
-    "withered black mushroom",
-    "black hook mushroom",
-    "blue trafel mushroom",
-    "glowing toadstool",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "soft white mushroom"
   ]
 }

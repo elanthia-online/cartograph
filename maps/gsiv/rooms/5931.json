@@ -1,36 +1,33 @@
 {
+  "id": 5931,
+  "title": [
+    "[Catacombs, Nexus]"
+  ],
+  "description": [
+    "All of the pipes seem to empty out into this general area, and large amounts of rancid water are unavoidable.",
+    "All of the pipes seem to empty out into this general area, and large amounts of rancid water are unavoidable.  Floating bones and refuse, among other debris, makes the water's level rise.  On the walls, mildew commemorates the different lines of water levels over the years past."
+  ],
+  "paths": [
+    "Obvious exits: southeast, south, northwest"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "5929": "south",
     "5930": "southeast",
     "5932": "northwest"
   },
-  "paths": [
-    "Obvious exits: southeast, south, northwest"
-  ],
+  "timeto": {
+    "5929": 0.2,
+    "5930": 0.2,
+    "5932": 0.2
+  },
+  "image": "en-tavaalor-1565907614.png",
   "image_coords": [
     400,
     876,
     409,
     887
   ],
-  "terrain": null,
-  "description": [
-    "All of the pipes seem to empty out into this general area, and large amounts of rancid water are unavoidable.",
-    "All of the pipes seem to empty out into this general area, and large amounts of rancid water are unavoidable.  Floating bones and refuse, among other debris, makes the water's level rise.  On the walls, mildew commemorates the different lines of water levels over the years past."
-  ],
-  "image": "en-tavaalor-1565907614.png",
-  "climate": null,
-  "title": [
-    "[Catacombs, Nexus]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5929": 0.2,
-    "5930": 0.2,
-    "5932": 0.2
-  },
-  "id": 5931,
-  "location": "the catacombs",
   "tags": [
     "some bolmara lichen",
     "black hook mushroom",
@@ -42,8 +39,5 @@
     "murdroot",
     "bolmara lichen",
     "wingstem root"
-  ],
-  "links": [
-
   ]
 }

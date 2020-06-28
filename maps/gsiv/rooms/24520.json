@@ -1,47 +1,30 @@
 {
+  "id": 24520,
+  "title": [
+    "[Frozen Bramble Patch]"
+  ],
+  "description": [
+    "A frozen skeleton lies entwined in the brambles, apparently having failed in its epic struggle to combat enemies unknown while attempting to break free from the spiky plants.  A rusty handaxe sticks out of the brambles which have grown completely around the weapon."
+  ],
+  "paths": [
+    "Obvious paths: east, southeast, west"
+  ],
+  "location": "the Abandoned Farm",
   "wayto": {
     "24521": "west",
     "24519": "southeast",
     "24530": "east"
   },
-  "paths": [
-    "Obvious paths: east, southeast, west"
-  ],
-  "image_coords": [
-    167,
-    258,
-    179,
-    269
-  ],
-  "terrain": "barren scrub",
-  "description": [
-    "A frozen skeleton lies entwined in the brambles, apparently having failed in its epic struggle to combat enemies unknown while attempting to break free from the spiky plants.  A rusty handaxe sticks out of the brambles which have grown completely around the weapon."
-  ],
-  "image": "imt-bramble_patch-1307499864.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Frozen Bramble Patch]"
-  ],
-  "check_location": null,
   "timeto": {
     "24521": 0.2,
     "24519": 0.2,
     "24530": 0.2
   },
-  "id": 24520,
-  "location": "the Abandoned Farm",
-  "tags": [
-    "snow lily",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "arctic moss",
-    "broken twig",
-    "rockberry",
-    "crowberry",
-    "lingonberry",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+  "image": "imt-bramble_patch-1307499864.png",
+  "image_coords": [
+    167,
+    258,
+    179,
+    269
+  ]
 }

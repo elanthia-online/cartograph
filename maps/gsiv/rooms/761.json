@@ -1,36 +1,33 @@
 {
+  "id": 761,
+  "title": [
+    "[Whistler's Pass, Grassy Field]"
+  ],
+  "description": [
+    "The heavy mist that fills the pass condenses to form small rain drops.  The sound of running water carries through the night air from the north.",
+    "The heavy mist that fills the pass condenses to form small rain drops.  The sound of running water carries through the pass from the north."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "1705": "go hut",
     "760": "north",
     "762": "south"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "1705": 0.2,
+    "760": 0.2,
+    "762": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     560,
     811,
     570,
     821
   ],
-  "terrain": "rough",
-  "description": [
-    "The heavy mist that fills the pass condenses to form small rain drops.  The sound of running water carries through the night air from the north.",
-    "The heavy mist that fills the pass condenses to form small rain drops.  The sound of running water carries through the pass from the north."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Whistler's Pass, Grassy Field]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1705": 0.2,
-    "760": 0.2,
-    "762": 0.2
-  },
-  "id": 761,
-  "location": "Whistler's Pass",
   "tags": [
     "wintergreen leaf",
     "bright red teaberry",
@@ -60,10 +57,6 @@
     "white baneberry",
     "pepperthorn root",
     "ironfern root",
-    "sky-blue delphinuris",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sky-blue delphinuris"
   ]
 }

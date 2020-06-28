@@ -1,48 +1,28 @@
 {
+  "id": 9596,
+  "title": [
+    "[Czeroth Caverns, Tunnel]"
+  ],
+  "description": [
+    "Mineral-rich water slowly drips down the walls of the tunnel, creating a small pool of water at the base.  Phosphorescent minerals beneath the pool create a surrealistic glow.  A faint acrid odor comes from the southeast."
+  ],
+  "paths": [
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "the Czeroth Caverns",
   "wayto": {
     "9595": "northwest",
     "9597": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast, northwest"
-  ],
+  "timeto": {
+    "9595": 0.2,
+    "9597": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     1205,
     328,
     1215,
     338
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Mineral-rich water slowly drips down the walls of the tunnel, creating a small pool of water at the base.  Phosphorescent minerals beneath the pool create a surrealistic glow.  A faint acrid odor comes from the southeast."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Czeroth Caverns, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9595": 0.2,
-    "9597": 0.2
-  },
-  "id": 9596,
-  "location": "the Czeroth Caverns",
-  "tags": [
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

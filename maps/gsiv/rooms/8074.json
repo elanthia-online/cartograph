@@ -1,4 +1,15 @@
 {
+  "id": 8074,
+  "title": [
+    "[Luinne Bheinn, Outer Watch]"
+  ],
+  "description": [
+    "A squat, stone guard house stands next to the small drawbridge.  A stream gurgles cheerfully under the bridge.  From here the rocky path splits off in three directions, the eastern option leading directly into the settlement."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south"
+  ],
+  "location": "Luinne Bheinn",
   "wayto": {
     "8086": "east",
     "8075": "north",
@@ -6,25 +17,6 @@
     "8114": "go house",
     "8071": "go drawbridge"
   },
-  "paths": [
-    "Obvious paths: north, east, south"
-  ],
-  "image_coords": [
-    834,
-    813,
-    844,
-    823
-  ],
-  "terrain": "mountainous",
-  "description": [
-    "A squat, stone guard house stands next to the small drawbridge.  A stream gurgles cheerfully under the bridge.  From here the rocky path splits off in three directions, the eastern option leading directly into the settlement."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Luinne Bheinn, Outer Watch]"
-  ],
-  "check_location": null,
   "timeto": {
     "8086": 0.2,
     "8075": 0.2,
@@ -32,27 +24,18 @@
     "8114": 0.2,
     "8071": 0.2
   },
-  "id": 8074,
-  "location": "Luinne Bheinn",
+  "image": "wl-mineroad-1264234799.png",
+  "image_coords": [
+    834,
+    813,
+    844,
+    823
+  ],
   "tags": [
     "sprig of larkspur",
     "marallis berry",
     "sassafras leaf",
     "some pennyroyal stem",
-    "some wingstem root",
-    "cuctucae berry",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

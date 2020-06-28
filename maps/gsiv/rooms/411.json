@@ -1,35 +1,32 @@
 {
+  "id": 411,
+  "title": [
+    "[Wehnimer's, Exterior]"
+  ],
+  "description": [
+    "You can hear the noisy bustle around the land gates to the west.  Over the din, you can just barely hear the sound of the surf from the northeast."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "the Lower Dragonsclaw",
   "wayto": {
     "3862": "go gate",
     "221": "west",
     "412": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, west"
-  ],
+  "timeto": {
+    "3862": 0.2,
+    "221": 0.2,
+    "412": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     678,
     243,
     698,
     263
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "You can hear the noisy bustle around the land gates to the west.  Over the din, you can just barely hear the sound of the surf from the northeast."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Wehnimer's, Exterior]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3862": 0.2,
-    "221": 0.2,
-    "412": 0.2
-  },
-  "id": 411,
-  "location": "the Lower Dragonsclaw",
   "tags": [
     "some sovyn clove",
     "some acantha leaf",
@@ -63,10 +60,6 @@
     "motherwort",
     "murkweed",
     "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bur-clover root"
   ]
 }

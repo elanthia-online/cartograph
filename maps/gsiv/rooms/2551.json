@@ -1,38 +1,28 @@
 {
+  "id": 2551,
+  "title": [
+    "[Glatoph, Icy Passage]"
+  ],
+  "description": [
+    "The smooth ice walls of this passage narrow, forcing you to choose a path among the rocks in the stream.  Stepping from rock to rock, you perilously continue on the trail hoping not to slip and fall into the freezing water."
+  ],
+  "paths": [
+    "Obvious exits: north, southwest"
+  ],
+  "location": "the Icemule Trail",
   "wayto": {
     "2552": "southwest",
     "2550": "north"
   },
-  "paths": [
-    "Obvious exits: north, southwest"
-  ],
+  "timeto": {
+    "2552": 0.2,
+    "2550": 0.2
+  },
+  "image": "imt-trail-1264234799.png",
   "image_coords": [
     729,
     784,
     739,
     794
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The smooth ice walls of this passage narrow, forcing you to choose a path among the rocks in the stream.  Stepping from rock to rock, you perilously continue on the trail hoping not to slip and fall into the freezing water."
-  ],
-  "image": "imt-trail-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Glatoph, Icy Passage]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2552": 0.2,
-    "2550": 0.2
-  },
-  "id": 2551,
-  "location": "the Icemule Trail",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

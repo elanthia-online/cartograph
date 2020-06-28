@@ -1,39 +1,32 @@
 {
-  "wayto": {
-    "25701": {
-      "stringproc": "b3903ef3130903d58c1b8b478bec601b"
-    },
-    "25805": {
-      "stringproc": "7c906cf3c37f156a5de40e3486f4dfc0"
-    }
-  },
+  "id": 25796,
+  "title": [
+    "[Eastern Waterway]"
+  ],
+  "description": [
+    "Seaweed beds at the bottom of the ocean cause the water to transition from crystal blue near the open water to cerulean near the edges of the small island that rises on the east.  A long wooden dock stretches out from the verdant expanse of land and allows mariners the ability to dock their boats along its buoy-lined face."
+  ],
   "paths": [
     "Obvious paths: northeast, east, southwest"
   ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "25701": {
+      "file": "string_procs/wayto/25796_25701.rb"
+    },
+    "25805": {
+      "file": "string_procs/wayto/25796_25805.rb"
+    }
+  },
+  "timeto": {
+    "25701": 6.0,
+    "25805": 6.0
+  },
+  "image": "ifw-eastern_waterway-1489553700.png",
   "image_coords": [
     1440,
     1599,
     1462,
     1618
-  ],
-  "terrain": null,
-  "description": [
-    "Seaweed beds at the bottom of the ocean cause the water to transition from crystal blue near the open water to cerulean near the edges of the small island that rises on the east.  A long wooden dock stretches out from the verdant expanse of land and allows mariners the ability to dock their boats along its buoy-lined face."
-  ],
-  "image": "ifw-eastern_waterway-1489553700.png",
-  "climate": null,
-  "title": [
-    "[Eastern Waterway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "25701": 6.0,
-    "25805": 6.0
-  },
-  "id": 25796,
-  "location": "Mist Harbor",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

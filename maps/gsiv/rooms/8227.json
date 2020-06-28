@@ -1,46 +1,36 @@
 {
-  "wayto": {
-    "8228": "south",
-    "8245": {
-      "stringproc": "061ca2556f934d912e9bd5340e94b7e8"
-    },
-    "8247": {
-      "stringproc": "a09e9b385ee5061059d1f3d762a3f2df"
-    },
-    "8226": "go gate"
-  },
-  "paths": [
-    "Obvious exits: south"
-  ],
-  "image_coords": [
-    132,
-    259,
-    142,
-    269
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A tattered red banner hangs from the grey stones of the north wall.  The sturdy gates to the west have arrow slits to each side.  An armored skeleton lies by each.  A matched pair of doors leads east, and a passage south opens into a larger chamber."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
+  "id": 8227,
   "title": [
     "[Wolves' Den, Entry Hall]"
   ],
-  "check_location": null,
+  "description": [
+    "A tattered red banner hangs from the grey stones of the north wall.  The sturdy gates to the west have arrow slits to each side.  An armored skeleton lies by each.  A matched pair of doors leads east, and a passage south opens into a larger chamber."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the Wolves' Den",
+  "wayto": {
+    "8228": "south",
+    "8245": {
+      "file": "string_procs/wayto/8227_8245.rb"
+    },
+    "8247": {
+      "file": "string_procs/wayto/8227_8247.rb"
+    },
+    "8226": "go gate"
+  },
   "timeto": {
     "8228": 0.2,
     "8245": 0.2,
     "8247": 0.2,
     "8226": 0.2
   },
-  "id": 8227,
-  "location": "the Wolves' Den",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-mineroad-1264234799.png",
+  "image_coords": [
+    132,
+    259,
+    142,
+    269
   ]
 }

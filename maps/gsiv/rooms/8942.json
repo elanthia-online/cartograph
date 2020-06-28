@@ -1,38 +1,32 @@
 {
+  "id": 8942,
+  "title": [
+    "[Alchemical Supplies]"
+  ],
+  "description": [
+    "Wax-sealed jars, each labeled in neat, yet spidery script, are deployed along the shelves in orderly rows.  Apothecary's chests, their drawers labeled in a matching script, stand beneath the shelves on sturdy legs.  A granite workbench with mortars stationed on it at even intervals occupies the center of the floor."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "8943": "go door",
     "8936": "out"
   },
-  "paths": [
-    "Obvious exits: out"
-  ],
+  "timeto": {
+    "8943": 0.2,
+    "8936": 0.2
+  },
+  "image": "imt-wizard_guild.png",
   "image_coords": [
     422,
     318,
     471,
     365
   ],
-  "terrain": null,
-  "description": [
-    "Wax-sealed jars, each labeled in neat, yet spidery script, are deployed along the shelves in orderly rows.  Apothecary's chests, their drawers labeled in a matching script, stand beneath the shelves on sturdy legs.  A granite workbench with mortars stationed on it at even intervals occupies the center of the floor."
-  ],
-  "image": "imt-wizard_guild.png",
-  "climate": null,
-  "title": [
-    "[Alchemical Supplies]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8943": 0.2,
-    "8936": 0.2
-  },
-  "id": 8942,
-  "location": "Icemule Trace",
   "tags": [
     "wizard alchemy shop",
     "Icemule wizard alchemy shop"
-  ],
-  "links": [
-
   ]
 }

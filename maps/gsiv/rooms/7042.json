@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "7040": "out"
-  },
+  "id": 7042,
+  "title": [
+    "[Castle Darkstone, Stables]"
+  ],
+  "description": [
+    "The ordered stalls and mouldering horse tack clearly indicate that this room once held the finest of horses.  Although no horses now remain, a pile of bones lies in the last stall, with a bridle still fastened around the long-dead skull."
+  ],
   "paths": [
     "Obvious exits: out"
   ],
+  "location": "Darkstone Castle",
+  "wayto": {
+    "7040": "out"
+  },
+  "timeto": {
+    "7040": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     778,
     561,
     788,
     571
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The ordered stalls and mouldering horse tack clearly indicate that this room once held the finest of horses.  Although no horses now remain, a pile of bones lies in the last stall, with a bridle still fastened around the long-dead skull."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Castle Darkstone, Stables]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7040": 0.2
-  },
-  "id": 7042,
-  "location": "Darkstone Castle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

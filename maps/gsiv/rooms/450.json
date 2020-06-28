@@ -1,35 +1,32 @@
 {
+  "id": 450,
+  "title": [
+    "[Melgorehn's Reach, The Shadow]"
+  ],
+  "description": [
+    "You are in a grassy area which is presently darkened by the shadow of a peculiar mountain jutting from the ground.  It is unusual in the fact that no other mountains exist in this area, and you can remember a time when there certainly wasn't one here."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "Melgorehn's Reach",
   "wayto": {
     "449": "west",
     "451": "northeast",
     "6326": "go path"
   },
-  "paths": [
-    "Obvious paths: northeast, west"
-  ],
+  "timeto": {
+    "449": 0.2,
+    "451": 0.2,
+    "6326": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     657,
     651,
     667,
     661
   ],
-  "terrain": "grassland",
-  "description": [
-    "You are in a grassy area which is presently darkened by the shadow of a peculiar mountain jutting from the ground.  It is unusual in the fact that no other mountains exist in this area, and you can remember a time when there certainly wasn't one here."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Melgorehn's Reach, The Shadow]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "449": 0.2,
-    "451": 0.2,
-    "6326": 0.2
-  },
-  "id": 450,
-  "location": "Melgorehn's Reach",
   "tags": [
     "blue trafel mushroom",
     "cuctucae berry",
@@ -47,24 +44,6 @@
     "withered black mushroom",
     "wavepetal blossom",
     "bright red cranberry",
-    "golden aster",
-    "acantha leaf",
-    "wolifrew lichen",
-    "sassafras leaf",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "white hook mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "stalk of chicory",
-    "small wild rose",
-    "wild chokecherry",
-    "ironfern root",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "golden aster"
   ]
 }

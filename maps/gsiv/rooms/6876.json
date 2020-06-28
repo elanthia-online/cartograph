@@ -1,40 +1,30 @@
 {
+  "id": 6876,
+  "title": [
+    "[Abandoned Inn, Cellar]"
+  ],
+  "description": [
+    "A small window set high in the wall provides dim light to this slightly musty cellar.  A few boxes and pieces of unused kitchen equipment lean in the corner nearest the trapdoor, likely placed for easiest access by the kitchen staff.  A few wispy cobwebs decorate the ceiling, looking recently spun by spiders made homeless in a good sweeping.  A door opens in the south wall, giving a glimpse of racks beyond it."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the Abandoned Inn",
   "wayto": {
     "6875": "go trapdoor",
     "6877": "go door",
     "6878": "west"
   },
-  "paths": [
-    "Obvious exits: west"
-  ],
-  "image_coords": [
-    986,
-    1026,
-    996,
-    1036
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A small window set high in the wall provides dim light to this slightly musty cellar.  A few boxes and pieces of unused kitchen equipment lean in the corner nearest the trapdoor, likely placed for easiest access by the kitchen staff.  A few wispy cobwebs decorate the ceiling, looking recently spun by spiders made homeless in a good sweeping.  A door opens in the south wall, giving a glimpse of racks beyond it."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abandoned Inn, Cellar]"
-  ],
-  "check_location": null,
   "timeto": {
     "6875": 0.2,
     "6877": 0.2,
     "6878": 0.2
   },
-  "id": 6876,
-  "location": "the Abandoned Inn",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-gates-1264234799.png",
+  "image_coords": [
+    986,
+    1026,
+    996,
+    1036
   ]
 }

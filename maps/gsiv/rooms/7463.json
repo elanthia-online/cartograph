@@ -1,50 +1,39 @@
 {
-  "wayto": {
-    "7462": {
-      "stringproc": "22a794b0f5bb3d04c7f49a30055543f3"
-    },
-    "7464": {
-      "stringproc": "9562739203983e062dd5fcc7a8104b4e"
-    }
-  },
+  "id": 7463,
+  "title": [
+    "[Dark Grotto, Small Tunnel]"
+  ],
+  "description": [
+    "The irregular walls of the tunnel have been worn smooth, as if they had been polished with abrasive cloths.  There are no jagged edges, no scratches or other marks in the stone, no signs that the tunnel is anything but a natural formation."
+  ],
   "paths": [
     "Obvious exits: northeast, southwest"
   ],
+  "location": "the Broken Lands",
+  "wayto": {
+    "7462": {
+      "file": "string_procs/wayto/7463_7462.rb"
+    },
+    "7464": {
+      "file": "string_procs/wayto/7463_7464.rb"
+    }
+  },
+  "timeto": {
+    "7462": 0.2,
+    "7464": 0.2
+  },
+  "image": "wl-broken-1264234799.png",
   "image_coords": [
     834,
     907,
     844,
     917
   ],
-  "terrain": "indoors",
-  "description": [
-    "The irregular walls of the tunnel have been worn smooth, as if they had been polished with abrasive cloths.  There are no jagged edges, no scratches or other marks in the stone, no signs that the tunnel is anything but a natural formation."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dark Grotto, Small Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7462": 0.2,
-    "7464": 0.2
-  },
-  "id": 7463,
-  "location": "the Broken Lands",
   "tags": [
     "some cave moss",
     "sponge mushroom",
     "some blackened moss",
     "some glowing green lichen",
-    "magru",
-    "blackened moss",
-    "green lichen",
-    "bone mushroom",
-    "cave moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "magru"
   ]
 }

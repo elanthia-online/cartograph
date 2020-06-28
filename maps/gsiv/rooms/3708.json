@@ -1,38 +1,28 @@
 {
+  "id": 3708,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "The sound of your own footsteps echoes around you in the silent, cavernous chamber.  The silence is disturbing, and you sense that you are being watched.  Your head is filled with the pounding noise of your own heartbeat."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "3707": "east",
     "3709": "go door"
   },
-  "paths": [
-    "Obvious exits: east"
-  ],
+  "timeto": {
+    "3707": 0.2,
+    "3709": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     310,
     1091,
     320,
     1101
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The sound of your own footsteps echoes around you in the silent, cavernous chamber.  The silence is disturbing, and you sense that you are being watched.  Your head is filled with the pounding noise of your own heartbeat."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3707": 0.2,
-    "3709": 0.2
-  },
-  "id": 3708,
-  "location": "Darkstone Castle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

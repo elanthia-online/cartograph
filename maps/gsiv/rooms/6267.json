@@ -1,35 +1,32 @@
 {
-  "wayto": {
-    "6284": {
-      "stringproc": "02c12fccc27497c7a68c233da39985ac"
-    },
-    "6265": "south"
-  },
+  "id": 6267,
+  "title": [
+    "[Kobold Village, Promontory]"
+  ],
+  "description": [
+    "A steep earthen cliff rises above you, roots dangling over the edge far above.  Several large piles of dirt lie nearby, and a broken wheelbarrow is partially buried by one."
+  ],
   "paths": [
     "Obvious paths: south"
   ],
+  "location": "the Lower Dragonsclaw",
+  "wayto": {
+    "6284": {
+      "file": "string_procs/wayto/6267_6284.rb"
+    },
+    "6265": "south"
+  },
+  "timeto": {
+    "6284": 0.2,
+    "6265": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     229,
     374,
     239,
     384
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "A steep earthen cliff rises above you, roots dangling over the edge far above.  Several large piles of dirt lie nearby, and a broken wheelbarrow is partially buried by one."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Kobold Village, Promontory]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6284": 0.2,
-    "6265": 0.2
-  },
-  "id": 6267,
-  "location": "the Lower Dragonsclaw",
   "tags": [
     "some sovyn clove",
     "some acantha leaf",
@@ -61,10 +58,6 @@
     "murdroot",
     "ironfern root",
     "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bur-clover root"
   ]
 }

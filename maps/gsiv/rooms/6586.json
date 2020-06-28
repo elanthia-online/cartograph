@@ -1,38 +1,28 @@
 {
+  "id": 6586,
+  "title": [
+    "[Castle Crypt]"
+  ],
+  "description": [
+    "The crypt's somber atmosphere is punctuated by the occasional scratching of rodents and gusts of cold wind that set the cobwebs to billowing.  A heavy aroma of decay has settled over the chamber like a harbinger of the inevitability of death."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Castle Anwyn",
   "wayto": {
     "6587": "south",
     "6585": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "6587": 0.2,
+    "6585": 0.2
+  },
+  "image": "wl-lysierian-1264234799.png",
   "image_coords": [
     789,
     515,
     799,
     525
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The crypt's somber atmosphere is punctuated by the occasional scratching of rodents and gusts of cold wind that set the cobwebs to billowing.  A heavy aroma of decay has settled over the chamber like a harbinger of the inevitability of death."
-  ],
-  "image": "wl-lysierian-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Castle Crypt]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6587": 0.2,
-    "6585": 0.2
-  },
-  "id": 6586,
-  "location": "Castle Anwyn",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

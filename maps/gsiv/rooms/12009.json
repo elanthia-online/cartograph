@@ -1,41 +1,32 @@
 {
+  "id": 12009,
+  "title": [
+    "[Aqueduct]"
+  ],
+  "description": [
+    "It looks as though at one time the tunnel branched off to the west.  Now the tunnel in that direction is filled with rubble that spills out into the north/south aqueduct.  The rubble litters the usually smooth floor of the tunnel, making the footing even more unsure than it already is in the strange lighting conditions.  Overhead, a large crack perhaps two inches wide snakes out of the cave-in and across the ceiling, hinting at more instability above."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Old Ta'Faendryl",
   "wayto": {
     "12008": "north",
     "12010": "south"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "12008": 0.2,
+    "12010": 0.2
+  },
+  "image": "en-old_ta_faendryl-1264234799.png",
   "image_coords": [
     388,
     293,
     398,
     303
   ],
-  "terrain": "indoors",
-  "description": [
-    "It looks as though at one time the tunnel branched off to the west.  Now the tunnel in that direction is filled with rubble that spills out into the north/south aqueduct.  The rubble litters the usually smooth floor of the tunnel, making the footing even more unsure than it already is in the strange lighting conditions.  Overhead, a large crack perhaps two inches wide snakes out of the cave-in and across the ceiling, hinting at more instability above."
-  ],
-  "image": "en-old_ta_faendryl-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Aqueduct]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "12008": 0.2,
-    "12010": 0.2
-  },
-  "id": 12009,
-  "location": "Old Ta'Faendryl",
   "tags": [
     "some wingstem root",
-    "murdroot",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "murdroot"
   ]
 }

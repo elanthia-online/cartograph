@@ -1,33 +1,26 @@
 {
-  "wayto": {
-    "26791": "west"
-  },
+  "id": 26792,
+  "title": [
+    "[Catacombs, Dark Tunnels]"
+  ],
+  "description": [
+    "The tunnel has collapsed here, completely blocking passage to the east.  Rubble and broken timber supports are littered about the floor."
+  ],
   "paths": [
     "Obvious exits: west"
   ],
+  "location": "the catacombs",
+  "wayto": {
+    "26791": "west"
+  },
+  "timeto": {
+    "26791": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     1008,
     1227,
     1017,
     1235
-  ],
-  "terrain": null,
-  "description": [
-    "The tunnel has collapsed here, completely blocking passage to the east.  Rubble and broken timber supports are littered about the floor."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Catacombs, Dark Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26791": 0.2
-  },
-  "id": 26792,
-  "location": "the catacombs",
-  "tags": [
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+  ]
 }

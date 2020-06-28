@@ -1,39 +1,29 @@
 {
-  "wayto": {
-    "7759": {
-      "stringproc": "b1f31ac100a95cac3c2da2d1a6a53568"
-    }
-  },
+  "id": 7776,
+  "title": [
+    "[Arboreal Platform]"
+  ],
+  "description": [
+    "This sturdy platform seems to have served as a vantage point for someone or something.  From here is commanded a magnificent view of the surrounding countryside as well as a leafy alcove protected from spying eyes and silvery moon.",
+    "This sturdy platform seems to have served as a vantage point for someone or something.  From here is commanded a magnificent view of the surrounding countryside as well as a leafy alcove protected from spying eyes and blazing sun."
+  ],
   "paths": [
     "Obvious paths: none"
   ],
+  "location": "the Upper Trollfang",
+  "wayto": {
+    "7759": {
+      "file": "string_procs/wayto/7776_7759.rb"
+    }
+  },
+  "timeto": {
+    "7759": 0.6
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     240,
     1168,
     250,
     1178
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "This sturdy platform seems to have served as a vantage point for someone or something.  From here is commanded a magnificent view of the surrounding countryside as well as a leafy alcove protected from spying eyes and silvery moon.",
-    "This sturdy platform seems to have served as a vantage point for someone or something.  From here is commanded a magnificent view of the surrounding countryside as well as a leafy alcove protected from spying eyes and blazing sun."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Arboreal Platform]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7759": 0.6
-  },
-  "id": 7776,
-  "location": "the Upper Trollfang",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

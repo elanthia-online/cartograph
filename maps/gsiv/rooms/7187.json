@@ -1,33 +1,30 @@
 {
+  "id": 7187,
+  "title": [
+    "[Graveyard]"
+  ],
+  "description": [
+    "The mound comes to a point just to the northeast, resembling the prow of a mighty ship.  To the south is an open, level field containing nondescript graves of common and humble folk.  The mound before you is the main source of interest and curiosity."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7186": "west",
     "7188": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, west"
-  ],
+  "timeto": {
+    "7186": 0.2,
+    "7188": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     447,
     480,
     457,
     490
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The mound comes to a point just to the northeast, resembling the prow of a mighty ship.  To the south is an open, level field containing nondescript graves of common and humble folk.  The mound before you is the main source of interest and curiosity."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Graveyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7186": 0.2,
-    "7188": 0.2
-  },
-  "id": 7187,
-  "location": "the Graveyard",
   "tags": [
     "some wolifrew lichen",
     "some acantha leaf",
@@ -51,10 +48,6 @@
     "bright red cranberry",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

@@ -1,57 +1,37 @@
 {
+  "id": 20590,
+  "title": [
+    "[Wehnimer's, Burrow Way]"
+  ],
+  "description": [
+    "Crude symbols have been scratched into the rocks along a tunnel wall here.  Nearby, a crude wooden ladder leads up to a hinged trapdoor."
+  ],
+  "paths": [
+    "Obvious exits: east",
+    "Obvious exits: east, northwest"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "20588": "go trapdoor",
     "20591": "east",
     "28699": "northwest"
   },
-  "paths": [
-    "Obvious exits: east",
-    "Obvious exits: east, northwest"
-  ],
+  "timeto": {
+    "20588": 0.2,
+    "20591": 0.2,
+    "28699": 0.2
+  },
+  "image": "wl-burrow_way-1360361110.png",
   "image_coords": [
     515,
     382,
     540,
     406
   ],
-  "terrain": "indoors",
-  "description": [
-    "Crude symbols have been scratched into the rocks along a tunnel wall here.  Nearby, a crude wooden ladder leads up to a hinged trapdoor."
-  ],
-  "image": "wl-burrow_way-1360361110.png",
-  "climate": "indoors",
-  "title": [
-    "[Wehnimer's, Burrow Way]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "20588": 0.2,
-    "20591": 0.2,
-    "28699": 0.2
-  },
-  "id": 20590,
-  "location": "the town of Wehnimer's Landing",
   "tags": [
     "meta:mapname:Wehnimer's Landing - Burrow Way",
     "meta:mapshortname:Burrow Way",
     "meta:mapcategory:Wehnimer's Landing",
-    "meta:noteleport:fwi",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null,
-  "links": [
-
+    "meta:noteleport:fwi"
   ]
 }

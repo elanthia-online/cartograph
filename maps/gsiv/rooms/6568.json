@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "6567": "north"
-  },
+  "id": 6568,
+  "title": [
+    "[Castle Larder]"
+  ],
+  "description": [
+    "Though it hardly seems possible, the odor permeating the adjoining room is even worse here.  The cause is now apparent.  Carcasses are strewn around the room in various stages of putrefaction.  Something has obviously been using this as a cache for prey.  The shelves that once held the castle's provisions lie in a pile on one side of the larder and could possibly conceal something large enough -- or mean enough -- to cause this gory slaughter."
+  ],
   "paths": [
     "Obvious exits: north"
   ],
+  "location": "Castle Anwyn",
+  "wayto": {
+    "6567": "north"
+  },
+  "timeto": {
+    "6567": 0.2
+  },
+  "image": "wl-lysierian-1264234799.png",
   "image_coords": [
     1342,
     568,
     1352,
     578
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Though it hardly seems possible, the odor permeating the adjoining room is even worse here.  The cause is now apparent.  Carcasses are strewn around the room in various stages of putrefaction.  Something has obviously been using this as a cache for prey.  The shelves that once held the castle's provisions lie in a pile on one side of the larder and could possibly conceal something large enough -- or mean enough -- to cause this gory slaughter."
-  ],
-  "image": "wl-lysierian-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Castle Larder]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6567": 0.2
-  },
-  "id": 6568,
-  "location": "Castle Anwyn",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

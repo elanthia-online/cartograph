@@ -1,40 +1,32 @@
 {
+  "id": 7143,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "This corner is blanketed with shadows.  Dust puffs up in clouds with your every step."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7142": "north",
     "7144": "east"
   },
-  "paths": [
-    "Obvious exits: north, east"
-  ],
+  "timeto": {
+    "7142": 0.2,
+    "7144": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     974,
     553,
     984,
     563
   ],
-  "terrain": "indoors",
-  "description": [
-    "This corner is blanketed with shadows.  Dust puffs up in clouds with your every step."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7142": 0.2,
-    "7144": 0.2
-  },
-  "id": 7143,
-  "location": "Darkstone Castle",
   "tags": [
     "kiramon defender",
-    "kiramon worker",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "kiramon worker"
   ]
 }

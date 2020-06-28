@@ -1,40 +1,32 @@
 {
+  "id": 7629,
+  "title": [
+    "[Rocky Shore, Boulder Field]"
+  ],
+  "description": [
+    "You are standing at the base of a boulder the size of the Moot Hall in Wehnimer's at the very least.  Wedged tightly in the space between it and the cliff, you notice cracks and fissures of sufficient number and placement to give a brave person a chance of gaining the summit of this rock."
+  ],
+  "paths": [
+    "Obvious paths: northeast, up"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "7628": "northeast",
     "7630": "up"
   },
-  "paths": [
-    "Obvious paths: northeast, up"
-  ],
+  "timeto": {
+    "7628": 0.2,
+    "7630": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     358,
     637,
     368,
     647
   ],
-  "terrain": "rough",
-  "description": [
-    "You are standing at the base of a boulder the size of the Moot Hall in Wehnimer's at the very least.  Wedged tightly in the space between it and the cliff, you notice cracks and fissures of sufficient number and placement to give a brave person a chance of gaining the summit of this rock."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "saltwater",
-  "title": [
-    "[Rocky Shore, Boulder Field]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7628": 0.2,
-    "7630": 0.2
-  },
-  "id": 7629,
-  "location": "the Coastal Cliffs",
   "tags": [
     "strand of seaweed",
-    "broken twig",
-    "strof seaweed",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "broken twig"
   ]
 }

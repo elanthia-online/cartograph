@@ -1,34 +1,31 @@
 {
+  "id": 763,
+  "title": [
+    "[Whistler's Pass, Grassy Field]"
+  ],
+  "description": [
+    "A stone outcropping canopies the darkened trail to the west.  A heavy mist shrouds the northeast path as it disappears down the verdant mountainside.",
+    "A stone outcropping canopies the trail to the west.  A heavy mist shrouds the northeast path as it disappears down the verdant mountainside."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "762": "northeast",
     "764": "west"
   },
-  "paths": [
-    "Obvious paths: northeast, west"
-  ],
+  "timeto": {
+    "762": 0.2,
+    "764": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     544,
     847,
     554,
     857
   ],
-  "terrain": "mountainous",
-  "description": [
-    "A stone outcropping canopies the darkened trail to the west.  A heavy mist shrouds the northeast path as it disappears down the verdant mountainside.",
-    "A stone outcropping canopies the trail to the west.  A heavy mist shrouds the northeast path as it disappears down the verdant mountainside."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Whistler's Pass, Grassy Field]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "762": 0.2,
-    "764": 0.2
-  },
-  "id": 763,
-  "location": "Whistler's Pass",
   "tags": [
     "angelica root",
     "stalk of bluebells",
@@ -49,11 +46,6 @@
     "pepperthorn root",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "mountain dryad",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

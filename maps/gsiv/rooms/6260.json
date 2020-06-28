@@ -1,33 +1,30 @@
 {
+  "id": 6260,
+  "title": [
+    "[Lower Dragonsclaw, Briar Patch]"
+  ],
+  "description": [
+    "Wooden carving knives slice away the flesh of all intruders to this horrible maze, leaving rivulets of blood and sweat to trickle down the brow of any so foolhardy as to enter here on two legs.  Twist or turn, but there is no escape from the dagger-spine pressed painfully into the soft flesh of the abdomen or the clump of stinging nettles thrust suddenly into the face.  At times the only way forward is by scrabbling on hands and knees."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest"
+  ],
+  "location": "the Lower Dragonsclaw",
   "wayto": {
     "6259": "southeast",
     "6261": "southwest"
   },
-  "paths": [
-    "Obvious paths: southeast, southwest"
-  ],
+  "timeto": {
+    "6259": 0.2,
+    "6261": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     348,
     284,
     358,
     294
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "Wooden carving knives slice away the flesh of all intruders to this horrible maze, leaving rivulets of blood and sweat to trickle down the brow of any so foolhardy as to enter here on two legs.  Twist or turn, but there is no escape from the dagger-spine pressed painfully into the soft flesh of the abdomen or the clump of stinging nettles thrust suddenly into the face.  At times the only way forward is by scrabbling on hands and knees."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Lower Dragonsclaw, Briar Patch]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6259": 0.2,
-    "6261": 0.2
-  },
-  "id": 6260,
-  "location": "the Lower Dragonsclaw",
   "tags": [
     "some wingstem root",
     "some cothinar flower",
@@ -44,10 +41,6 @@
     "wild chokecherry",
     "blue whortleberry",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

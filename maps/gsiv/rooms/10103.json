@@ -1,38 +1,28 @@
 {
+  "id": 10103,
+  "title": [
+    "[Outside The Barn]"
+  ],
+  "description": [
+    "A large red barn towers before you as the door is swung wide open.  An iron plow rests against the side of the barn with traces of rust along the edges.  A small pulley is attached to the roof of the barn with a thickened rope swung around the wheel."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "Sylvarraend Road",
   "wayto": {
     "10102": "west",
     "10104": "go barn"
   },
-  "paths": [
-    "Obvious paths: west"
-  ],
+  "timeto": {
+    "10102": 0.2,
+    "10104": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     874,
     981,
     884,
     991
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "A large red barn towers before you as the door is swung wide open.  An iron plow rests against the side of the barn with traces of rust along the edges.  A small pulley is attached to the roof of the barn with a thickened rope swung around the wheel."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Outside The Barn]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10102": 0.2,
-    "10104": 0.2
-  },
-  "id": 10103,
-  "location": "Sylvarraend Road",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

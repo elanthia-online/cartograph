@@ -1,45 +1,28 @@
 {
+  "id": 24683,
+  "title": [
+    "[Oak Tree, Dark Hole]"
+  ],
+  "description": [
+    "More light can be seen inside the tree now, which makes climbing a little easier.  Above is another knotted rope, though it is still too far up to reach."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "24682": "down",
     "24684": "up"
   },
-  "paths": [
-    "Obvious exits: up, down"
-  ],
+  "timeto": {
+    "24682": 0.2,
+    "24684": 0.2
+  },
+  "image": "wl-halcyon_hills-1485363326.png",
   "image_coords": [
     1201,
     194,
     1236,
     227
-  ],
-  "terrain": "indoors",
-  "description": [
-    "More light can be seen inside the tree now, which makes climbing a little easier.  Above is another knotted rope, though it is still too far up to reach."
-  ],
-  "image": "wl-halcyon_hills-1485363326.png",
-  "climate": "indoors",
-  "title": [
-    "[Oak Tree, Dark Hole]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24682": 0.2,
-    "24684": 0.2
-  },
-  "id": 24683,
-  "location": "Wehnimer's Landing",
-  "tags": [
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "murdroot",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+  ]
 }

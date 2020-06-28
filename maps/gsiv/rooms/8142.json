@@ -1,73 +1,30 @@
 {
-  "wayto": {
-    "4280": {
-      "stringproc": "71664f07fe695671159e55e0fd37c701"
-    },
-    "8143": "climb boulder"
-  },
+  "id": 8142,
+  "title": [
+    "[Clearing]"
+  ],
+  "description": [
+    "Pines ringing the clearing deepen the night's shadows, their boughs heavy with long, fragrant needles.  Although the trees stand back, seemingly respectful of the circle's perimeter, the invasive ferns have surrendered little ground.  They dance around the pines' feet, lacing among an embankment of boulders blanketing a rise that borders the clearing on one side."
+  ],
   "paths": [
     "Obvious paths: none"
   ],
+  "location": "the distant forest",
+  "wayto": {
+    "4280": {
+      "file": "string_procs/wayto/8142_4280.rb"
+    },
+    "8143": "climb boulder"
+  },
+  "timeto": {
+    "4280": 0.2,
+    "8143": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     1252,
     84,
     1262,
     94
-  ],
-  "terrain": "deciduous forest",
-  "description": [
-    "Pines ringing the clearing deepen the night's shadows, their boughs heavy with long, fragrant needles.  Although the trees stand back, seemingly respectful of the circle's perimeter, the invasive ferns have surrendered little ground.  They dance around the pines' feet, lacing among an embankment of boulders blanketing a rise that borders the clearing on one side."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "moist",
-  "title": [
-    "[Clearing]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4280": 0.2,
-    "8143": 0.2
-  },
-  "id": 8142,
-  "location": "the distant forest",
-  "tags": [
-    "acantha leaf",
-    "woth flower",
-    "calamia fruit",
-    "haphip root",
-    "sticks",
-    "trollfear mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "broken twig",
-    "stalk of bluebells",
-    "wild chokecherry",
-    "bright red cranberry",
-    "wild orchid",
-    "tree bark",
-    "murkweed",
-    "kylan berry",
-    "blue whortleberry",
-    "white passionflower",
-    "yellow passionflower",
-    "blue passionflower",
-    "willow twig",
-    "yew twig",
-    "luckbloom blossom",
-    "murdroot",
-    "nightbloom blossom",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "walnuts",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

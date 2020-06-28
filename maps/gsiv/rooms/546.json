@@ -1,33 +1,30 @@
 {
+  "id": 546,
+  "title": [
+    "[Whistler's Pass, Copse]"
+  ],
+  "description": [
+    "Little grass fills the space between the trees due to the darkness that pervades the area.  Low hanging branches force taller adventurers to stoop low as they pass through the dense wood."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "545": "east",
     "547": "southwest"
   },
-  "paths": [
-    "Obvious paths: east, southwest"
-  ],
+  "timeto": {
+    "545": 0.2,
+    "547": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     729,
     665,
     739,
     675
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "Little grass fills the space between the trees due to the darkness that pervades the area.  Low hanging branches force taller adventurers to stoop low as they pass through the dense wood."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Whistler's Pass, Copse]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "545": 0.2,
-    "547": 0.2
-  },
-  "id": 546,
-  "location": "Whistler's Pass",
   "tags": [
     "some torban leaf",
     "some tree bark",
@@ -88,10 +85,6 @@
     "slender twig",
     "ebony twig",
     "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

@@ -1,4 +1,15 @@
 {
+  "id": 7329,
+  "title": [
+    "[Shadow Valley]"
+  ],
+  "description": [
+    "Steep rocky walls rise high above, squelching any thoughts of climbing out.  A cold biting wind blows across your face, stinging your eyes and lips."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, west, northwest"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7326": "northwest",
     "7327": "north",
@@ -6,25 +17,6 @@
     "7330": "west",
     "7332": "climb trail"
   },
-  "paths": [
-    "Obvious paths: north, northeast, west, northwest"
-  ],
-  "image_coords": [
-    1374,
-    632,
-    1384,
-    642
-  ],
-  "terrain": "barren scrub",
-  "description": [
-    "Steep rocky walls rise high above, squelching any thoughts of climbing out.  A cold biting wind blows across your face, stinging your eyes and lips."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Shadow Valley]"
-  ],
-  "check_location": null,
   "timeto": {
     "7326": 0.2,
     "7327": 0.2,
@@ -32,18 +24,16 @@
     "7330": 0.2,
     "7332": 0.2
   },
-  "id": 7329,
-  "location": "the Shadow Valley",
+  "image": "wl-graveyard-1264234799.png",
+  "image_coords": [
+    1374,
+    632,
+    1384,
+    642
+  ],
   "tags": [
     "black-tipped wyrm thorn",
     "some longgrass",
-    "some petrified shadowstalk",
-    "longgrass",
-    "wyrm thorn",
-    "petrified shadowstalk",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some petrified shadowstalk"
   ]
 }

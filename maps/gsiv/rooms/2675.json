@@ -1,42 +1,32 @@
 {
+  "id": 2675,
+  "title": [
+    "[Antechamber, Hill of Ice]"
+  ],
+  "description": [
+    "An anteroom is flanked with arches to the left and right.  The walls are dark stone, rising overhead to a peak that follows the curve of the vaulting.   Footing is hazardous, owing to the sheet of ice coating everything with its brittle, glistening veneer.  Through the arches, courses of stairs can be glimpsed, composed of the same dark stone and filled with shadows."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest"
+  ],
+  "location": "Koar's Shrine",
   "wayto": {
     "2674": "northeast",
     "2676": "northwest",
     "2677": {
-      "stringproc": "be0f2b662e8bc50032635cb23b8ca394"
+      "file": "string_procs/wayto/2675_2677.rb"
     }
   },
-  "paths": [
-    "Obvious exits: northeast, northwest"
-  ],
-  "image_coords": [
-    363,
-    728,
-    373,
-    738
-  ],
-  "terrain": "indoors",
-  "description": [
-    "An anteroom is flanked with arches to the left and right.  The walls are dark stone, rising overhead to a peak that follows the curve of the vaulting.   Footing is hazardous, owing to the sheet of ice coating everything with its brittle, glistening veneer.  Through the arches, courses of stairs can be glimpsed, composed of the same dark stone and filled with shadows."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Antechamber, Hill of Ice]"
-  ],
-  "check_location": null,
   "timeto": {
     "2674": 0.2,
     "2676": 0.2,
     "2677": 0.2
   },
-  "id": 2675,
-  "location": "Koar's Shrine",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "imt-pinefar-1264234799.png",
+  "image_coords": [
+    363,
+    728,
+    373,
+    738
   ]
 }

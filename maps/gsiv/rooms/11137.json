@@ -1,45 +1,28 @@
 {
+  "id": 11137,
+  "title": [
+    "[Sea Tunnels]"
+  ],
+  "description": [
+    "A deposit of some sort of ore in the walls here has prevented the rushing stream from eroding the walls of the tunnel and redirected its flow downwards and to the northeast.  The many years of splashing water have left the ore unaffected, except for being very clean.  You hear a roaring sound emanating from the northeast."
+  ],
+  "paths": [
+    "Obvious exits: up"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11066": "go stairs",
     "11136": "up"
   },
-  "paths": [
-    "Obvious exits: up"
-  ],
+  "timeto": {
+    "11066": 0.2,
+    "11136": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     898,
     61,
     908,
     71
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A deposit of some sort of ore in the walls here has prevented the rushing stream from eroding the walls of the tunnel and redirected its flow downwards and to the northeast.  The many years of splashing water have left the ore unaffected, except for being very clean.  You hear a roaring sound emanating from the northeast."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11066": 0.2,
-    "11136": 0.2
-  },
-  "id": 11137,
-  "location": "the Citadel",
-  "tags": [
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "murdroot",
-    "talneo root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

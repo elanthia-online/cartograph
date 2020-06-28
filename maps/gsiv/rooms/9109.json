@@ -1,40 +1,30 @@
 {
+  "id": 9109,
+  "title": [
+    "[Great Cavern, Stalagmite Forest]"
+  ],
+  "description": [
+    "An ancient landslide blocks the way to the north.  The scrabble of stones rests securely now under a glaze of mineral deposits.  A lone mushroom peeks up through a crack in the stone."
+  ],
+  "paths": [
+    "Obvious exits: east, south, west"
+  ],
+  "location": "the subterranean tunnels",
   "wayto": {
     "9108": "west",
     "9110": "south",
     "9112": "east"
   },
-  "paths": [
-    "Obvious exits: east, south, west"
-  ],
-  "image_coords": [
-    196,
-    625,
-    206,
-    635
-  ],
-  "terrain": "indoors",
-  "description": [
-    "An ancient landslide blocks the way to the north.  The scrabble of stones rests securely now under a glaze of mineral deposits.  A lone mushroom peeks up through a crack in the stone."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Great Cavern, Stalagmite Forest]"
-  ],
-  "check_location": null,
   "timeto": {
     "9108": 0.2,
     "9110": 0.2,
     "9112": 0.2
   },
-  "id": 9109,
-  "location": "the subterranean tunnels",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "imt-underground-1264234799.png",
+  "image_coords": [
+    196,
+    625,
+    206,
+    635
   ]
 }

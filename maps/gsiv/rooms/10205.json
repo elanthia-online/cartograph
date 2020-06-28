@@ -1,35 +1,32 @@
 {
+  "id": 10205,
+  "title": [
+    "[Grassland]"
+  ],
+  "description": [
+    "A group of large rocks juts up in the center of the stream, allowing passage across the swiftly flowing water.  A large branch has lodged just upstream of the rocks, forming an organic net that catches leaves and debris that have dropped into the stream."
+  ],
+  "paths": [
+    "Obvious paths: north, east, west"
+  ],
+  "location": "the grasslands",
   "wayto": {
     "10203": "west",
     "10204": "north",
     "10207": "east"
   },
-  "paths": [
-    "Obvious paths: north, east, west"
-  ],
+  "timeto": {
+    "10203": 0.2,
+    "10204": 0.2,
+    "10207": 0.2
+  },
+  "image": "en-fearling-1264234799.png",
   "image_coords": [
     200,
     489,
     210,
     499
   ],
-  "terrain": null,
-  "description": [
-    "A group of large rocks juts up in the center of the stream, allowing passage across the swiftly flowing water.  A large branch has lodged just upstream of the rocks, forming an organic net that catches leaves and debris that have dropped into the stream."
-  ],
-  "image": "en-fearling-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Grassland]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10203": 0.2,
-    "10204": 0.2,
-    "10207": 0.2
-  },
-  "id": 10205,
-  "location": "the grasslands",
   "tags": [
     "some acantha leaf",
     "some calamia fruit",
@@ -70,8 +67,5 @@
     "ironfern root",
     "sunburst blossom",
     "talneo root"
-  ],
-  "links": [
-
   ]
 }

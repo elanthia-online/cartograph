@@ -1,38 +1,30 @@
 {
-  "wayto": {
-    "2609": "west",
-    "12208": {
-      "stringproc": "a0576f0215d746452e7afb93c1ee082c"
-    },
-    "2611": "east",
-    "2635": {
-      "stringproc": "01b8924575c8d70e4ed7eea7ed00be84"
-    },
-    "12101": {
-      "stringproc": "cf4b8e5b125b22b01c9349827d02c9fd"
-    },
-    "2604": "northwest"
-  },
+  "id": 2610,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "A huge three-masted ship floats in midair here just above the ground, sails rippling gently in the slight breeze.  Deck hands from on board make noise as they move about, adjusting cargo and preparing for voyage.  From the crow's nest high above, you can see the ship's falconer directing large hunting hawks through aerial warm-up exercises."
+  ],
   "paths": [
     "Obvious paths: east, west, northwest",
     "Obvious exits: east, west, northwest"
   ],
-  "image_coords": [
-    173,
-    778,
-    183,
-    788
-  ],
-  "terrain": null,
-  "description": [
-    "A huge three-masted ship floats in midair here just above the ground, sails rippling gently in the slight breeze.  Deck hands from on board make noise as they move about, adjusting cargo and preparing for voyage.  From the crow's nest high above, you can see the ship's falconer directing large hunting hawks through aerial warm-up exercises."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "2609": "west",
+    "12208": {
+      "file": "string_procs/wayto/2610_12208.rb"
+    },
+    "2611": "east",
+    "2635": {
+      "file": "string_procs/wayto/2610_2635.rb"
+    },
+    "12101": {
+      "file": "string_procs/wayto/2610_12101.rb"
+    },
+    "2604": "northwest"
+  },
   "timeto": {
     "2609": 0.2,
     "12208": 22.0,
@@ -41,8 +33,13 @@
     "12101": 26.0,
     "2604": 0.2
   },
-  "id": 2610,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    173,
+    778,
+    183,
+    788
+  ],
   "tags": [
     "mass of congealed slime",
     "oozing fleshsore bulb",
@@ -51,8 +48,5 @@
     "slime-covered grave blossom",
     "withered deathblossom",
     "twisted black mawflower"
-  ],
-  "links": [
-
   ]
 }

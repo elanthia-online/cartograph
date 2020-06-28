@@ -1,37 +1,34 @@
 {
+  "id": 6134,
+  "title": [
+    "[Krag Slopes]"
+  ],
+  "description": [
+    "The incline of the mountainside has become steeper, and finding purchase on the barren rocks is even more difficult.  Strangely, it sounds as if the wind is whistling through an opening, but none is in sight."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Krag slopes",
   "wayto": {
     "6135": "south",
     "6133": "north",
     "8611": {
-      "stringproc": "b98c419f0d7086b68ea5a4afb9d59321"
+      "file": "string_procs/wayto/6134_8611.rb"
     }
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "6135": 0.2,
+    "6133": 0.2,
+    "8611": 0.2
+  },
+  "image": "wl-wehntoph-1310775397.png",
   "image_coords": [
     1243,
     892,
     1279,
     928
   ],
-  "terrain": null,
-  "description": [
-    "The incline of the mountainside has become steeper, and finding purchase on the barren rocks is even more difficult.  Strangely, it sounds as if the wind is whistling through an opening, but none is in sight."
-  ],
-  "image": "wl-wehntoph-1310775397.png",
-  "climate": null,
-  "title": [
-    "[Krag Slopes]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6135": 0.2,
-    "6133": 0.2,
-    "8611": 0.2
-  },
-  "id": 6134,
-  "location": "the Krag slopes",
   "tags": [
     "some bolmara lichen",
     "some pennyroyal stem",
@@ -52,8 +49,5 @@
     "ironfern root",
     "bolmara lichen",
     "wingstem root"
-  ],
-  "links": [
-
   ]
 }

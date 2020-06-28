@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "11211": "northeast"
-  },
+  "id": 11212,
+  "title": [
+    "[Armory, Armorer Stores]"
+  ],
+  "description": [
+    "Long since looted, the large racks on the wall are the only reminder that heavy armor once hung here.  Bits of cuirbouilli leather are strewn about amongst the litter."
+  ],
   "paths": [
     "Obvious exits: northeast"
   ],
+  "location": "the Citadel",
+  "wayto": {
+    "11211": "northeast"
+  },
+  "timeto": {
+    "11211": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     332,
     233,
     342,
     243
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Long since looted, the large racks on the wall are the only reminder that heavy armor once hung here.  Bits of cuirbouilli leather are strewn about amongst the litter."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Armory, Armorer Stores]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11211": 0.2
-  },
-  "id": 11212,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

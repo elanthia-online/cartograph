@@ -1,48 +1,35 @@
 {
+  "id": 7591,
+  "title": [
+    "[Ant Nest, Tunnels]"
+  ],
+  "description": [
+    "This niche in the tunnel is dark.  Though your eyes adjust to the faint glow of the lichen to the south, no water drips into this dry, raised alcove, and the smooth stone is bare.  The continual clicking echoes louder here from the rock walls, though the crevice that forms a large opening between two slabs of rock seems oddly silent."
+  ],
+  "paths": [
+    "Obvious exits: southeast, south, southwest"
+  ],
+  "location": "the dark caverns",
   "wayto": {
     "7596": "southwest",
     "7585": "southeast",
     "7600": "go crevice",
     "7590": "south"
   },
-  "paths": [
-    "Obvious exits: southeast, south, southwest"
-  ],
-  "image_coords": [
-    82,
-    1048,
-    92,
-    1058
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This niche in the tunnel is dark.  Though your eyes adjust to the faint glow of the lichen to the south, no water drips into this dry, raised alcove, and the smooth stone is bare.  The continual clicking echoes louder here from the rock walls, though the crevice that forms a large opening between two slabs of rock seems oddly silent."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Ant Nest, Tunnels]"
-  ],
-  "check_location": null,
   "timeto": {
     "7596": 0.2,
     "7585": 0.2,
     "7600": 0.2,
     "7590": 0.2
   },
-  "id": 7591,
-  "location": "the dark caverns",
-  "tags": [
-    "some pothinir grass",
-    "pothinir grass",
-    "withered black mushroom",
-    "cave moss",
-    "murdroot",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
+  "image": "wl-catacombs-1264234799.png",
+  "image_coords": [
+    82,
+    1048,
+    92,
+    1058
   ],
-  "links": [
-
+  "tags": [
+    "some pothinir grass"
   ]
 }

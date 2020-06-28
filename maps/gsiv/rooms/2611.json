@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "2610": "west",
-    "12208": {
-      "stringproc": "a0576f0215d746452e7afb93c1ee082c"
-    },
-    "2612": "east",
-    "2635": {
-      "stringproc": "01b8924575c8d70e4ed7eea7ed00be84"
-    },
-    "12101": {
-      "stringproc": "cf4b8e5b125b22b01c9349827d02c9fd"
-    }
-  },
+  "id": 2611,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "A giant hangs on an elaborate set of poles and straps here.  Two thick poles set crossing each other are framed by two vertical and two horizontal ones.  Violet eyes shrouded in shadow float near the giant's head, watching the expressions that pass there with great interest.  A pair of winged snakes hover near the giant, flying idly about and occasionally striking him."
+  ],
   "paths": [
     "Obvious exits: east, west",
     "Obvious paths: east, west"
   ],
-  "image_coords": [
-    200,
-    779,
-    210,
-    790
-  ],
-  "terrain": null,
-  "description": [
-    "A giant hangs on an elaborate set of poles and straps here.  Two thick poles set crossing each other are framed by two vertical and two horizontal ones.  Violet eyes shrouded in shadow float near the giant's head, watching the expressions that pass there with great interest.  A pair of winged snakes hover near the giant, flying idly about and occasionally striking him."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "2610": "west",
+    "12208": {
+      "file": "string_procs/wayto/2611_12208.rb"
+    },
+    "2612": "east",
+    "2635": {
+      "file": "string_procs/wayto/2611_2635.rb"
+    },
+    "12101": {
+      "file": "string_procs/wayto/2611_12101.rb"
+    }
+  },
   "timeto": {
     "2610": 0.2,
     "12208": 22.0,
@@ -39,8 +31,13 @@
     "2635": 22.0,
     "12101": 26.0
   },
-  "id": 2611,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    200,
+    779,
+    210,
+    790
+  ],
   "tags": [
     "mass of congealed slime",
     "discolored fleshbinder bud",
@@ -50,8 +47,5 @@
     "rotting bile green fleshbulb",
     "withered deathblossom",
     "peer west =~ /^Obvious (?:paths|exits): east, west, northwest/"
-  ],
-  "links": [
-
   ]
 }

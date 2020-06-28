@@ -1,39 +1,31 @@
 {
+  "id": 2951,
+  "title": [
+    "[Abbey Lavatory]"
+  ],
+  "description": [
+    "Shallow stone basins line the walls on either side of the narrow, arched room.  Water drips continuously from lead pipes set into the walls above the troughs, apparently disgorging the contents of a cistern somewhere above."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Abbey",
   "wayto": {
     "2950": "north",
     "2952": "south"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "2950": 0.2,
+    "2952": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     830,
     669,
     840,
     679
   ],
-  "terrain": "indoors",
-  "description": [
-    "Shallow stone basins line the walls on either side of the narrow, arched room.  Water drips continuously from lead pipes set into the walls above the troughs, apparently disgorging the contents of a cistern somewhere above."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abbey Lavatory]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2950": 0.2,
-    "2952": 0.2
-  },
-  "id": 2951,
-  "location": "the Abbey",
   "tags": [
-    "nedum vereri",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "nedum vereri"
   ]
 }

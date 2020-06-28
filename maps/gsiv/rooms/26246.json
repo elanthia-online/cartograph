@@ -1,35 +1,28 @@
 {
+  "id": 26246,
+  "title": [
+    "[Lich's Landing, Corpse Row]"
+  ],
+  "description": [
+    "A dark-haired sylvan lies skewered here on a wooden stake, his body having barely entered into decomposition.  Glowing-eyed crows perch on his shoulders, angrily pecking at his ears and face."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Talador",
   "wayto": {
     "26245": "south",
     "26247": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "26245": 0.2,
+    "26247": 0.2
+  },
+  "image": "wl-lichs_landing-1500800742.png",
   "image_coords": [
     282,
     450,
     309,
     476
-  ],
-  "terrain": null,
-  "description": [
-    "A dark-haired sylvan lies skewered here on a wooden stake, his body having barely entered into decomposition.  Glowing-eyed crows perch on his shoulders, angrily pecking at his ears and face."
-  ],
-  "image": "wl-lichs_landing-1500800742.png",
-  "climate": null,
-  "title": [
-    "[Lich's Landing, Corpse Row]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26245": 0.2,
-    "26247": 0.2
-  },
-  "id": 26246,
-  "location": "Talador",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

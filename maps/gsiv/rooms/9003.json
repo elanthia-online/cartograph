@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "9002": "down"
-  },
+  "id": 9003,
+  "title": [
+    "[Mill Tower, Windmill]"
+  ],
+  "description": [
+    "The wind creaks through the boards around the shaft of the windmill, which drives the gears to grind grain into flour for the town.  The miller carefully checks the hoppers which feed the grain to the millstones below, ensuring that each sack of flour produced is of the same high-quality as the last.  Hoppers filled with corn, wheat, and oats are brimming, testifying to the abilities of the nearby farmers."
+  ],
   "paths": [
     "Obvious exits: down"
   ],
+  "location": "Icemule Trace",
+  "wayto": {
+    "9002": "down"
+  },
+  "timeto": {
+    "9002": 0.2
+  },
+  "image": "imt-icemule-1474811966.png",
   "image_coords": [
     140,
     1233,
     176,
     1269
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The wind creaks through the boards around the shaft of the windmill, which drives the gears to grind grain into flour for the town.  The miller carefully checks the hoppers which feed the grain to the millstones below, ensuring that each sack of flour produced is of the same high-quality as the last.  Hoppers filled with corn, wheat, and oats are brimming, testifying to the abilities of the nearby farmers."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "indoors",
-  "title": [
-    "[Mill Tower, Windmill]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9002": 0.2
-  },
-  "id": 9003,
-  "location": "Icemule Trace",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

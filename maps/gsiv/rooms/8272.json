@@ -1,38 +1,28 @@
 {
+  "id": 8272,
+  "title": [
+    "[Wolves' Den, Council Chamber]"
+  ],
+  "description": [
+    "A great round table of mithril-banded oak dominates this room.  Upon it rot the fragile remains of what must have been maps of the area outside.  Eight high-backed chairs of ebony surround the table.  Their feet are carved to be claws, and the backs are topped with twin wolf heads.  The double doors to the north have fallen off their hinges, leaving the way open.  An iron door is set in the middle of the southern wall."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Wolves' Den",
   "wayto": {
     "8260": "north",
     "8241": "go door"
   },
-  "paths": [
-    "Obvious exits: north"
-  ],
+  "timeto": {
+    "8260": 0.2,
+    "8241": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     255,
     401,
     265,
     411
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A great round table of mithril-banded oak dominates this room.  Upon it rot the fragile remains of what must have been maps of the area outside.  Eight high-backed chairs of ebony surround the table.  Their feet are carved to be claws, and the backs are topped with twin wolf heads.  The double doors to the north have fallen off their hinges, leaving the way open.  An iron door is set in the middle of the southern wall."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Wolves' Den, Council Chamber]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8260": 0.2,
-    "8241": 0.2
-  },
-  "id": 8272,
-  "location": "the Wolves' Den",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

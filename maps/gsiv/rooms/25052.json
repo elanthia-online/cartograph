@@ -1,35 +1,28 @@
 {
+  "id": 25052,
+  "title": [
+    "[Reim Settlement, Road]"
+  ],
+  "description": [
+    "A half-circle of steel-headed pikes surround each side of a guard encampment, the reinforcements left bloodied as they hang loosely bound by rusted wire.  Hunks of flesh and bone gather swarms of flies behind the barricades, the pieces contained within dented armor decorated with gore-splattered heraldry.  A single large vulture soars high overhead, heading further into the encampment."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the Settlement of Reim",
   "wayto": {
     "25051": "go encampment",
     "25053": "east"
   },
-  "paths": [
-    "Obvious paths: east"
-  ],
+  "timeto": {
+    "25051": 0.2,
+    "25053": 0.2
+  },
+  "image": "imt-Reim-1260914759.png",
   "image_coords": [
     340,
     935,
     353,
     948
-  ],
-  "terrain": null,
-  "description": [
-    "A half-circle of steel-headed pikes surround each side of a guard encampment, the reinforcements left bloodied as they hang loosely bound by rusted wire.  Hunks of flesh and bone gather swarms of flies behind the barricades, the pieces contained within dented armor decorated with gore-splattered heraldry.  A single large vulture soars high overhead, heading further into the encampment."
-  ],
-  "image": "imt-Reim-1260914759.png",
-  "climate": null,
-  "title": [
-    "[Reim Settlement, Road]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "25051": 0.2,
-    "25053": 0.2
-  },
-  "id": 25052,
-  "location": "the Settlement of Reim",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

@@ -1,37 +1,32 @@
 {
+  "id": 18115,
+  "title": [
+    "[Sorcerer Guild, Arcane Studies]"
+  ],
+  "description": [
+    "Opaque mist forms the basis of this rotund chamber.  It has no physical walls nor any structure that lends it solid form.  Passageways created by the parting of mist open and close within a moment's notice at the beckoning of the Arcane Masters who buzz around the chamber at an almost frenzied pace attending to their tasks.  The world away from this room is completely obscured, and your existence is likely obscured from the world, with the exception of an opening in the mist directly in front of a rune-carved door."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "18123": "go trail",
     "18114": "go door"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "18123": 0.2,
+    "18114": 0.2
+  },
+  "image": "wl-sorcerer_guild-1405076623.png",
   "image_coords": [
     342,
     479,
     384,
     520
   ],
-  "terrain": null,
-  "description": [
-    "Opaque mist forms the basis of this rotund chamber.  It has no physical walls nor any structure that lends it solid form.  Passageways created by the parting of mist open and close within a moment's notice at the beckoning of the Arcane Masters who buzz around the chamber at an almost frenzied pace attending to their tasks.  The world away from this room is completely obscured, and your existence is likely obscured from the world, with the exception of an opening in the mist directly in front of a rune-carved door."
-  ],
-  "image": "wl-sorcerer_guild-1405076623.png",
-  "climate": null,
-  "title": [
-    "[Sorcerer Guild, Arcane Studies]"
-  ],
-  "check_location": true,
-  "timeto": {
-    "18123": 0.2,
-    "18114": 0.2
-  },
-  "id": 18115,
-  "location": "the Coastal Cliffs",
   "tags": [
     "sorcerer alchemy masters"
   ],
-  "links": [
-
-  ]
+  "check_location": true
 }

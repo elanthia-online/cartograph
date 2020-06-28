@@ -1,37 +1,34 @@
 {
-  "wayto": {
-    "2515": {
-      "stringproc": "2b4af1354e22d2a4bbc0aa605e096470"
-    },
-    "2517": {
-      "stringproc": "a1bd023500a3a9633d7c708d74ed9e8f"
-    }
-  },
+  "id": 2516,
+  "title": [
+    "[Icemule Trail, Tundra]"
+  ],
+  "description": [
+    "As you crest one of the larger foothills of the mountain range, you behold the vast, semi-frozen wasteland of the tundra spreading northward to the horizon.  The blowing snow makes progress difficult and adds to the urgency that tells you to push onward."
+  ],
   "paths": [
     "Obvious paths: north, south"
   ],
+  "location": "the Icemule Trail",
+  "wayto": {
+    "2515": {
+      "file": "string_procs/wayto/2516_2515.rb"
+    },
+    "2517": {
+      "file": "string_procs/wayto/2516_2517.rb"
+    }
+  },
+  "timeto": {
+    "2515": 0.2,
+    "2517": 0.2
+  },
+  "image": "imt-trail-1264234799.png",
   "image_coords": [
     1152,
     469,
     1162,
     479
   ],
-  "terrain": "hilly",
-  "description": [
-    "As you crest one of the larger foothills of the mountain range, you behold the vast, semi-frozen wasteland of the tundra spreading northward to the horizon.  The blowing snow makes progress difficult and adds to the urgency that tells you to push onward."
-  ],
-  "image": "imt-trail-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Icemule Trail, Tundra]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2515": 0.2,
-    "2517": 0.2
-  },
-  "id": 2516,
-  "location": "the Icemule Trail",
   "tags": [
     "some valerian root",
     "frostflower",
@@ -48,10 +45,6 @@
     "arctic moss",
     "snowberries",
     "pale thornberry",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

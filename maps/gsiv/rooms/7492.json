@@ -1,35 +1,32 @@
 {
+  "id": 7492,
+  "title": [
+    "[Wehnimer's, Catacombs]"
+  ],
+  "description": [
+    "Thick patches of slimy lichen cover the walls and ceiling of this narrow tunnel.  The scraping and clawing noises that can be heard coming from all directions are not missing here, and you wonder just how limitless is the population of the creatures who make the noise."
+  ],
+  "paths": [
+    "Obvious exits: east, southwest, northwest"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "7493": "southwest",
     "7494": "northwest",
     "7491": "east"
   },
-  "paths": [
-    "Obvious exits: east, southwest, northwest"
-  ],
+  "timeto": {
+    "7493": 0.2,
+    "7494": 0.2,
+    "7491": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     821,
     968,
     831,
     978
   ],
-  "terrain": "indoors",
-  "description": [
-    "Thick patches of slimy lichen cover the walls and ceiling of this narrow tunnel.  The scraping and clawing noises that can be heard coming from all directions are not missing here, and you wonder just how limitless is the population of the creatures who make the noise."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Wehnimer's, Catacombs]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7493": 0.2,
-    "7494": 0.2,
-    "7491": 0.2
-  },
-  "id": 7492,
-  "location": "the catacombs",
   "tags": [
     "red trafel mushroom",
     "soft white mushroom",
@@ -39,15 +36,6 @@
     "some bolmara lichen",
     "withered black mushroom",
     "white hook mushroom",
-    "some wingstem root",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

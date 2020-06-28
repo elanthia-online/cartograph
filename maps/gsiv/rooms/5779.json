@@ -1,47 +1,32 @@
 {
+  "id": 5779,
+  "title": [
+    "[Mraent Cavern, Spiral Sluice]"
+  ],
+  "description": [
+    "Carved into the granite beneath the waterfall quarry, a wide spiraling sluice carries the spillover deep underground.  It is quite difficult to keep your footing on the slick, canting stone."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "the Mraent Caverns",
   "wayto": {
     "5778": "go gate",
     "5780": "down"
   },
-  "paths": [
-    "Obvious exits: down"
-  ],
+  "timeto": {
+    "5778": 0.2,
+    "5780": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     251,
     177,
     261,
     187
   ],
-  "terrain": "indoors",
-  "description": [
-    "Carved into the granite beneath the waterfall quarry, a wide spiraling sluice carries the spillover deep underground.  It is quite difficult to keep your footing on the slick, canting stone."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mraent Cavern, Spiral Sluice]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5778": 0.2,
-    "5780": 0.2
-  },
-  "id": 5779,
-  "location": "the Mraent Caverns",
   "tags": [
     "withered black mushroom",
-    "red trafel mushroom",
-    "soft white mushroom",
-    "black hook mushroom",
-    "blue trafel mushroom",
-    "glowing toadstool",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "red trafel mushroom"
   ]
 }

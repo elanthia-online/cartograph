@@ -1,41 +1,33 @@
 {
+  "id": 3095,
+  "title": [
+    "[Abandoned Farm, Upper Hall]"
+  ],
+  "description": [
+    "Dark, watery stains discolor the ceiling and the walls.  Flakes of plaster form a gritty dust on the hardwood floor.  Long strands of dust hang in the corners of the ceiling and in the doorways."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east"
+  ],
+  "location": "the Abandoned Farm",
   "wayto": {
     "3094": "go stairway",
     "3096": "northeast",
     "3098": "east"
   },
-  "paths": [
-    "Obvious exits: northeast, east"
-  ],
+  "timeto": {
+    "3094": 0.2,
+    "3096": 0.2,
+    "3098": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     860,
     541,
     870,
     551
   ],
-  "terrain": "indoors",
-  "description": [
-    "Dark, watery stains discolor the ceiling and the walls.  Flakes of plaster form a gritty dust on the hardwood floor.  Long strands of dust hang in the corners of the ceiling and in the doorways."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abandoned Farm, Upper Hall]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3094": 0.2,
-    "3096": 0.2,
-    "3098": 0.2
-  },
-  "id": 3095,
-  "location": "the Abandoned Farm",
   "tags": [
-    "zombie",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "zombie"
   ]
 }

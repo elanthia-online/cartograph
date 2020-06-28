@@ -1,29 +1,24 @@
 {
-  "wayto": {
-    "12048": {
-      "stringproc": "5642753acc3989c19aba151eec334e5f"
-    }
-  },
-  "paths": [
-    "Obvious paths: none"
+  "id": 12054,
+  "title": [
+    "[Old Ta'Faendryl, Treetop]"
   ],
-  "image_coords": null,
-  "terrain": null,
   "description": [
     "A canopy of leaves blocking out most of the view of the sky and the ground below gives this treetop perch a feeling of privacy.  It is not exactly quiet here, but the sleepy trill of roosting birds and whisper of a breeze passing over verdant green foliage is pleasant and soothing.  The trunk of the oak descends to the ground below.",
     "A canopy of leaves blocking out most of the view of the sky and the ground below gives this treetop perch a feeling of privacy.  It is not exactly quiet here, but the bright song of birds and whisper of a breeze passing over verdant green foliage is pleasant and soothing.  The trunk of the oak descends to the ground below."
   ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Old Ta'Faendryl, Treetop]"
+  "paths": [
+    "Obvious paths: none"
   ],
-  "check_location": null,
+  "location": "Old Ta'Faendryl",
+  "wayto": {
+    "12048": {
+      "file": "string_procs/wayto/12054_12048.rb"
+    }
+  },
   "timeto": {
     "12048": 2.6
   },
-  "id": 12054,
-  "location": "Old Ta'Faendryl",
   "tags": [
     "some basal moss",
     "some torban leaf",
@@ -42,8 +37,5 @@
     "wild chokecherry",
     "some acantha leaf",
     "stick"
-  ],
-  "links": [
-
   ]
 }

@@ -1,39 +1,32 @@
 {
-  "wayto": {
-    "25822": {
-      "stringproc": "7c97847f49fd5aa0407dedb0e3609199"
-    },
-    "25820": {
-      "stringproc": "9b05cb4429e6ad5efbe157efd92e6023"
-    }
-  },
+  "id": 27046,
+  "title": [
+    "[Eastern Waterway]"
+  ],
+  "description": [
+    "Sunlight slants across the crystal blue waters and brightly illuminates the floor of the watercourse as it makes its way around a small island.  Here and there, guests to the waters ride ferries or pedal boats either further out into the harbor or closer to the docks where others stand waiting.  A lone balloon with string still attached hovers near to the ocean and drifts where the wind wills it."
+  ],
   "paths": [
     "Obvious paths: southeast, southwest, northwest"
   ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "25822": {
+      "file": "string_procs/wayto/27046_25822.rb"
+    },
+    "25820": {
+      "file": "string_procs/wayto/27046_25820.rb"
+    }
+  },
+  "timeto": {
+    "25822": 6.0,
+    "25820": 6.0
+  },
+  "image": "ifw-eastern_waterway-1489553700.png",
   "image_coords": [
     1041,
     1359,
     1061,
     1377
-  ],
-  "terrain": null,
-  "description": [
-    "Sunlight slants across the crystal blue waters and brightly illuminates the floor of the watercourse as it makes its way around a small island.  Here and there, guests to the waters ride ferries or pedal boats either further out into the harbor or closer to the docks where others stand waiting.  A lone balloon with string still attached hovers near to the ocean and drifts where the wind wills it."
-  ],
-  "image": "ifw-eastern_waterway-1489553700.png",
-  "climate": null,
-  "title": [
-    "[Eastern Waterway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "25822": 6.0,
-    "25820": 6.0
-  },
-  "id": 27046,
-  "location": "Mist Harbor",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

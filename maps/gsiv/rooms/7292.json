@@ -1,35 +1,32 @@
 {
+  "id": 7292,
+  "title": [
+    "[Slither Creek]"
+  ],
+  "description": [
+    "A few dead fish float here, trapped in the dangling branches of a berry bush on the bank.  The smell is noxious, and you briefly wonder what killed the fish only in this area of the creek.  The dirt and rocks beneath your feet are very slick, and you don't care to think about what you may be stepping on."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7283": "go bank",
     "7291": "west",
     "7293": "east"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "7283": 0.2,
+    "7291": 0.2,
+    "7293": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     177,
     179,
     187,
     189
   ],
-  "terrain": "riparian",
-  "description": [
-    "A few dead fish float here, trapped in the dangling branches of a berry bush on the bank.  The smell is noxious, and you briefly wonder what killed the fish only in this area of the creek.  The dirt and rocks beneath your feet are very slick, and you don't care to think about what you may be stepping on."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "freshwater",
-  "title": [
-    "[Slither Creek]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7283": 0.2,
-    "7291": 0.2,
-    "7293": 0.2
-  },
-  "id": 7292,
-  "location": "the Graveyard",
   "tags": [
     "some aloeas stem",
     "white water lily",
@@ -40,10 +37,6 @@
     "yellow water lily",
     "blue water lily",
     "murdroot",
-    "wavepetal blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wavepetal blossom"
   ]
 }

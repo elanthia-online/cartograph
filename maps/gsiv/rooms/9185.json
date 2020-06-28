@@ -1,38 +1,28 @@
 {
+  "id": 9185,
+  "title": [
+    "[Thurfel's Keep]"
+  ],
+  "description": [
+    "An eerie stillness encompasses this passage, and something in the architecture muffles any and all noises substantially.  An odd twisted rod of polished metal dangles from the ceiling, the device tipped with a tiny, crystal globe.  Other than an occasional pulse from the small sphere, it doesn't appear to have any purpose."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south"
+  ],
+  "location": "Thurfel's Island",
   "wayto": {
     "9184": "northeast",
     "9186": "south"
   },
-  "paths": [
-    "Obvious exits: northeast, south"
-  ],
+  "timeto": {
+    "9184": 0.2,
+    "9186": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     714,
     847,
     724,
     857
-  ],
-  "terrain": "indoors",
-  "description": [
-    "An eerie stillness encompasses this passage, and something in the architecture muffles any and all noises substantially.  An odd twisted rod of polished metal dangles from the ceiling, the device tipped with a tiny, crystal globe.  Other than an occasional pulse from the small sphere, it doesn't appear to have any purpose."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thurfel's Keep]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9184": 0.2,
-    "9186": 0.2
-  },
-  "id": 9185,
-  "location": "Thurfel's Island",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,4 +1,15 @@
 {
+  "id": 17109,
+  "title": [
+    "[Illistim Warrior Guild, Foyer]"
+  ],
+  "description": [
+    "A grand, double staircase leads up to the administrative offices of the Warrior Guild of Ta'Illistim.  Mica-flecked blue granite floors lead to fine, maoral-paneled walls, each bedecked with a suit of armor.  To the east, the guild's distinctive task offices are plainly visible through a wide marble arch and easily accesible to all guild members."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast"
+  ],
+  "location": "Ta'Illistim",
   "wayto": {
     "17115": "go staircase",
     "17094": "go doors",
@@ -6,25 +17,6 @@
     "17184": "north",
     "17110": "go arch"
   },
-  "paths": [
-    "Obvious exits: north, northeast"
-  ],
-  "image_coords": [
-    920,
-    999,
-    940,
-    1025
-  ],
-  "terrain": null,
-  "description": [
-    "A grand, double staircase leads up to the administrative offices of the Warrior Guild of Ta'Illistim.  Mica-flecked blue granite floors lead to fine, maoral-paneled walls, each bedecked with a suit of armor.  To the east, the guild's distinctive task offices are plainly visible through a wide marble arch and easily accesible to all guild members."
-  ],
-  "image": "en-ta_illistim-warrior_guild.png",
-  "climate": null,
-  "title": [
-    "[Illistim Warrior Guild, Foyer]"
-  ],
-  "check_location": null,
   "timeto": {
     "17115": 0.2,
     "17094": 0.2,
@@ -32,12 +24,14 @@
     "17184": 0.2,
     "17110": 0.2
   },
-  "id": 17109,
-  "location": "Ta'Illistim",
+  "image": "en-ta_illistim-warrior_guild.png",
+  "image_coords": [
+    920,
+    999,
+    940,
+    1025
+  ],
   "tags": [
     "warrior guild floor"
-  ],
-  "links": [
-
   ]
 }

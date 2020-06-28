@@ -1,33 +1,24 @@
 {
-  "wayto": {
-    "10119": "go shore",
-    "27022": {
-      "stringproc": "2b4af1354e22d2a4bbc0aa605e096470"
-    }
-  },
-  "paths": [
-    "Obvious paths: north"
+  "id": 27021,
+  "title": [
+    "[Lake of Fear, Southern Shore]"
   ],
-  "image_coords": null,
-  "terrain": null,
   "description": [
     "Ice crystals glitter in the sunlight all along the frozen shoreline.  An endless expanse of ice stretches into the northern distance, broken only sporadically by strange, dark shapes.",
     "Ice crystals glitter in the moonlight all along the frozen shoreline.  An endless expanse of ice stretches into the northern darkness, broken only sporadically by strange, shadowy shapes."
   ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Lake of Fear, Southern Shore]"
+  "paths": [
+    "Obvious paths: north"
   ],
-  "check_location": null,
+  "location": "Ta'Vaalor",
+  "wayto": {
+    "10119": "go shore",
+    "27022": {
+      "file": "string_procs/wayto/27021_27022.rb"
+    }
+  },
   "timeto": {
     "10119": 0.2,
     "27022": 0.2
-  },
-  "id": 27021,
-  "location": "Ta'Vaalor",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  }
 }

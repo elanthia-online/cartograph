@@ -1,43 +1,32 @@
 {
-  "wayto": {
-    "10888": {
-      "stringproc": "963520abb5995a1aa7d3c2701fa96b71"
-    },
-    "17679": {
-      "stringproc": "3d4fc83656261189aeef4deeac4a2d65"
-    }
-  },
+  "id": 17680,
+  "title": [
+    "[River's Rest, Rabbit Hutch]"
+  ],
+  "description": [
+    "Sunlight streams through the entrance of the hutch and onto piles of comfortable-looking straw.  Fluffs of rabbit fur litter the small room filled with the overpowering stench of animal refuse and sweat.  A half-eaten pickle lies near a bowl, and a krolvin skull sits nestled in one corner of the hutch.  The rabbit's chamber is surprisingly well-built from a hodgepodge of materials, from wood to stone, complete with a miniature riverstone vaulted ceiling.",
+    "Moonlight streams through the entrance of the hutch and onto piles of comfortable-looking straw.  Fluffs of rabbit fur litter the small room filled with the overpowering stench of animal refuse and sweat.  A half-eaten pickle lies near a bowl, and a krolvin skull sits nestled in one corner of the hutch.  The rabbit's chamber is surprisingly well-built from a hodgepodge of materials, from wood to stone, complete with a miniature riverstone vaulted ceiling."
+  ],
   "paths": [
     "Obvious exits: out"
   ],
+  "wayto": {
+    "10888": {
+      "file": "string_procs/wayto/17680_10888.rb"
+    },
+    "17679": {
+      "file": "string_procs/wayto/17680_17679.rb"
+    }
+  },
+  "timeto": {
+    "10888": 0.2,
+    "17679": 1.0
+  },
+  "image": "rr-warrens-1266380776.png",
   "image_coords": [
     307,
     1244,
     345,
     1282
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Sunlight streams through the entrance of the hutch and onto piles of comfortable-looking straw.  Fluffs of rabbit fur litter the small room filled with the overpowering stench of animal refuse and sweat.  A half-eaten pickle lies near a bowl, and a krolvin skull sits nestled in one corner of the hutch.  The rabbit's chamber is surprisingly well-built from a hodgepodge of materials, from wood to stone, complete with a miniature riverstone vaulted ceiling.",
-    "Moonlight streams through the entrance of the hutch and onto piles of comfortable-looking straw.  Fluffs of rabbit fur litter the small room filled with the overpowering stench of animal refuse and sweat.  A half-eaten pickle lies near a bowl, and a krolvin skull sits nestled in one corner of the hutch.  The rabbit's chamber is surprisingly well-built from a hodgepodge of materials, from wood to stone, complete with a miniature riverstone vaulted ceiling."
-  ],
-  "image": "rr-warrens-1266380776.png",
-  "climate": "indoors",
-  "title": [
-    "[River's Rest, Rabbit Hutch]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10888": 0.2,
-    "17679": 1.0
-  },
-  "id": 17680,
-  "location": "River's Rest",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

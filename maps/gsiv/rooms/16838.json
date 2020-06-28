@@ -1,36 +1,28 @@
 {
-  "wayto": {
-    "9450": "out",
-    "17897": {
-      "stringproc": "870a598f50834b9c8d83ea068269a5ad"
-    }
-  },
-  "paths": [
-    "Obvious exits: out"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Promotional scrolls for many of Bluerock Brewery's signature beers and ales have been tacked carefully upon the bleached stone walls.  Neatly furnished, the tidy office features a glaes-paned curio cabinet, an immaculately clean desk, and a sturdy high-backed chair.  The faint aroma of roasted barley lingers in the air, mingling with a distinctly earthy scent originating from somewhere unseen."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 16838,
   "title": [
     "[Bluerock Brewery, Office]"
   ],
-  "check_location": null,
+  "description": [
+    "Promotional scrolls for many of Bluerock Brewery's signature beers and ales have been tacked carefully upon the bleached stone walls.  Neatly furnished, the tidy office features a glaes-paned curio cabinet, an immaculately clean desk, and a sturdy high-backed chair.  The faint aroma of roasted barley lingers in the air, mingling with a distinctly earthy scent originating from somewhere unseen."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Zul Logoth",
+  "wayto": {
+    "9450": "out",
+    "17897": {
+      "file": "string_procs/wayto/16838_17897.rb"
+    }
+  },
   "timeto": {
     "9450": 0.2,
     "17897": {
-      "stringproc": "12c6b4615e97a2c7fb68a7e5988f17eb"
+      "file": "string_procs/timeto/16838_17897.rb"
     }
   },
-  "id": 16838,
-  "location": "Zul Logoth",
   "tags": [
     "rogue guild"
-  ],
-  "links": [
-
   ]
 }

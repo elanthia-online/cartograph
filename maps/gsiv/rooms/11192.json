@@ -1,42 +1,32 @@
 {
+  "id": 11192,
+  "title": [
+    "[Garrison, Hallway]"
+  ],
+  "description": [
+    "The stairs continue upwards.  A few skeletal remains litter the landing, but you should be able to step carefully around them.  There is an unusual lack of broken weaponry here, despite the carnage."
+  ],
+  "paths": [
+    "Obvious exits: north, east, west, up, down"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11193": "north",
     "11182": "down",
     "11195": "west",
     "11196": "up"
   },
-  "paths": [
-    "Obvious exits: north, east, west, up, down"
-  ],
-  "image_coords": [
-    571,
-    246,
-    581,
-    256
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The stairs continue upwards.  A few skeletal remains litter the landing, but you should be able to step carefully around them.  There is an unusual lack of broken weaponry here, despite the carnage."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Garrison, Hallway]"
-  ],
-  "check_location": null,
   "timeto": {
     "11193": 0.2,
     "11182": 0.2,
     "11195": 0.2,
     "11196": 0.2
   },
-  "id": 11192,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-citadel-1267238976.png",
+  "image_coords": [
+    571,
+    246,
+    581,
+    256
   ]
 }

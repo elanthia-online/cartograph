@@ -1,41 +1,31 @@
 {
+  "id": 5801,
+  "title": [
+    "[Zaerthu Tunnels, Abandoned Mine]"
+  ],
+  "description": [
+    "Scanty patches of lichen along the walls serve only to emphasize the profound darkness of the mine shaft.  Rock walls rough enough to abrade skin press close on either side, and a furtive slithering sound occasionally echoes from more distant parts of the tunnel."
+  ],
+  "paths": [
+    "Obvious exits: east, northwest"
+  ],
+  "location": "the Zaerthu Tunnels",
   "wayto": {
     "5800": "east",
     "5802": "northwest"
   },
-  "paths": [
-    "Obvious exits: east, northwest"
-  ],
+  "timeto": {
+    "5800": 0.2,
+    "5802": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     180,
     927,
     190,
     937
   ],
-  "terrain": "indoors",
-  "description": [
-    "Scanty patches of lichen along the walls serve only to emphasize the profound darkness of the mine shaft.  Rock walls rough enough to abrade skin press close on either side, and a furtive slithering sound occasionally echoes from more distant parts of the tunnel."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Zaerthu Tunnels, Abandoned Mine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5800": 0.2,
-    "5802": 0.2
-  },
-  "id": 5801,
-  "location": "the Zaerthu Tunnels",
   "tags": [
-    "some wolifrew lichen",
-    "wolifrew lichen",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wolifrew lichen"
   ]
 }

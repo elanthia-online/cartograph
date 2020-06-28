@@ -1,33 +1,32 @@
 {
+  "id": 11413,
+  "title": [
+    "[Cliffs, Bushes]"
+  ],
+  "description": [
+    "The hills ascend steeply to the mountains here in a cliff that rises high above you, with no handholds to climb.  The base of the cliff is surrounded by scrub grass and clumps of bushes."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "the Hidden Vale",
+  "climate": "cold, damp",
+  "terrain": "hilly ",
   "wayto": {
     "11414": "go opening",
     "11412": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast"
-  ],
+  "timeto": {
+    "11414": 0.2,
+    "11412": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     788,
     1221,
     798,
     1231
   ],
-  "terrain": "hilly ",
-  "description": [
-    "The hills ascend steeply to the mountains here in a cliff that rises high above you, with no handholds to climb.  The base of the cliff is surrounded by scrub grass and clumps of bushes."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Cliffs, Bushes]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11414": 0.2,
-    "11412": 0.2
-  },
-  "id": 11413,
-  "location": "the Hidden Vale",
   "tags": [
     "soft white mushroom",
     "stalk of bluebells",
@@ -65,11 +64,6 @@
     "ironfern root",
     "twisted twig",
     "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bolmara lichen"
   ]
 }

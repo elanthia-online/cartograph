@@ -1,36 +1,31 @@
 {
-  "wayto": {
-    "4636": "northeast",
-    "4638": "south",
-    "28682": "go path"
-  },
+  "id": 4637,
+  "title": [
+    "[Glimae'den Wildwood, Trail]"
+  ],
+  "description": [
+    "The trail flattens out here, traversing along even ground through a recently maintained break in the brush.  Aromatic sassafras, with its hand-shaped lobed leaves, is predominant in this forested area, thriving in spite of the moon-silhouetted stands of beech and aspen.",
+    "The trail flattens out here, traversing along even ground through a recently maintained break in the brush.  Aromatic sassafras, with its hand-shaped lobed leaves, is predominant in this forested area, thriving in spite of the sun-dappling stands of beech and aspen."
+  ],
   "paths": [
     "Obvious paths: northeast, south"
   ],
+  "location": "the village of Cysaegir",
+  "wayto": {
+    "4636": "northeast",
+    "4638": "south"
+  },
+  "timeto": {
+    "4636": 0.2,
+    "4638": 0.2
+  },
+  "image": "en-cysaegir-1264234799.png",
   "image_coords": [
     154,
     567,
     192,
     605
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "The trail flattens out here, traversing along even ground through a recently maintained break in the brush.  Aromatic sassafras, with its hand-shaped lobed leaves, is predominant in this forested area, thriving in spite of the moon-silhouetted stands of beech and aspen.",
-    "The trail flattens out here, traversing along even ground through a recently maintained break in the brush.  Aromatic sassafras, with its hand-shaped lobed leaves, is predominant in this forested area, thriving in spite of the sun-dappling stands of beech and aspen."
-  ],
-  "image": "en-cysaegir-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Glimae'den Wildwood, Trail]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4636": 0.2,
-    "4638": 0.2,
-    "28682": 0.2
-  },
-  "id": 4637,
-  "location": "the village of Cysaegir",
   "tags": [
     "acantha leaf",
     "wolifrew lichen",
@@ -68,10 +63,6 @@
     "twisted twig",
     "slender twig",
     "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

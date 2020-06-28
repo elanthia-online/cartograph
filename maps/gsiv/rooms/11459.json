@@ -1,49 +1,39 @@
 {
-  "wayto": {
-    "11468": {
-      "stringproc": "e531eb47f19700d00ac81ca15d619ca8"
-    },
-    "11458": {
-      "stringproc": "84803c6220b0581d4151763c46ccdbbc"
-    },
-    "11460": {
-      "stringproc": "83255565d617dbe7b0ecdb04e9a96925"
-    },
-    "11467": {
-      "stringproc": "9eaa131926e46e6090f2390aa24f278f"
-    }
-  },
-  "paths": [
-    "Obvious exits: north, west, northwest, up"
-  ],
-  "image_coords": [
-    976,
-    1260,
-    986,
-    1270
-  ],
-  "terrain": null,
-  "description": [
-    "The uneven floor of the bay is dotted with clumps of seaweed and tall, tree-like clusters of elkhorn coral.  The floor of the bay rises sharply to the south.  A rocky wall, covered with bladder rockweed, emerges abruptly from the sandy bay floor to the east."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": null,
+  "id": 11459,
   "title": [
     "[Maelstrom Bay, Bottom]"
   ],
-  "check_location": null,
+  "description": [
+    "The uneven floor of the bay is dotted with clumps of seaweed and tall, tree-like clusters of elkhorn coral.  The floor of the bay rises sharply to the south.  A rocky wall, covered with bladder rockweed, emerges abruptly from the sandy bay floor to the east."
+  ],
+  "paths": [
+    "Obvious exits: north, west, northwest, up"
+  ],
+  "wayto": {
+    "11468": {
+      "file": "string_procs/wayto/11459_11468.rb"
+    },
+    "11458": {
+      "file": "string_procs/wayto/11459_11458.rb"
+    },
+    "11460": {
+      "file": "string_procs/wayto/11459_11460.rb"
+    },
+    "11467": {
+      "file": "string_procs/wayto/11459_11467.rb"
+    }
+  },
   "timeto": {
     "11468": 2.0,
     "11458": 3.0,
     "11460": 2.0,
     "11467": 2.0
   },
-  "id": 11459,
-  "location": null,
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "rr-maelstrom-1266390501.png",
+  "image_coords": [
+    976,
+    1260,
+    986,
+    1270
   ]
 }

@@ -1,38 +1,28 @@
 {
+  "id": 3014,
+  "title": [
+    "[Snow Fort, Bridge]"
+  ],
+  "description": [
+    "Ice crunches beneath your feet as you carefully make your way along the bridge.  A deep ravine disappears into the distance below the bridge, causing you to briefly wonder on the countless souls who met oblivion below.  A translucent arch of ice and snow is carved into the side of the fort."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the High Plains",
   "wayto": {
     "3013": "east",
     "3015": "go arch"
   },
-  "paths": [
-    "Obvious paths: east"
-  ],
+  "timeto": {
+    "3013": 0.2,
+    "3015": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     500,
     718,
     510,
     728
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "Ice crunches beneath your feet as you carefully make your way along the bridge.  A deep ravine disappears into the distance below the bridge, causing you to briefly wonder on the countless souls who met oblivion below.  A translucent arch of ice and snow is carved into the side of the fort."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Snow Fort, Bridge]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3013": 0.2,
-    "3015": 0.2
-  },
-  "id": 3014,
-  "location": "the High Plains",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

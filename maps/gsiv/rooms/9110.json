@@ -1,4 +1,15 @@
 {
+  "id": 9110,
+  "title": [
+    "[Great Cavern, Stalagmite Forest]"
+  ],
+  "description": [
+    "The stalagmites and stalactites stand farther apart as the cavern opens to the south.  The cavern slopes downward and is quickly covered by a layer of mud and plant debris.  The thin layers of mist behind you are replaced by a thick yellow fog that shrouds the bog below you."
+  ],
+  "paths": [
+    "Obvious exits: north, east, west, northwest, down"
+  ],
+  "location": "the subterranean tunnels",
   "wayto": {
     "9120": "west",
     "9109": "north",
@@ -6,25 +17,6 @@
     "9113": "east",
     "9114": "down"
   },
-  "paths": [
-    "Obvious exits: north, east, west, northwest, down"
-  ],
-  "image_coords": [
-    198,
-    700,
-    208,
-    710
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The stalagmites and stalactites stand farther apart as the cavern opens to the south.  The cavern slopes downward and is quickly covered by a layer of mud and plant debris.  The thin layers of mist behind you are replaced by a thick yellow fog that shrouds the bog below you."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Great Cavern, Stalagmite Forest]"
-  ],
-  "check_location": null,
   "timeto": {
     "9120": 0.2,
     "9109": 0.2,
@@ -32,13 +24,11 @@
     "9113": 0.2,
     "9114": 0.2
   },
-  "id": 9110,
-  "location": "the subterranean tunnels",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "imt-underground-1264234799.png",
+  "image_coords": [
+    198,
+    700,
+    208,
+    710
   ]
 }

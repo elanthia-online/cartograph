@@ -1,41 +1,33 @@
 {
+  "id": 15943,
+  "title": [
+    "[Abbey, Ossuary]"
+  ],
+  "description": [
+    "Polished golden rungs have been affixed at regular vertical intervals from floor to ceiling for no apparent reason, as the low ceiling has no opening through which to ascend.  Each rung is firmly embedded into the solid rock.  Faint scraping sounds can be heard from above, muffled but steady."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south"
+  ],
+  "location": "the Abbey",
   "wayto": {
     "15944": "south",
     "2976": "north",
     "2977": "east"
   },
-  "paths": [
-    "Obvious exits: north, east, south"
-  ],
+  "timeto": {
+    "15944": 0.2,
+    "2976": 0.2,
+    "2977": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     862,
     457,
     872,
     467
   ],
-  "terrain": "indoors",
-  "description": [
-    "Polished golden rungs have been affixed at regular vertical intervals from floor to ceiling for no apparent reason, as the low ceiling has no opening through which to ascend.  Each rung is firmly embedded into the solid rock.  Faint scraping sounds can be heard from above, muffled but steady."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abbey, Ossuary]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "15944": 0.2,
-    "2976": 0.2,
-    "2977": 0.2
-  },
-  "id": 15943,
-  "location": "the Abbey",
   "tags": [
-    "arch wight",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "arch wight"
   ]
 }

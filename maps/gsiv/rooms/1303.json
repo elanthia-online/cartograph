@@ -1,33 +1,30 @@
 {
+  "id": 1303,
+  "title": [
+    "[Zeltoph Switchbacks]"
+  ],
+  "description": [
+    "Reaching an impassable rock wall, the trail doubles back, climbing to the east.  Deep ruts have formed in the steep trail, causing wheels to break on the caravan wagons."
+  ],
+  "paths": [
+    "Obvious paths: northeast, east"
+  ],
+  "location": "the foothills of Zeltoph",
   "wayto": {
     "1302": "northeast",
     "1304": "east"
   },
-  "paths": [
-    "Obvious paths: northeast, east"
-  ],
+  "timeto": {
+    "1302": 0.2,
+    "1304": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     312,
     314,
     322,
     324
   ],
-  "terrain": "mountainous",
-  "description": [
-    "Reaching an impassable rock wall, the trail doubles back, climbing to the east.  Deep ruts have formed in the steep trail, causing wheels to break on the caravan wagons."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Zeltoph Switchbacks]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1302": 0.2,
-    "1304": 0.2
-  },
-  "id": 1303,
-  "location": "the foothills of Zeltoph",
   "tags": [
     "small apple",
     "sprig of holly",
@@ -44,10 +41,6 @@
     "ironfern root",
     "bolmara lichen",
     "wingstem root",
-    "alder bark",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "alder bark"
   ]
 }

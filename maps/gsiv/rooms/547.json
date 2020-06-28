@@ -1,36 +1,33 @@
 {
+  "id": 547,
+  "title": [
+    "[Whistler's Pass, Copse]"
+  ],
+  "description": [
+    "Little light makes it through the treetops, except for the stray beams of light that pierce the darkness like flaming arrows in the night.  An owl hoots from within the trees.",
+    "Little light makes it through the treetops, except for the stray beams of light that pierce the darkness like flaming arrows in the night.  Birds chirp noisily in the trees."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south, down"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "546": "northeast",
     "548": "south",
     "1633": "down"
   },
-  "paths": [
-    "Obvious paths: northeast, south, down"
-  ],
+  "timeto": {
+    "546": 0.2,
+    "548": 0.2,
+    "1633": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     712,
     683,
     722,
     693
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "Little light makes it through the treetops, except for the stray beams of light that pierce the darkness like flaming arrows in the night.  An owl hoots from within the trees.",
-    "Little light makes it through the treetops, except for the stray beams of light that pierce the darkness like flaming arrows in the night.  Birds chirp noisily in the trees."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Whistler's Pass, Copse]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "546": 0.2,
-    "548": 0.2,
-    "1633": 0.2
-  },
-  "id": 547,
-  "location": "Whistler's Pass",
   "tags": [
     "some acantha leaf",
     "some torban leaf",
@@ -94,10 +91,6 @@
     "slender twig",
     "ebony twig",
     "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

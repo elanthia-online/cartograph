@@ -1,38 +1,28 @@
 {
+  "id": 10052,
+  "title": [
+    "[North Barrow, Tunnel]"
+  ],
+  "description": [
+    "A dank smell of ancient mold fills the still air, much of it emanating from an area in the corner of the tunnel where the ceiling has partially collapsed into a pile of long-untouched rubble.  Half-crushed skeletons lie scattered around the sharp turn in the tunnel, and a few odd bones protrude from the pile of fallen stone."
+  ],
+  "paths": [
+    "Obvious exits: south, southwest"
+  ],
+  "location": "the Yegharren Plains",
   "wayto": {
     "10051": "southwest",
     "10053": "south"
   },
-  "paths": [
-    "Obvious exits: south, southwest"
-  ],
+  "timeto": {
+    "10051": 0.2,
+    "10053": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     1375,
     223,
     1385,
     233
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A dank smell of ancient mold fills the still air, much of it emanating from an area in the corner of the tunnel where the ceiling has partially collapsed into a pile of long-untouched rubble.  Half-crushed skeletons lie scattered around the sharp turn in the tunnel, and a few odd bones protrude from the pile of fallen stone."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[North Barrow, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10051": 0.2,
-    "10053": 0.2
-  },
-  "id": 10052,
-  "location": "the Yegharren Plains",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

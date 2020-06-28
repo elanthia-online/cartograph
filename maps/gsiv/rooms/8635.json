@@ -1,42 +1,34 @@
 {
-  "wayto": {
-    "8634": "south",
-    "8916": {
-      "stringproc": "599c7f790027fb59402fc0a09fd3fad1"
-    },
-    "14360": {
-      "stringproc": "11858bbf2f50625ec93af37b714ce380"
-    }
-  },
-  "paths": [
-    "Obvious exits: south"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Cushioned ladder-backed chairs surround a plush, snow white bear rug.  Affixed in the eye sockets are a pair of brilliant dragonsbreath sapphires and long, slightly yellowed pieces of ivory serve as the fangs.  Edged in gold braiding, the tapestry on the back wall depicts several males encircling a kneeling individual as they work together to wrestle an object from his grasp."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 8635,
   "title": [
     "[Wehnimer's Shop, Waiting Area]"
   ],
-  "check_location": null,
+  "description": [
+    "Cushioned ladder-backed chairs surround a plush, snow white bear rug.  Affixed in the eye sockets are a pair of brilliant dragonsbreath sapphires and long, slightly yellowed pieces of ivory serve as the fangs.  Edged in gold braiding, the tapestry on the back wall depicts several males encircling a kneeling individual as they work together to wrestle an object from his grasp."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Wehnimer's Landing",
+  "wayto": {
+    "8634": "south",
+    "8916": {
+      "file": "string_procs/wayto/8635_8916.rb"
+    },
+    "14360": {
+      "file": "string_procs/wayto/8635_14360.rb"
+    }
+  },
   "timeto": {
     "8634": 0.2,
     "8916": {
-      "stringproc": "cab6404bf14ccabc744fd5b840090769"
+      "file": "string_procs/timeto/8635_8916.rb"
     },
     "14360": {
-      "stringproc": "7fdeeabfb58bc1976f0e643574c39cd6"
+      "file": "string_procs/timeto/8635_14360.rb"
     }
   },
-  "id": 8635,
-  "location": "Wehnimer's Landing",
   "tags": [
     "travel waiting room"
-  ],
-  "links": [
-
   ]
 }

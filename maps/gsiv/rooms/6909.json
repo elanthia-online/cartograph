@@ -1,50 +1,38 @@
 {
+  "id": 6909,
+  "title": [
+    "[Smuggling Tunnels, Passage]"
+  ],
+  "description": [
+    "Dimly burning lanterns hang from the ceiling, spaced at regular intervals to shed a bit of light.  They are dented and abused, looking mostly like castoffs and irregular bits from a lantern maker's mistake pile.  Large footprints track through the dirt of the floor."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest, west"
+  ],
+  "location": "the smuggling tunnels",
   "wayto": {
     "6910": "southwest",
     "6888": "northeast",
     "6914": "west"
   },
-  "paths": [
-    "Obvious exits: northeast, southwest, west"
-  ],
+  "timeto": {
+    "6910": 0.2,
+    "6888": 0.2,
+    "6914": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     1014,
     1249,
     1024,
     1259
   ],
-  "terrain": "indoors",
-  "description": [
-    "Dimly burning lanterns hang from the ceiling, spaced at regular intervals to shed a bit of light.  They are dented and abused, looking mostly like castoffs and irregular bits from a lantern maker's mistake pile.  Large footprints track through the dirt of the floor."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Smuggling Tunnels, Passage]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6910": 0.2,
-    "6888": 0.2,
-    "6914": 0.2
-  },
-  "id": 6909,
-  "location": "the smuggling tunnels",
   "tags": [
     "some acantha leaf",
     "some cave moss",
     "some wingstem root",
     "some bur-clover root",
     "withered black mushroom",
-    "pepperthorn root",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "pepperthorn root"
   ]
 }

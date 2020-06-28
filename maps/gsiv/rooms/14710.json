@@ -1,39 +1,31 @@
 {
+  "id": 14710,
+  "title": [
+    "[Wind Tunnel]"
+  ],
+  "description": [
+    "The wind speaks with a passionate voice, the voice of the damned souls that have been borne here from the swirling storm off-shore.  Throughout the years the unnatural tempest has been known by many names.  Sailors call it the Felstorm, or simply \"the Squall\", and you remember a mendicant preacher once mumbling something about \"...the breath!  The foul breath of Luukos...\""
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Dark Palisade",
   "wayto": {
     "12592": "west",
     "12594": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "12592": 0.2,
+    "12594": 0.2
+  },
+  "image": "ti-wilds-1264234799.png",
   "image_coords": [
     1059,
     729,
     1069,
     739
   ],
-  "terrain": "indoors",
-  "description": [
-    "The wind speaks with a passionate voice, the voice of the damned souls that have been borne here from the swirling storm off-shore.  Throughout the years the unnatural tempest has been known by many names.  Sailors call it the Felstorm, or simply \"the Squall\", and you remember a mendicant preacher once mumbling something about \"...the breath!  The foul breath of Luukos...\""
-  ],
-  "image": "ti-wilds-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Wind Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "12592": 0.2,
-    "12594": 0.2
-  },
-  "id": 14710,
-  "location": "the Dark Palisade",
   "tags": [
-    "wind wraith",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wind wraith"
   ]
 }

@@ -1,33 +1,30 @@
 {
+  "id": 7601,
+  "title": [
+    "[Coastal Cliffs, Shoreline]"
+  ],
+  "description": [
+    "The rocky shoreline along the bottom of the cliff makes entry into the bay too treacherous to consider.  Muddy water covers the few soft spots in the ground between the rocks."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "7602": "go pool",
     "486": "climb path"
   },
-  "paths": [
-    "Obvious paths: none"
-  ],
+  "timeto": {
+    "7602": 0.2,
+    "486": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     511,
     786,
     521,
     796
   ],
-  "terrain": "riparian",
-  "description": [
-    "The rocky shoreline along the bottom of the cliff makes entry into the bay too treacherous to consider.  Muddy water covers the few soft spots in the ground between the rocks."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Coastal Cliffs, Shoreline]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7602": 0.2,
-    "486": 0.2
-  },
-  "id": 7601,
-  "location": "the Coastal Cliffs",
   "tags": [
     "stalk of cattail",
     "some talneo root",
@@ -54,11 +51,6 @@
     "sprig of wild lilac",
     "murdroot",
     "ironfern root",
-    "talneo root",
-    "sunburst blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "talneo root"
   ]
 }

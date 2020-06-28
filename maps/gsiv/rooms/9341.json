@@ -1,33 +1,30 @@
 {
+  "id": 9341,
+  "title": [
+    "[Cairnfang, East Valley]"
+  ],
+  "description": [
+    "The valley is quite narrow here between towering walls.  The ground has sparse patches of grass here and there, probably due to the lack of sunlight reaching the ground.  Along the north wall a rockfall is noted, though it's quite impassable at present.  At the edge of the rockfall several pieces of shattered wood and a broken wheel are visible, apparently from a wagon of some type."
+  ],
+  "paths": [
+    "Obvious paths: southeast, west"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "9340": "west",
     "9342": "southeast"
   },
-  "paths": [
-    "Obvious paths: southeast, west"
-  ],
+  "timeto": {
+    "9340": 0.2,
+    "9342": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     1161,
     377,
     1173,
     389
   ],
-  "terrain": "rough",
-  "description": [
-    "The valley is quite narrow here between towering walls.  The ground has sparse patches of grass here and there, probably due to the lack of sunlight reaching the ground.  Along the north wall a rockfall is noted, though it's quite impassable at present.  At the edge of the rockfall several pieces of shattered wood and a broken wheel are visible, apparently from a wagon of some type."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Cairnfang, East Valley]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9340": 0.2,
-    "9342": 0.2
-  },
-  "id": 9341,
-  "location": "the Cairnfang",
   "tags": [
     "handful of currants",
     "handful of blueberries",
@@ -58,10 +55,6 @@
     "motherwort",
     "white baneberry",
     "pepperthorn root",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

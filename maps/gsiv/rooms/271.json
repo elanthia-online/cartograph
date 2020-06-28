@@ -1,70 +1,39 @@
 {
+  "id": 271,
+  "title": [
+    "[Wehnimer's, Stormarm St.]"
+  ],
+  "description": [
+    "This intersection links the bazaar routes with those bisecting and encircling the Landing.  A few ruddyfaced sailors, loudmouthed dockworkers, and off-duty soldiers linger along the wall of a tavern, which is set back from the side of the road up a slight incline.  A shaky wooden stairway, the bane of many an overimbiber's existence, leads up to the tavern door."
+  ],
+  "paths": [
+    "Obvious paths: north, south, west"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "270": "north",
     "272": "south",
     "263": "west",
     "3809": "go stairway"
   },
-  "paths": [
-    "Obvious paths: north, south, west"
-  ],
-  "image_coords": [
-    738,
-    351,
-    774,
-    387
-  ],
-  "terrain": "plain dirt",
-  "description": [
-    "This intersection links the bazaar routes with those bisecting and encircling the Landing.  A few ruddyfaced sailors, loudmouthed dockworkers, and off-duty soldiers linger along the wall of a tavern, which is set back from the side of the road up a slight incline.  A shaky wooden stairway, the bane of many an overimbiber's existence, leads up to the tavern door."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Wehnimer's, Stormarm St.]"
-  ],
-  "check_location": null,
   "timeto": {
     "270": 0.2,
     "272": 0.2,
     "263": 0.2,
     "3809": 0.2
   },
-  "id": 271,
-  "location": "the town of Wehnimer's Landing",
+  "image": "wl-wehnimers-1264234799.png",
+  "image_coords": [
+    738,
+    351,
+    774,
+    387
+  ],
   "tags": [
     "some acantha leaf",
     "some calamia fruit",
     "blue whortleberry",
     "pepperthorn root",
-    "meta:teleport:fwi",
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "small flower",
-    "small rose",
-    "small daisy",
-    "angelica root",
-    "withered black mushroom",
-    "stalk of chicory",
-    "sprig of alyssum",
-    "heath aster",
-    "stalk of goldenrod",
-    "yellow primrose",
-    "small wild rose",
-    "wild carrot",
-    "ginger root",
-    "wild chokecherry",
-    "motherwort",
-    "murkweed",
-    "white baneberry",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:teleport:fwi"
   ]
 }

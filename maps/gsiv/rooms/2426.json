@@ -1,50 +1,43 @@
 {
+  "id": 2426,
+  "title": [
+    "[Icemule Trace, East Road]"
+  ],
+  "description": [
+    "A pair of guards lean back against the the archway of the bright blue building housing the Icemule Trace branch of the First Elanith Bank.  One guard seems to be dozing on his stool, while the other keeps a close and wary eye on the traffic flowing past.",
+    "A pair of guards lean back against the archway of the bright blue building housing the Icemule Trace branch of the First Elanith Bank.  One guard seems to be dozing on his stool, while the other keeps a close and wary eye on the traffic flowing past."
+  ],
+  "paths": [
+    "Obvious paths: east, south, west"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "2300": "west",
     "2423": "south",
     "3370": "go archway",
     "2427": "east",
     "3668": {
-      "stringproc": "592e7660bc67a7aa2aeeed086c964162"
+      "file": "string_procs/wayto/2426_3668.rb"
     }
   },
-  "paths": [
-    "Obvious paths: east, south, west"
-  ],
-  "image_coords": [
-    672,
-    786,
-    708,
-    822
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "A pair of guards lean back against the the archway of the bright blue building housing the Icemule Trace branch of the First Elanith Bank.  One guard seems to be dozing on his stool, while the other keeps a close and wary eye on the traffic flowing past.",
-    "A pair of guards lean back against the archway of the bright blue building housing the Icemule Trace branch of the First Elanith Bank.  One guard seems to be dozing on his stool, while the other keeps a close and wary eye on the traffic flowing past."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Icemule Trace, East Road]"
-  ],
-  "check_location": null,
   "timeto": {
     "2300": 0.2,
     "2423": 0.2,
     "3370": 0.2,
     "2427": 0.2,
     "3668": {
-      "stringproc": "61acd23da00379e24457740bfb0b0b29"
+      "file": "string_procs/timeto/2426_3668.rb"
     }
   },
-  "id": 2426,
-  "location": "Icemule Trace",
+  "image": "imt-icemule-1474811966.png",
+  "image_coords": [
+    672,
+    786,
+    708,
+    822
+  ],
   "tags": [
     "trash",
-    "calmintha flower",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "calmintha flower"
   ]
 }

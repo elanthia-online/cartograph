@@ -1,43 +1,35 @@
 {
+  "id": 19271,
+  "title": [
+    "[Dark Shrine, Short Hallway]"
+  ],
+  "description": [
+    "Three doors lead off from this short, featureless hallway.  The doors to the east and west are plain wooden doors, but the door at the south end of the hallway is a large bronze door, framed with stone."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Broken Lands",
   "wayto": {
     "19269": "north",
     "19272": "go small door",
     "19273": "go large door",
     "19274": "go bronze door"
   },
-  "paths": [
-    "Obvious exits: north"
-  ],
-  "image_coords": [
-    867,
-    278,
-    875,
-    285
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Three doors lead off from this short, featureless hallway.  The doors to the east and west are plain wooden doors, but the door at the south end of the hallway is a large bronze door, framed with stone."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dark Shrine, Short Hallway]"
-  ],
-  "check_location": null,
   "timeto": {
     "19269": 0.2,
     "19272": 0.2,
     "19273": 0.2,
     "19274": 0.2
   },
-  "id": 19271,
-  "location": "the Broken Lands",
-  "tags": [
-    "lesser vruul",
-    "no forageables",
-    "meta:forage-sensed"
+  "image": "wl-broken-1264234799.png",
+  "image_coords": [
+    867,
+    278,
+    875,
+    285
   ],
-  "links": [
-
+  "tags": [
+    "lesser vruul"
   ]
 }

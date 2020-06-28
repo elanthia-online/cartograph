@@ -1,70 +1,37 @@
 {
-  "wayto": {
-    "13064": "down",
-    "13066": {
-      "stringproc": "0cc2eb5adf1c65e3f35a2147c7d4321d"
-    }
-  },
+  "id": 13065,
+  "title": [
+    "[Rocky Trail]"
+  ],
+  "description": [
+    "Having meandered slowly upward to this point, the trail comes to an abrupt end at the foot of a narrow, rounded sheer vertical cliff.  A rough-hewn stone pillar stands mere inches from the rock face in a small clearing here."
+  ],
   "paths": [
     "Obvious paths: down"
   ],
+  "location": "the Guardians of Sunfist outpost",
+  "wayto": {
+    "13064": "down",
+    "13066": {
+      "file": "string_procs/wayto/13065_13066.rb"
+    }
+  },
+  "timeto": {
+    "13064": 0.2,
+    "13066": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     400,
     366,
     410,
     376
   ],
-  "terrain": "hilly",
-  "description": [
-    "Having meandered slowly upward to this point, the trail comes to an abrupt end at the foot of a narrow, rounded sheer vertical cliff.  A rough-hewn stone pillar stands mere inches from the rock face in a small clearing here."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Rocky Trail]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "13064": 0.2,
-    "13066": 0.2
-  },
-  "id": 13065,
-  "location": "the Guardians of Sunfist outpost",
   "tags": [
     "marallis berry",
     "yew twig",
     "willow twig",
     "twisted twig",
-    "slender twig",
-    "tkaro root",
-    "cuctucae berry",
-    "sticks",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "soft white mushroom",
-    "withered black mushroom",
-    "white hook mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "stalk of chicory",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "sprig of larkspur",
-    "sprig of wild lilac",
-    "golden aster",
-    "tree bark",
-    "oak twig",
-    "luckbloom blossom",
-    "ironfern root",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "slender twig"
   ]
 }

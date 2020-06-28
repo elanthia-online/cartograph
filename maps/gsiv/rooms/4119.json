@@ -1,34 +1,31 @@
 {
+  "id": 4119,
+  "title": [
+    "[Upper Trollfang, Glatoph]"
+  ],
+  "description": [
+    "Oaks and aspens mingle with the modwirs, and acorns crunch under your feet.  Poison oak tangles through the underbrush, keeping you carefully on the path.  Birds call over your head, leaves and twigs rustling to mark their passage in the branches.",
+    "Oaks and aspens mingle with the modwirs, and acorns crunch under your feet.  Poison oak tangles through the underbrush, keeping you carefully on the path.  Nocturnal animals, possibly mice, stir fallen leaves in their haste to remain unseen by any passing owl."
+  ],
+  "paths": [
+    "Obvious paths: east, northwest"
+  ],
+  "location": "Glatoph",
   "wayto": {
     "4118": "east",
     "4120": "northwest"
   },
-  "paths": [
-    "Obvious paths: east, northwest"
-  ],
+  "timeto": {
+    "4118": 0.2,
+    "4120": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     519,
     734,
     529,
     744
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "Oaks and aspens mingle with the modwirs, and acorns crunch under your feet.  Poison oak tangles through the underbrush, keeping you carefully on the path.  Birds call over your head, leaves and twigs rustling to mark their passage in the branches.",
-    "Oaks and aspens mingle with the modwirs, and acorns crunch under your feet.  Poison oak tangles through the underbrush, keeping you carefully on the path.  Nocturnal animals, possibly mice, stir fallen leaves in their haste to remain unseen by any passing owl."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Upper Trollfang, Glatoph]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4118": 0.2,
-    "4120": 0.2
-  },
-  "id": 4119,
-  "location": "Glatoph",
   "tags": [
     "white hook mushroom",
     "bright red cranberry",
@@ -72,10 +69,6 @@
     "twisted twig",
     "slender twig",
     "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

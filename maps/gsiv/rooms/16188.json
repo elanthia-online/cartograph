@@ -1,41 +1,31 @@
 {
+  "id": 16188,
+  "title": [
+    "[Beacon Hall, Mentoring Room]"
+  ],
+  "description": [
+    "Latticed windows open out over the bay, providing an inspiring view.  A small table and a few comfortable chairs offer a quiet and intimate setting for personal instruction.  A shelf along one wall contains a variety of bound guides and treatises, and a large slate hangs on the wall opposite."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast"
+  ],
   "wayto": {
     "22224": {
-      "stringproc": "7f796d46f137a6d162b16774c2088e4a"
+      "file": "string_procs/wayto/16188_22224.rb"
     },
     "16184": "southeast",
     "16190": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southeast"
-  ],
-  "image_coords": [
-    908,
-    465,
-    954,
-    510
-  ],
-  "terrain": null,
-  "description": [
-    "Latticed windows open out over the bay, providing an inspiring view.  A small table and a few comfortable chairs offer a quiet and intimate setting for personal instruction.  A shelf along one wall contains a variety of bound guides and treatises, and a large slate hangs on the wall opposite."
-  ],
-  "image": "rr-beacon_hall-1405076623.png",
-  "climate": null,
-  "title": [
-    "[Beacon Hall, Mentoring Room]"
-  ],
-  "check_location": null,
   "timeto": {
     "22224": 0.3,
     "16184": 0.2,
     "16190": 0.2
   },
-  "id": 16188,
-  "location": null,
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "rr-beacon_hall-1405076623.png",
+  "image_coords": [
+    908,
+    465,
+    954,
+    510
   ]
 }

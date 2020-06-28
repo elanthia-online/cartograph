@@ -1,35 +1,27 @@
 {
-  "wayto": {
-    "16308": {
-      "stringproc": "429696e6b88f72d86fe3746c70286127"
-    }
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "You are standing in a secluded alcove facing a wall of small, locked doors.  One of the lockers has been removed for you and placed on a marble counter."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 16309,
   "title": [
     "[Atrium, Booth]"
   ],
-  "check_location": null,
+  "description": [
+    "You are standing in a secluded alcove facing a wall of small, locked doors.  One of the lockers has been removed for you and placed on a marble counter."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "16308": {
+      "file": "string_procs/wayto/16309_16308.rb"
+    }
+  },
   "timeto": {
     "16308": 0.2
   },
-  "id": 16309,
-  "location": "Mist Harbor",
   "tags": [
     "locker:public"
   ],
   "unique_loot": [
     "lilac-embroidered curtain"
-  ],
-  "links": [
-
   ]
 }

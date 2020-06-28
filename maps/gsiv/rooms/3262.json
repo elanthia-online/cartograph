@@ -1,45 +1,42 @@
 {
-  "wayto": {
-    "3257": {
-      "stringproc": "fb9dc7dc5064608012927d94af509558"
-    },
-    "3248": {
-      "stringproc": "299f6897e4d93ff1f170a6c1f18b76be"
-    },
-    "3263": {
-      "stringproc": "96f762a3c5540f71716927f4f186a4fa"
-    },
-    "3261": {
-      "stringproc": "e3de8b74c33aaa72c5c348d6dad7b90c"
-    }
-  },
-  "paths": [
-    "Obvious paths: southeast, west"
-  ],
-  "image_coords": [
-    69,
-    326,
-    79,
-    336
-  ],
-  "terrain": "plain dirt",
-  "description": [
-    "The thudding and pounding above have been replaced by thin scratching sounds.  An occasional rattle fills the air, a familiar yet unnerving noise, perhaps steel on bone.  Footing is treacherous among the frozen puddles that cover the trench basin and threaten to turn an ankle or cause a nasty spill."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "cold, damp",
+  "id": 3262,
   "title": [
     "[A Frozen Battlefield, Trench]"
   ],
-  "check_location": null,
+  "description": [
+    "The thudding and pounding above have been replaced by thin scratching sounds.  An occasional rattle fills the air, a familiar yet unnerving noise, perhaps steel on bone.  Footing is treacherous among the frozen puddles that cover the trench basin and threaten to turn an ankle or cause a nasty spill."
+  ],
+  "paths": [
+    "Obvious paths: southeast, west"
+  ],
+  "location": "the Ice Plains",
+  "wayto": {
+    "3257": {
+      "file": "string_procs/wayto/3262_3257.rb"
+    },
+    "3248": {
+      "file": "string_procs/wayto/3262_3248.rb"
+    },
+    "3263": {
+      "file": "string_procs/wayto/3262_3263.rb"
+    },
+    "3261": {
+      "file": "string_procs/wayto/3262_3261.rb"
+    }
+  },
   "timeto": {
     "3257": 0.2,
     "3248": 0.2,
     "3263": 4.0,
     "3261": 4.0
   },
-  "id": 3262,
-  "location": "the Ice Plains",
+  "image": "imt-east_west_north_gates-1264234799.png",
+  "image_coords": [
+    69,
+    326,
+    79,
+    336
+  ],
   "tags": [
     "some wolifrew lichen",
     "some acantha leaf",
@@ -64,22 +61,6 @@
     "some wingstem root",
     "blue whortleberry",
     "some angelica root",
-    "frostflower",
-    "acantha leaf",
-    "wolifrew lichen",
-    "aloeas stem",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "bearberries",
-    "tundra grass",
-    "arctic brambles",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "frostflower"
   ]
 }

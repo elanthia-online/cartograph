@@ -1,39 +1,30 @@
 {
-  "wayto": {
-    "8574": {
-      "stringproc": "e2cd43d14b80143eaa71ef8779b7b807"
-    },
-    "19649": "north"
-  },
+  "id": 19651,
+  "title": [
+    "[Cavernhold, Entrance Corridor]"
+  ],
+  "description": [
+    "This long corridor of black basalt is relatively wide, about five feet, but the ceiling is only slightly more than four feet above the floor.  The walls of this chamber appear to be a natural tube or tunnel as they are completely devoid of the usual markings left behind when tools carve stone.  A thick layer of dirt and loam covers the floor and has been worn smooth and level by the passing of countless feet."
+  ],
   "paths": [
     "Obvious exits: north"
   ],
+  "location": "the foothills of Zeltoph",
+  "wayto": {
+    "8574": {
+      "file": "string_procs/wayto/19651_8574.rb"
+    },
+    "19649": "north"
+  },
+  "timeto": {
+    "8574": 0.4,
+    "19649": 0.2
+  },
+  "image": "wl-cavernhold-1295073688.png",
   "image_coords": [
     579,
     1191,
     581,
     1196
-  ],
-  "terrain": null,
-  "description": [
-    "This long corridor of black basalt is relatively wide, about five feet, but the ceiling is only slightly more than four feet above the floor.  The walls of this chamber appear to be a natural tube or tunnel as they are completely devoid of the usual markings left behind when tools carve stone.  A thick layer of dirt and loam covers the floor and has been worn smooth and level by the passing of countless feet."
-  ],
-  "image": "wl-cavernhold-1295073688.png",
-  "climate": null,
-  "title": [
-    "[Cavernhold, Entrance Corridor]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8574": 0.4,
-    "19649": 0.2
-  },
-  "id": 19651,
-  "location": "the foothills of Zeltoph",
-  "tags": [
-
-  ],
-  "links": [
-
   ]
 }

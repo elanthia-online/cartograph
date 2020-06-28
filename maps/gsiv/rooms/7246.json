@@ -1,35 +1,32 @@
 {
+  "id": 7246,
+  "title": [
+    "[Graveyard, Barrow Tunnel]"
+  ],
+  "description": [
+    "The tunnel curves against a solid wall of rock to the east and south, marked by numerous gouges and scratches that indicate failed attempts to dig further.  The air is damp and chill, and water condenses on the dark stone to drip into foul-smelling puddles on the dirt floor."
+  ],
+  "paths": [
+    "Obvious exits: north, west, northwest"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7213": "northwest",
     "7247": "west",
     "7214": "north"
   },
-  "paths": [
-    "Obvious exits: north, west, northwest"
-  ],
+  "timeto": {
+    "7213": 0.2,
+    "7247": 0.2,
+    "7214": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     530,
     237,
     540,
     247
   ],
-  "terrain": "indoors",
-  "description": [
-    "The tunnel curves against a solid wall of rock to the east and south, marked by numerous gouges and scratches that indicate failed attempts to dig further.  The air is damp and chill, and water condenses on the dark stone to drip into foul-smelling puddles on the dirt floor."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Graveyard, Barrow Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7213": 0.2,
-    "7247": 0.2,
-    "7214": 0.2
-  },
-  "id": 7246,
-  "location": "the Graveyard",
   "tags": [
     "some wolifrew lichen",
     "some wingstem root",
@@ -39,10 +36,6 @@
     "cave moss",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

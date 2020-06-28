@@ -1,68 +1,36 @@
 {
+  "id": 327,
+  "title": [
+    "[Wehnimer's, East Crossing]"
+  ],
+  "description": [
+    "A wide bridge spans the dark waters of the Locksmehr River to the west, groaning beneath the wheels of the occasional passing wagon or oxcart.  The shouts of drivers to move aside and the clicking noises they make to urge their weary animals along echo through the damp night air.  A gravel footpath leads north, and the outlines of a few buildings loom farther to the east.",
+    "A wide bridge spans the Locksmehr River to the west, groaning beneath the wheels of overloaded oxcarts and pedestrian traffic.  The shouts of drivers to move aside and the clicking noises they make to urge their weary animals along echo through the damp coastal air.  A gravel footpath leads north, and the outlines of a few buildings loom farther to the east."
+  ],
+  "paths": [
+    "Obvious paths: east",
+    "Obvious paths: east, west"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "326": "go bridge",
     "328": "east",
     "4074": "go footpath"
   },
-  "paths": [
-    "Obvious paths: east",
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "326": 0.2,
+    "328": 0.2,
+    "4074": 0.2
+  },
+  "image": "wl-wehnimers-1264234799.png",
   "image_coords": [
     1200,
     703,
     1236,
     739
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "A wide bridge spans the dark waters of the Locksmehr River to the west, groaning beneath the wheels of the occasional passing wagon or oxcart.  The shouts of drivers to move aside and the clicking noises they make to urge their weary animals along echo through the damp night air.  A gravel footpath leads north, and the outlines of a few buildings loom farther to the east.",
-    "A wide bridge spans the Locksmehr River to the west, groaning beneath the wheels of overloaded oxcarts and pedestrian traffic.  The shouts of drivers to move aside and the clicking noises they make to urge their weary animals along echo through the damp coastal air.  A gravel footpath leads north, and the outlines of a few buildings loom farther to the east."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Wehnimer's, East Crossing]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "326": 0.2,
-    "328": 0.2,
-    "4074": 0.2
-  },
-  "id": 327,
-  "location": "the town of Wehnimer's Landing",
   "tags": [
     "some acantha leaf",
-    "pepperthorn root",
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "small flower",
-    "small rose",
-    "small daisy",
-    "angelica root",
-    "withered black mushroom",
-    "stalk of chicory",
-    "sprig of alyssum",
-    "heath aster",
-    "stalk of goldenrod",
-    "yellow primrose",
-    "small wild rose",
-    "wild carrot",
-    "ginger root",
-    "wild chokecherry",
-    "motherwort",
-    "murkweed",
-    "blue whortleberry",
-    "white baneberry",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "pepperthorn root"
   ]
 }

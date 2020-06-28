@@ -1,36 +1,33 @@
 {
+  "id": 85,
+  "title": [
+    "[Whistler's Pass, Trail]"
+  ],
+  "description": [
+    "The trail dips slightly into a small canyon.  Green, broad-leafed plants line the walls as the pass narrows.  Cool mist blows through the area, leaving a fine layer of moisture on everything.  The plants glisten with the continuous moisture in the moonlight.",
+    "The trail dips slightly into a small canyon.  Green, broad-leafed plants line the walls as the pass narrows.  Cool mist blows through the area, leaving a fine layer of moisture on everything.  The plants glisten with the continuous moisture."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "84": "east",
     "530": "southwest",
     "86": "go grove"
   },
-  "paths": [
-    "Obvious paths: east, southwest"
-  ],
+  "timeto": {
+    "84": 0.2,
+    "530": 0.2,
+    "86": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     800,
     381,
     810,
     391
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "The trail dips slightly into a small canyon.  Green, broad-leafed plants line the walls as the pass narrows.  Cool mist blows through the area, leaving a fine layer of moisture on everything.  The plants glisten with the continuous moisture in the moonlight.",
-    "The trail dips slightly into a small canyon.  Green, broad-leafed plants line the walls as the pass narrows.  Cool mist blows through the area, leaving a fine layer of moisture on everything.  The plants glisten with the continuous moisture."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Whistler's Pass, Trail]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "84": 0.2,
-    "530": 0.2,
-    "86": 0.2
-  },
-  "id": 85,
-  "location": "Whistler's Pass",
   "tags": [
     "some bolmara lichen",
     "stick",
@@ -91,10 +88,6 @@
     "slender twig",
     "ebony twig",
     "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

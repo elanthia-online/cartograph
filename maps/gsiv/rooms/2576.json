@@ -1,34 +1,31 @@
 {
+  "id": 2576,
+  "title": [
+    "[Upper Trollfang, Foothills]"
+  ],
+  "description": [
+    "You're in a shallow depression between the hill to the south and the higher slope to the north.  A sheer cliff to the east and a gorge to the west prevent travel in those directions.  There's actually green grass in this hollow, protected as it is on three sides.  It might be a nice place to rest for a while.",
+    "You're in a shallow depression between the hill to the south and the higher slope to the north.  A sheer cliff to the east and a gorge to the west prevent travel in those directions.  The soft grass underfoot might make this a nice place to rest for a while if it weren't for the occasional sounds of large nocturnal scavengers going about their business."
+  ],
+  "paths": [
+    "Obvious paths: south, up"
+  ],
+  "location": "Glatoph",
   "wayto": {
     "2575": "up",
     "2577": "south"
   },
-  "paths": [
-    "Obvious paths: south, up"
-  ],
+  "timeto": {
+    "2575": 0.2,
+    "2577": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     574,
     843,
     584,
     853
   ],
-  "terrain": "grassland",
-  "description": [
-    "You're in a shallow depression between the hill to the south and the higher slope to the north.  A sheer cliff to the east and a gorge to the west prevent travel in those directions.  There's actually green grass in this hollow, protected as it is on three sides.  It might be a nice place to rest for a while.",
-    "You're in a shallow depression between the hill to the south and the higher slope to the north.  A sheer cliff to the east and a gorge to the west prevent travel in those directions.  The soft grass underfoot might make this a nice place to rest for a while if it weren't for the occasional sounds of large nocturnal scavengers going about their business."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "arid",
-  "title": [
-    "[Upper Trollfang, Foothills]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2575": 0.2,
-    "2577": 0.2
-  },
-  "id": 2576,
-  "location": "Glatoph",
   "tags": [
     "daggerstalk mushroom",
     "vermilion fire lily",
@@ -42,10 +39,6 @@
     "fire lily",
     "pepperthorn root",
     "nightbloom blossom",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

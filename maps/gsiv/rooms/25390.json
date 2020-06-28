@@ -1,30 +1,21 @@
 {
-  "wayto": {
-    "25391": {
-      "stringproc": "b83073b1384c33e223fa99b4c43a3f54"
-    }
-  },
-  "paths": [
-    "Obvious exits: north, west, out"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Clouds of dust and dried rodent feces billow up with even the lightest passing footstep.  Nails protrude downward from the low, slanted roofline overhead, posing significant threat to the taller races.  Atop the wide-planked floorboards, a disfigured baby doll awaits a ride in a discarded pull-toy wagon lying half-buried in the filth and debris."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 25390,
   "title": [
     "[Delirium Manor, Crawlspace]"
   ],
-  "check_location": null,
+  "description": [
+    "Clouds of dust and dried rodent feces billow up with even the lightest passing footstep.  Nails protrude downward from the low, slanted roofline overhead, posing significant threat to the taller races.  Atop the wide-planked floorboards, a disfigured baby doll awaits a ride in a discarded pull-toy wagon lying half-buried in the filth and debris."
+  ],
+  "paths": [
+    "Obvious exits: north, west, out"
+  ],
+  "location": "Delirium Manor",
+  "wayto": {
+    "25391": {
+      "file": "string_procs/wayto/25390_25391.rb"
+    }
+  },
   "timeto": {
     "25391": 0.2
-  },
-  "id": 25390,
-  "location": "Delirium Manor",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  }
 }

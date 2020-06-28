@@ -1,44 +1,34 @@
 {
+  "id": 7342,
+  "title": [
+    "[Shadow Valley, Dark Pasture]"
+  ],
+  "description": [
+    "Rotted through, this area is a twisted dark image of the once beautiful pasture that thrived here.  The few spots that aren't decaying are overgrown by a thorny underbrush."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7341": "southeast",
     "7335": "northwest"
   },
-  "paths": [
-    "Obvious paths: southeast, northwest"
-  ],
+  "timeto": {
+    "7341": 0.2,
+    "7335": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1120,
     784,
     1130,
     794
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "Rotted through, this area is a twisted dark image of the once beautiful pasture that thrived here.  The few spots that aren't decaying are overgrown by a thorny underbrush."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Shadow Valley, Dark Pasture]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7341": 0.2,
-    "7335": 0.2
-  },
-  "id": 7342,
-  "location": "the Shadow Valley",
   "tags": [
     "some petrified shadowstalk",
     "black-tipped wyrm thorn",
     "some longgrass",
-    "night mare",
-    "longgrass",
-    "wyrm thorn",
-    "petrified shadowstalk",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "night mare"
   ]
 }

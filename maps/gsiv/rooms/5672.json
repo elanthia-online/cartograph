@@ -1,43 +1,28 @@
 {
+  "id": 5672,
+  "title": [
+    "[Warrens]"
+  ],
+  "description": [
+    "A rotted monir chest has been tipped over in one corner and is completely empty of any contents.  The lock appears to have been smashed open by the force of some blunt object and whatever valuables this box might have contained are long gone."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "the Vornavian Coast",
   "wayto": {
     "5671": "northeast",
     "5673": "southwest"
   },
-  "paths": [
-    "Obvious exits: northeast, southwest"
-  ],
+  "timeto": {
+    "5671": 0.2,
+    "5673": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     709,
     661,
     719,
     671
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A rotted monir chest has been tipped over in one corner and is completely empty of any contents.  The lock appears to have been smashed open by the force of some blunt object and whatever valuables this box might have contained are long gone."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Warrens]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5671": 0.2,
-    "5673": 0.2
-  },
-  "id": 5672,
-  "location": "the Vornavian Coast",
-  "tags": [
-    "withered black mushroom",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

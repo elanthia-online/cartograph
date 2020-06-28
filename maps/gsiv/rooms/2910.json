@@ -1,35 +1,32 @@
 {
-  "wayto": {
-    "2909": "northwest",
-    "2911": {
-      "stringproc": "f9d269dd63248dc78731718a02f043ab"
-    }
-  },
+  "id": 2910,
+  "title": [
+    "[Southern Slopes, Alpine Ridge]"
+  ],
+  "description": [
+    "The eastern peak of the mountain range looms overhead, a stoic monarch watching over this alpine ridge.  Beneath its gaze, maple and spruce stand rigid in the winds, as if they were subjects snapped to attention.  The dense forest abruptly ends at the edge of a short cliff nearby."
+  ],
   "paths": [
     "Obvious paths: northwest"
   ],
+  "location": "the Sleeping Lady Mountains",
+  "wayto": {
+    "2909": "northwest",
+    "2911": {
+      "file": "string_procs/wayto/2910_2911.rb"
+    }
+  },
+  "timeto": {
+    "2909": 0.2,
+    "2911": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     1160,
     419,
     1170,
     429
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "The eastern peak of the mountain range looms overhead, a stoic monarch watching over this alpine ridge.  Beneath its gaze, maple and spruce stand rigid in the winds, as if they were subjects snapped to attention.  The dense forest abruptly ends at the edge of a short cliff nearby."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Southern Slopes, Alpine Ridge]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2909": 0.2,
-    "2911": 0.2
-  },
-  "id": 2910,
-  "location": "the Sleeping Lady Mountains",
   "tags": [
     "pine cone",
     "handful of pinenuts",
@@ -53,33 +50,6 @@
     "fiery red iceblossom",
     "snow white iceblossom",
     "lavender iceblossom",
-    "yellow iceblossom",
-    "sticks",
-    "sassafras leaf",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "iceblossoms",
-    "moonflowers",
-    "snow lily",
-    "winter rose",
-    "pine needles",
-    "frostweed",
-    "snowberries",
-    "pale thornberry",
-    "red winterberry",
-    "tree bark",
-    "rockberry",
-    "crowberry",
-    "lingonberry",
-    "orange rowanberry",
-    "ironfern root",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "yellow iceblossom"
   ]
 }

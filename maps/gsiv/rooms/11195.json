@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "11192": "east"
-  },
+  "id": 11195,
+  "title": [
+    "[Garrison, Hallway]"
+  ],
+  "description": [
+    "Tapestries, long ago destroyed, lie in shredded and mildewed piles along the base of the walls.  A number of objects seem to have been brought to this hallway just so that they could be slashed and destroyed."
+  ],
   "paths": [
     "Obvious exits: north, east, south, west"
   ],
+  "location": "the Citadel",
+  "wayto": {
+    "11192": "east"
+  },
+  "timeto": {
+    "11192": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     544,
     246,
     554,
     256
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Tapestries, long ago destroyed, lie in shredded and mildewed piles along the base of the walls.  A number of objects seem to have been brought to this hallway just so that they could be slashed and destroyed."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Garrison, Hallway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11192": 0.2
-  },
-  "id": 11195,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

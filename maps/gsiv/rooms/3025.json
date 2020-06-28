@@ -1,39 +1,31 @@
 {
+  "id": 3025,
+  "title": [
+    "[Snow Fort, Ice Altar]"
+  ],
+  "description": [
+    "An elaborate chapel is hollowed out of the ice here, calling praise to an unknown deity.  Towering pure white pillars stand sentinel over a massive altar of snow and ice.  Strange, ensconced torches illuminate the altar, glowing with a cold blue fire."
+  ],
+  "paths": [
+    "Obvious exits: up"
+  ],
+  "location": "the High Plains",
   "wayto": {
     "3024": "up",
     "3026": "go hole"
   },
-  "paths": [
-    "Obvious exits: up"
-  ],
+  "timeto": {
+    "3024": 0.2,
+    "3026": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     489,
     872,
     499,
     882
   ],
-  "terrain": "indoors",
-  "description": [
-    "An elaborate chapel is hollowed out of the ice here, calling praise to an unknown deity.  Towering pure white pillars stand sentinel over a massive altar of snow and ice.  Strange, ensconced torches illuminate the altar, glowing with a cold blue fire."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Snow Fort, Ice Altar]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3024": 0.2,
-    "3026": 0.2
-  },
-  "id": 3025,
-  "location": "the High Plains",
   "tags": [
-    "snow spectre",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "snow spectre"
   ]
 }

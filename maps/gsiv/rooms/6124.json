@@ -1,33 +1,30 @@
 {
+  "id": 6124,
+  "title": [
+    "[Krag Slopes]"
+  ],
+  "description": [
+    "Standing upright becomes more difficult as the path becomes less discernible among the barren rocks.  What manner of creature could endure living in such a hostile environment?"
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "the Krag slopes",
   "wayto": {
     "6125": "southwest",
     "6123": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, southwest"
-  ],
+  "timeto": {
+    "6125": 0.2,
+    "6123": 0.2
+  },
+  "image": "wl-wehntoph-1310775397.png",
   "image_coords": [
     1443,
     293,
     1479,
     329
   ],
-  "terrain": null,
-  "description": [
-    "Standing upright becomes more difficult as the path becomes less discernible among the barren rocks.  What manner of creature could endure living in such a hostile environment?"
-  ],
-  "image": "wl-wehntoph-1310775397.png",
-  "climate": null,
-  "title": [
-    "[Krag Slopes]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6125": 0.2,
-    "6123": 0.2
-  },
-  "id": 6124,
-  "location": "the Krag slopes",
   "tags": [
     "some bolmara lichen",
     "stalk of bluebells",
@@ -48,8 +45,5 @@
     "ironfern root",
     "bolmara lichen",
     "wingstem root"
-  ],
-  "links": [
-
   ]
 }

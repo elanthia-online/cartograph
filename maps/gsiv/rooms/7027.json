@@ -1,35 +1,32 @@
 {
+  "id": 7027,
+  "title": [
+    "[Castle Darkstone, Outer Ward]"
+  ],
+  "description": [
+    "Rubble from the broken inner tower here makes you wonder what could have so damaged such a structure.  The tower is fully fifty feet shorter than the one to the north, and large cracks continue from the broken top almost to the ground."
+  ],
+  "paths": [
+    "Obvious paths: north, east"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7029": "east",
     "7026": "north",
     "7028": "go guardtower"
   },
-  "paths": [
-    "Obvious paths: north, east"
-  ],
+  "timeto": {
+    "7029": 0.2,
+    "7026": 0.2,
+    "7028": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     488,
     563,
     498,
     573
   ],
-  "terrain": null,
-  "description": [
-    "Rubble from the broken inner tower here makes you wonder what could have so damaged such a structure.  The tower is fully fifty feet shorter than the one to the north, and large cracks continue from the broken top almost to the ground."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Castle Darkstone, Outer Ward]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7029": 0.2,
-    "7026": 0.2,
-    "7028": 0.2
-  },
-  "id": 7027,
-  "location": "Darkstone Castle",
   "tags": [
     "some wingstem root",
     "some wolifrew lichen",
@@ -37,20 +34,6 @@
     "bright red cranberry",
     "sweetfern stalk",
     "sassafras leaf",
-    "some valerian root",
-    "acantha leaf",
-    "wolifrew lichen",
-    "cuctucae berry",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "stalk of chicory",
-    "heath aster",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some valerian root"
   ]
 }

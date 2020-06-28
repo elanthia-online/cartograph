@@ -1,45 +1,35 @@
 {
-  "wayto": {
-    "184": "northwest",
-    "26": "southwest",
-    "28": "northeast",
-    "188": "go dais"
-  },
-  "paths": [
-    "Obvious paths: northeast, southwest, northwest"
+  "id": 27,
+  "title": [
+    "[Ta'Illistim, Shimmarglin Court]"
   ],
-  "image_coords": [
-    1199,
-    726,
-    1222,
-    746
-  ],
-  "terrain": "hard, flat",
   "description": [
     "The Shimmarglin Court, surrounded by shops, provides a home for the city's famed floating garden.  Throngs of townspeople and travellers move through the court, shopping at the various merchants and socializing in small groups.  Torches placed at regular intervals illuminate the walkways threading through the area.",
     "The Shimmarglin Court, surrounded by shops, provides a home for the city's famed floating garden.  Throngs of townspeople and travellers move through the court, shopping at the various merchants and socializing in small groups.",
     "In the darkness cast by the floating dais overhead, a few tables and shop stalls remain open through the night, lit by unflickering blue lanterns.  The detritus of a day's commerce still litters the cobblestones.  Around the edges of the courtyard, the porticos of the more permanent buildings have already been swept clean.",
     "In the lee of the floating dais overhead, small shops and temporary stalls are set out to catch potential customers passing by on their way to the gardens.  The cobblestones are nearly obscured under the mass of commerce waiting to happen.  Around the edges of the courtyard, more permanent buildings fight for the space around their own arched doorways and porticos."
   ],
-  "image": "en-ta_illistim-new.jpg",
-  "climate": "temperate",
-  "title": [
-    "[Ta'Illistim, Shimmarglin Court]"
+  "paths": [
+    "Obvious paths: northeast, southwest, northwest"
   ],
-  "check_location": null,
+  "location": "Ta'Illistim",
+  "wayto": {
+    "184": "northwest",
+    "26": "southwest",
+    "28": "northeast",
+    "188": "go dais"
+  },
   "timeto": {
     "184": 0.2,
     "26": 0.2,
     "28": 0.2,
     "188": 0.2
   },
-  "id": 27,
-  "location": "Ta'Illistim",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-ta_illistim-new.jpg",
+  "image_coords": [
+    1199,
+    726,
+    1222,
+    746
   ]
 }

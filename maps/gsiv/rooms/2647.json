@@ -1,42 +1,32 @@
 {
+  "id": 2647,
+  "title": [
+    "[Altar of the Elder]"
+  ],
+  "description": [
+    "The ledge is more generous than it appeared from the lower stone platform, which now looks extremely narrow and far below.  The view from here of the monumental ice sculpture reveals its top to be as superbly detailed as its other aspects.   Incongruously, a pool of clear, sapphire-colored water lies between the ledge and an immense statue of a sleeping drake, its recumbent body curled around a large throne on the pool's northern edge."
+  ],
+  "paths": [
+    "Obvious exits: up"
+  ],
+  "location": "Koar's Shrine",
   "wayto": {
     "2646": {
-      "stringproc": "452b96038d8093f8d21b47c363ff88b5"
+      "file": "string_procs/wayto/2647_2646.rb"
     },
     "2658": "climb steps",
     "2648": "up"
   },
-  "paths": [
-    "Obvious exits: up"
-  ],
-  "image_coords": [
-    363,
-    357,
-    371,
-    365
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The ledge is more generous than it appeared from the lower stone platform, which now looks extremely narrow and far below.  The view from here of the monumental ice sculpture reveals its top to be as superbly detailed as its other aspects.   Incongruously, a pool of clear, sapphire-colored water lies between the ledge and an immense statue of a sleeping drake, its recumbent body curled around a large throne on the pool's northern edge."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Altar of the Elder]"
-  ],
-  "check_location": null,
   "timeto": {
     "2646": 0.2,
     "2658": 0.2,
     "2648": 0.2
   },
-  "id": 2647,
-  "location": "Koar's Shrine",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "imt-pinefar-1264234799.png",
+  "image_coords": [
+    363,
+    357,
+    371,
+    365
   ]
 }

@@ -1,44 +1,31 @@
 {
+  "id": 6439,
+  "title": [
+    "[Abandoned Mine]"
+  ],
+  "description": [
+    "This short straight tunnel runs from the north to the south and its walls have been worked so that they are nearly smooth.  There are no beams or timbers supporting the passage, but they are probably not needed as this tunnel has been carved from solid rock.  You can hear the steady drip of water from somewhere to the north."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Lysierian Hills",
   "wayto": {
     "6438": "south",
     "6440": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "6438": 0.2,
+    "6440": 0.2
+  },
+  "image": "wl-lysierian-1264234799.png",
   "image_coords": [
     1152,
     109,
     1162,
     119
   ],
-  "terrain": "indoors",
-  "description": [
-    "This short straight tunnel runs from the north to the south and its walls have been worked so that they are nearly smooth.  There are no beams or timbers supporting the passage, but they are probably not needed as this tunnel has been carved from solid rock.  You can hear the steady drip of water from somewhere to the north."
-  ],
-  "image": "wl-lysierian-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abandoned Mine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6438": 0.2,
-    "6440": 0.2
-  },
-  "id": 6439,
-  "location": "the Lysierian Hills",
   "tags": [
-    "some wolifrew lichen",
-    "wolifrew lichen",
-    "withered black mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wolifrew lichen"
   ]
 }

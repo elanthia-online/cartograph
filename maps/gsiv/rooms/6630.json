@@ -1,40 +1,30 @@
 {
-  "wayto": {
-    "6629": "go curtain",
-    "6631": {
-      "stringproc": "42f29a2e265acd358e799ed800b4074a"
-    }
-  },
+  "id": 6630,
+  "title": [
+    "[The Broken Lands, Closet]"
+  ],
+  "description": [
+    "This cramped, dark space appears to have once been a storage area for whoever worked in the workshop beyond the curtain.  Cobwebs and dust cover everything in a thick blanket and the shattered remains of shelves line the walls, now devoid of any treasures they may have once held.  A heavy iron-bound strongbox stands alone in one corner."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "the Broken Lands",
+  "wayto": {
+    "6629": "go curtain",
+    "6631": {
+      "file": "string_procs/wayto/6630_6631.rb"
+    }
+  },
+  "timeto": {
+    "6629": 0.2,
+    "6631": 0.2
+  },
+  "image": "wl-broken-1264234799.png",
   "image_coords": [
     367,
     997,
     377,
     1007
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This cramped, dark space appears to have once been a storage area for whoever worked in the workshop beyond the curtain.  Cobwebs and dust cover everything in a thick blanket and the shattered remains of shelves line the walls, now devoid of any treasures they may have once held.  A heavy iron-bound strongbox stands alone in one corner."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[The Broken Lands, Closet]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6629": 0.2,
-    "6631": 0.2
-  },
-  "id": 6630,
-  "location": "the Broken Lands",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

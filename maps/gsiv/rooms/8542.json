@@ -1,31 +1,28 @@
 {
-  "wayto": {
-    "8541": "south"
-  },
+  "id": 8542,
+  "title": [
+    "[Foothills]"
+  ],
+  "description": [
+    "You are wandering along a gentle sloping series of foothills.  Small plains creatures dart in and out of the low scrub that grows on these hillsides."
+  ],
   "paths": [
     "Obvious paths: south"
   ],
+  "location": "the foothills of Zeltoph",
+  "wayto": {
+    "8541": "south"
+  },
+  "timeto": {
+    "8541": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     1113,
     624,
     1123,
     634
   ],
-  "terrain": "hilly",
-  "description": [
-    "You are wandering along a gentle sloping series of foothills.  Small plains creatures dart in and out of the low scrub that grows on these hillsides."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Foothills]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8541": 0.2
-  },
-  "id": 8542,
-  "location": "the foothills of Zeltoph",
   "tags": [
     "some ambrominas leaf",
     "some bolmara lichen",
@@ -83,11 +80,6 @@
     "ebony twig",
     "bolmara lichen",
     "brostheras grass",
-    "woad leaves",
-    "sunburst blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "woad leaves"
   ]
 }

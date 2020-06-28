@@ -1,33 +1,30 @@
 {
+  "id": 956,
+  "title": [
+    "[Whistler's Pass]"
+  ],
+  "description": [
+    "Fragments of stone and scattered gravel litter the narrow pass, making movement difficult and sometimes tedious.  Lying amidst the rocks, grape-sized animal droppings, desiccated by the dry mountain winds, bear testament to the presence of other creatures in this windswept world."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "955": "northeast",
     "957": "southwest"
   },
-  "paths": [
-    "Obvious paths: northeast, southwest"
-  ],
+  "timeto": {
+    "955": 0.2,
+    "957": 0.2
+  },
+  "image": "en-whistlers_pass-1264234799.png",
   "image_coords": [
     257,
     1200,
     267,
     1210
   ],
-  "terrain": "mountainous",
-  "description": [
-    "Fragments of stone and scattered gravel litter the narrow pass, making movement difficult and sometimes tedious.  Lying amidst the rocks, grape-sized animal droppings, desiccated by the dry mountain winds, bear testament to the presence of other creatures in this windswept world."
-  ],
-  "image": "en-whistlers_pass-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Whistler's Pass]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "955": 0.2,
-    "957": 0.2
-  },
-  "id": 956,
-  "location": "Whistler's Pass",
   "tags": [
     "marallis berry",
     "cuctucae berry",
@@ -42,10 +39,6 @@
     "cluster of butterflyweed",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

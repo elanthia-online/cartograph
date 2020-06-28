@@ -1,36 +1,33 @@
 {
+  "id": 11293,
+  "title": [
+    "[Citadel, Outside]"
+  ],
+  "description": [
+    "Foul-smelling yellow smoke lingers in the air around a fractured stone entryway, hampering sight and breathing alike.  Although the building's walls still stand, hair-fine fracture marks spiderweb the scorched grey stone.  Among the rubble of the former brick walkway, small pieces of dark-veined faenor shimmer faintly in the moonlight.  The spray of hardened metal droplets leads directly to the twisted, half-melted urn imbedded in the ground beneath a dead flaeshornberry bush.",
+    "Foul-smelling yellow smoke lingers in the air around a fractured stone entryway, hampering sight and breathing alike.  Although the building's walls still stand, hair-fine fracture marks spiderweb the scorched grey stone.  Among the rubble of the former brick walkway, small pieces of dark-veined faenor shimmer faintly with the touch of the sun.  The spray of hardened metal droplets leads directly to the twisted, half-melted urn imbedded in the ground beneath a dead flaeshornberry bush."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11294": "go entryway",
     "11322": "northeast",
     "11292": "w"
   },
-  "paths": [
-    "Obvious paths: northeast, west"
-  ],
+  "timeto": {
+    "11292": 0.2,
+    "11294": 0.2,
+    "11322": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     885,
     688,
     895,
     698
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "Foul-smelling yellow smoke lingers in the air around a fractured stone entryway, hampering sight and breathing alike.  Although the building's walls still stand, hair-fine fracture marks spiderweb the scorched grey stone.  Among the rubble of the former brick walkway, small pieces of dark-veined faenor shimmer faintly in the moonlight.  The spray of hardened metal droplets leads directly to the twisted, half-melted urn imbedded in the ground beneath a dead flaeshornberry bush.",
-    "Foul-smelling yellow smoke lingers in the air around a fractured stone entryway, hampering sight and breathing alike.  Although the building's walls still stand, hair-fine fracture marks spiderweb the scorched grey stone.  Among the rubble of the former brick walkway, small pieces of dark-veined faenor shimmer faintly with the touch of the sun.  The spray of hardened metal droplets leads directly to the twisted, half-melted urn imbedded in the ground beneath a dead flaeshornberry bush."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "moist",
-  "title": [
-    "[Citadel, Outside]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11292": 0.2,
-    "11294": 0.2,
-    "11322": 0.2
-  },
-  "id": 11293,
-  "location": "the Citadel",
   "tags": [
     "some aloeas stem",
     "bright red cranberry",
@@ -42,17 +39,6 @@
     "some wingstem root",
     "some calamia fruit",
     "wild chokecherry",
-    "some motherwort",
-    "acantha leaf",
-    "calamia fruit",
-    "aloeas stem",
-    "motherwort",
-    "murkweed",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some motherwort"
   ]
 }

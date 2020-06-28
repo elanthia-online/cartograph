@@ -1,33 +1,30 @@
 {
+  "id": 8280,
+  "title": [
+    "[Lower Trollfang, Forest]"
+  ],
+  "description": [
+    "Dark, straight stands of pine trees close in around you, instilling a sense of claustrophobia and dread.  The dense canopy of the pine forest filters out any natural light, shading all in perpetual gloom.  A rough path leads east, where the trees seem to thin out slightly."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "the Lower Trollfang",
   "wayto": {
     "8279": "west",
     "8281": "go path"
   },
-  "paths": [
-    "Obvious paths: west"
-  ],
+  "timeto": {
+    "8279": 0.2,
+    "8281": 0.2
+  },
+  "image": "wl-spider_temple-1264234799.png",
   "image_coords": [
     881,
     1387,
     891,
     1397
   ],
-  "terrain": "rough",
-  "description": [
-    "Dark, straight stands of pine trees close in around you, instilling a sense of claustrophobia and dread.  The dense canopy of the pine forest filters out any natural light, shading all in perpetual gloom.  A rough path leads east, where the trees seem to thin out slightly."
-  ],
-  "image": "wl-spider_temple-1264234799.png",
-  "climate": "humid",
-  "title": [
-    "[Lower Trollfang, Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8279": 0.2,
-    "8281": 0.2
-  },
-  "id": 8280,
-  "location": "the Lower Trollfang",
   "tags": [
     "some acantha leaf",
     "some torban leaf",
@@ -44,22 +41,6 @@
     "golden hook mushroom",
     "yellow passionflower",
     "fiddlehead fern",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "blueberries",
-    "stalk of chicory",
-    "broken twig",
-    "red clover blossom",
-    "pink clover blossom",
-    "purple clover blossom",
-    "yellow clover blossom",
-    "sprig of larkspur",
-    "small wild rose",
-    "wild chokecherry",
-    "motherwort",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wintergreen leaf"
   ]
 }

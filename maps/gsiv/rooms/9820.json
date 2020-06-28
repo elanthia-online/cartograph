@@ -1,38 +1,28 @@
 {
+  "id": 9820,
+  "title": [
+    "[Maaghara Labyrinth]"
+  ],
+  "description": [
+    "Abruptly the tunnel turns in upon itself, heading almost back in the same direction.  There are a few pale roots running along the smooth clay walls.  A small patch of moss grows by itself on the floor."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast"
+  ],
+  "location": "the Maaghara Tower",
   "wayto": {
     "9826": "northeast",
     "9819": "north"
   },
-  "paths": [
-    "Obvious exits: north, northeast"
-  ],
+  "timeto": {
+    "9826": 0.2,
+    "9819": 0.2
+  },
+  "image": "en-tower-1264234799.png",
   "image_coords": [
     1203,
     518,
     1213,
     528
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Abruptly the tunnel turns in upon itself, heading almost back in the same direction.  There are a few pale roots running along the smooth clay walls.  A small patch of moss grows by itself on the floor."
-  ],
-  "image": "en-tower-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Maaghara Labyrinth]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9826": 0.2,
-    "9819": 0.2
-  },
-  "id": 9820,
-  "location": "the Maaghara Tower",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,46 +1,34 @@
 {
+  "id": 8422,
+  "title": [
+    "[Thanatoph Bowels, Cavern]"
+  ],
+  "description": [
+    "The cavern ends in a small cave, the walls pressing in on all sides.  A mold-covered skull in one corner peers blankly outward with a toothy smile upon its face.  Numerous other bones lie scattered about.  Clearly, this is not a good spot to rest."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "the bowels of Thanatoph",
   "wayto": {
     "8421": "east",
     "8423": "south"
   },
-  "paths": [
-    "Obvious exits: east, south"
-  ],
+  "timeto": {
+    "8421": 0.2,
+    "8423": 0.2
+  },
+  "image": "wl-stronghold-1264234799.png",
   "image_coords": [
     1187,
     665,
     1197,
     675
   ],
-  "terrain": "indoors",
-  "description": [
-    "The cavern ends in a small cave, the walls pressing in on all sides.  A mold-covered skull in one corner peers blankly outward with a toothy smile upon its face.  Numerous other bones lie scattered about.  Clearly, this is not a good spot to rest."
-  ],
-  "image": "wl-stronghold-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thanatoph Bowels, Cavern]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8421": 0.2,
-    "8423": 0.2
-  },
-  "id": 8422,
-  "location": "the bowels of Thanatoph",
   "tags": [
     "some cave moss",
     "some wingstem root",
     "withered black mushroom",
-    "some wolifrew lichen",
-    "wolifrew lichen",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wolifrew lichen"
   ]
 }

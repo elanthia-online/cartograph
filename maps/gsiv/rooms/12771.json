@@ -1,37 +1,34 @@
 {
+  "id": 12771,
+  "title": [
+    "[Eye of V'Tull, Inner Circle]"
+  ],
+  "description": [
+    "Boulders the size of small huts are melted into the wall frozen for eternity, their slow arduous journey from the bowels of the earth now ended.  Steam escapes from around some of the boulders giving them the appearance of bleeding, as lighter elements are forced through the cracks in the wall with the great pressure of the steam.  To one side, a pile of rubble and rocks cast into a heap by the passage of magma takes on an eerie silhouette within the shroud of drifting smoke and fog."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, south"
+  ],
+  "location": "the Eye of V'Tull",
   "wayto": {
     "12770": "northeast",
     "12772": "southeast",
     "12773": "south",
     "12774": "climb rubble"
   },
-  "paths": [
-    "Obvious exits: northeast, southeast, south"
-  ],
-  "image_coords": [
-    689,
-    681,
-    699,
-    691
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Boulders the size of small huts are melted into the wall frozen for eternity, their slow arduous journey from the bowels of the earth now ended.  Steam escapes from around some of the boulders giving them the appearance of bleeding, as lighter elements are forced through the cracks in the wall with the great pressure of the steam.  To one side, a pile of rubble and rocks cast into a heap by the passage of magma takes on an eerie silhouette within the shroud of drifting smoke and fog."
-  ],
-  "image": "ti-vtull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Eye of V'Tull, Inner Circle]"
-  ],
-  "check_location": null,
   "timeto": {
     "12770": 0.2,
     "12772": 0.2,
     "12773": 0.2,
     "12774": 0.2
   },
-  "id": 12771,
-  "location": "the Eye of V'Tull",
+  "image": "ti-vtull-1264234799.png",
+  "image_coords": [
+    689,
+    681,
+    699,
+    691
+  ],
   "tags": [
     "flathead mushroom",
     "withered black mushroom",
@@ -41,13 +38,6 @@
     "some cave moss",
     "blue trafel mushroom",
     "black trafel mushroom",
-    "pepperthorn root",
-    "cave moss",
-    "murdroot",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "pepperthorn root"
   ]
 }

@@ -1,38 +1,28 @@
 {
+  "id": 3698,
+  "title": [
+    "[Darkstone, Outer Chamber]"
+  ],
+  "description": [
+    "Row upon row of iron manacles bolted securely into the ceiling still hold tightly to the remains of the poor souls trapped forever in this horrible place.  Something about the floor catches your eye as you dodge to avoid the clattering, lifeless bodies."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "3697": "go door",
     "3699": "go panel"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "3697": 0.2,
+    "3699": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     390,
     1287,
     400,
     1297
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Row upon row of iron manacles bolted securely into the ceiling still hold tightly to the remains of the poor souls trapped forever in this horrible place.  Something about the floor catches your eye as you dodge to avoid the clattering, lifeless bodies."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Outer Chamber]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3697": 0.2,
-    "3699": 0.2
-  },
-  "id": 3698,
-  "location": "Darkstone Castle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

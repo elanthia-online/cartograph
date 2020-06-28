@@ -1,40 +1,30 @@
 {
-  "wayto": {
-    "2236": {
-      "stringproc": "8db92ac515217eec0bca6e5c1a64721b"
-    },
-    "2238": "northeast"
-  },
+  "id": 2237,
+  "title": [
+    "[Glaes Vein]"
+  ],
+  "description": [
+    "At the foot of a barrier of jagged glaes boulders, the passageway curves quickly out of sight around an immense outcropping of blood-red glaes.  The rare stone glistens in the low light, embraced by black glaes, which surrounds it and accents it with the contrast in color.  Within the stone, a dim reflection of light flickers and pulses, as though the huge formation is a beating heart with convoluted striations for veins."
+  ],
   "paths": [
     "Obvious exits: northeast"
   ],
+  "location": "the Eye of V'Tull",
+  "wayto": {
+    "2236": {
+      "file": "string_procs/wayto/2237_2236.rb"
+    },
+    "2238": "northeast"
+  },
+  "timeto": {
+    "2236": 0.2,
+    "2238": 0.2
+  },
+  "image": "ti-vtull-1264234799.png",
   "image_coords": [
     37,
     814,
     47,
     824
-  ],
-  "terrain": "indoors",
-  "description": [
-    "At the foot of a barrier of jagged glaes boulders, the passageway curves quickly out of sight around an immense outcropping of blood-red glaes.  The rare stone glistens in the low light, embraced by black glaes, which surrounds it and accents it with the contrast in color.  Within the stone, a dim reflection of light flickers and pulses, as though the huge formation is a beating heart with convoluted striations for veins."
-  ],
-  "image": "ti-vtull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Glaes Vein]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2236": 0.2,
-    "2238": 0.2
-  },
-  "id": 2237,
-  "location": "the Eye of V'Tull",
-  "tags": [
-    "pepperthorn root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

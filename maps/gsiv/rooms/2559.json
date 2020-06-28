@@ -1,33 +1,30 @@
 {
+  "id": 2559,
+  "title": [
+    "[Glatoph, Glacier]"
+  ],
+  "description": [
+    "Further travel to the east is cut off by a large mountain.  The cliff provides some cover from the wind and snow, although not enough for you to feel secure from the cold.  Two ice totems stand facing the mountain, sentinels against some unknown threat."
+  ],
+  "paths": [
+    "Obvious paths: southeast, west"
+  ],
+  "location": "Glatoph",
   "wayto": {
     "2558": "southeast",
     "2560": "west"
   },
-  "paths": [
-    "Obvious paths: southeast, west"
-  ],
+  "timeto": {
+    "2558": 0.2,
+    "2560": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     1055,
     510,
     1065,
     520
   ],
-  "terrain": "mountainous",
-  "description": [
-    "Further travel to the east is cut off by a large mountain.  The cliff provides some cover from the wind and snow, although not enough for you to feel secure from the cold.  Two ice totems stand facing the mountain, sentinels against some unknown threat."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Glatoph, Glacier]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2558": 0.2,
-    "2560": 0.2
-  },
-  "id": 2559,
-  "location": "Glatoph",
   "tags": [
     "some valerian root",
     "arctic titan",
@@ -40,10 +37,6 @@
     "valerian root",
     "pennyroyal stem",
     "sprig of holly",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

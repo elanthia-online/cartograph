@@ -1,35 +1,32 @@
 {
+  "id": 7198,
+  "title": [
+    "[Graveyard]"
+  ],
+  "description": [
+    "Your feet sink deeply into the muddy way.  Struggling to go in the direction you choose rather than yield to the tug of the mire, you look to the side of the road towards the source of the damp chill.  The foul bog that lies there holds a strange and potentially fatal attraction."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7196": "east",
     "7252": "go path",
     "7199": "west"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "7196": 0.2,
+    "7252": 0.2,
+    "7199": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     210,
     454,
     220,
     464
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "Your feet sink deeply into the muddy way.  Struggling to go in the direction you choose rather than yield to the tug of the mire, you look to the side of the road towards the source of the damp chill.  The foul bog that lies there holds a strange and potentially fatal attraction."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "moist",
-  "title": [
-    "[Graveyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7196": 0.2,
-    "7252": 0.2,
-    "7199": 0.2
-  },
-  "id": 7198,
-  "location": "the Graveyard",
   "tags": [
     "some acantha leaf",
     "some calamia fruit",
@@ -49,10 +46,6 @@
     "blue whortleberry",
     "murdroot",
     "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bur-clover root"
   ]
 }

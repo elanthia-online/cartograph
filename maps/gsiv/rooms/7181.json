@@ -1,37 +1,34 @@
 {
+  "id": 7181,
+  "title": [
+    "[Graveyard, Burial Grounds]"
+  ],
+  "description": [
+    "The trail is more defined here as it winds to the east, fading into the grass as it weaves around the grounds.  The forest creates a solid wall of trees and dense underbrush to the south.  Scraggly bare trees dot the grounds, their twisted branches reaching into the sky like claws.  The air is still and heavy with the stench of decay."
+  ],
+  "paths": [
+    "Obvious paths: north, east, west, northwest"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7174": "northwest",
     "7180": "north",
     "7182": "west",
     "7183": "east"
   },
-  "paths": [
-    "Obvious paths: north, east, west, northwest"
-  ],
-  "image_coords": [
-    465,
-    859,
-    475,
-    869
-  ],
-  "terrain": "barren scrub",
-  "description": [
-    "The trail is more defined here as it winds to the east, fading into the grass as it weaves around the grounds.  The forest creates a solid wall of trees and dense underbrush to the south.  Scraggly bare trees dot the grounds, their twisted branches reaching into the sky like claws.  The air is still and heavy with the stench of decay."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Graveyard, Burial Grounds]"
-  ],
-  "check_location": null,
   "timeto": {
     "7174": 0.2,
     "7180": 0.2,
     "7182": 0.2,
     "7183": 0.2
   },
-  "id": 7181,
-  "location": "the Graveyard",
+  "image": "wl-graveyard-1264234799.png",
+  "image_coords": [
+    465,
+    859,
+    475,
+    869
+  ],
   "tags": [
     "sprig of larkspur",
     "wild strawberry",
@@ -48,10 +45,6 @@
     "small wild rose",
     "sprig of wild lilac",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

@@ -1,35 +1,28 @@
 {
+  "id": 27081,
+  "title": [
+    "[Wildwood of the Dryad, Knoll]"
+  ],
+  "description": [
+    "Dense treetops surround the knoll from this distance, their canopies covering the forest below."
+  ],
+  "paths": [
+    "Obvious paths: up, down"
+  ],
+  "location": "Coraesine Forest",
   "wayto": {
     "27080": "down",
     "27088": "up"
   },
-  "paths": [
-    "Obvious paths: up, down"
-  ],
+  "timeto": {
+    "27080": 0.2,
+    "27088": 0.2
+  },
+  "image": "en-wildwood.png",
   "image_coords": [
     380,
     447,
     430,
     497
-  ],
-  "terrain": null,
-  "description": [
-    "Dense treetops surround the knoll from this distance, their canopies covering the forest below."
-  ],
-  "image": "en-wildwood.png",
-  "climate": null,
-  "title": [
-    "[Wildwood of the Dryad, Knoll]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "27080": 0.2,
-    "27088": 0.2
-  },
-  "id": 27081,
-  "location": "Coraesine Forest",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

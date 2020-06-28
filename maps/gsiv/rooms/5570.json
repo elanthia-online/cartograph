@@ -1,40 +1,32 @@
 {
+  "id": 5570,
+  "title": [
+    "[Outlands Manor, Tower]"
+  ],
+  "description": [
+    "Littered with the bits and pieces of smashed bins and racks, boxes and casks -- this area at the foot of the stairway to the tower's third level appears to have been used for storing weapons and equipment as well as provisions.  Arrow slits pierce the north wall where the stone stairs allow, letting a small amount of moonlight into the otherwise dark room.",
+    "Littered with the bits and pieces of smashed bins and racks, boxes and casks -- this area at the foot of the stairway to the tower's third level appears to have been used for storing weapons and equipment as well as provisions.  Arrow slits pierce the north wall where the stone stairs allow, letting a small amount of sunlight into the otherwise dark room."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the Outlands",
   "wayto": {
     "5567": "south",
     "5571": "go stairway"
   },
-  "paths": [
-    "Obvious exits: south"
-  ],
+  "timeto": {
+    "5567": 0.2,
+    "5571": 0.2
+  },
+  "image": "vo-outlands-1264234799.png",
   "image_coords": [
     976,
     215,
     986,
     225
   ],
-  "terrain": "indoors",
-  "description": [
-    "Littered with the bits and pieces of smashed bins and racks, boxes and casks -- this area at the foot of the stairway to the tower's third level appears to have been used for storing weapons and equipment as well as provisions.  Arrow slits pierce the north wall where the stone stairs allow, letting a small amount of moonlight into the otherwise dark room.",
-    "Littered with the bits and pieces of smashed bins and racks, boxes and casks -- this area at the foot of the stairway to the tower's third level appears to have been used for storing weapons and equipment as well as provisions.  Arrow slits pierce the north wall where the stone stairs allow, letting a small amount of sunlight into the otherwise dark room."
-  ],
-  "image": "vo-outlands-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Outlands Manor, Tower]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5567": 0.2,
-    "5571": 0.2
-  },
-  "id": 5570,
-  "location": "the Outlands",
   "tags": [
-    "dobrem",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "dobrem"
   ]
 }

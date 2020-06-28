@@ -1,36 +1,25 @@
 {
-  "wayto": {
-    "16134": {
-      "stringproc": "d49f68db42585e2b2383f7c7f502fa1a"
-    },
-    "10953": {
-      "stringproc": "2a8ae81efc1e03f55c705690d59c92ef"
-    }
-  },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "You are in a dimly lit hallway.  The torches on the walls flicker and fade casting all manner of shadows about the hallway."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 16130,
   "title": [
     "[Timor's Storage, Hallway]"
   ],
-  "check_location": null,
+  "description": [
+    "You are in a dimly lit hallway.  The torches on the walls flicker and fade casting all manner of shadows about the hallway."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "River's Rest",
+  "wayto": {
+    "16134": {
+      "file": "string_procs/wayto/16130_16134.rb"
+    },
+    "10953": {
+      "file": "string_procs/wayto/16130_10953.rb"
+    }
+  },
   "timeto": {
     "16134": 1.0,
     "10953": 1.0
-  },
-  "id": 16130,
-  "location": "River's Rest",
-  "tags": [
-
-  ],
-  "links": [
-
-  ]
+  }
 }

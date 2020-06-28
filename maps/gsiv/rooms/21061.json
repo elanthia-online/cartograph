@@ -1,47 +1,32 @@
 {
-  "wayto": {
-    "20946": {
-      "stringproc": "d85ece0b13067d67ad270f4b82d3239d"
-    },
-    "21001": {
-      "stringproc": "25b57a47fa24e6f4eea217034f76e70e"
-    }
-  },
+  "id": 21061,
+  "title": [
+    "[Veiled Stream, Valley View]"
+  ],
+  "description": [
+    "Flowing with a quiet murmur, a small stream breaks free of a nearby pool, casually cascading over ground that quickly drops into a steeped valley.  From this vantage point, the valley's lush growth is visible in the moonlight, its wealth in life obvious not only in the spread of trees, but also in the sheer volume of squawking, buzzing, grunting, and rustling that fills the night air and echoes up the valley."
+  ],
   "paths": [
     "Obvious paths: north, south"
   ],
+  "location": "the environs of the Saewehna Lagoon",
+  "wayto": {
+    "20946": {
+      "file": "string_procs/wayto/21061_20946.rb"
+    },
+    "21001": {
+      "file": "string_procs/wayto/21061_21001.rb"
+    }
+  },
+  "timeto": {
+    "20946": 2.0,
+    "21001": 2.0
+  },
+  "image": "ifw-wilds-1368242816.png",
   "image_coords": [
     1061,
     1080,
     1079,
     1100
-  ],
-  "terrain": "riparian",
-  "description": [
-    "Flowing with a quiet murmur, a small stream breaks free of a nearby pool, casually cascading over ground that quickly drops into a steeped valley.  From this vantage point, the valley's lush growth is visible in the moonlight, its wealth in life obvious not only in the spread of trees, but also in the sheer volume of squawking, buzzing, grunting, and rustling that fills the night air and echoes up the valley."
-  ],
-  "image": "ifw-wilds-1368242816.png",
-  "climate": "humid",
-  "title": [
-    "[Veiled Stream, Valley View]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "20946": 2.0,
-    "21001": 2.0
-  },
-  "id": 21061,
-  "location": "the environs of the Saewehna Lagoon",
-  "tags": [
-    "acantha leaf",
-    "stalk of cattail",
-    "murdroot",
-    "wavepetal blossom",
-    "talneo root",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

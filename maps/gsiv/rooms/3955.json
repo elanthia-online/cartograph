@@ -1,32 +1,24 @@
 {
-  "wayto": {
-    "3937": {
-      "stringproc": "e6714bf6da1a9625fb84734118a3d351"
-    }
-  },
-  "paths": [
-    "Obvious exits: northeast, southwest"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "The tunnel slopes gently downward, and much of the floor is shattered and broken.  You could easily do without the slight movement of the air, as it only brings ever more appalling scents to your attention."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 3955,
   "title": [
     "[Abandoned Sewer]"
   ],
-  "check_location": null,
+  "description": [
+    "The tunnel slopes gently downward, and much of the floor is shattered and broken.  You could easily do without the slight movement of the air, as it only brings ever more appalling scents to your attention."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "the catacombs",
+  "wayto": {
+    "3937": {
+      "file": "string_procs/wayto/3955_3937.rb"
+    }
+  },
   "timeto": {
     "3937": 1.6
   },
-  "id": 3955,
-  "location": "the catacombs",
   "tags": [
     "no-auto-map"
-  ],
-  "links": [
-
   ]
 }

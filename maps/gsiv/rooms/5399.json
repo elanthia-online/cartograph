@@ -1,33 +1,30 @@
 {
+  "id": 5399,
+  "title": [
+    "[Ruined Courtyard]"
+  ],
+  "description": [
+    "A bench is barely peering out from a morass of weeds and ivy, and no longer looks to be a pleasant spot to rest.  In fact, there is nothing pleasant about anything in this courtyard, rather it appears to be nothing more than a field of weeds and decay."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Bonespear Tower",
   "wayto": {
     "5400": "north",
     "5397": "south"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "5400": 0.2,
+    "5397": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     1198,
     960,
     1206,
     968
   ],
-  "terrain": "rough",
-  "description": [
-    "A bench is barely peering out from a morass of weeds and ivy, and no longer looks to be a pleasant spot to rest.  In fact, there is nothing pleasant about anything in this courtyard, rather it appears to be nothing more than a field of weeds and decay."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "humid",
-  "title": [
-    "[Ruined Courtyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5400": 0.2,
-    "5397": 0.2
-  },
-  "id": 5399,
-  "location": "Bonespear Tower",
   "tags": [
     "wild gooseberry",
     "yellow passionflower",
@@ -49,13 +46,6 @@
     "white passionflower",
     "fiddlehead fern",
     "bright red teaberry",
-    "stalk of chicory",
-    "blueberries",
-    "broken twig",
-    "motherwort",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "stalk of chicory"
   ]
 }

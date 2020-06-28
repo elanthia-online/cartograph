@@ -1,39 +1,31 @@
 {
+  "id": 7662,
+  "title": [
+    "[Sea Cave, Dank Tunnel]"
+  ],
+  "description": [
+    "An odor of decay permeates the tunnel.  The entire floor is covered with flat round stones.  A stream of water trickles slowly down one of the walls collecting in small puddles that empty into a dark crevice between two of the stones.  The tunnel is blocked by a huge boulder."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "7661": "east",
     "7663": "go crevice"
   },
-  "paths": [
-    "Obvious exits: east"
-  ],
+  "timeto": {
+    "7661": 0.2,
+    "7663": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     754,
     335,
     764,
     345
   ],
-  "terrain": "indoors",
-  "description": [
-    "An odor of decay permeates the tunnel.  The entire floor is covered with flat round stones.  A stream of water trickles slowly down one of the walls collecting in small puddles that empty into a dark crevice between two of the stones.  The tunnel is blocked by a huge boulder."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Cave, Dank Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7661": 0.2,
-    "7663": 0.2
-  },
-  "id": 7662,
-  "location": "the Coastal Cliffs",
   "tags": [
-    "shelfae chieftain",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "shelfae chieftain"
   ]
 }

@@ -1,49 +1,43 @@
 {
-  "wayto": {
-    "18842": {
-      "stringproc": "ba4e68715ebbd57d18bd42ce87666e17"
-    },
-    "18823": {
-      "stringproc": "084072bf44a0eaab3919eb7e25de59af"
-    },
-    "25617": {
-      "stringproc": "5b9307d9b7d77b05e05fcb1d25e85900"
-    },
-    "25616": {
-      "stringproc": "84bf67ed65d863c750f05ccc029bec68"
-    }
-  },
-  "paths": [
-    "Obvious paths: north, southeast, southwest, west, northwest, down"
-  ],
-  "image_coords": [
-    1204,
-    771,
-    1222,
-    790
-  ],
-  "terrain": null,
-  "description": [
-    "From this vantage point, the island appears silent and brooding, its lofty central stone spire looking down on an eclectic collection of dense trees and plant life.  The surface of the edifice reveals the handiwork of ancient masons as windows and platforms emerge from the tower's face, skillfully hewn from granite.  Details are obscure, but the imposing structure exudes an aura of desolation.  At the island's rim, a mottled brown lizard suns itself on a shelf of bedrock."
-  ],
-  "image": "en-ravelin.png",
-  "climate": null,
+  "id": 18843,
   "title": [
     "[Mistydeep, South of Ravelin]"
   ],
-  "check_location": null,
+  "description": [
+    "From this vantage point, the island appears silent and brooding, its lofty central stone spire looking down on an eclectic collection of dense trees and plant life.  The surface of the edifice reveals the handiwork of ancient masons as windows and platforms emerge from the tower's face, skillfully hewn from granite.  Details are obscure, but the imposing structure exudes an aura of desolation.  At the island's rim, a mottled brown lizard suns itself on a shelf of bedrock."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast, southwest, west, northwest, down"
+  ],
+  "location": "the northern reaches of the Mistydeep River",
+  "wayto": {
+    "18842": {
+      "file": "string_procs/wayto/18843_18842.rb"
+    },
+    "18823": {
+      "file": "string_procs/wayto/18843_18823.rb"
+    },
+    "25617": {
+      "file": "string_procs/wayto/18843_25617.rb"
+    },
+    "25616": {
+      "file": "string_procs/wayto/18843_25616.rb"
+    }
+  },
   "timeto": {
     "18842": 0.2,
     "18823": 0.2,
     "25617": 0.2,
     "25616": 0.2
   },
-  "id": 18843,
-  "location": "the northern reaches of the Mistydeep River",
+  "image": "en-ravelin.png",
+  "image_coords": [
+    1204,
+    771,
+    1222,
+    790
+  ],
   "tags": [
     "some aloeas stem"
-  ],
-  "links": [
-
   ]
 }

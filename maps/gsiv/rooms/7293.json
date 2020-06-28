@@ -1,35 +1,32 @@
 {
+  "id": 7293,
+  "title": [
+    "[Slither Creek]"
+  ],
+  "description": [
+    "A stand of cattails lines the bank, waving in the current.  Rustling sounds come from the plants, making you very uneasy, and your feet keep slipping on the slime clinging to the bottom of the creek.  Beyond the cattails you can see tall trees, very near the edge, and it looks like getting to the bank would not be a problem from here."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7294": "east",
     "7278": "go bank",
     "7292": "west"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "7294": 0.2,
+    "7278": 0.2,
+    "7292": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     212,
     179,
     222,
     189
   ],
-  "terrain": "riparian",
-  "description": [
-    "A stand of cattails lines the bank, waving in the current.  Rustling sounds come from the plants, making you very uneasy, and your feet keep slipping on the slime clinging to the bottom of the creek.  Beyond the cattails you can see tall trees, very near the edge, and it looks like getting to the bank would not be a problem from here."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "freshwater",
-  "title": [
-    "[Slither Creek]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7294": 0.2,
-    "7278": 0.2,
-    "7292": 0.2
-  },
-  "id": 7293,
-  "location": "the Graveyard",
   "tags": [
     "some aloeas stem",
     "white water lily",
@@ -40,10 +37,6 @@
     "yellow water lily",
     "blue water lily",
     "murdroot",
-    "wavepetal blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wavepetal blossom"
   ]
 }

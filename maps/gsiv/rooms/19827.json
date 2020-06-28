@@ -1,37 +1,32 @@
 {
+  "id": 19827,
+  "title": [
+    "[Cleric Guild, Master's Hall]"
+  ],
+  "description": [
+    "Polished walls of honey and black oak inlaid in a pattern of interlocking chevrons define the hallway of the annex that leads to the cauldron practice rooms.  Water flows slowly over a sheet of glass overlaying the woodwork in the corner, with occasional ripples betraying the presence of etchings in the glass."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "Ta'Vaalor",
   "wayto": {
     "19828": "north",
     "19812": "east"
   },
-  "paths": [
-    "Obvious exits: north, east"
-  ],
+  "timeto": {
+    "19828": 0.2,
+    "19812": 0.2
+  },
+  "image": "en-ta_vaalor_cleric_guild.png",
   "image_coords": [
     103,
     414,
     156,
     466
   ],
-  "terrain": null,
-  "description": [
-    "Polished walls of honey and black oak inlaid in a pattern of interlocking chevrons define the hallway of the annex that leads to the cauldron practice rooms.  Water flows slowly over a sheet of glass overlaying the woodwork in the corner, with occasional ripples betraying the presence of etchings in the glass."
-  ],
-  "image": "en-ta_vaalor_cleric_guild.png",
-  "climate": null,
-  "title": [
-    "[Cleric Guild, Master's Hall]"
-  ],
-  "check_location": true,
-  "timeto": {
-    "19828": 0.2,
-    "19812": 0.2
-  },
-  "id": 19827,
-  "location": "Ta'Vaalor",
   "tags": [
     "cleric alchemy masters"
   ],
-  "links": [
-
-  ]
+  "check_location": true
 }

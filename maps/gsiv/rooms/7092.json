@@ -1,42 +1,32 @@
 {
+  "id": 7092,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "A structure much like a well stands in the center of the room.  Looking like a stone box, with sides about three feet high, the shaft descends into blackness.  A passage leads off to the north, and another slopes upward to the west."
+  ],
+  "paths": [
+    "Obvious exits: north, up"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "3707": "go shaft",
     "7091": "go door",
     "7093": "up",
     "7094": "north"
   },
-  "paths": [
-    "Obvious exits: north, up"
-  ],
-  "image_coords": [
-    974,
-    952,
-    984,
-    962
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A structure much like a well stands in the center of the room.  Looking like a stone box, with sides about three feet high, the shaft descends into blackness.  A passage leads off to the north, and another slopes upward to the west."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
   "timeto": {
     "3707": 0.2,
     "7091": 0.2,
     "7093": 0.2,
     "7094": 0.2
   },
-  "id": 7092,
-  "location": "Darkstone Castle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-darkstone-1264234799.png",
+  "image_coords": [
+    974,
+    952,
+    984,
+    962
   ]
 }

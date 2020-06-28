@@ -1,36 +1,33 @@
 {
+  "id": 8125,
+  "title": [
+    "[Dubh Brugh, Cavern]"
+  ],
+  "description": [
+    "A rough granite wall ends the cavern abruptly.  Small rivulets of water cascade down the wall, making its slippery surface glossy.  High above a ray of moonlight parts the far darkness.  A dark hollow has been gouged out of the granite.",
+    "A rough granite wall ends the cavern abruptly.  Small rivulets of water cascade down the wall, making its slippery surface glossy.  High above a ray of light parts the far darkness.  A dark hollow has been gouged out of the granite."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Dubh Brugh",
   "wayto": {
     "8093": "climb wall",
     "8126": "go hollow",
     "8127": "down"
   },
-  "paths": [
-    "Obvious exits: down"
-  ],
+  "timeto": {
+    "8093": 0.2,
+    "8126": 0.2,
+    "8127": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     1122,
     642,
     1132,
     652
   ],
-  "terrain": "indoors",
-  "description": [
-    "A rough granite wall ends the cavern abruptly.  Small rivulets of water cascade down the wall, making its slippery surface glossy.  High above a ray of moonlight parts the far darkness.  A dark hollow has been gouged out of the granite.",
-    "A rough granite wall ends the cavern abruptly.  Small rivulets of water cascade down the wall, making its slippery surface glossy.  High above a ray of light parts the far darkness.  A dark hollow has been gouged out of the granite."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dubh Brugh, Cavern]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8093": 0.2,
-    "8126": 0.2,
-    "8127": 0.2
-  },
-  "id": 8125,
-  "location": "Dubh Brugh",
   "tags": [
     "blue trafel mushroom",
     "soft white mushroom",
@@ -40,16 +37,6 @@
     "some bolmara lichen",
     "genkew mushroom",
     "some wingstem root",
-    "withered black mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "withered black mushroom"
   ]
 }

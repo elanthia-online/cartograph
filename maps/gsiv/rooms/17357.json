@@ -1,37 +1,30 @@
 {
+  "id": 17357,
+  "title": [
+    "[Warrior Guild, Basement]"
+  ],
+  "description": [
+    "Rows of weapons too damaged for further use await reforging, their edges gleaming dimly in fitful torchlight.  A door set flush with the wall to the north appears to be coated with pitch, and the limestone walls on either side of it sweat beads of moisture."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
   "wayto": {
     "17355": "south",
     "17358": "go door"
   },
-  "paths": [
-    "Obvious exits: south"
-  ],
+  "timeto": {
+    "17355": 0.2,
+    "17358": 0.2
+  },
+  "image": "warrior_guilds-1268684755.png",
   "image_coords": [
     882,
     823,
     902,
     843
   ],
-  "terrain": null,
-  "description": [
-    "Rows of weapons too damaged for further use await reforging, their edges gleaming dimly in fitful torchlight.  A door set flush with the wall to the north appears to be coated with pitch, and the limestone walls on either side of it sweat beads of moisture."
-  ],
-  "image": "warrior_guilds-1268684755.png",
-  "climate": null,
-  "title": [
-    "[Warrior Guild, Basement]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "17355": 0.2,
-    "17358": 0.2
-  },
-  "id": 17357,
-  "location": null,
   "tags": [
     "warrior guild cleaning supplies"
-  ],
-  "links": [
-
   ]
 }

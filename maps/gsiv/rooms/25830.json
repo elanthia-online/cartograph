@@ -1,39 +1,32 @@
 {
-  "wayto": {
-    "25831": {
-      "stringproc": "9b05cb4429e6ad5efbe157efd92e6023"
-    },
-    "25829": {
-      "stringproc": "b3903ef3130903d58c1b8b478bec601b"
-    }
-  },
+  "id": 25830,
+  "title": [
+    "[Eastern Waterway]"
+  ],
+  "description": [
+    "Swirling water rushes between the edges of the small island and the tall, ragged crags of the Teeth of Charl.  Large clumps of dark green seaweed speckled with brownish-white foam clog the tiny pass making it impossible for boats, or even small animals, to traverse the space between the mountains and the ring of protective cliffs."
+  ],
   "paths": [
     "Obvious paths: northeast, northwest"
   ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "25831": {
+      "file": "string_procs/wayto/25830_25831.rb"
+    },
+    "25829": {
+      "file": "string_procs/wayto/25830_25829.rb"
+    }
+  },
+  "timeto": {
+    "25831": 6.0,
+    "25829": 6.0
+  },
+  "image": "ifw-eastern_waterway-1489553700.png",
   "image_coords": [
     881,
     1519,
     901,
     1538
-  ],
-  "terrain": null,
-  "description": [
-    "Swirling water rushes between the edges of the small island and the tall, ragged crags of the Teeth of Charl.  Large clumps of dark green seaweed speckled with brownish-white foam clog the tiny pass making it impossible for boats, or even small animals, to traverse the space between the mountains and the ring of protective cliffs."
-  ],
-  "image": "ifw-eastern_waterway-1489553700.png",
-  "climate": null,
-  "title": [
-    "[Eastern Waterway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "25831": 6.0,
-    "25829": 6.0
-  },
-  "id": 25830,
-  "location": "Mist Harbor",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

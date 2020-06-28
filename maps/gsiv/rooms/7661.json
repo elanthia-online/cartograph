@@ -1,39 +1,32 @@
 {
+  "id": 7661,
+  "title": [
+    "[Sea Cave, Small Passage]"
+  ],
+  "description": [
+    "The walls and ceiling converge at a steep angle, and a faint musty smell adds to the cramped unpleasant feel of the place.  The rocks are dry and cold to the touch."
+  ],
+  "paths": [
+    "Obvious exits: west, up"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "7660": "up",
     "7662": "west"
   },
-  "paths": [
-    "Obvious exits: west, up"
-  ],
+  "timeto": {
+    "7660": 0.2,
+    "7662": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     808,
     335,
     818,
     345
   ],
-  "terrain": "indoors",
-  "description": [
-    "The walls and ceiling converge at a steep angle, and a faint musty smell adds to the cramped unpleasant feel of the place.  The rocks are dry and cold to the touch."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Cave, Small Passage]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7660": 0.2,
-    "7662": 0.2
-  },
-  "id": 7661,
-  "location": "the Coastal Cliffs",
   "tags": [
     "shelfae chieftain",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

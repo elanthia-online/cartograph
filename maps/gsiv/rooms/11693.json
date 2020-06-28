@@ -1,41 +1,38 @@
 {
-  "wayto": {
-    "11692": {
-      "stringproc": "0f64b43d096b754fe48f72e8f2c3b097"
-    },
-    "11694": {
-      "stringproc": "fe46f80993db81d2787b5d7c413dd7f5"
-    },
-    "11696": {
-      "stringproc": "4d46f979a809a0d1e1be17421fa6988a"
-    }
-  },
+  "id": 11693,
+  "title": [
+    "[Millah's Fens, Spongy Path]"
+  ],
+  "description": [
+    "Movement is impossible without the ground giving way several inches into a thin layer of muck, as the pathway dips lower into the surrounding water before winding its way to the northeast and southwest.  Rotting broken shields and spear hafts covered in moss, lay about the area half-submerged in shallow pools of water.  Farther away from the pathway, a small mound has been built of the neglected armor and shields covered with mud and filth."
+  ],
   "paths": [
     "Obvious paths: northeast, southeast, west"
   ],
+  "location": "the Marsh Keep",
+  "wayto": {
+    "11692": {
+      "file": "string_procs/wayto/11693_11692.rb"
+    },
+    "11694": {
+      "file": "string_procs/wayto/11693_11694.rb"
+    },
+    "11696": {
+      "file": "string_procs/wayto/11693_11696.rb"
+    }
+  },
+  "timeto": {
+    "11692": 3.0,
+    "11694": 3.0,
+    "11696": 3.0
+  },
+  "image": "rr-marsh_keep-1266356986.png",
   "image_coords": [
     566,
     1234,
     576,
     1244
   ],
-  "terrain": "muddy wetlands",
-  "description": [
-    "Movement is impossible without the ground giving way several inches into a thin layer of muck, as the pathway dips lower into the surrounding water before winding its way to the northeast and southwest.  Rotting broken shields and spear hafts covered in moss, lay about the area half-submerged in shallow pools of water.  Farther away from the pathway, a small mound has been built of the neglected armor and shields covered with mud and filth."
-  ],
-  "image": "rr-marsh_keep-1266356986.png",
-  "climate": "moist",
-  "title": [
-    "[Millah's Fens, Spongy Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11692": 3.0,
-    "11694": 3.0,
-    "11696": 3.0
-  },
-  "id": 11693,
-  "location": "the Marsh Keep",
   "tags": [
     "stalk of cattail",
     "some bolmara lichen",
@@ -56,22 +53,6 @@
     "trollfear mushroom",
     "water chestnut",
     "red passionflower",
-    "pink heliconia",
-    "calamia fruit",
-    "aloeas stem",
-    "daggerstalk mushroom",
-    "spider lily",
-    "alligator lily",
-    "orange heliconia",
-    "murdroot",
-    "wavepetal blossom",
-    "bolmara lichen",
-    "talneo root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "pink heliconia"
   ]
 }

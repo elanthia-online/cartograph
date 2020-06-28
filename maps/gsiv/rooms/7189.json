@@ -1,33 +1,30 @@
 {
+  "id": 7189,
+  "title": [
+    "[Graveyard]"
+  ],
+  "description": [
+    "The trail wraps around the flat western edge of the mound.  To the northwest, a cluster of monumental stone ruins draws your attention.  Deep ruts in the paths from heavy objects being dragged or scraped along the ground seem to lead towards the dolmens."
+  ],
+  "paths": [
+    "Obvious paths: east, northwest"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7186": "east",
     "7190": "northwest"
   },
-  "paths": [
-    "Obvious paths: east, northwest"
-  ],
+  "timeto": {
+    "7186": 0.2,
+    "7190": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     342,
     481,
     352,
     491
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The trail wraps around the flat western edge of the mound.  To the northwest, a cluster of monumental stone ruins draws your attention.  Deep ruts in the paths from heavy objects being dragged or scraped along the ground seem to lead towards the dolmens."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Graveyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7186": 0.2,
-    "7190": 0.2
-  },
-  "id": 7189,
-  "location": "the Graveyard",
   "tags": [
     "some wolifrew lichen",
     "some acantha leaf",
@@ -51,10 +48,6 @@
     "blue whortleberry",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

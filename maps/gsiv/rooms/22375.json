@@ -1,40 +1,30 @@
 {
+  "id": 22375,
+  "title": [
+    "[Halfling Embassy, Great Hall]"
+  ],
+  "description": [
+    "Vaulted ceilings are hung with a series of thick, beaded tapestries, their woven lengths adding a splash of color to the silver-veined white marble they rest against.  An enormous circular table crafted of bird's-eye maple is centered beneath a round skylight of stained glass, its surface covered with delicacies and treats.  Overlapping rugs bearing geometric patterns give a warm, welcoming feel to the sterile white of the room and support the weight of several high-backed armchairs."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Ta'Illistim Embassies",
   "wayto": {
     "22358": "out",
     "22376": "go flap"
   },
-  "paths": [
-    "Obvious exits: out"
-  ],
+  "timeto": {
+    "22358": 0.2,
+    "22376": {
+      "file": "string_procs/timeto/22375_22376.rb"
+    }
+  },
+  "image": "en-ta_illistim-embassies-1405076623.png",
   "image_coords": [
     1079,
     471,
     1145,
     509
-  ],
-  "terrain": null,
-  "description": [
-    "Vaulted ceilings are hung with a series of thick, beaded tapestries, their woven lengths adding a splash of color to the silver-veined white marble they rest against.  An enormous circular table crafted of bird's-eye maple is centered beneath a round skylight of stained glass, its surface covered with delicacies and treats.  Overlapping rugs bearing geometric patterns give a warm, welcoming feel to the sterile white of the room and support the weight of several high-backed armchairs."
-  ],
-  "image": "en-ta_illistim-embassies-1405076623.png",
-  "climate": null,
-  "title": [
-    "[Halfling Embassy, Great Hall]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "22358": 0.2,
-    "22376": {
-      "stringproc": "6f27abd0fda3cb6b4803226c25b72043"
-    }
-  },
-  "id": 22375,
-  "location": "Ta'Illistim Embassies",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

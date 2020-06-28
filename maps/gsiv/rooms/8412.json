@@ -1,45 +1,33 @@
 {
+  "id": 8412,
+  "title": [
+    "[Thanatoph Bowels, West Lobe]"
+  ],
+  "description": [
+    "Slippery tracks of ridged clay wind around outcroppings of rock sunk deep into the muck.  The large broken fragments, some carved with strange glyphs, are edged with pale green lichen thriving in this damp passage."
+  ],
+  "paths": [
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "the bowels of Thanatoph",
   "wayto": {
     "8410": "southeast",
     "8411": "northwest"
   },
-  "paths": [
-    "Obvious exits: southeast, northwest"
-  ],
+  "timeto": {
+    "8410": 0.2,
+    "8411": 0.2
+  },
+  "image": "wl-stronghold-1264234799.png",
   "image_coords": [
     1231,
     616,
     1241,
     626
   ],
-  "terrain": "indoors",
-  "description": [
-    "Slippery tracks of ridged clay wind around outcroppings of rock sunk deep into the muck.  The large broken fragments, some carved with strange glyphs, are edged with pale green lichen thriving in this damp passage."
-  ],
-  "image": "wl-stronghold-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thanatoph Bowels, West Lobe]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8410": 0.2,
-    "8411": 0.2
-  },
-  "id": 8412,
-  "location": "the bowels of Thanatoph",
   "tags": [
     "some wingstem root",
     "withered black mushroom",
-    "some cave moss",
-    "wolifrew lichen",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

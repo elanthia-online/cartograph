@@ -1,35 +1,32 @@
 {
+  "id": 24730,
+  "title": [
+    "[Red Forest, Deep Woods]"
+  ],
+  "description": [
+    "Rows upon rows of oak trees, towering just around twenty feet tall, expand along the stretch of land here.  The trees are oddly all bent, as if a powerful wind or force has pulled them inward, demanding their reverence."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "the Red Forest",
   "wayto": {
     "24729": "go fog",
     "24731": "southwest",
     "24734": "east"
   },
-  "paths": [
-    "Obvious paths: east, southwest"
-  ],
+  "timeto": {
+    "24729": 0.2,
+    "24731": 0.2,
+    "24734": 0.2
+  },
+  "image": "red_forest-1260914757.png",
   "image_coords": [
     435,
     473,
     448,
     486
   ],
-  "terrain": null,
-  "description": [
-    "Rows upon rows of oak trees, towering just around twenty feet tall, expand along the stretch of land here.  The trees are oddly all bent, as if a powerful wind or force has pulled them inward, demanding their reverence."
-  ],
-  "image": "red_forest-1260914757.png",
-  "climate": null,
-  "title": [
-    "[Red Forest, Deep Woods]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24729": 0.2,
-    "24731": 0.2,
-    "24734": 0.2
-  },
-  "id": 24730,
-  "location": "the Displaced Red Forest",
   "tags": [
     "some wolifrew lichen",
     "sweetfern stalk",
@@ -53,31 +50,6 @@
     "tkaro root",
     "small wild rose",
     "handful of blueberries",
-    "some acantha leaf",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "sticks",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "blueberries",
-    "wild gooseberry",
-    "broken twig",
-    "wild pink geranium",
-    "wild chokecherry",
-    "tree bark",
-    "mistweed",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+    "some acantha leaf"
+  ]
 }

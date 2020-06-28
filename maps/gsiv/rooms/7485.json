@@ -1,4 +1,15 @@
 {
+  "id": 7485,
+  "title": [
+    "[Dark Grotto, Huge Cavern]"
+  ],
+  "description": [
+    "A narrow, shallow channel filled with the lively burble of flowing water forms a small stream that winds its way through the tall stone spires, creating a twisted line that cuts across the center of the cavern from west to east.  The thick moss that grows along the banks of the miniature river gives off a sweet, but slightly fetid odor.  Small lizards watch you with reptilian stoicism before darting off to hide among the rocks and fungi."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south, southwest, west, northwest"
+  ],
+  "location": "the Broken Lands",
   "wayto": {
     "7481": "northwest",
     "7482": "north",
@@ -7,25 +18,6 @@
     "7479": "southwest",
     "7480": "west"
   },
-  "paths": [
-    "Obvious exits: north, east, south, southwest, west, northwest"
-  ],
-  "image_coords": [
-    1028,
-    798,
-    1038,
-    808
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A narrow, shallow channel filled with the lively burble of flowing water forms a small stream that winds its way through the tall stone spires, creating a twisted line that cuts across the center of the cavern from west to east.  The thick moss that grows along the banks of the miniature river gives off a sweet, but slightly fetid odor.  Small lizards watch you with reptilian stoicism before darting off to hide among the rocks and fungi."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dark Grotto, Huge Cavern]"
-  ],
-  "check_location": null,
   "timeto": {
     "7481": 0.2,
     "7482": 0.2,
@@ -34,8 +26,13 @@
     "7479": 0.2,
     "7480": 0.2
   },
-  "id": 7485,
-  "location": "the Broken Lands",
+  "image": "wl-broken-1264234799.png",
+  "image_coords": [
+    1028,
+    798,
+    1038,
+    808
+  ],
   "tags": [
     "luminescent green fungus",
     "pink mold",
@@ -52,17 +49,6 @@
     "white mold",
     "purple mold",
     "green mold",
-    "yellow mold",
-    "blackened moss",
-    "green lichen",
-    "bone mushroom",
-    "black toadstool",
-    "green fungus",
-    "cave moss",
-    "molds",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "yellow mold"
   ]
 }

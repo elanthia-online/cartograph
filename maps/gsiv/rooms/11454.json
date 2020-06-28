@@ -1,52 +1,43 @@
 {
-  "wayto": {
-    "16041": {
-      "stringproc": "edcc0cccbc99a29a586ead6328949de9"
-    },
-    "16054": {
-      "stringproc": "ecb29216e38b2eccfa243d0a331e41b2"
-    },
-    "11472": {
-      "stringproc": "c5de6a93c272509e579c13cc8cd916bf"
-    },
-    "11451": {
-      "stringproc": "ecb29216e38b2eccfa243d0a331e41b2"
-    },
-    "11440": {
-      "stringproc": "fca73c0fdfb5b02d3b95efa24885592a"
-    },
-    "11452": {
-      "stringproc": "311ee2488122f711ecdb848822003512"
-    },
-    "11441": {
-      "stringproc": "6ec0d3f2602af819251801455c03b9d7"
-    },
-    "11453": {
-      "stringproc": "e874f03e7b4c2d51bbdcaccf4bb927c8"
-    },
-    "11455": {
-      "stringproc": "d1ab0fc82426b99746caa62b1f882697"
-    }
-  },
-  "paths": [
-    "Obvious paths: north, east, southeast, south, southwest, west, northwest, down"
-  ],
-  "image_coords": [
-    702,
-    1206,
-    712,
-    1216
-  ],
-  "terrain": "missing",
-  "description": [
-    "The green, foam-flecked waters of Maelstrom Bay stretch out in all directions.  Gentle swells roll in rhythmically from the great western sea.  The mainland is marked by the line of a tall cliff.  The cliff dips low to the north, revealing the spire of a tower.  Sea birds soar high overhead, scanning the waters for food."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "missing",
+  "id": 11454,
   "title": [
     "[Maelstrom Bay, Surface]"
   ],
-  "check_location": null,
+  "description": [
+    "The green, foam-flecked waters of Maelstrom Bay stretch out in all directions.  Gentle swells roll in rhythmically from the great western sea.  The mainland is marked by the line of a tall cliff.  The cliff dips low to the north, revealing the spire of a tower.  Sea birds soar high overhead, scanning the waters for food."
+  ],
+  "paths": [
+    "Obvious paths: north, east, southeast, south, southwest, west, northwest, down"
+  ],
+  "wayto": {
+    "16041": {
+      "file": "string_procs/wayto/11454_16041.rb"
+    },
+    "16054": {
+      "file": "string_procs/wayto/11454_16054.rb"
+    },
+    "11472": {
+      "file": "string_procs/wayto/11454_11472.rb"
+    },
+    "11451": {
+      "file": "string_procs/wayto/11454_11451.rb"
+    },
+    "11440": {
+      "file": "string_procs/wayto/11454_11440.rb"
+    },
+    "11452": {
+      "file": "string_procs/wayto/11454_11452.rb"
+    },
+    "11441": {
+      "file": "string_procs/wayto/11454_11441.rb"
+    },
+    "11453": {
+      "file": "string_procs/wayto/11454_11453.rb"
+    },
+    "11455": {
+      "file": "string_procs/wayto/11454_11455.rb"
+    }
+  },
   "timeto": {
     "16041": 2.0,
     "16054": 2.0,
@@ -58,13 +49,11 @@
     "11453": 2.0,
     "11455": 2.0
   },
-  "id": 11454,
-  "location": "Maelstrom Bay",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-maelstrom-1266390501.png",
+  "image_coords": [
+    702,
+    1206,
+    712,
+    1216
   ]
 }

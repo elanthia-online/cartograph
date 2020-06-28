@@ -1,46 +1,33 @@
 {
+  "id": 7750,
+  "title": [
+    "[Mossy Caverns]"
+  ],
+  "description": [
+    "You notice the surrounding moss fields seem well tended.  Water slowly pumps out of small fissures in the ground and flows into several irrigation channels.  The trail continues east and west."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "7749": "west",
     "7751": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "7749": 0.2,
+    "7751": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     921,
     1317,
     931,
     1327
   ],
-  "terrain": "indoors",
-  "description": [
-    "You notice the surrounding moss fields seem well tended.  Water slowly pumps out of small fissures in the ground and flows into several irrigation channels.  The trail continues east and west."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mossy Caverns]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7749": 0.2,
-    "7751": 0.2
-  },
-  "id": 7750,
-  "location": "the Coastal Cliffs",
   "tags": [
     "black trafel mushroom",
     "some cave moss",
-    "some pothinir grass",
-    "pothinir grass",
-    "withered black mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some pothinir grass"
   ]
 }

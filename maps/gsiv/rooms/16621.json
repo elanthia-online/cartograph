@@ -1,37 +1,28 @@
 {
+  "id": 16621,
+  "title": [
+    "[Underground Tunnel]"
+  ],
+  "description": [
+    "The passage rises and narrows in the pitch darkness into a small, hollowed-out dead end.  Feeling around in the niche, you can make out the outlines of a small wooden trapdoor in the roof of the tunnel."
+  ],
+  "paths": [
+    "Obvious exits: southeast"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "409": "go trapdoor",
     "16620": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast"
-  ],
+  "timeto": {
+    "409": 0.2,
+    "16620": 0.2
+  },
+  "image": "wl-rogue_guild-1267242645.png",
   "image_coords": [
     181,
     415,
     209,
     443
-  ],
-  "terrain": null,
-  "description": [
-    "The passage rises and narrows in the pitch darkness into a small, hollowed-out dead end.  Feeling around in the niche, you can make out the outlines of a small wooden trapdoor in the roof of the tunnel."
-  ],
-  "image": "wl-rogue_guild-1267242645.png",
-  "climate": null,
-  "title": [
-    "[Underground Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "409": 0.2,
-    "16620": 0.2
-  },
-  "id": 16621,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "links": [
-
   ]
 }

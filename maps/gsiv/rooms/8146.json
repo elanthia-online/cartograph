@@ -1,42 +1,34 @@
 {
+  "id": 8146,
+  "title": [
+    "[Shrine of Leya, Northwest Wall]"
+  ],
+  "description": [
+    "Against the curved wall sits a marble altar, its contours echoing the arcuation.  Light from the dome above plays across its polished surface, dappling it as clouds drift past the moons outside.  A formidable sword rests upon the altar, and although the altar's dimensions seem perfectly contrived to bear the weapon's span, the sword lies there askew, as if casually discarded."
+  ],
+  "paths": [
+    "Obvious exits: east, southeast, south"
+  ],
+  "location": "the distant forest",
   "wayto": {
     "8150": "east",
     "8147": "south",
     "8145": "southeast"
   },
-  "paths": [
-    "Obvious exits: east, southeast, south"
-  ],
+  "timeto": {
+    "8150": 0.2,
+    "8147": 0.2,
+    "8145": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     1064,
     46,
     1074,
     56
   ],
-  "terrain": "indoors",
-  "description": [
-    "Against the curved wall sits a marble altar, its contours echoing the arcuation.  Light from the dome above plays across its polished surface, dappling it as clouds drift past the moons outside.  A formidable sword rests upon the altar, and although the altar's dimensions seem perfectly contrived to bear the weapon's span, the sword lies there askew, as if casually discarded."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Shrine of Leya, Northwest Wall]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8150": 0.2,
-    "8147": 0.2,
-    "8145": 0.2
-  },
-  "id": 8146,
-  "location": "the distant forest",
   "tags": [
     "Leya",
-    "leya",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "leya"
   ]
 }

@@ -1,38 +1,31 @@
 {
+  "id": 20034,
+  "title": [
+    "[Cleric Guild, Prayer Room]"
+  ],
+  "description": [
+    "Stone statues fill the room, seeming to grow out of the floor.  Each of the Others stands in the room, their expressions mirroring their personalities.  The Huntress and Arachne glower at each other from across the floor, separated by all the rest of their pantheon."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "Kharam-Dzu",
   "wayto": {
     "20033": "northeast",
     "20035": "southwest"
   },
-  "paths": [
-    "Obvious exits: northeast, southwest"
-  ],
+  "timeto": {
+    "20033": 0.2,
+    "20035": 0.2
+  },
+  "image": "wl-cleric_guild-1275417297.png",
   "image_coords": [
     461,
     324,
     492,
     358
   ],
-  "terrain": null,
-  "description": [
-    "Stone statues fill the room, seeming to grow out of the floor.  Each of the Others stands in the room, their expressions mirroring their personalities.  The Huntress and Arachne glower at each other from across the floor, separated by all the rest of their pantheon."
-  ],
-  "image": "wl-cleric_guild-1275417297.png",
-  "climate": null,
-  "title": [
-    "[Cleric Guild, Prayer Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "20033": 0.2,
-    "20035": 0.2
-  },
-  "id": 20034,
-  "location": "Kharam-Dzu",
   "tags": [
     "other"
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

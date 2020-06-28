@@ -1,37 +1,27 @@
 {
+  "id": 3959,
+  "title": [
+    "[Abandoned Sewer]"
+  ],
+  "description": [
+    "The openings of small pipes are visible through the muck on the walls.  To judge from the smell, they used to deliver raw sewage into this main tunnel.  The tunnel continues to descend, as the darkness and humidity seem to close in around you."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
   "wayto": {
     "3958": "southwest",
     "3960": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southwest"
-  ],
+  "timeto": {
+    "3958": 0.2,
+    "3960": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     719,
     356,
     729,
     366
-  ],
-  "terrain": null,
-  "description": [
-    "The openings of small pipes are visible through the muck on the walls.  To judge from the smell, they used to deliver raw sewage into this main tunnel.  The tunnel continues to descend, as the darkness and humidity seem to close in around you."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Abandoned Sewer]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3958": 0.2,
-    "3960": 0.2
-  },
-  "id": 3959,
-  "location": null,
-  "tags": [
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,35 +1,32 @@
 {
+  "id": 11323,
+  "title": [
+    "[Citadel, Outside]"
+  ],
+  "description": [
+    "The pathway ends suddenly, piles of rubble forming a barrier of sorts, only allowing passage in a few directions.  Large vines and growths sprout up along the walls and overhead, blocking out all light from the sky above."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest, west"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11155": "n",
     "11324": "west",
     "11326": "sw"
   },
-  "paths": [
-    "Obvious paths: north, southwest, west"
-  ],
+  "timeto": {
+    "11326": 0.2,
+    "11155": 0.2,
+    "11324": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     1170,
     966,
     1180,
     976
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The pathway ends suddenly, piles of rubble forming a barrier of sorts, only allowing passage in a few directions.  Large vines and growths sprout up along the walls and overhead, blocking out all light from the sky above."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "moist",
-  "title": [
-    "[Citadel, Outside]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11326": 0.2,
-    "11155": 0.2,
-    "11324": 0.2
-  },
-  "id": 11323,
-  "location": "the Citadel",
   "tags": [
     "some aloeas stem",
     "bright red cranberry",
@@ -41,17 +38,6 @@
     "some wingstem root",
     "some calamia fruit",
     "wild chokecherry",
-    "some motherwort",
-    "acantha leaf",
-    "calamia fruit",
-    "aloeas stem",
-    "motherwort",
-    "murkweed",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some motherwort"
   ]
 }

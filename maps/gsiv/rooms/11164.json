@@ -1,33 +1,30 @@
 {
+  "id": 11164,
+  "title": [
+    "[Citadel, Outside]"
+  ],
+  "description": [
+    "To the north are the fallen remains of the castle walls.  A few of the stone blocks are still standing, although most have been scattered and overgrown with weeds.  What remains is more nearly a long mound, rather than a wall.  The walkway heads west along the wall and to the south alongside an old stone building."
+  ],
+  "paths": [
+    "Obvious paths: south, west"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11163": "s",
     "11165": "west"
   },
-  "paths": [
-    "Obvious paths: south, west"
-  ],
+  "timeto": {
+    "11163": 0.2,
+    "11165": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     940,
     552,
     950,
     562
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "To the north are the fallen remains of the castle walls.  A few of the stone blocks are still standing, although most have been scattered and overgrown with weeds.  What remains is more nearly a long mound, rather than a wall.  The walkway heads west along the wall and to the south alongside an old stone building."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "moist",
-  "title": [
-    "[Citadel, Outside]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11163": 0.2,
-    "11165": 0.2
-  },
-  "id": 11164,
-  "location": "the Citadel",
   "tags": [
     "some aloeas stem",
     "bright red cranberry",
@@ -39,17 +36,6 @@
     "some wingstem root",
     "some calamia fruit",
     "wild chokecherry",
-    "some motherwort",
-    "acantha leaf",
-    "calamia fruit",
-    "aloeas stem",
-    "motherwort",
-    "murkweed",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some motherwort"
   ]
 }

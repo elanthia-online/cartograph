@@ -1,33 +1,30 @@
 {
+  "id": 10286,
+  "title": [
+    "[Briar Thicket]"
+  ],
+  "description": [
+    "At the base of a steep incline, waterlogged soil has been stirred into a morass of thick, black mud that clings to everything it comes into contact with.  The sludge has been splashed over the low-lying hawthorn branches and tracked across a rickety wooden trapdoor that lies atop the mire, like a raft afloat on a mud-dark sea."
+  ],
+  "paths": [
+    "Obvious paths: southwest"
+  ],
+  "location": "the briar thicket",
   "wayto": {
     "10287": "go trapdoor",
     "10282": "southwest"
   },
-  "paths": [
-    "Obvious paths: southwest"
-  ],
+  "timeto": {
+    "10287": 0.2,
+    "10282": 0.2
+  },
+  "image": "en-fearling-1264234799.png",
   "image_coords": [
     1328,
     779,
     1338,
     789
   ],
-  "terrain": null,
-  "description": [
-    "At the base of a steep incline, waterlogged soil has been stirred into a morass of thick, black mud that clings to everything it comes into contact with.  The sludge has been splashed over the low-lying hawthorn branches and tracked across a rickety wooden trapdoor that lies atop the mire, like a raft afloat on a mud-dark sea."
-  ],
-  "image": "en-fearling-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Briar Thicket]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10287": 0.2,
-    "10282": 0.2
-  },
-  "id": 10286,
-  "location": "the briar thicket",
   "tags": [
     "some acantha leaf",
     "some basal moss",
@@ -89,8 +86,5 @@
     "ebony twig",
     "bolmara lichen",
     "brostheras grass"
-  ],
-  "links": [
-
   ]
 }

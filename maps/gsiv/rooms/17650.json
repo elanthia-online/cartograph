@@ -1,48 +1,32 @@
 {
+  "id": 17650,
+  "title": [
+    "[Smuggler's Tunnels, Tunnel]"
+  ],
+  "description": [
+    "Dust laden feathery roots hang like filthy banners from the ceiling, casting odd shadows against the floor and walls of the tunnel in the presence of a string of torches.  The faint sound of water lapping against a shoreline echoes down the passageway, accompanied by a strong, cool breeze carrying with it the moist scent of muddy earth."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
   "wayto": {
     "17651": "south",
     "17649": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "17651": 0.2,
+    "17649": 0.2
+  },
+  "image": "rr-warrens-1266380776.png",
   "image_coords": [
     562,
     633,
     600,
     671
   ],
-  "terrain": "indoors",
-  "description": [
-    "Dust laden feathery roots hang like filthy banners from the ceiling, casting odd shadows against the floor and walls of the tunnel in the presence of a string of torches.  The faint sound of water lapping against a shoreline echoes down the passageway, accompanied by a strong, cool breeze carrying with it the moist scent of muddy earth."
-  ],
-  "image": "rr-warrens-1266380776.png",
-  "climate": "indoors",
-  "title": [
-    "[Smuggler's Tunnels, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "17651": 0.2,
-    "17649": 0.2
-  },
-  "id": 17650,
-  "location": "River's Rest",
   "tags": [
     "withered black mushroom",
     "genkew mushroom",
-    "black hook mushroom",
-    "soft white mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "black hook mushroom"
   ]
 }

@@ -1,40 +1,30 @@
 {
+  "id": 7091,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "Eerie shadows flicker through this section of corridor, casting grotesque shapes on the walls and floor.  There are tracks of rats and other things in the dust on the floor, and filmy grey cobwebs swagging from the ceiling."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7090": "west",
     "7092": "go door",
     "7104": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
-  "image_coords": [
-    976,
-    1051,
-    986,
-    1061
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Eerie shadows flicker through this section of corridor, casting grotesque shapes on the walls and floor.  There are tracks of rats and other things in the dust on the floor, and filmy grey cobwebs swagging from the ceiling."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
   "timeto": {
     "7090": 0.2,
     "7092": 0.2,
     "7104": 0.2
   },
-  "id": 7091,
-  "location": "Darkstone Castle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-darkstone-1264234799.png",
+  "image_coords": [
+    976,
+    1051,
+    986,
+    1061
   ]
 }

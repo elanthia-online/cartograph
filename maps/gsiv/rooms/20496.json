@@ -1,37 +1,25 @@
 {
-  "wayto": {
-    "20495": {
-      "stringproc": "e1c07f11fafb44ef7af79b539380e7c4"
-    },
-    "20497": {
-      "stringproc": "a4d0bd772b44545249eb380b69c5977f"
-    }
-  },
-  "paths": [
-    "Obvious paths: northeast, south"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "The frequent crimson lightning from above bathes the waters in an eerie blood red glow.  Booming thunder echoes across the dark horizon."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 20496,
   "title": [
     "[Arctic Waters]"
   ],
-  "check_location": null,
+  "description": [
+    "The frequent crimson lightning from above bathes the waters in an eerie blood red glow.  Booming thunder echoes across the dark horizon."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south"
+  ],
+  "location": "the Pinefar Trading Post",
+  "wayto": {
+    "20495": {
+      "file": "string_procs/wayto/20496_20495.rb"
+    },
+    "20497": {
+      "file": "string_procs/wayto/20496_20497.rb"
+    }
+  },
   "timeto": {
     "20495": 2.0,
     "20497": 2.0
-  },
-  "id": 20496,
-  "location": "the Pinefar Trading Post",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  }
 }

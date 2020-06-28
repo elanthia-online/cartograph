@@ -1,53 +1,35 @@
 {
+  "id": 2924,
+  "title": [
+    "[Northward Trail, Snow Plains]"
+  ],
+  "description": [
+    "A towering mountain range peeks through the snowy haze to the north.  The rugged outline of the range is distinctive, looking remarkably like a giant woman sleeping on her side.  Streaks of snow line the ridges of the mountains.  Southwards, all that can be seen is the vast plain disappearing into a shroud of swirling powder.",
+    "A towering mountain range is barely visible in the snow-filled darkness to the north.  The rugged outline of the range faintly resembles a giant woman sleeping on her side.  Streaks of snow line the ridges of the mountains.  Southwards, all that can be seen is the vast plain disappearing into a shroud of swirling powder."
+  ],
+  "paths": [
+    "Obvious paths: south, northwest"
+  ],
+  "location": "the Sleeping Lady Mountains",
   "wayto": {
     "2923": "northwest",
     "2925": "south"
   },
-  "paths": [
-    "Obvious paths: south, northwest"
-  ],
+  "timeto": {
+    "2923": 0.2,
+    "2925": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     1052,
     735,
     1062,
     745
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "A towering mountain range peeks through the snowy haze to the north.  The rugged outline of the range is distinctive, looking remarkably like a giant woman sleeping on her side.  Streaks of snow line the ridges of the mountains.  Southwards, all that can be seen is the vast plain disappearing into a shroud of swirling powder.",
-    "A towering mountain range is barely visible in the snow-filled darkness to the north.  The rugged outline of the range faintly resembles a giant woman sleeping on her side.  Streaks of snow line the ridges of the mountains.  Southwards, all that can be seen is the vast plain disappearing into a shroud of swirling powder."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Northward Trail, Snow Plains]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2923": 0.2,
-    "2925": 0.2
-  },
-  "id": 2924,
-  "location": "the Sleeping Lady Mountains",
   "tags": [
     "some arctic moss",
     "orange rowanberry",
     "winter rose",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "arctic moss",
-    "tundra grass",
-    "frostweed",
-    "frostflower",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sassafras leaf"
   ]
 }

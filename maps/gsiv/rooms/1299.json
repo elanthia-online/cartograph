@@ -1,33 +1,30 @@
 {
+  "id": 1299,
+  "title": [
+    "[Zeltoph's Base]"
+  ],
+  "description": [
+    "The west wind soughs through the pinetops high over head.  In every direction, ancient pines stretch toward the heavens, and their trunks hide the path even a short distance ahead.  The only young plants in sight are those along the trail, sprouting where hooves and boots have disturbed the earth."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the foothills of Zeltoph",
   "wayto": {
     "1298": "north",
     "1300": "south"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "1298": 0.2,
+    "1300": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     337,
     234,
     347,
     244
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "The west wind soughs through the pinetops high over head.  In every direction, ancient pines stretch toward the heavens, and their trunks hide the path even a short distance ahead.  The only young plants in sight are those along the trail, sprouting where hooves and boots have disturbed the earth."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Zeltoph's Base]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1298": 0.2,
-    "1300": 0.2
-  },
-  "id": 1299,
-  "location": "the foothills of Zeltoph",
   "tags": [
     "some acantha leaf",
     "wild gooseberry",
@@ -79,10 +76,6 @@
     "slender twig",
     "ebony twig",
     "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

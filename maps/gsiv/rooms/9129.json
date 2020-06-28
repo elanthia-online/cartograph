@@ -1,38 +1,28 @@
 {
+  "id": 9129,
+  "title": [
+    "[Cavern, Lichen Bridge]"
+  ],
+  "description": [
+    "The lichen grows happily here, its surface slick with moss and mold.  The natural fabric is so thick and abundant that its excess folds almost block your way.  Still, with a good deal of pushing and scrambling, it's possible to make some progress."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south"
+  ],
+  "location": "the subterranean tunnels",
   "wayto": {
     "9130": "south",
     "9128": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, south"
-  ],
+  "timeto": {
+    "9130": 0.2,
+    "9128": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     197,
     949,
     207,
     959
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The lichen grows happily here, its surface slick with moss and mold.  The natural fabric is so thick and abundant that its excess folds almost block your way.  Still, with a good deal of pushing and scrambling, it's possible to make some progress."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Cavern, Lichen Bridge]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9130": 0.2,
-    "9128": 0.2
-  },
-  "id": 9129,
-  "location": "the subterranean tunnels",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

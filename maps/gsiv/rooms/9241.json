@@ -1,40 +1,31 @@
 {
+  "id": 9241,
+  "title": [
+    "[Thurfel's Island]"
+  ],
+  "description": [
+    "Resting upon the pebbly terrain of this beach is a gigantic grey geode the size of a large cart.  It is cracked completely in half revealing large clusters of red spinel crystals.  Oddly, the gems within the huge stone do not appear to be natural in origin."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Thurfel's Island",
   "wayto": {
     "9154": "north",
     "9146": "south"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "9154": 0.2,
+    "9146": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     530,
     864,
     540,
     874
   ],
-  "terrain": "indoors",
-  "description": [
-    "Resting upon the pebbly terrain of this beach is a gigantic grey geode the size of a large cart.  It is cracked completely in half revealing large clusters of red spinel crystals.  Oddly, the gems within the huge stone do not appear to be natural in origin."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thurfel's Island]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9154": 0.2,
-    "9146": 0.2
-  },
-  "id": 9241,
-  "location": "Thurfel's Island",
   "tags": [
-    "some bur-clover root",
-    "murdroot",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some bur-clover root"
   ]
 }

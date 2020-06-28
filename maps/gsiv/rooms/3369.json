@@ -1,35 +1,32 @@
 {
+  "id": 3369,
+  "title": [
+    "[Ice Garden, Altar]"
+  ],
+  "description": [
+    "Benches of carved ice with seats of wood surround the central altar, bowered with beardtongue shrubs.  The glitter of the fallen snow reflects light in a myriad of rainbows, creating a hypnotic effect ideal for settling into a meditative state.  Carved into the base of the glacier is a dark crevice leading into the mountain of ice."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "3365": "south",
     "3561": "go dark crevice"
   },
-  "paths": [
-    "Obvious paths: south"
-  ],
+  "timeto": {
+    "3365": 0.2,
+    "3561": {
+      "file": "string_procs/timeto/3369_3561.rb"
+    }
+  },
+  "image": "imt-icemule-1474811966.png",
   "image_coords": [
     759,
     610,
     795,
     646
   ],
-  "terrain": "cultivated",
-  "description": [
-    "Benches of carved ice with seats of wood surround the central altar, bowered with beardtongue shrubs.  The glitter of the fallen snow reflects light in a myriad of rainbows, creating a hypnotic effect ideal for settling into a meditative state.  Carved into the base of the glacier is a dark crevice leading into the mountain of ice."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "glacial",
-  "title": [
-    "[Ice Garden, Altar]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3365": 0.2,
-    "3561": {
-      "stringproc": "8fd57ca29c4dccb446cc725c59f53cd3"
-    }
-  },
-  "id": 3369,
-  "location": "Icemule Trace",
   "tags": [
     "ice tulip",
     "moonflower",
@@ -40,11 +37,6 @@
     "pennyroyal stem",
     "snow pansy",
     "winter rose",
-    "frostflower",
-    "sunburst blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "frostflower"
   ]
 }

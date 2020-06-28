@@ -1,35 +1,32 @@
 {
+  "id": 474,
+  "title": [
+    "[Upper Trollfang]"
+  ],
+  "description": [
+    "This shaded intersection marks the beginning, or end, of a wide cobbled road that heads off to the west.  To the east, this road becomes a deeply rutted trail that dives through the thick underbrush and disappears.  A smaller path leads up a hill to the northeast."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "473": "west",
     "4106": "go path",
     "1196": "go trail"
   },
-  "paths": [
-    "Obvious paths: west"
-  ],
+  "timeto": {
+    "473": 0.2,
+    "4106": 0.2,
+    "1196": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     925,
     838,
     935,
     848
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "This shaded intersection marks the beginning, or end, of a wide cobbled road that heads off to the west.  To the east, this road becomes a deeply rutted trail that dives through the thick underbrush and disappears.  A smaller path leads up a hill to the northeast."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Upper Trollfang]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "473": 0.2,
-    "4106": 0.2,
-    "1196": 0.2
-  },
-  "id": 474,
-  "location": "the Upper Trollfang",
   "tags": [
     "wild gooseberry",
     "some tree bark",
@@ -37,64 +34,6 @@
     "handful of blueberries",
     "some bolmara lichen",
     "stalk of burdock",
-    "golden buttercup",
-    "acantha leaf",
-    "torban leaf",
-    "calamia fruit",
-    "haphip root",
-    "basal moss",
-    "tkaro root",
-    "sticks",
-    "angelica root",
-    "trollfear mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "blueberries",
-    "elderberries",
-    "fiddlehead fern",
-    "wild grapes",
-    "broken twig",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "stalk of goldenrod",
-    "small wild rose",
-    "sprig of wild lilac",
-    "wild beechnut",
-    "ginger root",
-    "wild chokecherry",
-    "wild orchid",
-    "sprig of mistletoe",
-    "tree bark",
-    "murkweed",
-    "white lily",
-    "pink rain lily",
-    "coppery rain lily",
-    "oxblood lily",
-    "kylan berry",
-    "blue whortleberry",
-    "white baneberry",
-    "bloodwood twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "nightbloom blossom",
-    "twisted twig",
-    "slender twig",
-    "ebony twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "walnuts",
-    "alder bark",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "golden buttercup"
   ]
 }

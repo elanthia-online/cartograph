@@ -1,44 +1,35 @@
 {
+  "id": 7339,
+  "title": [
+    "[Dark Pasture, Black Stream]"
+  ],
+  "description": [
+    "No longer able to contain the dark murk, the surrounding ground has crumbled into the streambed.  A noxious odor rises from the putrid black sludge, stifling your senses.  Choking back the urge to flee, you continue on your way."
+  ],
+  "paths": [
+    "Obvious paths: southwest, west, northwest"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7338": "northwest",
     "7340": "southwest",
     "7341": "west"
   },
-  "paths": [
-    "Obvious paths: southwest, west, northwest"
-  ],
+  "timeto": {
+    "7338": 0.2,
+    "7340": 0.2,
+    "7341": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1201,
     810,
     1211,
     820
   ],
-  "terrain": "riparian",
-  "description": [
-    "No longer able to contain the dark murk, the surrounding ground has crumbled into the streambed.  A noxious odor rises from the putrid black sludge, stifling your senses.  Choking back the urge to flee, you continue on your way."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Dark Pasture, Black Stream]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7338": 0.2,
-    "7340": 0.2,
-    "7341": 0.2
-  },
-  "id": 7339,
-  "location": "the Shadow Valley",
   "tags": [
     "some fetid black slime",
     "some longgrass",
-    "night mare",
-    "black slime",
-    "longgrass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "night mare"
   ]
 }

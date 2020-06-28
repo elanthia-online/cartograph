@@ -1,33 +1,30 @@
 {
+  "id": 3009,
+  "title": [
+    "[Arctic Tundra, High Plain]"
+  ],
+  "description": [
+    "Ice crackles underfoot as you pass along the edge of a towering glacier.  Sparkling hues of blue and yellow glint off the glacier, and a closer look reveals patches of colorful moss clinging to its side."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south"
+  ],
+  "location": "the High Plains",
   "wayto": {
     "3005": "south",
     "3010": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, south"
-  ],
+  "timeto": {
+    "3005": 0.2,
+    "3010": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     323,
     926,
     333,
     936
   ],
-  "terrain": "mountainous",
-  "description": [
-    "Ice crackles underfoot as you pass along the edge of a towering glacier.  Sparkling hues of blue and yellow glint off the glacier, and a closer look reveals patches of colorful moss clinging to its side."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Arctic Tundra, High Plain]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3005": 0.2,
-    "3010": 0.2
-  },
-  "id": 3009,
-  "location": "the High Plains",
   "tags": [
     "red winterberry",
     "small loganberry",
@@ -43,11 +40,6 @@
     "arctic moss",
     "snowberries",
     "pale thornberry",
-    "ironfern root",
-    "angelica root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

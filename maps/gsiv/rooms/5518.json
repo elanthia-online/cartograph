@@ -1,66 +1,36 @@
 {
+  "id": 5518,
+  "title": [
+    "[Ruined Village]"
+  ],
+  "description": [
+    "Paving stones from the village's streets continue up the gentle slope to the east, where a low stone wall surrounds a half-timber manor house and a small stone tower.  The manor house's windows have all been boarded over, and the roof is missing more shingles than are remaining.  The weather-greyed bulk of a stable can be glimpsed past the southern end of the house.  The flagstones stop at a rusted iron gate that pierces the stone wall's center."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest, west"
+  ],
+  "location": "the Outlands",
   "wayto": {
     "5516": "west",
     "5517": "southwest",
     "5519": "east"
   },
-  "paths": [
-    "Obvious paths: east, southwest, west"
-  ],
+  "timeto": {
+    "5516": 0.2,
+    "5517": 0.2,
+    "5519": 0.2
+  },
+  "image": "vo-outlands-1264234799.png",
   "image_coords": [
     861,
     469,
     871,
     479
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "Paving stones from the village's streets continue up the gentle slope to the east, where a low stone wall surrounds a half-timber manor house and a small stone tower.  The manor house's windows have all been boarded over, and the roof is missing more shingles than are remaining.  The weather-greyed bulk of a stable can be glimpsed past the southern end of the house.  The flagstones stop at a rusted iron gate that pierces the stone wall's center."
-  ],
-  "image": "vo-outlands-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Ruined Village]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5516": 0.2,
-    "5517": 0.2,
-    "5519": 0.2
-  },
-  "id": 5518,
-  "location": "the Outlands",
   "tags": [
     "ayana'al root",
     "crested basilisk",
     "dobrem",
-    "no-magic",
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "small flower",
-    "small rose",
-    "small daisy",
-    "angelica root",
-    "withered black mushroom",
-    "stalk of chicory",
-    "sprig of alyssum",
-    "heath aster",
-    "stalk of goldenrod",
-    "yellow primrose",
-    "small wild rose",
-    "wild chokecherry",
-    "motherwort",
-    "white baneberry",
-    "ayana'al leaf",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "no-magic"
   ]
 }

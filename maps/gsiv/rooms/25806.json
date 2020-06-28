@@ -1,39 +1,32 @@
 {
-  "wayto": {
-    "25807": {
-      "stringproc": "7c97847f49fd5aa0407dedb0e3609199"
-    },
-    "25805": {
-      "stringproc": "9b05cb4429e6ad5efbe157efd92e6023"
-    }
-  },
+  "id": 25806,
+  "title": [
+    "[Eastern Waterway]"
+  ],
+  "description": [
+    "Tropical blossoms litter the channel that stretches between the two islands in the harbor, their fragrant petals perfuming the air.  Bouncing up and down, the petals glide on the gentle waves as they are carried between the cliffs of one isle to the beaches of the other."
+  ],
   "paths": [
     "Obvious paths: southeast, northwest"
   ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "25807": {
+      "file": "string_procs/wayto/25806_25807.rb"
+    },
+    "25805": {
+      "file": "string_procs/wayto/25806_25805.rb"
+    }
+  },
+  "timeto": {
+    "25807": 6.0,
+    "25805": 6.0
+  },
+  "image": "ifw-eastern_waterway-1489553700.png",
   "image_coords": [
     1440,
     1759,
     1461,
     1779
-  ],
-  "terrain": null,
-  "description": [
-    "Tropical blossoms litter the channel that stretches between the two islands in the harbor, their fragrant petals perfuming the air.  Bouncing up and down, the petals glide on the gentle waves as they are carried between the cliffs of one isle to the beaches of the other."
-  ],
-  "image": "ifw-eastern_waterway-1489553700.png",
-  "climate": null,
-  "title": [
-    "[Eastern Waterway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "25807": 6.0,
-    "25805": 6.0
-  },
-  "id": 25806,
-  "location": "Mist Harbor",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

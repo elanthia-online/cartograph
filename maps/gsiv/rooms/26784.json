@@ -1,33 +1,26 @@
 {
-  "wayto": {
-    "26783": "east"
-  },
+  "id": 26784,
+  "title": [
+    "[Catacombs, Dark Tunnels]"
+  ],
+  "description": [
+    "This room has been well maintained and new timbers are evident in all the shoring.  Sconces with fresh torches are scattered about the room but remain unlit.  Several shovels and mining picks are set against the west wall but don't appear to have been used.  A loud clanging like metal against rock resonates throughout the chamber sending a chill down your spine.  Suddenly the sound fades to silence."
+  ],
   "paths": [
     "Obvious exits: east"
   ],
+  "location": "the catacombs",
+  "wayto": {
+    "26783": "east"
+  },
+  "timeto": {
+    "26783": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     954,
     1359,
     963,
     1369
-  ],
-  "terrain": null,
-  "description": [
-    "This room has been well maintained and new timbers are evident in all the shoring.  Sconces with fresh torches are scattered about the room but remain unlit.  Several shovels and mining picks are set against the west wall but don't appear to have been used.  A loud clanging like metal against rock resonates throughout the chamber sending a chill down your spine.  Suddenly the sound fades to silence."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Catacombs, Dark Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26783": 0.2
-  },
-  "id": 26784,
-  "location": "the catacombs",
-  "tags": [
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+  ]
 }

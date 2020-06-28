@@ -1,42 +1,32 @@
 {
+  "id": 665,
+  "title": [
+    "[Sylvarraend Road]"
+  ],
+  "description": [
+    "The cobblestone road undulates up and down as it wanders along the low hillsides.  The roadway shows a remarkable resilience to weather and terrain, showing very little signs of wear or disrepair."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "Sylvarraend Road",
   "wayto": {
     "666": "southeast",
     "664": "northwest",
     "26000": {
-      "stringproc": "b723f35ff335df442780414184df4d1f"
+      "file": "string_procs/wayto/665_26000.rb"
     }
   },
-  "paths": [
-    "Obvious paths: southeast, northwest"
-  ],
-  "image_coords": [
-    556,
-    700,
-    566,
-    710
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "The cobblestone road undulates up and down as it wanders along the low hillsides.  The roadway shows a remarkable resilience to weather and terrain, showing very little signs of wear or disrepair."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Sylvarraend Road]"
-  ],
-  "check_location": null,
   "timeto": {
     "666": 0.2,
     "664": 0.2,
     "26000": 0.2
   },
-  "id": 665,
-  "location": "Sylvarraend Road",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-sylvarraend-1264234799.png",
+  "image_coords": [
+    556,
+    700,
+    566,
+    710
   ]
 }

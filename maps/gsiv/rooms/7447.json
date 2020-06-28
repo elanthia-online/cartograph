@@ -1,43 +1,35 @@
 {
-  "wayto": {
-    "7437": {
-      "stringproc": "3ef87e7eac63e97210b4aedf89dfae9b"
-    },
-    "7439": {
-      "stringproc": "e3d799eb84e7700f4a3e6d2be8ca0cfa"
-    },
-    "7452": {
-      "stringproc": "3014f0f1ddce50edda95b441e1eaf20a"
-    },
-    "23263": {
-      "stringproc": "83c2f3d972bad023563640cfd207c046"
-    },
-    "7446": {
-      "stringproc": "20bd86befba92047041b874e1739aeb9"
-    },
-    "17319": {
-      "stringproc": "b0515112b374f0190d8dd3851a3d8b9c"
-    }
-  },
-  "paths": [
-    "Obvious paths: north, northeast, east, southeast, south, northwest"
-  ],
-  "image_coords": [
-    623,
-    924,
-    633,
-    934
-  ],
-  "terrain": null,
-  "description": [
-    "The sheer, featureless cliff to the west is a sharp contrast to the jumble of boulders and rocks underfoot.  A dense fog makes it somewhat difficult to see."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": null,
+  "id": 7447,
   "title": [
     "[The Broken Lands, Jagged Plain]"
   ],
-  "check_location": null,
+  "description": [
+    "The sheer, featureless cliff to the west is a sharp contrast to the jumble of boulders and rocks underfoot.  A dense fog makes it somewhat difficult to see."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, east, southeast, south, northwest"
+  ],
+  "location": "the Broken Lands",
+  "wayto": {
+    "7437": {
+      "file": "string_procs/wayto/7447_7437.rb"
+    },
+    "7439": {
+      "file": "string_procs/wayto/7447_7439.rb"
+    },
+    "7452": {
+      "file": "string_procs/wayto/7447_7452.rb"
+    },
+    "23263": {
+      "file": "string_procs/wayto/7447_23263.rb"
+    },
+    "7446": {
+      "file": "string_procs/wayto/7447_7446.rb"
+    },
+    "17319": {
+      "file": "string_procs/wayto/7447_17319.rb"
+    }
+  },
   "timeto": {
     "7437": 3.2,
     "7439": 3.2,
@@ -46,18 +38,17 @@
     "7446": 3.2,
     "17319": 3.2
   },
-  "id": 7447,
-  "location": "the Broken Lands",
+  "image": "wl-broken-1264234799.png",
+  "image_coords": [
+    623,
+    924,
+    633,
+    934
+  ],
   "tags": [
     "some blackened moss",
     "large black toadstool",
     "hooded figure",
-    "giant fog beetle",
-    "blackened moss",
-    "black toadstool",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "giant fog beetle"
   ]
 }

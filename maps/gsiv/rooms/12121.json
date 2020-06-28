@@ -1,38 +1,30 @@
 {
+  "id": 12121,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "Mist swirls and flows around a small monument here.  A man lies on the ground face down, quite dead.  There are ten longswords protruding from his back, from the tip of the neck to the back of the knees.  Small rivulets of blood have dried as they left the body, forming an unusual pattern in the dirt."
+  ],
+  "paths": [
+    "Obvious exits: east, southeast, west",
+    "Obvious paths: east, southeast, west"
+  ],
+  "location": "the Rift",
   "wayto": {
     "2619": "east",
     "12129": "southeast",
     "12120": "west",
     "2635": {
-      "stringproc": "f88a5ac335110328444947aa8fdfa490"
+      "file": "string_procs/wayto/12121_2635.rb"
     },
     "12093": {
-      "stringproc": "dc0110972ab7e067d5fec20ece15581c"
+      "file": "string_procs/wayto/12121_12093.rb"
     },
     "2605": {
-      "stringproc": "317c6eedd1ea40322b9b26b259a3053f"
+      "file": "string_procs/wayto/12121_2605.rb"
     }
   },
-  "paths": [
-    "Obvious exits: east, southeast, west",
-    "Obvious paths: east, southeast, west"
-  ],
-  "image_coords": [
-    948,
-    590,
-    958,
-    600
-  ],
-  "terrain": null,
-  "description": [
-    "Mist swirls and flows around a small monument here.  A man lies on the ground face down, quite dead.  There are ten longswords protruding from his back, from the tip of the neck to the back of the knees.  Small rivulets of blood have dried as they left the body, forming an unusual pattern in the dirt."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
   "timeto": {
     "2619": 0.2,
     "12129": 0.2,
@@ -41,8 +33,13 @@
     "12093": 21.6,
     "2605": 16.0
   },
-  "id": 12121,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    948,
+    590,
+    958,
+    600
+  ],
   "tags": [
     "withered deathblossom",
     "mass of congealed slime",
@@ -51,8 +48,5 @@
     "twisted black mawflower",
     "slime-covered grave blossom",
     "discolored fleshbinder bud"
-  ],
-  "links": [
-
   ]
 }

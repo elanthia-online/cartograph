@@ -1,46 +1,32 @@
 {
-  "wayto": {
-    "21065": {
-      "stringproc": "33cfbebf60fac526621a584ea88dc94d"
-    },
-    "21067": {
-      "stringproc": "00214580d5fab23d1c7eb0423ef13ba7"
-    }
-  },
+  "id": 21066,
+  "title": [
+    "[Alhan'aht River, Southern Pass]"
+  ],
+  "description": [
+    "Tiny whirlpools form in the dark waters of the river, their creation testament to its swift passage as it courses through the jungle on its way to the north.  Small channels along the muddy banks break away from the main body of the river to create minor tributaries that wind their way into the dark green jungle, only to rejoin the river further down."
+  ],
   "paths": [
     "Obvious paths: southeast, northwest"
   ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "21065": {
+      "file": "string_procs/wayto/21066_21065.rb"
+    },
+    "21067": {
+      "file": "string_procs/wayto/21066_21067.rb"
+    }
+  },
+  "timeto": {
+    "21065": 2.0,
+    "21067": 2.0
+  },
+  "image": "ifw-wilds-1368242816.png",
   "image_coords": [
     1341,
     1760,
     1359,
     1780
-  ],
-  "terrain": "riparian",
-  "description": [
-    "Tiny whirlpools form in the dark waters of the river, their creation testament to its swift passage as it courses through the jungle on its way to the north.  Small channels along the muddy banks break away from the main body of the river to create minor tributaries that wind their way into the dark green jungle, only to rejoin the river further down."
-  ],
-  "image": "ifw-wilds-1368242816.png",
-  "climate": "freshwater",
-  "title": [
-    "[Alhan'aht River, Southern Pass]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "21065": 2.0,
-    "21067": 2.0
-  },
-  "id": 21066,
-  "location": "Mist Harbor",
-  "tags": [
-    "stalk of cattail",
-    "murdroot",
-    "wavepetal blossom",
-    "sunburst blossom",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

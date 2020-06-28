@@ -1,42 +1,32 @@
 {
+  "id": 4154,
+  "title": [
+    "[Hall of the Dead, Common Crypt]"
+  ],
+  "description": [
+    "As the light of the room flickers something is different, the wall carvings have become very shallow.  They are so shallow that bodies have been turned on their side to save work in carving the holes.  In fact, most are held to the wall pockets by simple restraining straps, some of which have rotted, allowing the bodies to tumble from their resting place."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "4168": {
-      "stringproc": "0c097214b4482294afa06df3ea1cf945"
+      "file": "string_procs/wayto/4154_4168.rb"
     },
     "4159": "west",
     "4153": "south"
   },
-  "paths": [
-    "Obvious exits: south, west"
-  ],
-  "image_coords": [
-    940,
-    733,
-    950,
-    743
-  ],
-  "terrain": "indoors",
-  "description": [
-    "As the light of the room flickers something is different, the wall carvings have become very shallow.  They are so shallow that bodies have been turned on their side to save work in carving the holes.  In fact, most are held to the wall pockets by simple restraining straps, some of which have rotted, allowing the bodies to tumble from their resting place."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Hall of the Dead, Common Crypt]"
-  ],
-  "check_location": null,
   "timeto": {
     "4168": 0.4,
     "4159": 0.2,
     "4153": 0.2
   },
-  "id": 4154,
-  "location": "the Graveyard",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-graveyard-1264234799.png",
+  "image_coords": [
+    940,
+    733,
+    950,
+    743
   ]
 }

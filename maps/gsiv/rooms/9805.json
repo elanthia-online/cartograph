@@ -1,40 +1,30 @@
 {
+  "id": 9805,
+  "title": [
+    "[Maaghara Labyrinth]"
+  ],
+  "description": [
+    "Permanently fixed as if supporting the wall, a molding skeleton of some unfortunate animal lies entangled by roots.  The twisting tentacles of gnarled roots rise up from the floor and along the walls, creating warped patterns across the ceiling.  The unpleasant smell of mildew hangs heavy in the air."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east, west"
+  ],
+  "location": "the Maaghara Tower",
   "wayto": {
     "9801": "east",
     "9808": "west",
     "9821": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, east, west"
-  ],
-  "image_coords": [
-    1043,
-    544,
-    1053,
-    554
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Permanently fixed as if supporting the wall, a molding skeleton of some unfortunate animal lies entangled by roots.  The twisting tentacles of gnarled roots rise up from the floor and along the walls, creating warped patterns across the ceiling.  The unpleasant smell of mildew hangs heavy in the air."
-  ],
-  "image": "en-tower-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Maaghara Labyrinth]"
-  ],
-  "check_location": null,
   "timeto": {
     "9801": 0.2,
     "9808": 0.2,
     "9821": 0.2
   },
-  "id": 9805,
-  "location": "the Maaghara Tower",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-tower-1264234799.png",
+  "image_coords": [
+    1043,
+    544,
+    1053,
+    554
   ]
 }

@@ -1,46 +1,38 @@
 {
-  "wayto": {
-    "13966": {
-      "stringproc": "c025f2b9a5573a2d2053ce05098ef18a"
-    },
-    "18843": {
-      "stringproc": "172785c3e181685e150f716bc20f7c75"
-    },
-    "25638": {
-      "stringproc": "a8fa0a4ac60f238be55a07a06e93f7eb"
-    },
-    "25619": {
-      "stringproc": "438d3b33ea18ce6f29153042062536d2"
-    },
-    "25618": {
-      "stringproc": "3eb5f8940a45038ff4e93772c23599ef"
-    },
-    "18841": {
-      "stringproc": "109aa9ca07a06c6db3d50e1333d63f67"
-    },
-    "25617": {
-      "stringproc": "5879c49c06c115a2087b231ba98f0bb6"
-    }
-  },
-  "paths": [
-    "Obvious paths: north, east, southeast, south, west, northwest, down"
-  ],
-  "image_coords": [
-    1162,
-    731,
-    1181,
-    750
-  ],
-  "terrain": null,
-  "description": [
-    "Silent and inscrutable, the river stretches languorously in all directions.  A packet boat appears, its crew bustling efficiently across its decks, carrying goods and passengers along the watery causeway.  Overhead, an eagle soars with wings outstretched and eyes intent on the area below, perhaps in search of a future meal.  The current pulls gently to the southeast, but seems in no hurry to get there."
-  ],
-  "image": "en-ravelin.png",
-  "climate": null,
+  "id": 18842,
   "title": [
     "[Mistydeep, South of Ravelin]"
   ],
-  "check_location": null,
+  "description": [
+    "Silent and inscrutable, the river stretches languorously in all directions.  A packet boat appears, its crew bustling efficiently across its decks, carrying goods and passengers along the watery causeway.  Overhead, an eagle soars with wings outstretched and eyes intent on the area below, perhaps in search of a future meal.  The current pulls gently to the southeast, but seems in no hurry to get there."
+  ],
+  "paths": [
+    "Obvious paths: north, east, southeast, south, west, northwest, down"
+  ],
+  "location": "the northern reaches of the Mistydeep River",
+  "wayto": {
+    "13966": {
+      "file": "string_procs/wayto/18842_13966.rb"
+    },
+    "18843": {
+      "file": "string_procs/wayto/18842_18843.rb"
+    },
+    "25638": {
+      "file": "string_procs/wayto/18842_25638.rb"
+    },
+    "25619": {
+      "file": "string_procs/wayto/18842_25619.rb"
+    },
+    "25618": {
+      "file": "string_procs/wayto/18842_25618.rb"
+    },
+    "18841": {
+      "file": "string_procs/wayto/18842_18841.rb"
+    },
+    "25617": {
+      "file": "string_procs/wayto/18842_25617.rb"
+    }
+  },
   "timeto": {
     "13966": 0.2,
     "18843": 8.0,
@@ -50,12 +42,11 @@
     "25619": 0.5,
     "25617": 0.2
   },
-  "id": 18842,
-  "location": "the northern reaches of the Mistydeep River",
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "en-ravelin.png",
+  "image_coords": [
+    1162,
+    731,
+    1181,
+    750
   ]
 }

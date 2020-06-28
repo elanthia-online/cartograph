@@ -1,35 +1,32 @@
 {
+  "id": 415,
+  "title": [
+    "[Wehnimer's, Exterior]"
+  ],
+  "description": [
+    "You can no longer see the land gates of Wehnimer's from this dirt path, although you can still hear the din of the town on the other side of the wooden palisades.  To the west and southwest lies the untamed land that surrounds Wehnimer's Landing.  To the west, the large wooden fence in front of the Wehnimer's Jousting Arena fills your view."
+  ],
+  "paths": [
+    "Obvious paths: southeast, south, northwest"
+  ],
+  "location": "the Lower Dragonsclaw",
   "wayto": {
     "416": "south",
     "417": "northwest",
     "221": "southeast"
   },
-  "paths": [
-    "Obvious paths: southeast, south, northwest"
-  ],
+  "timeto": {
+    "416": 0.2,
+    "417": 0.2,
+    "221": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     576,
     169,
     586,
     179
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "You can no longer see the land gates of Wehnimer's from this dirt path, although you can still hear the din of the town on the other side of the wooden palisades.  To the west and southwest lies the untamed land that surrounds Wehnimer's Landing.  To the west, the large wooden fence in front of the Wehnimer's Jousting Arena fills your view."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Wehnimer's, Exterior]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "416": 0.2,
-    "417": 0.2,
-    "221": 0.2
-  },
-  "id": 415,
-  "location": "the Lower Dragonsclaw",
   "tags": [
     "some sovyn clove",
     "some acantha leaf",
@@ -62,10 +59,6 @@
     "motherwort",
     "murkweed",
     "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bur-clover root"
   ]
 }

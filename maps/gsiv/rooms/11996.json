@@ -1,4 +1,15 @@
 {
+  "id": 11996,
+  "title": [
+    "[Aqueduct]"
+  ],
+  "description": [
+    "A layer of water only a foot deep covers the floor of what once was an aqueduct for the city above.  A tunnel runs off in six directions from this point to carry the water to the thirsty residents.  A hole leads upward, and a small amount of light filters down from the hole.  The main illumination, however, is provided by a light green glow from the water underneath.  The air is still and cool, and sounds echo easily off the cramped walls."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east, southeast, southwest, west, northwest"
+  ],
+  "location": "Old Ta'Faendryl",
   "wayto": {
     "11997": "northwest",
     "12008": "southeast",
@@ -8,25 +19,6 @@
     "12002": "southwest",
     "11995": "climb hole"
   },
-  "paths": [
-    "Obvious exits: northeast, east, southeast, southwest, west, northwest"
-  ],
-  "image_coords": [
-    335,
-    213,
-    345,
-    223
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A layer of water only a foot deep covers the floor of what once was an aqueduct for the city above.  A tunnel runs off in six directions from this point to carry the water to the thirsty residents.  A hole leads upward, and a small amount of light filters down from the hole.  The main illumination, however, is provided by a light green glow from the water underneath.  The air is still and cool, and sounds echo easily off the cramped walls."
-  ],
-  "image": "en-old_ta_faendryl-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Aqueduct]"
-  ],
-  "check_location": null,
   "timeto": {
     "11997": 0.2,
     "12008": 0.2,
@@ -36,16 +28,15 @@
     "12002": 0.2,
     "11995": 0.2
   },
-  "id": 11996,
-  "location": "Old Ta'Faendryl",
+  "image": "en-old_ta_faendryl-1264234799.png",
+  "image_coords": [
+    335,
+    213,
+    345,
+    223
+  ],
   "tags": [
     "some wingstem root",
-    "murdroot",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "murdroot"
   ]
 }

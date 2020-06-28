@@ -1,46 +1,38 @@
 {
-  "wayto": {
-    "23258": {
-      "stringproc": "a234c4dfb9348f43358e56adea9291ed"
-    },
-    "23259": {
-      "stringproc": "20bd86befba92047041b874e1739aeb9"
-    },
-    "7449": {
-      "stringproc": "b0515112b374f0190d8dd3851a3d8b9c"
-    },
-    "7441": {
-      "stringproc": "a38d807719728a1c1440a08cf22304a4"
-    },
-    "7442": {
-      "stringproc": "e3d799eb84e7700f4a3e6d2be8ca0cfa"
-    },
-    "7443": {
-      "stringproc": "83c2f3d972bad023563640cfd207c046"
-    },
-    "23265": {
-      "stringproc": "3014f0f1ddce50edda95b441e1eaf20a"
-    }
-  },
-  "paths": [
-    "Obvious paths: north, northeast, east, southeast, south, southwest, west"
-  ],
-  "image_coords": [
-    650,
-    843,
-    659,
-    854
-  ],
-  "terrain": null,
-  "description": [
-    "The terrain here is little more than a jumble of huge boulders and jagged rocks.  Everywhere you look, everything looks the same."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": null,
+  "id": 7438,
   "title": [
     "[The Broken Lands, Jagged Plain]"
   ],
-  "check_location": null,
+  "description": [
+    "The terrain here is little more than a jumble of huge boulders and jagged rocks.  Everywhere you look, everything looks the same."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, east, southeast, south, southwest, west"
+  ],
+  "location": "the Broken Lands",
+  "wayto": {
+    "23258": {
+      "file": "string_procs/wayto/7438_23258.rb"
+    },
+    "23259": {
+      "file": "string_procs/wayto/7438_23259.rb"
+    },
+    "7449": {
+      "file": "string_procs/wayto/7438_7449.rb"
+    },
+    "7441": {
+      "file": "string_procs/wayto/7438_7441.rb"
+    },
+    "7442": {
+      "file": "string_procs/wayto/7438_7442.rb"
+    },
+    "7443": {
+      "file": "string_procs/wayto/7438_7443.rb"
+    },
+    "23265": {
+      "file": "string_procs/wayto/7438_23265.rb"
+    }
+  },
   "timeto": {
     "23258": 3.2,
     "23259": 3.2,
@@ -50,19 +42,18 @@
     "7443": 3.2,
     "23265": 3.2
   },
-  "id": 7438,
-  "location": "the Broken Lands",
+  "image": "wl-broken-1264234799.png",
+  "image_coords": [
+    650,
+    843,
+    659,
+    854
+  ],
   "tags": [
     "large black toadstool",
     "some blackened moss",
     "peer north =~ /^Obvious paths: east, southeast, south, southwest$/",
     "hooded figure",
-    "giant fog beetle",
-    "blackened moss",
-    "black toadstool",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "giant fog beetle"
   ]
 }

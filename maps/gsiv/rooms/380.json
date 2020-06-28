@@ -1,34 +1,31 @@
 {
+  "id": 380,
+  "title": [
+    "[Wehnimer's, Garden Copse]"
+  ],
+  "description": [
+    "The bushes and shrubs grow a bit wilder here, in the shadow of the town wall.  A thick clump of trees of moderate height seem to huddle together as if concealing something.  A narrow footpath through them leads south.",
+    "The bushes and shrubs grow a bit wilder here, in the shadow of the town wall.  A thick clump of trees of moderate height seem to huddle together as if concealing something.  A mithril gate leads south."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "the Lower Dragonsclaw",
   "wayto": {
     "376": "northeast",
     "26007": "go gate"
   },
-  "paths": [
-    "Obvious paths: northeast"
-  ],
+  "timeto": {
+    "376": 0.2,
+    "26007": 0.2
+  },
+  "image": "wl-wehnimers-1264234799.png",
   "image_coords": [
     1273,
     870,
     1309,
     906
   ],
-  "terrain": "cultivated",
-  "description": [
-    "The bushes and shrubs grow a bit wilder here, in the shadow of the town wall.  A thick clump of trees of moderate height seem to huddle together as if concealing something.  A narrow footpath through them leads south.",
-    "The bushes and shrubs grow a bit wilder here, in the shadow of the town wall.  A thick clump of trees of moderate height seem to huddle together as if concealing something.  A mithril gate leads south."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Wehnimer's, Garden Copse]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "376": 0.2,
-    "26007": 0.2
-  },
-  "id": 380,
-  "location": "the Lower Dragonsclaw",
   "tags": [
     "some calamia fruit",
     "some cactacae spine",
@@ -94,11 +91,6 @@
     "blue whortleberry",
     "yew twig",
     "wavepetal blossom",
-    "onion skin",
-    "sunburst blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "onion skin"
   ]
 }

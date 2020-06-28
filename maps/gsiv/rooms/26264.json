@@ -1,35 +1,28 @@
 {
+  "id": 26264,
+  "title": [
+    "[Banshee Tower, Fourth Floor]"
+  ],
+  "description": [
+    "A well-dressed specter stands at the end of the room, his ethereal hands pressed against the opaque wall as he stares into its depths.  The forlorn cry of a banshee shrieks nearby."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Talador",
   "wayto": {
     "26263": "go mist",
     "26265": "east"
   },
-  "paths": [
-    "Obvious exits: east"
-  ],
+  "timeto": {
+    "26263": 0.2,
+    "26265": 0.2
+  },
+  "image": "wl-lichs_landing-1500800742.png",
   "image_coords": [
     126,
     330,
     152,
     357
-  ],
-  "terrain": null,
-  "description": [
-    "A well-dressed specter stands at the end of the room, his ethereal hands pressed against the opaque wall as he stares into its depths.  The forlorn cry of a banshee shrieks nearby."
-  ],
-  "image": "wl-lichs_landing-1500800742.png",
-  "climate": null,
-  "title": [
-    "[Banshee Tower, Fourth Floor]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26263": 0.2,
-    "26265": 0.2
-  },
-  "id": 26264,
-  "location": "Talador",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

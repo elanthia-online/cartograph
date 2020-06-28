@@ -1,4 +1,17 @@
 {
+  "id": 7,
+  "title": [
+    "[Ta'Illistim, BriarStone Court]"
+  ],
+  "description": [
+    "The stonework tracery rosette windows of the Moonglae Inn sparkle in the light, casting tiny rainbows of shimmering hues across the puddles of water accumulated amongst the cobblestones of the court.  The building's mica-flecked granite exterior, worn smooth with age and elements, stands testament to the city's rich and storied history.",
+    "The stonework tracery rosette windows of the Moonglae Inn sparkle in the starlight, casting tiny rainbows of shimmering hues from off their stained glass panes.",
+    "The stonework tracery rosette windows of the Moonglae Inn sparkle in the light, casting tiny rainbows of shimmering hues from off their stained glass panes.  Surrounding the colorful windows, the building's silvery blue granite exterior is worn smooth from age and the elements.  Against the clean, new looking marbles of the structures nearby, the Inn shows its years."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, southwest, northwest"
+  ],
+  "location": "Ta'Illistim",
   "wayto": {
     "6": "go inn",
     "8": "northeast",
@@ -6,49 +19,26 @@
     "208": "northwest",
     "155": "north",
     "3668": {
-      "stringproc": "592e7660bc67a7aa2aeeed086c964162"
+      "file": "string_procs/wayto/7_3668.rb"
     }
   },
-  "paths": [
-    "Obvious paths: north, northeast, southwest, northwest"
-  ],
-  "image_coords": [
-    529,
-    450,
-    551,
-    475
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "The stonework tracery rosette windows of the Moonglae Inn sparkle in the light, casting tiny rainbows of shimmering hues across the puddles of water accumulated amongst the cobblestones of the court.  The building's mica-flecked granite exterior, worn smooth with age and elements, stands testament to the city's rich and storied history.",
-    "The stonework tracery rosette windows of the Moonglae Inn sparkle in the starlight, casting tiny rainbows of shimmering hues from off their stained glass panes.",
-    "The stonework tracery rosette windows of the Moonglae Inn sparkle in the light, casting tiny rainbows of shimmering hues from off their stained glass panes.  Surrounding the colorful windows, the building's silvery blue granite exterior is worn smooth from age and the elements.  Against the clean, new looking marbles of the structures nearby, the Inn shows its years."
-  ],
-  "image": "en-ta_illistim-new.jpg",
-  "climate": "temperate",
-  "title": [
-    "[Ta'Illistim, BriarStone Court]"
-  ],
-  "check_location": null,
   "timeto": {
     "6": {
-      "stringproc": "6b6d81971f45e956cd4546c5450c6d08"
+      "file": "string_procs/timeto/7_6.rb"
     },
     "8": 0.2,
     "196": 0.2,
     "208": 0.2,
     "155": 0.2,
     "3668": {
-      "stringproc": "2e87af919b7aa36629593478fcf980f8"
+      "file": "string_procs/timeto/7_3668.rb"
     }
   },
-  "id": 7,
-  "location": "Ta'Illistim",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-ta_illistim-new.jpg",
+  "image_coords": [
+    529,
+    450,
+    551,
+    475
   ]
 }

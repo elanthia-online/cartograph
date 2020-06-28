@@ -1,42 +1,32 @@
 {
-  "wayto": {
-    "1232": {
-      "stringproc": "d56a609885926b9cbfa4998e77b03e42"
-    },
-    "1230": {
-      "stringproc": "cd73eb6bf204724eab9e7decb092f867"
-    }
-  },
+  "id": 1231,
+  "title": [
+    "[Vipershroud, Inside the Tree]"
+  ],
+  "description": [
+    "Pitch blackness eliminates vision, and progress must be made through the sense of touch.  The sound of small scurryings and scrapings echoes faintly in the tight confines of the log, and soft, wriggly bodies squish easily under hand and foot.  The odor of decay, rising from the damp, pressing walls adds to the discomfort from the steamy humidity.  No way forward is apparent in the darkness, although the way back out is readily remembered."
+  ],
   "paths": [
     "Obvious exits: out"
   ],
+  "location": "the Vipershroud",
+  "wayto": {
+    "1232": {
+      "file": "string_procs/wayto/1231_1232.rb"
+    },
+    "1230": {
+      "file": "string_procs/wayto/1231_1230.rb"
+    }
+  },
+  "timeto": {
+    "1232": 10.0,
+    "1230": 10.0
+  },
+  "image": "en-trail-1264234799.png",
   "image_coords": [
     120,
     739,
     130,
     749
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Pitch blackness eliminates vision, and progress must be made through the sense of touch.  The sound of small scurryings and scrapings echoes faintly in the tight confines of the log, and soft, wriggly bodies squish easily under hand and foot.  The odor of decay, rising from the damp, pressing walls adds to the discomfort from the steamy humidity.  No way forward is apparent in the darkness, although the way back out is readily remembered."
-  ],
-  "image": "en-trail-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Vipershroud, Inside the Tree]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1232": 10.0,
-    "1230": 10.0
-  },
-  "id": 1231,
-  "location": "the Vipershroud",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

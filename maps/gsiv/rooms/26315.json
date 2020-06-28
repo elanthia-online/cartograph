@@ -1,35 +1,28 @@
 {
+  "id": 26315,
+  "title": [
+    "[Lich Citadel, Feast Yard]"
+  ],
+  "description": [
+    "Deformed, hunched-over ghouls shift through a pile of bones and limbs, hungrily chomping on bits of flesh and ligaments.  Their feasting is sloppy and loud, and their red eyes dart about wildly."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "Talador",
   "wayto": {
     "26314": "west",
     "26316": "north"
   },
-  "paths": [
-    "Obvious exits: north, west"
-  ],
+  "timeto": {
+    "26314": 0.2,
+    "26316": 0.2
+  },
+  "image": "wl-lichs_landing-1500800742.png",
   "image_coords": [
     1447,
     888,
     1474,
     914
-  ],
-  "terrain": null,
-  "description": [
-    "Deformed, hunched-over ghouls shift through a pile of bones and limbs, hungrily chomping on bits of flesh and ligaments.  Their feasting is sloppy and loud, and their red eyes dart about wildly."
-  ],
-  "image": "wl-lichs_landing-1500800742.png",
-  "climate": null,
-  "title": [
-    "[Lich Citadel, Feast Yard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26314": 0.2,
-    "26316": 0.2
-  },
-  "id": 26315,
-  "location": "Talador",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

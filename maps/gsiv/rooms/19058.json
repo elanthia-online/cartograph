@@ -1,4 +1,15 @@
 {
+  "id": 19058,
+  "title": [
+    "[Spitfire, Main Deck Starboard]"
+  ],
+  "description": [
+    "A couple of halfling sailors are kneeling on the deck, discussing the condition of the \"trunnels\" in their colorful burr.  This section of the main deck offers entrances into the deckhouse.  A delicious scent wafts out, indicating the presence of the galley inside.  Smoke curls from a black smokepipe extending out of the roof of the deckhouse galley."
+  ],
+  "paths": [
+    "Obvious paths: north, south, west"
+  ],
+  "location": "the bay",
   "wayto": {
     "19068": "north",
     "19059": "go galley door",
@@ -6,29 +17,10 @@
     "19061": "go shrouds",
     "19062": "south",
     "19075": {
-      "stringproc": "71e134f5e56d7919383565f16e2f9b42"
+      "file": "string_procs/wayto/19058_19075.rb"
     },
     "19054": "west"
   },
-  "paths": [
-    "Obvious paths: north, south, west"
-  ],
-  "image_coords": [
-    160,
-    312,
-    198,
-    350
-  ],
-  "terrain": null,
-  "description": [
-    "A couple of halfling sailors are kneeling on the deck, discussing the condition of the \"trunnels\" in their colorful burr.  This section of the main deck offers entrances into the deckhouse.  A delicious scent wafts out, indicating the presence of the galley inside.  Smoke curls from a black smokepipe extending out of the roof of the deckhouse galley."
-  ],
-  "image": "fest-spitfire-1302895531.jpg",
-  "climate": null,
-  "title": [
-    "[Spitfire, Main Deck Starboard]"
-  ],
-  "check_location": null,
   "timeto": {
     "19068": 0.2,
     "19059": 0.2,
@@ -38,12 +30,11 @@
     "19075": 2.0,
     "19054": 0.2
   },
-  "id": 19058,
-  "location": "the bay",
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "fest-spitfire-1302895531.jpg",
+  "image_coords": [
+    160,
+    312,
+    198,
+    350
   ]
 }

@@ -1,39 +1,31 @@
 {
+  "id": 399,
+  "title": [
+    "[First Elanith Bank, Lobby]"
+  ],
+  "description": [
+    "An ancient gnoll keeps a watchful, though nervous, eye over the people visiting Wehnimer's Landing's main bank, the First Elanith Secure Stronghold.  Large, dirty windows allow little air to disturb the layers of dust on the threadbare carpet.  The few flickering candles around the room add virtually no light.  A broken gate from a teller's window sits in the corner."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "285": "out",
     "400": "go arch"
   },
-  "paths": [
-    "Obvious exits: out"
-  ],
+  "timeto": {
+    "285": 0.2,
+    "400": 0.2
+  },
+  "image": "wl-wehnimers-1264234799.png",
   "image_coords": [
     196,
     617,
     232,
     653
   ],
-  "terrain": "indoors",
-  "description": [
-    "An ancient gnoll keeps a watchful, though nervous, eye over the people visiting Wehnimer's Landing's main bank, the First Elanith Secure Stronghold.  Large, dirty windows allow little air to disturb the layers of dust on the threadbare carpet.  The few flickering candles around the room add virtually no light.  A broken gate from a teller's window sits in the corner."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[First Elanith Bank, Lobby]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "285": 0.2,
-    "400": 0.2
-  },
-  "id": 399,
-  "location": "Wehnimer's Landing",
   "tags": [
-    "meta:teleport:fwi",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:teleport:fwi"
   ]
 }

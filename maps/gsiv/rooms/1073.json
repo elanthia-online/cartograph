@@ -1,42 +1,32 @@
 {
-  "wayto": {
-    "1072": {
-      "stringproc": "7f47775a8d03adf9eed02427d7255bd2"
-    },
-    "1074": {
-      "stringproc": "997d68142846bde0c8a03a8922f6585a"
-    }
-  },
+  "id": 1073,
+  "title": [
+    "[Rope Ladder]"
+  ],
+  "description": [
+    "The sheer side of the Dead Plateau looms in front of you, the surface smooth and devoid of plant life.  To the north and east the mists spread out below to blanket the area in a white, frothy covering.  The rope ladder extends several hundred feet above to the top of the plateau, while below it drops straight down into the concealing mists.  A slight wind buffets you, causing the rope ladder to rock back and forth."
+  ],
   "paths": [
     "Obvious paths: up, down"
   ],
+  "location": "the Locksmehr Trail",
+  "wayto": {
+    "1072": {
+      "file": "string_procs/wayto/1073_1072.rb"
+    },
+    "1074": {
+      "file": "string_procs/wayto/1073_1074.rb"
+    }
+  },
+  "timeto": {
+    "1072": 15.0,
+    "1074": 15.0
+  },
+  "image": "en-trail-1264234799.png",
   "image_coords": [
     1245,
     739,
     1255,
     749
-  ],
-  "terrain": "missing",
-  "description": [
-    "The sheer side of the Dead Plateau looms in front of you, the surface smooth and devoid of plant life.  To the north and east the mists spread out below to blanket the area in a white, frothy covering.  The rope ladder extends several hundred feet above to the top of the plateau, while below it drops straight down into the concealing mists.  A slight wind buffets you, causing the rope ladder to rock back and forth."
-  ],
-  "image": "en-trail-1264234799.png",
-  "climate": "missing",
-  "title": [
-    "[Rope Ladder]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1072": 15.0,
-    "1074": 15.0
-  },
-  "id": 1073,
-  "location": "the Locksmehr Trail",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

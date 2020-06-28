@@ -1,45 +1,34 @@
 {
+  "id": 4987,
+  "title": [
+    "[Maernstrike Caverns, Tunnel]"
+  ],
+  "description": [
+    "This vast cavernous space serves as the mausoleum for the inhabitants of these tunnels.  Row upon row of oblong niches are cut deeply into these walls, stretching from the ground all the way to the ceiling to house the bones of those now long dead.  The air itself is putrid."
+  ],
+  "paths": [
+    "Obvious exits: southwest, northwest"
+  ],
+  "location": "the Maernstrike Caverns",
   "wayto": {
     "4986": "southwest",
     "4988": "northwest"
   },
-  "paths": [
-    "Obvious exits: southwest, northwest"
-  ],
+  "timeto": {
+    "4986": 0.2,
+    "4988": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     1356,
     281,
     1366,
     291
   ],
-  "terrain": "indoors",
-  "description": [
-    "This vast cavernous space serves as the mausoleum for the inhabitants of these tunnels.  Row upon row of oblong niches are cut deeply into these walls, stretching from the ground all the way to the ceiling to house the bones of those now long dead.  The air itself is putrid."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Maernstrike Caverns, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4986": 0.2,
-    "4988": 0.2
-  },
-  "id": 4987,
-  "location": "the Maernstrike Caverns",
   "tags": [
     "some cave moss",
     "some wingstem root",
     "some bolmara lichen",
-    "white hook mushroom",
-    "cave moss",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "white hook mushroom"
   ]
 }

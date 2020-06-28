@@ -1,40 +1,30 @@
 {
+  "id": 3712,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "The cool, damp air is stale and difficult to breathe.  Torches flicker with an unsteady light, threatening to plunge you into utter darkness.  Now and then one flares unexpectedly, fraying your taut nerves just a bit more."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "3806": "go door",
     "3713": "south",
     "3692": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
-  "image_coords": [
-    148,
-    1117,
-    158,
-    1127
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The cool, damp air is stale and difficult to breathe.  Torches flicker with an unsteady light, threatening to plunge you into utter darkness.  Now and then one flares unexpectedly, fraying your taut nerves just a bit more."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
   "timeto": {
     "3806": 0.2,
     "3713": 0.2,
     "3692": 0.2
   },
-  "id": 3712,
-  "location": "Darkstone Castle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-darkstone-1264234799.png",
+  "image_coords": [
+    148,
+    1117,
+    158,
+    1127
   ]
 }

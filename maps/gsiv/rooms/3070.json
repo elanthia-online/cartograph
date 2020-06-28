@@ -1,35 +1,32 @@
 {
+  "id": 3070,
+  "title": [
+    "[Icemule Trace, Snowfield]"
+  ],
+  "description": [
+    "A row of pines nearly conceals a wooden archway to the east.  The wind blows through the upper branches of the trees, alternately hiding or revealing some sort of building in that direction."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the southern snowfields",
   "wayto": {
     "3091": "go archway",
     "3036": "south",
     "3071": "north"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "3091": 0.2,
+    "3036": 0.2,
+    "3071": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     602,
     673,
     612,
     683
   ],
-  "terrain": "grassland",
-  "description": [
-    "A row of pines nearly conceals a wooden archway to the east.  The wind blows through the upper branches of the trees, alternately hiding or revealing some sort of building in that direction."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Icemule Trace, Snowfield]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3091": 0.2,
-    "3036": 0.2,
-    "3071": 0.2
-  },
-  "id": 3070,
-  "location": "the southern snowfields",
   "tags": [
     "wavepetal blossom",
     "some angelica root",
@@ -48,18 +45,6 @@
     "some pennyroyal stem",
     "some tundra grass",
     "bright green iceblossom",
-    "bright red iceblossom",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "edelweiss",
-    "iceblossoms",
-    "arctic moss",
-    "tundra grass",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bright red iceblossom"
   ]
 }

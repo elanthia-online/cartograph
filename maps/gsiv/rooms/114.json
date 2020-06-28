@@ -1,38 +1,28 @@
 {
+  "id": 114,
+  "title": [
+    "[Temple Wyneb, Calvaria]"
+  ],
+  "description": [
+    "Dark streaks run down the wall like crooked fingers.  A shallow groove has been worn into the center of the floor by years of shuffling feet, and even the dust seems to prefer settling to one side or another."
+  ],
+  "paths": [
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "Temple Wyneb",
   "wayto": {
     "113": "northwest",
     "115": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast, northwest"
-  ],
+  "timeto": {
+    "113": 0.2,
+    "115": 0.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     530,
     654,
     540,
     664
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Dark streaks run down the wall like crooked fingers.  A shallow groove has been worn into the center of the floor by years of shuffling feet, and even the dust seems to prefer settling to one side or another."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Temple Wyneb, Calvaria]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "113": 0.2,
-    "115": 0.2
-  },
-  "id": 114,
-  "location": "Temple Wyneb",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

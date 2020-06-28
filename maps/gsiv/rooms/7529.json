@@ -1,40 +1,30 @@
 {
+  "id": 7529,
+  "title": [
+    "[Catacombs, Underground Lake]"
+  ],
+  "description": [
+    "Fresh, clear water pours out of a smooth, elliptical passage to the west and gently cascades into a lake here.  About the only sound you can hear is the soft chuckling of the water as it rolls through small stones that have been rounded with time.  To the north and east, the shore of the lake becomes muddy and disappears into darkness."
+  ],
+  "paths": [
+    "Obvious exits: north, east, west"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "7527": "east",
     "7530": "north",
     "7532": "west"
   },
-  "paths": [
-    "Obvious exits: north, east, west"
-  ],
-  "image_coords": [
-    501,
-    1288,
-    511,
-    1298
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Fresh, clear water pours out of a smooth, elliptical passage to the west and gently cascades into a lake here.  About the only sound you can hear is the soft chuckling of the water as it rolls through small stones that have been rounded with time.  To the north and east, the shore of the lake becomes muddy and disappears into darkness."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Catacombs, Underground Lake]"
-  ],
-  "check_location": null,
   "timeto": {
     "7527": 0.2,
     "7530": 0.2,
     "7532": 0.2
   },
-  "id": 7529,
-  "location": "the catacombs",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-catacombs-1264234799.png",
+  "image_coords": [
+    501,
+    1288,
+    511,
+    1298
   ]
 }

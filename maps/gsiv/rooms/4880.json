@@ -1,36 +1,33 @@
 {
+  "id": 4880,
+  "title": [
+    "[Gyldemar Forest, Clearing]"
+  ],
+  "description": [
+    "Swallows dip and wheel around a deep cleft in the cliff face, some of them bearing bits of grass and vines to be used for nests.  The wildflowers that carpet the clearing are in full bloom, their brilliant yellows and purples a welcome change from the starkness of the pale grey cliff face to the north.",
+    "Bats flutter around the night-blooming plants at the base of the cliff, drawn there by drifts of insects which swarm around the sweet-smelling blossoms.  Denser foliage to the south obscures the more distant trees, but seems passable if potentially treacherous at night.  A deep cleft in the cliff face is a blacker shadow against the dark grey stone."
+  ],
+  "paths": [
+    "Obvious paths: east, south"
+  ],
+  "location": "Gyldemar Forest",
   "wayto": {
     "4879": "east",
     "4881": "south",
     "4882": "climb cleft"
   },
-  "paths": [
-    "Obvious paths: east, south"
-  ],
+  "timeto": {
+    "4879": 0.2,
+    "4881": 0.2,
+    "4882": 0.2
+  },
+  "image": "en-gyldemar-1264234799.png",
   "image_coords": [
     731,
     242,
     741,
     252
   ],
-  "terrain": "grassland",
-  "description": [
-    "Swallows dip and wheel around a deep cleft in the cliff face, some of them bearing bits of grass and vines to be used for nests.  The wildflowers that carpet the clearing are in full bloom, their brilliant yellows and purples a welcome change from the starkness of the pale grey cliff face to the north.",
-    "Bats flutter around the night-blooming plants at the base of the cliff, drawn there by drifts of insects which swarm around the sweet-smelling blossoms.  Denser foliage to the south obscures the more distant trees, but seems passable if potentially treacherous at night.  A deep cleft in the cliff face is a blacker shadow against the dark grey stone."
-  ],
-  "image": "en-gyldemar-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Gyldemar Forest, Clearing]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4879": 0.2,
-    "4881": 0.2,
-    "4882": 0.2
-  },
-  "id": 4880,
-  "location": "Gyldemar Forest",
   "tags": [
     "rose-marrow root",
     "handful of huckleberries",
@@ -74,52 +71,6 @@
     "some brostheras grass",
     "small dandelion",
     "stalk of monkeyflower",
-    "sprig of mournbloom",
-    "acantha leaf",
-    "ambrominas leaf",
-    "sovyn clove",
-    "angelica root",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "small violet",
-    "stalk of chicory",
-    "wild grapes",
-    "sprig of alyssum",
-    "golden buttercup",
-    "red clover blossom",
-    "purple clover blossom",
-    "stalk of goldenrod",
-    "yellow primrose",
-    "Imaera's Lace",
-    "stalk of burdock",
-    "barley grass",
-    "wheat grass",
-    "ear of corn",
-    "mustard seeds",
-    "wild sage",
-    "wild chokecherry",
-    "motherwort",
-    "wild orchid",
-    "wolfsbane root",
-    "huckleberries",
-    "sprig of ivy",
-    "raspberries",
-    "juicy plum",
-    "murkweed",
-    "white lily",
-    "pepperthorn root",
-    "luckbloom blossom",
-    "murdroot",
-    "wavepetal blossom",
-    "ironfern root",
-    "sunburst blossom",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sprig of mournbloom"
   ]
 }

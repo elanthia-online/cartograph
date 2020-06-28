@@ -1,40 +1,32 @@
 {
-  "wayto": {
-    "25702": {
-      "stringproc": "7c97847f49fd5aa0407dedb0e3609199"
-    },
-    "27044": {
-      "stringproc": "7c97847f49fd5aa0407dedb0e3609199"
-    },
-    "25700": {
-      "stringproc": "9b05cb4429e6ad5efbe157efd92e6023"
-    },
-    "25773": {
-      "stringproc": "b3903ef3130903d58c1b8b478bec601b"
-    },
-    "25796": {
-      "stringproc": "7c906cf3c37f156a5de40e3486f4dfc0"
-    }
-  },
-  "paths": [
-    "Obvious paths: northeast, southeast, southwest, northwest"
-  ],
-  "image_coords": [
-    1520,
-    1519,
-    1540,
-    1539
-  ],
-  "terrain": null,
-  "description": [
-    "Sprawling out in all directions, the waters of the harbor gyrate with small waves that have frothy white caps.  To the north the distant swimming area is surrounded by a series of blown glass globes, while to the east, west, and south small islands obscure the view of the outer barrier of Charl's Teeth."
-  ],
-  "image": "ifw-eastern_waterway-1489553700.png",
-  "climate": null,
+  "id": 25701,
   "title": [
     "[Eastern Waterway]"
   ],
-  "check_location": null,
+  "description": [
+    "Sprawling out in all directions, the waters of the harbor gyrate with small waves that have frothy white caps.  To the north the distant swimming area is surrounded by a series of blown glass globes, while to the east, west, and south small islands obscure the view of the outer barrier of Charl's Teeth."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, southwest, northwest"
+  ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "25702": {
+      "file": "string_procs/wayto/25701_25702.rb"
+    },
+    "27044": {
+      "file": "string_procs/wayto/25701_27044.rb"
+    },
+    "25700": {
+      "file": "string_procs/wayto/25701_25700.rb"
+    },
+    "25773": {
+      "file": "string_procs/wayto/25701_25773.rb"
+    },
+    "25796": {
+      "file": "string_procs/wayto/25701_25796.rb"
+    }
+  },
   "timeto": {
     "25702": 6.0,
     "27044": 6.0,
@@ -42,10 +34,11 @@
     "25773": 6.0,
     "25796": 6.0
   },
-  "id": 25701,
-  "location": "Mist Harbor",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  "image": "ifw-eastern_waterway-1489553700.png",
+  "image_coords": [
+    1520,
+    1519,
+    1540,
+    1539
+  ]
 }

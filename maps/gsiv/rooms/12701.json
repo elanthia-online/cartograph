@@ -1,38 +1,28 @@
 {
+  "id": 12701,
+  "title": [
+    "[Ruined Temple, Nexus]"
+  ],
+  "description": [
+    "A single stone stand rests in the center of the balcony, and a smooth stone statue, masterfully carved to resemble a single droplet of water, is placed on top of it.  Water gently flows back and forth about the area, making a soft splash as the waves contact the stone stand.  Two stone causeways, one wide and one elaborately carved, ascend from the balcony to the east and west, and each is supported by a series of marble pillars."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Ruined Temple",
   "wayto": {
     "12690": "go carved causeway",
     "12702": "go wide causeway"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "12690": 0.2,
+    "12702": 0.2
+  },
+  "image": "ti-nelemar-1262373036.png",
   "image_coords": [
     675,
     438,
     711,
     474
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A single stone stand rests in the center of the balcony, and a smooth stone statue, masterfully carved to resemble a single droplet of water, is placed on top of it.  Water gently flows back and forth about the area, making a soft splash as the waves contact the stone stand.  Two stone causeways, one wide and one elaborately carved, ascend from the balcony to the east and west, and each is supported by a series of marble pillars."
-  ],
-  "image": "ti-nelemar-1262373036.png",
-  "climate": "indoors",
-  "title": [
-    "[Ruined Temple, Nexus]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "12690": 0.2,
-    "12702": 0.2
-  },
-  "id": 12701,
-  "location": "the Ruined Temple",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

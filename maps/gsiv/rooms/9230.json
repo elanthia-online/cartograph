@@ -1,40 +1,30 @@
 {
+  "id": 9230,
+  "title": [
+    "[Thurfel's Cellar]"
+  ],
+  "description": [
+    "Dug into the stone wall is a perfectly circular hole, its interior coated with a shiny reflective glaze.  The mirror-like finish is clear of any flaws or blemishes, but the rounded nature of the hole warps any images it reflects."
+  ],
+  "paths": [
+    "Obvious exits: north, east, west"
+  ],
+  "location": "Thurfel's Island",
   "wayto": {
     "9229": "east",
     "9231": "west",
     "9235": "north"
   },
-  "paths": [
-    "Obvious exits: north, east, west"
-  ],
-  "image_coords": [
-    1199,
-    1003,
-    1209,
-    1013
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Dug into the stone wall is a perfectly circular hole, its interior coated with a shiny reflective glaze.  The mirror-like finish is clear of any flaws or blemishes, but the rounded nature of the hole warps any images it reflects."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thurfel's Cellar]"
-  ],
-  "check_location": null,
   "timeto": {
     "9229": 0.2,
     "9231": 0.2,
     "9235": 0.2
   },
-  "id": 9230,
-  "location": "Thurfel's Island",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "imt-underground-1264234799.png",
+  "image_coords": [
+    1199,
+    1003,
+    1209,
+    1013
   ]
 }

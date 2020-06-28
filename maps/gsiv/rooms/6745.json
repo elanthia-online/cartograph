@@ -1,35 +1,32 @@
 {
+  "id": 6745,
+  "title": [
+    "[Graendlor Pasture]"
+  ],
+  "description": [
+    "The stream meanders through the rocky meadowlands, wandering lazily into the trees to the north.  Where it enters the forest, you catch a glimpse of a large pool of water nestled in the modwirs and pines.  The natural boundary of the pasture has been expanded up the slope to the northwest, and scattered stumps can be seen dotting the hillside."
+  ],
+  "paths": [
+    "Obvious paths: north, east, southwest"
+  ],
+  "location": "Graendlor Pasture",
   "wayto": {
     "6744": "east",
     "6746": "north",
     "6761": "southwest"
   },
-  "paths": [
-    "Obvious paths: north, east, southwest"
-  ],
+  "timeto": {
+    "6744": 0.2,
+    "6746": 0.2,
+    "6761": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     469,
     731,
     479,
     741
   ],
-  "terrain": "riparian",
-  "description": [
-    "The stream meanders through the rocky meadowlands, wandering lazily into the trees to the north.  Where it enters the forest, you catch a glimpse of a large pool of water nestled in the modwirs and pines.  The natural boundary of the pasture has been expanded up the slope to the northwest, and scattered stumps can be seen dotting the hillside."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Graendlor Pasture]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6744": 0.2,
-    "6746": 0.2,
-    "6761": 0.2
-  },
-  "id": 6745,
-  "location": "Graendlor Pasture",
   "tags": [
     "some acantha leaf",
     "pepperthorn root",
@@ -45,33 +42,6 @@
     "kylan berry",
     "wild chokecherry",
     "withered black mushroom",
-    "sprig of Imaera's Lace",
-    "acantha leaf",
-    "calamia fruit",
-    "flathead mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "blueberries",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "water chestnut",
-    "wild grapes",
-    "stalk of cattail",
-    "stalk of bluebells",
-    "red clover blossom",
-    "white clover blossom",
-    "yellow clover blossom",
-    "stalk of goldenrod",
-    "small wild rose",
-    "Imaera's Lace",
-    "murdroot",
-    "wavepetal blossom",
-    "ironfern root",
-    "talneo root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sprig of Imaera's Lace"
   ]
 }

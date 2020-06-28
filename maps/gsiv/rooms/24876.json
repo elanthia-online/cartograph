@@ -1,39 +1,35 @@
 {
+  "id": 24876,
+  "title": [
+    "[A Cavernous Approach]"
+  ],
+  "description": [
+    "The path ends on a small platform, where hanging just out of reach over the crater are some massive chains, swaying back and forth.  The ceiling of the cavern is carved out in a circular shape surrounding the chains as they continue skyward.  Dense banks of clouds cling to the opening in the ceiling, blotting out any light from above."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Thurfel's Island",
   "wayto": {
     "24883": {
-      "stringproc": "c232659493241cd3e603c90436331c4a"
+      "file": "string_procs/wayto/24876_24883.rb"
     },
     "24875": "out",
     "24842": "go camp"
   },
-  "paths": [
-    "Obvious exits: out"
-  ],
+  "timeto": {
+    "24883": 2.0,
+    "24875": 0.2,
+    "24842": 0.2
+  },
+  "image": "imt-Reim-1260914759.png",
   "image_coords": [
     736,
     968,
     749,
     981
   ],
-  "terrain": null,
-  "description": [
-    "The path ends on a small platform, where hanging just out of reach over the crater are some massive chains, swaying back and forth.  The ceiling of the cavern is carved out in a circular shape surrounding the chains as they continue skyward.  Dense banks of clouds cling to the opening in the ceiling, blotting out any light from above."
-  ],
-  "image": "imt-Reim-1260914759.png",
-  "climate": null,
-  "title": [
-    "[A Cavernous Approach]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24883": 2.0,
-    "24875": 0.2,
-    "24842": 0.2
-  },
-  "id": 24876,
-  "location": "Thurfel's Island",
   "tags": [
     "reim"
-  ],
-  "unique_loot": null
+  ]
 }

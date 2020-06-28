@@ -1,42 +1,35 @@
 {
+  "id": 3471,
+  "title": [
+    "[Snowy Plains, Deep Freeze]"
+  ],
+  "description": [
+    "What a miserable, desolate place this is with its never-ending wind, blinding snow and treacherous ice.  You simply can't fathom why any creature would choose such an abominable area to call home."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest"
+  ],
+  "location": "the Icemule Trail",
   "wayto": {
     "3470": "southwest",
     "3472": "north"
   },
-  "paths": [
-    "Obvious paths: north, southwest"
-  ],
+  "timeto": {
+    "3470": 0.2,
+    "3472": 0.2
+  },
+  "image": "imt-trail-1264234799.png",
   "image_coords": [
     1012,
     771,
     1022,
     781
   ],
-  "terrain": "rough",
-  "description": [
-    "What a miserable, desolate place this is with its never-ending wind, blinding snow and treacherous ice.  You simply can't fathom why any creature would choose such an abominable area to call home."
-  ],
-  "image": "imt-trail-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Snowy Plains, Deep Freeze]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3470": 0.2,
-    "3472": 0.2
-  },
-  "id": 3471,
-  "location": "the Icemule Trail",
   "tags": [
     "wintergreen leaf",
     "bright red teaberry",
     "arctic moss",
     "broken twig",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

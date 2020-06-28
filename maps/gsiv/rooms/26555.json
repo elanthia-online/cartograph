@@ -1,18 +1,11 @@
 {
-  "wayto": {
-    "26554": "southwest",
-    "26552": "south"
-  },
-  "paths": [
-    "Obvious paths: south, southwest"
+  "id": 26555,
+  "title": [
+    "[Ruined Structure, Interior]",
+    "[Reconstructed Temple, Interior]",
+    "[Temple, Outer Sanctuary]",
+    "[Granite Temple, Outer Sanctuary]"
   ],
-  "image_coords": [
-    396,
-    386,
-    409,
-    397
-  ],
-  "terrain": null,
   "description": [
     "The line of the wall is little more than an uneven stack of cracked granite blocks, leaving the interior of the structure open to the elements.  Deep fissures score the floor underfoot, and crumbled bits of rubble have collected along the wall's base.",
     "Half-finished with seams of mortar visible between the blocks, the interior wall is just a tad higher than the average human.  Perhaps it is nothing more than a play of light on the stone, as only a single lantern lights this corner, but a vaguely skull-shaped discoloration contrasts with the darker surrounding stone.",
@@ -20,23 +13,23 @@
     "Slivers of amber light pierce the dim in this area, cut by the pillars at the edge of the sanctuary as it spills past.  Centered on the wall within one slice of light is a fine silvery grey elesine tapestry embroidered with a chelioboros wrought in indigo silks.  A slow cadence of whispers wends through, the words indistinct and accompanied by a dark thread of energy that  causes hackles to rise.",
     "Slivers of amber light pierce the dim in this area, cut by the pillars at the edge of the sanctuary as it spills past.  Centered on the wall within one slice of light is a fine silvery grey elesine tapestry embroidered with a chelioboros wrought in indigo silks.  A slow cadence of whispers wends through, the words indistinct and accompanied by a dark thread of energy that causes hackles to rise."
   ],
-  "image": "fest-ebon_gate-caligos_isle-1539222190.png",
-  "climate": null,
-  "title": [
-    "[Ruined Structure, Interior]",
-    "[Reconstructed Temple, Interior]",
-    "[Temple, Outer Sanctuary]",
-    "[Granite Temple, Outer Sanctuary]"
+  "paths": [
+    "Obvious paths: south, southwest"
   ],
-  "check_location": null,
+  "location": "Caligos Isle",
+  "wayto": {
+    "26554": "southwest",
+    "26552": "south"
+  },
   "timeto": {
     "26554": 0.2,
     "26552": 0.2
   },
-  "id": 26555,
-  "location": "Caligos Isle",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  "image": "fest-ebon_gate-caligos_isle-1539222190.png",
+  "image_coords": [
+    396,
+    386,
+    409,
+    397
+  ]
 }

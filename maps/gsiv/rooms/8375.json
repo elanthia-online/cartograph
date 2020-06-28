@@ -1,48 +1,36 @@
 {
+  "id": 8375,
+  "title": [
+    "[Thanatoph Bowels, Tunnel]"
+  ],
+  "description": [
+    "A passageway of moss-covered hardened mud leads off to the west.  Greenish slime dripping down the walls glows faintly, and provides scant light for the area.  The sound of something moving along the ground can be heard in the distance."
+  ],
+  "paths": [
+    "Obvious exits: southwest, west, out"
+  ],
+  "location": "the bowels of Thanatoph",
   "wayto": {
     "8383": "southwest",
     "8374": "out",
     "8376": "west"
   },
-  "paths": [
-    "Obvious exits: southwest, west, out"
-  ],
+  "timeto": {
+    "8383": 0.2,
+    "8374": 0.2,
+    "8376": 0.2
+  },
+  "image": "wl-stronghold-1264234799.png",
   "image_coords": [
     1156,
     361,
     1166,
     371
   ],
-  "terrain": "indoors",
-  "description": [
-    "A passageway of moss-covered hardened mud leads off to the west.  Greenish slime dripping down the walls glows faintly, and provides scant light for the area.  The sound of something moving along the ground can be heard in the distance."
-  ],
-  "image": "wl-stronghold-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thanatoph Bowels, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8383": 0.2,
-    "8374": 0.2,
-    "8376": 0.2
-  },
-  "id": 8375,
-  "location": "the bowels of Thanatoph",
   "tags": [
     "withered black mushroom",
     "some cave moss",
     "some wolifrew lichen",
-    "some wingstem root",
-    "wolifrew lichen",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

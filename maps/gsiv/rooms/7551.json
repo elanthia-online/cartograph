@@ -1,50 +1,33 @@
 {
+  "id": 7551,
+  "title": [
+    "[Twisting Tunnel]"
+  ],
+  "description": [
+    "You are in a narrow tunnel that forks to the northeast and northwest.  Small patches of phosphorescent moss cling to the walls and ceiling, providing a dim glow.  The floor is choked with rubble and debris, making it difficult not to trip in the darkness."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south, northwest"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "7560": "northwest",
     "7550": "south",
     "7552": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, south, northwest"
-  ],
+  "timeto": {
+    "7560": 0.2,
+    "7550": 0.2,
+    "7552": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     286,
     1043,
     296,
     1053
   ],
-  "terrain": "indoors",
-  "description": [
-    "You are in a narrow tunnel that forks to the northeast and northwest.  Small patches of phosphorescent moss cling to the walls and ceiling, providing a dim glow.  The floor is choked with rubble and debris, making it difficult not to trip in the darkness."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Twisting Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7560": 0.2,
-    "7550": 0.2,
-    "7552": 0.2
-  },
-  "id": 7551,
-  "location": "the catacombs",
   "tags": [
-    "some cave moss",
-    "red trafel mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "black hook mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

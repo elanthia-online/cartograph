@@ -1,46 +1,31 @@
 {
+  "id": 16295,
+  "title": [
+    "[Pond Burrow, Tart Tunnel Walk]"
+  ],
+  "description": [
+    "The corridor bends sharply, the annex where diverging tunnels meet adorned with a large bas-relief panel.  Round doors fill the remaining walls, their sills richly carved with stone filigree.  An urn sits beside one of the doors, inhabited by a delicate fern carved from granite."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "16289": "north",
     "16290": "west"
   },
-  "paths": [
-    "Obvious exits: north, west"
-  ],
+  "timeto": {
+    "16289": 0.2,
+    "16290": 0.2
+  },
+  "image": "wl-homes-2-1264234799.png",
   "image_coords": [
     1002,
     925,
     1020,
     943
   ],
-  "terrain": "indoors",
-  "description": [
-    "The corridor bends sharply, the annex where diverging tunnels meet adorned with a large bas-relief panel.  Round doors fill the remaining walls, their sills richly carved with stone filigree.  An urn sits beside one of the doors, inhabited by a delicate fern carved from granite."
-  ],
-  "image": "wl-homes-2-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Pond Burrow, Tart Tunnel Walk]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "16289": 0.2,
-    "16290": 0.2
-  },
-  "id": 16295,
-  "location": "Wehnimer's Landing",
   "tags": [
-    "ayana root",
-    "withered black mushroom",
-    "cave moss",
-    "ayana leaf",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ayana root"
   ]
 }

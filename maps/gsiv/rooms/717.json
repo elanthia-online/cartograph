@@ -1,39 +1,29 @@
 {
+  "id": 717,
+  "title": [
+    "[Ta'Illistim, Seneschal Court]"
+  ],
+  "description": [
+    "The imposing exterior of the Hall of Justice towers above.  Unusually free of extraneous decoration, the simple stone building nevertheless presents both a formidable and impenetrable appearance.  A set of arched double doors is flanked by two city guardsmen.",
+    "The imposing exterior of the Hall of Justice towers above.  Largely free of extraneous decoration, the simple stone building nevertheless presents both a formidable and impenetrable appearance.  A set of arched double doors sits behind a tall colonnade of white marble, each column neatly fluted and set with scroll-capped capitals."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "Ta'Illistim",
   "wayto": {
     "715": "northeast",
     "1780": "go doors"
   },
-  "paths": [
-    "Obvious paths: northeast"
-  ],
+  "timeto": {
+    "715": 0.2,
+    "1780": 0.2
+  },
+  "image": "en-ta_illistim-new.jpg",
   "image_coords": [
     350,
     344,
     371,
     365
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "The imposing exterior of the Hall of Justice towers above.  Unusually free of extraneous decoration, the simple stone building nevertheless presents both a formidable and impenetrable appearance.  A set of arched double doors is flanked by two city guardsmen.",
-    "The imposing exterior of the Hall of Justice towers above.  Largely free of extraneous decoration, the simple stone building nevertheless presents both a formidable and impenetrable appearance.  A set of arched double doors sits behind a tall colonnade of white marble, each column neatly fluted and set with scroll-capped capitals."
-  ],
-  "image": "en-ta_illistim-new.jpg",
-  "climate": "temperate",
-  "title": [
-    "[Ta'Illistim, Seneschal Court]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "715": 0.2,
-    "1780": 0.2
-  },
-  "id": 717,
-  "location": "Ta'Illistim",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

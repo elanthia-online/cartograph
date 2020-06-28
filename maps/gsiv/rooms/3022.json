@@ -1,39 +1,31 @@
 {
+  "id": 3022,
+  "title": [
+    "[Snow Fort, Battlement]"
+  ],
+  "description": [
+    "Deep gashes mar the frozen floor, as if something heavy or unwilling had been dragged across it.  Scratched into the battlement walls, cryptic runes point toward the southwest."
+  ],
+  "paths": [
+    "Obvious paths: southwest, northwest"
+  ],
+  "location": "the High Plains",
   "wayto": {
     "3021": "northwest",
     "3023": "southwest"
   },
-  "paths": [
-    "Obvious paths: southwest, northwest"
-  ],
+  "timeto": {
+    "3021": 0.2,
+    "3023": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     541,
     818,
     551,
     828
   ],
-  "terrain": "hard, flat",
-  "description": [
-    "Deep gashes mar the frozen floor, as if something heavy or unwilling had been dragged across it.  Scratched into the battlement walls, cryptic runes point toward the southwest."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Snow Fort, Battlement]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3021": 0.2,
-    "3023": 0.2
-  },
-  "id": 3022,
-  "location": "the High Plains",
   "tags": [
-    "snow spectre",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "snow spectre"
   ]
 }

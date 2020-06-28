@@ -1,42 +1,32 @@
 {
-  "wayto": {
-    "1070": {
-      "stringproc": "cdf3501c0a4e365ef14f2950daaad42a"
-    },
-    "1072": {
-      "stringproc": "f78edd34d453e0a55bd3d6d1f51e6e55"
-    }
-  },
+  "id": 1071,
+  "title": [
+    "[Rope Ladder]"
+  ],
+  "description": [
+    "Thick mist fills your vision on three sides, while on the fourth the sheer basalt wall of the cliff looms vertical and close.  Sounds become muffled and distorted by the thick, damp air, preventing their location from being ascertained at all.  Nothing moves in the mist or on the cliff face, and the only thing to do is continue to climb, either up through the mist, or down through the mist."
+  ],
   "paths": [
     "Obvious paths: up, down"
   ],
+  "location": "the Locksmehr Trail",
+  "wayto": {
+    "1070": {
+      "file": "string_procs/wayto/1071_1070.rb"
+    },
+    "1072": {
+      "file": "string_procs/wayto/1071_1072.rb"
+    }
+  },
+  "timeto": {
+    "1070": 15.0,
+    "1072": 15.0
+  },
+  "image": "en-trail-1264234799.png",
   "image_coords": [
     1247,
     772,
     1257,
     782
-  ],
-  "terrain": "missing",
-  "description": [
-    "Thick mist fills your vision on three sides, while on the fourth the sheer basalt wall of the cliff looms vertical and close.  Sounds become muffled and distorted by the thick, damp air, preventing their location from being ascertained at all.  Nothing moves in the mist or on the cliff face, and the only thing to do is continue to climb, either up through the mist, or down through the mist."
-  ],
-  "image": "en-trail-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Rope Ladder]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1070": 15.0,
-    "1072": 15.0
-  },
-  "id": 1071,
-  "location": "the Locksmehr Trail",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

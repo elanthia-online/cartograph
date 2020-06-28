@@ -1,38 +1,28 @@
 {
+  "id": 2288,
+  "title": [
+    "[Mausoleum, Catacombs]"
+  ],
+  "description": [
+    "A chill gust of wind blows through here, stirring the ragged tapestries hung on the wall.  Low moaning noises echo through the chamber, full of sorrow and pain.  The shadows ahead seem to writhe."
+  ],
+  "paths": [
+    "Obvious exits: east, southwest"
+  ],
+  "location": "the Fhorian Village",
   "wayto": {
     "2289": "southwest",
     "2287": "east"
   },
-  "paths": [
-    "Obvious exits: east, southwest"
-  ],
+  "timeto": {
+    "2289": 0.2,
+    "2287": 0.2
+  },
+  "image": "ti-wilds-1264234799.png",
   "image_coords": [
     91,
     972,
     101,
     982
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A chill gust of wind blows through here, stirring the ragged tapestries hung on the wall.  Low moaning noises echo through the chamber, full of sorrow and pain.  The shadows ahead seem to writhe."
-  ],
-  "image": "ti-wilds-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mausoleum, Catacombs]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2289": 0.2,
-    "2287": 0.2
-  },
-  "id": 2288,
-  "location": "the Fhorian Village",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

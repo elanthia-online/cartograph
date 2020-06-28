@@ -1,41 +1,33 @@
 {
+  "id": 9535,
+  "title": [
+    "[Troll Burial Grounds]"
+  ],
+  "description": [
+    "Bones flow east to west, hemmed in by the high granite walls.  The stench of death is overpowering and any movement of the sea of bones serves to renew the putrescent odor.  Occasionally, rats can be seen darting over and through the piles of bones, their chittering and squeaking accentuated in the thick, malodorous air."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Troll Burial Grounds",
   "wayto": {
     "9536": "west",
     "9534": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "9536": 0.2,
+    "9534": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     739,
     1131,
     749,
     1141
   ],
-  "terrain": "indoors",
-  "description": [
-    "Bones flow east to west, hemmed in by the high granite walls.  The stench of death is overpowering and any movement of the sea of bones serves to renew the putrescent odor.  Occasionally, rats can be seen darting over and through the piles of bones, their chittering and squeaking accentuated in the thick, malodorous air."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Troll Burial Grounds]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9536": 0.2,
-    "9534": 0.2
-  },
-  "id": 9535,
-  "location": "the Troll Burial Grounds",
   "tags": [
     "blue trafel mushroom",
     "withered black mushroom",
-    "soft white mushroom",
-    "pepperthorn root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "soft white mushroom"
   ]
 }

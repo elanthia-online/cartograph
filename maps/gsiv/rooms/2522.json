@@ -1,37 +1,34 @@
 {
-  "wayto": {
-    "2521": {
-      "stringproc": "79b6aacb07358187764f434021f44bcf"
-    },
-    "2523": {
-      "stringproc": "96f762a3c5540f71716927f4f186a4fa"
-    }
-  },
+  "id": 2522,
+  "title": [
+    "[Blue Glacier, Mountain Pass]"
+  ],
+  "description": [
+    "All the climbing up and down over the icy rocks of this pass has exhausted you -- the bitter cold has taken its toll as well.  The ever-present wind with all its whistling and howling has come close to driving you mad.  What you wouldn't give for a hot bath, a good meal, and a tankard of mulled wine!"
+  ],
   "paths": [
     "Obvious paths: northeast, west"
   ],
+  "location": "the Icemule Trail",
+  "wayto": {
+    "2521": {
+      "file": "string_procs/wayto/2522_2521.rb"
+    },
+    "2523": {
+      "file": "string_procs/wayto/2522_2523.rb"
+    }
+  },
+  "timeto": {
+    "2521": 0.2,
+    "2523": 0.2
+  },
+  "image": "imt-trail-1264234799.png",
   "image_coords": [
     1066,
     554,
     1076,
     564
   ],
-  "terrain": "mountainous",
-  "description": [
-    "All the climbing up and down over the icy rocks of this pass has exhausted you -- the bitter cold has taken its toll as well.  The ever-present wind with all its whistling and howling has come close to driving you mad.  What you wouldn't give for a hot bath, a good meal, and a tankard of mulled wine!"
-  ],
-  "image": "imt-trail-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Blue Glacier, Mountain Pass]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2521": 0.2,
-    "2523": 0.2
-  },
-  "id": 2522,
-  "location": "the Icemule Trail",
   "tags": [
     "sweetfern stalk",
     "calamintha blossom",
@@ -47,10 +44,6 @@
     "snowberries",
     "pale thornberry",
     "small loganberry",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

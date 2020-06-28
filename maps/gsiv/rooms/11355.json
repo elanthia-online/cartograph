@@ -1,40 +1,32 @@
 {
-  "wayto": {
-    "11354": "west",
-    "11357": {
-      "stringproc": "6430172619ca3268608bf80cd3878b9a"
-    }
-  },
+  "id": 11355,
+  "title": [
+    "[Citadel, Outside Gates]"
+  ],
+  "description": [
+    "As would be expected of wizards, the normal drawbridge construction is missing from the entrance to the citadel.  Traversing the ravine that surrounds the citadel is a large contraption which resembles a balance with several levers and ropes attached.  On the other side of the ravine you can see two doors which form the entrance to the citadel."
+  ],
   "paths": [
     "Obvious paths: west"
   ],
+  "location": "the Citadel",
+  "climate": "arid",
+  "terrain": "hard, flat ",
+  "wayto": {
+    "11354": "west",
+    "11357": {
+      "file": "string_procs/wayto/11355_11357.rb"
+    }
+  },
+  "timeto": {
+    "11354": 0.2,
+    "11357": 10.0
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     177,
     1401,
     187,
     1411
-  ],
-  "terrain": "hard, flat ",
-  "description": [
-    "As would be expected of wizards, the normal drawbridge construction is missing from the entrance to the citadel.  Traversing the ravine that surrounds the citadel is a large contraption which resembles a balance with several levers and ropes attached.  On the other side of the ravine you can see two doors which form the entrance to the citadel."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "arid",
-  "title": [
-    "[Citadel, Outside Gates]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11354": 0.2,
-    "11357": 10.0
-  },
-  "id": 11355,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

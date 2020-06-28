@@ -1,4 +1,15 @@
 {
+  "id": 23255,
+  "title": [
+    "[Twisting Tunnels]"
+  ],
+  "description": [
+    "A maze of tunnels leads away from this small chamber in all directions.  The low ceiling, poor lighting, and sudden twists and turns make it impossible to see far enough in any direction to get your bearings.  Some passageways lead only a few feet and dead end, while others twist and turn in odd directions before opening into another chamber."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, southwest, west, down"
+  ],
+  "location": "the subterranean tunnels",
   "wayto": {
     "15914": "north",
     "15697": "down",
@@ -6,25 +17,6 @@
     "15929": "west",
     "15918": "northeast"
   },
-  "paths": [
-    "Obvious exits: north, northeast, southwest, west, down"
-  ],
-  "image_coords": [
-    1057,
-    161,
-    1065,
-    170
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A maze of tunnels leads away from this small chamber in all directions.  The low ceiling, poor lighting, and sudden twists and turns make it impossible to see far enough in any direction to get your bearings.  Some passageways lead only a few feet and dead end, while others twist and turn in odd directions before opening into another chamber."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Twisting Tunnels]"
-  ],
-  "check_location": null,
   "timeto": {
     "15914": 0.2,
     "15697": 0.2,
@@ -32,18 +24,14 @@
     "15929": 0.2,
     "15918": 0.2
   },
-  "id": 23255,
-  "location": "the subterranean tunnels",
-  "tags": [
-    "peer northeast =~ /^Obvious exits: north, east, southwest, west, up$/",
-    "white hook mushroom",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
+  "image": "imt-underground-1264234799.png",
+  "image_coords": [
+    1057,
+    161,
+    1065,
+    170
   ],
-  "unique_loot": null,
-  "links": [
-
+  "tags": [
+    "peer northeast =~ /^Obvious exits: north, east, southwest, west, up$/"
   ]
 }

@@ -1,46 +1,34 @@
 {
+  "id": 1763,
+  "title": [
+    "[Gossamer Valley, Blind Canyon]"
+  ],
+  "description": [
+    "The canyon twists and narrows, ascending to the northeast and descending to the west.  Nothing grows in the canyon, neither on the ice nor on the sheer mountainsides.  Perhaps the snow's constant downward slide scrapes the rocks clean of any moss or vegetation that might attempt to take hold there.  The moon reflects brightly off the snow on the southeastern wall, eliminating shadows and bathing the area in a solid, eerie glare.",
+    "The canyon twists and narrows, ascending to the northeast and descending to the west.  Nothing grows in the canyon, neither on the ice nor on the sheer mountainsides.  Perhaps the snow's constant downward slide scrapes the rocks clean of any moss or vegetation that might attempt to take hold there.  The sun reflects brightly off the snow on the southeastern wall, eliminating shadows and bathing the area in an almost painful glare."
+  ],
+  "paths": [
+    "Obvious paths: west, up"
+  ],
+  "location": "Gossamer Valley",
   "wayto": {
     "1762": "west",
     "1764": "up"
   },
-  "paths": [
-    "Obvious paths: west, up"
-  ],
+  "timeto": {
+    "1762": 0.2,
+    "1764": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     338,
     518,
     348,
     528
   ],
-  "terrain": "mountainous",
-  "description": [
-    "The canyon twists and narrows, ascending to the northeast and descending to the west.  Nothing grows in the canyon, neither on the ice nor on the sheer mountainsides.  Perhaps the snow's constant downward slide scrapes the rocks clean of any moss or vegetation that might attempt to take hold there.  The moon reflects brightly off the snow on the southeastern wall, eliminating shadows and bathing the area in a solid, eerie glare.",
-    "The canyon twists and narrows, ascending to the northeast and descending to the west.  Nothing grows in the canyon, neither on the ice nor on the sheer mountainsides.  Perhaps the snow's constant downward slide scrapes the rocks clean of any moss or vegetation that might attempt to take hold there.  The sun reflects brightly off the snow on the southeastern wall, eliminating shadows and bathing the area in an almost painful glare."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Gossamer Valley, Blind Canyon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1762": 0.2,
-    "1764": 0.2
-  },
-  "id": 1763,
-  "location": "Gossamer Valley",
   "tags": [
     "sweetfern stalk",
     "sprig of holly",
-    "some pennyroyal stem",
-    "sassafras leaf",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some pennyroyal stem"
   ]
 }

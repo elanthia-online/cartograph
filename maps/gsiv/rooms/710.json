@@ -1,41 +1,31 @@
 {
-  "wayto": {
-    "711": "south",
-    "164": "east"
-  },
-  "paths": [
-    "Obvious paths: east, south"
+  "id": 710,
+  "title": [
+    "[Ta'Illistim, Vaeshean Wey]"
   ],
-  "image_coords": [
-    206,
-    724,
-    228,
-    746
-  ],
-  "terrain": "hard, flat",
   "description": [
     "The facade of a guild hall towers above, crafted of fine smooth blue granite and anchored with ornately carved buttresses.  The immense stone wall is pierced at intervals with stained glaes rosette windows detailing elegant geometric scrollwork and sinuous glyphs.  A burnished silver plaque is mounted on the wide double doors.",
     "The facade of a grand edifice towers above, crafted of fine smooth blue granite and anchored with ornately carved buttresses.  The immense stone wall is pierced at intervals with stained glaes rosette windows detailing elegant geometric scrollwork and sinuous glyphs.",
     "The facade of a guild hall towers above, crafted of fine smooth marble and anchored with ornately capitaled columns.  The immense white wall is pierced at intervals with stained glass rosette windows, each one detailed with elegant geometric scrollwork and sinuous glyphs.  A burnished silver plaque is mounted on the wide double doors.",
     "Set against the high city wall is a large marble relief.  A neatly arranged bed of sea glass, driftwood and tumbled shells surrounds the base of the tripartite display."
   ],
-  "image": "en-ta_illistim-new.jpg",
-  "climate": "temperate",
-  "title": [
-    "[Ta'Illistim, Vaeshean Wey]"
+  "paths": [
+    "Obvious paths: east, south"
   ],
-  "check_location": null,
+  "location": "Ta'Illistim",
+  "wayto": {
+    "711": "south",
+    "164": "east"
+  },
   "timeto": {
     "711": 0.2,
     "164": 0.2
   },
-  "id": 710,
-  "location": "Ta'Illistim",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-ta_illistim-new.jpg",
+  "image_coords": [
+    206,
+    724,
+    228,
+    746
   ]
 }

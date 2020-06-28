@@ -1,35 +1,28 @@
 {
+  "id": 27670,
+  "title": [
+    "[Nihala's Auditorium, Backstage]"
+  ],
+  "description": [
+    "Nervous energy lingers in the small space, belied by cluttered vanity mirrors and disheveled costume racks shoved off to the edges of the room.  A stone chimney stretches proudly up the back wall through the darkened timbers of the ceiling, though the slightly smoky quality in the air suggests a less-than-perfect draw, even for the timid fire presently burning.  An elaborate painting of a halfling with caked-on makeup in a tutu has pride of place over the mantel."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "27669": "go door",
     "27671": "go curtain"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "27669": 0.2,
+    "27671": 0.2
+  },
+  "image": "imt-clovertooth_hall-1546618992.png",
   "image_coords": [
     1621,
     203,
     1724,
     273
-  ],
-  "terrain": null,
-  "description": [
-    "Nervous energy lingers in the small space, belied by cluttered vanity mirrors and disheveled costume racks shoved off to the edges of the room.  A stone chimney stretches proudly up the back wall through the darkened timbers of the ceiling, though the slightly smoky quality in the air suggests a less-than-perfect draw, even for the timid fire presently burning.  An elaborate painting of a halfling with caked-on makeup in a tutu has pride of place over the mantel."
-  ],
-  "image": "imt-clovertooth_hall-1546618992.png",
-  "climate": null,
-  "title": [
-    "[Nihala's Auditorium, Backstage]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "27669": 0.2,
-    "27671": 0.2
-  },
-  "id": 27670,
-  "location": "Icemule Trace",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

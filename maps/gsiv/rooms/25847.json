@@ -1,35 +1,28 @@
 {
-  "wayto": {
-    "25846": {
-      "stringproc": "9b05cb4429e6ad5efbe157efd92e6023"
-    }
-  },
+  "id": 25847,
+  "title": [
+    "[Eastern Waterway]"
+  ],
+  "description": [
+    "Cast in the combined shadows of the small island's sheer cliffs and Charl's Teeth, the small channel dead ends at a waterlogged inlet.  Chaotically churning, the waves splash harshly against impenetrable stone and glossy obsidian that confines it."
+  ],
   "paths": [
     "Obvious paths: northwest"
   ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "25846": {
+      "file": "string_procs/wayto/25847_25846.rb"
+    }
+  },
+  "timeto": {
+    "25846": 6.0
+  },
+  "image": "ifw-eastern_waterway-1489553700.png",
   "image_coords": [
     1360,
     1998,
     1381,
     2017
-  ],
-  "terrain": null,
-  "description": [
-    "Cast in the combined shadows of the small island's sheer cliffs and Charl's Teeth, the small channel dead ends at a waterlogged inlet.  Chaotically churning, the waves splash harshly against impenetrable stone and glossy obsidian that confines it."
-  ],
-  "image": "ifw-eastern_waterway-1489553700.png",
-  "climate": null,
-  "title": [
-    "[Eastern Waterway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "25846": 6.0
-  },
-  "id": 25847,
-  "location": "Mist Harbor",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

@@ -1,33 +1,30 @@
 {
+  "id": 8561,
+  "title": [
+    "[Alpine Meadow, Imaera's Path]"
+  ],
+  "description": [
+    "As you crest the grassy hill here, you see that the footprint-laden path winds down the slope towards a rickety dome-shaped wooden structure.  For some reason, on this side of the hill the wildflowers and vegetation seem even more abundant.  Virtually all of the area surrounding the structure is filled with vibrant, colorful flowers and very little of the tall meadow grass."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "the foothills of Zeltoph",
   "wayto": {
     "8560": "south",
     "8562": "go path"
   },
-  "paths": [
-    "Obvious paths: south"
-  ],
+  "timeto": {
+    "8560": 0.2,
+    "8562": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     1364,
     620,
     1374,
     630
   ],
-  "terrain": "grassland",
-  "description": [
-    "As you crest the grassy hill here, you see that the footprint-laden path winds down the slope towards a rickety dome-shaped wooden structure.  For some reason, on this side of the hill the wildflowers and vegetation seem even more abundant.  Virtually all of the area surrounding the structure is filled with vibrant, colorful flowers and very little of the tall meadow grass."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Alpine Meadow, Imaera's Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8560": 0.2,
-    "8562": 0.2
-  },
-  "id": 8561,
-  "location": "the foothills of Zeltoph",
   "tags": [
     "spearmint leaf",
     "fennel bulb",
@@ -98,11 +95,6 @@
     "ironfern root",
     "nightbloom blossom",
     "brostheras grass",
-    "woad leaves",
-    "sunburst blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "woad leaves"
   ]
 }

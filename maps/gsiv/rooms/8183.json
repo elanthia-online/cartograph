@@ -1,48 +1,36 @@
 {
+  "id": 8183,
+  "title": [
+    "[Mine, Crystal Caves]"
+  ],
+  "description": [
+    "Milky quartz and stilbite encrust this room, their dull white bulk giving it an oppressive air.  You pick your way across the uneven floor, fearful of impaling yourself on something sharp if you trip.  You hear a dripping sound coming from somewhere, but with all the echoes in these caverns, you can't quite tell the direction."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest, down"
+  ],
+  "location": "the crystal caves",
   "wayto": {
     "8184": "northeast",
     "8186": "down",
     "8182": "northwest"
   },
-  "paths": [
-    "Obvious exits: northeast, northwest, down"
-  ],
+  "timeto": {
+    "8184": 0.2,
+    "8186": 0.2,
+    "8182": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     1020,
     504,
     1030,
     514
   ],
-  "terrain": "indoors",
-  "description": [
-    "Milky quartz and stilbite encrust this room, their dull white bulk giving it an oppressive air.  You pick your way across the uneven floor, fearful of impaling yourself on something sharp if you trip.  You hear a dripping sound coming from somewhere, but with all the echoes in these caverns, you can't quite tell the direction."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mine, Crystal Caves]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8184": 0.2,
-    "8186": 0.2,
-    "8182": 0.2
-  },
-  "id": 8183,
-  "location": "the crystal caves",
   "tags": [
     "some wolifrew lichen",
     "some cave moss",
     "withered black mushroom",
-    "some wingstem root",
-    "wolifrew lichen",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

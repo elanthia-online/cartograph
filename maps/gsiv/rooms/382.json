@@ -1,41 +1,33 @@
 {
+  "id": 382,
+  "title": [
+    "[Empath Guild, Entrance]"
+  ],
+  "description": [
+    "Deep gravel crunches loudly underfoot.  A tall, well-constructed wall of yellow brick bends away to the east and west as if enclosing an area the size of a small house.  In the center the wall is interrupted by a pair of open gates flanked by wall mounted torches.  Ivy clambers out of two large red clay pots and up the gates, holding fast to them and preventing them from closing.  A silver plaque is mounted on the wall."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "19236": "go gates",
     "377": "go path"
   },
-  "paths": [
-    "Obvious paths: none"
-  ],
+  "timeto": {
+    "19236": {
+      "file": "string_procs/timeto/382_19236.rb"
+    },
+    "377": 0.2
+  },
+  "image": "wl-wehnimers-1264234799.png",
   "image_coords": [
     1194,
     788,
     1230,
     824
   ],
-  "terrain": "hard, flat",
-  "description": [
-    "Deep gravel crunches loudly underfoot.  A tall, well-constructed wall of yellow brick bends away to the east and west as if enclosing an area the size of a small house.  In the center the wall is interrupted by a pair of open gates flanked by wall mounted torches.  Ivy clambers out of two large red clay pots and up the gates, holding fast to them and preventing them from closing.  A silver plaque is mounted on the wall."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Empath Guild, Entrance]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "19236": {
-      "stringproc": "3728350e778521b6c3dae4d582bad44a"
-    },
-    "377": 0.2
-  },
-  "id": 382,
-  "location": "Wehnimer's Landing",
   "tags": [
-    "empathguild",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "empathguild"
   ]
 }

@@ -1,33 +1,30 @@
 {
+  "id": 3550,
+  "title": [
+    "[Glatoph, Glacier]"
+  ],
+  "description": [
+    "Between the severe winds and the sloping ground your footing is rather precarious.  To the east, a chasm drops into the glacier, heading off to the northeast."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "Glatoph",
   "wayto": {
     "2558": "northeast",
     "3551": "west"
   },
-  "paths": [
-    "Obvious paths: northeast, west"
-  ],
+  "timeto": {
+    "2558": 0.2,
+    "3551": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     1040,
     578,
     1050,
     588
   ],
-  "terrain": "mountainous",
-  "description": [
-    "Between the severe winds and the sloping ground your footing is rather precarious.  To the east, a chasm drops into the glacier, heading off to the northeast."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Glatoph, Glacier]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2558": 0.2,
-    "3551": 0.2
-  },
-  "id": 3550,
-  "location": "Glatoph",
   "tags": [
     "arctic titan",
     "frost giant",
@@ -38,10 +35,6 @@
     "valerian root",
     "pennyroyal stem",
     "sprig of holly",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

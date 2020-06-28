@@ -1,40 +1,32 @@
 {
+  "id": 7130,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "Everything's damp in this stretch of corridor, and various colored molds streak the walls.  The air smells wet and musty.  Tiny rivulets of greenish water run across the floor, making it slick and slippery."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7128": "west",
     "7131": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "7128": 0.2,
+    "7131": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     1109,
     361,
     1119,
     371
   ],
-  "terrain": "indoors",
-  "description": [
-    "Everything's damp in this stretch of corridor, and various colored molds streak the walls.  The air smells wet and musty.  Tiny rivulets of greenish water run across the floor, making it slick and slippery."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7128": 0.2,
-    "7131": 0.2
-  },
-  "id": 7130,
-  "location": "Darkstone Castle",
   "tags": [
     "kiramon defender",
-    "kiramon worker",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "kiramon worker"
   ]
 }

@@ -1,38 +1,28 @@
 {
+  "id": 7074,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "The ceiling seems to have partly collapsed here some time in the past, leaving boulders, rocks and smaller rubble to block the passageway.  As you climb over the pile, careful of where you place your feet, something with a lot of legs crawls over your hand.  You hear rustling and clicking noises coming from the north."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7075": "north",
     "7073": "south"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "7075": 0.2,
+    "7073": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     702,
     1038,
     712,
     1048
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The ceiling seems to have partly collapsed here some time in the past, leaving boulders, rocks and smaller rubble to block the passageway.  As you climb over the pile, careful of where you place your feet, something with a lot of legs crawls over your hand.  You hear rustling and clicking noises coming from the north."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7075": 0.2,
-    "7073": 0.2
-  },
-  "id": 7074,
-  "location": "Darkstone Castle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

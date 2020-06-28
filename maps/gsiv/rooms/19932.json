@@ -1,46 +1,38 @@
 {
-  "wayto": {
-    "19930": "go door",
-    "25859": {
-      "stringproc": "3a4aee50b0b441171c973f343ebda493"
-    },
-    "25980": {
-      "stringproc": "ebe0b832f6bab583cae497b954064813"
-    }
-  },
+  "id": 19932,
+  "title": [
+    "[Cherrywood Bath]",
+    "[Private Suite, Alcove]"
+  ],
+  "description": [
+    "Moonlight barely passes through small opaque windows, set high into the wall.  A warm pool of water is enclosed within a half-circle of smooth stone benches.  The floor is crafted of burnished cherrywood with large black bearskin rugs strewn about.",
+    "Sunlight barely passes through small opaque windows, set high into the wall.  A warm pool of water is enclosed within a half-circle of smooth stone benches.  The floor is crafted of burnished cherrywood with large black bearskin rugs strewn about.",
+    "Nestled away from the main suite, most of the small alcove is shrouded in darkness.  Two round silver sconces cause shadows to flicker across an array of wooden doors.  A few wisps of steam creep out from beneath a thick black velvet curtain."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "the town of Wehnimer's Landing",
+  "wayto": {
+    "19930": "go door",
+    "25859": {
+      "file": "string_procs/wayto/19932_25859.rb"
+    },
+    "25980": {
+      "file": "string_procs/wayto/19932_25980.rb"
+    }
+  },
+  "timeto": {
+    "19930": 0.2,
+    "25859": 0.2,
+    "25980": 0.2
+  },
+  "image": "wl-stone_baths-1487292814.png",
   "image_coords": [
     1335,
     1103,
     1479,
     1170
   ],
-  "terrain": null,
-  "description": [
-    "Moonlight barely passes through small opaque windows, set high into the wall.  A warm pool of water is enclosed within a half-circle of smooth stone benches.  The floor is crafted of burnished cherrywood with large black bearskin rugs strewn about.",
-    "Sunlight barely passes through small opaque windows, set high into the wall.  A warm pool of water is enclosed within a half-circle of smooth stone benches.  The floor is crafted of burnished cherrywood with large black bearskin rugs strewn about.",
-    "Nestled away from the main suite, most of the small alcove is shrouded in darkness.  Two round silver sconces cause shadows to flicker across an array of wooden doors.  A few wisps of steam creep out from beneath a thick black velvet curtain."
-  ],
-  "image": "wl-stone_baths-1487292814.png",
-  "climate": null,
-  "title": [
-    "[Cherrywood Bath]",
-    "[Private Suite, Alcove]"
-  ],
-  "check_location": false,
-  "timeto": {
-    "19930": 0.2,
-    "25859": 0.2,
-    "25980": 0.2
-  },
-  "id": 19932,
-  "location": "the town of Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "links": [
-
-  ]
+  "check_location": false
 }

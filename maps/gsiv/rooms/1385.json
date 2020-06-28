@@ -1,33 +1,30 @@
 {
+  "id": 1385,
+  "title": [
+    "[Cairnfang Falls, Switchback]"
+  ],
+  "description": [
+    "The trail is as narrow and as steep as caravan traffic will allow, seeking to reach the land above.  The bottommost leg of the switchbacks ends below."
+  ],
+  "paths": [
+    "Obvious paths: up, down"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "1386": "down",
     "1384": "up"
   },
-  "paths": [
-    "Obvious paths: up, down"
-  ],
+  "timeto": {
+    "1386": 0.2,
+    "1384": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     1415,
     361,
     1425,
     371
   ],
-  "terrain": "rough",
-  "description": [
-    "The trail is as narrow and as steep as caravan traffic will allow, seeking to reach the land above.  The bottommost leg of the switchbacks ends below."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Cairnfang Falls, Switchback]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1386": 0.2,
-    "1384": 0.2
-  },
-  "id": 1385,
-  "location": "the Cairnfang",
   "tags": [
     "red clover blossom",
     "purple clover blossom",
@@ -56,10 +53,6 @@
     "motherwort",
     "white baneberry",
     "pepperthorn root",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

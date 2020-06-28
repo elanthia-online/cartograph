@@ -1,39 +1,31 @@
 {
+  "id": 2954,
+  "title": [
+    "[Abbey Grand Stair Landing]"
+  ],
+  "description": [
+    "The broad landing of the grand stair is oval, with its wooden floor painted dark green.  A semi-circular railing surrounds the landing and continues up the final five steps to the upper gallery."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "the Abbey",
   "wayto": {
     "2953": "down",
     "2955": "up"
   },
-  "paths": [
-    "Obvious exits: up, down"
-  ],
+  "timeto": {
+    "2953": 0.2,
+    "2955": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     858,
     735,
     868,
     745
   ],
-  "terrain": "indoors",
-  "description": [
-    "The broad landing of the grand stair is oval, with its wooden floor painted dark green.  A semi-circular railing surrounds the landing and continues up the final five steps to the upper gallery."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abbey Grand Stair Landing]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2953": 0.2,
-    "2955": 0.2
-  },
-  "id": 2954,
-  "location": "the Abbey",
   "tags": [
-    "nedum vereri",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "nedum vereri"
   ]
 }

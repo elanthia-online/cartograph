@@ -1,33 +1,30 @@
 {
+  "id": 484,
+  "title": [
+    "[Coastal Cliffs]"
+  ],
+  "description": [
+    "A soft carpeting of grass encroaches upon the crumbling rock at the cliffs' edge, cushioning your steps.  An occasional rustling high in the branches of an old, weatherbeaten modwir sets your nerves on edge."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "483": "east",
     "485": "west"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "483": 0.2,
+    "485": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     496,
     812,
     506,
     822
   ],
-  "terrain": "hilly",
-  "description": [
-    "A soft carpeting of grass encroaches upon the crumbling rock at the cliffs' edge, cushioning your steps.  An occasional rustling high in the branches of an old, weatherbeaten modwir sets your nerves on edge."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Coastal Cliffs]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "483": 0.2,
-    "485": 0.2
-  },
-  "id": 484,
-  "location": "the Coastal Cliffs",
   "tags": [
     "withered black mushroom",
     "luckbloom blossom",
@@ -65,11 +62,6 @@
     "twisted twig",
     "slender twig",
     "bolmara lichen",
-    "brostheras grass",
-    "sunburst blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

@@ -1,40 +1,33 @@
 {
+  "id": 16988,
+  "title": [
+    "[Guild Hall, Main Hallway]"
+  ],
+  "description": [
+    "The long hallway stretches south toward the hall's entrance and north, elbowing to the east.  The obsidian columns that line the west wall skip a space where the double doors lead into the Guild Auditorium."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
   "wayto": {
     "16978": "south",
     "16989": "go doors",
     "16990": "east"
   },
-  "paths": [
-    "Obvious exits: east, south"
-  ],
+  "timeto": {
+    "16978": 0.2,
+    "16989": 0.2,
+    "16990": 0.2
+  },
+  "image": "warrior_guilds-1268684755.png",
   "image_coords": [
     182,
     861,
     204,
     883
   ],
-  "terrain": null,
-  "description": [
-    "The long hallway stretches south toward the hall's entrance and north, elbowing to the east.  The obsidian columns that line the west wall skip a space where the double doors lead into the Guild Auditorium."
-  ],
-  "image": "warrior_guilds-1268684755.png",
-  "climate": null,
-  "title": [
-    "[Guild Hall, Main Hallway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "16978": 0.2,
-    "16989": 0.2,
-    "16990": 0.2
-  },
-  "id": 16988,
-  "location": null,
   "tags": [
     "warrior guild armor",
     "warrior guild floor"
-  ],
-  "links": [
-
   ]
 }

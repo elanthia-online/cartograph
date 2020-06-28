@@ -1,47 +1,44 @@
 {
-  "wayto": {
-    "18803": {
-      "stringproc": "9530e7b353488450abf514d7328187a8"
-    },
-    "9888": {
-      "stringproc": "08ae52e283e0d6629d2648f0850e5f14"
-    },
-    "13183": {
-      "stringproc": "9bf57bf3fda33e99abb00f61f6b4286d"
-    },
-    "9889": {
-      "stringproc": "2a252b152d6d7f47eab1cf36a98cdbcc"
-    },
-    "16957": {
-      "stringproc": "3ec966178521e1f4be79cba045229179"
-    },
-    "9884": {
-      "stringproc": "a71c7879b3ac3f9a1481a682a9eec400"
-    },
-    "9885": {
-      "stringproc": "783451204e9e7ab8afb0fe9c4bd11d6b"
-    },
-    "9886": {
-      "stringproc": "698bb71856ee1a8d330d9de704c5414c"
-    },
-    "9887": {
-      "stringproc": "a2ca5c08d934683139763cec97c7f8d6"
-    }
-  },
-  "paths": [
-    "Obvious paths: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "The forest ends at the edge of a tranquil meadow.  Against the dark shadow of the trees, the meadow grass is a sea of gold with wildflowers clustering among thick brambles.  A stream cuts across the sward, its edges bordered by boulders and tall cattails where bends in its course create a marshy terrain."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 16956,
   "title": [
     "[Meadow]"
   ],
-  "check_location": null,
+  "description": [
+    "The forest ends at the edge of a tranquil meadow.  Against the dark shadow of the trees, the meadow grass is a sea of gold with wildflowers clustering among thick brambles.  A stream cuts across the sward, its edges bordered by boulders and tall cattails where bends in its course create a marshy terrain."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "the dark woods",
+  "wayto": {
+    "18803": {
+      "file": "string_procs/wayto/16956_18803.rb"
+    },
+    "9888": {
+      "file": "string_procs/wayto/16956_9888.rb"
+    },
+    "13183": {
+      "file": "string_procs/wayto/16956_13183.rb"
+    },
+    "9889": {
+      "file": "string_procs/wayto/16956_9889.rb"
+    },
+    "16957": {
+      "file": "string_procs/wayto/16956_16957.rb"
+    },
+    "9884": {
+      "file": "string_procs/wayto/16956_9884.rb"
+    },
+    "9885": {
+      "file": "string_procs/wayto/16956_9885.rb"
+    },
+    "9886": {
+      "file": "string_procs/wayto/16956_9886.rb"
+    },
+    "9887": {
+      "file": "string_procs/wayto/16956_9887.rb"
+    }
+  },
   "timeto": {
     "18803": 15.0,
     "9888": 15.0,
@@ -53,12 +50,7 @@
     "9886": 15.0,
     "9887": 15.0
   },
-  "id": 16956,
-  "location": "the dark woods",
   "tags": [
     "no-auto-map"
-  ],
-  "links": [
-
   ]
 }

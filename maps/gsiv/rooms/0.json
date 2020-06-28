@@ -1,4 +1,15 @@
 {
+  "id": 0,
+  "title": [
+    "[Moonglae Inn, Atrium]"
+  ],
+  "description": [
+    "A skylight two stories above allows natural light to flood this room, giving it the feel of an outdoor cafe.  Set into the grey marble pillars surrounding the atrium are metal planters filled with a variety of flowers, plants, and hanging vines.  A burbling fountain in the center of the room makes the illusion complete.  Overhead, a row of black granite pillars surrounds the upper cloister, with a gallery of stained glass windows hanging between them."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east, southeast, south, southwest, west, northwest"
+  ],
+  "location": "the Moonglae Inn",
   "wayto": {
     "15652": "south",
     "1632": "southwest",
@@ -9,65 +20,51 @@
     "13353": "east",
     "1631": "southeast",
     "2": {
-      "stringproc": "e799b84f839271522c390f105deaec6c"
+      "file": "string_procs/wayto/0_2.rb"
     },
     "1": {
-      "stringproc": "5afb744952386568651f801d2278d7ac"
+      "file": "string_procs/wayto/0_1.rb"
     },
     "148": {
-      "stringproc": "3a1cb531735fbd61c2bc5388d1b7df96"
+      "file": "string_procs/wayto/0_148.rb"
     },
     "631": {
-      "stringproc": "17810a0969103cdfe6572abb01db4a77"
+      "file": "string_procs/wayto/0_631.rb"
     },
     "147": {
-      "stringproc": "8871678f43c34ec88898162a3a08598e"
+      "file": "string_procs/wayto/0_147.rb"
     },
     "3": {
-      "stringproc": "0bfa7668cf857f6c4a333f1c0c9c46fc"
+      "file": "string_procs/wayto/0_3.rb"
     },
     "202": {
-      "stringproc": "3b40e707bcd44782351ed87b6a36b895"
+      "file": "string_procs/wayto/0_202.rb"
     },
     "632": {
-      "stringproc": "44bbeff738322e02a0df2d0d4fce83d9"
+      "file": "string_procs/wayto/0_632.rb"
     },
     "595": {
-      "stringproc": "cfbd30b9c80fe72d0e496122465eaadc"
+      "file": "string_procs/wayto/0_595.rb"
     },
     "633": {
-      "stringproc": "ccdc39aad678198f8a39ca431f2cdc5f"
+      "file": "string_procs/wayto/0_633.rb"
     },
     "688": {
-      "stringproc": "b3587ee2f6a17505a0c2cccdd2323cc5"
+      "file": "string_procs/wayto/0_688.rb"
     },
     "27048": {
-      "stringproc": "547f503adf5aa2f6873a57cf69474963"
+      "file": "string_procs/wayto/0_27048.rb"
     },
     "689": {
-      "stringproc": "cffb550dfca2e49a99186ece3eac8007"
+      "file": "string_procs/wayto/0_689.rb"
     },
     "687": {
-      "stringproc": "2d08c18c01dc363e8e32d59c7ed95f5c"
+      "file": "string_procs/wayto/0_687.rb"
     },
     "27049": {
-      "stringproc": "42e9b61116d09feed31a643013b5eda3"
+      "file": "string_procs/wayto/0_27049.rb"
     }
   },
-  "paths": [
-    "Obvious exits: north, northeast, east, southeast, south, southwest, west, northwest"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "A skylight two stories above allows natural light to flood this room, giving it the feel of an outdoor cafe.  Set into the grey marble pillars surrounding the atrium are metal planters filled with a variety of flowers, plants, and hanging vines.  A burbling fountain in the center of the room makes the illusion complete.  Overhead, a row of black granite pillars surrounds the upper cloister, with a gallery of stained glass windows hanging between them."
-  ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Moonglae Inn, Atrium]"
-  ],
-  "check_location": null,
   "timeto": {
     "15652": 0.2,
     "1632": 0.2,
@@ -92,11 +89,5 @@
     "689": 0.2,
     "687": 0.2,
     "27049": 0.2
-  },
-  "id": 0,
-  "location": "the Moonglae Inn",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  }
 }

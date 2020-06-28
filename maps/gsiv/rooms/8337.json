@@ -1,4 +1,15 @@
 {
+  "id": 8337,
+  "title": [
+    "[Spider Temple, Central Chamber]"
+  ],
+  "description": [
+    "A shiver runs down your spine as you notice white marble carvings of webbed and cocooned creatures suspended among the web-patterned tracery overhead.  The floor tiles here depict scenes of death by arachnids.  To the east, the altar lies between you and the door out of the shrine."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast"
+  ],
+  "location": "the Spider Temple",
   "wayto": {
     "8349": "northeast",
     "8361": "go altar",
@@ -6,25 +17,6 @@
     "8340": "go marble door",
     "8332": "southeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southeast"
-  ],
-  "image_coords": [
-    558,
-    798,
-    568,
-    808
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A shiver runs down your spine as you notice white marble carvings of webbed and cocooned creatures suspended among the web-patterned tracery overhead.  The floor tiles here depict scenes of death by arachnids.  To the east, the altar lies between you and the door out of the shrine."
-  ],
-  "image": "wl-spider_temple-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Spider Temple, Central Chamber]"
-  ],
-  "check_location": null,
   "timeto": {
     "8349": 0.2,
     "8361": 0.2,
@@ -32,13 +24,11 @@
     "8340": 0.2,
     "8332": 0.2
   },
-  "id": 8337,
-  "location": "the Spider Temple",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-spider_temple-1264234799.png",
+  "image_coords": [
+    558,
+    798,
+    568,
+    808
   ]
 }

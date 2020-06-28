@@ -1,40 +1,30 @@
 {
+  "id": 12750,
+  "title": [
+    "[Ruined Temple, Second Floor]"
+  ],
+  "description": [
+    "The hall continues onward with little change, outside of the smoke stains that grow more dense along the walls and ceiling.  Resting below the surface of the water are several shards of pottery, their edges worn and smoothed from a combination of tide and time."
+  ],
+  "paths": [
+    "Obvious exits: east, southeast, west"
+  ],
+  "location": "the Ruined Temple",
   "wayto": {
     "12749": "west",
     "12762": "southeast",
     "12751": "east"
   },
-  "paths": [
-    "Obvious exits: east, southeast, west"
-  ],
-  "image_coords": [
-    473,
-    236,
-    509,
-    272
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The hall continues onward with little change, outside of the smoke stains that grow more dense along the walls and ceiling.  Resting below the surface of the water are several shards of pottery, their edges worn and smoothed from a combination of tide and time."
-  ],
-  "image": "ti-nelemar-1262373036.png",
-  "climate": "indoors",
-  "title": [
-    "[Ruined Temple, Second Floor]"
-  ],
-  "check_location": null,
   "timeto": {
     "12749": 0.2,
     "12762": 0.2,
     "12751": 0.2
   },
-  "id": 12750,
-  "location": "the Ruined Temple",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "ti-nelemar-1262373036.png",
+  "image_coords": [
+    473,
+    236,
+    509,
+    272
   ]
 }

@@ -1,44 +1,35 @@
 {
-  "wayto": {
-    "3537": "south",
-    "3539": "north",
-    "20702": {
-      "stringproc": "1fbba9dcc90be8b37e5f20d6154dcd36"
-    }
-  },
-  "paths": [
-    "Obvious paths: north, south"
+  "id": 3538,
+  "title": [
+    "[Ta'Vaalor, Shimaerslin Wey]"
   ],
-  "image_coords": [
-    1372,
-    705,
-    1409,
-    740
-  ],
-  "terrain": null,
   "description": [
     "A limestone-clad structure stands back from the wey, its pale ivory walls delicately carved with symbols of the Arkati.  Narrow windows of stained glaes frame the building's wide double doors.  A small mithril plaque is mounted on the doorpost.",
     "Not much remains here but limestone dust and shards of crushed glass.  A few larger stones here and there indicate that a building once stood here, but nothing of any value or significance is left.",
     "A neat path leads from the wey to a cottage sitting in the shadow of the great wall, its appearance nearly festive in a city of austere marble and limestone.  The cottage has been painted the pale blue of the sea, and several window boxes are home to a variety of tropical plants and flowers.",
     "A neat path meanders from the wey through an open gate and leads toward a villa sitting in the shadow of the great wall.  Painted the pale blue of the sea, the building adds a splash of color to this city of austere marble and limestone.  The faint scent of flowers emanates through the fence that surrounds the property."
   ],
-  "image": "en-tavaalor-1565907614.png",
-  "climate": null,
-  "title": [
-    "[Ta'Vaalor, Shimaerslin Wey]"
+  "paths": [
+    "Obvious paths: north, south"
   ],
-  "check_location": null,
+  "location": "the city of Ta'Vaalor",
+  "wayto": {
+    "3537": "south",
+    "3539": "north",
+    "20702": {
+      "file": "string_procs/wayto/3538_20702.rb"
+    }
+  },
   "timeto": {
     "3537": 0.2,
     "3539": 0.2,
     "20702": 0.2
   },
-  "id": 3538,
-  "location": "the city of Ta'Vaalor",
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "en-tavaalor-1565907614.png",
+  "image_coords": [
+    1372,
+    705,
+    1409,
+    740
   ]
 }

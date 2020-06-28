@@ -1,33 +1,30 @@
 {
+  "id": 7288,
+  "title": [
+    "[Slither Creek]"
+  ],
+  "description": [
+    "The creek widens into a small lake.  Dragonflies dart about, filling the air with color, while other, less pleasant insects buzz about the cattails lining the bank.  Something brushes against your leg, causing you to start, and you desperately hope it's a fish.  The bank seems stable enough for you to climb to dry land."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7287": "go bank",
     "7289": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast"
-  ],
+  "timeto": {
+    "7287": 0.2,
+    "7289": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     36,
     207,
     46,
     217
   ],
-  "terrain": "riparian",
-  "description": [
-    "The creek widens into a small lake.  Dragonflies dart about, filling the air with color, while other, less pleasant insects buzz about the cattails lining the bank.  Something brushes against your leg, causing you to start, and you desperately hope it's a fish.  The bank seems stable enough for you to climb to dry land."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "freshwater",
-  "title": [
-    "[Slither Creek]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7287": 0.2,
-    "7289": 0.2
-  },
-  "id": 7288,
-  "location": "the Graveyard",
   "tags": [
     "some aloeas stem",
     "yellow water lily",
@@ -38,10 +35,6 @@
     "wild gooseberry",
     "stalk of cattail",
     "murdroot",
-    "wavepetal blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wavepetal blossom"
   ]
 }

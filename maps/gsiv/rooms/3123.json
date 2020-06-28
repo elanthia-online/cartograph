@@ -1,50 +1,36 @@
 {
+  "id": 3123,
+  "title": [
+    "[Abandoned Farm, Field]"
+  ],
+  "description": [
+    "The ground ripples beneath the snow in long, undulating rows.  The wheat stubble beneath the snowy ground cover is sharp enough to pierce most boots.  It is much easier to walk along in the furrows than battle the long-frozen grain."
+  ],
+  "paths": [
+    "Obvious paths: east, northwest"
+  ],
+  "location": "the Abandoned Farm",
   "wayto": {
     "3124": "east",
     "3122": "northwest"
   },
-  "paths": [
-    "Obvious paths: east, northwest"
-  ],
+  "timeto": {
+    "3124": 0.2,
+    "3122": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     799,
     787,
     809,
     797
   ],
-  "terrain": "cultivated",
-  "description": [
-    "The ground ripples beneath the snow in long, undulating rows.  The wheat stubble beneath the snowy ground cover is sharp enough to pierce most boots.  It is much easier to walk along in the furrows than battle the long-frozen grain."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Abandoned Farm, Field]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3124": 0.2,
-    "3122": 0.2
-  },
-  "id": 3123,
-  "location": "the Abandoned Farm",
   "tags": [
     "wavepetal blossom",
     "moonflower",
     "some pennyroyal stem",
     "ice tulip",
     "tree spirit",
-    "some angelica root",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "winter rose",
-    "frostflower",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some angelica root"
   ]
 }

@@ -1,51 +1,35 @@
 {
+  "id": 7554,
+  "title": [
+    "[Twisting Tunnel]"
+  ],
+  "description": [
+    "The tunnels widen sharply here at this intersection of tunnels and then become narrow again away from the center.  A smaller side tunnel leads off to the north into the darkness while the main tunnel continues east and west."
+  ],
+  "paths": [
+    "Obvious exits: north, east, west"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "7557": "east",
     "7553": "west",
     "7555": "north"
   },
-  "paths": [
-    "Obvious exits: north, east, west"
-  ],
+  "timeto": {
+    "7557": 0.2,
+    "7553": 0.2,
+    "7555": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     340,
     936,
     350,
     946
   ],
-  "terrain": "indoors",
-  "description": [
-    "The tunnels widen sharply here at this intersection of tunnels and then become narrow again away from the center.  A smaller side tunnel leads off to the north into the darkness while the main tunnel continues east and west."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Twisting Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7557": 0.2,
-    "7553": 0.2,
-    "7555": 0.2
-  },
-  "id": 7554,
-  "location": "the catacombs",
   "tags": [
     "some wingstem root",
     "some cave moss",
-    "black hook mushroom",
-    "red trafel mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "black hook mushroom"
   ]
 }

@@ -1,37 +1,34 @@
 {
+  "id": 2816,
+  "title": [
+    "[Northern Mountains, Bluff]"
+  ],
+  "description": [
+    "The trees open into a clearing bound on one side by a fallen log.  The tree trunk's wood is rotted in parts, and coated with thick moss and snow elsewhere.  It points away from the thick stands of pines, as if gesturing to the south where the ground disappears, dropping into a sheer cliff of granite that shelters a pool nestled at its feet."
+  ],
+  "paths": [
+    "Obvious paths: northeast, down"
+  ],
+  "location": "the Pinefar forests",
   "wayto": {
     "2817": "down",
     "2821": "northeast",
     "2815": {
-      "stringproc": "40433b4d58b49d290bd7d8bd08fdb78c"
+      "file": "string_procs/wayto/2816_2815.rb"
     }
   },
-  "paths": [
-    "Obvious paths: northeast, down"
-  ],
+  "timeto": {
+    "2817": 0.2,
+    "2821": 0.2,
+    "2815": 0.2
+  },
+  "image": "imt-pinefar-1264234799.png",
   "image_coords": [
     431,
     1282,
     441,
     1292
   ],
-  "terrain": "missing",
-  "description": [
-    "The trees open into a clearing bound on one side by a fallen log.  The tree trunk's wood is rotted in parts, and coated with thick moss and snow elsewhere.  It points away from the thick stands of pines, as if gesturing to the south where the ground disappears, dropping into a sheer cliff of granite that shelters a pool nestled at its feet."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Northern Mountains, Bluff]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2817": 0.2,
-    "2821": 0.2,
-    "2815": 0.2
-  },
-  "id": 2816,
-  "location": "the Pinefar forests",
   "tags": [
     "red winterberry",
     "some pine needles",
@@ -42,36 +39,6 @@
     "crowberry",
     "sweetfern stalk",
     "snow lily",
-    "handful of pinenuts",
-    "tkaro root",
-    "sticks",
-    "sassafras leaf",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "iceblossoms",
-    "moonflowers",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "broken twig",
-    "pine cone",
-    "pine needles",
-    "frostweed",
-    "snowberries",
-    "pale thornberry",
-    "small loganberry",
-    "tree bark",
-    "frostflower",
-    "rockberry",
-    "lingonberry",
-    "orange rowanberry",
-    "ironfern root",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "handful of pinenuts"
   ]
 }

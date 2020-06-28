@@ -1,38 +1,28 @@
 {
+  "id": 111,
+  "title": [
+    "[Temple Wyneb, Calvaria]"
+  ],
+  "description": [
+    "Crumpled on the floor is a dusty skeleton surrounded by scraps of clothing and rusted fragments of metal.  No weapons, jewelry, or other items of value remain, having been looted long ago.  To the west you notice a series of depressions in the wall."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Temple Wyneb",
   "wayto": {
     "110": "north",
     "112": "south"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "110": 0.2,
+    "112": 0.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     503,
     575,
     513,
     585
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Crumpled on the floor is a dusty skeleton surrounded by scraps of clothing and rusted fragments of metal.  No weapons, jewelry, or other items of value remain, having been looted long ago.  To the west you notice a series of depressions in the wall."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Temple Wyneb, Calvaria]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "110": 0.2,
-    "112": 0.2
-  },
-  "id": 111,
-  "location": "Temple Wyneb",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

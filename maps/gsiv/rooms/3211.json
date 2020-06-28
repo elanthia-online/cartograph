@@ -1,33 +1,30 @@
 {
+  "id": 3211,
+  "title": [
+    "[Snowflake Vale, Clearing]"
+  ],
+  "description": [
+    "The icy stream flows into a mist-covered pond.  The farthest edge of the pond is shrouded by the rising curls of mist, and shadowed by the overhanging tree branches."
+  ],
+  "paths": [
+    "Obvious paths: north, east"
+  ],
+  "location": "the southern snowfields",
   "wayto": {
     "3212": "north",
     "3207": "east"
   },
-  "paths": [
-    "Obvious paths: north, east"
-  ],
+  "timeto": {
+    "3212": 0.2,
+    "3207": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     301,
     1084,
     311,
     1094
   ],
-  "terrain": "grassland",
-  "description": [
-    "The icy stream flows into a mist-covered pond.  The farthest edge of the pond is shrouded by the rising curls of mist, and shadowed by the overhanging tree branches."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Snowflake Vale, Clearing]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3212": 0.2,
-    "3207": 0.2
-  },
-  "id": 3211,
-  "location": "the southern snowfields",
   "tags": [
     "sprig of larkspur",
     "cuctucae berry",
@@ -39,26 +36,6 @@
     "snowy cockatrice",
     "greater ice spider",
     "some wolifrew lichen",
-    "some valerian root",
-    "acantha leaf",
-    "wolifrew lichen",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "white hook mushroom",
-    "winter rose",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "tundra grass",
-    "frostflower",
-    "luckbloom blossom",
-    "ironfern root",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some valerian root"
   ]
 }

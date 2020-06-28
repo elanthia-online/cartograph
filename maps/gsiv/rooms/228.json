@@ -1,4 +1,18 @@
 {
+  "id": 228,
+  "title": [
+    "[Town Square Central]"
+  ],
+  "description": [
+    "This is the heart of the main square of Wehnimer's Landing.  The impromptu shops of the bazaar are clustered around this central gathering place, where townsfolk, travellers, and adventurers meet to talk, conspire or raise expeditions to the far-flung reaches of Elanith.  At the north end, an old well, with moss-covered stones and a craggy roof, is shaded from the moonlight by a strong, robust tree.  The oak is tall and straight, and it is apparent that the roots run deep.",
+    "This is the heart of the main square of Wehnimer's Landing.  The impromptu shops of the bazaar are clustered around this central gathering place, where townsfolk, travellers, and adventurers meet to talk, conspire or raise expeditions to the far-flung reaches of Elanith.  At the north end of the space, an old well, with moss-covered stones and a craggy roof, is shaded by a strong, robust tree.  The oak is tall and straight, and it is apparent that the roots run deep.",
+    "This is the heart of the main square of Wehnimer's Landing.  The impromptu shops of the bazaar are clustered around this central gathering place, where townsfolk, travellers, and adventurers meet to talk, conspire or raise expeditions to the far-flung reaches of Elanith.  At the north end, an old well, with moss-covered stones and a craggy roof, is shaded from the moonlight by a strong, robust tree.  The oak is tall and straight, and it is apparent that the roots run deep.",
+    "This is the heart of the main square of Wehnimer's Landing.  The impromptu shops of the bazaar are clustered around this central gathering place, where townsfolk, travellers, and adventurers meet to talk, conspire or raise expeditions to the far-flung reaches of Elanith.  At the north end, an old well, with moss-covered stones and a craggy roof, is shaded from the moonlight by a strong, robust tree.  The oak is tall and straight, and it is apparent that the roots run deep."
+  ],
+  "paths": [
+    "Obvious paths: northeast, east, southeast, southwest, west, northwest"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "227": "northwest",
     "282": "southeast",
@@ -7,48 +21,25 @@
     "7562": "go old well",
     "285": "west",
     "276": "northeast",
-    "8665": "go oak tree",
-    "3668": {
-      "stringproc": "1d41454a8ce526999afe00d553b29bee"
-    }
+    "8665": "go oak tree"
   },
-  "paths": [
-    "Obvious paths: northeast, east, southeast, southwest, west, northwest"
-  ],
+  "timeto": {
+    "227": 1.0,
+    "282": 1.0,
+    "229": 1.0,
+    "284": 1.0,
+    "7562": 0.2,
+    "285": 1.0,
+    "276": 1.0,
+    "8665": 0.2
+  },
+  "image": "wl-wehnimers-1264234799.png",
   "image_coords": [
     277,
     615,
     313,
     651
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "This is the heart of the main square of Wehnimer's Landing.  The impromptu shops of the bazaar are clustered around this central gathering place, where townsfolk, travellers, and adventurers meet to talk, conspire or raise expeditions to the far-flung reaches of Elanith.  At the north end, an old well, with moss-covered stones and a craggy roof, is shaded from the moonlight by a strong, robust tree.  The oak is tall and straight, and it is apparent that the roots run deep.",
-    "This is the heart of the main square of Wehnimer's Landing.  The impromptu shops of the bazaar are clustered around this central gathering place, where townsfolk, travellers, and adventurers meet to talk, conspire or raise expeditions to the far-flung reaches of Elanith.  At the north end of the space, an old well, with moss-covered stones and a craggy roof, is shaded by a strong, robust tree.  The oak is tall and straight, and it is apparent that the roots run deep.",
-    "This is the heart of the main square of Wehnimer's Landing.  The impromptu shops of the bazaar are clustered around this central gathering place, where townsfolk, travellers, and adventurers meet to talk, conspire or raise expeditions to the far-flung reaches of Elanith.  At the north end, an old well, with moss-covered stones and a craggy roof, is shaded from the moonlight by a strong, robust tree.  The oak is tall and straight, and it is apparent that the roots run deep.",
-    "This is the heart of the main square of Wehnimer's Landing.  The impromptu shops of the bazaar are clustered around this central gathering place, where townsfolk, travellers, and adventurers meet to talk, conspire or raise expeditions to the far-flung reaches of Elanith.  At the north end, an old well, with moss-covered stones and a craggy roof, is shaded from the moonlight by a strong, robust tree.  The oak is tall and straight, and it is apparent that the roots run deep."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Town Square Central]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "227": 5.0,
-    "282": 5.0,
-    "229": 5.0,
-    "284": 5.0,
-    "7562": 5.0,
-    "285": 5.0,
-    "276": 5.0,
-    "8665": 5.0,
-    "3668": {
-      "stringproc": "2e87af919b7aa36629593478fcf980f8"
-    }
-  },
-  "id": 228,
-  "location": "the town of Wehnimer's Landing",
   "tags": [
     "some sovyn clove",
     "some acantha leaf",
@@ -86,16 +77,6 @@
     "meta:mapshortname:Wehnimer's Landing",
     "meta:mapcategory:Wehnimer's Landing",
     "meta:mapcategory:Towns",
-    "meta:teleport:fwi",
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "angelica root",
-    "murkweed",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:teleport:fwi"
   ]
 }

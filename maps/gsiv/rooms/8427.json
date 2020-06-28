@@ -1,48 +1,36 @@
 {
+  "id": 8427,
+  "title": [
+    "[Thanatoph Bowels, Cavern]"
+  ],
+  "description": [
+    "Erosion and time have formed a tall earthen cliff, the lake below still visible from this vantage.  Several crushed pieces of stone lie scattered about the ground, most no bigger than a pebble."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "the bowels of Thanatoph",
   "wayto": {
     "8426": "south",
     "8428": "west",
     "8430": "climb ledge"
   },
-  "paths": [
-    "Obvious exits: south, west"
-  ],
+  "timeto": {
+    "8426": 0.2,
+    "8428": 0.2,
+    "8430": 0.2
+  },
+  "image": "wl-stronghold-1264234799.png",
   "image_coords": [
     1328,
     664,
     1338,
     674
   ],
-  "terrain": "indoors",
-  "description": [
-    "Erosion and time have formed a tall earthen cliff, the lake below still visible from this vantage.  Several crushed pieces of stone lie scattered about the ground, most no bigger than a pebble."
-  ],
-  "image": "wl-stronghold-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thanatoph Bowels, Cavern]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8426": 0.2,
-    "8428": 0.2,
-    "8430": 0.2
-  },
-  "id": 8427,
-  "location": "the bowels of Thanatoph",
   "tags": [
     "some wingstem root",
     "some wolifrew lichen",
     "some cave moss",
-    "withered black mushroom",
-    "wolifrew lichen",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "withered black mushroom"
   ]
 }

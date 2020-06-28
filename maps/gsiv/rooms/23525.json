@@ -1,42 +1,32 @@
 {
-  "wayto": {
-    "5830": {
-      "stringproc": "6aa32eddf6a7ab233d6f56dca6f30f52"
-    },
-    "23526": {
-      "stringproc": "52a801c947de0398fe12c576bf73d966"
-    }
-  },
+  "id": 23525,
+  "title": [
+    "[Mistydeep, Eastern Shore]"
+  ],
+  "description": [
+    "A narrow beach of dusky granite gravel provides a small gap between the river to the west and the encroaching forest, a dense thicket of young willows, and thorn-covered vines.  A brace of curlews wades through the edge of the river, digging through the mud of the shallows."
+  ],
   "paths": [
     "Obvious paths: none"
   ],
+  "location": "the northern reaches of the Mistydeep River",
+  "wayto": {
+    "5830": {
+      "file": "string_procs/wayto/23525_5830.rb"
+    },
+    "23526": {
+      "file": "string_procs/wayto/23525_23526.rb"
+    }
+  },
+  "timeto": {
+    "5830": 3.2,
+    "23526": 0.2
+  },
+  "image": "en-ravelin.png",
   "image_coords": [
     1441,
     923,
     1468,
     951
-  ],
-  "terrain": null,
-  "description": [
-    "A narrow beach of dusky granite gravel provides a small gap between the river to the west and the encroaching forest, a dense thicket of young willows, and thorn-covered vines.  A brace of curlews wades through the edge of the river, digging through the mud of the shallows."
-  ],
-  "image": "en-ravelin.png",
-  "climate": null,
-  "title": [
-    "[Mistydeep, Eastern Shore]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5830": 3.2,
-    "23526": 0.2
-  },
-  "id": 23525,
-  "location": "the northern reaches of the Mistydeep River",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

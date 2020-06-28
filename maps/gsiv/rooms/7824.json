@@ -1,38 +1,28 @@
 {
+  "id": 7824,
+  "title": [
+    "[Glatoph, Ruins]"
+  ],
+  "description": [
+    "This passage leads straight into the mountain.  The walls, floor and ceiling are covered with steel, smoothly and without seam.  There's enough steel in here to make weapons and armor for every man, woman, child, rolton, rat and canary in Elanith.  To the south is a rectangular opening, with a steel door fallen over the threshold.  The tunnel goes north into the mountain."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Glatoph",
   "wayto": {
     "7823": "go door",
     "7825": "north"
   },
-  "paths": [
-    "Obvious exits: north"
-  ],
+  "timeto": {
+    "7823": 0.2,
+    "7825": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     573,
     601,
     583,
     611
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This passage leads straight into the mountain.  The walls, floor and ceiling are covered with steel, smoothly and without seam.  There's enough steel in here to make weapons and armor for every man, woman, child, rolton, rat and canary in Elanith.  To the south is a rectangular opening, with a steel door fallen over the threshold.  The tunnel goes north into the mountain."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Glatoph, Ruins]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7823": 0.2,
-    "7825": 0.2
-  },
-  "id": 7824,
-  "location": "Glatoph",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

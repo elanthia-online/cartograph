@@ -1,38 +1,30 @@
 {
-  "wayto": {
-    "2586": "east",
-    "2588": "southwest",
-    "12208": {
-      "stringproc": "a0576f0215d746452e7afb93c1ee082c"
-    },
-    "2635": {
-      "stringproc": "01b8924575c8d70e4ed7eea7ed00be84"
-    },
-    "12101": {
-      "stringproc": "cf4b8e5b125b22b01c9349827d02c9fd"
-    },
-    "2584": "northeast"
-  },
+  "id": 2585,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "Chains creak and strain under the load they are holding in the center of this stone-walled room.  Eight rolaren chains reach up, entangle, and reach down to the ground on the opposite side of the large shadowy mass hovering just above the floor.  It shifts and moves, as if alive and seeking an escape from the bindings.  The chains glow slightly in the dim light, throwing unusual shadows on the walls while keeping the mass from growing too much."
+  ],
   "paths": [
     "Obvious exits: northeast, east, southwest, northwest",
     "Obvious paths: northeast, east, southwest, northwest"
   ],
-  "image_coords": [
-    145,
-    669,
-    155,
-    679
-  ],
-  "terrain": null,
-  "description": [
-    "Chains creak and strain under the load they are holding in the center of this stone-walled room.  Eight rolaren chains reach up, entangle, and reach down to the ground on the opposite side of the large shadowy mass hovering just above the floor.  It shifts and moves, as if alive and seeking an escape from the bindings.  The chains glow slightly in the dim light, throwing unusual shadows on the walls while keeping the mass from growing too much."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "2586": "east",
+    "2588": "southwest",
+    "12208": {
+      "file": "string_procs/wayto/2585_12208.rb"
+    },
+    "2635": {
+      "file": "string_procs/wayto/2585_2635.rb"
+    },
+    "12101": {
+      "file": "string_procs/wayto/2585_12101.rb"
+    },
+    "2584": "northeast"
+  },
   "timeto": {
     "2586": 0.2,
     "2588": 0.2,
@@ -41,8 +33,13 @@
     "12101": 26.0,
     "2584": 0.2
   },
-  "id": 2585,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    145,
+    669,
+    155,
+    679
+  ],
   "tags": [
     "oozing fleshsore bulb",
     "discolored fleshbinder bud",
@@ -51,8 +48,5 @@
     "slime-covered grave blossom",
     "withered deathblossom",
     "twisted black mawflower"
-  ],
-  "links": [
-
   ]
 }

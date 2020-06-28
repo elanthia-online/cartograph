@@ -1,50 +1,34 @@
 {
+  "id": 2277,
+  "title": [
+    "[Abandoned Mine]"
+  ],
+  "description": [
+    "Rocks and splintered wood lie scattered across the gritty floor, apparently the remains of a failed blockade to the east.  A gentle draft blows through the gloomy shaft from that direction, a faint odor carried upon its cool touch."
+  ],
+  "paths": [
+    "Obvious exits: east, southwest"
+  ],
+  "location": "the Abandoned Mine",
   "wayto": {
     "2278": "east",
     "2276": "southwest"
   },
-  "paths": [
-    "Obvious exits: east, southwest"
-  ],
+  "timeto": {
+    "2278": 0.2,
+    "2276": 0.2
+  },
+  "image": "ti-teras-1264234799.png",
   "image_coords": [
     719,
     1106,
     729,
     1116
   ],
-  "terrain": "indoors",
-  "description": [
-    "Rocks and splintered wood lie scattered across the gritty floor, apparently the remains of a failed blockade to the east.  A gentle draft blows through the gloomy shaft from that direction, a faint odor carried upon its cool touch."
-  ],
-  "image": "ti-teras-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abandoned Mine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2278": 0.2,
-    "2276": 0.2
-  },
-  "id": 2277,
-  "location": "the Abandoned Mine",
   "tags": [
     "blue trafel mushroom",
     "soft white mushroom",
     "black hook mushroom",
-    "some cave moss",
-    "red trafel mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "cave moss",
-    "murdroot",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

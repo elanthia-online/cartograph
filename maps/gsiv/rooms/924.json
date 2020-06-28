@@ -1,42 +1,35 @@
 {
+  "id": 924,
+  "title": [
+    "[Whistler's Pass, Tunnel]"
+  ],
+  "description": [
+    "Small, scattered mineral deposits sparkle in the dark tunnel, their tiny facets glinting like the miniscule eyes of bats against the greyish stone.  All around, the noise of violently surging water engulfs the passage, drowning out all other sounds."
+  ],
+  "paths": [
+    "Obvious exits: north, southwest"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "923": "north",
     "925": "southwest"
   },
-  "paths": [
-    "Obvious exits: north, southwest"
-  ],
+  "timeto": {
+    "923": 0.2,
+    "925": 0.2
+  },
+  "image": "en-whistlers_pass-1264234799.png",
   "image_coords": [
     344,
     576,
     354,
     586
   ],
-  "terrain": "indoors",
-  "description": [
-    "Small, scattered mineral deposits sparkle in the dark tunnel, their tiny facets glinting like the miniscule eyes of bats against the greyish stone.  All around, the noise of violently surging water engulfs the passage, drowning out all other sounds."
-  ],
-  "image": "en-whistlers_pass-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Whistler's Pass, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "923": 0.2,
-    "925": 0.2
-  },
-  "id": 924,
-  "location": "Whistler's Pass",
   "tags": [
     "white hook mushroom",
     "cave moss",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

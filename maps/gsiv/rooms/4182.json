@@ -1,38 +1,28 @@
 {
+  "id": 4182,
+  "title": [
+    "[Minion Quarters]"
+  ],
+  "description": [
+    "A thin layer of gold reflects from the torch as you enter the room.  There is just enough gold to show itself in the wall, but not enough to be profitable to mine.  This area might have originally been a mine.  Now the use is much different."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "4181": "west",
     "4183": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "4181": 0.2,
+    "4183": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     731,
     1140,
     741,
     1150
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A thin layer of gold reflects from the torch as you enter the room.  There is just enough gold to show itself in the wall, but not enough to be profitable to mine.  This area might have originally been a mine.  Now the use is much different."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Minion Quarters]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4181": 0.2,
-    "4183": 0.2
-  },
-  "id": 4182,
-  "location": "the Graveyard",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

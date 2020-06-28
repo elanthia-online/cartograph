@@ -1,40 +1,29 @@
 {
-  "wayto": {
-    "15650": "climb ladder"
-  },
+  "id": 15651,
+  "title": [
+    "[Tiny Cottage, Attic]"
+  ],
+  "description": [
+    "The walls of the attic room slant upward, following the peaked line of the cottage roof.  Most of the floor space in the room is taken up with stacked storage crates.  A wooden ladder descends down through an opening into the bedroom below."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "Old Ta'Faendryl",
+  "wayto": {
+    "15650": "climb ladder"
+  },
+  "timeto": {
+    "15650": 0.2
+  },
+  "image": "en-old_ta_faendryl-1264234799.png",
   "image_coords": [
     90,
     618,
     101,
     628
   ],
-  "terrain": "indoors",
-  "description": [
-    "The walls of the attic room slant upward, following the peaked line of the cottage roof.  Most of the floor space in the room is taken up with stacked storage crates.  A wooden ladder descends down through an opening into the bedroom below."
-  ],
-  "image": "en-old_ta_faendryl-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Tiny Cottage, Attic]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "15650": 0.2
-  },
-  "id": 15651,
-  "location": "Old Ta'Faendryl",
   "tags": [
-    "ironfern root",
-    "blaestonberry blossom",
-    "pepperthorn root",
-    "murdroot",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

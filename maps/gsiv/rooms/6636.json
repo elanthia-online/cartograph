@@ -1,40 +1,30 @@
 {
+  "id": 6636,
+  "title": [
+    "[Broken Lands, Hallway]"
+  ],
+  "description": [
+    "The corridor ends at an ornate black marble arch leading to what appears to be a large, open area to the south.  Two small wooden doors stand across from each other on the eastern and western walls.  A crimson vaalin sconce holding a lit torch is mounted on the wall to either side of the arch."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Broken Lands",
   "wayto": {
     "6634": "go door",
     "6635": "north",
     "6637": "go arch"
   },
-  "paths": [
-    "Obvious exits: north"
-  ],
-  "image_coords": [
-    276,
-    1127,
-    286,
-    1137
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The corridor ends at an ornate black marble arch leading to what appears to be a large, open area to the south.  Two small wooden doors stand across from each other on the eastern and western walls.  A crimson vaalin sconce holding a lit torch is mounted on the wall to either side of the arch."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Broken Lands, Hallway]"
-  ],
-  "check_location": null,
   "timeto": {
     "6634": 0.2,
     "6635": 0.2,
     "6637": 0.2
   },
-  "id": 6636,
-  "location": "the Broken Lands",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-broken-1264234799.png",
+  "image_coords": [
+    276,
+    1127,
+    286,
+    1137
   ]
 }

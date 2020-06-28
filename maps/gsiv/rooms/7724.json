@@ -1,52 +1,35 @@
 {
+  "id": 7724,
+  "title": [
+    "[Caverns, Tunnel]"
+  ],
+  "description": [
+    "The greyish stone of the ceiling above resembles a honeycomb of tiny holes and curving channels, its wavy natural patterns carved by ages of trickling moisture.  The air is dank and moist, and small puddles collect in shallow depressions in the floor, casting a faint whitish mist up from their surface."
+  ],
+  "paths": [
+    "Obvious exits: north, east, northwest"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "7723": "east",
     "7717": "north",
     "7718": "northwest"
   },
-  "paths": [
-    "Obvious exits: north, east, northwest"
-  ],
+  "timeto": {
+    "7723": 0.2,
+    "7717": 0.2,
+    "7718": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     249,
     1466,
     259,
     1476
   ],
-  "terrain": "indoors",
-  "description": [
-    "The greyish stone of the ceiling above resembles a honeycomb of tiny holes and curving channels, its wavy natural patterns carved by ages of trickling moisture.  The air is dank and moist, and small puddles collect in shallow depressions in the floor, casting a faint whitish mist up from their surface."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Caverns, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7723": 0.2,
-    "7717": 0.2,
-    "7718": 0.2
-  },
-  "id": 7724,
-  "location": "the Coastal Cliffs",
   "tags": [
     "some cave moss",
     "soft white mushroom",
-    "blue trafel mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "blue trafel mushroom"
   ]
 }

@@ -1,40 +1,30 @@
 {
+  "id": 6670,
+  "title": [
+    "[Elder's Chambers, Anteroom]"
+  ],
+  "description": [
+    "A musty odor of old, damp fiber rises from the plush carpeting beneath your feet.  Carefully arranged groupings of chairs and couches, richly upholstered in crimson and black brocade, are arranged around ornate tables of black vaalin and carved wood.  Heavy, dusty tapestries along the walls muffle any sound."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Broken Lands",
   "wayto": {
     "6669": "go door",
     "6671": "go arch",
     "6673": "north"
   },
-  "paths": [
-    "Obvious exits: north"
-  ],
-  "image_coords": [
-    522,
-    1181,
-    529,
-    1190
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A musty odor of old, damp fiber rises from the plush carpeting beneath your feet.  Carefully arranged groupings of chairs and couches, richly upholstered in crimson and black brocade, are arranged around ornate tables of black vaalin and carved wood.  Heavy, dusty tapestries along the walls muffle any sound."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Elder's Chambers, Anteroom]"
-  ],
-  "check_location": null,
   "timeto": {
     "6669": 0.2,
     "6671": 0.2,
     "6673": 0.2
   },
-  "id": 6670,
-  "location": "the Broken Lands",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-broken-1264234799.png",
+  "image_coords": [
+    522,
+    1181,
+    529,
+    1190
   ]
 }

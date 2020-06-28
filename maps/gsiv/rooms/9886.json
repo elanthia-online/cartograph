@@ -1,42 +1,34 @@
 {
+  "id": 9886,
+  "title": [
+    "[Linden Grove, Path]"
+  ],
+  "description": [
+    "The path traverses a grove of tall linden trees, their trunks straight and elegant and their lowest branches beginning a good ways off the forest floor.  Beneath the leafy canopy, the ceiling hangs significantly higher than that of the surrounding forest, giving the glade the lofty majesty of a temple nave.  Across the glade's floor, the trail meanders in a loopy pattern that circles trees, crisscrosses and turns back on itself like a drunken serpent."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south, northwest"
+  ],
+  "location": "the dark woods",
   "wayto": {
     "18803": {
-      "stringproc": "9530e7b353488450abf514d7328187a8"
+      "file": "string_procs/wayto/9886_18803.rb"
     },
     "13183": {
-      "stringproc": "9bf57bf3fda33e99abb00f61f6b4286d"
+      "file": "string_procs/wayto/9886_13183.rb"
     },
     "9890": "go grove",
     "9889": "northwest",
     "16956": {
-      "stringproc": "be97885db95624bceef2deaffc5e02c4"
+      "file": "string_procs/wayto/9886_16956.rb"
     },
     "16957": {
-      "stringproc": "3ec966178521e1f4be79cba045229179"
+      "file": "string_procs/wayto/9886_16957.rb"
     },
     "18896": "go forest",
     "9885": "south",
     "9887": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, south, northwest"
-  ],
-  "image_coords": [
-    1044,
-    221,
-    1054,
-    231
-  ],
-  "terrain": "deciduous forest",
-  "description": [
-    "The path traverses a grove of tall linden trees, their trunks straight and elegant and their lowest branches beginning a good ways off the forest floor.  Beneath the leafy canopy, the ceiling hangs significantly higher than that of the surrounding forest, giving the glade the lofty majesty of a temple nave.  Across the glade's floor, the trail meanders in a loopy pattern that circles trees, crisscrosses and turns back on itself like a drunken serpent."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Linden Grove, Path]"
-  ],
-  "check_location": null,
   "timeto": {
     "18803": 15.0,
     "13183": 15.0,
@@ -48,8 +40,13 @@
     "9885": 0.2,
     "9887": 0.2
   },
-  "id": 9886,
-  "location": "the dark woods",
+  "image": "en-sapphire-1264234799.png",
+  "image_coords": [
+    1044,
+    221,
+    1054,
+    231
+  ],
   "tags": [
     "some acantha leaf",
     "some torban leaf",
@@ -65,59 +62,6 @@
     "ebony twig",
     "some basal moss",
     "twisted twig",
-    "blue trafel mushroom",
-    "acantha leaf",
-    "torban leaf",
-    "calamia fruit",
-    "haphip root",
-    "basal moss",
-    "sticks",
-    "angelica root",
-    "trollfear mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "blueberries",
-    "elderberries",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "wild grapes",
-    "stalk of bluebells",
-    "golden buttercup",
-    "wild pink geranium",
-    "stalk of goldenrod",
-    "small wild rose",
-    "wild beechnut",
-    "stalk of burdock",
-    "silver-edged fern",
-    "wild chokecherry",
-    "lady slipper blossom",
-    "wild orchid",
-    "wood violet",
-    "wolfsbane root",
-    "sprig of mistletoe",
-    "tree bark",
-    "murkweed",
-    "white lily",
-    "pink rain lily",
-    "coppery rain lily",
-    "oxblood lily",
-    "blue whortleberry",
-    "white baneberry",
-    "yew twig",
-    "oak twig",
-    "murdroot",
-    "nightbloom blossom",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "blue trafel mushroom"
   ]
 }

@@ -1,38 +1,28 @@
 {
+  "id": 9817,
+  "title": [
+    "[Maaghara Labyrinth]"
+  ],
+  "description": [
+    "Several gouges mar the walls on either side of the cramped passageway, deep enough to fit a giantman's arm within.  Pale lichen festoons the small ledges upon the scarred earth, trailing toward the floor in thin waves.  A few shattered bones lie beneath the fungus, each obscured by the fuzzy grey-green tendrils."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east"
+  ],
+  "location": "the Maaghara Tower",
   "wayto": {
     "9816": "northeast",
     "9818": "east"
   },
-  "paths": [
-    "Obvious exits: northeast, east"
-  ],
+  "timeto": {
+    "9816": 0.2,
+    "9818": 0.2
+  },
+  "image": "en-tower-1264234799.png",
   "image_coords": [
     1150,
     491,
     1160,
     501
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Several gouges mar the walls on either side of the cramped passageway, deep enough to fit a giantman's arm within.  Pale lichen festoons the small ledges upon the scarred earth, trailing toward the floor in thin waves.  A few shattered bones lie beneath the fungus, each obscured by the fuzzy grey-green tendrils."
-  ],
-  "image": "en-tower-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Maaghara Labyrinth]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9816": 0.2,
-    "9818": 0.2
-  },
-  "id": 9817,
-  "location": "the Maaghara Tower",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

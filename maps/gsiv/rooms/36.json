@@ -1,43 +1,33 @@
 {
-  "wayto": {
-    "10837": "southwest",
-    "35": "northeast",
-    "37": "southeast"
-  },
-  "paths": [
-    "Obvious paths: northeast, southeast, southwest"
+  "id": 36,
+  "title": [
+    "[Ta'Illistim, Gateyard]"
   ],
-  "image_coords": [
-    1581,
-    772,
-    1603,
-    792
-  ],
-  "terrain": "hard, flat",
   "description": [
     "The gateyard begins to narrow as it funnels its occupants towards the northeast.  The stone walls close in a bit, flaming iron-sconced torches spaced evenly along the stoneworks just above reach for even the tallest giantman.  Two guardsmen stand atop a wooden platform, inspecting the hubbub of the gateyard.",
     "The gateyard begins to narrow as it funnels its occupants towards the northeast.  The stone walls close in a bit, unlit iron-sconced torches spaced evenly along the stoneworks just above reach for even the tallest giantman.  Two guardsmen stand atop a wooden platform, inspecting the hubbub of the gateyard.",
     "The gateyard's high ceiling lowers here, closer to the city proper.  The stone walls close in a bit, silver lanterns spaced evenly around the circular chamber glowing with a bright blue light.",
     "The gateyard's high ceiling lowers here, closer to the city proper.  The stone walls close in a bit, silver lanterns spaced evenly around the circular chamber glowing with a dim blue light."
   ],
-  "image": "en-ta_illistim-new.jpg",
-  "climate": "temperate",
-  "title": [
-    "[Ta'Illistim, Gateyard]"
+  "paths": [
+    "Obvious paths: northeast, southeast, southwest"
   ],
-  "check_location": null,
+  "location": "Ta'Illistim",
+  "wayto": {
+    "10837": "southwest",
+    "35": "northeast",
+    "37": "southeast"
+  },
   "timeto": {
     "10837": 0.2,
     "35": 0.2,
     "37": 0.2
   },
-  "id": 36,
-  "location": "Ta'Illistim",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-ta_illistim-new.jpg",
+  "image_coords": [
+    1581,
+    772,
+    1603,
+    792
   ]
 }

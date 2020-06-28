@@ -1,38 +1,28 @@
 {
+  "id": 9216,
+  "title": [
+    "[Thurfel's Cellar]"
+  ],
+  "description": [
+    "Securely bolted into the walls below this walkway are several thick iron chains.  The links on the ends are bent and broken, whatever beast they may have imprisoned evidently far stronger than the metal."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Thurfel's Island",
   "wayto": {
     "9217": "south",
     "9215": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "9217": 0.2,
+    "9215": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     1251,
     758,
     1261,
     768
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Securely bolted into the walls below this walkway are several thick iron chains.  The links on the ends are bent and broken, whatever beast they may have imprisoned evidently far stronger than the metal."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thurfel's Cellar]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9217": 0.2,
-    "9215": 0.2
-  },
-  "id": 9216,
-  "location": "Thurfel's Island",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

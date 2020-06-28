@@ -1,65 +1,38 @@
 {
-  "wayto": {
-    "2838": {
-      "stringproc": "f9d269dd63248dc78731718a02f043ab"
-    },
-    "2836": "east"
-  },
+  "id": 2837,
+  "title": [
+    "[Northern Slopes, Timberline]"
+  ],
+  "description": [
+    "A beautiful frozen waterfall formed from once-melted snow runs over a rocky cliff and forms an ice-covered pool. A few hardy, twisted trees struggle to keep purchase in their rocky soil, having fought the brutal elements to a standstill."
+  ],
   "paths": [
     "Obvious paths: east"
   ],
+  "location": "the Sleeping Lady Mountains",
+  "wayto": {
+    "2838": {
+      "file": "string_procs/wayto/2837_2838.rb"
+    },
+    "2836": "east"
+  },
+  "timeto": {
+    "2838": 0.2,
+    "2836": 0.2
+  },
+  "image": "imt-pinefar-1264234799.png",
   "image_coords": [
     300,
     1385,
     310,
     1395
   ],
-  "terrain": "mountainous",
-  "description": [
-    "A beautiful frozen waterfall formed from once-melted snow runs over a rocky cliff and forms an ice-covered pool. A few hardy, twisted trees struggle to keep purchase in their rocky soil, having fought the brutal elements to a standstill."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Northern Slopes, Timberline]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2838": 0.2,
-    "2836": 0.2
-  },
-  "id": 2837,
-  "location": "the Sleeping Lady Mountains",
   "tags": [
     "sprig of edelweiss",
     "pale thornberry",
     "snow lily",
     "lingonberry",
     "sweetfern stalk",
-    "handful of snowberries",
-    "sassafras leaf",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "edelweiss",
-    "iceblossoms",
-    "winter rose",
-    "arctic moss",
-    "tundra grass",
-    "golden aster",
-    "calamintha blossom",
-    "snowberries",
-    "red winterberry",
-    "small loganberry",
-    "rockberry",
-    "crowberry",
-    "orange rowanberry",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "handful of snowberries"
   ]
 }

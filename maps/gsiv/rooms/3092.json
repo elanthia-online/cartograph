@@ -1,39 +1,31 @@
 {
+  "id": 3092,
+  "title": [
+    "[Abandoned Farm, Kitchen]"
+  ],
+  "description": [
+    "Plaster peels from the walls exposing large patches of grey stone.  There are no furnishings left in this room except for the brick mantel over the wide fireplace.  Broken crockery is heaped in a corner and the windows are shutterless."
+  ],
+  "paths": [
+    "Obvious exits: south, out"
+  ],
+  "location": "the Abandoned Farm",
   "wayto": {
     "3091": "out",
     "3093": "south"
   },
-  "paths": [
-    "Obvious exits: south, out"
-  ],
+  "timeto": {
+    "3091": 0.2,
+    "3093": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     833,
     565,
     843,
     575
   ],
-  "terrain": "indoors",
-  "description": [
-    "Plaster peels from the walls exposing large patches of grey stone.  There are no furnishings left in this room except for the brick mantel over the wide fireplace.  Broken crockery is heaped in a corner and the windows are shutterless."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abandoned Farm, Kitchen]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3091": 0.2,
-    "3093": 0.2
-  },
-  "id": 3092,
-  "location": "the Abandoned Farm",
   "tags": [
-    "zombie",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "zombie"
   ]
 }

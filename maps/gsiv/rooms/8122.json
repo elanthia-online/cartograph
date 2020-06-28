@@ -1,38 +1,28 @@
 {
+  "id": 8122,
+  "title": [
+    "[Luinne Bheinn, Tavern]"
+  ],
+  "description": [
+    "A long counter takes up most of the space against one wall.  Flickering candles make the low ceiling dark and sooty, but cast a warm, amber light throughout the room.  A few round tables are surrounded by sturdy chairs.  The intimate ambiance is only slightly detracted from by the thin layer of dust that covers some of the less used areas.  An old, red-painted door leads outside."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Luinne Bheinn",
   "wayto": {
     "8099": "go door",
     "8123": "west"
   },
-  "paths": [
-    "Obvious exits: west"
-  ],
+  "timeto": {
+    "8099": 0.2,
+    "8123": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     903,
     839,
     913,
     849
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A long counter takes up most of the space against one wall.  Flickering candles make the low ceiling dark and sooty, but cast a warm, amber light throughout the room.  A few round tables are surrounded by sturdy chairs.  The intimate ambiance is only slightly detracted from by the thin layer of dust that covers some of the less used areas.  An old, red-painted door leads outside."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Luinne Bheinn, Tavern]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8099": 0.2,
-    "8123": 0.2
-  },
-  "id": 8122,
-  "location": "Luinne Bheinn",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

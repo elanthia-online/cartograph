@@ -1,33 +1,30 @@
 {
+  "id": 5913,
+  "title": [
+    "[Catacombs, Tunnels]"
+  ],
+  "description": [
+    "An ungodly funk permeates throughout this chamber, and the reason for the stench rests along the southern wall.  Slumped in the corner rests the decaying corpse of a fallen warrior.  In his hands, he still clutches his instruments of warfare.  Pity, for they obviously did very little to fend off whatever may have killed him."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "5912": "go door",
     "5914": "east"
   },
-  "paths": [
-    "Obvious exits: east"
-  ],
+  "timeto": {
+    "5912": 0.2,
+    "5914": 0.2
+  },
+  "image": "en-tavaalor-1565907614.png",
   "image_coords": [
     355,
     742,
     362,
     751
   ],
-  "terrain": null,
-  "description": [
-    "An ungodly funk permeates throughout this chamber, and the reason for the stench rests along the southern wall.  Slumped in the corner rests the decaying corpse of a fallen warrior.  In his hands, he still clutches his instruments of warfare.  Pity, for they obviously did very little to fend off whatever may have killed him."
-  ],
-  "image": "en-tavaalor-1565907614.png",
-  "climate": null,
-  "title": [
-    "[Catacombs, Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5912": 0.2,
-    "5914": 0.2
-  },
-  "id": 5913,
-  "location": "the catacombs",
   "tags": [
     "black hook mushroom",
     "red trafel mushroom",
@@ -39,8 +36,5 @@
     "murdroot",
     "bolmara lichen",
     "wingstem root"
-  ],
-  "links": [
-
   ]
 }

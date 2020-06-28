@@ -1,50 +1,31 @@
 {
+  "id": 20602,
+  "title": [
+    "[Wehnimer's, Burrow Way]"
+  ],
+  "description": [
+    "The channel here is wide and large enough to fit a wagon through.  The thick lines of wooden wheels in the dirt are clear evidence of its plausibility."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "20601": "northeast",
     "20603": "southwest"
   },
-  "paths": [
-    "Obvious exits: northeast, southwest"
-  ],
+  "timeto": {
+    "20601": 0.2,
+    "20603": 0.2
+  },
+  "image": "wl-burrow_way-1360361110.png",
   "image_coords": [
     430,
     190,
     457,
     216
   ],
-  "terrain": "indoors",
-  "description": [
-    "The channel here is wide and large enough to fit a wagon through.  The thick lines of wooden wheels in the dirt are clear evidence of its plausibility."
-  ],
-  "image": "wl-burrow_way-1360361110.png",
-  "climate": "indoors",
-  "title": [
-    "[Wehnimer's, Burrow Way]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "20601": 0.2,
-    "20603": 0.2
-  },
-  "id": 20602,
-  "location": "the town of Wehnimer's Landing",
   "tags": [
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null,
-  "links": [
-
+    "soft white mushroom"
   ]
 }

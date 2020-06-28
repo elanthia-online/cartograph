@@ -1,4 +1,16 @@
 {
+  "id": 11319,
+  "title": [
+    "[Alchemist, Hallway]"
+  ],
+  "description": [
+    "At this intersection, a ragged gap in the ceiling is positioned above a large hole sundering the weakened floorbeams.  Dust motes dance through a single beam of silvery moonlight that falls through roof and floor alike.  Ancient portraits hang crookedly upon the sagging walls, but the dead alchemists are not required to gaze upon the damage to their old demense, for the eyes have been torn from every image.",
+    "At this intersection, a ragged gap in the ceiling is positioned above a large hole sundering the weakened floorbeams.  Dust motes dance through a single beam of golden sunlight that falls through roof and floor alike.  Ancient portraits hang crookedly upon the sagging walls, but the dead alchemists are not required to gaze upon the damage to their old demense, for the eyes have been torn from every image."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south, west"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11314": "north",
     "11316": "west",
@@ -6,26 +18,6 @@
     "11298": "go hole",
     "11320": "east"
   },
-  "paths": [
-    "Obvious exits: north, east, south, west"
-  ],
-  "image_coords": [
-    833,
-    779,
-    843,
-    789
-  ],
-  "terrain": "indoors",
-  "description": [
-    "At this intersection, a ragged gap in the ceiling is positioned above a large hole sundering the weakened floorbeams.  Dust motes dance through a single beam of silvery moonlight that falls through roof and floor alike.  Ancient portraits hang crookedly upon the sagging walls, but the dead alchemists are not required to gaze upon the damage to their old demense, for the eyes have been torn from every image.",
-    "At this intersection, a ragged gap in the ceiling is positioned above a large hole sundering the weakened floorbeams.  Dust motes dance through a single beam of golden sunlight that falls through roof and floor alike.  Ancient portraits hang crookedly upon the sagging walls, but the dead alchemists are not required to gaze upon the damage to their old demense, for the eyes have been torn from every image."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Alchemist, Hallway]"
-  ],
-  "check_location": null,
   "timeto": {
     "11314": 0.2,
     "11316": 0.2,
@@ -33,13 +25,11 @@
     "11298": 0.2,
     "11320": 0.2
   },
-  "id": 11319,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-citadel-1267238976.png",
+  "image_coords": [
+    833,
+    779,
+    843,
+    789
   ]
 }

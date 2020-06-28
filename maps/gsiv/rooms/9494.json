@@ -1,41 +1,33 @@
 {
+  "id": 9494,
+  "title": [
+    "[Rockslinger Relocation Services]"
+  ],
+  "description": [
+    "Several crates stand in one corner, all marked with the same destination.  The rest of the room is austere.  Only a stone desk and straight-backed chair break up the monotony of a grey granite floor, grey granite walls, and grey granite ceiling.  Two huge luminescent toadstools in large stone pots, each occupying opposite corners, appear sufficient to light the room.  A steel door allows exit to the corridors of Zul Logoth, a dark hallway extends to the west, and a wide corridor extends south."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Zul Logoth",
   "wayto": {
     "1000": "go door",
     "9495": "go hallway",
     "9497": "go corridor"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "1000": 0.2,
+    "9495": 0.2,
+    "9497": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     809,
     629,
     819,
     639
   ],
-  "terrain": "indoors",
-  "description": [
-    "Several crates stand in one corner, all marked with the same destination.  The rest of the room is austere.  Only a stone desk and straight-backed chair break up the monotony of a grey granite floor, grey granite walls, and grey granite ceiling.  Two huge luminescent toadstools in large stone pots, each occupying opposite corners, appear sufficient to light the room.  A steel door allows exit to the corridors of Zul Logoth, a dark hallway extends to the west, and a wide corridor extends south."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Rockslinger Relocation Services]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1000": 0.2,
-    "9495": 0.2,
-    "9497": 0.2
-  },
-  "id": 9494,
-  "location": "Zul Logoth",
   "tags": [
-    "movers",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "movers"
   ]
 }

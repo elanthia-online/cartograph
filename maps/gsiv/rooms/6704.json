@@ -1,50 +1,34 @@
 {
+  "id": 6704,
+  "title": [
+    "[Gnome Mine, Guard Post]"
+  ],
+  "description": [
+    "The remains of an old guard post are here.  From the positioning of a small rock barrier, it seems that this post was made to prevent anyone from entering the caves in this direction.  A small rut has been worn behind the barrier, apparently from the repeated pacing of sentries at this point.  To the west the cave seems to open into a much larger cavern.  Dim light can be seen coming from the northeast."
+  ],
+  "paths": [
+    "Obvious exits: northeast, west"
+  ],
+  "location": "the Upper Dragonsclaw",
   "wayto": {
     "6703": "northeast",
     "6705": "west"
   },
-  "paths": [
-    "Obvious exits: northeast, west"
-  ],
+  "timeto": {
+    "6703": 0.2,
+    "6705": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     127,
     1310,
     137,
     1320
   ],
-  "terrain": "indoors",
-  "description": [
-    "The remains of an old guard post are here.  From the positioning of a small rock barrier, it seems that this post was made to prevent anyone from entering the caves in this direction.  A small rut has been worn behind the barrier, apparently from the repeated pacing of sentries at this point.  To the west the cave seems to open into a much larger cavern.  Dim light can be seen coming from the northeast."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Gnome Mine, Guard Post]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6703": 0.2,
-    "6705": 0.2
-  },
-  "id": 6704,
-  "location": "the Upper Dragonsclaw",
   "tags": [
     "white hook mushroom",
     "some wingstem root",
     "red trafel mushroom",
-    "some cave moss",
-    "soft white mushroom",
-    "withered black mushroom",
-    "black hook mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

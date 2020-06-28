@@ -1,36 +1,25 @@
 {
-  "wayto": {
-    "365": "out",
-    "15369": "east",
-    "15370": "north"
-  },
-  "paths": [
-    "Obvious exits: north, east, out"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Enclosed by varnished ebonwood walls, the shop features a pile of striped throw pillows in the center of its mahogany floor.  A midnight blue rising phoenix tapestry hangs under the wooden ceiling.  Right near the front is a gold-leafed mistwood cabinet and a dovetailed oak table."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 15061,
   "title": [
     "[Rosewyn's Magic Shoppe]",
     "[Rosewyn's General Store]",
     "[Rosewyn's Weaponry]"
   ],
-  "check_location": null,
+  "description": [
+    "Enclosed by varnished ebonwood walls, the shop features a pile of striped throw pillows in the center of its mahogany floor.  A midnight blue rising phoenix tapestry hangs under the wooden ceiling.  Right near the front is a gold-leafed mistwood cabinet and a dovetailed oak table."
+  ],
+  "paths": [
+    "Obvious exits: north, east, out"
+  ],
+  "location": "Wehnimer's Landing",
+  "wayto": {
+    "365": "out",
+    "15369": "east",
+    "15370": "north"
+  },
   "timeto": {
     "365": 0.2,
     "15369": 0.2,
     "15370": 0.2
-  },
-  "id": 15061,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "links": [
-
-  ]
+  }
 }

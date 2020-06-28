@@ -1,36 +1,27 @@
 {
-  "wayto": {
-    "12295": {
-      "stringproc": "6fd0a5c764bfcc9a1defd261debac4f4"
-    },
-    "23144": "go curtain"
-  },
-  "paths": [
-    "Obvious exits: none"
+  "id": 23138,
+  "title": [
+    "[Paupers, Annex Lobby]"
   ],
-  "image_coords": null,
-  "terrain": null,
   "description": [
     "Simple, but elegant, the teakwood flooring of this room is polished to a lustrous sheen.  A royal blue velvet pennant edged in silver hangs near a heavy, white muslin curtain.",
     "Rattan stools flank an ebonwood-topped driftwood bar resting on a large mat of pressed banana leaves, and a wide cushioned wicker armchair invites relaxation while enjoying libation.  Bright blue woven mats are placed before a dark gold flyrsilk curtain and a pale lapis muslin-covered opening."
   ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Paupers, Annex Lobby]"
+  "paths": [
+    "Obvious exits: none"
   ],
-  "check_location": null,
+  "location": "Mist Harbor",
+  "wayto": {
+    "12295": {
+      "file": "string_procs/wayto/23138_12295.rb"
+    },
+    "23144": "go curtain"
+  },
   "timeto": {
     "12295": 0.2,
     "23144": 0.2
   },
-  "id": 23138,
-  "location": "Mist Harbor",
   "tags": [
     "pauperslockers"
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

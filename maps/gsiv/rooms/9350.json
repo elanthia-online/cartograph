@@ -1,35 +1,32 @@
 {
+  "id": 9350,
+  "title": [
+    "[Abandoned Village]"
+  ],
+  "description": [
+    "In front of the fire-gutted walls of a ruined building is a single well-weathered sign.  Any paint that may have once covered it is long gone, however the carving of a bunch of grapes can still be made out.  A second destroyed building that may have once been a stable sits slightly behind the first set of blackened roofless walls."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "9351": "go building",
     "9352": "north",
     "9348": "southeast"
   },
-  "paths": [
-    "Obvious paths: north, southeast"
-  ],
+  "timeto": {
+    "9351": 0.2,
+    "9352": 0.2,
+    "9348": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     1135,
     247,
     1145,
     257
   ],
-  "terrain": "grassland",
-  "description": [
-    "In front of the fire-gutted walls of a ruined building is a single well-weathered sign.  Any paint that may have once covered it is long gone, however the carving of a bunch of grapes can still be made out.  A second destroyed building that may have once been a stable sits slightly behind the first set of blackened roofless walls."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Abandoned Village]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9351": 0.2,
-    "9352": 0.2,
-    "9348": 0.2
-  },
-  "id": 9350,
-  "location": "the Cairnfang",
   "tags": [
     "rose-marrow root",
     "daggerstalk mushroom",
@@ -83,10 +80,6 @@
     "wavepetal blossom",
     "ironfern root",
     "nightbloom blossom",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

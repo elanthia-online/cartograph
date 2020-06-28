@@ -1,42 +1,32 @@
 {
+  "id": 6615,
+  "title": [
+    "[Pentagram Chamber]"
+  ],
+  "description": [
+    "This is a vast natural cavern.  The walls and corners are uneven, hewn from solid stone and cloaked in gloom.  What captures one's attention, though, is a colossal pentagram that covers the chamber's floor.  It is drawn in a multi-colored dust that glitters like powdered gems.  A jagged fissure in the floor crosses the symbol, sundering it completely.  Elaborately wrought braziers stand at each point of the pentagram like silent sentries."
+  ],
+  "paths": [
+    "Obvious exits: east, south, west"
+  ],
+  "location": "Castle Anwyn",
   "wayto": {
     "6618": "west",
     "6614": "go door",
     "6616": "east",
     "6617": "south"
   },
-  "paths": [
-    "Obvious exits: east, south, west"
-  ],
-  "image_coords": [
-    947,
-    694,
-    957,
-    704
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This is a vast natural cavern.  The walls and corners are uneven, hewn from solid stone and cloaked in gloom.  What captures one's attention, though, is a colossal pentagram that covers the chamber's floor.  It is drawn in a multi-colored dust that glitters like powdered gems.  A jagged fissure in the floor crosses the symbol, sundering it completely.  Elaborately wrought braziers stand at each point of the pentagram like silent sentries."
-  ],
-  "image": "wl-lysierian-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Pentagram Chamber]"
-  ],
-  "check_location": null,
   "timeto": {
     "6618": 0.2,
     "6614": 0.2,
     "6616": 0.2,
     "6617": 0.2
   },
-  "id": 6615,
-  "location": "Castle Anwyn",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-lysierian-1264234799.png",
+  "image_coords": [
+    947,
+    694,
+    957,
+    704
   ]
 }

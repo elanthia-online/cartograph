@@ -1,51 +1,36 @@
 {
-  "wayto": {
-    "18150": {
-      "stringproc": "9ba189a01da2e1fea62529d6c25aa263"
-    },
-    "4715": "south"
-  },
+  "id": 10781,
+  "title": [
+    "[Gyldemar Road, Ruins]"
+  ],
+  "description": [
+    "A triad of ebon pillars stands in a triangular pattern upon the road, their angular architecture resembling a singular massive claw stretching out to grasp at the sky.  A circular pattern of arcing patterns is faintly visible in the parched earth within the pillars, the faint writing similar in design to the rows upon rows of sigils incised into each of the towering monoliths.  A stillness pervades the area, broken only by the occasional chill draft of wind."
+  ],
   "paths": [
     "Obvious paths: south"
   ],
+  "location": "Ta'Illistim",
+  "wayto": {
+    "18150": {
+      "file": "string_procs/wayto/10781_18150.rb"
+    },
+    "4715": "south"
+  },
+  "timeto": {
+    "18150": {
+      "file": "string_procs/timeto/10781_18150.rb"
+    },
+    "4715": 0.2
+  },
+  "image": "en-gyldemar-1264234799.png",
   "image_coords": [
     225,
     869,
     235,
     879
   ],
-  "terrain": "rough",
-  "description": [
-    "A triad of ebon pillars stands in a triangular pattern upon the road, their angular architecture resembling a singular massive claw stretching out to grasp at the sky.  A circular pattern of arcing patterns is faintly visible in the parched earth within the pillars, the faint writing similar in design to the rows upon rows of sigils incised into each of the towering monoliths.  A stillness pervades the area, broken only by the occasional chill draft of wind."
-  ],
-  "image": "en-gyldemar-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Gyldemar Road, Ruins]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "18150": {
-      "stringproc": "65d43266aab71b9643fda7ffd471510d"
-    },
-    "4715": 0.2
-  },
-  "id": 10781,
-  "location": "Ta'Illistim",
   "tags": [
     "sorcererguild",
-    "sorcerer guild",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "stalk of chicory",
-    "broken twig",
-    "heath aster",
-    "sprig of larkspur",
-    "ironfern root",
-    "sky-blue delphinuris",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sorcerer guild"
   ]
 }

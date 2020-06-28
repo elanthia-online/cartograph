@@ -1,40 +1,30 @@
 {
+  "id": 120,
+  "title": [
+    "[Temple Wyneb, Calvaria]"
+  ],
+  "description": [
+    "Cut through the center of the chamber floor is a steep-sided channel which barely contains a rushing stream.  The swiftly moving water flows to the south, disappearing under the stone wall.  In this hard, enclosed space the roar is nearly deafening."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Temple Wyneb",
   "wayto": {
     "1609": "go stream",
     "119": "west",
     "121": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
-  "image_coords": [
-    636,
-    790,
-    646,
-    800
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Cut through the center of the chamber floor is a steep-sided channel which barely contains a rushing stream.  The swiftly moving water flows to the south, disappearing under the stone wall.  In this hard, enclosed space the roar is nearly deafening."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Temple Wyneb, Calvaria]"
-  ],
-  "check_location": null,
   "timeto": {
     "1609": 0.2,
     "119": 0.2,
     "121": 0.2
   },
-  "id": 120,
-  "location": "Temple Wyneb",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-skull-1264234799.png",
+  "image_coords": [
+    636,
+    790,
+    646,
+    800
   ]
 }

@@ -1,38 +1,27 @@
 {
+  "id": 11080,
+  "title": [
+    "[Sea Caves]"
+  ],
+  "description": [
+    "A broken barrel sits against the southern wall of the cave here, with hoops nearly rusted through and wood severely warped.  A cliff face descends to the north, but should be navigable.  The cave continues to the northwest."
+  ],
+  "paths": [
+    "Obvious exits: northwest, down"
+  ],
   "wayto": {
     "11079": "down",
     "11081": "northwest"
   },
-  "paths": [
-    "Obvious exits: northwest, down"
-  ],
+  "timeto": {
+    "11079": 0.2,
+    "11081": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     1242,
     192,
     1252,
     202
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A broken barrel sits against the southern wall of the cave here, with hoops nearly rusted through and wood severely warped.  A cliff face descends to the north, but should be navigable.  The cave continues to the northwest."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Caves]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11079": 0.2,
-    "11081": 0.2
-  },
-  "id": 11080,
-  "location": "the Sea Caves",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

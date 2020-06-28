@@ -1,35 +1,32 @@
 {
+  "id": 3678,
+  "title": [
+    "[Glatoph, Glacier]"
+  ],
+  "description": [
+    "Before you is a desolate windswept plain of ice and snow.  The visibility is beyond bad, with no hills to lessen the wind chill or block the windborn ice."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast, west"
+  ],
+  "location": "Glatoph",
   "wayto": {
     "7860": "southeast",
     "3679": "west",
     "3551": "north"
   },
-  "paths": [
-    "Obvious paths: north, southeast, west"
-  ],
+  "timeto": {
+    "7860": 0.2,
+    "3679": 0.2,
+    "3551": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     987,
     685,
     997,
     695
   ],
-  "terrain": "mountainous",
-  "description": [
-    "Before you is a desolate windswept plain of ice and snow.  The visibility is beyond bad, with no hills to lessen the wind chill or block the windborn ice."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Glatoph, Glacier]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7860": 0.2,
-    "3679": 0.2,
-    "3551": 0.2
-  },
-  "id": 3678,
-  "location": "Glatoph",
   "tags": [
     "arctic titan",
     "frost giant",
@@ -41,10 +38,6 @@
     "valerian root",
     "pennyroyal stem",
     "sprig of holly",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "12218": "south",
-    "12152": {
-      "stringproc": "e7b269de45035581300c76daf9e751cf"
-    },
-    "12089": {
-      "stringproc": "df16ace028c72dba18b51257349345d8"
-    },
-    "2635": {
-      "stringproc": "a5fc698b4e8aaa983aa8f5ad92908980"
-    },
-    "12092": "north"
-  },
+  "id": 12091,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "The sound of blades violently whipping through the air fills your ears.  As you move a bit further, the fog churning around you parts, and you see an unusual type of cell before you.  Scimitars whirl through the air of their own volition, holding a roughly circular pattern.  Inside the cell sits an old Krolvin warlord missing a few chunks of flesh, probably from attempted escapes."
+  ],
   "paths": [
     "Obvious exits: north, south",
     "Obvious paths: north, south"
   ],
-  "image_coords": [
-    119,
-    1168,
-    127,
-    1176
-  ],
-  "terrain": null,
-  "description": [
-    "The sound of blades violently whipping through the air fills your ears.  As you move a bit further, the fog churning around you parts, and you see an unusual type of cell before you.  Scimitars whirl through the air of their own volition, holding a roughly circular pattern.  Inside the cell sits an old Krolvin warlord missing a few chunks of flesh, probably from attempted escapes."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12218": "south",
+    "12152": {
+      "file": "string_procs/wayto/12091_12152.rb"
+    },
+    "12089": {
+      "file": "string_procs/wayto/12091_12089.rb"
+    },
+    "2635": {
+      "file": "string_procs/wayto/12091_2635.rb"
+    },
+    "12092": "north"
+  },
   "timeto": {
     "12218": 0.2,
     "12152": 21.6,
@@ -39,18 +31,19 @@
     "2635": 21.6,
     "12092": 0.2
   },
-  "id": 12091,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    119,
+    1168,
+    127,
+    1176
+  ],
   "tags": [
     "twisted black mawflower",
     "withered deathblossom",
     "mass of congealed slime",
     "slime-covered grave blossom",
     "discolored fleshbinder bud",
-    "rotting bile green fleshbulb",
-    "oozing fleshsore bulb"
-  ],
-  "links": [
-
+    "rotting bile green fleshbulb"
   ]
 }

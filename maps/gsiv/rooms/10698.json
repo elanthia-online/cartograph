@@ -1,34 +1,31 @@
 {
+  "id": 10698,
+  "title": [
+    "[Plains of Bone, Outer Circle]"
+  ],
+  "description": [
+    "A deep pit has been dug between the two walls.  Dozens of skeletons lie in the bottom of the pit.  Snakes curl their way through the forest of bones, their scales glinting in the moonlight.  A plank spans the pit.",
+    "A deep pit has been dug between the two walls.  Dozens of skeletons lie in the bottom of the pit.  Snakes curl their way through the forest of bones.  A plank spans the pit."
+  ],
+  "paths": [
+    "Obvious paths: southeast"
+  ],
+  "location": "the Plains of Bone",
   "wayto": {
     "10697": "southeast",
     "10699": "go plank"
   },
-  "paths": [
-    "Obvious paths: southeast"
-  ],
+  "timeto": {
+    "10697": 0.2,
+    "10699": 0.2
+  },
+  "image": "en-cemetery-1264234799.png",
   "image_coords": [
     316,
     270,
     326,
     280
   ],
-  "terrain": null,
-  "description": [
-    "A deep pit has been dug between the two walls.  Dozens of skeletons lie in the bottom of the pit.  Snakes curl their way through the forest of bones, their scales glinting in the moonlight.  A plank spans the pit.",
-    "A deep pit has been dug between the two walls.  Dozens of skeletons lie in the bottom of the pit.  Snakes curl their way through the forest of bones.  A plank spans the pit."
-  ],
-  "image": "en-cemetery-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Plains of Bone, Outer Circle]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10697": 0.2,
-    "10699": 0.2
-  },
-  "id": 10698,
-  "location": "the Plains of Bone",
   "tags": [
     "some wingstem root",
     "stalk of chicory",
@@ -58,8 +55,5 @@
     "wingstem root",
     "bur-clover root",
     "bone golem"
-  ],
-  "links": [
-
   ]
 }

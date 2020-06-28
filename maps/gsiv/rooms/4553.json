@@ -1,44 +1,34 @@
 {
+  "id": 4553,
+  "title": [
+    "[Dark Tunnel]"
+  ],
+  "description": [
+    "Endless hoof marks in the ground lead off to the south, following a time-worn trail of past labor.  Cobwebs mark the ceiling of the tunnel adding a silvery glow to the darkness."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "4549": "south",
     "4552": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "4549": 0.2,
+    "4552": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1142,
     564,
     1152,
     574
   ],
-  "terrain": "indoors",
-  "description": [
-    "Endless hoof marks in the ground lead off to the south, following a time-worn trail of past labor.  Cobwebs mark the ceiling of the tunnel adding a silvery glow to the darkness."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dark Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4549": 0.2,
-    "4552": 0.2
-  },
-  "id": 4553,
-  "location": "the Shadow Valley",
   "tags": [
     "blackgrove root",
     "some blue moss",
     "some shadowlace moss",
-    "ghostly pooka",
-    "cave moss",
-    "shadowlace moss",
-    "blue moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ghostly pooka"
   ]
 }

@@ -1,46 +1,32 @@
 {
-  "wayto": {
-    "21077": {
-      "stringproc": "d85ece0b13067d67ad270f4b82d3239d"
-    },
-    "21079": {
-      "stringproc": "25b57a47fa24e6f4eea217034f76e70e"
-    }
-  },
+  "id": 21078,
+  "title": [
+    "[Alhan'naht River, South Wilds]"
+  ],
+  "description": [
+    "Clumps of tall grasses and slender reeds clutter the western shores of the river as it meanders through the jungle.  Dark trees blot out the sky above as they vie for space near the water's edge.  Feather-topped grasses, fan-limbed ferns, and vibrant heliconias create a dazzling display of color along the eastern shores as they too vie for domination over the river."
+  ],
   "paths": [
     "Obvious paths: north, south"
   ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "21077": {
+      "file": "string_procs/wayto/21078_21077.rb"
+    },
+    "21079": {
+      "file": "string_procs/wayto/21078_21079.rb"
+    }
+  },
+  "timeto": {
+    "21077": 2.0,
+    "21079": 2.0
+  },
+  "image": "ifw-wilds-1368242816.png",
   "image_coords": [
     1579,
     2721,
     1599,
     2739
-  ],
-  "terrain": "riparian",
-  "description": [
-    "Clumps of tall grasses and slender reeds clutter the western shores of the river as it meanders through the jungle.  Dark trees blot out the sky above as they vie for space near the water's edge.  Feather-topped grasses, fan-limbed ferns, and vibrant heliconias create a dazzling display of color along the eastern shores as they too vie for domination over the river."
-  ],
-  "image": "ifw-wilds-1368242816.png",
-  "climate": "freshwater",
-  "title": [
-    "[Alhan'naht River, South Wilds]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "21077": 2.0,
-    "21079": 2.0
-  },
-  "id": 21078,
-  "location": "Mist Harbor",
-  "tags": [
-    "stalk of cattail",
-    "murdroot",
-    "wavepetal blossom",
-    "sunburst blossom",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

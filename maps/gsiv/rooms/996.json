@@ -1,50 +1,34 @@
 {
+  "id": 996,
+  "title": [
+    "[Zul Logoth, Sapphire Tunnel]"
+  ],
+  "description": [
+    "Rather heavy traffic proceeds northeast and southwest as dwarven laborers move burdens along the tunnel.  Sacks and boxes marked \"Clothing\" and \"Food\" as well as long pieces of lumber are transported southwest, while containers marked \"Salt,\" \"Ore,\" and \"Gems\" move the other direction.  Occasionally the workers move aside to let a long line of domesticated roltons or other meat-on-the-hoof move southwest, but for the most part the labor seems endless."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "the tunnels and caverns of Zul Logoth",
   "wayto": {
     "997": "southwest",
     "9563": "go doors",
     "995": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southwest"
-  ],
+  "timeto": {
+    "997": 0.2,
+    "9563": 0.2,
+    "995": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     1106,
     580,
     1126,
     600
   ],
-  "terrain": "indoors",
-  "description": [
-    "Rather heavy traffic proceeds northeast and southwest as dwarven laborers move burdens along the tunnel.  Sacks and boxes marked \"Clothing\" and \"Food\" as well as long pieces of lumber are transported southwest, while containers marked \"Salt,\" \"Ore,\" and \"Gems\" move the other direction.  Occasionally the workers move aside to let a long line of domesticated roltons or other meat-on-the-hoof move southwest, but for the most part the labor seems endless."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Zul Logoth, Sapphire Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "997": 0.2,
-    "9563": 0.2,
-    "995": 0.2
-  },
-  "id": 996,
-  "location": "the tunnels and caverns of Zul Logoth",
   "tags": [
     "pepperthorn root",
-    "ironfern root",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "murdroot",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

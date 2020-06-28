@@ -1,34 +1,23 @@
 {
-  "wayto": {
-    "18069": "go door",
-    "18054": {
-      "stringproc": "90f7fdcabe36c82dc8ddc76622396782"
-    }
-  },
-  "paths": [
-    "Obvious exits: down"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "The shaft reaches its highest point here, capped by a stone dome.  A narrow causeway is poised over open air, leading to a polished faenor door."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 18068,
   "title": [
     "[Wizard Guild, Shaft Top]"
   ],
-  "check_location": null,
+  "description": [
+    "The shaft reaches its highest point here, capped by a stone dome.  A narrow causeway is poised over open air, leading to a polished faenor door."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Ta'Vaalor",
+  "wayto": {
+    "18069": "go door",
+    "18054": {
+      "file": "string_procs/wayto/18068_18054.rb"
+    }
+  },
   "timeto": {
     "18069": 0.2,
     "18054": 3.0
-  },
-  "id": 18068,
-  "location": "Ta'Vaalor",
-  "tags": [
-
-  ],
-  "links": [
-
-  ]
+  }
 }

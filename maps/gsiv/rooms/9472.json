@@ -1,39 +1,31 @@
 {
+  "id": 9472,
+  "title": [
+    "[Bank of Zul Logoth]"
+  ],
+  "description": [
+    "Two heavily heavily barred windows set just above a small marble ledge are the only items of real interest in this barren yet elegant lobby.  The walls, ceiling and floor, though, speak of a wealth of silvers that have enriched the owners of the establishment.  Two dwarves mill about behind the windows, counting coins, writing notes, and conducting the customary bank business.  A gilded sign, affixed to the wall between the two windows, gives information on the use of the bank's services."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Zul Logoth",
   "wayto": {
     "9473": "go arch",
     "9410": "out"
   },
-  "paths": [
-    "Obvious exits: out"
-  ],
+  "timeto": {
+    "9473": 0.2,
+    "9410": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     677,
     451,
     713,
     487
   ],
-  "terrain": "indoors",
-  "description": [
-    "Two heavily heavily barred windows set just above a small marble ledge are the only items of real interest in this barren yet elegant lobby.  The walls, ceiling and floor, though, speak of a wealth of silvers that have enriched the owners of the establishment.  Two dwarves mill about behind the windows, counting coins, writing notes, and conducting the customary bank business.  A gilded sign, affixed to the wall between the two windows, gives information on the use of the bank's services."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Bank of Zul Logoth]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9473": 0.2,
-    "9410": 0.2
-  },
-  "id": 9472,
-  "location": "Zul Logoth",
   "tags": [
-    "bank",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bank"
   ]
 }

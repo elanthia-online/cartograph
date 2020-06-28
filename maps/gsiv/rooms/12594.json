@@ -1,39 +1,31 @@
 {
+  "id": 12594,
+  "title": [
+    "[Wind Tunnel]"
+  ],
+  "description": [
+    "The tunnel widens and narrows as it bores inland and slightly down.  The unpredictable wind has carved ripples and swirls along the smooth rock surface, and what few imperfections remain are smoothed over by a slick film of sea foam and moss.  Eastward the roar of the surf can be heard faintly above the howl of the wind.  A pale glimmer marks where the tunnel mouth sucks air from the stormy sea."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Dark Palisade",
   "wayto": {
     "12595": "east",
     "14710": "west"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "12595": 0.2,
+    "14710": 0.2
+  },
+  "image": "ti-wilds-1264234799.png",
   "image_coords": [
     1087,
     731,
     1097,
     741
   ],
-  "terrain": "indoors",
-  "description": [
-    "The tunnel widens and narrows as it bores inland and slightly down.  The unpredictable wind has carved ripples and swirls along the smooth rock surface, and what few imperfections remain are smoothed over by a slick film of sea foam and moss.  Eastward the roar of the surf can be heard faintly above the howl of the wind.  A pale glimmer marks where the tunnel mouth sucks air from the stormy sea."
-  ],
-  "image": "ti-wilds-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Wind Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "12595": 0.2,
-    "14710": 0.2
-  },
-  "id": 12594,
-  "location": "the Dark Palisade",
   "tags": [
-    "wind wraith",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wind wraith"
   ]
 }

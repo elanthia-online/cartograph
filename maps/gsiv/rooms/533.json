@@ -1,34 +1,31 @@
 {
+  "id": 533,
+  "title": [
+    "[Whistler's Pass, Brambles]"
+  ],
+  "description": [
+    "A narrow pit hugs the west wall of the pass.  Brambles fill the bottom of the dark pit and creep up the wall like tentacles.",
+    "A narrow pit hugs the west wall of the pass.  Brambles fill the bottom of the pit and creep up the wall like tentacles."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "534": "south",
     "532": "north"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "534": 0.2,
+    "532": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     801,
     452,
     811,
     462
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "A narrow pit hugs the west wall of the pass.  Brambles fill the bottom of the dark pit and creep up the wall like tentacles.",
-    "A narrow pit hugs the west wall of the pass.  Brambles fill the bottom of the pit and creep up the wall like tentacles."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Whistler's Pass, Brambles]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "534": 0.2,
-    "532": 0.2
-  },
-  "id": 533,
-  "location": "Whistler's Pass",
   "tags": [
     "cactacae spine",
     "wintergreen leaf",
@@ -59,10 +56,6 @@
     "blue whortleberry",
     "pepperthorn root",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

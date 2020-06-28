@@ -1,46 +1,40 @@
 {
+  "id": 6321,
+  "title": [
+    "[Cleric Guild, Courtyard]"
+  ],
+  "description": [
+    "Flanked by several lush trees, a large and elaborate building stands to the north, its golden dome glinting in the sunlight.  Small benches are placed throughout the thriving courtyard, and small colonies of flowers have sprouted around them.  A narrow pathway of pure white cobblestones leads toward the structure and stretches back to a smaller building to the south.",
+    "Flanked by several lush trees, a large and elaborate building stands to the north, its pale golden dome glinting in the soft moonlight.  Small benches are placed throughout the thriving courtyard, and small colonies of flowers have sprouted around them.  A narrow pathway of pure white cobblestones leads toward the structure and stretches back to a smaller building to the south."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "17192": "south",
     "17104": "go building",
     "220": "go gate"
   },
-  "paths": [
-    "Obvious paths: south"
-  ],
+  "timeto": {
+    "17192": 0.2,
+    "17104": {
+      "file": "string_procs/timeto/6321_17104.rb"
+    },
+    "220": 0.2
+  },
+  "image": "wl-cleric_guild-1275417297.png",
   "image_coords": [
     579,
     319,
     625,
     365
   ],
-  "terrain": null,
-  "description": [
-    "Flanked by several lush trees, a large and elaborate building stands to the north, its golden dome glinting in the sunlight.  Small benches are placed throughout the thriving courtyard, and small colonies of flowers have sprouted around them.  A narrow pathway of pure white cobblestones leads toward the structure and stretches back to a smaller building to the south.",
-    "Flanked by several lush trees, a large and elaborate building stands to the north, its pale golden dome glinting in the soft moonlight.  Small benches are placed throughout the thriving courtyard, and small colonies of flowers have sprouted around them.  A narrow pathway of pure white cobblestones leads toward the structure and stretches back to a smaller building to the south."
-  ],
-  "image": "wl-cleric_guild-1275417297.png",
-  "climate": null,
-  "title": [
-    "[Cleric Guild, Courtyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "17192": 0.2,
-    "17104": {
-      "stringproc": "d17486e46a9d449a09af5ee961486217"
-    },
-    "220": 0.2
-  },
-  "id": 6321,
-  "location": "Wehnimer's Landing",
   "tags": [
     "clericguild",
     "meta:mapname:Wehnimer's Landing - Cleric Guild",
     "meta:mapshortname:Cleric Guild (Wehnimer's)",
     "meta:mapcategory:Wehnimer's Landing",
     "meta:mapcategory:Guilds"
-  ],
-  "links": [
-
   ]
 }

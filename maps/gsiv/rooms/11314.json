@@ -1,44 +1,38 @@
 {
+  "id": 11314,
+  "title": [
+    "[Alchemist, Ruined Balcony]"
+  ],
+  "description": [
+    "Only a narrow ledge still remains of the former balcony.  This vantage provides an excellent view of the overgrown courtyard and the decrepit buildings beyond the crumbling perimeter walls.  Twenty feet below the ledge, slate tiles and shattered pots record the rest of the balcony's demise.  With some care, it might be possible to climb down the wall, but a heap of jaggedly splintered support beams awaits anyone with more confidence than skill."
+  ],
+  "paths": [
+    "Obvious paths: south, west"
+  ],
+  "location": "the Citadel",
+  "climate": "temperate",
+  "terrain": "hard, flat ",
   "wayto": {
     "11315": "west",
     "11319": "south",
     "11313": "climb wall"
   },
-  "paths": [
-    "Obvious paths: south, west"
-  ],
+  "timeto": {
+    "11315": 0.2,
+    "11319": 0.2,
+    "11313": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     834,
     752,
     844,
     762
   ],
-  "terrain": "hard, flat ",
-  "description": [
-    "Only a narrow ledge still remains of the former balcony.  This vantage provides an excellent view of the overgrown courtyard and the decrepit buildings beyond the crumbling perimeter walls.  Twenty feet below the ledge, slate tiles and shattered pots record the rest of the balcony's demise.  With some care, it might be possible to climb down the wall, but a heap of jaggedly splintered support beams awaits anyone with more confidence than skill."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "temperate",
-  "title": [
-    "[Alchemist, Ruined Balcony]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11315": 0.2,
-    "11319": 0.2,
-    "11313": 0.2
-  },
-  "id": 11314,
-  "location": "the Citadel",
   "tags": [
     "some acantha leaf",
     "some ambrominas leaf",
     "some torban leaf",
-    "some calamia fruit",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some calamia fruit"
   ]
 }

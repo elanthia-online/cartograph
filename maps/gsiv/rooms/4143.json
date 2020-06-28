@@ -1,44 +1,34 @@
 {
+  "id": 4143,
+  "title": [
+    "[Graveyard, Crypt]"
+  ],
+  "description": [
+    "You enter the close, stuffy room that houses the sarcophagus of the once-illustrious inhabitant of this imposing crypt.  The coffin stands upright against one wall, almost touching the low ceiling, its painted lid stuck open on sagging hinges.  You shudder as you notice that there are long, fresh tracks on the dust-covered stone floor."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "4344": "east",
     "4345": "west",
     "4142": "go arch",
     "4144": {
-      "stringproc": "b3ca05062a4628e4361f2471be4c4ae4"
+      "file": "string_procs/wayto/4143_4144.rb"
     }
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
-  "image_coords": [
-    568,
-    949,
-    578,
-    959
-  ],
-  "terrain": "indoors",
-  "description": [
-    "You enter the close, stuffy room that houses the sarcophagus of the once-illustrious inhabitant of this imposing crypt.  The coffin stands upright against one wall, almost touching the low ceiling, its painted lid stuck open on sagging hinges.  You shudder as you notice that there are long, fresh tracks on the dust-covered stone floor."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Graveyard, Crypt]"
-  ],
-  "check_location": null,
   "timeto": {
     "4344": 0.2,
     "4345": 0.2,
     "4142": 0.2,
     "4144": 0.2
   },
-  "id": 4143,
-  "location": "the Graveyard",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-graveyard-1264234799.png",
+  "image_coords": [
+    568,
+    949,
+    578,
+    959
   ]
 }

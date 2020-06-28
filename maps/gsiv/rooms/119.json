@@ -1,38 +1,28 @@
 {
+  "id": 119,
+  "title": [
+    "[Temple Wyneb, Calvaria]"
+  ],
+  "description": [
+    "No light reaches the soaring ceiling in this section of the cavern.  High-pitched squeaks and soft rustlings filter down through the chilly air, leaving you to guess at the size of the colony dangling overhead."
+  ],
+  "paths": [
+    "Obvious exits: east, northwest"
+  ],
+  "location": "Temple Wyneb",
   "wayto": {
     "118": "northwest",
     "120": "east"
   },
-  "paths": [
-    "Obvious exits: east, northwest"
-  ],
+  "timeto": {
+    "118": 0.2,
+    "120": 0.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     610,
     790,
     620,
     800
-  ],
-  "terrain": "indoors",
-  "description": [
-    "No light reaches the soaring ceiling in this section of the cavern.  High-pitched squeaks and soft rustlings filter down through the chilly air, leaving you to guess at the size of the colony dangling overhead."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Temple Wyneb, Calvaria]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "118": 0.2,
-    "120": 0.2
-  },
-  "id": 119,
-  "location": "Temple Wyneb",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,38 +1,28 @@
 {
+  "id": 1013,
+  "title": [
+    "[DragonSpine Mountains, Crevasse]"
+  ],
+  "description": [
+    "The pass dwindles and disappears into a large crevasse.  Nearly black inside as compared to the bright light of day, dwarves and travellers hasten into the crevasse, from which odd grinding and squealing sounds can occasionally be heard."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Kharag 'doth Dzulthu",
   "wayto": {
     "1266": "go crevasse",
     "1014": "west"
   },
-  "paths": [
-    "Obvious exits: west"
-  ],
+  "timeto": {
+    "1266": 0.2,
+    "1014": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     189,
     488,
     199,
     498
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The pass dwindles and disappears into a large crevasse.  Nearly black inside as compared to the bright light of day, dwarves and travellers hasten into the crevasse, from which odd grinding and squealing sounds can occasionally be heard."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[DragonSpine Mountains, Crevasse]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1266": 0.2,
-    "1014": 0.2
-  },
-  "id": 1013,
-  "location": "Kharag 'doth Dzulthu",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

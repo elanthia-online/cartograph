@@ -1,43 +1,26 @@
 {
-  "wayto": {
-    "24543": "north"
-  },
+  "id": 24544,
+  "title": [
+    "[Frozen Bramble Patch]"
+  ],
+  "description": [
+    "A long abandoned wheelbarrow sits nearby, filled to the top with snow.  A light breeze ripples the shrubs, its touch anything but soothing.  The view south reveals the heaviest brush, but no path looks easy."
+  ],
   "paths": [
     "Obvious paths: north"
   ],
+  "location": "the Abandoned Farm",
+  "wayto": {
+    "24543": "north"
+  },
+  "timeto": {
+    "24543": 0.2
+  },
+  "image": "imt-bramble_patch-1307499864.png",
   "image_coords": [
     333,
     257,
     344,
     270
-  ],
-  "terrain": "barren scrub",
-  "description": [
-    "A long abandoned wheelbarrow sits nearby, filled to the top with snow.  A light breeze ripples the shrubs, its touch anything but soothing.  The view south reveals the heaviest brush, but no path looks easy."
-  ],
-  "image": "imt-bramble_patch-1307499864.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Frozen Bramble Patch]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24543": 0.2
-  },
-  "id": 24544,
-  "location": "the Abandoned Farm",
-  "tags": [
-    "snow lily",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "arctic moss",
-    "broken twig",
-    "rockberry",
-    "crowberry",
-    "lingonberry",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+  ]
 }

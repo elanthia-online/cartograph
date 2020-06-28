@@ -1,4 +1,15 @@
 {
+  "id": 1010,
+  "title": [
+    "[Zul Logoth, Ruby Tunnel]"
+  ],
+  "description": [
+    "Large pots spaced at twenty-foot intervals house one giant toadstool each.  The toadstools provide light for the mine shafts, projecting a bright crimson light toward the ceiling and a soft white light toward the floor.  The illumination is not complete, with pools of light punctuated by intervals of darkness that march off into the distance.  The toadstools are nearly the perfect lighting devices, causing no smoke, no fire hazard, and merely needing a bit of water and nutrition."
+  ],
+  "paths": [
+    "Obvious exits: east, southeast, southwest, northwest"
+  ],
+  "location": "the tunnels and caverns of Zul Logoth",
   "wayto": {
     "9404": "southwest",
     "1009": "east",
@@ -7,25 +18,6 @@
     "5823": "southeast",
     "27349": "go warehouse"
   },
-  "paths": [
-    "Obvious exits: east, southeast, southwest, northwest"
-  ],
-  "image_coords": [
-    352,
-    619,
-    388,
-    655
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Large pots spaced at twenty-foot intervals house one giant toadstool each.  The toadstools provide light for the mine shafts, projecting a bright crimson light toward the ceiling and a soft white light toward the floor.  The illumination is not complete, with pools of light punctuated by intervals of darkness that march off into the distance.  The toadstools are nearly the perfect lighting devices, causing no smoke, no fire hazard, and merely needing a bit of water and nutrition."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Zul Logoth, Ruby Tunnel]"
-  ],
-  "check_location": null,
   "timeto": {
     "9404": 0.2,
     "1009": 0.2,
@@ -34,23 +26,15 @@
     "5823": 0.2,
     "27349": 0.2
   },
-  "id": 1010,
-  "location": "the tunnels and caverns of Zul Logoth",
+  "image": "en-zul_logoth-1264234799.png",
+  "image_coords": [
+    352,
+    619,
+    388,
+    655
+  ],
   "tags": [
     "pepperthorn root",
-    "ironfern root",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "murdroot",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

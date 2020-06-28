@@ -1,41 +1,32 @@
 {
+  "id": 16395,
+  "title": [
+    "[Rogue Guild, Hallway]"
+  ],
+  "description": [
+    "The hall is panelled with dark wood and hung with heavy tapestries that dull the sounds of footsteps.  Illuminated only by the glow from the torches to the south, the passage continues north into darkness.  A draft of cool air occasionally wafts in from a narrow stairway that leads up through an opening in one wall."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "16394": "south",
     "16396": "climb stairway",
     "16421": "go door",
     "16433": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
-  "image_coords": [
-    460,
-    415,
-    488,
-    443
-  ],
-  "terrain": null,
-  "description": [
-    "The hall is panelled with dark wood and hung with heavy tapestries that dull the sounds of footsteps.  Illuminated only by the glow from the torches to the south, the passage continues north into darkness.  A draft of cool air occasionally wafts in from a narrow stairway that leads up through an opening in one wall."
-  ],
-  "image": "wl-rogue_guild-1267242645.png",
-  "climate": null,
-  "title": [
-    "[Rogue Guild, Hallway]"
-  ],
-  "check_location": null,
   "timeto": {
     "16394": 0.2,
     "16396": 0.2,
     "16421": 0.2,
     "16433": 0.2
   },
-  "id": 16395,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "wl-rogue_guild-1267242645.png",
+  "image_coords": [
+    460,
+    415,
+    488,
+    443
   ]
 }

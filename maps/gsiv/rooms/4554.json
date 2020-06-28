@@ -1,47 +1,37 @@
 {
+  "id": 4554,
+  "title": [
+    "[Dark Shaft]"
+  ],
+  "description": [
+    "This section of the mine is carefully braced, leading you to believe this area was either used for storage or heavier traffic.  Several large enclosures along the shaft confirm your suspicions."
+  ],
+  "paths": [
+    "Obvious exits: east, south, west"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "4555": "south",
     "4556": "west",
     "4547": "east"
   },
-  "paths": [
-    "Obvious exits: east, south, west"
-  ],
+  "timeto": {
+    "4555": 0.2,
+    "4556": 0.2,
+    "4547": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1064,
     540,
     1074,
     550
   ],
-  "terrain": "indoors",
-  "description": [
-    "This section of the mine is carefully braced, leading you to believe this area was either used for storage or heavier traffic.  Several large enclosures along the shaft confirm your suspicions."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dark Shaft]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4555": 0.2,
-    "4556": 0.2,
-    "4547": 0.2
-  },
-  "id": 4554,
-  "location": "the Shadow Valley",
   "tags": [
     "some cave moss",
     "some shadowlace moss",
     "some blue moss",
     "blackgrove root",
-    "ghostly pooka",
-    "cave moss",
-    "shadowlace moss",
-    "blue moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ghostly pooka"
   ]
 }

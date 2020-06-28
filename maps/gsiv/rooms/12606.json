@@ -1,38 +1,28 @@
 {
-  "wayto": {
-    "12607": {
-      "stringproc": "36a8355f5e87b2f3f1a8218204c7857b"
-    }
-  },
+  "id": 12606,
+  "title": [
+    "[Luukos' Gullet, Outcropping]"
+  ],
+  "description": [
+    "Miraculously, a jagged bit of rock extends out into the abyss forming a wide, if somewhat curved and rough, shelf.  Searing wind, steam, and the odd chunk of molten rock hurtle upward on three sides of this hellish oasis.  Even with the bit of shelter the outcropping provides, there are few solid handholds here, and the only beings likely to want to stand here would have to be immortal, fire-proof, or suicidal."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "the Dark Palisade",
+  "wayto": {
+    "12607": {
+      "file": "string_procs/wayto/12606_12607.rb"
+    }
+  },
+  "timeto": {
+    "12607": 3.4
+  },
+  "image": "ti-wilds-1264234799.png",
   "image_coords": [
     772,
     679,
     782,
     689
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Miraculously, a jagged bit of rock extends out into the abyss forming a wide, if somewhat curved and rough, shelf.  Searing wind, steam, and the odd chunk of molten rock hurtle upward on three sides of this hellish oasis.  Even with the bit of shelter the outcropping provides, there are few solid handholds here, and the only beings likely to want to stand here would have to be immortal, fire-proof, or suicidal."
-  ],
-  "image": "ti-wilds-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Luukos' Gullet, Outcropping]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "12607": 3.4
-  },
-  "id": 12606,
-  "location": "the Dark Palisade",
-  "tags": [
-    "pepperthorn root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

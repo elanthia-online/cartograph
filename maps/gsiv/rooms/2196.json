@@ -1,42 +1,34 @@
 {
+  "id": 2196,
+  "title": [
+    "[Eye of V'Tull, Lava River]"
+  ],
+  "description": [
+    "Glowing nearly white hot, a river of molten rock splashes lava upon its shores.  A natural bridge of black igneous rock stretches to the far side where a pair of carved arches can be seen cut into the wall.  Tremors cause crystal stalactites to break free and splash into the river only to sink in the lava's eternal grip."
+  ],
+  "paths": [
+    "Obvious exits: northeast"
+  ],
+  "location": "the Eye of V'Tull",
   "wayto": {
     "2195": "northeast",
     "2197": "go bridge"
   },
-  "paths": [
-    "Obvious exits: northeast"
-  ],
+  "timeto": {
+    "2195": 0.2,
+    "2197": 0.2
+  },
+  "image": "ti-vtull-1264234799.png",
   "image_coords": [
     842,
     601,
     850,
     609
   ],
-  "terrain": "indoors",
-  "description": [
-    "Glowing nearly white hot, a river of molten rock splashes lava upon its shores.  A natural bridge of black igneous rock stretches to the far side where a pair of carved arches can be seen cut into the wall.  Tremors cause crystal stalactites to break free and splash into the river only to sink in the lava's eternal grip."
-  ],
-  "image": "ti-vtull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Eye of V'Tull, Lava River]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2195": 0.2,
-    "2197": 0.2
-  },
-  "id": 2196,
-  "location": "the Eye of V'Tull",
   "tags": [
     "black trafel mushroom",
     "daggerstalk mushroom",
     "pepperthorn root",
-    "some cave moss",
-    "cave moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

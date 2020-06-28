@@ -1,4 +1,15 @@
 {
+  "id": 9013,
+  "title": [
+    "[Solhaven, Spiral Passageway]"
+  ],
+  "description": [
+    "The scent of burning oil is thick in this section of the underground passageway, mainly from the constant illumination provided by the lamps that light the way.  Stone steps at either end lead up to courtyards set between the rows of buildings that line the streets above."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "Solhaven",
   "wayto": {
     "9012": "go steps",
     "13737": "go simple shop",
@@ -13,25 +24,6 @@
     "27968": "go building",
     "27969": "go post"
   },
-  "paths": [
-    "Obvious paths: west"
-  ],
-  "image_coords": [
-    1531,
-    340,
-    1543,
-    352
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "The scent of burning oil is thick in this section of the underground passageway, mainly from the constant illumination provided by the lamps that light the way.  Stone steps at either end lead up to courtyards set between the rows of buildings that line the streets above."
-  ],
-  "image": "vo-solhaven-1263764670.png",
-  "climate": "temperate",
-  "title": [
-    "[Solhaven, Spiral Passageway]"
-  ],
-  "check_location": null,
   "timeto": {
     "9012": 0.2,
     "13737": 0.2,
@@ -46,14 +38,14 @@
     "27968": 0.2,
     "27969": 0.2
   },
-  "id": 9013,
-  "location": "Solhaven",
-  "tags": [
-    "Aramund",
-    "no forageables",
-    "meta:forage-sensed"
+  "image": "vo-solhaven-1263764670.png",
+  "image_coords": [
+    1531,
+    340,
+    1543,
+    352
   ],
-  "links": [
-
+  "tags": [
+    "Aramund"
   ]
 }

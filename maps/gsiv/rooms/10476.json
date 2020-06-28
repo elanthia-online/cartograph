@@ -1,35 +1,32 @@
 {
-  "wayto": {
-    "23601": {
-      "stringproc": "5fcb74609176726ea74033a8e5529528"
-    },
-    "5922": "out"
-  },
+  "id": 10476,
+  "title": [
+    "[Catacombs, Temple]"
+  ],
+  "description": [
+    "Oddly colored stone pillars, which are really stones stacked atop each other, look ready to topple over and crush anyone foolish enough to venture too close.  In the center of the pillars rests an empty raised dais.  Directly behind the dais, strange and indecipherable markings mar the surface of the wall.  Closer inspection reveals that blood covers all surfaces in this chamber."
+  ],
   "paths": [
     "Obvious exits: out"
   ],
+  "location": "the catacombs",
+  "wayto": {
+    "23601": {
+      "file": "string_procs/wayto/10476_23601.rb"
+    },
+    "5922": "out"
+  },
+  "timeto": {
+    "23601": 0.2,
+    "5922": 0.2
+  },
+  "image": "en-tavaalor-1565907614.png",
   "image_coords": [
     346,
     958,
     353,
     968
   ],
-  "terrain": null,
-  "description": [
-    "Oddly colored stone pillars, which are really stones stacked atop each other, look ready to topple over and crush anyone foolish enough to venture too close.  In the center of the pillars rests an empty raised dais.  Directly behind the dais, strange and indecipherable markings mar the surface of the wall.  Closer inspection reveals that blood covers all surfaces in this chamber."
-  ],
-  "image": "en-tavaalor-1565907614.png",
-  "climate": null,
-  "title": [
-    "[Catacombs, Temple]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "23601": 0.2,
-    "5922": 0.2
-  },
-  "id": 10476,
-  "location": "the catacombs",
   "tags": [
     "ayana'al lichen",
     "blue trafel mushroom",
@@ -42,8 +39,5 @@
     "ironfern root",
     "bolmara lichen",
     "wingstem root"
-  ],
-  "links": [
-
   ]
 }

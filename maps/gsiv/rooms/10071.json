@@ -1,37 +1,34 @@
 {
+  "id": 10071,
+  "title": [
+    "[Hagatha's Brew and Barley]"
+  ],
+  "description": [
+    "Wooden planks worn smooth by years of constant use line the floor of the tavern, strewn with fresh rushes and smelling slightly of ale.  Several elves are crowded around an ornately carved bar that runs the length of one wall, drinking and conversing quietly.  A few tables, each decorated with a lone candle as centerpiece, are scattered about the tavern."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Ta'Illistim",
   "wayto": {
     "18594": {
-      "stringproc": "44d22c46648a7eb0213d70aff4617f22"
+      "file": "string_procs/wayto/10071_18594.rb"
     },
     "18595": {
-      "stringproc": "414b4f36bcd4146f3819c0fc31579cee"
+      "file": "string_procs/wayto/10071_18595.rb"
     },
     "680": "out",
     "15607": "go bar",
     "18590": {
-      "stringproc": "982b588a9d3fe85d9032a6c16f0a8341"
+      "file": "string_procs/wayto/10071_18590.rb"
     },
     "18592": {
-      "stringproc": "844c46a29315d2c38ce105474e069726"
+      "file": "string_procs/wayto/10071_18592.rb"
     },
     "18593": {
-      "stringproc": "a93fa101695c6c250cc5e0a745c14ce7"
+      "file": "string_procs/wayto/10071_18593.rb"
     }
   },
-  "paths": [
-    "Obvious exits: out"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Wooden planks worn smooth by years of constant use line the floor of the tavern, strewn with fresh rushes and smelling slightly of ale.  Several elves are crowded around an ornately carved bar that runs the length of one wall, drinking and conversing quietly.  A few tables, each decorated with a lone candle as centerpiece, are scattered about the tavern."
-  ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Hagatha's Brew and Barley]"
-  ],
-  "check_location": null,
   "timeto": {
     "18594": 0.2,
     "18595": 0.2,
@@ -41,12 +38,7 @@
     "18592": 0.2,
     "18593": 0.2
   },
-  "id": 10071,
-  "location": "Ta'Illistim",
   "tags": [
     "table"
-  ],
-  "links": [
-
   ]
 }

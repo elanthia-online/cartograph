@@ -1,39 +1,31 @@
 {
-  "wayto": {
-    "2585": "west",
-    "2587": "east",
-    "12208": {
-      "stringproc": "a0576f0215d746452e7afb93c1ee082c"
-    },
-    "2591": "southeast",
-    "2635": {
-      "stringproc": "01b8924575c8d70e4ed7eea7ed00be84"
-    },
-    "12101": {
-      "stringproc": "cf4b8e5b125b22b01c9349827d02c9fd"
-    },
-    "2583": "northeast"
-  },
+  "id": 2586,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "A large, decrepit building stands on the top of a small hillock here.  Vines cover most of the building, avoiding only the dark stains running from the windows and roof.  The stains are a dark red or brown, giving the appearance the building has been sweating blood.  A weathered metal sign hangs just above the entryway, creaking in the non-existent breeze."
+  ],
   "paths": [
     "Obvious exits: northeast, east, southeast, west",
     "Obvious paths: northeast, east, southeast, west"
   ],
-  "image_coords": [
-    172,
-    670,
-    182,
-    680
-  ],
-  "terrain": null,
-  "description": [
-    "A large, decrepit building stands on the top of a small hillock here.  Vines cover most of the building, avoiding only the dark stains running from the windows and roof.  The stains are a dark red or brown, giving the appearance the building has been sweating blood.  A weathered metal sign hangs just above the entryway, creaking in the non-existent breeze."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "2585": "west",
+    "2587": "east",
+    "12208": {
+      "file": "string_procs/wayto/2586_12208.rb"
+    },
+    "2591": "southeast",
+    "2635": {
+      "file": "string_procs/wayto/2586_2635.rb"
+    },
+    "12101": {
+      "file": "string_procs/wayto/2586_12101.rb"
+    },
+    "2583": "northeast"
+  },
   "timeto": {
     "2585": 0.2,
     "2587": 0.2,
@@ -43,8 +35,13 @@
     "12101": 26.0,
     "2583": 0.2
   },
-  "id": 2586,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    172,
+    670,
+    182,
+    680
+  ],
   "tags": [
     "mass of congealed slime",
     "oozing fleshsore bulb",
@@ -53,8 +50,5 @@
     "slime-covered grave blossom",
     "withered deathblossom",
     "twisted black mawflower"
-  ],
-  "links": [
-
   ]
 }

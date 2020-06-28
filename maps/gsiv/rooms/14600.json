@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "14598": "south"
-  },
+  "id": 14600,
+  "title": [
+    "[Outlands Manor, Tower Dungeon]"
+  ],
+  "description": [
+    "A crank with a rope and bucket attached stand directly over a large hole cut into the chamber's floor.  However, by the odor drifting up from the hole one would surmise that the well has been fouled for some time."
+  ],
   "paths": [
     "Obvious exits: south"
   ],
+  "location": "the Outlands",
+  "wayto": {
+    "14598": "south"
+  },
+  "timeto": {
+    "14598": 0.2
+  },
+  "image": "vo-outlands-1264234799.png",
   "image_coords": [
     1069,
     344,
     1079,
     354
   ],
-  "terrain": "indoors",
-  "description": [
-    "A crank with a rope and bucket attached stand directly over a large hole cut into the chamber's floor.  However, by the odor drifting up from the hole one would surmise that the well has been fouled for some time."
-  ],
-  "image": "vo-outlands-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Outlands Manor, Tower Dungeon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "14598": 0.2
-  },
-  "id": 14600,
-  "location": "the Outlands",
   "tags": [
-    "dobrem",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "dobrem"
   ]
 }

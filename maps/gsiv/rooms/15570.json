@@ -1,42 +1,31 @@
 {
+  "id": 15570,
+  "title": [
+    "[East Woods, Tunnel]"
+  ],
+  "description": [
+    "A steady whisper, like the muffled sound of running water, can be heard in this area of the tunnel.  Damp lines of moisture drip from the earthen ceiling and streaks of luminous lichen creep down the mud-covered walls."
+  ],
+  "paths": [
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "Old Ta'Faendryl",
   "wayto": {
     "13447": "northwest",
     "15588": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast, northwest"
-  ],
+  "timeto": {
+    "13447": 0.2,
+    "15588": 0.2
+  },
+  "image": "en-old_ta_faendryl-1264234799.png",
   "image_coords": [
     1427,
     754,
     1435,
     762
   ],
-  "terrain": "indoors",
-  "description": [
-    "A steady whisper, like the muffled sound of running water, can be heard in this area of the tunnel.  Damp lines of moisture drip from the earthen ceiling and streaks of luminous lichen creep down the mud-covered walls."
-  ],
-  "image": "en-old_ta_faendryl-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[East Woods, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "13447": 0.2,
-    "15588": 0.2
-  },
-  "id": 15570,
-  "location": "Old Ta'Faendryl",
   "tags": [
-    "some cave moss",
-    "cave moss",
-    "murdroot",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

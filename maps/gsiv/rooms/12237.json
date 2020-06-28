@@ -1,51 +1,36 @@
 {
-  "wayto": {
-    "12239": "down",
-    "12151": {
-      "stringproc": "c01b87e914b9cdeee3471070ec5e96d5"
-    },
-    "12234": "northeast",
-    "12247": "go barrier"
-  },
-  "paths": [
-    "Obvious paths: northeast, down",
-    "Obvious exits: northeast, down"
+  "id": 12237,
+  "title": [
+    "[The Rift, Scatter]"
   ],
-  "image_coords": [
-    405,
-    321,
-    429,
-    345
-  ],
-  "terrain": null,
   "description": [
     "A thin layer of ice coats the ground as far as the eye can see.  Piercing the horizon is a snow-covered mountain with two peaks.  Despite a lack of clouds in the sky, hail pelts the natural formation with great ferocity, occasionally causing a dramatic avalanche.",
     "A thin layer of white ash coats the ground as far as the eye can see.  Piercing the horizon is an erupting volcano.  A dark cloud of debris hangs in the sky, causing ash to rain down upon the plain in every single direction."
   ],
-  "image": "imt-scatter-1264234799.png",
-  "climate": null,
-  "title": [
-    "[The Rift, Scatter]"
+  "paths": [
+    "Obvious paths: northeast, down",
+    "Obvious exits: northeast, down"
   ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12239": "down",
+    "12151": {
+      "file": "string_procs/wayto/12237_12151.rb"
+    },
+    "12234": "northeast",
+    "12247": "go barrier"
+  },
   "timeto": {
     "12239": 0.2,
     "12151": 11.4,
     "12234": 0.2,
     "12247": 0.2
   },
-  "id": 12237,
-  "location": "the Rift",
-  "tags": [
-    "mass of congealed slime",
-    "oozing fleshsore bulb",
-    "withered deathblossom",
-    "rotting bile green fleshbulb",
-    "slime-covered grave blossom",
-    "discolored fleshbinder bud",
-    "twisted black mawflower"
-  ],
-  "links": [
-
+  "image": "imt-scatter-1264234799.png",
+  "image_coords": [
+    405,
+    321,
+    429,
+    345
   ]
 }

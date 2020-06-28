@@ -1,42 +1,32 @@
 {
+  "id": 2103,
+  "title": [
+    "[Fhorian Village, Warehouse]"
+  ],
+  "description": [
+    "Row after row of heavy wooden shelves have been knocked over and now lie in ruins on the dirt floor.  In one corner, the last few shreds of flesh that remain on a vaguely humanoid skeleton now serve as food for a massive trail of ants that winds across the room."
+  ],
+  "paths": [
+    "Obvious exits: east, southeast, south, out"
+  ],
+  "location": "the Fhorian Village",
   "wayto": {
     "2102": "out",
     "2104": "east",
     "2105": "southeast",
     "2106": "south"
   },
-  "paths": [
-    "Obvious exits: east, southeast, south, out"
-  ],
-  "image_coords": [
-    870,
-    1233,
-    878,
-    1241
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Row after row of heavy wooden shelves have been knocked over and now lie in ruins on the dirt floor.  In one corner, the last few shreds of flesh that remain on a vaguely humanoid skeleton now serve as food for a massive trail of ants that winds across the room."
-  ],
-  "image": "ti-wilds-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Fhorian Village, Warehouse]"
-  ],
-  "check_location": null,
   "timeto": {
     "2102": 0.2,
     "2104": 0.2,
     "2105": 0.2,
     "2106": 0.2
   },
-  "id": 2103,
-  "location": "the Fhorian Village",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "ti-wilds-1264234799.png",
+  "image_coords": [
+    870,
+    1233,
+    878,
+    1241
   ]
 }

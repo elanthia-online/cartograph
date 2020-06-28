@@ -1,35 +1,28 @@
 {
+  "id": 27077,
+  "title": [
+    "[Wildwood of the Dryad, Bog Oaks]"
+  ],
+  "description": [
+    "Old alchemic equipment is left strewn across the forest floor, the elements having ruined their functionality.  A small grove of taniks circles around a rusted sword planted into the ground.  A steep trail leads up a knoll."
+  ],
+  "paths": [
+    "Obvious paths: south, up"
+  ],
+  "location": "Coraesine Forest",
   "wayto": {
     "27078": "up",
     "27075": "south"
   },
-  "paths": [
-    "Obvious paths: south, up"
-  ],
+  "timeto": {
+    "27075": 0.2,
+    "27078": 0.2
+  },
+  "image": "en-wildwood.png",
   "image_coords": [
     382,
     848,
     431,
     896
-  ],
-  "terrain": null,
-  "description": [
-    "Old alchemic equipment is left strewn across the forest floor, the elements having ruined their functionality.  A small grove of taniks circles around a rusted sword planted into the ground.  A steep trail leads up a knoll."
-  ],
-  "image": "en-wildwood.png",
-  "climate": null,
-  "title": [
-    "[Wildwood of the Dryad, Bog Oaks]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "27075": 0.2,
-    "27078": 0.2
-  },
-  "id": 27077,
-  "location": "Coraesine Forest",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

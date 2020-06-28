@@ -1,38 +1,28 @@
 {
+  "id": 9787,
+  "title": [
+    "[Maaghara Labyrinth]"
+  ],
+  "description": [
+    "Colonies of slimy mold decorate the curving, bumpy walls, concealing all but the most determined of roots from view.  The random splotches of glistening greenish muck break the otherwise monotonous atmosphere of the round, winding tunnel.  The air is thick with moisture, tiny droplets of water trickling down a few stones that are slightly buried within the ceiling."
+  ],
+  "paths": [
+    "Obvious exits: west, northwest"
+  ],
+  "location": "the Maaghara Tower",
   "wayto": {
     "9785": "northwest",
     "9786": "west"
   },
-  "paths": [
-    "Obvious exits: west, northwest"
-  ],
+  "timeto": {
+    "9785": 0.2,
+    "9786": 0.2
+  },
+  "image": "en-tower-1264234799.png",
   "image_coords": [
     1123,
     812,
     1133,
     822
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Colonies of slimy mold decorate the curving, bumpy walls, concealing all but the most determined of roots from view.  The random splotches of glistening greenish muck break the otherwise monotonous atmosphere of the round, winding tunnel.  The air is thick with moisture, tiny droplets of water trickling down a few stones that are slightly buried within the ceiling."
-  ],
-  "image": "en-tower-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Maaghara Labyrinth]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9785": 0.2,
-    "9786": 0.2
-  },
-  "id": 9787,
-  "location": "the Maaghara Tower",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

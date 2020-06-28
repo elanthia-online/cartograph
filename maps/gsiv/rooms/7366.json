@@ -1,46 +1,36 @@
 {
+  "id": 7366,
+  "title": [
+    "[Shadow Plain]"
+  ],
+  "description": [
+    "A rotting stench wafts up from the dark surface of a decaying pond surrounded by dead pastureland.  Piles of large bleached bones dot the landscape, causing you to wonder what may have happened here."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, east, northwest"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7362": "east",
     "7364": "northwest",
     "7365": "north",
     "7367": "northeast"
   },
-  "paths": [
-    "Obvious paths: north, northeast, east, northwest"
-  ],
-  "image_coords": [
-    1333,
-    1100,
-    1341,
-    1108
-  ],
-  "terrain": "barren scrub",
-  "description": [
-    "A rotting stench wafts up from the dark surface of a decaying pond surrounded by dead pastureland.  Piles of large bleached bones dot the landscape, causing you to wonder what may have happened here."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Shadow Plain]"
-  ],
-  "check_location": null,
   "timeto": {
     "7362": 0.2,
     "7364": 0.2,
     "7365": 0.2,
     "7367": 0.2
   },
-  "id": 7366,
-  "location": "the Shadow Valley",
+  "image": "wl-graveyard-1264234799.png",
+  "image_coords": [
+    1333,
+    1100,
+    1341,
+    1108
+  ],
   "tags": [
     "some petrified shadowstalk",
-    "night mare",
-    "longgrass",
-    "wyrm thorn",
-    "petrified shadowstalk",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "night mare"
   ]
 }

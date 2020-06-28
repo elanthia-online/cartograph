@@ -1,33 +1,30 @@
 {
+  "id": 6963,
+  "title": [
+    "[Gorge, North Rim]"
+  ],
+  "description": [
+    "A section of the path edge has recently collapsed here.  Peering over the edge you spot a pile of rubble and the glint of steel, perhaps the remains of a previous adventurer who met an untimely death.  The forest to the north remains impassable, but the path, despite its fragility, seems safe enough to the northeast and southwest."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "6962": "southwest",
     "6964": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, southwest"
-  ],
+  "timeto": {
+    "6962": 0.2,
+    "6964": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     212,
     357,
     222,
     367
   ],
-  "terrain": null,
-  "description": [
-    "A section of the path edge has recently collapsed here.  Peering over the edge you spot a pile of rubble and the glint of steel, perhaps the remains of a previous adventurer who met an untimely death.  The forest to the north remains impassable, but the path, despite its fragility, seems safe enough to the northeast and southwest."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Gorge, North Rim]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6962": 0.2,
-    "6964": 0.2
-  },
-  "id": 6963,
-  "location": "Darkstone Castle",
   "tags": [
     "some bolmara lichen",
     "marallis berry",
@@ -46,25 +43,6 @@
     "moonlight cactus-bloom",
     "bright red teaberry",
     "wild pink geranium",
-    "stalk of bluebells",
-    "sticks",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "tree bark",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "ironfern root",
-    "sunburst blossom",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "stalk of bluebells"
   ]
 }

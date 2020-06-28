@@ -1,33 +1,30 @@
 {
+  "id": 2493,
+  "title": [
+    "[Icemule Trace, Forest]"
+  ],
+  "description": [
+    "A low, snow-covered branch juts into the pathway, causing you to duck your head to pass beneath it.  The ground beneath the trees is matted with fallen pine needles and traces of snow.  Small tracks lead off the main path, but disappear without a trace into the woods."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the southern snowfields",
   "wayto": {
     "2492": "north",
     "2494": "south"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "2492": 0.2,
+    "2494": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     318,
     629,
     328,
     639
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "A low, snow-covered branch juts into the pathway, causing you to duck your head to pass beneath it.  The ground beneath the trees is matted with fallen pine needles and traces of snow.  Small tracks lead off the main path, but disappear without a trace into the woods."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Icemule Trace, Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2492": 0.2,
-    "2494": 0.2
-  },
-  "id": 2493,
-  "location": "the southern snowfields",
   "tags": [
     "slender twig",
     "tkaro root",
@@ -75,21 +72,6 @@
     "twisted twig",
     "bright red teaberry",
     "rockberry",
-    "some angelica root",
-    "sticks",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "iceblossoms",
-    "pine needles",
-    "frostweed",
-    "snowberries",
-    "tree bark",
-    "ironfern root",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some angelica root"
   ]
 }

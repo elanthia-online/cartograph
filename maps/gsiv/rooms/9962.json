@@ -1,66 +1,37 @@
 {
+  "id": 9962,
+  "title": [
+    "[Orcswold, Village Camp]"
+  ],
+  "description": [
+    "The sparsely wooded clearing is peppered with the severed trunks of trees of all sizes that were cut down to make space for what seems to be a permanent settlement.  Dust rises from the ground where most of the grass has been trampled and cleared by passing orcs and dogs."
+  ],
+  "paths": [
+    "Obvious paths: south, west"
+  ],
+  "location": "the Yegharren Plains",
   "wayto": {
     "9961": "west",
     "9984": "go hut",
     "9963": "south"
   },
-  "paths": [
-    "Obvious paths: south, west"
-  ],
+  "timeto": {
+    "9961": 0.2,
+    "9984": 0.2,
+    "9963": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     891,
     805,
     901,
     815
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The sparsely wooded clearing is peppered with the severed trunks of trees of all sizes that were cut down to make space for what seems to be a permanent settlement.  Dust rises from the ground where most of the grass has been trampled and cleared by passing orcs and dogs."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Orcswold, Village Camp]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9961": 0.2,
-    "9984": 0.2,
-    "9963": 0.2
-  },
-  "id": 9962,
-  "location": "the Yegharren Plains",
   "tags": [
     "some bur-clover root",
     "some wingstem root",
     "heath aster",
     "blue whortleberry",
-    "some calamia fruit",
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "small flower",
-    "small rose",
-    "small daisy",
-    "angelica root",
-    "withered black mushroom",
-    "stalk of chicory",
-    "sprig of alyssum",
-    "stalk of goldenrod",
-    "yellow primrose",
-    "small wild rose",
-    "wild chokecherry",
-    "motherwort",
-    "murkweed",
-    "white baneberry",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some calamia fruit"
   ]
 }

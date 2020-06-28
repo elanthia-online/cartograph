@@ -1,33 +1,30 @@
 {
+  "id": 6262,
+  "title": [
+    "[Lower Dragonsclaw, Brambles]"
+  ],
+  "description": [
+    "A gnarled hedgerow of brambles marches north and south, blocking any further progress down the westward slope.  The smell of homemade cooking wafts over the stubby barrier ... or maybe something died over there.  A sturdy adventurer might be able to squeeze under the hedge without too much loss of blood.  On the other hand, a naked march back through the briars would probably be more fun."
+  ],
+  "paths": [
+    "Obvious paths: up"
+  ],
+  "location": "the Lower Dragonsclaw",
   "wayto": {
     "6261": "up",
     "6263": "go hedge"
   },
-  "paths": [
-    "Obvious paths: up"
-  ],
+  "timeto": {
+    "6261": 0.2,
+    "6263": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     323,
     338,
     333,
     348
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "A gnarled hedgerow of brambles marches north and south, blocking any further progress down the westward slope.  The smell of homemade cooking wafts over the stubby barrier ... or maybe something died over there.  A sturdy adventurer might be able to squeeze under the hedge without too much loss of blood.  On the other hand, a naked march back through the briars would probably be more fun."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Lower Dragonsclaw, Brambles]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6261": 0.2,
-    "6263": 0.2
-  },
-  "id": 6262,
-  "location": "the Lower Dragonsclaw",
   "tags": [
     "some wolifrew lichen",
     "some acantha leaf",
@@ -49,10 +46,6 @@
     "blue whortleberry",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

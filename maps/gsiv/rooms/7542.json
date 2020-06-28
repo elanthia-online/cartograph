@@ -1,39 +1,31 @@
 {
+  "id": 7542,
+  "title": [
+    "[Catacombs, Secret Workshop]"
+  ],
+  "description": [
+    "This seems to be a secret workshop of some sort.  Weapons in various states of completion are held in locked vises atop a large wooden workbench.  Shelves filled with finely made tools line the walls.  Against one corner leans a huge broadsword, the hugest you have ever seen."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "404": "pull huge broadsword\ngo depression",
     "7540": "pull cresset"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "404": 0.4,
+    "7540": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     421,
     1208,
     431,
     1218
   ],
-  "terrain": "indoors",
-  "description": [
-    "This seems to be a secret workshop of some sort.  Weapons in various states of completion are held in locked vises atop a large wooden workbench.  Shelves filled with finely made tools line the walls.  Against one corner leans a huge broadsword, the hugest you have ever seen."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Catacombs, Secret Workshop]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "404": 0.4,
-    "7540": 0.2
-  },
-  "id": 7542,
-  "location": "the catacombs",
   "tags": [
-    "node",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "node"
   ]
 }

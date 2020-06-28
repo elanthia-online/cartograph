@@ -1,32 +1,29 @@
 {
-  "wayto": {
-    "12536": "go doors"
-  },
+  "id": 12537,
+  "title": [
+    "[Adventurers' Rest, Deck]"
+  ],
+  "description": [
+    "The deck is bordered by neatly trimmed evergreen hedges, a miniature forest even in the midst of town.  There are some chairs set in cozy groupings, and baskets of flowers swaying from the eaves of the Rest.  Tall iron posts on either side of some swinging doors support glowing lanterns.",
+    "The deck is bordered by neatly trimmed evergreen hedges, a miniature forest even in the midst of town.  There are some chairs set in cozy groupings, and baskets of flowers swaying from the eaves of the Rest.  Tall iron posts on either side of some swinging doors support simple lanterns."
+  ],
   "paths": [
     "Obvious paths: none"
   ],
+  "location": "the town of Kharam-Dzu",
+  "wayto": {
+    "12536": "go doors"
+  },
+  "timeto": {
+    "12536": 0.2
+  },
+  "image": "ti-adventurers_rest-1486448911.png",
   "image_coords": [
     5,
     841,
     152,
     906
   ],
-  "terrain": null,
-  "description": [
-    "The deck is bordered by neatly trimmed evergreen hedges, a miniature forest even in the midst of town.  There are some chairs set in cozy groupings, and baskets of flowers swaying from the eaves of the Rest.  Tall iron posts on either side of some swinging doors support glowing lanterns.",
-    "The deck is bordered by neatly trimmed evergreen hedges, a miniature forest even in the midst of town.  There are some chairs set in cozy groupings, and baskets of flowers swaying from the eaves of the Rest.  Tall iron posts on either side of some swinging doors support simple lanterns."
-  ],
-  "image": "ti-adventurers_rest-1486448911.png",
-  "climate": null,
-  "title": [
-    "[Adventurers' Rest, Deck]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "12536": 0.2
-  },
-  "id": 12537,
-  "location": "the town of Kharam-Dzu",
   "tags": [
     "node",
     "supernode",
@@ -36,8 +33,5 @@
     "locksmith pool",
     "meta:boxpool:npc:disheveled dwarven attendant",
     "meta:boxpool:table:thick mistwood workbench"
-  ],
-  "links": [
-
   ]
 }

@@ -1,62 +1,36 @@
 {
-  "wayto": {
-    "15541": "go road",
-    "10821": {
-      "stringproc": "fdf955202637c8d1287e0faa9905aa2d"
-    },
-    "10814": "west"
-  },
+  "id": 10815,
+  "title": [
+    "[Gyldemar Road]"
+  ],
+  "description": [
+    "Worn away by rain and the underground action of continual water, the road has sunk to swamp level.  At this point, though, it remains firm enough for passage and rises slightly out of the swamp to the west.  To the east the road disappears entirely under black water for twenty yards or so then emerges again to proceed unsteadily on its way.  Continuing east is most likely a sink or swim proposition, and perhaps both."
+  ],
   "paths": [
     "Obvious paths: west"
   ],
+  "location": "Gyldemar Road",
+  "wayto": {
+    "15541": "go road",
+    "10821": {
+      "file": "string_procs/wayto/10815_10821.rb"
+    },
+    "10814": "west"
+  },
+  "timeto": {
+    "15541": 0.2,
+    "10821": 0.2,
+    "10814": 0.2
+  },
+  "image": "en-gyldemar-1264234799.png",
   "image_coords": [
     781,
     589,
     791,
     599
   ],
-  "terrain": "missing",
-  "description": [
-    "Worn away by rain and the underground action of continual water, the road has sunk to swamp level.  At this point, though, it remains firm enough for passage and rises slightly out of the swamp to the west.  To the east the road disappears entirely under black water for twenty yards or so then emerges again to proceed unsteadily on its way.  Continuing east is most likely a sink or swim proposition, and perhaps both."
-  ],
-  "image": "en-gyldemar-1264234799.png",
-  "climate": "humid",
-  "title": [
-    "[Gyldemar Road]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "15541": 0.2,
-    "10821": 0.2,
-    "10814": 0.2
-  },
-  "id": 10815,
-  "location": "Gyldemar Road",
   "tags": [
     "some bur-clover root",
-    "some haphip root",
-    "calamia fruit",
-    "haphip root",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "wild gooseberry",
-    "stalk of cattail",
-    "small wild rose",
-    "lady slipper blossom",
-    "blue whortleberry",
-    "murdroot",
-    "wavepetal blossom",
-    "bolmara lichen",
-    "talneo root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some haphip root"
   ]
 }

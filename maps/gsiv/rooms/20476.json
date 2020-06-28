@@ -1,37 +1,25 @@
 {
-  "wayto": {
-    "20477": {
-      "stringproc": "96723eb4fbd84e7a2a85f4d2629cec85"
-    },
-    "20473": {
-      "stringproc": "b41ab3051a074f2086e0ed22880dc383"
-    }
-  },
-  "paths": [
-    "Obvious paths: north, west"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Far away a krolvin slave ship can be spotted, clearly anchored as the waves rock it but it remains unmoving.  A krolvin pirate sits atop the ship's crow's nest, his spyglass focused on a raging storm cloud to the far north."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 20476,
   "title": [
     "[Arctic Waters]"
   ],
-  "check_location": null,
+  "description": [
+    "Far away a krolvin slave ship can be spotted, clearly anchored as the waves rock it but it remains unmoving.  A krolvin pirate sits atop the ship's crow's nest, his spyglass focused on a raging storm cloud to the far north."
+  ],
+  "paths": [
+    "Obvious paths: north, west"
+  ],
+  "location": "the Pinefar Trading Post",
+  "wayto": {
+    "20477": {
+      "file": "string_procs/wayto/20476_20477.rb"
+    },
+    "20473": {
+      "file": "string_procs/wayto/20476_20473.rb"
+    }
+  },
   "timeto": {
     "20477": 2.0,
     "20473": 2.0
-  },
-  "id": 20476,
-  "location": "the Pinefar Trading Post",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  }
 }

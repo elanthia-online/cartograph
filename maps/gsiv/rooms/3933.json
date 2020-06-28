@@ -1,49 +1,35 @@
 {
+  "id": 3933,
+  "title": [
+    "[Catacombs, Rat's Nest]"
+  ],
+  "description": [
+    "This suffocatingly close room is dark and foul-smelling.  Murky light filters in through a clawed-out hole in the crumbling brick wall on one side of the chamber.  Decaying straw and rotting refuse litter the floor.  From somewhere nearby, you can hear the faint trickling of water."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "3932": "go hole",
     "3934": "go opening"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "3932": 0.2,
+    "3934": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     901,
     1021,
     911,
     1031
   ],
-  "terrain": "indoors",
-  "description": [
-    "This suffocatingly close room is dark and foul-smelling.  Murky light filters in through a clawed-out hole in the crumbling brick wall on one side of the chamber.  Decaying straw and rotting refuse litter the floor.  From somewhere nearby, you can hear the faint trickling of water."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Catacombs, Rat's Nest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3932": 0.2,
-    "3934": 0.2
-  },
-  "id": 3933,
-  "location": "the catacombs",
   "tags": [
     "withered black mushroom",
     "some wingstem root",
     "some bolmara lichen",
     "soft white mushroom",
-    "blue trafel mushroom",
-    "red trafel mushroom",
-    "black hook mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "blue trafel mushroom"
   ]
 }

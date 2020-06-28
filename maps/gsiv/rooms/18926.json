@@ -1,37 +1,31 @@
 {
-  "wayto": {
-    "18112": {
-      "stringproc": "bded59ad66685fea9a40b4b2e292cb23"
-    }
-  },
+  "id": 18926,
+  "title": [
+    "[Sorcerer's Guild, Guild Shop]"
+  ],
+  "description": [
+    "The elegant decor of the foyer extends here, as does the use of the black candles that light the room.  Crimson carpeting spreads from wall to wall and softly cushions each footstep.  The north wall, paneled in dark walnut like the others, holds a large banner.  A young clerk stands discreetly in a small alcove off to one side, behind the mannequin displaying wares for purchase.  Upon a shelf set into the southern wall an array of wands, rods and other small items awaits your inspection."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "the Coastal Cliffs",
+  "wayto": {
+    "18112": {
+      "file": "string_procs/wayto/18926_18112.rb"
+    }
+  },
+  "timeto": {
+    "18112": 0.2
+  },
+  "image": "wl-sorcerer_guild-1405076623.png",
   "image_coords": [
     343,
     759,
     384,
     799
   ],
-  "terrain": null,
-  "description": [
-    "The elegant decor of the foyer extends here, as does the use of the black candles that light the room.  Crimson carpeting spreads from wall to wall and softly cushions each footstep.  The north wall, paneled in dark walnut like the others, holds a large banner.  A young clerk stands discreetly in a small alcove off to one side, behind the mannequin displaying wares for purchase.  Upon a shelf set into the southern wall an array of wands, rods and other small items awaits your inspection."
-  ],
-  "image": "wl-sorcerer_guild-1405076623.png",
-  "climate": null,
-  "title": [
-    "[Sorcerer's Guild, Guild Shop]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "18112": 0.2
-  },
-  "id": 18926,
-  "location": "the Coastal Cliffs",
   "tags": [
     "sorcerer guild shop"
-  ],
-  "links": [
-
   ]
 }

@@ -1,32 +1,23 @@
 {
-  "wayto": {
-    "27865": {
-      "stringproc": "9ec26bc0dd681adca7266cb2990149ba"
-    }
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "White lambswool rugs cover most of the fel floor in this room.  A mahogany bed and matching mahogany nightstand are located against the inner wall.  At the foot of the bed is a plush heavy cotton pillow.  One corner is blocked off by a lacquered privacy screen.  Pushed to another corner are an ornate wardrobe and an antique locker box.  A cozy leather armchair is positioned to view the distant falls through a large window.  A heavy cedar door leads to a rope bridge and back to the gazebo."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 27868,
   "title": [
     "[Master Bedroom]"
   ],
-  "check_location": null,
-  "timeto": {
+  "description": [
+    "White lambswool rugs cover most of the fel floor in this room.  A mahogany bed and matching mahogany nightstand are located against the inner wall.  At the foot of the bed is a plush heavy cotton pillow.  One corner is blocked off by a lacquered privacy screen.  Pushed to another corner are an ornate wardrobe and an antique locker box.  A cozy leather armchair is positioned to view the distant falls through a large window.  A heavy cedar door leads to a rope bridge and back to the gazebo."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Keh'nira Fyr'sah",
+  "wayto": {
     "27865": {
-      "stringproc": "c9bf0e8e20e6569db935057826b9963e"
+      "file": "string_procs/wayto/27868_27865.rb"
     }
   },
-  "id": 27868,
-  "location": "Keh'nira Fyr'sah",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  "timeto": {
+    "27865": {
+      "file": "string_procs/timeto/27868_27865.rb"
+    }
+  }
 }

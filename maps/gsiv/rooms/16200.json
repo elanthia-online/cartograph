@@ -1,43 +1,34 @@
 {
+  "id": 16200,
+  "title": [
+    "[Beacon Hall, Kitchen]"
+  ],
+  "description": [
+    "A small army of halfling chefs bustles about this large kitchen, oblivious to anything not concerning cookery.  Clinging to the highest rung of a ladder, one of the small cooks hangs precariously over the open door of a huge brick oven.  A white-aproned chef diligently kneads a large mound of dough on a rectangular butcher block counter standing in the center of the ceramic tile floor.  The tiny cooks proudly hand over their delicious fare to the elven pages steadily arriving from the dining hall."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
   "wayto": {
     "18902": {
-      "stringproc": "c521db29928391f406477c5f71aaf2e4"
+      "file": "string_procs/wayto/16200_18902.rb"
     },
     "16198": "north",
     "16187": "south",
     "16201": "go door",
     "18898": {
-      "stringproc": "d4fa49cd3776c6f3cf4d7e08073367b6"
+      "file": "string_procs/wayto/16200_18898.rb"
     },
     "18899": {
-      "stringproc": "0c9b4fd30a480b793a36c5d49ad3affc"
+      "file": "string_procs/wayto/16200_18899.rb"
     },
     "18900": {
-      "stringproc": "a8f1965a5e6e1d9d7a373f0dc36beb4b"
+      "file": "string_procs/wayto/16200_18900.rb"
     },
     "18901": {
-      "stringproc": "f825e585d6d6229124c3d65d6b532832"
+      "file": "string_procs/wayto/16200_18901.rb"
     }
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
-  "image_coords": [
-    610,
-    466,
-    657,
-    511
-  ],
-  "terrain": null,
-  "description": [
-    "A small army of halfling chefs bustles about this large kitchen, oblivious to anything not concerning cookery.  Clinging to the highest rung of a ladder, one of the small cooks hangs precariously over the open door of a huge brick oven.  A white-aproned chef diligently kneads a large mound of dough on a rectangular butcher block counter standing in the center of the ceramic tile floor.  The tiny cooks proudly hand over their delicious fare to the elven pages steadily arriving from the dining hall."
-  ],
-  "image": "rr-beacon_hall-1405076623.png",
-  "climate": null,
-  "title": [
-    "[Beacon Hall, Kitchen]"
-  ],
-  "check_location": null,
   "timeto": {
     "18902": 0.2,
     "16198": 0.2,
@@ -48,12 +39,14 @@
     "18900": 0.2,
     "18901": 0.2
   },
-  "id": 16200,
-  "location": null,
+  "image": "rr-beacon_hall-1405076623.png",
+  "image_coords": [
+    610,
+    466,
+    657,
+    511
+  ],
   "tags": [
     "table"
-  ],
-  "links": [
-
   ]
 }

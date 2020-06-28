@@ -1,34 +1,31 @@
 {
+  "id": 488,
+  "title": [
+    "[Coastal Cliffs]"
+  ],
+  "description": [
+    "Faint moonlight flits through the dark green canopy of leaves as they dance in the wind, stippling the ground with an ever-changing mosaic of light and shadow.",
+    "Faint light flits through the dark green canopy of leaves as they dance in the wind, stippling the ground with an ever-changing mosaic of light and shadow."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "487": "east",
     "489": "west"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "487": 0.2,
+    "489": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     388,
     758,
     398,
     768
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "Faint moonlight flits through the dark green canopy of leaves as they dance in the wind, stippling the ground with an ever-changing mosaic of light and shadow.",
-    "Faint light flits through the dark green canopy of leaves as they dance in the wind, stippling the ground with an ever-changing mosaic of light and shadow."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Coastal Cliffs]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "487": 0.2,
-    "489": 0.2
-  },
-  "id": 488,
-  "location": "the Coastal Cliffs",
   "tags": [
     "blue trafel mushroom",
     "tkaro root",
@@ -73,10 +70,6 @@
     "twisted twig",
     "slender twig",
     "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

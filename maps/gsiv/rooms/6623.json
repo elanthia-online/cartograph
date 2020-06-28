@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "6622": "southwest"
-  },
+  "id": 6623,
+  "title": [
+    "[The Broken Lands, Library]"
+  ],
+  "description": [
+    "The tall shelves of this once-magnificent library are now completely bare.  A large globe stands in one corner, covered with a thick layer of dust.  Even though all of the books and scrolls are long gone, the room still carries the odor of old paper and ink."
+  ],
   "paths": [
     "Obvious exits: southwest"
   ],
+  "location": "the Broken Lands",
+  "wayto": {
+    "6622": "southwest"
+  },
+  "timeto": {
+    "6622": 0.2
+  },
+  "image": "wl-broken-1264234799.png",
   "image_coords": [
     530,
     789,
     540,
     799
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The tall shelves of this once-magnificent library are now completely bare.  A large globe stands in one corner, covered with a thick layer of dust.  Even though all of the books and scrolls are long gone, the room still carries the odor of old paper and ink."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[The Broken Lands, Library]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6622": 0.2
-  },
-  "id": 6623,
-  "location": "the Broken Lands",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

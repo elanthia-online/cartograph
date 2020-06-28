@@ -1,42 +1,32 @@
 {
+  "id": 11229,
+  "title": [
+    "[Infirmary, Hallway]"
+  ],
+  "description": [
+    "Furniture has been piled in each of the hallways leading away from the entry room, forming ineffective barricades.  Each of the barricades has been breached.  Skeletons, all savagely hewn and hacked, are strewn about the area.  A sign hangs crookedly on the wall."
+  ],
+  "paths": [
+    "Obvious exits: north, east, west"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11228": "go door",
     "11230": "east",
     "11235": "north",
     "11247": "west"
   },
-  "paths": [
-    "Obvious exits: north, east, west"
-  ],
-  "image_coords": [
-    137,
-    574,
-    147,
-    584
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Furniture has been piled in each of the hallways leading away from the entry room, forming ineffective barricades.  Each of the barricades has been breached.  Skeletons, all savagely hewn and hacked, are strewn about the area.  A sign hangs crookedly on the wall."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Infirmary, Hallway]"
-  ],
-  "check_location": null,
   "timeto": {
     "11228": 0.2,
     "11230": 0.2,
     "11235": 0.2,
     "11247": 0.2
   },
-  "id": 11229,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-citadel-1267238976.png",
+  "image_coords": [
+    137,
+    574,
+    147,
+    584
   ]
 }

@@ -1,33 +1,30 @@
 {
+  "id": 11152,
+  "title": [
+    "[Citadel, Outside]"
+  ],
+  "description": [
+    "The road opens up here to make room for a large, circular trough.  Though it has apparently been empty for quite some time, you can tell by the even wear on the stone that it once held water.  Off to the northwest, a large wooden barn stands tall but decrepit, its wooden sides rotten from age."
+  ],
+  "paths": [
+    "Obvious paths: south, northwest"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11151": "northwest",
     "11153": "s"
   },
-  "paths": [
-    "Obvious paths: south, northwest"
-  ],
+  "timeto": {
+    "11151": 0.2,
+    "11153": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     1169,
     660,
     1181,
     672
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The road opens up here to make room for a large, circular trough.  Though it has apparently been empty for quite some time, you can tell by the even wear on the stone that it once held water.  Off to the northwest, a large wooden barn stands tall but decrepit, its wooden sides rotten from age."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "moist",
-  "title": [
-    "[Citadel, Outside]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11151": 0.2,
-    "11153": 0.2
-  },
-  "id": 11152,
-  "location": "the Citadel",
   "tags": [
     "some aloeas stem",
     "bright red cranberry",
@@ -39,17 +36,6 @@
     "some wingstem root",
     "some calamia fruit",
     "wild chokecherry",
-    "some motherwort",
-    "acantha leaf",
-    "calamia fruit",
-    "aloeas stem",
-    "motherwort",
-    "murkweed",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some motherwort"
   ]
 }

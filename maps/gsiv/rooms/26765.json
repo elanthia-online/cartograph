@@ -1,35 +1,26 @@
 {
-  "wayto": {
-    "26766": "east",
-    "26764": "west",
-    "27623": {
-      "stringproc": "8ef54266b4ed4c286d508ebf005c38de"
-    }
-  },
-  "paths": [
-    "Obvious exits: east, west"
+  "id": 26765,
+  "title": [
+    "[Underground]"
   ],
-  "image_coords": null,
-  "terrain": null,
   "description": [
     "The amber cast of the torchlight makes the damp, grey stones glisten with a green iridescence, giving the widening chamber a sickly countenance.  To one side, shelves have been carved into the rock, and they rise into an arch that shelters a carved granite altar.  On the other lies a seeming shrine of bones, stacked high and wide and arranged in configurations both mystical and profane.",
     "The amber cast of the torchlight makes the damp, grey stones glisten with a green iridescence, giving the widening chamber a sickly countenance.  To one side, shelves have been carved into the rock, and they rise into an arch that shelters a crumbling granite altar.  On the other lies a seeming shrine of bones, stacked high and wide and arranged in configurations both mystical and profane."
   ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Underground]"
+  "paths": [
+    "Obvious exits: east, west"
   ],
-  "check_location": null,
+  "location": "Caligos Isle",
+  "wayto": {
+    "26766": "east",
+    "26764": "west",
+    "27623": {
+      "file": "string_procs/wayto/26765_27623.rb"
+    }
+  },
   "timeto": {
     "26766": 0.2,
     "26764": 0.2,
     "27623": 10.0
-  },
-  "id": 26765,
-  "location": "Caligos Isle",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  }
 }

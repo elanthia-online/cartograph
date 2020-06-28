@@ -1,33 +1,30 @@
 {
+  "id": 6259,
+  "title": [
+    "[Lower Dragonsclaw, Briar Patch]"
+  ],
+  "description": [
+    "Thick thorn bushes choke the few young oaks brave enough to root here.  Long trailing vines drop pliant nooses from above and curl about your feet like vipers.  There is no path to speak of and the only way through seems to be to find the shrub with the fewest thorns and put a shoulder into it."
+  ],
+  "paths": [
+    "Obvious paths: northwest, out"
+  ],
+  "location": "the Lower Dragonsclaw",
   "wayto": {
     "218": "out",
     "6260": "northwest"
   },
-  "paths": [
-    "Obvious paths: northwest, out"
-  ],
+  "timeto": {
+    "218": 0.2,
+    "6260": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     375,
     311,
     385,
     321
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "Thick thorn bushes choke the few young oaks brave enough to root here.  Long trailing vines drop pliant nooses from above and curl about your feet like vipers.  There is no path to speak of and the only way through seems to be to find the shrub with the fewest thorns and put a shoulder into it."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Lower Dragonsclaw, Briar Patch]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "218": 0.2,
-    "6260": 0.2
-  },
-  "id": 6259,
-  "location": "the Lower Dragonsclaw",
   "tags": [
     "some wingstem root",
     "some cothinar flower",
@@ -45,10 +42,6 @@
     "wild chokecherry",
     "blue whortleberry",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

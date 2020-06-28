@@ -1,35 +1,23 @@
 {
-  "wayto": {
-    "22086": {
-      "stringproc": "2654e6954b073e3b8b7253ea7cb83813"
-    },
-    "20856": "west"
-  },
-  "paths": [
-    "Obvious exits: west"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Large bookcases, filled with ancient tomes all bound with dark purple seals, stretch from wall to wall.  In the center of the room is a large, circular fireplace, its iron curtain protecting the plush fur throws that are laid out before it.  Chairs set about two large lamp-lit mahogany tables provide a perfect place for late night studies.  About the room rest several large trophies, and a large portrait hangs above the bookcases."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 20866,
   "title": [
     "[Obsidian Tower, Den]"
   ],
-  "check_location": null,
+  "description": [
+    "Large bookcases, filled with ancient tomes all bound with dark purple seals, stretch from wall to wall.  In the center of the room is a large, circular fireplace, its iron curtain protecting the plush fur throws that are laid out before it.  Chairs set about two large lamp-lit mahogany tables provide a perfect place for late night studies.  About the room rest several large trophies, and a large portrait hangs above the bookcases."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Wehnimer's Landing",
+  "wayto": {
+    "22086": {
+      "file": "string_procs/wayto/20866_22086.rb"
+    },
+    "20856": "west"
+  },
   "timeto": {
     "22086": 0.2,
     "20856": 0.2
-  },
-  "id": 20866,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  }
 }

@@ -1,77 +1,32 @@
 {
-  "wayto": {
-    "16726": {
-      "stringproc": "e7cc25770c02e2d953a7255eaf996f8e"
-    },
-    "16730": {
-      "stringproc": "629d3754857cabcde2fa65d046506cf0"
-    }
-  },
+  "id": 16729,
+  "title": [
+    "[River Rapids]"
+  ],
+  "description": [
+    "Turbulence heaves the water into a nightmarish beast, smashing against the rough rock walls, before rolling over itself in a roaring fury.  It is extremely difficult to maintain balance and equilibrium in the maelstrom, and the strong current threatens to suck you away to a watery demise.  The only refuge lies on the floor of the ravine, either to the the north side or the south side of the river."
+  ],
   "paths": [
     "Obvious paths: none"
   ],
+  "location": "Aradhul Road",
+  "wayto": {
+    "16726": {
+      "file": "string_procs/wayto/16729_16726.rb"
+    },
+    "16730": {
+      "file": "string_procs/wayto/16729_16730.rb"
+    }
+  },
+  "timeto": {
+    "16726": 10.0,
+    "16730": 10.0
+  },
+  "image": "en-aradhul-road-1308194332.png",
   "image_coords": [
     377,
     707,
     402,
     729
-  ],
-  "terrain": "riparian",
-  "description": [
-    "Turbulence heaves the water into a nightmarish beast, smashing against the rough rock walls, before rolling over itself in a roaring fury.  It is extremely difficult to maintain balance and equilibrium in the maelstrom, and the strong current threatens to suck you away to a watery demise.  The only refuge lies on the floor of the ravine, either to the the north side or the south side of the river."
-  ],
-  "image": "en-aradhul-road-1308194332.png",
-  "climate": "temperate",
-  "title": [
-    "[River Rapids]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "16726": 10.0,
-    "16730": 10.0
-  },
-  "id": 16729,
-  "location": "Aradhul Road",
-  "tags": [
-    "acantha leaf",
-    "calamia fruit",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "blueberries",
-    "handful of currants",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "water chestnut",
-    "wild grapes",
-    "stalk of cattail",
-    "stalk of bluebells",
-    "red clover blossom",
-    "pink clover blossom",
-    "white clover blossom",
-    "purple clover blossom",
-    "yellow clover blossom",
-    "stalk of goldenrod",
-    "small wild rose",
-    "sprig of wild lilac",
-    "Imaera's Lace",
-    "wild chokecherry",
-    "wood violet",
-    "mistweed",
-    "pepperthorn root",
-    "murdroot",
-    "wavepetal blossom",
-    "ironfern root",
-    "sunburst blossom",
-    "talneo root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

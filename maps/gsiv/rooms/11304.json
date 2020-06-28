@@ -1,42 +1,32 @@
 {
+  "id": 11304,
+  "title": [
+    "[Alchemist, Secret Junction]"
+  ],
+  "description": [
+    "A narrow corridor branches north from this winding, torch-lit hall.  Dense smoke and rock dust hang heavily in the still air, stinging eyes and throat alike, and a monotonous dripping sound echoes down the passage from somewhere to the west.  Above the nearest torch is a small grate, but if it once served to ventilate the hall, the earth and rubble pressing against the grate from the far side now prevent it from serving its function."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast, west"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11303": "north",
     "11305": "southeast",
     "11309": "west",
     "11312": "go stairway"
   },
-  "paths": [
-    "Obvious exits: north, southeast, west"
-  ],
-  "image_coords": [
-    820,
-    1030,
-    830,
-    1040
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A narrow corridor branches north from this winding, torch-lit hall.  Dense smoke and rock dust hang heavily in the still air, stinging eyes and throat alike, and a monotonous dripping sound echoes down the passage from somewhere to the west.  Above the nearest torch is a small grate, but if it once served to ventilate the hall, the earth and rubble pressing against the grate from the far side now prevent it from serving its function."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Alchemist, Secret Junction]"
-  ],
-  "check_location": null,
   "timeto": {
     "11303": 0.2,
     "11305": 0.2,
     "11309": 0.2,
     "11312": 0.2
   },
-  "id": 11304,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-citadel-1267238976.png",
+  "image_coords": [
+    820,
+    1030,
+    830,
+    1040
   ]
 }

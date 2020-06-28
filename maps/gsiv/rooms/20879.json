@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "12152": {
-      "stringproc": "e7b269de45035581300c76daf9e751cf"
-    },
-    "12089": {
-      "stringproc": "df16ace028c72dba18b51257349345d8"
-    },
-    "2635": {
-      "stringproc": "a5fc698b4e8aaa983aa8f5ad92908980"
-    },
-    "12201": "west",
-    "12202": "east"
-  },
+  "id": 20879,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "A giant hangs on an elaborate set of poles and straps here.  Two thick poles set crossing each other are framed by two vertical and two horizontal ones.  Violet eyes shrouded in shadow float near the giant's head, watching the expressions that pass there with great interest.  A pair of winged snakes hover near the giant, flying idly about and occasionally striking him."
+  ],
   "paths": [
     "Obvious paths: east, west",
     "Obvious exits: east, west"
   ],
-  "image_coords": [
-    241,
-    1034,
-    250,
-    1043
-  ],
-  "terrain": null,
-  "description": [
-    "A giant hangs on an elaborate set of poles and straps here.  Two thick poles set crossing each other are framed by two vertical and two horizontal ones.  Violet eyes shrouded in shadow float near the giant's head, watching the expressions that pass there with great interest.  A pair of winged snakes hover near the giant, flying idly about and occasionally striking him."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12152": {
+      "file": "string_procs/wayto/20879_12152.rb"
+    },
+    "12089": {
+      "file": "string_procs/wayto/20879_12089.rb"
+    },
+    "2635": {
+      "file": "string_procs/wayto/20879_2635.rb"
+    },
+    "12201": "west",
+    "12202": "east"
+  },
   "timeto": {
     "12152": 21.6,
     "12089": 21.6,
@@ -39,19 +31,11 @@
     "12201": 0.2,
     "12202": 0.2
   },
-  "id": 20879,
-  "location": "the Rift",
-  "tags": [
-    "mass of congealed slime",
-    "oozing fleshsore bulb",
-    "withered deathblossom",
-    "rotting bile green fleshbulb",
-    "slime-covered grave blossom",
-    "discolored fleshbinder bud",
-    "twisted black mawflower"
-  ],
-  "unique_loot": null,
-  "links": [
-
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    241,
+    1034,
+    250,
+    1043
   ]
 }

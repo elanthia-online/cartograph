@@ -1,33 +1,30 @@
 {
+  "id": 1406,
+  "title": [
+    "[Cairnfang Forest]"
+  ],
+  "description": [
+    "Having reached the top of a small rise, the trail levels off for a bit before heading downhill again."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "1405": "northeast",
     "1407": "southwest"
   },
-  "paths": [
-    "Obvious paths: northeast, southwest"
-  ],
+  "timeto": {
+    "1405": 0.2,
+    "1407": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     1075,
     963,
     1085,
     973
   ],
-  "terrain": "rough",
-  "description": [
-    "Having reached the top of a small rise, the trail levels off for a bit before heading downhill again."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Cairnfang Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1405": 0.2,
-    "1407": 0.2
-  },
-  "id": 1406,
-  "location": "the Cairnfang",
   "tags": [
     "pepperthorn root",
     "wild strawberry",
@@ -56,10 +53,6 @@
     "wild chokecherry",
     "motherwort",
     "white baneberry",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

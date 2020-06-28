@@ -1,45 +1,30 @@
 {
+  "id": 4335,
+  "title": [
+    "[Mine]"
+  ],
+  "description": [
+    "You disturb thick sticky webs which connect the ceiling of this chamber and the floor.  The floor of this chamber is littered with rubble to which the webs are attached. You can easily break the webs but your sight is impaired."
+  ],
+  "paths": [
+    "Obvious exits: north, east, west"
+  ],
+  "location": "the crystal caves",
   "wayto": {
     "4334": "east",
     "4336": "west",
     "4338": "north"
   },
-  "paths": [
-    "Obvious exits: north, east, west"
-  ],
-  "image_coords": [
-    1016,
-    579,
-    1026,
-    589
-  ],
-  "terrain": "indoors",
-  "description": [
-    "You disturb thick sticky webs which connect the ceiling of this chamber and the floor.  The floor of this chamber is littered with rubble to which the webs are attached. You can easily break the webs but your sight is impaired."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mine]"
-  ],
-  "check_location": null,
   "timeto": {
     "4334": 0.2,
     "4336": 0.2,
     "4338": 0.2
   },
-  "id": 4335,
-  "location": "the crystal caves",
-  "tags": [
-    "wolifrew lichen",
-    "withered black mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-mineroad-1264234799.png",
+  "image_coords": [
+    1016,
+    579,
+    1026,
+    589
   ]
 }

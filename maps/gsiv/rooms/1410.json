@@ -1,36 +1,33 @@
 {
+  "id": 1410,
+  "title": [
+    "[Cairnfang Forest]"
+  ],
+  "description": [
+    "Trees crowd in from either side, casting the trail into utter darkness, and briars and creepers weave a darkened tangle close alongside the path.",
+    "Trees crowd in from either side, casting the trail into constant shadow, and briars and creepers weave a tangle of green close alongside the path."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "1409": "northeast",
     "1411": "south",
     "9377": "go path"
   },
-  "paths": [
-    "Obvious paths: northeast, south"
-  ],
+  "timeto": {
+    "1409": 0.2,
+    "1411": 0.2,
+    "9377": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     969,
     1068,
     979,
     1078
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "Trees crowd in from either side, casting the trail into utter darkness, and briars and creepers weave a darkened tangle close alongside the path.",
-    "Trees crowd in from either side, casting the trail into constant shadow, and briars and creepers weave a tangle of green close alongside the path."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Cairnfang Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1409": 0.2,
-    "1411": 0.2,
-    "9377": 0.2
-  },
-  "id": 1410,
-  "location": "the Cairnfang",
   "tags": [
     "some calamia fruit",
     "sprig of wild lilac",
@@ -91,10 +88,6 @@
     "ebony twig",
     "bolmara lichen",
     "brostheras grass",
-    "alder bark",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "alder bark"
   ]
 }

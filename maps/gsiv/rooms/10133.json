@@ -1,44 +1,38 @@
 {
+  "id": 10133,
+  "title": [
+    "[Fethayl Bog, Fallen Tree]"
+  ],
+  "description": [
+    "An enormous tree lays across the path, crushed vegetation splayed out beneath the trunk.  Jagged splinters protrude through thick crusts of mud and moss, and the pale roots of a sapling form a knotted mesh over the stump.  The bark is covered in shelf fungus and mushrooms while darkened areas show where the wood has long since rotted away.  To the northwest, a lake of thick, roiling mud inhibits passage."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "Fethayl Bog",
   "wayto": {
     "10134": "east",
     "10135": "southwest",
     "10130": {
-      "stringproc": "c7a2d62228dd9c46d1439175e5ce64c5"
+      "file": "string_procs/wayto/10133_10130.rb"
     }
   },
-  "paths": [
-    "Obvious paths: east, southwest"
-  ],
+  "timeto": {
+    "10134": 0.2,
+    "10135": 0.2,
+    "10130": 5.0
+  },
+  "image": "en-fearling-1264234799.png",
   "image_coords": [
     1161,
     229,
     1171,
     239
   ],
-  "terrain": null,
-  "description": [
-    "An enormous tree lays across the path, crushed vegetation splayed out beneath the trunk.  Jagged splinters protrude through thick crusts of mud and moss, and the pale roots of a sapling form a knotted mesh over the stump.  The bark is covered in shelf fungus and mushrooms while darkened areas show where the wood has long since rotted away.  To the northwest, a lake of thick, roiling mud inhibits passage."
-  ],
-  "image": "en-fearling-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Fethayl Bog, Fallen Tree]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10134": 0.2,
-    "10135": 0.2,
-    "10130": 5.0
-  },
-  "id": 10133,
-  "location": "Fethayl Bog",
   "tags": [
     "some bolmara lichen",
     "murdroot",
     "wavepetal blossom",
     "bolmara lichen"
-  ],
-  "links": [
-
   ]
 }

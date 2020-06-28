@@ -1,43 +1,28 @@
 {
+  "id": 5667,
+  "title": [
+    "[Warrens]"
+  ],
+  "description": [
+    "Odd shuffling sounds seem to come from both sides of this passage, but their source is unseen.  A large root dangles from above, and a thick sap is slowly oozing out from the exposed tuber.  Several tooth marks on the root show that something has made a habit of chewing on the thing."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest"
+  ],
+  "location": "the Vornavian Coast",
   "wayto": {
     "5665": "southeast",
     "5670": "southwest"
   },
-  "paths": [
-    "Obvious exits: southeast, southwest"
-  ],
+  "timeto": {
+    "5665": 0.2,
+    "5670": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     577,
     608,
     587,
     618
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Odd shuffling sounds seem to come from both sides of this passage, but their source is unseen.  A large root dangles from above, and a thick sap is slowly oozing out from the exposed tuber.  Several tooth marks on the root show that something has made a habit of chewing on the thing."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Warrens]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5665": 0.2,
-    "5670": 0.2
-  },
-  "id": 5667,
-  "location": "the Vornavian Coast",
-  "tags": [
-    "withered black mushroom",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

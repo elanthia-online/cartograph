@@ -1,33 +1,30 @@
 {
+  "id": 2949,
+  "title": [
+    "[Abbey Chapel Garden]"
+  ],
+  "description": [
+    "A small marble fountain marks the end of the cloistered walk to the east.  Thorny rose bushes clamber over the lowest tier of the fountain, their dark spikes creating traceries around the blurred cream-colored marble."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Abbey",
   "wayto": {
     "2948": "west",
     "2950": "east"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "2948": 0.2,
+    "2950": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     805,
     642,
     814,
     653
   ],
-  "terrain": "cultivated",
-  "description": [
-    "A small marble fountain marks the end of the cloistered walk to the east.  Thorny rose bushes clamber over the lowest tier of the fountain, their dark spikes creating traceries around the blurred cream-colored marble."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Abbey Chapel Garden]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2948": 0.2,
-    "2950": 0.2
-  },
-  "id": 2949,
-  "location": "the Abbey",
   "tags": [
     "luckbloom blossom",
     "moonflower",
@@ -40,14 +37,6 @@
     "winter rose",
     "sassafras leaf",
     "some valerian root",
-    "nedum vereri",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "yew twig",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "nedum vereri"
   ]
 }

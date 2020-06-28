@@ -1,34 +1,31 @@
 {
+  "id": 5932,
+  "title": [
+    "[Catacombs, Sewers]"
+  ],
+  "description": [
+    "A thin trickle of rank water flows down from the ceiling, rudely destroying the homes of several spiders.",
+    "A thin trickle of rank water flows down from the ceiling, rudely destroying the homes of several spiders.  In a heated frenzy, the spiders scurry along the walls, looking for any openings they can slide into to escape the onslaught of water.  Water carries away garbage and other debris that have collected on the floor for years, hardly improving the smell of the room."
+  ],
+  "paths": [
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "5931": "southeast",
     "5933": "northwest"
   },
-  "paths": [
-    "Obvious exits: southeast, northwest"
-  ],
+  "timeto": {
+    "5931": 0.2,
+    "5933": 0.2
+  },
+  "image": "en-tavaalor-1565907614.png",
   "image_coords": [
     372,
     849,
     381,
     855
   ],
-  "terrain": null,
-  "description": [
-    "A thin trickle of rank water flows down from the ceiling, rudely destroying the homes of several spiders.",
-    "A thin trickle of rank water flows down from the ceiling, rudely destroying the homes of several spiders.  In a heated frenzy, the spiders scurry along the walls, looking for any openings they can slide into to escape the onslaught of water.  Water carries away garbage and other debris that have collected on the floor for years, hardly improving the smell of the room."
-  ],
-  "image": "en-tavaalor-1565907614.png",
-  "climate": null,
-  "title": [
-    "[Catacombs, Sewers]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5931": 0.2,
-    "5933": 0.2
-  },
-  "id": 5932,
-  "location": "the catacombs",
   "tags": [
     "some bolmara lichen",
     "black hook mushroom",
@@ -40,8 +37,5 @@
     "murdroot",
     "bolmara lichen",
     "wingstem root"
-  ],
-  "links": [
-
   ]
 }

@@ -1,35 +1,28 @@
 {
+  "id": 28443,
+  "title": [
+    "[Dread Lord's Suite, Entrance]"
+  ],
+  "description": [
+    "The staircase terminates in a small alcove recessed into the tower wall which contains a pair of sturdy iron doors.  Various sigils have been etched into the metal though they are of inconsistent quality, with some being very precise and deep and others appearing ragged and haphazard.  A rope is suspended from the ceiling to the right, and a small rug lies on the floor before the doors."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Mist Harbor",
   "wayto": {
     "28403": "go steps",
     "28444": "go doors"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "28403": 0.2,
+    "28444": 0.2
+  },
+  "image": "fest-windfellows_retreat-1566674846.jpg",
   "image_coords": [
     598,
     1276,
     673,
     1345
-  ],
-  "terrain": null,
-  "description": [
-    "The staircase terminates in a small alcove recessed into the tower wall which contains a pair of sturdy iron doors.  Various sigils have been etched into the metal though they are of inconsistent quality, with some being very precise and deep and others appearing ragged and haphazard.  A rope is suspended from the ceiling to the right, and a small rug lies on the floor before the doors."
-  ],
-  "image": "fest-windfellows_retreat-1566674846.jpg",
-  "climate": null,
-  "title": [
-    "[Dread Lord's Suite, Entrance]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "28403": 0.2,
-    "28444": 0.2
-  },
-  "id": 28443,
-  "location": "Mist Harbor",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

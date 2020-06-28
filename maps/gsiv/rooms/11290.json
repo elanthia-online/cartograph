@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "11289": "go trapdoor"
-  },
+  "id": 11290,
+  "title": [
+    "[Zoo, Storage Room]"
+  ],
+  "description": [
+    "The room is barren except for a pile of blankets in the corner.  The thick dust is criss-cossed with footprints."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "the Citadel",
+  "wayto": {
+    "11289": "go trapdoor"
+  },
+  "timeto": {
+    "11289": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     414,
     761,
     424,
     771
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The room is barren except for a pile of blankets in the corner.  The thick dust is criss-cossed with footprints."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Zoo, Storage Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11289": 0.2
-  },
-  "id": 11290,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

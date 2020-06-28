@@ -1,40 +1,28 @@
 {
-  "wayto": {
-    "24065": "west",
-    "24066": "north",
-    "24068": {
-      "stringproc": "ebe0b832f6bab583cae497b954064813"
-    },
-    "1988": "go door"
-  },
+  "id": 24064,
+  "title": [
+    "[Villa Brigatta, Atrium]"
+  ],
+  "description": [
+    "Rows of white granite columns echo the outside stylings, ringing the room and bracing the corridor leading off to the east.  At the center and beneath an open ceiling is a step-down area filled with comfortable settees.  To ward off the damp chill that comes with rain and cooler seasons is a free-standing white marble fireplace.  Blue star mosaic insets scatter across the pale travertine floor, and sky-hued gossamer curtains dance with the breeze.  A garden lush with native plants opens out to the north."
+  ],
   "paths": [
     "Obvious exits: north, west, out",
     "Obvious exits: north, west"
   ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Rows of white granite columns echo the outside stylings, ringing the room and bracing the corridor leading off to the east.  At the center and beneath an open ceiling is a step-down area filled with comfortable settees.  To ward off the damp chill that comes with rain and cooler seasons is a free-standing white marble fireplace.  Blue star mosaic insets scatter across the pale travertine floor, and sky-hued gossamer curtains dance with the breeze.  A garden lush with native plants opens out to the north."
-  ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Villa Brigatta, Atrium]"
-  ],
-  "check_location": null,
+  "location": "the town of Kharam-Dzu",
+  "wayto": {
+    "24065": "west",
+    "24066": "north",
+    "24068": {
+      "file": "string_procs/wayto/24064_24068.rb"
+    },
+    "1988": "go door"
+  },
   "timeto": {
     "24065": 0.2,
     "24066": 0.2,
     "24068": 0.2,
     "1988": 0.2
-  },
-  "id": 24064,
-  "location": "the town of Kharam-Dzu",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  }
 }

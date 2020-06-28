@@ -1,41 +1,33 @@
 {
-  "wayto": {
-    "1189": "out",
-    "1191": {
-      "stringproc": "dfdbfbeb0e1a76854786dda066137d95"
-    }
-  },
+  "id": 1190,
+  "title": [
+    "[Locksmehr River, North Dock]"
+  ],
+  "description": [
+    "The wooden dock is heavily weathered but sturdy.  Several thick pilings descend into the river bottom, and the dock's planks are securely nailed to heavy wooden crossbeams secured to the pilings.  On the upstream side near the shore, two of the pilings jut higher into the air, providing posts to which the ferry guide rope attaches.  The dock stands considerably higher than the level of the river, although watermarks on the pilings show that the river is fickle in its choice of depth."
+  ],
   "paths": [
     "Obvious paths: out"
   ],
+  "location": "the Locksmehr Trail",
+  "wayto": {
+    "1189": "out",
+    "1191": {
+      "file": "string_procs/wayto/1190_1191.rb"
+    }
+  },
+  "timeto": {
+    "1189": 0.2,
+    "1191": 300
+  },
+  "image": "en-trail-1264234799.png",
   "image_coords": [
     240,
     547,
     250,
     557
   ],
-  "terrain": "hard, flat",
-  "description": [
-    "The wooden dock is heavily weathered but sturdy.  Several thick pilings descend into the river bottom, and the dock's planks are securely nailed to heavy wooden crossbeams secured to the pilings.  On the upstream side near the shore, two of the pilings jut higher into the air, providing posts to which the ferry guide rope attaches.  The dock stands considerably higher than the level of the river, although watermarks on the pilings show that the river is fickle in its choice of depth."
-  ],
-  "image": "en-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Locksmehr River, North Dock]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1189": 0.2,
-    "1191": 300
-  },
-  "id": 1190,
-  "location": "the Locksmehr Trail",
   "tags": [
-    "silver-cost:1191:10",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "silver-cost:1191:10"
   ]
 }

@@ -1,41 +1,32 @@
 {
-  "wayto": {
-    "18124": "south",
-    "18126": {
-      "stringproc": "cfb1ea739066bcdbf9af5bede5465c9a"
-    },
-    "18115": "go trail"
-  },
-  "paths": [
-    "Obvious exits: south"
-  ],
-  "image_coords": [
-    483,
-    339,
-    524,
-    380
-  ],
-  "terrain": null,
-  "description": [
-    "An acrid, sulfurous scent taints the air as thin tendrils of yellow-brown smoke rise from the glowing coals of an ornate iron brazier.  Dense mist merges with the smoke to obscure most of the room's dimensions and details, yet occasional swirls in the haze at floor level allow brief glimpses of a dark outline."
-  ],
-  "image": "wl-sorcerer_guild-1405076623.png",
-  "climate": null,
+  "id": 18123,
   "title": [
     "[Sorcerer Guild, Dark Chamber]"
   ],
-  "check_location": null,
+  "description": [
+    "An acrid, sulfurous scent taints the air as thin tendrils of yellow-brown smoke rise from the glowing coals of an ornate iron brazier.  Dense mist merges with the smoke to obscure most of the room's dimensions and details, yet occasional swirls in the haze at floor level allow brief glimpses of a dark outline."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the Coastal Cliffs",
+  "wayto": {
+    "18124": "south",
+    "18126": {
+      "file": "string_procs/wayto/18123_18126.rb"
+    },
+    "18115": "go trail"
+  },
   "timeto": {
     "18124": 0.2,
     "18126": 0.4,
     "18115": 0.2
   },
-  "id": 18123,
-  "location": "the Coastal Cliffs",
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "wl-sorcerer_guild-1405076623.png",
+  "image_coords": [
+    483,
+    339,
+    524,
+    380
   ]
 }

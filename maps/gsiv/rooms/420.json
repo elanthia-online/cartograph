@@ -1,37 +1,34 @@
 {
+  "id": 420,
+  "title": [
+    "[Wehnimer's, Exterior]"
+  ],
+  "description": [
+    "The muted sounds of loud bartering from within Wehnimer's Landing, and the lonely calls of a pair of mated fenvaoks high up in the air vie for your attention as you march along the outer western edge of the town."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Lower Dragonsclaw",
   "wayto": {
     "435": "south",
     "419": "north",
     "291": "go gate"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "435": 0.2,
+    "419": 0.2,
+    "291": {
+      "file": "string_procs/timeto/420_291.rb"
+    }
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     630,
     328,
     640,
     338
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The muted sounds of loud bartering from within Wehnimer's Landing, and the lonely calls of a pair of mated fenvaoks high up in the air vie for your attention as you march along the outer western edge of the town."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Wehnimer's, Exterior]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "435": 0.2,
-    "419": 0.2,
-    "291": {
-      "stringproc": "ad0eabcdba399ce1a14a17a7c4703cf8"
-    }
-  },
-  "id": 420,
-  "location": "the Lower Dragonsclaw",
   "tags": [
     "some sovyn clove",
     "some acantha leaf",
@@ -67,10 +64,6 @@
     "motherwort",
     "murkweed",
     "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bur-clover root"
   ]
 }

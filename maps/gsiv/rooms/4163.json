@@ -1,38 +1,28 @@
 {
+  "id": 4163,
+  "title": [
+    "[Hall of the Dead, Vault Room]"
+  ],
+  "description": [
+    "The rows of crevices containing the bodies seem endless and are all filled with the remains of adventurers much like yourself.  Some are more richly carved than others, indicating wealth on the families' behalf."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "4162": "east",
     "4164": "west"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "4162": 0.2,
+    "4164": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     704,
     787,
     714,
     797
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The rows of crevices containing the bodies seem endless and are all filled with the remains of adventurers much like yourself.  Some are more richly carved than others, indicating wealth on the families' behalf."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Hall of the Dead, Vault Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4162": 0.2,
-    "4164": 0.2
-  },
-  "id": 4163,
-  "location": "the Graveyard",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

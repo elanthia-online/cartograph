@@ -1,44 +1,33 @@
 {
+  "id": 6398,
+  "title": [
+    "[Blackened Cave, Tunnel]"
+  ],
+  "description": [
+    "This narrow tunnel is quite dark.  You can feel the smooth walls as you endeavor to move around.  The tunnel walls seem to have a glazed texture -- as if they've been subjected to some form of extreme heat."
+  ],
+  "paths": [
+    "Obvious exits: south, northwest"
+  ],
+  "location": "the Lysierian Hills",
   "wayto": {
     "6399": "northwest",
     "6397": "south"
   },
-  "paths": [
-    "Obvious exits: south, northwest"
-  ],
+  "timeto": {
+    "6399": 0.2,
+    "6397": 0.2
+  },
+  "image": "wl-lysierian-1264234799.png",
   "image_coords": [
     440,
     490,
     450,
     500
   ],
-  "terrain": "indoors",
-  "description": [
-    "This narrow tunnel is quite dark.  You can feel the smooth walls as you endeavor to move around.  The tunnel walls seem to have a glazed texture -- as if they've been subjected to some form of extreme heat."
-  ],
-  "image": "wl-lysierian-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Blackened Cave, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6399": 0.2,
-    "6397": 0.2
-  },
-  "id": 6398,
-  "location": "the Lysierian Hills",
   "tags": [
     "some cave moss",
     "fire rat",
-    "fire cat",
-    "daggerstalk mushroom",
-    "black trafel mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "fire cat"
   ]
 }

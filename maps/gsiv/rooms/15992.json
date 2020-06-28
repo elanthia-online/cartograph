@@ -1,39 +1,29 @@
 {
+  "id": 15992,
+  "title": [
+    "[Castle Varunar, Keep]"
+  ],
+  "description": [
+    "You are in a small circular stone landing.  Dripping copper colored stains adorn the walls looking as if someone had thrown buckets of blood on them.  A cut-stone spiral staircase wraps around the circular walls leading further up into what must be the castle keep.  A rusty iron ladder leads down a passage cut into the floor.",
+    "You are on a small circular stone landing.  Dripping copper colored stains adorn the walls looking as if someone had thrown buckets of blood on them.  A cut-stone spiral staircase wraps around the circular walls leading further up into what must be the castle keep.  A rusty iron ladder leads down a passage cut into the floor."
+  ],
+  "paths": [
+    "Obvious exits: up"
+  ],
+  "location": "Castle Varunar",
   "wayto": {
     "15991": "climb ladder",
     "16808": "up"
   },
-  "paths": [
-    "Obvious exits: up"
-  ],
+  "timeto": {
+    "15991": 0.2,
+    "16808": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     512,
     146,
     522,
     156
-  ],
-  "terrain": "indoors",
-  "description": [
-    "You are in a small circular stone landing.  Dripping copper colored stains adorn the walls looking as if someone had thrown buckets of blood on them.  A cut-stone spiral staircase wraps around the circular walls leading further up into what must be the castle keep.  A rusty iron ladder leads down a passage cut into the floor.",
-    "You are on a small circular stone landing.  Dripping copper colored stains adorn the walls looking as if someone had thrown buckets of blood on them.  A cut-stone spiral staircase wraps around the circular walls leading further up into what must be the castle keep.  A rusty iron ladder leads down a passage cut into the floor."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Castle Varunar, Keep]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "15991": 0.2,
-    "16808": 0.2
-  },
-  "id": 15992,
-  "location": "Castle Varunar",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

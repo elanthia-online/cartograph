@@ -1,47 +1,37 @@
 {
-  "wayto": {
-    "7459": {
-      "stringproc": "b6e50bf35d33fb87fd0cfd22f187f1fb"
-    },
-    "7440": "down"
-  },
+  "id": 7458,
+  "title": [
+    "[Jagged Plains, High Ledge]"
+  ],
+  "description": [
+    "Perched here, high above the quietude of the rock and boulder strewn expanse of the jagged plains below, the stillness holds an almost palpable tension.  The strained feeling of expectancy has you poised and alert, and you cannot escape the feeling that someone, or something, is watching you."
+  ],
   "paths": [
     "Obvious exits: down"
   ],
+  "location": "the Broken Lands",
+  "wayto": {
+    "7459": {
+      "file": "string_procs/wayto/7458_7459.rb"
+    },
+    "7440": "down"
+  },
+  "timeto": {
+    "7459": 0.2,
+    "7440": 0.2
+  },
+  "image": "wl-broken-1264234799.png",
   "image_coords": [
     597,
     801,
     607,
     811
   ],
-  "terrain": "indoors",
-  "description": [
-    "Perched here, high above the quietude of the rock and boulder strewn expanse of the jagged plains below, the stillness holds an almost palpable tension.  The strained feeling of expectancy has you poised and alert, and you cannot escape the feeling that someone, or something, is watching you."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Jagged Plains, High Ledge]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7459": 0.2,
-    "7440": 0.2
-  },
-  "id": 7458,
-  "location": "the Broken Lands",
   "tags": [
     "some blackened moss",
     "some cave moss",
     "sponge mushroom",
     "some glowing green lichen",
-    "bone mushroom",
-    "blackened moss",
-    "green lichen",
-    "cave moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bone mushroom"
   ]
 }

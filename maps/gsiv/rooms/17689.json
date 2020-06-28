@@ -1,33 +1,30 @@
 {
+  "id": 17689,
+  "title": [
+    "[Smuggler's Tunnels, Under River]"
+  ],
+  "description": [
+    "A constant roar originating from the ceiling on the northwestward end of the tunnel renders all other sounds mute.  The tunnel floor, a mixture of stone, mud, and pools of water, offers a slippery purchase for those wishing to proceed eastward.  On one wall hangs a rusted iron lamp with a single thick candle dutifully burning away at the surrounding darkness, reflected in the still pools of water."
+  ],
+  "paths": [
+    "Obvious exits: east, northwest"
+  ],
+  "location": "River's Rest",
   "wayto": {
     "17686": "northwest",
     "17690": "east"
   },
-  "paths": [
-    "Obvious exits: east, northwest"
-  ],
+  "timeto": {
+    "17686": 0.2,
+    "17690": 0.2
+  },
+  "image": "rr-warrens-1266380776.png",
   "image_coords": [
     853,
     1364,
     891,
     1402
   ],
-  "terrain": "indoors",
-  "description": [
-    "A constant roar originating from the ceiling on the northwestward end of the tunnel renders all other sounds mute.  The tunnel floor, a mixture of stone, mud, and pools of water, offers a slippery purchase for those wishing to proceed eastward.  On one wall hangs a rusted iron lamp with a single thick candle dutifully burning away at the surrounding darkness, reflected in the still pools of water."
-  ],
-  "image": "rr-warrens-1266380776.png",
-  "climate": "indoors",
-  "title": [
-    "[Smuggler's Tunnels, Under River]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "17686": 0.2,
-    "17690": 0.2
-  },
-  "id": 17689,
-  "location": "River's Rest",
   "tags": [
     "withered black mushroom",
     "genkew mushroom",
@@ -39,11 +36,6 @@
     "blue trafel mushroom",
     "cave moss",
     "murdroot",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bolmara lichen"
   ]
 }

@@ -1,42 +1,32 @@
 {
+  "id": 12682,
+  "title": [
+    "[Ruined Temple, Second Floor]"
+  ],
+  "description": [
+    "A set of descending stairs leads to the northwest, toward the center of the ruins.  Two marble pillars, seemingly in good condition, support the ceiling and form an archway in the southern wall.  The strong smell of the sea is carried in by a breeze that swirls, almost violently, through a window along the eastern wall."
+  ],
+  "paths": [
+    "Obvious exits: north, south, west"
+  ],
+  "location": "the Ruined Temple",
   "wayto": {
     "12691": "go stairs",
     "12681": "west",
     "12683": "north",
     "12686": "south"
   },
-  "paths": [
-    "Obvious exits: north, south, west"
-  ],
-  "image_coords": [
-    945,
-    708,
-    981,
-    744
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A set of descending stairs leads to the northwest, toward the center of the ruins.  Two marble pillars, seemingly in good condition, support the ceiling and form an archway in the southern wall.  The strong smell of the sea is carried in by a breeze that swirls, almost violently, through a window along the eastern wall."
-  ],
-  "image": "ti-nelemar-1262373036.png",
-  "climate": "indoors",
-  "title": [
-    "[Ruined Temple, Second Floor]"
-  ],
-  "check_location": null,
   "timeto": {
     "12691": 0.2,
     "12681": 0.2,
     "12683": 0.2,
     "12686": 0.2
   },
-  "id": 12682,
-  "location": "the Ruined Temple",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "ti-nelemar-1262373036.png",
+  "image_coords": [
+    945,
+    708,
+    981,
+    744
   ]
 }

@@ -1,44 +1,34 @@
 {
+  "id": 7349,
+  "title": [
+    "[Shadow Plain]"
+  ],
+  "description": [
+    "The windswept plains stretch as far as you can see to the south.  You can see dust swirls blowing across the flats.  Far in the distance to the southeast, you can make out some dark hills."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7348": "northwest",
     "7350": "southeast"
   },
-  "paths": [
-    "Obvious paths: southeast, northwest"
-  ],
+  "timeto": {
+    "7348": 0.2,
+    "7350": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1173,
     890,
     1181,
     898
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "The windswept plains stretch as far as you can see to the south.  You can see dust swirls blowing across the flats.  Far in the distance to the southeast, you can make out some dark hills."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Shadow Plain]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7348": 0.2,
-    "7350": 0.2
-  },
-  "id": 7349,
-  "location": "the Shadow Valley",
   "tags": [
     "black-tipped wyrm thorn",
     "night mare",
     "some longgrass",
-    "some petrified shadowstalk",
-    "longgrass",
-    "wyrm thorn",
-    "petrified shadowstalk",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some petrified shadowstalk"
   ]
 }

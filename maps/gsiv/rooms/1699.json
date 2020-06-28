@@ -1,45 +1,31 @@
 {
+  "id": 1699,
+  "title": [
+    "[Tunnel]"
+  ],
+  "description": [
+    "The mud and muck of the tunnel oozes around your feet, sucking at them, gripping them, making slurping noises as you walk.  Cold water drips from the ceiling.  The tunnel has a primordial stink of slime and mold and decay.  An eerie moaning sound seems to come from the south."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Teorainn Dale",
   "wayto": {
     "1698": "north",
     "1700": "south"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "1698": 0.2,
+    "1700": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     1160,
     1079,
     1170,
     1089
   ],
-  "terrain": "indoors",
-  "description": [
-    "The mud and muck of the tunnel oozes around your feet, sucking at them, gripping them, making slurping noises as you walk.  Cold water drips from the ceiling.  The tunnel has a primordial stink of slime and mold and decay.  An eerie moaning sound seems to come from the south."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1698": 0.2,
-    "1700": 0.2
-  },
-  "id": 1699,
-  "location": "Teorainn Dale",
   "tags": [
-    "some talneo root",
-    "soft white mushroom",
-    "withered black mushroom",
-    "white hook mushroom",
-    "blue trafel mushroom",
-    "murdroot",
-    "ironfern root",
-    "talneo root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some talneo root"
   ]
 }

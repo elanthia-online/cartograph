@@ -1,36 +1,25 @@
 {
-  "wayto": {
-    "10829": "northwest",
-    "10830": "northeast",
-    "642": "out"
-  },
-  "paths": [
-    "Obvious exits: northeast, northwest, out"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Enclosed by patterned white walls, the shop features a life-sized granite maiden statue in the center of its cherrywood floor.  A gold silk crown tapestry hangs under the mahogany ceiling.  Right near the front is a long mahogany rack and a wide faenor-trimmed table."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 10831,
   "title": [
     "[Aniwaya's Outfitting]",
     "[Aniwaya's General Store]",
     "[Aniwaya's Magic Shoppe]"
   ],
-  "check_location": null,
+  "description": [
+    "Enclosed by patterned white walls, the shop features a life-sized granite maiden statue in the center of its cherrywood floor.  A gold silk crown tapestry hangs under the mahogany ceiling.  Right near the front is a long mahogany rack and a wide faenor-trimmed table."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest, out"
+  ],
+  "location": "Ta'Illistim",
+  "wayto": {
+    "10829": "northwest",
+    "10830": "northeast",
+    "642": "out"
+  },
   "timeto": {
     "10829": 0.2,
     "10830": 0.2,
     "642": 0.2
-  },
-  "id": 10831,
-  "location": "Ta'Illistim",
-  "tags": [
-
-  ],
-  "links": [
-
-  ]
+  }
 }

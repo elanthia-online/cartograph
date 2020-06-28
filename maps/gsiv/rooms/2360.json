@@ -1,40 +1,30 @@
 {
+  "id": 2360,
+  "title": [
+    "[Magical Burrow, Banshee Lane]"
+  ],
+  "description": [
+    "A biting wind comes from the east.  Between the last houses on the street, you can see the glacial North Gate of Icemule Trace.  The road curves to the southwest into the eerie Magical Burrow."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "2359": "east",
     "2371": "go alley",
     "2361": "southwest"
   },
-  "paths": [
-    "Obvious paths: east, southwest"
-  ],
-  "image_coords": [
-    493,
-    342,
-    529,
-    378
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "A biting wind comes from the east.  Between the last houses on the street, you can see the glacial North Gate of Icemule Trace.  The road curves to the southwest into the eerie Magical Burrow."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Magical Burrow, Banshee Lane]"
-  ],
-  "check_location": null,
   "timeto": {
     "2359": 0.2,
     "2371": 0.2,
     "2361": 0.2
   },
-  "id": 2360,
-  "location": "Icemule Trace",
-  "tags": [
-    "calmintha flower",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "imt-icemule-1474811966.png",
+  "image_coords": [
+    493,
+    342,
+    529,
+    378
   ]
 }

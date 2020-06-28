@@ -1,60 +1,49 @@
 {
-  "wayto": {
-    "5313": {
-      "stringproc": "a8de8b2ec89fef1213496ae082a4f652"
-    },
-    "13196": "climb stairwell",
-    "9033": {
-      "stringproc": "33f51ab7e0637ceea1f3b64d9017d625"
-    },
-    "5403": {
-      "stringproc": "d3314aef972bed4f3f2ec0830fc320cd"
-    },
-    "9347": {
-      "stringproc": "1b4c58d7b8cf1f4b9ab55faa8ecc4904"
-    },
-    "14072": {
-      "stringproc": "378af4f21967a836aeb3f7d6ba3fc289"
-    }
-  },
-  "paths": [
-    "Obvious paths: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Raised high above the green hillock that Fasthr's Lance occupies, the crenellated tower rooftop facilitates a panoramic view of Solhaven and Cairnfang Bay.  Incised shield patterns mark the top of each crenellation.  Striking yet higher, a dark ora lance hoisting a black ensign stitched with a snow-white shield proclaims the tower's allegiance."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 14155,
   "title": [
     "[Fasthr's Lance, Crown]"
   ],
-  "check_location": null,
+  "description": [
+    "Raised high above the green hillock that Fasthr's Lance occupies, the crenellated tower rooftop facilitates a panoramic view of Solhaven and Cairnfang Bay.  Incised shield patterns mark the top of each crenellation.  Striking yet higher, a dark ora lance hoisting a black ensign stitched with a snow-white shield proclaims the tower's allegiance."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "the town of Solhaven",
+  "wayto": {
+    "5313": {
+      "file": "string_procs/wayto/14155_5313.rb"
+    },
+    "13196": "climb stairwell",
+    "9033": {
+      "file": "string_procs/wayto/14155_9033.rb"
+    },
+    "5403": {
+      "file": "string_procs/wayto/14155_5403.rb"
+    },
+    "9347": {
+      "file": "string_procs/wayto/14155_9347.rb"
+    },
+    "14072": {
+      "file": "string_procs/wayto/14155_14072.rb"
+    }
+  },
   "timeto": {
     "5313": {
-      "stringproc": "2bbb097d938447a7bd64060474491999"
+      "file": "string_procs/timeto/14155_5313.rb"
     },
     "13196": 0.2,
     "9033": {
-      "stringproc": "2bbb097d938447a7bd64060474491999"
+      "file": "string_procs/timeto/14155_9033.rb"
     },
     "5403": {
-      "stringproc": "2bbb097d938447a7bd64060474491999"
+      "file": "string_procs/timeto/14155_5403.rb"
     },
     "9347": {
-      "stringproc": "2bbb097d938447a7bd64060474491999"
+      "file": "string_procs/timeto/14155_9347.rb"
     },
     "14072": {
-      "stringproc": "2bbb097d938447a7bd64060474491999"
+      "file": "string_procs/timeto/14155_14072.rb"
     }
-  },
-  "id": 14155,
-  "location": "the town of Solhaven",
-  "tags": [
-
-  ],
-  "links": [
-
-  ]
+  }
 }

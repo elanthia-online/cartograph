@@ -1,44 +1,34 @@
 {
+  "id": 20111,
+  "title": [
+    "[Feywrot Mire, Black Waters]"
+  ],
+  "description": [
+    "Although an attempt at creating a solid walkway across the shore is apparent in the wooden slats haphazardly arranged in one of the muddier areas, the project was obviously abandoned where the limestone base appears to take over the sludge.  Devoid of a front wall and door, a small shack appears ready to fall at any moment, saved only by the massive bald cypress that the rear wall leans against."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Feywrot Mire",
   "wayto": {
     "20117": "south",
     "20108": "north",
     "22573": {
-      "stringproc": "776850eb91fe8bf6da72e2b77c2916d6"
+      "file": "string_procs/wayto/20111_22573.rb"
     },
     "20112": "go small shack"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
-  "image_coords": [
-    224,
-    622,
-    238,
-    636
-  ],
-  "terrain": null,
-  "description": [
-    "Although an attempt at creating a solid walkway across the shore is apparent in the wooden slats haphazardly arranged in one of the muddier areas, the project was obviously abandoned where the limestone base appears to take over the sludge.  Devoid of a front wall and door, a small shack appears ready to fall at any moment, saved only by the massive bald cypress that the rear wall leans against."
-  ],
-  "image": "fest-ebon_gate-1445214445.png",
-  "climate": null,
-  "title": [
-    "[Feywrot Mire, Black Waters]"
-  ],
-  "check_location": null,
   "timeto": {
     "20117": 0.2,
     "20108": 0.2,
     "22573": 0.2,
     "20112": 0.2
   },
-  "id": 20111,
-  "location": "the Feywrot Mire",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
+  "image": "fest-ebon_gate-1445214445.png",
+  "image_coords": [
+    224,
+    622,
+    238,
+    636
   ]
 }

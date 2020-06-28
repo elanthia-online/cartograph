@@ -1,34 +1,31 @@
 {
+  "id": 61,
+  "title": [
+    "[Whistler's Pass, Hills]"
+  ],
+  "description": [
+    "In the distance the hills, thick with lush green forests, are blanketed in a gentle nighttime mist.  Nearby a lone hawk cries out, echoing through the pass.",
+    "In the distance the hills, thick with lush green forests, are blanketed in a gentle mist.  Nearby a lone hawk cries out, echoing through the pass."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "60": "north",
     "62": "south"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "60": 0.2,
+    "62": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     1054,
     460,
     1064,
     470
   ],
-  "terrain": "grassland",
-  "description": [
-    "In the distance the hills, thick with lush green forests, are blanketed in a gentle nighttime mist.  Nearby a lone hawk cries out, echoing through the pass.",
-    "In the distance the hills, thick with lush green forests, are blanketed in a gentle mist.  Nearby a lone hawk cries out, echoing through the pass."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Whistler's Pass, Hills]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "60": 0.2,
-    "62": 0.2
-  },
-  "id": 61,
-  "location": "Whistler's Pass",
   "tags": [
     "crimson dragonstalk",
     "luckbloom blossom",
@@ -108,10 +105,6 @@
     "wavepetal blossom",
     "ironfern root",
     "nightbloom blossom",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

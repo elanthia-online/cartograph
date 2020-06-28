@@ -1,33 +1,30 @@
 {
+  "id": 3236,
+  "title": [
+    "[Icemule Trace, Secluded Path]"
+  ],
+  "description": [
+    "The trail is less visible here but the drifts of snow are set along either side protecting it from being lost completely.  There is little to see across the barren landscape save for a few small evergreen trees with icicles dangling from their limbs."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "the Ice Plains",
   "wayto": {
     "3235": "east",
     "3237": "southwest"
   },
-  "paths": [
-    "Obvious paths: east, southwest"
-  ],
+  "timeto": {
+    "3235": 0.2,
+    "3237": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     202,
     630,
     212,
     640
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The trail is less visible here but the drifts of snow are set along either side protecting it from being lost completely.  There is little to see across the barren landscape save for a few small evergreen trees with icicles dangling from their limbs."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Icemule Trace, Secluded Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3235": 0.2,
-    "3237": 0.2
-  },
-  "id": 3236,
-  "location": "the Ice Plains",
   "tags": [
     "some angelica root",
     "some tundra grass",
@@ -41,18 +38,6 @@
     "some valerian root",
     "murdroot",
     "some frostweed",
-    "some wingstem root",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "arctic moss",
-    "tundra grass",
-    "frostweed",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

@@ -1,42 +1,27 @@
 {
+  "id": 11064,
+  "title": [
+    "[Sea Tunnels]"
+  ],
+  "description": [
+    "A faint rumble can be heard here, perhaps the echoes of the river above, or some fearsome beast lying in wait, or a hungry halfling.  A hint of salt is in the air, which seems odd for a freshwater river tunnel.  A stairway carved of sandstone appears to lead further below the river here."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
   "wayto": {
     "11063": "north",
     "11065": "go stairway"
   },
-  "paths": [
-    "Obvious exits: north"
-  ],
+  "timeto": {
+    "11063": 0.2,
+    "11065": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     848,
     215,
     858,
     225
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A faint rumble can be heard here, perhaps the echoes of the river above, or some fearsome beast lying in wait, or a hungry halfling.  A hint of salt is in the air, which seems odd for a freshwater river tunnel.  A stairway carved of sandstone appears to lead further below the river here."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11063": 0.2,
-    "11065": 0.2
-  },
-  "id": 11064,
-  "location": "the Citadel",
-  "tags": [
-    "withered black mushroom",
-    "cave moss",
-    "murdroot",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

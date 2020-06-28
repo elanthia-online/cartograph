@@ -1,38 +1,28 @@
 {
+  "id": 2295,
+  "title": [
+    "[Mausoleum, Catacombs]"
+  ],
+  "description": [
+    "The stench is overwhelming, a cloud of putrid corruption.  The walls glisten with a luminescent, jelly-like substance.  Beneath it, you can just make out the faint lines of claw marks, scratched right into the stone."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "the Fhorian Village",
   "wayto": {
     "2294": "north",
     "2296": "east"
   },
-  "paths": [
-    "Obvious exits: north, east"
-  ],
+  "timeto": {
+    "2294": 0.2,
+    "2296": 0.2
+  },
+  "image": "ti-wilds-1264234799.png",
   "image_coords": [
     64,
     1080,
     74,
     1090
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The stench is overwhelming, a cloud of putrid corruption.  The walls glisten with a luminescent, jelly-like substance.  Beneath it, you can just make out the faint lines of claw marks, scratched right into the stone."
-  ],
-  "image": "ti-wilds-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mausoleum, Catacombs]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2294": 0.2,
-    "2296": 0.2
-  },
-  "id": 2295,
-  "location": "the Fhorian Village",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

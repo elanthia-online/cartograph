@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "10774": "north"
-  },
+  "id": 10775,
+  "title": [
+    "[Calelith Villa, Storage Room]"
+  ],
+  "description": [
+    "Large crates fill this room, most of them smashed and broken.  Pieces of pottery, glass, splintered wood and odd metals are strewn about.  Empty shelves line the walls, each with a small plaque on it."
+  ],
   "paths": [
     "Obvious exits: north"
   ],
+  "location": "Gyldemar Forest",
+  "wayto": {
+    "10774": "north"
+  },
+  "timeto": {
+    "10774": 0.2
+  },
+  "image": "en-gyldemar-1264234799.png",
   "image_coords": [
     224,
     482,
     234,
     492
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Large crates fill this room, most of them smashed and broken.  Pieces of pottery, glass, splintered wood and odd metals are strewn about.  Empty shelves line the walls, each with a small plaque on it."
-  ],
-  "image": "en-gyldemar-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Calelith Villa, Storage Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10774": 0.2
-  },
-  "id": 10775,
-  "location": "Gyldemar Forest",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

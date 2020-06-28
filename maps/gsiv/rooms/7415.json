@@ -1,41 +1,28 @@
 {
+  "id": 7415,
+  "title": [
+    "[Mine Tunnels]"
+  ],
+  "description": [
+    "A violent upheaval has left this part of the tunnel partially collapsed.  You are forced to pick your way carefully through the rubble to continue."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7414": "north",
     "7416": "south"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "7414": 0.2,
+    "7416": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1124,
     110,
     1134,
     120
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A violent upheaval has left this part of the tunnel partially collapsed.  You are forced to pick your way carefully through the rubble to continue."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mine Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7414": 0.2,
-    "7416": 0.2
-  },
-  "id": 7415,
-  "location": "the Shadow Valley",
-  "tags": [
-    "cave moss",
-    "blackgrove root",
-    "shadowlace moss",
-    "blue moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,39 +1,32 @@
 {
-  "wayto": {
-    "3480": {
-      "stringproc": "2b4af1354e22d2a4bbc0aa605e096470"
-    }
-  },
+  "id": 3482,
+  "title": [
+    "[Deep Freeze, Cave of Ice]"
+  ],
+  "description": [
+    "The light is so dim that you fail to see the huge mound of ice until you are upon it!  Peering closely, you discover that the mass is an ice-glazed titan who is sitting -- staring eyes opened wide and quite dead!"
+  ],
   "paths": [
     "Obvious exits: north"
   ],
+  "location": "the Icemule Trail",
+  "wayto": {
+    "3480": {
+      "file": "string_procs/wayto/3482_3480.rb"
+    }
+  },
+  "timeto": {
+    "3480": 0.2
+  },
+  "image": "imt-trail-1264234799.png",
   "image_coords": [
     889,
     705,
     899,
     715
   ],
-  "terrain": "indoors",
-  "description": [
-    "The light is so dim that you fail to see the huge mound of ice until you are upon it!  Peering closely, you discover that the mass is an ice-glazed titan who is sitting -- staring eyes opened wide and quite dead!"
-  ],
-  "image": "imt-trail-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Deep Freeze, Cave of Ice]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3480": 0.2
-  },
-  "id": 3482,
-  "location": "the Icemule Trail",
   "tags": [
     "arctic moss",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

@@ -1,43 +1,33 @@
 {
-  "wayto": {
-    "183": "northeast",
-    "181": "southwest",
-    "24641": "go doorway"
-  },
-  "paths": [
-    "Obvious paths: northeast, southwest"
+  "id": 182,
+  "title": [
+    "[Ta'Illistim, Stearriza Var]"
   ],
-  "image_coords": [
-    1237,
-    848,
-    1261,
-    870
-  ],
-  "terrain": "hard, flat",
   "description": [
     "The neatly kept cottages of the var march cheerily onward, many displaying painted wooden window boxes brimming with colorful blooms.  Bees, humming with industrious glee, hover about trees and bushes alongside the var.  A sign swings above the doorway of one cottage.",
     "The neatly kept cottages of the var march cheerily onward, many displaying wooden window boxes brimming with shadowy blooms.  Moonlight glimmers across the var.",
     "The neatly kept houses of the var present their marbled facades, many displaying carved pediments and entablatures lit by unflickering blue lights.  A sign swings above the arched doorway of one building, setting it apart from the residential structures around it.",
     "The neatly kept houses of the var present their marbled facades, many displaying carved pediments and entablatures.  A sign swings above the arched doorway of one building, setting it apart from the residential structures around it."
   ],
-  "image": "en-ta_illistim-new.jpg",
-  "climate": "temperate",
-  "title": [
-    "[Ta'Illistim, Stearriza Var]"
+  "paths": [
+    "Obvious paths: northeast, southwest"
   ],
-  "check_location": null,
+  "location": "Ta'Illistim",
+  "wayto": {
+    "183": "northeast",
+    "181": "southwest",
+    "24641": "go doorway"
+  },
   "timeto": {
     "183": 0.2,
     "181": 0.2,
     "24641": 0.2
   },
-  "id": 182,
-  "location": "Ta'Illistim",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-ta_illistim-new.jpg",
+  "image_coords": [
+    1237,
+    848,
+    1261,
+    870
   ]
 }

@@ -1,49 +1,41 @@
 {
-  "wayto": {
-    "6202": {
-      "stringproc": "adc19f03a2988533b37757bcc62fc764"
-    },
-    "6203": {
-      "stringproc": "de2acd0aee7771a961119de82c70419d"
-    },
-    "6204": {
-      "stringproc": "8b5d80960116ff9bb66cba04146e4e36"
-    },
-    "6205": {
-      "stringproc": "9c75aa4a6dda4d781e3be0054317d7cb"
-    },
-    "6207": {
-      "stringproc": "f42f445422c1a2ba9065075ca2b421b2"
-    },
-    "6208": {
-      "stringproc": "5e13fac2a254d7b37b340c2c72c7e1a6"
-    },
-    "6210": {
-      "stringproc": "cff71c784939250a059bc1c73a004cb8"
-    },
-    "6209": {
-      "stringproc": "68952574054dd0dc1802f54634a3691c"
-    }
-  },
-  "paths": [
-    "Obvious exits: north, northeast, east, southeast, south, southwest, west, northwest"
-  ],
-  "image_coords": [
-    678,
-    219,
-    696,
-    237
-  ],
-  "terrain": null,
-  "description": [
-    "This portion of the tunnel is consumed by seemingly unending darkness.  The hiss of slow, strained breathing can be heard from nearby, but from who or what remains a mystery."
-  ],
-  "image": "wl-wehntoph-1310775397.png",
-  "climate": null,
+  "id": 6206,
   "title": [
     "[Labyrinth, The Unending Path]"
   ],
-  "check_location": null,
+  "description": [
+    "This portion of the tunnel is consumed by seemingly unending darkness.  The hiss of slow, strained breathing can be heard from nearby, but from who or what remains a mystery."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east, southeast, south, southwest, west, northwest"
+  ],
+  "location": "The Hidden Plateau",
+  "wayto": {
+    "6202": {
+      "file": "string_procs/wayto/6206_6202.rb"
+    },
+    "6203": {
+      "file": "string_procs/wayto/6206_6203.rb"
+    },
+    "6204": {
+      "file": "string_procs/wayto/6206_6204.rb"
+    },
+    "6205": {
+      "file": "string_procs/wayto/6206_6205.rb"
+    },
+    "6207": {
+      "file": "string_procs/wayto/6206_6207.rb"
+    },
+    "6208": {
+      "file": "string_procs/wayto/6206_6208.rb"
+    },
+    "6210": {
+      "file": "string_procs/wayto/6206_6210.rb"
+    },
+    "6209": {
+      "file": "string_procs/wayto/6206_6209.rb"
+    }
+  },
   "timeto": {
     "6202": 0.5,
     "6203": 0.5,
@@ -54,13 +46,15 @@
     "6210": 0.5,
     "6209": 0.5
   },
-  "id": 6206,
-  "location": "The Hidden Plateau",
+  "image": "wl-wehntoph-1310775397.png",
+  "image_coords": [
+    678,
+    219,
+    696,
+    237
+  ],
   "tags": [
     "withered black mushroom",
     "black hook mushroom"
-  ],
-  "links": [
-
   ]
 }

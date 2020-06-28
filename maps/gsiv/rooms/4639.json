@@ -1,35 +1,32 @@
 {
+  "id": 4639,
+  "title": [
+    "[Cysaegir, Citadel Bailey]"
+  ],
+  "description": [
+    "Twin towers stand as sentinels to a vaulted archway leading out to the town common.  The adjoining, thick stone walls extend to encircle a grassy bailey, until they butt up against the stony face of the granite mountainside.  Protected within this small fortress are a rustic wooden hostelry and the grey granite facade of the bank."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "the village of Cysaegir",
   "wayto": {
     "4686": "go bank",
     "4687": "go hostelry",
     "4638": "go archway"
   },
-  "paths": [
-    "Obvious paths: none"
-  ],
+  "timeto": {
+    "4686": 0.2,
+    "4687": 0.2,
+    "4638": 0.2
+  },
+  "image": "en-cysaegir-1264234799.png",
   "image_coords": [
     51,
     641,
     87,
     677
   ],
-  "terrain": "grassland",
-  "description": [
-    "Twin towers stand as sentinels to a vaulted archway leading out to the town common.  The adjoining, thick stone walls extend to encircle a grassy bailey, until they butt up against the stony face of the granite mountainside.  Protected within this small fortress are a rustic wooden hostelry and the grey granite facade of the bank."
-  ],
-  "image": "en-cysaegir-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Cysaegir, Citadel Bailey]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4686": 0.2,
-    "4687": 0.2,
-    "4638": 0.2
-  },
-  "id": 4639,
-  "location": "the village of Cysaegir",
   "tags": [
     "acantha leaf",
     "wolifrew lichen",
@@ -56,10 +53,6 @@
     "murdroot",
     "wavepetal blossom",
     "ironfern root",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

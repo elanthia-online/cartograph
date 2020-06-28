@@ -1,40 +1,30 @@
 {
+  "id": 9810,
+  "title": [
+    "[Maaghara Labyrinth]"
+  ],
+  "description": [
+    "The moist earth beneath you is home to small colonies of deep red mushrooms, their tiny caps resembling small, shiny marbles.  Dank, cool air filters through the area, the only relief from the cold coming from the torchlight flickering above in unadorned sconces.  As the dim light wavers back and forth, the shadows from the tiny mushrooms swell and bulge to enormous proportions on the encroaching walls."
+  ],
+  "paths": [
+    "Obvious exits: east, southeast, west"
+  ],
+  "location": "the Maaghara Tower",
   "wayto": {
     "9811": "east",
     "9813": "west",
     "9809": "southeast"
   },
-  "paths": [
-    "Obvious exits: east, southeast, west"
-  ],
-  "image_coords": [
-    1230,
-    437,
-    1240,
-    447
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The moist earth beneath you is home to small colonies of deep red mushrooms, their tiny caps resembling small, shiny marbles.  Dank, cool air filters through the area, the only relief from the cold coming from the torchlight flickering above in unadorned sconces.  As the dim light wavers back and forth, the shadows from the tiny mushrooms swell and bulge to enormous proportions on the encroaching walls."
-  ],
-  "image": "en-tower-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Maaghara Labyrinth]"
-  ],
-  "check_location": null,
   "timeto": {
     "9811": 0.2,
     "9813": 0.2,
     "9809": 0.2
   },
-  "id": 9810,
-  "location": "the Maaghara Tower",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-tower-1264234799.png",
+  "image_coords": [
+    1230,
+    437,
+    1240,
+    447
   ]
 }

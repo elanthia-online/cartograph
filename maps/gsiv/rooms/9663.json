@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "981": "go door"
-  },
+  "id": 9663,
+  "title": [
+    "[Sawmill]"
+  ],
+  "description": [
+    "A counter just inside the door prevents you from moving back into the work area.  Several teams of stout dwarves bend their backs at the ends of two-man saws, cutting noisily through huge logs to fill the air with sawdust.  Others, wielding shorter saws, hew the planks into smaller boards of varying thicknesses and lengths.  The din from the sawing drowns out all speech, and the dwarves seem totally oblivious to your presence.  Stacks of banded boards sit in one corner."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "Zhindel's Post",
+  "wayto": {
+    "981": "go door"
+  },
+  "timeto": {
+    "981": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     1192,
     1068,
     1202,
     1078
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A counter just inside the door prevents you from moving back into the work area.  Several teams of stout dwarves bend their backs at the ends of two-man saws, cutting noisily through huge logs to fill the air with sawdust.  Others, wielding shorter saws, hew the planks into smaller boards of varying thicknesses and lengths.  The din from the sawing drowns out all speech, and the dwarves seem totally oblivious to your presence.  Stacks of banded boards sit in one corner."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Sawmill]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "981": 0.2
-  },
-  "id": 9663,
-  "location": "Zhindel's Post",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

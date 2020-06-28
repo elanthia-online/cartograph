@@ -1,77 +1,36 @@
 {
+  "id": 1804,
+  "title": [
+    "[Wraithenmist, Misty Trail]"
+  ],
+  "description": [
+    "The mist rolling in from the lake thickens considerably, making it nearly impossible to see more than a few feet in any direction.  Only the sound of dripping water breaks the utter silence of the forest."
+  ],
+  "paths": [
+    "Obvious paths: south, northwest"
+  ],
+  "location": "Wraithenmist",
   "wayto": {
     "1805": "south",
     "1803": "northwest"
   },
-  "paths": [
-    "Obvious paths: south, northwest"
-  ],
+  "timeto": {
+    "1805": 0.2,
+    "1803": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     517,
     186,
     525,
     194
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "The mist rolling in from the lake thickens considerably, making it nearly impossible to see more than a few feet in any direction.  Only the sound of dripping water breaks the utter silence of the forest."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Wraithenmist, Misty Trail]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1805": 0.2,
-    "1803": 0.2
-  },
-  "id": 1804,
-  "location": "Wraithenmist",
   "tags": [
     "some bolmara lichen",
     "small wild rose",
     "wild pink geranium",
     "some tree bark",
     "bright red cranberry",
-    "stick",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "tkaro root",
-    "sticks",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "soft white mushroom",
-    "withered black mushroom",
-    "white hook mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "blueberries",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "broken twig",
-    "stalk of bluebells",
-    "sprig of wild lilac",
-    "wild chokecherry",
-    "tree bark",
-    "blue whortleberry",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "stick"
   ]
 }

@@ -1,47 +1,35 @@
 {
+  "id": 4304,
+  "title": [
+    "[Mine]"
+  ],
+  "description": [
+    "To the west is a rough opening to another tunnel which looks cavelike and lacks the shoring timbers as in the passageway where you stand."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the crystal caves",
   "wayto": {
     "4334": "go crevice",
     "4303": "south",
     "4305": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "4334": 0.2,
+    "4303": 0.2,
+    "4305": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     754,
     604,
     764,
     614
   ],
-  "terrain": "indoors",
-  "description": [
-    "To the west is a rough opening to another tunnel which looks cavelike and lacks the shoring timbers as in the passageway where you stand."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4334": 0.2,
-    "4303": 0.2,
-    "4305": 0.2
-  },
-  "id": 4304,
-  "location": "the crystal caves",
   "tags": [
     "withered black mushroom",
     "some wingstem root",
-    "some wolifrew lichen",
-    "wolifrew lichen",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wolifrew lichen"
   ]
 }

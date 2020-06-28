@@ -1,40 +1,30 @@
 {
-  "wayto": {
-    "2248": "south",
-    "2250": {
-      "stringproc": "1eee6dcf1007ba2d0f4e715b42fbdacf"
-    }
-  },
+  "id": 2249,
+  "title": [
+    "[Glaes Vein]"
+  ],
+  "description": [
+    "The corridor ends.  Abruptly, it simply melts away at the foot of a huge wall of metal so dark, the thing seems to absorb what little light exists in the gloom.  The metal is banded with rows of studs, each one incised with a strange device, and it is embraced on all sides by solid glaes, as though the mountain was forged to support it."
+  ],
   "paths": [
     "Obvious exits: south"
   ],
+  "location": "the Eye of V'Tull",
+  "wayto": {
+    "2248": "south",
+    "2250": {
+      "file": "string_procs/wayto/2249_2250.rb"
+    }
+  },
+  "timeto": {
+    "2248": 0.2,
+    "2250": 0.2
+  },
+  "image": "ti-vtull-1264234799.png",
   "image_coords": [
     250,
     750,
     260,
     760
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The corridor ends.  Abruptly, it simply melts away at the foot of a huge wall of metal so dark, the thing seems to absorb what little light exists in the gloom.  The metal is banded with rows of studs, each one incised with a strange device, and it is embraced on all sides by solid glaes, as though the mountain was forged to support it."
-  ],
-  "image": "ti-vtull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Glaes Vein]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2248": 0.2,
-    "2250": 0.2
-  },
-  "id": 2249,
-  "location": "the Eye of V'Tull",
-  "tags": [
-    "pepperthorn root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

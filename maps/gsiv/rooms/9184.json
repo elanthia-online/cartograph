@@ -1,38 +1,28 @@
 {
+  "id": 9184,
+  "title": [
+    "[Thurfel's Keep]"
+  ],
+  "description": [
+    "Shimmering silver glyphs painted on the floor and wall form three very distinct patterns.  Each of the sigils is extremely detailed, and, considering their placement, they seem oddly unworn.  Directly above these etchings, the ceiling looks quite discolored."
+  ],
+  "paths": [
+    "Obvious exits: east, southwest"
+  ],
+  "location": "Thurfel's Island",
   "wayto": {
     "9185": "southwest",
     "9182": "east"
   },
-  "paths": [
-    "Obvious exits: east, southwest"
-  ],
+  "timeto": {
+    "9185": 0.2,
+    "9182": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     739,
     821,
     749,
     831
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Shimmering silver glyphs painted on the floor and wall form three very distinct patterns.  Each of the sigils is extremely detailed, and, considering their placement, they seem oddly unworn.  Directly above these etchings, the ceiling looks quite discolored."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thurfel's Keep]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9185": 0.2,
-    "9182": 0.2
-  },
-  "id": 9184,
-  "location": "Thurfel's Island",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

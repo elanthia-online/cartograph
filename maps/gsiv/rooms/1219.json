@@ -1,36 +1,33 @@
 {
-  "wayto": {
-    "1218": "southwest",
-    "1220": {
-      "stringproc": "d679ffc29d05f6bb159018482dbd5672"
-    }
-  },
+  "id": 1219,
+  "title": [
+    "[Vipershroud, Edge of Settlement]"
+  ],
+  "description": [
+    "Cicadas and crickets fill the night air with insectile song.  Moonlight illuminates a small path meandering southwest through the blackberry bushes toward the Elven Settlement, civilization and safety.  To the northwest, the living wall of the Vipershroud forest presents an impenetrable blackness.",
+    "Sunlight pours into this clearing, nourishing the multicolored wildflowers intermixed with the thorny blackberry bushes.  An overgrown path meanders southwest toward the Elven Settlement, civilization and safety.  To the northwest, the living wall of the Vipershroud forest, heavily overgrown and choked with brambles, encroaches upon the bright meadow."
+  ],
   "paths": [
     "Obvious paths: southwest"
   ],
+  "location": "the Vipershroud",
+  "wayto": {
+    "1218": "southwest",
+    "1220": {
+      "file": "string_procs/wayto/1219_1220.rb"
+    }
+  },
+  "timeto": {
+    "1218": 0.2,
+    "1220": 0.2
+  },
+  "image": "en-trail-1264234799.png",
   "image_coords": [
     188,
     894,
     198,
     904
   ],
-  "terrain": "grassland",
-  "description": [
-    "Cicadas and crickets fill the night air with insectile song.  Moonlight illuminates a small path meandering southwest through the blackberry bushes toward the Elven Settlement, civilization and safety.  To the northwest, the living wall of the Vipershroud forest presents an impenetrable blackness.",
-    "Sunlight pours into this clearing, nourishing the multicolored wildflowers intermixed with the thorny blackberry bushes.  An overgrown path meanders southwest toward the Elven Settlement, civilization and safety.  To the northwest, the living wall of the Vipershroud forest, heavily overgrown and choked with brambles, encroaches upon the bright meadow."
-  ],
-  "image": "en-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Vipershroud, Edge of Settlement]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1218": 0.2,
-    "1220": 0.2
-  },
-  "id": 1219,
-  "location": "the Vipershroud",
   "tags": [
     "some ambrominas leaf",
     "small flower",
@@ -93,30 +90,6 @@
     "flathead mushroom",
     "small apple",
     "small wild rose",
-    "soft white mushroom",
-    "acantha leaf",
-    "ambrominas leaf",
-    "sovyn clove",
-    "angelica root",
-    "wild grapes",
-    "Imaera's Lace",
-    "monkey grass",
-    "motherwort",
-    "raspberries",
-    "wiregrass",
-    "murkweed",
-    "white lily",
-    "pepperthorn root",
-    "luckbloom blossom",
-    "murdroot",
-    "wavepetal blossom",
-    "ironfern root",
-    "sunburst blossom",
-    "brostheras grass",
-    "woad leaves",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "soft white mushroom"
   ]
 }

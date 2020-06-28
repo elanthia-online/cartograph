@@ -1,33 +1,30 @@
 {
+  "id": 24704,
+  "title": [
+    "[Red Forest, Inner Weald]"
+  ],
+  "description": [
+    "A small pocket of trees stretch up from the ground, their bark stained a blood red hue, and dried black ichor clinging to their misshapen leaves.  Other plants and vegetation grow in the area, but have sprouted far away from the sanguine trees as if nature itself evades them."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest"
+  ],
+  "location": "the Red Forest",
   "wayto": {
     "24696": "southwest",
     "24705": "southeast"
   },
-  "paths": [
-    "Obvious paths: southeast, southwest"
-  ],
+  "timeto": {
+    "24696": 0.2,
+    "24705": 0.2
+  },
+  "image": "red_forest-1260914757.png",
   "image_coords": [
     501,
     43,
     513,
     57
   ],
-  "terrain": null,
-  "description": [
-    "A small pocket of trees stretch up from the ground, their bark stained a blood red hue, and dried black ichor clinging to their misshapen leaves.  Other plants and vegetation grow in the area, but have sprouted far away from the sanguine trees as if nature itself evades them."
-  ],
-  "image": "red_forest-1260914757.png",
-  "climate": null,
-  "title": [
-    "[Red Forest, Inner Weald]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24696": 0.2,
-    "24705": 0.2
-  },
-  "id": 24704,
-  "location": "the Displaced Red Forest",
   "tags": [
     "some tree bark",
     "wild chokecherry",
@@ -55,31 +52,6 @@
     "tkaro root",
     "foe:direwolf",
     "foe:warped tree spirit",
-    "foe:direbear",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "sticks",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "blueberries",
-    "fiddlehead fern",
-    "broken twig",
-    "stalk of bluebells",
-    "small wild rose",
-    "tree bark",
-    "mistweed",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+    "foe:direbear"
+  ]
 }

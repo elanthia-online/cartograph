@@ -1,32 +1,20 @@
 {
-  "wayto": {
-    "10953": {
-      "stringproc": "325c7e41ab9d30ccb94812827f14b668"
-    }
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "You are standing in a small stall whose facing wall is filled with an array of small, secured lockers.  One of the lockers has been removed for you and is sitting on the counter in front of you."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 18011,
   "title": [
     "[Public Lockers]"
   ],
-  "check_location": null,
+  "description": [
+    "You are standing in a small stall whose facing wall is filled with an array of small, secured lockers.  One of the lockers has been removed for you and is sitting on the counter in front of you."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "wayto": {
+    "10953": {
+      "file": "string_procs/wayto/18011_10953.rb"
+    }
+  },
   "timeto": {
     "10953": 0.2
-  },
-  "id": 18011,
-  "location": null,
-  "tags": [
-
-  ],
-  "links": [
-
-  ]
+  }
 }

@@ -1,55 +1,46 @@
 {
-  "wayto": {
-    "7448": {
-      "stringproc": "a38d807719728a1c1440a08cf22304a4"
-    },
-    "7453": {
-      "stringproc": "a234c4dfb9348f43358e56adea9291ed"
-    },
-    "7445": {
-      "stringproc": "3ef87e7eac63e97210b4aedf89dfae9b"
-    },
-    "7457": {
-      "stringproc": "20bd86befba92047041b874e1739aeb9"
-    }
-  },
-  "paths": [
-    "Obvious paths: south, southwest, west, northwest"
-  ],
-  "image_coords": [
-    757,
-    869,
-    769,
-    881
-  ],
-  "terrain": null,
-  "description": [
-    "The dense tangle of wildly growing crystals to the east presents a formidable barrier.  While travel through the rocks and boulders of the jagged plains is difficult, trying to make your way through the sharp outcroppings of the crystal forest would be deadly."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": null,
+  "id": 7456,
   "title": [
     "[The Broken Lands, Jagged Plain]"
   ],
-  "check_location": null,
+  "description": [
+    "The dense tangle of wildly growing crystals to the east presents a formidable barrier.  While travel through the rocks and boulders of the jagged plains is difficult, trying to make your way through the sharp outcroppings of the crystal forest would be deadly."
+  ],
+  "paths": [
+    "Obvious paths: south, southwest, west, northwest"
+  ],
+  "location": "the Broken Lands",
+  "wayto": {
+    "7448": {
+      "file": "string_procs/wayto/7456_7448.rb"
+    },
+    "7453": {
+      "file": "string_procs/wayto/7456_7453.rb"
+    },
+    "7445": {
+      "file": "string_procs/wayto/7456_7445.rb"
+    },
+    "7457": {
+      "file": "string_procs/wayto/7456_7457.rb"
+    }
+  },
   "timeto": {
     "7448": 3.2,
     "7453": 3.2,
     "7445": 3.2,
     "7457": 3.2
   },
-  "id": 7456,
-  "location": "the Broken Lands",
+  "image": "wl-broken-1264234799.png",
+  "image_coords": [
+    757,
+    869,
+    769,
+    881
+  ],
   "tags": [
     "large black toadstool",
     "hooded figure",
     "giant fog beetle",
-    "some blackened moss",
-    "blackened moss",
-    "black toadstool",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some blackened moss"
   ]
 }

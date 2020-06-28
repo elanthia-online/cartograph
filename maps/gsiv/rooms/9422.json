@@ -1,39 +1,31 @@
 {
+  "id": 9422,
+  "title": [
+    "[Zul Logoth Forging Supply Shop]"
+  ],
+  "description": [
+    "Resembling an hourglass laid on its side, this chamber appears to have been naturally formed, but then embellished and made functional by dwarven design and labor.  The choke-point in the center of the cavern is now almost entirely filled by a steel-topped counter and display case, while beyond it, hammerfalls echo from a dozen or so tunnels that pierce the curved wall of the chamber.  A dwarven attendant stands behind the counter, patiently waiting to provide whatever assistance might be needed."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Zul Logoth",
   "wayto": {
     "9421": "down",
     "24496": "go workshop"
   },
-  "paths": [
-    "Obvious exits: down"
-  ],
+  "timeto": {
+    "9421": 0.2,
+    "24496": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     654,
     759,
     674,
     779
   ],
-  "terrain": "indoors",
-  "description": [
-    "Resembling an hourglass laid on its side, this chamber appears to have been naturally formed, but then embellished and made functional by dwarven design and labor.  The choke-point in the center of the cavern is now almost entirely filled by a steel-topped counter and display case, while beyond it, hammerfalls echo from a dozen or so tunnels that pierce the curved wall of the chamber.  A dwarven attendant stands behind the counter, patiently waiting to provide whatever assistance might be needed."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Zul Logoth Forging Supply Shop]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9421": 0.2,
-    "24496": 0.2
-  },
-  "id": 9422,
-  "location": "Zul Logoth",
   "tags": [
-    "forge",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "forge"
   ]
 }

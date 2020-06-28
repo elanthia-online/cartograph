@@ -1,38 +1,28 @@
 {
+  "id": 16783,
+  "title": [
+    "[Temple Wyneb, Occipitum]"
+  ],
+  "description": [
+    "Your eyes cannot detect even the slightest flaw or crack in the high sheen of the polished red marble which encloses you completely.  A sconce carved from the wall itself cradles a dancing flame, the flickering light playing tricks on your sense of distance and scale."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest"
+  ],
+  "location": "Temple Wyneb",
   "wayto": {
     "16781": "southwest",
     "16784": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast, southwest"
-  ],
+  "timeto": {
+    "16781": 0.2,
+    "16784": 0.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     771,
     519,
     781,
     529
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Your eyes cannot detect even the slightest flaw or crack in the high sheen of the polished red marble which encloses you completely.  A sconce carved from the wall itself cradles a dancing flame, the flickering light playing tricks on your sense of distance and scale."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Temple Wyneb, Occipitum]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "16781": 0.2,
-    "16784": 0.2
-  },
-  "id": 16783,
-  "location": "Temple Wyneb",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

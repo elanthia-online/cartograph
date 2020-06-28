@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "2779": "go door"
-  },
+  "id": 2781,
+  "title": [
+    "[Pinefar, Furrier Shop]"
+  ],
+  "description": [
+    "The  shop has the aromatic scent of tanned hides, filled as it is with floor-to-ceiling shelves which sport all manner of furs and leathers, each neatly rolled.  A tall stack of furs and pelts fills one corner as well. Over the curtain leading into the General Store, a horseshoe hangs askew, making one wonder if it'll fall with one more passage beneath its precarious perch."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "the Pinefar Trading Post",
+  "wayto": {
+    "2779": "go door"
+  },
+  "timeto": {
+    "2779": 0.2
+  },
+  "image": "imt-pinefar-1264234799.png",
   "image_coords": [
     211,
     844,
     221,
     854
   ],
-  "terrain": "indoors",
-  "description": [
-    "The  shop has the aromatic scent of tanned hides, filled as it is with floor-to-ceiling shelves which sport all manner of furs and leathers, each neatly rolled.  A tall stack of furs and pelts fills one corner as well. Over the curtain leading into the General Store, a horseshoe hangs askew, making one wonder if it'll fall with one more passage beneath its precarious perch."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Pinefar, Furrier Shop]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2779": 0.2
-  },
-  "id": 2781,
-  "location": "the Pinefar Trading Post",
   "tags": [
-    "furrier",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "furrier"
   ]
 }

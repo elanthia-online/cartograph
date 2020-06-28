@@ -1,38 +1,30 @@
 {
-  "wayto": {
-    "12142": "southeast",
-    "2635": {
-      "stringproc": "f88a5ac335110328444947aa8fdfa490"
-    },
-    "12136": "northeast",
-    "12115": "northwest",
-    "12093": {
-      "stringproc": "dc0110972ab7e067d5fec20ece15581c"
-    },
-    "2605": {
-      "stringproc": "317c6eedd1ea40322b9b26b259a3053f"
-    }
-  },
+  "id": 12137,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "You stand at the base of an immense tower.  The spire seeks to pierce the heart of the heavens, reaching into the center of a horrible lightning storm.  Bolts play over the black stone surface, illuminating it with a blinding blue light.  Winds howl about the structure, and the screams of those it throws from the top of the tower barely rise above the sound of the tempest.  Rain pours from the sky, as if the world wept at the wound created by the stabbing spire."
+  ],
   "paths": [
     "Obvious exits: northeast, southeast, northwest",
     "Obvious paths: northeast, southeast, northwest"
   ],
-  "image_coords": [
-    894,
-    699,
-    904,
-    709
-  ],
-  "terrain": null,
-  "description": [
-    "You stand at the base of an immense tower.  The spire seeks to pierce the heart of the heavens, reaching into the center of a horrible lightning storm.  Bolts play over the black stone surface, illuminating it with a blinding blue light.  Winds howl about the structure, and the screams of those it throws from the top of the tower barely rise above the sound of the tempest.  Rain pours from the sky, as if the world wept at the wound created by the stabbing spire."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12142": "southeast",
+    "2635": {
+      "file": "string_procs/wayto/12137_2635.rb"
+    },
+    "12136": "northeast",
+    "12115": "northwest",
+    "12093": {
+      "file": "string_procs/wayto/12137_12093.rb"
+    },
+    "2605": {
+      "file": "string_procs/wayto/12137_2605.rb"
+    }
+  },
   "timeto": {
     "12142": 0.2,
     "2635": 16.0,
@@ -41,18 +33,19 @@
     "12093": 21.6,
     "2605": 16.0
   },
-  "id": 12137,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    894,
+    699,
+    904,
+    709
+  ],
   "tags": [
     "withered deathblossom",
     "twisted black mawflower",
     "discolored fleshbinder bud",
     "rotting bile green fleshbulb",
     "slime-covered grave blossom",
-    "oozing fleshsore bulb",
-    "mass of congealed slime"
-  ],
-  "links": [
-
+    "oozing fleshsore bulb"
   ]
 }

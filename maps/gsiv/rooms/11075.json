@@ -1,38 +1,27 @@
 {
+  "id": 11075,
+  "title": [
+    "[Sea Caves]"
+  ],
+  "description": [
+    "The cave here is of uncut stone, and appears to have been a natural cave only recently disturbed.  Moss and lichen grow on the walls and ceiling, and pools of water dot the floor.  The cave slopes upward to the northeast."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south"
+  ],
   "wayto": {
     "11074": "south",
     "11076": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, south"
-  ],
+  "timeto": {
+    "11074": 0.2,
+    "11076": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     1187,
     111,
     1197,
     121
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The cave here is of uncut stone, and appears to have been a natural cave only recently disturbed.  Moss and lichen grow on the walls and ceiling, and pools of water dot the floor.  The cave slopes upward to the northeast."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Caves]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11074": 0.2,
-    "11076": 0.2
-  },
-  "id": 11075,
-  "location": "the Sea Caves",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

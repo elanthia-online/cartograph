@@ -1,41 +1,33 @@
 {
+  "id": 8760,
+  "title": [
+    "[Liabo Circle, Ronan's Way]"
+  ],
+  "description": [
+    "An enormous dwarf walks his dog down this tree-lined, cobblestone street.  The dog is tiny, barely even a cat, but looks quite jaunty with a big, bright pink ribbon around its neck."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "14672": "go path",
     "8759": "southwest",
     "8761": "north"
   },
-  "paths": [
-    "Obvious paths: north, southwest"
-  ],
+  "timeto": {
+    "14672": 0.2,
+    "8759": 0.2,
+    "8761": 0.2
+  },
+  "image": "wl-homes-1-1264234799.png",
   "image_coords": [
     631,
     1226,
     651,
     1246
   ],
-  "terrain": null,
-  "description": [
-    "An enormous dwarf walks his dog down this tree-lined, cobblestone street.  The dog is tiny, barely even a cat, but looks quite jaunty with a big, bright pink ribbon around its neck."
-  ],
-  "image": "wl-homes-1-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Liabo Circle, Ronan's Way]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "14672": 0.2,
-    "8759": 0.2,
-    "8761": 0.2
-  },
-  "id": 8760,
-  "location": "Wehnimer's Landing",
   "tags": [
-    "meta:teleport:fwi",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:teleport:fwi"
   ]
 }

@@ -1,58 +1,48 @@
 {
-  "wayto": {
-    "7462": {
-      "stringproc": "ceec9ada48216364245f996122b83446"
-    },
-    "7474": {
-      "stringproc": "d4094080092d28883335992ed423dfd3"
-    },
-    "7476": {
-      "stringproc": "817909f28bfc261890572074067a677d"
-    },
-    "7468": {
-      "stringproc": "9562739203983e062dd5fcc7a8104b4e"
-    }
-  },
-  "paths": [
-    "Obvious exits: north, southeast, southwest, northwest"
-  ],
-  "image_coords": [
-    889,
-    907,
-    899,
-    917
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The irregular walls of the tunnel have been worn smooth, as if they had been polished with abrasive cloths.  There are no jagged edges, no scratches or other marks in the stone, no signs that tunnel is anything but a natural formation."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": "indoors",
+  "id": 7475,
   "title": [
     "[Dark Grotto, Small Tunnel]"
   ],
-  "check_location": null,
+  "description": [
+    "The irregular walls of the tunnel have been worn smooth, as if they had been polished with abrasive cloths.  There are no jagged edges, no scratches or other marks in the stone, no signs that tunnel is anything but a natural formation."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast, southwest, northwest"
+  ],
+  "location": "the Broken Lands",
+  "wayto": {
+    "7462": {
+      "file": "string_procs/wayto/7475_7462.rb"
+    },
+    "7474": {
+      "file": "string_procs/wayto/7475_7474.rb"
+    },
+    "7476": {
+      "file": "string_procs/wayto/7475_7476.rb"
+    },
+    "7468": {
+      "file": "string_procs/wayto/7475_7468.rb"
+    }
+  },
   "timeto": {
     "7462": 0.2,
     "7474": 0.2,
     "7476": 0.2,
     "7468": 0.2
   },
-  "id": 7475,
-  "location": "the Broken Lands",
+  "image": "wl-broken-1264234799.png",
+  "image_coords": [
+    889,
+    907,
+    899,
+    917
+  ],
   "tags": [
     "sponge mushroom",
     "some blackened moss",
     "some glowing green lichen",
     "some cave moss",
     "magru",
-    "bone mushroom",
-    "blackened moss",
-    "green lichen",
-    "cave moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bone mushroom"
   ]
 }

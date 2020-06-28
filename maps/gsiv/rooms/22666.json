@@ -1,37 +1,25 @@
 {
-  "wayto": {
-    "22571": {
-      "stringproc": "ead5ad6339d84398898bc1e18bb5a3ab"
-    },
-    "24233": {
-      "stringproc": "7099cb137b53f13386832c9fa81be4ef"
-    }
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Crumbling limestone soars overhead, spanning outward from a low, boulder-blocked passageway into an expansive cavern area that is largely wrapped in darkness.  Red spots, painted at various intervals, splatter across the walls, each centered with a long steel spike driven into the limestone.  Stretched between three adjacent spikes, a long coil of rope is draped with various hats.  At the very edge of the wan torchlight, where the ground suddenly drops away, the top of a narrow ladder is barely visible."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 22666,
   "title": [
     "[Smuggling Tunnels, Cavern]"
   ],
-  "check_location": null,
+  "description": [
+    "Crumbling limestone soars overhead, spanning outward from a low, boulder-blocked passageway into an expansive cavern area that is largely wrapped in darkness.  Red spots, painted at various intervals, splatter across the walls, each centered with a long steel spike driven into the limestone.  Stretched between three adjacent spikes, a long coil of rope is draped with various hats.  At the very edge of the wan torchlight, where the ground suddenly drops away, the top of a narrow ladder is barely visible."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": false,
+  "wayto": {
+    "22571": {
+      "file": "string_procs/wayto/22666_22571.rb"
+    },
+    "24233": {
+      "file": "string_procs/wayto/22666_24233.rb"
+    }
+  },
   "timeto": {
     "22571": 0.2,
     "24233": 0.2
-  },
-  "id": 22666,
-  "location": false,
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  }
 }

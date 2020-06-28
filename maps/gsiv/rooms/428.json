@@ -1,35 +1,32 @@
 {
+  "id": 428,
+  "title": [
+    "[Lower Dragonsclaw, Wooded Hills]"
+  ],
+  "description": [
+    "This face of the hill is completely bare of trees, and doesn't even have many bushes.  You notice that even the bird and insect noises are gone, leaving you with an eerie silence, broken only by the wind.  Off the side of the trail, you notice a depression in the hillside, with a dark pit at the bottom."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest"
+  ],
+  "location": "the Lower Dragonsclaw",
   "wayto": {
     "6961": "go depression",
     "425": "southeast",
     "427": "southwest"
   },
-  "paths": [
-    "Obvious paths: southeast, southwest"
-  ],
+  "timeto": {
+    "6961": 0.2,
+    "425": 0.2,
+    "427": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     453,
     313,
     463,
     323
   ],
-  "terrain": "hilly",
-  "description": [
-    "This face of the hill is completely bare of trees, and doesn't even have many bushes.  You notice that even the bird and insect noises are gone, leaving you with an eerie silence, broken only by the wind.  Off the side of the trail, you notice a depression in the hillside, with a dark pit at the bottom."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Lower Dragonsclaw, Wooded Hills]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6961": 0.2,
-    "425": 0.2,
-    "427": 0.2
-  },
-  "id": 428,
-  "location": "the Lower Dragonsclaw",
   "tags": [
     "blue trafel mushroom",
     "marallis berry",
@@ -66,10 +63,6 @@
     "luckbloom blossom",
     "ironfern root",
     "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

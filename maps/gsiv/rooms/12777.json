@@ -1,41 +1,28 @@
 {
+  "id": 12777,
+  "title": [
+    "[The Neck]"
+  ],
+  "description": [
+    "Where the tunnel curves into a dogleg around a massive, striated formation of rock, it widens to form an alcove.  The walls are richly veined, with bulbous protrusions adding depth to the designs.  Ground fog drifts in ragged clouds across the floor, the eddies herded by undetectable fingers of wind, giving the chamber the look of a lacy collar encircling a stone neck."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest"
+  ],
+  "location": "McKyren's End",
   "wayto": {
     "12778": "southeast",
     "12776": "southwest"
   },
-  "paths": [
-    "Obvious exits: southeast, southwest"
-  ],
+  "timeto": {
+    "12778": 0.2,
+    "12776": 0.2
+  },
+  "image": "ti-vtull-1264234799.png",
   "image_coords": [
     629,
     424,
     637,
     432
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Where the tunnel curves into a dogleg around a massive, striated formation of rock, it widens to form an alcove.  The walls are richly veined, with bulbous protrusions adding depth to the designs.  Ground fog drifts in ragged clouds across the floor, the eddies herded by undetectable fingers of wind, giving the chamber the look of a lacy collar encircling a stone neck."
-  ],
-  "image": "ti-vtull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[The Neck]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "12778": 0.2,
-    "12776": 0.2
-  },
-  "id": 12777,
-  "location": "McKyren's End",
-  "tags": [
-    "daggerstalk mushroom",
-    "black trafel mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

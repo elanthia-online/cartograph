@@ -1,35 +1,32 @@
 {
+  "id": 3281,
+  "title": [
+    "[Ice Plains, Hill Side]"
+  ],
+  "description": [
+    "Making your way along the ledge you catch yourself on a small boulder as you misstep and almost fall to the ground below.  The wind is bitter along this section of the path causing you to shiver and wish for a warm drink to soothe your chilled bones.  Just ahead you spy a path leading north into a large cavern."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Ice Plains",
   "wayto": {
     "3291": "go path",
     "3280": "west",
     "3282": "east"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "3291": 0.2,
+    "3280": 0.2,
+    "3282": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     470,
     410,
     480,
     420
   ],
-  "terrain": "hilly",
-  "description": [
-    "Making your way along the ledge you catch yourself on a small boulder as you misstep and almost fall to the ground below.  The wind is bitter along this section of the path causing you to shiver and wish for a warm drink to soothe your chilled bones.  Just ahead you spy a path leading north into a large cavern."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Ice Plains, Hill Side]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3291": 0.2,
-    "3280": 0.2,
-    "3282": 0.2
-  },
-  "id": 3281,
-  "location": "the Ice Plains",
   "tags": [
     "pale thornberry",
     "winter rose",
@@ -40,19 +37,6 @@
     "small loganberry",
     "some angelica root",
     "sassafras leaf",
-    "some arctic moss",
-    "sticks",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "arctic moss",
-    "snowberries",
-    "frostflower",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some arctic moss"
   ]
 }

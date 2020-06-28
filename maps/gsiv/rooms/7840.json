@@ -1,38 +1,28 @@
 {
+  "id": 7840,
+  "title": [
+    "[Glatoph, Ruins]"
+  ],
+  "description": [
+    "A long wooden table stretches the length of this room.  A grand, tall-backed chair sits at the head, while benches are placed along the sides.  The chair is moldy and dusty, and is missing an arm.  One of the benches has fallen over, and the other has collapsed.  The table is still standing, but doesn't look terribly steady."
+  ],
+  "paths": [
+    "Obvious exits: east, northwest"
+  ],
+  "location": "Glatoph",
   "wayto": {
     "7839": "northwest",
     "7830": "east"
   },
-  "paths": [
-    "Obvious exits: east, northwest"
-  ],
+  "timeto": {
+    "7839": 0.2,
+    "7830": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     601,
     492,
     611,
     502
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A long wooden table stretches the length of this room.  A grand, tall-backed chair sits at the head, while benches are placed along the sides.  The chair is moldy and dusty, and is missing an arm.  One of the benches has fallen over, and the other has collapsed.  The table is still standing, but doesn't look terribly steady."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Glatoph, Ruins]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7839": 0.2,
-    "7830": 0.2
-  },
-  "id": 7840,
-  "location": "Glatoph",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,47 +1,40 @@
 {
-  "wayto": {
-    "784": {
-      "stringproc": "965a7c27af864f60f31d24a275642ece"
-    },
-    "786": {
-      "stringproc": "1436a14fc78849728327a927cfc893af"
-    }
-  },
+  "id": 785,
+  "title": [
+    "[Whistler's Pass, Tunnel]"
+  ],
+  "description": [
+    "The darkened tunnels twist, turn, and double back upon themselves, leaving you unsure whether you are making progress through the mountain or merely returning to where you began.  This labyrinthine structure has obviously been created deliberately, perhaps to frustrate an invasion through the pass.  Each of the seemingly infinite corners represents an ideal location for ambush."
+  ],
   "paths": [
     "Obvious exits: north, northeast, east, southeast, south, southwest, west, northwest"
   ],
+  "location": "Whistler's Pass",
+  "wayto": {
+    "784": {
+      "file": "string_procs/wayto/785_784.rb"
+    },
+    "786": {
+      "file": "string_procs/wayto/785_786.rb"
+    }
+  },
+  "timeto": {
+    "784": 0.4,
+    "786": 0.4
+  },
+  "image": "en-whistlers_pass-1264234799.png",
   "image_coords": [
     1000,
     205,
     1010,
     215
   ],
-  "terrain": "indoors",
-  "description": [
-    "The darkened tunnels twist, turn, and double back upon themselves, leaving you unsure whether you are making progress through the mountain or merely returning to where you began.  This labyrinthine structure has obviously been created deliberately, perhaps to frustrate an invasion through the pass.  Each of the seemingly infinite corners represents an ideal location for ambush."
-  ],
-  "image": "en-whistlers_pass-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Whistler's Pass, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "784": 0.4,
-    "786": 0.4
-  },
-  "id": 785,
-  "location": "Whistler's Pass",
   "tags": [
     "no-auto-map",
     "white hook mushroom",
     "cave moss",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

@@ -1,43 +1,36 @@
 {
+  "id": 7268,
+  "title": [
+    "[Wormwood Slough, Mire]"
+  ],
+  "description": [
+    "The wartlike clumps of grass rising from the mire look solid, but the mud they conceal sucks at the feet of anything that moves, no matter how careful its tread.  As the only alternative is wading through the reeking water surrounding the tussocks, even the treacherous grass seems preferable.  Something moving beneath the water's oily surface sends up bubbles occasionally, though how anything thrives in water so choked with filth is a mystery."
+  ],
+  "paths": [
+    "Obvious paths: east, south, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7265": "east",
     "7267": "west",
     "7269": "south"
   },
-  "paths": [
-    "Obvious paths: east, south, west"
-  ],
+  "timeto": {
+    "7265": 0.2,
+    "7267": 0.2,
+    "7269": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     80,
     584,
     90,
     594
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "The wartlike clumps of grass rising from the mire look solid, but the mud they conceal sucks at the feet of anything that moves, no matter how careful its tread.  As the only alternative is wading through the reeking water surrounding the tussocks, even the treacherous grass seems preferable.  Something moving beneath the water's oily surface sends up bubbles occasionally, though how anything thrives in water so choked with filth is a mystery."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "freshwater",
-  "title": [
-    "[Wormwood Slough, Mire]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7265": 0.2,
-    "7267": 0.2,
-    "7269": 0.2
-  },
-  "id": 7268,
-  "location": "the Graveyard",
   "tags": [
     "some wingstem root",
     "broken twig",
     "blue whortleberry",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

@@ -1,35 +1,28 @@
 {
+  "id": 26280,
+  "title": [
+    "[Darkness With Inn, Front Desk]"
+  ],
+  "description": [
+    "A blood-stained wooden desk sits to the side of the staircase and bears a placard carved into the likeness of a red-eyed lich, a crown of finger bones upon his head.  Moldering zombies stagger about the area, some wandering mindlessly up and down the staircase rising to the second floor."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Talador",
   "wayto": {
     "26281": "go staircase",
     "26273": "north"
   },
-  "paths": [
-    "Obvious exits: north"
-  ],
+  "timeto": {
+    "26281": 0.2,
+    "26273": 0.2
+  },
+  "image": "wl-lichs_landing-1500800742.png",
   "image_coords": [
     478,
     562,
     505,
     589
-  ],
-  "terrain": null,
-  "description": [
-    "A blood-stained wooden desk sits to the side of the staircase and bears a placard carved into the likeness of a red-eyed lich, a crown of finger bones upon his head.  Moldering zombies stagger about the area, some wandering mindlessly up and down the staircase rising to the second floor."
-  ],
-  "image": "wl-lichs_landing-1500800742.png",
-  "climate": null,
-  "title": [
-    "[Darkness With Inn, Front Desk]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26281": 0.2,
-    "26273": 0.2
-  },
-  "id": 26280,
-  "location": "Talador",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

@@ -1,45 +1,35 @@
 {
+  "id": 7325,
+  "title": [
+    "[Shadow Valley]"
+  ],
+  "description": [
+    "A thousand tiny particles of shattered wood cover a mottled clay ramp which descends into the ground before you.  Torn and broken earth indicates that the opening may have been caused by an explosive force.  Strangely, odd black mists twist and flow around the entryway, as if trying to conceal it."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7326": "northeast",
     "7330": "southeast",
     "4535": "climb ramp"
   },
-  "paths": [
-    "Obvious paths: northeast, southeast"
-  ],
+  "timeto": {
+    "7326": 0.2,
+    "7330": 0.2,
+    "4535": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1327,
     616,
     1337,
     626
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "A thousand tiny particles of shattered wood cover a mottled clay ramp which descends into the ground before you.  Torn and broken earth indicates that the opening may have been caused by an explosive force.  Strangely, odd black mists twist and flow around the entryway, as if trying to conceal it."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Shadow Valley]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7326": 0.2,
-    "7330": 0.2,
-    "4535": 0.2
-  },
-  "id": 7325,
-  "location": "the Shadow Valley",
   "tags": [
     "some petrified shadowstalk",
     "some longgrass",
-    "black-tipped wyrm thorn",
-    "longgrass",
-    "wyrm thorn",
-    "petrified shadowstalk",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "black-tipped wyrm thorn"
   ]
 }

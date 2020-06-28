@@ -1,42 +1,31 @@
 {
+  "id": 11507,
+  "title": [
+    "[Ruined Tower, Small Chamber]"
+  ],
+  "description": [
+    "Small windows in the bare stone walls look out over Maelstrom Bay to the north and west.  The view is partially obscured in each direction by the outer walls of the fortress, but is still a pleasant sight in the midst of this ruin.  The fluted column in the center of the room supports a wide circular stair."
+  ],
+  "paths": [
+    "Obvious exits: east, south, up, down"
+  ],
   "wayto": {
     "11504": "down",
     "11508": "south",
     "11509": "east",
     "11510": "up"
   },
-  "paths": [
-    "Obvious exits: east, south, up, down"
-  ],
-  "image_coords": [
-    765,
-    883,
-    775,
-    893
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Small windows in the bare stone walls look out over Maelstrom Bay to the north and west.  The view is partially obscured in each direction by the outer walls of the fortress, but is still a pleasant sight in the midst of this ruin.  The fluted column in the center of the room supports a wide circular stair."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "indoors",
-  "title": [
-    "[Ruined Tower, Small Chamber]"
-  ],
-  "check_location": null,
   "timeto": {
     "11504": 0.2,
     "11508": 0.2,
     "11509": 0.2,
     "11510": 0.2
   },
-  "id": 11507,
-  "location": "the Ruined Tower",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-maelstrom-1266390501.png",
+  "image_coords": [
+    765,
+    883,
+    775,
+    893
   ]
 }

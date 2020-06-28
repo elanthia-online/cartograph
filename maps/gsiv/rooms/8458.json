@@ -1,65 +1,34 @@
 {
+  "id": 8458,
+  "title": [
+    "[A Faint Path]"
+  ],
+  "description": [
+    "Thorns and brambles line the path, tearing at the clothing of all who pass.  To the southwest the trail opens into the rugged, rocky terrain of the Sentoph mountains, while to the northeast it widens into the barren landscape around the tower.  Loose stones tumble onto the path, dislodged from the jagged boulders that rise to either side."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "8459": "northeast",
     "8457": "go trail"
   },
-  "paths": [
-    "Obvious paths: northeast"
-  ],
+  "timeto": {
+    "8459": 0.2,
+    "8457": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     633,
     610,
     643,
     620
   ],
-  "terrain": "rough",
-  "description": [
-    "Thorns and brambles line the path, tearing at the clothing of all who pass.  To the southwest the trail opens into the rugged, rocky terrain of the Sentoph mountains, while to the northeast it widens into the barren landscape around the tower.  Loose stones tumble onto the path, dislodged from the jagged boulders that rise to either side."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[A Faint Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8459": 0.2,
-    "8457": 0.2
-  },
-  "id": 8458,
-  "location": "Wehnimer's Landing",
   "tags": [
     "yellow primrose",
     "handful of currants",
     "white baneberry",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "wild strawberry",
-    "blueberries",
-    "stalk of chicory",
-    "elderberries",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "wild grapes",
-    "broken twig",
-    "sprig of alyssum",
-    "heath aster",
-    "golden buttercup",
-    "red clover blossom",
-    "pink clover blossom",
-    "white clover blossom",
-    "purple clover blossom",
-    "yellow clover blossom",
-    "stalk of goldenrod",
-    "sprig of larkspur",
-    "small wild rose",
-    "wild chokecherry",
-    "motherwort",
-    "pepperthorn root",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wintergreen leaf"
   ]
 }

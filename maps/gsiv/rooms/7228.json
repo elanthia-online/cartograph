@@ -1,37 +1,34 @@
 {
+  "id": 7228,
+  "title": [
+    "[Under Crypt, Tunnels]"
+  ],
+  "description": [
+    "This area looks like a ghoul's larder.  Bodies and parts of bodies lie buried in ice that was scraped off the walls and ceiling then covered with layers of the gruesome pink icicles.  Not a pretty sight.  In one corner of the room you see some roughly carved stairs leading upwards."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, southwest, northwest"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7230": "northeast",
     "7229": "go stairs",
     "7231": "southwest",
     "7234": "southeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southeast, southwest, northwest"
-  ],
-  "image_coords": [
-    769,
-    508,
-    779,
-    518
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This area looks like a ghoul's larder.  Bodies and parts of bodies lie buried in ice that was scraped off the walls and ceiling then covered with layers of the gruesome pink icicles.  Not a pretty sight.  In one corner of the room you see some roughly carved stairs leading upwards."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Under Crypt, Tunnels]"
-  ],
-  "check_location": null,
   "timeto": {
     "7230": 0.2,
     "7229": 0.2,
     "7231": 0.2,
     "7234": 0.2
   },
-  "id": 7228,
-  "location": "the Graveyard",
+  "image": "wl-graveyard-1264234799.png",
+  "image_coords": [
+    769,
+    508,
+    779,
+    518
+  ],
   "tags": [
     "some wolifrew lichen",
     "arch weight",
@@ -41,10 +38,6 @@
     "cave moss",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

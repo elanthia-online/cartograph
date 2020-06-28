@@ -1,38 +1,28 @@
 {
+  "id": 6557,
+  "title": [
+    "[Bridge to Castle Anwyn]"
+  ],
+  "description": [
+    "This bridge between the guardhouse and the barbican is surfaced with cobblestones, their uneven surfaces slippery with the humid fog drifting across the lake.  Little protection from a fall into the grey water is offered, since the bridge's walls are barely higher than a dwarf's knee on either side.  Castellated towers flanking the guardhouse keep silent vigil over the span, warding the approach to the castle."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Castle Anwyn",
   "wayto": {
     "6556": "go arch",
     "6558": "go gate"
   },
-  "paths": [
-    "Obvious paths: none"
-  ],
+  "timeto": {
+    "6556": 0.2,
+    "6558": 0.2
+  },
+  "image": "wl-lysierian-1264234799.png",
   "image_coords": [
     1238,
     814,
     1248,
     824
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "This bridge between the guardhouse and the barbican is surfaced with cobblestones, their uneven surfaces slippery with the humid fog drifting across the lake.  Little protection from a fall into the grey water is offered, since the bridge's walls are barely higher than a dwarf's knee on either side.  Castellated towers flanking the guardhouse keep silent vigil over the span, warding the approach to the castle."
-  ],
-  "image": "wl-lysierian-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Bridge to Castle Anwyn]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6556": 0.2,
-    "6558": 0.2
-  },
-  "id": 6557,
-  "location": "Castle Anwyn",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

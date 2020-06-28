@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "10069": "out"
-  },
+  "id": 10070,
+  "title": [
+    "[The United Bank of City-States]"
+  ],
+  "description": [
+    "Flickering golden yellow light from dozens of bronze sconces that hang high up on the walls illuminates this chamber.  On the far right wall hangs a lovely brocade tapestry which depicts scenes from the town's early days.  A threadbare rug covers the entire floor, muffling the steps of the townsfolk.  A perky young elven clerk sits patiently waiting to assist someone."
+  ],
   "paths": [
     "Obvious exits: out"
   ],
+  "location": "Ta'Illistim",
+  "wayto": {
+    "10069": "out"
+  },
+  "timeto": {
+    "10069": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     242,
     797,
     278,
     833
   ],
-  "terrain": "indoors",
-  "description": [
-    "Flickering golden yellow light from dozens of bronze sconces that hang high up on the walls illuminates this chamber.  On the far right wall hangs a lovely brocade tapestry which depicts scenes from the town's early days.  A threadbare rug covers the entire floor, muffling the steps of the townsfolk.  A perky young elven clerk sits patiently waiting to assist someone."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[The United Bank of City-States]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10069": 0.2
-  },
-  "id": 10070,
-  "location": "Ta'Illistim",
   "tags": [
-    "bank",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bank"
   ]
 }

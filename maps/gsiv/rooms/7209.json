@@ -1,37 +1,34 @@
 {
+  "id": 7209,
+  "title": [
+    "[Graveyard, Burial Mound]"
+  ],
+  "description": [
+    "The ground slopes away into a deep, dark hole at the corner of the mound, a rough ledge dug into the soil providing access into the darkness below.  Bones and grinning, fleshless skulls from ages past protrude from the ancient layers of dirt, their peace disrupted by the digging."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, east, down"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7250": "north",
     "7208": "east",
     "7210": "down",
     "7248": "northeast"
   },
-  "paths": [
-    "Obvious paths: north, northeast, east, down"
-  ],
-  "image_coords": [
-    425,
-    160,
-    435,
-    170
-  ],
-  "terrain": "plain dirt",
-  "description": [
-    "The ground slopes away into a deep, dark hole at the corner of the mound, a rough ledge dug into the soil providing access into the darkness below.  Bones and grinning, fleshless skulls from ages past protrude from the ancient layers of dirt, their peace disrupted by the digging."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Graveyard, Burial Mound]"
-  ],
-  "check_location": null,
   "timeto": {
     "7250": 0.2,
     "7208": 0.2,
     "7210": 0.2,
     "7248": 0.2
   },
-  "id": 7209,
-  "location": "the Graveyard",
+  "image": "wl-graveyard-1264234799.png",
+  "image_coords": [
+    425,
+    160,
+    435,
+    170
+  ],
   "tags": [
     "some wolifrew lichen",
     "some acantha leaf",
@@ -53,10 +50,6 @@
     "bright red cranberry",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

@@ -1,50 +1,33 @@
 {
+  "id": 9416,
+  "title": [
+    "[Zul Logoth, Chalcedony Tunnel]"
+  ],
+  "description": [
+    "Near the stone arch on the west wall, the floor looks much cleaner than in the rest of the tunnel, as if someone has recently scrubbed it.  Faded dark red stains are still evident in the granite, though.  Dwarves, some injured, enter through the arch.  None of those exiting display injuries of any type.  A brass sign hangs on the wall above the arch.  Low rumblings seem to come from somewhere down the southern tunnel accompanied by slight tremors."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south"
+  ],
+  "location": "the tunnels and caverns of Zul Logoth",
   "wayto": {
     "9415": "northeast",
     "9417": "south",
     "9505": "go arch"
   },
-  "paths": [
-    "Obvious exits: northeast, south"
-  ],
+  "timeto": {
+    "9415": 0.2,
+    "9417": 0.2,
+    "9505": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     601,
     751,
     637,
     787
   ],
-  "terrain": "indoors",
-  "description": [
-    "Near the stone arch on the west wall, the floor looks much cleaner than in the rest of the tunnel, as if someone has recently scrubbed it.  Faded dark red stains are still evident in the granite, though.  Dwarves, some injured, enter through the arch.  None of those exiting display injuries of any type.  A brass sign hangs on the wall above the arch.  Low rumblings seem to come from somewhere down the southern tunnel accompanied by slight tremors."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Zul Logoth, Chalcedony Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9415": 0.2,
-    "9417": 0.2,
-    "9505": 0.2
-  },
-  "id": 9416,
-  "location": "the tunnels and caverns of Zul Logoth",
   "tags": [
-    "ironfern root",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "pepperthorn root",
-    "murdroot",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

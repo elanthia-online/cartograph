@@ -1,44 +1,36 @@
 {
-  "wayto": {
-    "1141": {
-      "stringproc": "c989bb912a8a5f854af6089e02ae045f"
-    },
-    "1143": {
-      "stringproc": "caf10bf2f18c6f2f42aef94f64a264d3"
-    }
-  },
+  "id": 1142,
+  "title": [
+    "[Locksmehr River, Rope Bridge]"
+  ],
+  "description": [
+    "Water sprays up into the air in all directions as it pounds the large boulders of the river below the rope.  To the north, the river bends slightly as it comes down out of the mountains.  To the south it flows quickly around to the west towards Wehnimer's Landing.  The river has cut a wide swath through the lush forest, creating bluffs above the banks on either side of the rough rapids."
+  ],
   "paths": [
     "Obvious paths: none"
   ],
+  "location": "the Locksmehr Trail",
+  "wayto": {
+    "1141": {
+      "file": "string_procs/wayto/1142_1141.rb"
+    },
+    "1143": {
+      "file": "string_procs/wayto/1142_1143.rb"
+    }
+  },
+  "timeto": {
+    "1141": 15.0,
+    "1143": 15.0
+  },
+  "image": "en-trail-1264234799.png",
   "image_coords": [
     725,
     981,
     735,
     991
   ],
-  "terrain": "missing",
-  "description": [
-    "Water sprays up into the air in all directions as it pounds the large boulders of the river below the rope.  To the north, the river bends slightly as it comes down out of the mountains.  To the south it flows quickly around to the west towards Wehnimer's Landing.  The river has cut a wide swath through the lush forest, creating bluffs above the banks on either side of the rough rapids."
-  ],
-  "image": "en-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Locksmehr River, Rope Bridge]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1141": 15.0,
-    "1143": 15.0
-  },
-  "id": 1142,
-  "location": "the Locksmehr Trail",
   "tags": [
     "some basal moss",
-    "some calamia fruit",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some calamia fruit"
   ]
 }

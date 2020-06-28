@@ -1,43 +1,33 @@
 {
-  "wayto": {
-    "706": "southwest",
-    "707": "southeast",
-    "698": "north"
-  },
-  "paths": [
-    "Obvious paths: north, southeast, southwest"
+  "id": 705,
+  "title": [
+    "[Ta'Illistim, Glamesine Var]"
   ],
-  "image_coords": [
-    1113,
-    382,
-    1137,
-    401
-  ],
-  "terrain": "hard, flat",
   "description": [
     "The var snakes gently around a corner, winding its way past the back doors of cottages and shops.  Each doorstep is as neatly kept as the last, swept clean of debris and planted on each side with a stunning variety of flowering plants.  A tavern stands nearby, a mithglin plaque swinging from its doorpost.  Here and there along the var, a window shines in the darkness.",
     "The var snakes gently around a corner, winding its way past the back doors of cottages and shops.  Each doorstep is as neatly kept as the last, swept clean of debris and planted on each side with a stunning variety of flowering plants.  A tavern stands nearby, a mithglin plaque swinging from its doorpost.",
     "The var snakes gently around a corner, winding its way past the back doors of houses and shops.  Each doorstep is as neatly kept as the last, swept clean of debris and weeded carefully between the silver stone pavers.  A tavern stands nearby, an argent plaque swinging from its doorpost.  Here and there along the var, a window shines in the darkness.",
     "The var snakes gently around a corner, winding its way past the back doors of houses and shops.  Each doorstep is as neatly kept as the last, swept clean of debris and weeded carefully between the silver stone pavers.  A tavern stands nearby, an argent plaque swinging from its doorpost."
   ],
-  "image": "en-ta_illistim-new.jpg",
-  "climate": "temperate",
-  "title": [
-    "[Ta'Illistim, Glamesine Var]"
+  "paths": [
+    "Obvious paths: north, southeast, southwest"
   ],
-  "check_location": null,
+  "location": "Ta'Illistim",
+  "wayto": {
+    "706": "southwest",
+    "707": "southeast",
+    "698": "north"
+  },
   "timeto": {
     "706": 0.2,
     "707": 0.2,
     "698": 0.2
   },
-  "id": 705,
-  "location": "Ta'Illistim",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-ta_illistim-new.jpg",
+  "image_coords": [
+    1113,
+    382,
+    1137,
+    401
   ]
 }

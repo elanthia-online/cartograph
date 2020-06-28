@@ -1,38 +1,28 @@
 {
+  "id": 2670,
+  "title": [
+    "[Vaulted Aisle East, Ice Shrine]"
+  ],
+  "description": [
+    "The vaulted hallway veers to the northwest, marked by an increase of shadow in that direction as the reflections from the ice behemoth are less ambient.   This part of the hallway is notable for its rich frescos that alternate with the columns on the aisle's exterior walls.  Overhead, the ceiling's elevated arch is as graceful as a heron's wing poised for flight."
+  ],
+  "paths": [
+    "Obvious exits: south, southwest, northwest"
+  ],
+  "location": "Koar's Shrine",
   "wayto": {
     "2669": "northwest",
     "2671": "south"
   },
-  "paths": [
-    "Obvious exits: south, southwest, northwest"
-  ],
+  "timeto": {
+    "2669": 0.2,
+    "2671": 0.2
+  },
+  "image": "imt-pinefar-1264234799.png",
   "image_coords": [
     443,
     512,
     453,
     522
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The vaulted hallway veers to the northwest, marked by an increase of shadow in that direction as the reflections from the ice behemoth are less ambient.   This part of the hallway is notable for its rich frescos that alternate with the columns on the aisle's exterior walls.  Overhead, the ceiling's elevated arch is as graceful as a heron's wing poised for flight."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Vaulted Aisle East, Ice Shrine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2669": 0.2,
-    "2671": 0.2
-  },
-  "id": 2670,
-  "location": "Koar's Shrine",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

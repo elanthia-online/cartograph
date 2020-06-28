@@ -1,37 +1,34 @@
 {
-  "wayto": {
-    "6997": {
-      "stringproc": "8ce07790b4b61eef74f2ba82357f4694"
-    },
-    "6999": {
-      "stringproc": "0eb6a1801a9a84348641bb7f7f17eb8d"
-    }
-  },
+  "id": 6998,
+  "title": [
+    "[Castle Darkstone]"
+  ],
+  "description": [
+    "You peer up at the intimidating stone towers which flank the entrance to the castle, silently guarding the passage in.  Inexplicably, a mound of hay has been piled up close to the wall here, in odd contrast to the gleaming white mein portcullis which towers overhead."
+  ],
   "paths": [
     "Obvious paths: none"
   ],
+  "location": "Darkstone Castle",
+  "wayto": {
+    "6997": {
+      "file": "string_procs/wayto/6998_6997.rb"
+    },
+    "6999": {
+      "file": "string_procs/wayto/6998_6999.rb"
+    }
+  },
+  "timeto": {
+    "6997": 0.2,
+    "6999": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     320,
     429,
     330,
     439
   ],
-  "terrain": null,
-  "description": [
-    "You peer up at the intimidating stone towers which flank the entrance to the castle, silently guarding the passage in.  Inexplicably, a mound of hay has been piled up close to the wall here, in odd contrast to the gleaming white mein portcullis which towers overhead."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Castle Darkstone]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6997": 0.2,
-    "6999": 0.2
-  },
-  "id": 6998,
-  "location": "Darkstone Castle",
   "tags": [
     "some wingstem root",
     "stalk of chicory",
@@ -40,20 +37,6 @@
     "some wolifrew lichen",
     "cuctucae berry",
     "sassafras leaf",
-    "some acantha leaf",
-    "acantha leaf",
-    "wolifrew lichen",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "heath aster",
-    "bright red cranberry",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some acantha leaf"
   ]
 }

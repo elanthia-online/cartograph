@@ -1,41 +1,32 @@
 {
-  "wayto": {
-    "14089": {
-      "stringproc": "870a598f50834b9c8d83ea068269a5ad"
-    },
-    "12420": "west"
-  },
+  "id": 12421,
+  "title": [
+    "[Abandoned Warehouse, Entry]"
+  ],
+  "description": [
+    "Stacks of boxes form a narrow corridor around you, looking more than a bit unstable in their piling.  A light layer of dust covers them, as if this place had not been cleaned in some time."
+  ],
   "paths": [
     "Obvious exits: west"
   ],
+  "location": "Kharam-Dzu",
+  "wayto": {
+    "14089": {
+      "file": "string_procs/wayto/12421_14089.rb"
+    },
+    "12420": "west"
+  },
+  "timeto": {
+    "14089": {
+      "file": "string_procs/timeto/12421_14089.rb"
+    },
+    "12420": 0.2
+  },
+  "image": "ti-rogue_guild-1486041266.png",
   "image_coords": [
     294,
     733,
     415,
     817
-  ],
-  "terrain": null,
-  "description": [
-    "Stacks of boxes form a narrow corridor around you, looking more than a bit unstable in their piling.  A light layer of dust covers them, as if this place had not been cleaned in some time."
-  ],
-  "image": "ti-rogue_guild-1486041266.png",
-  "climate": null,
-  "title": [
-    "[Abandoned Warehouse, Entry]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "14089": {
-      "stringproc": "12c6b4615e97a2c7fb68a7e5988f17eb"
-    },
-    "12420": 0.2
-  },
-  "id": 12421,
-  "location": "Kharam-Dzu",
-  "tags": [
-
-  ],
-  "links": [
-
   ]
 }

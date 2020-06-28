@@ -1,35 +1,32 @@
 {
+  "id": 2771,
+  "title": [
+    "[Pinefar Forest, Trail]"
+  ],
+  "description": [
+    "The trail winds through the pines, the banks of snow covering it marked here and there by animal tracks.  Among the black branches of  the conifers to either side is the occasional dark bulk of a squirrel nest.  To the northwest, lights twinkle through the pine needles, and the scent of a fire is discernible, carried on the crisp, wintry air."
+  ],
+  "paths": [
+    "Obvious paths: south, northwest"
+  ],
+  "location": "the Pinefar forests",
   "wayto": {
     "2772": "go trail",
     "2773": "northwest",
     "2770": "south"
   },
-  "paths": [
-    "Obvious paths: south, northwest"
-  ],
+  "timeto": {
+    "2772": 0.2,
+    "2773": 0.2,
+    "2770": 0.2
+  },
+  "image": "imt-pinefar-1264234799.png",
   "image_coords": [
     355,
     871,
     365,
     881
   ],
-  "terrain": "missing",
-  "description": [
-    "The trail winds through the pines, the banks of snow covering it marked here and there by animal tracks.  Among the black branches of  the conifers to either side is the occasional dark bulk of a squirrel nest.  To the northwest, lights twinkle through the pine needles, and the scent of a fire is discernible, carried on the crisp, wintry air."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Pinefar Forest, Trail]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2772": 0.2,
-    "2773": 0.2,
-    "2770": 0.2
-  },
-  "id": 2771,
-  "location": "the Pinefar forests",
   "tags": [
     "handful of pinenuts",
     "bright red teaberry",
@@ -64,20 +61,6 @@
     "orange rowanberry",
     "ironfern root",
     "twisted twig",
-    "slender twig",
-    "red lichen",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "wyrmwood bark",
-    "daggit root",
-    "pine needles",
-    "frostweed",
-    "tree bark",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "slender twig"
   ]
 }

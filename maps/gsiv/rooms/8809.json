@@ -1,38 +1,28 @@
 {
+  "id": 8809,
+  "title": [
+    "[Dragonsclaw Arms, Third Floor]"
+  ],
+  "description": [
+    "A small metal bucket has been set in the corner to catch a drip of water from a leak in the ceiling.  One small section of the wall appears to have been recently repaired, and a faint smell of paint is noticeable."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "8810": "north",
     "8808": "west"
   },
-  "paths": [
-    "Obvious exits: north, west"
-  ],
+  "timeto": {
+    "8810": 0.2,
+    "8808": 0.2
+  },
+  "image": "wl-homes-1-1264234799.png",
   "image_coords": [
     650,
     780,
     668,
     798
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A small metal bucket has been set in the corner to catch a drip of water from a leak in the ceiling.  One small section of the wall appears to have been recently repaired, and a faint smell of paint is noticeable."
-  ],
-  "image": "wl-homes-1-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dragonsclaw Arms, Third Floor]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8810": 0.2,
-    "8808": 0.2
-  },
-  "id": 8809,
-  "location": "Wehnimer's Landing",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

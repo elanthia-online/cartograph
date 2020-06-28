@@ -1,33 +1,30 @@
 {
+  "id": 2270,
+  "title": [
+    "[Abandoned Mine]"
+  ],
+  "description": [
+    "Though the ceiling is somewhat low, enough rock has been chipped away on either side of this connecting tunnel to provide reasonably easy passage.  Though it is too dark to see much, the clicking and skittering noises coming from other areas of the mine assure you that you are not alone, although that may not be a comforting thought."
+  ],
+  "paths": [
+    "Obvious exits: west, down"
+  ],
+  "location": "the Abandoned Mine",
   "wayto": {
     "2269": "down",
     "2271": "west"
   },
-  "paths": [
-    "Obvious exits: west, down"
-  ],
+  "timeto": {
+    "2269": 0.2,
+    "2271": 0.2
+  },
+  "image": "ti-teras-1264234799.png",
   "image_coords": [
     522,
     1028,
     530,
     1036
   ],
-  "terrain": "indoors",
-  "description": [
-    "Though the ceiling is somewhat low, enough rock has been chipped away on either side of this connecting tunnel to provide reasonably easy passage.  Though it is too dark to see much, the clicking and skittering noises coming from other areas of the mine assure you that you are not alone, although that may not be a comforting thought."
-  ],
-  "image": "ti-teras-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abandoned Mine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2269": 0.2,
-    "2271": 0.2
-  },
-  "id": 2270,
-  "location": "the Abandoned Mine",
   "tags": [
     "blue trafel mushroom",
     "red trafel mushroom",
@@ -38,15 +35,6 @@
     "black hook mushroom",
     "some cave moss",
     "flathead mushroom",
-    "withered black mushroom",
-    "soft white mushroom",
-    "cave moss",
-    "murdroot",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "withered black mushroom"
   ]
 }

@@ -1,34 +1,26 @@
 {
-  "wayto": {
-    "10397": "go doorway",
-    "3513": "out"
-  },
-  "paths": [
-    "Obvious exits: out"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Soft aquamarine curtains frame the glaesine-paned windows of the herb shop.  Whitewashed haon shelves line the walls, each shelf carefully stocked with a variety of glaes bottles.  A long monir counter, well worn and apparently used as a worktable, rests in the center of the shop.",
-    "Whitewashed haon shelves line the walls of this room, each shelf carefully stocked with a variety of glaes bottles, bandages, herbs, and other healing supplies.  Elven nurses flow around and behind a long monir counter, well-worn and apparently used as a worktable, that rests in the center of the room.  An open doorway to the west leads to the infirmary, and a black-inked sign rests upon the far wall."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 10396,
   "title": [
     "[Saphrie's Herbs and Tinctures]",
     "[Ta'Vaalor, Triage Station]"
   ],
-  "check_location": null,
+  "description": [
+    "Soft aquamarine curtains frame the glaesine-paned windows of the herb shop.  Whitewashed haon shelves line the walls, each shelf carefully stocked with a variety of glaes bottles.  A long monir counter, well worn and apparently used as a worktable, rests in the center of the shop.",
+    "Whitewashed haon shelves line the walls of this room, each shelf carefully stocked with a variety of glaes bottles, bandages, herbs, and other healing supplies.  Elven nurses flow around and behind a long monir counter, well-worn and apparently used as a worktable, that rests in the center of the room.  An open doorway to the west leads to the infirmary, and a black-inked sign rests upon the far wall."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Ta'Vaalor",
+  "wayto": {
+    "10397": "go doorway",
+    "3513": "out"
+  },
   "timeto": {
     "10397": 0.2,
     "3513": 0.2
   },
-  "id": 10396,
-  "location": "Ta'Vaalor",
   "tags": [
     "herbalist"
-  ],
-  "links": [
-
   ]
 }

@@ -1,34 +1,22 @@
 {
-  "wayto": {
-    "24324": "go passageway",
-    "24322": "out"
-  },
+  "id": 24323,
+  "title": [
+    "[Enshrouded Temple]"
+  ],
+  "description": [
+    "The old abandoned temple appears to have been deserted for quite some time.  Several wrotwood trees have grown into the structure, shattering windows and destorying walls.  Dust-laden pews are the only remnants that resemble a place of worship, no other holy trinkets are recognizable in the debris.  Through several broken floorboards is a passageway leading down, surrounding by swamp water."
+  ],
   "paths": [
     "Obvious paths: out",
     "Obvious exits: out"
   ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "The old abandoned temple appears to have been deserted for quite some time.  Several wrotwood trees have grown into the structure, shattering windows and destorying walls.  Dust-laden pews are the only remnants that resemble a place of worship, no other holy trinkets are recognizable in the debris.  Through several broken floorboards is a passageway leading down, surrounding by swamp water."
-  ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Enshrouded Temple]"
-  ],
-  "check_location": null,
+  "location": "the Feywrot Mire",
+  "wayto": {
+    "24324": "go passageway",
+    "24322": "out"
+  },
   "timeto": {
     "24324": 0.2,
     "24322": 0.2
-  },
-  "id": 24323,
-  "location": "the Feywrot Mire",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  }
 }

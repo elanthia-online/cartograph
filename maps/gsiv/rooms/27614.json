@@ -1,38 +1,33 @@
 {
-  "wayto": {
-    "27615": "go scarlet door",
-    "3166": "go path",
-    "27630": "go cedar door"
-  },
-  "paths": [
-    "Obvious paths: none"
+  "id": 27614,
+  "title": [
+    "[Twilight Cavern, Approach]"
   ],
-  "image_coords": [
-    272,
-    509,
-    331,
-    566
-  ],
-  "terrain": null,
   "description": [
     "Built into the southeast side of a hill, a massive earthworks structure looks out over the expanse of darkness.  A rounded scarlet maoral door lit by a small copper lamp in the center of the facade provides entrance to the building.  Cascades of icicles are illuminated by a small copper sconce above a mahogany cedar door set into the face of a hill nearby.  Past a pearlescent granite full moon, a well-cleared path curves up and around the hill.",
     "Built into the western face of an icy hill, a glaes-faced earthworks structure with a rounded scarlet maoral door looks over the expansive plains.  A cascade of icicles forms a canopy above a mahogany cedar door set into the face of the hill near a gnarly mesille tree.  Curving back to the knoll above, an icy path serves as a questionable egress.  A pearlescent granite full moon is set upon the ground at a respectful distance from the glaes-faced cavern."
   ],
-  "image": "imt_Twilight_Cavern.png",
-  "climate": null,
-  "title": [
-    "[Twilight Cavern, Approach]"
+  "paths": [
+    "Obvious paths: none"
   ],
-  "check_location": null,
+  "location": "Icemule Trace",
+  "wayto": {
+    "27615": "go scarlet door",
+    "3166": {
+      "file": "string_procs/wayto/27614_3166.rb"
+    },
+    "27630": "go cedar door"
+  },
   "timeto": {
     "27615": 0.2,
     "3166": 0.2,
     "27630": 0.2
   },
-  "id": 27614,
-  "location": "Icemule Trace",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  "image": "imt_Twilight_Cavern.png",
+  "image_coords": [
+    272,
+    509,
+    331,
+    566
+  ]
 }

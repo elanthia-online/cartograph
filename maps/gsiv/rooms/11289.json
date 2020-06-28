@@ -1,40 +1,32 @@
 {
-  "wayto": {
-    "11288": "out",
-    "11290": {
-      "stringproc": "190c4c05e8d13585da5add4257688e69"
-    }
-  },
+  "id": 11289,
+  "title": [
+    "[Zoo, Fox Cage]"
+  ],
+  "description": [
+    "A clean-picked fox skeleton lies in the back corner of this cage.  Aside from the small wooden box that was once its den, the cage is barren."
+  ],
   "paths": [
     "Obvious paths: out"
   ],
+  "location": "the Citadel",
+  "climate": "humid",
+  "terrain": "hard, flat ",
+  "wayto": {
+    "11288": "out",
+    "11290": {
+      "file": "string_procs/wayto/11289_11290.rb"
+    }
+  },
+  "timeto": {
+    "11288": 0.2,
+    "11290": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     489,
     761,
     499,
     771
-  ],
-  "terrain": "hard, flat ",
-  "description": [
-    "A clean-picked fox skeleton lies in the back corner of this cage.  Aside from the small wooden box that was once its den, the cage is barren."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "humid",
-  "title": [
-    "[Zoo, Fox Cage]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11288": 0.2,
-    "11290": 0.2
-  },
-  "id": 11289,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

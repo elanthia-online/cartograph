@@ -1,33 +1,30 @@
 {
+  "id": 2199,
+  "title": [
+    "[Eye of V'Tull, Inner Circle]"
+  ],
+  "description": [
+    "Walls cracked from enormous pressure of earth and element allow steam to fill the room, causing it to mix with the heavy ash and become sticky on your flesh.  Were you fully exposed you would certainly suffer major burns to the exposed skin.  Even the walls are plastered heavily with the coating, causing this room to be much dimmer than others you have been in."
+  ],
+  "paths": [
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "the Eye of V'Tull",
   "wayto": {
     "2200": "southeast",
     "2198": "northwest"
   },
-  "paths": [
-    "Obvious exits: southeast, northwest"
-  ],
+  "timeto": {
+    "2200": 0.2,
+    "2198": 0.2
+  },
+  "image": "ti-vtull-1264234799.png",
   "image_coords": [
     821,
     655,
     829,
     663
   ],
-  "terrain": "indoors",
-  "description": [
-    "Walls cracked from enormous pressure of earth and element allow steam to fill the room, causing it to mix with the heavy ash and become sticky on your flesh.  Were you fully exposed you would certainly suffer major burns to the exposed skin.  Even the walls are plastered heavily with the coating, causing this room to be much dimmer than others you have been in."
-  ],
-  "image": "ti-vtull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Eye of V'Tull, Inner Circle]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2200": 0.2,
-    "2198": 0.2
-  },
-  "id": 2199,
-  "location": "the Eye of V'Tull",
   "tags": [
     "flathead mushroom",
     "some bolmara lichen",
@@ -36,14 +33,6 @@
     "withered black mushroom",
     "some cave moss",
     "daggerstalk mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "blue trafel mushroom"
   ]
 }

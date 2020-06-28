@@ -1,40 +1,30 @@
 {
+  "id": 6567,
+  "title": [
+    "[Castle Kitchen]"
+  ],
+  "description": [
+    "An overwhelming stink is the most noticeable feature of this chamber.  It was obviously the kitchen for the old fortification.  There's a massive stone slab in its center that offers a generous work surface and an impressive hearth on the far wall, now cold and empty.  A litter of pot shards and old implements pepper the floor, looking as if they were thrown about in a fury.  However, there is nothing that suggests what is causing the terrible stench."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "Castle Anwyn",
   "wayto": {
     "6565": "go door",
     "6568": "south",
     "6569": "west"
   },
-  "paths": [
-    "Obvious exits: south, west"
-  ],
-  "image_coords": [
-    1341,
-    541,
-    1351,
-    551
-  ],
-  "terrain": "indoors",
-  "description": [
-    "An overwhelming stink is the most noticeable feature of this chamber.  It was obviously the kitchen for the old fortification.  There's a massive stone slab in its center that offers a generous work surface and an impressive hearth on the far wall, now cold and empty.  A litter of pot shards and old implements pepper the floor, looking as if they were thrown about in a fury.  However, there is nothing that suggests what is causing the terrible stench."
-  ],
-  "image": "wl-lysierian-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Castle Kitchen]"
-  ],
-  "check_location": null,
   "timeto": {
     "6565": 0.2,
     "6568": 0.2,
     "6569": 0.2
   },
-  "id": 6567,
-  "location": "Castle Anwyn",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-lysierian-1264234799.png",
+  "image_coords": [
+    1341,
+    541,
+    1351,
+    551
   ]
 }

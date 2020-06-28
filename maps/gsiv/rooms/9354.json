@@ -1,33 +1,30 @@
 {
+  "id": 9354,
+  "title": [
+    "[Ravine]"
+  ],
+  "description": [
+    "Deeper into the ravine, the stream becomes wider, and the bank narrower.  The water flows faster, its burbling a lovely accompaniment to the whistle of wind past the rocky sides of the ravine.  To the northwest, the ground becomes rockier, and a huge wall rises up out of the ground."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "9353": "southeast",
     "9355": "northwest"
   },
-  "paths": [
-    "Obvious paths: southeast, northwest"
-  ],
+  "timeto": {
+    "9353": 0.2,
+    "9355": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     1035,
     195,
     1045,
     205
   ],
-  "terrain": "riparian",
-  "description": [
-    "Deeper into the ravine, the stream becomes wider, and the bank narrower.  The water flows faster, its burbling a lovely accompaniment to the whistle of wind past the rocky sides of the ravine.  To the northwest, the ground becomes rockier, and a huge wall rises up out of the ground."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Ravine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9353": 0.2,
-    "9355": 0.2
-  },
-  "id": 9354,
-  "location": "the Cairnfang",
   "tags": [
     "sprig of wild lilac",
     "handful of currants",
@@ -63,10 +60,6 @@
     "murdroot",
     "wavepetal blossom",
     "ironfern root",
-    "talneo root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "talneo root"
   ]
 }

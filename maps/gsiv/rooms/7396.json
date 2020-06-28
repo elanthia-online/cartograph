@@ -1,43 +1,32 @@
 {
+  "id": 7396,
+  "title": [
+    "[Mine Shaft]"
+  ],
+  "description": [
+    "Impenetrable stone walls mark the end of this long musty shaft.  On the ground, shattered remains of broken mining picks lead you to believe that the sudden outcropping of hard rock was not well received."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7395": "east",
     "7397": "go rubble"
   },
-  "paths": [
-    "Obvious exits: east"
-  ],
+  "timeto": {
+    "7395": 0.2,
+    "7397": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1253,
     339,
     1261,
     347
   ],
-  "terrain": "indoors",
-  "description": [
-    "Impenetrable stone walls mark the end of this long musty shaft.  On the ground, shattered remains of broken mining picks lead you to believe that the sudden outcropping of hard rock was not well received."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mine Shaft]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7395": 0.2,
-    "7397": 0.2
-  },
-  "id": 7396,
-  "location": "the Shadow Valley",
   "tags": [
     "some shadowlace moss",
-    "some blue moss",
-    "cave moss",
-    "blackgrove root",
-    "shadowlace moss",
-    "blue moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some blue moss"
   ]
 }

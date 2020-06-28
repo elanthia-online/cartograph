@@ -1,40 +1,33 @@
 {
+  "id": 2418,
+  "title": [
+    "[Commerce Burrow, Elven Alley]"
+  ],
+  "description": [
+    "A tall, brightly painted building dominates the lower end of Elven Alley.  Banners of red, blue, yellow and green dangle from the awnings, rustling slightly in the breeze.  Finely dressed halflings bustle past you, their arms loaded with bright packages from the clothier shop."
+  ],
+  "paths": [
+    "Obvious paths: up"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "3403": "go clothier",
     "2416": "up",
     "2483": "go alley"
   },
-  "paths": [
-    "Obvious paths: up"
-  ],
+  "timeto": {
+    "3403": 0.2,
+    "2416": 0.2,
+    "2483": 0.2
+  },
+  "image": "imt-icemule-1474811966.png",
   "image_coords": [
     759,
     1320,
     795,
     1356
   ],
-  "terrain": "hard, flat",
-  "description": [
-    "A tall, brightly painted building dominates the lower end of Elven Alley.  Banners of red, blue, yellow and green dangle from the awnings, rustling slightly in the breeze.  Finely dressed halflings bustle past you, their arms loaded with bright packages from the clothier shop."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Commerce Burrow, Elven Alley]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3403": 0.2,
-    "2416": 0.2,
-    "2483": 0.2
-  },
-  "id": 2418,
-  "location": "Icemule Trace",
   "tags": [
-    "calmintha flower",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "calmintha flower"
   ]
 }

@@ -1,69 +1,40 @@
 {
-  "wayto": {
-    "2896": {
-      "stringproc": "164006c67986ec66a725adbf1d0e9b75"
-    },
-    "2898": {
-      "stringproc": "b0f776c0579ea686bb874ce06d024eb9"
-    }
-  },
+  "id": 2897,
+  "title": [
+    "[Southern Slopes, Treeline]"
+  ],
+  "description": [
+    "Dunes of snow roll across the treeline slope, their deep furrows hiding ridges and rises.  From time to time, a low rumbling can be heard over the howling wind, but its origin cannot be ascertained.  The air is beyond cold."
+  ],
   "paths": [
     "Obvious paths: northeast, west"
   ],
+  "location": "the Sleeping Lady Mountains",
+  "wayto": {
+    "2896": {
+      "file": "string_procs/wayto/2897_2896.rb"
+    },
+    "2898": {
+      "file": "string_procs/wayto/2897_2898.rb"
+    }
+  },
+  "timeto": {
+    "2896": 7.0,
+    "2898": 7.0
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     1078,
     312,
     1088,
     322
   ],
-  "terrain": "mountainous",
-  "description": [
-    "Dunes of snow roll across the treeline slope, their deep furrows hiding ridges and rises.  From time to time, a low rumbling can be heard over the howling wind, but its origin cannot be ascertained.  The air is beyond cold."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Southern Slopes, Treeline]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2896": 7.0,
-    "2898": 7.0
-  },
-  "id": 2897,
-  "location": "the Sleeping Lady Mountains",
   "tags": [
     "some arctic moss",
     "small loganberry",
     "some tundra grass",
     "orange rowanberry",
     "some wingstem root",
-    "some valerian root",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "edelweiss",
-    "iceblossoms",
-    "snow lily",
-    "winter rose",
-    "arctic moss",
-    "tundra grass",
-    "golden aster",
-    "calamintha blossom",
-    "snowberries",
-    "pale thornberry",
-    "red winterberry",
-    "rockberry",
-    "crowberry",
-    "lingonberry",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some valerian root"
   ]
 }

@@ -1,42 +1,32 @@
 {
+  "id": 1905,
+  "title": [
+    "[Mud Baths, Stone Circle]"
+  ],
+  "description": [
+    "In the middle of Stone Circle, amid the swarming traffic, stands the neighborhood mud baths.  A steady stream of people flows into and out of the low structure built to house the hydrothermal pits.  Intricate statuary graces the eaves of the building, further highlighted by the thick ionic columns holding up the roof."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east, southeast, west"
+  ],
+  "location": "the town of Kharam-Dzu",
   "wayto": {
     "1904": "west",
     "1906": "east",
     "1907": "southeast",
     "12540": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, east, southeast, west"
-  ],
-  "image_coords": [
-    550,
-    531,
-    570,
-    551
-  ],
-  "terrain": "indoors",
-  "description": [
-    "In the middle of Stone Circle, amid the swarming traffic, stands the neighborhood mud baths.  A steady stream of people flows into and out of the low structure built to house the hydrothermal pits.  Intricate statuary graces the eaves of the building, further highlighted by the thick ionic columns holding up the roof."
-  ],
-  "image": "ti-rr-homes-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mud Baths, Stone Circle]"
-  ],
-  "check_location": null,
   "timeto": {
     "1904": 0.2,
     "1906": 0.2,
     "1907": 0.2,
     "12540": 0.2
   },
-  "id": 1905,
-  "location": "the town of Kharam-Dzu",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "ti-rr-homes-1264234799.png",
+  "image_coords": [
+    550,
+    531,
+    570,
+    551
   ]
 }

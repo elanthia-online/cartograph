@@ -1,51 +1,38 @@
 {
-  "wayto": {
-    "4600": "go entrance",
-    "4579": {
-      "stringproc": "dbbfd361e7886ce7121cafa8a1b5c5c5"
-    },
-    "4581": {
-      "stringproc": "395b361a16c8a355265cda519abf9fe5"
-    }
-  },
+  "id": 4580,
+  "title": [
+    "[Griffin's Keen, Snow Scramble]"
+  ],
+  "description": [
+    "Lack of handholds on the ice covered rock and piles of shifting snow on the trail make progress slow and painful.  A loud, shrill sound echoes down the wall of the mountainside.  One can only hope that it is the shriek of the wind."
+  ],
   "paths": [
     "Obvious paths: up, down"
   ],
+  "location": "Griffin's Keen",
+  "wayto": {
+    "4600": "go entrance",
+    "4579": {
+      "file": "string_procs/wayto/4580_4579.rb"
+    },
+    "4581": {
+      "file": "string_procs/wayto/4580_4581.rb"
+    }
+  },
+  "timeto": {
+    "4600": 0.2,
+    "4579": 4.2,
+    "4581": 4.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     529,
     210,
     539,
     220
   ],
-  "terrain": null,
-  "description": [
-    "Lack of handholds on the ice covered rock and piles of shifting snow on the trail make progress slow and painful.  A loud, shrill sound echoes down the wall of the mountainside.  One can only hope that it is the shriek of the wind."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Griffin's Keen, Snow Scramble]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4600": 0.2,
-    "4579": 4.2,
-    "4581": 4.2
-  },
-  "id": 4580,
-  "location": "Griffin's Keen",
   "tags": [
     "sprig of holly",
-    "some angelica root",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some angelica root"
   ]
 }

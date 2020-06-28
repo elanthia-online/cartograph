@@ -1,46 +1,43 @@
 {
-  "wayto": {
-    "13481": {
-      "stringproc": "fa9fcee18948955a1058b8028b99345e"
-    },
-    "1809": {
-      "stringproc": "8b7476bb4cc96c4acbba583e6a653637"
-    },
-    "9895": {
-      "stringproc": "28012e6c12cbd4e43eff199050657128"
-    },
-    "1811": {
-      "stringproc": "ea7a20bd247a5ac90899861acfa590a3"
-    }
-  },
-  "paths": [
-    "Obvious paths: northeast, southeast, northwest"
+  "id": 1810,
+  "title": [
+    "[Wraithenmist, Maze of Mist]"
   ],
-  "image_coords": [
-    372,
-    354,
-    382,
-    364
-  ],
-  "terrain": "deciduous forest",
   "description": [
     "The silvery mist is so thick it is impossible to even see the trees nearby.  The very air glows faintly, as if the mist were a light source on its own, instead of merely reflecting the light from whatever stars might shine above this desolate place.",
     "The silvery mist is so thick it is impossible even to see the trees nearby.  The very air glows faintly, as if the mist were a light source on its own, instead of merely reflecting the light from whatever stars might shine above this desolate place."
   ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Wraithenmist, Maze of Mist]"
+  "paths": [
+    "Obvious paths: northeast, southeast, northwest"
   ],
-  "check_location": null,
+  "location": "Wraithenmist",
+  "wayto": {
+    "13481": {
+      "file": "string_procs/wayto/1810_13481.rb"
+    },
+    "1809": {
+      "file": "string_procs/wayto/1810_1809.rb"
+    },
+    "9895": {
+      "file": "string_procs/wayto/1810_9895.rb"
+    },
+    "1811": {
+      "file": "string_procs/wayto/1810_1811.rb"
+    }
+  },
   "timeto": {
     "13481": 0.4,
     "1809": 0.4,
     "9895": 0.4,
     "1811": 0.4
   },
-  "id": 1810,
-  "location": "Wraithenmist",
+  "image": "en-sylvarraend-1264234799.png",
+  "image_coords": [
+    372,
+    354,
+    382,
+    364
+  ],
   "tags": [
     "some ephlox moss",
     "tkaro root",
@@ -49,44 +46,6 @@
     "some bolmara lichen",
     "some valerian root",
     "blue trafel mushroom",
-    "stick",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "sticks",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "soft white mushroom",
-    "withered black mushroom",
-    "white hook mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "blueberries",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "broken twig",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "small wild rose",
-    "sprig of wild lilac",
-    "wild chokecherry",
-    "bright red cranberry",
-    "tree bark",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "stick"
   ]
 }

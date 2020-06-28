@@ -1,38 +1,28 @@
 {
+  "id": 144,
+  "title": [
+    "[Temple Wyneb, Calvaria]"
+  ],
+  "description": [
+    "Large roots have forced their way through the ceiling and now trail down the wall, questing for buried water.  Several of the root tips appear slightly gnawed.  Somewhere outside and far above your head is a sturdy tree spreading its leafy branches against a boundless sky."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "Temple Wyneb",
   "wayto": {
     "143": "northeast",
     "145": "southwest"
   },
-  "paths": [
-    "Obvious exits: northeast, southwest"
-  ],
+  "timeto": {
+    "143": 0.2,
+    "145": 0.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     556,
     492,
     566,
     502
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Large roots have forced their way through the ceiling and now trail down the wall, questing for buried water.  Several of the root tips appear slightly gnawed.  Somewhere outside and far above your head is a sturdy tree spreading its leafy branches against a boundless sky."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Temple Wyneb, Calvaria]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "143": 0.2,
-    "145": 0.2
-  },
-  "id": 144,
-  "location": "Temple Wyneb",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,40 +1,32 @@
 {
+  "id": 7123,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "Your footsteps echo weirdly in this stretch of hall.  You almost fancy that there is another set behind you, or maybe in front of you, but it must be just the sound reflecting through the stone corridors."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7121": "west",
     "7124": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "7121": 0.2,
+    "7124": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     1001,
     389,
     1011,
     399
   ],
-  "terrain": "indoors",
-  "description": [
-    "Your footsteps echo weirdly in this stretch of hall.  You almost fancy that there is another set behind you, or maybe in front of you, but it must be just the sound reflecting through the stone corridors."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7121": 0.2,
-    "7124": 0.2
-  },
-  "id": 7123,
-  "location": "Darkstone Castle",
   "tags": [
     "kiramon defender",
-    "kiramon worker",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "kiramon worker"
   ]
 }

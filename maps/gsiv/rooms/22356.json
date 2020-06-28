@@ -1,41 +1,33 @@
 {
-  "wayto": {
-    "22367": {
-      "stringproc": "1a29b5e91589cd8061455eaedcfa9d25"
-    },
-    "22368": {
-      "stringproc": "ec1db4674fbf70bdc145a6f62ab9a3dc"
-    },
-    "22369": {
-      "stringproc": "2c00c14cfbb54eb2bedb977561595096"
-    },
-    "22365": {
-      "stringproc": "205dd89cf2e9b2c72576d7e4a7762618"
-    },
-    "22366": {
-      "stringproc": "953a7337ade5f2cb16c990e68d30f200"
-    },
-    "22355": "north"
-  },
-  "paths": [
-    "Obvious exits: north"
-  ],
-  "image_coords": [
-    608,
-    500,
-    671,
-    536
-  ],
-  "terrain": null,
-  "description": [
-    "Covered with a rich, cinereal wool carpet, the marbled alabaster floor melds smoothly with the walls, veins of crimson contrasting with their immaculate surface.  A large ebon marble fireplace dominates the room, a basket of sticks resting at its base.  A number of small meeting tables are set along the perimeter, and a dark sideboard has been placed to the side, its surface covered with various bowls and platters."
-  ],
-  "image": "en-ta_illistim-embassies-1405076623.png",
-  "climate": null,
+  "id": 22356,
   "title": [
     "[Faendryl Embassy, Assemblage]"
   ],
-  "check_location": null,
+  "description": [
+    "Covered with a rich, cinereal wool carpet, the marbled alabaster floor melds smoothly with the walls, veins of crimson contrasting with their immaculate surface.  A large ebon marble fireplace dominates the room, a basket of sticks resting at its base.  A number of small meeting tables are set along the perimeter, and a dark sideboard has been placed to the side, its surface covered with various bowls and platters."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Ta'Illistim Embassies",
+  "wayto": {
+    "22367": {
+      "file": "string_procs/wayto/22356_22367.rb"
+    },
+    "22368": {
+      "file": "string_procs/wayto/22356_22368.rb"
+    },
+    "22369": {
+      "file": "string_procs/wayto/22356_22369.rb"
+    },
+    "22365": {
+      "file": "string_procs/wayto/22356_22365.rb"
+    },
+    "22366": {
+      "file": "string_procs/wayto/22356_22366.rb"
+    },
+    "22355": "north"
+  },
   "timeto": {
     "22367": 0.2,
     "22368": 0.2,
@@ -44,13 +36,11 @@
     "22366": 0.2,
     "22355": 0.2
   },
-  "id": 22356,
-  "location": "Ta'Illistim Embassies",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
+  "image": "en-ta_illistim-embassies-1405076623.png",
+  "image_coords": [
+    608,
+    500,
+    671,
+    536
   ]
 }

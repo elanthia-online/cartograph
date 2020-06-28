@@ -1,33 +1,22 @@
 {
-  "wayto": {
-    "11675": {
-      "stringproc": "e6099debeabbba4b5cfac6c177c79d09"
-    }
-  },
-  "paths": [
-    "Obvious paths: down"
+  "id": 11668,
+  "title": [
+    "[Oteska's Haven, Shanty Rooftop]"
   ],
-  "image_coords": null,
-  "terrain": null,
   "description": [
     "The rooftop is surprisingly sturdy.  A low parapet lines the roof facing the muddy walkway between the buildings.  The light from the moon barely filters through the thick fog.  From this vantage point the rooftops of the other wooden buildings are clearly visible through the fog.",
     "The rooftop is surprisingly sturdy.  A low parapet lines the roof facing the muddy walkway between the buildings.  The light from the sun barely filters through the thick fog.  From this vantage point the rooftops of the other wooden buildings are clearly visible through the fog."
   ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Oteska's Haven, Shanty Rooftop]"
+  "paths": [
+    "Obvious paths: down"
   ],
-  "check_location": null,
+  "location": "the Miasmal Forest",
+  "wayto": {
+    "11675": {
+      "file": "string_procs/wayto/11668_11675.rb"
+    }
+  },
   "timeto": {
     "11675": 0.8
-  },
-  "id": 11668,
-  "location": "the Miasmal Forest",
-  "tags": [
-
-  ],
-  "links": [
-
-  ]
+  }
 }

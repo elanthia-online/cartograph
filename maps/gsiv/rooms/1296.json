@@ -1,33 +1,30 @@
 {
+  "id": 1296,
+  "title": [
+    "[Foothills]"
+  ],
+  "description": [
+    "To the south the trail heads straight towards the western shoulder of Zeltoph Mountain and the band of pine forest that shrouds the slope at its base.  The serried points of a log palisade rise above a hilltop to the northeast."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south"
+  ],
+  "location": "the foothills of Zeltoph",
   "wayto": {
     "1295": "northeast",
     "1297": "south"
   },
-  "paths": [
-    "Obvious paths: northeast, south"
-  ],
+  "timeto": {
+    "1295": 0.2,
+    "1297": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     338,
     156,
     348,
     166
   ],
-  "terrain": "hilly",
-  "description": [
-    "To the south the trail heads straight towards the western shoulder of Zeltoph Mountain and the band of pine forest that shrouds the slope at its base.  The serried points of a log palisade rise above a hilltop to the northeast."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Foothills]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1295": 0.2,
-    "1297": 0.2
-  },
-  "id": 1296,
-  "location": "the foothills of Zeltoph",
   "tags": [
     "sprig of jasmine",
     "traesharm berry",
@@ -83,10 +80,6 @@
     "ebony twig",
     "bolmara lichen",
     "brostheras grass",
-    "woad leaves",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "woad leaves"
   ]
 }

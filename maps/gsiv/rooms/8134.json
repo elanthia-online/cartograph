@@ -1,33 +1,30 @@
 {
+  "id": 8134,
+  "title": [
+    "[Dubh Brugh, Cavern]"
+  ],
+  "description": [
+    "The cavern bends around a sharp and jagged corner.  A chasm gapes darkly parallel to the pathway, leaving only a foot-width or so to walk on in some areas.  Very faint echoes of distant lapping water can be heard."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest"
+  ],
+  "location": "Dubh Brugh",
   "wayto": {
     "8133": "southwest",
     "8135": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast, southwest"
-  ],
+  "timeto": {
+    "8133": 0.2,
+    "8135": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     1279,
     751,
     1289,
     761
   ],
-  "terrain": "indoors",
-  "description": [
-    "The cavern bends around a sharp and jagged corner.  A chasm gapes darkly parallel to the pathway, leaving only a foot-width or so to walk on in some areas.  Very faint echoes of distant lapping water can be heard."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dubh Brugh, Cavern]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8133": 0.2,
-    "8135": 0.2
-  },
-  "id": 8134,
-  "location": "Dubh Brugh",
   "tags": [
     "soft white mushroom",
     "withered black mushroom",
@@ -36,17 +33,6 @@
     "some bolmara lichen",
     "blue trafel mushroom",
     "genkew mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "daggerstalk mushroom"
   ]
 }

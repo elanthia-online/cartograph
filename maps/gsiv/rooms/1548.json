@@ -1,38 +1,28 @@
 {
+  "id": 1548,
+  "title": [
+    "[Solhaven, Fisherman's Quay]"
+  ],
+  "description": [
+    "Crates are piled high atop this end of the Quay, and the sloshing sounds of the bay against its thin supporting timbers mingle with the sounds of many travelers across its planks.  Many skiffs and other small vessels are moored further to the west toward the end of the small dock.  A small shack, its roof draped with numerous fishing nets and other odd implements of the trade, stands at the northern edge of the Quay."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the southern part of Solhaven",
   "wayto": {
     "1547": "east",
     "9303": "go shack"
   },
-  "paths": [
-    "Obvious paths: east"
-  ],
+  "timeto": {
+    "1547": 0.2,
+    "9303": 0.2
+  },
+  "image": "vo-solhaven-1263764670.png",
   "image_coords": [
     453,
     1143,
     477,
     1167
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "Crates are piled high atop this end of the Quay, and the sloshing sounds of the bay against its thin supporting timbers mingle with the sounds of many travelers across its planks.  Many skiffs and other small vessels are moored further to the west toward the end of the small dock.  A small shack, its roof draped with numerous fishing nets and other odd implements of the trade, stands at the northern edge of the Quay."
-  ],
-  "image": "vo-solhaven-1263764670.png",
-  "climate": "temperate",
-  "title": [
-    "[Solhaven, Fisherman's Quay]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1547": 0.2,
-    "9303": 0.2
-  },
-  "id": 1548,
-  "location": "the southern part of Solhaven",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

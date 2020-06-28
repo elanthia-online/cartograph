@@ -1,38 +1,27 @@
 {
+  "id": 11067,
+  "title": [
+    "[Sea Caves]"
+  ],
+  "description": [
+    "Water pours into this room from a waist high hole in the east wall.  To the west, a half-submerged, iron grate sways slightly in the strong current flowing through the room.  The current is strong, but should be manageable."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
   "wayto": {
     "11068": "east",
     "11066": "go grate"
   },
-  "paths": [
-    "Obvious exits: east"
-  ],
+  "timeto": {
+    "11068": 0.2,
+    "11066": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     957,
     138,
     967,
     148
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Water pours into this room from a waist high hole in the east wall.  To the west, a half-submerged, iron grate sways slightly in the strong current flowing through the room.  The current is strong, but should be manageable."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Caves]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11068": 0.2,
-    "11066": 0.2
-  },
-  "id": 11067,
-  "location": "the Sea Caves",
-  "tags": [
-    "murdroot",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

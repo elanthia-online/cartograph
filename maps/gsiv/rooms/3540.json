@@ -1,20 +1,8 @@
 {
-  "wayto": {
-    "3535": "north",
-    "10372": "go cottage",
-    "10373": "go path",
-    "3539": "south"
-  },
-  "paths": [
-    "Obvious paths: north, south"
+  "id": 3540,
+  "title": [
+    "[Ta'Vaalor, Shimaerslin Wey]"
   ],
-  "image_coords": [
-    1376,
-    555,
-    1410,
-    590
-  ],
-  "terrain": null,
   "description": [
     "A sturdy wooden gate, carved with fanciful shapes of dragons chasing their tails, stands slightly ajar.  Beds of fragrant blaeston and lavender crowd the wooden fence on either side of the gate.  A shady path leads deeper into the trees.",
     "The remains of a wooden gate stand, charred and crooked, swaying slightly in the breeze.  The stench of burned flora sits heavily in the air, and charred and broken limbs litter a shady path that leads deeper into the trees.  A number of workers toil away under the watchful gaze of a group of soldiers, repairing and replanting as needed.",
@@ -22,24 +10,27 @@
     "Thick, closely packed trees line the way, their interwoven branches allowing scant moonlight to filter through the canopy.  The only break in the trees is a limestone-clad cottage set off to the west, behind which can be seen a shady path that leads deeper into the trees.  A few soldiers stand about, inspecting passersby stringently.",
     "Thick, closely packed trees line the way, their interwoven branches giving good shade from the sun.  The only break in the trees is a limestone-clad cottage set off to the west, behind which can be seen a shady path that leads deeper into the trees.  A few soldiers stand about, inspecting passersby stringently."
   ],
-  "image": "en-tavaalor-1565907614.png",
-  "climate": null,
-  "title": [
-    "[Ta'Vaalor, Shimaerslin Wey]"
+  "paths": [
+    "Obvious paths: north, south"
   ],
-  "check_location": null,
+  "location": "the city of Ta'Vaalor",
+  "wayto": {
+    "3535": "north",
+    "10372": "go cottage",
+    "10373": "go path",
+    "3539": "south"
+  },
   "timeto": {
     "3535": 0.2,
     "10372": 0.2,
     "10373": 0.2,
     "3539": 0.2
   },
-  "id": 3540,
-  "location": "the city of Ta'Vaalor",
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "en-tavaalor-1565907614.png",
+  "image_coords": [
+    1376,
+    555,
+    1410,
+    590
   ]
 }

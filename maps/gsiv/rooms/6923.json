@@ -1,46 +1,33 @@
 {
+  "id": 6923,
+  "title": [
+    "[Smuggling Tunnels, Passage]"
+  ],
+  "description": [
+    "Shovels, picks and wooden beams lean against the walls, as do a variety of weapons.  Long grooves in the wall, even and deep, speak of an attempt to reopen the tunnels for business, but the work is far from complete.  A single iron shackle has rolled into one pocket in the dirt walls, as if hiding from any who would find it."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east"
+  ],
+  "location": "the smuggling tunnels",
   "wayto": {
     "6921": "northeast",
     "6922": "east"
   },
-  "paths": [
-    "Obvious exits: northeast, east"
-  ],
+  "timeto": {
+    "6921": 0.2,
+    "6922": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     906,
     1464,
     916,
     1474
   ],
-  "terrain": "indoors",
-  "description": [
-    "Shovels, picks and wooden beams lean against the walls, as do a variety of weapons.  Long grooves in the wall, even and deep, speak of an attempt to reopen the tunnels for business, but the work is far from complete.  A single iron shackle has rolled into one pocket in the dirt walls, as if hiding from any who would find it."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Smuggling Tunnels, Passage]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6921": 0.2,
-    "6922": 0.2
-  },
-  "id": 6923,
-  "location": "the smuggling tunnels",
   "tags": [
     "some cave moss",
     "some wingstem root",
-    "withered black mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "withered black mushroom"
   ]
 }

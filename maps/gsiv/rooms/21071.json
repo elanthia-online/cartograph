@@ -1,46 +1,32 @@
 {
-  "wayto": {
-    "21070": {
-      "stringproc": "d85ece0b13067d67ad270f4b82d3239d"
-    },
-    "21072": {
-      "stringproc": "00214580d5fab23d1c7eb0423ef13ba7"
-    }
-  },
+  "id": 21071,
+  "title": [
+    "[Alhan'naht River, The Divide]"
+  ],
+  "description": [
+    "Sharp angles and dark lines divide the Alhan into its two tributaries, the Alhan'aht, which continues its passage to the north, and the Alhan'naht, which continues its tumbling passage to the south.  Frothing as it leaves its sister, the river tumbles in white-capped brilliance through the rough rocks that line its banks."
+  ],
   "paths": [
     "Obvious paths: north, southeast"
   ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "21070": {
+      "file": "string_procs/wayto/21071_21070.rb"
+    },
+    "21072": {
+      "file": "string_procs/wayto/21071_21072.rb"
+    }
+  },
+  "timeto": {
+    "21070": 2.0,
+    "21072": 2.0
+  },
+  "image": "ifw-wilds-1368242816.png",
   "image_coords": [
     1499,
     2162,
     1518,
     2181
-  ],
-  "terrain": "riparian",
-  "description": [
-    "Sharp angles and dark lines divide the Alhan into its two tributaries, the Alhan'aht, which continues its passage to the north, and the Alhan'naht, which continues its tumbling passage to the south.  Frothing as it leaves its sister, the river tumbles in white-capped brilliance through the rough rocks that line its banks."
-  ],
-  "image": "ifw-wilds-1368242816.png",
-  "climate": "freshwater",
-  "title": [
-    "[Alhan'naht River, The Divide]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "21070": 2.0,
-    "21072": 2.0
-  },
-  "id": 21071,
-  "location": "Mist Harbor",
-  "tags": [
-    "stalk of cattail",
-    "murdroot",
-    "wavepetal blossom",
-    "sunburst blossom",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

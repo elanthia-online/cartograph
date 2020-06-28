@@ -1,42 +1,32 @@
 {
+  "id": 6632,
+  "title": [
+    "[Broken Lands, Passage]"
+  ],
+  "description": [
+    "Incandescent globes hang at set intervals along the passage, casting an eerie light over it.  A symphony of shadows is played out along the walls, giving the impression that this passage is not as empty as it appears."
+  ],
+  "paths": [
+    "Obvious exits: southwest, west"
+  ],
+  "location": "the Broken Lands",
   "wayto": {
     "6631": {
-      "stringproc": "34c4b789bbca96051c2f7aae26dc934d"
+      "file": "string_procs/wayto/6632_6631.rb"
     },
     "6633": "west",
     "6635": "southwest"
   },
-  "paths": [
-    "Obvious exits: southwest, west"
-  ],
-  "image_coords": [
-    304,
-    1073,
-    314,
-    1083
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Incandescent globes hang at set intervals along the passage, casting an eerie light over it.  A symphony of shadows is played out along the walls, giving the impression that this passage is not as empty as it appears."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Broken Lands, Passage]"
-  ],
-  "check_location": null,
   "timeto": {
     "6631": 0.2,
     "6633": 0.2,
     "6635": 0.2
   },
-  "id": 6632,
-  "location": "the Broken Lands",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-broken-1264234799.png",
+  "image_coords": [
+    304,
+    1073,
+    314,
+    1083
   ]
 }

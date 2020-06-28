@@ -1,41 +1,33 @@
 {
+  "id": 5424,
+  "title": [
+    "[Bonespear Tower, Hallway]"
+  ],
+  "description": [
+    "The crushed bone walls and ceiling of this hallway are devoid of any decoration, but there are deep gouges covering every surface as if something was trying to claw its way out of this hall.  A low gutteral snarling is coming from somewhere in the passage, but its source is hidden from view."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Bonespear Tower",
   "wayto": {
     "5423": "north",
     "5425": "south"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "5423": 0.2,
+    "5425": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     1021,
     990,
     1031,
     1000
   ],
-  "terrain": "indoors",
-  "description": [
-    "The crushed bone walls and ceiling of this hallway are devoid of any decoration, but there are deep gouges covering every surface as if something was trying to claw its way out of this hall.  A low gutteral snarling is coming from somewhere in the passage, but its source is hidden from view."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Bonespear Tower, Hallway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5423": 0.2,
-    "5425": 0.2
-  },
-  "id": 5424,
-  "location": "Bonespear Tower",
   "tags": [
     "waern",
     "dybbuk",
-    "eidolon",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "eidolon"
   ]
 }

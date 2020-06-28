@@ -1,35 +1,32 @@
 {
+  "id": 2564,
+  "title": [
+    "[Glatoph, Glacier]"
+  ],
+  "description": [
+    "Vaguely, you can make out the shadow of a large snowy hill off to the southwest.  To the east, the nebulous shapes of smaller mounds can be seen, although peering through the harsh flurries makes your eyes smart and water."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south, west"
+  ],
+  "location": "Glatoph",
   "wayto": {
     "2563": "northeast",
     "2565": "west",
     "3554": "south"
   },
-  "paths": [
-    "Obvious paths: northeast, south, west"
-  ],
+  "timeto": {
+    "2563": 0.2,
+    "2565": 0.2,
+    "3554": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     919,
     485,
     929,
     495
   ],
-  "terrain": "mountainous",
-  "description": [
-    "Vaguely, you can make out the shadow of a large snowy hill off to the southwest.  To the east, the nebulous shapes of smaller mounds can be seen, although peering through the harsh flurries makes your eyes smart and water."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Glatoph, Glacier]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2563": 0.2,
-    "2565": 0.2,
-    "3554": 0.2
-  },
-  "id": 2564,
-  "location": "Glatoph",
   "tags": [
     "arctic titan",
     "frost giant",
@@ -40,10 +37,6 @@
     "valerian root",
     "pennyroyal stem",
     "sprig of holly",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

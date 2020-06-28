@@ -1,38 +1,32 @@
 {
+  "id": 17204,
+  "title": [
+    "[Warrior Guild, Hall of Armor]"
+  ],
+  "description": [
+    "The hall stretches far ahead into the recesses of the building, its end marked by a slightly darkened space far away.  Sets of ancient elven armor, elevated and displayed on marble pedestals appear as an endless, mute procession of warriors of auld."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "Ta'Illistim",
   "wayto": {
     "17205": "northeast",
     "17184": "southwest"
   },
-  "paths": [
-    "Obvious exits: northeast, southwest"
-  ],
+  "timeto": {
+    "17205": 0.2,
+    "17184": 0.2
+  },
+  "image": "en-ta_illistim-warrior_guild.png",
   "image_coords": [
     1016,
     785,
     1039,
     812
   ],
-  "terrain": null,
-  "description": [
-    "The hall stretches far ahead into the recesses of the building, its end marked by a slightly darkened space far away.  Sets of ancient elven armor, elevated and displayed on marble pedestals appear as an endless, mute procession of warriors of auld."
-  ],
-  "image": "en-ta_illistim-warrior_guild.png",
-  "climate": null,
-  "title": [
-    "[Warrior Guild, Hall of Armor]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "17205": 0.2,
-    "17184": 0.2
-  },
-  "id": 17204,
-  "location": "Ta'Illistim",
   "tags": [
     "warrior guild armor",
     "warrior guild floor"
-  ],
-  "links": [
-
   ]
 }

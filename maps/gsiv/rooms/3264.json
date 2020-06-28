@@ -1,39 +1,36 @@
 {
+  "id": 3264,
+  "title": [
+    "[Ice Plains, Hill Base]"
+  ],
+  "description": [
+    "The path leads you closer to the south side of the hill where large cave openings can be seen scattered along the base.  The closest opening is one of three along this side and has heavy gouges around the lower edges.  To the left of the opening is a staircase that has been carved into the side of the hill leading upwards to a wide ledge."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the Ice Plains",
   "wayto": {
     "3280": "climb stair",
     "3239": {
-      "stringproc": "0b4759fb574bec98fdf9b49dee4fb65b"
+      "file": "string_procs/wayto/3264_3239.rb"
     },
     "3274": "go open",
     "3265": "east"
   },
-  "paths": [
-    "Obvious paths: east"
-  ],
-  "image_coords": [
-    316,
-    410,
-    326,
-    420
-  ],
-  "terrain": "plain dirt",
-  "description": [
-    "The path leads you closer to the south side of the hill where large cave openings can be seen scattered along the base.  The closest opening is one of three along this side and has heavy gouges around the lower edges.  To the left of the opening is a staircase that has been carved into the side of the hill leading upwards to a wide ledge."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Ice Plains, Hill Base]"
-  ],
-  "check_location": null,
   "timeto": {
     "3280": 0.2,
     "3239": 1.0,
     "3274": 0.2,
     "3265": 0.2
   },
-  "id": 3264,
-  "location": "the Ice Plains",
+  "image": "imt-east_west_north_gates-1264234799.png",
+  "image_coords": [
+    316,
+    410,
+    326,
+    420
+  ],
   "tags": [
     "winter rose",
     "sassafras leaf",
@@ -42,15 +39,6 @@
     "frostflower",
     "sweetfern stalk",
     "some valerian root",
-    "some pennyroyal stem",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "arctic moss",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some pennyroyal stem"
   ]
 }

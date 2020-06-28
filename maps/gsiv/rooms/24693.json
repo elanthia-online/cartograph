@@ -1,33 +1,30 @@
 {
+  "id": 24693,
+  "title": [
+    "[Red Forest, Ring of Mist]"
+  ],
+  "description": [
+    "Small burrows dot the ground in gathered pockets, some of them collapsed, while others are overgrown with vines and dense foliage.  The flaky remnants of moulting scales from a serpent stretch along the top of a long tree branch above."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Red Forest",
   "wayto": {
     "24692": "west",
     "24694": "east"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "24692": 0.2,
+    "24694": 0.2
+  },
+  "image": "red_forest-1260914757.png",
   "image_coords": [
     270,
     274,
     284,
     289
   ],
-  "terrain": null,
-  "description": [
-    "Small burrows dot the ground in gathered pockets, some of them collapsed, while others are overgrown with vines and dense foliage.  The flaky remnants of moulting scales from a serpent stretch along the top of a long tree branch above."
-  ],
-  "image": "red_forest-1260914757.png",
-  "climate": null,
-  "title": [
-    "[Red Forest, Ring of Mist]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24692": 0.2,
-    "24694": 0.2
-  },
-  "id": 24693,
-  "location": "the Displaced Red Forest",
   "tags": [
     "fiddlehead fern",
     "some tree bark",
@@ -60,26 +57,6 @@
     "bright red teaberry",
     "white hook mushroom",
     "sweetfern stalk",
-    "some valerian root",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "sticks",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "blueberries",
-    "broken twig",
-    "tree bark",
-    "mistweed",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+    "some valerian root"
+  ]
 }

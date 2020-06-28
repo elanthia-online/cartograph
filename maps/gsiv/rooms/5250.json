@@ -1,35 +1,32 @@
 {
+  "id": 5250,
+  "title": [
+    "[Vornavian Coast, Coastal Woods]"
+  ],
+  "description": [
+    "The path turns sharply to the southwest and southeast here, looping around a small, marshy area to the south.  Stepping off the path to the south here means sinking to the ankle in mud.  A small spring could be the source of the wetland."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest"
+  ],
+  "location": "the Vornavian Coast",
   "wayto": {
     "5249": "southwest",
     "5251": "climb hole",
     "5252": "southeast"
   },
-  "paths": [
-    "Obvious paths: southeast, southwest"
-  ],
+  "timeto": {
+    "5249": 0.2,
+    "5251": 0.2,
+    "5252": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     533,
     741,
     543,
     751
   ],
-  "terrain": "riparian",
-  "description": [
-    "The path turns sharply to the southwest and southeast here, looping around a small, marshy area to the south.  Stepping off the path to the south here means sinking to the ankle in mud.  A small spring could be the source of the wetland."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Vornavian Coast, Coastal Woods]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5249": 0.2,
-    "5251": 0.2,
-    "5252": 0.2
-  },
-  "id": 5250,
-  "location": "the Vornavian Coast",
   "tags": [
     "yellow clover blossom",
     "stalk of cattail",
@@ -46,30 +43,6 @@
     "handful of currants",
     "sprig of Imaera's Lace",
     "wild gooseberry",
-    "flathead mushroom",
-    "acantha leaf",
-    "calamia fruit",
-    "daggerstalk mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "blueberries",
-    "fiddlehead fern",
-    "wild grapes",
-    "stalk of bluebells",
-    "purple clover blossom",
-    "stalk of goldenrod",
-    "sprig of wild lilac",
-    "Imaera's Lace",
-    "kylan berry",
-    "pepperthorn root",
-    "murdroot",
-    "wavepetal blossom",
-    "ironfern root",
-    "talneo root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "flathead mushroom"
   ]
 }

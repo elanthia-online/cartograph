@@ -1,48 +1,36 @@
 {
+  "id": 8423,
+  "title": [
+    "[Thanatoph Bowels, Cavern]"
+  ],
+  "description": [
+    "A path leads upward but abruptly ends at a massive barrier of rocks and dirt.  The passage may have led to an exit, but it would take an army of workers to clear the rubble piled here.  Thudding can be heard from the other side of the heap, but there is no way to tell what might be causing it."
+  ],
+  "paths": [
+    "Obvious exits: north, east, southeast"
+  ],
+  "location": "the bowels of Thanatoph",
   "wayto": {
     "8429": "east",
     "8422": "north",
     "8424": "southeast"
   },
-  "paths": [
-    "Obvious exits: north, east, southeast"
-  ],
+  "timeto": {
+    "8429": 0.2,
+    "8422": 0.2,
+    "8424": 0.2
+  },
+  "image": "wl-stronghold-1264234799.png",
   "image_coords": [
     1187,
     700,
     1197,
     710
   ],
-  "terrain": "indoors",
-  "description": [
-    "A path leads upward but abruptly ends at a massive barrier of rocks and dirt.  The passage may have led to an exit, but it would take an army of workers to clear the rubble piled here.  Thudding can be heard from the other side of the heap, but there is no way to tell what might be causing it."
-  ],
-  "image": "wl-stronghold-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thanatoph Bowels, Cavern]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8429": 0.2,
-    "8422": 0.2,
-    "8424": 0.2
-  },
-  "id": 8423,
-  "location": "the bowels of Thanatoph",
   "tags": [
     "some wingstem root",
     "some wolifrew lichen",
     "some cave moss",
-    "withered black mushroom",
-    "wolifrew lichen",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "withered black mushroom"
   ]
 }

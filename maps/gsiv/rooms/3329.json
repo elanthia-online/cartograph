@@ -1,43 +1,32 @@
 {
+  "id": 3329,
+  "title": [
+    "[Icemule, Ruins]"
+  ],
+  "description": [
+    "What once was a two-story house sits at the edge of this cavern.  A huge slab of ice has knocked the second story down, scattering bedding and parts of furniture across the slick floor.  The rest of the house creaks and groans, as if it could fall to bits at any moment."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, southeast, west"
+  ],
+  "location": "the Glacier",
   "wayto": {
     "3328": "southeast",
     "3318": "west",
     "3330": "northeast",
     "3331": "north"
   },
-  "paths": [
-    "Obvious exits: north, northeast, southeast, west"
-  ],
-  "image_coords": [
-    1365,
-    943,
-    1375,
-    953
-  ],
-  "terrain": "indoors",
-  "description": [
-    "What once was a two-story house sits at the edge of this cavern.  A huge slab of ice has knocked the second story down, scattering bedding and parts of furniture across the slick floor.  The rest of the house creaks and groans, as if it could fall to bits at any moment."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Icemule, Ruins]"
-  ],
-  "check_location": null,
   "timeto": {
     "3328": 0.2,
     "3318": 0.2,
     "3330": 0.2,
     "3331": 0.2
   },
-  "id": 3329,
-  "location": "the Glacier",
-  "tags": [
-    "arctic moss",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "imt-east_west_north_gates-1264234799.png",
+  "image_coords": [
+    1365,
+    943,
+    1375,
+    953
   ]
 }

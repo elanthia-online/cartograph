@@ -1,42 +1,35 @@
 {
+  "id": 23780,
+  "title": [
+    "[Duskruin Arena, Sands Approach]"
+  ],
+  "description": [
+    "Still visible beneath a thin layer of sand, dark stains mar the stone floor, the coloring that of dried blood creating a grisly pathway through the entrance to the arena itself, just visible ahead.  Bright torchlight illuminates the arena beyond, spilling through into the otherwise dark corridor.",
+    "Still visible beneath a thin layer of sand, dark stains mar the stone floor, the coloring that of dried blood creating a grisly pathway through the entrance to the arena itself, just visible ahead.  Bright torchlight illuminates the arena beyond, spilling through into the otherwise dark corridor.  A ramp leads slightly downward to another arena entrance."
+  ],
+  "paths": [
+    "Obvious exits: south, down"
+  ],
+  "location": "Duskruin Arena",
   "wayto": {
     "23779": "south",
     "26387": "down"
   },
-  "paths": [
-    "Obvious exits: south, down"
-  ],
+  "timeto": {
+    "23779": 0.2,
+    "26387": 0.2
+  },
+  "image": "fest-duskruin-1503606263.png",
   "image_coords": [
     1008,
     379,
     1040,
     410
   ],
-  "terrain": null,
-  "description": [
-    "Still visible beneath a thin layer of sand, dark stains mar the stone floor, the coloring that of dried blood creating a grisly pathway through the entrance to the arena itself, just visible ahead.  Bright torchlight illuminates the arena beyond, spilling through into the otherwise dark corridor.",
-    "Still visible beneath a thin layer of sand, dark stains mar the stone floor, the coloring that of dried blood creating a grisly pathway through the entrance to the arena itself, just visible ahead.  Bright torchlight illuminates the arena beyond, spilling through into the otherwise dark corridor.  A ramp leads slightly downward to another arena entrance."
-  ],
-  "image": "fest-duskruin-1503606263.png",
-  "climate": null,
-  "title": [
-    "[Duskruin Arena, Sands Approach]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "23779": 0.2,
-    "26387": 0.2
-  },
-  "id": 23780,
-  "location": "Duskruin Arena",
   "tags": [
     "node",
     "arena",
     "meta:mapcategory:Events and Festivals",
     "meta:mapname:Duskruin"
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

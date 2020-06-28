@@ -1,49 +1,35 @@
 {
+  "id": 6904,
+  "title": [
+    "[Smuggling Tunnels, Passage]"
+  ],
+  "description": [
+    "Although the air is still, you would swear you heard the whisper of wind.  A single coin of unrecognizable origin sits forgotten in the dirt next to one wall, the owner long since gone from this place.  Even the token-loving rats have left it be, for not even tiny footprints walk around it."
+  ],
+  "paths": [
+    "Obvious exits: north, east, southwest, northwest"
+  ],
+  "location": "the smuggling tunnels",
   "wayto": {
     "6905": "east",
     "6906": "northwest",
     "6908": "southwest",
     "6903": "north"
   },
-  "paths": [
-    "Obvious exits: north, east, southwest, northwest"
-  ],
-  "image_coords": [
-    1130,
-    1435,
-    1140,
-    1445
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Although the air is still, you would swear you heard the whisper of wind.  A single coin of unrecognizable origin sits forgotten in the dirt next to one wall, the owner long since gone from this place.  Even the token-loving rats have left it be, for not even tiny footprints walk around it."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Smuggling Tunnels, Passage]"
-  ],
-  "check_location": null,
   "timeto": {
     "6905": 0.2,
     "6906": 0.2,
     "6908": 0.2,
     "6903": 0.2
   },
-  "id": 6904,
-  "location": "the smuggling tunnels",
-  "tags": [
-    "some bur-clover root",
-    "withered black mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
+  "image": "wl-gates-1264234799.png",
+  "image_coords": [
+    1130,
+    1435,
+    1140,
+    1445
   ],
-  "links": [
-
+  "tags": [
+    "some bur-clover root"
   ]
 }

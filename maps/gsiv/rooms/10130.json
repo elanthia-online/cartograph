@@ -1,43 +1,37 @@
 {
+  "id": 10130,
+  "title": [
+    "[Fethayl Bog, Muddy Slough]"
+  ],
+  "description": [
+    "The nearby saw grass has overgrown the trail in some places and rustles softly in the breeze.  Where the trail is still clear, some recent disturbances in the mud indicate that it may be deeper than it looks.  A lake of thick mud, littered with several unidentifiable objects discarded by previous travelers, blocks passage to the southeast."
+  ],
+  "paths": [
+    "Obvious paths: west, northwest"
+  ],
+  "location": "Fethayl Bog",
   "wayto": {
     "10133": {
-      "stringproc": "c7a2d62228dd9c46d1439175e5ce64c5"
+      "file": "string_procs/wayto/10130_10133.rb"
     },
     "10128": "northwest",
     "10131": "west"
   },
-  "paths": [
-    "Obvious paths: west, northwest"
-  ],
+  "timeto": {
+    "10133": 5.0,
+    "10128": 0.2,
+    "10131": 0.2
+  },
+  "image": "en-fearling-1264234799.png",
   "image_coords": [
     1113,
     231,
     1123,
     241
   ],
-  "terrain": null,
-  "description": [
-    "The nearby saw grass has overgrown the trail in some places and rustles softly in the breeze.  Where the trail is still clear, some recent disturbances in the mud indicate that it may be deeper than it looks.  A lake of thick mud, littered with several unidentifiable objects discarded by previous travelers, blocks passage to the southeast."
-  ],
-  "image": "en-fearling-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Fethayl Bog, Muddy Slough]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10133": 5.0,
-    "10128": 0.2,
-    "10131": 0.2
-  },
-  "id": 10130,
-  "location": "Fethayl Bog",
   "tags": [
     "murdroot",
     "wavepetal blossom",
     "bolmara lichen"
-  ],
-  "links": [
-
   ]
 }

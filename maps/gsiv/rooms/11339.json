@@ -1,35 +1,32 @@
 {
+  "id": 11339,
+  "title": [
+    "[Citadel, Outside]"
+  ],
+  "description": [
+    "A single ebony brick, of a type of rock unknown to you, has fallen from the top of the Citadel and rests on the ground.  No grass grows near the brick.  A rock-lined path leads around the edge of the Citadel."
+  ],
+  "paths": [
+    "Obvious paths: north, east"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11338": "n",
     "11340": "e",
     "11344": "go rock path"
   },
-  "paths": [
-    "Obvious paths: north, east"
-  ],
+  "timeto": {
+    "11338": 0.2,
+    "11340": 0.2,
+    "11344": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     601,
     1252,
     611,
     1262
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "A single ebony brick, of a type of rock unknown to you, has fallen from the top of the Citadel and rests on the ground.  No grass grows near the brick.  A rock-lined path leads around the edge of the Citadel."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "moist",
-  "title": [
-    "[Citadel, Outside]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11338": 0.2,
-    "11340": 0.2,
-    "11344": 0.2
-  },
-  "id": 11339,
-  "location": "the Citadel",
   "tags": [
     "some aloeas stem",
     "bright red cranberry",
@@ -41,17 +38,6 @@
     "some wingstem root",
     "some calamia fruit",
     "wild chokecherry",
-    "some motherwort",
-    "acantha leaf",
-    "calamia fruit",
-    "aloeas stem",
-    "motherwort",
-    "murkweed",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some motherwort"
   ]
 }

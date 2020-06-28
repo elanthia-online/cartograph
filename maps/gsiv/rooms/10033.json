@@ -1,34 +1,31 @@
 {
+  "id": 10033,
+  "title": [
+    "[Yegharren Plain, Forest's Edge]"
+  ],
+  "description": [
+    "Slippery, moss-covered roots protrude from the rotting carpet of fallen leaves that covers the ground, ready to trip the unwary who move too quickly along the uneven trail.  What little light filters through the heavy, twisted branches of the trees illuminates the forest with an eerie greenish glow.",
+    "Slippery, moss-covered roots protrude from the rotting carpet of fallen leaves that covers the ground, ready to trip the unwary who move too quickly along the uneven trail.  What little moonlight filters through the heavy, twisted branches of the trees illuminates the forest with an eerie greenish glow."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "the Yegharren Plains",
   "wayto": {
     "10027": "east",
     "10032": "southwest"
   },
-  "paths": [
-    "Obvious paths: east, southwest"
-  ],
+  "timeto": {
+    "10027": 0.2,
+    "10032": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     1165,
     410,
     1173,
     418
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "Slippery, moss-covered roots protrude from the rotting carpet of fallen leaves that covers the ground, ready to trip the unwary who move too quickly along the uneven trail.  What little light filters through the heavy, twisted branches of the trees illuminates the forest with an eerie greenish glow.",
-    "Slippery, moss-covered roots protrude from the rotting carpet of fallen leaves that covers the ground, ready to trip the unwary who move too quickly along the uneven trail.  What little moonlight filters through the heavy, twisted branches of the trees illuminates the forest with an eerie greenish glow."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Yegharren Plain, Forest's Edge]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10027": 0.2,
-    "10032": 0.2
-  },
-  "id": 10033,
-  "location": "the Yegharren Plains",
   "tags": [
     "white hook mushroom",
     "some brostheras grass",
@@ -41,41 +38,6 @@
     "bright red cranberry",
     "some valerian root",
     "some bolmara lichen",
-    "wild chokecherry",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "tkaro root",
-    "sticks",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "soft white mushroom",
-    "withered black mushroom",
-    "wintergreen leaf",
-    "blueberries",
-    "fiddlehead fern",
-    "broken twig",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "small wild rose",
-    "sprig of wild lilac",
-    "tree bark",
-    "blue whortleberry",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wild chokecherry"
   ]
 }

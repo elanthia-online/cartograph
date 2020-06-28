@@ -1,33 +1,30 @@
 {
+  "id": 8068,
+  "title": [
+    "[Luinne Bheinn, Pass]"
+  ],
+  "description": [
+    "A cold wind blasts through the narrow pass, at times tugging rocks loose from the close mountainsides.  The wind's furious passage brings forth a low, haunting melody."
+  ],
+  "paths": [
+    "Obvious paths: southeast, down"
+  ],
+  "location": "Luinne Bheinn",
   "wayto": {
     "8067": "down",
     "8069": "southeast"
   },
-  "paths": [
-    "Obvious paths: southeast, down"
-  ],
+  "timeto": {
+    "8067": 0.2,
+    "8069": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     668,
     814,
     678,
     824
   ],
-  "terrain": "mountainous",
-  "description": [
-    "A cold wind blasts through the narrow pass, at times tugging rocks loose from the close mountainsides.  The wind's furious passage brings forth a low, haunting melody."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Luinne Bheinn, Pass]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8067": 0.2,
-    "8069": 0.2
-  },
-  "id": 8068,
-  "location": "Luinne Bheinn",
   "tags": [
     "some pennyroyal stem",
     "some angelica root",
@@ -39,17 +36,6 @@
     "some valerian root",
     "cuctucae berry",
     "marallis berry",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sassafras leaf"
   ]
 }

@@ -1,37 +1,30 @@
 {
-  "wayto": {
-    "25615": "row west",
-    "18823": {
-      "stringproc": "085861aa8fe7b7520ef239c4a62ca114"
-    }
-  },
+  "id": 25543,
+  "title": [
+    "[Mistydeep, Northern Strand]"
+  ],
+  "description": [
+    "Breaking around the shore of a broad forested island, two branches of the Mistydeep converge to resume their joint ramble southeastward.  Casting a long shadow across the water is a multi-turreted tower that reaches skyward.  The dusky granite, of which the tower is constructed, is so cunningly crafted that some portions appear carved from a natural rock formation.  Numerous narrow windows gape uncovered, revealing only darkness within.  Skirting the building, a tangled thicket keeps outsiders at bay."
+  ],
   "paths": [
     "Obvious paths: north, east, southeast, south, west, down"
   ],
+  "location": "the northern reaches of the Mistydeep River",
+  "wayto": {
+    "25615": "row west",
+    "18823": {
+      "file": "string_procs/wayto/25543_18823.rb"
+    }
+  },
+  "timeto": {
+    "25615": 3.2,
+    "18823": 0.2
+  },
+  "image": "en-ravelin.png",
   "image_coords": [
     1243,
     850,
     1262,
     869
-  ],
-  "terrain": null,
-  "description": [
-    "Breaking around the shore of a broad forested island, two branches of the Mistydeep converge to resume their joint ramble southeastward.  Casting a long shadow across the water is a multi-turreted tower that reaches skyward.  The dusky granite, of which the tower is constructed, is so cunningly crafted that some portions appear carved from a natural rock formation.  Numerous narrow windows gape uncovered, revealing only darkness within.  Skirting the building, a tangled thicket keeps outsiders at bay."
-  ],
-  "image": "en-ravelin.png",
-  "climate": null,
-  "title": [
-    "[Mistydeep, Northern Strand]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "25615": 3.2,
-    "18823": 0.2
-  },
-  "id": 25543,
-  "location": "the northern reaches of the Mistydeep River",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

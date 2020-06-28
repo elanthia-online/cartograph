@@ -1,40 +1,30 @@
 {
+  "id": 16792,
+  "title": [
+    "[Graveyard, Under Crypt]"
+  ],
+  "description": [
+    "A bewildering series of tunnels through the rock greets you.  While not shaped by clever craftsmen, the channels do not appear natural.  Trails of slime coat the ground and lead off in several directions."
+  ],
+  "paths": [
+    "Obvious exits: east, southwest, west, northwest"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "16793": "northwest",
     "7301": "east",
     "7303": "southwest"
   },
-  "paths": [
-    "Obvious exits: east, southwest, west, northwest"
-  ],
-  "image_coords": [
-    485,
-    559,
-    495,
-    569
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A bewildering series of tunnels through the rock greets you.  While not shaped by clever craftsmen, the channels do not appear natural.  Trails of slime coat the ground and lead off in several directions."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Graveyard, Under Crypt]"
-  ],
-  "check_location": null,
   "timeto": {
     "16793": 0.2,
     "7301": 0.2,
     "7303": 0.2
   },
-  "id": 16792,
-  "location": "the Graveyard",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-graveyard-1264234799.png",
+  "image_coords": [
+    485,
+    559,
+    495,
+    569
   ]
 }

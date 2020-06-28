@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "12208": {
-      "stringproc": "a0576f0215d746452e7afb93c1ee082c"
-    },
-    "2613": "west",
-    "2635": {
-      "stringproc": "01b8924575c8d70e4ed7eea7ed00be84"
-    },
-    "12101": {
-      "stringproc": "cf4b8e5b125b22b01c9349827d02c9fd"
-    },
-    "2615": "southeast"
-  },
+  "id": 2614,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "A huge cliff looms before you, stretching far into the sky above.  About halfway up the face an immense red-skinned man rides the air currents, flapping his leathery wings to hold his position.  On the wall next to him are crude columns made of bodies impaled to the wall, each column topped off with a different type of weapon resting on rough hooks."
+  ],
   "paths": [
     "Obvious exits: southeast, west",
     "Obvious paths: southeast, west"
   ],
-  "image_coords": [
-    280,
-    778,
-    290,
-    788
-  ],
-  "terrain": null,
-  "description": [
-    "A huge cliff looms before you, stretching far into the sky above.  About halfway up the face an immense red-skinned man rides the air currents, flapping his leathery wings to hold his position.  On the wall next to him are crude columns made of bodies impaled to the wall, each column topped off with a different type of weapon resting on rough hooks."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12208": {
+      "file": "string_procs/wayto/2614_12208.rb"
+    },
+    "2613": "west",
+    "2635": {
+      "file": "string_procs/wayto/2614_2635.rb"
+    },
+    "12101": {
+      "file": "string_procs/wayto/2614_12101.rb"
+    },
+    "2615": "southeast"
+  },
   "timeto": {
     "12208": 22.0,
     "2613": 0.2,
@@ -39,8 +31,13 @@
     "12101": 26.0,
     "2615": 0.2
   },
-  "id": 2614,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    280,
+    778,
+    290,
+    788
+  ],
   "tags": [
     "mass of congealed slime",
     "discolored fleshbinder bud",
@@ -49,8 +46,5 @@
     "oozing fleshsore bulb",
     "twisted black mawflower",
     "withered deathblossom"
-  ],
-  "links": [
-
   ]
 }

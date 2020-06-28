@@ -1,40 +1,30 @@
 {
+  "id": 2990,
+  "title": [
+    "[Abbey Buttery]"
+  ],
+  "description": [
+    "Wide shelves on the walls still hold remnants of wine sacks and broken wooden goblets.  The dais windows in the great hall are just visible through the traceries of the buttery screen, which supports a small gallery."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "the Abbey",
   "wayto": {
     "2952": "go screen",
     "2989": "down",
     "2991": "up"
   },
-  "paths": [
-    "Obvious exits: up, down"
-  ],
-  "image_coords": [
-    699,
-    565,
-    709,
-    575
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Wide shelves on the walls still hold remnants of wine sacks and broken wooden goblets.  The dais windows in the great hall are just visible through the traceries of the buttery screen, which supports a small gallery."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abbey Buttery]"
-  ],
-  "check_location": null,
   "timeto": {
     "2952": 0.2,
     "2989": 0.2,
     "2991": 0.2
   },
-  "id": 2990,
-  "location": "the Abbey",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "imt-east_west_north_gates-1264234799.png",
+  "image_coords": [
+    699,
+    565,
+    709,
+    575
   ]
 }

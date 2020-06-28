@@ -1,53 +1,46 @@
 {
-  "wayto": {
-    "4171": {
-      "stringproc": "91541a021309b2e0369b2b8b679e5381"
-    },
-    "4173": {
-      "stringproc": "8ae52aa8b0b2b43811411468a2daac08"
-    },
-    "4174": {
-      "stringproc": "19fc2819df3ba7118e2e66e8573b3ef8"
-    },
-    "16806": "north"
-  },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
-  "image_coords": [
-    767,
-    835,
-    777,
-    845
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This cavern is caked with dried blood which coats the floor and walls in this area drinking in all the light.  Every cave looks like the last as you struggle to find your way around inside them."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
+  "id": 4172,
   "title": [
     "[Minion Quarters]"
   ],
-  "check_location": null,
+  "description": [
+    "This cavern is caked with dried blood which coats the floor and walls in this area drinking in all the light.  Every cave looks like the last as you struggle to find your way around inside them."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Graveyard",
+  "wayto": {
+    "4171": {
+      "file": "string_procs/wayto/4172_4171.rb"
+    },
+    "4173": {
+      "file": "string_procs/wayto/4172_4173.rb"
+    },
+    "4174": {
+      "file": "string_procs/wayto/4172_4174.rb"
+    },
+    "16806": "north"
+  },
   "timeto": {
     "4171": 1.8,
     "4173": 1.8,
     "4174": 0.6,
     "16806": 0.2
   },
-  "id": 4172,
-  "location": "the Graveyard",
+  "image": "wl-graveyard-1264234799.png",
+  "image_coords": [
+    767,
+    835,
+    777,
+    845
+  ],
   "tags": [
     "wolifrew lichen",
     "withered black mushroom",
     "cave moss",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

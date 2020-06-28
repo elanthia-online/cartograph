@@ -1,68 +1,36 @@
 {
+  "id": 11675,
+  "title": [
+    "[Dismal Slough, Oteska's Haven]"
+  ],
+  "description": [
+    "A deep layer of mud covers what must have once been a dirt walkway leading between a collection of decrepit shanties and shacks constructed from planks of weathered wood.  The doorways to the structures have all been battered and broken.  Fog drifts among the structures like the ghosts."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south, west"
+  ],
+  "location": "the Miasmal Forest",
   "wayto": {
     "11667": "north",
     "11670": "west",
     "11676": "east"
   },
-  "paths": [
-    "Obvious paths: north, east, south, west"
-  ],
+  "timeto": {
+    "11667": 0.2,
+    "11670": 0.2,
+    "11676": 0.2
+  },
+  "image": "rr-maelstrom-1266390501.png",
   "image_coords": [
     873,
     137,
     883,
     147
   ],
-  "terrain": "muddy wetlands",
-  "description": [
-    "A deep layer of mud covers what must have once been a dirt walkway leading between a collection of decrepit shanties and shacks constructed from planks of weathered wood.  The doorways to the structures have all been battered and broken.  Fog drifts among the structures like the ghosts."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "moist",
-  "title": [
-    "[Dismal Slough, Oteska's Haven]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11667": 0.2,
-    "11670": 0.2,
-    "11676": 0.2
-  },
-  "id": 11675,
-  "location": "the Miasmal Forest",
   "tags": [
     "purple passionflower",
     "some bur-clover root",
     "some aloeas stem",
-    "orange heliconia",
-    "calamia fruit",
-    "aloeas stem",
-    "trollfear mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "water chestnut",
-    "stalk of cattail",
-    "spider lily",
-    "alligator lily",
-    "kylan berry",
-    "yellow heliconia",
-    "pink heliconia",
-    "red heliconia",
-    "pink passionflower",
-    "red passionflower",
-    "murdroot",
-    "wavepetal blossom",
-    "bolmara lichen",
-    "talneo root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "orange heliconia"
   ]
 }

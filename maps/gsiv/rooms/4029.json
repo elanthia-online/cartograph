@@ -1,36 +1,24 @@
 {
-  "wayto": {
-    "4027": {
-      "stringproc": "73abfad3712911d623aa6cd79f3e1049"
-    },
-    "4030": {
-      "stringproc": "4fa63caa08195b61db30a647cdf1dac1"
-    }
-  },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Golden monir panelling lines this relatively featureless hallway.  Dark green marble clads the floor, lined in the center with a narrow strip of amber-hued carpeting.  Amber lamps, mounted to the monir panelling, march onward down the hallway."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 4029,
   "title": [
     "[Ta'Illistim Keep, Hallway]"
   ],
-  "check_location": null,
+  "description": [
+    "Golden monir panelling lines this relatively featureless hallway.  Dark green marble clads the floor, lined in the center with a narrow strip of amber-hued carpeting.  Amber lamps, mounted to the monir panelling, march onward down the hallway."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "wayto": {
+    "4027": {
+      "file": "string_procs/wayto/4029_4027.rb"
+    },
+    "4030": {
+      "file": "string_procs/wayto/4029_4030.rb"
+    }
+  },
   "timeto": {
     "4027": 0.2,
     "4030": 0.2
-  },
-  "id": 4029,
-  "location": null,
-  "tags": [
-
-  ],
-  "links": [
-
-  ]
+  }
 }

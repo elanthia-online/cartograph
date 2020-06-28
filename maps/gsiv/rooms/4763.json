@@ -1,64 +1,33 @@
 {
+  "id": 4763,
+  "title": [
+    "[Gyldemar Forest, Outpost]"
+  ],
+  "description": [
+    "A dank odor, like the fetid smell associated with deep swamps or boggy regions, wafts through the air, disturbing the otherwise natural scent of the forest.  The branches overhead seem to hang lower, as if the weight of their leaves were becoming unbearable, causing them to bend their majestic limbs toward the leaf-strewn ground.  The bark of one oak is peeling backward, exposing the pale wood beneath."
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest"
+  ],
+  "location": "Gyldemar Forest",
   "wayto": {
     "4762": "northeast",
     "4764": "go undergrowth",
     "4765": "northwest"
   },
-  "paths": [
-    "Obvious paths: northeast, northwest"
-  ],
+  "timeto": {
+    "4762": 0.2,
+    "4764": 0.2,
+    "4765": 0.2
+  },
+  "image": "en-gyldemar-1264234799.png",
   "image_coords": [
     834,
     1275,
     844,
     1285
   ],
-  "terrain": "missing",
-  "description": [
-    "A dank odor, like the fetid smell associated with deep swamps or boggy regions, wafts through the air, disturbing the otherwise natural scent of the forest.  The branches overhead seem to hang lower, as if the weight of their leaves were becoming unbearable, causing them to bend their majestic limbs toward the leaf-strewn ground.  The bark of one oak is peeling backward, exposing the pale wood beneath."
-  ],
-  "image": "en-gyldemar-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Gyldemar Forest, Outpost]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4762": 0.2,
-    "4764": 0.2,
-    "4765": 0.2
-  },
-  "id": 4763,
-  "location": "Gyldemar Forest",
   "tags": [
-    "sassafras leaf",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "tkaro root",
-    "sticks",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "broken twig",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "bright red cranberry",
-    "tree bark",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sassafras leaf"
   ]
 }

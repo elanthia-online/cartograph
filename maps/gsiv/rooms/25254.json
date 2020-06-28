@@ -1,35 +1,28 @@
 {
+  "id": 25254,
+  "title": [
+    "[Sanctum Tower, Second Floor]"
+  ],
+  "description": [
+    "Branching away from the primary hall, a small opulent alcove is recessed from the main walkway.  Glittering emerald plates are arranged in a forked tessellation along the trio of walls, their sunlit facets casting a deep viridian glow over the space.  A bronze helicoid reliquary is preserved in the back, just below a series of narrow clerestory windows."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast"
+  ],
+  "location": "the shadow of the Sanctum",
   "wayto": {
     "25253": "southeast",
     "25255": "north"
   },
-  "paths": [
-    "Obvious exits: north, southeast"
-  ],
+  "timeto": {
+    "25253": 0.2,
+    "25255": 0.2
+  },
+  "image": "sanctum-1474169333.png",
   "image_coords": [
     100,
     315,
     114,
     331
-  ],
-  "terrain": null,
-  "description": [
-    "Branching away from the primary hall, a small opulent alcove is recessed from the main walkway.  Glittering emerald plates are arranged in a forked tessellation along the trio of walls, their sunlit facets casting a deep viridian glow over the space.  A bronze helicoid reliquary is preserved in the back, just below a series of narrow clerestory windows."
-  ],
-  "image": "sanctum-1474169333.png",
-  "climate": null,
-  "title": [
-    "[Sanctum Tower, Second Floor]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "25253": 0.2,
-    "25255": 0.2
-  },
-  "id": 25254,
-  "location": "the shadow of the Sanctum",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

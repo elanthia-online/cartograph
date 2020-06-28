@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "12648": "go door"
-  },
+  "id": 12650,
+  "title": [
+    "[Constabulary, Cell]"
+  ],
+  "description": [
+    "Here lie the skeletal remains of a long dead occupant, still locked into heavy chains.  Whatever crime the poor, wretched soul committed, whatever justice was meted out, the final result was imprisonment until death."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "the Fhorian Village",
+  "wayto": {
+    "12648": "go door"
+  },
+  "timeto": {
+    "12648": 0.2
+  },
+  "image": "ti-wilds-1264234799.png",
   "image_coords": [
     580,
     1107,
     590,
     1117
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Here lie the skeletal remains of a long dead occupant, still locked into heavy chains.  Whatever crime the poor, wretched soul committed, whatever justice was meted out, the final result was imprisonment until death."
-  ],
-  "image": "ti-wilds-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Constabulary, Cell]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "12648": 0.2
-  },
-  "id": 12650,
-  "location": "the Fhorian Village",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,35 +1,23 @@
 {
-  "wayto": {
-    "20499": "go shore",
-    "20497": {
-      "stringproc": "e1c07f11fafb44ef7af79b539380e7c4"
-    }
-  },
-  "paths": [
-    "Obvious paths: south"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Beyond the murkiness of the tempest, the shore of an island comes into view. An electrical storm of red lightning plagues the sky above the isle."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 20498,
   "title": [
     "[Arctic Waters]"
   ],
-  "check_location": null,
+  "description": [
+    "Beyond the murkiness of the tempest, the shore of an island comes into view. An electrical storm of red lightning plagues the sky above the isle."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "the Pinefar Trading Post",
+  "wayto": {
+    "20499": "go shore",
+    "20497": {
+      "file": "string_procs/wayto/20498_20497.rb"
+    }
+  },
   "timeto": {
     "20499": 2.0,
     "20497": 2.0
-  },
-  "id": 20498,
-  "location": "the Pinefar Trading Post",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  }
 }

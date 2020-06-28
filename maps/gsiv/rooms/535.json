@@ -1,34 +1,31 @@
 {
+  "id": 535,
+  "title": [
+    "[Whistler's Pass, Brambles]"
+  ],
+  "description": [
+    "The brambles form an archway across the pass.  Stray vines hang down above the trail.  The arch reduces in size to form a short tunnel disapearing into the darkness to the southwest.",
+    "The brambles form an archway across the pass.  Stray vines hang down above the trail.  The arch reduces in size to form a short tunnel to the southwest."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "534": "north",
     "536": "southwest"
   },
-  "paths": [
-    "Obvious paths: north, southwest"
-  ],
+  "timeto": {
+    "534": 0.2,
+    "536": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     800,
     488,
     810,
     498
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "The brambles form an archway across the pass.  Stray vines hang down above the trail.  The arch reduces in size to form a short tunnel disapearing into the darkness to the southwest.",
-    "The brambles form an archway across the pass.  Stray vines hang down above the trail.  The arch reduces in size to form a short tunnel to the southwest."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Whistler's Pass, Brambles]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "534": 0.2,
-    "536": 0.2
-  },
-  "id": 535,
-  "location": "Whistler's Pass",
   "tags": [
     "cactacae spine",
     "wintergreen leaf",
@@ -59,10 +56,6 @@
     "blue whortleberry",
     "pepperthorn root",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

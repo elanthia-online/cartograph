@@ -1,38 +1,28 @@
 {
+  "id": 22250,
+  "title": [
+    "[Hall of Mages, Long Hall]"
+  ],
+  "description": [
+    "Tucked behind the stairwell is a long hall with bare walls and a cold dark marble floor.  The passage ends at an iron-bound steel door."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Talador",
   "wayto": {
     "22248": "south",
     "22251": "go door"
   },
-  "paths": [
-    "Obvious exits: south"
-  ],
+  "timeto": {
+    "22248": 0.2,
+    "22251": 0.2
+  },
+  "image": "wl-swale-1405616532.png",
   "image_coords": [
     478,
     83,
     491,
     98
-  ],
-  "terrain": null,
-  "description": [
-    "Tucked behind the stairwell is a long hall with bare walls and a cold dark marble floor.  The passage ends at an iron-bound steel door."
-  ],
-  "image": "wl-swale-1405616532.png",
-  "climate": null,
-  "title": [
-    "[Hall of Mages, Long Hall]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "22248": 0.2,
-    "22251": 0.2
-  },
-  "id": 22250,
-  "location": "Talador",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

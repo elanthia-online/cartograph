@@ -1,39 +1,29 @@
 {
-  "wayto": {
-    "11431": "up",
-    "11433": {
-      "stringproc": "1fc527c5b3a627ea21197aed1f7c8802"
-    }
-  },
+  "id": 11432,
+  "title": [
+    "[Floating Dock, Tempest River]"
+  ],
+  "description": [
+    "The dock is little more than a few hundred narrowly-spaced slats carefully tied with sail cordage to a trio of long beams.  Large, ovoid casks, coated with pitch and spaced every few yards, keep it afloat.  The dock juts into an eddy formed by the current of the river rushing west and the waves from the Bay moving east.  A ramp leads up to the Stone Eye veranda."
+  ],
   "paths": [
     "Obvious paths: up"
   ],
+  "wayto": {
+    "11431": "up",
+    "11433": {
+      "file": "string_procs/wayto/11432_11433.rb"
+    }
+  },
+  "timeto": {
+    "11431": 0.2,
+    "11433": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     192,
     134,
     202,
     144
-  ],
-  "terrain": null,
-  "description": [
-    "The dock is little more than a few hundred narrowly-spaced slats carefully tied with sail cordage to a trio of long beams.  Large, ovoid casks, coated with pitch and spaced every few yards, keep it afloat.  The dock juts into an eddy formed by the current of the river rushing west and the waves from the Bay moving east.  A ramp leads up to the Stone Eye veranda."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": null,
-  "title": [
-    "[Floating Dock, Tempest River]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11431": 0.2,
-    "11433": 0.2
-  },
-  "id": 11432,
-  "location": null,
-  "tags": [
-
-  ],
-  "links": [
-
   ]
 }

@@ -1,38 +1,27 @@
 {
+  "id": 11076,
+  "title": [
+    "[Sea Caves]"
+  ],
+  "description": [
+    "This section of cave sits atop an incline, the cave continuing downward to the southeast and southwest.  Dry sand covers the floor of the cave here, and a steady breeze blows directly down from unseen crevices and cracks in the ceiling."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest"
+  ],
   "wayto": {
     "11075": "southwest",
     "11077": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast, southwest"
-  ],
+  "timeto": {
+    "11075": 0.2,
+    "11077": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     1214,
     84,
     1224,
     94
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This section of cave sits atop an incline, the cave continuing downward to the southeast and southwest.  Dry sand covers the floor of the cave here, and a steady breeze blows directly down from unseen crevices and cracks in the ceiling."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Caves]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11075": 0.2,
-    "11077": 0.2
-  },
-  "id": 11076,
-  "location": "the Sea Caves",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

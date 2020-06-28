@@ -1,35 +1,23 @@
 {
+  "id": 20845,
+  "title": [
+    "[Underground Cavern]"
+  ],
+  "description": [
+    "Small, unrecognizable creatures scurry underfoot, retreating startled to the shadows to glare out with beady eyes.  Several torches shed an eerie, pale blue light over the roughly carved obsidian walls.  A crude table and benches are set in one corner of the room, opposite the passageway leading out of the cavern.  Set off to the side is a small alcove, almost invisible in the deep shadows."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "20844": "go door",
     "20846": "go alcove",
     "20847": "north"
   },
-  "paths": [
-    "Obvious exits: north"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Small, unrecognizable creatures scurry underfoot, retreating startled to the shadows to glare out with beady eyes.  Several torches shed an eerie, pale blue light over the roughly carved obsidian walls.  A crude table and benches are set in one corner of the room, opposite the passageway leading out of the cavern.  Set off to the side is a small alcove, almost invisible in the deep shadows."
-  ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Underground Cavern]"
-  ],
-  "check_location": null,
   "timeto": {
     "20844": 0.2,
     "20846": 0.2,
     "20847": 0.2
-  },
-  "id": 20845,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  }
 }

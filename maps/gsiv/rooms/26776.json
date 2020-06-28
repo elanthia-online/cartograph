@@ -1,35 +1,28 @@
 {
+  "id": 26776,
+  "title": [
+    "[Catacombs, Dark Tunnels]"
+  ],
+  "description": [
+    "Most of the supports have broken away here, littering the ground with their wooden remains as well as rocks of all sizes.  The few remaining beams still hold back enough of the surrounding tunnel to allow you to pass carefully."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "26777": "south",
     "26775": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "26777": 0.2,
+    "26775": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     926,
     1280,
     937,
     1289
-  ],
-  "terrain": null,
-  "description": [
-    "Most of the supports have broken away here, littering the ground with their wooden remains as well as rocks of all sizes.  The few remaining beams still hold back enough of the surrounding tunnel to allow you to pass carefully."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Catacombs, Dark Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26777": 0.2,
-    "26775": 0.2
-  },
-  "id": 26776,
-  "location": "the catacombs",
-  "tags": [
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+  ]
 }

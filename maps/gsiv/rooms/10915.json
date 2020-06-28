@@ -1,39 +1,31 @@
 {
-  "wayto": {
-    "18895": "east",
-    "10911": "out"
-  },
+  "id": 10915,
+  "title": [
+    "[River's Rest, Purser's Office]"
+  ],
+  "description": [
+    "Off the main lobby of the bank, the River's Rest purser's office is tucked away in a corner, out of the way of traffic.  Securely ensconced behind an old scarred wooden counter, the purser peers at his ledgers, while discussing the matters of finance his customers bring his way.  Efficiently and precisely, he notes each transaction completed in his ledger before he glances up to welcome his next customer with a smile."
+  ],
   "paths": [
     "Obvious exits: out",
     "Obvious exits: east, out"
   ],
+  "location": "the town of River's Rest",
+  "wayto": {
+    "18895": "east",
+    "10911": "out"
+  },
+  "timeto": {
+    "18895": 0.2,
+    "10911": 0.2
+  },
   "image_coords": [
     761,
     674,
     787,
     700
   ],
-  "terrain": null,
-  "description": [
-    "Off the main lobby of the bank, the River's Rest purser's office is tucked away in a corner, out of the way of traffic.  Securely ensconced behind an old scarred wooden counter, the purser peers at his ledgers, while discussing the matters of finance his customers bring his way.  Efficiently and precisely, he notes each transaction completed in his ledger before he glances up to welcome his next customer with a smile."
-  ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[River's Rest, Purser's Office]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "18895": 0.2,
-    "10911": 0.2
-  },
-  "id": 10915,
-  "location": "the town of River's Rest",
   "tags": [
-    "advguard",
-    "debt"
-  ],
-  "links": [
-
+    "advguard"
   ]
 }

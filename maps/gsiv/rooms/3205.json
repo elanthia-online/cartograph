@@ -1,35 +1,32 @@
 {
+  "id": 3205,
+  "title": [
+    "[Snowflake Vale, Forest]"
+  ],
+  "description": [
+    "A light breeze stirs up the powdery snow on the ground, briefly obscuring the trails.  A thicket of blackberry brambles is covered with a delicate icing of snow."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest, west"
+  ],
+  "location": "the southern snowfields",
   "wayto": {
     "3204": "west",
     "3206": "southwest",
     "3207": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, southwest, west"
-  ],
+  "timeto": {
+    "3204": 0.2,
+    "3206": 0.2,
+    "3207": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     317,
     1118,
     327,
     1128
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "A light breeze stirs up the powdery snow on the ground, briefly obscuring the trails.  A thicket of blackberry brambles is covered with a delicate icing of snow."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Snowflake Vale, Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3204": 0.2,
-    "3206": 0.2,
-    "3207": 0.2
-  },
-  "id": 3205,
-  "location": "the southern snowfields",
   "tags": [
     "tkaro root",
     "orange rowanberry",
@@ -38,37 +35,6 @@
     "pine cone",
     "some angelica root",
     "mountain snowcat",
-    "hobgoblin",
-    "sticks",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "iceblossoms",
-    "snow lily",
-    "winter rose",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "handful of pinenuts",
-    "broken twig",
-    "pine needles",
-    "frostweed",
-    "snowberries",
-    "pale thornberry",
-    "red winterberry",
-    "small loganberry",
-    "tree bark",
-    "frostflower",
-    "crowberry",
-    "lingonberry",
-    "ironfern root",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "hobgoblin"
   ]
 }

@@ -1,38 +1,28 @@
 {
+  "id": 8371,
+  "title": [
+    "[Stronghold, Walk of the Shaman]"
+  ],
+  "description": [
+    "The air plunges to a cold that produces clouds of condensed breath, which mingle with the dust hanging in the passageway.  On the walls are strange, carved pictographs, their language lost but their evocative quality intact.  The symbols create a panorama of small images, most dealing with a company of stylized figures interacting with a startling sense of life."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "Stone Valley",
   "wayto": {
     "8370": "down",
     "8372": "up"
   },
-  "paths": [
-    "Obvious exits: up, down"
-  ],
+  "timeto": {
+    "8370": 0.2,
+    "8372": 0.2
+  },
+  "image": "wl-stronghold-1264234799.png",
   "image_coords": [
     740,
     304,
     750,
     314
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The air plunges to a cold that produces clouds of condensed breath, which mingle with the dust hanging in the passageway.  On the walls are strange, carved pictographs, their language lost but their evocative quality intact.  The symbols create a panorama of small images, most dealing with a company of stylized figures interacting with a startling sense of life."
-  ],
-  "image": "wl-stronghold-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Stronghold, Walk of the Shaman]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8370": 0.2,
-    "8372": 0.2
-  },
-  "id": 8371,
-  "location": "Stone Valley",
-  "tags": [
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

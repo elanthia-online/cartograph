@@ -1,47 +1,37 @@
 {
+  "id": 4540,
+  "title": [
+    "[A Dark Shaft]"
+  ],
+  "description": [
+    "The air tastes stale in this long forgotten mine shaft.  Several rows of wooden braces extend to the east serving to hold up the ceiling.  An eerie soft white glow emanates from the braces causing the view eastward to fill you with uncertainty and dread."
+  ],
+  "paths": [
+    "Obvious exits: north, east, west"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "4542": "west",
     "4538": "east",
     "4541": "north"
   },
-  "paths": [
-    "Obvious exits: north, east, west"
-  ],
+  "timeto": {
+    "4542": 0.2,
+    "4538": 0.2,
+    "4541": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1251,
     538,
     1261,
     548
   ],
-  "terrain": "indoors",
-  "description": [
-    "The air tastes stale in this long forgotten mine shaft.  Several rows of wooden braces extend to the east serving to hold up the ceiling.  An eerie soft white glow emanates from the braces causing the view eastward to fill you with uncertainty and dread."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[A Dark Shaft]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4542": 0.2,
-    "4538": 0.2,
-    "4541": 0.2
-  },
-  "id": 4540,
-  "location": "the Shadow Valley",
   "tags": [
     "some shadowlace moss",
     "some cave moss",
     "some blue moss",
     "blackgrove root",
-    "ghostly pooka",
-    "cave moss",
-    "shadowlace moss",
-    "blue moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ghostly pooka"
   ]
 }

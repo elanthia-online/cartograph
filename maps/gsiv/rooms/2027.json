@@ -1,36 +1,33 @@
 {
+  "id": 2027,
+  "title": [
+    "[Beach]"
+  ],
+  "description": [
+    "Where a cliff emerges from the forest, moonlit beach sand sweeps around the base of large boulders in wind-sculpted dunes.  A dark log, beached by the surf, is half-buried in the drifts.  One gnarled branch still clings to the log, its dark silhouette resembling a contorted hand.  It points toward the cliff with its knotty fingers, as if trying to reach a handhold there to escape the ocean's clutch.",
+    "Where a cliff emerges from the forest, silvery beach sand sweeps around the base of large boulders in wind-sculpted dunes.  A log, bleached grey by sun and surf, is half-buried in the drifts, its color little different than the sand that holds it.  One gnarled branch still clings to the log, its silhouette casting a ragged shadow across the beach that resembles a contorted hand.  It points toward the cliff with its knotty fingers, as if trying to reach a handhold there to escape the ocean's clutch."
+  ],
+  "paths": [
+    "Obvious paths: southwest, northwest"
+  ],
+  "location": "Greymist Woods",
   "wayto": {
     "2026": "northwest",
     "2028": "southwest",
     "2030": "go entrance"
   },
-  "paths": [
-    "Obvious paths: southwest, northwest"
-  ],
+  "timeto": {
+    "2026": 0.2,
+    "2028": 0.2,
+    "2030": 0.2
+  },
+  "image": "ti-wilds-1264234799.png",
   "image_coords": [
     70,
     313,
     80,
     323
   ],
-  "terrain": null,
-  "description": [
-    "Where a cliff emerges from the forest, moonlit beach sand sweeps around the base of large boulders in wind-sculpted dunes.  A dark log, beached by the surf, is half-buried in the drifts.  One gnarled branch still clings to the log, its dark silhouette resembling a contorted hand.  It points toward the cliff with its knotty fingers, as if trying to reach a handhold there to escape the ocean's clutch.",
-    "Where a cliff emerges from the forest, silvery beach sand sweeps around the base of large boulders in wind-sculpted dunes.  A log, bleached grey by sun and surf, is half-buried in the drifts, its color little different than the sand that holds it.  One gnarled branch still clings to the log, its silhouette casting a ragged shadow across the beach that resembles a contorted hand.  It points toward the cliff with its knotty fingers, as if trying to reach a handhold there to escape the ocean's clutch."
-  ],
-  "image": "ti-wilds-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Beach]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2026": 0.2,
-    "2028": 0.2,
-    "2030": 0.2
-  },
-  "id": 2027,
-  "location": "Greymist Woods",
   "tags": [
     "withered black mushroom",
     "small wild rose",
@@ -42,19 +39,6 @@
     "yabathilium fruit",
     "stalk of cattail",
     "daggerstalk mushroom",
-    "flathead mushroom",
-    "acantha leaf",
-    "calamia fruit",
-    "striped heart mushroom",
-    "wild gooseberry",
-    "sprig of wild lilac",
-    "wild chokecherry",
-    "pepperthorn root",
-    "murdroot",
-    "wavepetal blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "flathead mushroom"
   ]
 }

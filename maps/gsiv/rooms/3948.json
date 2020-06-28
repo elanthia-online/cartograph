@@ -1,35 +1,27 @@
 {
-  "wayto": {
-    "3937": {
-      "stringproc": "1b05168490a4bc4256a681555163ac06"
-    }
-  },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "You carefully pick your way around the bits and pieces of debris.  Just thinking about the nature of this debris makes you a bit nauseous.  The smell of the place is revolting, making matters even worse."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 3948,
   "title": [
     "[Abandoned Sewer]"
   ],
-  "check_location": null,
+  "description": [
+    "You carefully pick your way around the bits and pieces of debris.  Just thinking about the nature of this debris makes you a bit nauseous.  The smell of the place is revolting, making matters even worse."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the catacombs",
+  "wayto": {
+    "3937": {
+      "file": "string_procs/wayto/3948_3937.rb"
+    }
+  },
   "timeto": {
     "3937": 1.6
   },
-  "id": 3948,
-  "location": "the catacombs",
   "tags": [
     "red trafel mushroom",
     "some cave moss",
     "black hook mushroom",
     "blue trafel mushroom"
-  ],
-  "links": [
-
   ]
 }

@@ -1,33 +1,30 @@
 {
+  "id": 2272,
+  "title": [
+    "[Abandoned Mine]"
+  ],
+  "description": [
+    "Thick clouds of dust swirl up from the ground as a draft blasts through from the north, carrying with it a faint, musky odor.  Odd clicking and skittering sounds echo off the rocky ceiling, vibrating the jagged walls enough to loosen a small avalanche of dusty pebbles."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Abandoned Mine",
   "wayto": {
     "2271": "south",
     "2265": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "2271": 0.2,
+    "2265": 0.2
+  },
+  "image": "ti-teras-1264234799.png",
   "image_coords": [
     495,
     1002,
     503,
     1010
   ],
-  "terrain": "indoors",
-  "description": [
-    "Thick clouds of dust swirl up from the ground as a draft blasts through from the north, carrying with it a faint, musky odor.  Odd clicking and skittering sounds echo off the rocky ceiling, vibrating the jagged walls enough to loosen a small avalanche of dusty pebbles."
-  ],
-  "image": "ti-teras-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abandoned Mine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2271": 0.2,
-    "2265": 0.2
-  },
-  "id": 2272,
-  "location": "the Abandoned Mine",
   "tags": [
     "blue trafel mushroom",
     "red trafel mushroom",
@@ -37,15 +34,6 @@
     "genkew mushroom",
     "some cave moss",
     "daggerstalk mushroom",
-    "some wingstem root",
-    "soft white mushroom",
-    "cave moss",
-    "murdroot",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

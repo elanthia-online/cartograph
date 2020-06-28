@@ -1,42 +1,32 @@
 {
-  "wayto": {
-    "1139": {
-      "stringproc": "bed078c409837c2523bf39545aef5280"
-    },
-    "1141": {
-      "stringproc": "bccff41d03336e470041caab6a6aa48c"
-    }
-  },
+  "id": 1140,
+  "title": [
+    "[Locksmehr River, Rope Bridge]"
+  ],
+  "description": [
+    "The long, narrow island to the east is lush with small bushes and grasses, and a few fallen trees point down river.  A gentle breeze is created by the whitewater as it speeds downstream.  The rushing waters below look like they could sweep away even the strongest of swimmers."
+  ],
   "paths": [
     "Obvious paths: none"
   ],
+  "location": "the Locksmehr Trail",
+  "wayto": {
+    "1139": {
+      "file": "string_procs/wayto/1140_1139.rb"
+    },
+    "1141": {
+      "file": "string_procs/wayto/1140_1141.rb"
+    }
+  },
+  "timeto": {
+    "1139": 15.0,
+    "1141": 15.0
+  },
+  "image": "en-trail-1264234799.png",
   "image_coords": [
     760,
     982,
     770,
     992
-  ],
-  "terrain": "missing",
-  "description": [
-    "The long, narrow island to the east is lush with small bushes and grasses, and a few fallen trees point down river.  A gentle breeze is created by the whitewater as it speeds downstream.  The rushing waters below look like they could sweep away even the strongest of swimmers."
-  ],
-  "image": "en-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Locksmehr River, Rope Bridge]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1139": 15.0,
-    "1141": 15.0
-  },
-  "id": 1140,
-  "location": "the Locksmehr Trail",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

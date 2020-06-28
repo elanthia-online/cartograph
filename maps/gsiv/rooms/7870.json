@@ -1,39 +1,29 @@
 {
+  "id": 7870,
+  "title": [
+    "[Glatoph, Glacier]"
+  ],
+  "description": [
+    "The footing is slick in this icy tunnel.  The slope is gentle, but enough to give you trouble.  Your boots slip and slide no matter how carefully you step.  Above you, an opening reveals the season's constellations.  Curiously, the tunnel below seems lit with a luminescence of its own.",
+    "The footing is slick in this icy tunnel.  The slope is gentle, but enough to give you trouble.  Your boots slip and slide no matter how carefully you step.  Above you, an opening leads to glaring daylight.  Below, the tunnel continues into the dark."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Glatoph",
   "wayto": {
     "7869": "go opening",
     "7871": "down"
   },
-  "paths": [
-    "Obvious exits: down"
-  ],
+  "timeto": {
+    "7869": 0.2,
+    "7871": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     806,
     348,
     816,
     358
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The footing is slick in this icy tunnel.  The slope is gentle, but enough to give you trouble.  Your boots slip and slide no matter how carefully you step.  Above you, an opening reveals the season's constellations.  Curiously, the tunnel below seems lit with a luminescence of its own.",
-    "The footing is slick in this icy tunnel.  The slope is gentle, but enough to give you trouble.  Your boots slip and slide no matter how carefully you step.  Above you, an opening leads to glaring daylight.  Below, the tunnel continues into the dark."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Glatoph, Glacier]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7869": 0.2,
-    "7871": 0.2
-  },
-  "id": 7870,
-  "location": "Glatoph",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

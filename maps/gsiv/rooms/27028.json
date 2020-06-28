@@ -1,34 +1,25 @@
 {
-  "wayto": {
-    "27029": {
-      "stringproc": "2b4af1354e22d2a4bbc0aa605e096470"
-    },
-    "27027": {
-      "stringproc": "a1bd023500a3a9633d7c708d74ed9e8f"
-    }
-  },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "The smooth, uniform surface of the lake stretches out in all directions, making navigation difficult.  Several shore birds wheel overhead, searching the barren landscape for food."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 27028,
   "title": [
     "[Lake of Fear, Northern Expanse]"
   ],
-  "check_location": null,
+  "description": [
+    "The smooth, uniform surface of the lake stretches out in all directions, making navigation difficult.  Several shore birds wheel overhead, searching the barren landscape for food."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Ta'Vaalor",
+  "wayto": {
+    "27029": {
+      "file": "string_procs/wayto/27028_27029.rb"
+    },
+    "27027": {
+      "file": "string_procs/wayto/27028_27027.rb"
+    }
+  },
   "timeto": {
     "27027": 0.2,
     "27029": 0.2
-  },
-  "id": 27028,
-  "location": "Ta'Vaalor",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  }
 }

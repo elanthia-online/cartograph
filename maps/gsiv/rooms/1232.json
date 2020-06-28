@@ -1,73 +1,34 @@
 {
-  "wayto": {
-    "1233": "north",
-    "1231": {
-      "stringproc": "1d8bb164a2879358e59a6fc6a8f83520"
-    }
-  },
+  "id": 1232,
+  "title": [
+    "[Vipershroud, Fallen Tree]"
+  ],
+  "description": [
+    "A huge tree, perhaps twenty-five feet in diameter, has fallen onto the path, blocking further progress.  The tree trunk is heavily covered with dark green moss and brownish yellow fungus, and the overhead canopy shows no sign of a break in the tightly woven umbrella, indicating the fallen tree has lain here for some time.  Brackish water pools underneath the trunk, adding to the steamy mist.  The narrow path continues off to the north."
+  ],
   "paths": [
     "Obvious paths: north"
   ],
+  "location": "the Vipershroud",
+  "wayto": {
+    "1233": "north",
+    "1231": {
+      "file": "string_procs/wayto/1232_1231.rb"
+    }
+  },
+  "timeto": {
+    "1233": 0.2,
+    "1231": 10.0
+  },
+  "image": "en-trail-1264234799.png",
   "image_coords": [
     119,
     720,
     129,
     730
   ],
-  "terrain": "missing",
-  "description": [
-    "A huge tree, perhaps twenty-five feet in diameter, has fallen onto the path, blocking further progress.  The tree trunk is heavily covered with dark green moss and brownish yellow fungus, and the overhead canopy shows no sign of a break in the tightly woven umbrella, indicating the fallen tree has lain here for some time.  Brackish water pools underneath the trunk, adding to the steamy mist.  The narrow path continues off to the north."
-  ],
-  "image": "en-trail-1264234799.png",
-  "climate": "hot, damp",
-  "title": [
-    "[Vipershroud, Fallen Tree]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1233": 0.2,
-    "1231": 10.0
-  },
-  "id": 1232,
-  "location": "the Vipershroud",
   "tags": [
     "some acantha leaf",
-    "some pothinir grass",
-    "acantha leaf",
-    "woth flower",
-    "calamia fruit",
-    "haphip root",
-    "pothinir grass",
-    "sticks",
-    "soft white mushroom",
-    "withered black mushroom",
-    "striped heart mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "black trafel mushroom",
-    "blue trafel mushroom",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "broken twig",
-    "small wild rose",
-    "sprig of wild lilac",
-    "wild chokecherry",
-    "tree bark",
-    "murkweed",
-    "blue whortleberry",
-    "white passionflower",
-    "yellow passionflower",
-    "blue passionflower",
-    "bloodwood twig",
-    "murdroot",
-    "twisted twig",
-    "slender twig",
-    "ebony twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some pothinir grass"
   ]
 }

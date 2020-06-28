@@ -1,33 +1,30 @@
 {
+  "id": 1402,
+  "title": [
+    "[Cairnfang Forest]"
+  ],
+  "description": [
+    "Marred only by the trail's pathway of trampled mud, a blanket of deep, green moss carpets the ground between the ancient trees."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "1401": "north",
     "1403": "south"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "1401": 0.2,
+    "1403": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     1101,
     858,
     1111,
     868
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "Marred only by the trail's pathway of trampled mud, a blanket of deep, green moss carpets the ground between the ancient trees."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Cairnfang Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1401": 0.2,
-    "1403": 0.2
-  },
-  "id": 1402,
-  "location": "the Cairnfang",
   "tags": [
     "sprig of wild lilac",
     "nightbloom blossom",
@@ -81,10 +78,6 @@
     "ebony twig",
     "bolmara lichen",
     "brostheras grass",
-    "alder bark",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "alder bark"
   ]
 }

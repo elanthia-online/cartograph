@@ -1,38 +1,28 @@
 {
+  "id": 7101,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "This passage is crudely carved from the surrounding stone.  The floor is bumpy and pitted, and the walls are crooked, with cracks and protrusions.  A small wooden trapdoor is set in the low ceiling."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7100": "go trapdoor",
     "7102": "south"
   },
-  "paths": [
-    "Obvious exits: south"
-  ],
+  "timeto": {
+    "7100": 0.2,
+    "7102": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     1054,
     996,
     1064,
     1006
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This passage is crudely carved from the surrounding stone.  The floor is bumpy and pitted, and the walls are crooked, with cracks and protrusions.  A small wooden trapdoor is set in the low ceiling."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7100": 0.2,
-    "7102": 0.2
-  },
-  "id": 7101,
-  "location": "Darkstone Castle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

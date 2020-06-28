@@ -1,35 +1,29 @@
 {
-  "wayto": {
-    "18079": "southeast"
-  },
+  "id": 18101,
+  "title": [
+    "[Wizard Guild, Acid Workshop]"
+  ],
+  "description": [
+    "This room is rather warm and humid, though no source of climate control is apparent.  In the center, circumscribed by continuous, yellow-green walls, sits a pitted wooden workbench.  The domed walls rise from the stone floor to a round opening in the very top of the ceiling, which allows a few beams of stray moonlight to enter."
+  ],
   "paths": [
     "Obvious exits: southeast"
   ],
+  "location": "Kharam-Dzu",
+  "wayto": {
+    "18079": "southeast"
+  },
+  "timeto": {
+    "18079": 0.2
+  },
+  "image": "ti-wizard_guild.png",
   "image_coords": [
     401,
     1,
     464,
     64
   ],
-  "terrain": null,
-  "description": [
-    "This room is rather warm and humid, though no source of climate control is apparent.  In the center, circumscribed by continuous, yellow-green walls, sits a pitted wooden workbench.  The domed walls rise from the stone floor to a round opening in the very top of the ceiling, which allows a few beams of stray moonlight to enter."
-  ],
-  "image": "ti-wizard_guild.png",
-  "climate": null,
-  "title": [
-    "[Wizard Guild, Acid Workshop]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "18079": 0.2
-  },
-  "id": 18101,
-  "location": "Kharam-Dzu",
   "tags": [
     "wizard alchemy workshop"
-  ],
-  "links": [
-
   ]
 }

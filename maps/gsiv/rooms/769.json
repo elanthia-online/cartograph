@@ -1,34 +1,31 @@
 {
+  "id": 769,
+  "title": [
+    "[Whistler's Pass, Rocky Field]"
+  ],
+  "description": [
+    "The trail becomes exceedingly rocky as it continues down the mountainside.  Pebbles cover the trail, interspersed with larger stones, hidden in the dark of night.  A halfling-sized boulder rests near the trail, seemingly the perfect place to stop and rest sore feet.",
+    "The trail becomes exceedingly rocky as it continues down the mountainside.  Pebbles cover the trail, interspersed with larger stones.  A halfling-sized boulder rests near the trail, seemingly the perfect place to stop and rest sore feet."
+  ],
+  "paths": [
+    "Obvious paths: south, northwest"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "768": "northwest",
     "770": "south"
   },
-  "paths": [
-    "Obvious paths: south, northwest"
-  ],
+  "timeto": {
+    "768": 0.2,
+    "770": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     507,
     936,
     517,
     946
   ],
-  "terrain": "mountainous",
-  "description": [
-    "The trail becomes exceedingly rocky as it continues down the mountainside.  Pebbles cover the trail, interspersed with larger stones, hidden in the dark of night.  A halfling-sized boulder rests near the trail, seemingly the perfect place to stop and rest sore feet.",
-    "The trail becomes exceedingly rocky as it continues down the mountainside.  Pebbles cover the trail, interspersed with larger stones.  A halfling-sized boulder rests near the trail, seemingly the perfect place to stop and rest sore feet."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Whistler's Pass, Rocky Field]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "768": 0.2,
-    "770": 0.2
-  },
-  "id": 769,
-  "location": "Whistler's Pass",
   "tags": [
     "sprig of holly",
     "angelica root",
@@ -49,11 +46,6 @@
     "pepperthorn root",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "mountain dryad",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

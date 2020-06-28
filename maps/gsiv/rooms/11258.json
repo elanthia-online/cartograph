@@ -1,33 +1,30 @@
 {
+  "id": 11258,
+  "title": [
+    "[Citadel, Outside]"
+  ],
+  "description": [
+    "The mist clears a bit here due to a small breeze coming in through the ruined castle walls, giving you a good look at the ruin around you.  The buildings and structures seem to have not only crumbled with age, but appear to have been damaged deliberately quite some time ago.  Blasted walls and charred timber seem to make up most of the destruction."
+  ],
+  "paths": [
+    "Obvious paths: east, south"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11259": "s",
     "11257": "east"
   },
-  "paths": [
-    "Obvious paths: east, south"
-  ],
+  "timeto": {
+    "11259": 0.2,
+    "11257": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     332,
     634,
     342,
     644
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The mist clears a bit here due to a small breeze coming in through the ruined castle walls, giving you a good look at the ruin around you.  The buildings and structures seem to have not only crumbled with age, but appear to have been damaged deliberately quite some time ago.  Blasted walls and charred timber seem to make up most of the destruction."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "moist",
-  "title": [
-    "[Citadel, Outside]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11259": 0.2,
-    "11257": 0.2
-  },
-  "id": 11258,
-  "location": "the Citadel",
   "tags": [
     "some aloeas stem",
     "bright red cranberry",
@@ -39,17 +36,6 @@
     "some wingstem root",
     "some calamia fruit",
     "wild chokecherry",
-    "some motherwort",
-    "acantha leaf",
-    "calamia fruit",
-    "aloeas stem",
-    "motherwort",
-    "murkweed",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some motherwort"
   ]
 }

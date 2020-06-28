@@ -1,39 +1,38 @@
 {
+  "id": 11006,
+  "title": [
+    "[South River Road, Drawbridge]"
+  ],
+  "description": [
+    "A worn but sturdy drawbridge spans the vast river here, connecting the road with the town on the opposite bank.  Some of the more daring children from town make sport of jumping off the bridge into the water below, swimming quickly to the beach a short way down the river.  You also see a road winding westward to a wide body of water while to the east it travels further up river."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the South River Road",
+  "climate": "moist",
+  "terrain": "riparian",
   "wayto": {
     "10840": "go drawbridge",
     "11007": "west",
     "18677": "go path",
     "11023": "east"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "10840": {
+      "file": "string_procs/timeto/11006_10840.rb"
+    },
+    "11007": 0.2,
+    "18677": 0.2,
+    "11023": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     500,
     926,
     510,
     936
   ],
-  "terrain": "riparian",
-  "description": [
-    "A worn but sturdy drawbridge spans the vast river here, connecting the road with the town on the opposite bank.  Some of the more daring children from town make sport of jumping off the bridge into the water below, swimming quickly to the beach a short way down the river.  You also see a road winding westward to a wide body of water while to the east it travels further up river."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "moist",
-  "title": [
-    "[South River Road, Drawbridge]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10840": {
-      "stringproc": "4d705e45c57c39da9f6dac755d2b2743"
-    },
-    "11007": 0.2,
-    "18677": 0.2,
-    "11023": 0.2
-  },
-  "id": 11006,
-  "location": "the South River Road",
   "tags": [
     "some acantha leaf",
     "some aloeas stem",
@@ -57,11 +56,6 @@
     "kylan berry",
     "murdroot",
     "wavepetal blossom",
-    "sunburst blossom",
-    "talneo root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sunburst blossom"
   ]
 }

@@ -1,36 +1,25 @@
 {
-  "wayto": {
-    "17838": {
-      "stringproc": "870a598f50834b9c8d83ea068269a5ad"
-    },
-    "13350": "out"
-  },
-  "paths": [
-    "Obvious exits: out"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "This small entryway is scented with the aroma of fresh loam, no doubt from the muddy boots and gardening shoes lined up on a wooden rack against one wall.  Opposite the collection of shoes, a long, simply carved oak cloak rack supports a wide variety of brushed wool cloaks in all the colors of the autumn forest."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 17837,
   "title": [
     "[Entry]"
   ],
-  "check_location": null,
+  "description": [
+    "This small entryway is scented with the aroma of fresh loam, no doubt from the muddy boots and gardening shoes lined up on a wooden rack against one wall.  Opposite the collection of shoes, a long, simply carved oak cloak rack supports a wide variety of brushed wool cloaks in all the colors of the autumn forest."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Ta'Illistim",
+  "wayto": {
+    "17838": {
+      "file": "string_procs/wayto/17837_17838.rb"
+    },
+    "13350": "out"
+  },
   "timeto": {
     "17838": {
-      "stringproc": "12c6b4615e97a2c7fb68a7e5988f17eb"
+      "file": "string_procs/timeto/17837_17838.rb"
     },
     "13350": 0.2
-  },
-  "id": 17837,
-  "location": "Ta'Illistim",
-  "tags": [
-
-  ],
-  "links": [
-
-  ]
+  }
 }

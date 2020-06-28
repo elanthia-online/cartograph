@@ -1,42 +1,33 @@
 {
-  "wayto": {
-    "11016": "west",
-    "17348": {
-      "stringproc": "1fbba9dcc90be8b37e5f20d6154dcd36"
-    }
-  },
+  "id": 11017,
+  "title": [
+    "[Warrior Guild, Entryway]"
+  ],
+  "description": [
+    "A long wall of native grey stone extends across a clearing, interrupted only by a wrought iron gate.  Two tall modwir trees stand guard a few paces in front of the entrance.",
+    "A long wall of native grey stone extends across a clearing, interrupted only by a wrought iron gate.  Two tall modwir trees stand guard a few paces in front of the entrance, their wide branches providing plentiful shade.  A grassy courtyard can be glimpsed through the wide bars of the gate."
+  ],
   "paths": [
     "Obvious paths: west"
   ],
+  "wayto": {
+    "11016": "west",
+    "17348": {
+      "file": "string_procs/wayto/11017_17348.rb"
+    }
+  },
+  "timeto": {
+    "11016": 0.2,
+    "17348": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     554,
     1035,
     564,
     1045
   ],
-  "terrain": "hard, flat",
-  "description": [
-    "A long wall of native grey stone extends across a clearing, interrupted only by a wrought iron gate.  Two tall modwir trees stand guard a few paces in front of the entrance.",
-    "A long wall of native grey stone extends across a clearing, interrupted only by a wrought iron gate.  Two tall modwir trees stand guard a few paces in front of the entrance, their wide branches providing plentiful shade.  A grassy courtyard can be glimpsed through the wide bars of the gate."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "temperate",
-  "title": [
-    "[Warrior Guild, Entryway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11016": 0.2,
-    "17348": 0.2
-  },
-  "id": 11017,
-  "location": "the Warrior Guild",
   "tags": [
-    "warriorguild",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "warriorguild"
   ]
 }

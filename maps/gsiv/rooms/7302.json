@@ -1,38 +1,28 @@
 {
+  "id": 7302,
+  "title": [
+    "[Graveyard, Tunnel]"
+  ],
+  "description": [
+    "The granite-walled tunnel here is in a state of disrepair, although it appears never to have been very well planned or constructed to begin with.  A low stone corridor leads off to the north, while a confusing jumble of channels are cut into the ground as you look south."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7304": "go corridor",
     "7303": "south"
   },
-  "paths": [
-    "Obvious exits: south"
-  ],
+  "timeto": {
+    "7304": 0.2,
+    "7303": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     568,
     533,
     578,
     543
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The granite-walled tunnel here is in a state of disrepair, although it appears never to have been very well planned or constructed to begin with.  A low stone corridor leads off to the north, while a confusing jumble of channels are cut into the ground as you look south."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Graveyard, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7304": 0.2,
-    "7303": 0.2
-  },
-  "id": 7302,
-  "location": "the Graveyard",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

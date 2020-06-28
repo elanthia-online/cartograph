@@ -1,50 +1,34 @@
 {
-  "wayto": {
-    "1075": "southeast",
-    "1073": {
-      "stringproc": "1c3ae6553af6d4ffbc883d4abe3b2602"
-    }
-  },
+  "id": 1074,
+  "title": [
+    "[Dead Plateau, Rope Ladder]"
+  ],
+  "description": [
+    "The Dead Plateau stretches out as far as the eye can see to the west, southwest, south and southeast in a long, cold, perfectly level expanse of solid rock.  It would be easy to navigate by the moons and strike out in one of the directions except for the presence of yawning, jagged crevices running as untamed lightning across the plateau's interior.  One crevice extends to the plateau's edge, cutting off travel to the west and leaving the only passable direction along the edge to the southeast.",
+    "The Dead Plateau stretches out as far as the eye can see to the west, southwest, south and southeast in a long, cold, perfectly level expanse of solid rock.  It would be easy to navigate by the sun and strike out in one of the directions except for the presence of yawning, jagged crevices running as untamed lightning across the plateau's interior.  One crevice extends to the plateau's edge, cutting off travel to the west and leaving the only passable direction along the edge to the southeast."
+  ],
   "paths": [
     "Obvious paths: southeast"
   ],
+  "location": "the Locksmehr Trail",
+  "wayto": {
+    "1075": "southeast",
+    "1073": {
+      "file": "string_procs/wayto/1074_1073.rb"
+    }
+  },
+  "timeto": {
+    "1075": 0.2,
+    "1073": 30.0
+  },
+  "image": "en-trail-1264234799.png",
   "image_coords": [
     1247,
     720,
     1257,
     730
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "The Dead Plateau stretches out as far as the eye can see to the west, southwest, south and southeast in a long, cold, perfectly level expanse of solid rock.  It would be easy to navigate by the moons and strike out in one of the directions except for the presence of yawning, jagged crevices running as untamed lightning across the plateau's interior.  One crevice extends to the plateau's edge, cutting off travel to the west and leaving the only passable direction along the edge to the southeast.",
-    "The Dead Plateau stretches out as far as the eye can see to the west, southwest, south and southeast in a long, cold, perfectly level expanse of solid rock.  It would be easy to navigate by the sun and strike out in one of the directions except for the presence of yawning, jagged crevices running as untamed lightning across the plateau's interior.  One crevice extends to the plateau's edge, cutting off travel to the west and leaving the only passable direction along the edge to the southeast."
-  ],
-  "image": "en-trail-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Dead Plateau, Rope Ladder]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1075": 0.2,
-    "1073": 30.0
-  },
-  "id": 1074,
-  "location": "the Locksmehr Trail",
   "tags": [
-    "some wingstem root",
-    "cothinar flower",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "stalk of chicory",
-    "broken twig",
-    "sprig of larkspur",
-    "ironfern root",
-    "sunburst blossom",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

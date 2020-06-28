@@ -1,36 +1,25 @@
 {
-  "wayto": {
-    "11101": "go archway"
-  },
+  "id": 11104,
+  "title": [
+    "[Krol Ship, Wardroom]"
+  ],
+  "description": [
+    "This room extends across the entire beam of the ship here at the stern, making it one of the biggest on board.  Delicate windows once looked out over the transom, but have now been boarded up by the practical Krolvin.  A large dining table, with seats for a dozen or so, is still set with plundered porcelain, crystal, and the remnants of the Krolvins' meal."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "wayto": {
+    "11101": "go archway"
+  },
+  "timeto": {
+    "11101": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     1310,
     342,
     1320,
     352
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This room extends across the entire beam of the ship here at the stern, making it one of the biggest on board.  Delicate windows once looked out over the transom, but have now been boarded up by the practical Krolvin.  A large dining table, with seats for a dozen or so, is still set with plundered porcelain, crystal, and the remnants of the Krolvins' meal."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "indoors",
-  "title": [
-    "[Krol Ship, Wardroom]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11101": 0.2
-  },
-  "id": 11104,
-  "location": "the Sea Caves",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

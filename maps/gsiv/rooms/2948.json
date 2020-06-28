@@ -1,35 +1,32 @@
 {
+  "id": 2948,
+  "title": [
+    "[Abbey Kitchen Garden]"
+  ],
+  "description": [
+    "Cracked stone pavers wind their way between bare sections of earth that are decorated with aged brass placards describing what was once grown here.  Thick timbers are propped within the crumbling door frame of a stone archway, keeping it from collapsing completely."
+  ],
+  "paths": [
+    "Obvious paths: east, south"
+  ],
+  "location": "the Abbey",
   "wayto": {
     "2949": "east",
     "2972": "go doorway",
     "2947": "south"
   },
-  "paths": [
-    "Obvious paths: east, south"
-  ],
+  "timeto": {
+    "2949": 0.2,
+    "2972": 0.2,
+    "2947": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     779,
     642,
     788,
     653
   ],
-  "terrain": "cultivated",
-  "description": [
-    "Cracked stone pavers wind their way between bare sections of earth that are decorated with aged brass placards describing what was once grown here.  Thick timbers are propped within the crumbling door frame of a stone archway, keeping it from collapsing completely."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Abbey Kitchen Garden]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2949": 0.2,
-    "2972": 0.2,
-    "2947": 0.2
-  },
-  "id": 2948,
-  "location": "the Abbey",
   "tags": [
     "luckbloom blossom",
     "moonflower",
@@ -43,14 +40,6 @@
     "some angelica root",
     "winter rose",
     "nedum vereri",
-    "sunburst blossom",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "yew twig",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sunburst blossom"
   ]
 }

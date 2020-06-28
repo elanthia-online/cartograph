@@ -1,39 +1,31 @@
 {
+  "id": 9477,
+  "title": [
+    "[Hortemeyer's Pre-Owned Goods]"
+  ],
+  "description": [
+    "The metal shelves of this shop are crammed full of assorted knick knacks, weapons, armor, containers, and many types of unrecognizable items.  The shelves run from floor to ceiling on all four walls except where they are forced to allow customers to enter.  Several ladders lean against the shelves to facilitate retrieval of items from the upper levels.  Larger items occupy places on the floor.  In the midst of it all, an old dwarf totters around, using a cane for support as he straightens the displays."
+  ],
+  "paths": [
+    "Obvious exits: south, out"
+  ],
+  "location": "Zul Logoth",
   "wayto": {
     "1003": "out",
     "9478": "south"
   },
-  "paths": [
-    "Obvious exits: south, out"
-  ],
+  "timeto": {
+    "1003": 0.2,
+    "9478": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     712,
     532,
     722,
     542
   ],
-  "terrain": "indoors",
-  "description": [
-    "The metal shelves of this shop are crammed full of assorted knick knacks, weapons, armor, containers, and many types of unrecognizable items.  The shelves run from floor to ceiling on all four walls except where they are forced to allow customers to enter.  Several ladders lean against the shelves to facilitate retrieval of items from the upper levels.  Larger items occupy places on the floor.  In the midst of it all, an old dwarf totters around, using a cane for support as he straightens the displays."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Hortemeyer's Pre-Owned Goods]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1003": 0.2,
-    "9478": 0.2
-  },
-  "id": 9477,
-  "location": "Zul Logoth",
   "tags": [
-    "pawnshop",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "pawnshop"
   ]
 }

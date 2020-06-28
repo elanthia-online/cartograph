@@ -1,49 +1,35 @@
 {
+  "id": 4601,
+  "title": [
+    "[Griffin's Keen, Corrie]"
+  ],
+  "description": [
+    "In the bitter cold, it's hard to imagine anything melting, but a stream of rushing black water cuts through the valley floor here.  Rounded rocks on the creek's banks are covered with dense, clear blue ice.  In between two of the larger rocks, what should be a space filled with ice or snow looks only dark and empty."
+  ],
+  "paths": [
+    "Obvious paths: west, up"
+  ],
+  "location": "Griffin's Keen",
   "wayto": {
     "9878": {
-      "stringproc": "2f798d18d28fd345de988c2d4adfac2a"
+      "file": "string_procs/wayto/4601_9878.rb"
     },
     "4602": "up",
     "4563": "west"
   },
-  "paths": [
-    "Obvious paths: west, up"
-  ],
+  "timeto": {
+    "9878": 0.4,
+    "4602": 0.2,
+    "4563": 0.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     691,
     331,
     701,
     341
   ],
-  "terrain": null,
-  "description": [
-    "In the bitter cold, it's hard to imagine anything melting, but a stream of rushing black water cuts through the valley floor here.  Rounded rocks on the creek's banks are covered with dense, clear blue ice.  In between two of the larger rocks, what should be a space filled with ice or snow looks only dark and empty."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Griffin's Keen, Corrie]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9878": 0.4,
-    "4602": 0.2,
-    "4563": 0.2
-  },
-  "id": 4601,
-  "location": "Griffin's Keen",
   "tags": [
-    "some angelica root",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "sprig of holly",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some angelica root"
   ]
 }

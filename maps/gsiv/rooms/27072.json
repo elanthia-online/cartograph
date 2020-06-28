@@ -1,35 +1,28 @@
 {
+  "id": 27072,
+  "title": [
+    "[Wildwood of the Dryad, Terminus]"
+  ],
+  "description": [
+    "An abandoned cultivator rests to the side of the widening trail with several branches growing through it.  It is mostly covered by choking weeds and thorny vines.  A set of rust-covered chains connect the decomposing wooden tiller to an equally rotted and neglected whippletree."
+  ],
+  "paths": [
+    "Obvious paths: south, northwest"
+  ],
+  "location": "Coraesine Forest",
   "wayto": {
     "27071": "south",
     "27073": "northwest"
   },
-  "paths": [
-    "Obvious paths: south, northwest"
-  ],
+  "timeto": {
+    "27071": 0.2,
+    "27073": 0.2
+  },
+  "image": "en-wildwood.png",
   "image_coords": [
     680,
     1148,
     729,
     1196
-  ],
-  "terrain": null,
-  "description": [
-    "An abandoned cultivator rests to the side of the widening trail with several branches growing through it.  It is mostly covered by choking weeds and thorny vines.  A set of rust-covered chains connect the decomposing wooden tiller to an equally rotted and neglected whippletree."
-  ],
-  "image": "en-wildwood.png",
-  "climate": null,
-  "title": [
-    "[Wildwood of the Dryad, Terminus]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "27071": 0.2,
-    "27073": 0.2
-  },
-  "id": 27072,
-  "location": "Coraesine Forest",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

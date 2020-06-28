@@ -1,35 +1,32 @@
 {
-  "wayto": {
-    "1144": "west",
-    "1142": {
-      "stringproc": "8181675610979d6a3c8bad28905c8a7b"
-    }
-  },
+  "id": 1143,
+  "title": [
+    "[Locksmehr River Trail]"
+  ],
+  "description": [
+    "A small clearing opens up at the bank of the river.  Several old, rotting logs line the muddy banks of the Locksmehr River.  A long, narrow island sits in the center of the water, sheltered from the swift movement of the current.  A hefty amount of cracked and faded wood is stacked neatly off to the side of the trail.  A tight rope has been strung above the river to serve as a way to cross the raging current to the small island."
+  ],
   "paths": [
     "Obvious paths: west"
   ],
+  "location": "the Locksmehr Trail",
+  "wayto": {
+    "1144": "west",
+    "1142": {
+      "file": "string_procs/wayto/1143_1142.rb"
+    }
+  },
+  "timeto": {
+    "1144": 0.2,
+    "1142": 10.0
+  },
+  "image": "en-trail-1264234799.png",
   "image_coords": [
     763,
     164,
     773,
     174
   ],
-  "terrain": "missing",
-  "description": [
-    "A small clearing opens up at the bank of the river.  Several old, rotting logs line the muddy banks of the Locksmehr River.  A long, narrow island sits in the center of the water, sheltered from the swift movement of the current.  A hefty amount of cracked and faded wood is stacked neatly off to the side of the trail.  A tight rope has been strung above the river to serve as a way to cross the raging current to the small island."
-  ],
-  "image": "en-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Locksmehr River Trail]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1144": 0.2,
-    "1142": 10.0
-  },
-  "id": 1143,
-  "location": "the Locksmehr Trail",
   "tags": [
     "some basal moss",
     "some calamia fruit",
@@ -37,62 +34,6 @@
     "wild gooseberry",
     "bunch of wild grapes",
     "some haphip root",
-    "golden buttercup",
-    "acantha leaf",
-    "torban leaf",
-    "calamia fruit",
-    "haphip root",
-    "basal moss",
-    "tkaro root",
-    "sticks",
-    "angelica root",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "blueberries",
-    "elderberries",
-    "fiddlehead fern",
-    "wild grapes",
-    "broken twig",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "stalk of goldenrod",
-    "small wild rose",
-    "sprig of wild lilac",
-    "wild beechnut",
-    "stalk of burdock",
-    "ginger root",
-    "wild chokecherry",
-    "wild orchid",
-    "sprig of mistletoe",
-    "tree bark",
-    "murkweed",
-    "white lily",
-    "pink rain lily",
-    "coppery rain lily",
-    "kylan berry",
-    "blue whortleberry",
-    "white baneberry",
-    "bloodwood twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "twisted twig",
-    "slender twig",
-    "ebony twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "walnuts",
-    "alder bark",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "golden buttercup"
   ]
 }

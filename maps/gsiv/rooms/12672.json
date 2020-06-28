@@ -1,45 +1,35 @@
 {
-  "wayto": {
-    "20786": {
-      "stringproc": "8c22feeed337609e1c627f90bdaad1ad"
-    },
-    "12662": {
-      "stringproc": "0002229da959838f6c76ba4ac93b23c9"
-    },
-    "12677": {
-      "stringproc": "441d5ac4139f957b4bba4cb37c950f50"
-    }
-  },
-  "paths": [
-    ""
-  ],
-  "image_coords": [
-    1214,
-    1028,
-    1234,
-    1048
-  ],
-  "terrain": null,
-  "description": [
-    "A deafening roar engulfs the area as the water continues to jet through the trench, but has little effect on the aquatic life that moves along and against the current here.  Jagged rocks and vividly colored corals stick out sharply from the stone walls, adding yet another element of danger to the treacherous path."
-  ],
-  "image": "ti-nelemar-1262373036.png",
-  "climate": null,
+  "id": 12672,
   "title": [
     "[Teras Isle, Underwater]"
   ],
-  "check_location": null,
+  "description": [
+    "A deafening roar engulfs the area as the water continues to jet through the trench, but has little effect on the aquatic life that moves along and against the current here.  Jagged rocks and vividly colored corals stick out sharply from the stone walls, adding yet another element of danger to the treacherous path."
+  ],
+  "paths": [
+    ""
+  ],
+  "wayto": {
+    "20786": {
+      "file": "string_procs/wayto/12672_20786.rb"
+    },
+    "12662": {
+      "file": "string_procs/wayto/12672_12662.rb"
+    },
+    "12677": {
+      "file": "string_procs/wayto/12672_12677.rb"
+    }
+  },
   "timeto": {
     "20786": 45.0,
     "12662": 45.0,
     "12677": 45.0
   },
-  "id": 12672,
-  "location": null,
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "ti-nelemar-1262373036.png",
+  "image_coords": [
+    1214,
+    1028,
+    1234,
+    1048
   ]
 }

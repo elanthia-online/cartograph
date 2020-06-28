@@ -1,42 +1,28 @@
 {
+  "id": 7584,
+  "title": [
+    "[Ant Nest, Tunnels]"
+  ],
+  "description": [
+    "The passage ends here in a wall of solid rock, but you notice a tunnel winding up through the dirt next to the slab.  Piles of refuse, glowing with the greenish lichen that has spread over them, litter the ground at your feet."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "the dark caverns",
   "wayto": {
     "7582": "go tunnel",
     "7585": "southwest"
   },
-  "paths": [
-    "Obvious exits: southwest"
-  ],
+  "timeto": {
+    "7582": 0.2,
+    "7585": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     135,
     1048,
     145,
     1058
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The passage ends here in a wall of solid rock, but you notice a tunnel winding up through the dirt next to the slab.  Piles of refuse, glowing with the greenish lichen that has spread over them, litter the ground at your feet."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Ant Nest, Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7582": 0.2,
-    "7585": 0.2
-  },
-  "id": 7584,
-  "location": "the dark caverns",
-  "tags": [
-    "withered black mushroom",
-    "cave moss",
-    "murdroot",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

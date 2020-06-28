@@ -1,39 +1,32 @@
 {
+  "id": 11407,
+  "title": [
+    "[Cavern, Ledge]"
+  ],
+  "description": [
+    "You find yourself standing in a very shallow stream which dribbles over the edge of this chamber and down into a deep cavern.  The water originates from outside and a dim light filters in with it.",
+    "You find yourself standing in a very shallow stream which dribbles over the edge of this chamber and down into a deep cavern.  The water originates from outside and a bright light filters in with it."
+  ],
+  "paths": [
+    "Obvious exits: down, out"
+  ],
+  "location": "the Hidden Vale",
   "wayto": {
     "11406": "down",
     "11408": "out"
   },
-  "paths": [
-    "Obvious exits: down, out"
-  ],
+  "timeto": {
+    "11406": 0.2,
+    "11408": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     747,
     1139,
     757,
     1149
   ],
-  "terrain": "indoors",
-  "description": [
-    "You find yourself standing in a very shallow stream which dribbles over the edge of this chamber and down into a deep cavern.  The water originates from outside and a dim light filters in with it.",
-    "You find yourself standing in a very shallow stream which dribbles over the edge of this chamber and down into a deep cavern.  The water originates from outside and a bright light filters in with it."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Cavern, Ledge]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11406": 0.2,
-    "11408": 0.2
-  },
-  "id": 11407,
-  "location": "the Hidden Vale",
   "tags": [
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

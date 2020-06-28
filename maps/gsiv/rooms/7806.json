@@ -1,44 +1,28 @@
 {
+  "id": 7806,
+  "title": [
+    "[Cave, Litter Room]"
+  ],
+  "description": [
+    "The bones of animals, bits of bright colored cloth, a few scraps of odd metal and some broken pottery shards litter the floor of this room.  It could be a storeroom.  Or it could be a garbage pit."
+  ],
+  "paths": [
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "7805": "southeast",
     "7807": "northwest"
   },
-  "paths": [
-    "Obvious exits: southeast, northwest"
-  ],
+  "timeto": {
+    "7805": 0.2,
+    "7807": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     286,
     677,
     296,
     687
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The bones of animals, bits of bright colored cloth, a few scraps of odd metal and some broken pottery shards litter the floor of this room.  It could be a storeroom.  Or it could be a garbage pit."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Cave, Litter Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7805": 0.2,
-    "7807": 0.2
-  },
-  "id": 7806,
-  "location": "the Upper Trollfang",
-  "tags": [
-    "withered black mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

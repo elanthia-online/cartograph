@@ -1,51 +1,40 @@
 {
-  "wayto": {
-    "3992": {
-      "stringproc": "9f88287688a372e91e9bed2a1945605e"
-    },
-    "3990": {
-      "stringproc": "627e8564b77acb15b93b042e15018ec5"
-    }
-  },
+  "id": 3991,
+  "title": [
+    "[Griffin's Keen, Switchbacks]"
+  ],
+  "description": [
+    "Halfway up the mountainside, the trail dwindles away to nothing.  The last few feet are so slender as to prevent even a halfling's step.  Ten feet above, another level surface holds the promise of a continuation of the trail."
+  ],
   "paths": [
     "Obvious paths: east"
   ],
+  "location": "Griffin's Keen",
+  "wayto": {
+    "3992": {
+      "file": "string_procs/wayto/3991_3992.rb"
+    },
+    "3990": {
+      "file": "string_procs/wayto/3991_3990.rb"
+    }
+  },
+  "timeto": {
+    "3992": 0.6,
+    "3990": 4.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     798,
     359,
     808,
     369
   ],
-  "terrain": null,
-  "description": [
-    "Halfway up the mountainside, the trail dwindles away to nothing.  The last few feet are so slender as to prevent even a halfling's step.  Ten feet above, another level surface holds the promise of a continuation of the trail."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Griffin's Keen, Switchbacks]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3992": 0.6,
-    "3990": 4.2
-  },
-  "id": 3991,
-  "location": "Griffin's Keen",
   "tags": [
     "sprig of holly",
     "sassafras leaf",
     "some valerian root",
     "some angelica root",
     "sweetfern stalk",
-    "some pennyroyal stem",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some pennyroyal stem"
   ]
 }

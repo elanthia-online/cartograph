@@ -1,33 +1,30 @@
 {
+  "id": 439,
+  "title": [
+    "[Wehnimer's, Exterior]"
+  ],
+  "description": [
+    "Through a crack in the wooden palisade to the north, you can see the bustling traffic of Wehnimer.  It is a stark contrast to the open path that you walk."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Lower Dragonsclaw",
   "wayto": {
     "438": "west",
     "440": "east"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "438": 0.2,
+    "440": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     684,
     438,
     694,
     448
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "Through a crack in the wooden palisade to the north, you can see the bustling traffic of Wehnimer.  It is a stark contrast to the open path that you walk."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Wehnimer's, Exterior]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "438": 0.2,
-    "440": 0.2
-  },
-  "id": 439,
-  "location": "the Lower Dragonsclaw",
   "tags": [
     "some sovyn clove",
     "some acantha leaf",
@@ -60,10 +57,6 @@
     "murkweed",
     "ironfern root",
     "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bur-clover root"
   ]
 }

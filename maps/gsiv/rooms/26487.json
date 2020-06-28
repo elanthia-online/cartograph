@@ -1,34 +1,31 @@
 {
+  "id": 26487,
+  "title": [
+    "[Siren's Call Tavern, Bar]"
+  ],
+  "description": [
+    "A mild hint of wood varnish lingers in the air, mingled with the aroma of dark ale, spirits, and the twang of cigar smoke.  Centered on the back wall is a carved teak bar, and over it hangs a tremendous circular mirror behind glass shelves illuminated in wan jewel-toned hues.  Suede-cushioned stools sit beneath the edge of the counter, which is topped with clean-shaded lamps at intervals.  A narrow stairway leads up to the mezzanine."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "Caligos Isle",
   "wayto": {
     "26488": "go stairway",
     "26482": "southwest",
     "26770": {
-      "stringproc": "8fbb4b85277988bf59fd37ed9de6c329"
+      "file": "string_procs/wayto/26487_26770.rb"
     },
     "28563": {
-      "stringproc": "f0469ca752f89a28a5af91f69af0a23e"
+      "file": "string_procs/wayto/26487_28563.rb"
     },
     "28572": {
-      "stringproc": "943c70f9613c393bcc9e8653c97e3441"
+      "file": "string_procs/wayto/26487_28572.rb"
     },
     "28573": {
-      "stringproc": "844392864c5774ba1de8c84e6b6ee2a5"
+      "file": "string_procs/wayto/26487_28573.rb"
     }
   },
-  "paths": [
-    "Obvious exits: southwest"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "A mild hint of wood varnish lingers in the air, mingled with the aroma of dark ale, spirits, and the twang of cigar smoke.  Centered on the back wall is a carved teak bar, and over it hangs a tremendous circular mirror behind glass shelves illuminated in wan jewel-toned hues.  Suede-cushioned stools sit beneath the edge of the counter, which is topped with clean-shaded lamps at intervals.  A narrow stairway leads up to the mezzanine."
-  ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Siren's Call Tavern, Bar]"
-  ],
-  "check_location": null,
   "timeto": {
     "26488": 0.2,
     "26482": 0.2,
@@ -37,10 +34,7 @@
     "28572": 0.2,
     "28573": 0.2
   },
-  "id": 26487,
-  "location": "Caligos Isle",
   "tags": [
     "table"
-  ],
-  "unique_loot": null
+  ]
 }

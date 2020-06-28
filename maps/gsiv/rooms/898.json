@@ -1,42 +1,35 @@
 {
+  "id": 898,
+  "title": [
+    "[Whistler's Pass, Tunnel]"
+  ],
+  "description": [
+    "Although somewhat stale, the air in the passage is dry and cold, lacking the dank, stagnant quality of some underground areas.  Slight, infrequent gusts flow through the tunnel, their crisp scent calling to mind the chilly atmosphere of snowy, mountain slopes."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "897": "northeast",
     "899": "south"
   },
-  "paths": [
-    "Obvious exits: northeast, south"
-  ],
+  "timeto": {
+    "897": 0.2,
+    "899": 0.2
+  },
+  "image": "en-whistlers_pass-1264234799.png",
   "image_coords": [
     581,
     182,
     591,
     192
   ],
-  "terrain": "indoors",
-  "description": [
-    "Although somewhat stale, the air in the passage is dry and cold, lacking the dank, stagnant quality of some underground areas.  Slight, infrequent gusts flow through the tunnel, their crisp scent calling to mind the chilly atmosphere of snowy, mountain slopes."
-  ],
-  "image": "en-whistlers_pass-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Whistler's Pass, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "897": 0.2,
-    "899": 0.2
-  },
-  "id": 898,
-  "location": "Whistler's Pass",
   "tags": [
     "white hook mushroom",
     "cave moss",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

@@ -1,34 +1,31 @@
 {
+  "id": 5927,
+  "title": [
+    "[Catacombs, Sewers]"
+  ],
+  "description": [
+    "A small cave-in happened here recently, nearly blocking the path to the west.",
+    "A small cave-in happened here recently, nearly blocking the path to the west.  Stone and debris cover the floor in large piles.  Even the slightest of disturbances in the area cause more dust to rain down from the ceiling every so often."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "5928": "east",
     "5926": "west"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "5928": 0.2,
+    "5926": 0.2
+  },
+  "image": "en-tavaalor-1565907614.png",
   "image_coords": [
     343,
     903,
     352,
     911
   ],
-  "terrain": null,
-  "description": [
-    "A small cave-in happened here recently, nearly blocking the path to the west.",
-    "A small cave-in happened here recently, nearly blocking the path to the west.  Stone and debris cover the floor in large piles.  Even the slightest of disturbances in the area cause more dust to rain down from the ceiling every so often."
-  ],
-  "image": "en-tavaalor-1565907614.png",
-  "climate": null,
-  "title": [
-    "[Catacombs, Sewers]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5928": 0.2,
-    "5926": 0.2
-  },
-  "id": 5927,
-  "location": "the catacombs",
   "tags": [
     "some bolmara lichen",
     "some wingstem root",
@@ -41,8 +38,5 @@
     "murdroot",
     "bolmara lichen",
     "wingstem root"
-  ],
-  "links": [
-
   ]
 }

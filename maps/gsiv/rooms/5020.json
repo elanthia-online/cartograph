@@ -1,35 +1,32 @@
 {
+  "id": 5020,
+  "title": [
+    "[Yegharren Plain, Grasslands]"
+  ],
+  "description": [
+    "Wind sweeps through the tall grass, rustling the heavy blades in a constant background noise.  The clawed footprints of large orcs can be seen here and there in cleared patches of soil along the trail."
+  ],
+  "paths": [
+    "Obvious paths: north, east, west"
+  ],
+  "location": "the Yegharren Plains",
   "wayto": {
     "5017": "north",
     "5021": "west",
     "5022": "east"
   },
-  "paths": [
-    "Obvious paths: north, east, west"
-  ],
+  "timeto": {
+    "5017": 0.2,
+    "5021": 0.2,
+    "5022": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     917,
     628,
     927,
     638
   ],
-  "terrain": "grassland",
-  "description": [
-    "Wind sweeps through the tall grass, rustling the heavy blades in a constant background noise.  The clawed footprints of large orcs can be seen here and there in cleared patches of soil along the trail."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Yegharren Plain, Grasslands]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5017": 0.2,
-    "5021": 0.2,
-    "5022": 0.2
-  },
-  "id": 5020,
-  "location": "the Yegharren Plains",
   "tags": [
     "some wheat grass",
     "sprig of columbine",
@@ -61,61 +58,6 @@
     "bright red teaberry",
     "sprig of Imaera's Lace",
     "golden aster",
-    "stalk of monkeyflower",
-    "acantha leaf",
-    "ambrominas leaf",
-    "sovyn clove",
-    "angelica root",
-    "trollfear mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "small violet",
-    "stalk of chicory",
-    "wild grapes",
-    "golden buttercup",
-    "pink clover blossom",
-    "sprig of larkspur",
-    "small wild rose",
-    "Imaera's Lace",
-    "stalk of burdock",
-    "barley grass",
-    "wheat grass",
-    "ear of corn",
-    "fig",
-    "mustard seeds",
-    "rose-marrow root",
-    "wild sage",
-    "wild chokecherry",
-    "motherwort",
-    "blaestonberry blossom",
-    "honeysuckle vine",
-    "sprig of jasmine",
-    "sprig of lavender",
-    "sprig of mournbloom",
-    "wild orchid",
-    "wild pansy blossom",
-    "sprig of wild phlox",
-    "large sunflower",
-    "wood violet",
-    "wolfsbane root",
-    "huckleberries",
-    "raspberries",
-    "small apple",
-    "murkweed",
-    "white lily",
-    "fire lily",
-    "luckbloom blossom",
-    "murdroot",
-    "wavepetal blossom",
-    "ironfern root",
-    "nightbloom blossom",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "stalk of monkeyflower"
   ]
 }

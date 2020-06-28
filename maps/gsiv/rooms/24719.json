@@ -1,74 +1,36 @@
 {
+  "id": 24719,
+  "title": [
+    "[Red Forest, Derelict Village]"
+  ],
+  "description": [
+    "Verdant greenish-black hedges border a weathered path leading up to a two-story wooden edifice, which despite its worn down appearance, is relatively intact.  Just outside the building, a tall rusted sconce stands sentinel, its lit silvery-blue flame casting a sea of dancing shadows along a battered wooden door."
+  ],
+  "paths": [
+    "Obvious paths: north, west"
+  ],
+  "location": "the Red Forest",
   "wayto": {
     "24720": "go door",
     "24717": "west",
     "24722": "north"
   },
-  "paths": [
-    "Obvious paths: north, west"
-  ],
+  "timeto": {
+    "24720": 0.2,
+    "24717": 0.2,
+    "24722": 0.2
+  },
+  "image": "red_forest-1260914757.png",
   "image_coords": [
     171,
     506,
     184,
     519
   ],
-  "terrain": null,
-  "description": [
-    "Verdant greenish-black hedges border a weathered path leading up to a two-story wooden edifice, which despite its worn down appearance, is relatively intact.  Just outside the building, a tall rusted sconce stands sentinel, its lit silvery-blue flame casting a sea of dancing shadows along a battered wooden door."
-  ],
-  "image": "red_forest-1260914757.png",
-  "climate": null,
-  "title": [
-    "[Red Forest, Derelict Village]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24720": 0.2,
-    "24717": 0.2,
-    "24722": 0.2
-  },
-  "id": 24719,
-  "location": "the Displaced Red Forest",
   "tags": [
     "fiddlehead fern",
     "wild chokecherry",
     "blue trafel mushroom",
-    "blue whortleberry",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "tkaro root",
-    "sticks",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "soft white mushroom",
-    "withered black mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "blueberries",
-    "wild gooseberry",
-    "broken twig",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "small wild rose",
-    "sprig of wild lilac",
-    "bright red cranberry",
-    "tree bark",
-    "mistweed",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+    "blue whortleberry"
+  ]
 }

@@ -1,35 +1,28 @@
 {
+  "id": 26528,
+  "title": [
+    "[Caligos Isle, Cavern Entrance]"
+  ],
+  "description": [
+    "The darkened tunnel opens up into an enormous cavern, the malformed limestone columns casting ominous shadows as their forms flicker against the iron-mounted torches scattered along the area.  Mirror-like pools conceal the true size of the area, flanking an uneven path that curves further down into the depths of the cavern."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Caligos Isle",
   "wayto": {
     "26529": "go path",
     "26527": "out"
   },
-  "paths": [
-    "Obvious exits: out"
-  ],
+  "timeto": {
+    "26529": 0.2,
+    "26527": 0.2
+  },
+  "image": "fest-ebon_gate-caligos_isle-1539222190.png",
   "image_coords": [
     660,
     319,
     673,
     332
-  ],
-  "terrain": null,
-  "description": [
-    "The darkened tunnel opens up into an enormous cavern, the malformed limestone columns casting ominous shadows as their forms flicker against the iron-mounted torches scattered along the area.  Mirror-like pools conceal the true size of the area, flanking an uneven path that curves further down into the depths of the cavern."
-  ],
-  "image": "fest-ebon_gate-caligos_isle-1539222190.png",
-  "climate": null,
-  "title": [
-    "[Caligos Isle, Cavern Entrance]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26529": 0.2,
-    "26527": 0.2
-  },
-  "id": 26528,
-  "location": "Caligos Isle",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

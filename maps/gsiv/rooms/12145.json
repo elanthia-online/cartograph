@@ -1,52 +1,44 @@
 {
-  "wayto": {
-    "12207": {
-      "stringproc": "e92c9dd14f17f62ccd19f33b9f37fe22"
-    },
-    "12157": "northeast",
-    "12235": {
-      "stringproc": "6257723a0157210f5f1e2eb6e7c5dbb4"
-    },
-    "12125": "southeast"
-  },
+  "id": 12145,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "A fair-haired boy stands upon the battleground.  His wounds are grievous, coating him in blood and gore.  In his hands he holds a staff, fighting valiantly to hold off six men also armed with sharply pointed sticks.  In a sweeping movement he overextends, falling to the ground with a cry of pain and frustration.  As the first staff descends upon his head the scene fades, leaving you alone upon the field of war."
+  ],
   "paths": [
     "Obvious paths: northeast, southeast",
     "Obvious exits: northeast, southeast"
   ],
-  "image_coords": [
-    569,
-    1180,
-    579,
-    1190
-  ],
-  "terrain": null,
-  "description": [
-    "A fair-haired boy stands upon the battleground.  His wounds are grievous, coating him in blood and gore.  In his hands he holds a staff, fighting valiantly to hold off six men also armed with sharply pointed sticks.  In a sweeping movement he overextends, falling to the ground with a cry of pain and frustration.  As the first staff descends upon his head the scene fades, leaving you alone upon the field of war."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12207": {
+      "file": "string_procs/wayto/12145_12207.rb"
+    },
+    "12157": "northeast",
+    "12235": {
+      "file": "string_procs/wayto/12145_12235.rb"
+    },
+    "12125": "southeast"
+  },
   "timeto": {
     "12207": 11.4,
     "12157": 0.2,
     "12235": 11.4,
     "12125": 0.2
   },
-  "id": 12145,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    569,
+    1180,
+    579,
+    1190
+  ],
   "tags": [
     "mass of congealed slime",
     "slime-covered grave blossom",
     "withered deathblossom",
     "oozing fleshsore bulb",
-    "twisted black mawflower",
-    "rotting bile green fleshbulb",
-    "discolored fleshbinder bud"
-  ],
-  "links": [
-
+    "twisted black mawflower"
   ]
 }

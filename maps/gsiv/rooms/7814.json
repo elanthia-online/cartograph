@@ -1,44 +1,28 @@
 {
+  "id": 7814,
+  "title": [
+    "[Cave, Wood Pile]"
+  ],
+  "description": [
+    "The smell of smoke hangs heavy in the air here.  Stashed in a wide crack that splits the north wall is a pile of wood that has been hurridly stacked.  A few bones, some with scraps of meat still attached, are strewn about the room."
+  ],
+  "paths": [
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "7815": "northwest",
     "7804": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast, northwest"
-  ],
+  "timeto": {
+    "7815": 0.2,
+    "7804": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     304,
     761,
     314,
     771
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The smell of smoke hangs heavy in the air here.  Stashed in a wide crack that splits the north wall is a pile of wood that has been hurridly stacked.  A few bones, some with scraps of meat still attached, are strewn about the room."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Cave, Wood Pile]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7815": 0.2,
-    "7804": 0.2
-  },
-  "id": 7814,
-  "location": "the Upper Trollfang",
-  "tags": [
-    "withered black mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

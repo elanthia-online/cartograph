@@ -1,35 +1,32 @@
 {
+  "id": 3207,
+  "title": [
+    "[Snowflake Vale, Clearing]"
+  ],
+  "description": [
+    "The trees of the forest give way suddenly to a snowy clearing.  Several jagged-edged stumps peek cautiously from beneath their blanket of snow, as though inquiring if it is safe to come out."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the southern snowfields",
   "wayto": {
     "3211": "west",
     "3205": "go path",
     "3208": "east"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "3211": 0.2,
+    "3205": 0.2,
+    "3208": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     354,
     1086,
     364,
     1096
   ],
-  "terrain": "grassland",
-  "description": [
-    "The trees of the forest give way suddenly to a snowy clearing.  Several jagged-edged stumps peek cautiously from beneath their blanket of snow, as though inquiring if it is safe to come out."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Snowflake Vale, Clearing]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3211": 0.2,
-    "3205": 0.2,
-    "3208": 0.2
-  },
-  "id": 3207,
-  "location": "the southern snowfields",
   "tags": [
     "stalk of chicory",
     "sprig of larkspur",
@@ -44,24 +41,6 @@
     "some tundra grass",
     "snowy cockatrice",
     "greater ice spider",
-    "some valerian root",
-    "acantha leaf",
-    "wolifrew lichen",
-    "sassafras leaf",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "white hook mushroom",
-    "winter rose",
-    "bright red teaberry",
-    "tundra grass",
-    "frostflower",
-    "luckbloom blossom",
-    "ironfern root",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some valerian root"
   ]
 }

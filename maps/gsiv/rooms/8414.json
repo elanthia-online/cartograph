@@ -1,46 +1,34 @@
 {
+  "id": 8414,
+  "title": [
+    "[Thanatoph Bowels, East Lobe]"
+  ],
+  "description": [
+    "Cooler air fills this narrow east-to-west corridor leading into the center of the Thanatoph bowels.  Cobwebs coated with ages of dust line the passageway, often criss-crossing in stringy valances overhead.  A trickle of dampness seeps along the clay floor tracked with long ridges."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "the bowels of Thanatoph",
   "wayto": {
     "8390": "northeast",
     "8413": "southwest"
   },
-  "paths": [
-    "Obvious exits: northeast, southwest"
-  ],
+  "timeto": {
+    "8390": 0.2,
+    "8413": 0.2
+  },
+  "image": "wl-stronghold-1264234799.png",
   "image_coords": [
     1310,
     590,
     1320,
     600
   ],
-  "terrain": "indoors",
-  "description": [
-    "Cooler air fills this narrow east-to-west corridor leading into the center of the Thanatoph bowels.  Cobwebs coated with ages of dust line the passageway, often criss-crossing in stringy valances overhead.  A trickle of dampness seeps along the clay floor tracked with long ridges."
-  ],
-  "image": "wl-stronghold-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thanatoph Bowels, East Lobe]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8390": 0.2,
-    "8413": 0.2
-  },
-  "id": 8414,
-  "location": "the bowels of Thanatoph",
   "tags": [
     "withered black mushroom",
     "some cave moss",
     "some wolifrew lichen",
-    "some wingstem root",
-    "wolifrew lichen",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

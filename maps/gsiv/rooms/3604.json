@@ -1,40 +1,33 @@
 {
+  "id": 3604,
+  "title": [
+    "[Wehnimer's, Exterior]"
+  ],
+  "description": [
+    "The smell of the sea is quite strong here and you can hear the sound of crashing waves to the north.  The logs that make up the high palisade that surrounds the town have been treated with oils but small cakes of salt, deposited by the moist saline air, still can be seen clinging to the wood."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Lower Dragonsclaw",
   "wayto": {
     "4346": "north",
     "3603": "go trail",
     "3605": "south"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "4346": 0.2,
+    "3603": 0.2,
+    "3605": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     1032,
     66,
     1042,
     76
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The smell of the sea is quite strong here and you can hear the sound of crashing waves to the north.  The logs that make up the high palisade that surrounds the town have been treated with oils but small cakes of salt, deposited by the moist saline air, still can be seen clinging to the wood."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "saltwater",
-  "title": [
-    "[Wehnimer's, Exterior]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4346": 0.2,
-    "3603": 0.2,
-    "3605": 0.2
-  },
-  "id": 3604,
-  "location": "the Lower Dragonsclaw",
   "tags": [
-    "murdroot",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "murdroot"
   ]
 }

@@ -1,34 +1,33 @@
 {
+  "id": 10869,
+  "title": [
+    "[River's Rest, Pavilion Grove]"
+  ],
+  "description": [
+    "A small, open-air pavilion stands near the center of a clearing in a grove of fragrant persimmon trees.  Tall columns of green riverstone are topped with a dome painted deep blue.  Ivy grows profusely in the narrow spaces between the columns, creating a leafy wall that conceals the interior of the pavilion.  Moonlight glints off something metallic behind the ivy.",
+    "A small, open-air pavilion stands near the center of a clearing in a grove of fragrant persimmon trees.  Tall columns of green riverstone are topped with a dome painted deep blue.  Ivy grows profusely in the narrow spaces between the columns, creating a leafy wall that conceals the interior of the pavilion.  Sunlight glints off something metallic behind the ivy."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the town of River's Rest",
+  "climate": "temperate",
+  "terrain": "grassland",
   "wayto": {
     "10996": "go pavilion",
     "10868": "east"
   },
-  "paths": [
-    "Obvious paths: east"
-  ],
+  "timeto": {
+    "10996": 0.2,
+    "10868": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     599,
     378,
     637,
     416
   ],
-  "terrain": "grassland",
-  "description": [
-    "A small, open-air pavilion stands near the center of a clearing in a grove of fragrant persimmon trees.  Tall columns of green riverstone are topped with a dome painted deep blue.  Ivy grows profusely in the narrow spaces between the columns, creating a leafy wall that conceals the interior of the pavilion.  Moonlight glints off something metallic behind the ivy.",
-    "A small, open-air pavilion stands near the center of a clearing in a grove of fragrant persimmon trees.  Tall columns of green riverstone are topped with a dome painted deep blue.  Ivy grows profusely in the narrow spaces between the columns, creating a leafy wall that conceals the interior of the pavilion.  Sunlight glints off something metallic behind the ivy."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "temperate",
-  "title": [
-    "[River's Rest, Pavilion Grove]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10996": 0.2,
-    "10868": 0.2
-  },
-  "id": 10869,
-  "location": "the town of River's Rest",
   "tags": [
     "some sovyn clove",
     "some acantha leaf",
@@ -88,13 +87,6 @@
     "murdroot",
     "wavepetal blossom",
     "ironfern root",
-    "sunburst blossom",
-    "trollfear mushroom",
-    "fire lily",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sunburst blossom"
   ]
 }

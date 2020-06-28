@@ -1,38 +1,28 @@
 {
+  "id": 1355,
+  "title": [
+    "[Zortahg's Spine, Tail's End]"
+  ],
+  "description": [
+    "An ancient stone ramp rises from the tall grass and heads north, growing into a battlemented roadway as it reaches above the mist.  To the east, south, and west an expanse of black water stretches, uninterrupted by stone blocks or marsh grass."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "the Central Caravansary",
   "wayto": {
     "1354": "north",
     "1356": "go roadway"
   },
-  "paths": [
-    "Obvious paths: north"
-  ],
+  "timeto": {
+    "1354": 0.2,
+    "1356": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     469,
     844,
     479,
     854
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "An ancient stone ramp rises from the tall grass and heads north, growing into a battlemented roadway as it reaches above the mist.  To the east, south, and west an expanse of black water stretches, uninterrupted by stone blocks or marsh grass."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Zortahg's Spine, Tail's End]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1354": 0.2,
-    "1356": 0.2
-  },
-  "id": 1355,
-  "location": "the Central Caravansary",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

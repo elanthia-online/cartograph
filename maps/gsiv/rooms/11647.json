@@ -1,33 +1,30 @@
 {
+  "id": 11647,
+  "title": [
+    "[Ghastly Swamp]"
+  ],
+  "description": [
+    "The turf of the pathway is squishy underfoot.  The air is heavy with the primal stink of decaying vegetation and swamp ooze.   The fog moves slowly in vague, bloated clouds.  Spiky-leafed plants grow in clumps amid the scrub brush and gnarled trees."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "the Miasmal Forest",
   "wayto": {
     "11646": "northwest",
     "11648": "southeast"
   },
-  "paths": [
-    "Obvious paths: southeast, northwest"
-  ],
+  "timeto": {
+    "11646": 0.2,
+    "11648": 0.2
+  },
+  "image": "rr-maelstrom-1266390501.png",
   "image_coords": [
     756,
     276,
     766,
     286
   ],
-  "terrain": "muddy wetlands",
-  "description": [
-    "The turf of the pathway is squishy underfoot.  The air is heavy with the primal stink of decaying vegetation and swamp ooze.   The fog moves slowly in vague, bloated clouds.  Spiky-leafed plants grow in clumps amid the scrub brush and gnarled trees."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "moist",
-  "title": [
-    "[Ghastly Swamp]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11646": 0.2,
-    "11648": 0.2
-  },
-  "id": 11647,
-  "location": "the Miasmal Forest",
   "tags": [
     "some talneo root",
     "genkew mushroom",
@@ -53,20 +50,6 @@
     "daggerstalk mushroom",
     "red heliconia",
     "flathead mushroom",
-    "some aloeas stem",
-    "calamia fruit",
-    "aloeas stem",
-    "spider lily",
-    "alligator lily",
-    "murdroot",
-    "wavepetal blossom",
-    "bolmara lichen",
-    "talneo root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some aloeas stem"
   ]
 }

@@ -1,33 +1,32 @@
 {
+  "id": 11018,
+  "title": [
+    "[Overgrown Trail]"
+  ],
+  "description": [
+    "The trail is clotted with tall weeds and clumps of thistle.  Scattered among the stumpy olive trees are a few thin haon and mahogany trees.  Green with mold and lichen, the trees lean over the trail at strange angles.  A few dead and dying vines hang from the gnarled and twisted branches of the trees."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Karazja Jungle",
+  "climate": "temperate",
+  "terrain": "tropical",
   "wayto": {
     "11014": "north",
     "11019": "south"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "11014": 0.2,
+    "11019": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     499,
     1035,
     509,
     1045
   ],
-  "terrain": "tropical",
-  "description": [
-    "The trail is clotted with tall weeds and clumps of thistle.  Scattered among the stumpy olive trees are a few thin haon and mahogany trees.  Green with mold and lichen, the trees lean over the trail at strange angles.  A few dead and dying vines hang from the gnarled and twisted branches of the trees."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "temperate",
-  "title": [
-    "[Overgrown Trail]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11014": 0.2,
-    "11019": 0.2
-  },
-  "id": 11018,
-  "location": "the Karazja Jungle",
   "tags": [
     "some acantha leaf",
     "some torban leaf",
@@ -54,12 +53,6 @@
     "slender twig",
     "ebony twig",
     "talneo root",
-    "brostheras grass",
-    "oxblood lily",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

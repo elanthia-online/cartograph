@@ -1,52 +1,30 @@
 {
+  "id": 20631,
+  "title": [
+    "[Wehnimer's, Burrow Way]"
+  ],
+  "description": [
+    "Half-formed cobwebs cling to the far corners of the tunnel ceiling, collecting more dust than bugs.  Nearby, a crude wooden ladder leads up to a hinged trapdoor."
+  ],
+  "paths": [
+    "Obvious exits: north, southwest"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "20632": "north",
     "20630": "southwest",
     "20639": "go ladder"
   },
-  "paths": [
-    "Obvious exits: north, southwest"
-  ],
-  "image_coords": [
-    990,
-    180,
-    1015,
-    205
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Half-formed cobwebs cling to the far corners of the tunnel ceiling, collecting more dust than bugs.  Nearby, a crude wooden ladder leads up to a hinged trapdoor."
-  ],
-  "image": "wl-burrow_way-1360361110.png",
-  "climate": "indoors",
-  "title": [
-    "[Wehnimer's, Burrow Way]"
-  ],
-  "check_location": null,
   "timeto": {
     "20632": 0.2,
     "20630": 0.2,
     "20639": 0.2
   },
-  "id": 20631,
-  "location": "the town of Wehnimer's Landing",
-  "tags": [
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null,
-  "links": [
-
+  "image": "wl-burrow_way-1360361110.png",
+  "image_coords": [
+    990,
+    180,
+    1015,
+    205
   ]
 }

@@ -1,49 +1,40 @@
 {
-  "wayto": {
-    "11468": {
-      "stringproc": "b9248cfc9b113e5b3c9341af010fa35e"
-    },
-    "11470": {
-      "stringproc": "84d7e9c5466c56efd7dc0ac337b0a9ea"
-    },
-    "11472": {
-      "stringproc": "84803c6220b0581d4151763c46ccdbbc"
-    },
-    "11473": {
-      "stringproc": "83255565d617dbe7b0ecdb04e9a96925"
-    },
-    "11474": {
-      "stringproc": "9eaa131926e46e6090f2390aa24f278f"
-    },
-    "11464": {
-      "stringproc": "8590757048f346da70e2325b7e9ba8ea"
-    },
-    "11477": {
-      "stringproc": "e531eb47f19700d00ac81ca15d619ca8"
-    },
-    "11467": {
-      "stringproc": "2475b19f394c069e111c2fa06831c1f7"
-    }
-  },
-  "paths": [
-    "Obvious exits: north, east, southeast, south, southwest, west, northwest, up"
-  ],
-  "image_coords": [
-    949,
-    1207,
-    959,
-    1217
-  ],
-  "terrain": null,
-  "description": [
-    "The sandy bay floor is crisscrossed with the tracks of marine life...crabs, lobsters, sea slugs, bay roaches.  A hazy spray of silt is suspended in the water, carried slowly eastward by the gentle current.  A pair of sea fans, like the ears of an elephant, grows out of the golden sand of the bay floor."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": null,
+  "id": 11471,
   "title": [
     "[Maelstrom Bay, Bottom]"
   ],
-  "check_location": null,
+  "description": [
+    "The sandy bay floor is crisscrossed with the tracks of marine life...crabs, lobsters, sea slugs, bay roaches.  A hazy spray of silt is suspended in the water, carried slowly eastward by the gentle current.  A pair of sea fans, like the ears of an elephant, grows out of the golden sand of the bay floor."
+  ],
+  "paths": [
+    "Obvious exits: north, east, southeast, south, southwest, west, northwest, up"
+  ],
+  "wayto": {
+    "11468": {
+      "file": "string_procs/wayto/11471_11468.rb"
+    },
+    "11470": {
+      "file": "string_procs/wayto/11471_11470.rb"
+    },
+    "11472": {
+      "file": "string_procs/wayto/11471_11472.rb"
+    },
+    "11473": {
+      "file": "string_procs/wayto/11471_11473.rb"
+    },
+    "11474": {
+      "file": "string_procs/wayto/11471_11474.rb"
+    },
+    "11464": {
+      "file": "string_procs/wayto/11471_11464.rb"
+    },
+    "11477": {
+      "file": "string_procs/wayto/11471_11477.rb"
+    },
+    "11467": {
+      "file": "string_procs/wayto/11471_11467.rb"
+    }
+  },
   "timeto": {
     "11468": 2.0,
     "11470": 2.0,
@@ -54,12 +45,11 @@
     "11477": 2.0,
     "11467": 2.0
   },
-  "id": 11471,
-  "location": null,
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "rr-maelstrom-1266390501.png",
+  "image_coords": [
+    949,
+    1207,
+    959,
+    1217
   ]
 }

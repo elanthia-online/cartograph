@@ -1,34 +1,31 @@
 {
+  "id": 84,
+  "title": [
+    "[Whistler's Pass, Trail]"
+  ],
+  "description": [
+    "A series of dark purple vines with green leaves twist along the darkened rock walls.  New shoots of growth can be seen reaching towards the heights of the pass.",
+    "A series of dark purple vines with green leaves twist along the rock walls.  New shoots of growth can be seen reaching towards the heights of the pass."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "83": "northeast",
     "85": "west"
   },
-  "paths": [
-    "Obvious paths: northeast, west"
-  ],
+  "timeto": {
+    "83": 0.2,
+    "85": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     819,
     381,
     829,
     391
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "A series of dark purple vines with green leaves twist along the darkened rock walls.  New shoots of growth can be seen reaching towards the heights of the pass.",
-    "A series of dark purple vines with green leaves twist along the rock walls.  New shoots of growth can be seen reaching towards the heights of the pass."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Whistler's Pass, Trail]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "83": 0.2,
-    "85": 0.2
-  },
-  "id": 84,
-  "location": "Whistler's Pass",
   "tags": [
     "stick",
     "twisted twig",
@@ -89,10 +86,6 @@
     "slender twig",
     "ebony twig",
     "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

@@ -1,37 +1,34 @@
 {
+  "id": 7218,
+  "title": [
+    "[Underbarrow, Burial Chamber]"
+  ],
+  "description": [
+    "The grey stone of the walls is obscured behind piles upon piles of stacked corpses.  Each is in a state of perfect preservation, encased in thick sheets of pure ice.  Eyes stare up at the web-coated ceiling, forever watching the arachnids weaving their wispy tapestry.  The hand has fallen from one of the bodies and shattered, small frozen fragments of flesh scattered across the floor like grisly pieces of a puzzle."
+  ],
+  "paths": [
+    "Obvious exits: north, south, west, northwest"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7217": "south",
     "7219": "north",
     "7223": "west",
     "7224": "northwest"
   },
-  "paths": [
-    "Obvious exits: north, south, west, northwest"
-  ],
-  "image_coords": [
-    650,
-    184,
-    660,
-    194
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The grey stone of the walls is obscured behind piles upon piles of stacked corpses.  Each is in a state of perfect preservation, encased in thick sheets of pure ice.  Eyes stare up at the web-coated ceiling, forever watching the arachnids weaving their wispy tapestry.  The hand has fallen from one of the bodies and shattered, small frozen fragments of flesh scattered across the floor like grisly pieces of a puzzle."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Underbarrow, Burial Chamber]"
-  ],
-  "check_location": null,
   "timeto": {
     "7217": 0.2,
     "7219": 0.2,
     "7223": 0.2,
     "7224": 0.2
   },
-  "id": 7218,
-  "location": "the Graveyard",
+  "image": "wl-graveyard-1264234799.png",
+  "image_coords": [
+    650,
+    184,
+    660,
+    194
+  ],
   "tags": [
     "some wolifrew lichen",
     "some cave moss",
@@ -40,10 +37,6 @@
     "cave moss",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

@@ -1,34 +1,31 @@
 {
+  "id": 2578,
+  "title": [
+    "[Upper Trollfang, Foothills]"
+  ],
+  "description": [
+    "Your legs ache as you negotiate this steep path.  The trail winds around rocks and chasms and clumps of modwirs, the ground spongy with fallen needles.",
+    "Your legs ache as you negotiate the steep path, choosing your footing carefully in the darkness.  The trail winds around rocks and chasms and clumps of modwirs, the ground spongy with fallen needles."
+  ],
+  "paths": [
+    "Obvious paths: southwest, up"
+  ],
+  "location": "Glatoph",
   "wayto": {
     "2577": "up",
     "1209": "southwest"
   },
-  "paths": [
-    "Obvious paths: southwest, up"
-  ],
+  "timeto": {
+    "2577": 0.2,
+    "1209": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     573,
     951,
     583,
     961
   ],
-  "terrain": "hilly",
-  "description": [
-    "Your legs ache as you negotiate this steep path.  The trail winds around rocks and chasms and clumps of modwirs, the ground spongy with fallen needles.",
-    "Your legs ache as you negotiate the steep path, choosing your footing carefully in the darkness.  The trail winds around rocks and chasms and clumps of modwirs, the ground spongy with fallen needles."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Upper Trollfang, Foothills]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2577": 0.2,
-    "1209": 0.2
-  },
-  "id": 2578,
-  "location": "Glatoph",
   "tags": [
     "cuctucae berry",
     "bright red teaberry",
@@ -65,10 +62,6 @@
     "twisted twig",
     "slender twig",
     "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

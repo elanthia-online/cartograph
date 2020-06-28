@@ -1,42 +1,32 @@
 {
+  "id": 11074,
+  "title": [
+    "[Sea Caves]"
+  ],
+  "description": [
+    "Extremely hard rock forms the floor and the ceiling of the cave here, as the cave narrows to nearly a crawl space.  The cave opens wider to the north and east, and an opening leads southwest.  A slight breeze blows in from the north and the east."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
   "wayto": {
     "11082": "east",
     "11073": "go opening",
     "11075": "north"
   },
-  "paths": [
-    "Obvious exits: north, east"
-  ],
+  "timeto": {
+    "11082": 0.2,
+    "11073": 0.2,
+    "11075": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     1187,
     138,
     1197,
     148
   ],
-  "terrain": "indoors",
-  "description": [
-    "Extremely hard rock forms the floor and the ceiling of the cave here, as the cave narrows to nearly a crawl space.  The cave opens wider to the north and east, and an opening leads southwest.  A slight breeze blows in from the north and the east."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Caves]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11082": 0.2,
-    "11073": 0.2,
-    "11075": 0.2
-  },
-  "id": 11074,
-  "location": "the Sea Caves",
   "tags": [
-    "some wingstem root",
-    "murdroot",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

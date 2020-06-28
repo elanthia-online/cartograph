@@ -1,35 +1,32 @@
 {
+  "id": 14035,
+  "title": [
+    "[Castle Varunar, Inner Gate]"
+  ],
+  "description": [
+    "To the west a massive gate stands open.  The gate is a full four feet thick and fashioned from iron-banded fel wood.  Four hardwood locking bars lean against the wall, their tops forming a stable platform for a sparrow nest.  Oddly, no signs of forced entry are in evidence.  Just inside the gate you see a stone ramp leading up towards the inner walls."
+  ],
+  "paths": [
+    "Obvious paths: north, south, west"
+  ],
+  "location": "Castle Varunar",
   "wayto": {
     "14034": "south",
     "14036": "west",
     "14038": "north"
   },
-  "paths": [
-    "Obvious paths: north, south, west"
-  ],
+  "timeto": {
+    "14034": 0.2,
+    "14036": 0.2,
+    "14038": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     845,
     257,
     855,
     267
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "To the west a massive gate stands open.  The gate is a full four feet thick and fashioned from iron-banded fel wood.  Four hardwood locking bars lean against the wall, their tops forming a stable platform for a sparrow nest.  Oddly, no signs of forced entry are in evidence.  Just inside the gate you see a stone ramp leading up towards the inner walls."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Castle Varunar, Inner Gate]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "14034": 0.2,
-    "14036": 0.2,
-    "14038": 0.2
-  },
-  "id": 14035,
-  "location": "Castle Varunar",
   "tags": [
     "some acantha leaf",
     "some calamia fruit",
@@ -40,25 +37,6 @@
     "stalk of chicory",
     "some wingstem root",
     "small wild rose",
-    "small flower",
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "small daisy",
-    "angelica root",
-    "heath aster",
-    "yellow primrose",
-    "wild chokecherry",
-    "motherwort",
-    "white baneberry",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "small flower"
   ]
 }

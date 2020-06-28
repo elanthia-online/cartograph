@@ -1,41 +1,31 @@
 {
+  "id": 5796,
+  "title": [
+    "[Zaerthu Tunnels]"
+  ],
+  "description": [
+    "The tunnel ends abruptly in a wall of blank, rough rock.  Veins of metal shimmer in faint light from the south, beautiful to see but apparently not rich enough to mine."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the Zaerthu Tunnels",
   "wayto": {
     "5797": "south",
     "5795": "go crevice"
   },
-  "paths": [
-    "Obvious exits: south"
-  ],
+  "timeto": {
+    "5797": 0.2,
+    "5795": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     206,
     768,
     216,
     778
   ],
-  "terrain": "indoors",
-  "description": [
-    "The tunnel ends abruptly in a wall of blank, rough rock.  Veins of metal shimmer in faint light from the south, beautiful to see but apparently not rich enough to mine."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Zaerthu Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5797": 0.2,
-    "5795": 0.2
-  },
-  "id": 5796,
-  "location": "the Zaerthu Tunnels",
   "tags": [
-    "some wolifrew lichen",
-    "wolifrew lichen",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wolifrew lichen"
   ]
 }

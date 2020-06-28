@@ -1,50 +1,35 @@
 {
+  "id": 8209,
+  "title": [
+    "[Sea Caverns, Sleeping Quarters]"
+  ],
+  "description": [
+    "Here in the southeast corner of the large cavern, the air is hazy with the fire pit's acrid smoke.  Piles of garbage have overtaken the rags.  It seems likely that the goblins toss the remains of meals in this direction from the comfort of the nests on the cavern's other side."
+  ],
+  "paths": [
+    "Obvious exits: north, west, northwest"
+  ],
+  "location": "the sea caverns",
   "wayto": {
     "8208": "northwest",
     "8210": "north",
     "8211": "west"
   },
-  "paths": [
-    "Obvious exits: north, west, northwest"
-  ],
+  "timeto": {
+    "8208": 0.2,
+    "8210": 0.2,
+    "8211": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     579,
     261,
     589,
     271
   ],
-  "terrain": "indoors",
-  "description": [
-    "Here in the southeast corner of the large cavern, the air is hazy with the fire pit's acrid smoke.  Piles of garbage have overtaken the rags.  It seems likely that the goblins toss the remains of meals in this direction from the comfort of the nests on the cavern's other side."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Caverns, Sleeping Quarters]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8208": 0.2,
-    "8210": 0.2,
-    "8211": 0.2
-  },
-  "id": 8209,
-  "location": "the sea caverns",
   "tags": [
     "red trafel mushroom",
     "soft white mushroom",
-    "blue trafel mushroom",
-    "withered black mushroom",
-    "black hook mushroom",
-    "white hook mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "blue trafel mushroom"
   ]
 }

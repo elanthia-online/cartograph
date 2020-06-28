@@ -1,36 +1,33 @@
 {
+  "id": 5924,
+  "title": [
+    "[Catacombs, Altar]"
+  ],
+  "description": [
+    "Thick bluish-green mold covers the walls entirely.",
+    "Thick bluish-green mold covers the walls entirely.  Sudden cracks and holes in the ground make walking treacherous.  In each corner of the room, stands considerably sized candelabras with partially burnt blood-red candles perched atop them.  A wooden lectern rests atop a raised, rock platform in the center of the room.  An old tome lies open on the lecturn."
+  ],
+  "paths": [
+    "Obvious exits: east, south, west"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "5923": "south",
     "5925": "east",
     "5947": "west"
   },
-  "paths": [
-    "Obvious exits: east, south, west"
-  ],
+  "timeto": {
+    "5923": 0.2,
+    "5925": 0.2,
+    "5947": 0.2
+  },
+  "image": "en-tavaalor-1565907614.png",
   "image_coords": [
     261,
     902,
     268,
     912
   ],
-  "terrain": null,
-  "description": [
-    "Thick bluish-green mold covers the walls entirely.",
-    "Thick bluish-green mold covers the walls entirely.  Sudden cracks and holes in the ground make walking treacherous.  In each corner of the room, stands considerably sized candelabras with partially burnt blood-red candles perched atop them.  A wooden lectern rests atop a raised, rock platform in the center of the room.  An old tome lies open on the lecturn."
-  ],
-  "image": "en-tavaalor-1565907614.png",
-  "climate": null,
-  "title": [
-    "[Catacombs, Altar]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5923": 0.2,
-    "5925": 0.2,
-    "5947": 0.2
-  },
-  "id": 5924,
-  "location": "the catacombs",
   "tags": [
     "white hook mushroom",
     "black hook mushroom",
@@ -42,8 +39,5 @@
     "ironfern root",
     "bolmara lichen",
     "wingstem root"
-  ],
-  "links": [
-
   ]
 }

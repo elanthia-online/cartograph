@@ -1,35 +1,32 @@
 {
+  "id": 4134,
+  "title": [
+    "[Lower Trollfang, Clearing]"
+  ],
+  "description": [
+    "This small grassy clearing is dotted with occasional low bushes and young trees.  To the east the trees become larger and more numerous, while to the west a faint trail leads back to the walls of Wehnimer's Landing."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the Lower Dragonsclaw",
   "wayto": {
     "4135": "east",
     "14971": "go gate",
     "3605": "go trail"
   },
-  "paths": [
-    "Obvious paths: east"
-  ],
+  "timeto": {
+    "4135": 0.2,
+    "14971": 0.2,
+    "3605": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     218,
     1089,
     254,
     1125
   ],
-  "terrain": "grassland",
-  "description": [
-    "This small grassy clearing is dotted with occasional low bushes and young trees.  To the east the trees become larger and more numerous, while to the west a faint trail leads back to the walls of Wehnimer's Landing."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Lower Trollfang, Clearing]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4135": 0.2,
-    "14971": 0.2,
-    "3605": 0.2
-  },
-  "id": 4134,
-  "location": "the Lower Dragonsclaw",
   "tags": [
     "some sovyn clove",
     "some acantha leaf",
@@ -110,10 +107,6 @@
     "ironfern root",
     "nightbloom blossom",
     "brostheras grass",
-    "woad leaves",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "woad leaves"
   ]
 }

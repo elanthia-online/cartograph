@@ -1,48 +1,34 @@
 {
+  "id": 9466,
+  "title": [
+    "[Mraent Cavern, Schist Tunnel]"
+  ],
+  "description": [
+    "Silvery dust covers the floor of this low, narrow tunnel.  The walls appear to have been scraped rather than cut, and three iron buckets have spilled their contents of flaky schist onto the ground.  You see several large emeralds embedded in the walls of the tunnel."
+  ],
+  "paths": [
+    "Obvious exits: west, up"
+  ],
+  "location": "the Mraent Caverns",
   "wayto": {
     "9465": "up",
     "9467": "west"
   },
-  "paths": [
-    "Obvious exits: west, up"
-  ],
+  "timeto": {
+    "9465": 0.2,
+    "9467": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     357,
     381,
     367,
     391
   ],
-  "terrain": "indoors",
-  "description": [
-    "Silvery dust covers the floor of this low, narrow tunnel.  The walls appear to have been scraped rather than cut, and three iron buckets have spilled their contents of flaky schist onto the ground.  You see several large emeralds embedded in the walls of the tunnel."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mraent Cavern, Schist Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9465": 0.2,
-    "9467": 0.2
-  },
-  "id": 9466,
-  "location": "the Mraent Caverns",
   "tags": [
     "red trafel mushroom",
     "soft white mushroom",
     "some bolmara lichen",
-    "blue trafel mushroom",
-    "withered black mushroom",
-    "black hook mushroom",
-    "glowing toadstool",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "blue trafel mushroom"
   ]
 }

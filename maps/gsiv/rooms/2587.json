@@ -1,39 +1,31 @@
 {
-  "wayto": {
-    "2586": "west",
-    "2588": "east",
-    "12208": {
-      "stringproc": "a0576f0215d746452e7afb93c1ee082c"
-    },
-    "2591": "southwest",
-    "2635": {
-      "stringproc": "01b8924575c8d70e4ed7eea7ed00be84"
-    },
-    "12101": {
-      "stringproc": "cf4b8e5b125b22b01c9349827d02c9fd"
-    },
-    "2583": "northwest"
-  },
+  "id": 2587,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "A volcano erupts in the distance, spewing molten lava and ash all over.  The lava flies high into the air, carrying with it chunks of mountain and clouds of ash.  In the large crater the eruption created, you see figures moving about in the lava itself.  They splash in it and throw it on each other, howling and laughing.  Above the mountain, dark red birds of some kind dodge flying lava and debris, screeching in contentment."
+  ],
   "paths": [
     "Obvious exits: east, southwest, west, northwest",
     "Obvious paths: east, southwest, west, northwest"
   ],
-  "image_coords": [
-    201,
-    670,
-    209,
-    678
-  ],
-  "terrain": null,
-  "description": [
-    "A volcano erupts in the distance, spewing molten lava and ash all over.  The lava flies high into the air, carrying with it chunks of mountain and clouds of ash.  In the large crater the eruption created, you see figures moving about in the lava itself.  They splash in it and throw it on each other, howling and laughing.  Above the mountain, dark red birds of some kind dodge flying lava and debris, screeching in contentment."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "2586": "west",
+    "2588": "east",
+    "12208": {
+      "file": "string_procs/wayto/2587_12208.rb"
+    },
+    "2591": "southwest",
+    "2635": {
+      "file": "string_procs/wayto/2587_2635.rb"
+    },
+    "12101": {
+      "file": "string_procs/wayto/2587_12101.rb"
+    },
+    "2583": "northwest"
+  },
   "timeto": {
     "2586": 0.2,
     "2588": 0.2,
@@ -43,8 +35,13 @@
     "12101": 26.0,
     "2583": 0.2
   },
-  "id": 2587,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    201,
+    670,
+    209,
+    678
+  ],
   "tags": [
     "mass of congealed slime",
     "oozing fleshsore bulb",
@@ -53,8 +50,5 @@
     "rotting bile green fleshbulb",
     "twisted black mawflower",
     "withered deathblossom"
-  ],
-  "links": [
-
   ]
 }

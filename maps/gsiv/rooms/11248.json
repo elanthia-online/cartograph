@@ -1,41 +1,31 @@
 {
+  "id": 11248,
+  "title": [
+    "[Infirmary, Hallway]"
+  ],
+  "description": [
+    "Moonlight through a small, broken window set high on the wall illuminates the hallway.  Through the window you hear the blowing wind and the distant, plaintive cries of gulls.  Faint, krolvin-sized footprints lead away from some stairs.",
+    "A small, broken window set high on the wall illuminates the hallway.  Through the window you hear the blowing wind and the distant, plaintive cries of gulls.  Faint, krolvin-sized footprints lead away from some stairs."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11249": "east",
     "11250": "north",
     "11247": "go stairs"
   },
-  "paths": [
-    "Obvious exits: north, east"
-  ],
-  "image_coords": [
-    36,
-    547,
-    46,
-    557
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Moonlight through a small, broken window set high on the wall illuminates the hallway.  Through the window you hear the blowing wind and the distant, plaintive cries of gulls.  Faint, krolvin-sized footprints lead away from some stairs.",
-    "A small, broken window set high on the wall illuminates the hallway.  Through the window you hear the blowing wind and the distant, plaintive cries of gulls.  Faint, krolvin-sized footprints lead away from some stairs."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Infirmary, Hallway]"
-  ],
-  "check_location": null,
   "timeto": {
     "11249": 0.2,
     "11250": 0.2,
     "11247": 0.2
   },
-  "id": 11248,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-citadel-1267238976.png",
+  "image_coords": [
+    36,
+    547,
+    46,
+    557
   ]
 }

@@ -1,45 +1,35 @@
 {
+  "id": 5205,
+  "title": [
+    "[Vornavian Coast, North Beach]"
+  ],
+  "description": [
+    "This quiet cove is a haven from the wind and rough surf.  Some distance out at sea, waves break against a line of coral reefs.  Tall dunes of dark sand surround the cove like the eroded walls of an ancient fortress.  The cries of sea birds seem all the more plaintive in the tranquility of the cove."
+  ],
+  "paths": [
+    "Obvious paths: up"
+  ],
+  "location": "the Vornavian Coast",
   "wayto": {
     "5126": "up",
     "24431": "go wrought gates"
   },
-  "paths": [
-    "Obvious paths: up"
-  ],
+  "timeto": {
+    "5126": 0.2,
+    "24431": {
+      "file": "string_procs/timeto/5205_24431.rb"
+    }
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     150,
     502,
     160,
     512
   ],
-  "terrain": "riparian",
-  "description": [
-    "This quiet cove is a haven from the wind and rough surf.  Some distance out at sea, waves break against a line of coral reefs.  Tall dunes of dark sand surround the cove like the eroded walls of an ancient fortress.  The cries of sea birds seem all the more plaintive in the tranquility of the cove."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "saltwater",
-  "title": [
-    "[Vornavian Coast, North Beach]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5126": 0.2,
-    "24431": {
-      "stringproc": "ea9bf25b3248e80207d2f88a8b57209c"
-    }
-  },
-  "id": 5205,
-  "location": "the Vornavian Coast",
   "tags": [
     "yabathilium fruit",
     "strand of seaweed",
-    "BRS",
-    "strof seaweed",
-    "murdroot",
-    "wavepetal blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "BRS"
   ]
 }

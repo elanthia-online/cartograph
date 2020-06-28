@@ -1,33 +1,30 @@
 {
+  "id": 3003,
+  "title": [
+    "[Arctic Tundra, High Plain]"
+  ],
+  "description": [
+    "A steep cliff falls away to the south, the edge buried under a deep layer of snow.  Stepping cautiously, you note how difficult it is to see where the trail ends and oblivion begins."
+  ],
+  "paths": [
+    "Obvious paths: north, east"
+  ],
+  "location": "the High Plains",
   "wayto": {
     "3002": "east",
     "3004": "north"
   },
-  "paths": [
-    "Obvious paths: north, east"
-  ],
+  "timeto": {
+    "3002": 0.2,
+    "3004": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     324,
     1005,
     334,
     1015
   ],
-  "terrain": "mountainous",
-  "description": [
-    "A steep cliff falls away to the south, the edge buried under a deep layer of snow.  Stepping cautiously, you note how difficult it is to see where the trail ends and oblivion begins."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Arctic Tundra, High Plain]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3002": 0.2,
-    "3004": 0.2
-  },
-  "id": 3003,
-  "location": "the High Plains",
   "tags": [
     "some valerian root",
     "some arctic moss",
@@ -42,13 +39,6 @@
     "snowberries",
     "pale thornberry",
     "small loganberry",
-    "ironfern root",
-    "angelica root",
-    "valerian root",
-    "arctic moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

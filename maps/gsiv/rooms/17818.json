@@ -1,37 +1,28 @@
 {
+  "id": 17818,
+  "title": [
+    "[Warehouse]"
+  ],
+  "description": [
+    "A staircase leads down, the steps cracked but probably sturdy enough to use.  A small rat sits atop one of the steps, an odd glimmer in its eyes.  It doesn't seem startled by your presence."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Ta'Vaalor",
   "wayto": {
     "17816": "north",
     "17819": "go staircase"
   },
-  "paths": [
-    "Obvious exits: north"
-  ],
+  "timeto": {
+    "17816": 0.2,
+    "17819": 0.2
+  },
+  "image": "en-vaalor-rogue-guild.png",
   "image_coords": [
     387,
     739,
     427,
     777
-  ],
-  "terrain": null,
-  "description": [
-    "A staircase leads down, the steps cracked but probably sturdy enough to use.  A small rat sits atop one of the steps, an odd glimmer in its eyes.  It doesn't seem startled by your presence."
-  ],
-  "image": "en-vaalor-rogue-guild.png",
-  "climate": null,
-  "title": [
-    "[Warehouse]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "17816": 0.2,
-    "17819": 0.2
-  },
-  "id": 17818,
-  "location": "Ta'Vaalor",
-  "tags": [
-
-  ],
-  "links": [
-
   ]
 }

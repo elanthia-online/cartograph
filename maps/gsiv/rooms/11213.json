@@ -1,40 +1,30 @@
 {
+  "id": 11213,
+  "title": [
+    "[Armory, Weapons Maintenance]"
+  ],
+  "description": [
+    "Although the air still carries a bitter tang, it is apparent that no maintenance has been done here for many years.  The brick forge near the southeastern corner of the room has had a number of bricks torn from the opening.  You can see through the forge to the smithy's room."
+  ],
+  "paths": [
+    "Obvious exits: southeast, west"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11210": "go forge",
     "11211": "southeast",
     "11214": "west"
   },
-  "paths": [
-    "Obvious exits: southeast, west"
-  ],
-  "image_coords": [
-    332,
-    151,
-    342,
-    161
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Although the air still carries a bitter tang, it is apparent that no maintenance has been done here for many years.  The brick forge near the southeastern corner of the room has had a number of bricks torn from the opening.  You can see through the forge to the smithy's room."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Armory, Weapons Maintenance]"
-  ],
-  "check_location": null,
   "timeto": {
     "11210": 0.2,
     "11211": 0.2,
     "11214": 0.2
   },
-  "id": 11213,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-citadel-1267238976.png",
+  "image_coords": [
+    332,
+    151,
+    342,
+    161
   ]
 }

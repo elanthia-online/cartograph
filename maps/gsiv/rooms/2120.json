@@ -1,33 +1,30 @@
 {
+  "id": 2120,
+  "title": [
+    "[Teras Isle, Rocky Trail]"
+  ],
+  "description": [
+    "From here the trail leads down to the dwarven high road, or weaves through the stunted trees and rock outcroppings as it climbs the ridge to the north."
+  ],
+  "paths": [
+    "Obvious paths: up"
+  ],
+  "location": "the volcano",
   "wayto": {
     "2114": "go trail",
     "2121": "up"
   },
-  "paths": [
-    "Obvious paths: up"
-  ],
+  "timeto": {
+    "2114": 0.2,
+    "2121": 0.2
+  },
+  "image": "ti-vtull-1264234799.png",
   "image_coords": [
     1129,
     703,
     1139,
     713
   ],
-  "terrain": null,
-  "description": [
-    "From here the trail leads down to the dwarven high road, or weaves through the stunted trees and rock outcroppings as it climbs the ridge to the north."
-  ],
-  "image": "ti-vtull-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Teras Isle, Rocky Trail]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2114": 0.2,
-    "2121": 0.2
-  },
-  "id": 2120,
-  "location": "the volcano",
   "tags": [
     "white poppy",
     "yellow poppy",
@@ -46,11 +43,6 @@
     "purple poppy",
     "meta:mapname:Teras Isle - Eye of V'Tull",
     "meta:mapshortname:Eye of V'Tull",
-    "meta:mapcategory:Teras Isle",
-    "cactus flower",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:mapcategory:Teras Isle"
   ]
 }

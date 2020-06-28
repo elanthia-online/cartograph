@@ -1,33 +1,30 @@
 {
+  "id": 7853,
+  "title": [
+    "[Glatoph, Glacier]"
+  ],
+  "description": [
+    "A large shadow looms out of the blizzard to the north, implying that a hill stands in that direction.  It seems to funnel the wind, directing the icy blasts directly at you."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Glatoph",
   "wayto": {
     "3617": "west",
     "7854": "east"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "3617": 0.2,
+    "7854": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     864,
     563,
     874,
     573
   ],
-  "terrain": "mountainous",
-  "description": [
-    "A large shadow looms out of the blizzard to the north, implying that a hill stands in that direction.  It seems to funnel the wind, directing the icy blasts directly at you."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Glatoph, Glacier]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3617": 0.2,
-    "7854": 0.2
-  },
-  "id": 7853,
-  "location": "Glatoph",
   "tags": [
     "sassafras leaf",
     "arctic titan",
@@ -38,10 +35,6 @@
     "valerian root",
     "pennyroyal stem",
     "sprig of holly",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

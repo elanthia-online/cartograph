@@ -1,54 +1,37 @@
 {
+  "id": 997,
+  "title": [
+    "[Zul Logoth, Sapphire Tunnel]"
+  ],
+  "description": [
+    "A breeze courses down the tunnel from northeast to southwest, bringing a bit of fresh air to the hazy, claustrophobic environs of the narrow tunnel.  The sound of footsteps echoes loudly from both directions, intermingling to make it sound as if hordes of dwarves are converging on this very section from both ends.  Gigantic toadstools, their caps glowing a luminescent blue, light the tunnel at twenty-foot intervals."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest",
+    "Obvious exits: northeast, southeast, southwest"
+  ],
+  "location": "the tunnels and caverns of Zul Logoth",
   "wayto": {
     "996": "northeast",
     "998": "southwest",
     "9550": "go building",
     "9432": "southeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southwest",
-    "Obvious exits: northeast, southeast, southwest"
-  ],
-  "image_coords": [
-    1062,
-    626,
-    1082,
-    646
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A breeze courses down the tunnel from northeast to southwest, bringing a bit of fresh air to the hazy, claustrophobic environs of the narrow tunnel.  The sound of footsteps echoes loudly from both directions, intermingling to make it sound as if hordes of dwarves are converging on this very section from both ends.  Gigantic toadstools, their caps glowing a luminescent blue, light the tunnel at twenty-foot intervals."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Zul Logoth, Sapphire Tunnel]"
-  ],
-  "check_location": null,
   "timeto": {
     "996": 0.2,
     "998": 0.2,
     "9550": 0.2,
     "9432": 0.2
   },
-  "id": 997,
-  "location": "the tunnels and caverns of Zul Logoth",
+  "image": "en-zul_logoth-1264234799.png",
+  "image_coords": [
+    1062,
+    626,
+    1082,
+    646
+  ],
   "tags": [
     "bardguild",
-    "pepperthorn root",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "pepperthorn root"
   ]
 }

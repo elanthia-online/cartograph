@@ -1,42 +1,33 @@
 {
+  "id": 2204,
+  "title": [
+    "[Eye of V'Tull, Inner Circle]"
+  ],
+  "description": [
+    "Gusts of hot air blow into the cavern, occasionally picking up ash and carrying it off to another part of the passage.  The walls are crystallized and appear to have been exposed to some great heat recently."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "the Eye of V'Tull",
   "wayto": {
     "2203": "northeast",
     "2205": "southwest"
   },
-  "paths": [
-    "Obvious exits: northeast, southwest"
-  ],
+  "timeto": {
+    "2203": 0.2,
+    "2205": 0.2
+  },
+  "image": "ti-vtull-1264234799.png",
   "image_coords": [
     794,
     787,
     804,
     797
   ],
-  "terrain": "indoors",
-  "description": [
-    "Gusts of hot air blow into the cavern, occasionally picking up ash and carrying it off to another part of the passage.  The walls are crystallized and appear to have been exposed to some great heat recently."
-  ],
-  "image": "ti-vtull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Eye of V'Tull, Inner Circle]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2203": 0.2,
-    "2205": 0.2
-  },
-  "id": 2204,
-  "location": "the Eye of V'Tull",
   "tags": [
     "daggerstalk mushroom",
     "some cave moss",
-    "black trafel mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "black trafel mushroom"
   ]
 }

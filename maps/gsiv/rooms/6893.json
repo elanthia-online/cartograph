@@ -1,49 +1,36 @@
 {
+  "id": 6893,
+  "title": [
+    "[Smuggling Tunnels, Storage]"
+  ],
+  "description": [
+    "A multitude of small nuggets of ore have rolled in from the room to the west, laying in wait like little caltrops.  Large crates are stacked two and three high against the east wall, marked with a variety of contents.  Four lanterns hang from the ceiling, strangely still burning despite an obvious lack of oil."
+  ],
+  "paths": [
+    "Obvious exits: north, south, west"
+  ],
+  "location": "the smuggling tunnels",
   "wayto": {
     "6894": "south",
     "6896": "west",
     "6890": "north"
   },
-  "paths": [
-    "Obvious exits: north, south, west"
-  ],
+  "timeto": {
+    "6894": 0.2,
+    "6896": 0.2,
+    "6890": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     1101,
     1302,
     1111,
     1312
   ],
-  "terrain": "indoors",
-  "description": [
-    "A multitude of small nuggets of ore have rolled in from the room to the west, laying in wait like little caltrops.  Large crates are stacked two and three high against the east wall, marked with a variety of contents.  Four lanterns hang from the ceiling, strangely still burning despite an obvious lack of oil."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Smuggling Tunnels, Storage]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6894": 0.2,
-    "6896": 0.2,
-    "6890": 0.2
-  },
-  "id": 6893,
-  "location": "the smuggling tunnels",
   "tags": [
     "withered black mushroom",
     "some wingstem root",
     "some cave moss",
-    "some bur-clover root",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some bur-clover root"
   ]
 }

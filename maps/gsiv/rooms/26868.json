@@ -1,4 +1,15 @@
 {
+  "id": 26868,
+  "title": [
+    "[Bloodriven Village, Faida Lane]"
+  ],
+  "description": [
+    "The lane narrows noticeably as it slopes northwestward.  A building along the side of the road is streaked with a sticky, shiny substance that is slowly dripping from the pine that leans precariously over it.  A dark alleyway stands between two somewhat dilapidated buildings on the western side of the street."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "the sewers of Bloodriven Village",
   "wayto": {
     "26867": "go alleyway",
     "23801": "go dark building",
@@ -7,25 +18,6 @@
     "26005": "go pine building",
     "28333": "go alleyway shop"
   },
-  "paths": [
-    "Obvious paths: southeast, northwest"
-  ],
-  "image_coords": [
-    268,
-    295,
-    292,
-    323
-  ],
-  "terrain": null,
-  "description": [
-    "The lane narrows noticeably as it slopes northwestward.  A building along the side of the road is streaked with a sticky, shiny substance that is slowly dripping from the pine that leans precariously over it.  A dark alleyway stands between two somewhat dilapidated buildings on the western side of the street."
-  ],
-  "image": "fest-duskruin-1503606263.png",
-  "climate": null,
-  "title": [
-    "[Bloodriven Village, Faida Lane]"
-  ],
-  "check_location": true,
   "timeto": {
     "26867": 0.2,
     "23801": 0.2,
@@ -34,10 +26,12 @@
     "26005": 0.2,
     "28333": 0.2
   },
-  "id": 26868,
-  "location": "the sewers of Bloodriven Village",
-  "tags": [
-
+  "image": "fest-duskruin-1503606263.png",
+  "image_coords": [
+    268,
+    295,
+    292,
+    323
   ],
-  "unique_loot": null
+  "check_location": true
 }

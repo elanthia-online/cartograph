@@ -1,35 +1,32 @@
 {
+  "id": 8543,
+  "title": [
+    "[Foothills]"
+  ],
+  "description": [
+    "You are wandering along a series of gently sloping foothills.  The low scrub growing here provides protection for a wide variety of plains creatures that live on these hillsides."
+  ],
+  "paths": [
+    "Obvious paths: south, southwest, west"
+  ],
+  "location": "the foothills of Zeltoph",
   "wayto": {
     "8541": "west",
     "8544": "south",
     "8545": "southwest"
   },
-  "paths": [
-    "Obvious paths: south, southwest, west"
-  ],
+  "timeto": {
+    "8541": 0.2,
+    "8544": 0.2,
+    "8545": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     1141,
     651,
     1151,
     661
   ],
-  "terrain": "hilly",
-  "description": [
-    "You are wandering along a series of gently sloping foothills.  The low scrub growing here provides protection for a wide variety of plains creatures that live on these hillsides."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Foothills]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8541": 0.2,
-    "8544": 0.2,
-    "8545": 0.2
-  },
-  "id": 8543,
-  "location": "the foothills of Zeltoph",
   "tags": [
     "stalk of chicory",
     "sprig of alyssum",
@@ -84,11 +81,6 @@
     "ebony twig",
     "bolmara lichen",
     "brostheras grass",
-    "woad leaves",
-    "sunburst blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "woad leaves"
   ]
 }

@@ -1,33 +1,30 @@
 {
+  "id": 514,
+  "title": [
+    "[Coastal Cliffs, Wrecked Village]"
+  ],
+  "description": [
+    "Several small cottages stand back from the main road, their stone walls broken down and their meager interiors exposed to the elements."
+  ],
+  "paths": [
+    "Obvious paths: south, northwest"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "513": "northwest",
     "515": "south"
   },
-  "paths": [
-    "Obvious paths: south, northwest"
-  ],
+  "timeto": {
+    "513": 0.2,
+    "515": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     512,
     933,
     522,
     943
   ],
-  "terrain": "rough",
-  "description": [
-    "Several small cottages stand back from the main road, their stone walls broken down and their meager interiors exposed to the elements."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Coastal Cliffs, Wrecked Village]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "513": 0.2,
-    "515": 0.2
-  },
-  "id": 514,
-  "location": "the Coastal Cliffs",
   "tags": [
     "wintergreen leaf",
     "bright red teaberry",
@@ -40,10 +37,6 @@
     "sprig of larkspur",
     "small wild rose",
     "wild chokecherry",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

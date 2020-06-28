@@ -1,47 +1,40 @@
 {
+  "id": 16794,
+  "title": [
+    "[Hall of the Dead, Debtors Vault]"
+  ],
+  "description": [
+    "The dried blood that covers almost every inch of this vault raises a silent scream within you.  All of the corpses have been hacked into small pieces and the various parts were packed into the slots made into the walls."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east, south"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "4170": "northeast",
     "4171": "north",
     "16795": "south",
     "16797": "east"
   },
-  "paths": [
-    "Obvious exits: north, northeast, east, south"
-  ],
-  "image_coords": [
-    887,
-    863,
-    895,
-    871
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The dried blood that covers almost every inch of this vault raises a silent scream within you.  All of the corpses have been hacked into small pieces and the various parts were packed into the slots made into the walls."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Hall of the Dead, Debtors Vault]"
-  ],
-  "check_location": null,
   "timeto": {
     "4170": 0.2,
     "4171": 0.2,
     "16795": 0.2,
     "16797": 0.2
   },
-  "id": 16794,
-  "location": "the Graveyard",
+  "image": "wl-graveyard-1264234799.png",
+  "image_coords": [
+    887,
+    863,
+    895,
+    871
+  ],
   "tags": [
     "wolifrew lichen",
     "withered black mushroom",
     "cave moss",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

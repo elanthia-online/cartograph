@@ -1,39 +1,31 @@
 {
-  "wayto": {
-    "5429": "south"
-  },
+  "id": 5435,
+  "title": [
+    "[Bonespear Tower, Attic]"
+  ],
+  "description": [
+    "This room is nothing more than a pile of bone chips and shattered chunks of wood.  What looks like the carcass of a huge dog is slowly decaying in a corner near one wall, but the rotting beast has been gnawed at so badly, it's hardly recognizeable anymore."
+  ],
   "paths": [
     "Obvious exits: south"
   ],
+  "location": "Bonespear Tower",
+  "wayto": {
+    "5429": "south"
+  },
+  "timeto": {
+    "5429": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     951,
     823,
     959,
     831
   ],
-  "terrain": "indoors",
-  "description": [
-    "This room is nothing more than a pile of bone chips and shattered chunks of wood.  What looks like the carcass of a huge dog is slowly decaying in a corner near one wall, but the rotting beast has been gnawed at so badly, it's hardly recognizeable anymore."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Bonespear Tower, Attic]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5429": 0.2
-  },
-  "id": 5435,
-  "location": "Bonespear Tower",
   "tags": [
     "waern",
     "dybbuk",
-    "eidolon",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "eidolon"
   ]
 }

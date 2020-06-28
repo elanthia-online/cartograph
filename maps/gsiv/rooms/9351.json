@@ -1,31 +1,28 @@
 {
-  "wayto": {
-    "9350": "out"
-  },
+  "id": 9351,
+  "title": [
+    "[Ruined Tavern]"
+  ],
+  "description": [
+    "The fieldstone walls rise over two stories high in a couple spots, and stubs of charred beams protrude from the walls, evidence that this building once had a second floor.  Wind and rain have washed the soot from the walls, except in the corners and the seams between the stones, giving the interior a shadowed and darkened cast even in broad daylight.  Shards of broken glass, pottery and charred barrel staves along one wall indicate that this was likely a public house or tavern prior to its demise."
+  ],
   "paths": [
     "Obvious paths: out"
   ],
+  "location": "the Cairnfang",
+  "wayto": {
+    "9350": "out"
+  },
+  "timeto": {
+    "9350": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     1052,
     247,
     1062,
     257
   ],
-  "terrain": "grassland",
-  "description": [
-    "The fieldstone walls rise over two stories high in a couple spots, and stubs of charred beams protrude from the walls, evidence that this building once had a second floor.  Wind and rain have washed the soot from the walls, except in the corners and the seams between the stones, giving the interior a shadowed and darkened cast even in broad daylight.  Shards of broken glass, pottery and charred barrel staves along one wall indicate that this was likely a public house or tavern prior to its demise."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Ruined Tavern]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9350": 0.2
-  },
-  "id": 9351,
-  "location": "the Cairnfang",
   "tags": [
     "acantha leaf",
     "ambrominas leaf",
@@ -78,10 +75,6 @@
     "wavepetal blossom",
     "ironfern root",
     "nightbloom blossom",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

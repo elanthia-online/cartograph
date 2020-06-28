@@ -1,38 +1,28 @@
 {
+  "id": 124,
+  "title": [
+    "[Temple Wyneb, Calvaria]"
+  ],
+  "description": [
+    "Streaks of yellow sulfur run down the dark grey stone in jagged bands.  A rough hollow remains where someone has been digging into one of the larger deposits."
+  ],
+  "paths": [
+    "Obvious exits: northeast, west"
+  ],
+  "location": "Temple Wyneb",
   "wayto": {
     "123": "west",
     "125": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, west"
-  ],
+  "timeto": {
+    "123": 0.2,
+    "125": 0.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     744,
     790,
     754,
     800
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Streaks of yellow sulfur run down the dark grey stone in jagged bands.  A rough hollow remains where someone has been digging into one of the larger deposits."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Temple Wyneb, Calvaria]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "123": 0.2,
-    "125": 0.2
-  },
-  "id": 124,
-  "location": "Temple Wyneb",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

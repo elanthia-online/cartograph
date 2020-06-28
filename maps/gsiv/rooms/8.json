@@ -1,4 +1,19 @@
 {
+  "id": 8,
+  "title": [
+    "[Ta'Illistim, BriarStone Court]",
+    "[Ta'Illistim, Glamesine Var]",
+    "[Ta'Illistim, Moonglae Var]"
+  ],
+  "description": [
+    "The facade of the United Bank of City-States looms in the shadows, presenting an immoveable front to the forces of time and weather.  Tall stonework columns brace gracefully arching stonework embrasures, each of which frames an octagonal glaesine tracery window glowing from within.  Low granite steps lead upwards into the bank.",
+    "The facade of the United Bank of City-States looms skyward, presenting an immoveable front to the forces of time and weather.  Tall stonework columns brace gracefully arching stonework embrasures, each of which frames an octagonal glaesine tracery window.  Low granite steps lead upwards into the bank.",
+    "Beneath a dome of sapphire tiling, the United Bank of City-States looms, presenting an immovable front to the forces of time and weather.  Though the rest of the building is a silvery blue granite, the tall columns that frame the windows are white marble, as are its four peacock shaped gargoyles.  A small flight of steps leads upwards and inside.  Beyond the edge of the var stretches the expanse of Ta'Illistim Green."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest, west"
+  ],
+  "location": "Ta'Illistim",
   "wayto": {
     "7": "southwest",
     "9": "go bank",
@@ -6,29 +21,6 @@
     "203": "northeast",
     "24555": "go green"
   },
-  "paths": [
-    "Obvious paths: northeast, southwest, west"
-  ],
-  "image_coords": [
-    577,
-    405,
-    599,
-    427
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "The facade of the United Bank of City-States looms in the shadows, presenting an immoveable front to the forces of time and weather.  Tall stonework columns brace gracefully arching stonework embrasures, each of which frames an octagonal glaesine tracery window glowing from within.  Low granite steps lead upwards into the bank.",
-    "The facade of the United Bank of City-States looms skyward, presenting an immoveable front to the forces of time and weather.  Tall stonework columns brace gracefully arching stonework embrasures, each of which frames an octagonal glaesine tracery window.  Low granite steps lead upwards into the bank.",
-    "Beneath a dome of sapphire tiling, the United Bank of City-States looms, presenting an immovable front to the forces of time and weather.  Though the rest of the building is a silvery blue granite, the tall columns that frame the windows are white marble, as are its four peacock shaped gargoyles.  A small flight of steps leads upwards and inside.  Beyond the edge of the var stretches the expanse of Ta'Illistim Green."
-  ],
-  "image": "en-ta_illistim-new.jpg",
-  "climate": "temperate",
-  "title": [
-    "[Ta'Illistim, BriarStone Court]",
-    "[Ta'Illistim, Glamesine Var]",
-    "[Ta'Illistim, Moonglae Var]"
-  ],
-  "check_location": null,
   "timeto": {
     "7": 0.2,
     "9": 0.2,
@@ -36,13 +28,11 @@
     "203": 0.2,
     "24555": 10
   },
-  "id": 8,
-  "location": "Ta'Illistim",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-ta_illistim-new.jpg",
+  "image_coords": [
+    577,
+    405,
+    599,
+    427
   ]
 }

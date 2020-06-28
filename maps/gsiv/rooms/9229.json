@@ -1,38 +1,28 @@
 {
+  "id": 9229,
+  "title": [
+    "[Thurfel's Cellar]"
+  ],
+  "description": [
+    "A dried out glob of some unidentifiable substance rests directly in the center of the walkway.  It resembles stone, but the bizarre surface of the object suggests it might be something other than a rock."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Thurfel's Island",
   "wayto": {
     "9228": "east",
     "9230": "west"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "9228": 0.2,
+    "9230": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     1224,
     1002,
     1234,
     1012
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A dried out glob of some unidentifiable substance rests directly in the center of the walkway.  It resembles stone, but the bizarre surface of the object suggests it might be something other than a rock."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thurfel's Cellar]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9228": 0.2,
-    "9230": 0.2
-  },
-  "id": 9229,
-  "location": "Thurfel's Island",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

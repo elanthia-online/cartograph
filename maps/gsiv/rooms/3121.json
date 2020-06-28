@@ -1,33 +1,30 @@
 {
+  "id": 3121,
+  "title": [
+    "[Abandoned Farm, Orchard]"
+  ],
+  "description": [
+    "Rows of apple trees stand covered with snow, their trunks curled and branches broken.  Rotting planks that once braced fruit-laden branches now curve limply against the trunks of the leafless trees."
+  ],
+  "paths": [
+    "Obvious paths: north, east"
+  ],
+  "location": "the Abandoned Farm",
   "wayto": {
     "3120": "north",
     "3122": "east"
   },
-  "paths": [
-    "Obvious paths: north, east"
-  ],
+  "timeto": {
+    "3120": 0.2,
+    "3122": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     745,
     760,
     755,
     770
   ],
-  "terrain": "cultivated",
-  "description": [
-    "Rows of apple trees stand covered with snow, their trunks curled and branches broken.  Rotting planks that once braced fruit-laden branches now curve limply against the trunks of the leafless trees."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Abandoned Farm, Orchard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3120": 0.2,
-    "3122": 0.2
-  },
-  "id": 3121,
-  "location": "the Abandoned Farm",
   "tags": [
     "wavepetal blossom",
     "frostflower",
@@ -38,13 +35,6 @@
     "ice tulip",
     "winter rose",
     "tree spirit",
-    "some pennyroyal stem",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some pennyroyal stem"
   ]
 }

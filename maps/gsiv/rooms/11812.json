@@ -1,42 +1,32 @@
 {
+  "id": 11812,
+  "title": [
+    "[Ta'Faendryl Approach]"
+  ],
+  "description": [
+    "The swamp moves across the road to the north, disrupting the stones and eventually sucking them all down into the mire.  Passage is impossible in that direction.  To the southwest the road is still passable, though, as its surface is still above the muddy plain.  A huge mud mound rises just to the northeast and extends eastward as far as the eye can see."
+  ],
+  "paths": [
+    "Obvious paths: southwest"
+  ],
+  "location": "Old Ta'Faendryl",
   "wayto": {
     "11811": "southwest",
     "11813": "go portal"
   },
-  "paths": [
-    "Obvious paths: southwest"
-  ],
+  "timeto": {
+    "11811": 0.2,
+    "11813": 0.2
+  },
+  "image": "en-old_ta_faendryl-1264234799.png",
   "image_coords": [
     597,
     973,
     607,
     983
   ],
-  "terrain": null,
-  "description": [
-    "The swamp moves across the road to the north, disrupting the stones and eventually sucking them all down into the mire.  Passage is impossible in that direction.  To the southwest the road is still passable, though, as its surface is still above the muddy plain.  A huge mud mound rises just to the northeast and extends eastward as far as the eye can see."
-  ],
-  "image": "en-old_ta_faendryl-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Ta'Faendryl Approach]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11811": 0.2,
-    "11813": 0.2
-  },
-  "id": 11812,
-  "location": "Old Ta'Faendryl",
   "tags": [
     "some wingstem root",
-    "some pothinir grass",
-    "pothinir grass",
-    "wild chokecherry",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some pothinir grass"
   ]
 }

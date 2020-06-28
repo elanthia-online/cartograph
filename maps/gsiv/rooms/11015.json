@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "11014": "out"
-  },
+  "id": 11015,
+  "title": [
+    "[River's Rest Forging Supply]"
+  ],
+  "description": [
+    "Tucked behind a massive hedge, the area is surrounded with dense foliage.  A small raised platform rests in the center, stocked with shelves of oils, metal, and glyphs.  Pillars of smoke rise from behind the platform, accompanied by ringing hammer-falls."
+  ],
   "paths": [
     "Obvious paths: out"
   ],
+  "location": "River's Rest",
+  "wayto": {
+    "11014": "out"
+  },
+  "timeto": {
+    "11014": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     563,
     1008,
     573,
     1018
   ],
-  "terrain": "hard, flat",
-  "description": [
-    "Tucked behind a massive hedge, the area is surrounded with dense foliage.  A small raised platform rests in the center, stocked with shelves of oils, metal, and glyphs.  Pillars of smoke rise from behind the platform, accompanied by ringing hammer-falls."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "temperate",
-  "title": [
-    "[River's Rest Forging Supply]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11014": 0.2
-  },
-  "id": 11015,
-  "location": "River's Rest",
   "tags": [
-    "forge",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "forge"
   ]
 }

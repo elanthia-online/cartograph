@@ -1,65 +1,34 @@
 {
+  "id": 1104,
+  "title": [
+    "[Dead Plateau]"
+  ],
+  "description": [
+    "The Dead Plateau's interior spreads out to the northeast as far as the eye can see.  A flat expanse of wind-scoured rock, the plateau would be easily traversable except for the myriad crevices and cracks that run helter-skelter throughout the interior.  Some are small and easily crossed, while others yawn widely with no discernible bottom.  Only the edge of the plateau appears relatively intact, and it is this edge that the trail follows."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast"
+  ],
+  "location": "the Locksmehr Trail",
   "wayto": {
     "1103": "southeast",
     "1105": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, southeast"
-  ],
+  "timeto": {
+    "1103": 0.2,
+    "1105": 0.2
+  },
+  "image": "en-trail-1264234799.png",
   "image_coords": [
     1074,
     928,
     1084,
     938
   ],
-  "terrain": "missing",
-  "description": [
-    "The Dead Plateau's interior spreads out to the northeast as far as the eye can see.  A flat expanse of wind-scoured rock, the plateau would be easily traversable except for the myriad crevices and cracks that run helter-skelter throughout the interior.  Some are small and easily crossed, while others yawn widely with no discernible bottom.  Only the edge of the plateau appears relatively intact, and it is this edge that the trail follows."
-  ],
-  "image": "en-trail-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Dead Plateau]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1103": 0.2,
-    "1105": 0.2
-  },
-  "id": 1104,
-  "location": "the Locksmehr Trail",
   "tags": [
     "some wolifrew lichen",
     "some ephlox moss",
     "some acantha leaf",
-    "sassafras leaf",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "tkaro root",
-    "sticks",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "broken twig",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "bright red cranberry",
-    "tree bark",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sassafras leaf"
   ]
 }

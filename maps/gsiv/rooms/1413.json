@@ -1,33 +1,30 @@
 {
+  "id": 1413,
+  "title": [
+    "[Cairnfang, North Bank]"
+  ],
+  "description": [
+    "Avoiding the cattails and marshgrass within the bend of the river, the trail drops away from the bank and sticks to higher ground."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "1412": "northeast",
     "1414": "west"
   },
-  "paths": [
-    "Obvious paths: northeast, west"
-  ],
+  "timeto": {
+    "1412": 0.2,
+    "1414": 0.2
+  },
+  "image": "vo-caravansary-1264234799.png",
   "image_coords": [
     1227,
     410,
     1237,
     420
   ],
-  "terrain": "grassland",
-  "description": [
-    "Avoiding the cattails and marshgrass within the bend of the river, the trail drops away from the bank and sticks to higher ground."
-  ],
-  "image": "vo-caravansary-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Cairnfang, North Bank]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1412": 0.2,
-    "1414": 0.2
-  },
-  "id": 1413,
-  "location": "the Cairnfang",
   "tags": [
     "some ambrominas leaf",
     "nightbloom blossom",
@@ -86,10 +83,6 @@
     "murdroot",
     "wavepetal blossom",
     "ironfern root",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

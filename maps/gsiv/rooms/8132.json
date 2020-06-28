@@ -1,33 +1,30 @@
 {
+  "id": 8132,
+  "title": [
+    "[Dubh Brugh, Cavern]"
+  ],
+  "description": [
+    "The walls narrow a bit, making this section a tight squeeze.  The dark rock is flecked with silvery glitter, beckoning hypnotically like a star-filled night."
+  ],
+  "paths": [
+    "Obvious exits: southwest, down"
+  ],
+  "location": "Dubh Brugh",
   "wayto": {
     "8131": "southwest",
     "8133": "down"
   },
-  "paths": [
-    "Obvious exits: southwest, down"
-  ],
+  "timeto": {
+    "8131": 0.2,
+    "8133": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     1253,
     695,
     1263,
     705
   ],
-  "terrain": "indoors",
-  "description": [
-    "The walls narrow a bit, making this section a tight squeeze.  The dark rock is flecked with silvery glitter, beckoning hypnotically like a star-filled night."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dubh Brugh, Cavern]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8131": 0.2,
-    "8133": 0.2
-  },
-  "id": 8132,
-  "location": "Dubh Brugh",
   "tags": [
     "soft white mushroom",
     "some bolmara lichen",
@@ -35,18 +32,6 @@
     "genkew mushroom",
     "withered black mushroom",
     "some wingstem root",
-    "blue trafel mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "blue trafel mushroom"
   ]
 }

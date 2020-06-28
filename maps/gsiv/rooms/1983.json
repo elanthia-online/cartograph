@@ -1,48 +1,40 @@
 {
-  "wayto": {
-    "12701": {
-      "stringproc": "fdc8e2fb29bebf88c9c4c1bdf11c3623"
-    },
-    "1982": "west",
-    "12603": {
-      "stringproc": "d1fc5a51d4da1c0a635dc5e6fdfdfd9e"
-    },
-    "12622": {
-      "stringproc": "fc9ea8fa800ffa07e738ab3b18206920"
-    }
-  },
-  "paths": [
-    "Obvious exits: west"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "The silent simplicity of this small room brings contemplative thoughts to mind.  Several small mats cover the polished wood floors and two worn oak benches sit empty along the wall.  A modest rosewood altar stands at one end of the room, topped with two white candles.  A gentle breeze wafts from a hallway of gleaming white marble leading to the east."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 1983,
   "title": [
     "[Temple, Meditation Sanctum]"
   ],
-  "check_location": null,
+  "description": [
+    "The silent simplicity of this small room brings contemplative thoughts to mind.  Several small mats cover the polished wood floors and two worn oak benches sit empty along the wall.  A modest rosewood altar stands at one end of the room, topped with two white candles.  A gentle breeze wafts from a hallway of gleaming white marble leading to the east."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "wayto": {
+    "12701": {
+      "file": "string_procs/wayto/1983_12701.rb"
+    },
+    "1982": "west",
+    "12603": {
+      "file": "string_procs/wayto/1983_12603.rb"
+    },
+    "12622": {
+      "file": "string_procs/wayto/1983_12622.rb"
+    }
+  },
   "timeto": {
     "12701": {
-      "stringproc": "467966f8c6d8ca28fdc846eaec1daeaa"
+      "file": "string_procs/timeto/1983_12701.rb"
     },
     "1982": 0.2,
     "12603": {
-      "stringproc": "467966f8c6d8ca28fdc846eaec1daeaa"
+      "file": "string_procs/timeto/1983_12603.rb"
     },
     "12622": {
-      "stringproc": "467966f8c6d8ca28fdc846eaec1daeaa"
+      "file": "string_procs/timeto/1983_12622.rb"
     }
   },
-  "id": 1983,
-  "location": "the town of Kharam-Dzu",
   "tags": [
     "voln"
-  ],
-  "links": [
-
   ]
 }

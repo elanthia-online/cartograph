@@ -1,42 +1,34 @@
 {
+  "id": 13256,
+  "title": [
+    "[The Lost Home, Patio]"
+  ],
+  "description": [
+    "A great oak stands in the middle of the enclosed patio, its spreading branches providing both shade and protection from the elements.  The Lost Home's two wings wrap around either side of the area, enclosing a few quaint tables from the walkways beyond.  Across the lawn, a small pond is fed by a narrow brook that encircles the massive tree."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "the Lost Home",
   "wayto": {
     "13255": "south",
     "13257": "go bar",
     "24551": {
-      "stringproc": "3a04d5b499c3cfa73b194ce5c0459aa2"
+      "file": "string_procs/wayto/13256_24551.rb"
     },
     "24552": {
-      "stringproc": "423948538c89c3e2c44c5eee19528b9c"
+      "file": "string_procs/wayto/13256_24552.rb"
     },
     "24553": {
-      "stringproc": "a17d96c11c01d9b4597fac229eccaefc"
+      "file": "string_procs/wayto/13256_24553.rb"
     },
     "24554": {
-      "stringproc": "09233ef60319b848e45b8ac80712a2a7"
+      "file": "string_procs/wayto/13256_24554.rb"
     },
     "25492": {
-      "stringproc": "21f77003c222b6bf882fb776cb489b77"
+      "file": "string_procs/wayto/13256_25492.rb"
     }
   },
-  "paths": [
-    "Obvious paths: south"
-  ],
-  "image_coords": [
-    589,
-    373,
-    644,
-    432
-  ],
-  "terrain": null,
-  "description": [
-    "A great oak stands in the middle of the enclosed patio, its spreading branches providing both shade and protection from the elements.  The Lost Home's two wings wrap around either side of the area, enclosing a few quaint tables from the walkways beyond.  Across the lawn, a small pond is fed by a narrow brook that encircles the massive tree."
-  ],
-  "image": "en-ta_illistim_buildings.png",
-  "climate": null,
-  "title": [
-    "[The Lost Home, Patio]"
-  ],
-  "check_location": null,
   "timeto": {
     "13255": 0.2,
     "13257": 0.2,
@@ -46,12 +38,14 @@
     "24554": 0.2,
     "25492": 0.2
   },
-  "id": 13256,
-  "location": "the Lost Home",
+  "image": "en-ta_illistim_buildings.png",
+  "image_coords": [
+    589,
+    373,
+    644,
+    432
+  ],
   "tags": [
     "table"
-  ],
-  "links": [
-
   ]
 }

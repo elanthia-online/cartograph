@@ -1,37 +1,30 @@
 {
+  "id": 26786,
+  "title": [
+    "[Catacombs, Dark Tunnels]"
+  ],
+  "description": [
+    "This leg of the tunnel has been reinforced with oaken timbers that are only beginning to show signs of decay.  Along many of the walls you see large holes that disappear into the darkness.  The floor shows signs of being well-travelled but you are not sure whether the tracks were made by man or beast."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast, down"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "26787": "down",
     "26789": "southeast",
     "26785": "north"
   },
-  "paths": [
-    "Obvious exits: north, southeast, down"
-  ],
-  "image_coords": [
-    1007,
-    1412,
-    1017,
-    1423
-  ],
-  "terrain": null,
-  "description": [
-    "This leg of the tunnel has been reinforced with oaken timbers that are only beginning to show signs of decay.  Along many of the walls you see large holes that disappear into the darkness.  The floor shows signs of being well-travelled but you are not sure whether the tracks were made by man or beast."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Catacombs, Dark Tunnels]"
-  ],
-  "check_location": null,
   "timeto": {
     "26787": 0.2,
     "26789": 0.2,
     "26785": 0.2
   },
-  "id": 26786,
-  "location": "the catacombs",
-  "tags": [
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+  "image": "wl-catacombs-1264234799.png",
+  "image_coords": [
+    1007,
+    1412,
+    1017,
+    1423
+  ]
 }

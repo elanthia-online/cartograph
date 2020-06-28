@@ -1,40 +1,30 @@
 {
+  "id": 16814,
+  "title": [
+    "[Castle Dungeons]"
+  ],
+  "description": [
+    "The dim hallway comes to an abrupt halt here.  A side passage leading northwest fades into the flickering torchlight.  A slight creaking noise draws your attention to an open cell."
+  ],
+  "paths": [
+    "Obvious exits: north, east, northwest"
+  ],
+  "location": "Castle Varunar",
   "wayto": {
     "16813": "east",
     "16815": "northwest",
     "16820": "north"
   },
-  "paths": [
-    "Obvious exits: north, east, northwest"
-  ],
-  "image_coords": [
-    573,
-    378,
-    583,
-    388
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The dim hallway comes to an abrupt halt here.  A side passage leading northwest fades into the flickering torchlight.  A slight creaking noise draws your attention to an open cell."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Castle Dungeons]"
-  ],
-  "check_location": null,
   "timeto": {
     "16813": 0.2,
     "16815": 0.2,
     "16820": 0.2
   },
-  "id": 16814,
-  "location": "Castle Varunar",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "vo-trail-1264234799.png",
+  "image_coords": [
+    573,
+    378,
+    583,
+    388
   ]
 }

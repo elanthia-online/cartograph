@@ -1,43 +1,33 @@
 {
+  "id": 7363,
+  "title": [
+    "[Shadow Plain]"
+  ],
+  "description": [
+    "Broken limbs from ancient trees litter the ground.  The wind blows by shaking the dark tumbleweed stuck in the tree branches.  A slimy black sludge cakes the remaining trees."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, northwest"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7362": "northeast",
     "7385": "northwest",
     "7364": "north"
   },
-  "paths": [
-    "Obvious paths: north, northeast, northwest"
-  ],
+  "timeto": {
+    "7362": 0.2,
+    "7385": 0.2,
+    "7364": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1306,
     1128,
     1314,
     1136
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "Broken limbs from ancient trees litter the ground.  The wind blows by shaking the dark tumbleweed stuck in the tree branches.  A slimy black sludge cakes the remaining trees."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Shadow Plain]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7362": 0.2,
-    "7385": 0.2,
-    "7364": 0.2
-  },
-  "id": 7363,
-  "location": "the Shadow Valley",
   "tags": [
-    "night mare",
-    "longgrass",
-    "wyrm thorn",
-    "petrified shadowstalk",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "night mare"
   ]
 }

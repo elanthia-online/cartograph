@@ -1,35 +1,32 @@
 {
+  "id": 2744,
+  "title": [
+    "[Top of the World, Frozen Tundra]"
+  ],
+  "description": [
+    "A desolate blanket of snow stretches out endlessly, interrupted only by an enormous mountain far to the northeast.  Swirling winds quickly cover any irregularities on the lifeless plains. The snowdrifts lapse to allow passage to the north and west, and an opening in the ice to the south offers some protection from the elements."
+  ],
+  "paths": [
+    "Obvious paths: north, west"
+  ],
+  "location": "the great mountain Aenatumgana",
   "wayto": {
     "2743": "north",
     "2745": "west",
     "2746": "go opening"
   },
-  "paths": [
-    "Obvious paths: north, west"
-  ],
+  "timeto": {
+    "2743": 0.2,
+    "2745": 0.2,
+    "2746": 0.2
+  },
+  "image": "imt-pinefar-1264234799.png",
   "image_coords": [
     900,
     848,
     910,
     858
   ],
-  "terrain": "mountainous",
-  "description": [
-    "A desolate blanket of snow stretches out endlessly, interrupted only by an enormous mountain far to the northeast.  Swirling winds quickly cover any irregularities on the lifeless plains. The snowdrifts lapse to allow passage to the north and west, and an opening in the ice to the south offers some protection from the elements."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Top of the World, Frozen Tundra]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2743": 0.2,
-    "2745": 0.2,
-    "2746": 0.2
-  },
-  "id": 2744,
-  "location": "the great mountain Aenatumgana",
   "tags": [
     "red winterberry",
     "some wyrmwood bark",
@@ -43,18 +40,6 @@
     "some red lichen",
     "sassafras leaf",
     "some daggit root",
-    "gok nut",
-    "red lichen",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "wyrmwood bark",
-    "daggit root",
-    "arctic moss",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "gok nut"
   ]
 }

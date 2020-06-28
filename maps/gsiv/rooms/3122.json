@@ -1,33 +1,30 @@
 {
+  "id": 3122,
+  "title": [
+    "[Abandoned Farm, Orchard]"
+  ],
+  "description": [
+    "The end of the apple orchard is marked by a mound of petrified fruit dusted with snow.  Shriveled and frozen, the dried apples look more like tiny skulls than fruit."
+  ],
+  "paths": [
+    "Obvious paths: southeast, west"
+  ],
+  "location": "the Abandoned Farm",
   "wayto": {
     "3123": "southeast",
     "3121": "west"
   },
-  "paths": [
-    "Obvious paths: southeast, west"
-  ],
+  "timeto": {
+    "3123": 0.2,
+    "3121": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     770,
     758,
     780,
     768
   ],
-  "terrain": "cultivated",
-  "description": [
-    "The end of the apple orchard is marked by a mound of petrified fruit dusted with snow.  Shriveled and frozen, the dried apples look more like tiny skulls than fruit."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Abandoned Farm, Orchard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3123": 0.2,
-    "3121": 0.2
-  },
-  "id": 3122,
-  "location": "the Abandoned Farm",
   "tags": [
     "wavepetal blossom",
     "moonflower",
@@ -37,13 +34,6 @@
     "some angelica root",
     "tree spirit",
     "frostflower",
-    "winter rose",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "winter rose"
   ]
 }

@@ -1,39 +1,28 @@
 {
+  "id": 20765,
+  "title": [
+    "[Mistral Hall, Entrance]"
+  ],
+  "description": [
+    "At the end of the pier stands a tall white lighthouse, its circular base supporting the gradually diminishing upper levels.  The scent of the sea flows inland from the mouth of the delta, borne on breezes that displace the surface of the water, causing endless ripples to fan out and lap around the thick wooden pilings that hold the entire structure above water.  Planters of pale driftwood rest on the pier against the outer wall, flanking the entry, their floral contents nearly overflowing with a rainbow of colors."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "River's Rest",
   "wayto": {
     "20764": "west",
     "20766": "go door"
   },
-  "paths": [
-    "Obvious paths: west"
-  ],
+  "timeto": {
+    "20764": 0.2,
+    "20766": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     273,
     444,
     309,
     476
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "At the end of the pier stands a tall white lighthouse, its circular base supporting the gradually diminishing upper levels.  The scent of the sea flows inland from the mouth of the delta, borne on breezes that displace the surface of the water, causing endless ripples to fan out and lap around the thick wooden pilings that hold the entire structure above water.  Planters of pale driftwood rest on the pier against the outer wall, flanking the entry, their floral contents nearly overflowing with a rainbow of colors."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "temperate",
-  "title": [
-    "[Mistral Hall, Entrance]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "20764": 0.2,
-    "20766": 0.2
-  },
-  "id": 20765,
-  "location": "River's Rest",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

@@ -1,35 +1,32 @@
 {
+  "id": 7294,
+  "title": [
+    "[Slither Creek]"
+  ],
+  "description": [
+    "A long, thin shape weaves through the forest of cattails on the bank.  The plants continue off in both directions, leaning with the current, and although it is difficult to get to the bank, it is certainly not impossible."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7295": "east",
     "7279": "go bank",
     "7293": "west"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "7295": 0.2,
+    "7279": 0.2,
+    "7293": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     248,
     178,
     258,
     188
   ],
-  "terrain": "riparian",
-  "description": [
-    "A long, thin shape weaves through the forest of cattails on the bank.  The plants continue off in both directions, leaning with the current, and although it is difficult to get to the bank, it is certainly not impossible."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "freshwater",
-  "title": [
-    "[Slither Creek]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7295": 0.2,
-    "7279": 0.2,
-    "7293": 0.2
-  },
-  "id": 7294,
-  "location": "the Graveyard",
   "tags": [
     "some aloeas stem",
     "water chestnut",
@@ -40,10 +37,6 @@
     "yellow water lily",
     "blue water lily",
     "murdroot",
-    "wavepetal blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wavepetal blossom"
   ]
 }

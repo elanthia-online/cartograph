@@ -1,33 +1,30 @@
 {
+  "id": 13948,
+  "title": [
+    "[The Ravelin, Northeast Wall]"
+  ],
+  "description": [
+    "Flying proudly in the constant breeze, the standard of Ta'Vaalor hangs on a tall vaalin pole near the perimeter wall.  Flanking the flag, lines of catapults with neatly arranged piles of ammunition take advantage of the dip in the wall's height to defeat any hostile approach from the river."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "the hamlet of Ravelin",
   "wayto": {
     "13947": "northwest",
     "13949": "southeast"
   },
-  "paths": [
-    "Obvious paths: southeast, northwest"
-  ],
+  "timeto": {
+    "13947": 0.2,
+    "13949": 0.2
+  },
+  "image": "en-ravelin.png",
   "image_coords": [
     519,
     158,
     565,
     208
   ],
-  "terrain": null,
-  "description": [
-    "Flying proudly in the constant breeze, the standard of Ta'Vaalor hangs on a tall vaalin pole near the perimeter wall.  Flanking the flag, lines of catapults with neatly arranged piles of ammunition take advantage of the dip in the wall's height to defeat any hostile approach from the river."
-  ],
-  "image": "en-ravelin.png",
-  "climate": null,
-  "title": [
-    "[The Ravelin, Northeast Wall]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "13947": 0.2,
-    "13949": 0.2
-  },
-  "id": 13948,
-  "location": "the hamlet of Ravelin",
   "tags": [
     "ambrominas leaf",
     "tkaro root",
@@ -87,8 +84,5 @@
     "woad leaves",
     "trollfear mushroom",
     "nightbloom blossom"
-  ],
-  "links": [
-
   ]
 }

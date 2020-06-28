@@ -1,42 +1,32 @@
 {
-  "wayto": {
-    "16733": {
-      "stringproc": "5270ba22c290cc9114a5edcb8e075f9f"
-    },
-    "16723": {
-      "stringproc": "90fe6cfb261a19d3ac74aae49096f036"
-    }
-  },
+  "id": 18755,
+  "title": [
+    "[Aradhul Road, Bridge]"
+  ],
+  "description": [
+    "Thick limestone blocks form the middle section of a bridge that once stretched across the ravine below.  Wide, deep cracks, as well as numerous gaps where the stone has completely disintegrated, mar its surface.  Though still sturdy, large sections of the support columns have broken off and now litter the ravine floor below.  Each end of the bridge is completely missing, leaving jumping to either the north side or the south side of the ravine as your only option."
+  ],
   "paths": [
     "Obvious paths: none"
   ],
+  "location": "Aradhul Road",
+  "wayto": {
+    "16733": {
+      "file": "string_procs/wayto/18755_16733.rb"
+    },
+    "16723": {
+      "file": "string_procs/wayto/18755_16723.rb"
+    }
+  },
+  "timeto": {
+    "16733": 10,
+    "16723": 10
+  },
+  "image": "en-aradhul-road-1308194332.png",
   "image_coords": [
     379,
     558,
     400,
     576
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "Thick limestone blocks form the middle section of a bridge that once stretched across the ravine below.  Wide, deep cracks, as well as numerous gaps where the stone has completely disintegrated, mar its surface.  Though still sturdy, large sections of the support columns have broken off and now litter the ravine floor below.  Each end of the bridge is completely missing, leaving jumping to either the north side or the south side of the ravine as your only option."
-  ],
-  "image": "en-aradhul-road-1308194332.png",
-  "climate": "temperate",
-  "title": [
-    "[Aradhul Road, Bridge]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "16733": 10,
-    "16723": 10
-  },
-  "id": 18755,
-  "location": "Aradhul Road",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

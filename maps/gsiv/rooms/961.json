@@ -1,34 +1,31 @@
 {
+  "id": 961,
+  "title": [
+    "[Whistler's Pass]"
+  ],
+  "description": [
+    "Chill to the touch, the high stone walls of the cleft tower overhead, nearly shutting out the pale rays of the moon.  Although easily discernable, the narrow trail is strewn with a dangerous assortment of crumbling rocks and shards of stone, their sharp edges and shifting positions seemingly intent on slowing progress through the pass.",
+    "Chill to the touch, the high stone walls of the cleft tower overhead, nearly shutting out the meager rays of the sun.  Although easily discernable, the narrow trail is strewn with a dangerous assortment of crumbling rocks and shards of stone, their sharp edges and shifting positions seemingly intent on slowing progress through the pass."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "960": "northeast",
     "962": "southwest"
   },
-  "paths": [
-    "Obvious paths: northeast, southwest"
-  ],
+  "timeto": {
+    "960": 0.2,
+    "962": 0.2
+  },
+  "image": "en-whistlers_pass-1264234799.png",
   "image_coords": [
     184,
     1287,
     193,
     1297
   ],
-  "terrain": "mountainous",
-  "description": [
-    "Chill to the touch, the high stone walls of the cleft tower overhead, nearly shutting out the pale rays of the moon.  Although easily discernable, the narrow trail is strewn with a dangerous assortment of crumbling rocks and shards of stone, their sharp edges and shifting positions seemingly intent on slowing progress through the pass.",
-    "Chill to the touch, the high stone walls of the cleft tower overhead, nearly shutting out the meager rays of the sun.  Although easily discernable, the narrow trail is strewn with a dangerous assortment of crumbling rocks and shards of stone, their sharp edges and shifting positions seemingly intent on slowing progress through the pass."
-  ],
-  "image": "en-whistlers_pass-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Whistler's Pass]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "960": 0.2,
-    "962": 0.2
-  },
-  "id": 961,
-  "location": "Whistler's Pass",
   "tags": [
     "marallis berry",
     "cuctucae berry",
@@ -43,10 +40,6 @@
     "cluster of butterflyweed",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

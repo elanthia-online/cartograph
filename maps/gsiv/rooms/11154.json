@@ -1,33 +1,30 @@
 {
+  "id": 11154,
+  "title": [
+    "[Citadel, Outside]"
+  ],
+  "description": [
+    "Small clumps of grass grow from the many piles of rotting straw lining this brick street, casting up invisible fumes that make your eyes water slightly."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11153": "north",
     "11155": "s"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "11153": 0.2,
+    "11155": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     1170,
     743,
     1180,
     753
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "Small clumps of grass grow from the many piles of rotting straw lining this brick street, casting up invisible fumes that make your eyes water slightly."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "moist",
-  "title": [
-    "[Citadel, Outside]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11153": 0.2,
-    "11155": 0.2
-  },
-  "id": 11154,
-  "location": "the Citadel",
   "tags": [
     "some aloeas stem",
     "bright red cranberry",
@@ -39,17 +36,6 @@
     "some wingstem root",
     "some calamia fruit",
     "wild chokecherry",
-    "some motherwort",
-    "acantha leaf",
-    "calamia fruit",
-    "aloeas stem",
-    "motherwort",
-    "murkweed",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some motherwort"
   ]
 }

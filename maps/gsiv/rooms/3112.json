@@ -1,33 +1,30 @@
 {
+  "id": 3112,
+  "title": [
+    "[Bramble Ravine]"
+  ],
+  "description": [
+    "Gnarled, thick brambles clutch at any protrusion on the surface of the ravine.  The thorny black limbs pull down hunks of rock and smother small evergreens trying to establish a foothold."
+  ],
+  "paths": [
+    "Obvious paths: north, up"
+  ],
+  "location": "the Abandoned Farm",
   "wayto": {
     "3113": "north",
     "3110": "up"
   },
-  "paths": [
-    "Obvious paths: north, up"
-  ],
+  "timeto": {
+    "3113": 0.2,
+    "3110": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     885,
     435,
     895,
     445
   ],
-  "terrain": "rough",
-  "description": [
-    "Gnarled, thick brambles clutch at any protrusion on the surface of the ravine.  The thorny black limbs pull down hunks of rock and smother small evergreens trying to establish a foothold."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Bramble Ravine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3113": 0.2,
-    "3110": 0.2
-  },
-  "id": 3112,
-  "location": "the Abandoned Farm",
   "tags": [
     "wild strawberry",
     "stalk of chicory",
@@ -40,14 +37,6 @@
     "handful of blueberries",
     "bright red teaberry",
     "wild chokecherry",
-    "wraith",
-    "blueberries",
-    "bearberries",
-    "broken twig",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wraith"
   ]
 }

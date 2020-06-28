@@ -1,38 +1,27 @@
 {
+  "id": 11363,
+  "title": [
+    "[Citadel, Hallway]"
+  ],
+  "description": [
+    "The smooth granite walls of this hallway were probably very beautiful when polished daily, but now appear to be sadly neglected."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south"
+  ],
   "wayto": {
     "11364": "north",
     "11366": "south"
   },
-  "paths": [
-    "Obvious exits: north, east, south"
-  ],
+  "timeto": {
+    "11364": 0.2,
+    "11366": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     177,
     1180,
     187,
     1190
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The smooth granite walls of this hallway were probably very beautiful when polished daily, but now appear to be sadly neglected."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Citadel, Hallway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11364": 0.2,
-    "11366": 0.2
-  },
-  "id": 11363,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

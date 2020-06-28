@@ -1,49 +1,34 @@
 {
+  "id": 8217,
+  "title": [
+    "[Sea Caverns, Spider Lair]"
+  ],
+  "description": [
+    "The cavern widens into a vast, circular chamber.  Various small skeletons are scattered about, all of them stripped clean.  Faint chitterings echo down the passages to the east and southeast.  The western wall is covered by a mass of webs."
+  ],
+  "paths": [
+    "Obvious exits: east, southeast"
+  ],
+  "location": "the sea caverns",
   "wayto": {
     "8216": "go webs",
     "8218": "east",
     "8219": "southeast"
   },
-  "paths": [
-    "Obvious exits: east, southeast"
-  ],
+  "timeto": {
+    "8216": 0.2,
+    "8218": 0.2,
+    "8219": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     435,
     284,
     445,
     294
   ],
-  "terrain": "indoors",
-  "description": [
-    "The cavern widens into a vast, circular chamber.  Various small skeletons are scattered about, all of them stripped clean.  Faint chitterings echo down the passages to the east and southeast.  The western wall is covered by a mass of webs."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Caverns, Spider Lair]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8216": 0.2,
-    "8218": 0.2,
-    "8219": 0.2
-  },
-  "id": 8217,
-  "location": "the sea caverns",
   "tags": [
     "black hook mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "white hook mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "soft white mushroom"
   ]
 }

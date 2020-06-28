@@ -1,43 +1,34 @@
 {
-  "wayto": {
-    "11479": {
-      "stringproc": "e531eb47f19700d00ac81ca15d619ca8"
-    },
-    "16121": {
-      "stringproc": "2475b19f394c069e111c2fa06831c1f7"
-    },
-    "11472": {
-      "stringproc": "b9248cfc9b113e5b3c9341af010fa35e"
-    },
-    "11474": {
-      "stringproc": "c5de6a93c272509e579c13cc8cd916bf"
-    },
-    "11441": {
-      "stringproc": "84803c6220b0581d4151763c46ccdbbc"
-    },
-    "11476": {
-      "stringproc": "84d7e9c5466c56efd7dc0ac337b0a9ea"
-    }
-  },
-  "paths": [
-    "Obvious exits: north, east, southeast, south, up, down"
-  ],
-  "image_coords": [
-    760,
-    1180,
-    770,
-    1190
-  ],
-  "terrain": null,
-  "description": [
-    "Light green water above, deep green water below, green water all around.  To the southwest is a reef covered with club-fingered coral.  A powerful current makes swimming to the west and north impossible."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": null,
+  "id": 11475,
   "title": [
     "[Maelstrom Bay, Under Water]"
   ],
-  "check_location": null,
+  "description": [
+    "Light green water above, deep green water below, green water all around.  To the southwest is a reef covered with club-fingered coral.  A powerful current makes swimming to the west and north impossible."
+  ],
+  "paths": [
+    "Obvious exits: north, east, southeast, south, up, down"
+  ],
+  "wayto": {
+    "11479": {
+      "file": "string_procs/wayto/11475_11479.rb"
+    },
+    "16121": {
+      "file": "string_procs/wayto/11475_16121.rb"
+    },
+    "11472": {
+      "file": "string_procs/wayto/11475_11472.rb"
+    },
+    "11474": {
+      "file": "string_procs/wayto/11475_11474.rb"
+    },
+    "11441": {
+      "file": "string_procs/wayto/11475_11441.rb"
+    },
+    "11476": {
+      "file": "string_procs/wayto/11475_11476.rb"
+    }
+  },
   "timeto": {
     "11479": 2.0,
     "16121": 2.0,
@@ -46,12 +37,11 @@
     "11441": 3.0,
     "11476": 2.0
   },
-  "id": 11475,
-  "location": null,
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "rr-maelstrom-1266390501.png",
+  "image_coords": [
+    760,
+    1180,
+    770,
+    1190
   ]
 }

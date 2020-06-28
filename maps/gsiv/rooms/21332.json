@@ -1,35 +1,32 @@
 {
+  "id": 21332,
+  "title": [
+    "[Sylvanfair, Lilac Garden]"
+  ],
+  "description": [
+    "The air of this walled garden is filled with the heady scent of lilacs from hundreds of bushes.  Several lilac bushes near the main Sylvanfair tree twine together underneath a stairway leading up to a lilac door.  A large ironwood tree stands in the center of the garden, with a door in its side."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "21333": "go pathway",
     "21334": "go door",
     "26063": "go ironwood door"
   },
-  "paths": [
-    "Obvious paths: none"
-  ],
+  "timeto": {
+    "21333": 0.2,
+    "21334": 0.2,
+    "26063": 0.2
+  },
+  "image": "wl-sylvanfair.jpg",
   "image_coords": [
     314,
     339,
     350,
     376
   ],
-  "terrain": null,
-  "description": [
-    "The air of this walled garden is filled with the heady scent of lilacs from hundreds of bushes.  Several lilac bushes near the main Sylvanfair tree twine together underneath a stairway leading up to a lilac door.  A large ironwood tree stands in the center of the garden, with a door in its side."
-  ],
-  "image": "wl-sylvanfair.jpg",
-  "climate": null,
-  "title": [
-    "[Sylvanfair, Lilac Garden]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "21333": 0.2,
-    "21334": 0.2,
-    "26063": 0.2
-  },
-  "id": 21332,
-  "location": "Wehnimer's Landing",
   "tags": [
     "small flower",
     "yellow tomato",
@@ -92,9 +89,5 @@
     "wavepetal blossom",
     "nightbloom blossom",
     "onion skin"
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

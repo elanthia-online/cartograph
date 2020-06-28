@@ -1,41 +1,33 @@
 {
+  "id": 2424,
+  "title": [
+    "[Berrytoe's General Store]",
+    "[Berrytoe's Bare Essentials]"
+  ],
+  "description": [
+    "Barrels and boxes draped in cloth of all shades cover the wooden floor of this small store.  A group of dwarves stands off to one side, haggling furiously with a halfling.  The halfling waves his arms angrily, nearly hitting a dwarf with a tiny backpack.  At one end of the room, another halfling guards a counter full of wares.",
+    "Polished barrels and decoratively etched crates draped in bright cloth have been placed strategically around the shop to attract the eyes of milling customers to the wares set out upon them.  A round glass skylight in the ceiling above casts sunbeams on a miniature snow-covered village placed on a stand in the center of the room.  A group of dwarves off to the side haggles furiously with a flustered sales assistant, while behind a counter against the the opposite wall, the merchant Berrytoe stands with a welcoming smile."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "2423": "out",
     "2425": "go door"
   },
-  "paths": [
-    "Obvious exits: out"
-  ],
+  "timeto": {
+    "2423": 0.2,
+    "2425": 0.2
+  },
+  "image": "imt-icemule-1474811966.png",
   "image_coords": [
     671,
     911,
     707,
     947
   ],
-  "terrain": "indoors",
-  "description": [
-    "Barrels and boxes draped in cloth of all shades cover the wooden floor of this small store.  A group of dwarves stands off to one side, haggling furiously with a halfling.  The halfling waves his arms angrily, nearly hitting a dwarf with a tiny backpack.  At one end of the room, another halfling guards a counter full of wares.",
-    "Polished barrels and decoratively etched crates draped in bright cloth have been placed strategically around the shop to attract the eyes of milling customers to the wares set out upon them.  A round glass skylight in the ceiling above casts sunbeams on a miniature snow-covered village placed on a stand in the center of the room.  A group of dwarves off to the side haggles furiously with a flustered sales assistant, while behind a counter against the the opposite wall, the merchant Berrytoe stands with a welcoming smile."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "indoors",
-  "title": [
-    "[Berrytoe's General Store]",
-    "[Berrytoe's Bare Essentials]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2423": 0.2,
-    "2425": 0.2
-  },
-  "id": 2424,
-  "location": "Icemule Trace",
   "tags": [
-    "general store",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "general store"
   ]
 }

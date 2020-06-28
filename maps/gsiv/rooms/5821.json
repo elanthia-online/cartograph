@@ -1,42 +1,32 @@
 {
+  "id": 5821,
+  "title": [
+    "[Zaerthu Tunnels]"
+  ],
+  "description": [
+    "Massive square beams are braced against the rock walls of the tunnel, the solid pillars and their lanterns lending the otherwise plain passage a certain grandeur.  The sound of hammer-blows ringing against metal occasionally echo off the high ceiling, their source from somewhere to the north."
+  ],
+  "paths": [
+    "Obvious exits: north, southwest"
+  ],
+  "location": "the Zaerthu Tunnels",
   "wayto": {
     "5820": "southwest",
     "5822": "north"
   },
-  "paths": [
-    "Obvious exits: north, southwest"
-  ],
+  "timeto": {
+    "5820": 0.2,
+    "5822": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     451,
     867,
     461,
     877
   ],
-  "terrain": "indoors",
-  "description": [
-    "Massive square beams are braced against the rock walls of the tunnel, the solid pillars and their lanterns lending the otherwise plain passage a certain grandeur.  The sound of hammer-blows ringing against metal occasionally echo off the high ceiling, their source from somewhere to the north."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Zaerthu Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5820": 0.2,
-    "5822": 0.2
-  },
-  "id": 5821,
-  "location": "the Zaerthu Tunnels",
   "tags": [
     "some wolifrew lichen",
-    "some wingstem root",
-    "wolifrew lichen",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

@@ -1,42 +1,31 @@
 {
+  "id": 11096,
+  "title": [
+    "[Krol Ship, Companionway]"
+  ],
+  "description": [
+    "The companionway provides access to the lower decks of the ship here, while the corridor leads to the officers' quarters and the wardroom aft.  A small chartroom is off the companionway on the east side, and the companionway continues down."
+  ],
+  "paths": [
+    "Obvious exits: north, east, down"
+  ],
   "wayto": {
     "11094": "go door",
     "11109": "down",
     "11097": "east",
     "11098": "north"
   },
-  "paths": [
-    "Obvious exits: north, east, down"
-  ],
-  "image_coords": [
-    1310,
-    505,
-    1320,
-    515
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The companionway provides access to the lower decks of the ship here, while the corridor leads to the officers' quarters and the wardroom aft.  A small chartroom is off the companionway on the east side, and the companionway continues down."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "indoors",
-  "title": [
-    "[Krol Ship, Companionway]"
-  ],
-  "check_location": null,
   "timeto": {
     "11094": 0.2,
     "11109": 0.2,
     "11097": 0.2,
     "11098": 0.2
   },
-  "id": 11096,
-  "location": "the Sea Caves",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-rivers_rest-1266350289.png",
+  "image_coords": [
+    1310,
+    505,
+    1320,
+    515
   ]
 }

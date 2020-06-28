@@ -1,38 +1,28 @@
 {
+  "id": 4149,
+  "title": [
+    "[Hall of the Dead, Tunnel]"
+  ],
+  "description": [
+    "The tunnel continues east and west, the torches lining the wall cast strange shadows.  The quiet gives your mind a chance to race.  Your thoughts are not pleasant."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "4148": "west",
     "4150": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "4148": 0.2,
+    "4150": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     775,
     759,
     785,
     769
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The tunnel continues east and west, the torches lining the wall cast strange shadows.  The quiet gives your mind a chance to race.  Your thoughts are not pleasant."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Hall of the Dead, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4148": 0.2,
-    "4150": 0.2
-  },
-  "id": 4149,
-  "location": "the Graveyard",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,78 +1,38 @@
 {
+  "id": 5292,
+  "title": [
+    "[Vornavian Coast, Foggy Valley]"
+  ],
+  "description": [
+    "The path slopes slightly downward to the southeast, and upward to the northeast and northwest.  Fog completely covers the ground, and occasional short trees and tall bushes poke like islands in the mist.  The temperature continues to drop along the descent to the southeast."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, northwest"
+  ],
+  "location": "the Vornavian Coast",
   "wayto": {
     "5291": "northwest",
     "5293": "northeast",
     "5294": "southeast"
   },
-  "paths": [
-    "Obvious paths: northeast, southeast, northwest"
-  ],
+  "timeto": {
+    "5291": 0.2,
+    "5293": 0.2,
+    "5294": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     877,
     583,
     887,
     593
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "The path slopes slightly downward to the southeast, and upward to the northeast and northwest.  Fog completely covers the ground, and occasional short trees and tall bushes poke like islands in the mist.  The temperature continues to drop along the descent to the southeast."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Vornavian Coast, Foggy Valley]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5291": 0.2,
-    "5293": 0.2,
-    "5294": 0.2
-  },
-  "id": 5292,
-  "location": "the Vornavian Coast",
   "tags": [
     "some ephlox moss",
     "handful of blueberries",
     "soft white mushroom",
     "white hook mushroom",
     "some valerian root",
-    "sweetfern stalk",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "tkaro root",
-    "sticks",
-    "sassafras leaf",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "withered black mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "blueberries",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "broken twig",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "small wild rose",
-    "sprig of wild lilac",
-    "wild chokecherry",
-    "bright red cranberry",
-    "tree bark",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sweetfern stalk"
   ]
 }

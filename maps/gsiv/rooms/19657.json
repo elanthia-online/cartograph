@@ -1,39 +1,30 @@
 {
-  "wayto": {
-    "19656": "southeast",
-    "20012": {
-      "stringproc": "f9fb284cbbb95c9f97f0d4431cecd45c"
-    }
-  },
+  "id": 19657,
+  "title": [
+    "[Cavernhold, Lower Passage]"
+  ],
+  "description": [
+    "A maze of stalagmites prevents travel in any direction except to the southeast.  Looming above you is the steep, and quite unclimbable, wall of this narrow underground canyon.  Spanning the breach far above you is a narrow suspension bridge."
+  ],
   "paths": [
     "Obvious exits: southeast"
   ],
+  "location": "the foothills of Zeltoph",
+  "wayto": {
+    "19656": "southeast",
+    "20012": {
+      "file": "string_procs/wayto/19657_20012.rb"
+    }
+  },
+  "timeto": {
+    "19656": 0.2,
+    "20012": 0.2
+  },
+  "image": "wl-cavernhold-1295073688.png",
   "image_coords": [
     1109,
     1200,
     1120,
     1210
-  ],
-  "terrain": null,
-  "description": [
-    "A maze of stalagmites prevents travel in any direction except to the southeast.  Looming above you is the steep, and quite unclimbable, wall of this narrow underground canyon.  Spanning the breach far above you is a narrow suspension bridge."
-  ],
-  "image": "wl-cavernhold-1295073688.png",
-  "climate": null,
-  "title": [
-    "[Cavernhold, Lower Passage]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "19656": 0.2,
-    "20012": 0.2
-  },
-  "id": 19657,
-  "location": "the foothills of Zeltoph",
-  "tags": [
-
-  ],
-  "links": [
-
   ]
 }

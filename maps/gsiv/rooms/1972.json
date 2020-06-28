@@ -1,39 +1,33 @@
 {
+  "id": 1972,
+  "title": [
+    "[Wizard Guild, Library]"
+  ],
+  "description": [
+    "Collections of candles set in wrought iron sconces cast a warm amber glow across the towering bookshelves and impart an inviting atmosphere despite the absence of windows.  Wizards quietly study and confer around large, polished ash wood tables cluttered with all manner of books and scrolls.  The everpresent tang of brimstone seems fainter here, or perhaps it's simply less noticeable amidst the smells of aged parchment and mead."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Kharam-Dzu",
   "wayto": {
     "1971": "west",
     "18083": "go bookcase",
     "18085": "go archway"
   },
-  "paths": [
-    "Obvious exits: west"
-  ],
+  "timeto": {
+    "1971": 0.2,
+    "18083": 0.2,
+    "18085": 0.2
+  },
+  "image": "ti-wizard_guild.png",
   "image_coords": [
     800,
     534,
     866,
     598
   ],
-  "terrain": null,
-  "description": [
-    "Collections of candles set in wrought iron sconces cast a warm amber glow across the towering bookshelves and impart an inviting atmosphere despite the absence of windows.  Wizards quietly study and confer around large, polished ash wood tables cluttered with all manner of books and scrolls.  The everpresent tang of brimstone seems fainter here, or perhaps it's simply less noticeable amidst the smells of aged parchment and mead."
-  ],
-  "image": "ti-wizard_guild.png",
-  "climate": null,
-  "title": [
-    "[Wizard Guild, Library]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1971": 0.2,
-    "18083": 0.2,
-    "18085": 0.2
-  },
-  "id": 1972,
-  "location": "Kharam-Dzu",
   "tags": [
     "wizard alchemy masters"
-  ],
-  "links": [
-
   ]
 }

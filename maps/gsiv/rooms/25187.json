@@ -1,39 +1,32 @@
 {
-  "wayto": {
-    "20755": {
-      "stringproc": "98ef2a25e0237d8ba6512128db679c4c"
-    },
-    "25193": {
-      "stringproc": "60e1454458be13aea8e4ee5d181035f6"
-    }
-  },
+  "id": 25187,
+  "title": [
+    "[Iceland Rink]"
+  ],
+  "description": [
+    "Jaunty music floats through the air, emanating from somewhere beyond the ice-hewn walls.  Many swirls and loops in the ice give testimony to skaters giving in to the music.  Several penguin chicks have been painted on the icy wall, lending a whimsical, childish atmosphere to this section of the rink."
+  ],
   "paths": [
     "Obvious exits: south, northwest"
   ],
+  "location": "Icemule Trace",
+  "wayto": {
+    "20755": {
+      "file": "string_procs/wayto/25187_20755.rb"
+    },
+    "25193": {
+      "file": "string_procs/wayto/25187_25193.rb"
+    }
+  },
+  "timeto": {
+    "20755": 0.2,
+    "25193": 0.2
+  },
+  "image": "premium_halls-1489980086.png",
   "image_coords": [
     1133,
     1748,
     1259,
     1803
-  ],
-  "terrain": null,
-  "description": [
-    "Jaunty music floats through the air, emanating from somewhere beyond the ice-hewn walls.  Many swirls and loops in the ice give testimony to skaters giving in to the music.  Several penguin chicks have been painted on the icy wall, lending a whimsical, childish atmosphere to this section of the rink."
-  ],
-  "image": "premium_halls-1489980086.png",
-  "climate": null,
-  "title": [
-    "[Iceland Rink]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "20755": 0.2,
-    "25193": 0.2
-  },
-  "id": 25187,
-  "location": "Icemule Trace",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

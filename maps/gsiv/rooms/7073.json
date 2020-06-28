@@ -1,38 +1,28 @@
 {
+  "id": 7073,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "You pick your way fearfully through the dark, one careful step at a time.  You hear a drip, drip, drip coming from somewhere over your head, and a faint rustling noise coming from the north."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7074": "north",
     "7072": "south"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "7074": 0.2,
+    "7072": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     703,
     1063,
     713,
     1073
-  ],
-  "terrain": "indoors",
-  "description": [
-    "You pick your way fearfully through the dark, one careful step at a time.  You hear a drip, drip, drip coming from somewhere over your head, and a faint rustling noise coming from the north."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7074": 0.2,
-    "7072": 0.2
-  },
-  "id": 7073,
-  "location": "Darkstone Castle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

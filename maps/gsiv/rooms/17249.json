@@ -1,40 +1,34 @@
 {
+  "id": 17249,
+  "title": [
+    "[Citadel, Icehouse]"
+  ],
+  "description": [
+    "A single sconce illuminates the room, but it is woefully inadequate.  A row of wooden tubs is lined up against one wall, the water looking anything but comfortable."
+  ],
+  "paths": [
+    "Obvious exits: west, up"
+  ],
+  "location": "Ta'Vaalor",
   "wayto": {
     "17248": "up",
     "17250": "climb ladder",
     "17251": "west"
   },
-  "paths": [
-    "Obvious exits: west, up"
-  ],
+  "timeto": {
+    "17248": 0.2,
+    "17250": 0.2,
+    "17251": 0.2
+  },
+  "image": "warrior_guilds-1268684755.png",
   "image_coords": [
     183,
     535,
     204,
     555
   ],
-  "terrain": null,
-  "description": [
-    "A single sconce illuminates the room, but it is woefully inadequate.  A row of wooden tubs is lined up against one wall, the water looking anything but comfortable."
-  ],
-  "image": "warrior_guilds-1268684755.png",
-  "climate": null,
-  "title": [
-    "[Citadel, Icehouse]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "17248": 0.2,
-    "17250": 0.2,
-    "17251": 0.2
-  },
-  "id": 17249,
-  "location": "Ta'Vaalor",
   "tags": [
     "warrior guild tubs",
     "warrior guild icetub"
-  ],
-  "links": [
-
   ]
 }

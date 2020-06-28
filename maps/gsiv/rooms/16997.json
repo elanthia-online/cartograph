@@ -1,37 +1,30 @@
 {
+  "id": 16997,
+  "title": [
+    "[Guild Hall, Cold Storage]"
+  ],
+  "description": [
+    "Huge blocks of ice are stacked in the southeastern corner of the room, forming a corridor that leads west, then south from here.  Several fragments of chipped ice are underfoot, making your way somewhat slippery.  Several pairs of ice hooks hang from nails along the wall to aid in moving the blocks of ice.  A large, vault-like door leads back to the Guild Hall basement."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
   "wayto": {
     "16998": "west",
     "16996": "go door"
   },
-  "paths": [
-    "Obvious exits: west"
-  ],
+  "timeto": {
+    "16998": 0.2,
+    "16996": 0.2
+  },
+  "image": "warrior_guilds-1268684755.png",
   "image_coords": [
     305,
     780,
     327,
     802
   ],
-  "terrain": null,
-  "description": [
-    "Huge blocks of ice are stacked in the southeastern corner of the room, forming a corridor that leads west, then south from here.  Several fragments of chipped ice are underfoot, making your way somewhat slippery.  Several pairs of ice hooks hang from nails along the wall to aid in moving the blocks of ice.  A large, vault-like door leads back to the Guild Hall basement."
-  ],
-  "image": "warrior_guilds-1268684755.png",
-  "climate": null,
-  "title": [
-    "[Guild Hall, Cold Storage]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "16998": 0.2,
-    "16996": 0.2
-  },
-  "id": 16997,
-  "location": null,
   "tags": [
     "warrior guild iceblocks"
-  ],
-  "links": [
-
   ]
 }

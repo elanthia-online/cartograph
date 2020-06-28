@@ -1,39 +1,28 @@
 {
+  "id": 24439,
+  "title": [
+    "[Ancient Burrow, Courtyard]"
+  ],
+  "description": [
+    "The natural stone chamber slants upwards, opening up the area to a carved black marble keep.  Surrounding the keep are several carved rhimar sculptures, each representing a grotesque winged demon ready to take flight.  Alternating white and black marble tiles spiral outwards creating strange, rune-like patterns."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "24433": "south",
     "24455": "go black keep"
   },
-  "paths": [
-    "Obvious exits: south"
-  ],
+  "timeto": {
+    "24433": 0.2,
+    "24455": 0.2
+  },
+  "image": "imt-icemule-1474811966.png",
   "image_coords": [
     189,
     327,
     204,
     342
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The natural stone chamber slants upwards, opening up the area to a carved black marble keep.  Surrounding the keep are several carved rhimar sculptures, each representing a grotesque winged demon ready to take flight.  Alternating white and black marble tiles spiral outwards creating strange, rune-like patterns."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "indoors",
-  "title": [
-    "[Ancient Burrow, Courtyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24433": 0.2,
-    "24455": 0.2
-  },
-  "id": 24439,
-  "location": "Icemule Trace",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

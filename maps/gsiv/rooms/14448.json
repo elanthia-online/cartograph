@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "19947": "go gold arch",
-    "14647": "go green arch",
-    "19950": "go staircase",
-    "20054": {
-      "stringproc": "8a190390b826a0e60fce9fe88368d2ee"
-    },
-    "14643": "go white arch",
-    "235": "go doors"
-  },
+  "id": 14448,
+  "title": [
+    "[Wehnimer's Museum, Grand Foyer]",
+    "[Wehnimer's Museum, Grand Lobby]"
+  ],
+  "description": [
+    "You are in the grand entry hall of the Wehnimer's Museum.  This building houses much ancient and historical lore, artifacts and antiquities.  The museum complex consists of galleries bedecked in fine works of art, wings devoted to historical artifacts, a library of rare manuscripts, a wing devoted to the natural history of Elanthia, and a Hall of Magic and Technology.",
+    "White marble columns, set halfway into the walls, serve as both decoration and structural support for the high ceiling.  Set between them are some colorful velvet settees that offer respite for weary patrons.  The cool marble floor is interrupted by a pale gold carpet that leads up an expansive staircase.  In the center of the western wall is a green marble arch, while the eastern wall sports a white marble arch.  Across the room from a gold marble arch, a large platinum plaque and a rectangular white sign are displayed beside the oaken double doors that lead outside."
+  ],
   "paths": [
     "Obvious exits: north, east, south, west, out",
     "Obvious exits: out",
     "Obvious exits: none"
   ],
-  "image_coords": [
-    898,
-    1494,
-    1040,
-    1556
-  ],
-  "terrain": null,
-  "description": [
-    "You are in the grand entry hall of the Wehnimer's Museum.  This building houses much ancient and historical lore, artifacts and antiquities.  The museum complex consists of galleries bedecked in fine works of art, wings devoted to historical artifacts, a library of rare manuscripts, a wing devoted to the natural history of Elanthia, and a Hall of Magic and Technology.",
-    "White marble columns, set halfway into the walls, serve as both decoration and structural support for the high ceiling.  Set between them are some colorful velvet settees that offer respite for weary patrons.  The cool marble floor is interrupted by a pale gold carpet that leads up an expansive staircase.  In the center of the western wall is a green marble arch, while the eastern wall sports a white marble arch.  Across the room from a gold marble arch, a large platinum plaque and a rectangular white sign are displayed beside the oaken double doors that lead outside."
-  ],
-  "image": "wl-museum-1487435869.png",
-  "climate": null,
-  "title": [
-    "[Wehnimer's Museum, Grand Foyer]",
-    "[Wehnimer's Museum, Grand Lobby]"
-  ],
-  "check_location": null,
+  "location": "Wehnimer's Landing",
+  "wayto": {
+    "19947": "go gold arch",
+    "14647": "go green arch",
+    "19950": "go staircase",
+    "20054": {
+      "file": "string_procs/wayto/14448_20054.rb"
+    },
+    "14643": "go white arch",
+    "235": "go doors"
+  },
   "timeto": {
     "19947": 0.2,
     "14647": 0.2,
@@ -40,15 +32,17 @@
     "14643": 0.2,
     "235": 0.2
   },
-  "id": 14448,
-  "location": "Wehnimer's Landing",
+  "image": "wl-museum-1487435869.png",
+  "image_coords": [
+    898,
+    1494,
+    1040,
+    1556
+  ],
   "tags": [
     "meta:mapname:Wehnimer's Landing - Museum",
     "meta:mapshortname:Museum",
     "meta:mapcategory:Wehnimer's Landing",
     "meta:teleport:fwi"
-  ],
-  "links": [
-
   ]
 }

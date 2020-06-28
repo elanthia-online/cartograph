@@ -1,35 +1,28 @@
 {
+  "id": 25233,
+  "title": [
+    "[Sanctum of Scales, Columns]"
+  ],
+  "description": [
+    "Indistinct clawing noises scratch off of the surfaces of the surrounding columns, originating from behind a barred copper-inlaid door.  In the center of two obsidian pillars, a huge alabaster snake statue rears up from the walk, its narrow eyes carved from inky jet stone.  Sharp malachite chips are layered along its slender body to form an impressive coat of complexly winding scales.  A sickly, putrid odor drifts lazily through the hall."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "the shadow of the Sanctum",
   "wayto": {
     "25232": "west",
     "25234": "north"
   },
-  "paths": [
-    "Obvious exits: north, west"
-  ],
+  "timeto": {
+    "25232": 0.2,
+    "25234": 0.2
+  },
+  "image": "sanctum-1474169333.png",
   "image_coords": [
     759,
     151,
     774,
     165
-  ],
-  "terrain": null,
-  "description": [
-    "Indistinct clawing noises scratch off of the surfaces of the surrounding columns, originating from behind a barred copper-inlaid door.  In the center of two obsidian pillars, a huge alabaster snake statue rears up from the walk, its narrow eyes carved from inky jet stone.  Sharp malachite chips are layered along its slender body to form an impressive coat of complexly winding scales.  A sickly, putrid odor drifts lazily through the hall."
-  ],
-  "image": "sanctum-1474169333.png",
-  "climate": null,
-  "title": [
-    "[Sanctum of Scales, Columns]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "25232": 0.2,
-    "25234": 0.2
-  },
-  "id": 25233,
-  "location": "the shadow of the Sanctum",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

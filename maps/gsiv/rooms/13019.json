@@ -1,39 +1,31 @@
 {
-  "wayto": {
-    "5421": "go portal"
-  },
+  "id": 13019,
+  "title": [
+    "[Bonespear Tower, Bedroom]"
+  ],
+  "description": [
+    "Little of value remains in this bedroom -- it looks as if a tornado struck here.  All of the drawers of the now-empty modwir dresser have been ripped out and thrown about the room.  The framework of a bed is still intact, but the mattress and blankets have been shredded to bits.  An iron chest, hit by what must have been a massive fireball, has melted half into the floor."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "Bonespear Tower",
+  "wayto": {
+    "5421": "go portal"
+  },
+  "timeto": {
+    "5421": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     933,
     990,
     943,
     1000
   ],
-  "terrain": "indoors",
-  "description": [
-    "Little of value remains in this bedroom -- it looks as if a tornado struck here.  All of the drawers of the now-empty modwir dresser have been ripped out and thrown about the room.  The framework of a bed is still intact, but the mattress and blankets have been shredded to bits.  An iron chest, hit by what must have been a massive fireball, has melted half into the floor."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Bonespear Tower, Bedroom]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5421": 0.2
-  },
-  "id": 13019,
-  "location": "Bonespear Tower",
   "tags": [
     "waern",
     "dybbuk",
-    "eidolon",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "eidolon"
   ]
 }

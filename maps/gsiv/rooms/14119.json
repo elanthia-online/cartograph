@@ -1,40 +1,32 @@
 {
-  "wayto": {
-    "14118": {
-      "stringproc": "e1b55fccaa262693087cc81e51fe3db0"
-    },
-    "14113": {
-      "stringproc": "19fc2819df3ba7118e2e66e8573b3ef8"
-    },
-    "26723": "go opening"
-  },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Boxes bearing stamps from virtually everywhere are stacked to dangerous heights in a seemingly haphazard manner.  The boxes have been pushed aside here, making room to proceed both north and south.  To the east, a curtained opening occludes a small alcove."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 14119,
   "title": [
     "[Warehouse, First Floor]"
   ],
-  "check_location": null,
+  "description": [
+    "Boxes bearing stamps from virtually everywhere are stacked to dangerous heights in a seemingly haphazard manner.  The boxes have been pushed aside here, making room to proceed both north and south.  To the east, a curtained opening occludes a small alcove."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Solhaven",
+  "wayto": {
+    "14118": {
+      "file": "string_procs/wayto/14119_14118.rb"
+    },
+    "14113": {
+      "file": "string_procs/wayto/14119_14113.rb"
+    },
+    "26723": "go opening"
+  },
   "timeto": {
     "14118": 0.4,
     "14113": 0.4,
     "26723": 0.2
   },
-  "id": 14119,
-  "location": "Solhaven",
   "tags": [
     "no-auto-map",
     "publiclockers",
     "publiclockers"
-  ],
-  "links": [
-
   ]
 }

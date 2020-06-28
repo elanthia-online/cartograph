@@ -1,4 +1,15 @@
 {
+  "id": 28356,
+  "title": [
+    "[Moonstone Abbey, Great Hall]"
+  ],
+  "description": [
+    "Towards the center of this vast circular chamber, the gently curving granite wall is interrupted by a dark marble arch leading into an expansive auditorium.  A vast library is visible through a passageway to the north, and a narrow staircase spirals upwards, rubies inset all along the handrail."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast, southwest"
+  ],
+  "location": "the dark woods",
   "wayto": {
     "28357": "go staircase",
     "28361": "go arch",
@@ -6,31 +17,11 @@
     "28354": "southeast",
     "28374": "north"
   },
-  "paths": [
-    "Obvious exits: north, southeast, southwest"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Towards the center of this vast circular chamber, the gently curving granite wall is interrupted by a dark marble arch leading into an expansive auditorium.  A vast library is visible through a passageway to the north, and a narrow staircase spirals upwards, rubies inset all along the handrail."
-  ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Moonstone Abbey, Great Hall]"
-  ],
-  "check_location": null,
   "timeto": {
     "28357": 0.2,
     "28361": 0.2,
     "28355": 0.2,
     "28354": 0.2,
     "28374": 0.2
-  },
-  "id": 28356,
-  "location": "the dark woods",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  }
 }

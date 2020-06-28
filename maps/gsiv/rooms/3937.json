@@ -1,4 +1,15 @@
 {
+  "id": 3937,
+  "title": [
+    "[Wehnimer's Sewer, Nexus]"
+  ],
+  "description": [
+    "Dim light filters down from the rusty grate imbedded in the ceiling.  The walls are cracked and broken, while the floor is covered with a thin layer of mud, or worse.  The air is damp and musty, while gently drifting in from the surrounding tunnels are some of the most appalling odors it has ever been your misfortune to experience.  Tunnels slope slightly downward in all directions."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east, southeast, south, southwest, west, northwest"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "3936": "go grate",
     "3948": "south",
@@ -10,28 +21,9 @@
     "3956": "southwest",
     "3946": "north",
     "3945": {
-      "stringproc": "6f107115021b4b094c00a4d74b8322fb"
+      "file": "string_procs/wayto/3937_3945.rb"
     }
   },
-  "paths": [
-    "Obvious exits: north, northeast, east, southeast, south, southwest, west, northwest"
-  ],
-  "image_coords": [
-    580,
-    485,
-    600,
-    505
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Dim light filters down from the rusty grate imbedded in the ceiling.  The walls are cracked and broken, while the floor is covered with a thin layer of mud, or worse.  The air is damp and musty, while gently drifting in from the surrounding tunnels are some of the most appalling odors it has ever been your misfortune to experience.  Tunnels slope slightly downward in all directions."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Wehnimer's Sewer, Nexus]"
-  ],
-  "check_location": null,
   "timeto": {
     "3936": 0.2,
     "3948": 0.2,
@@ -44,8 +36,13 @@
     "3946": 0.2,
     "3945": 2.0
   },
-  "id": 3937,
-  "location": "the catacombs",
+  "image": "wl-catacombs-1264234799.png",
+  "image_coords": [
+    580,
+    485,
+    600,
+    505
+  ],
   "tags": [
     "some cave moss",
     "black hook mushroom",
@@ -53,15 +50,6 @@
     "red trafel mushroom",
     "some bolmara lichen",
     "blue trafel mushroom",
-    "withered black mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "withered black mushroom"
   ]
 }

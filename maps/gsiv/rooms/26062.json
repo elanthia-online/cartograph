@@ -1,33 +1,26 @@
 {
-  "wayto": {
-    "26063": "south"
-  },
+  "id": 26062,
+  "title": [
+    "[Sylvanfair, Wizard's Library]"
+  ],
+  "description": [
+    "What a clutter!  Stacks of odd baubles and weirdness abound.  A flame-red curtain hangs across one corner of the room, and odd pulses of light periodically flash across the ceiling.  A pillar of water flows perpetually into the tree from a strange contraption, bringing nourishment to the roots.  Exploring the rest of the library could take years, considering the sheer bulk of odds and ends scattered about."
+  ],
   "paths": [
     "Obvious exits: south"
   ],
+  "location": "Wehnimer's Landing",
+  "wayto": {
+    "26063": "south"
+  },
+  "timeto": {
+    "26063": 0.2
+  },
+  "image": "wl-sylvanfair.jpg",
   "image_coords": [
     230,
     252,
     267,
     293
-  ],
-  "terrain": null,
-  "description": [
-    "What a clutter!  Stacks of odd baubles and weirdness abound.  A flame-red curtain hangs across one corner of the room, and odd pulses of light periodically flash across the ceiling.  A pillar of water flows perpetually into the tree from a strange contraption, bringing nourishment to the roots.  Exploring the rest of the library could take years, considering the sheer bulk of odds and ends scattered about."
-  ],
-  "image": "wl-sylvanfair.jpg",
-  "climate": null,
-  "title": [
-    "[Sylvanfair, Wizard's Library]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26063": 0.2
-  },
-  "id": 26062,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

@@ -1,37 +1,34 @@
 {
-  "wayto": {
-    "2499": {
-      "stringproc": "79b6aacb07358187764f434021f44bcf"
-    },
-    "2501": {
-      "stringproc": "a1bd023500a3a9633d7c708d74ed9e8f"
-    }
-  },
+  "id": 2500,
+  "title": [
+    "[Icemule Trail, Snowy Forest]"
+  ],
+  "description": [
+    "Paw prints crisscross the faint trail, making random patterns in the freshly-fallen snow.  They are just the right size to be from some of the snow hares you saw earlier."
+  ],
   "paths": [
     "Obvious paths: northeast, south"
   ],
+  "location": "the Icemule Trail",
+  "wayto": {
+    "2499": {
+      "file": "string_procs/wayto/2500_2499.rb"
+    },
+    "2501": {
+      "file": "string_procs/wayto/2500_2501.rb"
+    }
+  },
+  "timeto": {
+    "2499": 0.2,
+    "2501": 0.2
+  },
+  "image": "imt-trail-1264234799.png",
   "image_coords": [
     1188,
     273,
     1198,
     283
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "Paw prints crisscross the faint trail, making random patterns in the freshly-fallen snow.  They are just the right size to be from some of the snow hares you saw earlier."
-  ],
-  "image": "imt-trail-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Icemule Trail, Snowy Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2499": 0.2,
-    "2501": 0.2
-  },
-  "id": 2500,
-  "location": "the Icemule Trail",
   "tags": [
     "crowberry",
     "small loganberry",
@@ -85,10 +82,6 @@
     "ironfern root",
     "twisted twig",
     "slender twig",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bolmara lichen"
   ]
 }

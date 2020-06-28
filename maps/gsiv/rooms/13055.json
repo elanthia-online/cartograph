@@ -1,47 +1,31 @@
 {
+  "id": 13055,
+  "title": [
+    "[Sorena's Emporium, Consignment]"
+  ],
+  "description": [
+    "Caught in perpetual twilight, the narrow passageway carved from rock and dirt is roofed over with thick, tangled roots.  Twining among the roots is an equally tangled series of interconnected glass tubes, each carrying liquids of varying hue and density.  A slate slab is balanced, somewhat precariously, atop several empty, stained casks that line the eastern wall."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "13056": "south",
     "2385": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "13056": 0.2,
+    "2385": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     1292,
     170,
     1302,
     180
   ],
-  "terrain": "indoors",
-  "description": [
-    "Caught in perpetual twilight, the narrow passageway carved from rock and dirt is roofed over with thick, tangled roots.  Twining among the roots is an equally tangled series of interconnected glass tubes, each carrying liquids of varying hue and density.  A slate slab is balanced, somewhat precariously, atop several empty, stained casks that line the eastern wall."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Sorena's Emporium, Consignment]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "13056": 0.2,
-    "2385": 0.2
-  },
-  "id": 13055,
-  "location": "Icemule Trace",
   "tags": [
-    "consignment",
-    "soft white mushroom",
-    "withered black mushroom",
-    "black hook mushroom",
-    "white hook mushroom",
-    "blue trafel mushroom",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "consignment"
   ]
 }

@@ -1,33 +1,26 @@
 {
-  "wayto": {
-    "24796": "go door"
-  },
+  "id": 24799,
+  "title": [
+    "[Helden Hall, War Room]"
+  ],
+  "description": [
+    "Every known book on history and warfare lines the walls of this huge room dedicated to learning.  Large oaken boards hold reduced-scale reproductions of great battles fought throughout history.  Ladders stretch to the ceiling as members attempt to gain every bit of knowledge held within the floor-to-ceiling bookcases.  Deep blue comfortable chairs are strategically placed about the room for reading, as well as for learning tactics through the manipulation of miniatures as they fight the battles over again."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "Wehnimer's Landing",
+  "wayto": {
+    "24796": "go door"
+  },
+  "timeto": {
+    "24796": 0.2
+  },
+  "image": "wl-heldenhall-1502386358.png",
   "image_coords": [
     251,
     545,
     288,
     580
-  ],
-  "terrain": null,
-  "description": [
-    "Every known book on history and warfare lines the walls of this huge room dedicated to learning.  Large oaken boards hold reduced-scale reproductions of great battles fought throughout history.  Ladders stretch to the ceiling as members attempt to gain every bit of knowledge held within the floor-to-ceiling bookcases.  Deep blue comfortable chairs are strategically placed about the room for reading, as well as for learning tactics through the manipulation of miniatures as they fight the battles over again."
-  ],
-  "image": "wl-heldenhall-1502386358.png",
-  "climate": null,
-  "title": [
-    "[Helden Hall, War Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24796": 0.2
-  },
-  "id": 24799,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

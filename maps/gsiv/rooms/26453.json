@@ -1,39 +1,32 @@
 {
+  "id": 26453,
+  "title": [
+    "[Caligos Isle, Southern Ravine]"
+  ],
+  "description": [
+    "Rolling mist, limned with indigo and moonlight, tumbles down the shale walls of the ravine and fills the area with a blanket of dampness that slowly soaks everything it touches.  Gloom and shadows dance around a destroyed flagstone room that is partially fused with the mountain, its high walls and broken windows causing the passing wind to howl and moan.  The sound of running water filters towards a narrow water-slick tunnel in the ground that has a strange light filtering through it."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Caligos Isle",
   "wayto": {
     "26454": {
-      "stringproc": "78ffe89927efdb1b429d3d362defc842"
+      "file": "string_procs/wayto/26453_26454.rb"
     },
     "26477": "south",
     "26450": "north"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
-  "image_coords": [
-    230,
-    549,
-    244,
-    563
-  ],
-  "terrain": null,
-  "description": [
-    "Rolling mist, limned with indigo and moonlight, tumbles down the shale walls of the ravine and fills the area with a blanket of dampness that slowly soaks everything it touches.  Gloom and shadows dance around a destroyed flagstone room that is partially fused with the mountain, its high walls and broken windows causing the passing wind to howl and moan.  The sound of running water filters towards a narrow water-slick tunnel in the ground that has a strange light filtering through it."
-  ],
-  "image": "fest-ebon_gate-caligos_isle-1539222190.png",
-  "climate": null,
-  "title": [
-    "[Caligos Isle, Southern Ravine]"
-  ],
-  "check_location": null,
   "timeto": {
     "26454": 5.2,
     "26477": 0.2,
     "26450": 0.2
   },
-  "id": 26453,
-  "location": "Caligos Isle",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  "image": "fest-ebon_gate-caligos_isle-1539222190.png",
+  "image_coords": [
+    230,
+    549,
+    244,
+    563
+  ]
 }

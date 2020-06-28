@@ -1,38 +1,28 @@
 {
+  "id": 9786,
+  "title": [
+    "[Maaghara Labyrinth]"
+  ],
+  "description": [
+    "Tiny pebbles dot the floor randomly, their dark hue a stark contrast to the pale roots which slither across and up into the curving ceiling.  Light scratches mar the smooth wall, some twisting jaggedly several different ways while others form straight, rough lines in the earth.  A few patches of lichen line the walls outside the ragged scratchy lines."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east"
+  ],
+  "location": "the Maaghara Tower",
   "wayto": {
     "9785": "northeast",
     "9787": "east"
   },
-  "paths": [
-    "Obvious exits: northeast, east"
-  ],
+  "timeto": {
+    "9785": 0.2,
+    "9787": 0.2
+  },
+  "image": "en-tower-1264234799.png",
   "image_coords": [
     1070,
     811,
     1080,
     821
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Tiny pebbles dot the floor randomly, their dark hue a stark contrast to the pale roots which slither across and up into the curving ceiling.  Light scratches mar the smooth wall, some twisting jaggedly several different ways while others form straight, rough lines in the earth.  A few patches of lichen line the walls outside the ragged scratchy lines."
-  ],
-  "image": "en-tower-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Maaghara Labyrinth]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9785": 0.2,
-    "9787": 0.2
-  },
-  "id": 9786,
-  "location": "the Maaghara Tower",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

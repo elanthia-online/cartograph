@@ -1,50 +1,42 @@
 {
-  "wayto": {
-    "12208": "northeast",
-    "2579": {
-      "stringproc": "8770ecf721b2f46d9bc09a8706aab02e"
-    },
-    "12170": "southwest",
-    "12215": "northwest"
-  },
+  "id": 12209,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "Worms practically cover the walls and floor.  The rhythmically collapsing walls shake some from the ceiling as well, dropping them around you to chew their way into the floor.  A disconcerting, whistling wheeze sounds throughout the area, as wind howls through the holes in the chamber.  Blood oozes over the floor northward."
+  ],
   "paths": [
     "Obvious paths: northeast, southwest, northwest",
     "Obvious exits: northeast, southwest, northwest"
   ],
-  "image_coords": [
-    856,
-    1108,
-    866,
-    1118
-  ],
-  "terrain": null,
-  "description": [
-    "Worms practically cover the walls and floor.  The rhythmically collapsing walls shake some from the ceiling as well, dropping them around you to chew their way into the floor.  A disconcerting, whistling wheeze sounds throughout the area, as wind howls through the holes in the chamber.  Blood oozes over the floor northward."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12208": "northeast",
+    "2579": {
+      "file": "string_procs/wayto/12209_2579.rb"
+    },
+    "12170": "southwest",
+    "12215": "northwest"
+  },
   "timeto": {
     "12208": 0.2,
     "2579": 6.8,
     "12170": 0.2,
     "12215": 0.2
   },
-  "id": 12209,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    856,
+    1108,
+    866,
+    1118
+  ],
   "tags": [
     "mass of congealed slime",
     "rotting bile green fleshbulb",
     "twisted black mawflower",
     "oozing fleshsore bulb",
-    "slime-covered grave blossom",
-    "withered deathblossom",
-    "discolored fleshbinder bud"
-  ],
-  "links": [
-
+    "slime-covered grave blossom"
   ]
 }

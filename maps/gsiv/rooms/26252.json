@@ -1,35 +1,28 @@
 {
+  "id": 26252,
+  "title": [
+    "[Lich's Landing, Corpse Row]"
+  ],
+  "description": [
+    "A bald and lumpy ghoul moves along the row of corpses, his mottled fingers riffling through the pockets of the dead.  Every time he finds a silver coin, his dark eyes light up and he cackles wildly."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Talador",
   "wayto": {
     "26251": "south",
     "26253": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "26251": 0.2,
+    "26253": 0.2
+  },
+  "image": "wl-lichs_landing-1500800742.png",
   "image_coords": [
     318,
     228,
     344,
     254
-  ],
-  "terrain": null,
-  "description": [
-    "A bald and lumpy ghoul moves along the row of corpses, his mottled fingers riffling through the pockets of the dead.  Every time he finds a silver coin, his dark eyes light up and he cackles wildly."
-  ],
-  "image": "wl-lichs_landing-1500800742.png",
-  "climate": null,
-  "title": [
-    "[Lich's Landing, Corpse Row]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26251": 0.2,
-    "26253": 0.2
-  },
-  "id": 26252,
-  "location": "Talador",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

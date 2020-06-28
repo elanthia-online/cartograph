@@ -1,50 +1,43 @@
 {
-  "wayto": {
-    "12096": "southwest",
-    "12207": {
-      "stringproc": "e92c9dd14f17f62ccd19f33b9f37fe22"
-    },
-    "12235": {
-      "stringproc": "6257723a0157210f5f1e2eb6e7c5dbb4"
-    }
-  },
+  "id": 12095,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "Mountains surround you, stretching high into the bright green sky.  Before you, towering at least thirty feet into the air, is a giant snake.  It has been impaled on a pike, blood trickling down the pole and seeping into the grain of the wood.  The tip of its tail still twitches, as if its death were a recent happening."
+  ],
   "paths": [
     "Obvious paths: southwest",
     "Obvious exits: southwest"
   ],
+  "location": "the Rift",
+  "wayto": {
+    "12096": "southwest",
+    "12207": {
+      "file": "string_procs/wayto/12095_12207.rb"
+    },
+    "12235": {
+      "file": "string_procs/wayto/12095_12235.rb"
+    }
+  },
+  "timeto": {
+    "12096": 0.2,
+    "12207": 11.4,
+    "12235": 11.4
+  },
+  "image": "imt-rift-1554575848.png",
   "image_coords": [
     703,
     1208,
     713,
     1218
   ],
-  "terrain": null,
-  "description": [
-    "Mountains surround you, stretching high into the bright green sky.  Before you, towering at least thirty feet into the air, is a giant snake.  It has been impaled on a pike, blood trickling down the pole and seeping into the grain of the wood.  The tip of its tail still twitches, as if its death were a recent happening."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "12096": 0.2,
-    "12207": 11.4,
-    "12235": 11.4
-  },
-  "id": 12095,
-  "location": "the Rift",
   "tags": [
     "slime-covered grave blossom",
     "twisted black mawflower",
     "mass of congealed slime",
     "discolored fleshbinder bud",
     "withered deathblossom",
-    "rotting bile green fleshbulb",
-    "oozing fleshsore bulb"
-  ],
-  "links": [
-
+    "rotting bile green fleshbulb"
   ]
 }

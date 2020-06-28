@@ -1,33 +1,30 @@
 {
+  "id": 24676,
+  "title": [
+    "[Red Forest, Ring of Mist]"
+  ],
+  "description": [
+    "Silken bands of ethereal mist bend and twist about the wooded area almost playfully, not following any natural wind or order of things.  Oft times the fog appears misshapen and thick, quietly resembling the gnarled bodies of large apparitions."
+  ],
+  "paths": [
+    "Obvious paths: east, northwest"
+  ],
+  "location": "the Red Forest",
   "wayto": {
     "24675": "northwest",
     "24689": "east"
   },
-  "paths": [
-    "Obvious paths: east, northwest"
-  ],
+  "timeto": {
+    "24675": 0.2,
+    "24689": 0.2
+  },
+  "image": "red_forest-1260914757.png",
   "image_coords": [
     138,
     175,
     151,
     189
   ],
-  "terrain": null,
-  "description": [
-    "Silken bands of ethereal mist bend and twist about the wooded area almost playfully, not following any natural wind or order of things.  Oft times the fog appears misshapen and thick, quietly resembling the gnarled bodies of large apparitions."
-  ],
-  "image": "red_forest-1260914757.png",
-  "climate": null,
-  "title": [
-    "[Red Forest, Ring of Mist]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24675": 0.2,
-    "24689": 0.2
-  },
-  "id": 24676,
-  "location": "the Displaced Red Forest",
   "tags": [
     "wild chokecherry",
     "wild gooseberry",
@@ -62,25 +59,6 @@
     "blue whortleberry",
     "massive black boar",
     "winged viper",
-    "some mistweed",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "sticks",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "blueberries",
-    "broken twig",
-    "tree bark",
-    "mistweed",
-    "yew twig",
-    "oak twig",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+    "some mistweed"
+  ]
 }

@@ -1,31 +1,28 @@
 {
-  "wayto": {
-    "11146": "southeast"
-  },
+  "id": 11147,
+  "title": [
+    "[Citadel Stables, Enclosure]"
+  ],
+  "description": [
+    "This stall smells of old leather oil, brass polish and the scents of some type of animal unknown to you, possibly used as riding beasts by the ancients.  No sign remains in the stall of what that beast may have looked like."
+  ],
   "paths": [
     "Obvious exits: southeast"
   ],
+  "location": "the Citadel",
+  "wayto": {
+    "11146": "southeast"
+  },
+  "timeto": {
+    "11146": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     1115,
     524,
     1125,
     534
   ],
-  "terrain": "indoors",
-  "description": [
-    "This stall smells of old leather oil, brass polish and the scents of some type of animal unknown to you, possibly used as riding beasts by the ancients.  No sign remains in the stall of what that beast may have looked like."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Citadel Stables, Enclosure]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11146": 0.2
-  },
-  "id": 11147,
-  "location": "the Citadel",
   "tags": [
     "some cave moss",
     "withered black mushroom",
@@ -33,11 +30,6 @@
     "pepperthorn root",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

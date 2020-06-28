@@ -1,47 +1,32 @@
 {
+  "id": 2857,
+  "title": [
+    "[Northern Mountains, Dark Caves]"
+  ],
+  "description": [
+    "A large skeleton lies here missing an arm and a leg. Shreds of rotting pelts lie strewn around the cave, and tufts of fur float in the still air."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "the Sleeping Lady Mountains",
   "wayto": {
     "2856": "down",
     "2868": "up"
   },
-  "paths": [
-    "Obvious exits: up, down"
-  ],
+  "timeto": {
+    "2856": 0.2,
+    "2868": 0.2
+  },
+  "image": "imt-pinefar-1264234799.png",
   "image_coords": [
     221,
     1324,
     231,
     1334
   ],
-  "terrain": "indoors",
-  "description": [
-    "A large skeleton lies here missing an arm and a leg. Shreds of rotting pelts lie strewn around the cave, and tufts of fur float in the still air."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Northern Mountains, Dark Caves]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2856": 0.2,
-    "2868": 0.2
-  },
-  "id": 2857,
-  "location": "the Sleeping Lady Mountains",
   "tags": [
     "red trafel mushroom",
-    "withered black mushroom",
-    "soft white mushroom",
-    "black hook mushroom",
-    "white hook mushroom",
-    "blue trafel mushroom",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "withered black mushroom"
   ]
 }

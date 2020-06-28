@@ -1,44 +1,35 @@
 {
-  "wayto": {
-    "11460": {
-      "stringproc": "b9248cfc9b113e5b3c9341af010fa35e"
-    },
-    "11482": "go cutter",
-    "11471": {
-      "stringproc": "18c4b59ed599a02893a4dbb26b362e46"
-    },
-    "11473": {
-      "stringproc": "e531eb47f19700d00ac81ca15d619ca8"
-    },
-    "11463": {
-      "stringproc": "2475b19f394c069e111c2fa06831c1f7"
-    },
-    "11465": {
-      "stringproc": "84803c6220b0581d4151763c46ccdbbc"
-    },
-    "11467": {
-      "stringproc": "84d7e9c5466c56efd7dc0ac337b0a9ea"
-    }
-  },
-  "paths": [
-    "Obvious exits: north, northeast, east, southeast, south, up"
-  ],
-  "image_coords": [
-    922,
-    1234,
-    932,
-    1244
-  ],
-  "terrain": null,
-  "description": [
-    "To the west a coral reef grows out of the golden sand of the bay floor.  A large colony of spiral gilled tube worms has attached itself to the coral.  The wreck of a small coastal cutter lies on its side.  The tracks of crabs and lobsters lead in and out of the wreck."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": null,
+  "id": 11464,
   "title": [
     "[Maelstrom Bay, Bottom]"
   ],
-  "check_location": null,
+  "description": [
+    "To the west a coral reef grows out of the golden sand of the bay floor.  A large colony of spiral gilled tube worms has attached itself to the coral.  The wreck of a small coastal cutter lies on its side.  The tracks of crabs and lobsters lead in and out of the wreck."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east, southeast, south, up"
+  ],
+  "wayto": {
+    "11460": {
+      "file": "string_procs/wayto/11464_11460.rb"
+    },
+    "11482": "go cutter",
+    "11471": {
+      "file": "string_procs/wayto/11464_11471.rb"
+    },
+    "11473": {
+      "file": "string_procs/wayto/11464_11473.rb"
+    },
+    "11463": {
+      "file": "string_procs/wayto/11464_11463.rb"
+    },
+    "11465": {
+      "file": "string_procs/wayto/11464_11465.rb"
+    },
+    "11467": {
+      "file": "string_procs/wayto/11464_11467.rb"
+    }
+  },
   "timeto": {
     "11460": 2.0,
     "11482": 0.2,
@@ -48,12 +39,11 @@
     "11465": 3.0,
     "11467": 2.0
   },
-  "id": 11464,
-  "location": null,
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "rr-maelstrom-1266390501.png",
+  "image_coords": [
+    922,
+    1234,
+    932,
+    1244
   ]
 }

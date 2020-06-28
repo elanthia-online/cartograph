@@ -1,33 +1,30 @@
 {
+  "id": 11165,
+  "title": [
+    "[Citadel, Outside]"
+  ],
+  "description": [
+    "The wind blows in over the ruined walls with an eerie moan.  To the west you can see a section of the wall still standing.  Here, however, there are rarely more than two blocks together and those are charred and scorched."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11164": "e",
     "11166": "west"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "11164": 0.2,
+    "11166": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     913,
     552,
     923,
     562
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The wind blows in over the ruined walls with an eerie moan.  To the west you can see a section of the wall still standing.  Here, however, there are rarely more than two blocks together and those are charred and scorched."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "moist",
-  "title": [
-    "[Citadel, Outside]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11164": 0.2,
-    "11166": 0.2
-  },
-  "id": 11165,
-  "location": "the Citadel",
   "tags": [
     "some aloeas stem",
     "bright red cranberry",
@@ -39,17 +36,6 @@
     "some wingstem root",
     "some calamia fruit",
     "wild chokecherry",
-    "some motherwort",
-    "acantha leaf",
-    "calamia fruit",
-    "aloeas stem",
-    "motherwort",
-    "murkweed",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some motherwort"
   ]
 }

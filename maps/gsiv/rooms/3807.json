@@ -1,35 +1,32 @@
 {
+  "id": 3807,
+  "title": [
+    "[Land Tower East, Office]"
+  ],
+  "description": [
+    "The ground floor of this guard tower appears to be some kind of office.  A single guard sits behind one of the desks reviewing some paperwork.  A small wood stove in the corner provides heat to the room."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "23335": "go wooden trapdoor",
     "6932": "go wooden steps",
     "223": "out"
   },
-  "paths": [
-    "Obvious exits: out"
-  ],
+  "timeto": {
+    "23335": 0.3,
+    "6932": 0.2,
+    "223": 0.2
+  },
+  "image": "wl-wehnimers-1264234799.png",
   "image_coords": [
     317,
     84,
     353,
     120
   ],
-  "terrain": "indoors",
-  "description": [
-    "The ground floor of this guard tower appears to be some kind of office.  A single guard sits behind one of the desks reviewing some paperwork.  A small wood stove in the corner provides heat to the room."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Land Tower East, Office]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "23335": 0.3,
-    "6932": 0.2,
-    "223": 0.2
-  },
-  "id": 3807,
-  "location": "Wehnimer's Landing",
   "tags": [
     "node",
     "supernode",
@@ -37,11 +34,6 @@
     "locksmith pool",
     "meta:boxpool:table:sturdy wooden table",
     "meta:boxpool:npc:scruffy human worker",
-    "meta:trashcan:large wastebasket",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:trashcan:large wastebasket"
   ]
 }

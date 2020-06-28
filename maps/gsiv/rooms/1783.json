@@ -1,38 +1,28 @@
 {
+  "id": 1783,
+  "title": [
+    "[Wraithenmist, Ghost Town]"
+  ],
+  "description": [
+    "The remains of a wooden building have long since toppled to the ground, the bits of scorched wood rotting and disintegrating into the earth beneath.  Whatever destroyed this place, it left little to mark the former inhabitants' presence."
+  ],
+  "paths": [
+    "Obvious paths: north, west"
+  ],
+  "location": "Wraithenmist",
   "wayto": {
     "1782": "west",
     "1784": "north"
   },
-  "paths": [
-    "Obvious paths: north, west"
-  ],
+  "timeto": {
+    "1782": 0.2,
+    "1784": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     463,
     79,
     473,
     89
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "The remains of a wooden building have long since toppled to the ground, the bits of scorched wood rotting and disintegrating into the earth beneath.  Whatever destroyed this place, it left little to mark the former inhabitants' presence."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Wraithenmist, Ghost Town]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1782": 0.2,
-    "1784": 0.2
-  },
-  "id": 1783,
-  "location": "Wraithenmist",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

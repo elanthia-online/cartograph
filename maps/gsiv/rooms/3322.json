@@ -1,40 +1,31 @@
 {
+  "id": 3322,
+  "title": [
+    "[Icemule, Ruins]"
+  ],
+  "description": [
+    "You must step carefully in this room.  Unfinished (yet rather sharp) sword blades poke out of the ice at your feet, threatening to shorten you by a foot.  They seem to have come from the remains of a shop smashed by the ice, the pieces of a sign in the shape of a sword indicating that this was once the armory."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south"
+  ],
+  "location": "the Glacier",
   "wayto": {
     "3321": "south",
     "3323": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, south"
-  ],
+  "timeto": {
+    "3321": 0.2,
+    "3323": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     1365,
     864,
     1375,
     874
   ],
-  "terrain": "indoors",
-  "description": [
-    "You must step carefully in this room.  Unfinished (yet rather sharp) sword blades poke out of the ice at your feet, threatening to shorten you by a foot.  They seem to have come from the remains of a shop smashed by the ice, the pieces of a sign in the shape of a sword indicating that this was once the armory."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Icemule, Ruins]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3321": 0.2,
-    "3323": 0.2
-  },
-  "id": 3322,
-  "location": "the Glacier",
   "tags": [
-    "some arctic moss",
-    "arctic moss",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some arctic moss"
   ]
 }

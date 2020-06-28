@@ -1,38 +1,28 @@
 {
+  "id": 140,
+  "title": [
+    "[Temple Wyneb, Calvaria]"
+  ],
+  "description": [
+    "Hewn from the living rock, this tunnel seems to be the work of an ancient culture.  Long since deserted by its creators, this mysterious structure now attracts adventurous travelers such as yourself searching after wonders like those described by the old story-tellers."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Temple Wyneb",
   "wayto": {
     "139": "east",
     "141": "west"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "139": 0.2,
+    "141": 0.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     663,
     439,
     673,
     449
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Hewn from the living rock, this tunnel seems to be the work of an ancient culture.  Long since deserted by its creators, this mysterious structure now attracts adventurous travelers such as yourself searching after wonders like those described by the old story-tellers."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Temple Wyneb, Calvaria]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "139": 0.2,
-    "141": 0.2
-  },
-  "id": 140,
-  "location": "Temple Wyneb",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

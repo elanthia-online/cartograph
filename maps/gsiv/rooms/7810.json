@@ -1,44 +1,28 @@
 {
+  "id": 7810,
+  "title": [
+    "[Cave, Markings Room]"
+  ],
+  "description": [
+    "A pot of putrid dye and a few sticks with colored ends collect dust on the floor of this room.  Crude markings, the same color as the dye on the sticks, mark one wall and part of the ceiling of the chamber."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "7811": "go opening",
     "7809": "north"
   },
-  "paths": [
-    "Obvious exits: north"
-  ],
+  "timeto": {
+    "7811": 0.2,
+    "7809": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     168,
     679,
     178,
     689
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A pot of putrid dye and a few sticks with colored ends collect dust on the floor of this room.  Crude markings, the same color as the dye on the sticks, mark one wall and part of the ceiling of the chamber."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Cave, Markings Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7811": 0.2,
-    "7809": 0.2
-  },
-  "id": 7810,
-  "location": "the Upper Trollfang",
-  "tags": [
-    "withered black mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

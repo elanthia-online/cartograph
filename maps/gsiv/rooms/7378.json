@@ -1,41 +1,31 @@
 {
+  "id": 7378,
+  "title": [
+    "[Shadow Plain]"
+  ],
+  "description": [
+    "A cold wind whistles through the crumbled walls of an ancient shrine.  Rising from the ruins is a magnificent silver statue of a large equine surrounded by a pool of dark murky water.  Several twisted skeletons litter the ground around the area."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7377": "southwest",
     "7379": "southeast"
   },
-  "paths": [
-    "Obvious paths: southeast, southwest"
-  ],
+  "timeto": {
+    "7377": 0.2,
+    "7379": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1253,
     969,
     1261,
     977
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "A cold wind whistles through the crumbled walls of an ancient shrine.  Rising from the ruins is a magnificent silver statue of a large equine surrounded by a pool of dark murky water.  Several twisted skeletons litter the ground around the area."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Shadow Plain]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7377": 0.2,
-    "7379": 0.2
-  },
-  "id": 7378,
-  "location": "the Shadow Valley",
   "tags": [
-    "night mare",
-    "longgrass",
-    "wyrm thorn",
-    "petrified shadowstalk",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "night mare"
   ]
 }

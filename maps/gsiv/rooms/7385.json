@@ -1,43 +1,33 @@
 {
+  "id": 7385,
+  "title": [
+    "[Shadow Plain]"
+  ],
+  "description": [
+    "A decaying fel tree has smashed into the remains of a large rotting barn surrounded by a few smaller buildings.  A cold biting wind blows by, chilling you to the bone."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, southwest"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7363": "southeast",
     "7364": "northeast",
     "7388": "southwest"
   },
-  "paths": [
-    "Obvious paths: northeast, southeast, southwest"
-  ],
+  "timeto": {
+    "7363": 0.2,
+    "7364": 0.2,
+    "7388": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1279,
     1101,
     1289,
     1111
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "A decaying fel tree has smashed into the remains of a large rotting barn surrounded by a few smaller buildings.  A cold biting wind blows by, chilling you to the bone."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Shadow Plain]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7363": 0.2,
-    "7364": 0.2,
-    "7388": 0.2
-  },
-  "id": 7385,
-  "location": "the Shadow Valley",
   "tags": [
-    "night mare",
-    "longgrass",
-    "wyrm thorn",
-    "petrified shadowstalk",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "night mare"
   ]
 }

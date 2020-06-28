@@ -1,39 +1,31 @@
 {
+  "id": 7666,
+  "title": [
+    "[Sea Cave, Narrow Path]"
+  ],
+  "description": [
+    "A cramped walkway cuts through solid walls of rock that are cold and slick with moisture.  Odd patterns that ripple in shades of grey and brown cover the walls, forming bizarre wraith-like images."
+  ],
+  "paths": [
+    "Obvious exits: northeast, west"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "7667": "west",
     "7665": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, west"
-  ],
+  "timeto": {
+    "7667": 0.2,
+    "7665": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     804,
     440,
     814,
     450
   ],
-  "terrain": "indoors",
-  "description": [
-    "A cramped walkway cuts through solid walls of rock that are cold and slick with moisture.  Odd patterns that ripple in shades of grey and brown cover the walls, forming bizarre wraith-like images."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Cave, Narrow Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7667": 0.2,
-    "7665": 0.2
-  },
-  "id": 7666,
-  "location": "the Coastal Cliffs",
   "tags": [
-    "shelfae chieftain",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "shelfae chieftain"
   ]
 }

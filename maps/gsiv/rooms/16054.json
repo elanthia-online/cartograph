@@ -1,43 +1,34 @@
 {
-  "wayto": {
-    "11439": {
-      "stringproc": "edcc0cccbc99a29a586ead6328949de9"
-    },
-    "11450": {
-      "stringproc": "d1ab0fc82426b99746caa62b1f882697"
-    },
-    "11452": {
-      "stringproc": "e874f03e7b4c2d51bbdcaccf4bb927c8"
-    },
-    "11454": {
-      "stringproc": "6ec0d3f2602af819251801455c03b9d7"
-    },
-    "16060": {
-      "stringproc": "c5de6a93c272509e579c13cc8cd916bf"
-    },
-    "11455": {
-      "stringproc": "fca73c0fdfb5b02d3b95efa24885592a"
-    }
-  },
-  "paths": [
-    "Obvious paths: north, south, southwest, west, northwest, down"
-  ],
-  "image_coords": [
-    730,
-    1235,
-    738,
-    1244
-  ],
-  "terrain": null,
-  "description": [
-    "The sea swells break gently against the base of the steep, stony cliff.  Clumps of scrub brush cling tenaciously to the sides of the cliff, providing nesting space for the sea birds that whirl overhead.  The green waters of Maelstrom Bay, bright in the sunlight, stretch out to the west."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": null,
+  "id": 16054,
   "title": [
     "[Maelstrom Bay, Surface]"
   ],
-  "check_location": null,
+  "description": [
+    "The sea swells break gently against the base of the steep, stony cliff.  Clumps of scrub brush cling tenaciously to the sides of the cliff, providing nesting space for the sea birds that whirl overhead.  The green waters of Maelstrom Bay, bright in the sunlight, stretch out to the west."
+  ],
+  "paths": [
+    "Obvious paths: north, south, southwest, west, northwest, down"
+  ],
+  "wayto": {
+    "11439": {
+      "file": "string_procs/wayto/16054_11439.rb"
+    },
+    "11450": {
+      "file": "string_procs/wayto/16054_11450.rb"
+    },
+    "11452": {
+      "file": "string_procs/wayto/16054_11452.rb"
+    },
+    "11454": {
+      "file": "string_procs/wayto/16054_11454.rb"
+    },
+    "16060": {
+      "file": "string_procs/wayto/16054_16060.rb"
+    },
+    "11455": {
+      "file": "string_procs/wayto/16054_11455.rb"
+    }
+  },
   "timeto": {
     "11439": 2.0,
     "11450": 2.0,
@@ -46,12 +37,11 @@
     "16060": 3.0,
     "11455": 2.0
   },
-  "id": 16054,
-  "location": null,
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "rr-maelstrom-1266390501.png",
+  "image_coords": [
+    730,
+    1235,
+    738,
+    1244
   ]
 }

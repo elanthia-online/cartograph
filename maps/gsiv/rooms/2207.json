@@ -1,40 +1,31 @@
 {
-  "wayto": {
-    "2206": "southeast"
-  },
+  "id": 2207,
+  "title": [
+    "[Eye of V'Tull, Inner Circle]"
+  ],
+  "description": [
+    "A large river of molten lava flows through the area, the extreme heat making it harder to breathe, and your face feels like it might burst into flames just by looking at the slow moving river.  Small flames jump out of the river to consume rocks and other things that were careless and fell into the deadly stream."
+  ],
   "paths": [
     "Obvious exits: southeast"
   ],
+  "location": "the Eye of V'Tull",
+  "wayto": {
+    "2206": "southeast"
+  },
+  "timeto": {
+    "2206": 0.2
+  },
+  "image": "ti-vtull-1264234799.png",
   "image_coords": [
     715,
     760,
     725,
     770
   ],
-  "terrain": "indoors",
-  "description": [
-    "A large river of molten lava flows through the area, the extreme heat making it harder to breathe, and your face feels like it might burst into flames just by looking at the slow moving river.  Small flames jump out of the river to consume rocks and other things that were careless and fell into the deadly stream."
-  ],
-  "image": "ti-vtull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Eye of V'Tull, Inner Circle]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2206": 0.2
-  },
-  "id": 2207,
-  "location": "the Eye of V'Tull",
   "tags": [
     "black trafel mushroom",
     "daggerstalk mushroom",
-    "some cave moss",
-    "cave moss",
-    "pepperthorn root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

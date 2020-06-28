@@ -1,40 +1,30 @@
 {
+  "id": 16815,
+  "title": [
+    "[Castle Dungeons]"
+  ],
+  "description": [
+    "This area of the dungeon appears to have been occupied by the foulest of the castle's enemies.  No torches light the dank halls, the only light coming from a softly glowing lichen growing on the slimy stone walls."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast, west"
+  ],
+  "location": "Castle Varunar",
   "wayto": {
     "16821": "north",
     "16814": "southeast",
     "16816": "west"
   },
-  "paths": [
-    "Obvious exits: north, southeast, west"
-  ],
-  "image_coords": [
-    546,
-    351,
-    556,
-    361
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This area of the dungeon appears to have been occupied by the foulest of the castle's enemies.  No torches light the dank halls, the only light coming from a softly glowing lichen growing on the slimy stone walls."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Castle Dungeons]"
-  ],
-  "check_location": null,
   "timeto": {
     "16821": 0.2,
     "16814": 0.2,
     "16816": 0.2
   },
-  "id": 16815,
-  "location": "Castle Varunar",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "vo-trail-1264234799.png",
+  "image_coords": [
+    546,
+    351,
+    556,
+    361
   ]
 }

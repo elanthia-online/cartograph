@@ -1,42 +1,31 @@
 {
+  "id": 11088,
+  "title": [
+    "[Landing]"
+  ],
+  "description": [
+    "The tarred timbers of a floating platform shift gently on the water.  Moored at the end of this makeshift dock is a large krolvin caravel."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
   "wayto": {
     "11087": "go path",
     "11089": "west"
   },
-  "paths": [
-    "Obvious paths: west"
-  ],
+  "timeto": {
+    "11087": 0.2,
+    "11089": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     1079,
     247,
     1089,
     257
   ],
-  "terrain": "sandy",
-  "description": [
-    "The tarred timbers of a floating platform shift gently on the water.  Moored at the end of this makeshift dock is a large krolvin caravel."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "freshwater",
-  "title": [
-    "[Landing]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11087": 0.2,
-    "11089": 0.2
-  },
-  "id": 11088,
-  "location": "the Sea Caves",
   "tags": [
     "some bur-clover root",
-    "some wingstem root",
-    "murdroot",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

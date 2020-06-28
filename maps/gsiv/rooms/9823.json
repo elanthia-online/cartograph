@@ -1,42 +1,32 @@
 {
-  "wayto": {
-    "9822": "southeast",
-    "9734": {
-      "stringproc": "8ba72f5b45e4c6cad5790295e680ffb9"
-    },
-    "9824": "southwest"
-  },
-  "paths": [
-    "Obvious exits: southeast, southwest"
-  ],
-  "image_coords": [
-    1070,
-    465,
-    1080,
-    475
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A small pool of water has collected in a depression upon the ground, a thick root hanging from the ceiling dripping water into it constantly.  The narrow walls descend to meet the floor in a sharp angle, their surfaces smooth and featureless except for the occasional small rock or root breaking the monotony of packed earth."
-  ],
-  "image": "en-tower-1264234799.png",
-  "climate": "indoors",
+  "id": 9823,
   "title": [
     "[Maaghara Labyrinth]"
   ],
-  "check_location": null,
+  "description": [
+    "A small pool of water has collected in a depression upon the ground, a thick root hanging from the ceiling dripping water into it constantly.  The narrow walls descend to meet the floor in a sharp angle, their surfaces smooth and featureless except for the occasional small rock or root breaking the monotony of packed earth."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest"
+  ],
+  "location": "the Maaghara Tower",
+  "wayto": {
+    "9822": "southeast",
+    "9734": {
+      "file": "string_procs/wayto/9823_9734.rb"
+    },
+    "9824": "southwest"
+  },
   "timeto": {
     "9822": 0.2,
     "9734": 100.0,
     "9824": 0.2
   },
-  "id": 9823,
-  "location": "the Maaghara Tower",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-tower-1264234799.png",
+  "image_coords": [
+    1070,
+    465,
+    1080,
+    475
   ]
 }

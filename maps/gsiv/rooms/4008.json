@@ -1,48 +1,35 @@
 {
-  "wayto": {
-    "4007": {
-      "stringproc": "395b361a16c8a355265cda519abf9fe5"
-    },
-    "4002": {
-      "stringproc": "dbbfd361e7886ce7121cafa8a1b5c5c5"
-    }
-  },
+  "id": 4008,
+  "title": [
+    "[Griffin's Keen, Inner Trail]"
+  ],
+  "description": [
+    "Slick with ice and almost vertical, the trail leading up the south face of this peak is all too direct.  The craggy rock face, though covered in white ice, provides adequate, if chilly, handholds."
+  ],
   "paths": [
     "Obvious paths: up, down"
   ],
+  "location": "Griffin's Keen",
+  "wayto": {
+    "4007": {
+      "file": "string_procs/wayto/4008_4007.rb"
+    },
+    "4002": {
+      "file": "string_procs/wayto/4008_4002.rb"
+    }
+  },
+  "timeto": {
+    "4007": 4.2,
+    "4002": 4.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     771,
     249,
     781,
     259
   ],
-  "terrain": null,
-  "description": [
-    "Slick with ice and almost vertical, the trail leading up the south face of this peak is all too direct.  The craggy rock face, though covered in white ice, provides adequate, if chilly, handholds."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Griffin's Keen, Inner Trail]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4007": 4.2,
-    "4002": 4.2
-  },
-  "id": 4008,
-  "location": "Griffin's Keen",
   "tags": [
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "sprig of holly",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sassafras leaf"
   ]
 }

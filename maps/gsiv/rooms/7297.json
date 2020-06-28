@@ -1,33 +1,30 @@
 {
+  "id": 7297,
+  "title": [
+    "[Slither Creek]"
+  ],
+  "description": [
+    "The water tumbles over dirt-coated stone.  Your way to the northeast is blocked by a large shale slab, too big to step over and not stable enough to climb, although the bank is easy enough to reach from here.  The creek flows out from beneath the slab, talking happily to itself as it wanders to the southwest."
+  ],
+  "paths": [
+    "Obvious paths: southwest"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7296": "southwest",
     "7282": "go bank"
   },
-  "paths": [
-    "Obvious paths: southwest"
-  ],
+  "timeto": {
+    "7296": 0.2,
+    "7282": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     353,
     125,
     363,
     135
   ],
-  "terrain": "riparian",
-  "description": [
-    "The water tumbles over dirt-coated stone.  Your way to the northeast is blocked by a large shale slab, too big to step over and not stable enough to climb, although the bank is easy enough to reach from here.  The creek flows out from beneath the slab, talking happily to itself as it wanders to the southwest."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "freshwater",
-  "title": [
-    "[Slither Creek]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7296": 0.2,
-    "7282": 0.2
-  },
-  "id": 7297,
-  "location": "the Graveyard",
   "tags": [
     "some aloeas stem",
     "blue water lily",
@@ -38,10 +35,6 @@
     "white water lily",
     "yellow water lily",
     "murdroot",
-    "wavepetal blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wavepetal blossom"
   ]
 }

@@ -1,41 +1,33 @@
 {
+  "id": 2984,
+  "title": [
+    "[Abbey, Ossuary]"
+  ],
+  "description": [
+    "A heavy scraping sound echoes in the distance, methodical and repetitive.  An odd stain mars an otherwise featureless stone wall, four dark ragged lines that trace all the way to the floor, then lead off into the darkness."
+  ],
+  "paths": [
+    "Obvious exits: north, south, west"
+  ],
+  "location": "the Abbey",
   "wayto": {
     "2982": "south",
     "2983": "west",
     "2985": "north"
   },
-  "paths": [
-    "Obvious exits: north, south, west"
-  ],
+  "timeto": {
+    "2982": 0.2,
+    "2983": 0.2,
+    "2985": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     809,
     482,
     819,
     492
   ],
-  "terrain": "indoors",
-  "description": [
-    "A heavy scraping sound echoes in the distance, methodical and repetitive.  An odd stain mars an otherwise featureless stone wall, four dark ragged lines that trace all the way to the floor, then lead off into the darkness."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abbey, Ossuary]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2982": 0.2,
-    "2983": 0.2,
-    "2985": 0.2
-  },
-  "id": 2984,
-  "location": "the Abbey",
   "tags": [
-    "arch wight",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "arch wight"
   ]
 }

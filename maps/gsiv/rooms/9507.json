@@ -1,38 +1,28 @@
 {
+  "id": 9507,
+  "title": [
+    "[A Short Hallway]"
+  ],
+  "description": [
+    "This short hallway runs only a few feet to the west before giving way to a narrow passageway.  The hallway's stone walls and ceiling are not shored, but they seem solid enough.  From the look of the various medical items heaped against the south wall, the Healer Cocytel probably uses this area for storage, though her organizational habits certainly leave a lot to be desired.  Although large, the pile of items does not conceal the small door which is set into the south wall."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Zul Logoth",
   "wayto": {
     "16835": "go passageway",
     "9506": "out"
   },
-  "paths": [
-    "Obvious exits: out"
-  ],
+  "timeto": {
+    "16835": 0.2,
+    "9506": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     557,
     750,
     593,
     786
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This short hallway runs only a few feet to the west before giving way to a narrow passageway.  The hallway's stone walls and ceiling are not shored, but they seem solid enough.  From the look of the various medical items heaped against the south wall, the Healer Cocytel probably uses this area for storage, though her organizational habits certainly leave a lot to be desired.  Although large, the pile of items does not conceal the small door which is set into the south wall."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[A Short Hallway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "16835": 0.2,
-    "9506": 0.2
-  },
-  "id": 9507,
-  "location": "Zul Logoth",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,46 +1,34 @@
 {
+  "id": 8417,
+  "title": [
+    "[Thanatoph Bowels, Cavern]"
+  ],
+  "description": [
+    "Several odd, misshapen chunks of material are piled about the area, roughly round in shape and somewhat flaky.  It's difficult to ascertain just what they are, but a few seem to have bone fragments embedded within them.  Rumbling continues to echo along the walls from time to time."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the bowels of Thanatoph",
   "wayto": {
     "8418": "north",
     "8397": "south"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "8418": 0.2,
+    "8397": 0.2
+  },
+  "image": "wl-stronghold-1264234799.png",
   "image_coords": [
     1257,
     766,
     1267,
     776
   ],
-  "terrain": "indoors",
-  "description": [
-    "Several odd, misshapen chunks of material are piled about the area, roughly round in shape and somewhat flaky.  It's difficult to ascertain just what they are, but a few seem to have bone fragments embedded within them.  Rumbling continues to echo along the walls from time to time."
-  ],
-  "image": "wl-stronghold-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thanatoph Bowels, Cavern]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8418": 0.2,
-    "8397": 0.2
-  },
-  "id": 8417,
-  "location": "the bowels of Thanatoph",
   "tags": [
     "some wolifrew lichen",
     "withered black mushroom",
     "some wingstem root",
-    "some cave moss",
-    "wolifrew lichen",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

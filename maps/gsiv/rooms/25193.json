@@ -1,35 +1,28 @@
 {
-  "wayto": {
-    "25187": {
-      "stringproc": "10f1efb1401c2ec0b6b829b5fc3f2a74"
-    }
-  },
+  "id": 25193,
+  "title": [
+    "[Iceland Lake]"
+  ],
+  "description": [
+    "The floor is a solid slab of ice formed on a small lake and surrounded by several drifts of snow.  Shadows move in the deep waters below the cloudy surface of the ice.  Tall, snow-frosted trees dangle their branches over the ice, forming their own protective dome.  The air is crisp and clean, and faint songbirds can be heard over the sounds of the rink."
+  ],
   "paths": [
     "Obvious paths: southeast"
   ],
+  "location": "Icemule Trace",
+  "wayto": {
+    "25187": {
+      "file": "string_procs/wayto/25193_25187.rb"
+    }
+  },
+  "timeto": {
+    "25187": 0.2
+  },
+  "image": "premium_halls-1489980086.png",
   "image_coords": [
     973,
     1668,
     1102,
     1721
-  ],
-  "terrain": null,
-  "description": [
-    "The floor is a solid slab of ice formed on a small lake and surrounded by several drifts of snow.  Shadows move in the deep waters below the cloudy surface of the ice.  Tall, snow-frosted trees dangle their branches over the ice, forming their own protective dome.  The air is crisp and clean, and faint songbirds can be heard over the sounds of the rink."
-  ],
-  "image": "premium_halls-1489980086.png",
-  "climate": null,
-  "title": [
-    "[Iceland Lake]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "25187": 0.2
-  },
-  "id": 25193,
-  "location": "Icemule Trace",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

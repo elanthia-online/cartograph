@@ -1,33 +1,30 @@
 {
+  "id": 1390,
+  "title": [
+    "[Cairnfang Pineforest]"
+  ],
+  "description": [
+    "The trees here are more sparse, finding fewer places to sink their roots amidst the outcroppings and boulders.  Underfoot, the black granite wears a thin layer of fallen pine needles, each rain sweeping the rock clean of any that have fallen before."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "1389": "northeast",
     "1391": "southwest"
   },
-  "paths": [
-    "Obvious paths: northeast, southwest"
-  ],
+  "timeto": {
+    "1389": 0.2,
+    "1391": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     1388,
     492,
     1398,
     502
   ],
-  "terrain": "rough",
-  "description": [
-    "The trees here are more sparse, finding fewer places to sink their roots amidst the outcroppings and boulders.  Underfoot, the black granite wears a thin layer of fallen pine needles, each rain sweeping the rock clean of any that have fallen before."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Cairnfang Pineforest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1389": 0.2,
-    "1391": 0.2
-  },
-  "id": 1390,
-  "location": "the Cairnfang",
   "tags": [
     "white baneberry",
     "yellow primrose",
@@ -56,10 +53,6 @@
     "wild chokecherry",
     "motherwort",
     "pepperthorn root",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

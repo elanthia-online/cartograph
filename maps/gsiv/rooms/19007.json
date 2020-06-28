@@ -1,41 +1,35 @@
 {
-  "wayto": {
-    "19006": "southwest",
-    "19029": {
-      "stringproc": "9edfe211bc3247fc77aa58709a5ad2e4"
-    },
-    "19008": "climb ramp"
-  },
+  "id": 19007,
+  "title": [
+    "[Sorcerer Guild, Relaxation Room]"
+  ],
+  "description": [
+    "Overstuffed chairs and sofas rest on plush silver carpeting in this elegant resting room.  Several large paintings illuminated softly by nearby lanterns hang on the walls.  A fire burns merrily in the spacious fireplace, its mottled grey granite a soft contrast to the surrounding dark brown walnut paneling.  A refreshment cart in the corner offers several tasty and refreshing selections."
+  ],
   "paths": [
     "Obvious exits: southwest"
   ],
+  "location": "Kharam-Dzu",
+  "wayto": {
+    "19006": "southwest",
+    "19029": {
+      "file": "string_procs/wayto/19007_19029.rb"
+    },
+    "19008": "climb ramp"
+  },
+  "timeto": {
+    "19006": 0.2,
+    "19029": 5,
+    "19008": 0.2
+  },
+  "image": "ti-sorcerer_guild-1405076623.png",
   "image_coords": [
     498,
     373,
     533,
     409
   ],
-  "terrain": null,
-  "description": [
-    "Overstuffed chairs and sofas rest on plush silver carpeting in this elegant resting room.  Several large paintings illuminated softly by nearby lanterns hang on the walls.  A fire burns merrily in the spacious fireplace, its mottled grey granite a soft contrast to the surrounding dark brown walnut paneling.  A refreshment cart in the corner offers several tasty and refreshing selections."
-  ],
-  "image": "ti-sorcerer_guild-1405076623.png",
-  "climate": null,
-  "title": [
-    "[Sorcerer Guild, Relaxation Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "19006": 0.2,
-    "19029": 5,
-    "19008": 0.2
-  },
-  "id": 19007,
-  "location": "Kharam-Dzu",
   "tags": [
     "sorcerer guild node"
-  ],
-  "links": [
-
   ]
 }

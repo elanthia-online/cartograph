@@ -1,38 +1,28 @@
 {
-  "wayto": {
-    "7472": {
-      "stringproc": "81e12677e888b3675d596bb842b8bbb4"
-    }
-  },
+  "id": 7473,
+  "title": [
+    "[Deep Pit]"
+  ],
+  "description": [
+    "A deep layer of old bones forms the floor of this deep pit. The high straight walls are rough and irregular, riddled with cracks and sharp protrusions of stone."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "the Broken Lands",
+  "wayto": {
+    "7472": {
+      "file": "string_procs/wayto/7473_7472.rb"
+    }
+  },
+  "timeto": {
+    "7472": 0.2
+  },
+  "image": "wl-broken-1264234799.png",
   "image_coords": [
     1028,
     934,
     1038,
     944
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A deep layer of old bones forms the floor of this deep pit. The high straight walls are rough and irregular, riddled with cracks and sharp protrusions of stone."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Deep Pit]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7472": 0.2
-  },
-  "id": 7473,
-  "location": "the Broken Lands",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

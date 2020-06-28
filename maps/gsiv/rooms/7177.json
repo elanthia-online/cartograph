@@ -1,33 +1,30 @@
 {
+  "id": 7177,
+  "title": [
+    "[Graveyard, Burial Grounds]"
+  ],
+  "description": [
+    "A slime-covered pond to the southwest has claimed most of the graves where mossy tombstones lie partially submerged in the inky water.  From the thick forest to the north and east, limbs overgrown with thick lichen reach out to obscure the sky.  The air is thick with moisture and the stench of decay."
+  ],
+  "paths": [
+    "Obvious paths: south, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7176": "west",
     "7178": "south"
   },
-  "paths": [
-    "Obvious paths: south, west"
-  ],
+  "timeto": {
+    "7176": 0.2,
+    "7178": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     491,
     780,
     501,
     790
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "A slime-covered pond to the southwest has claimed most of the graves where mossy tombstones lie partially submerged in the inky water.  From the thick forest to the north and east, limbs overgrown with thick lichen reach out to obscure the sky.  The air is thick with moisture and the stench of decay."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Graveyard, Burial Grounds]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7176": 0.2,
-    "7178": 0.2
-  },
-  "id": 7177,
-  "location": "the Graveyard",
   "tags": [
     "wild strawberry",
     "wild chokecherry",
@@ -44,10 +41,6 @@
     "sprig of wild lilac",
     "blue whortleberry",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

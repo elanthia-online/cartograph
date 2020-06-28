@@ -1,38 +1,28 @@
 {
+  "id": 130,
+  "title": [
+    "[Temple Wyneb, Calvaria]"
+  ],
+  "description": [
+    "The fresh air whistling into the room from some hidden source makes you realize just how stifling the atmosphere has been in these tomblike caverns.  This might also be how the bats escape at night to hunt."
+  ],
+  "paths": [
+    "Obvious exits: north, southwest"
+  ],
+  "location": "Temple Wyneb",
   "wayto": {
     "129": "southwest",
     "131": "north"
   },
-  "paths": [
-    "Obvious exits: north, southwest"
-  ],
+  "timeto": {
+    "129": 0.2,
+    "131": 0.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     852,
     628,
     862,
     638
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The fresh air whistling into the room from some hidden source makes you realize just how stifling the atmosphere has been in these tomblike caverns.  This might also be how the bats escape at night to hunt."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Temple Wyneb, Calvaria]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "129": 0.2,
-    "131": 0.2
-  },
-  "id": 130,
-  "location": "Temple Wyneb",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

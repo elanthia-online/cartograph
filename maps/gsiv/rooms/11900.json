@@ -1,38 +1,28 @@
 {
+  "id": 11900,
+  "title": [
+    "[Basilica, Narthex]"
+  ],
+  "description": [
+    "This large, cubic room serves as the entryway into the building. Tiled entirely in black marble, it seems smaller than its actual size.  An open space leads back outside and a high arch leads east, further into the building.  Over the arch, carved into the dark marble, is a design formed of several geometrical shapes entwined together in a complicated, interlocking pattern."
+  ],
+  "paths": [
+    "Obvious exits: east, out"
+  ],
+  "location": "Old Ta'Faendryl",
   "wayto": {
     "12040": "out",
     "11897": "east"
   },
-  "paths": [
-    "Obvious exits: east, out"
-  ],
+  "timeto": {
+    "12040": 0.2,
+    "11897": 0.2
+  },
+  "image": "en-old_ta_faendryl-1264234799.png",
   "image_coords": [
     1160,
     870,
     1170,
     880
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This large, cubic room serves as the entryway into the building. Tiled entirely in black marble, it seems smaller than its actual size.  An open space leads back outside and a high arch leads east, further into the building.  Over the arch, carved into the dark marble, is a design formed of several geometrical shapes entwined together in a complicated, interlocking pattern."
-  ],
-  "image": "en-old_ta_faendryl-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Basilica, Narthex]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "12040": 0.2,
-    "11897": 0.2
-  },
-  "id": 11900,
-  "location": "Old Ta'Faendryl",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

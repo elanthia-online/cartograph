@@ -1,21 +1,8 @@
 {
-  "wayto": {
-    "3488": "northwest",
-    "3490": "east",
-    "3492": "west",
-    "10330": "go path",
-    "27294": "go mithril gate"
-  },
-  "paths": [
-    "Obvious paths: east, west, northwest"
+  "id": 3489,
+  "title": [
+    "[Ta'Vaalor, Amaranth Wey]"
   ],
-  "image_coords": [
-    1076,
-    255,
-    1111,
-    292
-  ],
-  "terrain": null,
   "description": [
     "A small fountain presides over the intersection of cobbled streets, its centerpiece a carved marble statue of Phoen.  The thick, low walls of the fountain provide a lovely resting spot from which to watch the passersby as they move along the wey.",
     "A small fountain presides over the intersection of cobbled streets, its centerpiece a carved marble statue of Phoen.  The thick, low walls of the fountain provide a lovely resting spot from which to watch the moonlight reflect upon the shimmering pool.",
@@ -23,12 +10,17 @@
     "A small fountain presides over the intersection of cobbled streets, its centerpiece a carved marble statue of Phoen.  The thick, low walls of the fountain provide an ideal resting spot from which to watch the moonlight reflect upon the shimmering pool.  A number of guardsmen patrol the area in front of a mithril gate on the north side of the var, while a tree-lined path leads away from the south.",
     "A small fountain presides over the intersection of cobbled streets, its centerpiece a carved marble statue of Phoen.  The thick, low walls of the fountain provide an ideal resting spot from which to watch the passersby as they move along the wey.  A number of guardsmen patrol the area in front of a mithril gate on the north side of the var, while a tree-lined path leads away from the south."
   ],
-  "image": "en-tavaalor-1565907614.png",
-  "climate": null,
-  "title": [
-    "[Ta'Vaalor, Amaranth Wey]"
+  "paths": [
+    "Obvious paths: east, west, northwest"
   ],
-  "check_location": null,
+  "location": "the city of Ta'Vaalor",
+  "wayto": {
+    "3488": "northwest",
+    "3490": "east",
+    "3492": "west",
+    "10330": "go path",
+    "27294": "go mithril gate"
+  },
   "timeto": {
     "3488": 0.2,
     "3490": 0.2,
@@ -36,12 +28,11 @@
     "10330": 0.2,
     "27294": 0.2
   },
-  "id": 3489,
-  "location": "the city of Ta'Vaalor",
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "en-tavaalor-1565907614.png",
+  "image_coords": [
+    1076,
+    255,
+    1111,
+    292
   ]
 }

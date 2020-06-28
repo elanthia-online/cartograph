@@ -1,40 +1,28 @@
 {
+  "id": 7791,
+  "title": [
+    "[Cave, Sandy Floor]"
+  ],
+  "description": [
+    "The sandy floor of this cave is cool to the touch and smells damp.  The sound of dripping water can be heard from within the cave."
+  ],
+  "paths": [
+    "Obvious exits: northwest, out"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "7790": "out",
     "7792": "northwest"
   },
-  "paths": [
-    "Obvious exits: northwest, out"
-  ],
+  "timeto": {
+    "7790": 0.2,
+    "7792": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     146,
     821,
     156,
     831
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The sandy floor of this cave is cool to the touch and smells damp.  The sound of dripping water can be heard from within the cave."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Cave, Sandy Floor]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7790": 0.2,
-    "7792": 0.2
-  },
-  "id": 7791,
-  "location": "the Upper Trollfang",
-  "tags": [
-    "murdroot",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

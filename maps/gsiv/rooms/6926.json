@@ -1,51 +1,38 @@
 {
+  "id": 6926,
+  "title": [
+    "[Smuggling Tunnels, Passage]"
+  ],
+  "description": [
+    "Dark and narrow, this section of tunnel is any claustrophobic's nightmare.  The dirt raining down from the ceiling certainly does not help matters, only serving to exacerbate the feeling of being closed in.  Ambient light filters in from other areas, providing only scant illumination."
+  ],
+  "paths": [
+    "Obvious exits: north, south, southwest, west"
+  ],
+  "location": "the smuggling tunnels",
   "wayto": {
     "6915": "southwest",
     "6910": "north",
     "6913": "west",
     "6925": "south"
   },
-  "paths": [
-    "Obvious exits: north, south, southwest, west"
-  ],
-  "image_coords": [
-    988,
-    1303,
-    998,
-    1313
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Dark and narrow, this section of tunnel is any claustrophobic's nightmare.  The dirt raining down from the ceiling certainly does not help matters, only serving to exacerbate the feeling of being closed in.  Ambient light filters in from other areas, providing only scant illumination."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Smuggling Tunnels, Passage]"
-  ],
-  "check_location": null,
   "timeto": {
     "6915": 0.2,
     "6910": 0.2,
     "6913": 0.2,
     "6925": 0.2
   },
-  "id": 6926,
-  "location": "the smuggling tunnels",
+  "image": "wl-gates-1264234799.png",
+  "image_coords": [
+    988,
+    1303,
+    998,
+    1313
+  ],
   "tags": [
     "some bur-clover root",
     "withered black mushroom",
     "some cave moss",
-    "some wingstem root",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

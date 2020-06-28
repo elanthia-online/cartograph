@@ -1,42 +1,32 @@
 {
-  "wayto": {
-    "3596": "south",
-    "17746": {
-      "stringproc": "e1b570dc7b5c98ee0512c9ed01464221"
-    },
-    "3594": "west"
-  },
-  "paths": [
-    "Obvious exits: south, west"
-  ],
-  "image_coords": [
-    597,
-    524,
-    607,
-    534
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The hallway doglegs to the south, its progress diverted at the foot of a wall covered with a dense covering of carved glyphs.  Dust is banked against this eastern bulwark, swept into deep eddies by the fitful gusts of wind snaking down the corridor.  The gloom is thick, shadows deepened by the hazy, grit-filled atmosphere."
-  ],
-  "image": "wl-stronghold-1264234799.png",
-  "climate": "indoors",
+  "id": 3595,
   "title": [
     "[Stronghold, South Hall]"
   ],
-  "check_location": null,
+  "description": [
+    "The hallway doglegs to the south, its progress diverted at the foot of a wall covered with a dense covering of carved glyphs.  Dust is banked against this eastern bulwark, swept into deep eddies by the fitful gusts of wind snaking down the corridor.  The gloom is thick, shadows deepened by the hazy, grit-filled atmosphere."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "Stone Valley",
+  "wayto": {
+    "3596": "south",
+    "17746": {
+      "file": "string_procs/wayto/3595_17746.rb"
+    },
+    "3594": "west"
+  },
   "timeto": {
     "3596": 0.2,
     "17746": 6.0,
     "3594": 0.2
   },
-  "id": 3595,
-  "location": "Stone Valley",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-stronghold-1264234799.png",
+  "image_coords": [
+    597,
+    524,
+    607,
+    534
   ]
 }

@@ -1,36 +1,33 @@
 {
-  "wayto": {
-    "969": "north",
-    "971": {
-      "stringproc": "48967b1b1c7b417e4aeb30516d0634c7"
-    }
-  },
+  "id": 970,
+  "title": [
+    "[Whistler's Pass]"
+  ],
+  "description": [
+    "Only faint quivering rays of moonlight filter through this narrow cleft in the rocky cliff.  Gray clouds mask the sky overhead, further distilling the feeble pale light from above.  The massive stone walls of the pass are chill to the touch, seeming to drain the very life from those who would make their way through the tight passage.",
+    "Only faint quivering rays of light filter through this narrow cleft in the rocky cliff.  Gray clouds mask the sky overhead, further distilling the feeble light from above.  The massive stone walls of the pass are chill to the touch, seeming to drain the very life from those who would make their way through the tight passage."
+  ],
   "paths": [
     "Obvious paths: north"
   ],
+  "location": "Whistler's Pass",
+  "wayto": {
+    "969": "north",
+    "971": {
+      "file": "string_procs/wayto/970_971.rb"
+    }
+  },
+  "timeto": {
+    "969": 0.2,
+    "971": 0.2
+  },
+  "image": "en-whistlers_pass-1264234799.png",
   "image_coords": [
     278,
     1430,
     286,
     1438
   ],
-  "terrain": "mountainous",
-  "description": [
-    "Only faint quivering rays of moonlight filter through this narrow cleft in the rocky cliff.  Gray clouds mask the sky overhead, further distilling the feeble pale light from above.  The massive stone walls of the pass are chill to the touch, seeming to drain the very life from those who would make their way through the tight passage.",
-    "Only faint quivering rays of light filter through this narrow cleft in the rocky cliff.  Gray clouds mask the sky overhead, further distilling the feeble light from above.  The massive stone walls of the pass are chill to the touch, seeming to drain the very life from those who would make their way through the tight passage."
-  ],
-  "image": "en-whistlers_pass-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Whistler's Pass]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "969": 0.2,
-    "971": 0.2
-  },
-  "id": 970,
-  "location": "Whistler's Pass",
   "tags": [
     "marallis berry",
     "cuctucae berry",
@@ -45,10 +42,6 @@
     "cluster of butterflyweed",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

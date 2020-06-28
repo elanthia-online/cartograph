@@ -1,43 +1,36 @@
 {
-  "wayto": {
-    "25833": {
-      "stringproc": "9b05cb4429e6ad5efbe157efd92e6023"
-    },
-    "25844": {
-      "stringproc": "7c906cf3c37f156a5de40e3486f4dfc0"
-    },
-    "25805": {
-      "stringproc": "86a42d33ab8713df885411bb1a7bc3a9"
-    }
-  },
-  "paths": [
-    "Obvious paths: east, south, southwest, northwest"
-  ],
-  "image_coords": [
-    1200,
-    1679,
-    1221,
-    1699
-  ],
-  "terrain": null,
-  "description": [
-    "Surrounded by bright tropical blossoms, a long wooden dock stretches out into the cool waters of the harbor and provides access to a small island.  Tall pylons surround the wooden structure, while bright white buoys line its edges and lightly bounce beneath the insistent push of the rolling waves."
-  ],
-  "image": "ifw-eastern_waterway-1489553700.png",
-  "climate": null,
+  "id": 25848,
   "title": [
     "[Eastern Waterway]"
   ],
-  "check_location": null,
+  "description": [
+    "Surrounded by bright tropical blossoms, a long wooden dock stretches out into the cool waters of the harbor and provides access to a small island.  Tall pylons surround the wooden structure, while bright white buoys line its edges and lightly bounce beneath the insistent push of the rolling waves."
+  ],
+  "paths": [
+    "Obvious paths: east, south, southwest, northwest"
+  ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "25833": {
+      "file": "string_procs/wayto/25848_25833.rb"
+    },
+    "25844": {
+      "file": "string_procs/wayto/25848_25844.rb"
+    },
+    "25805": {
+      "file": "string_procs/wayto/25848_25805.rb"
+    }
+  },
   "timeto": {
     "25833": 6.0,
     "25844": 6.0,
     "25805": 6.0
   },
-  "id": 25848,
-  "location": "Mist Harbor",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  "image": "ifw-eastern_waterway-1489553700.png",
+  "image_coords": [
+    1200,
+    1679,
+    1221,
+    1699
+  ]
 }

@@ -1,35 +1,32 @@
 {
+  "id": 3932,
+  "title": [
+    "[Wehnimer's, Tunnel]"
+  ],
+  "description": [
+    "The stone floor is slimy and treacherous underfoot.  Although you find it difficult to see well enough to progress unaided, you hesitate to feel your way along the clammy, lichen-covered walls.  Water seeps from the ceiling with a constant dripping sound that echoes around you.  Disturbing grunts and squeals emanate from a particularly dark corner of the room."
+  ],
+  "paths": [
+    "Obvious exits: northeast, west"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "3931": "west",
     "3933": "go hole",
     "7490": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, west"
-  ],
+  "timeto": {
+    "3931": 0.2,
+    "3933": 0.2,
+    "7490": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     901,
     967,
     911,
     977
   ],
-  "terrain": "indoors",
-  "description": [
-    "The stone floor is slimy and treacherous underfoot.  Although you find it difficult to see well enough to progress unaided, you hesitate to feel your way along the clammy, lichen-covered walls.  Water seeps from the ceiling with a constant dripping sound that echoes around you.  Disturbing grunts and squeals emanate from a particularly dark corner of the room."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Wehnimer's, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3931": 0.2,
-    "3933": 0.2,
-    "7490": 0.2
-  },
-  "id": 3932,
-  "location": "the catacombs",
   "tags": [
     "blue trafel mushroom",
     "some wingstem root",
@@ -39,15 +36,6 @@
     "some cave moss",
     "some bolmara lichen",
     "white hook mushroom",
-    "black hook mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "black hook mushroom"
   ]
 }

@@ -1,40 +1,30 @@
 {
+  "id": 9777,
+  "title": [
+    "[Maaghara Labyrinth]"
+  ],
+  "description": [
+    "The walls have fallen away to reveal a hollowed out grotto with a lowered center.  Small mounds of a strange substance emit a putrid smell that wafts around the entire grotto.  Rough sections of broken stone and clay have fallen from the ceiling, creating a lofted area of low-hanging roots."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south, northwest"
+  ],
+  "location": "the Maaghara Tower",
   "wayto": {
     "9778": "south",
     "9768": "northwest",
     "9776": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, south, northwest"
-  ],
-  "image_coords": [
-    1150,
-    626,
-    1160,
-    636
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The walls have fallen away to reveal a hollowed out grotto with a lowered center.  Small mounds of a strange substance emit a putrid smell that wafts around the entire grotto.  Rough sections of broken stone and clay have fallen from the ceiling, creating a lofted area of low-hanging roots."
-  ],
-  "image": "en-tower-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Maaghara Labyrinth]"
-  ],
-  "check_location": null,
   "timeto": {
     "9778": 0.2,
     "9768": 0.2,
     "9776": 0.2
   },
-  "id": 9777,
-  "location": "the Maaghara Tower",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-tower-1264234799.png",
+  "image_coords": [
+    1150,
+    626,
+    1160,
+    636
   ]
 }

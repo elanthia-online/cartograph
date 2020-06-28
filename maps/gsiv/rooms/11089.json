@@ -1,42 +1,31 @@
 {
+  "id": 11089,
+  "title": [
+    "[Floating Platform]"
+  ],
+  "description": [
+    "This small floating platform extends out into the cove.  Crates and barrels piled around on the rickety structure block your view of the ship docked nearby.  You can't see much, but you can hear the raucous laughter of the Krolvin as they swear, laugh, and boast while they work.  Peering between the piles of cargo, you see a gangplank stretched between the dock and the ship."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
   "wayto": {
     "11090": "go gangplank",
     "11088": "east"
   },
-  "paths": [
-    "Obvious paths: east"
-  ],
+  "timeto": {
+    "11090": 0.2,
+    "11088": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     1051,
     247,
     1061,
     257
   ],
-  "terrain": "sandy",
-  "description": [
-    "This small floating platform extends out into the cove.  Crates and barrels piled around on the rickety structure block your view of the ship docked nearby.  You can't see much, but you can hear the raucous laughter of the Krolvin as they swear, laugh, and boast while they work.  Peering between the piles of cargo, you see a gangplank stretched between the dock and the ship."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "freshwater",
-  "title": [
-    "[Floating Platform]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11090": 0.2,
-    "11088": 0.2
-  },
-  "id": 11089,
-  "location": "the Sea Caves",
   "tags": [
     "some bur-clover root",
-    "some wingstem root",
-    "murdroot",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

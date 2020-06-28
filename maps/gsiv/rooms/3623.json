@@ -1,43 +1,35 @@
 {
+  "id": 3623,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "Fragile curtains of sticky cobwebs brush across your face and cling to your skin as you move through this passage.  The floor is damp and rotting, laced with patches of blue-black mold and covered with decaying carcasses, including that of a rodent, whose open eyes still gleam evilly even in death."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "3804": "go cell",
     "3692": "east",
     "3803": "go door"
   },
-  "paths": [
-    "Obvious exits: east"
-  ],
+  "timeto": {
+    "3804": 0.2,
+    "3692": 0.2,
+    "3803": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     121,
     1063,
     131,
     1073
   ],
-  "terrain": "indoors",
-  "description": [
-    "Fragile curtains of sticky cobwebs brush across your face and cling to your skin as you move through this passage.  The floor is damp and rotting, laced with patches of blue-black mold and covered with decaying carcasses, including that of a rodent, whose open eyes still gleam evilly even in death."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3804": 0.2,
-    "3692": 0.2,
-    "3803": 0.2
-  },
-  "id": 3623,
-  "location": "Darkstone Castle",
   "tags": [
     "meta:mapname:Wehnimer's Landing - Darkstone Castle",
     "meta:mapshortname:Darkstone Castle",
-    "meta:mapcategory:Wehnimer's Landing",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:mapcategory:Wehnimer's Landing"
   ]
 }
