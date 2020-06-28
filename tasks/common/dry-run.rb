@@ -8,7 +8,7 @@ module Dry # runnable
     %x[#{cmd}]
   end
 
-  def log(t)
+  def self.log(t)
     Log.out(t, label: Opts["dry-run"] ? "dry-run" : "sync")
   end
 end
