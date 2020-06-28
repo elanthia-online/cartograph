@@ -70,7 +70,7 @@ module Repo
 	def self.download_mapdb()
 		download_dir = File.join(Dir.pwd, "tmp")
 		FileUtils.mkdir_p File.dirname(download_dir)
-		mapdb_out_file = File.join(download_dir, "map.db")
+		mapdb_out_file = File.join(download_dir, "mapdb.json")
 		checksum_out_file = File.join(download_dir, "checksum")
 		ssl_socket, _socket = Repo.dial()
 		ssl_socket.puth(DOWNLOAD_REQUEST)

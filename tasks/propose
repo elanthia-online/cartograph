@@ -3,13 +3,13 @@ require_relative "./common/repo"
 require_relative "./common/mapdb"
 require_relative "./common/dry-run"
 
-unless Dry.x(%[git status --porcelain], "").strip.split("\n").empty?
-  fail "git status is dirty, please cleanup your working directory" unless Opts.force
-end
+dirty = !Dry.x(%[git status --porcelain], "").strip.split("\n").empty?
 
-Dry.x(%[git pull origin master]) unless ENV["CI"]
+fail "git status is dirty, please cleanup your working directory" if dirty and not Opts.force
 
-Repo.download_mapdb()
+Dry.x(%[git pull origin master]) unless ENV["CI"] or dirty
+
+Repo.download_mapdb() unless Opts["no-download"]
 MapDB.import_mapdb()
 Repo.lock_with_checksum()
 now = Time.now.utc.to_s
