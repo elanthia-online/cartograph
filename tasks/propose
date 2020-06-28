@@ -41,7 +41,7 @@ end
 unless changed_string_procs.empty?
   Dry.x(%[git add #{changed_string_procs.join(" ")}])
   Dry.x(%[git commit -m "chore(string-procs): #{now}"])
-  Dry.log Color.green "commited #{changed_rooms.size} room changes"
+  Dry.log Color.green "commited #{changed_string_procs.size} string proc changes"
 end
 
 Dry.x(%[git add checksum])
