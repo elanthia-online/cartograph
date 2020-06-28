@@ -68,4 +68,3 @@ fill_hand
 if close_sack
    dothistimeout "close ##{sack.id}", 2, /^You close/
 end
-

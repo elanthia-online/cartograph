@@ -3,7 +3,8 @@ waitrt?
 fill_hands
 if $group_members
 clear
-echo "Waiting for your group... To ditch them, ;send go "
+echo "Waiting for your group... To ditch them, 
+send go "
 begin
 line = get
 if line =~ /^(You reach out and hold )?([A-z][a-z]+)('s hand| joins your group)\.$/

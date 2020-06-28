@@ -1,1 +1,3 @@
-fput 'open hut'; waitrt?; move 'go hut';
+fput 'open hut'
+ waitrt?
+ move 'go hut'

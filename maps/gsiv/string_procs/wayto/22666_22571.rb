@@ -1,1 +1,3 @@
-fput "lie";move "crawl boulder-blocked passageway";waitrt
+fput "lie"
+move "crawl boulder-blocked passageway"
+waitrt

@@ -1,1 +1,3 @@
-move 'swim down'; sleep 1; waitrt?
+move 'swim down'
+ sleep 1
+ waitrt?

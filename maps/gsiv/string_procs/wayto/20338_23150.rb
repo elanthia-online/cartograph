@@ -1,1 +1,2 @@
-fput "search";move "go passageway"
+fput "search"
+move "go passageway"

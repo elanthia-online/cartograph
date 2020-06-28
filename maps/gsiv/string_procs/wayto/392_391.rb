@@ -1,1 +1,2 @@
-move('north'); move('south') until checkpaths.include?('w')
+move('north')
+ move('south') until checkpaths.include?('w')

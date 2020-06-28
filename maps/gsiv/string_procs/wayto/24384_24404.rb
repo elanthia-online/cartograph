@@ -1,1 +1,2 @@
-fput 'search'; move 'go branch'
+fput 'search'
+ move 'go branch'

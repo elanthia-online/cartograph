@@ -1,1 +1,2 @@
-fput "search";move "go modwir trapdoor"
+fput "search"
+move "go modwir trapdoor"

@@ -1,1 +1,2 @@
-walk until checkloot.include?('trail'); move 'go trail'
+walk until checkloot.include?('trail')
+ move 'go trail'

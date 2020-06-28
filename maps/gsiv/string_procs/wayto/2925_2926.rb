@@ -1,1 +1,2 @@
-fput 'south'; move 'south' while Room.current.id == 2925
+fput 'south'
+ move 'south' while Room.current.id == 2925

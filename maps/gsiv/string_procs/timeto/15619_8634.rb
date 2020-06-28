@@ -1,6 +1,6 @@
 open_regex = /^You open|^That is already open\.$|^There doesn't seem to be any way to do that\.$|^What were you referring to\?|^I could not find what you were referring to\./
 
-if UserVars.mapdb_use_day_pass == true || UserVars.mapdb_use_day_pass =~ /^yes$/i
+if UserVars.mapdb_use_day_pass =~ /^yes$/i
    $mapdb_day_passes ||= Hash.new
    unless DownstreamHook.list.include?('mapdb_day_pass_monitor')
       last_id = nil
@@ -25,7 +25,7 @@ if UserVars.mapdb_use_day_pass == true || UserVars.mapdb_use_day_pass =~ /^yes$/
       UserVars.mapdb_find_day_pass = 'yes'
    end
 
-   if (bounty? !~ /^You have made contact with the child/) and ((bounty? !~ /provide a protective escort/) or (bounty? =~ /WAIT/))
+   if (UserVars.mapdb_find_day_pass == 'yes') and (bounty? !~ /^You have made contact with the child/) and ((bounty? !~ /provide a protective escort/) or (bounty? =~ /WAIT/))
       if (sack_name = UserVars.day_pass_sack)
          sack = (
             GameObj.inv.find { |obj| obj.noun == sack_name} ||
@@ -57,7 +57,8 @@ if UserVars.mapdb_use_day_pass == true || UserVars.mapdb_use_day_pass =~ /^yes$/
             else
                if $mapdb_last_day_pass_message.nil? or ((Time.now - $mapdb_last_day_pass_message) > 5)
                   $mapdb_last_day_pass_message = Time.now
-                  echo "Failed to find contents of day_pass_sack: #{sack_name}; go2 will not use Chronomage day pass travel."
+                  echo "Failed to find contents of day_pass_sack: #{sack_name}
+ go2 will not use Chronomage day pass travel."
                end
             end
             if close_sack
@@ -66,20 +67,22 @@ if UserVars.mapdb_use_day_pass == true || UserVars.mapdb_use_day_pass =~ /^yes$/
          else
             if $mapdb_last_day_pass_message.nil? or ((Time.now - $mapdb_last_day_pass_message) > 5)
                $mapdb_last_day_pass_message = Time.now
-               echo "warning: Failed to find day_pass_sack: #{sack_name}; go2 will not use Chronomage day pass travel."
+               echo "warning: Failed to find day_pass_sack: #{sack_name}
+ go2 will not use Chronomage day pass travel."
             end
          end
       else
          if $mapdb_last_day_pass_message.nil? or ((Time.now - $mapdb_last_day_pass_message) > 5)
             $mapdb_last_day_pass_message = Time.now
-            echo "warning: day_pass_sack is not set; go2 will not use Chronomage day pass travel."
+            echo "warning: day_pass_sack is not set
+ go2 will not use Chronomage day pass travel."
             echo "Specify the location of your Chronomage day passes with #{$clean_lich_char}vars set day_pass_sack=CONTAINER"
          end
       end
    end
    if $mapdb_day_passes.any? { |id,h| h[:towns].include?("Wehnimer's Landing") and h[:towns].include?('Icemule Trace') and h[:expires] > (Time.now + 10) }
       0.8
-   elsif UserVars.mapdb_buy_day_pass == true || UserVars.mapdb_buy_day_pass =~ /^yes$|\bimt,wl\b/i
+   elsif UserVars.mapdb_buy_day_pass =~ /^yes$|\bimt,wl\b/i
       8.8
    else
       nil
@@ -87,4 +90,3 @@ if UserVars.mapdb_use_day_pass == true || UserVars.mapdb_use_day_pass =~ /^yes$/
 else
    nil
 end
-

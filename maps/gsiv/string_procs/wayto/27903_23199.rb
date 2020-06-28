@@ -1,1 +1,2 @@
-move 'go curtain'; $go2_restart = true
+move 'go curtain'
+ $go2_restart = true

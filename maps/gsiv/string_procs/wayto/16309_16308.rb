@@ -1,1 +1,7 @@
-room = Room.current.id;fput 'go curtain'; if ( room == Room.current.id ); fput 'close locker';move 'go curtain'; end; $go2_restart = true
+room = Room.current.id
+fput 'go curtain'
+ if ( room == Room.current.id )
+ fput 'close locker'
+move 'go curtain'
+ end
+ $go2_restart = true

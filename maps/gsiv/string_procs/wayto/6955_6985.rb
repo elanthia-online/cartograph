@@ -10,7 +10,12 @@ end
 find_all_containers_var = nil
 find_all_containers = proc {
 	if find_all_containers_var.nil?
-		hp = proc { |ss| if ss =~ /^You are wearing/; DownstreamHook.remove('find_all_container_ids'); nil; else; ss; end }
+		hp = proc { |ss| if ss =~ /^You are wearing/
+ DownstreamHook.remove('find_all_container_ids')
+ nil
+ else
+ ss
+ end }
 		DownstreamHook.add('find_all_container_ids', hp)
 		restore_silent = script.silent
 		restore_want_downstream = script.want_downstream
@@ -120,7 +125,8 @@ else
 		force_start_script 'go2', [ this_room.id.to_s ]
 		wait_while { Script.running.find_all { |s| s.name == 'go2' }.length > 1 }
 	else
-		echo 'You have no short sword! Use   ;go2 getsilvers=on   if you want this script to buy one for you.'
+		echo 'You have no short sword! Use   
+go2 getsilvers=on   if you want this script to buy one for you.'
 		close_containers.each { |c| fput "close ##{c.id}" }
 		fill_hands
 		exit

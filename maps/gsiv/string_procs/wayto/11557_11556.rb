@@ -1,1 +1,3 @@
-empty_hands; move 'climb mainmast'; fill_hands
+empty_hands
+ move 'climb mainmast'
+ fill_hands

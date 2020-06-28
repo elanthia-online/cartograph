@@ -1,1 +1,2 @@
-move 'swim up'; $go2_restart=true
+move 'swim up'
+ $go2_restart=true

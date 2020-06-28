@@ -1,1 +1,3 @@
-move 'jump lava'; sleep 1; waitrt?
+move 'jump lava'
+ sleep 1
+ waitrt?

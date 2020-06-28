@@ -1,1 +1,0 @@
-move "crawl slope";fput "stand" until standing?

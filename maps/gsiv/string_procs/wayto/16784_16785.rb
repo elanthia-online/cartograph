@@ -1,1 +1,2 @@
-fput 'touch hand'; move 'go portal'
+fput 'touch hand'
+ move 'go portal'

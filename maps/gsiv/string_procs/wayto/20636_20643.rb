@@ -1,1 +1,2 @@
-fput "search";fput "go hole"
+fput "search"
+fput "go hole"

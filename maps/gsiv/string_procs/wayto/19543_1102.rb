@@ -1,1 +1,3 @@
-move 'southeast'; move 'northeast'; move checkpaths[rand(checkpaths.length)] while checkpaths.length > 2
+move 'southeast'
+ move 'northeast'
+ move checkpaths[rand(checkpaths.length)] while checkpaths.length > 2

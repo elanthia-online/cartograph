@@ -1,1 +1,3 @@
-fput 'pull bin'; fput 'open trapdoor'; move 'go trapdoor'
+fput 'pull bin'
+ fput 'open trapdoor'
+ move 'go trapdoor'

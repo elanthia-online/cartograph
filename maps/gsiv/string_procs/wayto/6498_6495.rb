@@ -1,1 +1,2 @@
-move 'out'; move 'south' unless checkpaths.include?('n')
+move 'out'
+ move 'south' unless checkpaths.include?('n')

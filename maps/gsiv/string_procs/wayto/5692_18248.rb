@@ -1,1 +1,3 @@
-move 'south'; move 'south'; move 'go door'
+move 'south'
+ move 'south'
+ move 'go door'

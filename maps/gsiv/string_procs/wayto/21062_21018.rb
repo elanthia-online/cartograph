@@ -1,1 +1,3 @@
-pause 0.2; waitrt?; fput 'push e'
+pause 0.2
+ waitrt?
+ fput 'push e'

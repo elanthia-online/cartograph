@@ -17,7 +17,12 @@ end
 find_all_containers_var = nil
 find_all_containers = proc {
 	if find_all_containers_var.nil?
-		hp = proc { |ss| if ss =~ /^You are wearing/; DownstreamHook.remove('find_all_container_ids'); nil; else; ss; end }
+		hp = proc { |ss| if ss =~ /^You are wearing/
+ DownstreamHook.remove('find_all_container_ids')
+ nil
+ else
+ ss
+ end }
 		DownstreamHook.add('find_all_container_ids', hp)
 		restore_silent = script.silent
 		restore_want_downstream = script.want_downstream
@@ -129,7 +134,8 @@ else
 		fput 'deposit all'
 		force_go2.call('11032 --disable-confirm')
 	else
-		echo 'You have no crystal amulet!  If you want this script to buy you one, issue the command: ;go2 --getsilvers=on'
+		echo 'You have no crystal amulet!  If you want this script to buy you one, issue the command: 
+go2 --getsilvers=on'
 		close_containers.each { |c| fput "close ##{c.id}" }
 		fill_hands
 		exit

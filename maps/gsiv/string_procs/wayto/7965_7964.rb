@@ -1,1 +1,3 @@
-waitrt?; fput 'search'; move 'go fissure'
+waitrt?
+ fput 'search'
+ move 'go fissure'

@@ -1,1 +1,2 @@
-fput 'search'; move 'go path'
+fput 'search'
+ move 'go path'

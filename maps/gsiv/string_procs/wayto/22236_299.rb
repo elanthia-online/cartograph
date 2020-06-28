@@ -1,1 +1,2 @@
-move 'go fog'; $go2_restart = true
+move 'go fog'
+ $go2_restart = true

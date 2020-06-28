@@ -1,1 +1,2 @@
-empty_hands; move 'climb gate'
+empty_hands
+ move 'climb gate'

@@ -1,1 +1,2 @@
-fput "search";fput "go stone passageway"
+fput "search"
+fput "go stone passageway"

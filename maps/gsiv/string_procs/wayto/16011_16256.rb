@@ -1,1 +1,2 @@
-walk until checkloot.include?('path'); move 'go path'
+walk until checkloot.include?('path')
+ move 'go path'

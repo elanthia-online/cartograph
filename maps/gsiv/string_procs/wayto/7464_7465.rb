@@ -1,1 +1,2 @@
-fput 'kneel' unless kneeling? or (Char.race =~ /Dwarf|Halfling|Gnome/); move 'south'
+fput 'kneel' unless kneeling? or (Char.race =~ /Dwarf|Halfling|Gnome/)
+ move 'south'

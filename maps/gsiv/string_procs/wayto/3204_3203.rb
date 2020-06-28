@@ -1,1 +1,2 @@
-move 'southeast'; move 'southwest'
+move 'southeast'
+ move 'southwest'

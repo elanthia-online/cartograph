@@ -1,1 +1,2 @@
-fput 'search'; move 'go hole'
+fput 'search'
+ move 'go hole'

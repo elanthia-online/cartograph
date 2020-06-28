@@ -1,4 +1,3 @@
-
 elements = {
 	'air' => {	'grey orb' => 505,
 			'blue orb' => 914,

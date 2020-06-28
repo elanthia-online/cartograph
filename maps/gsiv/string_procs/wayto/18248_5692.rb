@@ -1,1 +1,3 @@
-move 'go arch'; move 'north'; move 'north';
+move 'go arch'
+ move 'north'
+ move 'north'

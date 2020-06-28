@@ -1,1 +1,2 @@
-fput 'go river'; move 'go river'
+fput 'go river'
+ move 'go river'

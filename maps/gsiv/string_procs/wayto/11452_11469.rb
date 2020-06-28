@@ -1,1 +1,2 @@
-move 'swim down'; waitrt?
+move 'swim down'
+ waitrt?

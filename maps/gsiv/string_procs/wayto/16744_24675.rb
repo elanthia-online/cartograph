@@ -1,1 +1,2 @@
-UserVars.mapdb_redforest_location = 'EN'; move 'go fog'
+UserVars.mapdb_redforest_location = 'EN'
+ move 'go fog'

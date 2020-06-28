@@ -1,1 +1,5 @@
-if $platinum; move 'go shop'; else; move 'go building'; end
+if $platinum
+ move 'go shop'
+ else
+ move 'go building'
+ end

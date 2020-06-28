@@ -1,1 +1,2 @@
-fput 'push rope'; move 'climb rope'
+fput 'push rope'
+ move 'climb rope'

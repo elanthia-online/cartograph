@@ -1,1 +1,2 @@
-move 'climb incline'; fill_hands
+move 'climb incline'
+ fill_hands

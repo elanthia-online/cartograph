@@ -1,1 +1,2 @@
-fput 'search tunnel'; move 'go tunnel'
+fput 'search tunnel'
+ move 'go tunnel'
