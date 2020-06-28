@@ -33,7 +33,7 @@ end
 Dry.x(%[git checkout -b chore/#{checksum}])
 
 unless changed_rooms.empty?
-  Dry.x(%[git add #{rooms.join(" ")}])
+  Dry.x(%[git add #{changed_rooms.join(" ")}])
   Dry.x(%[git commit -m "chore(rooms): #{now}"])
   Dry.log Color.green "commited #{changed_rooms.size} room changes"
 end
