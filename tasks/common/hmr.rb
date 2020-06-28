@@ -3,7 +3,7 @@ require "benchmark"
 require_relative "../../shims/string-proc"
 require_relative "../../util/log"
 
-module HMR
+module Migrate
   @rooms = {}
   @string_procs = {}
 

@@ -1,6 +1,0 @@
-#!/usr/bin/env ruby
-
-require_relative "./common/hmr"
-checksum = File.read("checksum")
-hmr_cache = "tmp/map.hmr"
-HMR.build(checksum, hmr_cache)
