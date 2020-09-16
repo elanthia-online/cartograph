@@ -6,13 +6,14 @@ script:
   - tasks/test
 before_deploy:
   - mkdir -p tmp
+  - tasks/bundle
 deploy:
   provider: releases
   skip_cleanup: true
   api_key:
     secure: lZCyr6sflieqXfsUC7rTEABz9jkaHcPENjx3jVzLteBRY7CdtcQpCpDZkibYvVmvjXgypcJWmP5FOoeYMZtkhpSmRZxI81HB3Zc/G2dLx3eiSKtWeb1DOoc4I8EXzd+bYtYekmX9/GqJ+7g7HySFb0zG3a8WOLV1gqPAoIx5eiUKDGDpn0w9Q/tof3iwrbXq/xdgWHN970fZKcZaXORG9pU7KCFP+sTYvOaZ9L0YYdpz+G5SqJqiLeMP1TQtZQ1ncgrWmSUP2vzer8CHwSZhdZP+IbDJazoRgPg9udepHn4Wa6cWCyWRepvG8ELclXYDtGPmNdRfgZxSfYK0nh7QtLewF8nLRTTLp5JF9qCpZEIUFTUyA8eW8jeJ98O7IQ6LiiBP+A1GvisggoGrsAsuGkcfBJ3nxcK03Y+zc7bkpVy74WX/xFlHgiZDa8h7XxH6+GKIP3KoA4cHtRicUkklMdv6W4qd48nzjByOu14R0Xt9avchAE40yxnJ+anxy0bE+SPz4Pg1WddHUxEnMU2pzUPQikFN8BaOOb93Z32yG3ewBRqyqyR6FL5of5R73eZEiIET2SgDcbMgm4FMmD8yFkIBQ5POlZ4cYAmDgLUpNjJieE2VldKwoWswsyKBrbYaOcJzIzRiOSipFIkq5FxvnOblQMx9O3q2Y/61gAFMM+E=
   file: 
-    - tmp/map.json
+    - tmp/cartograph.json
   on:
     repo: elanthia-online/cartograph
     tags: true

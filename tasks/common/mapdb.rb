@@ -11,7 +11,6 @@ require_relative "../../util/log"
 
 module MapDB
   GAME = "gsiv"
-
   STRING_PROC_PREAMBLE = %[;e]
   SYNTAX_OK = "Syntax OK\n"
 
@@ -53,12 +52,12 @@ module MapDB
 
   def self.import_string_procs()
     load_map.each do |r| 
-      string_proc_to_git(r, "wayto")  if r["wayto"].any?(&StringProc)
-      string_proc_to_git(r, "timeto") if r["timeto"].any?(&StringProc)
+      string_proc_to_ruby(r, "wayto")  if r["wayto"].any?(&StringProc)
+      string_proc_to_ruby(r, "timeto") if r["timeto"].any?(&StringProc)
     end
   end
 
-  def self.string_proc_to_git(room, field)
+  def self.string_proc_to_ruby(room, field)
     room[field].select(&StringProc).each do |edge_id, string_proc|
       file = File.join "string_procs", field, "#{room["id"]}_#{edge_id}.rb"
       room[field][edge_id] = {file: file}
@@ -90,7 +89,8 @@ module MapDB
     runtime = Benchmark.realtime { 
       cleanup_dirs
       setup_dirs
-      # import stringprocs to filesystem first so they can modify the room object
+      # import stringprocs to filesystem first 
+      # so they can modify the room object
       import_string_procs
       import_rooms
     }

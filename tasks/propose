@@ -30,6 +30,7 @@ if changed_rooms.empty? && changed_string_procs.empty?
   exit
 end
 
+Dry.x(%[git prune])
 Dry.x(%[git checkout -b chore/#{checksum}])
 
 unless changed_rooms.empty?
