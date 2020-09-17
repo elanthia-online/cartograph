@@ -17,9 +17,8 @@ module Cartograph
 
   def self.load_procs(room, kind)    
     room[kind].each {|other_id, edge|
-      if edge.is_a?(Hash) && edge["stringproc"]
-        rb_script = File.read(
-          MapDB.env_dir("string_procs", kind, "%s_%s.rb" % [room["id"], other_id]))
+      if edge.is_a?(Hash) && edge["file"]
+        rb_script = File.read MapDB.env_dir(edge["file"])
         room[kind][other_id] = (
           "%s %s" % [MapDB::STRING_PROC_PREAMBLE, rb_script])
       end
