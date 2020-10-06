@@ -1,33 +1,30 @@
 {
+  "id": 879,
+  "title": [
+    "[Whistler's Pass]"
+  ],
+  "description": [
+    "High on the stone walls, small clumps of dried grass and broken twigs mark the spots where nests have been built by the avian inhabitants of the pass.  Although little movement seems to come from them, the nests appear quite sturdy, designed to withstand the heavy gusts of wind and chill, mountain temperatures of the area."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "878": "north",
     "880": "south"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "878": 0.2,
+    "880": 0.2
+  },
+  "image": "en-whistlers_pass-1264234799.png",
   "image_coords": [
     772,
     1368,
     782,
     1378
   ],
-  "terrain": "mountainous",
-  "description": [
-    "High on the stone walls, small clumps of dried grass and broken twigs mark the spots where nests have been built by the avian inhabitants of the pass.  Although little movement seems to come from them, the nests appear quite sturdy, designed to withstand the heavy gusts of wind and chill, mountain temperatures of the area."
-  ],
-  "image": "en-whistlers_pass-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Whistler's Pass]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "878": 0.2,
-    "880": 0.2
-  },
-  "id": 879,
-  "location": "Whistler's Pass",
   "tags": [
     "marallis berry",
     "cuctucae berry",
@@ -42,10 +39,6 @@
     "cluster of butterflyweed",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

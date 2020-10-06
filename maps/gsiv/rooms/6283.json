@@ -1,31 +1,28 @@
 {
-  "wayto": {
-    "6282": "out"
-  },
+  "id": 6283,
+  "title": [
+    "[Kobold Village, Hovel]"
+  ],
+  "description": [
+    "The walls of this tiny hut are little more than some crooked branches tied together with twine.  Why, the builder didn't even bother to pull off the wilted leaves before bundling up the branches into thatch.  A strong breeze might collapse the whole place, not that anyone would be likely to notice.  A forlorn and threadbare cot is the only furnishing."
+  ],
   "paths": [
     "Obvious exits: out"
   ],
+  "location": "the Lower Dragonsclaw",
+  "wayto": {
+    "6282": "out"
+  },
+  "timeto": {
+    "6282": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     95,
     464,
     105,
     474
   ],
-  "terrain": "indoors",
-  "description": [
-    "The walls of this tiny hut are little more than some crooked branches tied together with twine.  Why, the builder didn't even bother to pull off the wilted leaves before bundling up the branches into thatch.  A strong breeze might collapse the whole place, not that anyone would be likely to notice.  A forlorn and threadbare cot is the only furnishing."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Kobold Village, Hovel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6282": 0.2
-  },
-  "id": 6283,
-  "location": "the Lower Dragonsclaw",
   "tags": [
     "some wolifrew lichen",
     "some wingstem root",
@@ -35,10 +32,6 @@
     "cave moss",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

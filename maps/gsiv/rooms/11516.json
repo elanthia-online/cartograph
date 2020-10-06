@@ -1,40 +1,29 @@
 {
+  "id": 11516,
+  "title": [
+    "[Ruined Dungeon, Passageway]"
+  ],
+  "description": [
+    "The rough-hewn stone corridor proceeds into darkness to the southeast, and faint grey light can be seen to the northwest.  An old cell door stands open in the northeast wall, at once beckoning and menacing.  Faint dark streaks can be seen on the floor coming from the doorway, though it is obvious that they have faded over time."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, northwest"
+  ],
   "wayto": {
     "11515": "northwest",
     "11517": "northeast",
     "11518": "southeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southeast, northwest"
-  ],
-  "image_coords": [
-    927,
-    1009,
-    937,
-    1019
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The rough-hewn stone corridor proceeds into darkness to the southeast, and faint grey light can be seen to the northwest.  An old cell door stands open in the northeast wall, at once beckoning and menacing.  Faint dark streaks can be seen on the floor coming from the doorway, though it is obvious that they have faded over time."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "indoors",
-  "title": [
-    "[Ruined Dungeon, Passageway]"
-  ],
-  "check_location": null,
   "timeto": {
     "11515": 0.2,
     "11517": 0.2,
     "11518": 0.2
   },
-  "id": 11516,
-  "location": "the Ruined Tower",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-maelstrom-1266390501.png",
+  "image_coords": [
+    927,
+    1009,
+    937,
+    1019
   ]
 }

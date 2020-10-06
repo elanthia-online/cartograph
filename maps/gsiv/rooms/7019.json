@@ -1,38 +1,28 @@
 {
+  "id": 7019,
+  "title": [
+    "[Castle Darkstone, Gatehouse]"
+  ],
+  "description": [
+    "You are standing atop the southernmost of the two towers which flank the entrance to the outer keep.  A large drum wound with chain rests here, apparently to control the motion of the inner portcullis, but you see no way to manipulate the mechanism.  A thin plank of wood connects this tower to its twin to the north."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7018": "go plank",
     "7020": "south"
   },
-  "paths": [
-    "Obvious paths: south"
-  ],
+  "timeto": {
+    "7018": 0.2,
+    "7020": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     303,
     538,
     313,
     548
-  ],
-  "terrain": null,
-  "description": [
-    "You are standing atop the southernmost of the two towers which flank the entrance to the outer keep.  A large drum wound with chain rests here, apparently to control the motion of the inner portcullis, but you see no way to manipulate the mechanism.  A thin plank of wood connects this tower to its twin to the north."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Castle Darkstone, Gatehouse]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7018": 0.2,
-    "7020": 0.2
-  },
-  "id": 7019,
-  "location": "Darkstone Castle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

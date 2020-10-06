@@ -1,33 +1,30 @@
 {
+  "id": 523,
+  "title": [
+    "[Coastal Cliffs, Wrecked Village]"
+  ],
+  "description": [
+    "Grass has grown over the earthen floor of a nearby building, and moss clings to the crumbling stone, eroding it further.  A large firepit dominating the center of the main chamber indicates that this may have been a smokehouse of sorts.  A scattering of fish bones tends to support that conclusion."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "524": "southwest",
     "515": "north"
   },
-  "paths": [
-    "Obvious paths: north, southwest"
-  ],
+  "timeto": {
+    "524": 0.2,
+    "515": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     511,
     988,
     521,
     998
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "Grass has grown over the earthen floor of a nearby building, and moss clings to the crumbling stone, eroding it further.  A large firepit dominating the center of the main chamber indicates that this may have been a smokehouse of sorts.  A scattering of fish bones tends to support that conclusion."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Coastal Cliffs, Wrecked Village]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "524": 0.2,
-    "515": 0.2
-  },
-  "id": 523,
-  "location": "the Coastal Cliffs",
   "tags": [
     "withered black mushroom",
     "some wingstem root",
@@ -48,10 +45,6 @@
     "blue whortleberry",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

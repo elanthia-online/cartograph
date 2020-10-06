@@ -1,33 +1,30 @@
 {
+  "id": 2530,
+  "title": [
+    "[Snowy Plains, White Ice Lake]"
+  ],
+  "description": [
+    "An old, deserted tavern sits to one side just off the trail, its door creaking back and forth in the wind.  Snow has drifted up over the roof of the dilapidated lean-to resting heavily against the other structure.  By all appearances, neither building should still be standing."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "the Icemule Trail",
   "wayto": {
     "2531": "west",
     "2529": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, west"
-  ],
+  "timeto": {
+    "2531": 0.2,
+    "2529": 0.2
+  },
+  "image": "imt-trail-1264234799.png",
   "image_coords": [
     941,
     592,
     951,
     602
   ],
-  "terrain": "riparian",
-  "description": [
-    "An old, deserted tavern sits to one side just off the trail, its door creaking back and forth in the wind.  Snow has drifted up over the roof of the dilapidated lean-to resting heavily against the other structure.  By all appearances, neither building should still be standing."
-  ],
-  "image": "imt-trail-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Snowy Plains, White Ice Lake]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2531": 0.2,
-    "2529": 0.2
-  },
-  "id": 2530,
-  "location": "the Icemule Trail",
   "tags": [
     "some talneo root",
     "some arctic moss",
@@ -39,10 +36,6 @@
     "murdroot",
     "wavepetal blossom",
     "ironfern root",
-    "talneo root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "talneo root"
   ]
 }

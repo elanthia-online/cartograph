@@ -1,42 +1,36 @@
 {
-  "wayto": {
-    "26801": {
-      "stringproc": "73b13e6fa32bfb9b96fb5b956a7aa55e"
-    },
-    "26802": {
-      "stringproc": "a4bedbe0f3ff45b954288d0f5e950afa"
-    },
-    "18140": {
-      "stringproc": "bbbb8285910328828befeb1269b44340"
-    },
-    "26803": "go curtain"
-  },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Crafted entirely of silvery grey stone, the blocks fit together seamlessly creating the smooth passage walls.  Set into a shallow recess is a narrow archway covered with a peacock blue silk curtain."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 26800,
   "title": [
     "[Ta'Illistim Keep, Hallway]"
   ],
-  "check_location": null,
+  "description": [
+    "Crafted entirely of silvery grey stone, the blocks fit together seamlessly creating the smooth passage walls.  Set into a shallow recess is a narrow archway covered with a peacock blue silk curtain."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Ta'Illistim",
+  "wayto": {
+    "26801": {
+      "file": "string_procs/wayto/26800_26801.rb"
+    },
+    "26802": {
+      "file": "string_procs/wayto/26800_26802.rb"
+    },
+    "18140": {
+      "file": "string_procs/wayto/26800_18140.rb"
+    },
+    "26803": "go curtain"
+  },
   "timeto": {
     "26801": 0.5,
     "26802": 0.5,
     "18140": 1.0,
     "26803": 0.2
   },
-  "id": 26800,
-  "location": "Ta'Illistim",
   "tags": [
     "publiclockers",
     "public lockers",
     "public locker"
-  ],
-  "unique_loot": null
+  ]
 }

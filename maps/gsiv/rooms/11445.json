@@ -1,39 +1,30 @@
 {
-  "wayto": {
-    "11446": {
-      "stringproc": "ecb29216e38b2eccfa243d0a331e41b2"
-    },
-    "16041": {
-      "stringproc": "311ee2488122f711ecdb848822003512"
-    },
-    "11481": "climb reef",
-    "11440": {
-      "stringproc": "df0635901e9065a4aadbe5056471d5c8"
-    },
-    "11444": {
-      "stringproc": "e874f03e7b4c2d51bbdcaccf4bb927c8"
-    }
-  },
-  "paths": [
-    "Obvious paths: north, northeast, east, southeast"
+  "id": 11445,
+  "title": [
+    "[Maelstrom Bay, Surface]"
   ],
-  "image_coords": [
-    648,
-    1234,
-    658,
-    1244
-  ],
-  "terrain": "missing",
   "description": [
     "The green waters of Maelstrom Bay stretch out in all directions.  The line of a cliff is visible on the horizon to the east.  To the west, a low coral reef rises above the wide, rolling swells.  The spray from the swells slapping against the reef is ghostly pale in the moonlight.",
     "The green waters of Maelstrom Bay stretch out in all directions.  The line of a cliff is visible on the horizon to the east.  To the west, a low coral reef rises above the wide, rolling swells.  The spray from the swells slapping against the reef is white in the sunlight."
   ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "missing",
-  "title": [
-    "[Maelstrom Bay, Surface]"
+  "paths": [
+    "Obvious paths: north, northeast, east, southeast"
   ],
-  "check_location": null,
+  "wayto": {
+    "11446": {
+      "file": "string_procs/wayto/11445_11446.rb"
+    },
+    "16041": {
+      "file": "string_procs/wayto/11445_16041.rb"
+    },
+    "11481": "climb reef",
+    "11440": {
+      "file": "string_procs/wayto/11445_11440.rb"
+    },
+    "11444": {
+      "file": "string_procs/wayto/11445_11444.rb"
+    }
+  },
   "timeto": {
     "11446": 2.0,
     "16041": 2.0,
@@ -41,13 +32,11 @@
     "11440": 2.0,
     "11444": 2.0
   },
-  "id": 11445,
-  "location": "Maelstrom Bay",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-maelstrom-1266390501.png",
+  "image_coords": [
+    648,
+    1234,
+    658,
+    1244
   ]
 }

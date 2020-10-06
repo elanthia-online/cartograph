@@ -1,48 +1,38 @@
 {
-  "wayto": {
-    "7458": "go crack",
-    "7460": {
-      "stringproc": "d4094080092d28883335992ed423dfd3"
-    }
-  },
+  "id": 7459,
+  "title": [
+    "[Dark Grotto, Small Tunnel]"
+  ],
+  "description": [
+    "The tunnel is small and cramped.  It is wider than it is tall, and the floor, walls and ceiling are fairly smooth.  Patches of lichen dotting the area give off an eerie, dim light that casts a green hue over everything.  A subdued, slightly bitter odor nags at your senses.  Though not strong, it is pervasive and seems to irritate your eyes."
+  ],
   "paths": [
     "Obvious exits: southeast"
   ],
+  "location": "the Broken Lands",
+  "wayto": {
+    "7458": "go crack",
+    "7460": {
+      "file": "string_procs/wayto/7459_7460.rb"
+    }
+  },
+  "timeto": {
+    "7458": 0.2,
+    "7460": 0.2
+  },
+  "image": "wl-broken-1264234799.png",
   "image_coords": [
     780,
     798,
     790,
     808
   ],
-  "terrain": "indoors",
-  "description": [
-    "The tunnel is small and cramped.  It is wider than it is tall, and the floor, walls and ceiling are fairly smooth.  Patches of lichen dotting the area give off an eerie, dim light that casts a green hue over everything.  A subdued, slightly bitter odor nags at your senses.  Though not strong, it is pervasive and seems to irritate your eyes."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dark Grotto, Small Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7458": 0.2,
-    "7460": 0.2
-  },
-  "id": 7459,
-  "location": "the Broken Lands",
   "tags": [
     "sponge mushroom",
     "some glowing green lichen",
     "some cave moss",
     "bone mushroom",
     "some blackened moss",
-    "magru",
-    "blackened moss",
-    "green lichen",
-    "cave moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "magru"
   ]
 }

@@ -1,35 +1,32 @@
 {
+  "id": 17178,
+  "title": [
+    "[Warrior Guild, Esplanade]"
+  ],
+  "description": [
+    "A pleasantly wide walkway guides your steps as the carefully tended foliage and flowers provide a tranquil ambiance, even this close to all the training action.  A large, sparkling pool beckons from beyond an arched trellis which is densely covered by sinuous vines.  To one side, a stone wall with carved niches offers clean towels as well as storage space for garments and equipment."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Ta'Illistim",
   "wayto": {
     "17179": "go trellis",
     "17181": "north",
     "17121": "south"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "17179": 0.2,
+    "17181": 0.2,
+    "17121": 0.2
+  },
+  "image": "en-ta_illistim-warrior_guild.png",
   "image_coords": [
     524,
     1108,
     544,
     1133
   ],
-  "terrain": null,
-  "description": [
-    "A pleasantly wide walkway guides your steps as the carefully tended foliage and flowers provide a tranquil ambiance, even this close to all the training action.  A large, sparkling pool beckons from beyond an arched trellis which is densely covered by sinuous vines.  To one side, a stone wall with carved niches offers clean towels as well as storage space for garments and equipment."
-  ],
-  "image": "en-ta_illistim-warrior_guild.png",
-  "climate": null,
-  "title": [
-    "[Warrior Guild, Esplanade]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "17179": 0.2,
-    "17181": 0.2,
-    "17121": 0.2
-  },
-  "id": 17178,
-  "location": "Ta'Illistim",
   "tags": [
     "cactacae spine",
     "calamia fruit",
@@ -106,8 +103,5 @@
     "wavepetal blossom",
     "nightbloom blossom",
     "onion skin"
-  ],
-  "links": [
-
   ]
 }

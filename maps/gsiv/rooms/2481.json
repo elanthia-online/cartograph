@@ -1,39 +1,32 @@
 {
+  "id": 2481,
+  "title": [
+    "[Icemule, Barter Alley]"
+  ],
+  "description": [
+    "Store owners bark their goods and services from the open doors of small shops, and customers brave the cold to listen.  Others peer in shop windows and examine signs, alert for bargains or hard-to-find treasures.  From the north comes the sound of a voice bellowing something about \"rats\" and \"racing.\"",
+    "Many of the small shops are closed for the night, but others linger open through the night to capture every last silver coin that might wander in from the alley, looking for a warm place to spend the night.  From the north a harsh voice rasps out something about \"rats\" and \"racing.\""
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "2480": "east",
     "2482": "west"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "2480": 0.2,
+    "2482": 0.2
+  },
+  "image": "imt-icemule-1474811966.png",
   "image_coords": [
     1012,
     1398,
     1030,
     1416
   ],
-  "terrain": "hard, flat",
-  "description": [
-    "Store owners bark their goods and services from the open doors of small shops, and customers brave the cold to listen.  Others peer in shop windows and examine signs, alert for bargains or hard-to-find treasures.  From the north comes the sound of a voice bellowing something about \"rats\" and \"racing.\"",
-    "Many of the small shops are closed for the night, but others linger open through the night to capture every last silver coin that might wander in from the alley, looking for a warm place to spend the night.  From the north a harsh voice rasps out something about \"rats\" and \"racing.\""
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Icemule, Barter Alley]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2480": 0.2,
-    "2482": 0.2
-  },
-  "id": 2481,
-  "location": "Icemule Trace",
   "tags": [
-    "calmintha flower",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "calmintha flower"
   ]
 }

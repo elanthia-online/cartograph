@@ -1,44 +1,35 @@
 {
-  "wayto": {
-    "2211": "climb glass",
-    "2209": {
-      "stringproc": "be575b74f86bbeacdd5b7225e505391f"
-    }
-  },
+  "id": 2210,
+  "title": [
+    "[Depths of V'Tull, Crawlway]"
+  ],
+  "description": [
+    "The crawlway angles sharply here, making climbing treacherous.  Razor-sharp pieces of crystallized volcanic glass protrude from the ash-covered surface.  The walls of this pipe-like tunnel close in tightly around you, making passage slow going.  Smoky hot silt and soot swirl upward from below."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "the Eye of V'Tull",
+  "wayto": {
+    "2211": "climb glass",
+    "2209": {
+      "file": "string_procs/wayto/2210_2209.rb"
+    }
+  },
+  "timeto": {
+    "2211": 0.2,
+    "2209": 0.2
+  },
+  "image": "ti-vtull-1264234799.png",
   "image_coords": [
     547,
     774,
     557,
     784
   ],
-  "terrain": "indoors",
-  "description": [
-    "The crawlway angles sharply here, making climbing treacherous.  Razor-sharp pieces of crystallized volcanic glass protrude from the ash-covered surface.  The walls of this pipe-like tunnel close in tightly around you, making passage slow going.  Smoky hot silt and soot swirl upward from below."
-  ],
-  "image": "ti-vtull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Depths of V'Tull, Crawlway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2211": 0.2,
-    "2209": 0.2
-  },
-  "id": 2210,
-  "location": "the Eye of V'Tull",
   "tags": [
     "black trafel mushroom",
     "daggerstalk mushroom",
-    "some cave moss",
-    "cave moss",
-    "pepperthorn root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

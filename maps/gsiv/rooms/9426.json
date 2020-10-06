@@ -1,50 +1,36 @@
 {
+  "id": 9426,
+  "title": [
+    "[Zul Logoth, Opal Tunnel]"
+  ],
+  "description": [
+    "Giant toadstools tower, shedding a pale blue luminescence upon this slight bend of the tunnel, causing diminutive veins of black opal to shimmer faintly.  Hanging above the numerous brightly-colored doors are boldly painted signs advertising each merchant's names.  The faint aroma of cigar smoke filters in from a small niche frequented by resting miners."
+  ],
+  "paths": [
+    "Obvious exits: southwest, northwest"
+  ],
+  "location": "Zul Logoth",
   "wayto": {
     "9427": "northwest",
     "16882": "go shop",
     "9425": "southwest"
   },
-  "paths": [
-    "Obvious exits: southwest, northwest"
-  ],
+  "timeto": {
+    "9427": 0.2,
+    "16882": 0.2,
+    "9425": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     981,
     448,
     1001,
     468
   ],
-  "terrain": "indoors",
-  "description": [
-    "Giant toadstools tower, shedding a pale blue luminescence upon this slight bend of the tunnel, causing diminutive veins of black opal to shimmer faintly.  Hanging above the numerous brightly-colored doors are boldly painted signs advertising each merchant's names.  The faint aroma of cigar smoke filters in from a small niche frequented by resting miners."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Zul Logoth, Opal Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9427": 0.2,
-    "16882": 0.2,
-    "9425": 0.2
-  },
-  "id": 9426,
-  "location": "Zul Logoth",
   "tags": [
     "pepperthorn root",
     "blue trafel mushroom",
     "daggerstalk mushroom",
-    "flathead mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "genkew mushroom",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "flathead mushroom"
   ]
 }

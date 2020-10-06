@@ -1,48 +1,34 @@
 {
-  "wayto": {
-    "21081": "go dock",
-    "21073": {
-      "stringproc": "d85ece0b13067d67ad270f4b82d3239d"
-    },
-    "21075": {
-      "stringproc": "25b57a47fa24e6f4eea217034f76e70e"
-    }
-  },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
-  "image_coords": [
-    1659,
-    2400,
-    1679,
-    2419
-  ],
-  "terrain": "riparian",
-  "description": [
-    "The narrow passage of the river's northern edges widens here, causing the rough waters to become sluggish as they tumble towards the south.  Muddy banks rise upon either side, and while the eastern banks are choked with thick vines and wild shrub, the western banks are free of brush.  White-flowered arrowhead plants are painted with burgundy hues, their long stems surrounded by broad leaves as they make their home at the river's edge."
-  ],
-  "image": "ifw-wilds-1368242816.png",
-  "climate": "freshwater",
+  "id": 21074,
   "title": [
     "[Alhan'naht River, Jungle Pass]"
   ],
-  "check_location": null,
+  "description": [
+    "The narrow passage of the river's northern edges widens here, causing the rough waters to become sluggish as they tumble towards the south.  Muddy banks rise upon either side, and while the eastern banks are choked with thick vines and wild shrub, the western banks are free of brush.  White-flowered arrowhead plants are painted with burgundy hues, their long stems surrounded by broad leaves as they make their home at the river's edge."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "21081": "go dock",
+    "21073": {
+      "file": "string_procs/wayto/21074_21073.rb"
+    },
+    "21075": {
+      "file": "string_procs/wayto/21074_21075.rb"
+    }
+  },
   "timeto": {
     "21081": 0.2,
     "21073": 2.0,
     "21075": 2.0
   },
-  "id": 21074,
-  "location": "Mist Harbor",
-  "tags": [
-    "stalk of cattail",
-    "murdroot",
-    "wavepetal blossom",
-    "sunburst blossom",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null,
-  "links": [
-
+  "image": "ifw-wilds-1368242816.png",
+  "image_coords": [
+    1659,
+    2400,
+    1679,
+    2419
   ]
 }

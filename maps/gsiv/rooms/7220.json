@@ -1,33 +1,30 @@
 {
+  "id": 7220,
+  "title": [
+    "[Underbarrow, Tunnels]"
+  ],
+  "description": [
+    "Clammy, cold air caresses your skin, awakening goosebumps over any exposed flesh.  Spiderwebs tie the bones scattered across the floor together like delicate tendons, forming a collapsed parody of a complete skeleton.  Dust sifts out from between the grey stone blocks of the walls, telling a tale of age and instability in the architecture."
+  ],
+  "paths": [
+    "Obvious exits: northeast, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7219": "west",
     "7221": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, west"
-  ],
+  "timeto": {
+    "7219": 0.2,
+    "7221": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     678,
     161,
     688,
     171
   ],
-  "terrain": "indoors",
-  "description": [
-    "Clammy, cold air caresses your skin, awakening goosebumps over any exposed flesh.  Spiderwebs tie the bones scattered across the floor together like delicate tendons, forming a collapsed parody of a complete skeleton.  Dust sifts out from between the grey stone blocks of the walls, telling a tale of age and instability in the architecture."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Underbarrow, Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7219": 0.2,
-    "7221": 0.2
-  },
-  "id": 7220,
-  "location": "the Graveyard",
   "tags": [
     "some wolifrew lichen",
     "some cave moss",
@@ -36,10 +33,6 @@
     "cave moss",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

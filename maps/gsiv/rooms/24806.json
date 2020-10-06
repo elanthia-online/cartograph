@@ -1,35 +1,28 @@
 {
+  "id": 24806,
+  "title": [
+    "[Helden Hall, Brewery]"
+  ],
+  "description": [
+    "The smells of hops and honeyed brew tantalize your senses, making your mouth water in anticipation.  A small gnomish brewer draped in a huge apron anxiously bustles about checking the fermenting brew.  Large fermenting vats take up most of the room and strange vials and testing containers cover the large table, while sacks of grain and small kegs of finished brew occupy a corner.  The size of the vats attests to the thirst of the occupants of this house."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "22035": "west",
     "24820": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "22035": 0.2,
+    "24820": 0.2
+  },
+  "image": "wl-heldenhall-1502386358.png",
   "image_coords": [
     960,
     1256,
     997,
     1292
-  ],
-  "terrain": null,
-  "description": [
-    "The smells of hops and honeyed brew tantalize your senses, making your mouth water in anticipation.  A small gnomish brewer draped in a huge apron anxiously bustles about checking the fermenting brew.  Large fermenting vats take up most of the room and strange vials and testing containers cover the large table, while sacks of grain and small kegs of finished brew occupy a corner.  The size of the vats attests to the thirst of the occupants of this house."
-  ],
-  "image": "wl-heldenhall-1502386358.png",
-  "climate": null,
-  "title": [
-    "[Helden Hall, Brewery]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "22035": 0.2,
-    "24820": 0.2
-  },
-  "id": 24806,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

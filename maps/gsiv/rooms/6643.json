@@ -1,43 +1,35 @@
 {
-  "wayto": {
-    "6642": {
-      "stringproc": "f983e0ead5bce72164ffabf0ec85549a"
-    },
-    "6645": {
-      "stringproc": "3fc42834e9129c20ebfe09f66271d504"
-    }
-  },
+  "id": 6643,
+  "title": [
+    "[Monastery, Living Quarters]"
+  ],
+  "description": [
+    "This room appears to be used as living quarters for those who reside in this stronghold.  A row of six bunks lines each of the walls and a row of a dozen cabinets stands opposite the doorway.  A large table stands in the center of the room with a half dozen chairs scattered around it.  Mounted onto the ceiling is a large cast iron chandelier with dozens of small, lit candles dropping wax down onto the top of the table."
+  ],
   "paths": [
     "Obvious exits: south"
   ],
+  "location": "the Broken Lands",
+  "wayto": {
+    "6642": {
+      "file": "string_procs/wayto/6643_6642.rb"
+    },
+    "6645": {
+      "file": "string_procs/wayto/6643_6645.rb"
+    }
+  },
+  "timeto": {
+    "6642": 0.4,
+    "6645": 0.4
+  },
+  "image": "wl-broken-1264234799.png",
   "image_coords": [
     196,
     1126,
     203,
     1137
   ],
-  "terrain": "indoors",
-  "description": [
-    "This room appears to be used as living quarters for those who reside in this stronghold.  A row of six bunks lines each of the walls and a row of a dozen cabinets stands opposite the doorway.  A large table stands in the center of the room with a half dozen chairs scattered around it.  Mounted onto the ceiling is a large cast iron chandelier with dozens of small, lit candles dropping wax down onto the top of the table."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Monastery, Living Quarters]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6642": 0.4,
-    "6645": 0.4
-  },
-  "id": 6643,
-  "location": "the Broken Lands",
   "tags": [
-    "no-auto-map",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "no-auto-map"
   ]
 }

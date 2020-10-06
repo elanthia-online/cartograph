@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "19271": "go door"
-  },
+  "id": 19274,
+  "title": [
+    "[Dark Shrine, Burial Vault]"
+  ],
+  "description": [
+    "Dark skeletal figures lie in silent repose, stacked one upon the other in tiers of niches carved out of the stone walls.  Their musty odor assails your senses, and adds to the oppressiveness of the chamber.  A low stone slab occupies the center of the chamber, like a raised dais, but there is nothing on it except for a thick layer of dust."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "the Broken Lands",
+  "wayto": {
+    "19271": "go door"
+  },
+  "timeto": {
+    "19271": 0.2
+  },
+  "image": "wl-broken-1264234799.png",
   "image_coords": [
     866,
     372,
     875,
     381
   ],
-  "terrain": "indoors",
-  "description": [
-    "Dark skeletal figures lie in silent repose, stacked one upon the other in tiers of niches carved out of the stone walls.  Their musty odor assails your senses, and adds to the oppressiveness of the chamber.  A low stone slab occupies the center of the chamber, like a raised dais, but there is nothing on it except for a thick layer of dust."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dark Shrine, Burial Vault]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "19271": 0.2
-  },
-  "id": 19274,
-  "location": "the Broken Lands",
   "tags": [
-    "lesser vruul",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "lesser vruul"
   ]
 }

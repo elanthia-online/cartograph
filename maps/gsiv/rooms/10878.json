@@ -1,35 +1,32 @@
 {
+  "id": 10878,
+  "title": [
+    "[River's Rest, Sandy Path]"
+  ],
+  "description": [
+    "This quiet path approaches its end, opening onto a wide sandy beach to the north.  The bramble thicket shows no signs of thinning, seemingly running to the river's edge ahead, but the forest is slowly giving way to the sandy beach."
+  ],
+  "paths": [
+    "Obvious paths: south, northwest"
+  ],
+  "location": "the town of River's Rest",
   "wayto": {
     "10882": "northwest",
     "10866": "south",
     "10879": "go pathway"
   },
-  "paths": [
-    "Obvious paths: south, northwest"
-  ],
+  "timeto": {
+    "10882": 0.2,
+    "10866": 0.2,
+    "10879": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     762,
     247,
     798,
     283
   ],
-  "terrain": "grassland",
-  "description": [
-    "This quiet path approaches its end, opening onto a wide sandy beach to the north.  The bramble thicket shows no signs of thinning, seemingly running to the river's edge ahead, but the forest is slowly giving way to the sandy beach."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "temperate",
-  "title": [
-    "[River's Rest, Sandy Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10882": 0.2,
-    "10866": 0.2,
-    "10879": 0.2
-  },
-  "id": 10878,
-  "location": "the town of River's Rest",
   "tags": [
     "some sovyn clove",
     "some acantha leaf",
@@ -39,62 +36,6 @@
     "small violet",
     "pepperthorn root",
     "luckbloom blossom",
-    "some wiregrass",
-    "acantha leaf",
-    "ambrominas leaf",
-    "sovyn clove",
-    "small flower",
-    "small rose",
-    "small daisy",
-    "angelica root",
-    "trollfear mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "wild strawberry",
-    "stalk of chicory",
-    "wild grapes",
-    "sprig of alyssum",
-    "heath aster",
-    "golden buttercup",
-    "red clover blossom",
-    "pink clover blossom",
-    "white clover blossom",
-    "purple clover blossom",
-    "yellow clover blossom",
-    "stalk of goldenrod",
-    "sprig of larkspur",
-    "yellow primrose",
-    "small wild rose",
-    "Imaera's Lace",
-    "ear of corn",
-    "purple eggplant",
-    "round white eggplant",
-    "rose-marrow root",
-    "wild chokecherry",
-    "motherwort",
-    "small dandelion",
-    "sprig of thanot",
-    "flaeshorn berry",
-    "huckleberries",
-    "raspberries",
-    "wiregrass",
-    "murkweed",
-    "mistweed",
-    "white lily",
-    "fire lily",
-    "murdroot",
-    "wavepetal blossom",
-    "ironfern root",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wiregrass"
   ]
 }

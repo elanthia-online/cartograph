@@ -1,38 +1,28 @@
 {
+  "id": 3062,
+  "title": [
+    "[Icemule Trace, Snowfield Trench]"
+  ],
+  "description": [
+    "A deep trench has been dug into the snowdrifts, creating a wind-free pathway.  The sides of the trench rise above you until they are above your head, muffling the sounds of the icy winds that blow across the snowfield."
+  ],
+  "paths": [
+    "Obvious paths: south, up"
+  ],
+  "location": "the southern snowfields",
   "wayto": {
     "3061": "up",
     "3063": "south"
   },
-  "paths": [
-    "Obvious paths: south, up"
-  ],
+  "timeto": {
+    "3061": 0.2,
+    "3063": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     548,
     780,
     558,
     790
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "A deep trench has been dug into the snowdrifts, creating a wind-free pathway.  The sides of the trench rise above you until they are above your head, muffling the sounds of the icy winds that blow across the snowfield."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Icemule Trace, Snowfield Trench]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3061": 0.2,
-    "3063": 0.2
-  },
-  "id": 3062,
-  "location": "the southern snowfields",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

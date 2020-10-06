@@ -1,47 +1,40 @@
 {
-  "wayto": {
-    "25692": {
-      "stringproc": "7c906cf3c37f156a5de40e3486f4dfc0"
-    },
-    "25696": {
-      "stringproc": "7c97847f49fd5aa0407dedb0e3609199"
-    },
-    "25694": {
-      "stringproc": "b3903ef3130903d58c1b8b478bec601b"
-    },
-    "25695": {
-      "stringproc": "9b05cb4429e6ad5efbe157efd92e6023"
-    }
-  },
-  "paths": [
-    "Obvious paths: northeast, southeast, southwest, northwest"
-  ],
-  "image_coords": [
-    1040,
-    1039,
-    1061,
-    1059
-  ],
-  "terrain": null,
-  "description": [
-    "Perfumed with the scent of tropical blossoms, the damp air of the waterway is slightly chilly.  Choppy waves pass by as they make their way toward the beaches that form a solid line of sand to the northeast, while to the southwest, docks surrounded by bright red buoys bob up and down in a lazy manner."
-  ],
-  "image": "ifw-eastern_waterway-1489553700.png",
-  "climate": null,
+  "id": 25693,
   "title": [
     "[Eastern Waterway]"
   ],
-  "check_location": null,
+  "description": [
+    "Perfumed with the scent of tropical blossoms, the damp air of the waterway is slightly chilly.  Choppy waves pass by as they make their way toward the beaches that form a solid line of sand to the northeast, while to the southwest, docks surrounded by bright red buoys bob up and down in a lazy manner."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, southwest, northwest"
+  ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "25692": {
+      "file": "string_procs/wayto/25693_25692.rb"
+    },
+    "25696": {
+      "file": "string_procs/wayto/25693_25696.rb"
+    },
+    "25694": {
+      "file": "string_procs/wayto/25693_25694.rb"
+    },
+    "25695": {
+      "file": "string_procs/wayto/25693_25695.rb"
+    }
+  },
   "timeto": {
     "25692": 6.0,
     "25696": 6.0,
     "25694": 6.0,
     "25695": 6.0
   },
-  "id": 25693,
-  "location": "Mist Harbor",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  "image": "ifw-eastern_waterway-1489553700.png",
+  "image_coords": [
+    1040,
+    1039,
+    1061,
+    1059
+  ]
 }

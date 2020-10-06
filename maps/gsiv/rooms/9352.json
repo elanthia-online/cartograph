@@ -1,35 +1,32 @@
 {
+  "id": 9352,
+  "title": [
+    "[Abandoned Village]"
+  ],
+  "description": [
+    "A small stream winds out of a ravine entrance and passes behind several piles of rubble. The rubble is covered by thick grass, but several blackened beams reach up to the open sky above, appearing like skeletal ribs of a long dead creature."
+  ],
+  "paths": [
+    "Obvious paths: east, south"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "9371": "east",
     "9350": "south",
     "9353": "go entrance"
   },
-  "paths": [
-    "Obvious paths: east, south"
-  ],
+  "timeto": {
+    "9371": 0.2,
+    "9350": 0.2,
+    "9353": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     1134,
     220,
     1146,
     232
   ],
-  "terrain": "grassland",
-  "description": [
-    "A small stream winds out of a ravine entrance and passes behind several piles of rubble. The rubble is covered by thick grass, but several blackened beams reach up to the open sky above, appearing like skeletal ribs of a long dead creature."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Abandoned Village]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9371": 0.2,
-    "9350": 0.2,
-    "9353": 0.2
-  },
-  "id": 9352,
-  "location": "the Cairnfang",
   "tags": [
     "handful of raspberries",
     "rose-marrow root",
@@ -83,10 +80,6 @@
     "wavepetal blossom",
     "ironfern root",
     "nightbloom blossom",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

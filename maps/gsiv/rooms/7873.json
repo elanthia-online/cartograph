@@ -1,42 +1,32 @@
 {
-  "wayto": {
-    "1213": {
-      "stringproc": "7dc028601f150e6d22a877b776ff2553"
-    },
-    "7874": {
-      "stringproc": "e2f491704904869b46ebc872bd60acb8"
-    }
-  },
+  "id": 7873,
+  "title": [
+    "[Tunnel of Trees]"
+  ],
+  "description": [
+    "Thick, low-hanging branches force you on your belly and you find yourself having to wiggle your way under them.  Fortunately, the ground is relatively clear and covered in soft grass, making your worst worry fall into the range of the odd grass stain."
+  ],
   "paths": [
     "Obvious paths: north, south"
   ],
+  "location": "the Upper Trollfang",
+  "wayto": {
+    "1213": {
+      "file": "string_procs/wayto/7873_1213.rb"
+    },
+    "7874": {
+      "file": "string_procs/wayto/7873_7874.rb"
+    }
+  },
+  "timeto": {
+    "1213": 5.0,
+    "7874": 5.0
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     789,
     1043,
     799,
     1053
-  ],
-  "terrain": "missing",
-  "description": [
-    "Thick, low-hanging branches force you on your belly and you find yourself having to wiggle your way under them.  Fortunately, the ground is relatively clear and covered in soft grass, making your worst worry fall into the range of the odd grass stain."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "missing",
-  "title": [
-    "[Tunnel of Trees]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1213": 5.0,
-    "7874": 5.0
-  },
-  "id": 7873,
-  "location": "the Upper Trollfang",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

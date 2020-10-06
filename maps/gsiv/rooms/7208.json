@@ -1,37 +1,34 @@
 {
+  "id": 7208,
+  "title": [
+    "[Graveyard, Burial Mound]"
+  ],
+  "description": [
+    "The dark, well-fertilized earth of the mound rises into a blackened ridge, the soft soil sinking under your feet to reveal glimpses of bleached bone and worm-eaten flesh.  A few blades of grass and rough bushes grow here, fed by the open air and the rich soil."
+  ],
+  "paths": [
+    "Obvious paths: north, west, northwest, out"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7249": "north",
     "7207": "out",
     "7209": "west",
     "7248": "northwest"
   },
-  "paths": [
-    "Obvious paths: north, west, northwest, out"
-  ],
-  "image_coords": [
-    478,
-    161,
-    488,
-    171
-  ],
-  "terrain": "plain dirt",
-  "description": [
-    "The dark, well-fertilized earth of the mound rises into a blackened ridge, the soft soil sinking under your feet to reveal glimpses of bleached bone and worm-eaten flesh.  A few blades of grass and rough bushes grow here, fed by the open air and the rich soil."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Graveyard, Burial Mound]"
-  ],
-  "check_location": null,
   "timeto": {
     "7249": 0.2,
     "7207": 0.2,
     "7209": 0.2,
     "7248": 0.2
   },
-  "id": 7208,
-  "location": "the Graveyard",
+  "image": "wl-graveyard-1264234799.png",
+  "image_coords": [
+    478,
+    161,
+    488,
+    171
+  ],
   "tags": [
     "some wolifrew lichen",
     "some acantha leaf",
@@ -54,10 +51,6 @@
     "small wild rose",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

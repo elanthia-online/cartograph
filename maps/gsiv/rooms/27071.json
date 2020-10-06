@@ -1,35 +1,28 @@
 {
+  "id": 27071,
+  "title": [
+    "[Wildwood of the Dryad, Terminus]"
+  ],
+  "description": [
+    "A lumberjack's axe is slammed into the side of a white monir at a height much higher than it should be.  A grassy patch of land is surrounded by smooth rocks, flowers, and mushrooms that form a circle."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Coraesine Forest",
   "wayto": {
     "27070": "south",
     "27072": "north"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "27070": 0.2,
+    "27072": 0.2
+  },
+  "image": "en-wildwood.png",
   "image_coords": [
     681,
     1248,
     729,
     1298
-  ],
-  "terrain": null,
-  "description": [
-    "A lumberjack's axe is slammed into the side of a white monir at a height much higher than it should be.  A grassy patch of land is surrounded by smooth rocks, flowers, and mushrooms that form a circle."
-  ],
-  "image": "en-wildwood.png",
-  "climate": null,
-  "title": [
-    "[Wildwood of the Dryad, Terminus]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "27070": 0.2,
-    "27072": 0.2
-  },
-  "id": 27071,
-  "location": "Coraesine Forest",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

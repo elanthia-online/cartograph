@@ -1,36 +1,33 @@
 {
+  "id": 4933,
+  "title": [
+    "[Gyldemar Forest, Clearing]"
+  ],
+  "description": [
+    "The only thing clear about this area is the lack of debris.  Weeds that would obscure a halfling fill the clearing, making convenient hiding places for ambushers.",
+    "The only thing clear about this area is the lack of debris.  Weeds that would obscure a halfling fill the clearing, making convenient hiding places for ambushers in the night."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west, northwest"
+  ],
+  "location": "Gyldemar Forest",
   "wayto": {
     "4932": "northeast",
     "4934": "northwest",
     "4935": "west"
   },
-  "paths": [
-    "Obvious paths: northeast, west, northwest"
-  ],
+  "timeto": {
+    "4932": 0.2,
+    "4934": 0.2,
+    "4935": 0.2
+  },
+  "image": "en-gyldemar-1264234799.png",
   "image_coords": [
     1033,
     543,
     1043,
     553
   ],
-  "terrain": "grassland",
-  "description": [
-    "The only thing clear about this area is the lack of debris.  Weeds that would obscure a halfling fill the clearing, making convenient hiding places for ambushers.",
-    "The only thing clear about this area is the lack of debris.  Weeds that would obscure a halfling fill the clearing, making convenient hiding places for ambushers in the night."
-  ],
-  "image": "en-gyldemar-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Gyldemar Forest, Clearing]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4932": 0.2,
-    "4934": 0.2,
-    "4935": 0.2
-  },
-  "id": 4933,
-  "location": "Gyldemar Forest",
   "tags": [
     "small daisy",
     "fennel bulb",
@@ -46,71 +43,6 @@
     "large sunflower",
     "some wheat grass",
     "some ambrominas leaf",
-    "stalk of burdock",
-    "acantha leaf",
-    "ambrominas leaf",
-    "sovyn clove",
-    "small flower",
-    "small rose",
-    "angelica root",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "small violet",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "wild strawberry",
-    "stalk of chicory",
-    "wild grapes",
-    "heath aster",
-    "golden buttercup",
-    "red clover blossom",
-    "pink clover blossom",
-    "purple clover blossom",
-    "yellow clover blossom",
-    "stalk of goldenrod",
-    "sprig of larkspur",
-    "yellow primrose",
-    "small wild rose",
-    "Imaera's Lace",
-    "barley grass",
-    "wheat grass",
-    "ear of corn",
-    "mustard seeds",
-    "nettle leaf",
-    "rose-marrow root",
-    "wild sage",
-    "motherwort",
-    "golden aster",
-    "blaestonberry blossom",
-    "sprig of columbine",
-    "small dandelion",
-    "honeysuckle vine",
-    "sprig of jasmine",
-    "sprig of lavender",
-    "sprig of mournbloom",
-    "wild orchid",
-    "wild pansy blossom",
-    "wolfsbane root",
-    "huckleberries",
-    "sprig of ivy",
-    "raspberries",
-    "small apple",
-    "murkweed",
-    "white lily",
-    "pepperthorn root",
-    "luckbloom blossom",
-    "murdroot",
-    "wavepetal blossom",
-    "ironfern root",
-    "sunburst blossom",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "stalk of burdock"
   ]
 }

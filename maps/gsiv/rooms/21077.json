@@ -1,46 +1,32 @@
 {
-  "wayto": {
-    "21076": {
-      "stringproc": "d85ece0b13067d67ad270f4b82d3239d"
-    },
-    "21078": {
-      "stringproc": "25b57a47fa24e6f4eea217034f76e70e"
-    }
-  },
+  "id": 21077,
+  "title": [
+    "[Alhan'naht River, South Wilds]"
+  ],
+  "description": [
+    "Flanked by congested trees upon the eastern shores, the river ambles through the thick jungle vegetation and murmurs softly as it passes.  Giant water lilies cling to the western banks, their amethyst hues reflected in the water."
+  ],
   "paths": [
     "Obvious paths: north, south"
   ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "21076": {
+      "file": "string_procs/wayto/21077_21076.rb"
+    },
+    "21078": {
+      "file": "string_procs/wayto/21077_21078.rb"
+    }
+  },
+  "timeto": {
+    "21076": 2.0,
+    "21078": 2.0
+  },
+  "image": "ifw-wilds-1368242816.png",
   "image_coords": [
     1580,
     2639,
     1599,
     2660
-  ],
-  "terrain": "riparian",
-  "description": [
-    "Flanked by congested trees upon the eastern shores, the river ambles through the thick jungle vegetation and murmurs softly as it passes.  Giant water lilies cling to the western banks, their amethyst hues reflected in the water."
-  ],
-  "image": "ifw-wilds-1368242816.png",
-  "climate": "freshwater",
-  "title": [
-    "[Alhan'naht River, South Wilds]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "21076": 2.0,
-    "21078": 2.0
-  },
-  "id": 21077,
-  "location": "Mist Harbor",
-  "tags": [
-    "stalk of cattail",
-    "murdroot",
-    "wavepetal blossom",
-    "sunburst blossom",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

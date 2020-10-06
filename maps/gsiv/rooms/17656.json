@@ -1,48 +1,32 @@
 {
+  "id": 17656,
+  "title": [
+    "[Smuggler's Tunnels, Vault]"
+  ],
+  "description": [
+    "The tunnel dead-ends into a vaulted chamber constructed of enormous blocks of granite and thick oak timbers.  Across the stone floor is a light layer of grit tracked in from the tunnel to the northeast, which leads to a large iron-bound door set into the west wall of the vaulted room.  Two torches flank either side of the door, burning brightly, while their smoke stains the ceiling above them a sooty black."
+  ],
+  "paths": [
+    "Obvious exits: northeast"
+  ],
   "wayto": {
     "17655": "northeast",
     "17657": "go door"
   },
-  "paths": [
-    "Obvious exits: northeast"
-  ],
+  "timeto": {
+    "17655": 0.2,
+    "17657": 0.2
+  },
+  "image": "rr-warrens-1266380776.png",
   "image_coords": [
     416,
     851,
     454,
     889
   ],
-  "terrain": "indoors",
-  "description": [
-    "The tunnel dead-ends into a vaulted chamber constructed of enormous blocks of granite and thick oak timbers.  Across the stone floor is a light layer of grit tracked in from the tunnel to the northeast, which leads to a large iron-bound door set into the west wall of the vaulted room.  Two torches flank either side of the door, burning brightly, while their smoke stains the ceiling above them a sooty black."
-  ],
-  "image": "rr-warrens-1266380776.png",
-  "climate": "indoors",
-  "title": [
-    "[Smuggler's Tunnels, Vault]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "17655": 0.2,
-    "17657": 0.2
-  },
-  "id": 17656,
-  "location": "River's Rest",
   "tags": [
     "withered black mushroom",
     "genkew mushroom",
-    "black hook mushroom",
-    "soft white mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "black hook mushroom"
   ]
 }

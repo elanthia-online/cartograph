@@ -1,33 +1,30 @@
 {
+  "id": 7165,
+  "title": [
+    "[Graveyard]"
+  ],
+  "description": [
+    "The path bends around the northeast corner of the building.  From the northwest comes a very faint odor of rot and a warm, clammy breeze.  To the south, the path continues around the crypt."
+  ],
+  "paths": [
+    "Obvious paths: south, northwest"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7164": "south",
     "7171": "northwest"
   },
-  "paths": [
-    "Obvious paths: south, northwest"
-  ],
+  "timeto": {
+    "7164": 0.2,
+    "7171": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     263,
     806,
     273,
     816
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The path bends around the northeast corner of the building.  From the northwest comes a very faint odor of rot and a warm, clammy breeze.  To the south, the path continues around the crypt."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Graveyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7164": 0.2,
-    "7171": 0.2
-  },
-  "id": 7165,
-  "location": "the Graveyard",
   "tags": [
     "some wolifrew lichen",
     "some acantha leaf",
@@ -53,10 +50,6 @@
     "pennyroyal stem",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

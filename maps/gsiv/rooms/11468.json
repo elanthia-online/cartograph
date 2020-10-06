@@ -1,40 +1,31 @@
 {
-  "wayto": {
-    "11459": {
-      "stringproc": "2475b19f394c069e111c2fa06831c1f7"
-    },
-    "11470": {
-      "stringproc": "e531eb47f19700d00ac81ca15d619ca8"
-    },
-    "11471": {
-      "stringproc": "9eaa131926e46e6090f2390aa24f278f"
-    },
-    "16060": {
-      "stringproc": "84803c6220b0581d4151763c46ccdbbc"
-    },
-    "11467": {
-      "stringproc": "83255565d617dbe7b0ecdb04e9a96925"
-    }
-  },
-  "paths": [
-    "Obvious exits: north, south, southwest, west, northwest, up"
-  ],
-  "image_coords": [
-    976,
-    1234,
-    986,
-    1244
-  ],
-  "terrain": null,
-  "description": [
-    "A rocky wall, strewn with dark green clumps of bladder rockweed, rises to the east.  A boulder the size of a hermit's hut is sunk into the sand of the bay floor.  Small, brightly- colored fish dart back and forth between the barnacle-covered boulder and the rockweed."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": null,
+  "id": 11468,
   "title": [
     "[Maelstrom Bay, Bottom]"
   ],
-  "check_location": null,
+  "description": [
+    "A rocky wall, strewn with dark green clumps of bladder rockweed, rises to the east.  A boulder the size of a hermit's hut is sunk into the sand of the bay floor.  Small, brightly- colored fish dart back and forth between the barnacle-covered boulder and the rockweed."
+  ],
+  "paths": [
+    "Obvious exits: north, south, southwest, west, northwest, up"
+  ],
+  "wayto": {
+    "11459": {
+      "file": "string_procs/wayto/11468_11459.rb"
+    },
+    "11470": {
+      "file": "string_procs/wayto/11468_11470.rb"
+    },
+    "11471": {
+      "file": "string_procs/wayto/11468_11471.rb"
+    },
+    "16060": {
+      "file": "string_procs/wayto/11468_16060.rb"
+    },
+    "11467": {
+      "file": "string_procs/wayto/11468_11467.rb"
+    }
+  },
   "timeto": {
     "11459": 2.0,
     "11470": 2.0,
@@ -42,12 +33,11 @@
     "16060": 3.0,
     "11467": 2.0
   },
-  "id": 11468,
-  "location": null,
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "rr-maelstrom-1266390501.png",
+  "image_coords": [
+    976,
+    1234,
+    986,
+    1244
   ]
 }

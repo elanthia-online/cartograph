@@ -1,45 +1,35 @@
 {
+  "id": 5211,
+  "title": [
+    "[Vornavian Coast, Beach]"
+  ],
+  "description": [
+    "Visible in the moonlight, thousands of small footprints dot the sand here, leading from the coastal grasses far from the pounding surf right up to the tide.  Dozens of small creatures have made their way to the surf for sustenance.  A path leads northeast from the beach into a pine woods.",
+    "Thousands of small footprints dot the sands here, leading from the coastal grasses far from the pounding surf right up to the tide.  Dozens of small creatures have made their way to the surf for sustenance.  The cries of seagulls can be heard over the crashing waves.  A path leads northeast from the beach into a pine woods."
+  ],
+  "paths": [
+    "Obvious paths: southeast, west"
+  ],
+  "location": "the Vornavian Coast",
   "wayto": {
     "5213": "go path",
     "5210": "west",
     "5212": "southeast"
   },
-  "paths": [
-    "Obvious paths: southeast, west"
-  ],
+  "timeto": {
+    "5213": 0.2,
+    "5210": 0.2,
+    "5212": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     280,
     555,
     290,
     565
   ],
-  "terrain": "riparian",
-  "description": [
-    "Visible in the moonlight, thousands of small footprints dot the sand here, leading from the coastal grasses far from the pounding surf right up to the tide.  Dozens of small creatures have made their way to the surf for sustenance.  A path leads northeast from the beach into a pine woods.",
-    "Thousands of small footprints dot the sands here, leading from the coastal grasses far from the pounding surf right up to the tide.  Dozens of small creatures have made their way to the surf for sustenance.  The cries of seagulls can be heard over the crashing waves.  A path leads northeast from the beach into a pine woods."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "saltwater",
-  "title": [
-    "[Vornavian Coast, Beach]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5213": 0.2,
-    "5210": 0.2,
-    "5212": 0.2
-  },
-  "id": 5211,
-  "location": "the Vornavian Coast",
   "tags": [
     "strand of seaweed",
-    "yabathilium fruit",
-    "strof seaweed",
-    "murdroot",
-    "wavepetal blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "yabathilium fruit"
   ]
 }

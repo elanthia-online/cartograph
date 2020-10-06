@@ -1,33 +1,30 @@
 {
+  "id": 11699,
+  "title": [
+    "[Marsh Keep, West Wall]"
+  ],
+  "description": [
+    "The tall earthen barriers continue to run alongside the walls, beyond which rising out of the fog of far away, is a tall hill.  The ever present mist comes and goes, revealing a desolate landscape of tall reeds and the occasional lone and bent sycamore or willow tree rising above them."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Marsh Keep",
   "wayto": {
     "11700": "north",
     "11698": "south"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "11700": 0.2,
+    "11698": 0.2
+  },
+  "image": "rr-marsh_keep-1266356986.png",
   "image_coords": [
     349,
     586,
     359,
     596
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The tall earthen barriers continue to run alongside the walls, beyond which rising out of the fog of far away, is a tall hill.  The ever present mist comes and goes, revealing a desolate landscape of tall reeds and the occasional lone and bent sycamore or willow tree rising above them."
-  ],
-  "image": "rr-marsh_keep-1266356986.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Marsh Keep, West Wall]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11700": 0.2,
-    "11698": 0.2
-  },
-  "id": 11699,
-  "location": "the Marsh Keep",
   "tags": [
     "some angelica root",
     "some acantha leaf",
@@ -36,23 +33,6 @@
     "sweetfern stalk",
     "bright red cranberry",
     "small wild rose",
-    "sassafras leaf",
-    "acantha leaf",
-    "wolifrew lichen",
-    "aloeas stem",
-    "cuctucae berry",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "withered black mushroom",
-    "stalk of chicory",
-    "mistweed",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sassafras leaf"
   ]
 }

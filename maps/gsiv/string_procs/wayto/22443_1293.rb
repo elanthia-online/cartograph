@@ -1,1 +1,2 @@
-put 'search';put 'go blood-soaked trail'
+put 'search'
+put 'go blood-soaked trail'

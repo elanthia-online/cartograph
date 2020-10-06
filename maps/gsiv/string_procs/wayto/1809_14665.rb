@@ -1,1 +1,2 @@
-move 'northwest'; move 'northeast' if checkpaths.include?('ne')
+move 'northwest'
+ move 'northeast' if checkpaths.include?('ne')

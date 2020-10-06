@@ -1,28 +1,22 @@
 {
-  "wayto": {
-    "13060": "go opening"
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "You are standing in a tiny room whose facing wall is an array of small, locked doors.  One of the lockers has been removed for you and is sitting in a small counter."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 28715,
   "title": [
     "[Company Lockers]"
   ],
-  "check_location": null,
+  "description": [
+    "You are standing in a tiny room whose facing wall is an array of small, locked doors.  One of the lockers has been removed for you and is sitting in a small counter."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "wayto": {
+    "13060": "go opening"
+  },
   "timeto": {
     "13060": 0.2
   },
-  "id": 28715,
-  "location": "the town of Kharam-Dzu",
   "tags": [
     "peer opening =~ /^Obvious exits: west$/"
-  ],
-  "unique_loot": null
+  ]
 }

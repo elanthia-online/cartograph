@@ -1,40 +1,30 @@
 {
+  "id": 2794,
+  "title": [
+    "[Pinefar, Second Floor Hallway]"
+  ],
+  "description": [
+    "Two oak doors mark the hall's eastern end, one heavily carved and the other simply marked, embraced within their carved lintels.  To the west, the hall marches along, the gold glow of beeswax candles in their iron holders throwing puddles of light on the beamed ceiling and carpeted floor."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the Pinefar Trading Post",
   "wayto": {
     "15605": "go door",
     "2792": "west",
     "25401": "go other door"
   },
-  "paths": [
-    "Obvious exits: west"
-  ],
-  "image_coords": [
-    212,
-    845,
-    222,
-    855
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Two oak doors mark the hall's eastern end, one heavily carved and the other simply marked, embraced within their carved lintels.  To the west, the hall marches along, the gold glow of beeswax candles in their iron holders throwing puddles of light on the beamed ceiling and carpeted floor."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Pinefar, Second Floor Hallway]"
-  ],
-  "check_location": null,
   "timeto": {
     "15605": 0.2,
     "2792": 0.2,
     "25401": 0.2
   },
-  "id": 2794,
-  "location": "the Pinefar Trading Post",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "imt-pinefar-1264234799.png",
+  "image_coords": [
+    212,
+    845,
+    222,
+    855
   ]
 }

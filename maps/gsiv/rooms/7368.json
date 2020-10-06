@@ -1,45 +1,35 @@
 {
+  "id": 7368,
+  "title": [
+    "[Shadow Plain]"
+  ],
+  "description": [
+    "A chilly grey mist swirls through a stand of long dead fels casting ghostly shadows upon the ground.  The damp mist turns the ground underfoot into thick black mud, making travel more difficult."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast, southwest"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7361": "north",
     "7384": "southwest",
     "7365": "southeast"
   },
-  "paths": [
-    "Obvious paths: north, southeast, southwest"
-  ],
+  "timeto": {
+    "7361": 0.2,
+    "7384": 0.2,
+    "7365": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1307,
     1023,
     1313,
     1029
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "A chilly grey mist swirls through a stand of long dead fels casting ghostly shadows upon the ground.  The damp mist turns the ground underfoot into thick black mud, making travel more difficult."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Shadow Plain]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7361": 0.2,
-    "7384": 0.2,
-    "7365": 0.2
-  },
-  "id": 7368,
-  "location": "the Shadow Valley",
   "tags": [
     "some longgrass",
     "some petrified shadowstalk",
-    "night mare",
-    "longgrass",
-    "wyrm thorn",
-    "petrified shadowstalk",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "night mare"
   ]
 }

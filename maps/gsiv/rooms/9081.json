@@ -1,43 +1,33 @@
 {
+  "id": 9081,
+  "title": [
+    "[Infested Tunnels, Rat's Nest]"
+  ],
+  "description": [
+    "Shrill rodent screeching echoes off the rough walls.  A great multitude of tracks cover the filthy ground.  Amongst the decaying debris you spot a small scrap of yellowed paper."
+  ],
+  "paths": [
+    "Obvious exits: east, southeast, southwest"
+  ],
+  "location": "the subterranean tunnels",
   "wayto": {
     "9080": "east",
     "9082": "southwest",
     "9083": "southeast"
   },
-  "paths": [
-    "Obvious exits: east, southeast, southwest"
-  ],
+  "timeto": {
+    "9080": 0.2,
+    "9082": 0.2,
+    "9083": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     1271,
     403,
     1281,
     413
   ],
-  "terrain": "indoors",
-  "description": [
-    "Shrill rodent screeching echoes off the rough walls.  A great multitude of tracks cover the filthy ground.  Amongst the decaying debris you spot a small scrap of yellowed paper."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Infested Tunnels, Rat's Nest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9080": 0.2,
-    "9082": 0.2,
-    "9083": 0.2
-  },
-  "id": 9081,
-  "location": "the subterranean tunnels",
   "tags": [
-    "some wolifrew lichen",
-    "wolifrew lichen",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wolifrew lichen"
   ]
 }

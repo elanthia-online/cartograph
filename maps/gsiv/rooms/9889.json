@@ -1,40 +1,32 @@
 {
-  "wayto": {
-    "18803": {
-      "stringproc": "9530e7b353488450abf514d7328187a8"
-    },
-    "9888": "northeast",
-    "13183": {
-      "stringproc": "9bf57bf3fda33e99abb00f61f6b4286d"
-    },
-    "9890": "go grove",
-    "16956": {
-      "stringproc": "be97885db95624bceef2deaffc5e02c4"
-    },
-    "16957": {
-      "stringproc": "3ec966178521e1f4be79cba045229179"
-    },
-    "9886": "southeast"
-  },
-  "paths": [
-    "Obvious paths: northeast, southeast"
-  ],
-  "image_coords": [
-    1018,
-    193,
-    1028,
-    203
-  ],
-  "terrain": "deciduous forest",
-  "description": [
-    "Next to the path, a filigree of lichens cover the shoulders of a grouping of three boulders huddled like ancient old trolls squatting over a game of knucklebones.  Birds chatter and dart through the linden boughs overhead, the leafy half-light of the thick canopy offering them almost constant concealment.  The grove wears its scent of rich, moist earth and leafy compost like a rare perfume, alternately strong and subtle depending on the whim of the breeze."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
+  "id": 9889,
   "title": [
     "[Linden Grove, Path]"
   ],
-  "check_location": null,
+  "description": [
+    "Next to the path, a filigree of lichens cover the shoulders of a grouping of three boulders huddled like ancient old trolls squatting over a game of knucklebones.  Birds chatter and dart through the linden boughs overhead, the leafy half-light of the thick canopy offering them almost constant concealment.  The grove wears its scent of rich, moist earth and leafy compost like a rare perfume, alternately strong and subtle depending on the whim of the breeze."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast"
+  ],
+  "location": "the dark woods",
+  "wayto": {
+    "18803": {
+      "file": "string_procs/wayto/9889_18803.rb"
+    },
+    "9888": "northeast",
+    "13183": {
+      "file": "string_procs/wayto/9889_13183.rb"
+    },
+    "9890": "go grove",
+    "16956": {
+      "file": "string_procs/wayto/9889_16956.rb"
+    },
+    "16957": {
+      "file": "string_procs/wayto/9889_16957.rb"
+    },
+    "9886": "southeast"
+  },
   "timeto": {
     "18803": 15.0,
     "9888": 0.2,
@@ -44,8 +36,13 @@
     "16957": 15.0,
     "9886": 0.2
   },
-  "id": 9889,
-  "location": "the dark woods",
+  "image": "en-sapphire-1264234799.png",
+  "image_coords": [
+    1018,
+    193,
+    1028,
+    203
+  ],
   "tags": [
     "some acantha leaf",
     "some torban leaf",
@@ -55,64 +52,6 @@
     "some tree bark",
     "bloodwood twig",
     "ebony twig",
-    "some murkweed",
-    "acantha leaf",
-    "torban leaf",
-    "calamia fruit",
-    "haphip root",
-    "basal moss",
-    "sticks",
-    "angelica root",
-    "trollfear mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "blueberries",
-    "elderberries",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "wild grapes",
-    "broken twig",
-    "stalk of bluebells",
-    "golden buttercup",
-    "wild pink geranium",
-    "stalk of goldenrod",
-    "small wild rose",
-    "sprig of wild lilac",
-    "wild beechnut",
-    "stalk of burdock",
-    "silver-edged fern",
-    "wild chokecherry",
-    "lady slipper blossom",
-    "wild orchid",
-    "wood violet",
-    "wolfsbane root",
-    "sprig of mistletoe",
-    "tree bark",
-    "murkweed",
-    "white lily",
-    "pink rain lily",
-    "coppery rain lily",
-    "oxblood lily",
-    "blue whortleberry",
-    "white baneberry",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "nightbloom blossom",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some murkweed"
   ]
 }

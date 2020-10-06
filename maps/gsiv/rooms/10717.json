@@ -1,34 +1,31 @@
 {
+  "id": 10717,
+  "title": [
+    "[Plains of Bone, Boneyard]"
+  ],
+  "description": [
+    "A small trench cuts through the grass and bones.  Muddy water, black in the night darkness, flows through the small stream, occasionally dislodging a small bone to send it downstream.  An enormous leg bone from an unknown creature rests in the stream, diverting it into two small channels.",
+    "A small trench cuts through the grass and bones.  Muddy water flows through the small stream, occasionally dislodging a small bone to send it downstream.  An enormous leg bone from an unknown creature rests in the stream, diverting it into two small channels."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Plains of Bone",
   "wayto": {
     "10716": "south",
     "10718": "north"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "10716": 0.2,
+    "10718": 0.2
+  },
+  "image": "en-cemetery-1264234799.png",
   "image_coords": [
     586,
     131,
     596,
     141
   ],
-  "terrain": null,
-  "description": [
-    "A small trench cuts through the grass and bones.  Muddy water, black in the night darkness, flows through the small stream, occasionally dislodging a small bone to send it downstream.  An enormous leg bone from an unknown creature rests in the stream, diverting it into two small channels.",
-    "A small trench cuts through the grass and bones.  Muddy water flows through the small stream, occasionally dislodging a small bone to send it downstream.  An enormous leg bone from an unknown creature rests in the stream, diverting it into two small channels."
-  ],
-  "image": "en-cemetery-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Plains of Bone, Boneyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10716": 0.2,
-    "10718": 0.2
-  },
-  "id": 10717,
-  "location": "the Plains of Bone",
   "tags": [
     "sprig of alyssum",
     "handful of currants",
@@ -67,8 +64,5 @@
     "ironfern root",
     "sunburst blossom",
     "wingstem root"
-  ],
-  "links": [
-
   ]
 }

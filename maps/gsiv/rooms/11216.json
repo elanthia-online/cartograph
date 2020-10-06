@@ -1,38 +1,28 @@
 {
+  "id": 11216,
+  "title": [
+    "[Armory, Archery Range]"
+  ],
+  "description": [
+    "Three targets, battered and worn with time, are at the far end of this long and narrow room.  Grooves are cut into the stones for the archers to line up against.  A piece of slate on the wall is still marked with white crosshatches, drawn with a piece of limestone to keep score.  Burnt-out torches rest in four wall sconces in the corners."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11217": "west",
     "11206": "south"
   },
-  "paths": [
-    "Obvious exits: south, west"
-  ],
+  "timeto": {
+    "11217": 0.2,
+    "11206": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     251,
     178,
     261,
     188
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Three targets, battered and worn with time, are at the far end of this long and narrow room.  Grooves are cut into the stones for the archers to line up against.  A piece of slate on the wall is still marked with white crosshatches, drawn with a piece of limestone to keep score.  Burnt-out torches rest in four wall sconces in the corners."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Armory, Archery Range]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11217": 0.2,
-    "11206": 0.2
-  },
-  "id": 11216,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

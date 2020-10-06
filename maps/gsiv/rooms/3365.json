@@ -1,63 +1,60 @@
 {
+  "id": 3365,
+  "title": [
+    "[Icemule Trace, Ice Garden]"
+  ],
+  "description": [
+    "Alpine flowerbeds ring this tucked-away courtyard, their bright colors a feast for the eyes in comparison to the white of all the snow that lies beyond the gate.  Tamped snow paths keep footsteps soft in this small haven as travellers make their way to and from the chambers north of here.  Centered in a bed of white edelweiss and aromatic purple-flowered calamintha is an ice fountain, its watery spray frozen in a sparkling plume."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "2972": {
-      "stringproc": "2fc31c93ec90acc2922ec832f5d39119"
+      "file": "string_procs/wayto/3365_2972.rb"
     },
     "2808": {
-      "stringproc": "a2788420a8f60083f093ee7bc8e9df44"
+      "file": "string_procs/wayto/3365_2808.rb"
     },
     "3369": "north",
     "2304": "go wrought gate",
     "3140": {
-      "stringproc": "e670e8003e7c8321ae47b54c4d51cff5"
+      "file": "string_procs/wayto/3365_3140.rb"
     },
     "2635": {
-      "stringproc": "c35a65f525732e7cfcd6b739de2f06ba"
+      "file": "string_procs/wayto/3365_2635.rb"
     },
     "24533": {
-      "stringproc": "0a7da2ecf932aa026732d06571d80257"
+      "file": "string_procs/wayto/3365_24533.rb"
     }
   },
-  "paths": [
-    "Obvious paths: north"
-  ],
+  "timeto": {
+    "2972": {
+      "file": "string_procs/timeto/3365_2972.rb"
+    },
+    "2808": {
+      "file": "string_procs/timeto/3365_2808.rb"
+    },
+    "3369": 0.2,
+    "2304": 0.2,
+    "3140": {
+      "file": "string_procs/timeto/3365_3140.rb"
+    },
+    "2635": {
+      "file": "string_procs/timeto/3365_2635.rb"
+    },
+    "24533": {
+      "file": "string_procs/timeto/3365_24533.rb"
+    }
+  },
+  "image": "imt-icemule-1474811966.png",
   "image_coords": [
     760,
     611,
     796,
     647
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "Alpine flowerbeds ring this tucked-away courtyard, their bright colors a feast for the eyes in comparison to the white of all the snow that lies beyond the gate.  Tamped snow paths keep footsteps soft in this small haven as travellers make their way to and from the chambers north of here.  Centered in a bed of white edelweiss and aromatic purple-flowered calamintha is an ice fountain, its watery spray frozen in a sparkling plume."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "glacial",
-  "title": [
-    "[Icemule Trace, Ice Garden]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2972": {
-      "stringproc": "2bbb097d938447a7bd64060474491999"
-    },
-    "2808": {
-      "stringproc": "2bbb097d938447a7bd64060474491999"
-    },
-    "3369": 0.2,
-    "2304": 0.2,
-    "3140": {
-      "stringproc": "2bbb097d938447a7bd64060474491999"
-    },
-    "2635": {
-      "stringproc": "2bbb097d938447a7bd64060474491999"
-    },
-    "24533": {
-      "stringproc": "2bbb097d938447a7bd64060474491999"
-    }
-  },
-  "id": 3365,
-  "location": "Icemule Trace",
   "tags": [
     "voln",
     "node",
@@ -71,10 +68,6 @@
     "pennyroyal stem",
     "frostflower",
     "ironfern root",
-    "arctic moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "arctic moss"
   ]
 }

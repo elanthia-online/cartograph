@@ -1,4 +1,15 @@
 {
+  "id": 284,
+  "title": [
+    "[Town Square, Southwest]"
+  ],
+  "description": [
+    "This corner of the square seems somewhat subdued.  Townsfolk pass through on their way to the shops, the bazaar, or the main well at the center of the square.  Others hurry past, anxious to get home or go on about their business."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, east, south, west"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "282": "east",
     "228": "northeast",
@@ -8,28 +19,9 @@
     "289": "west",
     "8632": "go wood-sided shop",
     "3668": {
-      "stringproc": "592e7660bc67a7aa2aeeed086c964162"
+      "file": "string_procs/wayto/284_3668.rb"
     }
   },
-  "paths": [
-    "Obvious paths: north, northeast, east, south, west"
-  ],
-  "image_coords": [
-    198,
-    877,
-    234,
-    913
-  ],
-  "terrain": "plain dirt",
-  "description": [
-    "This corner of the square seems somewhat subdued.  Townsfolk pass through on their way to the shops, the bazaar, or the main well at the center of the square.  Others hurry past, anxious to get home or go on about their business."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Town Square, Southwest]"
-  ],
-  "check_location": null,
   "timeto": {
     "282": 0.2,
     "228": 0.2,
@@ -39,11 +31,16 @@
     "289": 0.2,
     "8632": 0.2,
     "3668": {
-      "stringproc": "29b1354ccf08a2ee74d79a164189741e"
+      "file": "string_procs/timeto/284_3668.rb"
     }
   },
-  "id": 284,
-  "location": "the town of Wehnimer's Landing",
+  "image": "wl-wehnimers-1264234799.png",
+  "image_coords": [
+    198,
+    877,
+    234,
+    913
+  ],
   "tags": [
     "some sovyn clove",
     "some acantha leaf",
@@ -71,13 +68,6 @@
     "ironfern root",
     "wingstem root",
     "bur-clover root",
-    "meta:teleport:fwi",
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:teleport:fwi"
   ]
 }

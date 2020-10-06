@@ -1,44 +1,33 @@
 {
+  "id": 12025,
+  "title": [
+    "[Old Ta'Faendryl, Amphitheatre]"
+  ],
+  "description": [
+    "A narrow path formed by the remains of a long stone bench picks its way between haphazard piles of crumbling granite blocks.  It would be possible, by climbing over the fallen stone, to descend to the grassy area to the south."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest"
+  ],
+  "location": "Old Ta'Faendryl",
   "wayto": {
     "12019": "climb blocks",
     "12024": "southeast",
     "12026": "southwest"
   },
-  "paths": [
-    "Obvious paths: southeast, southwest"
-  ],
+  "timeto": {
+    "12019": 0.2,
+    "12024": 0.2,
+    "12026": 0.2
+  },
+  "image": "en-old_ta_faendryl-1264234799.png",
   "image_coords": [
     956,
     409,
     966,
     419
   ],
-  "terrain": null,
-  "description": [
-    "A narrow path formed by the remains of a long stone bench picks its way between haphazard piles of crumbling granite blocks.  It would be possible, by climbing over the fallen stone, to descend to the grassy area to the south."
-  ],
-  "image": "en-old_ta_faendryl-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Old Ta'Faendryl, Amphitheatre]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "12019": 0.2,
-    "12024": 0.2,
-    "12026": 0.2
-  },
-  "id": 12025,
-  "location": "Old Ta'Faendryl",
   "tags": [
-    "sprig of sky-blue delphinuris",
-    "wild chokecherry",
-    "pepperthorn root",
-    "ironfern root",
-    "sky-blue delphinuris",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sprig of sky-blue delphinuris"
   ]
 }

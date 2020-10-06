@@ -1,48 +1,32 @@
 {
-  "wayto": {
-    "4569": {
-      "stringproc": "dbbfd361e7886ce7121cafa8a1b5c5c5"
-    },
-    "4571": {
-      "stringproc": "395b361a16c8a355265cda519abf9fe5"
-    }
-  },
+  "id": 4570,
+  "title": [
+    "[Griffin's Keen, Inner Trail]"
+  ],
+  "description": [
+    "Black ice coats everything on the north face of the mountain.  Snow clings to it in cracks and crevices, but blows by in a flurry everywhere else.  The track is slick and climbing is perilous.  Half frozen into the ice are the tattered remains of a canvas backpack, doubtless left behind by some climber desperate to lighten his load."
+  ],
   "paths": [
     "Obvious paths: up, down"
   ],
+  "location": "Griffin's Keen",
+  "wayto": {
+    "4569": {
+      "file": "string_procs/wayto/4570_4569.rb"
+    },
+    "4571": {
+      "file": "string_procs/wayto/4570_4571.rb"
+    }
+  },
+  "timeto": {
+    "4569": 4.2,
+    "4571": 4.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     612,
     267,
     622,
     277
-  ],
-  "terrain": null,
-  "description": [
-    "Black ice coats everything on the north face of the mountain.  Snow clings to it in cracks and crevices, but blows by in a flurry everywhere else.  The track is slick and climbing is perilous.  Half frozen into the ice are the tattered remains of a canvas backpack, doubtless left behind by some climber desperate to lighten his load."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Griffin's Keen, Inner Trail]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4569": 4.2,
-    "4571": 4.2
-  },
-  "id": 4570,
-  "location": "Griffin's Keen",
-  "tags": [
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "sprig of holly",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

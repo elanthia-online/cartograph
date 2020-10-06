@@ -1,43 +1,33 @@
 {
+  "id": 9085,
+  "title": [
+    "[Infested Tunnels, Rat's Nest]"
+  ],
+  "description": [
+    "Bits of fur and other filth drift about in the air along the dark tunnels.  You can't shake the feeling that as you stalk the rats, contagion stalks you.  Cold steel is no protection against the slow death of disease."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east, northwest"
+  ],
+  "location": "the subterranean tunnels",
   "wayto": {
     "9088": "east",
     "9089": "northwest",
     "9084": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, east, northwest"
-  ],
+  "timeto": {
+    "9088": 0.2,
+    "9089": 0.2,
+    "9084": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     1269,
     304,
     1279,
     314
   ],
-  "terrain": "indoors",
-  "description": [
-    "Bits of fur and other filth drift about in the air along the dark tunnels.  You can't shake the feeling that as you stalk the rats, contagion stalks you.  Cold steel is no protection against the slow death of disease."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Infested Tunnels, Rat's Nest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9088": 0.2,
-    "9089": 0.2,
-    "9084": 0.2
-  },
-  "id": 9085,
-  "location": "the subterranean tunnels",
   "tags": [
-    "some wolifrew lichen",
-    "wolifrew lichen",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wolifrew lichen"
   ]
 }

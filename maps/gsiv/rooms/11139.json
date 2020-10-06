@@ -1,44 +1,30 @@
 {
+  "id": 11139,
+  "title": [
+    "[River Tunnels]"
+  ],
+  "description": [
+    "The tunnels slope upwards to the northwest with two other branches appearing to level out here.  If you listen closely you can hear the rushing waters of the river above your head.  You breathe in the damp air and realize that, not knowing how much rock is between you and the river, it is a good thing you are not claustrophobic."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest, up"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11138": "up",
     "11140": "se",
     "11142": "southwest"
   },
-  "paths": [
-    "Obvious exits: southeast, southwest, up"
-  ],
-  "image_coords": [
-    639,
-    61,
-    649,
-    71
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The tunnels slope upwards to the northwest with two other branches appearing to level out here.  If you listen closely you can hear the rushing waters of the river above your head.  You breathe in the damp air and realize that, not knowing how much rock is between you and the river, it is a good thing you are not claustrophobic."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "indoors",
-  "title": [
-    "[River Tunnels]"
-  ],
-  "check_location": null,
   "timeto": {
     "11138": 0.2,
     "11140": 0.2,
     "11142": 0.2
   },
-  "id": 11139,
-  "location": "the Citadel",
-  "tags": [
-    "withered black mushroom",
-    "cave moss",
-    "murdroot",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-rivers_rest-1266350289.png",
+  "image_coords": [
+    639,
+    61,
+    649,
+    71
   ]
 }

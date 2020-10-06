@@ -1,34 +1,31 @@
 {
+  "id": 766,
+  "title": [
+    "[Whistler's Pass, Grassy Field]"
+  ],
+  "description": [
+    "The moonlit trail meanders through a field of grass slightly taller than the average halfling.  Gusts of wind create waves in the grass, causing the blades to bow low onto the trail at the wave's terminus.",
+    "The trail meanders through a field of grass slightly taller than the average halfling.  Gusts of wind create waves in the grass, causing the blades to bow low onto the trail at the wave's terminus."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "765": "northeast",
     "767": "south"
   },
-  "paths": [
-    "Obvious paths: northeast, south"
-  ],
+  "timeto": {
+    "765": 0.2,
+    "767": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     489,
     881,
     499,
     891
   ],
-  "terrain": "mountainous",
-  "description": [
-    "The moonlit trail meanders through a field of grass slightly taller than the average halfling.  Gusts of wind create waves in the grass, causing the blades to bow low onto the trail at the wave's terminus.",
-    "The trail meanders through a field of grass slightly taller than the average halfling.  Gusts of wind create waves in the grass, causing the blades to bow low onto the trail at the wave's terminus."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Whistler's Pass, Grassy Field]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "765": 0.2,
-    "767": 0.2
-  },
-  "id": 766,
-  "location": "Whistler's Pass",
   "tags": [
     "angelica root",
     "stalk of bluebells",
@@ -49,11 +46,6 @@
     "pepperthorn root",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "mountain dryad",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

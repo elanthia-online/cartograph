@@ -1,52 +1,36 @@
 {
+  "id": 5772,
+  "title": [
+    "[Mraent Cavern, Granite Tunnel]"
+  ],
+  "description": [
+    "The tunnel flattens out through a long stretch of dark grey stone.  The rough granite drips with moisture, which collects in pools on the ground.  A large crack in one wall suggests the enormous pressure created by the weight of the mountain above."
+  ],
+  "paths": [
+    "Obvious exits: east, south, west"
+  ],
+  "location": "the Mraent Caverns",
   "wayto": {
     "5774": "west",
     "5770": "east",
     "5773": "south"
   },
-  "paths": [
-    "Obvious exits: east, south, west"
-  ],
+  "timeto": {
+    "5774": 0.2,
+    "5770": 0.2,
+    "5773": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     384,
     177,
     394,
     187
   ],
-  "terrain": "indoors",
-  "description": [
-    "The tunnel flattens out through a long stretch of dark grey stone.  The rough granite drips with moisture, which collects in pools on the ground.  A large crack in one wall suggests the enormous pressure created by the weight of the mountain above."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mraent Cavern, Granite Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5774": 0.2,
-    "5770": 0.2,
-    "5773": 0.2
-  },
-  "id": 5772,
-  "location": "the Mraent Caverns",
   "tags": [
     "giant glowing toadstool",
     "red trafel mushroom",
     "some bolmara lichen",
-    "some wingstem root",
-    "soft white mushroom",
-    "withered black mushroom",
-    "black hook mushroom",
-    "blue trafel mushroom",
-    "glowing toadstool",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

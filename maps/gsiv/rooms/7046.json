@@ -1,41 +1,33 @@
 {
-  "wayto": {
-    "3705": {
-      "stringproc": "91002200eb9f02b3f86469414b8bf1ae"
-    },
-    "7099": {
-      "stringproc": "f347553d725fc636ea2c3d8602d4061c"
-    },
-    "7045": "out",
-    "7144": {
-      "stringproc": "8d7fa8d9301fa88a470abde5990e4587"
-    },
-    "7047": {
-      "stringproc": "07a6610ef596cf5094972590b63e36a9"
-    },
-    "7083": {
-      "stringproc": "1582d340d60bcd4aad19bce73c7d24ff"
-    }
-  },
-  "paths": [
-    "Obvious exits: out"
-  ],
-  "image_coords": [
-    583,
-    675,
-    593,
-    685
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This exceptionally small space is made to seem even smaller by the menacingly sharp and disturbingly stained spikes, which poke at you from all directions.  A strap allows you to open and close the door, but that would seem to be exceedingly dangerous."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
+  "id": 7046,
   "title": [
     "[Iron Maiden]"
   ],
-  "check_location": null,
+  "description": [
+    "This exceptionally small space is made to seem even smaller by the menacingly sharp and disturbingly stained spikes, which poke at you from all directions.  A strap allows you to open and close the door, but that would seem to be exceedingly dangerous."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Darkstone Castle",
+  "wayto": {
+    "3705": {
+      "file": "string_procs/wayto/7046_3705.rb"
+    },
+    "7099": {
+      "file": "string_procs/wayto/7046_7099.rb"
+    },
+    "7045": "out",
+    "7144": {
+      "file": "string_procs/wayto/7046_7144.rb"
+    },
+    "7047": {
+      "file": "string_procs/wayto/7046_7047.rb"
+    },
+    "7083": {
+      "file": "string_procs/wayto/7046_7083.rb"
+    }
+  },
   "timeto": {
     "3705": 0.2,
     "7099": 0.2,
@@ -44,13 +36,11 @@
     "7047": 0.2,
     "7083": 0.2
   },
-  "id": 7046,
-  "location": "Darkstone Castle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-darkstone-1264234799.png",
+  "image_coords": [
+    583,
+    675,
+    593,
+    685
   ]
 }

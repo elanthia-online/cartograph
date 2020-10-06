@@ -1,41 +1,33 @@
 {
+  "id": 9536,
+  "title": [
+    "[Troll Burial Grounds]"
+  ],
+  "description": [
+    "The flow of bones continues to the east and west seemingly without end.  The smell of bat guano mingles with the stinking rot and decay that is ever present in these caverns.  Firefly light occasionally glints off tiny bits of metallic substances buried in the midst of the stark whiteness of the endless sea of bones."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Troll Burial Grounds",
   "wayto": {
     "9537": "west",
     "9535": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "9537": 0.2,
+    "9535": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     712,
     1131,
     722,
     1141
   ],
-  "terrain": "indoors",
-  "description": [
-    "The flow of bones continues to the east and west seemingly without end.  The smell of bat guano mingles with the stinking rot and decay that is ever present in these caverns.  Firefly light occasionally glints off tiny bits of metallic substances buried in the midst of the stark whiteness of the endless sea of bones."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Troll Burial Grounds]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9537": 0.2,
-    "9535": 0.2
-  },
-  "id": 9536,
-  "location": "the Troll Burial Grounds",
   "tags": [
     "blue trafel mushroom",
     "withered black mushroom",
-    "soft white mushroom",
-    "pepperthorn root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "soft white mushroom"
   ]
 }

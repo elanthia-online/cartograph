@@ -1,51 +1,38 @@
 {
+  "id": 6891,
+  "title": [
+    "[Smuggling Tunnels, Mess Hall]"
+  ],
+  "description": [
+    "Pots, pans, and other metal dishes scatter across the floor, all covered with a fine layer of dust.  Soup bones and other cooking ingredients rot in the dirt, adding a less than pleasant fragrance to the air.  How one of the plates got halfway imbedded into the ceiling is anyone's guess."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south, west"
+  ],
+  "location": "the smuggling tunnels",
   "wayto": {
     "6896": "south",
     "6889": "north",
     "6890": "east",
     "6892": "west"
   },
-  "paths": [
-    "Obvious exits: north, east, south, west"
-  ],
-  "image_coords": [
-    1076,
-    1274,
-    1086,
-    1284
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Pots, pans, and other metal dishes scatter across the floor, all covered with a fine layer of dust.  Soup bones and other cooking ingredients rot in the dirt, adding a less than pleasant fragrance to the air.  How one of the plates got halfway imbedded into the ceiling is anyone's guess."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Smuggling Tunnels, Mess Hall]"
-  ],
-  "check_location": null,
   "timeto": {
     "6896": 0.2,
     "6889": 0.2,
     "6890": 0.2,
     "6892": 0.2
   },
-  "id": 6891,
-  "location": "the smuggling tunnels",
+  "image": "wl-gates-1264234799.png",
+  "image_coords": [
+    1076,
+    1274,
+    1086,
+    1284
+  ],
   "tags": [
     "withered black mushroom",
     "some wingstem root",
     "some bur-clover root",
-    "some cave moss",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

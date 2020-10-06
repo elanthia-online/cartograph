@@ -1,41 +1,28 @@
 {
+  "id": 7425,
+  "title": [
+    "[Mine Tunnels]"
+  ],
+  "description": [
+    "Dust, dirt, and mud... the tunnel grows more and more monotonous with every step.  The only saving grace of this unremarkable tunnel is that it continues both north and south."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7426": "south",
     "7424": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "7426": 0.2,
+    "7424": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1178,
     136,
     1186,
     144
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Dust, dirt, and mud... the tunnel grows more and more monotonous with every step.  The only saving grace of this unremarkable tunnel is that it continues both north and south."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mine Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7426": 0.2,
-    "7424": 0.2
-  },
-  "id": 7425,
-  "location": "the Shadow Valley",
-  "tags": [
-    "cave moss",
-    "blackgrove root",
-    "shadowlace moss",
-    "blue moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

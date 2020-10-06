@@ -1,40 +1,32 @@
 {
-  "wayto": {
-    "2364": "southeast",
-    "24433": "north"
-  },
+  "id": 24430,
+  "title": [
+    "[Ancient Burrow, Ingress]"
+  ],
+  "description": [
+    "Crystallized trails of water line the natural stone walls of the ingress.  Placed on either side of the barrier are a series of carved runes paired with rhimar sigils.  A shallow trough runs the length of the walls, cracked and barren of fluids.  Carved black marble stones create a curving path heading north, alternating with white marble inlays."
+  ],
   "paths": [
     "Obvious paths: north, out",
     "Obvious paths: north, southeast"
   ],
+  "location": "Icemule Trace",
+  "wayto": {
+    "2364": "southeast",
+    "24433": "north"
+  },
+  "timeto": {
+    "2364": 0.2,
+    "24433": 0.2
+  },
+  "image": "imt-icemule-1474811966.png",
   "image_coords": [
     189,
     393,
     204,
     408
   ],
-  "terrain": "hard, flat",
-  "description": [
-    "Crystallized trails of water line the natural stone walls of the ingress.  Placed on either side of the barrier are a series of carved runes paired with rhimar sigils.  A shallow trough runs the length of the walls, cracked and barren of fluids.  Carved black marble stones create a curving path heading north, alternating with white marble inlays."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Ancient Burrow, Ingress]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2364": 0.2,
-    "24433": 0.2
-  },
-  "id": 24430,
-  "location": "Icemule Trace",
   "tags": [
-    "calmintha flower",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null,
-  "links": [
-
+    "calmintha flower"
   ]
 }

@@ -1,38 +1,28 @@
 {
+  "id": 6595,
+  "title": [
+    "[Anwyn Castle, Stables]"
+  ],
+  "description": [
+    "The doorway in this section of the old building is generous enough to allow a wagon passage through.  Hooks are prevalent on the walls, with old tack hanging from some of them.  Most of the leather has long ago rotted away, but the metal pieces remaining exhibit fine workmanship.  A rank of empty stalls extends away to the west."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Castle Anwyn",
   "wayto": {
     "6592": "go door",
     "6594": "west"
   },
-  "paths": [
-    "Obvious exits: west"
-  ],
+  "timeto": {
+    "6592": 0.2,
+    "6594": 0.2
+  },
+  "image": "wl-lysierian-1264234799.png",
   "image_coords": [
     1213,
     811,
     1223,
     821
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The doorway in this section of the old building is generous enough to allow a wagon passage through.  Hooks are prevalent on the walls, with old tack hanging from some of them.  Most of the leather has long ago rotted away, but the metal pieces remaining exhibit fine workmanship.  A rank of empty stalls extends away to the west."
-  ],
-  "image": "wl-lysierian-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Anwyn Castle, Stables]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6592": 0.2,
-    "6594": 0.2
-  },
-  "id": 6595,
-  "location": "Castle Anwyn",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

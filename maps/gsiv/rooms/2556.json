@@ -1,33 +1,30 @@
 {
+  "id": 2556,
+  "title": [
+    "[Glatoph, Glacier Chasm]"
+  ],
+  "description": [
+    "Deep cracks can be seen in the icy walls surrounding you.  From this vantage point you can barely see the bottom of the chasm.  The howling of the strong winds above creates an eerie feeling as you continue along the trail."
+  ],
+  "paths": [
+    "Obvious paths: east, up"
+  ],
+  "location": "the Icemule Trail",
   "wayto": {
     "2555": "east",
     "2557": "up"
   },
-  "paths": [
-    "Obvious paths: east, up"
-  ],
+  "timeto": {
+    "2555": 0.2,
+    "2557": 0.2
+  },
+  "image": "imt-trail-1264234799.png",
   "image_coords": [
     677,
     819,
     687,
     829
   ],
-  "terrain": "mountainous",
-  "description": [
-    "Deep cracks can be seen in the icy walls surrounding you.  From this vantage point you can barely see the bottom of the chasm.  The howling of the strong winds above creates an eerie feeling as you continue along the trail."
-  ],
-  "image": "imt-trail-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Glatoph, Glacier Chasm]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2555": 0.2,
-    "2557": 0.2
-  },
-  "id": 2556,
-  "location": "the Icemule Trail",
   "tags": [
     "golden aster",
     "rockberry",
@@ -67,10 +64,6 @@
     "small loganberry",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

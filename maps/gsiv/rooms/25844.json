@@ -1,43 +1,36 @@
 {
-  "wayto": {
-    "25845": {
-      "stringproc": "7c97847f49fd5aa0407dedb0e3609199"
-    },
-    "25834": {
-      "stringproc": "9b05cb4429e6ad5efbe157efd92e6023"
-    },
-    "25848": {
-      "stringproc": "b3903ef3130903d58c1b8b478bec601b"
-    }
-  },
-  "paths": [
-    "Obvious paths: northeast, southeast, northwest"
-  ],
-  "image_coords": [
-    1121,
-    1759,
-    1141,
-    1778
-  ],
-  "terrain": null,
-  "description": [
-    "Creating dark smudges to the southwest, Charl's Teeth rise ominously against the skyline and block passage to the open waters of the distant ocean.  Small bits of flotsam clank against the towering slabs of obsidian as the waves gently pull and push them back and forth.  Caught in one of the ragged gashes, a dark blue sail flutters forlornly in the light zephyr that pushes its way across the water."
-  ],
-  "image": "ifw-eastern_waterway-1489553700.png",
-  "climate": null,
+  "id": 25844,
   "title": [
     "[Eastern Waterway]"
   ],
-  "check_location": null,
+  "description": [
+    "Creating dark smudges to the southwest, Charl's Teeth rise ominously against the skyline and block passage to the open waters of the distant ocean.  Small bits of flotsam clank against the towering slabs of obsidian as the waves gently pull and push them back and forth.  Caught in one of the ragged gashes, a dark blue sail flutters forlornly in the light zephyr that pushes its way across the water."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, northwest"
+  ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "25845": {
+      "file": "string_procs/wayto/25844_25845.rb"
+    },
+    "25834": {
+      "file": "string_procs/wayto/25844_25834.rb"
+    },
+    "25848": {
+      "file": "string_procs/wayto/25844_25848.rb"
+    }
+  },
   "timeto": {
     "25845": 6.0,
     "25834": 6.0,
     "25848": 6.0
   },
-  "id": 25844,
-  "location": "Mist Harbor",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  "image": "ifw-eastern_waterway-1489553700.png",
+  "image_coords": [
+    1121,
+    1759,
+    1141,
+    1778
+  ]
 }

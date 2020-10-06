@@ -1,44 +1,33 @@
 {
+  "id": 7394,
+  "title": [
+    "[Mine Shaft]"
+  ],
+  "description": [
+    "Dark shadows line the underside of the sharp stone outcroppings extending from the north wall.  The air tastes stale and musty as if this same air has been here for hundreds of years."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7395": "west",
     "7389": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "7395": 0.2,
+    "7389": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1307,
     338,
     1315,
     346
   ],
-  "terrain": "indoors",
-  "description": [
-    "Dark shadows line the underside of the sharp stone outcroppings extending from the north wall.  The air tastes stale and musty as if this same air has been here for hundreds of years."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mine Shaft]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7395": 0.2,
-    "7389": 0.2
-  },
-  "id": 7394,
-  "location": "the Shadow Valley",
   "tags": [
     "some shadowlace moss",
     "some cave moss",
-    "some blue moss",
-    "cave moss",
-    "blackgrove root",
-    "shadowlace moss",
-    "blue moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some blue moss"
   ]
 }

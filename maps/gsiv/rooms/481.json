@@ -1,35 +1,32 @@
 {
+  "id": 481,
+  "title": [
+    "[Coastal Cliffs]"
+  ],
+  "description": [
+    "The worn path follows the contours of the cliffs, curving slightly inland, weaving its way through the scattering of ancient trees."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest, west"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "480": "southeast",
     "482": "southwest",
     "483": "west"
   },
-  "paths": [
-    "Obvious paths: southeast, southwest, west"
-  ],
+  "timeto": {
+    "480": 0.2,
+    "482": 0.2,
+    "483": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     551,
     812,
     561,
     822
   ],
-  "terrain": "hilly",
-  "description": [
-    "The worn path follows the contours of the cliffs, curving slightly inland, weaving its way through the scattering of ancient trees."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Coastal Cliffs]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "480": 0.2,
-    "482": 0.2,
-    "483": 0.2
-  },
-  "id": 481,
-  "location": "the Coastal Cliffs",
   "tags": [
     "cuctucae berry",
     "golden aster",
@@ -68,11 +65,6 @@
     "twisted twig",
     "slender twig",
     "bolmara lichen",
-    "brostheras grass",
-    "sunburst blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

@@ -1,33 +1,30 @@
 {
+  "id": 3699,
+  "title": [
+    "[Darkstone, A Dark Tunnel]"
+  ],
+  "description": [
+    "Darkness blankets you like a thick cloak weighing heavily across your shoulders.  Struggling to focus on something, anything, you spot a skeleton partially buried in the mud."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "3698": "go panel",
     "3700": "down"
   },
-  "paths": [
-    "Obvious exits: down"
-  ],
+  "timeto": {
+    "3698": 0.2,
+    "3700": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     488,
     1161,
     498,
     1171
   ],
-  "terrain": "indoors",
-  "description": [
-    "Darkness blankets you like a thick cloak weighing heavily across your shoulders.  Struggling to focus on something, anything, you spot a skeleton partially buried in the mud."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, A Dark Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3698": 0.2,
-    "3700": 0.2
-  },
-  "id": 3699,
-  "location": "Darkstone Castle",
   "tags": [
     "black hook mushroom",
     "blue trafel mushroom",
@@ -38,15 +35,6 @@
     "red trafel mushroom",
     "some bolmara lichen",
     "white hook mushroom",
-    "massive troll king",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "massive troll king"
   ]
 }

@@ -1,34 +1,31 @@
 {
+  "id": 60,
+  "title": [
+    "[Whistler's Pass, Field]"
+  ],
+  "description": [
+    "The rolling hills leave off for a more level plane.  A faint trail begins, parting the emerald sea of grass in the black night, leading you on through the pass.",
+    "The rolling hills leave off for a more level plane.  A faint trail begins, parting the emerald sea of grass, leading you on through the pass."
+  ],
+  "paths": [
+    "Obvious paths: south, northwest"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "59": "northwest",
     "61": "south"
   },
-  "paths": [
-    "Obvious paths: south, northwest"
-  ],
+  "timeto": {
+    "59": 0.2,
+    "61": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     1054,
     442,
     1064,
     452
   ],
-  "terrain": "hilly",
-  "description": [
-    "The rolling hills leave off for a more level plane.  A faint trail begins, parting the emerald sea of grass in the black night, leading you on through the pass.",
-    "The rolling hills leave off for a more level plane.  A faint trail begins, parting the emerald sea of grass, leading you on through the pass."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Whistler's Pass, Field]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "59": 0.2,
-    "61": 0.2
-  },
-  "id": 60,
-  "location": "Whistler's Pass",
   "tags": [
     "some murkweed",
     "crimson dragonstalk",
@@ -90,11 +87,6 @@
     "slender twig",
     "bolmara lichen",
     "brostheras grass",
-    "sky-blue delphinuris",
-    "mountain dryad",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sky-blue delphinuris"
   ]
 }

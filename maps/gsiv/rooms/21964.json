@@ -1,44 +1,34 @@
 {
-  "wayto": {
-    "22007": "down",
-    "21965": {
-      "stringproc": "0ea5f8d2bd08b719d859a258fb4cb01c"
-    },
-    "21967": {
-      "stringproc": "e22b5e136db73f5032cb8159afa6f93c"
-    }
-  },
-  "paths": [
-    "Obvious exits: down"
-  ],
-  "image_coords": [
-    900,
-    393,
-    914,
-    408
-  ],
-  "terrain": null,
-  "description": [
-    "A small jagged outcropping juts out from the wall, darkness all around.  Tiny, glowing white worms slowly inch up the sides of the cavern."
-  ],
-  "image": "wl-talador-east-1392305660.png",
-  "climate": null,
+  "id": 21964,
   "title": [
     "[Talador Mines, Outcropping]"
   ],
-  "check_location": null,
+  "description": [
+    "A small jagged outcropping juts out from the wall, darkness all around.  Tiny, glowing white worms slowly inch up the sides of the cavern."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Talador",
+  "wayto": {
+    "22007": "down",
+    "21965": {
+      "file": "string_procs/wayto/21964_21965.rb"
+    },
+    "21967": {
+      "file": "string_procs/wayto/21964_21967.rb"
+    }
+  },
   "timeto": {
     "22007": 0.2,
     "21965": 0.2,
     "21967": 0.5
   },
-  "id": 21964,
-  "location": "Talador",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
+  "image": "wl-talador-east-1392305660.png",
+  "image_coords": [
+    900,
+    393,
+    914,
+    408
   ]
 }

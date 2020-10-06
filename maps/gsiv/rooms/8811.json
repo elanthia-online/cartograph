@@ -1,38 +1,28 @@
 {
+  "id": 8811,
+  "title": [
+    "[Dragonsclaw Arms, Third Floor]"
+  ],
+  "description": [
+    "The walls here have been plastered and recently painted over in a lovely shade of deep beige.  Candles set in sconces along the walls provide flickering illumination."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "8810": "east",
     "8806": "west"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "8810": 0.2,
+    "8806": 0.2
+  },
+  "image": "wl-homes-1-1264234799.png",
   "image_coords": [
     613,
     744,
     631,
     762
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The walls here have been plastered and recently painted over in a lovely shade of deep beige.  Candles set in sconces along the walls provide flickering illumination."
-  ],
-  "image": "wl-homes-1-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dragonsclaw Arms, Third Floor]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8810": 0.2,
-    "8806": 0.2
-  },
-  "id": 8811,
-  "location": "Wehnimer's Landing",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

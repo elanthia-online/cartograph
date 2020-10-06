@@ -1,37 +1,34 @@
 {
-  "wayto": {
-    "1235": "southwest",
-    "1237": {
-      "stringproc": "bc2fb965c9a439748210ccc9740e3fd4"
-    },
-    "9621": "northwest"
-  },
+  "id": 1236,
+  "title": [
+    "[Vipershroud, Brackish Stream]"
+  ],
+  "description": [
+    "A dark, brackish, slow-moving stream emerges from under some thick, dangerous-looking brambles and meanders off to the northeast.  Several stones, strategically placed, allow dry passage across the stream to the heavily shaded, moss-choked path running northwest and southwest.  Swarming insects, spawned from the standing pools, add a buzzing, biting layer of black fog to the already misty atmosphere."
+  ],
   "paths": [
     "Obvious paths: southwest, northwest"
   ],
+  "location": "the Vipershroud",
+  "wayto": {
+    "1235": "southwest",
+    "1237": {
+      "file": "string_procs/wayto/1236_1237.rb"
+    },
+    "9621": "northwest"
+  },
+  "timeto": {
+    "1235": 0.2,
+    "1237": 10.0,
+    "9621": 0.2
+  },
+  "image": "en-trail-1264234799.png",
   "image_coords": [
     154,
     649,
     164,
     659
   ],
-  "terrain": "missing",
-  "description": [
-    "A dark, brackish, slow-moving stream emerges from under some thick, dangerous-looking brambles and meanders off to the northeast.  Several stones, strategically placed, allow dry passage across the stream to the heavily shaded, moss-choked path running northwest and southwest.  Swarming insects, spawned from the standing pools, add a buzzing, biting layer of black fog to the already misty atmosphere."
-  ],
-  "image": "en-trail-1264234799.png",
-  "climate": "freshwater",
-  "title": [
-    "[Vipershroud, Brackish Stream]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1235": 0.2,
-    "1237": 10.0,
-    "9621": 0.2
-  },
-  "id": 1236,
-  "location": "the Vipershroud",
   "tags": [
     "water chestnut",
     "yellow water lily",
@@ -39,21 +36,6 @@
     "some bur-clover root",
     "some aloeas stem",
     "blue water lily",
-    "some reeds",
-    "aloeas stem",
-    "wild gooseberry",
-    "stalk of cattail",
-    "reeds",
-    "blue whortleberry",
-    "murdroot",
-    "wavepetal blossom",
-    "sunburst blossom",
-    "bolmara lichen",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some reeds"
   ]
 }

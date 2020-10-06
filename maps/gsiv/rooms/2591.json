@@ -1,40 +1,32 @@
 {
-  "wayto": {
-    "2586": "northwest",
-    "2587": "northeast",
-    "12208": {
-      "stringproc": "a0576f0215d746452e7afb93c1ee082c"
-    },
-    "2590": "east",
-    "2592": "west",
-    "2635": {
-      "stringproc": "01b8924575c8d70e4ed7eea7ed00be84"
-    },
-    "12101": {
-      "stringproc": "cf4b8e5b125b22b01c9349827d02c9fd"
-    },
-    "2603": "south"
-  },
+  "id": 2591,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "A huge fountain of blood erupts from the ground here, gushing hundreds of feet into the air and raining back down hard.  At its apex, the thick fluid holds the pattern of a pair of eyes, watching your movements as you pass through.  The eyes hold your own a moment, and a wave of nausea passes over you. When it fades, they have wavered and fallen with their medium."
+  ],
   "paths": [
     "Obvious exits: northeast, east, south, west, northwest",
     "Obvious paths: northeast, east, south, west, northwest"
   ],
-  "image_coords": [
-    186,
-    697,
-    194,
-    705
-  ],
-  "terrain": null,
-  "description": [
-    "A huge fountain of blood erupts from the ground here, gushing hundreds of feet into the air and raining back down hard.  At its apex, the thick fluid holds the pattern of a pair of eyes, watching your movements as you pass through.  The eyes hold your own a moment, and a wave of nausea passes over you. When it fades, they have wavered and fallen with their medium."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "2586": "northwest",
+    "2587": "northeast",
+    "12208": {
+      "file": "string_procs/wayto/2591_12208.rb"
+    },
+    "2590": "east",
+    "2592": "west",
+    "2635": {
+      "file": "string_procs/wayto/2591_2635.rb"
+    },
+    "12101": {
+      "file": "string_procs/wayto/2591_12101.rb"
+    },
+    "2603": "south"
+  },
   "timeto": {
     "2586": 0.2,
     "2587": 0.2,
@@ -45,8 +37,13 @@
     "12101": 26.0,
     "2603": 0.2
   },
-  "id": 2591,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    186,
+    697,
+    194,
+    705
+  ],
   "tags": [
     "oozing fleshsore bulb",
     "discolored fleshbinder bud",
@@ -55,8 +52,5 @@
     "mass of congealed slime",
     "withered deathblossom",
     "twisted black mawflower"
-  ],
-  "links": [
-
   ]
 }

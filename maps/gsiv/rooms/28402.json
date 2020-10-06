@@ -1,43 +1,37 @@
 {
-  "wayto": {
-    "28403": "go staircase",
-    "28401": "go step",
-    "28412": "go alcove",
-    "28413": "go dingy door",
-    "28461": "ne",
-    "28472": "go fel door"
-  },
-  "paths": [
-    "Obvious exits: northeast"
-  ],
-  "image_coords": [
-    602,
-    1579,
-    671,
-    1645
-  ],
-  "terrain": null,
-  "description": [
-    "Once again, the staircase ceases its rise and forms another flat platform.  Doors of various shapes and sizes litter the walls, and the floor in this area is heavily scratched, in direct contrast to the relatively smooth surfaces of the rest of the visible stone.  A blood red orb is perched on a metal stand against one wall, glowing just brightly enough to bathe the area in a sanguine hue."
-  ],
-  "image": "fest-windfellows_retreat-1566674846.jpg",
-  "climate": null,
+  "id": 28402,
   "title": [
     "[Windfellow Tower, Second Floor]"
   ],
-  "check_location": null,
+  "description": [
+    "Once again, the staircase ceases its rise and forms another flat platform.  Doors of various shapes and sizes litter the walls, and the floor in this area is heavily scratched, in direct contrast to the relatively smooth surfaces of the rest of the visible stone.  A blood red orb is perched on a metal stand against one wall, glowing just brightly enough to bathe the area in a sanguine hue."
+  ],
+  "paths": [
+    "Obvious exits: northeast"
+  ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "28403": "go staircase",
+    "28401": "go steps",
+    "28412": "go alcove",
+    "28413": "go dingy door",
+    "28472": "go fel door",
+    "28803": "ne"
+  },
   "timeto": {
     "28403": 0.2,
     "28401": 0.2,
     "28412": 0.2,
     "28413": 0.2,
     "28461": 0.2,
-    "28472": 0.2
+    "28472": 0.2,
+    "28803": 0.2
   },
-  "id": 28402,
-  "location": "Mist Harbor",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  "image": "fest-windfellows_retreat-1566674846.jpg",
+  "image_coords": [
+    602,
+    1579,
+    671,
+    1645
+  ]
 }

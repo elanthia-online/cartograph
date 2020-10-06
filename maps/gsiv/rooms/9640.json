@@ -1,38 +1,28 @@
 {
+  "id": 9640,
+  "title": [
+    "[Hall of the Impure]"
+  ],
+  "description": [
+    "So many of the statues along this hall have yielded to the depredations of vegetation and looters that it's impossible to tell what dubious pleasure they once represented.  A piece of the vaulted ceiling has collapsed, and the rubble has lain for so long that it too wears a verdant cloak of moss that thrives in the moist atmosphere."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "9638": "southwest",
     "9641": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southwest"
-  ],
+  "timeto": {
+    "9638": 0.2,
+    "9641": 0.2
+  },
+  "image": "en-trail-1264234799.png",
   "image_coords": [
     665,
     630,
     675,
     640
-  ],
-  "terrain": "indoors",
-  "description": [
-    "So many of the statues along this hall have yielded to the depredations of vegetation and looters that it's impossible to tell what dubious pleasure they once represented.  A piece of the vaulted ceiling has collapsed, and the rubble has lain for so long that it too wears a verdant cloak of moss that thrives in the moist atmosphere."
-  ],
-  "image": "en-trail-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Hall of the Impure]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9638": 0.2,
-    "9641": 0.2
-  },
-  "id": 9640,
-  "location": "Wehnimer's Landing",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

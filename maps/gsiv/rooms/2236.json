@@ -1,40 +1,30 @@
 {
-  "wayto": {
-    "2233": "southeast",
-    "2237": {
-      "stringproc": "8db92ac515217eec0bca6e5c1a64721b"
-    }
-  },
+  "id": 2236,
+  "title": [
+    "[Glaes Vein]"
+  ],
+  "description": [
+    "After winding and turning for a bit, the tunnel suddenly plunges over an embankment of tumbled boulders.  Their edges are jagged and dangerous, and numerous crevices are created beneath and around the stones where anything could be hiding.  Carried on the humid air moving listlessly from beneath the barrier is the acrid smell of sulfur, strong enough to burn the eyes and parch the throat of any who venture here."
+  ],
   "paths": [
     "Obvious exits: southeast"
   ],
+  "location": "the Eye of V'Tull",
+  "wayto": {
+    "2233": "southeast",
+    "2237": {
+      "file": "string_procs/wayto/2236_2237.rb"
+    }
+  },
+  "timeto": {
+    "2233": 0.2,
+    "2237": 0.2
+  },
+  "image": "ti-vtull-1264234799.png",
   "image_coords": [
     38,
     908,
     46,
     916
-  ],
-  "terrain": "indoors",
-  "description": [
-    "After winding and turning for a bit, the tunnel suddenly plunges over an embankment of tumbled boulders.  Their edges are jagged and dangerous, and numerous crevices are created beneath and around the stones where anything could be hiding.  Carried on the humid air moving listlessly from beneath the barrier is the acrid smell of sulfur, strong enough to burn the eyes and parch the throat of any who venture here."
-  ],
-  "image": "ti-vtull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Glaes Vein]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2233": 0.2,
-    "2237": 0.2
-  },
-  "id": 2236,
-  "location": "the Eye of V'Tull",
-  "tags": [
-    "pepperthorn root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

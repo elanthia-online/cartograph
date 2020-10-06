@@ -1,44 +1,35 @@
 {
+  "id": 11881,
+  "title": [
+    "[Aqueduct]"
+  ],
+  "description": [
+    "The only illumination in the constricted, foreboding tunnel comes from the water that courses from the north and empties out to the southwest.  The water itself is transparent, and everything on the bottom of the tunnel is completely visible.  The transparency, though, is tinged with an emerald glow, as if one is looking through green-colored lenses.  The glow is not at all powerful, and the illumination ends only a few feet up the wall, leaving the ceiling in total darkness."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast, southwest"
+  ],
+  "location": "Old Ta'Faendryl",
   "wayto": {
     "11888": "north",
     "11880": "southeast",
     "11882": "southwest"
   },
-  "paths": [
-    "Obvious exits: north, southeast, southwest"
-  ],
+  "timeto": {
+    "11888": 0.2,
+    "11880": 0.2,
+    "11882": 0.2
+  },
+  "image": "en-old_ta_faendryl-1264234799.png",
   "image_coords": [
     1161,
     1016,
     1171,
     1026
   ],
-  "terrain": "indoors",
-  "description": [
-    "The only illumination in the constricted, foreboding tunnel comes from the water that courses from the north and empties out to the southwest.  The water itself is transparent, and everything on the bottom of the tunnel is completely visible.  The transparency, though, is tinged with an emerald glow, as if one is looking through green-colored lenses.  The glow is not at all powerful, and the illumination ends only a few feet up the wall, leaving the ceiling in total darkness."
-  ],
-  "image": "en-old_ta_faendryl-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Aqueduct]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11888": 0.2,
-    "11880": 0.2,
-    "11882": 0.2
-  },
-  "id": 11881,
-  "location": "Old Ta'Faendryl",
   "tags": [
     "murdroot",
     "some wingstem root",
-    "some bolmara lichen",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some bolmara lichen"
   ]
 }

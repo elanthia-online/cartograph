@@ -1,35 +1,32 @@
 {
+  "id": 2491,
+  "title": [
+    "[Icemule Trace, Forest]"
+  ],
+  "description": [
+    "Along the edge of the forest, the pines give way to vine maples and bare-limbed oaks.  The pale branches of the deciduous trees look like spider webs against the deep green of the thick stand of pines."
+  ],
+  "paths": [
+    "Obvious paths: north, west"
+  ],
+  "location": "the southern snowfields",
   "wayto": {
     "2490": "north",
     "2492": "west",
     "20749": "go shack"
   },
-  "paths": [
-    "Obvious paths: north, west"
-  ],
+  "timeto": {
+    "2490": 0.2,
+    "2492": 0.2,
+    "20749": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     345,
     601,
     355,
     611
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "Along the edge of the forest, the pines give way to vine maples and bare-limbed oaks.  The pale branches of the deciduous trees look like spider webs against the deep green of the thick stand of pines."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Icemule Trace, Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2490": 0.2,
-    "2492": 0.2,
-    "20749": 0.2
-  },
-  "id": 2491,
-  "location": "the southern snowfields",
   "tags": [
     "slender twig",
     "tkaro root",
@@ -62,16 +59,6 @@
     "sticks",
     "iceblossoms",
     "snowberries",
-    "murdroot",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "frostweed",
-    "tree bark",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "murdroot"
   ]
 }

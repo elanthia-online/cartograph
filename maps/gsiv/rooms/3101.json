@@ -1,39 +1,31 @@
 {
+  "id": 3101,
+  "title": [
+    "[Abandoned Farm, Cellar]"
+  ],
+  "description": [
+    "The narrow windows near the ceiling of the cellar are translucent with grime.  Jagged pieces of blue and green glass litter the ground and crunch under your feet."
+  ],
+  "paths": [
+    "Obvious exits: northeast"
+  ],
+  "location": "the Abandoned Farm",
   "wayto": {
     "3102": "northeast",
     "3100": "go door"
   },
-  "paths": [
-    "Obvious exits: northeast"
-  ],
+  "timeto": {
+    "3102": 0.2,
+    "3100": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     779,
     673,
     789,
     683
   ],
-  "terrain": "indoors",
-  "description": [
-    "The narrow windows near the ceiling of the cellar are translucent with grime.  Jagged pieces of blue and green glass litter the ground and crunch under your feet."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abandoned Farm, Cellar]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3102": 0.2,
-    "3100": 0.2
-  },
-  "id": 3101,
-  "location": "the Abandoned Farm",
   "tags": [
-    "zombie",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "zombie"
   ]
 }

@@ -1,42 +1,33 @@
 {
-  "wayto": {
-    "11480": "climb reef",
-    "16041": {
-      "stringproc": "ecb29216e38b2eccfa243d0a331e41b2"
-    },
-    "11440": {
-      "stringproc": "311ee2488122f711ecdb848822003512"
-    },
-    "11441": {
-      "stringproc": "df0635901e9065a4aadbe5056471d5c8"
-    },
-    "11443": {
-      "stringproc": "e874f03e7b4c2d51bbdcaccf4bb927c8"
-    },
-    "11445": {
-      "stringproc": "d1ab0fc82426b99746caa62b1f882697"
-    }
-  },
-  "paths": [
-    "Obvious paths: north, northeast, east, southeast, south"
+  "id": 11444,
+  "title": [
+    "[Maelstrom Bay, Surface]"
   ],
-  "image_coords": [
-    648,
-    1206,
-    658,
-    1216
-  ],
-  "terrain": "missing",
   "description": [
     "The foam-flecked waters of Maelstrom Bay stretch out in all directions.  The broad green line of a cliff curves from the east to the northeast.  A low coral reef rises above the wide, rolling swells to the west.  The spray from the swells slapping against the reef is a ghostly white in the moonlight.",
     "The foam-flecked waters of Maelstrom Bay stretch out in all directions.  The broad green line of a cliff curves from the east to the northeast.  A low coral reef rises above the wide, rolling swells to the west.  The spray from the swells slapping against the reef is white in the sunlight."
   ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "missing",
-  "title": [
-    "[Maelstrom Bay, Surface]"
+  "paths": [
+    "Obvious paths: north, northeast, east, southeast, south"
   ],
-  "check_location": null,
+  "wayto": {
+    "11480": "climb reef",
+    "16041": {
+      "file": "string_procs/wayto/11444_16041.rb"
+    },
+    "11440": {
+      "file": "string_procs/wayto/11444_11440.rb"
+    },
+    "11441": {
+      "file": "string_procs/wayto/11444_11441.rb"
+    },
+    "11443": {
+      "file": "string_procs/wayto/11444_11443.rb"
+    },
+    "11445": {
+      "file": "string_procs/wayto/11444_11445.rb"
+    }
+  },
   "timeto": {
     "11480": 0.2,
     "16041": 0.2,
@@ -45,13 +36,11 @@
     "11443": 0.2,
     "11445": 0.2
   },
-  "id": 11444,
-  "location": "Maelstrom Bay",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-maelstrom-1266390501.png",
+  "image_coords": [
+    648,
+    1206,
+    658,
+    1216
   ]
 }

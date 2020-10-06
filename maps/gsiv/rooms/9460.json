@@ -1,48 +1,32 @@
 {
+  "id": 9460,
+  "title": [
+    "[Mraent Cavern, Gneiss Tunnel]"
+  ],
+  "description": [
+    "Black and purple bands of stone ripple across the walls in this section of the tunnel.  Two large, ovoid formations of quartz stare out from the walls."
+  ],
+  "paths": [
+    "Obvious exits: east, southwest"
+  ],
+  "location": "the Mraent Caverns",
   "wayto": {
     "9459": "southwest",
     "9461": "east"
   },
-  "paths": [
-    "Obvious exits: east, southwest"
-  ],
+  "timeto": {
+    "9459": 0.2,
+    "9461": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     331,
     225,
     341,
     235
   ],
-  "terrain": "indoors",
-  "description": [
-    "Black and purple bands of stone ripple across the walls in this section of the tunnel.  Two large, ovoid formations of quartz stare out from the walls."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mraent Cavern, Gneiss Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9459": 0.2,
-    "9461": 0.2
-  },
-  "id": 9460,
-  "location": "the Mraent Caverns",
   "tags": [
     "red trafel mushroom",
-    "giant glowing toadstool",
-    "soft white mushroom",
-    "withered black mushroom",
-    "black hook mushroom",
-    "blue trafel mushroom",
-    "glowing toadstool",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "giant glowing toadstool"
   ]
 }

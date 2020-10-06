@@ -1,46 +1,37 @@
 {
-  "wayto": {
-    "12712": "go staircase",
-    "12662": {
-      "stringproc": "0002229da959838f6c76ba4ac93b23c9"
-    },
-    "12677": {
-      "stringproc": "441d5ac4139f957b4bba4cb37c950f50"
-    }
-  },
+  "id": 20786,
+  "title": [
+    "[Ruined Temple, Dais]"
+  ],
+  "description": [
+    "Gentle waves ebb and flow across the short dais, crashing into the carved staircase that leads to the floor above.  Several large metal pots, etched with intricate wavy designs, rest at the base of the staircase, rusted and worn where submerged."
+  ],
   "paths": [
     ""
   ],
+  "location": "the Ruined Temple",
+  "wayto": {
+    "12712": "go staircase",
+    "12662": {
+      "file": "string_procs/wayto/20786_12662.rb"
+    },
+    "12677": {
+      "file": "string_procs/wayto/20786_12677.rb"
+    }
+  },
+  "timeto": {
+    "12712": 0.2,
+    "12662": 45.0,
+    "12677": 45.0
+  },
+  "image": "ti-nelemar-1262373036.png",
   "image_coords": [
     609,
     862,
     643,
     897
   ],
-  "terrain": "indoors",
-  "description": [
-    "Gentle waves ebb and flow across the short dais, crashing into the carved staircase that leads to the floor above.  Several large metal pots, etched with intricate wavy designs, rest at the base of the staircase, rusted and worn where submerged."
-  ],
-  "image": "ti-nelemar-1262373036.png",
-  "climate": "indoors",
-  "title": [
-    "[Ruined Temple, Dais]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "12712": 0.2,
-    "12662": 45.0,
-    "12677": 45.0
-  },
-  "id": 20786,
-  "location": "the Ruined Temple",
   "tags": [
-    "peer down =~ /^Obvious exits: southeast/",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null,
-  "links": [
-
+    "peer down =~ /^Obvious exits: southeast/"
   ]
 }

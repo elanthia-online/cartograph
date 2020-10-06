@@ -1,53 +1,36 @@
 {
+  "id": 7718,
+  "title": [
+    "[Caverns, Tunnel]"
+  ],
+  "description": [
+    "A small stream of brackish water flows in a narrow channel along the eastern base of the wall and disappears into a narrow crevice there, its gentle trickling sound echoing faintly through the cavernous chamber.  Bits of greenish mold have colonized the tiny ledges around the water, their slippery forms glistening in the dim light."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east, southeast"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "7724": "southeast",
     "7716": "northeast",
     "7717": "east",
     "7732": "go crevice"
   },
-  "paths": [
-    "Obvious exits: northeast, east, southeast"
-  ],
-  "image_coords": [
-    222,
-    1439,
-    232,
-    1449
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A small stream of brackish water flows in a narrow channel along the eastern base of the wall and disappears into a narrow crevice there, its gentle trickling sound echoing faintly through the cavernous chamber.  Bits of greenish mold have colonized the tiny ledges around the water, their slippery forms glistening in the dim light."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Caverns, Tunnel]"
-  ],
-  "check_location": null,
   "timeto": {
     "7724": 0.2,
     "7716": 0.2,
     "7717": 0.2,
     "7732": 0.2
   },
-  "id": 7718,
-  "location": "the Coastal Cliffs",
+  "image": "wl-coastal_cliffs-1264234799.png",
+  "image_coords": [
+    222,
+    1439,
+    232,
+    1449
+  ],
   "tags": [
     "soft white mushroom",
-    "blue trafel mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "blue trafel mushroom"
   ]
 }

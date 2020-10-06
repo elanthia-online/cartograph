@@ -1,35 +1,32 @@
 {
+  "id": 9371,
+  "title": [
+    "[Abandoned Village]"
+  ],
+  "description": [
+    "Two old stone walls stand in mute silence at right angles to one another.  Both are blackened and broken.  A few yellow wildflowers grow from the corner of what may have once been a window in one of the walls. To either side of them are old broken beams and scattered piles of stone.  The building that once may have stood here was larger than the others, but little remains.  A rocky path leads north over a small hill."
+  ],
+  "paths": [
+    "Obvious paths: south, west"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "9372": "go path",
     "9352": "west",
     "9347": "south"
   },
-  "paths": [
-    "Obvious paths: south, west"
-  ],
+  "timeto": {
+    "9372": 0.2,
+    "9352": 0.2,
+    "9347": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     1187,
     220,
     1199,
     232
   ],
-  "terrain": "grassland",
-  "description": [
-    "Two old stone walls stand in mute silence at right angles to one another.  Both are blackened and broken.  A few yellow wildflowers grow from the corner of what may have once been a window in one of the walls. To either side of them are old broken beams and scattered piles of stone.  The building that once may have stood here was larger than the others, but little remains.  A rocky path leads north over a small hill."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Abandoned Village]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9372": 0.2,
-    "9352": 0.2,
-    "9347": 0.2
-  },
-  "id": 9371,
-  "location": "the Cairnfang",
   "tags": [
     "handful of raspberries",
     "rose-marrow root",
@@ -83,10 +80,6 @@
     "wavepetal blossom",
     "ironfern root",
     "nightbloom blossom",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

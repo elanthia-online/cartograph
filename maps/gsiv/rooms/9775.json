@@ -1,40 +1,30 @@
 {
+  "id": 9775,
+  "title": [
+    "[Maaghara Labyrinth]"
+  ],
+  "description": [
+    "A mass of gnarled and twisted roots grow out from the wall and into the floor.  Chilled drafts of air come from several directions.  The salubrious scent of fresh air mixes with stale pockets of stench, causing a swirling mist of concentrated vapor to float around."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast, southwest, west"
+  ],
+  "location": "the Maaghara Tower",
   "wayto": {
     "9774": "southeast",
     "9776": "west",
     "9798": "southwest"
   },
-  "paths": [
-    "Obvious exits: north, southeast, southwest, west"
-  ],
-  "image_coords": [
-    1230,
-    597,
-    1240,
-    607
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A mass of gnarled and twisted roots grow out from the wall and into the floor.  Chilled drafts of air come from several directions.  The salubrious scent of fresh air mixes with stale pockets of stench, causing a swirling mist of concentrated vapor to float around."
-  ],
-  "image": "en-tower-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Maaghara Labyrinth]"
-  ],
-  "check_location": null,
   "timeto": {
     "9774": 0.2,
     "9776": 0.2,
     "9798": 0.2
   },
-  "id": 9775,
-  "location": "the Maaghara Tower",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-tower-1264234799.png",
+  "image_coords": [
+    1230,
+    597,
+    1240,
+    607
   ]
 }

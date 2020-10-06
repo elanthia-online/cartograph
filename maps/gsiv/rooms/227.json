@@ -1,4 +1,16 @@
 {
+  "id": 227,
+  "title": [
+    "[Town Square, Northwest]"
+  ],
+  "description": [
+    "This corner of the square is lively and hectic even at night.  A number of representatives of the Landing's population, including several elven loggers and a party of rough-looking dwarves, loiter around the door of the Raging Thrak Inn, where the rowdy cheers of patrons and voices raised in songs of many sorts, from snatches of heroic ballads to blushingly bawdy tunes, beckon you to enter.",
+    "This corner of the square is lively and hectic.  A number of representatives of the Landing's population, including several elven loggers and a party of rough-looking dwarves, loiter around the door of the Raging Thrak Inn, where the rowdy cheers of patrons and voices raised in songs of many sorts, from snatches of heroic ballads to blushingly bawdy tunes, beckon you to enter."
+  ],
+  "paths": [
+    "Obvious paths: north, east, southeast, south"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "226": "north",
     "228": "southeast",
@@ -6,26 +18,6 @@
     "1195": "go inn",
     "276": "east"
   },
-  "paths": [
-    "Obvious paths: north, east, southeast, south"
-  ],
-  "image_coords": [
-    197,
-    349,
-    232,
-    386
-  ],
-  "terrain": "plain dirt",
-  "description": [
-    "This corner of the square is lively and hectic even at night.  A number of representatives of the Landing's population, including several elven loggers and a party of rough-looking dwarves, loiter around the door of the Raging Thrak Inn, where the rowdy cheers of patrons and voices raised in songs of many sorts, from snatches of heroic ballads to blushingly bawdy tunes, beckon you to enter.",
-    "This corner of the square is lively and hectic.  A number of representatives of the Landing's population, including several elven loggers and a party of rough-looking dwarves, loiter around the door of the Raging Thrak Inn, where the rowdy cheers of patrons and voices raised in songs of many sorts, from snatches of heroic ballads to blushingly bawdy tunes, beckon you to enter."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Town Square, Northwest]"
-  ],
-  "check_location": null,
   "timeto": {
     "226": 0.2,
     "228": 0.2,
@@ -33,8 +25,13 @@
     "1195": 0.2,
     "276": 0.2
   },
-  "id": 227,
-  "location": "the town of Wehnimer's Landing",
+  "image": "wl-wehnimers-1264234799.png",
+  "image_coords": [
+    197,
+    349,
+    232,
+    386
+  ],
   "tags": [
     "some acantha leaf",
     "small daisy",
@@ -63,13 +60,6 @@
     "ironfern root",
     "bur-clover root",
     "some calamia fruit",
-    "meta:teleport:fwi",
-    "acantha leaf",
-    "sovyn clove",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:teleport:fwi"
   ]
 }

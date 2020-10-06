@@ -1,38 +1,28 @@
 {
+  "id": 6980,
+  "title": [
+    "[Behind the Waterfall]"
+  ],
+  "description": [
+    "You stand in a small alcove in the rock behind the trickling waterfall.  Although the sheet of water is only a few feet away, this area is mostly dry, protected by the thick rocks above, yet the sound of the water fills this chamber with a hollow echo.  A narrow ledge leads out around the waterfall, and a dark passage also leads further into the rocks to the south."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "6976": "south",
     "6981": "go narrow ledge"
   },
-  "paths": [
-    "Obvious exits: south"
-  ],
+  "timeto": {
+    "6976": 0.2,
+    "6981": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     51,
     526,
     61,
     536
-  ],
-  "terrain": "indoors",
-  "description": [
-    "You stand in a small alcove in the rock behind the trickling waterfall.  Although the sheet of water is only a few feet away, this area is mostly dry, protected by the thick rocks above, yet the sound of the water fills this chamber with a hollow echo.  A narrow ledge leads out around the waterfall, and a dark passage also leads further into the rocks to the south."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Behind the Waterfall]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6976": 0.2,
-    "6981": 0.2
-  },
-  "id": 6980,
-  "location": "Darkstone Castle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

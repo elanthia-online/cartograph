@@ -1,28 +1,19 @@
 {
-  "wayto": {
-    "25598": "go door"
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "The dressing room is barely large enough to house a few furnishings.  A small dresser fitted with a mirror occupies one corner, opposite a teak clothing rack.  A small trunk and a chair complete the ensemble."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 25600,
   "title": [
     "[Bard Guild, Dressing Room]"
   ],
-  "check_location": null,
+  "description": [
+    "The dressing room is barely large enough to house a few furnishings.  A small dresser fitted with a mirror occupies one corner, opposite a teak clothing rack.  A small trunk and a chair complete the ensemble."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "River's Rest",
+  "wayto": {
+    "25598": "go door"
+  },
   "timeto": {
     "25598": 0.2
-  },
-  "id": 25600,
-  "location": "River's Rest",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  }
 }

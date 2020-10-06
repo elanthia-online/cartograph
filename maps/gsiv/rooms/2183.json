@@ -1,42 +1,34 @@
 {
+  "id": 2183,
+  "title": [
+    "[Eye of V'Tull, Chamber of Wind]"
+  ],
+  "description": [
+    "Hot air, rushing in from the northwest, forms a violent vortex that ascends a smooth walled, circular chimney.  Laden with ash, the vortex limits visibility while creating a roaring growl that could drown out all but the loudest of sounds."
+  ],
+  "paths": [
+    "Obvious exits: northwest"
+  ],
+  "location": "the Eye of V'Tull",
   "wayto": {
     "12768": "climb chimney",
     "2182": "northwest"
   },
-  "paths": [
-    "Obvious exits: northwest"
-  ],
+  "timeto": {
+    "12768": 0.2,
+    "2182": 0.2
+  },
+  "image": "ti-vtull-1264234799.png",
   "image_coords": [
     841,
     467,
     851,
     477
   ],
-  "terrain": "indoors",
-  "description": [
-    "Hot air, rushing in from the northwest, forms a violent vortex that ascends a smooth walled, circular chimney.  Laden with ash, the vortex limits visibility while creating a roaring growl that could drown out all but the loudest of sounds."
-  ],
-  "image": "ti-vtull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Eye of V'Tull, Chamber of Wind]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "12768": 0.2,
-    "2182": 0.2
-  },
-  "id": 2183,
-  "location": "the Eye of V'Tull",
   "tags": [
     "pepperthorn root",
     "some cave moss",
     "daggerstalk mushroom",
-    "black trafel mushroom",
-    "cave moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "black trafel mushroom"
   ]
 }

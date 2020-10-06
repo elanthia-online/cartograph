@@ -1,55 +1,32 @@
 {
-  "wayto": {
-    "14728": "go opening",
-    "451": "go mountain path",
-    "18172": {
-      "stringproc": "3c6914508c7a2a2c8a6c8dc7f5890bb6"
-    }
-  },
+  "id": 14726,
+  "title": [
+    "[Melgorehn's Reach, Landing]"
+  ],
+  "description": [
+    "The cliff trail comes to an abrupt halt at a sheer drop off.  It seems the ledge continues onward after about a forty yard gap.  Cut into the mountain side, by means that you cannot imagine, is a perfectly round opening which is large enough to enter."
+  ],
   "paths": [
     "Obvious paths: none"
   ],
+  "location": "Melgorehn's Reach",
+  "wayto": {
+    "14728": "go opening",
+    "28683": "go mountain path"
+  },
+  "timeto": {
+    "14728": 0.2,
+    "28683": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     730,
     592,
     740,
     601
   ],
-  "terrain": "mountainous",
-  "description": [
-    "The cliff trail comes to an abrupt halt at a sheer drop off.  It seems the ledge continues onward after about a forty yard gap.  Cut into the mountain side, by means that you cannot imagine, is a perfectly round opening which is large enough to enter."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Melgorehn's Reach, Landing]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "14728": 0.2,
-    "451": 0.2,
-    "18172": 0.2
-  },
-  "id": 14726,
-  "location": "Melgorehn's Reach",
   "tags": [
     "cuctucae berry",
-    "marallis berry",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "sprig of larkspur",
-    "golden aster",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "marallis berry"
   ]
 }

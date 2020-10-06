@@ -1,33 +1,30 @@
 {
+  "id": 2523,
+  "title": [
+    "[Blue Glacier, Mountain Pass]"
+  ],
+  "description": [
+    "Staring at the grotesque, frozen foot of some poor soul protruding from beneath the rockslide tells you this mountain has been forsaken by the gods and is no fit place for man nor beast.  You glance furtively upwards, ever fearful that the rocks above will tumble down upon you."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the Icemule Trail",
   "wayto": {
     "2522": "east",
     "2524": "climb rockslide"
   },
-  "paths": [
-    "Obvious paths: east"
-  ],
+  "timeto": {
+    "2522": 0.2,
+    "2524": 0.2
+  },
+  "image": "imt-trail-1264234799.png",
   "image_coords": [
     1047,
     556,
     1057,
     566
   ],
-  "terrain": "mountainous",
-  "description": [
-    "Staring at the grotesque, frozen foot of some poor soul protruding from beneath the rockslide tells you this mountain has been forsaken by the gods and is no fit place for man nor beast.  You glance furtively upwards, ever fearful that the rocks above will tumble down upon you."
-  ],
-  "image": "imt-trail-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Blue Glacier, Mountain Pass]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2522": 0.2,
-    "2524": 0.2
-  },
-  "id": 2523,
-  "location": "the Icemule Trail",
   "tags": [
     "sweetfern stalk",
     "pale thornberry",
@@ -43,10 +40,6 @@
     "snowberries",
     "red winterberry",
     "small loganberry",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

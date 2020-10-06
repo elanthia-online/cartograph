@@ -1,33 +1,30 @@
 {
+  "id": 10005,
+  "title": [
+    "[Yegharren Valley, Ravine]"
+  ],
+  "description": [
+    "The ravine is narrow and dark here in the shadow of the overhanging ledge above, and the walls are slick with moisture dripping slowly from the plains above.  An assortment of broken rocks, weathered bones, and clods of fallen dirt litter the hard floor of the gully."
+  ],
+  "paths": [
+    "Obvious paths: southeast, west"
+  ],
+  "location": "the Yegharren Plains",
   "wayto": {
     "9998": "west",
     "10003": "southeast"
   },
-  "paths": [
-    "Obvious paths: southeast, west"
-  ],
+  "timeto": {
+    "9998": 0.2,
+    "10003": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     1296,
     770,
     1306,
     780
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The ravine is narrow and dark here in the shadow of the overhanging ledge above, and the walls are slick with moisture dripping slowly from the plains above.  An assortment of broken rocks, weathered bones, and clods of fallen dirt litter the hard floor of the gully."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Yegharren Valley, Ravine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9998": 0.2,
-    "10003": 0.2
-  },
-  "id": 10005,
-  "location": "the Yegharren Plains",
   "tags": [
     "small daisy",
     "some sovyn clove",
@@ -37,28 +34,6 @@
     "blue whortleberry",
     "some calamia fruit",
     "small wild rose",
-    "some bur-clover root",
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "small rose",
-    "angelica root",
-    "withered black mushroom",
-    "sprig of alyssum",
-    "heath aster",
-    "stalk of goldenrod",
-    "wild chokecherry",
-    "motherwort",
-    "murkweed",
-    "white baneberry",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some bur-clover root"
   ]
 }

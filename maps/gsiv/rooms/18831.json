@@ -1,36 +1,33 @@
 {
+  "id": 18831,
+  "title": [
+    "[Sorcerer's Isle, Forest]"
+  ],
+  "description": [
+    "Coppery beech trees and bough-spreading white oaks block out nearly all moonlight, making an eery landscape of shadow upon darkness cut with blades of silver.  Barely visible, a crooked path winds around the trunks in a north-south direction, while a narrow ravine leads down to an old creekbed.",
+    "Coppery beech trees bearing patches of lush moss, thriving parasitically on the rough grey bark, grow in small groups apart from the taller, bough-spreading white oaks.  Some of the dark green foliage bear spiny orange-red pods, hedgehog galls, temporary home for young wasps.  A crooked path winds around the trunks in a north-south direction, while a narrow ravine leads down to an old creekbed."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south"
+  ],
+  "location": "Sorcerer's Isle",
   "wayto": {
     "18832": "climb ravine",
     "18833": "northeast",
     "18824": "south"
   },
-  "paths": [
-    "Obvious paths: northeast, south"
-  ],
+  "timeto": {
+    "18832": 0.2,
+    "18833": 0.2,
+    "18824": 0.2
+  },
+  "image": "en-ravelin.png",
   "image_coords": [
     1201,
     128,
     1225,
     153
   ],
-  "terrain": null,
-  "description": [
-    "Coppery beech trees and bough-spreading white oaks block out nearly all moonlight, making an eery landscape of shadow upon darkness cut with blades of silver.  Barely visible, a crooked path winds around the trunks in a north-south direction, while a narrow ravine leads down to an old creekbed.",
-    "Coppery beech trees bearing patches of lush moss, thriving parasitically on the rough grey bark, grow in small groups apart from the taller, bough-spreading white oaks.  Some of the dark green foliage bear spiny orange-red pods, hedgehog galls, temporary home for young wasps.  A crooked path winds around the trunks in a north-south direction, while a narrow ravine leads down to an old creekbed."
-  ],
-  "image": "en-ravelin.png",
-  "climate": null,
-  "title": [
-    "[Sorcerer's Isle, Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "18832": 0.2,
-    "18833": 0.2,
-    "18824": 0.2
-  },
-  "id": 18831,
-  "location": "Sorcerer's Isle",
   "tags": [
     "white passionflower",
     "some calamia fruit",
@@ -83,8 +80,5 @@
     "ebony twig",
     "bolmara lichen",
     "brostheras grass"
-  ],
-  "links": [
-
   ]
 }

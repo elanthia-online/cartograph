@@ -1,39 +1,32 @@
 {
-  "wayto": {
-    "25974": {
-      "stringproc": "d5fba80dc1c7437649e734294a0335b7"
-    },
-    "25971": {
-      "stringproc": "be60ce0e65bad555142ed0d28ad7b07f"
-    }
-  },
+  "id": 25973,
+  "title": [
+    "[Patron Suite, Hot Bath]"
+  ],
+  "description": [
+    "An immense pool of steaming water dominates most of the room, easily accessible by flat limestone steps.  Long wooden towel racks are mounted on the walls and the air is muggy, yet holds the faint scent of sandalwood."
+  ],
   "paths": [
     "Obvious exits: northeast"
   ],
+  "location": "the town of Wehnimer's Landing",
+  "wayto": {
+    "25974": {
+      "file": "string_procs/wayto/25973_25974.rb"
+    },
+    "25971": {
+      "file": "string_procs/wayto/25973_25971.rb"
+    }
+  },
+  "timeto": {
+    "25974": 0.2,
+    "25971": 0.2
+  },
+  "image": "wl-stone_baths-1487292814.png",
   "image_coords": [
     52,
     1385,
     191,
     1444
-  ],
-  "terrain": null,
-  "description": [
-    "An immense pool of steaming water dominates most of the room, easily accessible by flat limestone steps.  Long wooden towel racks are mounted on the walls and the air is muggy, yet holds the faint scent of sandalwood."
-  ],
-  "image": "wl-stone_baths-1487292814.png",
-  "climate": null,
-  "title": [
-    "[Patron Suite, Hot Bath]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "25974": 0.2,
-    "25971": 0.2
-  },
-  "id": 25973,
-  "location": "the town of Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

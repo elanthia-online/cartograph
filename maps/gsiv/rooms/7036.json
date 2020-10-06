@@ -1,41 +1,30 @@
 {
-  "wayto": {
-    "7154": {
-      "stringproc": "0a02fe4db696588acd00b5be049ac862"
-    },
-    "7035": "down"
-  },
+  "id": 7036,
+  "title": [
+    "[Shrine of the Jackal]"
+  ],
+  "description": [
+    "Once elegant, but now ruined, stained glass windows show this was once a chapel.  A smooth slab of obsidian seems to suck up all the faint light that falls upon it, and gives back only darkness.  On the slab, in sharp contrast, sits a statue carved of glittering crystal that bends and twists the few glimmers of light left into a mockery of beauty.  The question remains as to just what has been worshipped in here of late and you like not the thoughts it stirs."
+  ],
   "paths": [
     "Obvious exits: down"
   ],
+  "location": "Darkstone Castle",
+  "wayto": {
+    "7154": {
+      "file": "string_procs/wayto/7036_7154.rb"
+    },
+    "7035": "down"
+  },
+  "timeto": {
+    "7154": 20.0,
+    "7035": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     596,
     456,
     606,
     466
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Once elegant, but now ruined, stained glass windows show this was once a chapel.  A smooth slab of obsidian seems to suck up all the faint light that falls upon it, and gives back only darkness.  On the slab, in sharp contrast, sits a statue carved of glittering crystal that bends and twists the few glimmers of light left into a mockery of beauty.  The question remains as to just what has been worshipped in here of late and you like not the thoughts it stirs."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Shrine of the Jackal]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7154": 20.0,
-    "7035": 0.2
-  },
-  "id": 7036,
-  "location": "Darkstone Castle",
-  "tags": [
-    "sheru",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

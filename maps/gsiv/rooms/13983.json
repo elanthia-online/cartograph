@@ -1,33 +1,30 @@
 {
+  "id": 13983,
+  "title": [
+    "[Castle Varunar, Approach]"
+  ],
+  "description": [
+    "Looking north you see a great castle.  Once a bastion of justice on the caravan route, it now appears empty and abandoned.  A sturdy iron-banded fel wood drawbridge sits lowered and spans a large ditch that surrounds the castle."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "Castle Varunar",
   "wayto": {
     "13982": "south",
     "13984": "go drawbridge"
   },
-  "paths": [
-    "Obvious paths: south"
-  ],
+  "timeto": {
+    "13982": 0.2,
+    "13984": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     656,
     608,
     666,
     618
   ],
-  "terrain": "grassland",
-  "description": [
-    "Looking north you see a great castle.  Once a bastion of justice on the caravan route, it now appears empty and abandoned.  A sturdy iron-banded fel wood drawbridge sits lowered and spans a large ditch that surrounds the castle."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Castle Varunar, Approach]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "13982": 0.2,
-    "13984": 0.2
-  },
-  "id": 13983,
-  "location": "Castle Varunar",
   "tags": [
     "some sovyn clove",
     "some acantha leaf",
@@ -76,27 +73,6 @@
     "some angelica root",
     "trollfear mushroom",
     "wavepetal blossom",
-    "luckbloom blossom",
-    "acantha leaf",
-    "ambrominas leaf",
-    "sovyn clove",
-    "angelica root",
-    "wild grapes",
-    "Imaera's Lace",
-    "motherwort",
-    "huckleberries",
-    "raspberries",
-    "wiregrass",
-    "white lily",
-    "fire lily",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "nightbloom blossom",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "luckbloom blossom"
   ]
 }

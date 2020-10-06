@@ -1,1 +1,3 @@
-move 'crawl opening'; fput 'stand'; waitrt?
+move 'crawl opening'
+ fput 'stand'
+ waitrt?

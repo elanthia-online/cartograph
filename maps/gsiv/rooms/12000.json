@@ -1,41 +1,32 @@
 {
+  "id": 12000,
+  "title": [
+    "[Aqueduct]"
+  ],
+  "description": [
+    "The greenish glow from the cool water flickers eerily off the rough granite wall.  Perhaps the miners had difficulty removing the rock from this section, for the tunnel narrows to only a few feet across, and the ceiling drops dangerously low."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Old Ta'Faendryl",
   "wayto": {
     "11996": "west",
     "12001": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "11996": 0.2,
+    "12001": 0.2
+  },
+  "image": "en-old_ta_faendryl-1264234799.png",
   "image_coords": [
     361,
     213,
     371,
     223
   ],
-  "terrain": "indoors",
-  "description": [
-    "The greenish glow from the cool water flickers eerily off the rough granite wall.  Perhaps the miners had difficulty removing the rock from this section, for the tunnel narrows to only a few feet across, and the ceiling drops dangerously low."
-  ],
-  "image": "en-old_ta_faendryl-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Aqueduct]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11996": 0.2,
-    "12001": 0.2
-  },
-  "id": 12000,
-  "location": "Old Ta'Faendryl",
   "tags": [
     "some wingstem root",
-    "murdroot",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "murdroot"
   ]
 }

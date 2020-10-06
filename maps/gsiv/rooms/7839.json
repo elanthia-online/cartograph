@@ -1,4 +1,15 @@
 {
+  "id": 7839,
+  "title": [
+    "[Glatoph, Ruins]"
+  ],
+  "description": [
+    "This grand hall still echoes with the ghosts of powerful people and momentous happenings.  A great firepit dominates the center of the room, its sides lined with ceramic tiles.  A steel block sits next to the table, waist-high and as long as a man is tall.  A hammer-shaped impression is left in the dust, but there doesn't seem to be a hammer in the room.  Twenty niches are set into the walls, each with a panel in the back.  One of the panels has collapsed, revealing a lifesized steel statue."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest"
+  ],
+  "location": "Glatoph",
   "wayto": {
     "7835": "go left arch",
     "7836": "go right arch",
@@ -6,25 +17,6 @@
     "7850": "go door",
     "7840": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast, southwest"
-  ],
-  "image_coords": [
-    573,
-    466,
-    583,
-    476
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This grand hall still echoes with the ghosts of powerful people and momentous happenings.  A great firepit dominates the center of the room, its sides lined with ceramic tiles.  A steel block sits next to the table, waist-high and as long as a man is tall.  A hammer-shaped impression is left in the dust, but there doesn't seem to be a hammer in the room.  Twenty niches are set into the walls, each with a panel in the back.  One of the panels has collapsed, revealing a lifesized steel statue."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Glatoph, Ruins]"
-  ],
-  "check_location": null,
   "timeto": {
     "7835": 0.2,
     "7836": 0.2,
@@ -32,13 +24,11 @@
     "7850": 0.2,
     "7840": 0.2
   },
-  "id": 7839,
-  "location": "Glatoph",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-danjirland-1264234799.png",
+  "image_coords": [
+    573,
+    466,
+    583,
+    476
   ]
 }

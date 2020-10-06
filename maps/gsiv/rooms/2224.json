@@ -1,41 +1,32 @@
 {
+  "id": 2224,
+  "title": [
+    "[Depths of V'Tull, Lower Eye]"
+  ],
+  "description": [
+    "Deep-seated blobs of magma have broken through the surface here forming a white-hot sinkhole.  The walls of this chamber have been carbonized a deep black and are covered with a gritty coat of ash.  Intense heat radiates from the hot liquid rock bubbling up from the cavity in the floor.  Brilliant arcs of lava plume into the air, crackling loudly, before dropping downward back into the molten hole and spattering the surface around it.  The path skirts around the hole in either direction."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest, northwest"
+  ],
+  "location": "the Eye of V'Tull",
   "wayto": {
     "2223": "southwest",
     "2225": "northwest"
   },
-  "paths": [
-    "Obvious exits: northeast, southwest, northwest"
-  ],
+  "timeto": {
+    "2223": 0.2,
+    "2225": 0.2
+  },
+  "image": "ti-vtull-1264234799.png",
   "image_coords": [
     366,
     760,
     376,
     770
   ],
-  "terrain": "indoors",
-  "description": [
-    "Deep-seated blobs of magma have broken through the surface here forming a white-hot sinkhole.  The walls of this chamber have been carbonized a deep black and are covered with a gritty coat of ash.  Intense heat radiates from the hot liquid rock bubbling up from the cavity in the floor.  Brilliant arcs of lava plume into the air, crackling loudly, before dropping downward back into the molten hole and spattering the surface around it.  The path skirts around the hole in either direction."
-  ],
-  "image": "ti-vtull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Depths of V'Tull, Lower Eye]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2223": 0.2,
-    "2225": 0.2
-  },
-  "id": 2224,
-  "location": "the Eye of V'Tull",
   "tags": [
     "daggerstalk mushroom",
-    "black trafel mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "black trafel mushroom"
   ]
 }

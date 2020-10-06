@@ -1,33 +1,30 @@
 {
+  "id": 6746,
+  "title": [
+    "[Graendlor Pasture]"
+  ],
+  "description": [
+    "The stream flowing from the stony meadowland to the south gathers in a large waterhole which spreads placidly before you.  The herds have worn a path from the pastures and along the waterhole towards a heavily leaning tree that can be seen to the west.  A breeze gently wafts over the pool, creating a barely noticeable ripple."
+  ],
+  "paths": [
+    "Obvious paths: south, west"
+  ],
+  "location": "Graendlor Pasture",
   "wayto": {
     "6745": "south",
     "6747": "west"
   },
-  "paths": [
-    "Obvious paths: south, west"
-  ],
+  "timeto": {
+    "6745": 0.2,
+    "6747": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     470,
     705,
     480,
     715
   ],
-  "terrain": "riparian",
-  "description": [
-    "The stream flowing from the stony meadowland to the south gathers in a large waterhole which spreads placidly before you.  The herds have worn a path from the pastures and along the waterhole towards a heavily leaning tree that can be seen to the west.  A breeze gently wafts over the pool, creating a barely noticeable ripple."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Graendlor Pasture]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6745": 0.2,
-    "6747": 0.2
-  },
-  "id": 6746,
-  "location": "Graendlor Pasture",
   "tags": [
     "some acantha leaf",
     "some calamia fruit",
@@ -44,32 +41,6 @@
     "genkew mushroom",
     "fiddlehead fern",
     "small wild rose",
-    "sprig of Imaera's Lace",
-    "acantha leaf",
-    "calamia fruit",
-    "soft white mushroom",
-    "blue trafel mushroom",
-    "bright red teaberry",
-    "blueberries",
-    "handful of currants",
-    "wild gooseberry",
-    "wild grapes",
-    "stalk of bluebells",
-    "pink clover blossom",
-    "white clover blossom",
-    "purple clover blossom",
-    "yellow clover blossom",
-    "stalk of goldenrod",
-    "Imaera's Lace",
-    "wild chokecherry",
-    "kylan berry",
-    "murdroot",
-    "wavepetal blossom",
-    "ironfern root",
-    "talneo root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sprig of Imaera's Lace"
   ]
 }

@@ -1,40 +1,30 @@
 {
-  "wayto": {
-    "6630": "go passage",
-    "6632": {
-      "stringproc": "4db7e454ba2ec493103c4d6d3c1465e4"
-    }
-  },
+  "id": 6631,
+  "title": [
+    "[Broken Lands, Hidden Stairs]"
+  ],
+  "description": [
+    "The stairwell is cramped and musty, with a thick layer of dust which rises into the air from the slightest breeze.  A lone pinpoint of light can be seen at the top of the stairs, while a blanket of darkness shrouds the bottom."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "the Broken Lands",
+  "wayto": {
+    "6630": "go passage",
+    "6632": {
+      "file": "string_procs/wayto/6631_6632.rb"
+    }
+  },
+  "timeto": {
+    "6630": 0.2,
+    "6632": 0.2
+  },
+  "image": "wl-broken-1264234799.png",
   "image_coords": [
     367,
     1074,
     377,
     1084
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The stairwell is cramped and musty, with a thick layer of dust which rises into the air from the slightest breeze.  A lone pinpoint of light can be seen at the top of the stairs, while a blanket of darkness shrouds the bottom."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Broken Lands, Hidden Stairs]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6630": 0.2,
-    "6632": 0.2
-  },
-  "id": 6631,
-  "location": "the Broken Lands",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

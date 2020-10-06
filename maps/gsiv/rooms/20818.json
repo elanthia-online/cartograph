@@ -1,32 +1,24 @@
 {
+  "id": 20818,
+  "title": [
+    "[House Sovyn, Cavern]"
+  ],
+  "description": [
+    "This large subterranean cavern is lit only by torches set in sconces spaced evenly around the perimeter of the cave.  Natural crystals in the walls refract the flickering light creating beautiful rainbow patterns.  Water pours from an opening high above the ground, forming a waterfall, and splashes into a stream that winds its way between huge stalagmites that rise from the ground to meet large stalactites hanging from the ceiling way above you.  The light is too dim for you to see across the stream."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "20819": "go stones",
     "20831": {
-      "stringproc": "1cfa6e10cfae6ce5fd7628ab43174120"
+      "file": "string_procs/wayto/20818_20831.rb"
     },
     "20822": "go tunnel",
     "20811": "go staircase",
     "20823": "go waterfall"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": [
-    575,
-    1235,
-    740,
-    1347
-  ],
-  "terrain": null,
-  "description": [
-    "This large subterranean cavern is lit only by torches set in sconces spaced evenly around the perimeter of the cave.  Natural crystals in the walls refract the flickering light creating beautiful rainbow patterns.  Water pours from an opening high above the ground, forming a waterfall, and splashes into a stream that winds its way between huge stalagmites that rise from the ground to meet large stalactites hanging from the ceiling way above you.  The light is too dim for you to see across the stream."
-  ],
-  "image": "wl-house_sovyn-11481362649.png",
-  "climate": null,
-  "title": [
-    "[House Sovyn, Cavern]"
-  ],
-  "check_location": null,
   "timeto": {
     "20819": 0.2,
     "20831": 0.2,
@@ -34,13 +26,11 @@
     "20811": 0.2,
     "20823": 0.2
   },
-  "id": 20818,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
+  "image": "wl-house_sovyn-11481362649.png",
+  "image_coords": [
+    575,
+    1235,
+    740,
+    1347
   ]
 }

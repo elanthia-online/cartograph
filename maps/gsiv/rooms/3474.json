@@ -1,41 +1,34 @@
 {
-  "wayto": {
-    "3475": {
-      "stringproc": "a1bd023500a3a9633d7c708d74ed9e8f"
-    },
-    "3464": "go crack"
-  },
+  "id": 3474,
+  "title": [
+    "[Deep Freeze, Cave of Ice]"
+  ],
+  "description": [
+    "You are dazzled by an explosion of dancing lights reflected by the occasional sunbeams venturing through the crack into this chamber of ice.  A multitude of gleaming stalactites and stalagmites makes passage through the area a grand feat."
+  ],
   "paths": [
     "Obvious exits: south"
   ],
+  "location": "the Icemule Trail",
+  "wayto": {
+    "3475": {
+      "file": "string_procs/wayto/3474_3475.rb"
+    },
+    "3464": "go crack"
+  },
+  "timeto": {
+    "3475": 0.2,
+    "3464": 0.2
+  },
+  "image": "imt-trail-1264234799.png",
   "image_coords": [
     869,
     669,
     879,
     679
   ],
-  "terrain": "indoors",
-  "description": [
-    "You are dazzled by an explosion of dancing lights reflected by the occasional sunbeams venturing through the crack into this chamber of ice.  A multitude of gleaming stalactites and stalagmites makes passage through the area a grand feat."
-  ],
-  "image": "imt-trail-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Deep Freeze, Cave of Ice]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3475": 0.2,
-    "3464": 0.2
-  },
-  "id": 3474,
-  "location": "the Icemule Trail",
   "tags": [
     "arctic moss",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

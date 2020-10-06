@@ -1,40 +1,30 @@
 {
+  "id": 11211,
+  "title": [
+    "[Armory, Armorers]"
+  ],
+  "description": [
+    "The smiths in this room were responsible for repairing the garrison's armor.  An iron cauldron is suspended over a fire pit beside the large forge.  Several small anvils and a variety of shaping hammers are scattered on the ground.  The cauldron contains a residual coating of tar.  Some old leather and a scattering of metal studs and rings lie on the floor."
+  ],
+  "paths": [
+    "Obvious exits: southwest, west, northwest"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11210": "west",
     "11212": "southwest",
     "11213": "northwest"
   },
-  "paths": [
-    "Obvious exits: southwest, west, northwest"
-  ],
-  "image_coords": [
-    360,
-    206,
-    370,
-    216
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The smiths in this room were responsible for repairing the garrison's armor.  An iron cauldron is suspended over a fire pit beside the large forge.  Several small anvils and a variety of shaping hammers are scattered on the ground.  The cauldron contains a residual coating of tar.  Some old leather and a scattering of metal studs and rings lie on the floor."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Armory, Armorers]"
-  ],
-  "check_location": null,
   "timeto": {
     "11210": 0.2,
     "11212": 0.2,
     "11213": 0.2
   },
-  "id": 11211,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-citadel-1267238976.png",
+  "image_coords": [
+    360,
+    206,
+    370,
+    216
   ]
 }

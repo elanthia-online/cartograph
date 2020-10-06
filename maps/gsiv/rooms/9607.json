@@ -1,51 +1,38 @@
 {
+  "id": 9607,
+  "title": [
+    "[Czeroth Caverns, Great Cavern]"
+  ],
+  "description": [
+    "The roof of the cavern dips here and shining crystals of gypsum are visible in hundreds of cracks and crevices.  A pile of limestone and gypsum on the floor blocks passage into an eastern crevice."
+  ],
+  "paths": [
+    "Obvious exits: southwest, northwest"
+  ],
+  "location": "the Czeroth Caverns",
   "wayto": {
     "9604": "northwest",
     "9606": "southwest",
     "9609": "go pool"
   },
-  "paths": [
-    "Obvious exits: southwest, northwest"
-  ],
+  "timeto": {
+    "9604": 0.2,
+    "9606": 0.2,
+    "9609": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     1294,
     311,
     1304,
     321
   ],
-  "terrain": "indoors",
-  "description": [
-    "The roof of the cavern dips here and shining crystals of gypsum are visible in hundreds of cracks and crevices.  A pile of limestone and gypsum on the floor blocks passage into an eastern crevice."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Czeroth Caverns, Great Cavern]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9604": 0.2,
-    "9606": 0.2,
-    "9609": 0.2
-  },
-  "id": 9607,
-  "location": "the Czeroth Caverns",
   "tags": [
     "withered black mushroom",
     "soft white mushroom",
     "some bolmara lichen",
     "daggerstalk mushroom",
     "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "genkew mushroom"
   ]
 }

@@ -1,34 +1,31 @@
 {
+  "id": 3602,
+  "title": [
+    "[A Silent Path]"
+  ],
+  "description": [
+    "The sun's rays penetrate through the umbrage here and are baking the path into a cracked and rocklike surface.  The beams dance across a small stream as it bubbles and turns northward being split into irrigation channels to be consumed by the monastery's fields.  In the distance, monks wearing robes of pure white, labor in a field while a lone monk, adorned in a silver trimmed black robe, watches their toil from a balcony.",
+    "The moon's light penetrates the foliage here and dimly reveals the cracked and rocklike path.  The scattered silver beams dance across a small stream as it bubbles and turns northward being split into irrigation channels to be consumed by the monastery's fields.  In the distance, monks wearing robes of pure white, labor in a field while a lone monk, adorned in a silver trimmed black robe, watches their toil from a balcony."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "3601": "east",
     "3603": "west"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "3601": 0.2,
+    "3603": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     1107,
     66,
     1117,
     76
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "The sun's rays penetrate through the umbrage here and are baking the path into a cracked and rocklike surface.  The beams dance across a small stream as it bubbles and turns northward being split into irrigation channels to be consumed by the monastery's fields.  In the distance, monks wearing robes of pure white, labor in a field while a lone monk, adorned in a silver trimmed black robe, watches their toil from a balcony.",
-    "The moon's light penetrates the foliage here and dimly reveals the cracked and rocklike path.  The scattered silver beams dance across a small stream as it bubbles and turns northward being split into irrigation channels to be consumed by the monastery's fields.  In the distance, monks wearing robes of pure white, labor in a field while a lone monk, adorned in a silver trimmed black robe, watches their toil from a balcony."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[A Silent Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3601": 0.2,
-    "3603": 0.2
-  },
-  "id": 3602,
-  "location": "the Graveyard",
   "tags": [
     "some wolifrew lichen",
     "some acantha leaf",
@@ -62,10 +59,6 @@
     "twisted twig",
     "slender twig",
     "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

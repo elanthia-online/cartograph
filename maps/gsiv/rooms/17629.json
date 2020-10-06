@@ -1,42 +1,31 @@
 {
+  "id": 17629,
+  "title": [
+    "[Silken Mist, Hallway]"
+  ],
+  "description": [
+    "The hallway is much wider than one would expect on a ship, and polished steel rails set along the walls allow for safety should the sea get rough.  Small oil portraits of colorful fish have been hung on either side to add a touch of decor to the passage."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
   "wayto": {
     "17628": "south",
     "17630": "go brass-trimmed door",
     "17631": "go modwir door",
     "17632": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
-  "image_coords": [
-    481,
-    1595,
-    495,
-    1606
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The hallway is much wider than one would expect on a ship, and polished steel rails set along the walls allow for safety should the sea get rough.  Small oil portraits of colorful fish have been hung on either side to add a touch of decor to the passage."
-  ],
-  "image": "ifw-isle_of_four_winds-1310232949.png",
-  "climate": "indoors",
-  "title": [
-    "[Silken Mist, Hallway]"
-  ],
-  "check_location": null,
   "timeto": {
     "17628": 0.2,
     "17630": 0.2,
     "17631": 0.2,
     "17632": 0.2
   },
-  "id": 17629,
-  "location": "Silken Mist on Four Winds Isle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "ifw-isle_of_four_winds-1310232949.png",
+  "image_coords": [
+    481,
+    1595,
+    495,
+    1606
   ]
 }

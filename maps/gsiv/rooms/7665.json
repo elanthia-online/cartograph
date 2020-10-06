@@ -1,40 +1,32 @@
 {
+  "id": 7665,
+  "title": [
+    "[Sea Cave, Stone Forest]"
+  ],
+  "description": [
+    "This narrow pathway leads you away from the underground river through a grey forest of stone that is eerily quiet.  Towering stalagmites reach upward toward the high ceiling, and an acrid tang taints the air.",
+    "This narrow pathway leads you away from the underground river through a grey forest of stone that is eerily quiet.  Towering stalagmites reach upward toward the high ceiling.  Your echoing footsteps disturb something far above you, and you hear the rustle of leathery wings."
+  ],
+  "paths": [
+    "Obvious exits: east, southwest"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "7664": "east",
     "7666": "southwest"
   },
-  "paths": [
-    "Obvious exits: east, southwest"
-  ],
+  "timeto": {
+    "7664": 0.2,
+    "7666": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     831,
     411,
     841,
     421
   ],
-  "terrain": "indoors",
-  "description": [
-    "This narrow pathway leads you away from the underground river through a grey forest of stone that is eerily quiet.  Towering stalagmites reach upward toward the high ceiling, and an acrid tang taints the air.",
-    "This narrow pathway leads you away from the underground river through a grey forest of stone that is eerily quiet.  Towering stalagmites reach upward toward the high ceiling.  Your echoing footsteps disturb something far above you, and you hear the rustle of leathery wings."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Cave, Stone Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7664": 0.2,
-    "7666": 0.2
-  },
-  "id": 7665,
-  "location": "the Coastal Cliffs",
   "tags": [
-    "shelfae chieftain",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "shelfae chieftain"
   ]
 }

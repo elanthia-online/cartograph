@@ -1,35 +1,27 @@
 {
-  "wayto": {
-    "7921": "southwest",
-    "14725": "south",
-    "6119": {
-      "stringproc": "8220eac92bbc300205ef3c0b2c76af93"
-    },
-    "6109": {
-      "stringproc": "65c3a74ab000f46eefdc568b715005fa"
-    },
-    "6111": "southeast"
-  },
-  "paths": [
-    "Obvious paths: southeast, south, southwest"
+  "id": 6110,
+  "title": [
+    "[Twin Canyons, Rocky Pass]"
   ],
-  "image_coords": [
-    305,
-    1274,
-    315,
-    1284
-  ],
-  "terrain": "hard, flat",
   "description": [
     "Jagged outcrops of craggy rocks split the valley into twin canyons.  Small rocks skitter down the steep walls of the canyon and form small wisps of dust that look like rising steam.  Cold air flows steadily north out of both canyons as the night cools the rock faces to near freezing temperatures.  Very faint chattering sounds can be heard coming from large cracks in the rock outcrop to the south.",
     "Jagged outcrops of craggy rocks split the valley into twin canyons.  Small rocks skitter down the steep walls of the canyon creating small wisps of dust that look like rising steam while the cool rock of the canyon floor creates a stream of cool air that flows steadily north out of both canyons.  Very faint chattering sounds can be heard coming from large cracks in the rock outcrop to the south."
   ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Twin Canyons, Rocky Pass]"
+  "paths": [
+    "Obvious paths: southeast, south, southwest"
   ],
-  "check_location": null,
+  "location": "Wehntoph",
+  "wayto": {
+    "7921": "southwest",
+    "14725": "south",
+    "6119": {
+      "file": "string_procs/wayto/6110_6119.rb"
+    },
+    "6109": {
+      "file": "string_procs/wayto/6110_6109.rb"
+    },
+    "6111": "southeast"
+  },
   "timeto": {
     "7921": 0.2,
     "14725": 0.2,
@@ -37,13 +29,11 @@
     "6109": 0.2,
     "6111": 0.2
   },
-  "id": 6110,
-  "location": "Wehntoph",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-gates-1264234799.png",
+  "image_coords": [
+    305,
+    1274,
+    315,
+    1284
   ]
 }

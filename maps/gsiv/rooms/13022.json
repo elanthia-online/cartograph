@@ -1,41 +1,33 @@
 {
+  "id": 13022,
+  "title": [
+    "[Bonespear Tower, Secret Passage]"
+  ],
+  "description": [
+    "The quiet in this narrow tunnel is eerie and unnatural.  Even footsteps are muffled, and in an area where one would suspect considerable echo, there is nothing but dead silence.  A huge steel door is wide open, and there is a small hole in it where the lock or latch should be."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Bonespear Tower",
   "wayto": {
     "13021": "south",
     "13023": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "13021": 0.2,
+    "13023": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     1101,
     1043,
     1111,
     1053
   ],
-  "terrain": "indoors",
-  "description": [
-    "The quiet in this narrow tunnel is eerie and unnatural.  Even footsteps are muffled, and in an area where one would suspect considerable echo, there is nothing but dead silence.  A huge steel door is wide open, and there is a small hole in it where the lock or latch should be."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Bonespear Tower, Secret Passage]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "13021": 0.2,
-    "13023": 0.2
-  },
-  "id": 13022,
-  "location": "Bonespear Tower",
   "tags": [
     "waern",
     "dybbuk",
-    "eidolon",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "eidolon"
   ]
 }

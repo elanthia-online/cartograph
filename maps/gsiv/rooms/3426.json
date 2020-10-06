@@ -1,42 +1,32 @@
 {
+  "id": 3426,
+  "title": [
+    "[The Thirsty Penguin, Bar]"
+  ],
+  "description": [
+    "Practical, as are most halfling institutions, the entry leads straight into the bar of the Thirsty Penguin Tavern.  A glittering bead curtain hangs off to one side, swinging lazily each time someone passes through it.  The entire wall behind the bar is studded with small, polished bronze mirrors."
+  ],
+  "paths": [
+    "Obvious exits: east, west, out"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "15620": "go curtain",
     "3427": "west",
     "3428": "east",
     "2407": "out"
   },
-  "paths": [
-    "Obvious exits: east, west, out"
-  ],
-  "image_coords": [
-    406,
-    877,
-    442,
-    913
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Practical, as are most halfling institutions, the entry leads straight into the bar of the Thirsty Penguin Tavern.  A glittering bead curtain hangs off to one side, swinging lazily each time someone passes through it.  The entire wall behind the bar is studded with small, polished bronze mirrors."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "indoors",
-  "title": [
-    "[The Thirsty Penguin, Bar]"
-  ],
-  "check_location": null,
   "timeto": {
     "15620": 0.2,
     "3427": 0.2,
     "3428": 0.2,
     "2407": 0.2
   },
-  "id": 3426,
-  "location": "Icemule Trace",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "imt-icemule-1474811966.png",
+  "image_coords": [
+    406,
+    877,
+    442,
+    913
   ]
 }

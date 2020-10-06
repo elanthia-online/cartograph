@@ -1,34 +1,31 @@
 {
+  "id": 4121,
+  "title": [
+    "[Upper Trollfang, Glatoph]"
+  ],
+  "description": [
+    "Lush vegetation grows thick in this spot, bushes and flowers and trees and ferns crowding each other for space.  Pushing your way through the growth, you discover a gash in the mountainside.  This opening seems to be the source of the warm wind heating up the area.  The smell of sulphur is very strong, and you think long and hard about entering.",
+    "Lush vegetation grows thick in this spot, bushes and flowers and trees and ferns crowding each other for space.  Pushing your way through the growth, you discover a gash in the mountainside.  You aren't certain, but you imagine you see a faint ruddy glow at the opening.  The smell of sulphur is very strong, and you think long and hard about entering."
+  ],
+  "paths": [
+    "Obvious paths: southeast"
+  ],
+  "location": "Glatoph",
   "wayto": {
     "4120": "southeast",
     "4122": "go gash"
   },
-  "paths": [
-    "Obvious paths: southeast"
-  ],
+  "timeto": {
+    "4120": 0.2,
+    "4122": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     343,
     560,
     353,
     570
   ],
-  "terrain": "cultivated",
-  "description": [
-    "Lush vegetation grows thick in this spot, bushes and flowers and trees and ferns crowding each other for space.  Pushing your way through the growth, you discover a gash in the mountainside.  This opening seems to be the source of the warm wind heating up the area.  The smell of sulphur is very strong, and you think long and hard about entering.",
-    "Lush vegetation grows thick in this spot, bushes and flowers and trees and ferns crowding each other for space.  Pushing your way through the growth, you discover a gash in the mountainside.  You aren't certain, but you imagine you see a faint ruddy glow at the opening.  The smell of sulphur is very strong, and you think long and hard about entering."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Upper Trollfang, Glatoph]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4120": 0.2,
-    "4122": 0.2
-  },
-  "id": 4121,
-  "location": "Glatoph",
   "tags": [
     "bright red cranberry",
     "sweetfern stalk",
@@ -46,10 +43,6 @@
     "blue whortleberry",
     "yew twig",
     "luckbloom blossom",
-    "wavepetal blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wavepetal blossom"
   ]
 }

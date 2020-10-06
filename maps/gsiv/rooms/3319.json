@@ -1,39 +1,28 @@
 {
+  "id": 3319,
+  "title": [
+    "[Icemule, Ruins]"
+  ],
+  "description": [
+    "A tiny cottage sits perfectly preserved within the glacier.  Several children's toys sit in the yard, and a broom leans against the stoop.  You can almost see smoke rising from the chimney, as if a fire still burned in the hearth.  But the windows remain dim, and the scene has an eerie air of timelessness about it."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast"
+  ],
+  "location": "the Glacier",
   "wayto": {
     "3318": "southeast",
     "3320": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southeast"
-  ],
+  "timeto": {
+    "3318": 0.2,
+    "3320": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     1311,
     917,
     1321,
     927
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A tiny cottage sits perfectly preserved within the glacier.  Several children's toys sit in the yard, and a broom leans against the stoop.  You can almost see smoke rising from the chimney, as if a fire still burned in the hearth.  But the windows remain dim, and the scene has an eerie air of timelessness about it."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Icemule, Ruins]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3318": 0.2,
-    "3320": 0.2
-  },
-  "id": 3319,
-  "location": "the Glacier",
-  "tags": [
-    "arctic moss",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

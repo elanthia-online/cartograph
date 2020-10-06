@@ -1,35 +1,32 @@
 {
+  "id": 2828,
+  "title": [
+    "[Northern Slopes, River Bank]"
+  ],
+  "description": [
+    "Rocks are tumbled in a precarious course that makes crossing them a demanding pursuit.  Patches of snow dot the crevices between the granite, studded here and there with small, brightly leafed bushes.  North of the field of stones, spruce and pine begin to grow, looming out of the river's fog like spectres."
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest"
+  ],
+  "location": "the Pinefar forests",
   "wayto": {
     "2873": "go bridge",
     "2829": "northeast",
     "2826": "northwest"
   },
-  "paths": [
-    "Obvious paths: northeast, northwest"
-  ],
+  "timeto": {
+    "2873": 0.2,
+    "2829": 0.2,
+    "2826": 0.2
+  },
+  "image": "imt-pinefar-1264234799.png",
   "image_coords": [
     510,
     1411,
     522,
     1423
   ],
-  "terrain": "mountainous",
-  "description": [
-    "Rocks are tumbled in a precarious course that makes crossing them a demanding pursuit.  Patches of snow dot the crevices between the granite, studded here and there with small, brightly leafed bushes.  North of the field of stones, spruce and pine begin to grow, looming out of the river's fog like spectres."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Northern Slopes, River Bank]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2873": 0.2,
-    "2829": 0.2,
-    "2826": 0.2
-  },
-  "id": 2828,
-  "location": "the Pinefar forests",
   "tags": [
     "some arctic moss",
     "lingonberry",
@@ -42,29 +39,6 @@
     "some valerian root",
     "sprig of edelweiss",
     "snow lily",
-    "some bolmara lichen",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "edelweiss",
-    "iceblossoms",
-    "winter rose",
-    "arctic moss",
-    "tundra grass",
-    "calamintha blossom",
-    "snowberries",
-    "red winterberry",
-    "small loganberry",
-    "rockberry",
-    "crowberry",
-    "orange rowanberry",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some bolmara lichen"
   ]
 }

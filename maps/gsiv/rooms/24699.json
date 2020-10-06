@@ -1,33 +1,30 @@
 {
+  "id": 24699,
+  "title": [
+    "[Red Forest, Ring of Mist]"
+  ],
+  "description": [
+    "The lush forest expands wide in every direction, with each vantage point covered in lush growth and almost supernaturally bright wildflowers.  Faint moisture clings to the air and pockets of woodland animals can be intermittently spotted."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest"
+  ],
+  "location": "the Red Forest",
   "wayto": {
     "24700": "southwest",
     "24698": "southeast"
   },
-  "paths": [
-    "Obvious paths: southeast, southwest"
-  ],
+  "timeto": {
+    "24700": 0.2,
+    "24698": 0.2
+  },
+  "image": "red_forest-1260914757.png",
   "image_coords": [
     238,
     44,
     250,
     57
   ],
-  "terrain": null,
-  "description": [
-    "The lush forest expands wide in every direction, with each vantage point covered in lush growth and almost supernaturally bright wildflowers.  Faint moisture clings to the air and pockets of woodland animals can be intermittently spotted."
-  ],
-  "image": "red_forest-1260914757.png",
-  "climate": null,
-  "title": [
-    "[Red Forest, Ring of Mist]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24700": 0.2,
-    "24698": 0.2
-  },
-  "id": 24699,
-  "location": "the Displaced Red Forest",
   "tags": [
     "blue whortleberry",
     "a blue whortleberry",
@@ -65,24 +62,6 @@
     "white hook mushroom",
     "massive black boar",
     "winged viper",
-    "willow twig",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "sticks",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "blueberries",
-    "tree bark",
-    "mistweed",
-    "yew twig",
-    "oak twig",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+    "willow twig"
+  ]
 }

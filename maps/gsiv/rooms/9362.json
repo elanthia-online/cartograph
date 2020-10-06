@@ -1,38 +1,31 @@
 {
+  "id": 9362,
+  "title": [
+    "[Caves]"
+  ],
+  "description": [
+    "The unrelenting drip-drip-drip of the water in the caves is enough to drive anyone batty.  A glance upwards reveals that this isn't too far off the mark.  Several pairs of blinking eyes look back from the ceiling of the cave, disturbed by the torchlight."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "9361": "north",
     "9363": "south"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "9361": 0.2,
+    "9363": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     929,
     98,
     941,
     110
   ],
-  "terrain": "indoors",
-  "description": [
-    "The unrelenting drip-drip-drip of the water in the caves is enough to drive anyone batty.  A glance upwards reveals that this isn't too far off the mark.  Several pairs of blinking eyes look back from the ceiling of the cave, disturbed by the torchlight."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Caves]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9361": 0.2,
-    "9363": 0.2
-  },
-  "id": 9362,
-  "location": "the Cairnfang",
   "tags": [
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

@@ -1,37 +1,34 @@
 {
+  "id": 7157,
+  "title": [
+    "[Upper Trollfang]"
+  ],
+  "description": [
+    "The stream disappears into a deep sink hole here.  The sound of rushing water and the cloud of fine spray is invigorating and relaxing.  You pause for a moment to look at the sink hole more closely.  It seems wider and deeper than you recall it being.  There are signs of fresh excavations around the opening."
+  ],
+  "paths": [
+    "Obvious paths: southwest, northwest"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "7156": "southwest",
     "8575": "go hole",
     "7161": "northwest"
   },
-  "paths": [
-    "Obvious paths: southwest, northwest"
-  ],
+  "timeto": {
+    "7156": 0.2,
+    "8575": {
+      "file": "string_procs/timeto/7157_8575.rb"
+    },
+    "7161": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     1060,
     402,
     1070,
     412
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "The stream disappears into a deep sink hole here.  The sound of rushing water and the cloud of fine spray is invigorating and relaxing.  You pause for a moment to look at the sink hole more closely.  It seems wider and deeper than you recall it being.  There are signs of fresh excavations around the opening."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "humid",
-  "title": [
-    "[Upper Trollfang]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7156": 0.2,
-    "8575": {
-      "stringproc": "68ac1f160023c53c328361757226a89c"
-    },
-    "7161": 0.2
-  },
-  "id": 7157,
-  "location": "the Upper Trollfang",
   "tags": [
     "some acantha leaf",
     "some calamia fruit",
@@ -50,41 +47,6 @@
     "some brostheras grass",
     "small wild rose",
     "fiddlehead fern",
-    "blue passionflower",
-    "acantha leaf",
-    "woth flower",
-    "calamia fruit",
-    "haphip root",
-    "pothinir grass",
-    "sticks",
-    "soft white mushroom",
-    "withered black mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "blueberries",
-    "wild gooseberry",
-    "broken twig",
-    "stalk of bluebells",
-    "stalk of goldenrod",
-    "sprig of wild lilac",
-    "wild orchid",
-    "tree bark",
-    "murkweed",
-    "yellow passionflower",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "twisted twig",
-    "slender twig",
-    "ebony twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "blue passionflower"
   ]
 }

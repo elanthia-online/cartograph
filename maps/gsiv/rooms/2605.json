@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "12208": {
-      "stringproc": "a0576f0215d746452e7afb93c1ee082c"
-    },
-    "2635": {
-      "stringproc": "01b8924575c8d70e4ed7eea7ed00be84"
-    },
-    "12101": {
-      "stringproc": "cf4b8e5b125b22b01c9349827d02c9fd"
-    },
-    "2604": "east",
-    "2606": "west"
-  },
+  "id": 2605,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "The path is flanked on both sides by black water, thick and sluggish with salt.  A tiny boat is beached on the shore, but the waves and tide still reach beyond its bow.  As the waves break around it, the dinghy rocks slightly and shifts in the swirling, bubbling sand.  Two people relax in the boat, a young man and woman, talking and laughing. While they sit, however, the boat lurches sickeningly and begins to take on water.  They look sad, and stare into each other's eyes as the sea claims them."
+  ],
   "paths": [
     "Obvious paths: east, west",
     "Obvious exits: east, west"
   ],
-  "image_coords": [
-    131,
-    750,
-    141,
-    760
-  ],
-  "terrain": null,
-  "description": [
-    "The path is flanked on both sides by black water, thick and sluggish with salt.  A tiny boat is beached on the shore, but the waves and tide still reach beyond its bow.  As the waves break around it, the dinghy rocks slightly and shifts in the swirling, bubbling sand.  Two people relax in the boat, a young man and woman, talking and laughing. While they sit, however, the boat lurches sickeningly and begins to take on water.  They look sad, and stare into each other's eyes as the sea claims them."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12208": {
+      "file": "string_procs/wayto/2605_12208.rb"
+    },
+    "2635": {
+      "file": "string_procs/wayto/2605_2635.rb"
+    },
+    "12101": {
+      "file": "string_procs/wayto/2605_12101.rb"
+    },
+    "2604": "east",
+    "2606": "west"
+  },
   "timeto": {
     "12208": 22.0,
     "2635": 22.0,
@@ -39,8 +31,13 @@
     "2604": 0.2,
     "2606": 0.2
   },
-  "id": 2605,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    131,
+    750,
+    141,
+    760
+  ],
   "tags": [
     "oozing fleshsore bulb",
     "rotting bile green fleshbulb",
@@ -49,8 +46,5 @@
     "mass of congealed slime",
     "twisted black mawflower",
     "withered deathblossom"
-  ],
-  "links": [
-
   ]
 }

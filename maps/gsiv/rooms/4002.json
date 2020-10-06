@@ -1,49 +1,36 @@
 {
-  "wayto": {
-    "4008": {
-      "stringproc": "395b361a16c8a355265cda519abf9fe5"
-    },
-    "4001": {
-      "stringproc": "dbbfd361e7886ce7121cafa8a1b5c5c5"
-    }
-  },
+  "id": 4002,
+  "title": [
+    "[Griffin's Keen, Inner Trail]"
+  ],
+  "description": [
+    "Towering overhead, a black peak can be seen blocking out the night sky.  Moonlight streams eerily down the mountainside, lighting up the snow.",
+    "Towering overhead, a black peak can be seen stabbing the blue sky with thick ebon fingers.  The sunlight reflecting on ice-covered rock is almost painfully bright."
+  ],
   "paths": [
     "Obvious paths: up, down"
   ],
+  "location": "Griffin's Keen",
+  "wayto": {
+    "4008": {
+      "file": "string_procs/wayto/4002_4008.rb"
+    },
+    "4001": {
+      "file": "string_procs/wayto/4002_4001.rb"
+    }
+  },
+  "timeto": {
+    "4008": 4.2,
+    "4001": 4.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     771,
     209,
     781,
     219
   ],
-  "terrain": null,
-  "description": [
-    "Towering overhead, a black peak can be seen blocking out the night sky.  Moonlight streams eerily down the mountainside, lighting up the snow.",
-    "Towering overhead, a black peak can be seen stabbing the blue sky with thick ebon fingers.  The sunlight reflecting on ice-covered rock is almost painfully bright."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Griffin's Keen, Inner Trail]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4008": 4.2,
-    "4001": 4.2
-  },
-  "id": 4002,
-  "location": "Griffin's Keen",
   "tags": [
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "sprig of holly",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sassafras leaf"
   ]
 }

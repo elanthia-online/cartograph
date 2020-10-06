@@ -1,34 +1,31 @@
 {
+  "id": 410,
+  "title": [
+    "[Hearthstone, Courtyard]"
+  ],
+  "description": [
+    "Before you stands a grand old manor, framed by huge willows to the east and west.  The elegant trees sway gently in the moonlight, dappling the cobblestone courtyard with ever-shifting patterns of light and dark.  Snippets of conversation drift away from the long porch stretching along the full width of the great old house, as several guests enjoy the hospitality and ambience of this fine hideaway.",
+    "Before you stands a grand old manor, framed by huge willows to the east and west.  The elegant trees sway gently, dappling the cobblestone courtyard with ever-shifting patterns of light and dark.  Snippets of conversation drift away from the long porch stretching along the full width of the great old house, as several guests enjoy the hospitality and ambience of this fine hideaway."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "222": "south",
     "477": "go steps"
   },
-  "paths": [
-    "Obvious paths: south"
-  ],
+  "timeto": {
+    "222": 0.2,
+    "477": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     657,
     147,
     667,
     156
   ],
-  "terrain": "grassland",
-  "description": [
-    "Before you stands a grand old manor, framed by huge willows to the east and west.  The elegant trees sway gently in the moonlight, dappling the cobblestone courtyard with ever-shifting patterns of light and dark.  Snippets of conversation drift away from the long porch stretching along the full width of the great old house, as several guests enjoy the hospitality and ambience of this fine hideaway.",
-    "Before you stands a grand old manor, framed by huge willows to the east and west.  The elegant trees sway gently, dappling the cobblestone courtyard with ever-shifting patterns of light and dark.  Snippets of conversation drift away from the long porch stretching along the full width of the great old house, as several guests enjoy the hospitality and ambience of this fine hideaway."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Hearthstone, Courtyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "222": 0.2,
-    "477": 0.2
-  },
-  "id": 410,
-  "location": "Wehnimer's Landing",
   "tags": [
     "some sovyn clove",
     "some acantha leaf",
@@ -95,28 +92,6 @@
     "cluster of woad leaves",
     "nightbloom blossom",
     "supernode",
-    "meta:trashcan:hollow tree stump",
-    "acantha leaf",
-    "ambrominas leaf",
-    "sovyn clove",
-    "small flower",
-    "angelica root",
-    "small violet",
-    "wild grapes",
-    "Imaera's Lace",
-    "monkey grass",
-    "motherwort",
-    "raspberries",
-    "wiregrass",
-    "murkweed",
-    "white lily",
-    "fire lily",
-    "murdroot",
-    "brostheras grass",
-    "woad leaves",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:trashcan:hollow tree stump"
   ]
 }

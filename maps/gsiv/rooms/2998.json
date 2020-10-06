@@ -1,35 +1,30 @@
 {
-  "wayto": {
-    "2997": {
-      "stringproc": "7d0c48e10f3083fe5348b9ca9e27470d"
-    },
-    "2999": "west"
-  },
+  "id": 2998,
+  "title": [
+    "[Arctic Tundra, High Plain]"
+  ],
+  "description": [
+    "Passage to the east is blocked by an enormous landslide.  Rocks and ice long ago melded together to form a slick, seemingly unclimbable barrier."
+  ],
   "paths": [
     "Obvious paths: west"
   ],
+  "location": "the High Plains",
+  "wayto": {
+    "2997": "climb landslide",
+    "2999": "west"
+  },
+  "timeto": {
+    "2997": 0.2,
+    "2999": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     379,
     953,
     389,
     963
   ],
-  "terrain": "mountainous",
-  "description": [
-    "Passage to the east is blocked by an enormous landslide.  Rocks and ice long ago melded together to form a slick, seemingly unclimbable barrier."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Arctic Tundra, High Plain]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2997": 0.2,
-    "2999": 0.2
-  },
-  "id": 2998,
-  "location": "the High Plains",
   "tags": [
     "golden aster",
     "winter rose",
@@ -74,14 +69,6 @@
     "pale thornberry",
     "ironfern root",
     "wingstem root",
-    "some tundra grass",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some tundra grass"
   ]
 }

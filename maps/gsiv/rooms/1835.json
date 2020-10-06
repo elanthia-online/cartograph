@@ -1,33 +1,30 @@
 {
+  "id": 1835,
+  "title": [
+    "[Wraithenmist, Narrow Trail]"
+  ],
+  "description": [
+    "The path leads further northward into a forest so thick with trees that little light is able to penetrate the canopy above.  The area is strangely quiet, completely absent of the sounds one would expect to hear within a forest."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "Wraithenmist",
   "wayto": {
     "1834": "northeast",
     "653": "go path"
   },
-  "paths": [
-    "Obvious paths: northeast"
-  ],
+  "timeto": {
+    "1834": 0.2,
+    "653": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     27,
     395,
     37,
     405
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "The path leads further northward into a forest so thick with trees that little light is able to penetrate the canopy above.  The area is strangely quiet, completely absent of the sounds one would expect to hear within a forest."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Wraithenmist, Narrow Trail]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1834": 0.2,
-    "653": 0.2
-  },
-  "id": 1835,
-  "location": "Wraithenmist",
   "tags": [
     "some wolifrew lichen",
     "some acantha leaf",
@@ -58,28 +55,6 @@
     "tkaro root",
     "bright red teaberry",
     "willow twig",
-    "handful of blueberries",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "sticks",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "blueberries",
-    "broken twig",
-    "tree bark",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "handful of blueberries"
   ]
 }

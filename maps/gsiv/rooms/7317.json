@@ -1,39 +1,32 @@
 {
+  "id": 7317,
+  "title": [
+    "[Dark Crevice]"
+  ],
+  "description": [
+    "The rough path continues up the steep terrain.  Step after step, you feel your legs growing hot as you strain to keep a sure footing.  A pressure in your ears lets you know you have climbed quite a distance."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7316": "down",
     "7318": "up"
   },
-  "paths": [
-    "Obvious exits: up, down"
-  ],
+  "timeto": {
+    "7316": 0.2,
+    "7318": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1085,
     357,
     1095,
     367
   ],
-  "terrain": "indoors",
-  "description": [
-    "The rough path continues up the steep terrain.  Step after step, you feel your legs growing hot as you strain to keep a sure footing.  A pressure in your ears lets you know you have climbed quite a distance."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dark Crevice]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7316": 0.2,
-    "7318": 0.2
-  },
-  "id": 7317,
-  "location": "the Graveyard",
   "tags": [
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

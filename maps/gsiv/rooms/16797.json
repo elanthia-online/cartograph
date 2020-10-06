@@ -1,45 +1,38 @@
 {
+  "id": 16797,
+  "title": [
+    "[Hall of the Dead, Debtors Vault]"
+  ],
+  "description": [
+    "Body parts fill the notches.  People have been hacked up to fit the slots here instead of the slots being cut to fit the people.  The person responsible for this atrocity must himself have no soul."
+  ],
+  "paths": [
+    "Obvious exits: east, south, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "16794": "west",
     "16796": "south",
     "16798": "east"
   },
-  "paths": [
-    "Obvious exits: east, south, west"
-  ],
+  "timeto": {
+    "16794": 0.2,
+    "16796": 0.2,
+    "16798": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     913,
     861,
     923,
     871
   ],
-  "terrain": "indoors",
-  "description": [
-    "Body parts fill the notches.  People have been hacked up to fit the slots here instead of the slots being cut to fit the people.  The person responsible for this atrocity must himself have no soul."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Hall of the Dead, Debtors Vault]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "16794": 0.2,
-    "16796": 0.2,
-    "16798": 0.2
-  },
-  "id": 16797,
-  "location": "the Graveyard",
   "tags": [
     "wolifrew lichen",
     "withered black mushroom",
     "cave moss",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

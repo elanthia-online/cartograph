@@ -1,35 +1,32 @@
 {
+  "id": 7249,
+  "title": [
+    "[Graveyard, Burial Mound]"
+  ],
+  "description": [
+    "A ridge of blackened earth surrounds the edge of the mound, home to patches of dry grasses and the remains of uncountable corpses that poke bones and bits of flesh through the dirt surface.  To the north, the desolate expanse of the graveyard stretches off into the distance."
+  ],
+  "paths": [
+    "Obvious paths: south, southwest, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7250": "west",
     "7208": "south",
     "7248": "southwest"
   },
-  "paths": [
-    "Obvious paths: south, southwest, west"
-  ],
+  "timeto": {
+    "7250": 0.2,
+    "7208": 0.2,
+    "7248": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     479,
     106,
     489,
     116
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "A ridge of blackened earth surrounds the edge of the mound, home to patches of dry grasses and the remains of uncountable corpses that poke bones and bits of flesh through the dirt surface.  To the north, the desolate expanse of the graveyard stretches off into the distance."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Graveyard, Burial Mound]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7250": 0.2,
-    "7208": 0.2,
-    "7248": 0.2
-  },
-  "id": 7249,
-  "location": "the Graveyard",
   "tags": [
     "some wolifrew lichen",
     "some acantha leaf",
@@ -52,10 +49,6 @@
     "bright red cranberry",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

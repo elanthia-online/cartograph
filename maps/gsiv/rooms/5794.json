@@ -1,41 +1,31 @@
 {
+  "id": 5794,
+  "title": [
+    "[Zaerthu Tunnels, Chimney]"
+  ],
+  "description": [
+    "The cavern narrows abruptly to the north and ends in a pit little wider than a stout giantman's shoulders.  The rim of the pit is worn smooth, almost slick."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the Zaerthu Tunnels",
   "wayto": {
     "5793": "climb chimney",
     "5795": "south"
   },
-  "paths": [
-    "Obvious exits: south"
-  ],
+  "timeto": {
+    "5793": 0.2,
+    "5795": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     207,
     669,
     217,
     679
   ],
-  "terrain": "indoors",
-  "description": [
-    "The cavern narrows abruptly to the north and ends in a pit little wider than a stout giantman's shoulders.  The rim of the pit is worn smooth, almost slick."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Zaerthu Tunnels, Chimney]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5793": 0.2,
-    "5795": 0.2
-  },
-  "id": 5794,
-  "location": "the Zaerthu Tunnels",
   "tags": [
-    "some wolifrew lichen",
-    "wolifrew lichen",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wolifrew lichen"
   ]
 }

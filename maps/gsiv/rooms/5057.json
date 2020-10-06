@@ -1,33 +1,30 @@
 {
+  "id": 5057,
+  "title": [
+    "[Vornavis, West Road]"
+  ],
+  "description": [
+    "The road is marked here by potholes and missing cobblestones.  Travel conditions improve to the east, but this section would be extremely hard on wagon wheels.  To the southwest, the road continues to deteriorate."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "the plains of Vornavis",
   "wayto": {
     "5056": "east",
     "5058": "southwest"
   },
-  "paths": [
-    "Obvious paths: east, southwest"
-  ],
+  "timeto": {
+    "5056": 0.2,
+    "5058": 0.2
+  },
+  "image": "vo-caravansary-1264234799.png",
   "image_coords": [
     772,
     282,
     782,
     292
   ],
-  "terrain": "rough",
-  "description": [
-    "The road is marked here by potholes and missing cobblestones.  Travel conditions improve to the east, but this section would be extremely hard on wagon wheels.  To the southwest, the road continues to deteriorate."
-  ],
-  "image": "vo-caravansary-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Vornavis, West Road]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5056": 0.2,
-    "5058": 0.2
-  },
-  "id": 5057,
-  "location": "the plains of Vornavis",
   "tags": [
     "fiddlehead fern",
     "wild strawberry",
@@ -41,29 +38,6 @@
     "some motherwort",
     "handful of blueberries",
     "handful of elderberries",
-    "pink clover blossom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "blueberries",
-    "stalk of chicory",
-    "handful of currants",
-    "elderberries",
-    "wild grapes",
-    "broken twig",
-    "sprig of alyssum",
-    "golden buttercup",
-    "white clover blossom",
-    "purple clover blossom",
-    "yellow clover blossom",
-    "sprig of larkspur",
-    "yellow primrose",
-    "small wild rose",
-    "motherwort",
-    "pepperthorn root",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "pink clover blossom"
   ]
 }

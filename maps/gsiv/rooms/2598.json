@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "2597": "west",
-    "2599": "east",
-    "12208": {
-      "stringproc": "a0576f0215d746452e7afb93c1ee082c"
-    },
-    "2635": {
-      "stringproc": "01b8924575c8d70e4ed7eea7ed00be84"
-    },
-    "12101": {
-      "stringproc": "cf4b8e5b125b22b01c9349827d02c9fd"
-    }
-  },
+  "id": 2598,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "A throne sits in the middle of an open field.  Dead and dried flower bushes grow over it, lacing thistles through the hair and bones of the half-rotted woman sitting within it.  Enough flesh remains to identify her gender, but the rest is gone, devoured by the plants and elements."
+  ],
   "paths": [
     "Obvious paths: east, west",
     "Obvious exits: east, west"
   ],
-  "image_coords": [
-    226,
-    723,
-    236,
-    733
-  ],
-  "terrain": null,
-  "description": [
-    "A throne sits in the middle of an open field.  Dead and dried flower bushes grow over it, lacing thistles through the hair and bones of the half-rotted woman sitting within it.  Enough flesh remains to identify her gender, but the rest is gone, devoured by the plants and elements."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "2597": "west",
+    "2599": "east",
+    "12208": {
+      "file": "string_procs/wayto/2598_12208.rb"
+    },
+    "2635": {
+      "file": "string_procs/wayto/2598_2635.rb"
+    },
+    "12101": {
+      "file": "string_procs/wayto/2598_12101.rb"
+    }
+  },
   "timeto": {
     "2597": 0.2,
     "2599": 0.2,
@@ -39,8 +31,13 @@
     "2635": 22.0,
     "12101": 26.0
   },
-  "id": 2598,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    226,
+    723,
+    236,
+    733
+  ],
   "tags": [
     "discolored fleshbinder bud",
     "rotting bile green fleshbulb",
@@ -49,8 +46,5 @@
     "mass of congealed slime",
     "twisted black mawflower",
     "withered deathblossom"
-  ],
-  "links": [
-
   ]
 }

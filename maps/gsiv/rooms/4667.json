@@ -1,34 +1,31 @@
 {
+  "id": 4667,
+  "title": [
+    "[Cysaegir, Retreat]"
+  ],
+  "description": [
+    "Following the natural contour of the land, a cobblestone walkway lined with columns meanders around a pool, large enough for several giantman to recline in comfortably.  Cascading waterfalls are etched on the bronze apron of the deep basin and set with a trim of golden topaz cabochons.  A detailed peacock on a field of blue rests at the center-bottom of the limestone lining.  A wrought-iron gate bars the end of the walkway, and the shape of a building is barely visible under the night sky.",
+    "Following the natural contour of the land, a cobblestone walkway lined with columns meanders around a pool, large enough for several giantman to recline in comfortably.  Cascading waterfalls are etched on the bronze apron of the deep basin and set with a trim of golden topaz cabochons.  A detailed peacock on a field of blue rests at the center-bottom of the limestone lining, beneath clear blue water.  At the end of the walkway a locked, wrought-iron gate leads to the steps of a grey marble manor house."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "the village of Cysaegir",
   "wayto": {
     "4669": "go opening",
     "4662": "north"
   },
-  "paths": [
-    "Obvious paths: north"
-  ],
+  "timeto": {
+    "4669": 0.2,
+    "4662": 0.2
+  },
+  "image": "en-cysaegir-1264234799.png",
   "image_coords": [
     964,
     1037,
     1000,
     1073
   ],
-  "terrain": "grassland",
-  "description": [
-    "Following the natural contour of the land, a cobblestone walkway lined with columns meanders around a pool, large enough for several giantman to recline in comfortably.  Cascading waterfalls are etched on the bronze apron of the deep basin and set with a trim of golden topaz cabochons.  A detailed peacock on a field of blue rests at the center-bottom of the limestone lining.  A wrought-iron gate bars the end of the walkway, and the shape of a building is barely visible under the night sky.",
-    "Following the natural contour of the land, a cobblestone walkway lined with columns meanders around a pool, large enough for several giantman to recline in comfortably.  Cascading waterfalls are etched on the bronze apron of the deep basin and set with a trim of golden topaz cabochons.  A detailed peacock on a field of blue rests at the center-bottom of the limestone lining, beneath clear blue water.  At the end of the walkway a locked, wrought-iron gate leads to the steps of a grey marble manor house."
-  ],
-  "image": "en-cysaegir-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Cysaegir, Retreat]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4669": 0.2,
-    "4662": 0.2
-  },
-  "id": 4667,
-  "location": "the village of Cysaegir",
   "tags": [
     "acantha leaf",
     "ambrominas leaf",
@@ -105,10 +102,6 @@
     "wavepetal blossom",
     "ironfern root",
     "nightbloom blossom",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

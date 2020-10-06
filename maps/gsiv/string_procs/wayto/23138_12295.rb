@@ -1,1 +1,2 @@
-move 'go arch'; $go2_restart = true
+move 'go arch'
+ $go2_restart = true

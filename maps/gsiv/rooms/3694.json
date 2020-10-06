@@ -1,38 +1,28 @@
 {
+  "id": 3694,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "The passage bends sharply, sloping gradually downward as you move southeast.  The walls are coated with moisture, and the smell of death and decay clings to the sickly yellow moss which creeps up the surfaces of stone around you."
+  ],
+  "paths": [
+    "Obvious exits: southwest, northwest"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "3695": "southwest",
     "3693": "northwest"
   },
-  "paths": [
-    "Obvious exits: southwest, northwest"
-  ],
+  "timeto": {
+    "3695": 0.2,
+    "3693": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     363,
     1233,
     373,
     1243
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The passage bends sharply, sloping gradually downward as you move southeast.  The walls are coated with moisture, and the smell of death and decay clings to the sickly yellow moss which creeps up the surfaces of stone around you."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3695": 0.2,
-    "3693": 0.2
-  },
-  "id": 3694,
-  "location": "Darkstone Castle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

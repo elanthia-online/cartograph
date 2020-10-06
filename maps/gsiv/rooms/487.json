@@ -1,33 +1,30 @@
 {
+  "id": 487,
+  "title": [
+    "[Coastal Cliffs]"
+  ],
+  "description": [
+    "You are forced to move inland a bit as the cliffs grow treacherous.  Here, in the shelter of gnarled modwirs, the wind is but a gentle breeze."
+  ],
+  "paths": [
+    "Obvious paths: southeast, west"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "486": "southeast",
     "488": "west"
   },
-  "paths": [
-    "Obvious paths: southeast, west"
-  ],
+  "timeto": {
+    "486": 0.2,
+    "488": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     416,
     757,
     426,
     767
   ],
-  "terrain": "rough",
-  "description": [
-    "You are forced to move inland a bit as the cliffs grow treacherous.  Here, in the shelter of gnarled modwirs, the wind is but a gentle breeze."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Coastal Cliffs]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "486": 0.2,
-    "488": 0.2
-  },
-  "id": 487,
-  "location": "the Coastal Cliffs",
   "tags": [
     "wild strawberry",
     "wild chokecherry",
@@ -41,10 +38,6 @@
     "wintergreen leaf",
     "bright red teaberry",
     "blueberries",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

@@ -1,42 +1,32 @@
 {
+  "id": 11301,
+  "title": [
+    "[Alchemist, Hallway]"
+  ],
+  "description": [
+    "Stone and timber alike gave way here beneath some colossal impact, which ripped the floor asunder and brought down the ceiling at the same time.  Even a dwarf might feel a bit claustrophobic in this space, with barely enough room to squeeze through the rubble.  Dark, foul-tasting smoke drifts lazily up from a wide hole in the floor, hot enough to sting eyes and lungs alike."
+  ],
+  "paths": [
+    "Obvious exits: north, south, west"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11303": "go hole",
     "11298": "west",
     "11300": "north",
     "11302": "south"
   },
-  "paths": [
-    "Obvious exits: north, south, west"
-  ],
-  "image_coords": [
-    860,
-    893,
-    870,
-    903
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Stone and timber alike gave way here beneath some colossal impact, which ripped the floor asunder and brought down the ceiling at the same time.  Even a dwarf might feel a bit claustrophobic in this space, with barely enough room to squeeze through the rubble.  Dark, foul-tasting smoke drifts lazily up from a wide hole in the floor, hot enough to sting eyes and lungs alike."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Alchemist, Hallway]"
-  ],
-  "check_location": null,
   "timeto": {
     "11303": 0.2,
     "11298": 0.2,
     "11300": 0.2,
     "11302": 0.2
   },
-  "id": 11301,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-citadel-1267238976.png",
+  "image_coords": [
+    860,
+    893,
+    870,
+    903
   ]
 }

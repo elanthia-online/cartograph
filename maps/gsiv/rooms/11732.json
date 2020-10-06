@@ -1,40 +1,30 @@
 {
+  "id": 11732,
+  "title": [
+    "[Marsh Keep, Dungeon Hallway]"
+  ],
+  "description": [
+    "Smooth black stone runs from the floor to the ceiling, leaving no evidence of the granite block used to the north in the dungeon hallway.  Claw marks in the floor lead to the skeletal remains of a hand positioned downward and lying halfway out into the hallway from behind an iron door.  The hallway opens up to the east into a large vaulted area."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "the Marsh Keep",
   "wayto": {
     "11733": "go door",
     "11734": "east",
     "11731": "north"
   },
-  "paths": [
-    "Obvious exits: north, east"
-  ],
-  "image_coords": [
-    473,
-    622,
-    483,
-    632
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Smooth black stone runs from the floor to the ceiling, leaving no evidence of the granite block used to the north in the dungeon hallway.  Claw marks in the floor lead to the skeletal remains of a hand positioned downward and lying halfway out into the hallway from behind an iron door.  The hallway opens up to the east into a large vaulted area."
-  ],
-  "image": "rr-marsh_keep-1266356986.png",
-  "climate": "indoors",
-  "title": [
-    "[Marsh Keep, Dungeon Hallway]"
-  ],
-  "check_location": null,
   "timeto": {
     "11733": 0.2,
     "11734": 0.2,
     "11731": 0.2
   },
-  "id": 11732,
-  "location": "the Marsh Keep",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-marsh_keep-1266356986.png",
+  "image_coords": [
+    473,
+    622,
+    483,
+    632
   ]
 }

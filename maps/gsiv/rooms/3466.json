@@ -1,42 +1,35 @@
 {
+  "id": 3466,
+  "title": [
+    "[Snowy Plains, Deep Freeze]"
+  ],
+  "description": [
+    "Through the light snowfall, you can see some enormous footprints in the snow.  Peering nervously about, you shudder and are not sure if it is the cold...or dread of meeting the creature that made the tracks."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south"
+  ],
+  "location": "the Icemule Trail",
   "wayto": {
     "3465": "northeast",
     "3467": "south"
   },
-  "paths": [
-    "Obvious paths: northeast, south"
-  ],
+  "timeto": {
+    "3465": 0.2,
+    "3467": 0.2
+  },
+  "image": "imt-trail-1264234799.png",
   "image_coords": [
     818,
     625,
     828,
     635
   ],
-  "terrain": "rough",
-  "description": [
-    "Through the light snowfall, you can see some enormous footprints in the snow.  Peering nervously about, you shudder and are not sure if it is the cold...or dread of meeting the creature that made the tracks."
-  ],
-  "image": "imt-trail-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Snowy Plains, Deep Freeze]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3465": 0.2,
-    "3467": 0.2
-  },
-  "id": 3466,
-  "location": "the Icemule Trail",
   "tags": [
     "wintergreen leaf",
     "bright red teaberry",
     "arctic moss",
     "broken twig",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

@@ -1,33 +1,30 @@
 {
+  "id": 8133,
+  "title": [
+    "[Dubh Brugh, Cavern]"
+  ],
+  "description": [
+    "A large block of granite, surprisingly flat and smooth, obstructs passage.  Since it is only the height of a short human, it shouldn't be hard to scamper up at all."
+  ],
+  "paths": [
+    "Obvious exits: northeast, up"
+  ],
+  "location": "Dubh Brugh",
   "wayto": {
     "8132": "up",
     "8134": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, up"
-  ],
+  "timeto": {
+    "8132": 0.2,
+    "8134": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     1255,
     778,
     1265,
     788
   ],
-  "terrain": "indoors",
-  "description": [
-    "A large block of granite, surprisingly flat and smooth, obstructs passage.  Since it is only the height of a short human, it shouldn't be hard to scamper up at all."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dubh Brugh, Cavern]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8132": 0.2,
-    "8134": 0.2
-  },
-  "id": 8133,
-  "location": "Dubh Brugh",
   "tags": [
     "withered black mushroom",
     "some bolmara lichen",
@@ -37,16 +34,6 @@
     "blue trafel mushroom",
     "soft white mushroom",
     "flathead mushroom",
-    "genkew mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "genkew mushroom"
   ]
 }

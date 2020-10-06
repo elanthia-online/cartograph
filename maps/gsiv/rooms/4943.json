@@ -1,38 +1,28 @@
 {
+  "id": 4943,
+  "title": [
+    "[Gyldemar Forest, Ruined Hall]"
+  ],
+  "description": [
+    "Deep gouges mar the magnificent carvings lining the hall.  A tarnished axe blade remains buried in the neck of a drake carving.  One of the hall's support columns rests as rubble across the hall.  The column's elaborate capital remains intact, covered in animal filth."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Gyldemar Forest",
   "wayto": {
     "4942": "south",
     "4944": "go stairwell"
   },
-  "paths": [
-    "Obvious exits: south"
-  ],
+  "timeto": {
+    "4942": 0.2,
+    "4944": 0.2
+  },
+  "image": "en-gyldemar-1264234799.png",
   "image_coords": [
     901,
     463,
     911,
     473
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Deep gouges mar the magnificent carvings lining the hall.  A tarnished axe blade remains buried in the neck of a drake carving.  One of the hall's support columns rests as rubble across the hall.  The column's elaborate capital remains intact, covered in animal filth."
-  ],
-  "image": "en-gyldemar-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Gyldemar Forest, Ruined Hall]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4942": 0.2,
-    "4944": 0.2
-  },
-  "id": 4943,
-  "location": "Gyldemar Forest",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

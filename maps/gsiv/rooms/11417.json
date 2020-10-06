@@ -1,37 +1,34 @@
 {
+  "id": 11417,
+  "title": [
+    "[Troll Lair, Hall]"
+  ],
+  "description": [
+    "The hall is strewn with droppings, litter, and animal parts, making footing difficult at best.  Among the debris can be seen various bits of leather and metal that appear to have once been armor.  A fouler stench wafts in from the northeast."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east, southeast, northwest"
+  ],
+  "location": "the Hidden Vale",
   "wayto": {
     "11416": "northwest",
     "11418": "southeast",
     "11420": "east",
     "11422": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, east, southeast, northwest"
-  ],
-  "image_coords": [
-    906,
-    1412,
-    916,
-    1422
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The hall is strewn with droppings, litter, and animal parts, making footing difficult at best.  Among the debris can be seen various bits of leather and metal that appear to have once been armor.  A fouler stench wafts in from the northeast."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Troll Lair, Hall]"
-  ],
-  "check_location": null,
   "timeto": {
     "11416": 0.2,
     "11418": 0.2,
     "11420": 0.2,
     "11422": 0.2
   },
-  "id": 11417,
-  "location": "the Hidden Vale",
+  "image": "rr-citadel-1267238976.png",
+  "image_coords": [
+    906,
+    1412,
+    916,
+    1422
+  ],
   "tags": [
     "withered black mushroom",
     "some wingstem root",
@@ -45,11 +42,6 @@
     "soft white mushroom",
     "black hook mushroom",
     "cave moss",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bolmara lichen"
   ]
 }

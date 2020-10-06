@@ -1,35 +1,32 @@
 {
+  "id": 2388,
+  "title": [
+    "[Lager Street, Cul-de-sac]"
+  ],
+  "description": [
+    "A stone wall abuts the cobblestone street and looms overhead.  On top of the wall are stone lion sculptures, spaced at equal intervals, standing like guardians facing outward.  Framed within the middle of the stonework is a gate wrought of steel and gilded with silver filigrees.  The regal escutcheon of the Warrior Guild hangs prominently upon the center of the gate."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the Warrior Guild",
   "wayto": {
     "17749": "go gate",
     "2387": "east"
   },
-  "paths": [
-    "Obvious paths: east"
-  ],
+  "timeto": {
+    "17749": {
+      "file": "string_procs/timeto/2388_17749.rb"
+    },
+    "2387": 0.2
+  },
+  "image": "imt-icemule-1474811966.png",
   "image_coords": [
     50,
     877,
     86,
     913
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "A stone wall abuts the cobblestone street and looms overhead.  On top of the wall are stone lion sculptures, spaced at equal intervals, standing like guardians facing outward.  Framed within the middle of the stonework is a gate wrought of steel and gilded with silver filigrees.  The regal escutcheon of the Warrior Guild hangs prominently upon the center of the gate."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Lager Street, Cul-de-sac]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "17749": {
-      "stringproc": "2ec7d884d36666428596184d9175fc3d"
-    },
-    "2387": 0.2
-  },
-  "id": 2388,
-  "location": "the Warrior Guild",
   "tags": [
     "warriorguild",
     "some valerian root",
@@ -45,16 +42,6 @@
     "sassafras leaf",
     "frostweed",
     "frostflower",
-    "murdroot",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "arctic moss",
-    "tundra grass",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "murdroot"
   ]
 }

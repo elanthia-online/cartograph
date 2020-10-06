@@ -1,43 +1,33 @@
 {
-  "wayto": {
-    "3663": "south",
-    "3655": "north",
-    "16323": "go shop"
-  },
-  "paths": [
-    "Obvious paths: north, south"
+  "id": 3662,
+  "title": [
+    "[Cobblestone Path]"
   ],
-  "image_coords": [
-    2772,
-    1745,
-    2805,
-    1772
-  ],
-  "terrain": "hard, flat",
   "description": [
     "The silvery moonlight subdues the colorful tile capping the whitewashed cottages along the cobblestone path, casting them into soft tones of grey.  A light layer of dew covers the wildflowers, which pour over the painted windowboxes, reflecting the glow of the candlelight in the windows.  A low mist clings to the ground, interrupted only by the cool breeze that sends it into wispy swirls.",
     "The sunlight reflects off the colorfully tiled roofs, covering the whitewashed cottages along the cobblestone street.  Brightly painted windowboxes, overflowing with wildflowers, add to the rustic warmth of this small town.  The fresh smell of baked bread from somewhere nearby wafts on the cool breeze.",
     "The silvery moonlight subdues the colorful tile capping the stucco shop set along the cobblestone path, casting it into soft tones of grey.  A light layer of dew covers the wildflowers which pour over the painted windowboxes reflecting the glow of the candlelight in the windows.  A low mist clings to the ground, interrupted only by the cool breeze that sends it into wispy swirls.",
     "The sunlight reflects off the colorfully tiled roof, covering the stucco shop set along the cobblestone street.  Brightly painted windowboxes overflowing with wildflowers add to the rustic warmth of this small town.  The fresh smell of baked bread from somewhere nearby wafts on the cool breeze."
   ],
-  "image": "ifw-isle_of_four_winds-1310232949.png",
-  "climate": "temperate",
-  "title": [
-    "[Cobblestone Path]"
+  "paths": [
+    "Obvious paths: north, south"
   ],
-  "check_location": null,
+  "location": "the Isle of Four Winds",
+  "wayto": {
+    "3663": "south",
+    "3655": "north",
+    "16323": "go shop"
+  },
   "timeto": {
     "3663": 0.2,
     "3655": 0.2,
     "16323": 0.2
   },
-  "id": 3662,
-  "location": "the Isle of Four Winds",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "ifw-isle_of_four_winds-1310232949.png",
+  "image_coords": [
+    2772,
+    1745,
+    2805,
+    1772
   ]
 }

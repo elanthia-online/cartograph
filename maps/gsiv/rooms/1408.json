@@ -1,35 +1,32 @@
 {
+  "id": 1408,
+  "title": [
+    "[Cairnfang Forest]",
+    "[Cairnfang Forest, Wagon's End]"
+  ],
+  "description": [
+    "The trail climbs a gentle slope as it continues to the northeast beneath the trees.  Southward, the moonlit expanse of ferns and tree trunks stretches downhill, only to be lost among the grey and black columns of the trees.",
+    "The trail climbs a gentle slope as it continues to the northeast beneath the trees.  Southward, the sun-dappled expanse of ferns and tree trunks stretches downhill, only to be lost among the grey and black columns of the trees."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "1409": "southwest",
     "1407": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, southwest"
-  ],
+  "timeto": {
+    "1409": 0.2,
+    "1407": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     1021,
     1015,
     1031,
     1025
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "The trail climbs a gentle slope as it continues to the northeast beneath the trees.  Southward, the moonlit expanse of ferns and tree trunks stretches downhill, only to be lost among the grey and black columns of the trees.",
-    "The trail climbs a gentle slope as it continues to the northeast beneath the trees.  Southward, the sun-dappled expanse of ferns and tree trunks stretches downhill, only to be lost among the grey and black columns of the trees."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Cairnfang Forest]",
-    "[Cairnfang Forest, Wagon's End]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1409": 0.2,
-    "1407": 0.2
-  },
-  "id": 1408,
-  "location": "the Cairnfang",
   "tags": [
     "sprig of wild lilac",
     "some torban leaf",
@@ -87,10 +84,6 @@
     "ebony twig",
     "bolmara lichen",
     "brostheras grass",
-    "alder bark",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "alder bark"
   ]
 }

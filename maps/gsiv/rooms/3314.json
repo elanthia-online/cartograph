@@ -1,40 +1,31 @@
 {
+  "id": 3314,
+  "title": [
+    "[Ice Tunnel, Winding Passage]"
+  ],
+  "description": [
+    "The tunnel sharply turns back on itself here, disorienting you slightly.  This, coupled with the sloping floor, causes you to slip several times as you make your way through the ice.  Your own breathing echoes about you, making you tense with unease."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east"
+  ],
+  "location": "the Glacier",
   "wayto": {
     "3313": "northeast",
     "3315": "east"
   },
-  "paths": [
-    "Obvious exits: northeast, east"
-  ],
+  "timeto": {
+    "3313": 0.2,
+    "3315": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     1260,
     996,
     1270,
     1006
   ],
-  "terrain": "indoors",
-  "description": [
-    "The tunnel sharply turns back on itself here, disorienting you slightly.  This, coupled with the sloping floor, causes you to slip several times as you make your way through the ice.  Your own breathing echoes about you, making you tense with unease."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Ice Tunnel, Winding Passage]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3313": 0.2,
-    "3315": 0.2
-  },
-  "id": 3314,
-  "location": "the Glacier",
   "tags": [
-    "some arctic moss",
-    "arctic moss",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some arctic moss"
   ]
 }

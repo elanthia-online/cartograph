@@ -1,33 +1,30 @@
 {
+  "id": 3890,
+  "title": [
+    "[Prestidigitorium, Entrance]"
+  ],
+  "description": [
+    "The rock-lined path leads behind several of the shacks and ends at a structure that looks incongruous for this area.  The small shop is constructed of the finest modwir, which someone has apparently decided to paint a sky blue.  The workmanship of the construction is exquisite, perhaps even elven handywork.  A large sign hangs above the door."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "314": "go path",
     "8723": "go entrance"
   },
-  "paths": [
-    "Obvious paths: none"
-  ],
+  "timeto": {
+    "314": 0.2,
+    "8723": 0.2
+  },
+  "image": "wl-wehnimers-1264234799.png",
   "image_coords": [
     1276,
     1052,
     1314,
     1090
   ],
-  "terrain": null,
-  "description": [
-    "The rock-lined path leads behind several of the shacks and ends at a structure that looks incongruous for this area.  The small shop is constructed of the finest modwir, which someone has apparently decided to paint a sky blue.  The workmanship of the construction is exquisite, perhaps even elven handywork.  A large sign hangs above the door."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Prestidigitorium, Entrance]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "314": 0.2,
-    "8723": 0.2
-  },
-  "id": 3890,
-  "location": "Wehnimer's Landing",
   "tags": [
     "some acantha leaf",
     "some pothinir grass",
@@ -35,10 +32,6 @@
     "cactus flower",
     "black trafel mushroom",
     "pepperthorn root",
-    "blue whortleberry",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "blue whortleberry"
   ]
 }

@@ -1,36 +1,28 @@
 {
-  "wayto": {
-    "3937": {
-      "stringproc": "1b05168490a4bc4256a681555163ac06"
-    }
-  },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "A faint light trickles in through the cracks in the ceiling, as the tunnel continues to drop.  In the distance, you can hear the faint scratching sounds of vermin being about their business."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 3947,
   "title": [
     "[Abandoned Sewer]"
   ],
-  "check_location": null,
+  "description": [
+    "A faint light trickles in through the cracks in the ceiling, as the tunnel continues to drop.  In the distance, you can hear the faint scratching sounds of vermin being about their business."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the catacombs",
+  "wayto": {
+    "3937": {
+      "file": "string_procs/wayto/3947_3937.rb"
+    }
+  },
   "timeto": {
     "3937": 1.6
   },
-  "id": 3947,
-  "location": "the catacombs",
   "tags": [
     "red trafel mushroom",
     "black hook mushroom",
     "some cave moss",
     "some bolmara lichen",
     "blue trafel mushroom"
-  ],
-  "links": [
-
   ]
 }

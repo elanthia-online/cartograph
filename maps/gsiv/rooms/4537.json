@@ -1,41 +1,33 @@
 {
-  "wayto": {
-    "4536": "south",
-    "7389": {
-      "stringproc": "750b03633b0869ce218dde2ff31e4e1d"
-    }
-  },
+  "id": 4537,
+  "title": [
+    "[A Dark Enclosure]"
+  ],
+  "description": [
+    "Unlike the other enclosures, this one is completely devoid of debris and cobwebs.  The ground feels like densely packed earth and the walls are made of unusually smooth solid rock.  There is not even a speck of loose dirt to be found."
+  ],
   "paths": [
     "Obvious exits: south"
   ],
+  "location": "the Shadow Valley",
+  "wayto": {
+    "4536": "south",
+    "7389": {
+      "file": "string_procs/wayto/4537_7389.rb"
+    }
+  },
+  "timeto": {
+    "4536": 0.2,
+    "7389": 1.0
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1302,
     512,
     1312,
     522
   ],
-  "terrain": "indoors",
-  "description": [
-    "Unlike the other enclosures, this one is completely devoid of debris and cobwebs.  The ground feels like densely packed earth and the walls are made of unusually smooth solid rock.  There is not even a speck of loose dirt to be found."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[A Dark Enclosure]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4536": 0.2,
-    "7389": 1.0
-  },
-  "id": 4537,
-  "location": "the Shadow Valley",
   "tags": [
-    "ghostly pooka",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ghostly pooka"
   ]
 }

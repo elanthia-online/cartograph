@@ -1,44 +1,34 @@
 {
+  "id": 5207,
+  "title": [
+    "[Vornavian Coast, Beached Hulk]"
+  ],
+  "description": [
+    "A gaping tear in the bow of the ship shows clearly how she was beached.  Jagged timbers, splintered and torn, border the hole.  Through the opening, moonlight can be seen reflected off the water.  A port side arch leads into a dark cabin, and a starboard door creaks on rusty hinges.  The hold continues to the southwest.",
+    "A gaping tear in the bow of the ship shows clearly how she was beached.  Jagged timbers, splintered and torn, border the hole.  Through the opening, seagulls can be seen on the beach, standing in the shallow water searching for meals.  A port side arch leads into a dark cabin, and a starboard door creaks on rusty hinges.  The hold continues to the southwest.",
+    "A gaping tear in the bow of the ship shows clearly how she was beached.  Jagged timbers, splintered and torn, border the hole.  Through the opening, moonlight can be seen reflected off the water.  A port side arch leads into a dark cabin, and a burnt and blackened starboard door creaks on rusty hinges.  The hold continues to the southwest."
+  ],
+  "paths": [
+    "Obvious exits: south, southwest, west"
+  ],
+  "location": "the Vornavian Coast",
   "wayto": {
     "5206": "go tear",
     "5232": "south",
     "5233": "southwest",
     "5234": "west"
   },
-  "paths": [
-    "Obvious exits: south, southwest, west"
-  ],
-  "image_coords": [
-    201,
-    589,
-    211,
-    599
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A gaping tear in the bow of the ship shows clearly how she was beached.  Jagged timbers, splintered and torn, border the hole.  Through the opening, moonlight can be seen reflected off the water.  A port side arch leads into a dark cabin, and a starboard door creaks on rusty hinges.  The hold continues to the southwest.",
-    "A gaping tear in the bow of the ship shows clearly how she was beached.  Jagged timbers, splintered and torn, border the hole.  Through the opening, seagulls can be seen on the beach, standing in the shallow water searching for meals.  A port side arch leads into a dark cabin, and a starboard door creaks on rusty hinges.  The hold continues to the southwest.",
-    "A gaping tear in the bow of the ship shows clearly how she was beached.  Jagged timbers, splintered and torn, border the hole.  Through the opening, moonlight can be seen reflected off the water.  A port side arch leads into a dark cabin, and a burnt and blackened starboard door creaks on rusty hinges.  The hold continues to the southwest."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Vornavian Coast, Beached Hulk]"
-  ],
-  "check_location": null,
   "timeto": {
     "5206": 0.2,
     "5232": 0.2,
     "5233": 0.2,
     "5234": 0.2
   },
-  "id": 5207,
-  "location": "the Vornavian Coast",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "vo-foggy_valley-1264234799.png",
+  "image_coords": [
+    201,
+    589,
+    211,
+    599
   ]
 }

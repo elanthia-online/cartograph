@@ -1,36 +1,33 @@
 {
+  "id": 3146,
+  "title": [
+    "[A Frozen Glen]"
+  ],
+  "description": [
+    "The breeze softly blowing through here carries a mournful wail, its sound as bleak as the white wasteland surrounding you.  High above, the sun is clearly losing its battle to free itself from the bonds of the darkened clouds embracing it.",
+    "The breeze softly blowing through here carries a mournful wail, its sound as bleak as the white wasteland surrounding you.  High above, the moon is clearly losing its battle to free itself from the bonds of the darkened clouds embracing it."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, south"
+  ],
+  "location": "the Abandoned Farm",
   "wayto": {
     "3145": "southeast",
     "3147": "south",
     "3143": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, southeast, south"
-  ],
+  "timeto": {
+    "3145": 0.2,
+    "3147": 0.2,
+    "3143": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     1064,
     758,
     1074,
     768
   ],
-  "terrain": "hilly",
-  "description": [
-    "The breeze softly blowing through here carries a mournful wail, its sound as bleak as the white wasteland surrounding you.  High above, the sun is clearly losing its battle to free itself from the bonds of the darkened clouds embracing it.",
-    "The breeze softly blowing through here carries a mournful wail, its sound as bleak as the white wasteland surrounding you.  High above, the moon is clearly losing its battle to free itself from the bonds of the darkened clouds embracing it."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[A Frozen Glen]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3145": 0.2,
-    "3147": 0.2,
-    "3143": 0.2
-  },
-  "id": 3146,
-  "location": "the Abandoned Farm",
   "tags": [
     "small loganberry",
     "pale thornberry",
@@ -55,26 +52,6 @@
     "bright red iceblossom",
     "snow white iceblossom",
     "silver iceblossom",
-    "fiery red iceblossom",
-    "sticks",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "iceblossoms",
-    "winter rose",
-    "arctic moss",
-    "snowberries",
-    "tree bark",
-    "frostflower",
-    "ironfern root",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "fiery red iceblossom"
   ]
 }

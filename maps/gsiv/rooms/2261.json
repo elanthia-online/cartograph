@@ -1,43 +1,35 @@
 {
-  "wayto": {
-    "2260": {
-      "stringproc": "b53e4c204406a6e273233a6f051ba29c"
-    },
-    "2262": {
-      "stringproc": "1fbba9dcc90be8b37e5f20d6154dcd36"
-    }
-  },
+  "id": 2261,
+  "title": [
+    "[Stormbrow, Abandoned Mine Dock]"
+  ],
+  "description": [
+    "The river rushes by a wide granite ledge jutting out from a small stone dock, here in the damp, dark chill of Stormbrow's depths.  Yellow-green moss, glowing with some unearthly light, covers the walls and edges toward a stout iron gate, just visible among the shadows."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "the Abandoned Mine",
+  "wayto": {
+    "2260": {
+      "file": "string_procs/wayto/2261_2260.rb"
+    },
+    "2262": {
+      "file": "string_procs/wayto/2261_2262.rb"
+    }
+  },
+  "timeto": {
+    "2260": 90.0,
+    "2262": 0.2
+  },
+  "image": "ti-teras-1264234799.png",
   "image_coords": [
     587,
     895,
     597,
     905
   ],
-  "terrain": "indoors",
-  "description": [
-    "The river rushes by a wide granite ledge jutting out from a small stone dock, here in the damp, dark chill of Stormbrow's depths.  Yellow-green moss, glowing with some unearthly light, covers the walls and edges toward a stout iron gate, just visible among the shadows."
-  ],
-  "image": "ti-teras-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Stormbrow, Abandoned Mine Dock]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2260": 90.0,
-    "2262": 0.2
-  },
-  "id": 2261,
-  "location": "the Abandoned Mine",
   "tags": [
-    "ayana lichen",
-    "ayana leaf",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ayana lichen"
   ]
 }

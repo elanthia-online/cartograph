@@ -1,42 +1,33 @@
 {
+  "id": 9154,
+  "title": [
+    "[Thurfel's Island]"
+  ],
+  "description": [
+    "Tiny plantlike eyestalks protrude from the sand and quickly whirl in unison with every passing motion.  Closer inspection reveals slitted golden feline eyeballs at the end of the stalks, providing strong argument against the plant theory.  The sand seems to shift and undulate underfoot, despite the lack of any breeze."
+  ],
+  "paths": [
+    "Obvious exits: south, southwest, northwest"
+  ],
+  "location": "Thurfel's Island",
   "wayto": {
     "9241": "south",
     "9153": "southwest",
     "9155": "northwest"
   },
-  "paths": [
-    "Obvious exits: south, southwest, northwest"
-  ],
+  "timeto": {
+    "9241": 0.2,
+    "9153": 0.2,
+    "9155": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     533,
     815,
     543,
     825
   ],
-  "terrain": "indoors",
-  "description": [
-    "Tiny plantlike eyestalks protrude from the sand and quickly whirl in unison with every passing motion.  Closer inspection reveals slitted golden feline eyeballs at the end of the stalks, providing strong argument against the plant theory.  The sand seems to shift and undulate underfoot, despite the lack of any breeze."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thurfel's Island]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9241": 0.2,
-    "9153": 0.2,
-    "9155": 0.2
-  },
-  "id": 9154,
-  "location": "Thurfel's Island",
   "tags": [
-    "some bur-clover root",
-    "murdroot",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some bur-clover root"
   ]
 }

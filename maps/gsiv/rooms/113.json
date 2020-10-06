@@ -1,38 +1,28 @@
 {
+  "id": 113,
+  "title": [
+    "[Temple Wyneb, Calvaria]"
+  ],
+  "description": [
+    "The stench from years of accumulating bat guano has almost taken on physical form.  The floor is slippery and uneven.  Wider and taller than most of the tunnel, this section probably hosts an enormous bat colony.  The squeaks and squeals you hear overhead reinforce that assumption."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast"
+  ],
+  "location": "Temple Wyneb",
   "wayto": {
     "112": "north",
     "114": "southeast"
   },
-  "paths": [
-    "Obvious exits: north, southeast"
-  ],
+  "timeto": {
+    "112": 0.2,
+    "114": 0.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     502,
     628,
     512,
     638
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The stench from years of accumulating bat guano has almost taken on physical form.  The floor is slippery and uneven.  Wider and taller than most of the tunnel, this section probably hosts an enormous bat colony.  The squeaks and squeals you hear overhead reinforce that assumption."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Temple Wyneb, Calvaria]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "112": 0.2,
-    "114": 0.2
-  },
-  "id": 113,
-  "location": "Temple Wyneb",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

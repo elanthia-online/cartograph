@@ -1,4 +1,15 @@
 {
+  "id": 6637,
+  "title": [
+    "[Monastery, Nexus]"
+  ],
+  "description": [
+    "This appears to be the central point of all activity for this stronghold.  Lit torches mounted in crimson vaalin sconces illuminate the room.  An ornate black marble arch adorns the northern wall and corridors lead off in almost every direction."
+  ],
+  "paths": [
+    "Obvious exits: east, south, southwest, west"
+  ],
+  "location": "the Broken Lands",
   "wayto": {
     "6674": "south",
     "6654": "east",
@@ -6,25 +17,6 @@
     "6638": "west",
     "6651": "southwest"
   },
-  "paths": [
-    "Obvious exits: east, south, southwest, west"
-  ],
-  "image_coords": [
-    276,
-    1181,
-    286,
-    1191
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This appears to be the central point of all activity for this stronghold.  Lit torches mounted in crimson vaalin sconces illuminate the room.  An ornate black marble arch adorns the northern wall and corridors lead off in almost every direction."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Monastery, Nexus]"
-  ],
-  "check_location": null,
   "timeto": {
     "6674": 0.2,
     "6654": 0.2,
@@ -32,13 +24,11 @@
     "6638": 0.2,
     "6651": 0.2
   },
-  "id": 6637,
-  "location": "the Broken Lands",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-broken-1264234799.png",
+  "image_coords": [
+    276,
+    1181,
+    286,
+    1191
   ]
 }

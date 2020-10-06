@@ -1,33 +1,30 @@
 {
+  "id": 3156,
+  "title": [
+    "[Frozen Garden, Path]"
+  ],
+  "description": [
+    "The path winds between two rows of neatly trimmed, snow capped hedges.  Small clusters of delicately carved ice flowers hide under the shade provided by the hedges.  Small patches of ice peek through the light dusting of snow that covers the path."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "the Frozen Garden",
   "wayto": {
     "3157": "south",
     "3155": "go path"
   },
-  "paths": [
-    "Obvious paths: south"
-  ],
+  "timeto": {
+    "3157": 0.2,
+    "3155": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     127,
     600,
     137,
     610
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "The path winds between two rows of neatly trimmed, snow capped hedges.  Small clusters of delicately carved ice flowers hide under the shade provided by the hedges.  Small patches of ice peek through the light dusting of snow that covers the path."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Frozen Garden, Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3157": 0.2,
-    "3155": 0.2
-  },
-  "id": 3156,
-  "location": "the Frozen Garden",
   "tags": [
     "slender twig",
     "tkaro root",
@@ -68,23 +65,6 @@
     "small loganberry",
     "winter rose",
     "snow lily",
-    "handful of snowberries",
-    "sticks",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "iceblossoms",
-    "pine needles",
-    "frostweed",
-    "snowberries",
-    "tree bark",
-    "frostflower",
-    "crowberry",
-    "ironfern root",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "handful of snowberries"
   ]
 }

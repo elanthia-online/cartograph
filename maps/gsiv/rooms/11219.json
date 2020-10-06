@@ -1,38 +1,28 @@
 {
+  "id": 11219,
+  "title": [
+    "[Armory, Commander's Office]"
+  ],
+  "description": [
+    "The room holds a desk, two chairs, a set of shelves, and two skeletons.  Both skeletons have fallen across warped bows near the arrow slits, one with an arrow through its eye socket.  The desk has been turned over on its side, as though it had been used as a last defense from whatever ransacked this place."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11204": "east",
     "11220": "west"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "11204": 0.2,
+    "11220": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     223,
     260,
     233,
     270
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The room holds a desk, two chairs, a set of shelves, and two skeletons.  Both skeletons have fallen across warped bows near the arrow slits, one with an arrow through its eye socket.  The desk has been turned over on its side, as though it had been used as a last defense from whatever ransacked this place."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Armory, Commander's Office]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11204": 0.2,
-    "11220": 0.2
-  },
-  "id": 11219,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

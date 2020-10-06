@@ -1,50 +1,43 @@
 {
-  "wayto": {
-    "12118": {
-      "stringproc": "fa05703b90eb26683ad3211a7edf2e1b"
-    },
-    "2579": {
-      "stringproc": "4d779cf45ad81e63b2f6ca8ed64ad71b"
-    },
-    "2635": "north",
-    "12093": {
-      "stringproc": "66b4917c785df71429d823be019c39fa"
-    }
-  },
-  "paths": [
-    "Obvious exits: north"
-  ],
-  "image_coords": [
-    139,
-    173,
-    149,
-    183
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The chamber's walls are modulated with the same large recesses that pocket the walls of the chamber to the north.  Inside each, the red stone is polished to an indulgent surface that highlights the striations in the rock.  On the cavern's eastern wall however, something went horribly wrong.  The undulating niches are blasted into shambles around a central oval just behind a golden pedestal with a nebulous sphere hovering above it.  There, the rock appears to have melted, running down the cavern wall in eddies of molten stone."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "indoors",
+  "id": 2636,
   "title": [
     "[Breach, Cavern of Ages]"
   ],
-  "check_location": null,
+  "description": [
+    "The chamber's walls are modulated with the same large recesses that pocket the walls of the chamber to the north.  Inside each, the red stone is polished to an indulgent surface that highlights the striations in the rock.  On the cavern's eastern wall however, something went horribly wrong.  The undulating niches are blasted into shambles around a central oval just behind a golden pedestal with a nebulous sphere hovering above it.  There, the rock appears to have melted, running down the cavern wall in eddies of molten stone."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Koar's Shrine",
+  "wayto": {
+    "12118": {
+      "file": "string_procs/wayto/2636_12118.rb"
+    },
+    "2579": {
+      "file": "string_procs/wayto/2636_2579.rb"
+    },
+    "2635": "north",
+    "12093": {
+      "file": "string_procs/wayto/2636_12093.rb"
+    }
+  },
   "timeto": {
     "12118": 30,
     "2579": 30,
     "2635": 0.2,
     "12093": 30
   },
-  "id": 2636,
-  "location": "Koar's Shrine",
+  "image": "imt-pinefar-1264234799.png",
+  "image_coords": [
+    139,
+    173,
+    149,
+    183
+  ],
   "tags": [
     "node",
     "murdroot",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bur-clover root"
   ]
 }

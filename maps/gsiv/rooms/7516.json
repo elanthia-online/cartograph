@@ -1,38 +1,28 @@
 {
+  "id": 7516,
+  "title": [
+    "[Catacombs, Blank Passage]"
+  ],
+  "description": [
+    "The eastern passage opens out into a large, rather barren square room here.  Except for the western wall, which seems relatively new, the walls have begun to crumble in places where water has seeped in through the bricks.  Picks and other tools lie strewn about the room, obviously unused for quite some time.  Some of them have long since turned into unrecognizable piles of rust with partially petrified handles."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "7515": "east",
     "7517": "go hole"
   },
-  "paths": [
-    "Obvious exits: east"
-  ],
+  "timeto": {
+    "7515": 0.2,
+    "7517": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     661,
     1041,
     671,
     1051
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The eastern passage opens out into a large, rather barren square room here.  Except for the western wall, which seems relatively new, the walls have begun to crumble in places where water has seeped in through the bricks.  Picks and other tools lie strewn about the room, obviously unused for quite some time.  Some of them have long since turned into unrecognizable piles of rust with partially petrified handles."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Catacombs, Blank Passage]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7515": 0.2,
-    "7517": 0.2
-  },
-  "id": 7516,
-  "location": "the catacombs",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,41 +1,32 @@
 {
-  "wayto": {
-    "2940": "southwest",
-    "2945": "up"
-  },
-  "paths": [
-    "Obvious paths: southwest, up"
-  ],
-  "image_coords": [
-    716,
-    722,
-    726,
-    732
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "Rising sharply, the granite stones of the abbey are dark with time and worn by the elements.  Broad stone steps lead to a wide, uncovered porch with a low balustrade.  Huge stone urns lie shattered in the courtyard, their thick shards piercing upwards through the light covering of snow."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Abbey Courtyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2940": 0.2,
-    "2945": 0.2
-  },
   "id": 2944,
-  "location": "the Abbey",
-  "tags": [
-    "calmintha flower",
-    "nedum vereri",
-    "dark shambler",
-    "arctic puma",
-    "meta:forage-sensed"
+  "title": [
+    "[Abbey, Receiving Yard]"
   ],
-  "links": [
-
+  "description": [
+    "Rising sharply along the mountainside, the grounds are green and well-tended despite the stark banks of snow scattered here and there.  The hewn blocks of native granite that comprise the the abbey are dark with time and worn by the elements.  Huge stone urns are spaced along the walk, holding blossoming roses bushes that seem unfazed by the cold.  Nearby, broad stone steps lead to a wide, uncovered porch with a low balustrade."
+  ],
+  "paths": [
+    "Obvious paths: southwest, up",
+    "Obvious paths: southwest"
+  ],
+  "location": "the Abbey",
+  "wayto": {
+    "2945": "go steps",
+    "2940": "southwest"
+  },
+  "timeto": {
+    "2945": 0.2,
+    "2940": 0.2
+  },
+  "image": "imt-Abbey Map-51200831.png",
+  "image_coords": [
+    1660,
+    1702,
+    1766,
+    1806
+  ],
+  "tags": [
+    "calmintha flower"
   ]
 }

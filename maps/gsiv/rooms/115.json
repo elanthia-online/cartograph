@@ -1,38 +1,28 @@
 {
+  "id": 115,
+  "title": [
+    "[Temple Wyneb, Calvaria]"
+  ],
+  "description": [
+    "A series of shallow markings carved into the cool stone wall invite closer inspection.  The prospect of wandering these tunnels forever is not a pleasant one, to say the least."
+  ],
+  "paths": [
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "Temple Wyneb",
   "wayto": {
     "116": "southeast",
     "114": "northwest"
   },
-  "paths": [
-    "Obvious exits: southeast, northwest"
-  ],
+  "timeto": {
+    "116": 0.2,
+    "114": 0.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     555,
     682,
     565,
     692
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A series of shallow markings carved into the cool stone wall invite closer inspection.  The prospect of wandering these tunnels forever is not a pleasant one, to say the least."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Temple Wyneb, Calvaria]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "116": 0.2,
-    "114": 0.2
-  },
-  "id": 115,
-  "location": "Temple Wyneb",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

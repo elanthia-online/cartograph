@@ -1,38 +1,28 @@
 {
+  "id": 9236,
+  "title": [
+    "[Thurfel's Cellar]"
+  ],
+  "description": [
+    "The buckled floor along this portion of the walkway makes it a considerable chore to pass.  Tiny halfling-size footprints peek out from the exposed earth where the stone has cracked, the marks quite fresh."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Thurfel's Island",
   "wayto": {
     "9223": "north",
     "9235": "south"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "9223": 0.2,
+    "9235": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     1197,
     949,
     1207,
     959
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The buckled floor along this portion of the walkway makes it a considerable chore to pass.  Tiny halfling-size footprints peek out from the exposed earth where the stone has cracked, the marks quite fresh."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thurfel's Cellar]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9223": 0.2,
-    "9235": 0.2
-  },
-  "id": 9236,
-  "location": "Thurfel's Island",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

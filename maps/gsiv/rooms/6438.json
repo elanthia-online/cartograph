@@ -1,46 +1,33 @@
 {
+  "id": 6438,
+  "title": [
+    "[Abandoned Mine]"
+  ],
+  "description": [
+    "Dust coated rails snake through from west to southeast, then disappear into the darkness beyond.  The sound of water dripping echoes down dark and musty corridors, setting your teeth on edge with its constant, steady rhythm."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast, west"
+  ],
+  "location": "the Lysierian Hills",
   "wayto": {
     "6437": "west",
     "6439": "north",
     "6442": "southeast"
   },
-  "paths": [
-    "Obvious exits: north, southeast, west"
-  ],
+  "timeto": {
+    "6437": 0.2,
+    "6439": 0.2,
+    "6442": 0.2
+  },
+  "image": "wl-lysierian-1264234799.png",
   "image_coords": [
     1154,
     136,
     1164,
     146
   ],
-  "terrain": "indoors",
-  "description": [
-    "Dust coated rails snake through from west to southeast, then disappear into the darkness beyond.  The sound of water dripping echoes down dark and musty corridors, setting your teeth on edge with its constant, steady rhythm."
-  ],
-  "image": "wl-lysierian-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abandoned Mine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6437": 0.2,
-    "6439": 0.2,
-    "6442": 0.2
-  },
-  "id": 6438,
-  "location": "the Lysierian Hills",
   "tags": [
-    "some wolifrew lichen",
-    "wolifrew lichen",
-    "withered black mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wolifrew lichen"
   ]
 }

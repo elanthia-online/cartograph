@@ -1,33 +1,30 @@
 {
+  "id": 24706,
+  "title": [
+    "[Red Forest, Inner Weald]"
+  ],
+  "description": [
+    "A patchy coat of swirling mist extends through the crowded trees, periodically shifting and peeling away to reveal tangles of vines and shriveled black leaves nestled amongst gnarled roots exposed along the ground.  Some branches have bent along the gloomy path, stretched out like wooden claws digging at the dirt."
+  ],
+  "paths": [
+    "Obvious paths: north, east"
+  ],
+  "location": "the Red Forest",
   "wayto": {
     "24707": "east",
     "24705": "north"
   },
-  "paths": [
-    "Obvious paths: north, east"
-  ],
+  "timeto": {
+    "24707": 0.2,
+    "24705": 0.2
+  },
+  "image": "red_forest-1260914757.png",
   "image_coords": [
     534,
     109,
     546,
     123
   ],
-  "terrain": null,
-  "description": [
-    "A patchy coat of swirling mist extends through the crowded trees, periodically shifting and peeling away to reveal tangles of vines and shriveled black leaves nestled amongst gnarled roots exposed along the ground.  Some branches have bent along the gloomy path, stretched out like wooden claws digging at the dirt."
-  ],
-  "image": "red_forest-1260914757.png",
-  "climate": null,
-  "title": [
-    "[Red Forest, Inner Weald]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24707": 0.2,
-    "24705": 0.2
-  },
-  "id": 24706,
-  "location": "the Displaced Red Forest",
   "tags": [
     "some tree bark",
     "wild chokecherry",
@@ -44,36 +41,6 @@
     "soft white mushroom",
     "foe:direwolf",
     "foe:warped tree spirit",
-    "foe:direbear",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "tkaro root",
-    "sticks",
-    "sassafras leaf",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "blue trafel mushroom",
-    "bright red teaberry",
-    "blueberries",
-    "fiddlehead fern",
-    "broken twig",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "small wild rose",
-    "sprig of wild lilac",
-    "tree bark",
-    "mistweed",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+    "foe:direbear"
+  ]
 }

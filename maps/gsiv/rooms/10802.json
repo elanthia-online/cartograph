@@ -1,41 +1,28 @@
 {
+  "id": 10802,
+  "title": [
+    "[Great Oak, Collapsed Hall]"
+  ],
+  "description": [
+    "Sharp splinters and jagged shards of wood emerge from the once-smooth walls and floors of the hollow interior of the great oak.  The ceiling has completely collapsed, raining dead branches and leaves across the uneven floor.  The southern side of the chamber has fallen away, leaving a gaping hole to the outside.  An enormous branch, grey and dying like the other parts of this infected oak, has lodged itself in the opening, allowing access to the forest floor below."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Gyldemar Forest",
   "wayto": {
     "10801": "north",
     "4750": "climb branch"
   },
-  "paths": [
-    "Obvious exits: north"
-  ],
+  "timeto": {
+    "10801": 0.2,
+    "4750": 0.2
+  },
+  "image": "en-gyldemar-1264234799.png",
   "image_coords": [
     993,
     1168,
     1003,
     1178
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Sharp splinters and jagged shards of wood emerge from the once-smooth walls and floors of the hollow interior of the great oak.  The ceiling has completely collapsed, raining dead branches and leaves across the uneven floor.  The southern side of the chamber has fallen away, leaving a gaping hole to the outside.  An enormous branch, grey and dying like the other parts of this infected oak, has lodged itself in the opening, allowing access to the forest floor below."
-  ],
-  "image": "en-gyldemar-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Great Oak, Collapsed Hall]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10801": 0.2,
-    "4750": 0.2
-  },
-  "id": 10802,
-  "location": "Gyldemar Forest",
-  "tags": [
-    "wolifrew lichen",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

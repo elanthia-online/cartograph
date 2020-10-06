@@ -1,38 +1,28 @@
 {
+  "id": 3696,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "Slick with mold and slime and barely lit by torches which seem likely to die in a heartbeat, the narrow passage is difficult to travel.  It seems to lead deeper into the earth as you move southeast, yet you wonder if its twists and turns are only a diabolical means of getting you to a dead end."
+  ],
+  "paths": [
+    "Obvious exits: east, southeast"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "3695": "east",
     "3697": "southeast"
   },
-  "paths": [
-    "Obvious exits: east, southeast"
-  ],
+  "timeto": {
+    "3695": 0.2,
+    "3697": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     310,
     1260,
     320,
     1270
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Slick with mold and slime and barely lit by torches which seem likely to die in a heartbeat, the narrow passage is difficult to travel.  It seems to lead deeper into the earth as you move southeast, yet you wonder if its twists and turns are only a diabolical means of getting you to a dead end."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3695": 0.2,
-    "3697": 0.2
-  },
-  "id": 3696,
-  "location": "Darkstone Castle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

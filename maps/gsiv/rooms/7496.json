@@ -1,33 +1,30 @@
 {
+  "id": 7496,
+  "title": [
+    "[Catacombs, Tunnel]"
+  ],
+  "description": [
+    "The dank, twisting passage bends from east to southwest, widening somewhat on its eastern side.  Lichen cover the walls and ceiling here, sending droplets of condensation onto the floor and creating a very dangerous, slippery situation on its surface."
+  ],
+  "paths": [
+    "Obvious exits: east, southwest"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "7495": "east",
     "7497": "southwest"
   },
-  "paths": [
-    "Obvious exits: east, southwest"
-  ],
+  "timeto": {
+    "7495": 0.2,
+    "7497": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     741,
     940,
     751,
     950
   ],
-  "terrain": "indoors",
-  "description": [
-    "The dank, twisting passage bends from east to southwest, widening somewhat on its eastern side.  Lichen cover the walls and ceiling here, sending droplets of condensation onto the floor and creating a very dangerous, slippery situation on its surface."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Catacombs, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7495": 0.2,
-    "7497": 0.2
-  },
-  "id": 7496,
-  "location": "the catacombs",
   "tags": [
     "red trafel mushroom",
     "some cave moss",
@@ -35,16 +32,6 @@
     "some wingstem root",
     "soft white mushroom",
     "black hook mushroom",
-    "white hook mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "white hook mushroom"
   ]
 }

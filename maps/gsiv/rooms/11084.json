@@ -1,46 +1,33 @@
 {
+  "id": 11084,
+  "title": [
+    "[Sea Caves]"
+  ],
+  "description": [
+    "Timbers, some banded with iron, support the ceiling in this short section of cave.  The walls are soft, and crumble at the touch, threatening a cave-in at any moment."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
   "wayto": {
     "11083": "northeast",
     "11085": "southwest"
   },
-  "paths": [
-    "Obvious exits: northeast, southwest"
-  ],
+  "timeto": {
+    "11083": 0.2,
+    "11085": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     1188,
     247,
     1198,
     257
   ],
-  "terrain": "indoors",
-  "description": [
-    "Timbers, some banded with iron, support the ceiling in this short section of cave.  The walls are soft, and crumble at the touch, threatening a cave-in at any moment."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Caves]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11083": 0.2,
-    "11085": 0.2
-  },
-  "id": 11084,
-  "location": "the Sea Caves",
   "tags": [
     "some wolifrew lichen",
     "withered black mushroom",
     "some wingstem root",
-    "some cave moss",
-    "wolifrew lichen",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

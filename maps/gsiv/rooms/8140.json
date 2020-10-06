@@ -1,33 +1,30 @@
 {
+  "id": 8140,
+  "title": [
+    "[Dubh Brugh, Cavern]"
+  ],
+  "description": [
+    "Abrasive lava, solidified into a tunnel-like cavern, squeezes in on all sides -- forcing careful movement lest gear or skin be scraped or torn.  The air has a slight hint of sulphur to it."
+  ],
+  "paths": [
+    "Obvious exits: south, northwest"
+  ],
+  "location": "Dubh Brugh",
   "wayto": {
     "8139": "northwest",
     "8141": "south"
   },
-  "paths": [
-    "Obvious exits: south, northwest"
-  ],
+  "timeto": {
+    "8139": 0.2,
+    "8141": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     1438,
     856,
     1448,
     866
   ],
-  "terrain": "indoors",
-  "description": [
-    "Abrasive lava, solidified into a tunnel-like cavern, squeezes in on all sides -- forcing careful movement lest gear or skin be scraped or torn.  The air has a slight hint of sulphur to it."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dubh Brugh, Cavern]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8139": 0.2,
-    "8141": 0.2
-  },
-  "id": 8140,
-  "location": "Dubh Brugh",
   "tags": [
     "flathead mushroom",
     "soft white mushroom",
@@ -37,16 +34,6 @@
     "some bolmara lichen",
     "daggerstalk mushroom",
     "some cave moss",
-    "genkew mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "genkew mushroom"
   ]
 }

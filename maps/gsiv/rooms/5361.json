@@ -1,35 +1,32 @@
 {
+  "id": 5361,
+  "title": [
+    "[Noman's Land, Urgh Pens]"
+  ],
+  "description": [
+    "The walls are more extended rockpiles than any sort of proper fence, but they serve well enough as borders for the pen.  Wooden troughs for fodder are piled in the middle.  Well-gnawed bones surround them."
+  ],
+  "paths": [
+    "Obvious paths: northeast, east, southeast"
+  ],
+  "location": "Noman's Land",
   "wayto": {
     "5360": "northeast",
     "5363": "southeast",
     "5364": "east"
   },
-  "paths": [
-    "Obvious paths: northeast, east, southeast"
-  ],
+  "timeto": {
+    "5360": 0.2,
+    "5363": 0.2,
+    "5364": 0.2
+  },
+  "image": "vo-caravansary-1264234799.png",
   "image_coords": [
     160,
     493,
     170,
     503
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The walls are more extended rockpiles than any sort of proper fence, but they serve well enough as borders for the pen.  Wooden troughs for fodder are piled in the middle.  Well-gnawed bones surround them."
-  ],
-  "image": "vo-caravansary-1264234799.png",
-  "climate": "moist",
-  "title": [
-    "[Noman's Land, Urgh Pens]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5360": 0.2,
-    "5363": 0.2,
-    "5364": 0.2
-  },
-  "id": 5361,
-  "location": "Noman's Land",
   "tags": [
     "some calamia fruit",
     "withered black mushroom",
@@ -37,17 +34,6 @@
     "some aloeas stem",
     "wild chokecherry",
     "some wingstem root",
-    "some acantha leaf",
-    "acantha leaf",
-    "calamia fruit",
-    "aloeas stem",
-    "motherwort",
-    "murdroot",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some acantha leaf"
   ]
 }

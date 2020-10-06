@@ -1,44 +1,34 @@
 {
+  "id": 7377,
+  "title": [
+    "[Shadow Plain]"
+  ],
+  "description": [
+    "Decaying barren trees sit atop a small windswept hill like hideous skeletons swaying in the breeze.  Eerie shadows dance across the hard rocky ground casting misshapen figures all around you."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south, northwest"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7378": "northeast",
     "7381": "south",
     "7370": "northwest"
   },
-  "paths": [
-    "Obvious paths: northeast, south, northwest"
-  ],
+  "timeto": {
+    "7378": 0.2,
+    "7381": 0.2,
+    "7370": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1226,
     995,
     1236,
     1005
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "Decaying barren trees sit atop a small windswept hill like hideous skeletons swaying in the breeze.  Eerie shadows dance across the hard rocky ground casting misshapen figures all around you."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Shadow Plain]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7378": 0.2,
-    "7381": 0.2,
-    "7370": 0.2
-  },
-  "id": 7377,
-  "location": "the Shadow Valley",
   "tags": [
     "some longgrass",
-    "night mare",
-    "longgrass",
-    "wyrm thorn",
-    "petrified shadowstalk",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "night mare"
   ]
 }

@@ -1,1 +1,3 @@
-move 'climb mountainside'; waitrt?; fill_hands
+move 'climb mountainside'
+ waitrt?
+ fill_hands

@@ -1,66 +1,34 @@
 {
+  "id": 302,
+  "title": [
+    "[Wehnimer's, Airioch Lane]"
+  ],
+  "description": [
+    "This tree-dotted lane passes through a residential pocket of the Landing.  The cobbled dirt road leads past well-kept single or two-floor houses, built of wood and stone with carved shutters and doors that can be closed against inclement weather or dangerous invasions."
+  ],
+  "paths": [
+    "Obvious paths: east, south"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "301": "south",
     "8753": "go path",
     "258": "east"
   },
-  "paths": [
-    "Obvious paths: east, south"
-  ],
+  "timeto": {
+    "301": 0.2,
+    "8753": 0.2,
+    "258": 0.2
+  },
+  "image": "wl-wehnimers-1264234799.png",
   "image_coords": [
     512,
     969,
     548,
     1005
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "This tree-dotted lane passes through a residential pocket of the Landing.  The cobbled dirt road leads past well-kept single or two-floor houses, built of wood and stone with carved shutters and doors that can be closed against inclement weather or dangerous invasions."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Wehnimer's, Airioch Lane]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "301": 0.2,
-    "8753": 0.2,
-    "258": 0.2
-  },
-  "id": 302,
-  "location": "the town of Wehnimer's Landing",
   "tags": [
     "pepperthorn root",
-    "meta:teleport:fwi",
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "small flower",
-    "small rose",
-    "small daisy",
-    "angelica root",
-    "withered black mushroom",
-    "stalk of chicory",
-    "sprig of alyssum",
-    "heath aster",
-    "stalk of goldenrod",
-    "yellow primrose",
-    "small wild rose",
-    "wild carrot",
-    "ginger root",
-    "wild chokecherry",
-    "motherwort",
-    "murkweed",
-    "blue whortleberry",
-    "white baneberry",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:teleport:fwi"
   ]
 }

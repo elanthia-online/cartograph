@@ -1,4 +1,16 @@
 {
+  "id": 2777,
+  "title": [
+    "[Pinefar Trading Post, Greatroom]"
+  ],
+  "description": [
+    "Shining wood floors and a beamed ceiling distinguish the spacious room.  An impressive rock fireplace dominates the back wall, flanked by a wide staircase leading to an upper floor.  Before the hearth sits a tawny leather sofa with a variety of armchairs sitting in attendance around it.  Rugs scattered across the plank floor add tones of coral, blue and red to the warm ambience.  All along the walls, paintings compete with windows offering views of the snow-bound countryside.",
+    "Shining wood floors and a beamed ceiling distinguish the spacious room.  An impressive rock fireplace dominates the back wall, flanked by a wide staircase leading to an upper floor.  Before the hearth sits a tawny leather sofa with a variety of armchairs sitting in attendance around it.  Rugs scattered across the plank floor add tones of coral, blue and red to the warm ambience.  All along the walls, paintings compete with windows offering views of the moonlit, snow-bound countryside."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east, west, northwest"
+  ],
+  "location": "the Pinefar Trading Post",
   "wayto": {
     "2783": "northeast",
     "2775": "go doors",
@@ -7,26 +19,6 @@
     "2779": "east",
     "2782": "northwest"
   },
-  "paths": [
-    "Obvious exits: northeast, east, west, northwest"
-  ],
-  "image_coords": [
-    212,
-    845,
-    221,
-    854
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Shining wood floors and a beamed ceiling distinguish the spacious room.  An impressive rock fireplace dominates the back wall, flanked by a wide staircase leading to an upper floor.  Before the hearth sits a tawny leather sofa with a variety of armchairs sitting in attendance around it.  Rugs scattered across the plank floor add tones of coral, blue and red to the warm ambience.  All along the walls, paintings compete with windows offering views of the snow-bound countryside.",
-    "Shining wood floors and a beamed ceiling distinguish the spacious room.  An impressive rock fireplace dominates the back wall, flanked by a wide staircase leading to an upper floor.  Before the hearth sits a tawny leather sofa with a variety of armchairs sitting in attendance around it.  Rugs scattered across the plank floor add tones of coral, blue and red to the warm ambience.  All along the walls, paintings compete with windows offering views of the moonlit, snow-bound countryside."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Pinefar Trading Post, Greatroom]"
-  ],
-  "check_location": null,
   "timeto": {
     "2783": 0.2,
     "2775": 0.2,
@@ -35,8 +27,13 @@
     "2779": 0.2,
     "2782": 0.2
   },
-  "id": 2777,
-  "location": "the Pinefar Trading Post",
+  "image": "imt-pinefar-1264234799.png",
+  "image_coords": [
+    212,
+    845,
+    221,
+    854
+  ],
   "tags": [
     "node",
     "town",
@@ -44,11 +41,6 @@
     "meta:mapname:Icemule Trace - Pinefar",
     "meta:mapshortname:Pinefar",
     "meta:mapcategory:Icemule Trace",
-    "meta:mapcategory:Towns",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:mapcategory:Towns"
   ]
 }

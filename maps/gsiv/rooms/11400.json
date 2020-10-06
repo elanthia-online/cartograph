@@ -1,38 +1,28 @@
 {
+  "id": 11400,
+  "title": [
+    "[Citadel, Battlement]"
+  ],
+  "description": [
+    "Spectral lights randomly flare in and out of existence across the vista viewable from the top of the battlement as the present inhabitants of the Citadel make their presence known.  Bolted to the stone surface of the battlement is a rusted stand, designed to support some unknown device.  Below the stand is an equally rusted rack with a single tarnished metal arrow still awaiting use."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11399": "west",
     "11401": "east"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "11399": 0.2,
+    "11401": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     460,
     1302,
     470,
     1312
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "Spectral lights randomly flare in and out of existence across the vista viewable from the top of the battlement as the present inhabitants of the Citadel make their presence known.  Bolted to the stone surface of the battlement is a rusted stand, designed to support some unknown device.  Below the stand is an equally rusted rack with a single tarnished metal arrow still awaiting use."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "arid",
-  "title": [
-    "[Citadel, Battlement]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11399": 0.2,
-    "11401": 0.2
-  },
-  "id": 11400,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,37 +1,30 @@
 {
+  "id": 26791,
+  "title": [
+    "[Catacombs, Dark Tunnels]"
+  ],
+  "description": [
+    "The walls of this section of the tunnel are unusually damp.  The supports show severe signs of decay and they creak and groan under the weight of the ceiling.  Shallow pools of water have formed around the room with no evidence of their origin."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east, down"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "26792": "east",
     "26793": "northeast",
     "26778": "down"
   },
-  "paths": [
-    "Obvious exits: northeast, east, down"
-  ],
-  "image_coords": [
-    980,
-    1225,
-    990,
-    1234
-  ],
-  "terrain": null,
-  "description": [
-    "The walls of this section of the tunnel are unusually damp.  The supports show severe signs of decay and they creak and groan under the weight of the ceiling.  Shallow pools of water have formed around the room with no evidence of their origin."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Catacombs, Dark Tunnels]"
-  ],
-  "check_location": null,
   "timeto": {
     "26792": 0.2,
     "26793": 0.2,
     "26778": 0.2
   },
-  "id": 26791,
-  "location": "the catacombs",
-  "tags": [
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+  "image": "wl-catacombs-1264234799.png",
+  "image_coords": [
+    980,
+    1225,
+    990,
+    1234
+  ]
 }

@@ -1,33 +1,30 @@
 {
+  "id": 7275,
+  "title": [
+    "[Graveyard, Creek Bed]"
+  ],
+  "description": [
+    "The fine, white sand and rounded pebbles on the floor of the dry creek bed make walking difficult but the dense thickets of the spinewood trees and traesharm shrubs along the banks make the former watercourse the best route.  Better to struggle through the sand than to get lost in the trackless wilds that can hide all manner of unpleasant surprises."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7274": "southwest",
     "7276": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, southwest"
-  ],
+  "timeto": {
+    "7274": 0.2,
+    "7276": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     240,
     330,
     248,
     338
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The fine, white sand and rounded pebbles on the floor of the dry creek bed make walking difficult but the dense thickets of the spinewood trees and traesharm shrubs along the banks make the former watercourse the best route.  Better to struggle through the sand than to get lost in the trackless wilds that can hide all manner of unpleasant surprises."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Graveyard, Creek Bed]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7274": 0.2,
-    "7276": 0.2
-  },
-  "id": 7275,
-  "location": "the Graveyard",
   "tags": [
     "some wolifrew lichen",
     "some acantha leaf",
@@ -50,10 +47,6 @@
     "blue whortleberry",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

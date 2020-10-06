@@ -1,49 +1,34 @@
 {
+  "id": 3818,
+  "title": [
+    "[A Deep Mist]"
+  ],
+  "description": [
+    "A wall of dark sinuous mist enfolds itself around you, obscuring your vision.  The cold unwelcome blanket suppresses any hope of spotting a way out."
+  ],
+  "paths": [
+    "Obvious exits: north, east, southeast, south, southwest, west, northwest"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "22230": "northwest",
     "22231": "west"
   },
-  "paths": [
-    "Obvious exits: north, east, southeast, south, southwest, west, northwest"
-  ],
+  "timeto": {
+    "22230": 0.2,
+    "22231": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     675,
     1330,
     687,
     1342
   ],
-  "terrain": "indoors",
-  "description": [
-    "A wall of dark sinuous mist enfolds itself around you, obscuring your vision.  The cold unwelcome blanket suppresses any hope of spotting a way out."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[A Deep Mist]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "22230": 0.2,
-    "22231": 0.2
-  },
-  "id": 3818,
-  "location": "Darkstone Castle",
   "tags": [
     "withered black mushroom",
     "black hook mushroom",
     "Sheruvian herbringer",
-    "nightmare steed",
-    "red trafel mushroom",
-    "soft white mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "nightmare steed"
   ]
 }

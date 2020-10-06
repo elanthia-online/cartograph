@@ -1,46 +1,39 @@
 {
+  "id": 11010,
+  "title": [
+    "[Courtyard]",
+    "[Beacon Hall, Courtyard]"
+  ],
+  "description": [
+    "The building is comprised entirely of huge red sandstone blocks.  The upper story is accented with airy galleries and latticework windows of white-and-red marble.  A tall door frame of ornately carved basalt surrounds an antique wooden door.  Numerous torches held in wrought iron sconces illuminate the house's exterior and surrounding courtyard.",
+    "Silhouetted against the bay, an imposing structure dominates the paved courtyard.  The building is comprised entirely of huge red sandstone blocks.  The upper story is accented with airy galleries and latticework windows of white-and-red marble.  A tall door frame of ornately carved basalt surrounds an antique wooden door."
+  ],
+  "paths": [
+    "Obvious paths: out"
+  ],
   "wayto": {
     "11009": "out",
     "22221": "go gazebo",
     "16182": {
-      "stringproc": "456c8a3ee7b12a79f0c6a2ca218e0554"
+      "file": "string_procs/wayto/11010_16182.rb"
     }
   },
-  "paths": [
-    "Obvious paths: out"
-  ],
+  "timeto": {
+    "11009": 0.2,
+    "22221": 0.2,
+    "16182": 0.2
+  },
+  "image": "rr-beacon_hall-1405076623.png",
   "image_coords": [
     507,
     769,
     556,
     814
   ],
-  "terrain": null,
-  "description": [
-    "The building is comprised entirely of huge red sandstone blocks.  The upper story is accented with airy galleries and latticework windows of white-and-red marble.  A tall door frame of ornately carved basalt surrounds an antique wooden door.  Numerous torches held in wrought iron sconces illuminate the house's exterior and surrounding courtyard.",
-    "Silhouetted against the bay, an imposing structure dominates the paved courtyard.  The building is comprised entirely of huge red sandstone blocks.  The upper story is accented with airy galleries and latticework windows of white-and-red marble.  A tall door frame of ornately carved basalt surrounds an antique wooden door."
-  ],
-  "image": "rr-beacon_hall-1405076623.png",
-  "climate": null,
-  "title": [
-    "[Courtyard]",
-    "[Beacon Hall, Courtyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11009": 0.2,
-    "22221": 0.2,
-    "16182": 0.2
-  },
-  "id": 11010,
-  "location": null,
   "tags": [
     "meta:mapname:River's Rest - Beacon Hall Archive",
     "meta:mapshortname:Beacon Hall Archive",
     "meta:mapcategory:River's Rest",
     "meta:mapcategory:CHE"
-  ],
-  "links": [
-
   ]
 }

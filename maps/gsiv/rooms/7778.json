@@ -1,45 +1,32 @@
 {
+  "id": 7778,
+  "title": [
+    "[Cave]"
+  ],
+  "description": [
+    "The huge entrance of the cave is terribly deceiving as the cave itself is relatively small.  This large room, and the room that lies to the northwest, are all that make up this small cavern."
+  ],
+  "paths": [
+    "Obvious exits: northwest, out"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "7777": "out",
     "7779": "northwest"
   },
-  "paths": [
-    "Obvious exits: northwest, out"
-  ],
+  "timeto": {
+    "7777": 0.2,
+    "7779": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     200,
     1217,
     210,
     1227
   ],
-  "terrain": "indoors",
-  "description": [
-    "The huge entrance of the cave is terribly deceiving as the cave itself is relatively small.  This large room, and the room that lies to the northwest, are all that make up this small cavern."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Cave]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7777": 0.2,
-    "7779": 0.2
-  },
-  "id": 7778,
-  "location": "the Upper Trollfang",
   "tags": [
     "some wolifrew lichen",
-    "some cave moss",
-    "wolifrew lichen",
-    "withered black mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

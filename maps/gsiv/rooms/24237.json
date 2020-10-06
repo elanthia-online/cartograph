@@ -1,33 +1,21 @@
 {
-  "wayto": {
-    "24238": {
-      "stringproc": "b52e9d826984efa7b636e54840588c98"
-    }
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Surrounded by the murky black water, the wide block of limestone that makes up the island bobs up and down slightly atop the lake's surface.  Overhead, there is only darkness, save for a shipshod rope hanging from the pitch black and the faint outlines of several massive stalacmites.  A squat tree stump sits between two ruined couches, tiny withering leaves clumped around the gnarled, dead roots that sprawl out into the lake."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 24237,
   "title": [
     "[Cavern Lake, Limestone Island]"
   ],
-  "check_location": null,
+  "description": [
+    "Surrounded by the murky black water, the wide block of limestone that makes up the island bobs up and down slightly atop the lake's surface.  Overhead, there is only darkness, save for a shipshod rope hanging from the pitch black and the faint outlines of several massive stalacmites.  A squat tree stump sits between two ruined couches, tiny withering leaves clumped around the gnarled, dead roots that sprawl out into the lake."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Feywrot Mire",
+  "wayto": {
+    "24238": {
+      "file": "string_procs/wayto/24237_24238.rb"
+    }
+  },
   "timeto": {
     "24238": 0.2
-  },
-  "id": 24237,
-  "location": "the Feywrot Mire",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  }
 }

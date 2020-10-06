@@ -1,44 +1,33 @@
 {
+  "id": 7403,
+  "title": [
+    "[Tunnel Chamber]"
+  ],
+  "description": [
+    "Three tunnels have met to form a large chamber within the mine.  Every sound you make echoes down the tunnels, and returns to your ears seconds later as a faint unrecognizable jumble of voices and sound."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south, northwest"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7404": "south",
     "7405": "northwest",
     "7402": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, south, northwest"
-  ],
+  "timeto": {
+    "7404": 0.2,
+    "7405": 0.2,
+    "7402": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1257,
     191,
     1265,
     199
   ],
-  "terrain": "indoors",
-  "description": [
-    "Three tunnels have met to form a large chamber within the mine.  Every sound you make echoes down the tunnels, and returns to your ears seconds later as a faint unrecognizable jumble of voices and sound."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Tunnel Chamber]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7404": 0.2,
-    "7405": 0.2,
-    "7402": 0.2
-  },
-  "id": 7403,
-  "location": "the Shadow Valley",
   "tags": [
-    "some blue moss",
-    "cave moss",
-    "blackgrove root",
-    "shadowlace moss",
-    "blue moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some blue moss"
   ]
 }

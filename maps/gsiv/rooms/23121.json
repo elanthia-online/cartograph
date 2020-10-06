@@ -1,35 +1,23 @@
 {
+  "id": 23121,
+  "title": [
+    "[Sunken Mausoleum, Crypt]"
+  ],
+  "description": [
+    "A glowing scarlet orb hangs from a rusted chain, staining the tomb's haze with its lurid glow.  Piles of torn flesh and shattered bones lie along the walls, their stench overwhelming.  Carved in rows along the walls are cryptic runes, and painted upon the floor are intricate sigils.  Corroded steel shackles dangle from the walls, some encrusted with bits of gore and flesh.  A tunnel leads toward the undercroft and a passageway leads to the catacombs."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Feymist Cemetery",
   "wayto": {
     "23120": "go tunnel",
     "23122": "go passageway",
     "23123": "north"
   },
-  "paths": [
-    "Obvious exits: north"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "A glowing scarlet orb hangs from a rusted chain, staining the tomb's haze with its lurid glow.  Piles of torn flesh and shattered bones lie along the walls, their stench overwhelming.  Carved in rows along the walls are cryptic runes, and painted upon the floor are intricate sigils.  Corroded steel shackles dangle from the walls, some encrusted with bits of gore and flesh.  A tunnel leads toward the undercroft and a passageway leads to the catacombs."
-  ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Sunken Mausoleum, Crypt]"
-  ],
-  "check_location": null,
   "timeto": {
     "23120": 0.2,
     "23122": 0.2,
     "23123": 0.2
-  },
-  "id": 23121,
-  "location": "the Feymist Cemetery",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  }
 }

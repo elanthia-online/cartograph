@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "12216": "east",
-    "12152": {
-      "stringproc": "e7b269de45035581300c76daf9e751cf"
-    },
-    "12089": {
-      "stringproc": "df16ace028c72dba18b51257349345d8"
-    },
-    "2635": {
-      "stringproc": "a5fc698b4e8aaa983aa8f5ad92908980"
-    },
-    "12094": "west"
-  },
+  "id": 20876,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "Even for a giant, the body laying on the ground before you is huge.  It lies face down, a pool of blood widening slowly around it.  The giant's outstretched arms clutch a battle axe in one hand and a thin veil iron circlet in the other, as if to keep hold of them even in death.  Fortunately, the pack of wild dogs ripping at the body doesn't seem to care about them, only about their dinner."
+  ],
   "paths": [
     "Obvious exits: east, west",
     "Obvious paths: east, west"
   ],
-  "image_coords": [
-    187,
-    1208,
-    196,
-    1218
-  ],
-  "terrain": null,
-  "description": [
-    "Even for a giant, the body laying on the ground before you is huge.  It lies face down, a pool of blood widening slowly around it.  The giant's outstretched arms clutch a battle axe in one hand and a thin veil iron circlet in the other, as if to keep hold of them even in death.  Fortunately, the pack of wild dogs ripping at the body doesn't seem to care about them, only about their dinner."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12216": "east",
+    "12152": {
+      "file": "string_procs/wayto/20876_12152.rb"
+    },
+    "12089": {
+      "file": "string_procs/wayto/20876_12089.rb"
+    },
+    "2635": {
+      "file": "string_procs/wayto/20876_2635.rb"
+    },
+    "12094": "west"
+  },
   "timeto": {
     "12216": 0.2,
     "12152": 21.6,
@@ -39,19 +31,11 @@
     "2635": 21.6,
     "12094": 0.2
   },
-  "id": 20876,
-  "location": "the Rift",
-  "tags": [
-    "mass of congealed slime",
-    "oozing fleshsore bulb",
-    "withered deathblossom",
-    "rotting bile green fleshbulb",
-    "slime-covered grave blossom",
-    "discolored fleshbinder bud",
-    "twisted black mawflower"
-  ],
-  "unique_loot": null,
-  "links": [
-
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    187,
+    1208,
+    196,
+    1218
   ]
 }

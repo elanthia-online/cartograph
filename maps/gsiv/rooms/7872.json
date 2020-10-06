@@ -1,40 +1,32 @@
 {
-  "wayto": {
-    "7871": {
-      "stringproc": "46b1b6f0cc4d78162473dce203d260e4"
-    },
-    "999999": {
-      "stringproc": "1fefda5dea6bee944dd9cd91150183a6"
-    },
-    "999998": {
-      "stringproc": "f83009d94f38b9c480f1467f0790a8ad"
-    },
-    "999997": {
-      "stringproc": "0dc5d49e44f90a9bb62cab1afd0acb05"
-    },
-    "999996": {
-      "stringproc": "768e0a5aa9847a26634efaf8953745ec"
-    }
-  },
-  "paths": [
-    "Obvious exits: northeast, southeast, southwest, northwest"
-  ],
-  "image_coords": [
-    874,
-    316,
-    910,
-    352
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Reflections off of the ice dazzle your eyes.  Shivering with the cold, you can barely make out four passages leading out in different directions.  Nothing stands out to distinguish this chamber from dozens just like it."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "indoors",
+  "id": 7872,
   "title": [
     "[Glatoph, Glacier]"
   ],
-  "check_location": null,
+  "description": [
+    "Reflections off of the ice dazzle your eyes.  Shivering with the cold, you can barely make out four passages leading out in different directions.  Nothing stands out to distinguish this chamber from dozens just like it."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, southwest, northwest"
+  ],
+  "location": "Glatoph",
+  "wayto": {
+    "7871": {
+      "file": "string_procs/wayto/7872_7871.rb"
+    },
+    "999999": {
+      "file": "string_procs/wayto/7872_999999.rb"
+    },
+    "999998": {
+      "file": "string_procs/wayto/7872_999998.rb"
+    },
+    "999997": {
+      "file": "string_procs/wayto/7872_999997.rb"
+    },
+    "999996": {
+      "file": "string_procs/wayto/7872_999996.rb"
+    }
+  },
   "timeto": {
     "7871": 0.2,
     "999996": 0.2,
@@ -42,13 +34,11 @@
     "999998": 0.2,
     "999999": 0.2
   },
-  "id": 7872,
-  "location": "Glatoph",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-danjirland-1264234799.png",
+  "image_coords": [
+    874,
+    316,
+    910,
+    352
   ]
 }

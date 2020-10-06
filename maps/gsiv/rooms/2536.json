@@ -1,37 +1,34 @@
 {
-  "wayto": {
-    "2535": {
-      "stringproc": "627e8564b77acb15b93b042e15018ec5"
-    },
-    "2537": {
-      "stringproc": "96f762a3c5540f71716927f4f186a4fa"
-    }
-  },
+  "id": 2536,
+  "title": [
+    "[Snowy Plains, The River]"
+  ],
+  "description": [
+    "A loud crunching sound echoes through the air as you trudge forward through the ice-covered snow on the trail.  On the opposite bank, a fast moving stream empties noisily into the already swollen river."
+  ],
   "paths": [
     "Obvious paths: east, west"
   ],
+  "location": "the Icemule Trail",
+  "wayto": {
+    "2535": {
+      "file": "string_procs/wayto/2536_2535.rb"
+    },
+    "2537": {
+      "file": "string_procs/wayto/2536_2537.rb"
+    }
+  },
+  "timeto": {
+    "2535": 0.2,
+    "2537": 0.2
+  },
+  "image": "imt-trail-1264234799.png",
   "image_coords": [
     836,
     554,
     846,
     564
   ],
-  "terrain": "riparian",
-  "description": [
-    "A loud crunching sound echoes through the air as you trudge forward through the ice-covered snow on the trail.  On the opposite bank, a fast moving stream empties noisily into the already swollen river."
-  ],
-  "image": "imt-trail-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Snowy Plains, The River]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2535": 0.2,
-    "2537": 0.2
-  },
-  "id": 2536,
-  "location": "the Icemule Trail",
   "tags": [
     "some frostweed",
     "wavepetal blossom",
@@ -42,10 +39,6 @@
     "frostweed",
     "murdroot",
     "ironfern root",
-    "talneo root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "talneo root"
   ]
 }

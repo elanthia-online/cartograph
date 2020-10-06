@@ -1,33 +1,30 @@
 {
+  "id": 2203,
+  "title": [
+    "[Eye of V'Tull, Inner Circle]"
+  ],
+  "description": [
+    "Huge stalactites and stalagmites choke the passage slightly here, and steam is forced from some small fissures in the floor, carrying dust and ash with it as it rises into the air."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "the Eye of V'Tull",
   "wayto": {
     "2202": "northeast",
     "2204": "southwest"
   },
-  "paths": [
-    "Obvious exits: northeast, southwest"
-  ],
+  "timeto": {
+    "2202": 0.2,
+    "2204": 0.2
+  },
+  "image": "ti-vtull-1264234799.png",
   "image_coords": [
     821,
     761,
     831,
     771
   ],
-  "terrain": "indoors",
-  "description": [
-    "Huge stalactites and stalagmites choke the passage slightly here, and steam is forced from some small fissures in the floor, carrying dust and ash with it as it rises into the air."
-  ],
-  "image": "ti-vtull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Eye of V'Tull, Inner Circle]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2202": 0.2,
-    "2204": 0.2
-  },
-  "id": 2203,
-  "location": "the Eye of V'Tull",
   "tags": [
     "some bolmara lichen",
     "soft white mushroom",
@@ -36,14 +33,6 @@
     "daggerstalk mushroom",
     "flathead mushroom",
     "black trafel mushroom",
-    "withered black mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "withered black mushroom"
   ]
 }

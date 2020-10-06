@@ -6,6 +6,7 @@ require "fileutils"
 require_relative "../../util/opts"
 require_relative "../../util/color"
 require_relative "../../util/log"
+require_relative "./mapdb"
 
 module Repo
 	VERSION  = "2.35"
@@ -79,7 +80,7 @@ module Repo
 		response.each do |header, value| puts "#{header.rjust(12)}=#{value}" end
 		puts response["warning"] if response['warning']
 		fail response["error"] if response["error"]
-		bail() if File.exists?("checksum") and response["md5sum"].eql? File.read("checksum")
+		bail() if response["md5sum"].eql? MapDB.checksum
 		inflated = Zlib::GzipReader.new(ssl_socket)
 		file = File.new(mapdb_out_file, 'wb')
 		file.write(inflated.read)
@@ -88,7 +89,7 @@ module Repo
 
 	def self.lock_with_checksum()
 		new_checksum = File.join(Dir.pwd, "tmp", "checksum")
-		FileUtils.cp(new_checksum, Dir.pwd)
-		puts "locked with new checksum " + File.read(File.join(Dir.pwd, "checksum"))
+		FileUtils.cp(new_checksum, MapDB.checksum_file)
+		puts "locked with new checksum %s" % MapDB.checksum
 	end
 end

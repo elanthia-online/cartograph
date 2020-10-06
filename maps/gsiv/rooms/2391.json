@@ -1,4 +1,15 @@
 {
+  "id": 2391,
+  "title": [
+    "[Tavern Burrow, Pilsner Avenue]"
+  ],
+  "description": [
+    "Boxwood hedge have been trained to grow here, wrapping around the poles of a wrought iron fence.  The grey stone of the outer wall of the city is just visible over the top of the fence, surrounding a cleared work yard.  The greenery helps to muffle some of the volume of the repetitive metal-on-metal noises emanating from the forging workshops located beyond the gate.  A narrow alley, marked with a clever sign crafted from the top of hogshead barrel, jags off to the northeast."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "2390": "north",
     "3223": "east",
@@ -6,25 +17,6 @@
     "3445": "go alley",
     "9007": "go gate"
   },
-  "paths": [
-    "Obvious paths: north, east, south"
-  ],
-  "image_coords": [
-    140,
-    1053,
-    176,
-    1089
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "Boxwood hedge have been trained to grow here, wrapping around the poles of a wrought iron fence.  The grey stone of the outer wall of the city is just visible over the top of the fence, surrounding a cleared work yard.  The greenery helps to muffle some of the volume of the repetitive metal-on-metal noises emanating from the forging workshops located beyond the gate.  A narrow alley, marked with a clever sign crafted from the top of hogshead barrel, jags off to the northeast."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Tavern Burrow, Pilsner Avenue]"
-  ],
-  "check_location": null,
   "timeto": {
     "2390": 0.2,
     "3223": 0.2,
@@ -32,13 +24,14 @@
     "3445": 0.2,
     "9007": 0.2
   },
-  "id": 2391,
-  "location": "Icemule Trace",
-  "tags": [
-    "calmintha flower",
-    "meta:forage-sensed"
+  "image": "imt-icemule-1474811966.png",
+  "image_coords": [
+    140,
+    1053,
+    176,
+    1089
   ],
-  "links": [
-
+  "tags": [
+    "calmintha flower"
   ]
 }

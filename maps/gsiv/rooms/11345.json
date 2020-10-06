@@ -1,33 +1,32 @@
 {
+  "id": 11345,
+  "title": [
+    "[Citadel, Walkway]"
+  ],
+  "description": [
+    "The rose bushes to either side of the walkway have grown into a natural arch here, blotting out your view of the sky.  The buds of the roses seem unusually large and contain such unnatural colors as black, blue and even stripes."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Citadel",
+  "climate": "moist",
+  "terrain": "plain dirt",
   "wayto": {
     "11344": "north",
     "11346": "south"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "11344": 0.2,
+    "11346": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     601,
     1335,
     611,
     1345
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The rose bushes to either side of the walkway have grown into a natural arch here, blotting out your view of the sky.  The buds of the roses seem unusually large and contain such unnatural colors as black, blue and even stripes."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "moist",
-  "title": [
-    "[Citadel, Walkway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11344": 0.2,
-    "11346": 0.2
-  },
-  "id": 11345,
-  "location": "the Citadel",
   "tags": [
     "some aloeas stem",
     "bright red cranberry",
@@ -45,11 +44,6 @@
     "aloeas stem",
     "motherwort",
     "murkweed",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

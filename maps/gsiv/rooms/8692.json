@@ -1,35 +1,32 @@
 {
+  "id": 8692,
+  "title": [
+    "[Temple, Graveyard]"
+  ],
+  "description": [
+    "A small group of people stands around a newly-covered grave here in the Temple's shadow.  A priest, dressed in solemn clothing, leads the people in a soft song.  While the key is minor, the words rejoice that the departed one now rests beyond the hardships of life, safe within Lorminstra's grasp."
+  ],
+  "paths": [
+    "Obvious paths: northeast, east, south"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "8690": "east",
     "8691": "northeast",
     "8693": "south"
   },
-  "paths": [
-    "Obvious paths: northeast, east, south"
-  ],
+  "timeto": {
+    "8690": 0.2,
+    "8691": 0.2,
+    "8693": 0.2
+  },
+  "image": "wl-wehnimers-1264234799.png",
   "image_coords": [
     553,
     736,
     563,
     746
   ],
-  "terrain": "cultivated",
-  "description": [
-    "A small group of people stands around a newly-covered grave here in the Temple's shadow.  A priest, dressed in solemn clothing, leads the people in a soft song.  While the key is minor, the words rejoice that the departed one now rests beyond the hardships of life, safe within Lorminstra's grasp."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Temple, Graveyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8690": 0.2,
-    "8691": 0.2,
-    "8693": 0.2
-  },
-  "id": 8692,
-  "location": "the town of Wehnimer's Landing",
   "tags": [
     "some sovyn clove",
     "some calamia fruit",
@@ -58,49 +55,6 @@
     "blue trafel mushroom",
     "flathead mushroom",
     "orange tomato",
-    "meta:teleport:fwi",
-    "cactacae spine",
-    "calamia fruit",
-    "haphip root",
-    "sovyn clove",
-    "spearmint leaf",
-    "small flower",
-    "small rose",
-    "small daisy",
-    "angelica root",
-    "soft white mushroom",
-    "withered black mushroom",
-    "genkew mushroom",
-    "heath aster",
-    "golden buttercup",
-    "Imaera's Lace",
-    "ginger root",
-    "lettuce",
-    "rose-marrow root",
-    "striped tomato",
-    "motherwort",
-    "sprig of bleeding-heart",
-    "small carnation",
-    "large white gardenia",
-    "honeysuckle vine",
-    "iris blossom",
-    "sprig of jasmine",
-    "sprig of lavender",
-    "wild pansy blossom",
-    "Elanthian snow rose",
-    "branch of kerria",
-    "orris root",
-    "small pumpkin",
-    "raspberries",
-    "small apple",
-    "white lily",
-    "tiger lily",
-    "wavepetal blossom",
-    "sunburst blossom",
-    "onion skin",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:teleport:fwi"
   ]
 }

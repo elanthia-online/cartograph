@@ -1,37 +1,28 @@
 {
+  "id": 17932,
+  "title": [
+    "[A Damp Tunnel]"
+  ],
+  "description": [
+    "The tunnel smells slightly of mildew and seawater.  Moisture seeps from the walls, forming small puddles on the floors.  At the far end, light seeps down from between cracks in a wooden trapdoor."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Solhaven",
   "wayto": {
     "17931": "go door",
     "17933": "go trapdoor"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "17931": 0.2,
+    "17933": 0.2
+  },
+  "image": "vo-rogue_guild-1305438533.png",
   "image_coords": [
     428,
     537,
     457,
     564
-  ],
-  "terrain": null,
-  "description": [
-    "The tunnel smells slightly of mildew and seawater.  Moisture seeps from the walls, forming small puddles on the floors.  At the far end, light seeps down from between cracks in a wooden trapdoor."
-  ],
-  "image": "vo-rogue_guild-1305438533.png",
-  "climate": null,
-  "title": [
-    "[A Damp Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "17931": 0.2,
-    "17933": 0.2
-  },
-  "id": 17932,
-  "location": "Solhaven",
-  "tags": [
-
-  ],
-  "links": [
-
   ]
 }

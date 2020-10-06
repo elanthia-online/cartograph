@@ -1,49 +1,33 @@
 {
+  "id": 8220,
+  "title": [
+    "[Sea Caverns, Dark Tunnel]"
+  ],
+  "description": [
+    "A damp draft blows toward the east down this narrow tunnel.  Discarded husks, the skin of some worm or snake, litter the floor."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the sea caverns",
   "wayto": {
     "8216": "east",
     "8221": "west"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "8216": 0.2,
+    "8221": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     409,
     231,
     419,
     241
   ],
-  "terrain": "indoors",
-  "description": [
-    "A damp draft blows toward the east down this narrow tunnel.  Discarded husks, the skin of some worm or snake, litter the floor."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Caverns, Dark Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8216": 0.2,
-    "8221": 0.2
-  },
-  "id": 8220,
-  "location": "the sea caverns",
   "tags": [
     "some bolmara lichen",
     "black hook mushroom",
-    "red trafel mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "white hook mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "red trafel mushroom"
   ]
 }

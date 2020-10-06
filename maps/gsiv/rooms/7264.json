@@ -1,35 +1,32 @@
 {
+  "id": 7264,
+  "title": [
+    "[Wormwood Slough, Slippery Path]"
+  ],
+  "description": [
+    "The ground is somewhat solid here, though covered with a layer of slippery muck that threatens your footing at every step.  A few ancient graves marked by corroded monuments are set along the path, their occupants untouched as yet by the ravages of the swamp.  A foul miasma of vapors and rot emanates from the mire to the west."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7254": "northeast",
     "7269": "west",
     "7271": "southwest"
   },
-  "paths": [
-    "Obvious paths: northeast, southwest, west"
-  ],
+  "timeto": {
+    "7254": 0.2,
+    "7269": 0.2,
+    "7271": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     108,
     613,
     118,
     623
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "The ground is somewhat solid here, though covered with a layer of slippery muck that threatens your footing at every step.  A few ancient graves marked by corroded monuments are set along the path, their occupants untouched as yet by the ravages of the swamp.  A foul miasma of vapors and rot emanates from the mire to the west."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "humid",
-  "title": [
-    "[Wormwood Slough, Slippery Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7254": 0.2,
-    "7269": 0.2,
-    "7271": 0.2
-  },
-  "id": 7264,
-  "location": "the Graveyard",
   "tags": [
     "some pothinir grass",
     "stalk of goldenrod",
@@ -54,10 +51,6 @@
     "wild chokecherry",
     "murkweed",
     "blue whortleberry",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

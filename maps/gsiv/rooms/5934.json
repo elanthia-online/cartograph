@@ -1,34 +1,31 @@
 {
+  "id": 5934,
+  "title": [
+    "[Catacombs, Serpent's Den]"
+  ],
+  "description": [
+    "A huge snake pit dominates this area.",
+    "A huge snake pit dominates this area.  Near the pit lies a pool of murky water filled with more snakes.  It is impossible to determine which direction the reptiles are moving as they splash in the foul smelling fluid."
+  ],
+  "paths": [
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "5933": "southeast",
     "5935": "northwest"
   },
-  "paths": [
-    "Obvious exits: southeast, northwest"
-  ],
+  "timeto": {
+    "5933": 0.2,
+    "5935": 0.2
+  },
+  "image": "en-tavaalor-1565907614.png",
   "image_coords": [
     315,
     791,
     325,
     801
   ],
-  "terrain": null,
-  "description": [
-    "A huge snake pit dominates this area.",
-    "A huge snake pit dominates this area.  Near the pit lies a pool of murky water filled with more snakes.  It is impossible to determine which direction the reptiles are moving as they splash in the foul smelling fluid."
-  ],
-  "image": "en-tavaalor-1565907614.png",
-  "climate": null,
-  "title": [
-    "[Catacombs, Serpent's Den]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5933": 0.2,
-    "5935": 0.2
-  },
-  "id": 5934,
-  "location": "the catacombs",
   "tags": [
     "some bolmara lichen",
     "black hook mushroom",
@@ -40,8 +37,5 @@
     "ironfern root",
     "bolmara lichen",
     "wingstem root"
-  ],
-  "links": [
-
   ]
 }

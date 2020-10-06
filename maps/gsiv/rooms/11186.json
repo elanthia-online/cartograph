@@ -1,32 +1,20 @@
 {
-  "wayto": {
-    "11170": {
-      "stringproc": "1d1e49ac34b8e96fda443059cc113714"
-    }
-  },
-  "paths": [
-    "Obvious exits: east"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Unusually free of blood, the tiled walls are merely mildewed with time.  A small and rusty spring water tap and a few lidless commodes are reminders that this place once housed living beings.  Given the destruction just outside, this room is in surprisingly good shape."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 11186,
   "title": [
     "[Garrison, Latrine]"
   ],
-  "check_location": null,
+  "description": [
+    "Unusually free of blood, the tiled walls are merely mildewed with time.  A small and rusty spring water tap and a few lidless commodes are reminders that this place once housed living beings.  Given the destruction just outside, this room is in surprisingly good shape."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "wayto": {
+    "11170": {
+      "file": "string_procs/wayto/11186_11170.rb"
+    }
+  },
   "timeto": {
     "11170": 1.2
-  },
-  "id": 11186,
-  "location": null,
-  "tags": [
-
-  ],
-  "links": [
-
-  ]
+  }
 }

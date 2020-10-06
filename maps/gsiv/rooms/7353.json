@@ -1,43 +1,33 @@
 {
+  "id": 7353,
+  "title": [
+    "[Shadow Plain]"
+  ],
+  "description": [
+    "This desolate land seems populated by almost nothing except a few fallen petrified trees and blowing dust.  To the southeast you see the base of a group of desolate dark hills."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7352": "southwest",
     "7354": "southeast"
   },
-  "paths": [
-    "Obvious paths: southeast, southwest"
-  ],
+  "timeto": {
+    "7352": 0.2,
+    "7354": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1279,
     890,
     1289,
     900
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "This desolate land seems populated by almost nothing except a few fallen petrified trees and blowing dust.  To the southeast you see the base of a group of desolate dark hills."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Shadow Plain]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7352": 0.2,
-    "7354": 0.2
-  },
-  "id": 7353,
-  "location": "the Shadow Valley",
   "tags": [
     "some petrified shadowstalk",
     "black-tipped wyrm thorn",
-    "night mare",
-    "longgrass",
-    "wyrm thorn",
-    "petrified shadowstalk",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "night mare"
   ]
 }

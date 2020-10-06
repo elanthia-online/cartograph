@@ -1,37 +1,27 @@
 {
+  "id": 3973,
+  "title": [
+    "[Abandoned Sewer]"
+  ],
+  "description": [
+    "Large blobs of some sort of slime occasionally drip from the ceiling here.  They collect on the floor, making the footing a bit more treacherous than normal.  Keeping one eye on the descending blobs, and one eye on your path, you gingerly pick your way through."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
   "wayto": {
     "3966": "east",
     "3968": "west"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "3966": 0.2,
+    "3968": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     718,
     486,
     728,
     495
-  ],
-  "terrain": null,
-  "description": [
-    "Large blobs of some sort of slime occasionally drip from the ceiling here.  They collect on the floor, making the footing a bit more treacherous than normal.  Keeping one eye on the descending blobs, and one eye on your path, you gingerly pick your way through."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Abandoned Sewer]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3966": 0.2,
-    "3968": 0.2
-  },
-  "id": 3973,
-  "location": null,
-  "tags": [
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

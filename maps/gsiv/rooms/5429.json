@@ -1,45 +1,37 @@
 {
+  "id": 5429,
+  "title": [
+    "[Bonespear Tower, Stairwell]"
+  ],
+  "description": [
+    "An immense pile of debris and rubble caused by what might have been a massive explosion has blocked off access to this level save for the small passages to the north.  The stairwell itself escaped much of the destruction, but a few scorch marks and large chips show that it did not escape the damage completely."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, up, down"
+  ],
+  "location": "Bonespear Tower",
   "wayto": {
     "5422": "down",
     "5435": "north",
     "5436": "up",
     "5437": "northeast"
   },
-  "paths": [
-    "Obvious exits: north, northeast, up, down"
-  ],
-  "image_coords": [
-    951,
-    850,
-    961,
-    860
-  ],
-  "terrain": "indoors",
-  "description": [
-    "An immense pile of debris and rubble caused by what might have been a massive explosion has blocked off access to this level save for the small passages to the north.  The stairwell itself escaped much of the destruction, but a few scorch marks and large chips show that it did not escape the damage completely."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Bonespear Tower, Stairwell]"
-  ],
-  "check_location": null,
   "timeto": {
     "5422": 0.2,
     "5435": 0.2,
     "5436": 0.2,
     "5437": 0.2
   },
-  "id": 5429,
-  "location": "Bonespear Tower",
+  "image": "vo-foggy_valley-1264234799.png",
+  "image_coords": [
+    951,
+    850,
+    961,
+    860
+  ],
   "tags": [
     "waern",
     "dybbuk",
-    "eidolon",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "eidolon"
   ]
 }

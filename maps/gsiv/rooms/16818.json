@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "16812": "south"
-  },
+  "id": 16818,
+  "title": [
+    "[Castle Dungeons, Cell]"
+  ],
+  "description": [
+    "The flickering light from the hallway casts an eerie glow in the cell.  On the floor you find splintered wooden spoons and bowls.  In the shadows something on the far wall catches your attention."
+  ],
   "paths": [
     "Obvious exits: south"
   ],
+  "location": "Castle Varunar",
+  "wayto": {
+    "16812": "south"
+  },
+  "timeto": {
+    "16812": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     625,
     351,
     635,
     361
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The flickering light from the hallway casts an eerie glow in the cell.  On the floor you find splintered wooden spoons and bowls.  In the shadows something on the far wall catches your attention."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Castle Dungeons, Cell]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "16812": 0.2
-  },
-  "id": 16818,
-  "location": "Castle Varunar",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

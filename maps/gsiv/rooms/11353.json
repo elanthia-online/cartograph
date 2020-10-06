@@ -1,33 +1,32 @@
 {
+  "id": 11353,
+  "title": [
+    "[Citadel, Walkway]"
+  ],
+  "description": [
+    "The walkway here has become so hot that the rocks have become molten.  The archway overhead seems to be made entirely of living flames which appear to be laughing at your feeble attempts to pass by."
+  ],
+  "paths": [
+    "Obvious paths: southwest, northwest"
+  ],
+  "location": "the Citadel",
+  "climate": "arid",
+  "terrain": "barren scrub ",
   "wayto": {
     "11352": "southwest",
     "11354": "northwest"
   },
-  "paths": [
-    "Obvious paths: southwest, northwest"
-  ],
+  "timeto": {
+    "11352": 0.2,
+    "11354": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     171,
     1423,
     181,
     1433
   ],
-  "terrain": "barren scrub ",
-  "description": [
-    "The walkway here has become so hot that the rocks have become molten.  The archway overhead seems to be made entirely of living flames which appear to be laughing at your feeble attempts to pass by."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "arid",
-  "title": [
-    "[Citadel, Walkway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11352": 0.2,
-    "11354": 0.2
-  },
-  "id": 11353,
-  "location": "the Citadel",
   "tags": [
     "moonlight cactus-bloom",
     "pink poppy",
@@ -44,12 +43,6 @@
     "yellow poppy",
     "golden poppy",
     "cactacae spine",
-    "small wild rose",
-    "fire lily",
-    "pepperthorn root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "small wild rose"
   ]
 }

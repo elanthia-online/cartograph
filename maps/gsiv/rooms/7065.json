@@ -1,49 +1,37 @@
 {
+  "id": 7065,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "Crude tools--sharpened stones, bone fragments, bits of metal--are strewn about the tunnel in various states of decay, hinting at their ineffectiveness.  The tunnel is narrow here, as if its creators were trying to save their strength."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest, northwest"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7064": "northeast",
     "7066": "southwest",
     "7067": "northwest"
   },
-  "paths": [
-    "Obvious exits: northeast, southwest, northwest"
-  ],
+  "timeto": {
+    "7064": 0.2,
+    "7066": 0.2,
+    "7067": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     189,
     979,
     199,
     989
   ],
-  "terrain": "indoors",
-  "description": [
-    "Crude tools--sharpened stones, bone fragments, bits of metal--are strewn about the tunnel in various states of decay, hinting at their ineffectiveness.  The tunnel is narrow here, as if its creators were trying to save their strength."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7064": 0.2,
-    "7066": 0.2,
-    "7067": 0.2
-  },
-  "id": 7065,
-  "location": "Darkstone Castle",
   "tags": [
     "some cave moss",
     "withered black mushroom",
     "some wingstem root",
     "some wolifrew lichen",
-    "roa'ter",
-    "wolifrew lichen",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "roa'ter"
   ]
 }

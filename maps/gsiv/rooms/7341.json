@@ -1,46 +1,37 @@
 {
+  "id": 7341,
+  "title": [
+    "[Dark Pasture, Black Stream]"
+  ],
+  "description": [
+    "The black murk has infiltrated the surrounding ground covering everything in the area with slime.  A few bubbles pop to the surface of the sludge only to shatter and spray you with goo."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest, west, northwest"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7339": "east",
     "7342": "northwest",
     "7343": "southwest",
     "7344": "west"
   },
-  "paths": [
-    "Obvious paths: east, southwest, west, northwest"
-  ],
-  "image_coords": [
-    1146,
-    810,
-    1156,
-    820
-  ],
-  "terrain": "riparian",
-  "description": [
-    "The black murk has infiltrated the surrounding ground covering everything in the area with slime.  A few bubbles pop to the surface of the sludge only to shatter and spray you with goo."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Dark Pasture, Black Stream]"
-  ],
-  "check_location": null,
   "timeto": {
     "7339": 0.2,
     "7342": 0.2,
     "7343": 0.2,
     "7344": 0.2
   },
-  "id": 7341,
-  "location": "the Shadow Valley",
+  "image": "wl-graveyard-1264234799.png",
+  "image_coords": [
+    1146,
+    810,
+    1156,
+    820
+  ],
   "tags": [
     "some fetid black slime",
     "some longgrass",
-    "night mare",
-    "black slime",
-    "longgrass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "night mare"
   ]
 }

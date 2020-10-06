@@ -1,42 +1,31 @@
 {
+  "id": 15573,
+  "title": [
+    "[East Woods, Tunnel]"
+  ],
+  "description": [
+    "Scratch marks cover the walls of the tunnels, signature marks of creatures intent on expanding this underground haven.  Trickles of water dripping down the wall follow the path of the scratches, carving the slender lines into deep, narrow runnels extending all the way to the floor."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Old Ta'Faendryl",
   "wayto": {
     "13447": "west",
     "15593": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "13447": 0.2,
+    "15593": 0.2
+  },
+  "image": "en-old_ta_faendryl-1264234799.png",
   "image_coords": [
     1426,
     726,
     1436,
     736
   ],
-  "terrain": "indoors",
-  "description": [
-    "Scratch marks cover the walls of the tunnels, signature marks of creatures intent on expanding this underground haven.  Trickles of water dripping down the wall follow the path of the scratches, carving the slender lines into deep, narrow runnels extending all the way to the floor."
-  ],
-  "image": "en-old_ta_faendryl-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[East Woods, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "13447": 0.2,
-    "15593": 0.2
-  },
-  "id": 15573,
-  "location": "Old Ta'Faendryl",
   "tags": [
-    "some cave moss",
-    "cave moss",
-    "murdroot",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

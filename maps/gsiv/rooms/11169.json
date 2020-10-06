@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "11168": "south"
-  },
+  "id": 11169,
+  "title": [
+    "[Garrison, Guard Post]"
+  ],
+  "description": [
+    "This used to be the watch post for on-duty guards.  All that remains of the guards, however, is their armor.  One breastplate is crumpled into a corner while another hangs from a piece of lance which had been thrust through the body and pierced the wall."
+  ],
   "paths": [
     "Obvious exits: south"
   ],
+  "location": "the Citadel",
+  "wayto": {
+    "11168": "south"
+  },
+  "timeto": {
+    "11168": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     598,
     479,
     608,
     489
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This used to be the watch post for on-duty guards.  All that remains of the guards, however, is their armor.  One breastplate is crumpled into a corner while another hangs from a piece of lance which had been thrust through the body and pierced the wall."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Garrison, Guard Post]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11168": 0.2
-  },
-  "id": 11169,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

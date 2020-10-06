@@ -1,38 +1,28 @@
 {
-  "wayto": {
-    "7036": {
-      "stringproc": "9bab657d5aa2318cfe95f546c10a0db8"
-    }
-  },
+  "id": 7154,
+  "title": [
+    "[Castle Darkstone, Tower's Top]"
+  ],
+  "description": [
+    "The very top of this tower, the only one remaining fully intact to judge from the wreckage strewn far below, is open to the wind and rain and elements.  Great powers once strove here, for the massive stones are blackened and charred.  In spots the stone has been melted and cooled so that brittle puddles of black glass crunch underfoot.  Crowning the battlements, a massive jackal, cast or carved out of the blackest ora, peers down at the surroundings like a brooding monarch above a dead kingdom."
+  ],
   "paths": [
     "Obvious paths: none"
   ],
+  "location": "Darkstone Castle",
+  "wayto": {
+    "7036": {
+      "file": "string_procs/wayto/7154_7036.rb"
+    }
+  },
+  "timeto": {
+    "7036": 20.0
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     528,
     454,
     540,
     466
-  ],
-  "terrain": null,
-  "description": [
-    "The very top of this tower, the only one remaining fully intact to judge from the wreckage strewn far below, is open to the wind and rain and elements.  Great powers once strove here, for the massive stones are blackened and charred.  In spots the stone has been melted and cooled so that brittle puddles of black glass crunch underfoot.  Crowning the battlements, a massive jackal, cast or carved out of the blackest ora, peers down at the surroundings like a brooding monarch above a dead kingdom."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Castle Darkstone, Tower's Top]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7036": 20.0
-  },
-  "id": 7154,
-  "location": "Darkstone Castle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

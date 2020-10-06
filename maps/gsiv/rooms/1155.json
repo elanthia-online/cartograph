@@ -1,63 +1,35 @@
 {
-  "wayto": {
-    "1156": {
-      "stringproc": "0e24e9cfabb7c7019f4189c37af1772a"
-    },
-    "1154": {
-      "stringproc": "bc96d7009e8115351e9b2f6f175beeed"
-    }
-  },
+  "id": 1155,
+  "title": [
+    "[Locksmehr River Trail, Swamp]"
+  ],
+  "description": [
+    "An ankle-deep swamp covers this low spot of the forest; the murky water ripples concentric circles away from every footstep.  Small gnats swarm through the heavy air, darting at anything that moves.  The soft buzzing of the bugs blends in with the constant singing of tree frogs in nature's ambient harmony."
+  ],
   "paths": [
     "Obvious paths: north, south"
   ],
+  "location": "the Locksmehr Trail",
+  "wayto": {
+    "1156": {
+      "file": "string_procs/wayto/1155_1156.rb"
+    },
+    "1154": {
+      "file": "string_procs/wayto/1155_1154.rb"
+    }
+  },
+  "timeto": {
+    "1156": 0.2,
+    "1154": 0.2
+  },
+  "image": "en-trail-1264234799.png",
   "image_coords": [
     656,
     355,
     666,
     365
   ],
-  "terrain": "missing",
-  "description": [
-    "An ankle-deep swamp covers this low spot of the forest; the murky water ripples concentric circles away from every footstep.  Small gnats swarm through the heavy air, darting at anything that moves.  The soft buzzing of the bugs blends in with the constant singing of tree frogs in nature's ambient harmony."
-  ],
-  "image": "en-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Locksmehr River Trail, Swamp]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1156": 0.2,
-    "1154": 0.2
-  },
-  "id": 1155,
-  "location": "the Locksmehr Trail",
   "tags": [
-    "water chestnut",
-    "calamia fruit",
-    "haphip root",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "wild gooseberry",
-    "stalk of cattail",
-    "small wild rose",
-    "kylan berry",
-    "blue whortleberry",
-    "pepperthorn root",
-    "murdroot",
-    "wavepetal blossom",
-    "sunburst blossom",
-    "bolmara lichen",
-    "talneo root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "water chestnut"
   ]
 }

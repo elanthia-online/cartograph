@@ -1,42 +1,32 @@
 {
-  "wayto": {
-    "16961": "climb staircase",
-    "18138": "go ogee arch",
-    "26830": "go peacock door"
-  },
-  "paths": [
-    "Obvious exits: none"
+  "id": 17841,
+  "title": [
+    "[Ta'Illistim Keep, Cobalt Salon]"
   ],
-  "image_coords": [
-    544,
-    1050,
-    565,
-    1073
-  ],
-  "terrain": "indoors",
   "description": [
     "High above, the vaulted ceiling is a domed expanse of brilliant blue, a mosaic of millions upon millions of pieces of tiny glaes squares.  The tilework continues down the walls, stopping halfway to meet smoothed silvered stonework.  An immense ogee arch is flanked by two smaller doors.  Starlight streams through the well of a stone staircase.",
     "High above, the vaulted ceiling is a domed expanse of brilliant blue, a mosaic of millions upon millions of pieces of tiny glaes squares.  The tilework continues down the walls, stopping halfway to meet smoothed silvered stonework.  An immense ogee arch is flanked by two smaller doors.  Starlight streams through the well of a stone ramp.",
     "High above, the vaulted ceiling is a domed expanse of brilliant blue, a mosaic of millions upon millions of pieces of tiny glaes squares.  The tilework continues down the walls, stopping halfway to meet smoothed silvered stonework.  An immense ogee arch is flanked by two smaller doors.  Daylight streams through the well of a stone staircase."
   ],
-  "image": "en-ta_illistim-new.jpg",
-  "climate": "indoors",
-  "title": [
-    "[Ta'Illistim Keep, Cobalt Salon]"
+  "paths": [
+    "Obvious exits: none"
   ],
-  "check_location": null,
+  "location": "Ta'Illistim",
+  "wayto": {
+    "16961": "climb staircase",
+    "18138": "go ogee arch",
+    "26830": "go peacock door"
+  },
   "timeto": {
     "16961": 0.2,
     "18138": 0.2,
     "26830": 0.2
   },
-  "id": 17841,
-  "location": "Ta'Illistim",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-ta_illistim-new.jpg",
+  "image_coords": [
+    544,
+    1050,
+    565,
+    1073
   ]
 }

@@ -1,35 +1,34 @@
 {
+  "id": 11349,
+  "title": [
+    "[Citadel, Walkway]"
+  ],
+  "description": [
+    "Miniature flaming violets grow from the arch overhead.  Oddly, the flames don't seem to consume the violets or the arch itself.  The air, however, is very hot and the myriad charred avian bones show what happened to the few birds who got too close to the burning violets."
+  ],
+  "paths": [
+    "Obvious paths: southwest, northwest"
+  ],
+  "location": "the Citadel",
+  "climate": "humid",
+  "terrain": "cultivated",
   "wayto": {
     "11403": "climb rubble",
     "11348": "northwest",
     "11350": "southwest"
   },
-  "paths": [
-    "Obvious paths: southwest, northwest"
-  ],
+  "timeto": {
+    "11403": 0.2,
+    "11348": 0.2,
+    "11350": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     628,
     1444,
     638,
     1454
   ],
-  "terrain": "cultivated",
-  "description": [
-    "Miniature flaming violets grow from the arch overhead.  Oddly, the flames don't seem to consume the violets or the arch itself.  The air, however, is very hot and the myriad charred avian bones show what happened to the few birds who got too close to the burning violets."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "humid",
-  "title": [
-    "[Citadel, Walkway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11403": 0.2,
-    "11348": 0.2,
-    "11350": 0.2
-  },
-  "id": 11349,
-  "location": "the Citadel",
   "tags": [
     "some pothinir grass",
     "yew twig",
@@ -62,12 +61,6 @@
     "pink passionflower",
     "white passionflower",
     "yellow passionflower",
-    "blue passionflower",
-    "spider lily",
-    "onion skin",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "blue passionflower"
   ]
 }

@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "8343": "go door"
-  },
+  "id": 8344,
+  "title": [
+    "[Spider Temple, Cell]"
+  ],
+  "description": [
+    "Black whispery velvet drapes each of the walls of this tiny cell.  A wall hook extends angrily at the back, while a small cot with a single covering huddles in the corner.  All personal identity once belonging to the acolyte who dwells here is lost amidst this sea of pious black."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "the Spider Temple",
+  "wayto": {
+    "8343": "go door"
+  },
+  "timeto": {
+    "8343": 0.2
+  },
+  "image": "wl-spider_temple-1264234799.png",
   "image_coords": [
     407,
     746,
     417,
     756
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Black whispery velvet drapes each of the walls of this tiny cell.  A wall hook extends angrily at the back, while a small cot with a single covering huddles in the corner.  All personal identity once belonging to the acolyte who dwells here is lost amidst this sea of pious black."
-  ],
-  "image": "wl-spider_temple-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Spider Temple, Cell]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8343": 0.2
-  },
-  "id": 8344,
-  "location": "the Spider Temple",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

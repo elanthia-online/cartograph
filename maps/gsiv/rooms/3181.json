@@ -1,33 +1,30 @@
 {
+  "id": 3181,
+  "title": [
+    "[Icemule Cemetery, Entrance]"
+  ],
+  "description": [
+    "Tall, thick spruce trees nearly obscure the entrance to an old cemetery.  Between two of the sharply-scented trees, you glimpse white fields and a dull grey building."
+  ],
+  "paths": [
+    "Obvious paths: northwest"
+  ],
+  "location": "the southern snowfields",
   "wayto": {
     "3180": "northwest",
     "3182": "go cemetery"
   },
-  "paths": [
-    "Obvious paths: northwest"
-  ],
+  "timeto": {
+    "3180": 0.2,
+    "3182": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     851,
     1081,
     863,
     1093
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "Tall, thick spruce trees nearly obscure the entrance to an old cemetery.  Between two of the sharply-scented trees, you glimpse white fields and a dull grey building."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Icemule Cemetery, Entrance]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3180": 0.2,
-    "3182": 0.2
-  },
-  "id": 3181,
-  "location": "the southern snowfields",
   "tags": [
     "some wolifrew lichen",
     "some acantha leaf",
@@ -60,36 +57,6 @@
     "skeleton",
     "dark apparition",
     "some tree bark",
-    "pale thornberry",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "sticks",
-    "sassafras leaf",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "winter rose",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "handful of pinenuts",
-    "pine needles",
-    "bright red cranberry",
-    "snowberries",
-    "red winterberry",
-    "tree bark",
-    "frostflower",
-    "crowberry",
-    "lingonberry",
-    "orange rowanberry",
-    "ironfern root",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "pale thornberry"
   ]
 }

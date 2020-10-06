@@ -1,40 +1,31 @@
 {
+  "id": 9148,
+  "title": [
+    "[Thurfel's Island]"
+  ],
+  "description": [
+    "Odd tremors at your feet reveal the fearsome power of the lake.  Large waves crash onto the beach with a thunderous roar, each new wave exploding in a spray of white surf as it pounds into the trembling sand.  The water lingers for but a moment before the water recalls its violent probe."
+  ],
+  "paths": [
+    "Obvious exits: northeast, west"
+  ],
+  "location": "Thurfel's Island",
   "wayto": {
     "9140": "west",
     "9144": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, west"
-  ],
+  "timeto": {
+    "9140": 0.2,
+    "9144": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     412,
     963,
     422,
     973
   ],
-  "terrain": "indoors",
-  "description": [
-    "Odd tremors at your feet reveal the fearsome power of the lake.  Large waves crash onto the beach with a thunderous roar, each new wave exploding in a spray of white surf as it pounds into the trembling sand.  The water lingers for but a moment before the water recalls its violent probe."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thurfel's Island]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9140": 0.2,
-    "9144": 0.2
-  },
-  "id": 9148,
-  "location": "Thurfel's Island",
   "tags": [
-    "some bur-clover root",
-    "murdroot",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some bur-clover root"
   ]
 }

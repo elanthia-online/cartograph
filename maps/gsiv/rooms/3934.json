@@ -1,52 +1,38 @@
 {
+  "id": 3934,
+  "title": [
+    "[Catacombs, East-West Tunnel]"
+  ],
+  "description": [
+    "A clammy chill descends upon your skin as you take a moment to survey the enveloping gloom.  A tunnel carved through glistening black rock stretches as far as the dim light allows you to see, to the east and west.  Hundreds of cramped, oblong tombs open out of the walls wherever space permits.  Most have remained sealed but others have collapsed or been pillaged over time.  A thin rivulet of water runs east down the center of the floor."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "7506": "west",
     "3933": "go opening",
     "3935": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "7506": 0.2,
+    "3933": 0.2,
+    "3935": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     901,
     1101,
     911,
     1111
   ],
-  "terrain": "indoors",
-  "description": [
-    "A clammy chill descends upon your skin as you take a moment to survey the enveloping gloom.  A tunnel carved through glistening black rock stretches as far as the dim light allows you to see, to the east and west.  Hundreds of cramped, oblong tombs open out of the walls wherever space permits.  Most have remained sealed but others have collapsed or been pillaged over time.  A thin rivulet of water runs east down the center of the floor."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Catacombs, East-West Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7506": 0.2,
-    "3933": 0.2,
-    "3935": 0.2
-  },
-  "id": 3934,
-  "location": "the catacombs",
   "tags": [
     "some cave moss",
     "some wingstem root",
     "black hook mushroom",
     "blue trafel mushroom",
     "some bolmara lichen",
-    "soft white mushroom",
-    "red trafel mushroom",
-    "withered black mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "soft white mushroom"
   ]
 }

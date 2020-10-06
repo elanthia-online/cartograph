@@ -1,39 +1,32 @@
 {
-  "wayto": {
-    "25764": {
-      "stringproc": "b3903ef3130903d58c1b8b478bec601b"
-    },
-    "25766": {
-      "stringproc": "7c97847f49fd5aa0407dedb0e3609199"
-    }
-  },
+  "id": 25765,
+  "title": [
+    "[Eastern Waterway]"
+  ],
+  "description": [
+    "Jutting out from the main body of the island, the peninsula is surrounded by round rocks worn smooth by the constant attention of the tide.  Fierce and demanding, the surf hammers the thin arm of land, and in some cases, rushes over it to the other side."
+  ],
   "paths": [
     "Obvious paths: northeast, southeast"
   ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "25764": {
+      "file": "string_procs/wayto/25765_25764.rb"
+    },
+    "25766": {
+      "file": "string_procs/wayto/25765_25766.rb"
+    }
+  },
+  "timeto": {
+    "25764": 6.0,
+    "25766": 6.0
+  },
+  "image": "ifw-eastern_waterway-1489553700.png",
   "image_coords": [
     1680,
     1200,
     1701,
     1219
-  ],
-  "terrain": null,
-  "description": [
-    "Jutting out from the main body of the island, the peninsula is surrounded by round rocks worn smooth by the constant attention of the tide.  Fierce and demanding, the surf hammers the thin arm of land, and in some cases, rushes over it to the other side."
-  ],
-  "image": "ifw-eastern_waterway-1489553700.png",
-  "climate": null,
-  "title": [
-    "[Eastern Waterway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "25764": 6.0,
-    "25766": 6.0
-  },
-  "id": 25765,
-  "location": "Mist Harbor",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

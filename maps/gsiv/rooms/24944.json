@@ -1,56 +1,28 @@
 {
+  "id": 24944,
+  "title": [
+    "[Iyo Village, Circle]"
+  ],
+  "description": [
+    "Cleared of immediately surrounding growth, the muddy floor is still rife with new growth, where small spurts of green push up into the world.  Several huts are visible from the path, and the large number of footprints over the path here suggests that, despite the eerie quiet here, it is well-traversed.  To one side of the path, a wooden bowl lays empty, save for several fruit pits sitting at its bottom."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest"
+  ],
+  "location": "the Shimmering Mists",
   "wayto": {
     "24898": "southwest",
     "24943": "southeast"
   },
-  "paths": [
-    "Obvious paths: southeast, southwest"
-  ],
+  "timeto": {
+    "24898": 0.2,
+    "24943": 0.2
+  },
+  "image": "ifw-iyo_village.png",
   "image_coords": [
     733,
     12,
     755,
     35
-  ],
-  "terrain": "tropical",
-  "description": [
-    "Cleared of immediately surrounding growth, the muddy floor is still rife with new growth, where small spurts of green push up into the world.  Several huts are visible from the path, and the large number of footprints over the path here suggests that, despite the eerie quiet here, it is well-traversed.  To one side of the path, a wooden bowl lays empty, save for several fruit pits sitting at its bottom."
-  ],
-  "image": "ifw-iyo_village.png",
-  "climate": "humid",
-  "title": [
-    "[Iyo Village, Circle]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24898": 0.2,
-    "24943": 0.2
-  },
-  "id": 24944,
-  "location": "the Shimmering Mists",
-  "tags": [
-    "acantha leaf",
-    "yellow heliconia",
-    "orange heliconia",
-    "pink heliconia",
-    "red heliconia",
-    "purple passionflower",
-    "pink passionflower",
-    "red passionflower",
-    "white passionflower",
-    "yellow passionflower",
-    "blue passionflower",
-    "luckbloom blossom",
-    "murdroot",
-    "wavepetal blossom",
-    "nightbloom blossom",
-    "twisted twig",
-    "slender twig",
-    "ebony twig",
-    "talneo root",
-    "brostheras grass",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+  ]
 }

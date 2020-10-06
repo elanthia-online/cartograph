@@ -1,35 +1,32 @@
 {
+  "id": 478,
+  "title": [
+    "[Coastal Cliffs]"
+  ],
+  "description": [
+    "A brisk wind from the Bay lashes against your skin as you move along the coastal cliffs overlooking the deep blue of the Darkstone to the north.  Scraggly tree roots dangle from the rock face and provide a crude shelter for nesting fenvaoks."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "479": "west",
     "526": "go gate",
     "418": "go road"
   },
-  "paths": [
-    "Obvious paths: west"
-  ],
+  "timeto": {
+    "479": 0.2,
+    "526": 0.2,
+    "418": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     655,
     848,
     665,
     858
   ],
-  "terrain": "hilly",
-  "description": [
-    "A brisk wind from the Bay lashes against your skin as you move along the coastal cliffs overlooking the deep blue of the Darkstone to the north.  Scraggly tree roots dangle from the rock face and provide a crude shelter for nesting fenvaoks."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Coastal Cliffs]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "479": 0.2,
-    "526": 0.2,
-    "418": 0.2
-  },
-  "id": 478,
-  "location": "the Coastal Cliffs",
   "tags": [
     "tkaro root",
     "wild pink geranium",
@@ -60,22 +57,6 @@
     "stalk of bluebells",
     "meta:mapname:Wehnimer's Landing - Coastal Cliffs",
     "meta:mapshortname:Coastal Cliffs",
-    "meta:mapcategory:Wehnimer's Landing",
-    "sticks",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "tree bark",
-    "oak twig",
-    "ironfern root",
-    "sunburst blossom",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:mapcategory:Wehnimer's Landing"
   ]
 }

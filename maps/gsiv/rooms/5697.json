@@ -1,39 +1,31 @@
 {
+  "id": 5697,
+  "title": [
+    "[Deep Woods, Ruined Temple]"
+  ],
+  "description": [
+    "Shredded scrolls have been scattered about like a heavy snowfall, piling against the walls in drifts and fluttering in the breeze that comes in from the east.  The walls themselves waver in the wind, pressed and pulled by the trees outside.  While interesting to look at, the instability hardly inspires confidence in the remaining lifespan of the architecture."
+  ],
+  "paths": [
+    "Obvious exits: east, northwest"
+  ],
+  "location": "the deep woods",
   "wayto": {
     "5698": "east",
     "5310": "northwest"
   },
-  "paths": [
-    "Obvious exits: east, northwest"
-  ],
+  "timeto": {
+    "5698": 0.2,
+    "5310": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     1260,
     303,
     1270,
     313
   ],
-  "terrain": "indoors",
-  "description": [
-    "Shredded scrolls have been scattered about like a heavy snowfall, piling against the walls in drifts and fluttering in the breeze that comes in from the east.  The walls themselves waver in the wind, pressed and pulled by the trees outside.  While interesting to look at, the instability hardly inspires confidence in the remaining lifespan of the architecture."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Deep Woods, Ruined Temple]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5698": 0.2,
-    "5310": 0.2
-  },
-  "id": 5697,
-  "location": "the deep woods",
   "tags": [
-    "vesperti",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "vesperti"
   ]
 }

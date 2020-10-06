@@ -1,4 +1,16 @@
 {
+  "id": 20594,
+  "title": [
+    "[Wehnimer's, Burrow Way]"
+  ],
+  "description": [
+    "A cavern nexus extends out, with many different tunnels leading in every which direction.  The ground is worn and flat, firmly matted beneath frequent travel."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, southwest, west, northwest",
+    "Obvious exits: northeast, southeast, southwest, northwest"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "20598": "northwest",
     "20620": "northeast",
@@ -6,26 +18,6 @@
     "7497": "search\ngo fissure",
     "20593": "southwest"
   },
-  "paths": [
-    "Obvious exits: northeast, southeast, southwest, west, northwest",
-    "Obvious exits: northeast, southeast, southwest, northwest"
-  ],
-  "image_coords": [
-    653,
-    244,
-    678,
-    270
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A cavern nexus extends out, with many different tunnels leading in every which direction.  The ground is worn and flat, firmly matted beneath frequent travel."
-  ],
-  "image": "wl-burrow_way-1360361110.png",
-  "climate": "indoors",
-  "title": [
-    "[Wehnimer's, Burrow Way]"
-  ],
-  "check_location": false,
   "timeto": {
     "20598": 0.2,
     "20620": 0.2,
@@ -33,25 +25,12 @@
     "7497": 0.2,
     "20593": 0.2
   },
-  "id": 20594,
-  "location": "the town of Wehnimer's Landing",
-  "tags": [
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
+  "image": "wl-burrow_way-1360361110.png",
+  "image_coords": [
+    653,
+    244,
+    678,
+    270
   ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  "check_location": false
 }

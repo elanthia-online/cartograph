@@ -1,37 +1,31 @@
 {
-  "wayto": {
-    "2980": "north"
-  },
-  "paths": [
-    "Obvious exits: north"
-  ],
-  "image_coords": [
-    836,
-    537,
-    846,
-    547
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A freshly built barrier of white brick bars any further passage down the tunnel.  A tall, slender vase has been placed on a thin marble shelf, a ring of dried roses draped around its neck.  Scattered at the base of the relatively new masonry is a layer of fine white dust."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "indoors",
+  "id": 2981,
   "title": [
     "[Abbey, Ossuary]"
   ],
-  "check_location": null,
-  "timeto": {
-    "2980": 0.2
-  },
-  "id": 2981,
-  "location": "the Abbey",
-  "tags": [
-    "arch wight",
-    "no forageables",
-    "meta:forage-sensed"
+  "description": [
+    "A small path of pale rock chunks and powdered plaster leads up to a breached white brick wall at the ossuary's far end.  The wall looks to have exploded outward, as if blown apart from the other side.  Oddly undisturbed, a thin marble shelf to the left of the opening holds a tall slender vase, which is adorned with a dried garland of wild roses around its slender neck.  A flickering torch has been driven into the ground below it, though its light seems uncertain and barely throws back the darkness beyond the breach."
   ],
-  "links": [
-
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Abbey",
+  "wayto": {
+    "2980": "north",
+    "28811": "go white wall"
+  },
+  "timeto": {
+    "2980": 0.2,
+    "28811": 0.2
+  },
+  "image": "imt-Abbey Map-51200831.png",
+  "image_coords": [
+    3008,
+    1284,
+    3114,
+    1390
+  ],
+  "tags": [
+    "arch wight"
   ]
 }

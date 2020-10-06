@@ -1,35 +1,28 @@
 {
+  "id": 26258,
+  "title": [
+    "[Banshee Tower, Second Floor]"
+  ],
+  "description": [
+    "Ethereal images swirl about the room, fading in and out of existence as the undead replay their dying moments.  A chill lingers in the area, as beads of water drip down the crystal walls."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Talador",
   "wayto": {
     "26257": "go mist",
     "26259": "east"
   },
-  "paths": [
-    "Obvious exits: east"
-  ],
+  "timeto": {
+    "26257": 0.2,
+    "26259": 0.2
+  },
+  "image": "wl-lichs_landing-1500800742.png",
   "image_coords": [
     126,
     524,
     152,
     550
-  ],
-  "terrain": null,
-  "description": [
-    "Ethereal images swirl about the room, fading in and out of existence as the undead replay their dying moments.  A chill lingers in the area, as beads of water drip down the crystal walls."
-  ],
-  "image": "wl-lichs_landing-1500800742.png",
-  "climate": null,
-  "title": [
-    "[Banshee Tower, Second Floor]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26257": 0.2,
-    "26259": 0.2
-  },
-  "id": 26258,
-  "location": "Talador",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

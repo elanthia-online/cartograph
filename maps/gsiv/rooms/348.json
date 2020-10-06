@@ -1,68 +1,35 @@
 {
+  "id": 348,
+  "title": [
+    "[East Row, Pine Point]"
+  ],
+  "description": [
+    "The lazy sound of a distant bay echos against the backdrop of the simple plank shops lining the southern side of the road."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "347": "west",
     "15218": "go edifice",
     "15219": "go shop",
     "24867": "go boutique"
   },
-  "paths": [
-    "Obvious paths: west"
-  ],
-  "image_coords": [
-    1450,
-    39,
-    1460,
-    49
-  ],
-  "terrain": "plain dirt",
-  "description": [
-    "The lazy sound of a distant bay echos against the backdrop of the simple plank shops lining the southern side of the road."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[East Row, Pine Point]"
-  ],
-  "check_location": null,
   "timeto": {
     "347": 0.2,
     "15218": 0.2,
     "15219": 0.2,
     "24867": 0.2
   },
-  "id": 348,
-  "location": "Wehnimer's Landing",
-  "tags": [
-    "some acantha leaf",
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "small flower",
-    "small rose",
-    "small daisy",
-    "angelica root",
-    "withered black mushroom",
-    "stalk of chicory",
-    "sprig of alyssum",
-    "heath aster",
-    "stalk of goldenrod",
-    "yellow primrose",
-    "small wild rose",
-    "wild carrot",
-    "ginger root",
-    "wild chokecherry",
-    "motherwort",
-    "murkweed",
-    "blue whortleberry",
-    "white baneberry",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
+  "image": "wl-wehnimers-1264234799.png",
+  "image_coords": [
+    1450,
+    39,
+    1460,
+    49
   ],
-  "links": [
-
+  "tags": [
+    "some acantha leaf"
   ]
 }

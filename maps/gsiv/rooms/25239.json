@@ -1,39 +1,32 @@
 {
+  "id": 25239,
+  "title": [
+    "[Sanctum Tower, First Floor]"
+  ],
+  "description": [
+    "Drastically unfurling from the narrow halls, the arc-shaped room expands into a sizeable foyer.  Iron-caged lanterns, each alight with a sickly green radiance, are hung strategically in the outer most corners of the area.  A pair of wall-mounted alabaster serpent heads with glinting bronzed fangs leap out from either side of a polished acacia archway."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest, up"
+  ],
+  "location": "the shadow of the Sanctum",
   "wayto": {
     "25240": "go acacia archway",
     "25238": "southeast",
     "25243": "southwest",
     "25244": "up"
   },
-  "paths": [
-    "Obvious exits: southeast, southwest, up"
-  ],
-  "image_coords": [
-    165,
-    151,
-    181,
-    166
-  ],
-  "terrain": null,
-  "description": [
-    "Drastically unfurling from the narrow halls, the arc-shaped room expands into a sizeable foyer.  Iron-caged lanterns, each alight with a sickly green radiance, are hung strategically in the outer most corners of the area.  A pair of wall-mounted alabaster serpent heads with glinting bronzed fangs leap out from either side of a polished acacia archway."
-  ],
-  "image": "sanctum-1474169333.png",
-  "climate": null,
-  "title": [
-    "[Sanctum Tower, First Floor]"
-  ],
-  "check_location": null,
   "timeto": {
     "25240": 0.2,
     "25238": 0.2,
     "25243": 0.2,
     "25244": 0.2
   },
-  "id": 25239,
-  "location": "the shadow of the Sanctum",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  "image": "sanctum-1474169333.png",
+  "image_coords": [
+    165,
+    151,
+    181,
+    166
+  ]
 }

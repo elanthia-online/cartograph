@@ -1,40 +1,32 @@
 {
-  "wayto": {
-    "7448": {
-      "stringproc": "20bd86befba92047041b874e1739aeb9"
-    },
-    "17327": {
-      "stringproc": "a38d807719728a1c1440a08cf22304a4"
-    },
-    "7444": {
-      "stringproc": "3ef87e7eac63e97210b4aedf89dfae9b"
-    },
-    "23266": {
-      "stringproc": "a234c4dfb9348f43358e56adea9291ed"
-    },
-    "7456": {
-      "stringproc": "3014f0f1ddce50edda95b441e1eaf20a"
-    }
-  },
-  "paths": [
-    "Obvious paths: southeast, south, southwest, west, northwest"
-  ],
-  "image_coords": [
-    730,
-    843,
-    740,
-    853
-  ],
-  "terrain": null,
-  "description": [
-    "The dense tangle of wildly growing crystals to the east presents a formidable barrier.  While travel through the rocks and boulders of the jagged plains is difficult, trying to make your way through the sharp outcroppings of the crystal forest would be deadly."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": null,
+  "id": 7445,
   "title": [
     "[The Broken Lands, Jagged Plain]"
   ],
-  "check_location": null,
+  "description": [
+    "The dense tangle of wildly growing crystals to the east presents a formidable barrier.  While travel through the rocks and boulders of the jagged plains is difficult, trying to make your way through the sharp outcroppings of the crystal forest would be deadly."
+  ],
+  "paths": [
+    "Obvious paths: southeast, south, southwest, west, northwest"
+  ],
+  "location": "the Broken Lands",
+  "wayto": {
+    "7448": {
+      "file": "string_procs/wayto/7445_7448.rb"
+    },
+    "17327": {
+      "file": "string_procs/wayto/7445_17327.rb"
+    },
+    "7444": {
+      "file": "string_procs/wayto/7445_7444.rb"
+    },
+    "23266": {
+      "file": "string_procs/wayto/7445_23266.rb"
+    },
+    "7456": {
+      "file": "string_procs/wayto/7445_7456.rb"
+    }
+  },
   "timeto": {
     "7448": 3.2,
     "17327": 3.2,
@@ -42,18 +34,17 @@
     "23266": 3.2,
     "7456": 3.2
   },
-  "id": 7445,
-  "location": "the Broken Lands",
+  "image": "wl-broken-1264234799.png",
+  "image_coords": [
+    730,
+    843,
+    740,
+    853
+  ],
   "tags": [
     "large black toadstool",
     "some blackened moss",
     "hooded figure",
-    "giant fog beetle",
-    "blackened moss",
-    "black toadstool",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "giant fog beetle"
   ]
 }

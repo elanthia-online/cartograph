@@ -1,45 +1,34 @@
 {
+  "id": 7571,
+  "title": [
+    "[Dark Cavern, Tunnels]"
+  ],
+  "description": [
+    "The skeleton of an unfortunate gnome lies half-imbedded in the dirt, its bones glowing eerily with lichen that has migrated from the walls.  The air is heavy and stale, and something skitters across the dirt floor but is gone before you can see what it was."
+  ],
+  "paths": [
+    "Obvious exits: east, northwest"
+  ],
+  "location": "the dark caverns",
   "wayto": {
     "7570": "east",
     "7572": "northwest"
   },
-  "paths": [
-    "Obvious exits: east, northwest"
-  ],
+  "timeto": {
+    "7570": 0.2,
+    "7572": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     144,
     1315,
     154,
     1325
   ],
-  "terrain": "indoors",
-  "description": [
-    "The skeleton of an unfortunate gnome lies half-imbedded in the dirt, its bones glowing eerily with lichen that has migrated from the walls.  The air is heavy and stale, and something skitters across the dirt floor but is gone before you can see what it was."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dark Cavern, Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7570": 0.2,
-    "7572": 0.2
-  },
-  "id": 7571,
-  "location": "the dark caverns",
   "tags": [
     "withered black mushroom",
     "some wingstem root",
     "some cave moss",
-    "some bur-clover root",
-    "cave moss",
-    "murdroot",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some bur-clover root"
   ]
 }

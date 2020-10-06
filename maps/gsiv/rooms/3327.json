@@ -1,39 +1,28 @@
 {
+  "id": 3327,
+  "title": [
+    "[Icemule, Ruins]"
+  ],
+  "description": [
+    "The ice glimmers and scintillates, refracting the light from gems and gold trapped within.  What was a gemcutter's shop has been destroyed by the movement of the glacier, its wares scattered and entombed by the ice.  Chip marks in the ice indicate that someone has attempted to salvage the jewels, but was largely unsuccessful."
+  ],
+  "paths": [
+    "Obvious exits: north, southwest"
+  ],
+  "location": "the Glacier",
   "wayto": {
     "3326": "north",
     "3328": "southwest"
   },
-  "paths": [
-    "Obvious exits: north, southwest"
-  ],
+  "timeto": {
+    "3326": 0.2,
+    "3328": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     1416,
     943,
     1426,
     953
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The ice glimmers and scintillates, refracting the light from gems and gold trapped within.  What was a gemcutter's shop has been destroyed by the movement of the glacier, its wares scattered and entombed by the ice.  Chip marks in the ice indicate that someone has attempted to salvage the jewels, but was largely unsuccessful."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Icemule, Ruins]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3326": 0.2,
-    "3328": 0.2
-  },
-  "id": 3327,
-  "location": "the Glacier",
-  "tags": [
-    "arctic moss",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

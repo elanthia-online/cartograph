@@ -1,4 +1,15 @@
 {
+  "id": 1017,
+  "title": [
+    "[Khazar's Hold, Central]"
+  ],
+  "description": [
+    "A dwarven outpost is located on this shelf carved into the rock mountain face.  Ragged tents line the edges of the outpost along the cliff and rock face.  A ramshackle tavern that sits just to the north has a faded wooden sign hanging unsteadily above its door.  The wind whips around the sides of the mountain, kicking up dirt and adding quite a chill to the air.  Diverse groups of travelers wander past, most likely just passing through on their way to another town."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, northwest"
+  ],
+  "location": "between Wehnimer's Landing and Zul Logoth",
   "wayto": {
     "9616": "southeast",
     "1016": "northeast",
@@ -6,25 +17,6 @@
     "9612": "go tavern",
     "1018": "climb cliff"
   },
-  "paths": [
-    "Obvious paths: northeast, southeast, northwest"
-  ],
-  "image_coords": [
-    82,
-    462,
-    92,
-    472
-  ],
-  "terrain": "mountainous",
-  "description": [
-    "A dwarven outpost is located on this shelf carved into the rock mountain face.  Ragged tents line the edges of the outpost along the cliff and rock face.  A ramshackle tavern that sits just to the north has a faded wooden sign hanging unsteadily above its door.  The wind whips around the sides of the mountain, kicking up dirt and adding quite a chill to the air.  Diverse groups of travelers wander past, most likely just passing through on their way to another town."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Khazar's Hold, Central]"
-  ],
-  "check_location": null,
   "timeto": {
     "9616": 0.2,
     "1016": 0.2,
@@ -32,27 +24,11 @@
     "9612": 0.2,
     "1018": 0.2
   },
-  "id": 1017,
-  "location": "Khazar's Hold",
-  "tags": [
-    "marallis berry",
-    "cuctucae berry",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "sprig of larkspur",
-    "ayana leaf",
-    "ironfern root",
-    "sunburst blossom",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-zul_logoth-1264234799.png",
+  "image_coords": [
+    82,
+    462,
+    92,
+    472
   ]
 }

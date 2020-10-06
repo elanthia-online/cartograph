@@ -1,49 +1,34 @@
 {
-  "wayto": {
-    "12151": {
-      "stringproc": "c01b87e914b9cdeee3471070ec5e96d5"
-    },
-    "12232": "up",
-    "12236": "southeast"
-  },
-  "paths": [
-    "Obvious exits: southeast, up",
-    "Obvious paths: southeast, up"
+  "id": 12235,
+  "title": [
+    "[The Rift, Scatter]"
   ],
-  "image_coords": [
-    404,
-    154,
-    428,
-    178
-  ],
-  "terrain": null,
   "description": [
     "Thick, perfectly clear glass forms the ceiling, walls, and floor of this small room.  Beyond the transparent enclosure is a sea of water that has been completely frozen.  A school of colorful fish has been immobilized in the midst of fleeing from an equally still scaly predator.  Even bubbles of air that had risen from the murky depths have been captured in the ice.",
     "Thick, perfectly clear glass forms the ceiling, walls, and floor of this small room.  Beyond the transparent enclosure is a sea of water that boils violently from an unknown source of heat.  The lifeless bodies of fish swirl chaotically throughout the briny deep."
   ],
-  "image": "imt-scatter-1264234799.png",
-  "climate": null,
-  "title": [
-    "[The Rift, Scatter]"
+  "paths": [
+    "Obvious exits: southeast, up",
+    "Obvious paths: southeast, up"
   ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12151": {
+      "file": "string_procs/wayto/12235_12151.rb"
+    },
+    "12232": "up",
+    "12236": "southeast"
+  },
   "timeto": {
     "12151": 11.4,
     "12232": 0.2,
     "12236": 0.2
   },
-  "id": 12235,
-  "location": "the Rift",
-  "tags": [
-    "mass of congealed slime",
-    "oozing fleshsore bulb",
-    "withered deathblossom",
-    "rotting bile green fleshbulb",
-    "slime-covered grave blossom",
-    "discolored fleshbinder bud",
-    "twisted black mawflower"
-  ],
-  "links": [
-
+  "image": "imt-scatter-1264234799.png",
+  "image_coords": [
+    404,
+    154,
+    428,
+    178
   ]
 }

@@ -1,33 +1,30 @@
 {
+  "id": 1300,
+  "title": [
+    "[Zeltoph's Base]"
+  ],
+  "description": [
+    "To the east the trail parallels the mountain's base, keeping the slope more gradual and less wearing for travelers, two- and four-legged alike.  To the north it heads directly downslope among the pines."
+  ],
+  "paths": [
+    "Obvious paths: north, east"
+  ],
+  "location": "the foothills of Zeltoph",
   "wayto": {
     "1299": "north",
     "1301": "east"
   },
-  "paths": [
-    "Obvious paths: north, east"
-  ],
+  "timeto": {
+    "1299": 0.2,
+    "1301": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     337,
     259,
     347,
     269
   ],
-  "terrain": "rough",
-  "description": [
-    "To the east the trail parallels the mountain's base, keeping the slope more gradual and less wearing for travelers, two- and four-legged alike.  To the north it heads directly downslope among the pines."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Zeltoph's Base]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1299": 0.2,
-    "1301": 0.2
-  },
-  "id": 1300,
-  "location": "the foothills of Zeltoph",
   "tags": [
     "wild strawberry",
     "white clover blossom",
@@ -59,10 +56,6 @@
     "motherwort",
     "white baneberry",
     "pepperthorn root",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

@@ -1,42 +1,35 @@
 {
+  "id": 908,
+  "title": [
+    "[Whistler's Pass, Tunnel]"
+  ],
+  "description": [
+    "A trio of tiny black beetles, their shiny carapaces glistening in the dim light, flee down the tunnel, their scurrying forms quickly becoming lost amid the heavy shadows.  The loud hum of flowing water permeates the passage, sending vibrations through the stone walls and floor."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "907": "northeast",
     "909": "southwest"
   },
-  "paths": [
-    "Obvious exits: northeast, southwest"
-  ],
+  "timeto": {
+    "907": 0.2,
+    "909": 0.2
+  },
+  "image": "en-whistlers_pass-1264234799.png",
   "image_coords": [
     386,
     326,
     396,
     336
   ],
-  "terrain": "indoors",
-  "description": [
-    "A trio of tiny black beetles, their shiny carapaces glistening in the dim light, flee down the tunnel, their scurrying forms quickly becoming lost amid the heavy shadows.  The loud hum of flowing water permeates the passage, sending vibrations through the stone walls and floor."
-  ],
-  "image": "en-whistlers_pass-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Whistler's Pass, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "907": 0.2,
-    "909": 0.2
-  },
-  "id": 908,
-  "location": "Whistler's Pass",
   "tags": [
     "white hook mushroom",
     "cave moss",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

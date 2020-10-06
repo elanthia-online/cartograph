@@ -1,50 +1,34 @@
 {
+  "id": 17654,
+  "title": [
+    "[Smuggler's Tunnels, Tunnel]"
+  ],
+  "description": [
+    "The light of a single torch illuminates the small chamber, in contrast to a larger room visible through a tunnel entrance to the north, with a visible shaft of light extending down from its ceiling.  Two passageways break off from the chamber, one continuing south and a larger one to the east."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
   "wayto": {
     "17653": "go entrance",
     "17677": "south",
     "17681": "east"
   },
-  "paths": [
-    "Obvious exits: east, south"
-  ],
+  "timeto": {
+    "17653": 0.2,
+    "17677": 0.2,
+    "17681": 0.2
+  },
+  "image": "rr-warrens-1266380776.png",
   "image_coords": [
     562,
     1025,
     600,
     1063
   ],
-  "terrain": "indoors",
-  "description": [
-    "The light of a single torch illuminates the small chamber, in contrast to a larger room visible through a tunnel entrance to the north, with a visible shaft of light extending down from its ceiling.  Two passageways break off from the chamber, one continuing south and a larger one to the east."
-  ],
-  "image": "rr-warrens-1266380776.png",
-  "climate": "indoors",
-  "title": [
-    "[Smuggler's Tunnels, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "17653": 0.2,
-    "17677": 0.2,
-    "17681": 0.2
-  },
-  "id": 17654,
-  "location": "River's Rest",
   "tags": [
     "withered black mushroom",
     "genkew mushroom",
-    "black hook mushroom",
-    "soft white mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "black hook mushroom"
   ]
 }

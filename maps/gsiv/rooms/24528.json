@@ -1,45 +1,28 @@
 {
+  "id": 24528,
+  "title": [
+    "[Frozen Bramble Patch]"
+  ],
+  "description": [
+    "The hedge seems a bit less dense here, but the thorns no less sharp.  It might be possible to pass through with extreme caution, but the decaying rodent within the brush seems to silently refute that."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast"
+  ],
+  "location": "the Abandoned Farm",
   "wayto": {
     "24529": "southeast",
     "24527": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, southeast"
-  ],
+  "timeto": {
+    "24529": 0.2,
+    "24527": 0.2
+  },
+  "image": "imt-bramble_patch-1307499864.png",
   "image_coords": [
     168,
     191,
     180,
     204
-  ],
-  "terrain": "barren scrub",
-  "description": [
-    "The hedge seems a bit less dense here, but the thorns no less sharp.  It might be possible to pass through with extreme caution, but the decaying rodent within the brush seems to silently refute that."
-  ],
-  "image": "imt-bramble_patch-1307499864.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Frozen Bramble Patch]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24529": 0.2,
-    "24527": 0.2
-  },
-  "id": 24528,
-  "location": "the Abandoned Farm",
-  "tags": [
-    "snow lily",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "arctic moss",
-    "broken twig",
-    "rockberry",
-    "crowberry",
-    "lingonberry",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+  ]
 }

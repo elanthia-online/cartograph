@@ -1,38 +1,28 @@
 {
+  "id": 8246,
+  "title": [
+    "[Wolves' Den, Officers' Barracks]"
+  ],
+  "description": [
+    "The stone blocks of the northern wall are cracked, the silent work of water and the eons.  The cots that lined the walls are little but dust, and fungi grow among their outlines.  An open doorway along the western wall leads back into the main barracks.  Just south of it is a wooden door, rotten but still intact."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the Wolves' Den",
   "wayto": {
     "8245": "west",
     "8247": "go wooden door"
   },
-  "paths": [
-    "Obvious exits: west"
-  ],
+  "timeto": {
+    "8245": 0.2,
+    "8247": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     247,
     257,
     257,
     267
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The stone blocks of the northern wall are cracked, the silent work of water and the eons.  The cots that lined the walls are little but dust, and fungi grow among their outlines.  An open doorway along the western wall leads back into the main barracks.  Just south of it is a wooden door, rotten but still intact."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Wolves' Den, Officers' Barracks]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8245": 0.2,
-    "8247": 0.2
-  },
-  "id": 8246,
-  "location": "the Wolves' Den",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

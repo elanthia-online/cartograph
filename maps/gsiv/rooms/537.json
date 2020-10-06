@@ -1,34 +1,31 @@
 {
+  "id": 537,
+  "title": [
+    "[Whistler's Pass, Brambles]"
+  ],
+  "description": [
+    "Thorny vines sweep across the walls of the pass, creating a menacing tunnel for travellers in the dark night.  Patches of cloth litter the edges of the brambles, remnants of the clothing worn by careless adventurers.",
+    "Thorny vines sweep across the walls of the pass, creating a menacing tunnel for travellers.  Patches of cloth litter the edges of the brambles, remnants of the clothing worn by careless adventurers."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "536": "north",
     "538": "south"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "536": 0.2,
+    "538": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     783,
     523,
     793,
     533
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "Thorny vines sweep across the walls of the pass, creating a menacing tunnel for travellers in the dark night.  Patches of cloth litter the edges of the brambles, remnants of the clothing worn by careless adventurers.",
-    "Thorny vines sweep across the walls of the pass, creating a menacing tunnel for travellers.  Patches of cloth litter the edges of the brambles, remnants of the clothing worn by careless adventurers."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Whistler's Pass, Brambles]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "536": 0.2,
-    "538": 0.2
-  },
-  "id": 537,
-  "location": "Whistler's Pass",
   "tags": [
     "cactacae spine",
     "wintergreen leaf",
@@ -59,10 +56,6 @@
     "blue whortleberry",
     "pepperthorn root",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

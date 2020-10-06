@@ -1,40 +1,30 @@
 {
-  "wayto": {
-    "7298": {
-      "stringproc": "4b40d69fa586afcbf273d28e846f1a5e"
-    },
-    "4143": "west"
-  },
+  "id": 4344,
+  "title": [
+    "[Graveyard, Crypt]"
+  ],
+  "description": [
+    "This room is a square space with plain stone walls on three sides composed of virtually seamless granite blocks.  The far wall draws your attention immediately.  Before it stands a black onyx tablet, nearly tall enough to touch the flat ceiling."
+  ],
   "paths": [
     "Obvious exits: west"
   ],
+  "location": "the Graveyard",
+  "wayto": {
+    "7298": {
+      "file": "string_procs/wayto/4344_7298.rb"
+    },
+    "4143": "west"
+  },
+  "timeto": {
+    "7298": 0.2,
+    "4143": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     595,
     949,
     605,
     959
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This room is a square space with plain stone walls on three sides composed of virtually seamless granite blocks.  The far wall draws your attention immediately.  Before it stands a black onyx tablet, nearly tall enough to touch the flat ceiling."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Graveyard, Crypt]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7298": 0.2,
-    "4143": 0.2
-  },
-  "id": 4344,
-  "location": "the Graveyard",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

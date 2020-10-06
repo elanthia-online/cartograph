@@ -1,43 +1,35 @@
 {
-  "wayto": {
-    "14358": "out",
-    "8916": {
-      "stringproc": "015b38313f8899e9df97aa0322613502"
-    },
-    "8634": {
-      "stringproc": "cf139155fc2e41d9590feb29729c7017"
-    }
-  },
-  "paths": [
-    "Obvious exits: out"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Bare of all furnishings, the room is an exact contrast to the one through the curtained arch.  Where the other is blindingly bright, this one is completely black from ebonwood flooring to raftered ceiling.  A single frosted globe is suspended from the ceiling over a strange series of golden interlacing circles and casts an eerie greenish glow upon the dark walls."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 14359,
   "title": [
     "[Solhaven, Beacon Tower]",
     "[Solhaven, Departures]"
   ],
-  "check_location": null,
+  "description": [
+    "Bare of all furnishings, the room is an exact contrast to the one through the curtained arch.  Where the other is blindingly bright, this one is completely black from ebonwood flooring to raftered ceiling.  A single frosted globe is suspended from the ceiling over a strange series of golden interlacing circles and casts an eerie greenish glow upon the dark walls."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Solhaven",
+  "wayto": {
+    "14358": "out",
+    "8916": {
+      "file": "string_procs/wayto/14359_8916.rb"
+    },
+    "8634": {
+      "file": "string_procs/wayto/14359_8634.rb"
+    }
+  },
   "timeto": {
     "14358": 0.2,
     "8916": {
-      "stringproc": "d34de67b2e41dc4f33cc65396b59bfae"
+      "file": "string_procs/timeto/14359_8916.rb"
     },
     "8634": {
-      "stringproc": "08dc78d86ffe354555237f244814b4fd"
+      "file": "string_procs/timeto/14359_8634.rb"
     }
   },
-  "id": 14359,
-  "location": "Solhaven",
   "tags": [
     "travel waiting room"
-  ],
-  "links": [
-
   ]
 }

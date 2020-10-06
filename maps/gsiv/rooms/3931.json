@@ -1,35 +1,32 @@
 {
+  "id": 3931,
+  "title": [
+    "[Wehnimer's, Catacombs]"
+  ],
+  "description": [
+    "Several niches in the stone walls of this small, musty chamber hold heaps of dust, tarnished trinkets and shreds of cloth.  The sunken, dried face of a crumpled corpse in the center of the room still wears an expression of shock and horror.  Small, furry creatures dart in and out of a jagged opening, where some stones have been removed, in the far wall.  As it dawns on you that they cannot be the source of the loud, sinister scraping noises coming from the east, a chill runs down your spine."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "3932": "east",
     "7491": "west",
     "324": "go opening"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "3932": 0.2,
+    "7491": 0.2,
+    "324": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     874,
     968,
     884,
     978
   ],
-  "terrain": "indoors",
-  "description": [
-    "Several niches in the stone walls of this small, musty chamber hold heaps of dust, tarnished trinkets and shreds of cloth.  The sunken, dried face of a crumpled corpse in the center of the room still wears an expression of shock and horror.  Small, furry creatures dart in and out of a jagged opening, where some stones have been removed, in the far wall.  As it dawns on you that they cannot be the source of the loud, sinister scraping noises coming from the east, a chill runs down your spine."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Wehnimer's, Catacombs]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3932": 0.2,
-    "7491": 0.2,
-    "324": 0.2
-  },
-  "id": 3931,
-  "location": "the catacombs",
   "tags": [
     "red trafel mushroom",
     "white hook mushroom",
@@ -39,15 +36,6 @@
     "some wingstem root",
     "blue trafel mushroom",
     "some bolmara lichen",
-    "black hook mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "black hook mushroom"
   ]
 }

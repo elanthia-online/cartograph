@@ -1,33 +1,30 @@
 {
+  "id": 3702,
+  "title": [
+    "[Darkstone, A Dark Tunnel]"
+  ],
+  "description": [
+    "Rough outcroppings of hardened clay protrude from the walls taking on a dark green incandescence, slowly shifting in intensity as you approach them.  You feel a steady flow of air at your feet but its source is hidden in the darkness."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "3701": "west",
     "3703": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "3701": 0.2,
+    "3703": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     542,
     1215,
     552,
     1225
   ],
-  "terrain": "indoors",
-  "description": [
-    "Rough outcroppings of hardened clay protrude from the walls taking on a dark green incandescence, slowly shifting in intensity as you approach them.  You feel a steady flow of air at your feet but its source is hidden in the darkness."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, A Dark Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3701": 0.2,
-    "3703": 0.2
-  },
-  "id": 3702,
-  "location": "Darkstone Castle",
   "tags": [
     "black hook mushroom",
     "withered black mushroom",
@@ -38,15 +35,6 @@
     "red trafel mushroom",
     "some bolmara lichen",
     "white hook mushroom",
-    "massive troll king",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "massive troll king"
   ]
 }

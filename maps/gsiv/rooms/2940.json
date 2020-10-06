@@ -1,43 +1,33 @@
 {
-  "wayto": {
-    "2937": "go doorway",
-    "2941": "northwest",
-    "2944": "northeast"
-  },
+  "id": 2940,
+  "title": [
+    "[Abbey, Courtyard]"
+  ],
+  "description": [
+    "A pair of wide double doors leads into the abbey's receiving hall, part of an old stonehold built into the mountainside.  A carved stone wall hewn from massive blocks of granite encircles the courtyard and continues along the edge of the abbey.  To the northwest, the smell and sound of horses and mules rises from timber-framed stables against the wall."
+  ],
   "paths": [
     "Obvious paths: northeast, northwest"
   ],
-  "image_coords": [
-    690,
-    748,
-    701,
-    758
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "A crumbling stone doorway leads into the abbey's guest house, part of an old stonehold that masks the trail to the valley.  A thick stone wall hewn from massive granite blocks circles the courtyard and continues along the edge of the abbey.  To the northwest, a timber-framed building sags against the wall."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Abbey Courtyard]"
-  ],
-  "check_location": null,
+  "location": "the Abbey",
+  "wayto": {
+    "2937": "go doors",
+    "2941": "northwest",
+    "2944": "northeast"
+  },
   "timeto": {
     "2937": 0.2,
     "2941": 0.2,
     "2944": 0.2
   },
-  "id": 2940,
-  "location": "the Abbey",
-  "tags": [
-    "calmintha flower",
-    "nedum vereri",
-    "dark shambler",
-    "arctic puma",
-    "meta:forage-sensed"
+  "image": "imt-Abbey Map-51200831.png",
+  "image_coords": [
+    1432,
+    1924,
+    1540,
+    2032
   ],
-  "links": [
-
+  "tags": [
+    "calmintha flower"
   ]
 }

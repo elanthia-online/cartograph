@@ -1,1 +1,2 @@
-fput 'search'; move 'climb crevice'
+fput 'search'
+ move 'climb crevice'

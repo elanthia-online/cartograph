@@ -1,41 +1,33 @@
 {
+  "id": 9539,
+  "title": [
+    "[Troll Burial Grounds]"
+  ],
+  "description": [
+    "The high walls narrow to the east and west, but open up into a huge circular chamber here.  Swarms of fireflies flit to and fro over the bones, providing dim, flickering light in the gloom.  The pile of bones flattens out somewhat, though the depth of it is still undeterminable.  Several pillars surround the chamber, their height extending upwards into the darkness."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Troll Burial Grounds",
   "wayto": {
     "9538": "east",
     "9540": "west"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "9538": 0.2,
+    "9540": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     633,
     1131,
     643,
     1141
   ],
-  "terrain": "indoors",
-  "description": [
-    "The high walls narrow to the east and west, but open up into a huge circular chamber here.  Swarms of fireflies flit to and fro over the bones, providing dim, flickering light in the gloom.  The pile of bones flattens out somewhat, though the depth of it is still undeterminable.  Several pillars surround the chamber, their height extending upwards into the darkness."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Troll Burial Grounds]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9538": 0.2,
-    "9540": 0.2
-  },
-  "id": 9539,
-  "location": "the Troll Burial Grounds",
   "tags": [
     "soft white mushroom",
     "blue trafel mushroom",
-    "withered black mushroom",
-    "pepperthorn root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "withered black mushroom"
   ]
 }

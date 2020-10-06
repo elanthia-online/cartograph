@@ -1,45 +1,26 @@
 {
-  "wayto": {
-    "8005": "west"
-  },
+  "id": 8007,
+  "title": [
+    "[Kobold Mines, Dormitory]"
+  ],
+  "description": [
+    "This was once a dormitory for the miners.  Evidently it is still being used this way to judge from the half-cured furs and roughly woven mats stuffed with fetid straw.  The stench of unwashed bodies fills your nostrils."
+  ],
   "paths": [
     "Obvious exits: west"
   ],
+  "location": "the old Mine Road",
+  "wayto": {
+    "8005": "west"
+  },
+  "timeto": {
+    "8005": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     150,
     865,
     160,
     875
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This was once a dormitory for the miners.  Evidently it is still being used this way to judge from the half-cured furs and roughly woven mats stuffed with fetid straw.  The stench of unwashed bodies fills your nostrils."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Kobold Mines, Dormitory]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8005": 0.2
-  },
-  "id": 8007,
-  "location": "the old Mine Road",
-  "tags": [
-    "soft white mushroom",
-    "withered black mushroom",
-    "black hook mushroom",
-    "white hook mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

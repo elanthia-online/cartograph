@@ -1,42 +1,32 @@
 {
+  "id": 6687,
+  "title": [
+    "[Sheruvian Monastery, Main Hall]"
+  ],
+  "description": [
+    "Thick beams of timber support the cathedral ceiling in what appears to be the main entrance hall for this stronghold.  Massive cast-iron chandeliers hang from the support beams by thick chains, and each is adorned with hundreds of small, lit candles.  Elegant tapestries hang from the walls, proudly displaying crests and sigils unknown to you.  Every sound in this room echoes off of the hard stone blocks, giving the impression that there is more to the shadows than there appears to be."
+  ],
+  "paths": [
+    "Obvious exits: east, northwest"
+  ],
+  "location": "the Broken Lands",
   "wayto": {
     "6685": "go arch",
     "6688": "go door",
     "6689": "east",
     "6690": "northwest"
   },
-  "paths": [
-    "Obvious exits: east, northwest"
-  ],
-  "image_coords": [
-    277,
-    1411,
-    284,
-    1420
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Thick beams of timber support the cathedral ceiling in what appears to be the main entrance hall for this stronghold.  Massive cast-iron chandeliers hang from the support beams by thick chains, and each is adorned with hundreds of small, lit candles.  Elegant tapestries hang from the walls, proudly displaying crests and sigils unknown to you.  Every sound in this room echoes off of the hard stone blocks, giving the impression that there is more to the shadows than there appears to be."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Sheruvian Monastery, Main Hall]"
-  ],
-  "check_location": null,
   "timeto": {
     "6685": 0.2,
     "6688": 0.2,
     "6689": 0.2,
     "6690": 0.2
   },
-  "id": 6687,
-  "location": "the Broken Lands",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-broken-1264234799.png",
+  "image_coords": [
+    277,
+    1411,
+    284,
+    1420
   ]
 }

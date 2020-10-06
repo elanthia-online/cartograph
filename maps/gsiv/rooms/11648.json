@@ -1,35 +1,31 @@
 {
+  "id": 11648,
+  "title": [
+    "[Ghastly Swamp]"
+  ],
+  "description": [
+    "The pathway is like a valley between the tall fuzzy-headed reeds and rushes.  Water trickles softly in some rivulet hidden by the reeds.  Overhead, the fog coils and distends in the pale moonlight with a snakelike motion.  The foul reek of swamp gas pervades the area."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest, northwest"
+  ],
   "wayto": {
     "11647": "northwest",
     "11659": "east",
     "11649": "southwest"
   },
-  "paths": [
-    "Obvious paths: east, southwest, northwest"
-  ],
+  "timeto": {
+    "11647": 0.2,
+    "11659": 0.2,
+    "11649": 0.2
+  },
+  "image": "rr-maelstrom-1266390501.png",
   "image_coords": [
     783,
     303,
     793,
     313
   ],
-  "terrain": "muddy wetlands",
-  "description": [
-    "The pathway is like a valley between the tall fuzzy-headed reeds and rushes.  Water trickles softly in some rivulet hidden by the reeds.  Overhead, the fog coils and distends in the pale moonlight with a snakelike motion.  The foul reek of swamp gas pervades the area."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "moist",
-  "title": [
-    "[Ghastly Swamp]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11647": 0.2,
-    "11659": 0.2,
-    "11649": 0.2
-  },
-  "id": 11648,
-  "location": "the Miasmal Forest",
   "tags": [
     "daggerstalk mushroom",
     "some calamia fruit",
@@ -47,27 +43,6 @@
     "trollfear mushroom",
     "some aloeas stem",
     "some talneo root",
-    "genkew mushroom",
-    "calamia fruit",
-    "aloeas stem",
-    "soft white mushroom",
-    "withered black mushroom",
-    "spider lily",
-    "alligator lily",
-    "kylan berry",
-    "orange heliconia",
-    "red heliconia",
-    "purple passionflower",
-    "red passionflower",
-    "murdroot",
-    "wavepetal blossom",
-    "bolmara lichen",
-    "talneo root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "genkew mushroom"
   ]
 }

@@ -1,38 +1,28 @@
 {
+  "id": 7702,
+  "title": [
+    "[Underground, Hidden Wing]"
+  ],
+  "description": [
+    "The walls here are absolutely smooth and featureless.  The uniform tone attempts to defeat your depth perception."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "7701": "west",
     "7703": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "7701": 0.2,
+    "7703": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     403,
     1057,
     413,
     1067
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The walls here are absolutely smooth and featureless.  The uniform tone attempts to defeat your depth perception."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Underground, Hidden Wing]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7701": 0.2,
-    "7703": 0.2
-  },
-  "id": 7702,
-  "location": "the Coastal Cliffs",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

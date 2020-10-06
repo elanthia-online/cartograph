@@ -1,40 +1,37 @@
 {
-  "wayto": {
-    "12173": "northwest",
-    "12165": "south",
-    "2579": {
-      "stringproc": "8770ecf721b2f46d9bc09a8706aab02e"
-    },
-    "12160": "east"
-  },
+  "id": 12206,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "A nest of worms writhes in a pocket to the south.  They seem to be breeding here, then moving into other parts of the area to eat and destroy.  The walls hardly constrict here, although the loud thump-thump from the other chambers is still loud and strong.  Blood moves over the floor, forced northward by the weak contractions of the walls."
+  ],
   "paths": [
     "Obvious paths: east, south, northwest",
     "Obvious exits: east, south, northwest"
   ],
-  "image_coords": [
-    964,
-    1136,
-    974,
-    1146
-  ],
-  "terrain": null,
-  "description": [
-    "A nest of worms writhes in a pocket to the south.  They seem to be breeding here, then moving into other parts of the area to eat and destroy.  The walls hardly constrict here, although the loud thump-thump from the other chambers is still loud and strong.  Blood moves over the floor, forced northward by the weak contractions of the walls."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12173": "northwest",
+    "12165": "south",
+    "2579": {
+      "file": "string_procs/wayto/12206_2579.rb"
+    },
+    "12160": "east"
+  },
   "timeto": {
     "12173": 0.2,
     "12165": 0.2,
     "2579": 6.8,
     "12160": 0.2
   },
-  "id": 12206,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    964,
+    1136,
+    974,
+    1146
+  ],
   "tags": [
     "rotting bile green fleshbulb",
     "twisted black mawflower",
@@ -42,10 +39,6 @@
     "oozing fleshsore bulb",
     "fleshsore bulb",
     "withered deathblossom",
-    "mass of congealed slime",
-    "slime-covered grave blossom"
-  ],
-  "links": [
-
+    "mass of congealed slime"
   ]
 }

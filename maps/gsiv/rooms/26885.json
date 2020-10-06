@@ -1,35 +1,29 @@
 {
+  "id": 26885,
+  "title": [
+    "[Duskruin Approach]"
+  ],
+  "description": [
+    "A well-traveled dirt path winds among the dense evergreens that grow tall despite the overbearing shadow of the Dragonspine Mountains.  Torches roar on either side of an enormous iron portcullis that ascends into the very mountainside.  A series of metal letters has been anchored to the rocky surface with metal spikes."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "the sewers of Bloodriven Village",
   "wayto": {
     "23766": "go portcullis",
     "26884": "go path"
   },
-  "paths": [
-    "Obvious paths: none"
-  ],
+  "timeto": {
+    "23766": 0.2,
+    "26884": 0.2
+  },
+  "image": "fest-duskruin-1503606263.png",
   "image_coords": [
     627,
     924,
     652,
     948
   ],
-  "terrain": null,
-  "description": [
-    "A well-traveled dirt path winds among the dense evergreens that grow tall despite the overbearing shadow of the Dragonspine Mountains.  Torches roar on either side of an enormous iron portcullis that ascends into the very mountainside.  A series of metal letters has been anchored to the rocky surface with metal spikes."
-  ],
-  "image": "fest-duskruin-1503606263.png",
-  "climate": null,
-  "title": [
-    "[Duskruin Approach]"
-  ],
-  "check_location": false,
-  "timeto": {
-    "23766": 0.2,
-    "26884": 0.2
-  },
-  "id": 26885,
-  "location": "the sewers of Bloodriven Village",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  "check_location": false
 }

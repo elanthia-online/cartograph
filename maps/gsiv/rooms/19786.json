@@ -1,36 +1,25 @@
 {
-  "wayto": {
-    "19585": {
-      "stringproc": "7de58f2d5dd38812de2052a329804c2d"
-    },
-    "228": {
-      "stringproc": "7de58f2d5dd38812de2052a329804c2d"
-    }
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Roughly hewn wooden walls encapsulate the room, their surfaces chipped and scratched from countless impacts with the weapons hanging from the hooks in the sloped ceiling.  A curtain of faded red velvet serves to separate the shop from the backroom, its matted surface hanging all the way to the floor.  Resting beside the door leading back outside is a low oak table, while a dented footlocker stands opposite."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 19786,
   "title": [
     "[Felthrop's Wagon]"
   ],
-  "check_location": null,
+  "description": [
+    "Roughly hewn wooden walls encapsulate the room, their surfaces chipped and scratched from countless impacts with the weapons hanging from the hooks in the sloped ceiling.  A curtain of faded red velvet serves to separate the shop from the backroom, its matted surface hanging all the way to the floor.  Resting beside the door leading back outside is a low oak table, while a dented footlocker stands opposite."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "19585": {
+      "file": "string_procs/wayto/19786_19585.rb"
+    },
+    "228": {
+      "file": "string_procs/wayto/19786_228.rb"
+    }
+  },
   "timeto": {
     "19585": 0.2,
     "228": 0.2
-  },
-  "id": 19786,
-  "location": "Mist Harbor",
-  "tags": [
-
-  ],
-  "links": [
-
-  ]
+  }
 }

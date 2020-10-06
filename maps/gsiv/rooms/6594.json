@@ -1,38 +1,28 @@
 {
+  "id": 6594,
+  "title": [
+    "[Anwyn Castle, Stables]"
+  ],
+  "description": [
+    "The number of stalls filling this long building would seem to indicate a sizable cavalry once was garrisoned here.  Piles of hay are still heaped up in some of the stalls, emitting suspicious rustling noises."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Castle Anwyn",
   "wayto": {
     "6593": "west",
     "6595": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "6593": 0.2,
+    "6595": 0.2
+  },
+  "image": "wl-lysierian-1264234799.png",
   "image_coords": [
     1022,
     811,
     1032,
     821
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The number of stalls filling this long building would seem to indicate a sizable cavalry once was garrisoned here.  Piles of hay are still heaped up in some of the stalls, emitting suspicious rustling noises."
-  ],
-  "image": "wl-lysierian-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Anwyn Castle, Stables]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6593": 0.2,
-    "6595": 0.2
-  },
-  "id": 6594,
-  "location": "Castle Anwyn",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

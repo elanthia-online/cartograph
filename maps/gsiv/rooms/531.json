@@ -1,34 +1,31 @@
 {
+  "id": 531,
+  "title": [
+    "[Whistler's Pass, Brambles]"
+  ],
+  "description": [
+    "Brambles mix with green bushes, creating a hidden hazard to the unwary traveller in the night.  Red berries in the bushes tempt birds to swoop in for a quick meal, but the unlucky ones have become impaled on the long thorns.",
+    "Brambles mix with green bushes, creating a hidden hazard to the unwary traveller.  Red berries in the bushes tempt birds to swoop in for a quick meal, but the unlucky ones have become impaled on the long thorns."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "530": "north",
     "532": "southeast"
   },
-  "paths": [
-    "Obvious paths: north, southeast"
-  ],
+  "timeto": {
+    "530": 0.2,
+    "532": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     782,
     417,
     792,
     427
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "Brambles mix with green bushes, creating a hidden hazard to the unwary traveller in the night.  Red berries in the bushes tempt birds to swoop in for a quick meal, but the unlucky ones have become impaled on the long thorns.",
-    "Brambles mix with green bushes, creating a hidden hazard to the unwary traveller.  Red berries in the bushes tempt birds to swoop in for a quick meal, but the unlucky ones have become impaled on the long thorns."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Whistler's Pass, Brambles]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "530": 0.2,
-    "532": 0.2
-  },
-  "id": 531,
-  "location": "Whistler's Pass",
   "tags": [
     "cactacae spine",
     "wintergreen leaf",
@@ -59,10 +56,6 @@
     "blue whortleberry",
     "pepperthorn root",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

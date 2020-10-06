@@ -1,40 +1,24 @@
 {
+  "id": 13112,
+  "title": [
+    "[Outpost, Western Corridor]"
+  ],
+  "description": [
+    "Iron lanterns illuminate the dim corridor from their positions between several windows with tightly closed shutters along the eastern wall.  The sound of quiet talking comes from the open door to the west and is punctuated by random snoring.",
+    "Sunlight streams through open windows, their shutters folded back to tack advantage of the daytime illumination, along the eastern wall of the corridor and they offer a perfect vantage point of the practice courtyard beyond.  Laughter and friendly banter can be heard coming from the open door to the west."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "the Guardians of Sunfist outpost",
   "wayto": {
     "13106": "southwest",
     "13107": "northeast",
     "13124": "go door"
   },
-  "paths": [
-    "Obvious exits: northeast, southwest"
-  ],
-  "image_coords": [
-    1008,
-    154,
-    1024,
-    169
-  ],
-  "terrain": null,
-  "description": [
-    "Iron lanterns illuminate the dim corridor from their positions between several windows with tightly closed shutters along the eastern wall.  The sound of quiet talking comes from the open door to the west and is punctuated by random snoring.",
-    "Sunlight streams through open windows, their shutters folded back to tack advantage of the daytime illumination, along the eastern wall of the corridor and they offer a perfect vantage point of the practice courtyard beyond.  Laughter and friendly banter can be heard coming from the open door to the west."
-  ],
-  "image": "Map-GuardiansOfSunfist.png",
-  "climate": null,
-  "title": [
-    "[Outpost, Western Corridor]"
-  ],
-  "check_location": null,
   "timeto": {
     "13106": 0.2,
     "13107": 0.2,
     "13124": 0.2
-  },
-  "id": 13112,
-  "location": "the Guardians of Sunfist outpost",
-  "tags": [
-
-  ],
-  "links": [
-
-  ]
+  }
 }

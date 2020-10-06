@@ -1,33 +1,30 @@
 {
+  "id": 24688,
+  "title": [
+    "[Red Forest, Ring of Mist]"
+  ],
+  "description": [
+    "Dense fog hugs the ground in a churning blanket of mist, allowing only for a scattering of moss-covered rocks to jut up out of obscurity.  The occasional sound of a branch snapping or leaves rustling emanates from beyond a thicket of trees that encircles the entire area."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "the Red Forest",
   "wayto": {
     "24675": "southwest",
     "24701": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, southwest"
-  ],
+  "timeto": {
+    "24675": 0.2,
+    "24701": 0.2
+  },
+  "image": "red_forest-1260914757.png",
   "image_coords": [
     137,
     109,
     151,
     123
   ],
-  "terrain": null,
-  "description": [
-    "Dense fog hugs the ground in a churning blanket of mist, allowing only for a scattering of moss-covered rocks to jut up out of obscurity.  The occasional sound of a branch snapping or leaves rustling emanates from beyond a thicket of trees that encircles the entire area."
-  ],
-  "image": "red_forest-1260914757.png",
-  "climate": null,
-  "title": [
-    "[Red Forest, Ring of Mist]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24675": 0.2,
-    "24701": 0.2
-  },
-  "id": 24688,
-  "location": "the Displaced Red Forest",
   "tags": [
     "some wolifrew lichen",
     "wild pink geranium",
@@ -61,26 +58,6 @@
     "tkaro root",
     "massive black boar",
     "winged viper",
-    "some mistweed",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "sticks",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "blueberries",
-    "broken twig",
-    "tree bark",
-    "mistweed",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+    "some mistweed"
+  ]
 }

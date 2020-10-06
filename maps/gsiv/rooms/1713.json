@@ -1,33 +1,30 @@
 {
+  "id": 1713,
+  "title": [
+    "[Trail Ascent]"
+  ],
+  "description": [
+    "A tight, barely visible path squeezes between the towering pines and through the holly bush thickets.  The serrated edges of the holly leaves tear at clothing and skin to make passage painful as well as arduous.  Their presence so close against the trail indicates that neither adventurers nor creatures pass this way very often.  Here and again a scrap of clothing or something akin to dried blood appears on one of the leaves, indicating that at least some others do venture this direction."
+  ],
+  "paths": [
+    "Obvious paths: west, down"
+  ],
+  "location": "Gossamer Valley",
   "wayto": {
     "1712": "down",
     "1714": "west"
   },
-  "paths": [
-    "Obvious paths: west, down"
-  ],
+  "timeto": {
+    "1712": 0.2,
+    "1714": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     472,
     891,
     482,
     901
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "A tight, barely visible path squeezes between the towering pines and through the holly bush thickets.  The serrated edges of the holly leaves tear at clothing and skin to make passage painful as well as arduous.  Their presence so close against the trail indicates that neither adventurers nor creatures pass this way very often.  Here and again a scrap of clothing or something akin to dried blood appears on one of the leaves, indicating that at least some others do venture this direction."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Trail Ascent]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1712": 0.2,
-    "1714": 0.2
-  },
-  "id": 1713,
-  "location": "Gossamer Valley",
   "tags": [
     "some wolifrew lichen",
     "some acantha leaf",
@@ -61,23 +58,6 @@
     "cluster of butterflyweed",
     "broken twig",
     "twisted twig",
-    "some bolmara lichen",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "sticks",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "pine needles",
-    "tree bark",
-    "yew twig",
-    "ironfern root",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some bolmara lichen"
   ]
 }

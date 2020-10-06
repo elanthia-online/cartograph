@@ -1,35 +1,28 @@
 {
+  "id": 25330,
+  "title": [
+    "[Lich's Landing, Specter Lane]"
+  ],
+  "description": [
+    "Rows and rows of dingy hovels and homes line the sides of the lane and a strong putrid scent weighs heavily in the air.  Zombies, ghouls and skeletons of all sizes move about the area, eternally locked in their master's undead theater."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Talador",
   "wayto": {
     "26242": "go shop",
     "25312": "west"
   },
-  "paths": [
-    "Obvious exits: west"
-  ],
+  "timeto": {
+    "26242": 0.2,
+    "25312": 0.2
+  },
+  "image": "wl-lichs_landing-1500800742.png",
   "image_coords": [
     930,
     596,
     957,
     623
-  ],
-  "terrain": null,
-  "description": [
-    "Rows and rows of dingy hovels and homes line the sides of the lane and a strong putrid scent weighs heavily in the air.  Zombies, ghouls and skeletons of all sizes move about the area, eternally locked in their master's undead theater."
-  ],
-  "image": "wl-lichs_landing-1500800742.png",
-  "climate": null,
-  "title": [
-    "[Lich's Landing, Specter Lane]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26242": 0.2,
-    "25312": 0.2
-  },
-  "id": 25330,
-  "location": "Talador",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

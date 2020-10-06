@@ -1,38 +1,30 @@
 {
-  "wayto": {
-    "12167": "east",
-    "2635": {
-      "stringproc": "f88a5ac335110328444947aa8fdfa490"
-    },
-    "12168": "southeast",
-    "12124": "northeast",
-    "12093": {
-      "stringproc": "dc0110972ab7e067d5fec20ece15581c"
-    },
-    "2605": {
-      "stringproc": "317c6eedd1ea40322b9b26b259a3053f"
-    }
-  },
+  "id": 12126,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "Rows of sarcophagi line the rough stone walls of the corridor.  They remain tightly shut, although hopeless moans emanate from within the sealed boxes.  At the head of the hallway leans a mummy.  His arms are crossed over his chest, bound by the shrouds that cover the large frame.  From his back sprout two wings, also wrapped within the bandages.  Although perhaps a trick of the dim light, you could swear you saw one of the wings move."
+  ],
   "paths": [
     "Obvious exits: northeast, east, southeast",
     "Obvious paths: northeast, east, southeast"
   ],
-  "image_coords": [
-    1003,
-    644,
-    1013,
-    654
-  ],
-  "terrain": null,
-  "description": [
-    "Rows of sarcophagi line the rough stone walls of the corridor.  They remain tightly shut, although hopeless moans emanate from within the sealed boxes.  At the head of the hallway leans a mummy.  His arms are crossed over his chest, bound by the shrouds that cover the large frame.  From his back sprout two wings, also wrapped within the bandages.  Although perhaps a trick of the dim light, you could swear you saw one of the wings move."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12167": "east",
+    "2635": {
+      "file": "string_procs/wayto/12126_2635.rb"
+    },
+    "12168": "southeast",
+    "12124": "northeast",
+    "12093": {
+      "file": "string_procs/wayto/12126_12093.rb"
+    },
+    "2605": {
+      "file": "string_procs/wayto/12126_2605.rb"
+    }
+  },
   "timeto": {
     "12167": 0.2,
     "2635": 16.0,
@@ -41,8 +33,13 @@
     "12093": 21.6,
     "2605": 16.0
   },
-  "id": 12126,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    1003,
+    644,
+    1013,
+    654
+  ],
   "tags": [
     "withered deathblossom",
     "mass of congealed slime",
@@ -51,8 +48,5 @@
     "oozing fleshsore bulb",
     "twisted black mawflower",
     "discolored fleshbinder bud"
-  ],
-  "links": [
-
   ]
 }

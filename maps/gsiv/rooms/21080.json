@@ -1,42 +1,28 @@
 {
-  "wayto": {
-    "21079": {
-      "stringproc": "d85ece0b13067d67ad270f4b82d3239d"
-    }
-  },
+  "id": 21080,
+  "title": [
+    "[Alhan'naht River, Choked Pass]"
+  ],
+  "description": [
+    "Gently curving, passage upon this section of the river becomes impossible due to the aquatic plants that rise in verdant strands from the soft mud of the river's bottom.  Ranging in hues from dark to light greens, brows to tans, and various shades in-between, the diverse flowers, ferns, and grasses of the area rise to meet the dangling limbs of the overhead trees and grow in tight clusters upon the water's surface.  Further to the southeast, the scent of the distant sea meets with the musty jungle scents."
+  ],
   "paths": [
     "Obvious paths: north"
   ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "21079": {
+      "file": "string_procs/wayto/21080_21079.rb"
+    }
+  },
+  "timeto": {
+    "21079": 2.0
+  },
+  "image": "ifw-wilds-1368242816.png",
   "image_coords": [
     1580,
     2880,
     1599,
     2899
-  ],
-  "terrain": "riparian",
-  "description": [
-    "Gently curving, passage upon this section of the river becomes impossible due to the aquatic plants that rise in verdant strands from the soft mud of the river's bottom.  Ranging in hues from dark to light greens, brows to tans, and various shades in-between, the diverse flowers, ferns, and grasses of the area rise to meet the dangling limbs of the overhead trees and grow in tight clusters upon the water's surface.  Further to the southeast, the scent of the distant sea meets with the musty jungle scents."
-  ],
-  "image": "ifw-wilds-1368242816.png",
-  "climate": "freshwater",
-  "title": [
-    "[Alhan'naht River, Choked Pass]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "21079": 2.0
-  },
-  "id": 21080,
-  "location": "Mist Harbor",
-  "tags": [
-    "stalk of cattail",
-    "murdroot",
-    "wavepetal blossom",
-    "sunburst blossom",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

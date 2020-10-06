@@ -1,34 +1,26 @@
 {
-  "wayto": {
-    "3937": {
-      "stringproc": "1b05168490a4bc4256a681555163ac06"
-    }
-  },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "There is a small bit of sludgy water pouring out of one of the many small pipes.  It has collected into a dark slimy looking pool here, with a small trickle of filth oozing on down the tunnel.  There is just enough room to pick your way around it as you continue on deeper into the earth."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 3951,
   "title": [
     "[Abandoned Sewer]"
   ],
-  "check_location": null,
+  "description": [
+    "There is a small bit of sludgy water pouring out of one of the many small pipes.  It has collected into a dark slimy looking pool here, with a small trickle of filth oozing on down the tunnel.  There is just enough room to pick your way around it as you continue on deeper into the earth."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the catacombs",
+  "wayto": {
+    "3937": {
+      "file": "string_procs/wayto/3951_3937.rb"
+    }
+  },
   "timeto": {
     "3937": 1.6
   },
-  "id": 3951,
-  "location": "the catacombs",
   "tags": [
     "some bolmara lichen",
     "red trafel mushroom",
     "blue trafel mushroom"
-  ],
-  "links": [
-
   ]
 }

@@ -1,39 +1,33 @@
 {
-  "wayto": {
-    "19948": {
-      "stringproc": "70e659e2e09f530acdfb40106ad6d1fc"
-    },
-    "19964": "west"
-  },
+  "id": 19965,
+  "title": [
+    "[Legends Wing, Physical Arts]"
+  ],
+  "description": [
+    "Painted on the walls is a dense forest scene, the trees so close together that the canopies overlap.  The ceiling is covered with a thick layer of silk leaves, as if the mural on the walls has spilled over into the room itself.  Expansive tree stumps sit in a circle on the grass-green marble floor.  Resting on the each of the tree trunks are wax figures in various poses, while a a double-sided wooden easel in the center of the ring displays several paintings.  Standing in opposite corners are a glass display case and a gilt-edged rowan pedestal."
+  ],
   "paths": [
     "Obvious exits: west"
   ],
+  "location": "Wehnimer's Landing",
+  "wayto": {
+    "19948": {
+      "file": "string_procs/wayto/19965_19948.rb"
+    },
+    "19964": "west"
+  },
+  "timeto": {
+    "19948": 0.2,
+    "19964": 0.2
+  },
+  "image": "wl-museum-1487435869.png",
   "image_coords": [
     1804,
     683,
     1945,
     743
   ],
-  "terrain": null,
-  "description": [
-    "Painted on the walls is a dense forest scene, the trees so close together that the canopies overlap.  The ceiling is covered with a thick layer of silk leaves, as if the mural on the walls has spilled over into the room itself.  Expansive tree stumps sit in a circle on the grass-green marble floor.  Resting on the each of the tree trunks are wax figures in various poses, while a a double-sided wooden easel in the center of the ring displays several paintings.  Standing in opposite corners are a glass display case and a gilt-edged rowan pedestal."
-  ],
-  "image": "wl-museum-1487435869.png",
-  "climate": null,
-  "title": [
-    "[Legends Wing, Physical Arts]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "19948": 0.2,
-    "19964": 0.2
-  },
-  "id": 19965,
-  "location": "Wehnimer's Landing",
   "tags": [
     "meta:teleport:fwi"
-  ],
-  "links": [
-
   ]
 }

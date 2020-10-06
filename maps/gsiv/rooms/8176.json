@@ -1,46 +1,33 @@
 {
+  "id": 8176,
+  "title": [
+    "[Mine]"
+  ],
+  "description": [
+    "A ruined wheelbarrow lays filled with rubble near the mined vein of mineral.  A few tools lay scattered about the floor."
+  ],
+  "paths": [
+    "Obvious exits: north, west, northwest"
+  ],
+  "location": "the crystal caves",
   "wayto": {
     "8174": "northwest",
     "8175": "north",
     "8177": "west"
   },
-  "paths": [
-    "Obvious exits: north, west, northwest"
-  ],
+  "timeto": {
+    "8174": 0.2,
+    "8175": 0.2,
+    "8177": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     860,
     524,
     870,
     534
   ],
-  "terrain": "indoors",
-  "description": [
-    "A ruined wheelbarrow lays filled with rubble near the mined vein of mineral.  A few tools lay scattered about the floor."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8174": 0.2,
-    "8175": 0.2,
-    "8177": 0.2
-  },
-  "id": 8176,
-  "location": "the crystal caves",
   "tags": [
-    "some wolifrew lichen",
-    "wolifrew lichen",
-    "withered black mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wolifrew lichen"
   ]
 }

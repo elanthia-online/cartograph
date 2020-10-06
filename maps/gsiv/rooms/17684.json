@@ -1,40 +1,29 @@
 {
-  "wayto": {
-    "10951": "go door",
-    "17682": {
-      "stringproc": "3ed1710bad8c93603931e06c81736634"
-    }
-  },
+  "id": 17684,
+  "title": [
+    "[Targon's Tavern, Backroom]"
+  ],
+  "description": [
+    "The room is small by human standards, but the perfect size for a dwarf patron or barkeep.  Stacks of crates line one wall and rows of barrels line the other.  A light sprinkling of sand covers the floor on the far side of the room and trails off in the direction of the door leading back towards the bustling sounds of the tap room.  A stuffed rolton head hangs from one wall, an expression of shock and surprise eternally captured on its face."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "wayto": {
+    "10951": "go door",
+    "17682": {
+      "file": "string_procs/wayto/17684_17682.rb"
+    }
+  },
+  "timeto": {
+    "10951": 5.0,
+    "17682": 3.4
+  },
+  "image": "rr-warrens-1266380776.png",
   "image_coords": [
     708,
     874,
     746,
     912
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The room is small by human standards, but the perfect size for a dwarf patron or barkeep.  Stacks of crates line one wall and rows of barrels line the other.  A light sprinkling of sand covers the floor on the far side of the room and trails off in the direction of the door leading back towards the bustling sounds of the tap room.  A stuffed rolton head hangs from one wall, an expression of shock and surprise eternally captured on its face."
-  ],
-  "image": "rr-warrens-1266380776.png",
-  "climate": "indoors",
-  "title": [
-    "[Targon's Tavern, Backroom]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10951": 5.0,
-    "17682": 3.4
-  },
-  "id": 17684,
-  "location": "the town of River's Rest",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

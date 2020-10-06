@@ -1,35 +1,19 @@
 {
-  "wayto": {
-    "25902": "south",
-    "25899": "north"
-  },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
-  "image_coords": [
-    409,
-    541,
-    460,
-    593
-  ],
-  "terrain": null,
-  "description": [
-    "The paved walkway winds its way between rows of trees, pleached to form an arched canopy over the path.  The air is warmer than in the commons area, and the dim glow of candlelight shines to the south."
-  ],
-  "image": "Spire_Grounds_5117.png",
-  "climate": null,
-  "title": [
-    "[Summit Academy, Sylinar's Way]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "25902": 0.2,
-    "25899": 0.2
-  },
   "id": 25901,
-  "location": "Summit Academy",
-  "tags": [
-
+  "title": [
+    "[Annex, Rone Academy Lobby]"
   ],
-  "unique_loot": null
+  "description": [
+    "Simple, but elegant, the teakwood flooring of this room is polished to a lustrous sheen.  A purple velvet pennant edged with silver hangs near a heavy, white muslin curtain."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "16700": "go arch"
+  },
+  "timeto": {
+    "16700": 0.2
+  }
 }

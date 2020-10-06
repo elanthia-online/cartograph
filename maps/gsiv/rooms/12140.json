@@ -1,52 +1,43 @@
 {
-  "wayto": {
-    "12141": "northwest",
-    "12119": "southeast",
-    "12207": {
-      "stringproc": "e92c9dd14f17f62ccd19f33b9f37fe22"
-    },
-    "12235": {
-      "stringproc": "6257723a0157210f5f1e2eb6e7c5dbb4"
-    }
-  },
+  "id": 12140,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "Crystalline blocks of some unknown substance float in the air, providing passage to the northwest and southeast.  They ring like bells of flawless glass when stepped upon, filling the air with a light, musical sound.  In the center of the area sits a small field of them, gleaming strangely in the light."
+  ],
   "paths": [
     "Obvious paths: southeast, northwest",
     "Obvious exits: southeast, northwest"
   ],
-  "image_coords": [
-    513,
-    1100,
-    523,
-    1110
-  ],
-  "terrain": null,
-  "description": [
-    "Crystalline blocks of some unknown substance float in the air, providing passage to the northwest and southeast.  They ring like bells of flawless glass when stepped upon, filling the air with a light, musical sound.  In the center of the area sits a small field of them, gleaming strangely in the light."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12141": "northwest",
+    "12119": "southeast",
+    "12207": {
+      "file": "string_procs/wayto/12140_12207.rb"
+    },
+    "12235": {
+      "file": "string_procs/wayto/12140_12235.rb"
+    }
+  },
   "timeto": {
     "12141": 0.2,
     "12119": 0.2,
     "12207": 11.4,
     "12235": 11.4
   },
-  "id": 12140,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    513,
+    1100,
+    523,
+    1110
+  ],
   "tags": [
     "withered deathblossom",
     "twisted black mawflower",
     "slime-covered grave blossom",
-    "mass of congealed slime",
-    "oozing fleshsore bulb",
-    "rotting bile green fleshbulb",
-    "discolored fleshbinder bud"
-  ],
-  "links": [
-
+    "mass of congealed slime"
   ]
 }

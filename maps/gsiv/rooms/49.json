@@ -1,34 +1,31 @@
 {
+  "id": 49,
+  "title": [
+    "[Whistler's Pass, Trail]"
+  ],
+  "description": [
+    "The hills of the pass drop drastically in height as the pass continues to the northeast.  A wind blows through the area, occasionally creating a tornado of fallen leaves.  Nightly moonglow fills the pass.",
+    "The hills drop drastically in height as the pass continues to the northeast.  A wind blows through the area, occasionally creating a tornado of fallen leaves."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "48": "northeast",
     "50": "south"
   },
-  "paths": [
-    "Obvious paths: northeast, south"
-  ],
+  "timeto": {
+    "48": 0.2,
+    "50": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     1090,
     252,
     1100,
     262
   ],
-  "terrain": "grassland",
-  "description": [
-    "The hills of the pass drop drastically in height as the pass continues to the northeast.  A wind blows through the area, occasionally creating a tornado of fallen leaves.  Nightly moonglow fills the pass.",
-    "The hills drop drastically in height as the pass continues to the northeast.  A wind blows through the area, occasionally creating a tornado of fallen leaves."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Whistler's Pass, Trail]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "48": 0.2,
-    "50": 0.2
-  },
-  "id": 49,
-  "location": "Whistler's Pass",
   "tags": [
     "some sovyn clove",
     "some acantha leaf",
@@ -117,10 +114,6 @@
     "white lily",
     "fire lily",
     "nightbloom blossom",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

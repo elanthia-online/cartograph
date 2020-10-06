@@ -1,38 +1,28 @@
 {
+  "id": 8347,
+  "title": [
+    "[Spider Temple, Leg of Acolytes]"
+  ],
+  "description": [
+    "You are at the end of a narrow hallway."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the Spider Temple",
   "wayto": {
     "8348": "go door",
     "8345": "east"
   },
-  "paths": [
-    "Obvious exits: east"
-  ],
+  "timeto": {
+    "8348": 0.2,
+    "8345": 0.2
+  },
+  "image": "wl-spider_temple-1264234799.png",
   "image_coords": [
     354,
     800,
     364,
     810
-  ],
-  "terrain": "indoors",
-  "description": [
-    "You are at the end of a narrow hallway."
-  ],
-  "image": "wl-spider_temple-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Spider Temple, Leg of Acolytes]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8348": 0.2,
-    "8345": 0.2
-  },
-  "id": 8347,
-  "location": "the Spider Temple",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

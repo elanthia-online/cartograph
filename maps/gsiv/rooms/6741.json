@@ -1,33 +1,30 @@
 {
+  "id": 6741,
+  "title": [
+    "[Graendlor Pasture]"
+  ],
+  "description": [
+    "Pesky, foot-tangling alder encroaches upon the pasture, reaching as far as it can from the forest edge.  The lower leaves of the large shrubs have been eaten away by the roaming herds."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "Graendlor Pasture",
   "wayto": {
     "6740": "southeast",
     "6742": "northwest"
   },
-  "paths": [
-    "Obvious paths: southeast, northwest"
-  ],
+  "timeto": {
+    "6740": 0.2,
+    "6742": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     564,
     745,
     574,
     755
   ],
-  "terrain": "rough",
-  "description": [
-    "Pesky, foot-tangling alder encroaches upon the pasture, reaching as far as it can from the forest edge.  The lower leaves of the large shrubs have been eaten away by the roaming herds."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Graendlor Pasture]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6740": 0.2,
-    "6742": 0.2
-  },
-  "id": 6741,
-  "location": "Graendlor Pasture",
   "tags": [
     "pepperthorn root",
     "sprig of larkspur",
@@ -47,21 +44,6 @@
     "handful of elderberries",
     "handful of currants",
     "heath aster",
-    "golden buttercup",
-    "bright red teaberry",
-    "blueberries",
-    "elderberries",
-    "wild grapes",
-    "broken twig",
-    "pink clover blossom",
-    "yellow clover blossom",
-    "stalk of goldenrod",
-    "small wild rose",
-    "motherwort",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "golden buttercup"
   ]
 }

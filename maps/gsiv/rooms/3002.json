@@ -1,33 +1,30 @@
 {
+  "id": 3002,
+  "title": [
+    "[Arctic Tundra, High Plain]"
+  ],
+  "description": [
+    "The mountainside winds down into a deep valley to the east, marred with the debris of many a long ago landslide.  Deep scratch marks in the snow attest to the danger of wandering too far from the well-marked trail."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "the High Plains",
   "wayto": {
     "3003": "west",
     "3001": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, west"
-  ],
+  "timeto": {
+    "3003": 0.2,
+    "3001": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     352,
     1006,
     362,
     1016
   ],
-  "terrain": "mountainous",
-  "description": [
-    "The mountainside winds down into a deep valley to the east, marred with the debris of many a long ago landslide.  Deep scratch marks in the snow attest to the danger of wandering too far from the well-marked trail."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Arctic Tundra, High Plain]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3003": 0.2,
-    "3001": 0.2
-  },
-  "id": 3002,
-  "location": "the High Plains",
   "tags": [
     "snow lily",
     "some arctic moss",
@@ -56,14 +53,6 @@
     "orange rowanberry",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "angelica root",
-    "valerian root",
-    "arctic moss",
-    "tundra grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

@@ -1,33 +1,30 @@
 {
+  "id": 7178,
+  "title": [
+    "[Graveyard, Burial Grounds]"
+  ],
+  "description": [
+    "The scarred and buckled ground slopes sharply to the north and west, forming a narrow path around an inky, stagnant pond.  The dense forest grows to the edge of the pond, where thick moss-covered roots disappear into the rancid water.  The path is muddy and slick where it crosses over the large roots."
+  ],
+  "paths": [
+    "Obvious paths: north, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7177": "north",
     "7179": "west"
   },
-  "paths": [
-    "Obvious paths: north, west"
-  ],
+  "timeto": {
+    "7177": 0.2,
+    "7179": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     491,
     808,
     501,
     818
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "The scarred and buckled ground slopes sharply to the north and west, forming a narrow path around an inky, stagnant pond.  The dense forest grows to the edge of the pond, where thick moss-covered roots disappear into the rancid water.  The path is muddy and slick where it crosses over the large roots."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Graveyard, Burial Grounds]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7177": 0.2,
-    "7179": 0.2
-  },
-  "id": 7178,
-  "location": "the Graveyard",
   "tags": [
     "some cothinar flower",
     "wild strawberry",
@@ -44,10 +41,6 @@
     "broken twig",
     "sprig of wild lilac",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

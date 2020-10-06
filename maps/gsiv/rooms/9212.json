@@ -1,40 +1,30 @@
 {
+  "id": 9212,
+  "title": [
+    "[Thurfel's Cellar]"
+  ],
+  "description": [
+    "Shrieks and shrill howls echo off the walls of the sunken pit, the sounds coming from within one of the cages below.  The screeches are bad enough, but the rhythmic pounding of whatever is trapped within the prison is far more annoying."
+  ],
+  "paths": [
+    "Obvious exits: east, south, west"
+  ],
+  "location": "Thurfel's Island",
   "wayto": {
     "9219": "south",
     "9211": "west",
     "9213": "east"
   },
-  "paths": [
-    "Obvious exits: east, south, west"
-  ],
-  "image_coords": [
-    1198,
-    704,
-    1208,
-    714
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Shrieks and shrill howls echo off the walls of the sunken pit, the sounds coming from within one of the cages below.  The screeches are bad enough, but the rhythmic pounding of whatever is trapped within the prison is far more annoying."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thurfel's Cellar]"
-  ],
-  "check_location": null,
   "timeto": {
     "9219": 0.2,
     "9211": 0.2,
     "9213": 0.2
   },
-  "id": 9212,
-  "location": "Thurfel's Island",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "imt-underground-1264234799.png",
+  "image_coords": [
+    1198,
+    704,
+    1208,
+    714
   ]
 }

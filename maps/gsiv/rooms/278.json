@@ -1,70 +1,39 @@
 {
+  "id": 278,
+  "title": [
+    "[Wehnimer's, The Mews]"
+  ],
+  "description": [
+    "The large, barn-like structure that dominates the north side of the block is the city stable.  Through a ground-floor window can be seen the rows of now-empty stalls in the dark interior.  The pavement just outside is strewn with straw and debris that merits a careful step along this part of the road.  To the west is the main square and its cobblestoned bazaar, where furious trading takes place on a daily basis."
+  ],
+  "paths": [
+    "Obvious paths: north, east, west"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "262": "east",
     "277": "west",
     "279": "north",
     "28256": "go stable"
   },
-  "paths": [
-    "Obvious paths: north, east, west"
-  ],
-  "image_coords": [
-    509,
-    350,
-    545,
-    387
-  ],
-  "terrain": "plain dirt",
-  "description": [
-    "The large, barn-like structure that dominates the north side of the block is the city stable.  Through a ground-floor window can be seen the rows of now-empty stalls in the dark interior.  The pavement just outside is strewn with straw and debris that merits a careful step along this part of the road.  To the west is the main square and its cobblestoned bazaar, where furious trading takes place on a daily basis."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Wehnimer's, The Mews]"
-  ],
-  "check_location": null,
   "timeto": {
     "262": 0.2,
     "277": 0.2,
     "279": 0.2,
     "28256": 0.2
   },
-  "id": 278,
-  "location": "the town of Wehnimer's Landing",
+  "image": "wl-wehnimers-1264234799.png",
+  "image_coords": [
+    509,
+    350,
+    545,
+    387
+  ],
   "tags": [
     "some acantha leaf",
     "small daisy",
     "some calamia fruit",
     "blue whortleberry",
-    "meta:teleport:fwi",
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "small flower",
-    "small rose",
-    "angelica root",
-    "withered black mushroom",
-    "stalk of chicory",
-    "sprig of alyssum",
-    "heath aster",
-    "stalk of goldenrod",
-    "yellow primrose",
-    "small wild rose",
-    "wild carrot",
-    "ginger root",
-    "wild chokecherry",
-    "motherwort",
-    "murkweed",
-    "white baneberry",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:teleport:fwi"
   ]
 }

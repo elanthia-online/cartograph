@@ -1,1 +1,2 @@
-$SILVERWOOD_TOWN=:va;move 'go door'
+$SILVERWOOD_TOWN=:va
+move 'go door'

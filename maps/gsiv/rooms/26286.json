@@ -1,35 +1,28 @@
 {
+  "id": 26286,
+  "title": [
+    "[Lich's Landing, Revenant Road]"
+  ],
+  "description": [
+    "Fresh trails of blood mar the jagged stones of the road here, the crimson tracks snaking off in many directions.  Glowing red eyes peer out of the shadows between buildings and the faint sound of grinding teeth can be heard nearby."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Talador",
   "wayto": {
     "26276": "west",
     "26287": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "26276": 0.2,
+    "26287": 0.2
+  },
+  "image": "wl-lichs_landing-1500800742.png",
   "image_coords": [
     886,
     420,
     912,
     447
-  ],
-  "terrain": null,
-  "description": [
-    "Fresh trails of blood mar the jagged stones of the road here, the crimson tracks snaking off in many directions.  Glowing red eyes peer out of the shadows between buildings and the faint sound of grinding teeth can be heard nearby."
-  ],
-  "image": "wl-lichs_landing-1500800742.png",
-  "climate": null,
-  "title": [
-    "[Lich's Landing, Revenant Road]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26276": 0.2,
-    "26287": 0.2
-  },
-  "id": 26286,
-  "location": "Talador",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

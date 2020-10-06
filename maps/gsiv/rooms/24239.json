@@ -1,37 +1,25 @@
 {
+  "id": 24239,
+  "title": [
+    "[Smuggling Tunnels, Black River]"
+  ],
+  "description": [
+    "Water rushes all around you, swiriling and splashing black liquid to and fro.  The current is particularly strong on the side nearest the open space of the cavern, visibly creating eddies that look as if they might suck you under.  The middle of the river, however, allows you to stay afloat and fight, though not easily, being pulled further downstream.  Opposite the slick rock ledge leading into the cavern, a rockslide rife with boulders and rocks of all sizes leads up to a massive hole in the wall."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Feywrot Mire",
   "wayto": {
     "24236": "jump",
     "24238": "go rockslide",
     "24240": {
-      "stringproc": "b81ba9a04939f011af2c06996355ac54"
+      "file": "string_procs/wayto/24239_24240.rb"
     }
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Water rushes all around you, swiriling and splashing black liquid to and fro.  The current is particularly strong on the side nearest the open space of the cavern, visibly creating eddies that look as if they might suck you under.  The middle of the river, however, allows you to stay afloat and fight, though not easily, being pulled further downstream.  Opposite the slick rock ledge leading into the cavern, a rockslide rife with boulders and rocks of all sizes leads up to a massive hole in the wall."
-  ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Smuggling Tunnels, Black River]"
-  ],
-  "check_location": null,
   "timeto": {
     "24236": 0.2,
     "24238": 0.2,
     "24240": 0.2
-  },
-  "id": 24239,
-  "location": "the Feywrot Mire",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  }
 }

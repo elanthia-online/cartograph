@@ -1,39 +1,32 @@
 {
-  "wayto": {
-    "25971": {
-      "stringproc": "d5fba80dc1c7437649e734294a0335b7"
-    },
-    "25861": {
-      "stringproc": "c172a5e9b6b70746ea0de1624ad40756"
-    }
-  },
+  "id": 25972,
+  "title": [
+    "[Patron Suite, Cold Bath]"
+  ],
+  "description": [
+    "Cold marble floors surround a row of circular pools of still water, their icy temperature chilling the entire chamber.  Tall wooden racks rest in each corner, holding a variety of towels and robes. Light from nearby brass lanterns cast a soft glow in the room."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "the town of Wehnimer's Landing",
+  "wayto": {
+    "25971": {
+      "file": "string_procs/wayto/25972_25971.rb"
+    },
+    "25861": {
+      "file": "string_procs/wayto/25972_25861.rb"
+    }
+  },
+  "timeto": {
+    "25971": 0.2,
+    "25861": 0.3
+  },
+  "image": "wl-stone_baths-1487292814.png",
   "image_coords": [
     505,
     1195,
     647,
     1258
-  ],
-  "terrain": null,
-  "description": [
-    "Cold marble floors surround a row of circular pools of still water, their icy temperature chilling the entire chamber.  Tall wooden racks rest in each corner, holding a variety of towels and robes. Light from nearby brass lanterns cast a soft glow in the room."
-  ],
-  "image": "wl-stone_baths-1487292814.png",
-  "climate": null,
-  "title": [
-    "[Patron Suite, Cold Bath]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "25971": 0.2,
-    "25861": 0.3
-  },
-  "id": 25972,
-  "location": "the town of Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

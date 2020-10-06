@@ -1,40 +1,32 @@
 {
-  "wayto": {
-    "25618": {
-      "stringproc": "bb6788d7b20b73b63828369d6aa36d02"
-    },
-    "25616": {
-      "stringproc": "f317dcd09eed79fd32df87b04b7aa0e6"
-    },
-    "25638": {
-      "stringproc": "2077a73b1fdcf49290835b3b2f6ee914"
-    },
-    "18843": {
-      "stringproc": "b6640d4b53a2403dc3beb1f6e3a3fb9e"
-    },
-    "18842": {
-      "stringproc": "63af1f520b0199f482811b45abb2c26a"
-    }
-  },
-  "paths": [
-    "Obvious paths: north, northeast, east, south, northwest, down"
-  ],
-  "image_coords": [
-    1164,
-    772,
-    1182,
-    790
-  ],
-  "terrain": null,
-  "description": [
-    "A raucous raven call reverberates through the treetops, its point of origin hard to discern.  Directly southeast, a large island splits the flow of the Mistydeep River.  The western branch runs wide, swift, and deep while its other half progresses at a more leisurely pace, skimming small sandy shoals.  On both sides, clear pebbled basins provide hiding places for crafty fish at the river's bottom.  Far above, a dark granite tor rises sharply from the island's heavily-wooded heart."
-  ],
-  "image": "en-ravelin.png",
-  "climate": null,
+  "id": 25617,
   "title": [
     "[Mistydeep, South of Ravelin]"
   ],
-  "check_location": null,
+  "description": [
+    "A raucous raven call reverberates through the treetops, its point of origin hard to discern.  Directly southeast, a large island splits the flow of the Mistydeep River.  The western branch runs wide, swift, and deep while its other half progresses at a more leisurely pace, skimming small sandy shoals.  On both sides, clear pebbled basins provide hiding places for crafty fish at the river's bottom.  Far above, a dark granite tor rises sharply from the island's heavily-wooded heart."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, east, south, northwest, down"
+  ],
+  "location": "the northern reaches of the Mistydeep River",
+  "wayto": {
+    "25618": {
+      "file": "string_procs/wayto/25617_25618.rb"
+    },
+    "25616": {
+      "file": "string_procs/wayto/25617_25616.rb"
+    },
+    "25638": {
+      "file": "string_procs/wayto/25617_25638.rb"
+    },
+    "18843": {
+      "file": "string_procs/wayto/25617_18843.rb"
+    },
+    "18842": {
+      "file": "string_procs/wayto/25617_18842.rb"
+    }
+  },
   "timeto": {
     "25618": 0.2,
     "25616": 0.2,
@@ -42,10 +34,11 @@
     "18843": 0.2,
     "18842": 0.2
   },
-  "id": 25617,
-  "location": "the northern reaches of the Mistydeep River",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  "image": "en-ravelin.png",
+  "image_coords": [
+    1164,
+    772,
+    1182,
+    790
+  ]
 }

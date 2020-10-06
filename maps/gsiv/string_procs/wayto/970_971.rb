@@ -1,1 +1,2 @@
-move 'go fissure'; waitrt?
+move 'go fissure'
+ waitrt?

@@ -1,46 +1,36 @@
 {
-  "wayto": {
-    "6995": "west",
-    "6998": {
-      "stringproc": "70fd6ec5f858a571e8cd7f9378ea781d"
-    }
-  },
+  "id": 6997,
+  "title": [
+    "[Castle Darkstone]"
+  ],
+  "description": [
+    "You are standing before the main gate of a decrepit ruin of stone, which appears to have once been a great fortress.  A moat filled with brackish water and foul smells surrounds the ruin, providing safeguard against intruders."
+  ],
   "paths": [
     "Obvious paths: west"
   ],
+  "location": "Darkstone Castle",
+  "wayto": {
+    "6995": "west",
+    "6998": {
+      "file": "string_procs/wayto/6997_6998.rb"
+    }
+  },
+  "timeto": {
+    "6995": 0.2,
+    "6998": 5.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     185,
     701,
     195,
     711
   ],
-  "terrain": null,
-  "description": [
-    "You are standing before the main gate of a decrepit ruin of stone, which appears to have once been a great fortress.  A moat filled with brackish water and foul smells surrounds the ruin, providing safeguard against intruders."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Castle Darkstone]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6995": 0.2,
-    "6998": 5.2
-  },
-  "id": 6997,
-  "location": "Darkstone Castle",
   "tags": [
     "stalk of chicory",
     "heath aster",
     "sprig of larkspur",
-    "bright red teaberry",
-    "wintergreen leaf",
-    "broken twig",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bright red teaberry"
   ]
 }

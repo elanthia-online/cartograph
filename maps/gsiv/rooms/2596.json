@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "2597": "east",
-    "12208": {
-      "stringproc": "a0576f0215d746452e7afb93c1ee082c"
-    },
-    "2635": {
-      "stringproc": "01b8924575c8d70e4ed7eea7ed00be84"
-    },
-    "12101": {
-      "stringproc": "cf4b8e5b125b22b01c9349827d02c9fd"
-    },
-    "2595": "west"
-  },
+  "id": 2596,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "The granite wall before you is covered in a huge mural of gouges and scratches.  The pattern spreads from the bottom of the wall upwards, branching much like a tree into various parts.  Studying the damage a bit more, you realize it was all very carefully planned, although why isn't immediately apparent."
+  ],
   "paths": [
     "Obvious paths: east, west",
     "Obvious exits: east, west"
   ],
-  "image_coords": [
-    174,
-    726,
-    182,
-    734
-  ],
-  "terrain": null,
-  "description": [
-    "The granite wall before you is covered in a huge mural of gouges and scratches.  The pattern spreads from the bottom of the wall upwards, branching much like a tree into various parts.  Studying the damage a bit more, you realize it was all very carefully planned, although why isn't immediately apparent."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "2597": "east",
+    "12208": {
+      "file": "string_procs/wayto/2596_12208.rb"
+    },
+    "2635": {
+      "file": "string_procs/wayto/2596_2635.rb"
+    },
+    "12101": {
+      "file": "string_procs/wayto/2596_12101.rb"
+    },
+    "2595": "west"
+  },
   "timeto": {
     "2597": 0.2,
     "12208": 22.0,
@@ -39,8 +31,13 @@
     "12101": 26.0,
     "2595": 0.2
   },
-  "id": 2596,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    174,
+    726,
+    182,
+    734
+  ],
   "tags": [
     "mass of congealed slime",
     "rotting bile green fleshbulb",
@@ -50,8 +47,5 @@
     "oozing fleshsore bulb",
     "withered deathblossom",
     "set desc on; peer east =~ /^Climbing a small hill/"
-  ],
-  "links": [
-
   ]
 }

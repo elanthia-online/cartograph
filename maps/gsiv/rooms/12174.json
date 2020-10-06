@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "12152": {
-      "stringproc": "e7b269de45035581300c76daf9e751cf"
-    },
-    "12175": "east",
-    "12089": {
-      "stringproc": "df16ace028c72dba18b51257349345d8"
-    },
-    "2635": {
-      "stringproc": "a5fc698b4e8aaa983aa8f5ad92908980"
-    },
-    "12093": "west"
-  },
+  "id": 12174,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "The sound of hoofbeats approaches rapidly.  When you whirl around, a white horse emerges from the surrounding mist with a black robed figure on its back.  As the horse gallops by, the sound of a blade cutting the air fills your ears, and a burst of wind brushes your neck.  The horseman quickly fades into the mist before you, a scythe the last thing you see as it disappears."
+  ],
   "paths": [
     "Obvious exits: east, west",
     "Obvious paths: east, west"
   ],
-  "image_coords": [
-    160,
-    1006,
-    168,
-    1014
-  ],
-  "terrain": null,
-  "description": [
-    "The sound of hoofbeats approaches rapidly.  When you whirl around, a white horse emerges from the surrounding mist with a black robed figure on its back.  As the horse gallops by, the sound of a blade cutting the air fills your ears, and a burst of wind brushes your neck.  The horseman quickly fades into the mist before you, a scythe the last thing you see as it disappears."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12152": {
+      "file": "string_procs/wayto/12174_12152.rb"
+    },
+    "12175": "east",
+    "12089": {
+      "file": "string_procs/wayto/12174_12089.rb"
+    },
+    "2635": {
+      "file": "string_procs/wayto/12174_2635.rb"
+    },
+    "12093": "west"
+  },
   "timeto": {
     "12152": 21.6,
     "12175": 0.2,
@@ -39,8 +31,13 @@
     "2635": 21.6,
     "12093": 0.2
   },
-  "id": 12174,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    160,
+    1006,
+    168,
+    1014
+  ],
   "tags": [
     "twisted black mawflower",
     "mass of congealed slime",
@@ -49,8 +46,5 @@
     "slime-covered grave blossom",
     "oozing fleshsore bulb",
     "rotting bile green fleshbulb"
-  ],
-  "links": [
-
   ]
 }

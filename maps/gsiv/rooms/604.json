@@ -1,42 +1,32 @@
 {
-  "wayto": {
-    "603": "east",
-    "605": "north",
-    "13254": "go establishment"
-  },
-  "paths": [
-    "Obvious paths: north, east"
+  "id": 604,
+  "title": [
+    "[Ta'Illistim, Glimaer Wey]"
   ],
-  "image_coords": [
-    635,
-    736,
-    659,
-    759
-  ],
-  "terrain": "hard, flat",
   "description": [
     "The wey curves around a tall statue, which stands upon a raised granite platform.  Carved of mica-flecked granite and standing nearly half as high as the city walls, the statue is of an elven archer, his arrow nocked and pointed towards an unseen quarry.  Moonlight sparkles across the mica embedded within the statue's granite form.",
     "The wey curves around a tall statue, which stands upon a raised granite platform.  Carved of mica-flecked granite and standing nearly half as high as the city walls, the statue is of an elven archer, his arrow nocked and pointed towards an unseen quarry.",
     "The wey curves around a tall statue, which stands upon a raised granite platform.  Cast from bronze and standing nearly half as high as the city walls, the statue is of an elven archer and her veercat companion, her arrow nocked and pointed towards an unseen quarry.  Behind her is a small ivory-hued establishment."
   ],
-  "image": "en-ta_illistim-new.jpg",
-  "climate": "temperate",
-  "title": [
-    "[Ta'Illistim, Glimaer Wey]"
+  "paths": [
+    "Obvious paths: north, east"
   ],
-  "check_location": null,
+  "location": "Ta'Illistim",
+  "wayto": {
+    "603": "east",
+    "605": "north",
+    "13254": "go establishment"
+  },
   "timeto": {
     "603": 0.2,
     "605": 0.2,
     "13254": 0.2
   },
-  "id": 604,
-  "location": "Ta'Illistim",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-ta_illistim-new.jpg",
+  "image_coords": [
+    635,
+    736,
+    659,
+    759
   ]
 }

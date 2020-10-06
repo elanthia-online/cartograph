@@ -1,55 +1,35 @@
 {
+  "id": 8438,
+  "title": [
+    "[Upper Trollfang, Sentoph]"
+  ],
+  "description": [
+    "The path winds through a tumble of boulders, jagged rocks ranging between the size of your fist and the size of the Moot Hall in Wehnimer's.  Your range of vision is limited to the next rock, and the trail beneath your feet -- the boulders cut off any sight of the mountain or the slopes, or, in places, even the sky."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "8437": "southeast",
     "8439": "southwest"
   },
-  "paths": [
-    "Obvious paths: southeast, southwest"
-  ],
+  "timeto": {
+    "8437": 0.2,
+    "8439": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     645,
     816,
     655,
     826
   ],
-  "terrain": "mountainous",
-  "description": [
-    "The path winds through a tumble of boulders, jagged rocks ranging between the size of your fist and the size of the Moot Hall in Wehnimer's.  Your range of vision is limited to the next rock, and the trail beneath your feet -- the boulders cut off any sight of the mountain or the slopes, or, in places, even the sky."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Upper Trollfang, Sentoph]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8437": 0.2,
-    "8439": 0.2
-  },
-  "id": 8438,
-  "location": "the Upper Trollfang",
   "tags": [
     "small apple",
     "some wingstem root",
     "some alder bark",
     "sprig of larkspur",
-    "some angelica root",
-    "angelica root",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "yellow primrose",
-    "golden aster",
-    "sprig of holly",
-    "sprig of ivy",
-    "pepperthorn root",
-    "ironfern root",
-    "sunburst blossom",
-    "bolmara lichen",
-    "wingstem root",
-    "alder bark",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some angelica root"
   ]
 }

@@ -1,44 +1,33 @@
 {
+  "id": 7573,
+  "title": [
+    "[Dark Cavern, Tunnels]"
+  ],
+  "description": [
+    "Water drips down the tunnel wall from somewhere above, collecting in a depression at your feet and trickling off to the north as the tunnel slopes slightly down in that direction.  The air is damp, and reeks of the acrid scent that permeates the tunnels."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the dark caverns",
   "wayto": {
     "7572": "south",
     "7574": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "7572": 0.2,
+    "7574": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     117,
     1262,
     127,
     1272
   ],
-  "terrain": "indoors",
-  "description": [
-    "Water drips down the tunnel wall from somewhere above, collecting in a depression at your feet and trickling off to the north as the tunnel slopes slightly down in that direction.  The air is damp, and reeks of the acrid scent that permeates the tunnels."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dark Cavern, Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7572": 0.2,
-    "7574": 0.2
-  },
-  "id": 7573,
-  "location": "the dark caverns",
   "tags": [
     "withered black mushroom",
     "some wingstem root",
-    "some bur-clover root",
-    "cave moss",
-    "murdroot",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some bur-clover root"
   ]
 }

@@ -1,39 +1,31 @@
 {
+  "id": 10990,
+  "title": [
+    "[Relegan's Fletcher Shop]"
+  ],
+  "description": [
+    "Small intertwined branches make up the walls of this small workshop.  Carved from the stump of a haon tree, a counter sits in the middle of the room, partially covered in woodshavings and cut feathers.  Lining the walls are shelves which hold bows and crossbows, a dark curtain situated between two of them."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the town of River's Rest",
   "wayto": {
     "16221": "go curtain",
     "10858": "out"
   },
-  "paths": [
-    "Obvious exits: out"
-  ],
+  "timeto": {
+    "16221": 0.2,
+    "10858": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     13,
     464,
     23,
     474
   ],
-  "terrain": "indoors",
-  "description": [
-    "Small intertwined branches make up the walls of this small workshop.  Carved from the stump of a haon tree, a counter sits in the middle of the room, partially covered in woodshavings and cut feathers.  Lining the walls are shelves which hold bows and crossbows, a dark curtain situated between two of them."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "indoors",
-  "title": [
-    "[Relegan's Fletcher Shop]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "16221": 0.2,
-    "10858": 0.2
-  },
-  "id": 10990,
-  "location": "the town of River's Rest",
   "tags": [
-    "fletcher",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "fletcher"
   ]
 }

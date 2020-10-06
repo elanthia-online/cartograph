@@ -1,49 +1,36 @@
 {
+  "id": 3134,
+  "title": [
+    "[Abandoned Farm, Field]"
+  ],
+  "description": [
+    "An empty and half-collapsed barn provides no cover from the terrible cold here.  A door swings slowly open and shut in the tug of the wind, its dance repetitive and never ceasing.  A massive pile of snow leans up against one of the remaining walls of the structure."
+  ],
+  "paths": [
+    "Obvious paths: north, east, southwest"
+  ],
+  "location": "the Abandoned Farm",
   "wayto": {
     "3127": "north",
     "3152": "southwest",
     "3133": "east"
   },
-  "paths": [
-    "Obvious paths: north, east, southwest"
-  ],
+  "timeto": {
+    "3127": 0.2,
+    "3152": 0.2,
+    "3133": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     948,
     785,
     958,
     795
   ],
-  "terrain": "cultivated",
-  "description": [
-    "An empty and half-collapsed barn provides no cover from the terrible cold here.  A door swings slowly open and shut in the tug of the wind, its dance repetitive and never ceasing.  A massive pile of snow leans up against one of the remaining walls of the structure."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Abandoned Farm, Field]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3127": 0.2,
-    "3152": 0.2,
-    "3133": 0.2
-  },
-  "id": 3134,
-  "location": "the Abandoned Farm",
   "tags": [
     "wavepetal blossom",
     "sweetfern stalk",
     "moonflower",
-    "winter rose",
-    "sassafras leaf",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "ice tulip",
-    "frostflower",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "winter rose"
   ]
 }

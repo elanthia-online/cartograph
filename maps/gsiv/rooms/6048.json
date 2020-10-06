@@ -1,36 +1,33 @@
 {
+  "id": 6048,
+  "title": [
+    "[Yander's Farm, Corn Fields]"
+  ],
+  "description": [
+    "Something is not right with the corn stalks here.  Dark brown growths protrude from the stalks just above the leaves, and the leaves themselves are shot with yellow veins.",
+    "Something is not right with the corn stalks here.  Dark brown growths protrude from the stalks just above the leaves, and the leaves themselves are shot with yellow veins.  The tops of the corn stalks are stunted and twisted.  A few of the growths have broken open to exhibit a black, powdery discharge.  Whatever it is appears to be confined to a few dozen stalks or so, but these must be quickly destroyed before the infection spreads."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast, southwest"
+  ],
+  "location": "Yander's Farm",
   "wayto": {
     "6047": "southwest",
     "6049": "southeast",
     "6045": "north"
   },
-  "paths": [
-    "Obvious paths: north, southeast, southwest"
-  ],
+  "timeto": {
+    "6047": 0.2,
+    "6049": 0.2,
+    "6045": 0.2
+  },
+  "image": "en-victory-1264234799.png",
   "image_coords": [
     346,
     564,
     356,
     574
   ],
-  "terrain": null,
-  "description": [
-    "Something is not right with the corn stalks here.  Dark brown growths protrude from the stalks just above the leaves, and the leaves themselves are shot with yellow veins.",
-    "Something is not right with the corn stalks here.  Dark brown growths protrude from the stalks just above the leaves, and the leaves themselves are shot with yellow veins.  The tops of the corn stalks are stunted and twisted.  A few of the growths have broken open to exhibit a black, powdery discharge.  Whatever it is appears to be confined to a few dozen stalks or so, but these must be quickly destroyed before the infection spreads."
-  ],
-  "image": "en-victory-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Yander's Farm, Corn Fields]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6047": 0.2,
-    "6049": 0.2,
-    "6045": 0.2
-  },
-  "id": 6048,
-  "location": "Yander's Farm",
   "tags": [
     "some sovyn clove",
     "some acantha leaf",
@@ -114,8 +111,5 @@
     "sunburst blossom",
     "brostheras grass",
     "woad leaves"
-  ],
-  "links": [
-
   ]
 }

@@ -1,39 +1,33 @@
 {
+  "id": 17972,
+  "title": [
+    "[Rogue Guild, Offices]"
+  ],
+  "description": [
+    "A single elaborately carved brass oil lamp on the east wall illuminates the hall with a soft glow.  The richly colored tapestries that cover the walls are broken by an opening in the west wall draped with a heavy grey silk curtain.  A pleasing scent of incense and spice wafts in from the arch at the north end of the hall."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the town of Icemule Trace",
   "wayto": {
     "17973": "go arch",
     "17975": "go curtain",
     "17966": "south"
   },
-  "paths": [
-    "Obvious exits: south"
-  ],
+  "timeto": {
+    "17973": 0.2,
+    "17975": 0.2,
+    "17966": 0.2
+  },
+  "image": "imt-rogue_guild-1305438533.png",
   "image_coords": [
     225,
     288,
     255,
     313
   ],
-  "terrain": null,
-  "description": [
-    "A single elaborately carved brass oil lamp on the east wall illuminates the hall with a soft glow.  The richly colored tapestries that cover the walls are broken by an opening in the west wall draped with a heavy grey silk curtain.  A pleasing scent of incense and spice wafts in from the arch at the north end of the hall."
-  ],
-  "image": "imt-rogue_guild-1305438533.png",
-  "climate": null,
-  "title": [
-    "[Rogue Guild, Offices]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "17973": 0.2,
-    "17975": 0.2,
-    "17966": 0.2
-  },
-  "id": 17972,
-  "location": "the town of Icemule Trace",
   "tags": [
     "rogue guild dirt"
-  ],
-  "links": [
-
   ]
 }

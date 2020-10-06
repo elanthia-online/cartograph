@@ -1,33 +1,30 @@
 {
+  "id": 7277,
+  "title": [
+    "[Mild Slope]"
+  ],
+  "description": [
+    "Tall evergreens line the slope, roots digging deeply into the fertile soil.  Thick shrubs line the ground, making walking difficult as you pick your way down the small trail through the plant life.  From nearby you can hear the trickle of running water, and can smell the moisture in the heavy air."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7276": "southeast",
     "7278": "northwest"
   },
-  "paths": [
-    "Obvious paths: southeast, northwest"
-  ],
+  "timeto": {
+    "7276": 0.2,
+    "7278": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     240,
     278,
     248,
     286
   ],
-  "terrain": "missing",
-  "description": [
-    "Tall evergreens line the slope, roots digging deeply into the fertile soil.  Thick shrubs line the ground, making walking difficult as you pick your way down the small trail through the plant life.  From nearby you can hear the trickle of running water, and can smell the moisture in the heavy air."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Mild Slope]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7276": 0.2,
-    "7278": 0.2
-  },
-  "id": 7277,
-  "location": "the Graveyard",
   "tags": [
     "some wolifrew lichen",
     "some acantha leaf",
@@ -73,10 +70,6 @@
     "twisted twig",
     "slender twig",
     "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

@@ -1,39 +1,29 @@
 {
-  "wayto": {
-    "3433": "go arch",
-    "19259": {
-      "stringproc": "9c67b879bf4707717d73b18019baee2c"
-    }
-  },
+  "id": 19258,
+  "title": [
+    "[Blackberry Room]"
+  ],
+  "description": [
+    "A chandelier with black crystal drops hangs in the center of the room.  The light gleaming from the dozens of small candles is reflected back from the smooth, black granite floor.  Plump leather chairs are arranged on either side of a highly polished modwir bookcase."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "wayto": {
+    "3433": "go arch",
+    "19259": {
+      "file": "string_procs/wayto/19258_19259.rb"
+    }
+  },
+  "timeto": {
+    "3433": 0.2,
+    "19259": 0.2
+  },
+  "image": "imt-icemule-1474811966.png",
   "image_coords": [
     494,
     1052,
     528,
     1088
-  ],
-  "terrain": null,
-  "description": [
-    "A chandelier with black crystal drops hangs in the center of the room.  The light gleaming from the dozens of small candles is reflected back from the smooth, black granite floor.  Plump leather chairs are arranged on either side of a highly polished modwir bookcase."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": null,
-  "title": [
-    "[Blackberry Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3433": 0.2,
-    "19259": 0.2
-  },
-  "id": 19258,
-  "location": null,
-  "tags": [
-
-  ],
-  "links": [
-
   ]
 }

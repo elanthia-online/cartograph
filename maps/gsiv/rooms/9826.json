@@ -1,38 +1,28 @@
 {
+  "id": 9826,
+  "title": [
+    "[Maaghara Labyrinth]"
+  ],
+  "description": [
+    "Bumpy walls surround you, their uneven surfaces stained by several small rivulets of water, which trickle down silently.  A few patches of slick mold grow on the sides of the floor, catching the moisture from the tiny streams.  The small collections of green slime shiver slightly at times, though there is no sign of anything that disturbs the glistening lumps."
+  ],
+  "paths": [
+    "Obvious exits: north, southwest"
+  ],
+  "location": "the Maaghara Tower",
   "wayto": {
     "9827": "north",
     "9820": "southwest"
   },
-  "paths": [
-    "Obvious exits: north, southwest"
-  ],
+  "timeto": {
+    "9827": 0.2,
+    "9820": 0.2
+  },
+  "image": "en-tower-1264234799.png",
   "image_coords": [
     1231,
     491,
     1241,
     501
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Bumpy walls surround you, their uneven surfaces stained by several small rivulets of water, which trickle down silently.  A few patches of slick mold grow on the sides of the floor, catching the moisture from the tiny streams.  The small collections of green slime shiver slightly at times, though there is no sign of anything that disturbs the glistening lumps."
-  ],
-  "image": "en-tower-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Maaghara Labyrinth]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9827": 0.2,
-    "9820": 0.2
-  },
-  "id": 9826,
-  "location": "the Maaghara Tower",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

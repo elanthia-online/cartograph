@@ -1,33 +1,30 @@
 {
+  "id": 2274,
+  "title": [
+    "[Abandoned Mine]"
+  ],
+  "description": [
+    "Vaguely defined veins of rainbow glaes peek through the rocky tunnel walls to reflect the fading light from the west.  Given that so much of the precious metal remains, this area must have been newly discovered when the mine abandoned."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Abandoned Mine",
   "wayto": {
     "2273": "west",
     "2275": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "2273": 0.2,
+    "2275": 0.2
+  },
+  "image": "ti-teras-1264234799.png",
   "image_coords": [
     615,
     1081,
     623,
     1089
   ],
-  "terrain": "indoors",
-  "description": [
-    "Vaguely defined veins of rainbow glaes peek through the rocky tunnel walls to reflect the fading light from the west.  Given that so much of the precious metal remains, this area must have been newly discovered when the mine abandoned."
-  ],
-  "image": "ti-teras-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abandoned Mine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2273": 0.2,
-    "2275": 0.2
-  },
-  "id": 2274,
-  "location": "the Abandoned Mine",
   "tags": [
     "blue trafel mushroom",
     "some cave moss",
@@ -39,14 +36,6 @@
     "soft white mushroom",
     "red trafel mushroom",
     "withered black mushroom",
-    "genkew mushroom",
-    "cave moss",
-    "murdroot",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "genkew mushroom"
   ]
 }

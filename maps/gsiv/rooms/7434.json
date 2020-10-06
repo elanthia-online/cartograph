@@ -1,42 +1,31 @@
 {
+  "id": 7434,
+  "title": [
+    "[Mine Tunnels]"
+  ],
+  "description": [
+    "Greyish-white marks blanket the walls here.  Though there is no distinguishable pattern, the markings are reminiscent of bones.  You get an eerie feeling that this tunnel has dug its way into an old boneyard, long buried by time."
+  ],
+  "paths": [
+    "Obvious exits: east, southwest"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7398": "east",
     "7433": "southwest"
   },
-  "paths": [
-    "Obvious exits: east, southwest"
-  ],
+  "timeto": {
+    "7398": 0.2,
+    "7433": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1335,
     189,
     1345,
     199
   ],
-  "terrain": "indoors",
-  "description": [
-    "Greyish-white marks blanket the walls here.  Though there is no distinguishable pattern, the markings are reminiscent of bones.  You get an eerie feeling that this tunnel has dug its way into an old boneyard, long buried by time."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mine Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7398": 0.2,
-    "7433": 0.2
-  },
-  "id": 7434,
-  "location": "the Shadow Valley",
   "tags": [
-    "some cave moss",
-    "cave moss",
-    "blackgrove root",
-    "shadowlace moss",
-    "blue moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

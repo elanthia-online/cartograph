@@ -1,38 +1,28 @@
 {
+  "id": 7114,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "Beetles scuttle back and forth across the floor, a few clinging to the walls and ceiling.  It smells like something is rotting in here, even in the cool of the underground.  The smell gets stronger to the east."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7113": "west",
     "7115": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "7113": 0.2,
+    "7115": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     1068,
     1176,
     1078,
     1186
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Beetles scuttle back and forth across the floor, a few clinging to the walls and ceiling.  It smells like something is rotting in here, even in the cool of the underground.  The smell gets stronger to the east."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7113": 0.2,
-    "7115": 0.2
-  },
-  "id": 7114,
-  "location": "Darkstone Castle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,87 +1,79 @@
 {
+  "id": 1194,
+  "title": [
+    "[Raging Thrak Inn, Dining Room]"
+  ],
+  "description": [
+    "Loud and abusive noises emanate from behind the swinging kitchen doors, much to the laughing delight of some of the customers, and to the chagrin of others.  Tapestries hanging from the walls depict soothing idyllic wildlife scenes.  Hard wooden tables and chairs are placed evenly, allowing enough space for the cook and wait servants to pass."
+  ],
+  "paths": [
+    "Obvious exits: south, southwest"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "17375": {
-      "stringproc": "5823d8a424133387f6005b41ba3a9d14"
+      "file": "string_procs/wayto/1194_17375.rb"
     },
     "3827": {
-      "stringproc": "360d2981d8c5b54cb33938a8e4c8933f"
+      "file": "string_procs/wayto/1194_3827.rb"
     },
     "17091": {
-      "stringproc": "3d33c04c77491f70f69e450c43b9aadb"
+      "file": "string_procs/wayto/1194_17091.rb"
     },
     "3751": {
-      "stringproc": "4c4b4503f44c2b6fd850e3c159c7485f"
+      "file": "string_procs/wayto/1194_3751.rb"
     },
     "8669": {
-      "stringproc": "6bd40fcc00d5a4b50be3eb04702ddd00"
+      "file": "string_procs/wayto/1194_8669.rb"
     },
     "17092": {
-      "stringproc": "83af647005604c68bfa5228856df7659"
+      "file": "string_procs/wayto/1194_17092.rb"
     },
     "3852": {
-      "stringproc": "7ff81f61c2786713377d0fe8dfa7f45b"
+      "file": "string_procs/wayto/1194_3852.rb"
     },
     "17093": {
-      "stringproc": "175dd8e2f15f0c8400ff48cfa2d0377d"
+      "file": "string_procs/wayto/1194_17093.rb"
     },
     "3786": {
-      "stringproc": "e660852f34ed885aa0f4ecf307f3fcd6"
+      "file": "string_procs/wayto/1194_3786.rb"
     },
     "3830": {
-      "stringproc": "e84c2072fbfc742aa09421e2be10a49b"
+      "file": "string_procs/wayto/1194_3830.rb"
     },
     "3808": {
-      "stringproc": "57a300ce938462395c7ac74f5a767306"
+      "file": "string_procs/wayto/1194_3808.rb"
     },
     "3622": {
-      "stringproc": "59530ca77774b5e96456107776d43c79"
+      "file": "string_procs/wayto/1194_3622.rb"
     },
     "1259": "southwest",
     "1195": "south",
     "3854": {
-      "stringproc": "234b54fa4a6aa75a679717d912c4c6ef"
+      "file": "string_procs/wayto/1194_3854.rb"
     },
     "9289": {
-      "stringproc": "cb396eca338044cc308ada7d22e2c6b8"
+      "file": "string_procs/wayto/1194_9289.rb"
     },
     "3909": {
-      "stringproc": "0c1d0b23c9850bf8cbf10bc9130d753a"
+      "file": "string_procs/wayto/1194_3909.rb"
     },
     "9402": {
-      "stringproc": "bf072e0e027624dad14808e3c339c406"
+      "file": "string_procs/wayto/1194_9402.rb"
     },
     "9293": {
-      "stringproc": "c1e51beb456fd5b90cd5744091f9e529"
+      "file": "string_procs/wayto/1194_9293.rb"
     },
     "23268": {
-      "stringproc": "06d165512a60fdd6254c5012e76f8a9e"
+      "file": "string_procs/wayto/1194_23268.rb"
     },
     "3910": {
-      "stringproc": "ac9672bce477e16ec01fa4b58c8ed7bf"
+      "file": "string_procs/wayto/1194_3910.rb"
     },
     "28579": {
-      "stringproc": "65d7697fde0adabc401058fa8172b2a2"
+      "file": "string_procs/wayto/1194_28579.rb"
     }
   },
-  "paths": [
-    "Obvious exits: south, southwest"
-  ],
-  "image_coords": [
-    203,
-    352,
-    233,
-    382
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Loud and abusive noises emanate from behind the swinging kitchen doors, much to the laughing delight of some of the customers, and to the chagrin of others.  Tapestries hanging from the walls depict soothing idyllic wildlife scenes.  Hard wooden tables and chairs are placed evenly, allowing enough space for the cook and wait servants to pass."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Raging Thrak Inn, Dining Room]"
-  ],
-  "check_location": null,
   "timeto": {
     "17375": 0.2,
     "3827": 0.2,
@@ -106,14 +98,14 @@
     "3910": 0.2,
     "28579": 0.2
   },
-  "id": 1194,
-  "location": "Wehnimer's Landing",
-  "tags": [
-    "table",
-    "no forageables",
-    "meta:forage-sensed"
+  "image": "wl-wehnimers-1264234799.png",
+  "image_coords": [
+    203,
+    352,
+    233,
+    382
   ],
-  "links": [
-
+  "tags": [
+    "table"
   ]
 }

@@ -1,56 +1,48 @@
 {
-  "wayto": {
-    "3851": {
-      "stringproc": "a935b274e6e1c128825c78604653a6f6"
-    },
-    "3829": {
-      "stringproc": "4b8a0060cd7f58f6cd12db7548271ae6"
-    },
-    "3610": {
-      "stringproc": "1d0cabc517356e0cedd29697891e0273"
-    },
-    "3611": {
-      "stringproc": "472730b59f136e98f229339c54783be4"
-    },
-    "17083": {
-      "stringproc": "7c2e9902dcea03e2f04066e1c75548aa"
-    },
-    "17084": {
-      "stringproc": "bfa0702f0fe145080565d493ed1ab885"
-    },
-    "17085": {
-      "stringproc": "e39d8942f4aa78c66a188be5fe981475"
-    },
-    "17086": {
-      "stringproc": "d1da79387abd12f7e305bf1558620ba0"
-    },
-    "3626": {
-      "stringproc": "1aac3684bf1094e318270a8dc8418dca"
-    },
-    "17087": {
-      "stringproc": "ac0af9d4dbda71c14ac22973f379a62e"
-    },
-    "2419": "climb staircase"
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": [
-    672,
-    1230,
-    708,
-    1266
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Silver tables and chairs line this balcony, resting on a floor covered with a fine layer of tart crumbs.  A group of dwarves sits at an end table, grumbling about the lack of good ale in Icemule Trace."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "indoors",
+  "id": 3408,
   "title": [
     "[Tartifacts, Balcony]"
   ],
-  "check_location": null,
+  "description": [
+    "Silver tables and chairs line this balcony, resting on a floor covered with a fine layer of tart crumbs.  A group of dwarves sits at an end table, grumbling about the lack of good ale in Icemule Trace."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Icemule Trace",
+  "wayto": {
+    "3851": {
+      "file": "string_procs/wayto/3408_3851.rb"
+    },
+    "3829": {
+      "file": "string_procs/wayto/3408_3829.rb"
+    },
+    "3610": {
+      "file": "string_procs/wayto/3408_3610.rb"
+    },
+    "3611": {
+      "file": "string_procs/wayto/3408_3611.rb"
+    },
+    "17083": {
+      "file": "string_procs/wayto/3408_17083.rb"
+    },
+    "17084": {
+      "file": "string_procs/wayto/3408_17084.rb"
+    },
+    "17085": {
+      "file": "string_procs/wayto/3408_17085.rb"
+    },
+    "17086": {
+      "file": "string_procs/wayto/3408_17086.rb"
+    },
+    "3626": {
+      "file": "string_procs/wayto/3408_3626.rb"
+    },
+    "17087": {
+      "file": "string_procs/wayto/3408_17087.rb"
+    },
+    "2419": "climb staircase"
+  },
   "timeto": {
     "3851": 0.2,
     "3829": 0.2,
@@ -64,14 +56,14 @@
     "17087": 0.2,
     "2419": 0.2
   },
-  "id": 3408,
-  "location": "Icemule Trace",
-  "tags": [
-    "table",
-    "no forageables",
-    "meta:forage-sensed"
+  "image": "imt-icemule-1474811966.png",
+  "image_coords": [
+    672,
+    1230,
+    708,
+    1266
   ],
-  "links": [
-
+  "tags": [
+    "table"
   ]
 }

@@ -1,35 +1,32 @@
 {
+  "id": 2140,
+  "title": [
+    "[Lava Flows, Old Channel]"
+  ],
+  "description": [
+    "An old lava channel forms a ready path through the basalt outcroppings and boulders that the volcano has thrown this far.  To the north, a hillock rises out of the litter of stones, its shoulders strewn with rubble and its top a flat expanse.  A trail zigzags up the incline, punctuated with pockets of lava that decorate the hillock with their flickering red light."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "the volcano",
   "wayto": {
     "2139": "southwest",
     "2141": "east",
     "2154": "climb hill"
   },
-  "paths": [
-    "Obvious paths: east, southwest"
-  ],
+  "timeto": {
+    "2139": 0.2,
+    "2141": 0.2,
+    "2154": 0.2
+  },
+  "image": "ti-vtull-1264234799.png",
   "image_coords": [
     1238,
     516,
     1248,
     526
   ],
-  "terrain": null,
-  "description": [
-    "An old lava channel forms a ready path through the basalt outcroppings and boulders that the volcano has thrown this far.  To the north, a hillock rises out of the litter of stones, its shoulders strewn with rubble and its top a flat expanse.  A trail zigzags up the incline, punctuated with pockets of lava that decorate the hillock with their flickering red light."
-  ],
-  "image": "ti-vtull-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Lava Flows, Old Channel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2139": 0.2,
-    "2141": 0.2,
-    "2154": 0.2
-  },
-  "id": 2140,
-  "location": "the volcano",
   "tags": [
     "pepperthorn root",
     "white poppy",
@@ -40,16 +37,6 @@
     "yellow poppy",
     "cactus flower",
     "blue poppy",
-    "stalk of drakefern",
-    "broken twig",
-    "yellow primrose",
-    "small wild rose",
-    "golden poppy",
-    "red poppy",
-    "purple poppy",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "stalk of drakefern"
   ]
 }

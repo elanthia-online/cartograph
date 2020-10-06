@@ -1,36 +1,33 @@
 {
+  "id": 7255,
+  "title": [
+    "[Wormwood Slough, Boggy Trail]"
+  ],
+  "description": [
+    "Black water seeps from the spongy ground to the south where the path dips.  Blighted trees provide little shade and no color, their limbs greyed by a layer of the same mud that covers everything in sight.  A bedraggled trio of carrion birds squabble over a rancid and unrecognizable meal.",
+    "Black water seeps from the spongy ground to the south where the path dips.  Blighted trees provide no color, their limbs greyed by a layer of the same mud that covers everything in sight.  A bedraggled trio of carrion birds squabble over a rancid and unrecognizable meal."
+  ],
+  "paths": [
+    "Obvious paths: southeast, south, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7265": "south",
     "7254": "southeast",
     "7256": "west"
   },
-  "paths": [
-    "Obvious paths: southeast, south, west"
-  ],
+  "timeto": {
+    "7265": 0.2,
+    "7254": 0.2,
+    "7256": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     107,
     558,
     117,
     568
   ],
-  "terrain": "missing",
-  "description": [
-    "Black water seeps from the spongy ground to the south where the path dips.  Blighted trees provide little shade and no color, their limbs greyed by a layer of the same mud that covers everything in sight.  A bedraggled trio of carrion birds squabble over a rancid and unrecognizable meal.",
-    "Black water seeps from the spongy ground to the south where the path dips.  Blighted trees provide no color, their limbs greyed by a layer of the same mud that covers everything in sight.  A bedraggled trio of carrion birds squabble over a rancid and unrecognizable meal."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "moist",
-  "title": [
-    "[Wormwood Slough, Boggy Trail]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7265": 0.2,
-    "7254": 0.2,
-    "7256": 0.2
-  },
-  "id": 7255,
-  "location": "the Graveyard",
   "tags": [
     "some acantha leaf",
     "some calamia fruit",
@@ -74,10 +71,6 @@
     "slender twig",
     "bolmara lichen",
     "brostheras grass",
-    "walnuts",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "walnuts"
   ]
 }

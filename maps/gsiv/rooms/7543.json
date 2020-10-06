@@ -1,33 +1,30 @@
 {
+  "id": 7543,
+  "title": [
+    "[Catacombs, Muddy Bend]"
+  ],
+  "description": [
+    "Dirt and rock, held together by stout, ancient tree roots, are all that is left of the walls here.  An old cave-in reduced the original tunnel to a mass of jumbled rubble beneath you.  Mud and loose stones line the sides of the passage, and the earthen roof is just high enough for you to stand up.  A thin trickle of glassy water flows eastward and down the rubble pile, from a large chamber just to the north."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "7536": "climb rubble",
     "7544": "north"
   },
-  "paths": [
-    "Obvious exits: north"
-  ],
+  "timeto": {
+    "7536": 0.2,
+    "7544": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     341,
     1289,
     351,
     1299
   ],
-  "terrain": "indoors",
-  "description": [
-    "Dirt and rock, held together by stout, ancient tree roots, are all that is left of the walls here.  An old cave-in reduced the original tunnel to a mass of jumbled rubble beneath you.  Mud and loose stones line the sides of the passage, and the earthen roof is just high enough for you to stand up.  A thin trickle of glassy water flows eastward and down the rubble pile, from a large chamber just to the north."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Catacombs, Muddy Bend]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7536": 0.2,
-    "7544": 0.2
-  },
-  "id": 7543,
-  "location": "the catacombs",
   "tags": [
     "withered black mushroom",
     "some bolmara lichen",
@@ -38,14 +35,6 @@
     "some cave moss",
     "red trafel mushroom",
     "white hook mushroom",
-    "murdroot",
-    "cave moss",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "murdroot"
   ]
 }

@@ -1,39 +1,31 @@
 {
+  "id": 12601,
+  "title": [
+    "[Wind Tunnel]"
+  ],
+  "description": [
+    "The tunnel seems oddly warm here despite the vicious gale ripping in from the sea behind.  From somewhere far ahead a dull red glow pulsates unevenly in the perpetual gloom.  The wind rushes forward anxiously, but perhaps this path was never meant to be taken by mortals."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Dark Palisade",
   "wayto": {
     "12602": "west",
     "12600": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "12602": 0.2,
+    "12600": 0.2
+  },
+  "image": "ti-wilds-1264234799.png",
   "image_coords": [
     898,
     732,
     908,
     742
   ],
-  "terrain": "indoors",
-  "description": [
-    "The tunnel seems oddly warm here despite the vicious gale ripping in from the sea behind.  From somewhere far ahead a dull red glow pulsates unevenly in the perpetual gloom.  The wind rushes forward anxiously, but perhaps this path was never meant to be taken by mortals."
-  ],
-  "image": "ti-wilds-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Wind Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "12602": 0.2,
-    "12600": 0.2
-  },
-  "id": 12601,
-  "location": "the Dark Palisade",
   "tags": [
-    "wind wraith",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wind wraith"
   ]
 }

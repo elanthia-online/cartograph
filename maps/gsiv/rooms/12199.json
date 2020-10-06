@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "12152": {
-      "stringproc": "e7b269de45035581300c76daf9e751cf"
-    },
-    "12198": "west",
-    "12089": {
-      "stringproc": "df16ace028c72dba18b51257349345d8"
-    },
-    "2635": {
-      "stringproc": "a5fc698b4e8aaa983aa8f5ad92908980"
-    },
-    "12200": "east"
-  },
+  "id": 12199,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "Thousands upon thousands of black wings cover the walls, moving restlessly in an almost deafening whisper of feathers.  Eyes wink out from beneath the ebon pinions, glaring malevolently at you before being covered once again."
+  ],
   "paths": [
     "Obvious exits: east, west",
     "Obvious paths: east, west"
   ],
-  "image_coords": [
-    158,
-    1032,
-    168,
-    1042
-  ],
-  "terrain": null,
-  "description": [
-    "Thousands upon thousands of black wings cover the walls, moving restlessly in an almost deafening whisper of feathers.  Eyes wink out from beneath the ebon pinions, glaring malevolently at you before being covered once again."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12152": {
+      "file": "string_procs/wayto/12199_12152.rb"
+    },
+    "12198": "west",
+    "12089": {
+      "file": "string_procs/wayto/12199_12089.rb"
+    },
+    "2635": {
+      "file": "string_procs/wayto/12199_2635.rb"
+    },
+    "12200": "east"
+  },
   "timeto": {
     "12152": 21.6,
     "12198": 0.2,
@@ -39,8 +31,13 @@
     "2635": 21.6,
     "12200": 0.2
   },
-  "id": 12199,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    158,
+    1032,
+    168,
+    1042
+  ],
   "tags": [
     "twisted black mawflower",
     "withered deathblossom",
@@ -49,8 +46,5 @@
     "discolored fleshbinder bud",
     "oozing fleshsore bulb",
     "rotting bile green fleshbulb"
-  ],
-  "links": [
-
   ]
 }

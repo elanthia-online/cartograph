@@ -1,66 +1,37 @@
 {
+  "id": 5517,
+  "title": [
+    "[Ruined Village]"
+  ],
+  "description": [
+    "A door of iron bars lies rusting in the narrow street, making footing a concern.  The door appears to have come from the pile of rubble on the south side of the street, presumably the constabulary.  The building is nothing more than a pile of bricks at this point."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, west"
+  ],
+  "location": "the Outlands",
   "wayto": {
     "5515": "west",
     "5516": "north",
     "5518": "northeast"
   },
-  "paths": [
-    "Obvious paths: north, northeast, west"
-  ],
+  "timeto": {
+    "5515": 0.2,
+    "5516": 0.2,
+    "5518": 0.2
+  },
+  "image": "vo-outlands-1264234799.png",
   "image_coords": [
     834,
     495,
     844,
     505
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "A door of iron bars lies rusting in the narrow street, making footing a concern.  The door appears to have come from the pile of rubble on the south side of the street, presumably the constabulary.  The building is nothing more than a pile of bricks at this point."
-  ],
-  "image": "vo-outlands-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Ruined Village]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5515": 0.2,
-    "5516": 0.2,
-    "5518": 0.2
-  },
-  "id": 5517,
-  "location": "the Outlands",
   "tags": [
     "yellow primrose",
     "ayana'al root",
     "crested basilisk",
     "dobrem",
-    "no-magic",
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "small flower",
-    "small rose",
-    "small daisy",
-    "angelica root",
-    "withered black mushroom",
-    "stalk of chicory",
-    "sprig of alyssum",
-    "heath aster",
-    "stalk of goldenrod",
-    "small wild rose",
-    "wild chokecherry",
-    "motherwort",
-    "white baneberry",
-    "ayana'al leaf",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "no-magic"
   ]
 }

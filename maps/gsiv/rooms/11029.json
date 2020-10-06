@@ -1,33 +1,32 @@
 {
+  "id": 11029,
+  "title": [
+    "[Dense Grove]"
+  ],
+  "description": [
+    "A small pile of stones off to the side of the serpentine path bears notice, the rocks forming what should be an impossible shape.  The foliage on either side of the path is thick enough to daunt even the sharpest falchion, leaving only two directions, forward or back."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast"
+  ],
+  "location": "the South River Road",
+  "climate": "temperate",
+  "terrain": "grassland",
   "wayto": {
     "11028": "north",
     "11030": "southeast"
   },
-  "paths": [
-    "Obvious paths: north, southeast"
-  ],
+  "timeto": {
+    "11028": 0.2,
+    "11030": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     590,
     1030,
     600,
     1040
   ],
-  "terrain": "grassland",
-  "description": [
-    "A small pile of stones off to the side of the serpentine path bears notice, the rocks forming what should be an impossible shape.  The foliage on either side of the path is thick enough to daunt even the sharpest falchion, leaving only two directions, forward or back."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "temperate",
-  "title": [
-    "[Dense Grove]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11028": 0.2,
-    "11030": 0.2
-  },
-  "id": 11029,
-  "location": "the South River Road",
   "tags": [
     "some sovyn clove",
     "some acantha leaf",
@@ -92,13 +91,6 @@
     "murdroot",
     "wavepetal blossom",
     "ironfern root",
-    "sunburst blossom",
-    "trollfear mushroom",
-    "fire lily",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sunburst blossom"
   ]
 }

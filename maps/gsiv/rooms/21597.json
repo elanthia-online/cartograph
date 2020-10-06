@@ -1,40 +1,30 @@
 {
-  "wayto": {
-    "21596": "south",
-    "24322": "north"
-  },
+  "id": 21597,
+  "title": [
+    "[Feymist Cemetery, Briar Thicket]"
+  ],
+  "description": [
+    "An impenetrable briar thicket surrounds you to the west, north, and east, blocking further exploration of this foul smelling mire.  A lone crypt, nearly lost in the mass of briars, is the only structure still standing amidst piles of broken headstones.",
+    "An impenetrable briar thicket surrounds you to the east and west, blocking further exploration of this foul smelling mire.  To the north, the underbrush has been cut back and a narrow pathway can be traversed.  A lone crypt, nearly lost in the mass of briars, is the only structure still standing amidst piles of broken headstones."
+  ],
   "paths": [
     "Obvious paths: south",
     "Obvious paths: north, south"
   ],
+  "location": "the Feymist Cemetery",
+  "wayto": {
+    "21596": "south",
+    "24322": "north"
+  },
+  "timeto": {
+    "21596": 0.2,
+    "24322": 0.2
+  },
+  "image": "fest-ebon_gate-1445214445.png",
   "image_coords": [
     219,
     820,
     227,
     830
-  ],
-  "terrain": null,
-  "description": [
-    "An impenetrable briar thicket surrounds you to the west, north, and east, blocking further exploration of this foul smelling mire.  A lone crypt, nearly lost in the mass of briars, is the only structure still standing amidst piles of broken headstones.",
-    "An impenetrable briar thicket surrounds you to the east and west, blocking further exploration of this foul smelling mire.  To the north, the underbrush has been cut back and a narrow pathway can be traversed.  A lone crypt, nearly lost in the mass of briars, is the only structure still standing amidst piles of broken headstones."
-  ],
-  "image": "fest-ebon_gate-1445214445.png",
-  "climate": null,
-  "title": [
-    "[Feymist Cemetery, Briar Thicket]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "21596": 0.2,
-    "24322": 0.2
-  },
-  "id": 21597,
-  "location": "the Feymist Cemetery",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

@@ -1,33 +1,30 @@
 {
+  "id": 3180,
+  "title": [
+    "[Lower Icemule Forest]"
+  ],
+  "description": [
+    "The trail widens slightly as it continues onward through the forest.  Long icicles dangle from the branches of the bare deciduous trees, occasionally breaking off and shattering on the ground."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast"
+  ],
+  "location": "the southern snowfields",
   "wayto": {
     "3179": "north",
     "3181": "southeast"
   },
-  "paths": [
-    "Obvious paths: north, southeast"
-  ],
+  "timeto": {
+    "3179": 0.2,
+    "3181": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     824,
     1056,
     834,
     1066
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "The trail widens slightly as it continues onward through the forest.  Long icicles dangle from the branches of the bare deciduous trees, occasionally breaking off and shattering on the ground."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Lower Icemule Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3179": 0.2,
-    "3181": 0.2
-  },
-  "id": 3180,
-  "location": "the southern snowfields",
   "tags": [
     "some wolifrew lichen",
     "blue whortleberry",
@@ -64,32 +61,6 @@
     "skeleton",
     "dark apparition",
     "orange rowanberry",
-    "red winterberry",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "sticks",
-    "sassafras leaf",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "winter rose",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "broken twig",
-    "pine needles",
-    "snowberries",
-    "tree bark",
-    "frostflower",
-    "crowberry",
-    "lingonberry",
-    "ironfern root",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "red winterberry"
   ]
 }

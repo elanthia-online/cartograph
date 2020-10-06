@@ -1,41 +1,28 @@
 {
+  "id": 7405,
+  "title": [
+    "[Mine Tunnels]"
+  ],
+  "description": [
+    "A cool chill permeates the tunnel, feeling as if you just walked into the midst of a ghostly presence.  Faint, unidentified echoes and strange sounds enhance the uneasy feeling here."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7403": "southeast",
     "7406": "north"
   },
-  "paths": [
-    "Obvious exits: north, southeast"
-  ],
+  "timeto": {
+    "7403": 0.2,
+    "7406": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1231,
     165,
     1241,
     175
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A cool chill permeates the tunnel, feeling as if you just walked into the midst of a ghostly presence.  Faint, unidentified echoes and strange sounds enhance the uneasy feeling here."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mine Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7403": 0.2,
-    "7406": 0.2
-  },
-  "id": 7405,
-  "location": "the Shadow Valley",
-  "tags": [
-    "cave moss",
-    "blackgrove root",
-    "shadowlace moss",
-    "blue moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,50 +1,36 @@
 {
-  "wayto": {
-    "3994": {
-      "stringproc": "e3de8b74c33aaa72c5c348d6dad7b90c"
-    },
-    "3996": {
-      "stringproc": "79b6aacb07358187764f434021f44bcf"
-    }
-  },
+  "id": 3995,
+  "title": [
+    "[Griffin's Keen, Switchbacks]"
+  ],
+  "description": [
+    "A dark peak looms above, making a blank spot in a field of stars.  The thin air is cold and makes breathing difficult, but it brings such clarity of vision that the diamond bright stars look close enough to touch.",
+    "A black peak looms above, piercing the jewel blue sky.  At your feet, delicate crystalline patterns deep in the black ice make the trail look beautiful rather than dangerous.  In the distance, white peaks shine with diamond clarity."
+  ],
   "paths": [
     "Obvious paths: northeast, southeast"
   ],
+  "location": "Griffin's Keen",
+  "wayto": {
+    "3994": {
+      "file": "string_procs/wayto/3995_3994.rb"
+    },
+    "3996": {
+      "file": "string_procs/wayto/3995_3996.rb"
+    }
+  },
+  "timeto": {
+    "3994": 4.2,
+    "3996": 4.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     789,
     243,
     799,
     253
   ],
-  "terrain": null,
-  "description": [
-    "A dark peak looms above, making a blank spot in a field of stars.  The thin air is cold and makes breathing difficult, but it brings such clarity of vision that the diamond bright stars look close enough to touch.",
-    "A black peak looms above, piercing the jewel blue sky.  At your feet, delicate crystalline patterns deep in the black ice make the trail look beautiful rather than dangerous.  In the distance, white peaks shine with diamond clarity."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Griffin's Keen, Switchbacks]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3994": 4.2,
-    "3996": 4.2
-  },
-  "id": 3995,
-  "location": "Griffin's Keen",
   "tags": [
-    "some valerian root",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "sprig of holly",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some valerian root"
   ]
 }

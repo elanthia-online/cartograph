@@ -1,35 +1,32 @@
 {
+  "id": 8922,
+  "title": [
+    "[Wizard Guild, Workshop]"
+  ],
+  "description": [
+    "The ceiling of the workshop is formed from a solid sheet of blue ice marked with phantasmagorical shapes, but whether they were created by sentient hands or the result of slow melting is impossible to tell.  The glare from the translucent ice above casts a dim, cold blue light on a wide array of alembics, retorts and other materials filling the brass racks that line the walls.  In one corner is a winding brass stairway centered around a solid zorchar rod reaching up through the ceiling."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "8932": "climb stairway",
     "8921": "southeast",
     "8923": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southeast"
-  ],
+  "timeto": {
+    "8932": 0.2,
+    "8921": 0.2,
+    "8923": 0.2
+  },
+  "image": "imt-wizard_guild.png",
   "image_coords": [
     4,
     594,
     53,
     639
   ],
-  "terrain": null,
-  "description": [
-    "The ceiling of the workshop is formed from a solid sheet of blue ice marked with phantasmagorical shapes, but whether they were created by sentient hands or the result of slow melting is impossible to tell.  The glare from the translucent ice above casts a dim, cold blue light on a wide array of alembics, retorts and other materials filling the brass racks that line the walls.  In one corner is a winding brass stairway centered around a solid zorchar rod reaching up through the ceiling."
-  ],
-  "image": "imt-wizard_guild.png",
-  "climate": null,
-  "title": [
-    "[Wizard Guild, Workshop]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8932": 0.2,
-    "8921": 0.2,
-    "8923": 0.2
-  },
-  "id": 8922,
-  "location": "Icemule Trace",
   "tags": [
     "wizard workshop",
     "node",
@@ -37,8 +34,5 @@
     "meta:mapshortname:Wizard Guild (Icemule)",
     "meta:mapcategory:Icemule Trace",
     "meta:mapcategory:Guilds"
-  ],
-  "links": [
-
   ]
 }

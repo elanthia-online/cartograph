@@ -1,48 +1,36 @@
 {
+  "id": 8384,
+  "title": [
+    "[Thanatoph Bowels, Tunnel]"
+  ],
+  "description": [
+    "The sound of muffled shuffling fills the area, the noise random and varying in intensity.  The passageway is partially blocked by a large boulder completely covered with a thick brown fungus."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest, northwest"
+  ],
+  "location": "the bowels of Thanatoph",
   "wayto": {
     "8383": "northwest",
     "8385": "southwest",
     "8388": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast, southwest, northwest"
-  ],
+  "timeto": {
+    "8383": 0.2,
+    "8385": 0.2,
+    "8388": 0.2
+  },
+  "image": "wl-stronghold-1264234799.png",
   "image_coords": [
     1156,
     413,
     1166,
     423
   ],
-  "terrain": "indoors",
-  "description": [
-    "The sound of muffled shuffling fills the area, the noise random and varying in intensity.  The passageway is partially blocked by a large boulder completely covered with a thick brown fungus."
-  ],
-  "image": "wl-stronghold-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thanatoph Bowels, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8383": 0.2,
-    "8385": 0.2,
-    "8388": 0.2
-  },
-  "id": 8384,
-  "location": "the bowels of Thanatoph",
   "tags": [
     "withered black mushroom",
     "some wingstem root",
     "some cave moss",
-    "some wolifrew lichen",
-    "wolifrew lichen",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wolifrew lichen"
   ]
 }

@@ -1,52 +1,35 @@
 {
+  "id": 6399,
+  "title": [
+    "[Blackened Cave, Chamber]"
+  ],
+  "description": [
+    "This giant, underground chamber is filled with stalactites and stalagmites of every size.  The sound of dripping water echoes through the grotto, the water collecting in a shallow pool nearby.  Strange forms of fungi grow everywhere, adding to the otherworldly atmosphere of this place."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest"
+  ],
+  "location": "the Lysierian Hills",
   "wayto": {
     "6400": "southwest",
     "6401": "go stalagmite",
     "6398": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast, southwest"
-  ],
+  "timeto": {
+    "6400": 0.2,
+    "6401": 0.2,
+    "6398": 0.2
+  },
+  "image": "wl-lysierian-1264234799.png",
   "image_coords": [
     414,
     465,
     424,
     475
   ],
-  "terrain": "indoors",
-  "description": [
-    "This giant, underground chamber is filled with stalactites and stalagmites of every size.  The sound of dripping water echoes through the grotto, the water collecting in a shallow pool nearby.  Strange forms of fungi grow everywhere, adding to the otherworldly atmosphere of this place."
-  ],
-  "image": "wl-lysierian-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Blackened Cave, Chamber]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6400": 0.2,
-    "6401": 0.2,
-    "6398": 0.2
-  },
-  "id": 6399,
-  "location": "the Lysierian Hills",
   "tags": [
     "some cave moss",
     "fire rat",
-    "fire cat",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "black trafel mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "fire cat"
   ]
 }

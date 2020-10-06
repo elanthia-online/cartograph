@@ -1,37 +1,34 @@
 {
+  "id": 6152,
+  "title": [
+    "[Hidden Plateau]"
+  ],
+  "description": [
+    "A large outcropping stretches away from the upper slopes, its surface littered with large rocks and scraggly plants.  Half-dead trees sway gently in the near-constant breeze that swirls stiffly across the plain."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "The Hidden Plateau",
   "wayto": {
     "6141": {
-      "stringproc": "0e1983b848a9e5b6084d4c4fee360a27"
+      "file": "string_procs/wayto/6152_6141.rb"
     },
     "6153": "south",
     "6156": "north"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "6141": 0.2,
+    "6153": 0.2,
+    "6156": 0.2
+  },
+  "image": "wl-wehntoph-1310775397.png",
   "image_coords": [
     543,
     818,
     579,
     854
   ],
-  "terrain": null,
-  "description": [
-    "A large outcropping stretches away from the upper slopes, its surface littered with large rocks and scraggly plants.  Half-dead trees sway gently in the near-constant breeze that swirls stiffly across the plain."
-  ],
-  "image": "wl-wehntoph-1310775397.png",
-  "climate": null,
-  "title": [
-    "[Hidden Plateau]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6141": 0.2,
-    "6153": 0.2,
-    "6156": 0.2
-  },
-  "id": 6152,
-  "location": "The Hidden Plateau",
   "tags": [
     "stalk of chicory",
     "wild carrot",
@@ -95,8 +92,5 @@
     "spearmint leaf",
     "blue trafel mushroom",
     "trollfear mushroom"
-  ],
-  "links": [
-
   ]
 }

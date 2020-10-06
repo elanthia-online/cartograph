@@ -1,35 +1,32 @@
 {
+  "id": 5756,
+  "title": [
+    "[Mraent Cavern, Loading Dock]"
+  ],
+  "description": [
+    "A wooden platform contains blocks of marble cut in various shapes and sizes.  A block and tackle system used for moving the heavy stone remains set into the ceiling, though there is no sign of any rope.  Some rail ties have been twisted around a tall pillar of black granite, which appears to have been damaged by the mining cart that lies smashed nearby.  Two rows of holes drilled into the granite floor lead away from the pillar into the low, dark tunnel to the east."
+  ],
+  "paths": [
+    "Obvious exits: north, east, west"
+  ],
+  "location": "the Mraent Caverns",
   "wayto": {
     "5764": "north",
     "5755": "west",
     "5757": "east"
   },
-  "paths": [
-    "Obvious exits: north, east, west"
-  ],
+  "timeto": {
+    "5764": 0.2,
+    "5755": 0.2,
+    "5757": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     330,
     98,
     340,
     108
   ],
-  "terrain": "indoors",
-  "description": [
-    "A wooden platform contains blocks of marble cut in various shapes and sizes.  A block and tackle system used for moving the heavy stone remains set into the ceiling, though there is no sign of any rope.  Some rail ties have been twisted around a tall pillar of black granite, which appears to have been damaged by the mining cart that lies smashed nearby.  Two rows of holes drilled into the granite floor lead away from the pillar into the low, dark tunnel to the east."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mraent Cavern, Loading Dock]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5764": 0.2,
-    "5755": 0.2,
-    "5757": 0.2
-  },
-  "id": 5756,
-  "location": "the Mraent Caverns",
   "tags": [
     "some bolmara lichen",
     "black hook mushroom",
@@ -39,15 +36,6 @@
     "white hook mushroom",
     "blue trafel mushroom",
     "red trafel mushroom",
-    "giant glowing toadstool",
-    "glowing toadstool",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "giant glowing toadstool"
   ]
 }

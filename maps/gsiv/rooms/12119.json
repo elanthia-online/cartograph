@@ -1,42 +1,39 @@
 {
-  "wayto": {
-    "12140": "northwest",
-    "12207": {
-      "stringproc": "e92c9dd14f17f62ccd19f33b9f37fe22"
-    },
-    "12252": "southeast",
-    "12235": {
-      "stringproc": "6257723a0157210f5f1e2eb6e7c5dbb4"
-    }
-  },
+  "id": 12119,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "A knight in black armor rides through a crowd, his black steed prancing with ringing steps.  In his hand he holds a staff, topped with the head of a vanquished foe.  Five footsoldiers march beside him, holding similarly adorned staves.  Despite the hard and cruel expression on the knight's face, the crowd seems to adore him, cheering and throwing dead roses in his path."
+  ],
   "paths": [
     "Obvious paths: southeast, northwest",
     "Obvious exits: southeast, northwest"
   ],
-  "image_coords": [
-    541,
-    1127,
-    551,
-    1137
-  ],
-  "terrain": null,
-  "description": [
-    "A knight in black armor rides through a crowd, his black steed prancing with ringing steps.  In his hand he holds a staff, topped with the head of a vanquished foe.  Five footsoldiers march beside him, holding similarly adorned staves.  Despite the hard and cruel expression on the knight's face, the crowd seems to adore him, cheering and throwing dead roses in his path."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12140": "northwest",
+    "12207": {
+      "file": "string_procs/wayto/12119_12207.rb"
+    },
+    "12252": "southeast",
+    "12235": {
+      "file": "string_procs/wayto/12119_12235.rb"
+    }
+  },
   "timeto": {
     "12140": 0.2,
     "12207": 11.4,
     "12252": 0.2,
     "12235": 11.4
   },
-  "id": 12119,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    541,
+    1127,
+    551,
+    1137
+  ],
   "tags": [
     "withered deathblossom",
     "rotting bile green fleshbulb",
@@ -45,8 +42,5 @@
     "slime-covered grave blossom",
     "discolored fleshbinder bud",
     "oozing fleshsore bulb"
-  ],
-  "links": [
-
   ]
 }

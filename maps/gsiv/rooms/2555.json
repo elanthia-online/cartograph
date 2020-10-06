@@ -1,34 +1,31 @@
 {
+  "id": 2555,
+  "title": [
+    "[Glatoph, Glacier Chasm]"
+  ],
+  "description": [
+    "The icy walls sparkle as rays of light from above reflect off of them, throwing a rainbow of colors down on you.  Off in the distance you can hear the faint sounds of running water.",
+    "The icy walls sparkle as rays of moonlight from above reflect off of them, throwing a rainbow of colors down on you.  Off in the distance you can hear the faint sounds of running water."
+  ],
+  "paths": [
+    "Obvious paths: west, down"
+  ],
+  "location": "the Icemule Trail",
   "wayto": {
     "2554": "down",
     "2556": "west"
   },
-  "paths": [
-    "Obvious paths: west, down"
-  ],
+  "timeto": {
+    "2554": 0.2,
+    "2556": 0.2
+  },
+  "image": "imt-trail-1264234799.png",
   "image_coords": [
     695,
     821,
     705,
     831
   ],
-  "terrain": "mountainous",
-  "description": [
-    "The icy walls sparkle as rays of light from above reflect off of them, throwing a rainbow of colors down on you.  Off in the distance you can hear the faint sounds of running water.",
-    "The icy walls sparkle as rays of moonlight from above reflect off of them, throwing a rainbow of colors down on you.  Off in the distance you can hear the faint sounds of running water."
-  ],
-  "image": "imt-trail-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Glatoph, Glacier Chasm]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2554": 0.2,
-    "2556": 0.2
-  },
-  "id": 2555,
-  "location": "the Icemule Trail",
   "tags": [
     "some angelica root",
     "sassafras leaf",
@@ -58,10 +55,6 @@
     "small loganberry",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

@@ -1,68 +1,65 @@
 {
+  "id": 599,
+  "title": [
+    "[Shimmarglin Inn, Tavern]"
+  ],
+  "description": [
+    "Three shallow steps lead down into a broad depression in the central hall of the inn.  Dominated by a cluster of circular tables and high-backed chairs, the tavern room is alive with the omnipresent sounds of murmuring voices, clanking tankards, and creaking furniture.  The sweet odors of honey mead and berry wine mingle in the air.  Toward the rear of the vast hall, a highly polished wooden staircase ascends to the second floor."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Shimmarglin Inn",
   "wayto": {
     "13211": "go staircase",
     "13212": "go counter",
     "598": "north",
     "26804": {
-      "stringproc": "fde4a0f10d1461836a39a12617644cbd"
+      "file": "string_procs/wayto/599_26804.rb"
     },
     "26805": {
-      "stringproc": "5829f56494dba17b6ade8148e7e03741"
+      "file": "string_procs/wayto/599_26805.rb"
     },
     "626": {
-      "stringproc": "ca778c0ec5227827df110e15498d4562"
+      "file": "string_procs/wayto/599_626.rb"
     },
     "26806": {
-      "stringproc": "c2ffd53833537f4fc55c62c9fce4d34c"
+      "file": "string_procs/wayto/599_26806.rb"
     },
     "26807": {
-      "stringproc": "57c54ce89b1e322829fe05c331783143"
+      "file": "string_procs/wayto/599_26807.rb"
     },
     "13045": {
-      "stringproc": "1c10e24fe8f71cb1c3df1a5577c2b9a6"
+      "file": "string_procs/wayto/599_13045.rb"
     },
     "26808": {
-      "stringproc": "a02e75cc4ffb2b14123a3f5fac50627d"
+      "file": "string_procs/wayto/599_26808.rb"
     },
     "26809": {
-      "stringproc": "02c6eaa32a7e26157001f5c922b6f025"
+      "file": "string_procs/wayto/599_26809.rb"
     },
     "26810": {
-      "stringproc": "fa9496cf64ccf684313675859f097c91"
+      "file": "string_procs/wayto/599_26810.rb"
     },
     "600": {
-      "stringproc": "5e888a1f79d8eef6cdfb6838321e2c03"
+      "file": "string_procs/wayto/599_600.rb"
     },
     "26811": {
-      "stringproc": "b03fff88d30b8583fdaec2ac85936f79"
+      "file": "string_procs/wayto/599_26811.rb"
     },
     "26812": {
-      "stringproc": "ae6358b6888f5b52303b1b291cadaa75"
+      "file": "string_procs/wayto/599_26812.rb"
     },
     "26813": {
-      "stringproc": "212867bdf7693627f5c91676af1081d0"
+      "file": "string_procs/wayto/599_26813.rb"
     },
     "26814": {
-      "stringproc": "3bacc997567b9f03500e17af6bc503e0"
+      "file": "string_procs/wayto/599_26814.rb"
     },
     "26831": {
-      "stringproc": "5f929ca10e2de1f498760d7e1fb4e901"
+      "file": "string_procs/wayto/599_26831.rb"
     }
   },
-  "paths": [
-    "Obvious exits: north"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Three shallow steps lead down into a broad depression in the central hall of the inn.  Dominated by a cluster of circular tables and high-backed chairs, the tavern room is alive with the omnipresent sounds of murmuring voices, clanking tankards, and creaking furniture.  The sweet odors of honey mead and berry wine mingle in the air.  Toward the rear of the vast hall, a highly polished wooden staircase ascends to the second floor."
-  ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Shimmarglin Inn, Tavern]"
-  ],
-  "check_location": null,
   "timeto": {
     "13211": 0.2,
     "13212": 0.2,
@@ -82,13 +79,5 @@
     "26813": 0.2,
     "26814": 0.2,
     "26831": 0.2
-  },
-  "id": 599,
-  "location": "the Shimmarglin Inn",
-  "tags": [
-
-  ],
-  "links": [
-
-  ]
+  }
 }

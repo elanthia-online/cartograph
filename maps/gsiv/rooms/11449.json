@@ -1,46 +1,35 @@
 {
-  "wayto": {
-    "11436": {
-      "stringproc": "311ee2488122f711ecdb848822003512"
-    },
-    "11437": {
-      "stringproc": "e874f03e7b4c2d51bbdcaccf4bb927c8"
-    },
-    "11448": {
-      "stringproc": "6ec0d3f2602af819251801455c03b9d7"
-    }
-  },
-  "paths": [
-    "Obvious paths: north, east, northwest"
-  ],
-  "image_coords": [
-    756,
-    1342,
-    766,
-    1352
-  ],
-  "terrain": "missing",
-  "description": [
-    "The rolling green surface of Maelstrom Bay stretches out westward.  Beyond it, as far as the eye can see, is the great western sea.  Although the water is deep, it's still possible to see the gold-colored sand that forms the riverbed.  To the east is the mouth of the North Fork of the Tempest River, skirting the island of River's Rest.  Tall cliffs line the mainland to the northeast."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "missing",
+  "id": 11449,
   "title": [
     "[Tempest River, North Fork]"
   ],
-  "check_location": null,
+  "description": [
+    "The rolling green surface of Maelstrom Bay stretches out westward.  Beyond it, as far as the eye can see, is the great western sea.  Although the water is deep, it's still possible to see the gold-colored sand that forms the riverbed.  To the east is the mouth of the North Fork of the Tempest River, skirting the island of River's Rest.  Tall cliffs line the mainland to the northeast."
+  ],
+  "paths": [
+    "Obvious paths: north, east, northwest"
+  ],
+  "wayto": {
+    "11436": {
+      "file": "string_procs/wayto/11449_11436.rb"
+    },
+    "11437": {
+      "file": "string_procs/wayto/11449_11437.rb"
+    },
+    "11448": {
+      "file": "string_procs/wayto/11449_11448.rb"
+    }
+  },
   "timeto": {
     "11436": 2.0,
     "11437": 2.0,
     "11448": 2.0
   },
-  "id": 11449,
-  "location": "Maelstrom Bay",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-maelstrom-1266390501.png",
+  "image_coords": [
+    756,
+    1342,
+    766,
+    1352
   ]
 }

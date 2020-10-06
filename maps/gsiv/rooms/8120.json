@@ -1,38 +1,28 @@
 {
+  "id": 8120,
+  "title": [
+    "[Luinne Bheinn, Great Hall]"
+  ],
+  "description": [
+    "A long table surrounded by high-backed chairs dominates the hall.  Carvings decorate much of the wooden surfaces.  Studded targes and crossed weapons adorn the walls.  The weaponry looks well-used and in excellent shape.  A reinforced oaken door leads outside."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Luinne Bheinn",
   "wayto": {
     "8097": "go oaken door",
     "8121": "go haon door"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "8097": 0.2,
+    "8121": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     1052,
     822,
     1062,
     832
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A long table surrounded by high-backed chairs dominates the hall.  Carvings decorate much of the wooden surfaces.  Studded targes and crossed weapons adorn the walls.  The weaponry looks well-used and in excellent shape.  A reinforced oaken door leads outside."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Luinne Bheinn, Great Hall]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8097": 0.2,
-    "8121": 0.2
-  },
-  "id": 8120,
-  "location": "Luinne Bheinn",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

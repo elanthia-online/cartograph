@@ -1,35 +1,28 @@
 {
+  "id": 25934,
+  "title": [
+    "[Sebastian House, Corridor]"
+  ],
+  "description": [
+    "The hallway is warm but austere in design.  Simple iron sconces on the wall provide enough light to distinguish between a white door with a griffin knocker and a black door with a polar bear knocker.  A set of carpeted stairs leads down to the sitting room."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Summit Academy",
   "wayto": {
     "25918": "go stairs",
     "25935": "go white door"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "25918": 0.2,
+    "25935": 0.2
+  },
+  "image": "Spire_Grounds_5117.png",
   "image_coords": [
     318,
     186,
     368,
     238
-  ],
-  "terrain": null,
-  "description": [
-    "The hallway is warm but austere in design.  Simple iron sconces on the wall provide enough light to distinguish between a white door with a griffin knocker and a black door with a polar bear knocker.  A set of carpeted stairs leads down to the sitting room."
-  ],
-  "image": "Spire_Grounds_5117.png",
-  "climate": null,
-  "title": [
-    "[Sebastian House, Corridor]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "25918": 0.2,
-    "25935": 0.2
-  },
-  "id": 25934,
-  "location": "Summit Academy",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

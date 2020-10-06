@@ -1,33 +1,30 @@
 {
+  "id": 11151,
+  "title": [
+    "[Citadel, Outside Stables]"
+  ],
+  "description": [
+    "The building here is quite large, even for a stable, giving a clue as to the number of horses and other animals that were once kept here.  Two large doors are the most dominant features of the building that you can see, obviously leading inside to whatever might still be left in the old stable."
+  ],
+  "paths": [
+    "Obvious paths: southeast"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11149": "go doors",
     "11152": "se"
   },
-  "paths": [
-    "Obvious paths: southeast"
-  ],
+  "timeto": {
+    "11149": 0.2,
+    "11152": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     1143,
     633,
     1153,
     643
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The building here is quite large, even for a stable, giving a clue as to the number of horses and other animals that were once kept here.  Two large doors are the most dominant features of the building that you can see, obviously leading inside to whatever might still be left in the old stable."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "moist",
-  "title": [
-    "[Citadel, Outside Stables]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11149": 0.2,
-    "11152": 0.2
-  },
-  "id": 11151,
-  "location": "the Citadel",
   "tags": [
     "some aloeas stem",
     "some acantha leaf",
@@ -38,18 +35,6 @@
     "some bur-clover root",
     "withered black mushroom",
     "some murkweed",
-    "some wingstem root",
-    "acantha leaf",
-    "calamia fruit",
-    "aloeas stem",
-    "motherwort",
-    "murkweed",
-    "murdroot",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

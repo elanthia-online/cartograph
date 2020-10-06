@@ -1,40 +1,30 @@
 {
+  "id": 11250,
+  "title": [
+    "[Infirmary, Hallway]"
+  ],
+  "description": [
+    "A dusty, brass oil lamp hangs from the ceiling.  Cobwebs clutter the ceiling.  A scattering of wood shavings litter the tiled floor of the hallway and sawdust has accumulated along the walls.  The tracks of tiny insects are visible in the sawdust."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11248": "south",
     "11251": "east",
     "11252": "north"
   },
-  "paths": [
-    "Obvious exits: north, east, south"
-  ],
-  "image_coords": [
-    36,
-    520,
-    46,
-    530
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A dusty, brass oil lamp hangs from the ceiling.  Cobwebs clutter the ceiling.  A scattering of wood shavings litter the tiled floor of the hallway and sawdust has accumulated along the walls.  The tracks of tiny insects are visible in the sawdust."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Infirmary, Hallway]"
-  ],
-  "check_location": null,
   "timeto": {
     "11248": 0.2,
     "11251": 0.2,
     "11252": 0.2
   },
-  "id": 11250,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-citadel-1267238976.png",
+  "image_coords": [
+    36,
+    520,
+    46,
+    530
   ]
 }

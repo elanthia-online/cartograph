@@ -1,35 +1,32 @@
 {
+  "id": 3551,
+  "title": [
+    "[Glatoph, Glacier]"
+  ],
+  "description": [
+    "There is a pronounced slope in the ground here, causing a great deal of slipping and sliding.  To the south the ground evens into a somewhat elevated plateau, although it is difficult to tell with the snow blowing into your face."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south"
+  ],
+  "location": "Glatoph",
   "wayto": {
     "3552": "north",
     "3678": "south",
     "3550": "east"
   },
-  "paths": [
-    "Obvious paths: north, east, south"
-  ],
+  "timeto": {
+    "3552": 0.2,
+    "3678": 0.2,
+    "3550": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     986,
     577,
     996,
     587
   ],
-  "terrain": "mountainous",
-  "description": [
-    "There is a pronounced slope in the ground here, causing a great deal of slipping and sliding.  To the south the ground evens into a somewhat elevated plateau, although it is difficult to tell with the snow blowing into your face."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Glatoph, Glacier]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3552": 0.2,
-    "3678": 0.2,
-    "3550": 0.2
-  },
-  "id": 3551,
-  "location": "Glatoph",
   "tags": [
     "arctic titan",
     "frost giant",
@@ -40,10 +37,6 @@
     "valerian root",
     "pennyroyal stem",
     "sprig of holly",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

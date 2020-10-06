@@ -1,1 +1,0 @@
-move 'crawl staircase';fput 'stand' until standing?

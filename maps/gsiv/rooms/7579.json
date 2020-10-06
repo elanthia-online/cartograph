@@ -1,43 +1,32 @@
 {
+  "id": 7579,
+  "title": [
+    "[Dark Cavern, Dead End]"
+  ],
+  "description": [
+    "The passage ends suddenly here, blocked by a wall of rubble where the tunnel has collapsed.  The glowing greenish lichen that covers the landslide is well-worn in several places as if someone or something had crawled over it many times, and a slight current of fresh air seems to come from above."
+  ],
+  "paths": [
+    "Obvious exits: southeast"
+  ],
+  "location": "the dark caverns",
   "wayto": {
     "292": "go wall of rubble",
     "7578": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast"
-  ],
+  "timeto": {
+    "292": 0.2,
+    "7578": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     64,
     1182,
     74,
     1192
   ],
-  "terrain": "indoors",
-  "description": [
-    "The passage ends suddenly here, blocked by a wall of rubble where the tunnel has collapsed.  The glowing greenish lichen that covers the landslide is well-worn in several places as if someone or something had crawled over it many times, and a slight current of fresh air seems to come from above."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dark Cavern, Dead End]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "292": 0.2,
-    "7578": 0.2
-  },
-  "id": 7579,
-  "location": "the dark caverns",
   "tags": [
     "withered black mushroom",
-    "meta:noteleport:fwi",
-    "cave moss",
-    "murdroot",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:noteleport:fwi"
   ]
 }

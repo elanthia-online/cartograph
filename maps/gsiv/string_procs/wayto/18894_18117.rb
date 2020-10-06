@@ -1,1 +1,2 @@
-fput "go wall";fput "go ship"
+fput "go wall"
+fput "go ship"

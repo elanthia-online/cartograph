@@ -1,66 +1,35 @@
 {
+  "id": 255,
+  "title": [
+    "[Wehnimer's, Dragonsclaw Rd.]"
+  ],
+  "description": [
+    "The road travels roughly parallel to the river's course, skirting the shoreline.  Fishermen, traders, miners, sailors, and townsfolk trek back and forth between the storehouses, shops, docks and offices that constitute the life of Wehnimer's Landing."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "241": "north",
     "307": "south",
     "8795": "go building"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "241": 0.2,
+    "307": 0.2,
+    "8795": 0.2
+  },
+  "image": "wl-wehnimers-1264234799.png",
   "image_coords": [
     896,
     789,
     932,
     825
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The road travels roughly parallel to the river's course, skirting the shoreline.  Fishermen, traders, miners, sailors, and townsfolk trek back and forth between the storehouses, shops, docks and offices that constitute the life of Wehnimer's Landing."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Wehnimer's, Dragonsclaw Rd.]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "241": 0.2,
-    "307": 0.2,
-    "8795": 0.2
-  },
-  "id": 255,
-  "location": "the town of Wehnimer's Landing",
   "tags": [
     "small daisy",
     "pepperthorn root",
-    "some acantha leaf",
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "small flower",
-    "small rose",
-    "angelica root",
-    "withered black mushroom",
-    "stalk of chicory",
-    "sprig of alyssum",
-    "heath aster",
-    "stalk of goldenrod",
-    "yellow primrose",
-    "small wild rose",
-    "wild carrot",
-    "ginger root",
-    "wild chokecherry",
-    "motherwort",
-    "murkweed",
-    "blue whortleberry",
-    "white baneberry",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some acantha leaf"
   ]
 }

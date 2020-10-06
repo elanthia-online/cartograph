@@ -1,38 +1,28 @@
 {
+  "id": 126,
+  "title": [
+    "[Temple Wyneb, Calvaria]"
+  ],
+  "description": [
+    "Scores of small holes perforate the stone walls and, although dusty, they do not appear clogged.  Without knowing exactly what might set off one of these ancient traps, all you can do is proceed with great caution.  The tiniest crack in the floor could bring your life to a premature end."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Temple Wyneb",
   "wayto": {
     "127": "north",
     "125": "south"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "127": 0.2,
+    "125": 0.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     772,
     736,
     782,
     746
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Scores of small holes perforate the stone walls and, although dusty, they do not appear clogged.  Without knowing exactly what might set off one of these ancient traps, all you can do is proceed with great caution.  The tiniest crack in the floor could bring your life to a premature end."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Temple Wyneb, Calvaria]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "127": 0.2,
-    "125": 0.2
-  },
-  "id": 126,
-  "location": "Temple Wyneb",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,33 +1,30 @@
 {
+  "id": 17686,
+  "title": [
+    "[Smuggler's Tunnels, Under River]"
+  ],
+  "description": [
+    "The air, thick with moisture, cools considerably as the tunnel leads downwards into the darkness.  A slow, loud roar fills the tunnel, emanating from its ceiling.  Dim light from the tunnel entrance to the northwest is reflected off of pools of water collected on the tunnel floor, which stir occasionally with unseen inhabitants."
+  ],
+  "paths": [
+    "Obvious exits: southeast"
+  ],
+  "location": "River's Rest",
   "wayto": {
     "17685": "go entrance",
     "17689": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast"
-  ],
+  "timeto": {
+    "17685": 0.2,
+    "17689": 0.2
+  },
+  "image": "rr-warrens-1266380776.png",
   "image_coords": [
     781,
     1291,
     819,
     1329
   ],
-  "terrain": "indoors",
-  "description": [
-    "The air, thick with moisture, cools considerably as the tunnel leads downwards into the darkness.  A slow, loud roar fills the tunnel, emanating from its ceiling.  Dim light from the tunnel entrance to the northwest is reflected off of pools of water collected on the tunnel floor, which stir occasionally with unseen inhabitants."
-  ],
-  "image": "rr-warrens-1266380776.png",
-  "climate": "indoors",
-  "title": [
-    "[Smuggler's Tunnels, Under River]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "17685": 0.2,
-    "17689": 0.2
-  },
-  "id": 17686,
-  "location": "River's Rest",
   "tags": [
     "withered black mushroom",
     "genkew mushroom",
@@ -39,11 +36,6 @@
     "blue trafel mushroom",
     "cave moss",
     "murdroot",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bolmara lichen"
   ]
 }

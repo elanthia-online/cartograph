@@ -1,40 +1,32 @@
 {
-  "wayto": {
-    "3190": "southeast"
-  },
+  "id": 3192,
+  "title": [
+    "[Icemule Mausoleum, Chamber]"
+  ],
+  "description": [
+    "A crack somewhere near the ceiling has allowed melting snow to drip into the room, then freeze again into a glistening curtain of icy beads.  There does not appear to be any other structural damage to the room, despite the unusual drapery."
+  ],
   "paths": [
     "Obvious exits: southeast"
   ],
+  "location": "the southern snowfields",
+  "wayto": {
+    "3190": "southeast"
+  },
+  "timeto": {
+    "3190": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     743,
     1144,
     753,
     1154
   ],
-  "terrain": "indoors",
-  "description": [
-    "A crack somewhere near the ceiling has allowed melting snow to drip into the room, then freeze again into a glistening curtain of icy beads.  There does not appear to be any other structural damage to the room, despite the unusual drapery."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Icemule Mausoleum, Chamber]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3190": 0.2
-  },
-  "id": 3192,
-  "location": "the southern snowfields",
   "tags": [
     "white vysan",
     "skeleton",
     "phantom",
-    "dark apparition",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "dark apparition"
   ]
 }

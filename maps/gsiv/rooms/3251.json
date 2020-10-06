@@ -1,38 +1,28 @@
 {
+  "id": 3251,
+  "title": [
+    "[A Frozen Battlefield]"
+  ],
+  "description": [
+    "Tired grey clouds pass slowly overhead, unable to bring little more than gloom to this barren expanse.  Snow drifts aimlessly about, a few flurries lightly dusting the large stones peeking out from the ice.  Several ruined shields are scattered about, most half-buried in the frost."
+  ],
+  "paths": [
+    "Obvious paths: southwest, west"
+  ],
+  "location": "the Ice Plains",
   "wayto": {
     "3252": "southwest",
     "3253": "go trench"
   },
-  "paths": [
-    "Obvious paths: southwest, west"
-  ],
+  "timeto": {
+    "3252": 0.2,
+    "3253": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     148,
     455,
     158,
     465
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "Tired grey clouds pass slowly overhead, unable to bring little more than gloom to this barren expanse.  Snow drifts aimlessly about, a few flurries lightly dusting the large stones peeking out from the ice.  Several ruined shields are scattered about, most half-buried in the frost."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[A Frozen Battlefield]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3252": 0.2,
-    "3253": 0.2
-  },
-  "id": 3251,
-  "location": "the Ice Plains",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

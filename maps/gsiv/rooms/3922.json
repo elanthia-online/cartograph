@@ -1,38 +1,28 @@
 {
+  "id": 3922,
+  "title": [
+    "[Stronghold, Tunnel]"
+  ],
+  "description": [
+    "The rough tunnel widens, creating a hollow within the mountain.  The bulge, narrowing in each direction, is shaped much like an inverse view of a snake that has swallowed a rat.  Boulders litter the uneven floor and the walls are rendered hazardous by large outcrops of rock.  Here and there, old, decrepit pieces of hammers and picks lie in the jumble of stones, mixing with other debris that time has eroded into unidentifiable rubble."
+  ],
+  "paths": [
+    "Obvious exits: southeast, west"
+  ],
+  "location": "Stone Valley",
   "wayto": {
     "3921": "southeast",
     "3923": "west"
   },
-  "paths": [
-    "Obvious exits: southeast, west"
-  ],
+  "timeto": {
+    "3921": 0.2,
+    "3923": 0.2
+  },
+  "image": "wl-stronghold-1264234799.png",
   "image_coords": [
     640,
     462,
     650,
     472
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The rough tunnel widens, creating a hollow within the mountain.  The bulge, narrowing in each direction, is shaped much like an inverse view of a snake that has swallowed a rat.  Boulders litter the uneven floor and the walls are rendered hazardous by large outcrops of rock.  Here and there, old, decrepit pieces of hammers and picks lie in the jumble of stones, mixing with other debris that time has eroded into unidentifiable rubble."
-  ],
-  "image": "wl-stronghold-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Stronghold, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3921": 0.2,
-    "3923": 0.2
-  },
-  "id": 3922,
-  "location": "Stone Valley",
-  "tags": [
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

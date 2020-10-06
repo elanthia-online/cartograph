@@ -1,47 +1,35 @@
 {
+  "id": 7055,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "A dejected-looking corpse lies slumped in this cramped, V-shaped bend in the passage.  What remains of his rotted clothing is smeared with dark,  reddish-brown stains.  One frail, bony hand still clutches a crudely-made shovel blade, obviously ineffective against the wall of solid rock he encountered here."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7054": "southwest",
     "7056": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast, southwest"
-  ],
+  "timeto": {
+    "7054": 0.2,
+    "7056": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     351,
     763,
     361,
     773
   ],
-  "terrain": "indoors",
-  "description": [
-    "A dejected-looking corpse lies slumped in this cramped, V-shaped bend in the passage.  What remains of his rotted clothing is smeared with dark,  reddish-brown stains.  One frail, bony hand still clutches a crudely-made shovel blade, obviously ineffective against the wall of solid rock he encountered here."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7054": 0.2,
-    "7056": 0.2
-  },
-  "id": 7055,
-  "location": "Darkstone Castle",
   "tags": [
     "some cave moss",
     "withered black mushroom",
     "some wolifrew lichen",
     "roa'ter",
-    "some wingstem root",
-    "wolifrew lichen",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

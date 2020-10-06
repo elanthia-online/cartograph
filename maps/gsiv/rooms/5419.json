@@ -1,41 +1,33 @@
 {
+  "id": 5419,
+  "title": [
+    "[Bonespear Tower, Stairwell]"
+  ],
+  "description": [
+    "Spiral stairs made of braided rib-bones are coiling up out of sight and into the upper reaches of the tower, but there is nothing but darkness and gloom above.  An occasional shriek pierces the eerie calm."
+  ],
+  "paths": [
+    "Obvious exits: south, up"
+  ],
+  "location": "Bonespear Tower",
   "wayto": {
     "5418": "south",
     "5420": "up"
   },
-  "paths": [
-    "Obvious exits: south, up"
-  ],
+  "timeto": {
+    "5418": 0.2,
+    "5420": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     907,
     990,
     917,
     1000
   ],
-  "terrain": "indoors",
-  "description": [
-    "Spiral stairs made of braided rib-bones are coiling up out of sight and into the upper reaches of the tower, but there is nothing but darkness and gloom above.  An occasional shriek pierces the eerie calm."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Bonespear Tower, Stairwell]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5418": 0.2,
-    "5420": 0.2
-  },
-  "id": 5419,
-  "location": "Bonespear Tower",
   "tags": [
     "waern",
     "dybbuk",
-    "eidolon",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "eidolon"
   ]
 }

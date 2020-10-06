@@ -1,42 +1,34 @@
 {
+  "id": 23222,
+  "title": [
+    "[White Haven, Banquet Hall]"
+  ],
+  "description": [
+    "A long black walnut table dominates this hall and is surrounded by matching chairs, each engraved with twining vines along the back.  A sideboard of similar decor provides convenient storage for serving dishes, while a few tables of a more private nature are located near the back of the room.  White arabesque winds across the ceiling, the pattern centering on a twining gold chandelier."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "23632": {
-      "stringproc": "e1594e484f5dca29456306f09e1a9e2e"
+      "file": "string_procs/wayto/23222_23632.rb"
     },
     "23633": {
-      "stringproc": "1e9dc0b9712afe0891f37084bdab263b"
+      "file": "string_procs/wayto/23222_23633.rb"
     },
     "23634": {
-      "stringproc": "b7ac0b436b8624023983a328ce386e1c"
+      "file": "string_procs/wayto/23222_23634.rb"
     },
     "23639": {
-      "stringproc": "e8230e4eaf8562f1257a33519f0ded8f"
+      "file": "string_procs/wayto/23222_23639.rb"
     },
     "23221": "out",
     "23223": "go passageway",
     "23631": {
-      "stringproc": "87f25cab67c2ed1908e74479f8bf03e1"
+      "file": "string_procs/wayto/23222_23631.rb"
     }
   },
-  "paths": [
-    "Obvious exits: out"
-  ],
-  "image_coords": [
-    1442,
-    442,
-    1519,
-    518
-  ],
-  "terrain": null,
-  "description": [
-    "A long black walnut table dominates this hall and is surrounded by matching chairs, each engraved with twining vines along the back.  A sideboard of similar decor provides convenient storage for serving dishes, while a few tables of a more private nature are located near the back of the room.  White arabesque winds across the ceiling, the pattern centering on a twining gold chandelier."
-  ],
-  "image": "imt-WhiteHaven2.png",
-  "climate": null,
-  "title": [
-    "[White Haven, Banquet Hall]"
-  ],
-  "check_location": null,
   "timeto": {
     "23632": 0.2,
     "23633": 0.2,
@@ -46,13 +38,11 @@
     "23223": 0.2,
     "23631": 0.2
   },
-  "id": 23222,
-  "location": "Icemule Trace",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
+  "image": "imt-WhiteHaven2.png",
+  "image_coords": [
+    1442,
+    442,
+    1519,
+    518
   ]
 }

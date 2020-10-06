@@ -1,38 +1,28 @@
 {
+  "id": 8330,
+  "title": [
+    "[Spider Temple, Leg of Volnar]"
+  ],
+  "description": [
+    "This long corridor of a room is spartanly furnished with a single desk and chair.  The walls are covered with murals which depict Arachne in all of her power.  A small curtained area lies roughly southeast."
+  ],
+  "paths": [
+    "Obvious exits: southeast"
+  ],
+  "location": "the Spider Temple",
   "wayto": {
     "8327": "go door",
     "8331": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast"
-  ],
+  "timeto": {
+    "8327": 0.2,
+    "8331": 0.2
+  },
+  "image": "wl-spider_temple-1264234799.png",
   "image_coords": [
     709,
     903,
     719,
     913
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This long corridor of a room is spartanly furnished with a single desk and chair.  The walls are covered with murals which depict Arachne in all of her power.  A small curtained area lies roughly southeast."
-  ],
-  "image": "wl-spider_temple-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Spider Temple, Leg of Volnar]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8327": 0.2,
-    "8331": 0.2
-  },
-  "id": 8330,
-  "location": "the Spider Temple",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

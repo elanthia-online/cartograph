@@ -1,46 +1,33 @@
 {
+  "id": 6464,
+  "title": [
+    "[Lysierian Hills, Lake Shore]"
+  ],
+  "description": [
+    "You are standing at the north end of a long lake.  The water is clear and blue, and looks to be pure and clean.  Looking out across the lake, you can see a tall waterfall at the south end of the lake, cascading down high cliffs to feed the lake.  However, you can see no river or stream carrying the water of the lake away."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, southwest"
+  ],
+  "location": "the Lysierian Hills",
   "wayto": {
     "6465": "southwest",
     "6467": "southeast",
     "6463": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, southeast, southwest"
-  ],
+  "timeto": {
+    "6465": 0.2,
+    "6467": 0.2,
+    "6463": 0.2
+  },
+  "image": "wl-lysierian-1264234799.png",
   "image_coords": [
     281,
     695,
     291,
     705
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "You are standing at the north end of a long lake.  The water is clear and blue, and looks to be pure and clean.  Looking out across the lake, you can see a tall waterfall at the south end of the lake, cascading down high cliffs to feed the lake.  However, you can see no river or stream carrying the water of the lake away."
-  ],
-  "image": "wl-lysierian-1264234799.png",
-  "climate": "freshwater",
-  "title": [
-    "[Lysierian Hills, Lake Shore]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6465": 0.2,
-    "6467": 0.2,
-    "6463": 0.2
-  },
-  "id": 6464,
-  "location": "the Lysierian Hills",
   "tags": [
-    "blue whortleberry",
-    "sticks",
-    "wild gooseberry",
-    "broken twig",
-    "yew twig",
-    "murdroot",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "blue whortleberry"
   ]
 }

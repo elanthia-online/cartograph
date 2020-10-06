@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "12152": {
-      "stringproc": "e7b269de45035581300c76daf9e751cf"
-    },
-    "12176": "west",
-    "12089": {
-      "stringproc": "df16ace028c72dba18b51257349345d8"
-    },
-    "2635": {
-      "stringproc": "a5fc698b4e8aaa983aa8f5ad92908980"
-    },
-    "12178": "east"
-  },
+  "id": 12177,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "Iridescent grey slime crawls over the walls, ceiling and floor, seeming to pulsate and almost breathe.  The air is heavy with moisture, and thick with the scents of jasmine and decay.  Your head swims with the conflicting scents, too sweet to inhale easily and too strong to clear from your lungs fully."
+  ],
   "paths": [
     "Obvious paths: east, west",
     "Obvious exits: east, west"
   ],
-  "image_coords": [
-    240,
-    1005,
-    250,
-    1015
-  ],
-  "terrain": null,
-  "description": [
-    "Iridescent grey slime crawls over the walls, ceiling and floor, seeming to pulsate and almost breathe.  The air is heavy with moisture, and thick with the scents of jasmine and decay.  Your head swims with the conflicting scents, too sweet to inhale easily and too strong to clear from your lungs fully."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12152": {
+      "file": "string_procs/wayto/12177_12152.rb"
+    },
+    "12176": "west",
+    "12089": {
+      "file": "string_procs/wayto/12177_12089.rb"
+    },
+    "2635": {
+      "file": "string_procs/wayto/12177_2635.rb"
+    },
+    "12178": "east"
+  },
   "timeto": {
     "12152": 21.6,
     "12176": 0.2,
@@ -39,8 +31,13 @@
     "2635": 21.6,
     "12178": 0.2
   },
-  "id": 12177,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    240,
+    1005,
+    250,
+    1015
+  ],
   "tags": [
     "twisted black mawflower",
     "mass of congealed slime",
@@ -49,8 +46,5 @@
     "oozing fleshsore bulb",
     "discolored fleshbinder bud",
     "rotting bile green fleshbulb"
-  ],
-  "links": [
-
   ]
 }

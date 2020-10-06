@@ -1,38 +1,28 @@
 {
-  "wayto": {
-    "14674": {
-      "stringproc": "df7ebafa5e8c36265ae5f42cfe4f16d0"
-    }
-  },
+  "id": 22030,
+  "title": [
+    "[Silvergate, Ocean Room]"
+  ],
+  "description": [
+    "Three curving walls of this chamber have been painted with fanciful scenes of merfolk and nymphs sporting among ocean waves and sunswept beaches.  A brilliant sunset depicted on the west wall cleverly frames an arched fireplace.  Midnight blue silk panels, embroidered with tiny silver stars and draped from the ceiling above, sway gently in a warm updraft, creating the illusion of a twinkling night sky.  Centered in the room, a feather bed hangs suspended from the ceiling on cotton ropes."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "Wehnimer's Landing",
+  "wayto": {
+    "14674": {
+      "file": "string_procs/wayto/22030_14674.rb"
+    }
+  },
+  "timeto": {
+    "14674": 3.2
+  },
+  "image": "wl-silvergate_inn-1487242763.png",
   "image_coords": [
     696,
     7,
     751,
     63
-  ],
-  "terrain": null,
-  "description": [
-    "Three curving walls of this chamber have been painted with fanciful scenes of merfolk and nymphs sporting among ocean waves and sunswept beaches.  A brilliant sunset depicted on the west wall cleverly frames an arched fireplace.  Midnight blue silk panels, embroidered with tiny silver stars and draped from the ceiling above, sway gently in a warm updraft, creating the illusion of a twinkling night sky.  Centered in the room, a feather bed hangs suspended from the ceiling on cotton ropes."
-  ],
-  "image": "wl-silvergate_inn-1487242763.png",
-  "climate": null,
-  "title": [
-    "[Silvergate, Ocean Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "14674": 3.2
-  },
-  "id": 22030,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

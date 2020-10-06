@@ -1,38 +1,28 @@
 {
+  "id": 9743,
+  "title": [
+    "[Maaghara Tower, Stair]"
+  ],
+  "description": [
+    "Interior branch-like supports crisscross the tree trunk here.  Hundreds of bats fly through the air, or hang from the branches, squeaking and chittering loudly to themselves.  The distinct odor of bat guano rises from the branches below."
+  ],
+  "paths": [
+    "Obvious exits: northeast, down"
+  ],
+  "location": "Ta'Illistim",
   "wayto": {
     "9742": "down",
     "9744": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, down"
-  ],
+  "timeto": {
+    "9742": 0.2,
+    "9744": 0.2
+  },
+  "image": "en-tower-1264234799.png",
   "image_coords": [
     612,
     492,
     622,
     502
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Interior branch-like supports crisscross the tree trunk here.  Hundreds of bats fly through the air, or hang from the branches, squeaking and chittering loudly to themselves.  The distinct odor of bat guano rises from the branches below."
-  ],
-  "image": "en-tower-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Maaghara Tower, Stair]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9742": 0.2,
-    "9744": 0.2
-  },
-  "id": 9743,
-  "location": "Ta'Illistim",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

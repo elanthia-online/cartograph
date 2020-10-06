@@ -1,53 +1,36 @@
 {
+  "id": 6730,
+  "title": [
+    "[Upper Dragonsclaw, Twisted Path]"
+  ],
+  "description": [
+    "Breathing heavily in the thin cold air, you manuever around a fallen log that blocks the trail.  Dead lichen blankets the log, chewed partly away by some unknown animal.  Winding off to the east, the trail heads higher into the mountains."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest"
+  ],
+  "location": "the Upper Dragonsclaw",
   "wayto": {
     "6729": "southwest",
     "6731": "southeast"
   },
-  "paths": [
-    "Obvious paths: southeast, southwest"
-  ],
+  "timeto": {
+    "6729": 0.2,
+    "6731": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     256,
     847,
     266,
     857
   ],
-  "terrain": "mountainous",
-  "description": [
-    "Breathing heavily in the thin cold air, you manuever around a fallen log that blocks the trail.  Dead lichen blankets the log, chewed partly away by some unknown animal.  Winding off to the east, the trail heads higher into the mountains."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Upper Dragonsclaw, Twisted Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6729": 0.2,
-    "6731": 0.2
-  },
-  "id": 6730,
-  "location": "the Upper Dragonsclaw",
   "tags": [
     "marallis berry",
     "some wingstem root",
     "cuctucae berry",
     "some angelica root",
     "sweetfern stalk",
-    "sunburst blossom",
-    "sassafras leaf",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "sprig of larkspur",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sunburst blossom"
   ]
 }

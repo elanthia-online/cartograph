@@ -1,37 +1,31 @@
 {
+  "id": 19968,
+  "title": [
+    "[Hall of Knowledge, Magic Relics]"
+  ],
+  "description": [
+    "The expanse of green marble floor is interrupted by a long glass-fronted cabinet with several shelves that stands against one pale, cream colored wall.  A velvet-lined display case rests on the opposite wall, its contents glittering in the light of several ensconced candles that dot the room.  In the southeastern corner, a gnarled ebonwood arch offers a limited view of darkness from the next room, while on the southwestern corner a carved modwir door resides beside a large gold-framed painting."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "19966": "go arch",
     "19967": "go door"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "19966": 0.2,
+    "19967": 0.2
+  },
+  "image": "wl-museum-1487435869.png",
   "image_coords": [
     1253,
     253,
     1397,
     316
   ],
-  "terrain": null,
-  "description": [
-    "The expanse of green marble floor is interrupted by a long glass-fronted cabinet with several shelves that stands against one pale, cream colored wall.  A velvet-lined display case rests on the opposite wall, its contents glittering in the light of several ensconced candles that dot the room.  In the southeastern corner, a gnarled ebonwood arch offers a limited view of darkness from the next room, while on the southwestern corner a carved modwir door resides beside a large gold-framed painting."
-  ],
-  "image": "wl-museum-1487435869.png",
-  "climate": null,
-  "title": [
-    "[Hall of Knowledge, Magic Relics]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "19966": 0.2,
-    "19967": 0.2
-  },
-  "id": 19968,
-  "location": "Wehnimer's Landing",
   "tags": [
     "meta:teleport:fwi"
-  ],
-  "links": [
-
   ]
 }

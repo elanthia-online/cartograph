@@ -1,42 +1,32 @@
 {
+  "id": 9174,
+  "title": [
+    "[Thurfel's Keep]"
+  ],
+  "description": [
+    "The amount of workmanship put into the eroded seaglass floor of this entry is mindboggling.  Painstakingly laid with meticulous care, the faded pastel glass forms the mosaic of an overflowing cream-filled tart.  The room itself is quite barren, although smoke and mist can be seen through an archway leading north."
+  ],
+  "paths": [
+    "Obvious exits: north, east, west"
+  ],
+  "location": "Thurfel's Island",
   "wayto": {
     "9163": "go seashells",
     "9175": "north",
     "9176": "east",
     "9188": "west"
   },
-  "paths": [
-    "Obvious exits: north, east, west"
-  ],
-  "image_coords": [
-    766,
-    950,
-    776,
-    960
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The amount of workmanship put into the eroded seaglass floor of this entry is mindboggling.  Painstakingly laid with meticulous care, the faded pastel glass forms the mosaic of an overflowing cream-filled tart.  The room itself is quite barren, although smoke and mist can be seen through an archway leading north."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thurfel's Keep]"
-  ],
-  "check_location": null,
   "timeto": {
     "9163": 0.2,
     "9175": 0.2,
     "9176": 0.2,
     "9188": 0.2
   },
-  "id": 9174,
-  "location": "Thurfel's Island",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "imt-underground-1264234799.png",
+  "image_coords": [
+    766,
+    950,
+    776,
+    960
   ]
 }

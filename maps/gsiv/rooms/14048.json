@@ -1,64 +1,36 @@
 {
+  "id": 14048,
+  "title": [
+    "[Castle Varunar, Outer Ward]"
+  ],
+  "description": [
+    "Scattered about the area you see piles of broken weapons and armor.  Tarnished and nicked from battles past, many crests are represented, both attacker and defender.  Curiously, some items seem to be newer, without rust or stain.  A jumbled pile of shattered shields is pushed against the outer wall, their numbers so many it might represent the life's work of an armorer."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Castle Varunar",
   "wayto": {
     "14047": "north",
     "14049": "south"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "14047": 0.2,
+    "14049": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     486,
     118,
     496,
     128
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "Scattered about the area you see piles of broken weapons and armor.  Tarnished and nicked from battles past, many crests are represented, both attacker and defender.  Curiously, some items seem to be newer, without rust or stain.  A jumbled pile of shattered shields is pushed against the outer wall, their numbers so many it might represent the life's work of an armorer."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Castle Varunar, Outer Ward]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "14047": 0.2,
-    "14049": 0.2
-  },
-  "id": 14048,
-  "location": "Castle Varunar",
   "tags": [
     "some sovyn clove",
     "some acantha leaf",
     "some calamia fruit",
     "some angelica root",
     "heath aster",
-    "some motherwort",
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "small flower",
-    "small rose",
-    "small daisy",
-    "angelica root",
-    "withered black mushroom",
-    "stalk of chicory",
-    "sprig of alyssum",
-    "stalk of goldenrod",
-    "yellow primrose",
-    "small wild rose",
-    "wild chokecherry",
-    "motherwort",
-    "white baneberry",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some motherwort"
   ]
 }

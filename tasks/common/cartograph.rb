@@ -5,7 +5,7 @@ module Cartograph
     File.join Dir.pwd, "tmp", "cartograph.json"
   end
 
-   def self.load_files(files)
+  def self.load_files(files)
     files.map {|file| yield File.read(file)}
   end
 
@@ -15,9 +15,9 @@ module Cartograph
         MapDB.env_dir("rooms"), "**/*.json")]
   end
 
-  def self.load_procs(room, kind)    
+  def self.load_procs(room, kind)
     room[kind].each {|other_id, edge|
-      if edge.is_a?(Hash) && edge["file"]
+      if edge.is_a?(Hash) && (edge["file"] || edge["stringproc"])
         rb_script = File.read MapDB.env_dir(edge["file"])
         room[kind][other_id] = (
           "%s %s" % [MapDB::STRING_PROC_PREAMBLE, rb_script])
@@ -25,7 +25,7 @@ module Cartograph
     }
   end
 
-  def self.export_bundle(compressed: true)
+  def self.export_bundle(pretty: Opts.pretty)
   
     runtime = Benchmark.realtime { 
       cartograph_db = load_files(Cartograph.rooms) {|f| JSON.parse(f) }
@@ -35,9 +35,9 @@ module Cartograph
       }
 
       File.write(cartograph_file, 
-        cartograph_db.to_json)
+        pretty ? JSON.pretty_generate(cartograph_db) : cartograph_db.to_json)
     }
 
-    puts "mapdb bundled in #{runtime}s"
+    puts "mapdb bundled in #{runtime}s to #{cartograph_file}"
   end
 end

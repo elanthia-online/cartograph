@@ -1,41 +1,33 @@
 {
+  "id": 5575,
+  "title": [
+    "[Outlands Manor, Tower]"
+  ],
+  "description": [
+    "Several of the arrow slits along the south wall have been broken in and enlarged by strikes from without.  The walls within this chamber also bear numerous scratches, gouges and chipped blocks, indication that fierce fighting has taken place here on at least one occasion."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, northwest"
+  ],
+  "location": "the Outlands",
   "wayto": {
     "5572": "northwest",
     "5573": "northeast",
     "5574": "north"
   },
-  "paths": [
-    "Obvious exits: north, northeast, northwest"
-  ],
+  "timeto": {
+    "5572": 0.2,
+    "5573": 0.2,
+    "5574": 0.2
+  },
+  "image": "vo-outlands-1264234799.png",
   "image_coords": [
     976,
     184,
     986,
     194
   ],
-  "terrain": "indoors",
-  "description": [
-    "Several of the arrow slits along the south wall have been broken in and enlarged by strikes from without.  The walls within this chamber also bear numerous scratches, gouges and chipped blocks, indication that fierce fighting has taken place here on at least one occasion."
-  ],
-  "image": "vo-outlands-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Outlands Manor, Tower]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5572": 0.2,
-    "5573": 0.2,
-    "5574": 0.2
-  },
-  "id": 5575,
-  "location": "the Outlands",
   "tags": [
-    "dobrem",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "dobrem"
   ]
 }

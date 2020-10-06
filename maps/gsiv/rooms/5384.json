@@ -1,35 +1,32 @@
 {
+  "id": 5384,
+  "title": [
+    "[Vornavian Coast, The Lake]"
+  ],
+  "description": [
+    "The road continues around the lake here, and a smaller path, not as well maintained as the road, branches off to the north.  Ruts in the path indicate not only the passage of wagons, but also the dragging of trees by loggers."
+  ],
+  "paths": [
+    "Obvious paths: north, east, west"
+  ],
+  "location": "the Vornavian Coast",
   "wayto": {
     "5338": "east",
     "5385": "north",
     "5386": "west"
   },
-  "paths": [
-    "Obvious paths: north, east, west"
-  ],
+  "timeto": {
+    "5338": 0.2,
+    "5385": 0.2,
+    "5386": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     1202,
     556,
     1212,
     566
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The road continues around the lake here, and a smaller path, not as well maintained as the road, branches off to the north.  Ruts in the path indicate not only the passage of wagons, but also the dragging of trees by loggers."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Vornavian Coast, The Lake]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5338": 0.2,
-    "5385": 0.2,
-    "5386": 0.2
-  },
-  "id": 5384,
-  "location": "the Vornavian Coast",
   "tags": [
     "pepperthorn root",
     "small rose",
@@ -39,30 +36,6 @@
     "white centaur",
     "tan centaur",
     "roan centaur",
-    "black centaur",
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "small flower",
-    "small daisy",
-    "angelica root",
-    "withered black mushroom",
-    "stalk of chicory",
-    "sprig of alyssum",
-    "heath aster",
-    "stalk of goldenrod",
-    "yellow primrose",
-    "small wild rose",
-    "wild chokecherry",
-    "motherwort",
-    "white baneberry",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "black centaur"
   ]
 }

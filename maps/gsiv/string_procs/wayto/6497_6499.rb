@@ -1,1 +1,2 @@
-fput 'turn brazier'; move 'go door'
+fput 'turn brazier'
+ move 'go door'

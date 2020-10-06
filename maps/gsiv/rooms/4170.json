@@ -1,47 +1,40 @@
 {
+  "id": 4170,
+  "title": [
+    "[Hall of the Dead, Debtors Vault]"
+  ],
+  "description": [
+    "Again you see the dried blood trail.  There is just too much blood on the ground for only one person to have been bleeding.  It looks like the dead were dragged through the area and not carried to their final resting place."
+  ],
+  "paths": [
+    "Obvious exits: north, east, southwest, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "4169": "east",
     "4171": "west",
     "16803": "north",
     "16794": "southwest"
   },
-  "paths": [
-    "Obvious exits: north, east, southwest, west"
-  ],
-  "image_coords": [
-    916,
-    838,
-    926,
-    848
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Again you see the dried blood trail.  There is just too much blood on the ground for only one person to have been bleeding.  It looks like the dead were dragged through the area and not carried to their final resting place."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Hall of the Dead, Debtors Vault]"
-  ],
-  "check_location": null,
   "timeto": {
     "4169": 0.2,
     "4171": 0.2,
     "16803": 0.2,
     "16794": 0.2
   },
-  "id": 4170,
-  "location": "the Graveyard",
+  "image": "wl-graveyard-1264234799.png",
+  "image_coords": [
+    916,
+    838,
+    926,
+    848
+  ],
   "tags": [
     "wolifrew lichen",
     "withered black mushroom",
     "cave moss",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

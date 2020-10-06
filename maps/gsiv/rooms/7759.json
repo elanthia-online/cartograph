@@ -1,101 +1,37 @@
 {
+  "id": 7759,
+  "title": [
+    "[Upper Trollfang]"
+  ],
+  "description": [
+    "Though several of the trees in this area are quite large, one in particular attracts your attention.  It is a magnificent oak standing at least fifty feet taller and considerably larger in diameter than any of the surrounding trees."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, northwest"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "7758": "southeast",
     "7760": "northeast",
     "7765": "northwest",
     "7776": {
-      "stringproc": "b1f31ac100a95cac3c2da2d1a6a53568"
+      "file": "string_procs/wayto/7759_7776.rb"
     }
   },
-  "paths": [
-    "Obvious paths: northeast, southeast, northwest"
-  ],
-  "image_coords": [
-    267,
-    1087,
-    277,
-    1097
-  ],
-  "terrain": "deciduous forest",
-  "description": [
-    "Though several of the trees in this area are quite large, one in particular attracts your attention.  It is a magnificent oak standing at least fifty feet taller and considerably larger in diameter than any of the surrounding trees."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Upper Trollfang]"
-  ],
-  "check_location": null,
   "timeto": {
     "7758": 0.2,
     "7760": 0.2,
     "7765": 0.2,
     "7776": 0.6
   },
-  "id": 7759,
-  "location": "the Upper Trollfang",
-  "tags": [
-    "some haphip root",
-    "acantha leaf",
-    "torban leaf",
-    "calamia fruit",
-    "haphip root",
-    "basal moss",
-    "tkaro root",
-    "sticks",
-    "angelica root",
-    "trollfear mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "blueberries",
-    "elderberries",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "wild grapes",
-    "broken twig",
-    "stalk of bluebells",
-    "golden buttercup",
-    "wild pink geranium",
-    "stalk of goldenrod",
-    "small wild rose",
-    "sprig of wild lilac",
-    "wild beechnut",
-    "stalk of burdock",
-    "ginger root",
-    "wild chokecherry",
-    "wild orchid",
-    "sprig of mistletoe",
-    "tree bark",
-    "murkweed",
-    "white lily",
-    "pink rain lily",
-    "coppery rain lily",
-    "oxblood lily",
-    "kylan berry",
-    "blue whortleberry",
-    "white baneberry",
-    "bloodwood twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "nightbloom blossom",
-    "twisted twig",
-    "slender twig",
-    "ebony twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "walnuts",
-    "alder bark",
-    "meta:forage-sensed"
+  "image": "wl-danjirland-1264234799.png",
+  "image_coords": [
+    267,
+    1087,
+    277,
+    1097
   ],
-  "links": [
-
+  "tags": [
+    "some haphip root"
   ]
 }

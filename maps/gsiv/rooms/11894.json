@@ -1,38 +1,28 @@
 {
+  "id": 11894,
+  "title": [
+    "[Basilica, Lower Level]"
+  ],
+  "description": [
+    "This room appears to have been cut directly out of the dark grey granite from which the outer pyramid was composed.  The room forms a six-pointed star that is slightly rounded at the tips.  At the eastern point of the star a marble staircase spirals out of sight to the floor above you, while at the western point a stairway drops to the floor below."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Old Ta'Faendryl",
   "wayto": {
     "11893": "go stairway",
     "11895": "go staircase"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "11893": 0.2,
+    "11895": 0.2
+  },
+  "image": "en-old_ta_faendryl-1264234799.png",
   "image_coords": [
     1211,
     933,
     1221,
     943
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This room appears to have been cut directly out of the dark grey granite from which the outer pyramid was composed.  The room forms a six-pointed star that is slightly rounded at the tips.  At the eastern point of the star a marble staircase spirals out of sight to the floor above you, while at the western point a stairway drops to the floor below."
-  ],
-  "image": "en-old_ta_faendryl-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Basilica, Lower Level]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11893": 0.2,
-    "11895": 0.2
-  },
-  "id": 11894,
-  "location": "Old Ta'Faendryl",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

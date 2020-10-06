@@ -1,49 +1,41 @@
 {
-  "wayto": {
-    "6236": {
-      "stringproc": "e329a54e3dbeb326477da4635dffd0cd"
-    },
-    "6237": {
-      "stringproc": "d29a5982d6fc1159cd1e7cacac300759"
-    },
-    "6238": {
-      "stringproc": "076f244c5424c9c33608f70312615714"
-    },
-    "6240": {
-      "stringproc": "b6092d22391c07e010d683ed48454fda"
-    },
-    "6239": {
-      "stringproc": "8a49b65a255be1f58b82a86b5a6f73ba"
-    },
-    "6241": {
-      "stringproc": "6384e1b1f45fa52e80b3a9b60dac66c9"
-    },
-    "6243": {
-      "stringproc": "10c8623fee12a7a8ec7e5f34b893c052"
-    },
-    "6244": {
-      "stringproc": "f68cf309cc2ea95bb055f7955dcd2022"
-    }
-  },
-  "paths": [
-    "Obvious exits: north, northeast, east, southeast, south, southwest, west, northwest"
-  ],
-  "image_coords": [
-    1128,
-    645,
-    1146,
-    663
-  ],
-  "terrain": null,
-  "description": [
-    "Large stone pillars cast dark shadows across the walls and floor, forming a net of darkness that has engulfed the room."
-  ],
-  "image": "wl-wehntoph-1310775397.png",
-  "climate": null,
+  "id": 6242,
   "title": [
     "[Labyrinth, The Forge]"
   ],
-  "check_location": null,
+  "description": [
+    "Large stone pillars cast dark shadows across the walls and floor, forming a net of darkness that has engulfed the room."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east, southeast, south, southwest, west, northwest"
+  ],
+  "location": "The Hidden Plateau",
+  "wayto": {
+    "6236": {
+      "file": "string_procs/wayto/6242_6236.rb"
+    },
+    "6237": {
+      "file": "string_procs/wayto/6242_6237.rb"
+    },
+    "6238": {
+      "file": "string_procs/wayto/6242_6238.rb"
+    },
+    "6240": {
+      "file": "string_procs/wayto/6242_6240.rb"
+    },
+    "6239": {
+      "file": "string_procs/wayto/6242_6239.rb"
+    },
+    "6241": {
+      "file": "string_procs/wayto/6242_6241.rb"
+    },
+    "6243": {
+      "file": "string_procs/wayto/6242_6243.rb"
+    },
+    "6244": {
+      "file": "string_procs/wayto/6242_6244.rb"
+    }
+  },
   "timeto": {
     "6236": 0.5,
     "6237": 0.5,
@@ -54,15 +46,17 @@
     "6243": 0.5,
     "6244": 0.5
   },
-  "id": 6242,
-  "location": "The Hidden Plateau",
+  "image": "wl-wehntoph-1310775397.png",
+  "image_coords": [
+    1128,
+    645,
+    1146,
+    663
+  ],
   "tags": [
     "withered black mushroom",
     "black hook mushroom",
     "foe:minotaur warrior",
     "foe:minotaur magus"
-  ],
-  "links": [
-
   ]
 }

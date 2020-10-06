@@ -1,35 +1,32 @@
 {
+  "id": 7281,
+  "title": [
+    "[Slither Creek, South Bank]"
+  ],
+  "description": [
+    "A breeze moves through the area, rippling the surface of the creek.  You can hear it whisper through the forest in the distance, and it seems the trees may be trying to tell you something, if only you could understand what.  The bank slopes easily into the creek, providing you with an easy way to the water."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7296": "go creek",
     "7280": "southwest",
     "7282": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, southwest"
-  ],
+  "timeto": {
+    "7296": 0.2,
+    "7280": 0.2,
+    "7282": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     319,
     224,
     327,
     232
   ],
-  "terrain": "riparian",
-  "description": [
-    "A breeze moves through the area, rippling the surface of the creek.  You can hear it whisper through the forest in the distance, and it seems the trees may be trying to tell you something, if only you could understand what.  The bank slopes easily into the creek, providing you with an easy way to the water."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Slither Creek, South Bank]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7296": 0.2,
-    "7280": 0.2,
-    "7282": 0.2
-  },
-  "id": 7281,
-  "location": "the Graveyard",
   "tags": [
     "some acantha leaf",
     "some ephlox moss",
@@ -55,10 +52,6 @@
     "murdroot",
     "wavepetal blossom",
     "ironfern root",
-    "talneo root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "talneo root"
   ]
 }

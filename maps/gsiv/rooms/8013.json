@@ -1,40 +1,30 @@
 {
+  "id": 8013,
+  "title": [
+    "[Kobold Mines, Crucible]"
+  ],
+  "description": [
+    "This room reeks of hot iron and smoke.  Dominating the cave is a massive crucible set over a firebox of metal and stone.  A stone trough lies on the floor next to the crucible.  A thick layer of soot covers the walls, floor and ceiling except for a pair of iron rails set in the ground leading out of the cavern.  Far overhead, a narrow crack leads to the outside and a constant breeze blows upwards."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "the old Mine Road",
   "wayto": {
     "8008": "go doors",
     "8014": "east",
     "8015": "south"
   },
-  "paths": [
-    "Obvious exits: east, south"
-  ],
-  "image_coords": [
-    159,
-    916,
-    169,
-    926
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This room reeks of hot iron and smoke.  Dominating the cave is a massive crucible set over a firebox of metal and stone.  A stone trough lies on the floor next to the crucible.  A thick layer of soot covers the walls, floor and ceiling except for a pair of iron rails set in the ground leading out of the cavern.  Far overhead, a narrow crack leads to the outside and a constant breeze blows upwards."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Kobold Mines, Crucible]"
-  ],
-  "check_location": null,
   "timeto": {
     "8008": 0.2,
     "8014": 0.2,
     "8015": 0.2
   },
-  "id": 8013,
-  "location": "the old Mine Road",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-mineroad-1264234799.png",
+  "image_coords": [
+    159,
+    916,
+    169,
+    926
   ]
 }

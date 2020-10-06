@@ -1,37 +1,30 @@
 {
+  "id": 17013,
+  "title": [
+    "[Cold Storage]"
+  ],
+  "description": [
+    "Huge blocks of ice are stacked in the southeastern corner of this large room, forming a corridor that leads north then east from here.  Several ice hooks hang on hooks along the wall to aid in moving the blocks of ice."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
   "wayto": {
     "17012": "go door",
     "17045": "down"
   },
-  "paths": [
-    "Obvious exits: down"
-  ],
+  "timeto": {
+    "17012": 0.2,
+    "17045": 0.2
+  },
+  "image": "warrior_guilds-1268684755.png",
   "image_coords": [
     1128,
     194,
     1149,
     216
   ],
-  "terrain": null,
-  "description": [
-    "Huge blocks of ice are stacked in the southeastern corner of this large room, forming a corridor that leads north then east from here.  Several ice hooks hang on hooks along the wall to aid in moving the blocks of ice."
-  ],
-  "image": "warrior_guilds-1268684755.png",
-  "climate": null,
-  "title": [
-    "[Cold Storage]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "17012": 0.2,
-    "17045": 0.2
-  },
-  "id": 17013,
-  "location": null,
   "tags": [
     "warrior guild iceblocks"
-  ],
-  "links": [
-
   ]
 }

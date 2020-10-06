@@ -1,33 +1,26 @@
 {
-  "wayto": {
-    "27019": "go ladder"
-  },
+  "id": 27020,
+  "title": [
+    "[Keep Aenatumgana, Cupola]"
+  ],
+  "description": [
+    "At the peak of the tower, the cupola boasts panoramic moonlit views of Icemule rooftops, the eastern slopes, and mountain peaks to the north.  Cold air and flurries of snow infiltrate wide windows on each of the six sides of the tower.  The only heat comes from candle votives suspended by chains from the mithril roof of the cupola.  Seated at the center of the platform is a large golden telescope trained on a mountain range to the north.  A ladder in the floor provides passage back inside."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "Keep Aenatumgana, outside the glacier-locked town of Icemule Trace",
+  "wayto": {
+    "27019": "go ladder"
+  },
+  "timeto": {
+    "27019": 0.2
+  },
+  "image": "imt-keep-aenatumgana.png",
   "image_coords": [
     452,
     249,
     604,
     352
-  ],
-  "terrain": null,
-  "description": [
-    "At the peak of the tower, the cupola boasts panoramic moonlit views of Icemule rooftops, the eastern slopes, and mountain peaks to the north.  Cold air and flurries of snow infiltrate wide windows on each of the six sides of the tower.  The only heat comes from candle votives suspended by chains from the mithril roof of the cupola.  Seated at the center of the platform is a large golden telescope trained on a mountain range to the north.  A ladder in the floor provides passage back inside."
-  ],
-  "image": "imt-keep-aenatumgana.png",
-  "climate": null,
-  "title": [
-    "[Keep Aenatumgana, Cupola]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "27019": 0.2
-  },
-  "id": 27020,
-  "location": "Keep Aenatumgana, outside the glacier-locked town of Icemule Trace",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

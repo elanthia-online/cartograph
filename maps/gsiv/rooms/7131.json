@@ -1,38 +1,30 @@
 {
-  "wayto": {
-    "7130": "west"
-  },
+  "id": 7131,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "A large amount of rubble lies here, apparently having fallen out of the bottom of the well shaft above you.  Faint trickling noises catch your attention and you look down to notice a fair amount of water running in a streamlet at your feet."
+  ],
   "paths": [
     "Obvious exits: west"
   ],
+  "location": "Darkstone Castle",
+  "wayto": {
+    "7130": "west"
+  },
+  "timeto": {
+    "7130": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     1136,
     362,
     1146,
     372
   ],
-  "terrain": "indoors",
-  "description": [
-    "A large amount of rubble lies here, apparently having fallen out of the bottom of the well shaft above you.  Faint trickling noises catch your attention and you look down to notice a fair amount of water running in a streamlet at your feet."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7130": 0.2
-  },
-  "id": 7131,
-  "location": "Darkstone Castle",
   "tags": [
     "kiramon defender",
-    "kiramon worker",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "kiramon worker"
   ]
 }

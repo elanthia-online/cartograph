@@ -1,44 +1,37 @@
 {
-  "wayto": {
-    "7312": {
-      "stringproc": "dbb83cd44dfa09c098606da6998884eb"
-    },
-    "7314": {
-      "stringproc": "579b97d7765f5dee7dbda71de5badac3"
-    }
-  },
+  "id": 7313,
+  "title": [
+    "[Narrow Tunnel]"
+  ],
+  "description": [
+    "The tunnel continues, seemingly without end, in both directions.  Shadows play off the rough rock walls, causing your eyes to dart about looking for enemies that may or may not be there."
+  ],
   "paths": [
     "Obvious exits: northeast, southwest"
   ],
+  "location": "the Graveyard",
+  "wayto": {
+    "7312": {
+      "file": "string_procs/wayto/7313_7312.rb"
+    },
+    "7314": {
+      "file": "string_procs/wayto/7313_7314.rb"
+    }
+  },
+  "timeto": {
+    "7312": 0.2,
+    "7314": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     888,
     533,
     896,
     540
   ],
-  "terrain": "indoors",
-  "description": [
-    "The tunnel continues, seemingly without end, in both directions.  Shadows play off the rough rock walls, causing your eyes to dart about looking for enemies that may or may not be there."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Narrow Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7312": 0.2,
-    "7314": 0.2
-  },
-  "id": 7313,
-  "location": "the Graveyard",
   "tags": [
     "some wingstem root",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

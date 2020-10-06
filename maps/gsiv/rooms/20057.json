@@ -1,35 +1,26 @@
 {
-  "wayto": {
-    "20638": {
-      "stringproc": "1a7968189da2154e237425ca5c4188ad"
-    },
-    "20056": "go archway"
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "This expansive room is cluttered floor to ceiling with canvas-draped objects that rest in storage.  The timber-braced mortared stone walls are almost completely obscured by piles of artifacts, paintings, statues, and relics that dwell in this subterranean room.  Flickering torches high in the walls cast their light on the covered objects below, and a glimpse of reddish fur peeks out from beneath an askew canvas cover.  An old and musty tapestry hangs on the south wall beside an open archway that leads out of the room."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 20057,
   "title": [
     "[Museum, Basement Storage]"
   ],
-  "check_location": null,
+  "description": [
+    "This expansive room is cluttered floor to ceiling with canvas-draped objects that rest in storage.  The timber-braced mortared stone walls are almost completely obscured by piles of artifacts, paintings, statues, and relics that dwell in this subterranean room.  Flickering torches high in the walls cast their light on the covered objects below, and a glimpse of reddish fur peeks out from beneath an askew canvas cover.  An old and musty tapestry hangs on the south wall beside an open archway that leads out of the room."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "wayto": {
+    "20638": {
+      "file": "string_procs/wayto/20057_20638.rb"
+    },
+    "20056": "go archway"
+  },
   "timeto": {
     "20638": 0.4,
     "20056": 0.2
   },
-  "id": 20057,
-  "location": "Wehnimer's Landing",
   "tags": [
     "meta:teleport:fwi"
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

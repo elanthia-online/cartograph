@@ -1,39 +1,31 @@
 {
+  "id": 7236,
+  "title": [
+    "[Under Barrow, Shaft]"
+  ],
+  "description": [
+    "You pause as you cling to the treacherous handholds to adjust your gear.  Here there is neither light nor any sound save that of your breathing.  Suddenly, your foot slips free of its fragile hold and you scramble frantically for a more secure position and continue onwards, shaken but still alive."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7235": "down",
     "7237": "up"
   },
-  "paths": [
-    "Obvious exits: up, down"
-  ],
+  "timeto": {
+    "7235": 0.2,
+    "7237": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     716,
     562,
     726,
     572
   ],
-  "terrain": "indoors",
-  "description": [
-    "You pause as you cling to the treacherous handholds to adjust your gear.  Here there is neither light nor any sound save that of your breathing.  Suddenly, your foot slips free of its fragile hold and you scramble frantically for a more secure position and continue onwards, shaken but still alive."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Under Barrow, Shaft]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7235": 0.2,
-    "7237": 0.2
-  },
-  "id": 7236,
-  "location": "the Graveyard",
   "tags": [
-    "arch weight",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "arch weight"
   ]
 }

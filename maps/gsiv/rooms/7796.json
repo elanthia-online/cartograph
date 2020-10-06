@@ -1,45 +1,31 @@
 {
+  "id": 7796,
+  "title": [
+    "[Cave, Sharp Bend]"
+  ],
+  "description": [
+    "The passage and room in this part of the cave bends back sharply on itself.  It is as if nature had a change of mind when this cave was being formed."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "7795": "southeast",
     "7797": "southwest"
   },
-  "paths": [
-    "Obvious exits: southeast, southwest"
-  ],
+  "timeto": {
+    "7795": 0.2,
+    "7797": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     173,
     714,
     183,
     724
   ],
-  "terrain": "indoors",
-  "description": [
-    "The passage and room in this part of the cave bends back sharply on itself.  It is as if nature had a change of mind when this cave was being formed."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Cave, Sharp Bend]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7795": 0.2,
-    "7797": 0.2
-  },
-  "id": 7796,
-  "location": "the Upper Trollfang",
   "tags": [
-    "some cave moss",
-    "withered black mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

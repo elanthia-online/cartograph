@@ -1,39 +1,33 @@
 {
-  "wayto": {
-    "6500": "down",
-    "6497": {
-      "stringproc": "d5fba80dc1c7437649e734294a0335b7"
-    }
-  },
+  "id": 6499,
+  "title": [
+    "[Monastery, Spiral Stair]"
+  ],
+  "description": [
+    "A spiral stair has been carved from the stone here.  You cannot see very far down the stair since the sharp curve of the steps quickly leads down and around, out of the line of sight.  The walls are smooth and featureless, and the steps are narrow and deep.  A light sheen of moisture covers everything here, making the stairs look somewhat risky."
+  ],
   "paths": [
     "Obvious exits: down"
   ],
+  "location": "the Lysierian Hills",
+  "wayto": {
+    "6500": "down",
+    "6497": {
+      "file": "string_procs/wayto/6499_6497.rb"
+    }
+  },
+  "timeto": {
+    "6500": 0.2,
+    "6497": 0.2
+  },
+  "image": "wl-lysierian-1264234799.png",
   "image_coords": [
     141,
     979,
     151,
     989
   ],
-  "terrain": null,
-  "description": [
-    "A spiral stair has been carved from the stone here.  You cannot see very far down the stair since the sharp curve of the steps quickly leads down and around, out of the line of sight.  The walls are smooth and featureless, and the steps are narrow and deep.  A light sheen of moisture covers everything here, making the stairs look somewhat risky."
-  ],
-  "image": "wl-lysierian-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Monastery, Spiral Stair]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6500": 0.2,
-    "6497": 0.2
-  },
-  "id": 6499,
-  "location": "the Lysierian Hills",
   "tags": [
     "monastic lich"
-  ],
-  "links": [
-
   ]
 }

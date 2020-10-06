@@ -1,33 +1,30 @@
 {
+  "id": 8137,
+  "title": [
+    "[Dubh Brugh, Cavern]"
+  ],
+  "description": [
+    "Dark shadows hide much of the rough granite surfaces, though it is possible to see small stalactites protruding through the darkness.  An occasional droplet of murky water drips from the canine formations, conjuring up eerie images of a giant's sharp teeth dripping with blood."
+  ],
+  "paths": [
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "Dubh Brugh",
   "wayto": {
     "8136": "northwest",
     "8138": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast, northwest"
-  ],
+  "timeto": {
+    "8136": 0.2,
+    "8138": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     1359,
     803,
     1369,
     813
   ],
-  "terrain": "indoors",
-  "description": [
-    "Dark shadows hide much of the rough granite surfaces, though it is possible to see small stalactites protruding through the darkness.  An occasional droplet of murky water drips from the canine formations, conjuring up eerie images of a giant's sharp teeth dripping with blood."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dubh Brugh, Cavern]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8136": 0.2,
-    "8138": 0.2
-  },
-  "id": 8137,
-  "location": "Dubh Brugh",
   "tags": [
     "genkew mushroom",
     "withered black mushroom",
@@ -35,18 +32,6 @@
     "some wingstem root",
     "some bolmara lichen",
     "soft white mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "daggerstalk mushroom"
   ]
 }

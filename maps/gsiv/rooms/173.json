@@ -1,43 +1,33 @@
 {
-  "wayto": {
-    "24": "northeast",
-    "174": "southwest",
-    "23536": "go gate"
-  },
-  "paths": [
-    "Obvious paths: northeast, southwest"
+  "id": 173,
+  "title": [
+    "[Ta'Illistim, Glaendier Wey]"
   ],
-  "image_coords": [
-    948,
-    819,
-    970,
-    841
-  ],
-  "terrain": "hard, flat",
   "description": [
     "Neatly kept cottages stand on either side of the wey, each clad in the DragonSpine's dark grey granite.  Window boxes of blooming plants and carefully planted dooryards lend a gentle fragrance to the air.  To the southwest, a belltower rears high above the rooftops and city walls.",
     "Neatly kept houses stand on either side of the wey, each clad in perfectly white marble.   Around the columns fronting one home is a mass of climbing roses, the bright green standing out against the building's stone and the plant's own niveous blossoms.  To the southwest, a blue-lit bell tower rears high above the rooftops and city walls, jutting up into the night.",
     "Neatly kept houses stand on either side of the wey, each clad in perfectly white marble.   Around the columns fronting one home is a mass of climbing roses, the bright green standing out against the building's stone and the plant's own niveous blossoms.  To the southwest, a bell tower rears high above the rooftops and city walls, jutting up into the sky.",
     "Neatly kept houses stand to one side of the wey, each clad in perfectly white marble, while a pale grey wall lines the other side interrupted only by a polished mithril gate.  Around the columns fronting one home is a mass of climbing roses, the bright green standing out against the building's stone and the plant's own niveous blossoms.  To the southwest, a blue-lit bell tower rears high above the rooftops and city walls, jutting up into the night."
   ],
-  "image": "en-ta_illistim-new.jpg",
-  "climate": "temperate",
-  "title": [
-    "[Ta'Illistim, Glaendier Wey]"
+  "paths": [
+    "Obvious paths: northeast, southwest"
   ],
-  "check_location": null,
+  "location": "Ta'Illistim",
+  "wayto": {
+    "24": "northeast",
+    "174": "southwest",
+    "23536": "go gate"
+  },
   "timeto": {
     "24": 0.2,
     "174": 0.2,
     "23536": 0.2
   },
-  "id": 173,
-  "location": "Ta'Illistim",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-ta_illistim-new.jpg",
+  "image_coords": [
+    948,
+    819,
+    970,
+    841
   ]
 }

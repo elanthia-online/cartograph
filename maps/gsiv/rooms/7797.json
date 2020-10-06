@@ -1,45 +1,31 @@
 {
+  "id": 7797,
+  "title": [
+    "[Cave, Root Room]"
+  ],
+  "description": [
+    "A large clump of roots hangs from the ceiling of this room.  Apparently this chamber is relatively close to the surface."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "7796": "northeast",
     "7798": "southwest"
   },
-  "paths": [
-    "Obvious exits: northeast, southwest"
-  ],
+  "timeto": {
+    "7796": 0.2,
+    "7798": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     147,
     740,
     157,
     750
   ],
-  "terrain": "indoors",
-  "description": [
-    "A large clump of roots hangs from the ceiling of this room.  Apparently this chamber is relatively close to the surface."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Cave, Root Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7796": 0.2,
-    "7798": 0.2
-  },
-  "id": 7797,
-  "location": "the Upper Trollfang",
   "tags": [
-    "some cave moss",
-    "withered black mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

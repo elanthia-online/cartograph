@@ -1,35 +1,28 @@
 {
+  "id": 26249,
+  "title": [
+    "[Lich's Landing, Corpse Row]"
+  ],
+  "description": [
+    "The gruesome road bends slightly here, stretching more to an angle.  Despite the curve, the ghastly display of horrific bodies remains intact."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south"
+  ],
+  "location": "Talador",
   "wayto": {
     "26248": "south",
     "26250": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, south"
-  ],
+  "timeto": {
+    "26248": 0.2,
+    "26250": 0.2
+  },
+  "image": "wl-lichs_landing-1500800742.png",
   "image_coords": [
     282,
     338,
     308,
     364
-  ],
-  "terrain": null,
-  "description": [
-    "The gruesome road bends slightly here, stretching more to an angle.  Despite the curve, the ghastly display of horrific bodies remains intact."
-  ],
-  "image": "wl-lichs_landing-1500800742.png",
-  "climate": null,
-  "title": [
-    "[Lich's Landing, Corpse Row]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26248": 0.2,
-    "26250": 0.2
-  },
-  "id": 26249,
-  "location": "Talador",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

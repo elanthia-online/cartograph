@@ -1,35 +1,32 @@
 {
+  "id": 7182,
+  "title": [
+    "[Graveyard, Burial Grounds]"
+  ],
+  "description": [
+    "Leading around uprooted headstones and mounds of overturned earth, a faint trail winds through the grounds, marked only by areas where the grass lies flat.  Some of the graves are nothing more than humps of sparse grass, while others are mounds of freshly overturned earth.  Thick woods border the area to the west and south."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, east"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7174": "north",
     "7180": "northeast",
     "7181": "east"
   },
-  "paths": [
-    "Obvious paths: north, northeast, east"
-  ],
+  "timeto": {
+    "7174": 0.2,
+    "7180": 0.2,
+    "7181": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     437,
     859,
     447,
     869
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "Leading around uprooted headstones and mounds of overturned earth, a faint trail winds through the grounds, marked only by areas where the grass lies flat.  Some of the graves are nothing more than humps of sparse grass, while others are mounds of freshly overturned earth.  Thick woods border the area to the west and south."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Graveyard, Burial Grounds]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7174": 0.2,
-    "7180": 0.2,
-    "7181": 0.2
-  },
-  "id": 7182,
-  "location": "the Graveyard",
   "tags": [
     "wild strawberry",
     "stalk of chicory",
@@ -46,10 +43,6 @@
     "sprig of wild lilac",
     "wild chokecherry",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

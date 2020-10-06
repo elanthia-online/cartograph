@@ -1,33 +1,30 @@
 {
+  "id": 1315,
+  "title": [
+    "[Plateau, Flynth River]"
+  ],
+  "description": [
+    "Flowing from the northwest, the Flynth River is joined by the stream flowing across the trail in a turbulent junction.  A log, not able to float past some rocks, spins continuously in the churning water."
+  ],
+  "paths": [
+    "Obvious paths: southwest"
+  ],
+  "location": "the foothills of Zeltoph",
   "wayto": {
     "1314": "go stream",
     "1316": "southwest"
   },
-  "paths": [
-    "Obvious paths: southwest"
-  ],
+  "timeto": {
+    "1314": 0.2,
+    "1316": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     185,
     530,
     195,
     540
   ],
-  "terrain": "riparian",
-  "description": [
-    "Flowing from the northwest, the Flynth River is joined by the stream flowing across the trail in a turbulent junction.  A log, not able to float past some rocks, spins continuously in the churning water."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Plateau, Flynth River]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1314": 0.2,
-    "1316": 0.2
-  },
-  "id": 1315,
-  "location": "the foothills of Zeltoph",
   "tags": [
     "some talneo root",
     "white hook mushroom",
@@ -39,10 +36,6 @@
     "bright red teaberry",
     "stalk of bluebells",
     "ironfern root",
-    "talneo root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "talneo root"
   ]
 }

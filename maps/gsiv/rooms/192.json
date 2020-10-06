@@ -1,38 +1,28 @@
 {
+  "id": 192,
+  "title": [
+    "[Ta'Illistim, Fraendel Var]"
+  ],
+  "description": [
+    "The busier section of Fraendel Court gives way to a quiet corner, seemingly out of place with the rest of the city.  A lone bench sits off the var, its worn surface indicating that many a wanderer must have stopped to rest before moving on."
+  ],
+  "paths": [
+    "Obvious paths: south, northwest"
+  ],
+  "location": "Ta'Illistim",
   "wayto": {
     "193": "northwest",
     "191": "south"
   },
-  "paths": [
-    "Obvious paths: south, northwest"
-  ],
+  "timeto": {
+    "193": 0.2,
+    "191": 0.2
+  },
+  "image": "en-ta_illistim-new.jpg",
   "image_coords": [
     827,
     772,
     849,
     793
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "The busier section of Fraendel Court gives way to a quiet corner, seemingly out of place with the rest of the city.  A lone bench sits off the var, its worn surface indicating that many a wanderer must have stopped to rest before moving on."
-  ],
-  "image": "en-ta_illistim-new.jpg",
-  "climate": "temperate",
-  "title": [
-    "[Ta'Illistim, Fraendel Var]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "193": 0.2,
-    "191": 0.2
-  },
-  "id": 192,
-  "location": "Ta'Illistim",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

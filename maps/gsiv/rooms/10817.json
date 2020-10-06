@@ -1,61 +1,36 @@
 {
-  "wayto": {
-    "10818": "east",
-    "10821": {
-      "stringproc": "fdf955202637c8d1287e0faa9905aa2d"
-    }
-  },
+  "id": 10817,
+  "title": [
+    "[Gyldemar Road]"
+  ],
+  "description": [
+    "Although the forest is visible on the horizon to the south, there is no way of getting there across the treacherous swamp in between.  Slowly the swamp seems to be reclaiming the cobblestone road, leaving less than half the cobblestones even visible in this area.  To the west the black water has completely covered the roadway, and to the east the roadway dips and jogs, fighting to stay above the sinking terrain."
+  ],
   "paths": [
     "Obvious paths: east"
   ],
+  "location": "Gyldemar Road",
+  "wayto": {
+    "10818": "east",
+    "10821": {
+      "file": "string_procs/wayto/10817_10821.rb"
+    }
+  },
+  "timeto": {
+    "10818": 0.2,
+    "10821": 0.2
+  },
+  "image": "en-gyldemar-1264234799.png",
   "image_coords": [
     861,
     658,
     871,
     668
   ],
-  "terrain": "missing",
-  "description": [
-    "Although the forest is visible on the horizon to the south, there is no way of getting there across the treacherous swamp in between.  Slowly the swamp seems to be reclaiming the cobblestone road, leaving less than half the cobblestones even visible in this area.  To the west the black water has completely covered the roadway, and to the east the roadway dips and jogs, fighting to stay above the sinking terrain."
-  ],
-  "image": "en-gyldemar-1264234799.png",
-  "climate": "humid",
-  "title": [
-    "[Gyldemar Road]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10818": 0.2,
-    "10821": 0.2
-  },
-  "id": 10817,
-  "location": "Gyldemar Road",
   "tags": [
     "daggerstalk mushroom",
     "some wingstem root",
     "some bur-clover root",
-    "some talneo root",
-    "calamia fruit",
-    "haphip root",
-    "soft white mushroom",
-    "withered black mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "wild gooseberry",
-    "stalk of cattail",
-    "small wild rose",
-    "lady slipper blossom",
-    "blue whortleberry",
-    "murdroot",
-    "wavepetal blossom",
-    "bolmara lichen",
-    "talneo root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some talneo root"
   ]
 }

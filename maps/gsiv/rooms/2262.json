@@ -1,33 +1,30 @@
 {
+  "id": 2262,
+  "title": [
+    "[Abandoned Mine]"
+  ],
+  "description": [
+    "Barely visible beneath the grime on the eastern wall is a narrow sliver of color that runs the length of the chamber and down into the darkness.  The gritty floor slopes slightly to the west and curves around a massive boulder near the bottom of the cave."
+  ],
+  "paths": [
+    "Obvious exits: down, out"
+  ],
+  "location": "the Abandoned Mine",
   "wayto": {
     "2261": "out",
     "2263": "down"
   },
-  "paths": [
-    "Obvious exits: down, out"
-  ],
+  "timeto": {
+    "2261": 0.2,
+    "2263": 0.2
+  },
+  "image": "ti-teras-1264234799.png",
   "image_coords": [
     522,
     895,
     532,
     905
   ],
-  "terrain": "indoors",
-  "description": [
-    "Barely visible beneath the grime on the eastern wall is a narrow sliver of color that runs the length of the chamber and down into the darkness.  The gritty floor slopes slightly to the west and curves around a massive boulder near the bottom of the cave."
-  ],
-  "image": "ti-teras-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abandoned Mine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2261": 0.2,
-    "2263": 0.2
-  },
-  "id": 2262,
-  "location": "the Abandoned Mine",
   "tags": [
     "blue trafel mushroom",
     "daggerstalk mushroom",
@@ -39,14 +36,6 @@
     "black hook mushroom",
     "genkew mushroom",
     "withered black mushroom",
-    "flathead mushroom",
-    "cave moss",
-    "murdroot",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "flathead mushroom"
   ]
 }

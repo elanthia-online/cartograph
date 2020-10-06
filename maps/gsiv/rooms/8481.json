@@ -1,39 +1,29 @@
 {
+  "id": 8481,
+  "title": [
+    "[Temple, Attic]"
+  ],
+  "description": [
+    "The floor creaks beneath your feet.  It seems to give a little, and you carefully test where you put your feet with each step, for fear that you will fall through.  Upended boxes line the walls, their contents spilling from their mouths.  To the south, the attic grows brighter, as if from sunlight through a window.",
+    "The floor creaks beneath your feet.  It seems to give a little, and you carefully test where you put your feet with each step, for fear that you will fall through.  Upended boxes line the walls, their contents spilling from their mouths.  The faint rustle of bats in the rafters above your head keep you ready to duck."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "the Temple of Love",
   "wayto": {
     "8480": "west",
     "8482": "south"
   },
-  "paths": [
-    "Obvious exits: south, west"
-  ],
+  "timeto": {
+    "8480": 0.2,
+    "8482": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     65,
     754,
     75,
     764
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The floor creaks beneath your feet.  It seems to give a little, and you carefully test where you put your feet with each step, for fear that you will fall through.  Upended boxes line the walls, their contents spilling from their mouths.  To the south, the attic grows brighter, as if from sunlight through a window.",
-    "The floor creaks beneath your feet.  It seems to give a little, and you carefully test where you put your feet with each step, for fear that you will fall through.  Upended boxes line the walls, their contents spilling from their mouths.  The faint rustle of bats in the rafters above your head keep you ready to duck."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Temple, Attic]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8480": 0.2,
-    "8482": 0.2
-  },
-  "id": 8481,
-  "location": "the Temple of Love",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

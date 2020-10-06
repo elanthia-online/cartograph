@@ -1,54 +1,40 @@
 {
+  "id": 3811,
+  "title": [
+    "[A Dark Cavern]"
+  ],
+  "description": [
+    "The walls of the great cavern curve somewhat here from the northeast to a more westerly direction before fading away into an inky blackness."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, west, northwest"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "3816": "west",
     "3810": "northwest",
     "3723": "north",
     "3812": "northeast"
   },
-  "paths": [
-    "Obvious exits: north, northeast, west, northwest"
-  ],
-  "image_coords": [
-    570,
-    1296,
-    580,
-    1306
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The walls of the great cavern curve somewhat here from the northeast to a more westerly direction before fading away into an inky blackness."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[A Dark Cavern]"
-  ],
-  "check_location": null,
   "timeto": {
     "3816": 0.2,
     "3810": 0.2,
     "3723": 0.2,
     "3812": 0.2
   },
-  "id": 3811,
-  "location": "Darkstone Castle",
+  "image": "wl-darkstone-1264234799.png",
+  "image_coords": [
+    570,
+    1296,
+    580,
+    1306
+  ],
   "tags": [
     "withered black mushroom",
     "black hook mushroom",
     "some cave moss",
     "red trafel mushroom",
     "Sheruvian herbringer",
-    "nightmare steed",
-    "soft white mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "nightmare steed"
   ]
 }

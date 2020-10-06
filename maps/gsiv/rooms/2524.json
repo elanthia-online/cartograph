@@ -1,35 +1,32 @@
 {
-  "wayto": {
-    "2523": "climb rockslide",
-    "2525": {
-      "stringproc": "3157bbb118c54a6236859635e57fcbb9"
-    }
-  },
+  "id": 2524,
+  "title": [
+    "[Blue Glacier, Mountain Pass]"
+  ],
+  "description": [
+    "Ahead of you a mammoth rockslide has blocked the way.  You study the steep mountain slopes around you and wish, not for the first time, that you were part goat."
+  ],
   "paths": [
     "Obvious paths: southwest"
   ],
+  "location": "the Icemule Trail",
+  "wayto": {
+    "2523": "climb rockslide",
+    "2525": {
+      "file": "string_procs/wayto/2524_2525.rb"
+    }
+  },
+  "timeto": {
+    "2523": 0.2,
+    "2525": 0.2
+  },
+  "image": "imt-trail-1264234799.png",
   "image_coords": [
     1046,
     536,
     1056,
     546
   ],
-  "terrain": "mountainous",
-  "description": [
-    "Ahead of you a mammoth rockslide has blocked the way.  You study the steep mountain slopes around you and wish, not for the first time, that you were part goat."
-  ],
-  "image": "imt-trail-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Blue Glacier, Mountain Pass]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2523": 0.2,
-    "2525": 0.2
-  },
-  "id": 2524,
-  "location": "the Icemule Trail",
   "tags": [
     "red winterberry",
     "calamintha blossom",
@@ -58,10 +55,6 @@
     "orange rowanberry",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

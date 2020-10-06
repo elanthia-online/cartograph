@@ -1,55 +1,46 @@
 {
-  "wayto": {
-    "7447": {
-      "stringproc": "e3d799eb84e7700f4a3e6d2be8ca0cfa"
-    },
-    "7451": {
-      "stringproc": "3014f0f1ddce50edda95b441e1eaf20a"
-    },
-    "7452": {
-      "stringproc": "83c2f3d972bad023563640cfd207c046"
-    },
-    "23263": {
-      "stringproc": "b0515112b374f0190d8dd3851a3d8b9c"
-    }
-  },
-  "paths": [
-    "Obvious paths: north, northeast, east, southeast"
-  ],
-  "image_coords": [
-    623,
-    951,
-    633,
-    961
-  ],
-  "terrain": null,
-  "description": [
-    "One particularly large boulder sticks straight up in the air like a long, pointed finger.  The cliff that stretches from northwest to southeast is high and sheer, with no apparent way of climbing it.  A dense fog obscures your vision."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": null,
+  "id": 7446,
   "title": [
     "[The Broken Lands, Jagged Plain]"
   ],
-  "check_location": null,
+  "description": [
+    "One particularly large boulder sticks straight up in the air like a long, pointed finger.  The cliff that stretches from northwest to southeast is high and sheer, with no apparent way of climbing it.  A dense fog obscures your vision."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, east, southeast"
+  ],
+  "location": "the Broken Lands",
+  "wayto": {
+    "7447": {
+      "file": "string_procs/wayto/7446_7447.rb"
+    },
+    "7451": {
+      "file": "string_procs/wayto/7446_7451.rb"
+    },
+    "7452": {
+      "file": "string_procs/wayto/7446_7452.rb"
+    },
+    "23263": {
+      "file": "string_procs/wayto/7446_23263.rb"
+    }
+  },
   "timeto": {
     "7447": 3.2,
     "7451": 3.2,
     "7452": 3.2,
     "23263": 3.2
   },
-  "id": 7446,
-  "location": "the Broken Lands",
+  "image": "wl-broken-1264234799.png",
+  "image_coords": [
+    623,
+    951,
+    633,
+    961
+  ],
   "tags": [
     "large black toadstool",
     "some blackened moss",
     "hooded figure",
-    "giant fog beetle",
-    "blackened moss",
-    "black toadstool",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "giant fog beetle"
   ]
 }

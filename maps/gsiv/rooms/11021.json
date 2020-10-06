@@ -1,34 +1,33 @@
 {
+  "id": 11021,
+  "title": [
+    "[Overgrown Trail]"
+  ],
+  "description": [
+    "Thick, leafy vines hang between the tall trees.  Smaller vines grow on the larger vines, and strange mosses grow on the smaller ones, giving the entire area a shaggy look.  Only a few pale beams of moonlight filter through the dense growth.  A tall, moss-covered stone pillar stands to one side of the obscure trail.  Bits of stone lie scattered throughout the area.",
+    "Thick, leafy vines hang between the tall trees.  Smaller vines grow on the larger vines, and strange mosses grow on the smaller ones, giving the entire area a shaggy look.  Only a few pale beams of sunlight filter through the dense growth.  A tall, moss-covered stone pillar stands to one side of the obscure trail.  Bits of stone lie scattered throughout the area."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest"
+  ],
+  "location": "the Karazja Jungle",
+  "climate": "temperate",
+  "terrain": "tropical",
   "wayto": {
     "11020": "north",
     "11022": "southwest"
   },
-  "paths": [
-    "Obvious paths: north, southwest"
-  ],
+  "timeto": {
+    "11020": 0.2,
+    "11022": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     527,
     1116,
     537,
     1126
   ],
-  "terrain": "tropical",
-  "description": [
-    "Thick, leafy vines hang between the tall trees.  Smaller vines grow on the larger vines, and strange mosses grow on the smaller ones, giving the entire area a shaggy look.  Only a few pale beams of moonlight filter through the dense growth.  A tall, moss-covered stone pillar stands to one side of the obscure trail.  Bits of stone lie scattered throughout the area.",
-    "Thick, leafy vines hang between the tall trees.  Smaller vines grow on the larger vines, and strange mosses grow on the smaller ones, giving the entire area a shaggy look.  Only a few pale beams of sunlight filter through the dense growth.  A tall, moss-covered stone pillar stands to one side of the obscure trail.  Bits of stone lie scattered throughout the area."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "temperate",
-  "title": [
-    "[Overgrown Trail]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11020": 0.2,
-    "11022": 0.2
-  },
-  "id": 11021,
-  "location": "the Karazja Jungle",
   "tags": [
     "some acantha leaf",
     "some torban leaf",
@@ -59,11 +58,6 @@
     "slender twig",
     "ebony twig",
     "talneo root",
-    "brostheras grass",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

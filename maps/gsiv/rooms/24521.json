@@ -1,45 +1,28 @@
 {
+  "id": 24521,
+  "title": [
+    "[Frozen Bramble Patch]"
+  ],
+  "description": [
+    "Icy rocks litter the ground, and thick, spiky thorns jut in all directions.  A skeleton lies impaled on a particularly large thorn, lending credence to the danger inherent in the brambles."
+  ],
+  "paths": [
+    "Obvious paths: north, east"
+  ],
+  "location": "the Abandoned Farm",
   "wayto": {
     "24520": "east",
     "24522": "north"
   },
-  "paths": [
-    "Obvious paths: north, east"
-  ],
+  "timeto": {
+    "24520": 0.2,
+    "24522": 0.2
+  },
+  "image": "imt-bramble_patch-1307499864.png",
   "image_coords": [
     102,
     257,
     113,
     270
-  ],
-  "terrain": "barren scrub",
-  "description": [
-    "Icy rocks litter the ground, and thick, spiky thorns jut in all directions.  A skeleton lies impaled on a particularly large thorn, lending credence to the danger inherent in the brambles."
-  ],
-  "image": "imt-bramble_patch-1307499864.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Frozen Bramble Patch]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24520": 0.2,
-    "24522": 0.2
-  },
-  "id": 24521,
-  "location": "the Abandoned Farm",
-  "tags": [
-    "snow lily",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "arctic moss",
-    "broken twig",
-    "rockberry",
-    "crowberry",
-    "lingonberry",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+  ]
 }

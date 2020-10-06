@@ -1,38 +1,28 @@
 {
+  "id": 7531,
+  "title": [
+    "[Catacombs, Effluent]"
+  ],
+  "description": [
+    "Pipes of all shapes and sizes end in the brick walls here at various heights.  Fetid water from unknown sources pours out into the tunnel from some of them, adding to a small stream crawling slowly southward in the center of the passage."
+  ],
+  "paths": [
+    "Obvious exits: south, northwest"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "7539": "northwest",
     "7530": "south"
   },
-  "paths": [
-    "Obvious exits: south, northwest"
-  ],
+  "timeto": {
+    "7539": 0.2,
+    "7530": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     501,
     1235,
     511,
     1245
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Pipes of all shapes and sizes end in the brick walls here at various heights.  Fetid water from unknown sources pours out into the tunnel from some of them, adding to a small stream crawling slowly southward in the center of the passage."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Catacombs, Effluent]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7539": 0.2,
-    "7530": 0.2
-  },
-  "id": 7531,
-  "location": "the catacombs",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,50 +1,34 @@
 {
-  "wayto": {
-    "3997": {
-      "stringproc": "395b361a16c8a355265cda519abf9fe5"
-    },
-    "3999": "go fissure",
-    "4000": {
-      "stringproc": "dbbfd361e7886ce7121cafa8a1b5c5c5"
-    }
-  },
-  "paths": [
-    "Obvious paths: up, down"
-  ],
-  "image_coords": [
-    825,
-    169,
-    835,
-    179
-  ],
-  "terrain": null,
-  "description": [
-    "A short scramble up from here would place you on the mountain's peak, but the downward trail is steep and less than alluring.  This bleak northern facing wall is worn almost smooth by the coursing wind.  Layered with years of alternating snow and ice, its surface is black and almost featureless."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": null,
+  "id": 3998,
   "title": [
     "[Griffin's Keen, Onyx Point]"
   ],
-  "check_location": null,
+  "description": [
+    "A short scramble up from here would place you on the mountain's peak, but the downward trail is steep and less than alluring.  This bleak northern facing wall is worn almost smooth by the coursing wind.  Layered with years of alternating snow and ice, its surface is black and almost featureless."
+  ],
+  "paths": [
+    "Obvious paths: up, down"
+  ],
+  "location": "Griffin's Keen",
+  "wayto": {
+    "3997": {
+      "file": "string_procs/wayto/3998_3997.rb"
+    },
+    "3999": "go fissure",
+    "4000": {
+      "file": "string_procs/wayto/3998_4000.rb"
+    }
+  },
   "timeto": {
     "3997": 4.2,
     "3999": 0.2,
     "4000": 4.2
   },
-  "id": 3998,
-  "location": "Griffin's Keen",
-  "tags": [
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "sprig of holly",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-skull-1264234799.png",
+  "image_coords": [
+    825,
+    169,
+    835,
+    179
   ]
 }

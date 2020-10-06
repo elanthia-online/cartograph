@@ -1,45 +1,34 @@
 {
+  "id": 4974,
+  "title": [
+    "[Maernstrike Caverns, Tunnel]"
+  ],
+  "description": [
+    "Strange looking, thick bluish-green goop covers these walls.  From within the sticky substance radiates an unearthly glow, which illuminates this space.  Along the western wall, and at the top of a huge pile of dirt and rocks, a fair-sized roost of bats is visible.  An earlier avalanche prevents further movement in that direction.  Unrecognizable pear-shaped objects with a semi-hard outer casing are placed haphazardly on the floors of this chamber."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Maernstrike Caverns",
   "wayto": {
     "4973": "south",
     "4975": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "4973": 0.2,
+    "4975": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     1436,
     388,
     1446,
     398
   ],
-  "terrain": "indoors",
-  "description": [
-    "Strange looking, thick bluish-green goop covers these walls.  From within the sticky substance radiates an unearthly glow, which illuminates this space.  Along the western wall, and at the top of a huge pile of dirt and rocks, a fair-sized roost of bats is visible.  An earlier avalanche prevents further movement in that direction.  Unrecognizable pear-shaped objects with a semi-hard outer casing are placed haphazardly on the floors of this chamber."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Maernstrike Caverns, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4973": 0.2,
-    "4975": 0.2
-  },
-  "id": 4974,
-  "location": "the Maernstrike Caverns",
   "tags": [
     "white hook mushroom",
     "some bolmara lichen",
     "some cave moss",
-    "some wingstem root",
-    "cave moss",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

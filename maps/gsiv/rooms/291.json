@@ -1,39 +1,36 @@
 {
-  "wayto": {
-    "292": "north",
-    "420": "go gate",
-    "290": "south",
-    "28238": "go ladder"
-  },
+  "id": 291,
+  "title": [
+    "[Wehnimer's, West Ring Rd.]"
+  ],
+  "description": [
+    "Traffic is almost nonexistent at night on this portion of West Ring Road.  Most of the people still out in the streets seem to be using the busier roads that lie to the north and south, leading to the square.  A few warehouses and smaller shops line the way here.",
+    "Traffic is light on this portion of West Ring Road.  Most people seem to be using the busier roads that lie to the north and south, leading to the square.  A few warehouses and smaller shops line the way here.",
+    "Glistening black veins run along the ground, tearing up the cobblestone road.  The stench of death and decay hang like a thick cloud."
+  ],
   "paths": [
     "Obvious paths: north, south"
   ],
+  "location": "the town of Wehnimer's Landing",
+  "wayto": {
+    "292": "north",
+    "420": "go gate",
+    "13245": "go ladder",
+    "290": "south"
+  },
+  "timeto": {
+    "292": 0.2,
+    "420": 0.2,
+    "13245": 0.2,
+    "290": 0.2
+  },
+  "image": "wl-wehnimers-1264234799.png",
   "image_coords": [
     48,
     736,
     84,
     773
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "Traffic is almost nonexistent at night on this portion of West Ring Road.  Most of the people still out in the streets seem to be using the busier roads that lie to the north and south, leading to the square.  A few warehouses and smaller shops line the way here.",
-    "Traffic is light on this portion of West Ring Road.  Most people seem to be using the busier roads that lie to the north and south, leading to the square.  A few warehouses and smaller shops line the way here.",
-    "Glistening black veins run along the ground, tearing up the cobblestone road.  The stench of death and decay hang like a thick cloud."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Wehnimer's, West Ring Rd.]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "292": 0.2,
-    "420": 0.2,
-    "290": 0.2,
-    "28238": 0.2
-  },
-  "id": 291,
-  "location": "the town of Wehnimer's Landing",
   "tags": [
     "some sovyn clove",
     "some acantha leaf",
@@ -43,32 +40,6 @@
     "some wingstem root",
     "small daisy",
     "small rose",
-    "murdroot",
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "small flower",
-    "angelica root",
-    "withered black mushroom",
-    "stalk of chicory",
-    "sprig of alyssum",
-    "heath aster",
-    "stalk of goldenrod",
-    "yellow primrose",
-    "small wild rose",
-    "wild carrot",
-    "ginger root",
-    "wild chokecherry",
-    "motherwort",
-    "murkweed",
-    "blue whortleberry",
-    "white baneberry",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "murdroot"
   ]
 }

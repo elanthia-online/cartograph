@@ -1,42 +1,28 @@
 {
+  "id": 11135,
+  "title": [
+    "[River Tunnels]"
+  ],
+  "description": [
+    "Grasses growing in the river above you have thrust their roots through the roof of this moist tunnel and have grown straight into the floor, making movement difficult.  River water runs down each of the roots, providing nourishment before forming a small stream in the floor which runs east."
+  ],
+  "paths": [
+    "Obvious exits: west, down"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11134": "w",
     "11136": "down"
   },
-  "paths": [
-    "Obvious exits: west, down"
-  ],
+  "timeto": {
+    "11134": 0.2,
+    "11136": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     898,
     7,
     908,
     17
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Grasses growing in the river above you have thrust their roots through the roof of this moist tunnel and have grown straight into the floor, making movement difficult.  River water runs down each of the roots, providing nourishment before forming a small stream in the floor which runs east."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "indoors",
-  "title": [
-    "[River Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11134": 0.2,
-    "11136": 0.2
-  },
-  "id": 11135,
-  "location": "the Citadel",
-  "tags": [
-    "withered black mushroom",
-    "cave moss",
-    "murdroot",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

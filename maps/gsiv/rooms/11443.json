@@ -1,47 +1,36 @@
 {
-  "wayto": {
-    "11440": {
-      "stringproc": "ecb29216e38b2eccfa243d0a331e41b2"
-    },
-    "11442": {
-      "stringproc": "df0635901e9065a4aadbe5056471d5c8"
-    },
-    "11444": {
-      "stringproc": "d1ab0fc82426b99746caa62b1f882697"
-    }
-  },
-  "paths": [
-    "Obvious paths: northeast, southeast, south"
+  "id": 11443,
+  "title": [
+    "[Maelstrom Bay, Surface]"
   ],
-  "image_coords": [
-    648,
-    1180,
-    658,
-    1190
-  ],
-  "terrain": "missing",
   "description": [
     "The green, foam-flecked waters of Maelstrom Bay stretch out in all directions.  A powerful, swirling current prevents any movement north and west.  To the southwest, a low coral reef rises above the wide, rolling swells.  The white spray from the swells slapping against the reef appears ghostly in the moonlight.",
     "The green, foam-flecked waters of Maelstrom Bay stretch out in all directions.  A powerful, swirling current prevents any movement north and west.  To the southwest, a low coral reef rises above the wide, rolling swells.  The white spray from the swells slapping against the reef sparkles in the sunlight."
   ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "missing",
-  "title": [
-    "[Maelstrom Bay, Surface]"
+  "paths": [
+    "Obvious paths: northeast, southeast, south"
   ],
-  "check_location": null,
+  "wayto": {
+    "11440": {
+      "file": "string_procs/wayto/11443_11440.rb"
+    },
+    "11442": {
+      "file": "string_procs/wayto/11443_11442.rb"
+    },
+    "11444": {
+      "file": "string_procs/wayto/11443_11444.rb"
+    }
+  },
   "timeto": {
     "11440": 2.0,
     "11442": 2.0,
     "11444": 2.0
   },
-  "id": 11443,
-  "location": "Maelstrom Bay",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-maelstrom-1266390501.png",
+  "image_coords": [
+    648,
+    1180,
+    658,
+    1190
   ]
 }

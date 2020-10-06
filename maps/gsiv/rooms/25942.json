@@ -1,35 +1,28 @@
 {
+  "id": 25942,
+  "title": [
+    "[Shade Square, Bone Field]"
+  ],
+  "description": [
+    "A small, dark field fills an old vacant lot behind a row of decrepit buildings.  The dim keening of the town's activity is muffled here, and deep shadows stretch across the ground.  Rising up from the field are large, jagged splinters of bone, like ashen fingers reaching for those who pass by."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Talador",
   "wayto": {
     "25941": "south",
     "25943": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "25941": 0.2,
+    "25943": 0.2
+  },
+  "image": "wl-lichs_landing-1500800742.png",
   "image_coords": [
     754,
     552,
     780,
     579
-  ],
-  "terrain": null,
-  "description": [
-    "A small, dark field fills an old vacant lot behind a row of decrepit buildings.  The dim keening of the town's activity is muffled here, and deep shadows stretch across the ground.  Rising up from the field are large, jagged splinters of bone, like ashen fingers reaching for those who pass by."
-  ],
-  "image": "wl-lichs_landing-1500800742.png",
-  "climate": null,
-  "title": [
-    "[Shade Square, Bone Field]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "25941": 0.2,
-    "25943": 0.2
-  },
-  "id": 25942,
-  "location": "Talador",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

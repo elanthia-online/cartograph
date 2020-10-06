@@ -1,58 +1,36 @@
 {
+  "id": 11700,
+  "title": [
+    "[Marsh Keep, West Wall]"
+  ],
+  "description": [
+    "The earthen barriers protecting the keep from the surrounding marshes rise higher and wider as they run parallel to the west wall of the keep.  Little vegetation grows upon them, but the shallow valley between them and the wall is filled with marsh grass accompanied by large pools of collected rain water.  Muddy tracks lead down and back to the pools of water, and then further to the south down the pathway."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Marsh Keep",
   "wayto": {
     "11699": "south",
     "11701": "north"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "11699": 0.2,
+    "11701": 0.2
+  },
+  "image": "rr-marsh_keep-1266356986.png",
   "image_coords": [
     348,
     400,
     358,
     410
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The earthen barriers protecting the keep from the surrounding marshes rise higher and wider as they run parallel to the west wall of the keep.  Little vegetation grows upon them, but the shallow valley between them and the wall is filled with marsh grass accompanied by large pools of collected rain water.  Muddy tracks lead down and back to the pools of water, and then further to the south down the pathway."
-  ],
-  "image": "rr-marsh_keep-1266356986.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Marsh Keep, West Wall]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11699": 0.2,
-    "11701": 0.2
-  },
-  "id": 11700,
-  "location": "the Marsh Keep",
   "tags": [
     "withered black mushroom",
     "some mistweed",
     "sweetfern stalk",
     "some pennyroyal stem",
     "some angelica root",
-    "sassafras leaf",
-    "acantha leaf",
-    "wolifrew lichen",
-    "aloeas stem",
-    "cuctucae berry",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "stalk of chicory",
-    "small wild rose",
-    "wild chokecherry",
-    "bright red cranberry",
-    "mistweed",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sassafras leaf"
   ]
 }

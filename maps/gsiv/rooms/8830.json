@@ -1,42 +1,32 @@
 {
+  "id": 8830,
+  "title": [
+    "[Orc's Nest Road]"
+  ],
+  "description": [
+    "The narrow cobblestone lane leads east and west, winding between rows of humble wood and stone houses.  Smoke rises from many chimneys, filling the air with smells of burning wood and cooking food and more than a little haze.  A life-size stone statue of a grinning orc stands by the gate, keeping watch as workmen and visitors pass to and fro."
+  ],
+  "paths": [
+    "Obvious paths: north, east, west"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "8837": "north",
     "323": "go gate",
     "8841": "west",
     "8831": "east"
   },
-  "paths": [
-    "Obvious paths: north, east, west"
-  ],
-  "image_coords": [
-    181,
-    794,
-    199,
-    812
-  ],
-  "terrain": null,
-  "description": [
-    "The narrow cobblestone lane leads east and west, winding between rows of humble wood and stone houses.  Smoke rises from many chimneys, filling the air with smells of burning wood and cooking food and more than a little haze.  A life-size stone statue of a grinning orc stands by the gate, keeping watch as workmen and visitors pass to and fro."
-  ],
-  "image": "wl-homes-1-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Orc's Nest Road]"
-  ],
-  "check_location": null,
   "timeto": {
     "8837": 0.2,
     "323": 0.2,
     "8841": 0.2,
     "8831": 0.2
   },
-  "id": 8830,
-  "location": "Wehnimer's Landing",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-homes-1-1264234799.png",
+  "image_coords": [
+    181,
+    794,
+    199,
+    812
   ]
 }

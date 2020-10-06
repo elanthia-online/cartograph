@@ -1,44 +1,34 @@
 {
+  "id": 7376,
+  "title": [
+    "[Shadow Valley, Dark Pasture]"
+  ],
+  "description": [
+    "A wall of earth rises up in front of you blocking further passage south.  The wall almost looks as if it rose up of its own volition, dead roots still poking out from the dried earth."
+  ],
+  "paths": [
+    "Obvious paths: northeast, east, west"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7372": "east",
     "7373": "northeast",
     "7375": "west"
   },
-  "paths": [
-    "Obvious paths: northeast, east, west"
-  ],
+  "timeto": {
+    "7372": 0.2,
+    "7373": 0.2,
+    "7375": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1042,
     864,
     1050,
     872
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "A wall of earth rises up in front of you blocking further passage south.  The wall almost looks as if it rose up of its own volition, dead roots still poking out from the dried earth."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Shadow Valley, Dark Pasture]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7372": 0.2,
-    "7373": 0.2,
-    "7375": 0.2
-  },
-  "id": 7376,
-  "location": "the Shadow Valley",
   "tags": [
     "night mare",
-    "some longgrass",
-    "longgrass",
-    "wyrm thorn",
-    "petrified shadowstalk",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some longgrass"
   ]
 }

@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "11307": "southwest"
-  },
+  "id": 11308,
+  "title": [
+    "[Alchemist, Cul-De-Sac]"
+  ],
+  "description": [
+    "Clammy darkness surrounds you, broken only by the faint greenish glow emanating from a few crusts of lichen on the walls.  Although the tunnel might once have progressed beyond this point, the ancient wooden supports have given way beneath the weight of the earth, and the passage shrinks to the height of a gnome before ending abruptly.  Several rotting timbers jut dejectedly from beneath the colossal heap of dirt."
+  ],
   "paths": [
     "Obvious exits: southwest"
   ],
+  "location": "the Citadel",
+  "wayto": {
+    "11307": "southwest"
+  },
+  "timeto": {
+    "11307": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     929,
     1029,
     939,
     1039
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Clammy darkness surrounds you, broken only by the faint greenish glow emanating from a few crusts of lichen on the walls.  Although the tunnel might once have progressed beyond this point, the ancient wooden supports have given way beneath the weight of the earth, and the passage shrinks to the height of a gnome before ending abruptly.  Several rotting timbers jut dejectedly from beneath the colossal heap of dirt."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Alchemist, Cul-De-Sac]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11307": 0.2
-  },
-  "id": 11308,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

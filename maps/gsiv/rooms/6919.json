@@ -1,49 +1,36 @@
 {
+  "id": 6919,
+  "title": [
+    "[Smuggling Tunnels, Passage]"
+  ],
+  "description": [
+    "The tunnel has long since fallen into disrepair and neglect.  The wooden shoring is rotting and cracked, only adding to the danger it is supposed to eliminate, and the nearly total lack of light makes movement difficult.  Only a single fitful candle stuck onto a fallen beam provides anything to see by."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, southwest, west"
+  ],
+  "location": "the smuggling tunnels",
   "wayto": {
     "6918": "northeast",
     "6920": "north",
     "6921": "west",
     "6922": "southwest"
   },
-  "paths": [
-    "Obvious exits: north, northeast, southwest, west"
-  ],
-  "image_coords": [
-    961,
-    1436,
-    971,
-    1446
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The tunnel has long since fallen into disrepair and neglect.  The wooden shoring is rotting and cracked, only adding to the danger it is supposed to eliminate, and the nearly total lack of light makes movement difficult.  Only a single fitful candle stuck onto a fallen beam provides anything to see by."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Smuggling Tunnels, Passage]"
-  ],
-  "check_location": null,
   "timeto": {
     "6918": 0.2,
     "6920": 0.2,
     "6921": 0.2,
     "6922": 0.2
   },
-  "id": 6919,
-  "location": "the smuggling tunnels",
+  "image": "wl-gates-1264234799.png",
+  "image_coords": [
+    961,
+    1436,
+    971,
+    1446
+  ],
   "tags": [
     "some wingstem root",
-    "withered black mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "withered black mushroom"
   ]
 }

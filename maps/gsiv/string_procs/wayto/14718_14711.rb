@@ -1,1 +1,2 @@
-fput 'open hatch'; move 'go hatch'
+fput 'open hatch'
+ move 'go hatch'

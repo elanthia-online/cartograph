@@ -1,34 +1,31 @@
 {
+  "id": 11037,
+  "title": [
+    "[A Silent Path, Mouth of Cave]"
+  ],
+  "description": [
+    "Moonlight filters in from the cave opening southeast, dust motes and insects swirling in the pale rays.  Tendrils of vines drape down from the top edge of the entrance, almost hiding it from outside view.  A box containing unlit wooden torches and strips of torn cloth sits next to a southwesterly passage leading deeper into the delve.",
+    "Light filters in from the cave opening southeast, dust motes and insects swirling in the pale rays.  Tendrils of vines drape down from the top edge of the entrance, almost hiding it from outside view.  A box containing unlit wooden torches and strips of torn cloth sits next to a southwesterly passage leading deeper into the delve."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest"
+  ],
+  "location": "the River's Rest Voln Monastery",
   "wayto": {
     "11036": "southwest",
     "11038": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast, southwest"
-  ],
+  "timeto": {
+    "11036": 0.2,
+    "11038": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     830,
     831,
     840,
     841
   ],
-  "terrain": "indoors",
-  "description": [
-    "Moonlight filters in from the cave opening southeast, dust motes and insects swirling in the pale rays.  Tendrils of vines drape down from the top edge of the entrance, almost hiding it from outside view.  A box containing unlit wooden torches and strips of torn cloth sits next to a southwesterly passage leading deeper into the delve.",
-    "Light filters in from the cave opening southeast, dust motes and insects swirling in the pale rays.  Tendrils of vines drape down from the top edge of the entrance, almost hiding it from outside view.  A box containing unlit wooden torches and strips of torn cloth sits next to a southwesterly passage leading deeper into the delve."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "indoors",
-  "title": [
-    "[A Silent Path, Mouth of Cave]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11036": 0.2,
-    "11038": 0.2
-  },
-  "id": 11037,
-  "location": "the River's Rest Voln Monastery",
   "tags": [
     "some calamia fruit",
     "soft white mushroom",
@@ -39,11 +36,6 @@
     "blue trafel mushroom",
     "ironfern root",
     "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bolmara lichen"
   ]
 }

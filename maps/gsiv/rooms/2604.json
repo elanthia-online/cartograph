@@ -1,39 +1,31 @@
 {
-  "wayto": {
-    "2609": "southwest",
-    "2610": "southeast",
-    "12208": {
-      "stringproc": "a0576f0215d746452e7afb93c1ee082c"
-    },
-    "2635": {
-      "stringproc": "01b8924575c8d70e4ed7eea7ed00be84"
-    },
-    "12101": {
-      "stringproc": "cf4b8e5b125b22b01c9349827d02c9fd"
-    },
-    "2603": "east",
-    "2605": "west"
-  },
+  "id": 2604,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "The fog you wander through parts to reveal thousands of stairways surrounding you.  Sets of stairs lead to unknown destinations around you, up and down, horizontal and vertical.  The bizarre monument fills your vision as far as you can see, none of the stairs really appear to be going anywhere except to other stairs."
+  ],
   "paths": [
     "Obvious paths: east, southeast, southwest, west",
     "Obvious exits: east, southeast, southwest, west"
   ],
-  "image_coords": [
-    159,
-    751,
-    169,
-    761
-  ],
-  "terrain": null,
-  "description": [
-    "The fog you wander through parts to reveal thousands of stairways surrounding you.  Sets of stairs lead to unknown destinations around you, up and down, horizontal and vertical.  The bizarre monument fills your vision as far as you can see, none of the stairs really appear to be going anywhere except to other stairs."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "2609": "southwest",
+    "2610": "southeast",
+    "12208": {
+      "file": "string_procs/wayto/2604_12208.rb"
+    },
+    "2635": {
+      "file": "string_procs/wayto/2604_2635.rb"
+    },
+    "12101": {
+      "file": "string_procs/wayto/2604_12101.rb"
+    },
+    "2603": "east",
+    "2605": "west"
+  },
   "timeto": {
     "2609": 0.2,
     "2610": 0.2,
@@ -43,8 +35,13 @@
     "2603": 0.2,
     "2605": 0.2
   },
-  "id": 2604,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    159,
+    751,
+    169,
+    761
+  ],
   "tags": [
     "discolored fleshbinder bud",
     "rotting bile green fleshbulb",
@@ -53,8 +50,5 @@
     "mass of congealed slime",
     "twisted black mawflower",
     "withered deathblossom"
-  ],
-  "links": [
-
   ]
 }

@@ -1,43 +1,33 @@
 {
-  "wayto": {
-    "186": "southwest",
-    "528": "southeast",
-    "188": "go dais"
-  },
-  "paths": [
-    "Obvious paths: southeast, southwest"
+  "id": 187,
+  "title": [
+    "[Ta'Illistim, Shimmarglin Court]"
   ],
-  "image_coords": [
-    1199,
-    441,
-    1220,
-    461
-  ],
-  "terrain": "hard, flat",
   "description": [
     "The northern corner of the court is relatively quiet, the low hum of conversation punctuated only by the occasional bursts of laughter emanating from the nearby dais.  A row of monir trees delineates the curvature of the cobblestoned lane, their leafy boughs creating a shady resting spot.",
     "The northern corner of the court is relatively quiet, the low hum of conversation punctuated only by the occasional bursts of laughter emanating from the nearby dais.  A row of monir trees delineates the curvature of the cobblestoned lane, their leafy boughs creating a peaceful resting spot.",
     "The bottom of the floating dais overhead falls over this patch of the courtyard, shrouding the cobblestones below in a darkness only broken by the purposeful placement of a few silver lanterns.  Their unflickering blue light gives the space a ghostly glow.",
     "The bottom of the floating dais overhead falls over this patch of the courtyard, shrouding the cobblestones below in a dim, perpetual gloaming.  Nonetheless, the space is filled with impermanent shelving and carrels, set out with no regard for order, placement, or easy passage through the morass."
   ],
-  "image": "en-ta_illistim-new.jpg",
-  "climate": "temperate",
-  "title": [
-    "[Ta'Illistim, Shimmarglin Court]"
+  "paths": [
+    "Obvious paths: southeast, southwest"
   ],
-  "check_location": null,
+  "location": "Ta'Illistim",
+  "wayto": {
+    "186": "southwest",
+    "528": "southeast",
+    "188": "go dais"
+  },
   "timeto": {
     "186": 0.2,
     "528": 0.2,
     "188": 0.2
   },
-  "id": 187,
-  "location": "Ta'Illistim",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-ta_illistim-new.jpg",
+  "image_coords": [
+    1199,
+    441,
+    1220,
+    461
   ]
 }

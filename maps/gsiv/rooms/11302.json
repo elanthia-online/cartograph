@@ -1,40 +1,30 @@
 {
-  "wayto": {
-    "11312": {
-      "stringproc": "1eee6dcf1007ba2d0f4e715b42fbdacf"
-    },
-    "11301": "north"
-  },
+  "id": 11302,
+  "title": [
+    "[Alchemist, Inorganics Room]"
+  ],
+  "description": [
+    "This room holds a large forge, an anvil, and two massive coal bins, one of which sits in its accustomed place and one of which has been shoved to the side to expose the only intact wall.  Near the doorway, the fractured stone tiles forms strange bumps and ripples, as if some great force had struck from beneath the rock.  Smudged charcoal footprints are visible among the debris, leading to and from the intact wall."
+  ],
   "paths": [
     "Obvious exits: north"
   ],
+  "location": "the Citadel",
+  "wayto": {
+    "11312": {
+      "file": "string_procs/wayto/11302_11312.rb"
+    },
+    "11301": "north"
+  },
+  "timeto": {
+    "11312": 0.2,
+    "11301": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     860,
     921,
     870,
     931
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This room holds a large forge, an anvil, and two massive coal bins, one of which sits in its accustomed place and one of which has been shoved to the side to expose the only intact wall.  Near the doorway, the fractured stone tiles forms strange bumps and ripples, as if some great force had struck from beneath the rock.  Smudged charcoal footprints are visible among the debris, leading to and from the intact wall."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Alchemist, Inorganics Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11312": 0.2,
-    "11301": 0.2
-  },
-  "id": 11302,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

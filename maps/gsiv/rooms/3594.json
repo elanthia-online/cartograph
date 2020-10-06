@@ -1,42 +1,32 @@
 {
-  "wayto": {
-    "3590": "west",
-    "3593": {
-      "stringproc": "e1b570dc7b5c98ee0512c9ed01464221"
-    },
-    "3595": "east"
-  },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
-  "image_coords": [
-    570,
-    524,
-    580,
-    534
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Pools of light cast from the ora braziers dot the flagstones of the corridor as it runs its east to west course.  An ora door is set into the stone walls to the south, affixed to the rock with solid hardware of ora notable for its over-sized proportions.  Dust hangs in the air, shifting idly in clouds like billowing sails on a derelict ship."
-  ],
-  "image": "wl-stronghold-1264234799.png",
-  "climate": "indoors",
+  "id": 3594,
   "title": [
     "[Stronghold, South Hall]"
   ],
-  "check_location": null,
+  "description": [
+    "Pools of light cast from the ora braziers dot the flagstones of the corridor as it runs its east to west course.  An ora door is set into the stone walls to the south, affixed to the rock with solid hardware of ora notable for its over-sized proportions.  Dust hangs in the air, shifting idly in clouds like billowing sails on a derelict ship."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Stone Valley",
+  "wayto": {
+    "3590": "west",
+    "3593": {
+      "file": "string_procs/wayto/3594_3593.rb"
+    },
+    "3595": "east"
+  },
   "timeto": {
     "3590": 0.2,
     "3593": 6.0,
     "3595": 0.2
   },
-  "id": 3594,
-  "location": "Stone Valley",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-stronghold-1264234799.png",
+  "image_coords": [
+    570,
+    524,
+    580,
+    534
   ]
 }

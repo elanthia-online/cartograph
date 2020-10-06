@@ -1,36 +1,33 @@
 {
+  "id": 281,
+  "title": [
+    "[Wehnimer's, North Ring Rd.]"
+  ],
+  "description": [
+    "The east-west road continues, closed in on the south by the militia barracks and on the north by the twelve-foot-high wall of the city itself.  The occasional thud of leather boots in unison upon cobbled pavement and the clipped shouts of barked orders reverberate off the modwir walls along this part of the road.  The scents of leather, weapon oil and hearty cooking fill the night air.",
+    "The east-west road continues, closed in on the south by the militia barracks and on the north by the twelve-foot-high wall of the city itself.  The insistent thud of leather boots in unison upon cobbled pavement and the clipped shouts of barked orders reverberate off the modwir walls along this part of the road.  The scents of leather, weapon oil and hearty cooking fill the air here."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "265": "east",
     "280": "west",
     "21688": "go iron gate"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "265": 0.2,
+    "280": 0.2,
+    "21688": 0.2
+  },
+  "image": "wl-wehnimers-1264234799.png",
   "image_coords": [
     584,
     175,
     620,
     211
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The east-west road continues, closed in on the south by the militia barracks and on the north by the twelve-foot-high wall of the city itself.  The occasional thud of leather boots in unison upon cobbled pavement and the clipped shouts of barked orders reverberate off the modwir walls along this part of the road.  The scents of leather, weapon oil and hearty cooking fill the night air.",
-    "The east-west road continues, closed in on the south by the militia barracks and on the north by the twelve-foot-high wall of the city itself.  The insistent thud of leather boots in unison upon cobbled pavement and the clipped shouts of barked orders reverberate off the modwir walls along this part of the road.  The scents of leather, weapon oil and hearty cooking fill the air here."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Wehnimer's, North Ring Rd.]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "265": 0.2,
-    "280": 0.2,
-    "21688": 0.2
-  },
-  "id": 281,
-  "location": "the town of Wehnimer's Landing",
   "tags": [
     "pepperthorn root",
     "some sovyn clove",
@@ -39,32 +36,6 @@
     "small daisy",
     "small wild rose",
     "some calamia fruit",
-    "meta:teleport:fwi",
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "small flower",
-    "small rose",
-    "angelica root",
-    "withered black mushroom",
-    "stalk of chicory",
-    "sprig of alyssum",
-    "stalk of goldenrod",
-    "yellow primrose",
-    "wild carrot",
-    "ginger root",
-    "wild chokecherry",
-    "motherwort",
-    "murkweed",
-    "blue whortleberry",
-    "white baneberry",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:teleport:fwi"
   ]
 }

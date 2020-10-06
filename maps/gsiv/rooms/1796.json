@@ -1,33 +1,30 @@
 {
+  "id": 1796,
+  "title": [
+    "[Wraithenmist, Lakeshore]"
+  ],
+  "description": [
+    "Glittering droplets of moisture fall intermittently from the barren tree limbs above, each one dropping with a small *plunk* into the lake.  Ripples form briefly with each drop, but the lake too quickly returns to its glassy calm."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest"
+  ],
+  "location": "Wraithenmist",
   "wayto": {
     "1795": "north",
     "1797": "southwest"
   },
-  "paths": [
-    "Obvious paths: north, southwest"
-  ],
+  "timeto": {
+    "1795": 0.2,
+    "1797": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     385,
     132,
     393,
     140
   ],
-  "terrain": "riparian",
-  "description": [
-    "Glittering droplets of moisture fall intermittently from the barren tree limbs above, each one dropping with a small *plunk* into the lake.  Ripples form briefly with each drop, but the lake too quickly returns to its glassy calm."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Wraithenmist, Lakeshore]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1795": 0.2,
-    "1797": 0.2
-  },
-  "id": 1796,
-  "location": "Wraithenmist",
   "tags": [
     "bright red cranberry",
     "bright red teaberry",
@@ -36,26 +33,6 @@
     "small wild rose",
     "stalk of cattail",
     "some aloeas stem",
-    "withered black mushroom",
-    "acantha leaf",
-    "ephlox moss",
-    "aloeas stem",
-    "soft white mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "blueberries",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "stalk of bluebells",
-    "sprig of wild lilac",
-    "wild chokecherry",
-    "murdroot",
-    "wavepetal blossom",
-    "ironfern root",
-    "talneo root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "withered black mushroom"
   ]
 }

@@ -1,40 +1,30 @@
 {
+  "id": 6685,
+  "title": [
+    "[Monastery, Stone Corridor]"
+  ],
+  "description": [
+    "The musty stone corridor ends here at a sculpted black vaalin arch.  Nineteen small crystal globes run the length of the arch, casting an eerie blue tint over everything in the room.  From the north, a faint breeze rushes in, causing the dust on the floor to swirl to life for a moment before settling back down between the cracks in the stones that line the floor.  An open doorway stands to the east."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "the Broken Lands",
   "wayto": {
     "6686": "east",
     "6687": "go arch",
     "6683": "north"
   },
-  "paths": [
-    "Obvious exits: north, east"
-  ],
-  "image_coords": [
-    276,
-    1356,
-    286,
-    1366
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The musty stone corridor ends here at a sculpted black vaalin arch.  Nineteen small crystal globes run the length of the arch, casting an eerie blue tint over everything in the room.  From the north, a faint breeze rushes in, causing the dust on the floor to swirl to life for a moment before settling back down between the cracks in the stones that line the floor.  An open doorway stands to the east."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Monastery, Stone Corridor]"
-  ],
-  "check_location": null,
   "timeto": {
     "6686": 0.2,
     "6687": 0.2,
     "6683": 0.2
   },
-  "id": 6685,
-  "location": "the Broken Lands",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-broken-1264234799.png",
+  "image_coords": [
+    276,
+    1356,
+    286,
+    1366
   ]
 }

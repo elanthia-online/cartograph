@@ -1,42 +1,32 @@
 {
+  "id": 3705,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "The ill-lit corridor widens to an open square.  A wide, doorless opening leads to the guards' chambers.  To the northwest is a large metal door which stands slightly ajar, pitted with rust and corrosion."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "3706": "north",
     "3711": "go opening",
     "3800": "go door",
     "3704": "south"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
-  "image_coords": [
-    336,
-    1143,
-    346,
-    1153
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The ill-lit corridor widens to an open square.  A wide, doorless opening leads to the guards' chambers.  To the northwest is a large metal door which stands slightly ajar, pitted with rust and corrosion."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
   "timeto": {
     "3706": 0.2,
     "3711": 0.2,
     "3800": 0.2,
     "3704": 0.2
   },
-  "id": 3705,
-  "location": "Darkstone Castle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-darkstone-1264234799.png",
+  "image_coords": [
+    336,
+    1143,
+    346,
+    1153
   ]
 }

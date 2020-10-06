@@ -1,4 +1,3 @@
-
 result = Array.new
 put "touch mural"
 while line = get
@@ -53,4 +52,4 @@ result.each{ |deity|
 	else
 		fput "touch #{deity}"
 	end
-}	
+}

@@ -1,33 +1,30 @@
 {
+  "id": 7005,
+  "title": [
+    "[Castle Darkstone, Outer Ward]"
+  ],
+  "description": [
+    "The collapsing remains of a ballista rests here, a rusty spear still loaded in it, poised to fire at a long-gone enemy.  A broken ammunition rack stands nearby.  The outer keep continues east and west from here, between the two walls of the castle."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7004": "west",
     "7006": "east"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "7004": 0.2,
+    "7006": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     569,
     375,
     579,
     385
   ],
-  "terrain": null,
-  "description": [
-    "The collapsing remains of a ballista rests here, a rusty spear still loaded in it, poised to fire at a long-gone enemy.  A broken ammunition rack stands nearby.  The outer keep continues east and west from here, between the two walls of the castle."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Castle Darkstone, Outer Ward]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7004": 0.2,
-    "7006": 0.2
-  },
-  "id": 7005,
-  "location": "Darkstone Castle",
   "tags": [
     "some wolifrew lichen",
     "some wingstem root",
@@ -35,21 +32,6 @@
     "some pennyroyal stem",
     "cuctucae berry",
     "heath aster",
-    "some angelica root",
-    "acantha leaf",
-    "wolifrew lichen",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "stalk of chicory",
-    "bright red cranberry",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some angelica root"
   ]
 }

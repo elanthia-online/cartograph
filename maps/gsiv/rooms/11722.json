@@ -1,43 +1,33 @@
 {
-  "wayto": {
-    "11721": "out",
-    "16179": "go window",
-    "17692": {
-      "stringproc": "cd1466736eb5433493330fd9b6f771e3"
-    }
-  },
-  "paths": [
-    "Obvious exits: out"
+  "id": 11722,
+  "title": [
+    "[Marsh Keep, Bedroom]"
   ],
-  "image_coords": [
-    867,
-    811,
-    877,
-    821
-  ],
-  "terrain": "indoors",
   "description": [
     "The focus of the decadently decorated bedroom is a tall four-poster bed set immediately within sight of the doorway.  Underneath the bed's canopy, a skeleton in rotting robes lies sprawled across the dusty sheets, one boney hand still gripping a hanging canopy cord.  A second skeleton lies against an opposite wall near a book shelf and just under a candelabra.  Light streams into the room from a large window across from the bed to shine across an opened tome lying on the floor as if dropped.",
     "The focus of the decadently decorated bedroom is a tall four-poster bed set immediately within sight of the doorway.  Underneath the bed's canopy, a skeleton in rotting robes lies sprawled across the dusty sheets, one boney hand still gripping a hanging canopy cord.  A second skeleton lies against an opposite wall near a book shelf and just under a candelabra.  Moonlight streams into the room from a large window across from the bed, to shine across an opened tome lying on the floor as if dropped."
   ],
-  "image": "rr-marsh_keep-1266356986.png",
-  "climate": "indoors",
-  "title": [
-    "[Marsh Keep, Bedroom]"
+  "paths": [
+    "Obvious exits: out"
   ],
-  "check_location": null,
+  "location": "the Marsh Keep",
+  "wayto": {
+    "11721": "out",
+    "16179": "go window",
+    "17692": {
+      "file": "string_procs/wayto/11722_17692.rb"
+    }
+  },
   "timeto": {
     "11721": 0.2,
     "16179": 0.2,
     "17692": 0.5
   },
-  "id": 11722,
-  "location": "the Marsh Keep",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-marsh_keep-1266356986.png",
+  "image_coords": [
+    867,
+    811,
+    877,
+    821
   ]
 }

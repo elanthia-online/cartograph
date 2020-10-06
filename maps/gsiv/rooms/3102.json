@@ -1,39 +1,31 @@
 {
+  "id": 3102,
+  "title": [
+    "[Abandoned Farm, Cellar]"
+  ],
+  "description": [
+    "The earthen walls of the cellar are deeply gouged by claw marks.  Dirt and dust rise as you move through the room, obscuring your vision and clogging your nose and throat."
+  ],
+  "paths": [
+    "Obvious exits: north, southwest"
+  ],
+  "location": "the Abandoned Farm",
   "wayto": {
     "3101": "southwest",
     "3103": "north"
   },
-  "paths": [
-    "Obvious exits: north, southwest"
-  ],
+  "timeto": {
+    "3101": 0.2,
+    "3103": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     807,
     645,
     817,
     655
   ],
-  "terrain": "indoors",
-  "description": [
-    "The earthen walls of the cellar are deeply gouged by claw marks.  Dirt and dust rise as you move through the room, obscuring your vision and clogging your nose and throat."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abandoned Farm, Cellar]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3101": 0.2,
-    "3103": 0.2
-  },
-  "id": 3102,
-  "location": "the Abandoned Farm",
   "tags": [
-    "zombie",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "zombie"
   ]
 }

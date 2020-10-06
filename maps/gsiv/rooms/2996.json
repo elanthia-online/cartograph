@@ -1,33 +1,31 @@
 {
+  "id": 2996,
+  "title": [
+    "[A Winding Path]",
+    "[Abbey Approach, Winding Path]"
+  ],
+  "description": [
+    "Curving around the base of the mountain, the stone pathway provides solid footing.  Tundra gives way now to stunted branches and twigs, sheltered from the blowing winds by the rising side of the mountain."
+  ],
+  "paths": [
+    "Obvious paths: northeast, down"
+  ],
+  "location": "the Abbey",
   "wayto": {
     "2995": "northeast",
     "2997": "down"
   },
-  "paths": [
-    "Obvious paths: northeast, down"
-  ],
+  "timeto": {
+    "2995": 0.2,
+    "2997": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     691,
     1001,
     701,
     1011
   ],
-  "terrain": "mountainous",
-  "description": [
-    "Curving around the base of the mountain, the stone pathway provides solid footing.  Tundra gives way now to stunted branches and twigs, sheltered from the blowing winds by the rising side of the mountain."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[A Winding Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2995": 0.2,
-    "2997": 0.2
-  },
-  "id": 2996,
-  "location": "the Abbey",
   "tags": [
     "some angelica root",
     "winter rose",
@@ -51,18 +49,6 @@
     "orange rowanberry",
     "some wingstem root",
     "some tundra grass",
-    "red winterberry",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "tundra grass",
-    "snowberries",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "red winterberry"
   ]
 }

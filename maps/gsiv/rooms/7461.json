@@ -1,54 +1,44 @@
 {
-  "wayto": {
-    "7460": {
-      "stringproc": "ceec9ada48216364245f996122b83446"
-    },
-    "7462": {
-      "stringproc": "d4094080092d28883335992ed423dfd3"
-    },
-    "7477": {
-      "stringproc": "22a794b0f5bb3d04c7f49a30055543f3"
-    }
-  },
+  "id": 7461,
+  "title": [
+    "[Dark Grotto, Small Tunnel]"
+  ],
+  "description": [
+    "A peculiar smell permeates the area, irritating your nose and eyes.  The odor is not strong and has no discernible source, but it leaves a bitter, foul taste in the back of your mouth.  The reek only adds to the general feeling of discomfort in the narrow confines of the tunnel."
+  ],
   "paths": [
     "Obvious exits: northeast, southeast, northwest"
   ],
+  "location": "the Broken Lands",
+  "wayto": {
+    "7460": {
+      "file": "string_procs/wayto/7461_7460.rb"
+    },
+    "7462": {
+      "file": "string_procs/wayto/7461_7462.rb"
+    },
+    "7477": {
+      "file": "string_procs/wayto/7461_7477.rb"
+    }
+  },
+  "timeto": {
+    "7460": 0.2,
+    "7462": 0.2,
+    "7477": 0.2
+  },
+  "image": "wl-broken-1264234799.png",
   "image_coords": [
     834,
     853,
     844,
     863
   ],
-  "terrain": "indoors",
-  "description": [
-    "A peculiar smell permeates the area, irritating your nose and eyes.  The odor is not strong and has no discernible source, but it leaves a bitter, foul taste in the back of your mouth.  The reek only adds to the general feeling of discomfort in the narrow confines of the tunnel."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dark Grotto, Small Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7460": 0.2,
-    "7462": 0.2,
-    "7477": 0.2
-  },
-  "id": 7461,
-  "location": "the Broken Lands",
   "tags": [
     "some glowing green lichen",
     "some cave moss",
     "sponge mushroom",
     "some blackened moss",
     "bone mushroom",
-    "magru",
-    "blackened moss",
-    "green lichen",
-    "cave moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "magru"
   ]
 }

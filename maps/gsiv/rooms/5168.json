@@ -1,46 +1,34 @@
 {
+  "id": 5168,
+  "title": [
+    "[Vornavian Coast, North Beach]"
+  ],
+  "description": [
+    "The moon shines down on the beach here, and the wind is diminished by the high cliff face to the east.  The black sands absorb all of the rays of the moon.  Occasional precious stones or metals partly buried in the sand sparkle in the moonlight.",
+    "The sun bears down on the beach here, and the wind is diminished by the high cliff face to the east.  The black sands absorb all of the rays of the sun, and waves of heat rise off the dunes.  Occasional precious stones or metals partly buried in the sand sparkle in the sun."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast"
+  ],
+  "location": "the Vornavian Coast",
   "wayto": {
     "5169": "north",
     "5167": "southeast"
   },
-  "paths": [
-    "Obvious paths: north, southeast"
-  ],
+  "timeto": {
+    "5169": 0.2,
+    "5167": 0.2
+  },
+  "image": "vo-north_beach-1264234799.png",
   "image_coords": [
     395,
     554,
     405,
     564
   ],
-  "terrain": "sandy",
-  "description": [
-    "The moon shines down on the beach here, and the wind is diminished by the high cliff face to the east.  The black sands absorb all of the rays of the moon.  Occasional precious stones or metals partly buried in the sand sparkle in the moonlight.",
-    "The sun bears down on the beach here, and the wind is diminished by the high cliff face to the east.  The black sands absorb all of the rays of the sun, and waves of heat rise off the dunes.  Occasional precious stones or metals partly buried in the sand sparkle in the sun."
-  ],
-  "image": "vo-north_beach-1264234799.png",
-  "climate": "hot, damp",
-  "title": [
-    "[Vornavian Coast, North Beach]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5169": 0.2,
-    "5167": 0.2
-  },
-  "id": 5168,
-  "location": "the Vornavian Coast",
   "tags": [
     "some bur-clover root",
     "cactus flower",
-    "some acantha leaf",
-    "acantha leaf",
-    "yabathilium fruit",
-    "yellow primrose",
-    "murdroot",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some acantha leaf"
   ]
 }

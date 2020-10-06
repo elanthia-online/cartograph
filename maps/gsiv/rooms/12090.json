@@ -1,39 +1,31 @@
 {
-  "wayto": {
-    "2618": "west",
-    "12208": {
-      "stringproc": "a0576f0215d746452e7afb93c1ee082c"
-    },
-    "2612": "northwest",
-    "2613": "northeast",
-    "2635": {
-      "stringproc": "01b8924575c8d70e4ed7eea7ed00be84"
-    },
-    "12101": {
-      "stringproc": "cf4b8e5b125b22b01c9349827d02c9fd"
-    },
-    "2616": "east"
-  },
+  "id": 12090,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "Thick mist covers the ground in this small cemetery.  Moss-covered headstones and graves placed in a chaotic order stretch as far as the eye can see.  Several tombs rest on a small hill in the center of the quiet graves, on which three shapeless collections of ooze gather.  As you watch them, they morph into various shapes and sizes, speaking amongst themselves in some deep, flowing tongue."
+  ],
   "paths": [
     "Obvious exits: northeast, east, west, northwest",
     "Obvious paths: northeast, east, west, northwest"
   ],
-  "image_coords": [
-    240,
-    804,
-    250,
-    814
-  ],
-  "terrain": null,
-  "description": [
-    "Thick mist covers the ground in this small cemetery.  Moss-covered headstones and graves placed in a chaotic order stretch as far as the eye can see.  Several tombs rest on a small hill in the center of the quiet graves, on which three shapeless collections of ooze gather.  As you watch them, they morph into various shapes and sizes, speaking amongst themselves in some deep, flowing tongue."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "2618": "west",
+    "12208": {
+      "file": "string_procs/wayto/12090_12208.rb"
+    },
+    "2612": "northwest",
+    "2613": "northeast",
+    "2635": {
+      "file": "string_procs/wayto/12090_2635.rb"
+    },
+    "12101": {
+      "file": "string_procs/wayto/12090_12101.rb"
+    },
+    "2616": "east"
+  },
   "timeto": {
     "2618": 0.2,
     "12208": 22.0,
@@ -43,8 +35,13 @@
     "12101": 26.0,
     "2616": 0.2
   },
-  "id": 12090,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    240,
+    804,
+    250,
+    814
+  ],
   "tags": [
     "mass of congealed slime",
     "discolored fleshbinder bud",
@@ -53,8 +50,5 @@
     "slime-covered grave blossom",
     "twisted black mawflower",
     "withered deathblossom"
-  ],
-  "links": [
-
   ]
 }

@@ -1,38 +1,28 @@
 {
+  "id": 7832,
+  "title": [
+    "[Glatoph, Ruins]"
+  ],
+  "description": [
+    "Sagging shelves and collapsed cabinets fill what once served as a storeroom.  Various items litter the room, all of them seemingly rusty, rotten, shredded, mildewed, or otherwise rendered useless by the passage of time.  A thick layer of dust covers everything, and is stirred up in clouds with every move you make."
+  ],
+  "paths": [
+    "Obvious exits: southwest, west"
+  ],
+  "location": "Glatoph",
   "wayto": {
     "7833": "west",
     "7831": "southwest"
   },
-  "paths": [
-    "Obvious exits: southwest, west"
-  ],
+  "timeto": {
+    "7833": 0.2,
+    "7831": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     547,
     520,
     557,
     530
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Sagging shelves and collapsed cabinets fill what once served as a storeroom.  Various items litter the room, all of them seemingly rusty, rotten, shredded, mildewed, or otherwise rendered useless by the passage of time.  A thick layer of dust covers everything, and is stirred up in clouds with every move you make."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Glatoph, Ruins]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7833": 0.2,
-    "7831": 0.2
-  },
-  "id": 7832,
-  "location": "Glatoph",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

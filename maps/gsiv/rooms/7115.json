@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "7114": "west"
-  },
+  "id": 7115,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "The passage dead ends just east of here, at a rough stone wall with a putrid corpse collapsed in front of it.  The odor permeates the entire area; apparently the body has been here for a couple of weeks.  It's definitely humanoid, and it's short and stocky enough to have been a dwarf, but you really can't tell for sure.  Beetles and worms and larger scavengers have been at work, and the results are grisly."
+  ],
   "paths": [
     "Obvious exits: west"
   ],
+  "location": "Darkstone Castle",
+  "wayto": {
+    "7114": "west"
+  },
+  "timeto": {
+    "7114": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     1097,
     1175,
     1107,
     1185
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The passage dead ends just east of here, at a rough stone wall with a putrid corpse collapsed in front of it.  The odor permeates the entire area; apparently the body has been here for a couple of weeks.  It's definitely humanoid, and it's short and stocky enough to have been a dwarf, but you really can't tell for sure.  Beetles and worms and larger scavengers have been at work, and the results are grisly."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7114": 0.2
-  },
-  "id": 7115,
-  "location": "Darkstone Castle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

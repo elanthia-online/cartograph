@@ -1,44 +1,35 @@
 {
-  "wayto": {
-    "11440": {
-      "stringproc": "edcc0cccbc99a29a586ead6328949de9"
-    },
-    "11452": {
-      "stringproc": "ecb29216e38b2eccfa243d0a331e41b2"
-    },
-    "11441": {
-      "stringproc": "fca73c0fdfb5b02d3b95efa24885592a"
-    },
-    "11442": {
-      "stringproc": "6ec0d3f2602af819251801455c03b9d7"
-    },
-    "11454": {
-      "stringproc": "d1ab0fc82426b99746caa62b1f882697"
-    },
-    "11476": {
-      "stringproc": "c5de6a93c272509e579c13cc8cd916bf"
-    }
-  },
-  "paths": [
-    "Obvious paths: southeast, south, southwest, west, northwest, down"
+  "id": 11453,
+  "title": [
+    "[Maelstrom Bay, Surface]"
   ],
-  "image_coords": [
-    702,
-    1180,
-    712,
-    1190
-  ],
-  "terrain": "missing",
   "description": [
     "The sea swells break against the jagged, rocky base of a low headland.  A narrow tower with a damaged, blue-tiled roof is visible above the steep headland.  The green waters of Maelstrom Bay, muted in the moonlight, stretch out to the west.  The breaking of the low waves against the headland creates a deep bass sound.",
     "The sea swells break against the jagged, rocky base of a low headland.  A narrow tower with a damaged, blue-tiled roof is visible above the steep headland.  The green waters of Maelstrom Bay, bright in the sunlight, stretch out to the west.  The breaking of the low waves against the headland creates a deep bass sound."
   ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "missing",
-  "title": [
-    "[Maelstrom Bay, Surface]"
+  "paths": [
+    "Obvious paths: southeast, south, southwest, west, northwest, down"
   ],
-  "check_location": null,
+  "wayto": {
+    "11440": {
+      "file": "string_procs/wayto/11453_11440.rb"
+    },
+    "11452": {
+      "file": "string_procs/wayto/11453_11452.rb"
+    },
+    "11441": {
+      "file": "string_procs/wayto/11453_11441.rb"
+    },
+    "11442": {
+      "file": "string_procs/wayto/11453_11442.rb"
+    },
+    "11454": {
+      "file": "string_procs/wayto/11453_11454.rb"
+    },
+    "11476": {
+      "file": "string_procs/wayto/11453_11476.rb"
+    }
+  },
   "timeto": {
     "11440": 2.0,
     "11452": 2.0,
@@ -47,13 +38,11 @@
     "11454": 2.0,
     "11476": 3.0
   },
-  "id": 11453,
-  "location": "Maelstrom Bay",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-maelstrom-1266390501.png",
+  "image_coords": [
+    702,
+    1180,
+    712,
+    1190
   ]
 }

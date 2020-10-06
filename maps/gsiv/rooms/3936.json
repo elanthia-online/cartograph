@@ -1,51 +1,36 @@
 {
+  "id": 3936,
+  "title": [
+    "[Catacombs, Mossy Climb]"
+  ],
+  "description": [
+    "Thick moss covers every available surface here.  Where you can see through the growth, you notice that the walls seem fairly recent and are made of red brick.  Openings in the ceiling at seemingly random intervals provide some faint light and occasionally you hear footsteps and murmurings overhead.  The tunnel continues on to the north, up along a high ledge."
+  ],
+  "paths": [
+    "Obvious exits: south, up"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "3937": "go grate",
     "7511": "up",
     "3935": "south"
   },
-  "paths": [
-    "Obvious exits: south, up"
-  ],
+  "timeto": {
+    "3937": 0.2,
+    "7511": 0.2,
+    "3935": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     928,
     1074,
     938,
     1084
   ],
-  "terrain": "indoors",
-  "description": [
-    "Thick moss covers every available surface here.  Where you can see through the growth, you notice that the walls seem fairly recent and are made of red brick.  Openings in the ceiling at seemingly random intervals provide some faint light and occasionally you hear footsteps and murmurings overhead.  The tunnel continues on to the north, up along a high ledge."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Catacombs, Mossy Climb]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3937": 0.2,
-    "7511": 0.2,
-    "3935": 0.2
-  },
-  "id": 3936,
-  "location": "the catacombs",
   "tags": [
     "some wingstem root",
     "black hook mushroom",
     "blue trafel mushroom",
-    "some cave moss",
-    "red trafel mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

@@ -1,45 +1,36 @@
 {
+  "id": 9520,
+  "title": [
+    "[Troll Burial Grounds]"
+  ],
+  "description": [
+    "White, bleached, powdery bones flow in from the west and slide downhill to the north.  The level is roughly the same to the east, and little migration occurs in that direction.  The bones are desiccated, their porous surfaces heavily scraped from the tumbling they have received on their way down from above or the stirring from the heaving movements below.  The dry bones create an extremely arid environment, with the moisture sucked out of the air, leaving it temperate but dehydrated."
+  ],
+  "paths": [
+    "Obvious exits: east, southeast, up, down"
+  ],
+  "location": "the Troll Burial Grounds",
   "wayto": {
     "9519": "southeast",
     "9521": "down",
     "9522": "east",
     "9523": "up"
   },
-  "paths": [
-    "Obvious exits: east, southeast, up, down"
-  ],
-  "image_coords": [
-    827,
-    927,
-    837,
-    937
-  ],
-  "terrain": "indoors",
-  "description": [
-    "White, bleached, powdery bones flow in from the west and slide downhill to the north.  The level is roughly the same to the east, and little migration occurs in that direction.  The bones are desiccated, their porous surfaces heavily scraped from the tumbling they have received on their way down from above or the stirring from the heaving movements below.  The dry bones create an extremely arid environment, with the moisture sucked out of the air, leaving it temperate but dehydrated."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Troll Burial Grounds]"
-  ],
-  "check_location": null,
   "timeto": {
     "9519": 0.2,
     "9521": 0.2,
     "9522": 0.2,
     "9523": 0.2
   },
-  "id": 9520,
-  "location": "the Troll Burial Grounds",
+  "image": "en-zul_logoth-1264234799.png",
+  "image_coords": [
+    827,
+    927,
+    837,
+    937
+  ],
   "tags": [
     "blue trafel mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "pepperthorn root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "soft white mushroom"
   ]
 }

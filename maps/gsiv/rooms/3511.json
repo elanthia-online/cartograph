@@ -1,20 +1,8 @@
 {
-  "wayto": {
-    "13547": "go door",
-    "3510": "west",
-    "3512": "north",
-    "3515": "east"
-  },
-  "paths": [
-    "Obvious paths: north, east, west"
+  "id": 3511,
+  "title": [
+    "[Ta'Vaalor, Gaeld Var]"
   ],
-  "image_coords": [
-    626,
-    778,
-    658,
-    813
-  ],
-  "terrain": null,
   "description": [
     "A pair of high walls flank the street here, and are capped with stone planters, now home to several species of ferns.  Some of the mortar holding the walls together has crumbled, sending cracks through many of the bricks.",
     "A pair of high walls flank the street here, and are capped with stone planters, now home to several species of ferns.  Some of the mortar holding the walls together has crumbled, sending cracks through many of the bricks.  Moonlight filters through the cracks, sending slivers of light across the street.  A door of golden oak is set into an arched opening in the south wall.",
@@ -23,24 +11,27 @@
     "Neatly trimmed shrubberies, punctuated by the occasional tree, line the var.  Over the top of the shrubs can be seen tidy rows of cottages and houses, some dark, while others are lit by a flickering light.  The night air is very fragrant from the sprawling gardens of fustic, saffron, and madder surrounding one cottage with a golden oak door.",
     "Neatly trimmed shrubberies, punctuated by the occasional tree, line the var.  Over the top of the shrubs can be seen tidy rows of cottages and houses, each with a neatly trimmed lawn and the occasional child playing out front.  Sprawling gardens of fustic, saffron, and madder surround one cottage with a golden oak door, the profusion of bright color making it stand out from the rest."
   ],
-  "image": "en-tavaalor-1565907614.png",
-  "climate": null,
-  "title": [
-    "[Ta'Vaalor, Gaeld Var]"
+  "paths": [
+    "Obvious paths: north, east, west"
   ],
-  "check_location": null,
+  "location": "the city of Ta'Vaalor",
+  "wayto": {
+    "13547": "go door",
+    "3510": "west",
+    "3512": "north",
+    "3515": "east"
+  },
   "timeto": {
     "13547": 0.2,
     "3510": 0.2,
     "3512": 0.2,
     "3515": 0.2
   },
-  "id": 3511,
-  "location": "the city of Ta'Vaalor",
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "en-tavaalor-1565907614.png",
+  "image_coords": [
+    626,
+    778,
+    658,
+    813
   ]
 }

@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "2619": "west",
-    "2635": {
-      "stringproc": "f88a5ac335110328444947aa8fdfa490"
-    },
-    "12124": "southeast",
-    "12093": {
-      "stringproc": "dc0110972ab7e067d5fec20ece15581c"
-    },
-    "2605": {
-      "stringproc": "317c6eedd1ea40322b9b26b259a3053f"
-    }
-  },
+  "id": 12123,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "A small wooden sign sits before you, ancient writing scrawled across the surface.  Just behind it, a huge pit extends deep into the ground.  An unusual silence hangs heavily over the area, broken occasionally by a metallic squeak from the pit.  Looking inside, you see thousands of small, grooved metal rods imbedded in the walls rotating slowly.  The further down the pit extends, the more narrow it becomes until you can see no more."
+  ],
   "paths": [
     "Obvious exits: southeast, west",
     "Obvious paths: southeast, west"
   ],
-  "image_coords": [
-    1002,
-    589,
-    1012,
-    599
-  ],
-  "terrain": null,
-  "description": [
-    "A small wooden sign sits before you, ancient writing scrawled across the surface.  Just behind it, a huge pit extends deep into the ground.  An unusual silence hangs heavily over the area, broken occasionally by a metallic squeak from the pit.  Looking inside, you see thousands of small, grooved metal rods imbedded in the walls rotating slowly.  The further down the pit extends, the more narrow it becomes until you can see no more."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "2619": "west",
+    "2635": {
+      "file": "string_procs/wayto/12123_2635.rb"
+    },
+    "12124": "southeast",
+    "12093": {
+      "file": "string_procs/wayto/12123_12093.rb"
+    },
+    "2605": {
+      "file": "string_procs/wayto/12123_2605.rb"
+    }
+  },
   "timeto": {
     "2619": 0.2,
     "2635": 16.0,
@@ -39,8 +31,13 @@
     "12093": 21.6,
     "2605": 16.0
   },
-  "id": 12123,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    1002,
+    589,
+    1012,
+    599
+  ],
   "tags": [
     "withered deathblossom",
     "slime-covered grave blossom",
@@ -49,8 +46,5 @@
     "rotting bile green fleshbulb",
     "twisted black mawflower",
     "discolored fleshbinder bud"
-  ],
-  "links": [
-
   ]
 }

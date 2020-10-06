@@ -1,38 +1,28 @@
 {
+  "id": 10053,
+  "title": [
+    "[North Barrow, Ossuary]"
+  ],
+  "description": [
+    "The heavy stone blocks of the walls strain against the weight of the ground above them, tilting at a slight angle as if ready to crumble and collapse into rubble.  Faint scratching sounds echo through the dim, musty chamber, signaling the presence of what is hopefully only rats among the stacks of ancient bones."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Yegharren Plains",
   "wayto": {
     "10052": "north",
     "10054": "south"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "10052": 0.2,
+    "10054": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     1376,
     250,
     1386,
     260
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The heavy stone blocks of the walls strain against the weight of the ground above them, tilting at a slight angle as if ready to crumble and collapse into rubble.  Faint scratching sounds echo through the dim, musty chamber, signaling the presence of what is hopefully only rats among the stacks of ancient bones."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[North Barrow, Ossuary]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10052": 0.2,
-    "10054": 0.2
-  },
-  "id": 10053,
-  "location": "the Yegharren Plains",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

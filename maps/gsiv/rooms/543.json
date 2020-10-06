@@ -1,34 +1,31 @@
 {
+  "id": 543,
+  "title": [
+    "[Whistler's Pass, Grassy Field]"
+  ],
+  "description": [
+    "A thick screen of bushes line the edge of the dark field, forming a semicircle in the pass.  A gap in the bushes leads to the northeast.",
+    "A thick screen of bushes line the edge of the field, forming a semicircle in the pass.  A gap in the bushes leads to the northeast."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "542": "northeast",
     "544": "south"
   },
-  "paths": [
-    "Obvious paths: northeast, south"
-  ],
+  "timeto": {
+    "542": 0.2,
+    "544": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     764,
     629,
     774,
     639
   ],
-  "terrain": "grassland",
-  "description": [
-    "A thick screen of bushes line the edge of the dark field, forming a semicircle in the pass.  A gap in the bushes leads to the northeast.",
-    "A thick screen of bushes line the edge of the field, forming a semicircle in the pass.  A gap in the bushes leads to the northeast."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Whistler's Pass, Grassy Field]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "542": 0.2,
-    "544": 0.2
-  },
-  "id": 543,
-  "location": "Whistler's Pass",
   "tags": [
     "sprig of sneezeweed",
     "acantha leaf",
@@ -106,10 +103,6 @@
     "wavepetal blossom",
     "ironfern root",
     "nightbloom blossom",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

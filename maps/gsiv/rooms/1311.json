@@ -1,33 +1,30 @@
 {
+  "id": 1311,
+  "title": [
+    "[Zeltoph Switchbacks]"
+  ],
+  "description": [
+    "The trail reaches a pass through the mountain range and although Zeltoph towers over the trail to the east and Wehntoph to the west, the air is thin enough to make breathing a bit difficult.  The glorious vista mesmerizes even the most hardened of travellers as they gaze upon the foothills to the north."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "the foothills of Zeltoph",
   "wayto": {
     "1310": "northwest",
     "1312": "southeast"
   },
-  "paths": [
-    "Obvious paths: southeast, northwest"
-  ],
+  "timeto": {
+    "1310": 0.2,
+    "1312": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     364,
     452,
     374,
     462
   ],
-  "terrain": "mountainous",
-  "description": [
-    "The trail reaches a pass through the mountain range and although Zeltoph towers over the trail to the east and Wehntoph to the west, the air is thin enough to make breathing a bit difficult.  The glorious vista mesmerizes even the most hardened of travellers as they gaze upon the foothills to the north."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Zeltoph Switchbacks]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1310": 0.2,
-    "1312": 0.2
-  },
-  "id": 1311,
-  "location": "the foothills of Zeltoph",
   "tags": [
     "marallis berry",
     "some wingstem root",
@@ -42,10 +39,6 @@
     "sprig of larkspur",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

@@ -1,45 +1,34 @@
 {
+  "id": 4972,
+  "title": [
+    "[Maernstrike Caverns, Tunnel]"
+  ],
+  "description": [
+    "The metallic smell of dried blood permeates this area.  Closer inspection of the walls reveals where blood was splashed by the bucketful and then dripped onto the floor.  Shattered broadswords and wooden shields lie useless in the interior of the cavern space."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Maernstrike Caverns",
   "wayto": {
     "4971": "south",
     "4973": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "4971": 0.2,
+    "4973": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     1437,
     441,
     1447,
     451
   ],
-  "terrain": "indoors",
-  "description": [
-    "The metallic smell of dried blood permeates this area.  Closer inspection of the walls reveals where blood was splashed by the bucketful and then dripped onto the floor.  Shattered broadswords and wooden shields lie useless in the interior of the cavern space."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Maernstrike Caverns, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4971": 0.2,
-    "4973": 0.2
-  },
-  "id": 4972,
-  "location": "the Maernstrike Caverns",
   "tags": [
     "some cave moss",
     "some wingstem root",
     "some bolmara lichen",
-    "white hook mushroom",
-    "cave moss",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "white hook mushroom"
   ]
 }

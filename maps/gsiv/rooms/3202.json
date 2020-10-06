@@ -1,33 +1,30 @@
 {
+  "id": 3202,
+  "title": [
+    "[Snowflake Vale, Forest]"
+  ],
+  "description": [
+    "A small clearing in the trees provides a welcome change from the closeness of the woods.  At the center of the clearing is a stack of dead wood, mixed with fresh pine boughs.  Small animal traps and broken bones are scattered beside the wood pile, as though discarded in a hurry."
+  ],
+  "paths": [
+    "Obvious paths: north, west"
+  ],
+  "location": "the southern snowfields",
   "wayto": {
     "3201": "west",
     "3203": "north"
   },
-  "paths": [
-    "Obvious paths: north, west"
-  ],
+  "timeto": {
+    "3201": 0.2,
+    "3203": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     174,
     1232,
     184,
     1242
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "A small clearing in the trees provides a welcome change from the closeness of the woods.  At the center of the clearing is a stack of dead wood, mixed with fresh pine boughs.  Small animal traps and broken bones are scattered beside the wood pile, as though discarded in a hurry."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Snowflake Vale, Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3201": 0.2,
-    "3203": 0.2
-  },
-  "id": 3202,
-  "location": "the southern snowfields",
   "tags": [
     "tkaro root",
     "snow lily",
@@ -39,34 +36,6 @@
     "some pine needles",
     "red winterberry",
     "orange rowanberry",
-    "some bolmara lichen",
-    "sticks",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "iceblossoms",
-    "winter rose",
-    "bright red teaberry",
-    "handful of pinenuts",
-    "broken twig",
-    "pine cone",
-    "pine needles",
-    "frostweed",
-    "snowberries",
-    "small loganberry",
-    "tree bark",
-    "frostflower",
-    "crowberry",
-    "lingonberry",
-    "ironfern root",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some bolmara lichen"
   ]
 }

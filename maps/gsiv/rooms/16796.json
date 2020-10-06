@@ -1,45 +1,38 @@
 {
+  "id": 16796,
+  "title": [
+    "[Hall of the Dead, Debtors Vault]"
+  ],
+  "description": [
+    "Even as decomposed as the bodies are, you again see evidence of the atrocities of this crypt.  Mutilated corpses, hacked to pieces, have been stuffed into the wall pockets.  Even then, some would not fit.  Overstuffed as the holes were, arms and legs have fallen from the notches to land on the floor to decay."
+  ],
+  "paths": [
+    "Obvious exits: north, east, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "16799": "east",
     "16795": "west",
     "16797": "north"
   },
-  "paths": [
-    "Obvious exits: north, east, west"
-  ],
+  "timeto": {
+    "16799": 0.2,
+    "16795": 0.2,
+    "16797": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     913,
     888,
     923,
     898
   ],
-  "terrain": "indoors",
-  "description": [
-    "Even as decomposed as the bodies are, you again see evidence of the atrocities of this crypt.  Mutilated corpses, hacked to pieces, have been stuffed into the wall pockets.  Even then, some would not fit.  Overstuffed as the holes were, arms and legs have fallen from the notches to land on the floor to decay."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Hall of the Dead, Debtors Vault]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "16799": 0.2,
-    "16795": 0.2,
-    "16797": 0.2
-  },
-  "id": 16796,
-  "location": "the Graveyard",
   "tags": [
     "wolifrew lichen",
     "withered black mushroom",
     "cave moss",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

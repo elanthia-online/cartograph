@@ -1,4 +1,15 @@
 {
+  "id": 7039,
+  "title": [
+    "[Castle Darkstone, Inner Keep]"
+  ],
+  "description": [
+    "This is the northeastern corner of the central courtyard of the inner keep.  The great hall runs along the northern wall here, and the northeast tower rises high above you.  The castle's well is conveniently located here, well defended and close to the great hall."
+  ],
+  "paths": [
+    "Obvious paths: south, southwest, west"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "17376": "go tower",
     "7033": "southwest",
@@ -6,25 +17,6 @@
     "7038": "go hall",
     "7040": "south"
   },
-  "paths": [
-    "Obvious paths: south, southwest, west"
-  ],
-  "image_coords": [
-    702,
-    528,
-    712,
-    538
-  ],
-  "terrain": null,
-  "description": [
-    "This is the northeastern corner of the central courtyard of the inner keep.  The great hall runs along the northern wall here, and the northeast tower rises high above you.  The castle's well is conveniently located here, well defended and close to the great hall."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Castle Darkstone, Inner Keep]"
-  ],
-  "check_location": null,
   "timeto": {
     "17376": 0.2,
     "7033": 0.2,
@@ -32,13 +24,11 @@
     "7038": 0.2,
     "7040": 0.2
   },
-  "id": 7039,
-  "location": "Darkstone Castle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-darkstone-1264234799.png",
+  "image_coords": [
+    702,
+    528,
+    712,
+    538
   ]
 }

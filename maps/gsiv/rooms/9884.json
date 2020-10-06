@@ -1,40 +1,32 @@
 {
-  "wayto": {
-    "18803": {
-      "stringproc": "9530e7b353488450abf514d7328187a8"
-    },
-    "13183": {
-      "stringproc": "9bf57bf3fda33e99abb00f61f6b4286d"
-    },
-    "16956": {
-      "stringproc": "be97885db95624bceef2deaffc5e02c4"
-    },
-    "16957": {
-      "stringproc": "3ec966178521e1f4be79cba045229179"
-    },
-    "9885": "north",
-    "54": "go path"
-  },
-  "paths": [
-    "Obvious paths: north"
+  "id": 9884,
+  "title": [
+    "[Deep Forest, Path]"
   ],
-  "image_coords": [
-    1045,
-    273,
-    1055,
-    283
-  ],
-  "terrain": "deciduous forest",
   "description": [
     "Within the forest's heart, the pungent mustiness of loam rules hand in hand with the relentless green of the woods.  A ragged path winds its way through boles of trees growing so closely together, they look almost like a solid wall.  Chinks of green light filter down from the intertwined branches overhead and sway gently at the prompt of a breeze, dappling the trail where it can be seen through the overhang of fern fronds.",
     "Within the forest's heart, the pungent mustiness of loam rules hand in hand with the relentless green of the woods.  A ragged path winds its way through boles of trees growing so closely together, they look almost like a solid wall.  Soft, green-tinged moonlight filters down from the intertwined branches overhead, dappling the trail where it can be seen through the encroaching shadows of fern fronds."
   ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Deep Forest, Path]"
+  "paths": [
+    "Obvious paths: north"
   ],
-  "check_location": null,
+  "location": "the dark woods",
+  "wayto": {
+    "18803": {
+      "file": "string_procs/wayto/9884_18803.rb"
+    },
+    "13183": {
+      "file": "string_procs/wayto/9884_13183.rb"
+    },
+    "16956": {
+      "file": "string_procs/wayto/9884_16956.rb"
+    },
+    "16957": {
+      "file": "string_procs/wayto/9884_16957.rb"
+    },
+    "9885": "north",
+    "54": "go path"
+  },
   "timeto": {
     "18803": 15.0,
     "13183": 15.0,
@@ -43,8 +35,13 @@
     "9885": 0.2,
     "54": 0.2
   },
-  "id": 9884,
-  "location": "the dark woods",
+  "image": "en-sapphire-1264234799.png",
+  "image_coords": [
+    1045,
+    273,
+    1055,
+    283
+  ],
   "tags": [
     "some acantha leaf",
     "some torban leaf",
@@ -63,58 +60,6 @@
     "some basal moss",
     "twisted twig",
     "ebony twig",
-    "some calamia fruit",
-    "acantha leaf",
-    "torban leaf",
-    "calamia fruit",
-    "haphip root",
-    "basal moss",
-    "sticks",
-    "angelica root",
-    "trollfear mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "blueberries",
-    "elderberries",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "wild grapes",
-    "stalk of bluebells",
-    "golden buttercup",
-    "wild pink geranium",
-    "stalk of goldenrod",
-    "small wild rose",
-    "sprig of wild lilac",
-    "wild beechnut",
-    "stalk of burdock",
-    "silver-edged fern",
-    "wild orchid",
-    "wood violet",
-    "wolfsbane root",
-    "sprig of mistletoe",
-    "tree bark",
-    "murkweed",
-    "white lily",
-    "pink rain lily",
-    "coppery rain lily",
-    "oxblood lily",
-    "blue whortleberry",
-    "white baneberry",
-    "yew twig",
-    "oak twig",
-    "murdroot",
-    "nightbloom blossom",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some calamia fruit"
   ]
 }

@@ -1,33 +1,30 @@
 {
+  "id": 1301,
+  "title": [
+    "[Zeltoph's Base]"
+  ],
+  "description": [
+    "Unprotected by any rock formations, the trail above the treeline is windswept and cold.  Racing along the face of the mountain, vicious gusts tug at the scant gorse bushes growing tightly against the rocks."
+  ],
+  "paths": [
+    "Obvious paths: southwest, west"
+  ],
+  "location": "the foothills of Zeltoph",
   "wayto": {
     "1300": "west",
     "1302": "southwest"
   },
-  "paths": [
-    "Obvious paths: southwest, west"
-  ],
+  "timeto": {
+    "1300": 0.2,
+    "1302": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     364,
     261,
     374,
     271
   ],
-  "terrain": "mountainous",
-  "description": [
-    "Unprotected by any rock formations, the trail above the treeline is windswept and cold.  Racing along the face of the mountain, vicious gusts tug at the scant gorse bushes growing tightly against the rocks."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Zeltoph's Base]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1300": 0.2,
-    "1302": 0.2
-  },
-  "id": 1301,
-  "location": "the foothills of Zeltoph",
   "tags": [
     "wild pink geranium",
     "marallis berry",
@@ -44,10 +41,6 @@
     "sprig of larkspur",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

@@ -1,40 +1,30 @@
 {
+  "id": 8474,
+  "title": [
+    "[Temple, Kitchen]"
+  ],
+  "description": [
+    "Chaos abounds in this large stone room.  Cookpots have been strewn about, and crockery has been flung against the wall.  Tattered curtains hang in the small window, fluttering in the breeze whistling through a splintered door in the corner.  The destruction here was thorough and callous, and you are certain that you do not want to meet the perpetrator."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "the Temple of Love",
   "wayto": {
     "8473": "south",
     "8475": "west",
     "8476": "go door"
   },
-  "paths": [
-    "Obvious exits: south, west"
-  ],
-  "image_coords": [
-    216,
-    780,
-    226,
-    790
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Chaos abounds in this large stone room.  Cookpots have been strewn about, and crockery has been flung against the wall.  Tattered curtains hang in the small window, fluttering in the breeze whistling through a splintered door in the corner.  The destruction here was thorough and callous, and you are certain that you do not want to meet the perpetrator."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Temple, Kitchen]"
-  ],
-  "check_location": null,
   "timeto": {
     "8473": 0.2,
     "8475": 0.2,
     "8476": 0.2
   },
-  "id": 8474,
-  "location": "the Temple of Love",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-trollfang-1264234799.png",
+  "image_coords": [
+    216,
+    780,
+    226,
+    790
   ]
 }

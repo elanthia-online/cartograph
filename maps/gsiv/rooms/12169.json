@@ -1,38 +1,30 @@
 {
-  "wayto": {
-    "12100": "east",
-    "2635": {
-      "stringproc": "f88a5ac335110328444947aa8fdfa490"
-    },
-    "12168": "northeast",
-    "12093": {
-      "stringproc": "dc0110972ab7e067d5fec20ece15581c"
-    },
-    "2605": {
-      "stringproc": "317c6eedd1ea40322b9b26b259a3053f"
-    },
-    "12171": "southeast"
-  },
+  "id": 12169,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "The fog parts revealing a pitch black area.  Blackness wraps around you like a velvety greatcloak as you step tenatively into the dark.  A slithering hiss surrounds you, circling you several times before retreating into the heavy silence and darkness."
+  ],
   "paths": [
     "Obvious paths: northeast, east, southeast",
     "Obvious exits: northeast, east, southeast"
   ],
-  "image_coords": [
-    1003,
-    699,
-    1011,
-    707
-  ],
-  "terrain": null,
-  "description": [
-    "The fog parts revealing a pitch black area.  Blackness wraps around you like a velvety greatcloak as you step tenatively into the dark.  A slithering hiss surrounds you, circling you several times before retreating into the heavy silence and darkness."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12100": "east",
+    "2635": {
+      "file": "string_procs/wayto/12169_2635.rb"
+    },
+    "12168": "northeast",
+    "12093": {
+      "file": "string_procs/wayto/12169_12093.rb"
+    },
+    "2605": {
+      "file": "string_procs/wayto/12169_2605.rb"
+    },
+    "12171": "southeast"
+  },
   "timeto": {
     "12100": 0.2,
     "2635": 16.0,
@@ -41,8 +33,13 @@
     "2605": 16.0,
     "12171": 0.2
   },
-  "id": 12169,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    1003,
+    699,
+    1011,
+    707
+  ],
   "tags": [
     "withered deathblossom",
     "oozing fleshsore bulb",
@@ -51,8 +48,5 @@
     "mass of congealed slime",
     "slime-covered grave blossom",
     "discolored fleshbinder bud"
-  ],
-  "links": [
-
   ]
 }

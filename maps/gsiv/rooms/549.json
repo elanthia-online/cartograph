@@ -1,34 +1,31 @@
 {
+  "id": 549,
+  "title": [
+    "[Whistler's Pass, Bend]"
+  ],
+  "description": [
+    "A gentle wind blows through the pass, creating a mournful echo off the rock walls.  Leaves in the trees rustle in the windy darkness, creating a myriad of sounds.",
+    "A gentle wind blows through the pass, creating a mournful echo off the rock walls.  Leaves in the trees rustle in the wind, creating a myriad of sounds."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "548": "northeast",
     "550": "south"
   },
-  "paths": [
-    "Obvious paths: northeast, south"
-  ],
+  "timeto": {
+    "548": 0.2,
+    "550": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     694,
     718,
     704,
     728
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "A gentle wind blows through the pass, creating a mournful echo off the rock walls.  Leaves in the trees rustle in the windy darkness, creating a myriad of sounds.",
-    "A gentle wind blows through the pass, creating a mournful echo off the rock walls.  Leaves in the trees rustle in the wind, creating a myriad of sounds."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Whistler's Pass, Bend]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "548": 0.2,
-    "550": 0.2
-  },
-  "id": 549,
-  "location": "Whistler's Pass",
   "tags": [
     "some torban leaf",
     "twisted twig",
@@ -89,10 +86,6 @@
     "slender twig",
     "ebony twig",
     "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

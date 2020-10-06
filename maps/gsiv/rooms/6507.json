@@ -1,35 +1,32 @@
 {
+  "id": 6507,
+  "title": [
+    "[Old Noralgar Road]"
+  ],
+  "description": [
+    "The old road is more evident here, although its double tracks are overgrown with tufts of grass and wildflowers.  Overhead, conifers make a patchy canopy that allows the ground cover to spread.  A stream cuts across the way, its banks defined by stones and large boulders which are carpeted green with moss.  The stream appears to be shallow, and on its opposite bank, the road climbs out of the water and continues on.  To the southwest, a trail, little more than a game path, winds into deeper forest."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest"
+  ],
+  "location": "Noralgar Forest",
   "wayto": {
     "6508": "southwest",
     "6509": "go stream",
     "6506": "north"
   },
-  "paths": [
-    "Obvious paths: north, southwest"
-  ],
+  "timeto": {
+    "6508": 0.2,
+    "6509": 0.2,
+    "6506": 0.2
+  },
+  "image": "wl-lysierian-1264234799.png",
   "image_coords": [
     780,
     909,
     790,
     919
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "The old road is more evident here, although its double tracks are overgrown with tufts of grass and wildflowers.  Overhead, conifers make a patchy canopy that allows the ground cover to spread.  A stream cuts across the way, its banks defined by stones and large boulders which are carpeted green with moss.  The stream appears to be shallow, and on its opposite bank, the road climbs out of the water and continues on.  To the southwest, a trail, little more than a game path, winds into deeper forest."
-  ],
-  "image": "wl-lysierian-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Old Noralgar Road]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6508": 0.2,
-    "6509": 0.2,
-    "6506": 0.2
-  },
-  "id": 6507,
-  "location": "Noralgar Forest",
   "tags": [
     "bright red teaberry",
     "some pine needles",
@@ -42,29 +39,6 @@
     "wintergreen leaf",
     "sassafras leaf",
     "stalk of bluebells",
-    "tkaro root",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "sticks",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "broken twig",
-    "pine cone",
-    "pine needles",
-    "wild pink geranium",
-    "tree bark",
-    "yew twig",
-    "ironfern root",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "tkaro root"
   ]
 }

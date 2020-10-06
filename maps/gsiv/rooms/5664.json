@@ -1,43 +1,28 @@
 {
+  "id": 5664,
+  "title": [
+    "[Warrens]"
+  ],
+  "description": [
+    "Large niches dug into the earthen walls and filled with heaps of coarse straw would appear to serve as a crude sleeping area for the inhabitants of this warren.  Small insects scurry within the dried bedding, darting into one of the many cracks or crevices at even the slightest disturbance."
+  ],
+  "paths": [
+    "Obvious exits: north, southwest"
+  ],
+  "location": "the Vornavian Coast",
   "wayto": {
     "5665": "north",
     "5661": "southwest"
   },
-  "paths": [
-    "Obvious exits: north, southwest"
-  ],
+  "timeto": {
+    "5665": 0.2,
+    "5661": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     604,
     661,
     614,
     671
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Large niches dug into the earthen walls and filled with heaps of coarse straw would appear to serve as a crude sleeping area for the inhabitants of this warren.  Small insects scurry within the dried bedding, darting into one of the many cracks or crevices at even the slightest disturbance."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Warrens]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5665": 0.2,
-    "5661": 0.2
-  },
-  "id": 5664,
-  "location": "the Vornavian Coast",
-  "tags": [
-    "withered black mushroom",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

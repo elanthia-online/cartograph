@@ -1,35 +1,28 @@
 {
+  "id": 26247,
+  "title": [
+    "[Lich's Landing, Corpse Row]"
+  ],
+  "description": [
+    "A massive, putrefying ogre zombie trudges through the area, bits of ligaments and bones spilling out of his tattered backpack.  Shadowy black crows circle around the area, a few brave ones swooping down to snatch up some of the morsels."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Talador",
   "wayto": {
     "26246": "south",
     "26248": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "26246": 0.2,
+    "26248": 0.2
+  },
+  "image": "wl-lichs_landing-1500800742.png",
   "image_coords": [
     282,
     412,
     309,
     438
-  ],
-  "terrain": null,
-  "description": [
-    "A massive, putrefying ogre zombie trudges through the area, bits of ligaments and bones spilling out of his tattered backpack.  Shadowy black crows circle around the area, a few brave ones swooping down to snatch up some of the morsels."
-  ],
-  "image": "wl-lichs_landing-1500800742.png",
-  "climate": null,
-  "title": [
-    "[Lich's Landing, Corpse Row]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26246": 0.2,
-    "26248": 0.2
-  },
-  "id": 26247,
-  "location": "Talador",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

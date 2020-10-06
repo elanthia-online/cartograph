@@ -1,32 +1,23 @@
 {
-  "wayto": {
-    "24967": "go opening",
-    "24976": {
-      "stringproc": "f42b7f054697a7f3f9d948a51203098d"
-    }
-  },
-  "paths": [
-    "Obvious exits: west"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Redolent with mold, moist air wafts in from above the catacombs.  Three of the walls are each inset with thirty-six shelf graves, stacked in series of six and filled with small, splintered bones rife with gnaw marks.  The eastern wall instead has only ten intact graves, the others clearly lost to an eroded wall opening.  Copious patches of luminous moss creep over the walls, the greenish light lending an eerie aura to the tomb.  To one side of the chamber, a wide space is centered with several burial pits."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 24975,
   "title": [
     "[Ruined Catacombs]"
   ],
-  "check_location": null,
+  "description": [
+    "Redolent with mold, moist air wafts in from above the catacombs.  Three of the walls are each inset with thirty-six shelf graves, stacked in series of six and filled with small, splintered bones rife with gnaw marks.  The eastern wall instead has only ten intact graves, the others clearly lost to an eroded wall opening.  Copious patches of luminous moss creep over the walls, the greenish light lending an eerie aura to the tomb.  To one side of the chamber, a wide space is centered with several burial pits."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Wehnimer's Landing",
+  "wayto": {
+    "24967": "go opening",
+    "24976": {
+      "file": "string_procs/wayto/24975_24976.rb"
+    }
+  },
   "timeto": {
     "24967": 0.2,
     "24976": 2.0
-  },
-  "id": 24975,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  }
 }

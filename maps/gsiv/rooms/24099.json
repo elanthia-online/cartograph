@@ -1,41 +1,29 @@
 {
+  "id": 24099,
+  "title": [
+    "[Necropolis, Narthex]"
+  ],
+  "description": [
+    "A headless humanoid statue sits on a throne atop a raised rostrum against the western wall.  Spiderwebs completely cover the statue, obfuscating its intended identity.  Cradled in the mass of webbing of the outstretched left hand is a severed head, which still looks fairly fresh."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east, southeast"
+  ],
+  "location": "the Feywrot Mire",
   "wayto": {
     "24100": "north",
     "24096": "southeast",
     "24098": "east",
     "24101": "northeast",
     "24111": {
-      "stringproc": "383a5f3a88aa83e68a28487a520bc318"
+      "file": "string_procs/wayto/24099_24111.rb"
     }
   },
-  "paths": [
-    "Obvious exits: north, northeast, east, southeast"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "A headless humanoid statue sits on a throne atop a raised rostrum against the western wall.  Spiderwebs completely cover the statue, obfuscating its intended identity.  Cradled in the mass of webbing of the outstretched left hand is a severed head, which still looks fairly fresh."
-  ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Necropolis, Narthex]"
-  ],
-  "check_location": null,
   "timeto": {
     "24100": 0.2,
     "24096": 0.2,
     "24098": 0.2,
     "24101": 0.2,
     "24111": 0.2
-  },
-  "id": 24099,
-  "location": "the Feywrot Mire",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  }
 }

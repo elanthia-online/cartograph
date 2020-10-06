@@ -1,33 +1,30 @@
 {
+  "id": 24698,
+  "title": [
+    "[Red Forest, Ring of Mist]"
+  ],
+  "description": [
+    "A wide path of lush grass spreads out before gradually giving way to the crystalline waters of a small lake.  Beneath the bright surface of the pond, the periodic fleck of silvery fish can be seen swimming about.  Pockets of nebulous grey mist float lazily along the lake's surface and edges, occasionally broken up as spotted deer appear and bend their necks to lap thirstily at the waters."
+  ],
+  "paths": [
+    "Obvious paths: east, northwest"
+  ],
+  "location": "the Red Forest",
   "wayto": {
     "24699": "northwest",
     "24697": "east"
   },
-  "paths": [
-    "Obvious paths: east, northwest"
-  ],
+  "timeto": {
+    "24699": 0.2,
+    "24697": 0.2
+  },
+  "image": "red_forest-1260914757.png",
   "image_coords": [
     335,
     142,
     349,
     155
   ],
-  "terrain": null,
-  "description": [
-    "A wide path of lush grass spreads out before gradually giving way to the crystalline waters of a small lake.  Beneath the bright surface of the pond, the periodic fleck of silvery fish can be seen swimming about.  Pockets of nebulous grey mist float lazily along the lake's surface and edges, occasionally broken up as spotted deer appear and bend their necks to lap thirstily at the waters."
-  ],
-  "image": "red_forest-1260914757.png",
-  "climate": null,
-  "title": [
-    "[Red Forest, Ring of Mist]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24699": 0.2,
-    "24697": 0.2
-  },
-  "id": 24698,
-  "location": "the Displaced Red Forest",
   "tags": [
     "wintergreen leaf",
     "a wintergreen leaf",
@@ -65,23 +62,6 @@
     "massive black boar",
     "winged viper",
     "stick",
-    "some mistweed",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "sticks",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "blueberries",
-    "broken twig",
-    "tree bark",
-    "mistweed",
-    "willow twig",
-    "yew twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+    "some mistweed"
+  ]
 }

@@ -1,46 +1,33 @@
 {
+  "id": 4319,
+  "title": [
+    "[Mine]"
+  ],
+  "description": [
+    "A large pile of rocks is carefully stacked against the northern wall of the cavern.  The rocks have been sorted by size and what appears to be color as well.  There are empty sacks on the floor which are in good condition."
+  ],
+  "paths": [
+    "Obvious exits: southeast, south, southwest"
+  ],
+  "location": "the crystal caves",
   "wayto": {
     "4318": "southwest",
     "4320": "south",
     "4321": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast, south, southwest"
-  ],
+  "timeto": {
+    "4318": 0.2,
+    "4320": 0.2,
+    "4321": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     807,
     418,
     817,
     428
   ],
-  "terrain": "indoors",
-  "description": [
-    "A large pile of rocks is carefully stacked against the northern wall of the cavern.  The rocks have been sorted by size and what appears to be color as well.  There are empty sacks on the floor which are in good condition."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4318": 0.2,
-    "4320": 0.2,
-    "4321": 0.2
-  },
-  "id": 4319,
-  "location": "the crystal caves",
   "tags": [
-    "some wolifrew lichen",
-    "wolifrew lichen",
-    "withered black mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wolifrew lichen"
   ]
 }

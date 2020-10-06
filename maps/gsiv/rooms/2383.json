@@ -1,40 +1,31 @@
 {
+  "id": 2383,
+  "title": [
+    "[Underground Tunnel]",
+    "[Magical Burrow, Tunnelway]"
+  ],
+  "description": [
+    "Roots dangle from the ceiling and from the walls.  As you move they continually brush against you, almost like some small insects were running all over you.  Instinctively, you run a quick hand across your face to brush the imaginary creatures away."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "2382": "east",
     "2384": "south",
     "9071": "go roots"
   },
-  "paths": [
-    "Obvious exits: east, south"
-  ],
-  "image_coords": [
-    1202,
-    145,
-    1212,
-    155
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Roots dangle from the ceiling and from the walls.  As you move they continually brush against you, almost like some small insects were running all over you.  Instinctively, you run a quick hand across your face to brush the imaginary creatures away."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Underground Tunnel]"
-  ],
-  "check_location": null,
   "timeto": {
     "2382": 0.2,
     "2384": 0.2,
     "9071": 0.2
   },
-  "id": 2383,
-  "location": "Icemule Trace",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "imt-underground-1264234799.png",
+  "image_coords": [
+    1202,
+    145,
+    1212,
+    155
   ]
 }

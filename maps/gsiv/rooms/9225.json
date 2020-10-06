@@ -1,40 +1,30 @@
 {
+  "id": 9225,
+  "title": [
+    "[Thurfel's Cellar]"
+  ],
+  "description": [
+    "The stone walkway comes to an abrupt end, swallowed by the sizeable black void in the northern wall.  A few low growls echo out from within the darkness, revealing that it may not be completely empty."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "Thurfel's Island",
   "wayto": {
     "9217": "go void",
     "9224": "west",
     "9226": "south"
   },
-  "paths": [
-    "Obvious exits: south, west"
-  ],
-  "image_coords": [
-    1252,
-    925,
-    1262,
-    935
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The stone walkway comes to an abrupt end, swallowed by the sizeable black void in the northern wall.  A few low growls echo out from within the darkness, revealing that it may not be completely empty."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thurfel's Cellar]"
-  ],
-  "check_location": null,
   "timeto": {
     "9217": 0.2,
     "9224": 0.2,
     "9226": 0.2
   },
-  "id": 9225,
-  "location": "Thurfel's Island",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "imt-underground-1264234799.png",
+  "image_coords": [
+    1252,
+    925,
+    1262,
+    935
   ]
 }

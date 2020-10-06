@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "2596": "west",
-    "2598": "east",
-    "12208": {
-      "stringproc": "a0576f0215d746452e7afb93c1ee082c"
-    },
-    "2635": {
-      "stringproc": "01b8924575c8d70e4ed7eea7ed00be84"
-    },
-    "12101": {
-      "stringproc": "cf4b8e5b125b22b01c9349827d02c9fd"
-    }
-  },
+  "id": 2597,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "Climbing a small hill, you now look over a long valley filled with warriors.  A huge giantman in plate-mail stands at the front of the vanguard, holding a battle axe in each hand.  His skin is rotted and mildewed, and the hollow eye sockets drop bits of goo and small bugs.  The entire host of undead soldiers shifts anxiously behind him, as if waiting for a command from their chieftain."
+  ],
   "paths": [
     "Obvious paths: east, west",
     "Obvious exits: east, west"
   ],
-  "image_coords": [
-    200,
-    724,
-    210,
-    734
-  ],
-  "terrain": null,
-  "description": [
-    "Climbing a small hill, you now look over a long valley filled with warriors.  A huge giantman in plate-mail stands at the front of the vanguard, holding a battle axe in each hand.  His skin is rotted and mildewed, and the hollow eye sockets drop bits of goo and small bugs.  The entire host of undead soldiers shifts anxiously behind him, as if waiting for a command from their chieftain."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "2596": "west",
+    "2598": "east",
+    "12208": {
+      "file": "string_procs/wayto/2597_12208.rb"
+    },
+    "2635": {
+      "file": "string_procs/wayto/2597_2635.rb"
+    },
+    "12101": {
+      "file": "string_procs/wayto/2597_12101.rb"
+    }
+  },
   "timeto": {
     "2596": 0.2,
     "2598": 0.2,
@@ -39,8 +31,13 @@
     "2635": 22.0,
     "12101": 26.0
   },
-  "id": 2597,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    200,
+    724,
+    210,
+    734
+  ],
   "tags": [
     "mass of congealed slime",
     "rotting bile green fleshbulb",
@@ -50,8 +47,5 @@
     "slime-covered grave blossom",
     "withered deathblossom",
     "set desc on; peer east =~ /^A throne sits in the middle/"
-  ],
-  "links": [
-
   ]
 }

@@ -1,33 +1,30 @@
 {
+  "id": 9343,
+  "title": [
+    "[Cairnfang, East Valley]"
+  ],
+  "description": [
+    "The valley widens out here into a large open area heavily carpeted with tall grass.  A rocky pass heads north out of the valley, ascending into the hills to the north.  A stream tumbles down the south wall in a large waterfall, filling a lake at the base of the wall."
+  ],
+  "paths": [
+    "Obvious paths: southwest"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "9342": "southwest",
     "9344": "go pass"
   },
-  "paths": [
-    "Obvious paths: southwest"
-  ],
+  "timeto": {
+    "9342": 0.2,
+    "9344": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     1213,
     377,
     1225,
     389
   ],
-  "terrain": "grassland",
-  "description": [
-    "The valley widens out here into a large open area heavily carpeted with tall grass.  A rocky pass heads north out of the valley, ascending into the hills to the north.  A stream tumbles down the south wall in a large waterfall, filling a lake at the base of the wall."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Cairnfang, East Valley]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9342": 0.2,
-    "9344": 0.2
-  },
-  "id": 9343,
-  "location": "the Cairnfang",
   "tags": [
     "handful of raspberries",
     "acantha leaf",
@@ -81,10 +78,6 @@
     "wavepetal blossom",
     "ironfern root",
     "nightbloom blossom",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

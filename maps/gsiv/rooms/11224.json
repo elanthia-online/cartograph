@@ -1,4 +1,15 @@
 {
+  "id": 11224,
+  "title": [
+    "[Citadel, Outside]"
+  ],
+  "description": [
+    "In front of you stands a well, covered with a moss so thick that none of the original structure is visible.  Though the roof has long since vanished, the well appears to have escaped much of the destruction.  To the northwest you can see the collapsed remains of one of the guard towers.  Westward stands a small brick structure.  To the south and southeast you can make out the outlines of large stone buildings, details obscured by the mist.  A walkway leads northeast along the fallen castle wall."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, southwest, west, northwest"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11292": "southeast",
     "11226": "w",
@@ -6,25 +17,6 @@
     "11223": "ne",
     "11225": "nw"
   },
-  "paths": [
-    "Obvious paths: northeast, southeast, southwest, west, northwest"
-  ],
-  "image_coords": [
-    387,
-    579,
-    397,
-    589
-  ],
-  "terrain": "plain dirt",
-  "description": [
-    "In front of you stands a well, covered with a moss so thick that none of the original structure is visible.  Though the roof has long since vanished, the well appears to have escaped much of the destruction.  To the northwest you can see the collapsed remains of one of the guard towers.  Westward stands a small brick structure.  To the south and southeast you can make out the outlines of large stone buildings, details obscured by the mist.  A walkway leads northeast along the fallen castle wall."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "moist",
-  "title": [
-    "[Citadel, Outside]"
-  ],
-  "check_location": null,
   "timeto": {
     "11292": 0.2,
     "11226": 0.2,
@@ -32,8 +24,13 @@
     "11223": 0.2,
     "11225": 0.2
   },
-  "id": 11224,
-  "location": "the Citadel",
+  "image": "rr-citadel-1267238976.png",
+  "image_coords": [
+    387,
+    579,
+    397,
+    589
+  ],
   "tags": [
     "some aloeas stem",
     "bright red cranberry",
@@ -45,17 +42,6 @@
     "some wingstem root",
     "some calamia fruit",
     "wild chokecherry",
-    "some motherwort",
-    "acantha leaf",
-    "calamia fruit",
-    "aloeas stem",
-    "motherwort",
-    "murkweed",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some motherwort"
   ]
 }

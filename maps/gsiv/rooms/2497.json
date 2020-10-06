@@ -1,41 +1,38 @@
 {
-  "wayto": {
-    "2498": {
-      "stringproc": "3157bbb118c54a6236859635e57fcbb9"
-    },
-    "3176": {
-      "stringproc": "627e8564b77acb15b93b042e15018ec5"
-    },
-    "2496": {
-      "stringproc": "96f762a3c5540f71716927f4f186a4fa"
-    }
-  },
+  "id": 2497,
+  "title": [
+    "[Icemule Trace, Forest]"
+  ],
+  "description": [
+    "A solitary wooden signpost stands at the head of a road leading southwest.  It marks the intersection with a smaller trail leading east and west.  Straw has been scattered on the snowy road, helping you maintain your footing as you continue on your way."
+  ],
   "paths": [
     "Obvious paths: east, southwest, west"
   ],
+  "location": "the southern snowfields",
+  "wayto": {
+    "2498": {
+      "file": "string_procs/wayto/2497_2498.rb"
+    },
+    "3176": {
+      "file": "string_procs/wayto/2497_3176.rb"
+    },
+    "2496": {
+      "file": "string_procs/wayto/2497_2496.rb"
+    }
+  },
+  "timeto": {
+    "2498": 0.2,
+    "3176": 0.2,
+    "2496": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     317,
     707,
     327,
     717
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "A solitary wooden signpost stands at the head of a road leading southwest.  It marks the intersection with a smaller trail leading east and west.  Straw has been scattered on the snowy road, helping you maintain your footing as you continue on your way."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Icemule Trace, Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2498": 0.2,
-    "3176": 0.2,
-    "2496": 0.2
-  },
-  "id": 2497,
-  "location": "the southern snowfields",
   "tags": [
     "slender twig",
     "tkaro root",
@@ -79,10 +76,6 @@
     "snowberries",
     "tree bark",
     "ironfern root",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bolmara lichen"
   ]
 }

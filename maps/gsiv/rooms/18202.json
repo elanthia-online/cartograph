@@ -1,33 +1,22 @@
 {
-  "wayto": {
-    "18201": "east",
-    "18203": "southwest"
-  },
-  "paths": [
-    "Obvious exits: east, southwest"
+  "id": 18202,
+  "title": [
+    "[Path to Enlightenment]"
   ],
-  "image_coords": null,
-  "terrain": null,
   "description": [
     "The light along the path suddenly diminishes as if the night had descended to rest in this very spot but despite the sudden darkness, you feel as though nothing could ever cause you harm in this place.  Fresh hoof tracks mark the edge of the path.",
     "This part of the path seems darker even than the cloudless night would account for, yet despite the shadows, you feel as though nothing could ever cause you harm in this place.  Fresh hoof tracks mark the edge of the path."
   ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Path to Enlightenment]"
+  "paths": [
+    "Obvious exits: east, southwest"
   ],
-  "check_location": null,
+  "location": "the Graveyard",
+  "wayto": {
+    "18201": "east",
+    "18203": "southwest"
+  },
   "timeto": {
     "18201": 0.2,
     "18203": 0.2
-  },
-  "id": 18202,
-  "location": "the Graveyard",
-  "tags": [
-
-  ],
-  "links": [
-
-  ]
+  }
 }

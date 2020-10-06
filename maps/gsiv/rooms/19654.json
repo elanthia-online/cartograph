@@ -1,37 +1,28 @@
 {
+  "id": 19654,
+  "title": [
+    "[Cavernhold, East Guard Chamber]"
+  ],
+  "description": [
+    "A yawning chasm breaches the floor of this nearly circular chamber.  Spanning the deep crevice is a tiny suspension bridge which leads to a well fortified guard chamber on the other side.  In the dim light cast by flickering torches mounted on the far wall you notice the fleeting gray shades of several gnollish sentinels."
+  ],
+  "paths": [
+    "Obvious exits: northwest"
+  ],
+  "location": "the foothills of Zeltoph",
   "wayto": {
     "19653": "northwest",
     "19655": "go bridge"
   },
-  "paths": [
-    "Obvious exits: northwest"
-  ],
+  "timeto": {
+    "19653": 0.2,
+    "19655": 0.2
+  },
+  "image": "wl-cavernhold-1295073688.png",
   "image_coords": [
     681,
     1190,
     688,
     1201
-  ],
-  "terrain": null,
-  "description": [
-    "A yawning chasm breaches the floor of this nearly circular chamber.  Spanning the deep crevice is a tiny suspension bridge which leads to a well fortified guard chamber on the other side.  In the dim light cast by flickering torches mounted on the far wall you notice the fleeting gray shades of several gnollish sentinels."
-  ],
-  "image": "wl-cavernhold-1295073688.png",
-  "climate": null,
-  "title": [
-    "[Cavernhold, East Guard Chamber]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "19653": 0.2,
-    "19655": 0.2
-  },
-  "id": 19654,
-  "location": "the foothills of Zeltoph",
-  "tags": [
-
-  ],
-  "links": [
-
   ]
 }

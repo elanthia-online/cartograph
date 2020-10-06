@@ -1,53 +1,35 @@
 {
+  "id": 8053,
+  "title": [
+    "[Liath Bheinn, Mountain]"
+  ],
+  "description": [
+    "It looks like a battle has taken place on this barren mountain side.  Bits and pieces of rusted metal fleck the light-grey granite.  A broken spear juts out from under a rock.  Near it lies a smashed mithril helm, rocking gently in the wind.  The sound of the helm's wobble adds a touch of gloom or sorrow to this place."
+  ],
+  "paths": [
+    "Obvious paths: east, west, up"
+  ],
+  "location": "Liath Bheinn and Aillidh Brae",
   "wayto": {
     "8052": "west",
     "8064": "up",
     "8054": "east"
   },
-  "paths": [
-    "Obvious paths: east, west, up"
-  ],
+  "timeto": {
+    "8052": 0.2,
+    "8064": 0.2,
+    "8054": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     1272,
     1059,
     1282,
     1069
   ],
-  "terrain": "mountainous",
-  "description": [
-    "It looks like a battle has taken place on this barren mountain side.  Bits and pieces of rusted metal fleck the light-grey granite.  A broken spear juts out from under a rock.  Near it lies a smashed mithril helm, rocking gently in the wind.  The sound of the helm's wobble adds a touch of gloom or sorrow to this place."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Liath Bheinn, Mountain]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8052": 0.2,
-    "8064": 0.2,
-    "8054": 0.2
-  },
-  "id": 8053,
-  "location": "Liath Bheinn and Aillidh Brae",
   "tags": [
     "some pennyroyal stem",
     "sassafras leaf",
-    "marallis berry",
-    "cuctucae berry",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "sprig of larkspur",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "marallis berry"
   ]
 }

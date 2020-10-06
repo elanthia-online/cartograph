@@ -1,53 +1,35 @@
 {
+  "id": 20604,
+  "title": [
+    "[Wehnimer's, Burrow Way]"
+  ],
+  "description": [
+    "The fractured remnants of an animal's skull lie amidst a pile of dusty bones in a corner of the tunnel, where it opens into a wide turn.  Nearby, a crude wooden ladder leads up to a hinged trapdoor."
+  ],
+  "paths": [
+    "Obvious exits: northeast, west"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "20603": "northeast",
     "20605": "west",
     "434": "go ladder"
   },
-  "paths": [
-    "Obvious exits: northeast, west"
-  ],
+  "timeto": {
+    "20603": 0.2,
+    "20605": 0.2,
+    "434": 0.2
+  },
+  "image": "wl-burrow_way-1360361110.png",
   "image_coords": [
     350,
     270,
     377,
     297
   ],
-  "terrain": "indoors",
-  "description": [
-    "The fractured remnants of an animal's skull lie amidst a pile of dusty bones in a corner of the tunnel, where it opens into a wide turn.  Nearby, a crude wooden ladder leads up to a hinged trapdoor."
-  ],
-  "image": "wl-burrow_way-1360361110.png",
-  "climate": "indoors",
-  "title": [
-    "[Wehnimer's, Burrow Way]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "20603": 0.2,
-    "20605": 0.2,
-    "434": 0.2
-  },
-  "id": 20604,
-  "location": "the town of Wehnimer's Landing",
   "tags": [
     "flathead mushroom",
     "some bolmara lichen",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null,
-  "links": [
-
+    "soft white mushroom"
   ]
 }

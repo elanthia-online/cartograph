@@ -1,40 +1,32 @@
 {
+  "id": 7146,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "Several benches and a table are piled against the wall in this smallish room.  Chunks of grey stone are stacked in front of them, and smaller pieces of rubble are piled around a pitch-black hole gaping in the center of the floor."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7085": "go hole",
     "7144": "go door"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "7085": 0.2,
+    "7144": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     1001,
     606,
     1011,
     616
   ],
-  "terrain": "indoors",
-  "description": [
-    "Several benches and a table are piled against the wall in this smallish room.  Chunks of grey stone are stacked in front of them, and smaller pieces of rubble are piled around a pitch-black hole gaping in the center of the floor."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7085": 0.2,
-    "7144": 0.2
-  },
-  "id": 7146,
-  "location": "Darkstone Castle",
   "tags": [
     "kiramon defender",
-    "kiramon worker",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "kiramon worker"
   ]
 }

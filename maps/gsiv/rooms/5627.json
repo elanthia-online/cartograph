@@ -1,41 +1,31 @@
 {
+  "id": 5627,
+  "title": [
+    "[Vornavis, The Bog]"
+  ],
+  "description": [
+    "The trunks of the dead trees in this area are moist from the swamp waters, but the branches are dry and bereft of leaves.  The trees sport stumps and broken branches, but the fallen wood has been swallowed up by the bog.  Gray and brown bushes struggle for life near the path."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the plains of Vornavis",
   "wayto": {
     "5625": "north",
     "5628": "south"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "5625": 0.2,
+    "5628": 0.2
+  },
+  "image": "vo-caravansary-1264234799.png",
   "image_coords": [
     651,
     475,
     661,
     485
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "The trunks of the dead trees in this area are moist from the swamp waters, but the branches are dry and bereft of leaves.  The trees sport stumps and broken branches, but the fallen wood has been swallowed up by the bog.  Gray and brown bushes struggle for life near the path."
-  ],
-  "image": "vo-caravansary-1264234799.png",
-  "climate": "moist",
-  "title": [
-    "[Vornavis, The Bog]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5625": 0.2,
-    "5628": 0.2
-  },
-  "id": 5627,
-  "location": "the plains of Vornavis",
   "tags": [
-    "some wingstem root",
-    "broken twig",
-    "wild chokecherry",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

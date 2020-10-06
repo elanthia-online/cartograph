@@ -1,15 +1,8 @@
 {
-  "wayto": {
-    "12568": {
-      "stringproc": "eb75871bc8dfd72564bdb595f61f93e0"
-    }
-  },
-  "paths": [
-    "Obvious paths: north, northeast, east, southeast, south, southwest, west, northwest",
-    "Obvious paths: none"
+  "id": 14706,
+  "title": [
+    "[Teras Isle, Jungle]"
   ],
-  "image_coords": null,
-  "terrain": null,
   "description": [
     "Large buttress roots descend from a fig tree, dividing the path and diverting it in and out of pockets within the roots.  Around the base of the offshoots, plants cower like small creatures seeking shelter within the lee of a giant's foot.  A chatter of birdsong provides a backdrop, punctuated with the voices of other creatures hidden in the rampant foliage.",
     "Large buttress roots descend from a fig tree, dividing the path and diverting it in and out of pockets within the roots.  Around the base of the offshoots, plants cower like small creatures seeking shelter within the lee of a giant's foot.  The chirping of crickets provides a backdrop, punctuated with the voices of other creatures hidden in the rampant foliage.",
@@ -22,21 +15,20 @@
     "A large clump of umbrella plants almost block the trail, their five-fingered leaves competing for light in a riot of growth.  The trail winds beneath some of the larger leaves, which hover over the way like parasols held over a royal's head.",
     "A large banyan tree stands in the trail's way, forcing it to meander through a maze of tall buttress roots.  Orchids cling to the wall-sized roots, decorating the smooth skin with their showy blooms in all shades of color between white and rosey-pink.  Small clumps of broad-leafed plants cluster around the foot of the tree, fed by water run-off from the giant standing overhead."
   ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Teras Isle, Jungle]"
+  "paths": [
+    "Obvious paths: north, northeast, east, southeast, south, southwest, west, northwest",
+    "Obvious paths: none"
   ],
-  "check_location": null,
+  "location": "Kharam-Dzu",
+  "wayto": {
+    "12568": {
+      "file": "string_procs/wayto/14706_12568.rb"
+    }
+  },
   "timeto": {
     "12568": 3.0
   },
-  "id": 14706,
-  "location": "Kharam-Dzu",
   "tags": [
     "stick"
-  ],
-  "links": [
-
   ]
 }

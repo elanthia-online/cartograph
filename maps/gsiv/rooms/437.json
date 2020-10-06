@@ -1,36 +1,33 @@
 {
+  "id": 437,
+  "title": [
+    "[Wehnimer's, Exterior]"
+  ],
+  "description": [
+    "As you stand next to the southwest corner of the Landing, you have an unobstructed view of the plain.  Some distance away you can make out the vague figures of shepherdesses tending their flocks of Rolton -- sheep indigenous to the region.  Further south the grassy expanse turns hilly, eventually terminating in stark mountains that line the horizon.",
+    "A backdrop of rot and death expand to the south, where lush grasslands have been replaced by cracked grey rock, emaciated plant life and thick smog.  Scattered about the dead lands are the putrid remains of roltons, flies swarming around their bodies."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast, southwest"
+  ],
+  "location": "the Lower Dragonsclaw",
   "wayto": {
     "436": "north",
     "438": "southeast",
     "441": "southwest"
   },
-  "paths": [
-    "Obvious paths: north, southeast, southwest"
-  ],
+  "timeto": {
+    "436": 0.2,
+    "438": 0.2,
+    "441": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     631,
     410,
     641,
     420
   ],
-  "terrain": "grassland",
-  "description": [
-    "As you stand next to the southwest corner of the Landing, you have an unobstructed view of the plain.  Some distance away you can make out the vague figures of shepherdesses tending their flocks of Rolton -- sheep indigenous to the region.  Further south the grassy expanse turns hilly, eventually terminating in stark mountains that line the horizon.",
-    "A backdrop of rot and death expand to the south, where lush grasslands have been replaced by cracked grey rock, emaciated plant life and thick smog.  Scattered about the dead lands are the putrid remains of roltons, flies swarming around their bodies."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Wehnimer's, Exterior]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "436": 0.2,
-    "438": 0.2,
-    "441": 0.2
-  },
-  "id": 437,
-  "location": "the Lower Dragonsclaw",
   "tags": [
     "blue trafel mushroom",
     "some sovyn clove",
@@ -111,10 +108,6 @@
     "ironfern root",
     "nightbloom blossom",
     "brostheras grass",
-    "woad leaves",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "woad leaves"
   ]
 }

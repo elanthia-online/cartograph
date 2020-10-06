@@ -1,38 +1,30 @@
 {
-  "wayto": {
-    "2635": {
-      "stringproc": "f88a5ac335110328444947aa8fdfa490"
-    },
-    "12123": "northwest",
-    "12101": "north",
-    "12093": {
-      "stringproc": "dc0110972ab7e067d5fec20ece15581c"
-    },
-    "2605": {
-      "stringproc": "317c6eedd1ea40322b9b26b259a3053f"
-    },
-    "12126": "southwest"
-  },
+  "id": 12124,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "Screaming wind tears through this area, filling the air with a dreadful howling.  Just ahead a cavern looms, offering a bit of solace from the biting wind.  As you move closer to the safehaven, you see that the cavern is actually the open mouth of a massive, long-fallen statue - the wind, an eternal scream."
+  ],
   "paths": [
     "Obvious paths: north, southwest, northwest",
     "Obvious exits: north, southwest, northwest"
   ],
-  "image_coords": [
-    1029,
-    617,
-    1039,
-    627
-  ],
-  "terrain": null,
-  "description": [
-    "Screaming wind tears through this area, filling the air with a dreadful howling.  Just ahead a cavern looms, offering a bit of solace from the biting wind.  As you move closer to the safehaven, you see that the cavern is actually the open mouth of a massive, long-fallen statue - the wind, an eternal scream."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "2635": {
+      "file": "string_procs/wayto/12124_2635.rb"
+    },
+    "12123": "northwest",
+    "12101": "north",
+    "12093": {
+      "file": "string_procs/wayto/12124_12093.rb"
+    },
+    "2605": {
+      "file": "string_procs/wayto/12124_2605.rb"
+    },
+    "12126": "southwest"
+  },
   "timeto": {
     "2635": 16.0,
     "12123": 0.2,
@@ -41,8 +33,13 @@
     "2605": 16.0,
     "12126": 0.2
   },
-  "id": 12124,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    1029,
+    617,
+    1039,
+    627
+  ],
   "tags": [
     "withered deathblossom",
     "slime-covered grave blossom",
@@ -51,8 +48,5 @@
     "mass of congealed slime",
     "twisted black mawflower",
     "oozing fleshsore bulb"
-  ],
-  "links": [
-
   ]
 }

@@ -1,51 +1,36 @@
 {
-  "wayto": {
-    "21017": {
-      "stringproc": "9bb68d50426d9de628c7d34fb9e2c1e6"
-    },
-    "21062": {
-      "stringproc": "9cc777f32a946dae5caf4e518fd0f13b"
-    },
-    "21001": {
-      "stringproc": "9506d600680c4c3023b27f245fc72958"
-    }
-  },
-  "paths": [
-    "Obvious paths: northeast, west"
-  ],
-  "image_coords": [
-    920,
-    1381,
-    939,
-    1400
-  ],
-  "terrain": "riparian",
-  "description": [
-    "A strange mix of buzzing insects, calling birds, and rushing water permeates the entire vicinty, weaving through the thick, humid soup that can barely be called air.  Just off the viscously muddy and foliage-overridden river path, the water of the river rushes by in a small torrent, its current quite obviously strong as it splashes over small rocks in the midst of its journey.  An especially large, gnarled tree swoops up into the air and curves back down again over the water."
-  ],
-  "image": "ifw-wilds-1368242816.png",
-  "climate": "humid",
+  "id": 21018,
   "title": [
     "[Alhan'aht River, Torrent]"
   ],
-  "check_location": null,
+  "description": [
+    "A strange mix of buzzing insects, calling birds, and rushing water permeates the entire vicinty, weaving through the thick, humid soup that can barely be called air.  Just off the viscously muddy and foliage-overridden river path, the water of the river rushes by in a small torrent, its current quite obviously strong as it splashes over small rocks in the midst of its journey.  An especially large, gnarled tree swoops up into the air and curves back down again over the water."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "the environs of the Saewehna Lagoon",
+  "wayto": {
+    "21017": {
+      "file": "string_procs/wayto/21018_21017.rb"
+    },
+    "21062": {
+      "file": "string_procs/wayto/21018_21062.rb"
+    },
+    "21001": {
+      "file": "string_procs/wayto/21018_21001.rb"
+    }
+  },
   "timeto": {
     "21017": 0.2,
     "21062": 2.0,
     "21001": 2.0
   },
-  "id": 21018,
-  "location": "the environs of the Saewehna Lagoon",
-  "tags": [
-    "acantha leaf",
-    "stalk of cattail",
-    "murdroot",
-    "wavepetal blossom",
-    "talneo root",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null,
-  "links": [
-
+  "image": "ifw-wilds-1368242816.png",
+  "image_coords": [
+    920,
+    1381,
+    939,
+    1400
   ]
 }

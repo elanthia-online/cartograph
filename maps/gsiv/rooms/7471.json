@@ -1,53 +1,41 @@
 {
-  "wayto": {
-    "7470": {
-      "stringproc": "9562739203983e062dd5fcc7a8104b4e"
-    },
-    "7472": {
-      "stringproc": "22a794b0f5bb3d04c7f49a30055543f3"
-    },
-    "7474": {
-      "stringproc": "817909f28bfc261890572074067a677d"
-    }
-  },
+  "id": 7471,
+  "title": [
+    "[Dark Grotto, Small Tunnel]"
+  ],
+  "description": [
+    "The tunnel twists and turns, undulating through the surrounding rock.  The floor, walls and low ceiling are irregular but smooth, as if something had passed this way many times to wear away any jagged edges.  The dim green light given off by patches of glowing lichen shrouds the tunnel in odd shadows that dance and waver before your eyes."
+  ],
   "paths": [
     "Obvious exits: north, northeast, southwest"
   ],
+  "location": "the Broken Lands",
+  "wayto": {
+    "7470": {
+      "file": "string_procs/wayto/7471_7470.rb"
+    },
+    "7472": {
+      "file": "string_procs/wayto/7471_7472.rb"
+    },
+    "7474": {
+      "file": "string_procs/wayto/7471_7474.rb"
+    }
+  },
+  "timeto": {
+    "7470": 0.2,
+    "7472": 0.2,
+    "7474": 0.2
+  },
+  "image": "wl-broken-1264234799.png",
   "image_coords": [
     914,
     959,
     926,
     971
   ],
-  "terrain": "indoors",
-  "description": [
-    "The tunnel twists and turns, undulating through the surrounding rock.  The floor, walls and low ceiling are irregular but smooth, as if something had passed this way many times to wear away any jagged edges.  The dim green light given off by patches of glowing lichen shrouds the tunnel in odd shadows that dance and waver before your eyes."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dark Grotto, Small Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7470": 0.2,
-    "7472": 0.2,
-    "7474": 0.2
-  },
-  "id": 7471,
-  "location": "the Broken Lands",
   "tags": [
     "some blackened moss",
     "some glowing green lichen",
-    "magru",
-    "blackened moss",
-    "green lichen",
-    "bone mushroom",
-    "cave moss",
-    "sponge mushroom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "magru"
   ]
 }

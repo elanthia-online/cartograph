@@ -1,40 +1,30 @@
 {
+  "id": 12713,
+  "title": [
+    "[Ruined Temple, Second Floor]"
+  ],
+  "description": [
+    "The sounds of the sea echo through a window along the southern wall, its edges worn from years of exposure to the elements.  Opposite the window is a bronze fire cauldron, which appears to be in fairly good condition.  Drops of water occasionally fall to the floor with a gentle splash, joining the streams that flow to the east through the elaborately designed grooves in the floor."
+  ],
+  "paths": [
+    "Obvious exits: north, east, west"
+  ],
+  "location": "the Ruined Temple",
   "wayto": {
     "12712": "east",
     "12714": "west",
     "12710": "north"
   },
-  "paths": [
-    "Obvious exits: north, east, west"
-  ],
-  "image_coords": [
-    540,
-    776,
-    576,
-    812
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The sounds of the sea echo through a window along the southern wall, its edges worn from years of exposure to the elements.  Opposite the window is a bronze fire cauldron, which appears to be in fairly good condition.  Drops of water occasionally fall to the floor with a gentle splash, joining the streams that flow to the east through the elaborately designed grooves in the floor."
-  ],
-  "image": "ti-nelemar-1262373036.png",
-  "climate": "indoors",
-  "title": [
-    "[Ruined Temple, Second Floor]"
-  ],
-  "check_location": null,
   "timeto": {
     "12712": 0.2,
     "12714": 0.2,
     "12710": 0.2
   },
-  "id": 12713,
-  "location": "the Ruined Temple",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "ti-nelemar-1262373036.png",
+  "image_coords": [
+    540,
+    776,
+    576,
+    812
   ]
 }

@@ -1,1 +1,2 @@
-move "crawl hollow";fput "stand" until standing?
+move "crawl hollow"
+fput "stand" until standing?

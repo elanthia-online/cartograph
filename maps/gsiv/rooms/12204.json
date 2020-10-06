@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "12205": "south",
-    "12152": {
-      "stringproc": "e7b269de45035581300c76daf9e751cf"
-    },
-    "12089": {
-      "stringproc": "df16ace028c72dba18b51257349345d8"
-    },
-    "2635": {
-      "stringproc": "a5fc698b4e8aaa983aa8f5ad92908980"
-    },
-    "12203": "northwest"
-  },
+  "id": 12204,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "A huge cliff looms before you, stretching far into the sky above.  About halfway up the face an immense red-skinned man rides the air currents, flapping his leathery wings to hold his position.  On the wall next to him are crude columns made of bodies impaled to the wall, each column topped off with a different type of weapon resting on rough hooks."
+  ],
   "paths": [
     "Obvious exits: south, northwest",
     "Obvious paths: south, northwest"
   ],
-  "image_coords": [
-    321,
-    1086,
-    331,
-    1096
-  ],
-  "terrain": null,
-  "description": [
-    "A huge cliff looms before you, stretching far into the sky above.  About halfway up the face an immense red-skinned man rides the air currents, flapping his leathery wings to hold his position.  On the wall next to him are crude columns made of bodies impaled to the wall, each column topped off with a different type of weapon resting on rough hooks."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12205": "south",
+    "12152": {
+      "file": "string_procs/wayto/12204_12152.rb"
+    },
+    "12089": {
+      "file": "string_procs/wayto/12204_12089.rb"
+    },
+    "2635": {
+      "file": "string_procs/wayto/12204_2635.rb"
+    },
+    "12203": "northwest"
+  },
   "timeto": {
     "12205": 0.2,
     "12152": 21.6,
@@ -39,8 +31,13 @@
     "2635": 21.6,
     "12203": 0.2
   },
-  "id": 12204,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    321,
+    1086,
+    331,
+    1096
+  ],
   "tags": [
     "twisted black mawflower",
     "withered deathblossom",
@@ -49,8 +46,5 @@
     "rotting bile green fleshbulb",
     "discolored fleshbinder bud",
     "oozing fleshsore bulb"
-  ],
-  "links": [
-
   ]
 }

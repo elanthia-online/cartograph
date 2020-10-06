@@ -1,40 +1,30 @@
 {
+  "id": 7116,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "You have the feeling that you're being watched.  The corridors to the west and south look empty, and you don't hear anything, but there's a feeling between your shoulder blades as though someone were about to stick a knife there."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7117": "south",
     "7152": "go door",
     "7078": "west"
   },
-  "paths": [
-    "Obvious exits: south, west"
-  ],
-  "image_coords": [
-    868,
-    1090,
-    878,
-    1100
-  ],
-  "terrain": "indoors",
-  "description": [
-    "You have the feeling that you're being watched.  The corridors to the west and south look empty, and you don't hear anything, but there's a feeling between your shoulder blades as though someone were about to stick a knife there."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
   "timeto": {
     "7117": 0.2,
     "7152": 0.2,
     "7078": 0.2
   },
-  "id": 7116,
-  "location": "Darkstone Castle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-darkstone-1264234799.png",
+  "image_coords": [
+    868,
+    1090,
+    878,
+    1100
   ]
 }

@@ -1,35 +1,28 @@
 {
-  "wayto": {
-    "25706": {
-      "stringproc": "9b05cb4429e6ad5efbe157efd92e6023"
-    }
-  },
+  "id": 25707,
+  "title": [
+    "[Eastern Waterway]"
+  ],
+  "description": [
+    "Terminating at the edge of Charl's Teeth, the waves of the harbor crash against the sides of the island to the north and the obsidian wall that blocks passage to the south.  Dark shards rise from the ocean floor, their jagged edges creating a dangerous barrier that is ringed with floating refuse."
+  ],
   "paths": [
     "Obvious paths: northwest"
   ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "25706": {
+      "file": "string_procs/wayto/25707_25706.rb"
+    }
+  },
+  "timeto": {
+    "25706": 6.0
+  },
+  "image": "ifw-eastern_waterway-1489553700.png",
   "image_coords": [
     2001,
     1999,
     2021,
     2019
-  ],
-  "terrain": null,
-  "description": [
-    "Terminating at the edge of Charl's Teeth, the waves of the harbor crash against the sides of the island to the north and the obsidian wall that blocks passage to the south.  Dark shards rise from the ocean floor, their jagged edges creating a dangerous barrier that is ringed with floating refuse."
-  ],
-  "image": "ifw-eastern_waterway-1489553700.png",
-  "climate": null,
-  "title": [
-    "[Eastern Waterway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "25706": 6.0
-  },
-  "id": 25707,
-  "location": "Mist Harbor",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

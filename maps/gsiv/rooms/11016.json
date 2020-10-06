@@ -1,33 +1,32 @@
 {
+  "id": 11016,
+  "title": [
+    "[Grassy Clearing]"
+  ],
+  "description": [
+    "To the north of the clearing stands a long, decorative stone wall crafted from grey and brown native stone.  The wall is barely tall enough to deter a halfling child at its westernmost end but it grows in height as it progresses eastward, where it joins a larger wall of formidable proportions.  The thick green grass in the clearing is cropped close to the ground, as though some sheep-like creature has been grazing on it."
+  ],
+  "paths": [
+    "Obvious paths: east, northwest"
+  ],
+  "location": "the South River Road",
+  "climate": "temperate",
+  "terrain": "grassland",
   "wayto": {
     "11014": "northwest",
     "11017": "east"
   },
-  "paths": [
-    "Obvious paths: east, northwest"
-  ],
+  "timeto": {
+    "11014": 0.2,
+    "11017": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     526,
     1034,
     536,
     1044
   ],
-  "terrain": "grassland",
-  "description": [
-    "To the north of the clearing stands a long, decorative stone wall crafted from grey and brown native stone.  The wall is barely tall enough to deter a halfling child at its westernmost end but it grows in height as it progresses eastward, where it joins a larger wall of formidable proportions.  The thick green grass in the clearing is cropped close to the ground, as though some sheep-like creature has been grazing on it."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "temperate",
-  "title": [
-    "[Grassy Clearing]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11014": 0.2,
-    "11017": 0.2
-  },
-  "id": 11016,
-  "location": "the South River Road",
   "tags": [
     "some acantha leaf",
     "acantha leaf",
@@ -84,13 +83,6 @@
     "murdroot",
     "wavepetal blossom",
     "ironfern root",
-    "sunburst blossom",
-    "trollfear mushroom",
-    "fire lily",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sunburst blossom"
   ]
 }

@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "12152": {
-      "stringproc": "e7b269de45035581300c76daf9e751cf"
-    },
-    "12089": {
-      "stringproc": "df16ace028c72dba18b51257349345d8"
-    },
-    "2635": {
-      "stringproc": "a5fc698b4e8aaa983aa8f5ad92908980"
-    },
-    "20880": "west",
-    "20882": "east"
-  },
+  "id": 20881,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "The granite wall before you is covered in a huge mural of gouges and scratches.  The pattern spreads from the bottom of the wall upwards, branching much like a tree into various parts.  Studying the damage a bit more, you realize it was all very carefully planned, although why isn't immediately apparent."
+  ],
   "paths": [
     "Obvious paths: east, west",
     "Obvious exits: east, west"
   ],
-  "image_coords": [
-    227,
-    1250,
-    237,
-    1259
-  ],
-  "terrain": null,
-  "description": [
-    "The granite wall before you is covered in a huge mural of gouges and scratches.  The pattern spreads from the bottom of the wall upwards, branching much like a tree into various parts.  Studying the damage a bit more, you realize it was all very carefully planned, although why isn't immediately apparent."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12152": {
+      "file": "string_procs/wayto/20881_12152.rb"
+    },
+    "12089": {
+      "file": "string_procs/wayto/20881_12089.rb"
+    },
+    "2635": {
+      "file": "string_procs/wayto/20881_2635.rb"
+    },
+    "20880": "west",
+    "20882": "east"
+  },
   "timeto": {
     "12152": 21.6,
     "12089": 21.6,
@@ -39,19 +31,11 @@
     "20880": 0.2,
     "20882": 0.2
   },
-  "id": 20881,
-  "location": "the Rift",
-  "tags": [
-    "mass of congealed slime",
-    "oozing fleshsore bulb",
-    "withered deathblossom",
-    "rotting bile green fleshbulb",
-    "slime-covered grave blossom",
-    "discolored fleshbinder bud",
-    "twisted black mawflower"
-  ],
-  "unique_loot": null,
-  "links": [
-
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    227,
+    1250,
+    237,
+    1259
   ]
 }

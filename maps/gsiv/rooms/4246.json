@@ -1,65 +1,31 @@
 {
+  "id": 4246,
+  "title": [
+    "[The Slope, Canyon Floor]"
+  ],
+  "description": [
+    "Huge boulders block any easy passage, and the path winds carefully around each rock.  Any sight of what may be ahead is blocked by these stones and the walls of the canyon."
+  ],
+  "paths": [
+    "Obvious paths: southwest, northwest"
+  ],
+  "location": "the Slope",
   "wayto": {
     "4245": "southwest",
     "4247": "northwest"
   },
-  "paths": [
-    "Obvious paths: southwest, northwest"
-  ],
+  "timeto": {
+    "4245": 0.2,
+    "4247": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     1411,
     418,
     1421,
     428
   ],
-  "terrain": "rough",
-  "description": [
-    "Huge boulders block any easy passage, and the path winds carefully around each rock.  Any sight of what may be ahead is blocked by these stones and the walls of the canyon."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[The Slope, Canyon Floor]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4245": 0.2,
-    "4247": 0.2
-  },
-  "id": 4246,
-  "location": "the Slope",
   "tags": [
-    "white baneberry",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "wild strawberry",
-    "blueberries",
-    "stalk of chicory",
-    "handful of currants",
-    "elderberries",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "wild grapes",
-    "broken twig",
-    "sprig of alyssum",
-    "heath aster",
-    "golden buttercup",
-    "red clover blossom",
-    "pink clover blossom",
-    "white clover blossom",
-    "purple clover blossom",
-    "yellow clover blossom",
-    "stalk of goldenrod",
-    "sprig of larkspur",
-    "yellow primrose",
-    "small wild rose",
-    "wild chokecherry",
-    "motherwort",
-    "pepperthorn root",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "white baneberry"
   ]
 }

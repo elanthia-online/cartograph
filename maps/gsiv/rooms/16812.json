@@ -1,40 +1,30 @@
 {
+  "id": 16812,
+  "title": [
+    "[Castle Dungeons]"
+  ],
+  "description": [
+    "A flickering torch set on the slimy stone wall lights your way through this dank dungeon.  The smell of mold and rotting food still permeates the air.  The sound of dripping water draws your attention to the open cell door."
+  ],
+  "paths": [
+    "Obvious exits: north, east, west"
+  ],
+  "location": "Castle Varunar",
   "wayto": {
     "16813": "west",
     "16818": "north",
     "16807": "east"
   },
-  "paths": [
-    "Obvious exits: north, east, west"
-  ],
-  "image_coords": [
-    625,
-    377,
-    635,
-    387
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A flickering torch set on the slimy stone wall lights your way through this dank dungeon.  The smell of mold and rotting food still permeates the air.  The sound of dripping water draws your attention to the open cell door."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Castle Dungeons]"
-  ],
-  "check_location": null,
   "timeto": {
     "16813": 0.2,
     "16818": 0.2,
     "16807": 0.2
   },
-  "id": 16812,
-  "location": "Castle Varunar",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "vo-trail-1264234799.png",
+  "image_coords": [
+    625,
+    377,
+    635,
+    387
   ]
 }

@@ -1,32 +1,23 @@
 {
-  "wayto": {
-    "3937": {
-      "stringproc": "b93cf08a79728f26b15f405399c3f972"
-    }
-  },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "There is a small bit of sludgy water pouring out of one of the many small pipes.  It has collected into a dark slimy looking pool here, with a small trickle of filth oozing on down the tunnel.  There is just enough room to pick your way around it as you continue on deeper into the earth."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 3968,
   "title": [
     "[Abandoned Sewer]"
   ],
-  "check_location": null,
+  "description": [
+    "There is a small bit of sludgy water pouring out of one of the many small pipes.  It has collected into a dark slimy looking pool here, with a small trickle of filth oozing on down the tunnel.  There is just enough room to pick your way around it as you continue on deeper into the earth."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "wayto": {
+    "3937": {
+      "file": "string_procs/wayto/3968_3937.rb"
+    }
+  },
   "timeto": {
     "3937": 1.6
   },
-  "id": 3968,
-  "location": null,
   "tags": [
     "no-auto-map"
-  ],
-  "links": [
-
   ]
 }

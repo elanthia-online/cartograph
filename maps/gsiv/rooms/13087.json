@@ -1,35 +1,32 @@
 {
+  "id": 13087,
+  "title": [
+    "[Forest, Snow Sprite Path]"
+  ],
+  "description": [
+    "A sculpture of a winged sprite, carved of pure glaes crystal that almost appears to be ice, stands atop a pillar at the end of the low stone wall that runs along the path to the northeast.  The air is filled with the scent of pine and burning wood from the fireplaces of the small homes scattered through the forest."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, northwest"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "13085": "northeast",
     "13088": "southeast",
     "13089": "northwest"
   },
-  "paths": [
-    "Obvious paths: northeast, southeast, northwest"
-  ],
+  "timeto": {
+    "13085": 0.2,
+    "13088": 0.2,
+    "13089": 0.2
+  },
+  "image": "imt-homes-1264234799.png",
   "image_coords": [
     91,
     1227,
     111,
     1247
   ],
-  "terrain": null,
-  "description": [
-    "A sculpture of a winged sprite, carved of pure glaes crystal that almost appears to be ice, stands atop a pillar at the end of the low stone wall that runs along the path to the northeast.  The air is filled with the scent of pine and burning wood from the fireplaces of the small homes scattered through the forest."
-  ],
-  "image": "imt-homes-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Forest, Snow Sprite Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "13085": 0.2,
-    "13088": 0.2,
-    "13089": 0.2
-  },
-  "id": 13087,
-  "location": "Icemule Trace",
   "tags": [
     "tkaro root",
     "pale thornberry",
@@ -62,11 +59,6 @@
     "ironfern root",
     "twisted twig",
     "slender twig",
-    "bolmara lichen",
-    "sunburst blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bolmara lichen"
   ]
 }

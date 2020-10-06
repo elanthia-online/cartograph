@@ -1,42 +1,32 @@
 {
+  "id": 3584,
+  "title": [
+    "[Stronghold, North Hall]"
+  ],
+  "description": [
+    "Deep piles of dust have drifted up against the lintels of a huge ora door on the southeast wall of the hallway.  All around the sill, sigils have been carved into the stone wall in an interlocking pattern of blocky glyphs.  The symbols are obscure and meaningless, however their design is handsome.  The passageway skews to the north where light can be seen filling the adjoining room, making the gloom of the hallway more pronounced."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "Stone Valley",
   "wayto": {
     "3585": "north",
     "3583": "west",
     "3924": {
-      "stringproc": "e1b570dc7b5c98ee0512c9ed01464221"
+      "file": "string_procs/wayto/3584_3924.rb"
     }
   },
-  "paths": [
-    "Obvious exits: north, west"
-  ],
-  "image_coords": [
-    561,
-    436,
-    571,
-    446
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Deep piles of dust have drifted up against the lintels of a huge ora door on the southeast wall of the hallway.  All around the sill, sigils have been carved into the stone wall in an interlocking pattern of blocky glyphs.  The symbols are obscure and meaningless, however their design is handsome.  The passageway skews to the north where light can be seen filling the adjoining room, making the gloom of the hallway more pronounced."
-  ],
-  "image": "wl-stronghold-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Stronghold, North Hall]"
-  ],
-  "check_location": null,
   "timeto": {
     "3585": 0.2,
     "3583": 0.2,
     "3924": 0.2
   },
-  "id": 3584,
-  "location": "Stone Valley",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-stronghold-1264234799.png",
+  "image_coords": [
+    561,
+    436,
+    571,
+    446
   ]
 }

@@ -1,40 +1,30 @@
 {
-  "wayto": {
-    "4944": "up",
-    "4946": {
-      "stringproc": "3142b238746a0957a47bafebfe45a4cd"
-    }
-  },
+  "id": 4945,
+  "title": [
+    "[Gyldemar Forest, Basement]"
+  ],
+  "description": [
+    "Musty air fills the basement, a fitting companion to the stagnant puddles covering the cool earthen floor.  A menagerie of insects scurry about the room while large spiders slowly travel across the floor towards new homes.  Crumbling stone steps head up to a small landing before turning towards a doorway above."
+  ],
   "paths": [
     "Obvious exits: up"
   ],
+  "location": "Gyldemar Forest",
+  "wayto": {
+    "4944": "up",
+    "4946": {
+      "file": "string_procs/wayto/4945_4946.rb"
+    }
+  },
+  "timeto": {
+    "4944": 0.2,
+    "4946": 0.2
+  },
+  "image": "en-gyldemar-1264234799.png",
   "image_coords": [
     867,
     570,
     877,
     580
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Musty air fills the basement, a fitting companion to the stagnant puddles covering the cool earthen floor.  A menagerie of insects scurry about the room while large spiders slowly travel across the floor towards new homes.  Crumbling stone steps head up to a small landing before turning towards a doorway above."
-  ],
-  "image": "en-gyldemar-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Gyldemar Forest, Basement]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4944": 0.2,
-    "4946": 0.2
-  },
-  "id": 4945,
-  "location": "Gyldemar Forest",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

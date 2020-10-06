@@ -1,40 +1,30 @@
 {
+  "id": 11070,
+  "title": [
+    "[Sea Caves]"
+  ],
+  "description": [
+    "Many meals from the bounty of the pool to the west have been shared here, and broken sea shells and dried fish bones litter the floor of the cave.  Broken ends of knives and splintered wooden handles lie amongst the refuse."
+  ],
+  "paths": [
+    "Obvious exits: southeast, west"
+  ],
   "wayto": {
     "11069": "west",
     "11071": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast, west"
-  ],
+  "timeto": {
+    "11069": 0.2,
+    "11071": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     1106,
     138,
     1116,
     148
   ],
-  "terrain": "indoors",
-  "description": [
-    "Many meals from the bounty of the pool to the west have been shared here, and broken sea shells and dried fish bones litter the floor of the cave.  Broken ends of knives and splintered wooden handles lie amongst the refuse."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Caves]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11069": 0.2,
-    "11071": 0.2
-  },
-  "id": 11070,
-  "location": "the Sea Caves",
   "tags": [
-    "some wingstem root",
-    "murdroot",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

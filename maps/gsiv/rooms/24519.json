@@ -1,51 +1,36 @@
 {
+  "id": 24519,
+  "title": [
+    "[Frozen Bramble Patch]"
+  ],
+  "description": [
+    "A vast rolling sea of thick, heavy brambles lies before you, over six feet high, and an indeterminate distance deep.  The brambles are as black as pitch and covered with a thin sheen of ice that lends an evil gleam to the already vicious-looking thorns.",
+    "A vast rolling sea of thick, heavy brambles lies ahead, over six feet high, and an indeterminate distance deep.  The brambles are as black as pitch and covered with a thin sheen of ice that lends a chilling gleam to the already vicious-looking thorns."
+  ],
+  "paths": [
+    "Obvious paths: northwest"
+  ],
+  "location": "the Abandoned Farm",
   "wayto": {
     "3111": "go patch",
     "24532": "climb hillside",
     "24520": "northwest"
   },
-  "paths": [
-    "Obvious paths: northwest"
-  ],
+  "timeto": {
+    "3111": 0.2,
+    "24532": 0.2,
+    "24520": 0.2
+  },
+  "image": "imt-bramble_patch-1307499864.png",
   "image_coords": [
     201,
     291,
     213,
     303
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "A vast rolling sea of thick, heavy brambles lies before you, over six feet high, and an indeterminate distance deep.  The brambles are as black as pitch and covered with a thin sheen of ice that lends an evil gleam to the already vicious-looking thorns.",
-    "A vast rolling sea of thick, heavy brambles lies ahead, over six feet high, and an indeterminate distance deep.  The brambles are as black as pitch and covered with a thin sheen of ice that lends a chilling gleam to the already vicious-looking thorns."
-  ],
-  "image": "imt-bramble_patch-1307499864.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Frozen Bramble Patch]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3111": 0.2,
-    "24532": 0.2,
-    "24520": 0.2
-  },
-  "id": 24519,
-  "location": "the Abandoned Farm",
   "tags": [
     "meta:mapname:Icemule Trace - Bramble Patch",
     "meta:mapshortname:Bramble Patch",
-    "meta:mapcategory:Icemule Trace",
-    "snow lily",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "arctic moss",
-    "broken twig",
-    "rockberry",
-    "crowberry",
-    "lingonberry",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+    "meta:mapcategory:Icemule Trace"
+  ]
 }

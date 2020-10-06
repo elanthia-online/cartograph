@@ -1,33 +1,30 @@
 {
+  "id": 5753,
+  "title": [
+    "[Mraent Cavern, Entrance Tunnel]"
+  ],
+  "description": [
+    "A small oil lamp casts a feeble light onto this part of the tunnel.  The walls and floor have been polished, creating a sharp contrast with the ceiling, which still bears the mark of the tools that delved into the stone."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "the Mraent Caverns",
   "wayto": {
     "5752": "go blocks",
     "5754": "down"
   },
-  "paths": [
-    "Obvious exits: down"
-  ],
+  "timeto": {
+    "5752": 0.2,
+    "5754": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     277,
     44,
     287,
     54
   ],
-  "terrain": "indoors",
-  "description": [
-    "A small oil lamp casts a feeble light onto this part of the tunnel.  The walls and floor have been polished, creating a sharp contrast with the ceiling, which still bears the mark of the tools that delved into the stone."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mraent Cavern, Entrance Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5752": 0.2,
-    "5754": 0.2
-  },
-  "id": 5753,
-  "location": "the Mraent Caverns",
   "tags": [
     "withered black mushroom",
     "black hook mushroom",
@@ -37,15 +34,6 @@
     "giant glowing toadstool",
     "white hook mushroom",
     "some bolmara lichen",
-    "some wingstem root",
-    "glowing toadstool",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

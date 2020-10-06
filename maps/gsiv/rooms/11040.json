@@ -1,34 +1,33 @@
 {
+  "id": 11040,
+  "title": [
+    "[A Silent Path, Meadowlands]"
+  ],
+  "description": [
+    "In this pastoral setting, a babbling creek rushes alongside the path, starlight glinting on the water in silvery glimmers of reflection.  As it turns it widens and hurries past grassy banks blooming with tiny flowers.  Large stones smoothed by eons of running water line the creek shores, signaling the long ago existence of an ancient riverbed.  The path runs northwest towards a forest, while the northeast direction moves over rolling meadowed hills.",
+    "In this pastoral setting, a babbling creek rushes alongside the path, sunlight glinting on the water in tiny bright bursts of reflection.  As it turns it widens and hurries past grassy banks blooming with tiny flowers.  Large stones smoothed by eons of running water line the creek shores, signaling the long ago existence of an ancient riverbed.  The path runs northwest towards a forest, while the northeast direction moves over rolling meadowed hills."
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest"
+  ],
+  "location": "the River's Rest Voln Monastery",
+  "climate": "temperate",
+  "terrain": "coniferous forest",
   "wayto": {
     "11039": "northwest",
     "11041": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, northwest"
-  ],
+  "timeto": {
+    "11039": 0.2,
+    "11041": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     912,
     858,
     922,
     868
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "In this pastoral setting, a babbling creek rushes alongside the path, starlight glinting on the water in silvery glimmers of reflection.  As it turns it widens and hurries past grassy banks blooming with tiny flowers.  Large stones smoothed by eons of running water line the creek shores, signaling the long ago existence of an ancient riverbed.  The path runs northwest towards a forest, while the northeast direction moves over rolling meadowed hills.",
-    "In this pastoral setting, a babbling creek rushes alongside the path, sunlight glinting on the water in tiny bright bursts of reflection.  As it turns it widens and hurries past grassy banks blooming with tiny flowers.  Large stones smoothed by eons of running water line the creek shores, signaling the long ago existence of an ancient riverbed.  The path runs northwest towards a forest, while the northeast direction moves over rolling meadowed hills."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "temperate",
-  "title": [
-    "[A Silent Path, Meadowlands]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11039": 0.2,
-    "11041": 0.2
-  },
-  "id": 11040,
-  "location": "the River's Rest Voln Monastery",
   "tags": [
     "some calamia fruit",
     "tkaro root",
@@ -69,13 +68,6 @@
     "sunburst blossom",
     "twisted twig",
     "slender twig",
-    "bolmara lichen",
-    "trollfear mushroom",
-    "oxblood lily",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bolmara lichen"
   ]
 }

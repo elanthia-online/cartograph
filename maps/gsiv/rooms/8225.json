@@ -1,49 +1,30 @@
 {
-  "wayto": {
-    "8224": "out",
-    "8226": {
-      "stringproc": "24c1b500b5950ebbb6a3c8d4e9ebbf4a"
-    }
-  },
+  "id": 8225,
+  "title": [
+    "[Sea Caverns, Stagnant Pool]"
+  ],
+  "description": [
+    "The black waters of a small pool lie still against the southern wall.  Luminescent fungi grow upon the walls, their odd green glow reflected off the surface of the pond.  A circle of stalagmites stands just at the shore, surrounding the pool like silent stone sentries."
+  ],
   "paths": [
     "Obvious exits: out"
   ],
+  "location": "the sea caverns",
+  "wayto": {
+    "8224": "out",
+    "8226": {
+      "file": "string_procs/wayto/8225_8226.rb"
+    }
+  },
+  "timeto": {
+    "8224": 0.2,
+    "8226": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     234,
     192,
     244,
     202
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The black waters of a small pool lie still against the southern wall.  Luminescent fungi grow upon the walls, their odd green glow reflected off the surface of the pond.  A circle of stalagmites stands just at the shore, surrounding the pool like silent stone sentries."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Caverns, Stagnant Pool]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8224": 0.2,
-    "8226": 0.2
-  },
-  "id": 8225,
-  "location": "the sea caverns",
-  "tags": [
-    "soft white mushroom",
-    "withered black mushroom",
-    "black hook mushroom",
-    "white hook mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

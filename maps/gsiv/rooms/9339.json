@@ -1,33 +1,30 @@
 {
+  "id": 9339,
+  "title": [
+    "[Cairnfang, East Valley]"
+  ],
+  "description": [
+    "Moonlight sparkles off of quartz deposits within the towering rock walls to the south.  The valley itself begins to narrow as some rocky bluffs begin to rise on the north.  A lone nighthawk circles in the sky above."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "9338": "west",
     "9340": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, west"
-  ],
+  "timeto": {
+    "9338": 0.2,
+    "9340": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     1109,
     404,
     1119,
     414
   ],
-  "terrain": "grassland",
-  "description": [
-    "Moonlight sparkles off of quartz deposits within the towering rock walls to the south.  The valley itself begins to narrow as some rocky bluffs begin to rise on the north.  A lone nighthawk circles in the sky above."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Cairnfang, East Valley]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9338": 0.2,
-    "9340": 0.2
-  },
-  "id": 9339,
-  "location": "the Cairnfang",
   "tags": [
     "golden buttercup",
     "handful of raspberries",
@@ -82,10 +79,6 @@
     "wavepetal blossom",
     "ironfern root",
     "nightbloom blossom",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

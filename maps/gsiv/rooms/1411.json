@@ -1,33 +1,30 @@
 {
+  "id": 1411,
+  "title": [
+    "[Cairnfang, North Bank]"
+  ],
+  "description": [
+    "Still following the river, the trail begins to climb.  The cairns of stone that give the river its name appear infrequently here."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "1410": "north",
     "1412": "south"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "1410": 0.2,
+    "1412": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     969,
     1094,
     979,
     1104
   ],
-  "terrain": "grassland",
-  "description": [
-    "Still following the river, the trail begins to climb.  The cairns of stone that give the river its name appear infrequently here."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Cairnfang, North Bank]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1410": 0.2,
-    "1412": 0.2
-  },
-  "id": 1411,
-  "location": "the Cairnfang",
   "tags": [
     "some acantha leaf",
     "pepperthorn root",
@@ -87,10 +84,6 @@
     "murdroot",
     "wavepetal blossom",
     "ironfern root",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

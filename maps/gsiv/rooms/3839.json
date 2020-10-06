@@ -1,40 +1,30 @@
 {
-  "wayto": {
-    "3838": "out",
-    "8429": {
-      "stringproc": "9299b2a587d9e29f5b696c4c8cc59d2d"
-    }
-  },
+  "id": 3839,
+  "title": [
+    "[Thanatoph, Hot Springs]"
+  ],
+  "description": [
+    "Surrounded by the warm soothing water you sit back and relax, letting the dust of the day wash away.  Many small springs gently splash water into the pool you sit in, sending a light steam into the air.  The steam lingers over your head forming a gentle fog that slowly wafts out."
+  ],
   "paths": [
     "Obvious exits: out"
   ],
+  "location": "Stone Valley",
+  "wayto": {
+    "3838": "out",
+    "8429": {
+      "file": "string_procs/wayto/3839_8429.rb"
+    }
+  },
+  "timeto": {
+    "3838": 0.2,
+    "8429": 0.2
+  },
+  "image": "wl-stronghold-1264234799.png",
   "image_coords": [
     455,
     1043,
     465,
     1053
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Surrounded by the warm soothing water you sit back and relax, letting the dust of the day wash away.  Many small springs gently splash water into the pool you sit in, sending a light steam into the air.  The steam lingers over your head forming a gentle fog that slowly wafts out."
-  ],
-  "image": "wl-stronghold-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thanatoph, Hot Springs]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3838": 0.2,
-    "8429": 0.2
-  },
-  "id": 3839,
-  "location": "Stone Valley",
-  "tags": [
-    "murdroot",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

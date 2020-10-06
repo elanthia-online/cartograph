@@ -1,35 +1,32 @@
 {
+  "id": 7224,
+  "title": [
+    "[Underbarrow, Burial Chamber]"
+  ],
+  "description": [
+    "A nest of tangled spiderwebs sits partially hidden behind the walls of piled corpses.  Sticky, oozing white spheres of webbing are tucked into the nest, likely full of eggs laid by the arachnids.  Rows of bodies guard the nursery, both babysitters and pantries for the newborn spiders when they hatch."
+  ],
+  "paths": [
+    "Obvious exits: east, southeast, south"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7218": "southeast",
     "7219": "east",
     "7223": "south"
   },
-  "paths": [
-    "Obvious exits: east, southeast, south"
-  ],
+  "timeto": {
+    "7218": 0.2,
+    "7219": 0.2,
+    "7223": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     624,
     158,
     634,
     168
   ],
-  "terrain": "indoors",
-  "description": [
-    "A nest of tangled spiderwebs sits partially hidden behind the walls of piled corpses.  Sticky, oozing white spheres of webbing are tucked into the nest, likely full of eggs laid by the arachnids.  Rows of bodies guard the nursery, both babysitters and pantries for the newborn spiders when they hatch."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Underbarrow, Burial Chamber]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7218": 0.2,
-    "7219": 0.2,
-    "7223": 0.2
-  },
-  "id": 7224,
-  "location": "the Graveyard",
   "tags": [
     "some wolifrew lichen",
     "some cave moss",
@@ -38,10 +35,6 @@
     "cave moss",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

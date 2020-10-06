@@ -1,47 +1,37 @@
 {
+  "id": 4556,
+  "title": [
+    "[Dark Shaft]"
+  ],
+  "description": [
+    "Bits of broken chain and wood lay strewn about area in a chaotic pattern.  Amongst the odd decoration, small black splotches of some unidentifiable substance have been splattered about."
+  ],
+  "paths": [
+    "Obvious exits: north, east, west"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "4554": "east",
     "4557": "north",
     "4558": "west"
   },
-  "paths": [
-    "Obvious exits: north, east, west"
-  ],
+  "timeto": {
+    "4554": 0.2,
+    "4557": 0.2,
+    "4558": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1040,
     538,
     1050,
     548
   ],
-  "terrain": "indoors",
-  "description": [
-    "Bits of broken chain and wood lay strewn about area in a chaotic pattern.  Amongst the odd decoration, small black splotches of some unidentifiable substance have been splattered about."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dark Shaft]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4554": 0.2,
-    "4557": 0.2,
-    "4558": 0.2
-  },
-  "id": 4556,
-  "location": "the Shadow Valley",
   "tags": [
     "blackgrove root",
     "some blue moss",
     "some shadowlace moss",
     "some cave moss",
-    "ghostly pooka",
-    "cave moss",
-    "shadowlace moss",
-    "blue moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ghostly pooka"
   ]
 }

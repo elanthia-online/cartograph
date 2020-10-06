@@ -1,45 +1,30 @@
 {
+  "id": 4324,
+  "title": [
+    "[Mine]"
+  ],
+  "description": [
+    "Rubble fills the majority of this area and it is difficult to move between the fallen timbers.  A large rock pile makes it impossible for you to move any farther west."
+  ],
+  "paths": [
+    "Obvious exits: north, east, northwest"
+  ],
+  "location": "the crystal caves",
   "wayto": {
     "4322": "east",
     "4323": "north",
     "4325": "northwest"
   },
-  "paths": [
-    "Obvious exits: north, east, northwest"
-  ],
-  "image_coords": [
-    702,
-    529,
-    712,
-    539
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Rubble fills the majority of this area and it is difficult to move between the fallen timbers.  A large rock pile makes it impossible for you to move any farther west."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mine]"
-  ],
-  "check_location": null,
   "timeto": {
     "4322": 0.2,
     "4323": 0.2,
     "4325": 0.2
   },
-  "id": 4324,
-  "location": "the crystal caves",
-  "tags": [
-    "wolifrew lichen",
-    "withered black mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-mineroad-1264234799.png",
+  "image_coords": [
+    702,
+    529,
+    712,
+    539
   ]
 }

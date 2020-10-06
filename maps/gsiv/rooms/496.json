@@ -1,35 +1,32 @@
 {
+  "id": 496,
+  "title": [
+    "[Coastal Cliffs]"
+  ],
+  "description": [
+    "As the wind picks up speed it wails through the chasms in the cliff rock, sounding eerily like the cry of a woman in distress."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "7603": "go path",
     "495": "east",
     "497": "west"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "7603": 0.2,
+    "495": 0.2,
+    "497": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     173,
     826,
     183,
     836
   ],
-  "terrain": "rough",
-  "description": [
-    "As the wind picks up speed it wails through the chasms in the cliff rock, sounding eerily like the cry of a woman in distress."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Coastal Cliffs]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7603": 0.2,
-    "495": 0.2,
-    "497": 0.2
-  },
-  "id": 496,
-  "location": "the Coastal Cliffs",
   "tags": [
     "wild strawberry",
     "small wild rose",
@@ -44,10 +41,6 @@
     "broken twig",
     "sprig of larkspur",
     "wild chokecherry",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

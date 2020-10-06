@@ -1,39 +1,36 @@
 {
+  "id": 3577,
+  "title": [
+    "[Thanatoph, Lower Landing]"
+  ],
+  "description": [
+    "The mountain levels off here, opening into an enormous landing.  Worn smooth by the passage of many years and many feet, the landing spreads out far enough to hold hundreds of people.  Dominating the landing, enormous ancient stone stairs carved into the mountain form a jagged, meandering spine winding up the side of Thanatoph.  Rough-hewn and oversized, the stairs appear hard to climb."
+  ],
+  "paths": [
+    "Obvious paths: east, southeast, northwest"
+  ],
+  "location": "Stone Valley",
   "wayto": {
     "3729": "southeast",
     "3576": "northwest",
     "3730": "east",
     "3578": {
-      "stringproc": "335b5fb77f9832e04f820ffe6d789394"
+      "file": "string_procs/wayto/3577_3578.rb"
     }
   },
-  "paths": [
-    "Obvious paths: east, southeast, northwest"
-  ],
-  "image_coords": [
-    405,
-    912,
-    415,
-    922
-  ],
-  "terrain": null,
-  "description": [
-    "The mountain levels off here, opening into an enormous landing.  Worn smooth by the passage of many years and many feet, the landing spreads out far enough to hold hundreds of people.  Dominating the landing, enormous ancient stone stairs carved into the mountain form a jagged, meandering spine winding up the side of Thanatoph.  Rough-hewn and oversized, the stairs appear hard to climb."
-  ],
-  "image": "wl-stronghold-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Thanatoph, Lower Landing]"
-  ],
-  "check_location": null,
   "timeto": {
     "3729": 0.2,
     "3576": 0.2,
     "3730": 0.2,
     "3578": 0.2
   },
-  "id": 3577,
-  "location": "Stone Valley",
+  "image": "wl-stronghold-1264234799.png",
+  "image_coords": [
+    405,
+    912,
+    415,
+    922
+  ],
   "tags": [
     "some wingstem root",
     "wild pink geranium",
@@ -46,17 +43,6 @@
     "sprig of larkspur",
     "some angelica root",
     "cuctucae berry",
-    "marallis berry",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "ironfern root",
-    "sunburst blossom",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "marallis berry"
   ]
 }

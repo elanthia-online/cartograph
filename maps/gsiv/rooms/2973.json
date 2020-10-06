@@ -1,38 +1,28 @@
 {
+  "id": 2973,
+  "title": [
+    "[Abbey Ossuary, Antechamber]"
+  ],
+  "description": [
+    "Thousands of crushed, dried rose petals carpet the floor, blackened with age, their fragrance long since departed.  Golden torch sconces adorn the plain fitted stone walls, but no torches sit within them.  It is dark, yet quiet, lending a sense of serenity."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Abbey",
   "wayto": {
     "2972": "go panel",
     "2974": "go staircase"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "2972": 0.2,
+    "2974": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     747,
     494,
     757,
     504
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Thousands of crushed, dried rose petals carpet the floor, blackened with age, their fragrance long since departed.  Golden torch sconces adorn the plain fitted stone walls, but no torches sit within them.  It is dark, yet quiet, lending a sense of serenity."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abbey Ossuary, Antechamber]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2972": 0.2,
-    "2974": 0.2
-  },
-  "id": 2973,
-  "location": "the Abbey",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

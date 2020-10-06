@@ -1,37 +1,28 @@
 {
-  "wayto": {
-    "15995": {
-      "stringproc": "31a2a3220c18922b69dbc6fc753b1d10"
-    }
-  },
+  "id": 8750,
+  "title": [
+    "[Paupers, Diving Tower Platform]"
+  ],
+  "description": [
+    "The narrow platform sways wildly under your weight.  Far below the pool seems nothing more than a bright, insignificant speck.  A short distance above you is the dome of the crystal ceiling."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "Wehnimer's Landing",
+  "wayto": {
+    "15995": {
+      "file": "string_procs/wayto/8750_15995.rb"
+    }
+  },
+  "timeto": {
+    "15995": 10.2
+  },
+  "image": "wl-house_paupers.jpg",
   "image_coords": [
     880,
     36,
     964,
     86
-  ],
-  "terrain": null,
-  "description": [
-    "The narrow platform sways wildly under your weight.  Far below the pool seems nothing more than a bright, insignificant speck.  A short distance above you is the dome of the crystal ceiling."
-  ],
-  "image": "wl-house_paupers.jpg",
-  "climate": null,
-  "title": [
-    "[Paupers, Diving Tower Platform]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "15995": 10.2
-  },
-  "id": 8750,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "links": [
-
   ]
 }

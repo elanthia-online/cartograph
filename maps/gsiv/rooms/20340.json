@@ -1,34 +1,22 @@
 {
-  "wayto": {
-    "20339": "out",
-    "20341": "go ladder"
-  },
-  "paths": [
-    "Obvious exits: out"
+  "id": 20340,
+  "title": [
+    "[Abandoned Stronghold, Rotunda]"
   ],
-  "image_coords": null,
-  "terrain": null,
   "description": [
     "The stone structure, perhaps once serving as a military garrison, has been claimed mostly by the Feywrot Mire.  Old stairwells leading below are completely filled with swamp water and muck, offering no chance to explore the depths of the fortification, but a pitted iron ladder hangs from the ceiling leading up.  A rusted iron armor stand rests in the center of the room, with weapon racks surrounding it upon each wall.  Seemingly out of place, a corroded iron footlocker is pushed up against some rubble near the exit.",
     "The stone structure, perhaps once serving as a military garrison, has been claimed mostly by the Feywrot Mire.  Old stairwells leading below are completely filled with swamp water and muck, offering no chance to explore the depths of the fortification, but a pitted iron ladder hangs from the ceiling leading up.  A rusted armor stand has been knocked over, and several weapon racks have been picked clean of inventory.  Shards of iron litter the floor throughout the stronghold."
   ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Abandoned Stronghold, Rotunda]"
+  "paths": [
+    "Obvious exits: out"
   ],
-  "check_location": null,
+  "location": "the Feywrot Mire",
+  "wayto": {
+    "20339": "out",
+    "20341": "go ladder"
+  },
   "timeto": {
     "20339": 0.2,
     "20341": 0.2
-  },
-  "id": 20340,
-  "location": "the Feywrot Mire",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  }
 }

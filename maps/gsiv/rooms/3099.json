@@ -1,39 +1,31 @@
 {
+  "id": 3099,
+  "title": [
+    "[Abandoned Farm, Bedroom]"
+  ],
+  "description": [
+    "The bed is slashed and the frame splintered.  Broken glass litters the floor in a wide arc from the open window across the room.  A faded rocking horse lies on its side in the corner, its severed head crushed as though it had been stomped on by heavy nailed boots."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Abandoned Farm",
   "wayto": {
     "3093": "north",
     "3100": "go window"
   },
-  "paths": [
-    "Obvious exits: north"
-  ],
+  "timeto": {
+    "3093": 0.2,
+    "3100": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     834,
     618,
     844,
     628
   ],
-  "terrain": "indoors",
-  "description": [
-    "The bed is slashed and the frame splintered.  Broken glass litters the floor in a wide arc from the open window across the room.  A faded rocking horse lies on its side in the corner, its severed head crushed as though it had been stomped on by heavy nailed boots."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abandoned Farm, Bedroom]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3093": 0.2,
-    "3100": 0.2
-  },
-  "id": 3099,
-  "location": "the Abandoned Farm",
   "tags": [
-    "zombie",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "zombie"
   ]
 }

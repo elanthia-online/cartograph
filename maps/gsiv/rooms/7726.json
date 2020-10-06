@@ -1,50 +1,34 @@
 {
+  "id": 7726,
+  "title": [
+    "[Caverns, Chamber]"
+  ],
+  "description": [
+    "The narrow tunnel slopes downward to the northwest, riddled with slender columns of limestone that have slowly fused together over the ages.  Moisture hangs heavily in the air, and a musty odor of rotting seaweed permeates the dampness."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, northwest"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "7725": "northeast",
     "7727": "north",
     "7729": "northwest"
   },
-  "paths": [
-    "Obvious exits: north, northeast, northwest"
-  ],
+  "timeto": {
+    "7725": 0.2,
+    "7727": 0.2,
+    "7729": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     272,
     1335,
     282,
     1345
   ],
-  "terrain": "indoors",
-  "description": [
-    "The narrow tunnel slopes downward to the northwest, riddled with slender columns of limestone that have slowly fused together over the ages.  Moisture hangs heavily in the air, and a musty odor of rotting seaweed permeates the dampness."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Caverns, Chamber]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7725": 0.2,
-    "7727": 0.2,
-    "7729": 0.2
-  },
-  "id": 7726,
-  "location": "the Coastal Cliffs",
   "tags": [
     "withered black mushroom",
-    "some cave moss",
-    "soft white mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

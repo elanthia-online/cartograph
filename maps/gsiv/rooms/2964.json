@@ -1,39 +1,31 @@
 {
-  "wayto": {
-    "2963": "climb staircase",
-    "2965": "west"
-  },
-  "paths": [
-    "Obvious paths: west"
-  ],
-  "image_coords": [
-    912,
-    643,
-    922,
-    653
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "A narrow staircase climbs against the stone walls of the abbey.  A long arcade leads west between the abbey and the chapel.  Untamed by the hand of any gardener for long years, once-neat hedges crowd the edges of the walk."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "cold, dry",
+  "id": 2964,
   "title": [
     "[Abbey Cloistered Walk]"
   ],
-  "check_location": null,
+  "description": [
+    "A narrow staircase climbs the stone walls of the abbey.  High hedges grow along the arcade, tidily tended.  They are verdant and green in a manner that seems inconsistent with the cold terrain."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "the Abbey",
+  "wayto": {
+    "2963": "go staircase",
+    "2965": "west"
+  },
   "timeto": {
     "2963": 0.2,
     "2965": 0.2
   },
-  "id": 2964,
-  "location": "the Abbey",
-  "tags": [
-    "calmintha flower",
-    "nedum vereri",
-    "meta:forage-sensed"
+  "image": "imt-Abbey Map-51200831.png",
+  "image_coords": [
+    2332,
+    1062,
+    2440,
+    1172
   ],
-  "links": [
-
+  "tags": [
+    "calmintha flower"
   ]
 }

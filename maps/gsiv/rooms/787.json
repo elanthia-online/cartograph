@@ -1,42 +1,35 @@
 {
+  "id": 787,
+  "title": [
+    "[Whistler's Pass, Tunnel]"
+  ],
+  "description": [
+    "Some light spills through the entrance, but the tunnel quickly turns as dark and chill as krolvin dreams.  The smooth surfaces of floor and walls suggest that the passage was not created by nature."
+  ],
+  "paths": [
+    "Obvious exits: northeast, out"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "788": "out",
     "786": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, out"
-  ],
+  "timeto": {
+    "788": 0.2,
+    "786": 0.2
+  },
+  "image": "en-whistlers_pass-1264234799.png",
   "image_coords": [
     955,
     225,
     965,
     235
   ],
-  "terrain": "indoors",
-  "description": [
-    "Some light spills through the entrance, but the tunnel quickly turns as dark and chill as krolvin dreams.  The smooth surfaces of floor and walls suggest that the passage was not created by nature."
-  ],
-  "image": "en-whistlers_pass-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Whistler's Pass, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "788": 0.2,
-    "786": 0.2
-  },
-  "id": 787,
-  "location": "Whistler's Pass",
   "tags": [
     "white hook mushroom",
     "cave moss",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

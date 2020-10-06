@@ -1,54 +1,33 @@
 {
-  "wayto": {
-    "3839": "go spring",
-    "3753": {
-      "stringproc": "21ee5ed3d6d362614383b849e4419c89"
-    }
-  },
+  "id": 3838,
+  "title": [
+    "[Thanatoph, Wide Ledge]"
+  ],
+  "description": [
+    "Wide and sheltered, the ledge offers a respite from the cold wind howling outside.  Worn smooth from years of providing shelter, the ledge also offers a few comfortable boulders to lean against.  The ledge reaches back about fifteen feet before running abruptly into a cracked and fissured stone wall."
+  ],
   "paths": [
     "Obvious paths: none"
   ],
+  "location": "Stone Valley",
+  "wayto": {
+    "3839": "go spring",
+    "3753": {
+      "file": "string_procs/wayto/3838_3753.rb"
+    }
+  },
+  "timeto": {
+    "3839": 0.2,
+    "3753": 0.2
+  },
+  "image": "wl-stronghold-1264234799.png",
   "image_coords": [
     456,
     973,
     466,
     983
   ],
-  "terrain": null,
-  "description": [
-    "Wide and sheltered, the ledge offers a respite from the cold wind howling outside.  Worn smooth from years of providing shelter, the ledge also offers a few comfortable boulders to lean against.  The ledge reaches back about fifteen feet before running abruptly into a cracked and fissured stone wall."
-  ],
-  "image": "wl-stronghold-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Thanatoph, Wide Ledge]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3839": 0.2,
-    "3753": 0.2
-  },
-  "id": 3838,
-  "location": "Stone Valley",
   "tags": [
-    "some wingstem root",
-    "marallis berry",
-    "cuctucae berry",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "sprig of larkspur",
-    "ironfern root",
-    "sunburst blossom",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

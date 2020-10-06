@@ -1,63 +1,35 @@
 {
-  "wayto": {
-    "1155": {
-      "stringproc": "0e24e9cfabb7c7019f4189c37af1772a"
-    },
-    "1153": {
-      "stringproc": "bc96d7009e8115351e9b2f6f175beeed"
-    }
-  },
+  "id": 1154,
+  "title": [
+    "[Locksmehr River Trail, Swamp]"
+  ],
+  "description": [
+    "A reptilian creature resting on a small dry area hops quickly into the water, startled by the movement.  Salamanders and lizards dart around the edges of the swamp looking for an easy insect meal.  The pervasive smell of decay rises up from the mushy ground and hangs heavily in the stagnant air.  An occasional frog breaks the quiet background noise with a loud croak."
+  ],
   "paths": [
     "Obvious paths: north, south"
   ],
+  "location": "the Locksmehr Trail",
+  "wayto": {
+    "1155": {
+      "file": "string_procs/wayto/1154_1155.rb"
+    },
+    "1153": {
+      "file": "string_procs/wayto/1154_1153.rb"
+    }
+  },
+  "timeto": {
+    "1155": 0.2,
+    "1153": 0.2
+  },
+  "image": "en-trail-1264234799.png",
   "image_coords": [
     657,
     337,
     667,
     347
   ],
-  "terrain": "missing",
-  "description": [
-    "A reptilian creature resting on a small dry area hops quickly into the water, startled by the movement.  Salamanders and lizards dart around the edges of the swamp looking for an easy insect meal.  The pervasive smell of decay rises up from the mushy ground and hangs heavily in the stagnant air.  An occasional frog breaks the quiet background noise with a loud croak."
-  ],
-  "image": "en-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Locksmehr River Trail, Swamp]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1155": 0.2,
-    "1153": 0.2
-  },
-  "id": 1154,
-  "location": "the Locksmehr Trail",
   "tags": [
-    "stalk of cattail",
-    "calamia fruit",
-    "haphip root",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "wild gooseberry",
-    "water chestnut",
-    "small wild rose",
-    "kylan berry",
-    "blue whortleberry",
-    "pepperthorn root",
-    "murdroot",
-    "wavepetal blossom",
-    "sunburst blossom",
-    "bolmara lichen",
-    "talneo root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "stalk of cattail"
   ]
 }

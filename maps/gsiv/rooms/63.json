@@ -1,33 +1,30 @@
 {
+  "id": 63,
+  "title": [
+    "[Whistler's Pass, Marsh]"
+  ],
+  "description": [
+    "Large rocks have sunk into the spongy soil, creating stepping stones across the difficult terrain.  Puddles surround the stones with muddy water."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "62": "northeast",
     "64": "southwest"
   },
-  "paths": [
-    "Obvious paths: northeast, southwest"
-  ],
+  "timeto": {
+    "62": 0.2,
+    "64": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     1036,
     495,
     1046,
     505
   ],
-  "terrain": "muddy wetlands",
-  "description": [
-    "Large rocks have sunk into the spongy soil, creating stepping stones across the difficult terrain.  Puddles surround the stones with muddy water."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Whistler's Pass, Marsh]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "62": 0.2,
-    "64": 0.2
-  },
-  "id": 63,
-  "location": "Whistler's Pass",
   "tags": [
     "some wingstem root",
     "some talneo root",
@@ -54,10 +51,6 @@
     "bolmara lichen",
     "talneo root",
     "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bur-clover root"
   ]
 }

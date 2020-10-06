@@ -1,41 +1,35 @@
 {
-  "wayto": {
-    "19951": "go oak door",
-    "14650": {
-      "stringproc": "ba49691ba1468ba6169a6252c1b90eaa"
-    },
-    "19968": "go modwir door"
-  },
+  "id": 19967,
+  "title": [
+    "[Hall of Knowledge, Library]"
+  ],
+  "description": [
+    "Bookshelves encompass all the remaining wall space that is not taken up by doors, and a plush pale gold rug covers the floor.  Wooden tables, flickering oil lanterns set on their surfaces, and cushioned chairs offer areas to spread out and read or study.  Scents of parchment, glue, and dust permeate the room.  The well-manicured librarian stands behind a low wooden checkout desk, its surface littered with folios, quills, and jars of ink."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "Wehnimer's Landing",
+  "wayto": {
+    "19951": "go oak door",
+    "14650": {
+      "file": "string_procs/wayto/19967_14650.rb"
+    },
+    "19968": "go modwir door"
+  },
+  "timeto": {
+    "19951": 0.2,
+    "14650": 0.2,
+    "19968": 0.2
+  },
+  "image": "wl-museum-1487435869.png",
   "image_coords": [
     977,
     441,
     1117,
     503
   ],
-  "terrain": null,
-  "description": [
-    "Bookshelves encompass all the remaining wall space that is not taken up by doors, and a plush pale gold rug covers the floor.  Wooden tables, flickering oil lanterns set on their surfaces, and cushioned chairs offer areas to spread out and read or study.  Scents of parchment, glue, and dust permeate the room.  The well-manicured librarian stands behind a low wooden checkout desk, its surface littered with folios, quills, and jars of ink."
-  ],
-  "image": "wl-museum-1487435869.png",
-  "climate": null,
-  "title": [
-    "[Hall of Knowledge, Library]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "19951": 0.2,
-    "14650": 0.2,
-    "19968": 0.2
-  },
-  "id": 19967,
-  "location": "Wehnimer's Landing",
   "tags": [
     "meta:teleport:fwi"
-  ],
-  "links": [
-
   ]
 }

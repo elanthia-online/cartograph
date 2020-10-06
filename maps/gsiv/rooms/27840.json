@@ -1,37 +1,34 @@
 {
+  "id": 27840,
+  "title": [
+    "[Sphere and Scythe, Cave Garden]"
+  ],
+  "description": [
+    "Enormous stalactites droop from the high ceilings in this massive oval room.  The stalactites have been carved and adorned with various forms of glowing lichens, mushrooms, toadstools, and crystals that lend light to this dark expanse.  The surrounding walls flicker with life as cave moss and glowing lichen cast varying patterns of light across the room in hues of white to green.  Carved into the stone walls are a line of benches.  A detailed plaque is mounted high above the carved stone doors."
+  ],
+  "paths": [
+    "Obvious exits: north, east, west"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "8193": "go carved doors",
     "27841": "east",
     "27844": "west",
     "27847": "north"
   },
-  "paths": [
-    "Obvious exits: north, east, west"
-  ],
-  "image_coords": [
-    414,
-    462,
-    552,
-    529
-  ],
-  "terrain": null,
-  "description": [
-    "Enormous stalactites droop from the high ceilings in this massive oval room.  The stalactites have been carved and adorned with various forms of glowing lichens, mushrooms, toadstools, and crystals that lend light to this dark expanse.  The surrounding walls flicker with life as cave moss and glowing lichen cast varying patterns of light across the room in hues of white to green.  Carved into the stone walls are a line of benches.  A detailed plaque is mounted high above the carved stone doors."
-  ],
-  "image": "wl-sphere_and_scythe-1554245616.png",
-  "climate": null,
-  "title": [
-    "[Sphere and Scythe, Cave Garden]"
-  ],
-  "check_location": null,
   "timeto": {
     "8193": 0.2,
     "27841": 0.2,
     "27844": 0.2,
     "27847": 0.2
   },
-  "id": 27840,
-  "location": "Wehnimer's Landing",
+  "image": "wl-sphere_and_scythe-1554245616.png",
+  "image_coords": [
+    414,
+    462,
+    552,
+    529
+  ],
   "tags": [
     "meta:mapname:Wehnimer's Landing - Order of the Sphere and Scythe",
     "meta:mapshortname:Order of the Sphere and Scythe",
@@ -39,6 +36,5 @@
     "meta:mapcategory:MHO",
     "node",
     "supernode"
-  ],
-  "unique_loot": null
+  ]
 }

@@ -1,45 +1,33 @@
 {
+  "id": 5176,
+  "title": [
+    "[Vornavian Coast, North Beach]"
+  ],
+  "description": [
+    "A river delta lies to the north, flowing in falls from the cliff face, running west through the black sands, and emptying into the ocean. The flow of fresh water from the east is steady and could not be crossed but for the bridge erected across the delta."
+  ],
+  "paths": [
+    "Obvious paths: southwest"
+  ],
+  "location": "the Vornavian Coast",
   "wayto": {
     "5175": "southwest",
     "5177": "go bridge",
     "5178": "go stairs"
   },
-  "paths": [
-    "Obvious paths: southwest"
-  ],
+  "timeto": {
+    "5175": 0.2,
+    "5177": 0.2,
+    "5178": 0.2
+  },
+  "image": "vo-north_beach-1264234799.png",
   "image_coords": [
     422,
     344,
     432,
     354
   ],
-  "terrain": "sandy",
-  "description": [
-    "A river delta lies to the north, flowing in falls from the cliff face, running west through the black sands, and emptying into the ocean. The flow of fresh water from the east is steady and could not be crossed but for the bridge erected across the delta."
-  ],
-  "image": "vo-north_beach-1264234799.png",
-  "climate": "hot, damp",
-  "title": [
-    "[Vornavian Coast, North Beach]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5175": 0.2,
-    "5177": 0.2,
-    "5178": 0.2
-  },
-  "id": 5176,
-  "location": "the Vornavian Coast",
   "tags": [
-    "yabathilium fruit",
-    "acantha leaf",
-    "yellow primrose",
-    "cactus flower",
-    "murdroot",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "yabathilium fruit"
   ]
 }

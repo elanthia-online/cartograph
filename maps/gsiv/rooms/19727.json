@@ -1,39 +1,30 @@
 {
-  "wayto": {
-    "19990": {
-      "stringproc": "2a76a65d66eb094fe70b9a26e06e50d4"
-    },
-    "19726": "go shore"
-  },
+  "id": 19727,
+  "title": [
+    "[In a Tiny Boat]"
+  ],
+  "description": [
+    "You are bobbing along in one of the tiny fishing boats used by the Gnolls."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "the foothills of Zeltoph",
+  "wayto": {
+    "19990": {
+      "file": "string_procs/wayto/19727_19990.rb"
+    },
+    "19726": "go shore"
+  },
+  "timeto": {
+    "19990": 2.2,
+    "19726": 0.2
+  },
+  "image": "wl-cavernhold-1295073688.png",
   "image_coords": [
     341,
     603,
     359,
     619
-  ],
-  "terrain": null,
-  "description": [
-    "You are bobbing along in one of the tiny fishing boats used by the Gnolls."
-  ],
-  "image": "wl-cavernhold-1295073688.png",
-  "climate": null,
-  "title": [
-    "[In a Tiny Boat]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "19990": 2.2,
-    "19726": 0.2
-  },
-  "id": 19727,
-  "location": "the foothills of Zeltoph",
-  "tags": [
-
-  ],
-  "links": [
-
   ]
 }

@@ -1,40 +1,33 @@
 {
+  "id": 20782,
+  "title": [
+    "[Welkin Hall, Landing]"
+  ],
+  "description": [
+    "Stone walls give way to dark oak panels on the upper half, amber-paned oil lanterns lighting the narrow landing with a soft, golden glow.  Two doors stand at opposite ends, each one intricately carved.  The deep golden linden door to the left bears the image of an erupting volcano inlaid with ruby, while the mahogany door to the right presents a hulking pyrothag outlined in black deathstone inlay.  Opposite the doors, a stone staircase leads down into the belly of the building."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Kharam-Dzu",
   "wayto": {
     "20785": "go linden door",
     "20781": "go staircase",
     "20784": "go mahogany door"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "20785": 0.2,
+    "20781": 0.2,
+    "20784": 0.2
+  },
+  "image": "premium_halls-1489980086.png",
   "image_coords": [
     4085,
     1577,
     4209,
     1632
   ],
-  "terrain": null,
-  "description": [
-    "Stone walls give way to dark oak panels on the upper half, amber-paned oil lanterns lighting the narrow landing with a soft, golden glow.  Two doors stand at opposite ends, each one intricately carved.  The deep golden linden door to the left bears the image of an erupting volcano inlaid with ruby, while the mahogany door to the right presents a hulking pyrothag outlined in black deathstone inlay.  Opposite the doors, a stone staircase leads down into the belly of the building."
-  ],
-  "image": "premium_halls-1489980086.png",
-  "climate": null,
-  "title": [
-    "[Welkin Hall, Landing]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "20785": 0.2,
-    "20781": 0.2,
-    "20784": 0.2
-  },
-  "id": 20782,
-  "location": "Kharam-Dzu",
   "tags": [
     "node"
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

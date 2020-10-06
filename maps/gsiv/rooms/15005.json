@@ -1,30 +1,22 @@
 {
-  "wayto": {
-    "15002": "go curtain"
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "You are standing in a secluded alcove facing a wall of small, locked doors.  One of the lockers has been removed for you and placed on a marble counter."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 15005,
   "title": [
     "[Annex, Booth]"
   ],
-  "check_location": null,
+  "description": [
+    "You are standing in a secluded alcove facing a wall of small, locked doors.  One of the lockers has been removed for you and placed on a marble counter."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "15002": "go curtain"
+  },
   "timeto": {
     "15002": 0.2
   },
-  "id": 15005,
-  "location": "Mist Harbor",
   "tags": [
     "peer curtain =~ /^\\[Annex, Helden Hall Lobby\\]$/"
-  ],
-  "links": [
-
   ]
 }

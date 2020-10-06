@@ -1,51 +1,37 @@
 {
+  "id": 8204,
+  "title": [
+    "[Sea Caverns, Tunnel]"
+  ],
+  "description": [
+    "The dank rock walls are close, but it's not as claustrophobic here as in other parts of these caverns.  The garbage, however, seems to be uniformly deep.  A curious 'whisper' of sound can be heard coming from the southeast direction.  To the southwest, a visible trail has been forged through the muck on the tunnel floor."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast, southwest"
+  ],
+  "location": "the sea caverns",
   "wayto": {
     "8205": "southeast",
     "8207": "southwest",
     "8203": "north"
   },
-  "paths": [
-    "Obvious exits: north, southeast, southwest"
-  ],
+  "timeto": {
+    "8205": 0.2,
+    "8207": 0.2,
+    "8203": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     552,
     184,
     562,
     194
   ],
-  "terrain": "indoors",
-  "description": [
-    "The dank rock walls are close, but it's not as claustrophobic here as in other parts of these caverns.  The garbage, however, seems to be uniformly deep.  A curious 'whisper' of sound can be heard coming from the southeast direction.  To the southwest, a visible trail has been forged through the muck on the tunnel floor."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Caverns, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8205": 0.2,
-    "8207": 0.2,
-    "8203": 0.2
-  },
-  "id": 8204,
-  "location": "the sea caverns",
   "tags": [
     "red trafel mushroom",
     "white hook mushroom",
     "soft white mushroom",
     "some bolmara lichen",
-    "blue trafel mushroom",
-    "withered black mushroom",
-    "black hook mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "blue trafel mushroom"
   ]
 }

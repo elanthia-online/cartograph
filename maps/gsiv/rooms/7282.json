@@ -1,33 +1,30 @@
 {
+  "id": 7282,
+  "title": [
+    "[Slither Creek, Stone Bank]"
+  ],
+  "description": [
+    "The soft soil turns rocky here.  Further travel to the northeast is impossible over the uncertain ground, but it seems the creek can still be reached safely enough.  The soft hissing of scales against stone makes you uneasy, and you glance at the ground, attempting to locate the source of the sound."
+  ],
+  "paths": [
+    "Obvious paths: southwest"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7297": "go creek",
     "7281": "southwest"
   },
-  "paths": [
-    "Obvious paths: southwest"
-  ],
+  "timeto": {
+    "7297": 0.2,
+    "7281": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     354,
     198,
     362,
     206
   ],
-  "terrain": "riparian",
-  "description": [
-    "The soft soil turns rocky here.  Further travel to the northeast is impossible over the uncertain ground, but it seems the creek can still be reached safely enough.  The soft hissing of scales against stone makes you uneasy, and you glance at the ground, attempting to locate the source of the sound."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Slither Creek, Stone Bank]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7297": 0.2,
-    "7281": 0.2
-  },
-  "id": 7282,
-  "location": "the Graveyard",
   "tags": [
     "some acantha leaf",
     "some ephlox moss",
@@ -53,10 +50,6 @@
     "murdroot",
     "wavepetal blossom",
     "ironfern root",
-    "talneo root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "talneo root"
   ]
 }

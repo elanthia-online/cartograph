@@ -1,45 +1,37 @@
 {
+  "id": 5430,
+  "title": [
+    "[Bonespear Tower, Mid Chamber]"
+  ],
+  "description": [
+    "This room appears to be a nexus to several others, but any purpose that it might have held would be difficult to determine as a huge fireball has completely devastated the area.  Scorch marks and fused bone cover every inch of this spot, and it is impossible to walk in any direction without the sound of something crunching underneath."
+  ],
+  "paths": [
+    "Obvious exits: north, east, southwest, northwest"
+  ],
+  "location": "Bonespear Tower",
   "wayto": {
     "5433": "southwest",
     "5428": "north",
     "5431": "east",
     "5432": "northwest"
   },
-  "paths": [
-    "Obvious exits: north, east, southwest, northwest"
-  ],
-  "image_coords": [
-    951,
-    929,
-    961,
-    939
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This room appears to be a nexus to several others, but any purpose that it might have held would be difficult to determine as a huge fireball has completely devastated the area.  Scorch marks and fused bone cover every inch of this spot, and it is impossible to walk in any direction without the sound of something crunching underneath."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Bonespear Tower, Mid Chamber]"
-  ],
-  "check_location": null,
   "timeto": {
     "5433": 0.2,
     "5428": 0.2,
     "5431": 0.2,
     "5432": 0.2
   },
-  "id": 5430,
-  "location": "Bonespear Tower",
+  "image": "vo-foggy_valley-1264234799.png",
+  "image_coords": [
+    951,
+    929,
+    961,
+    939
+  ],
   "tags": [
     "waern",
     "dybbuk",
-    "eidolon",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "eidolon"
   ]
 }

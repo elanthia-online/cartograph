@@ -1,33 +1,30 @@
 {
+  "id": 3819,
+  "title": [
+    "[Darkstone, Dark Lair]"
+  ],
+  "description": [
+    "Blackness, betrayal, death, outrage... the air of lingering rancor is staggering!  The ground is spotted and stained dark red.  An obscured tunnel leads upward to the east.  In the corner, a long stone slab serves as the focal point of this loathsome lair."
+  ],
+  "paths": [
+    "Obvious exits: east, northwest"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "3717": "northwest",
     "3703": "east"
   },
-  "paths": [
-    "Obvious exits: east, northwest"
-  ],
+  "timeto": {
+    "3717": 0.2,
+    "3703": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     622,
     1244,
     632,
     1254
   ],
-  "terrain": "indoors",
-  "description": [
-    "Blackness, betrayal, death, outrage... the air of lingering rancor is staggering!  The ground is spotted and stained dark red.  An obscured tunnel leads upward to the east.  In the corner, a long stone slab serves as the focal point of this loathsome lair."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dark Lair]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3717": 0.2,
-    "3703": 0.2
-  },
-  "id": 3819,
-  "location": "Darkstone Castle",
   "tags": [
     "blue trafel mushroom",
     "some cave moss",
@@ -35,15 +32,6 @@
     "black hook mushroom",
     "red trafel mushroom",
     "soft white mushroom",
-    "massive troll king",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "massive troll king"
   ]
 }

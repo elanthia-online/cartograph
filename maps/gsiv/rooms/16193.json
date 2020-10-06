@@ -1,39 +1,29 @@
 {
-  "wayto": {
-    "16194": "go door",
-    "16192": {
-      "stringproc": "02162d84287589242970c317e395f0cc"
-    }
-  },
+  "id": 16193,
+  "title": [
+    "[Beacon Hall, Rock Room]"
+  ],
+  "description": [
+    "This room appears to be unfinished.  Although it is encompassed on all four sides by stone walls, it lacks a ceiling, and sunlight streams in unhindered.  The floor is made up entirely of small rocks and pebbles, which crunch loudly underfoot."
+  ],
   "paths": [
     "Obvious paths: none"
   ],
+  "wayto": {
+    "16194": "go door",
+    "16192": {
+      "file": "string_procs/wayto/16193_16192.rb"
+    }
+  },
+  "timeto": {
+    "16194": 0.2,
+    "16192": 0.4
+  },
+  "image": "rr-beacon_hall-1405076623.png",
   "image_coords": [
     509,
     262,
     556,
     307
-  ],
-  "terrain": null,
-  "description": [
-    "This room appears to be unfinished.  Although it is encompassed on all four sides by stone walls, it lacks a ceiling, and sunlight streams in unhindered.  The floor is made up entirely of small rocks and pebbles, which crunch loudly underfoot."
-  ],
-  "image": "rr-beacon_hall-1405076623.png",
-  "climate": null,
-  "title": [
-    "[Beacon Hall, Rock Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "16194": 0.2,
-    "16192": 0.4
-  },
-  "id": 16193,
-  "location": null,
-  "tags": [
-
-  ],
-  "links": [
-
   ]
 }

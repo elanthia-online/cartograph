@@ -1,33 +1,30 @@
 {
+  "id": 1374,
+  "title": [
+    "[Cairnfang Uplands]"
+  ],
+  "description": [
+    "The forest ends, and to the west the land drops.  A wide upland meadow overrun with blooming grass widows fills the hollow between the hills with a flood of purple.  A small pond ringed with cattails and marsh grasses nestles in the center of the meadow."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "1375": "east",
     "1373": "west"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "1375": 0.2,
+    "1373": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     957,
     405,
     967,
     415
   ],
-  "terrain": "grassland",
-  "description": [
-    "The forest ends, and to the west the land drops.  A wide upland meadow overrun with blooming grass widows fills the hollow between the hills with a flood of purple.  A small pond ringed with cattails and marsh grasses nestles in the center of the meadow."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Cairnfang Uplands]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1375": 0.2,
-    "1373": 0.2
-  },
-  "id": 1374,
-  "location": "the Cairnfang",
   "tags": [
     "some sovyn clove",
     "some ambrominas leaf",
@@ -92,10 +89,6 @@
     "wavepetal blossom",
     "ironfern root",
     "nightbloom blossom",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

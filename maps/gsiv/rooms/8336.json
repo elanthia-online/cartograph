@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "8335": "west"
-  },
+  "id": 8336,
+  "title": [
+    "[Spider Temple, Pantry]"
+  ],
+  "description": [
+    "This alcove holds deep, long shelves on its walls.  It seems to have served as some sort of pantry or larder, but now the few burlap sacks, casks and hogheads of provisions here look rotten and gnawed at.  Everything in the room is covered in a sticky coating of dust and cobwebs."
+  ],
   "paths": [
     "Obvious exits: west"
   ],
+  "location": "the Spider Temple",
+  "wayto": {
+    "8335": "west"
+  },
+  "timeto": {
+    "8335": 0.2
+  },
+  "image": "wl-spider_temple-1264234799.png",
   "image_coords": [
     606,
     982,
     616,
     992
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This alcove holds deep, long shelves on its walls.  It seems to have served as some sort of pantry or larder, but now the few burlap sacks, casks and hogheads of provisions here look rotten and gnawed at.  Everything in the room is covered in a sticky coating of dust and cobwebs."
-  ],
-  "image": "wl-spider_temple-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Spider Temple, Pantry]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8335": 0.2
-  },
-  "id": 8336,
-  "location": "the Spider Temple",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

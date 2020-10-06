@@ -1,33 +1,30 @@
 {
+  "id": 6291,
+  "title": [
+    "[Dirt Mines, Dark Tunnel]"
+  ],
+  "description": [
+    "The tunnel falls off steeply to the north.  Something large peers out from behind the dirt ceiling ahead of you.  It's impossible to make out just what it is, but it seems to have been enough to convince the lazy little diggers to give up and head downward."
+  ],
+  "paths": [
+    "Obvious exits: south, down"
+  ],
+  "location": "the Lower Dragonsclaw",
   "wayto": {
     "6290": "south",
     "6292": "down"
   },
-  "paths": [
-    "Obvious exits: south, down"
-  ],
+  "timeto": {
+    "6290": 0.2,
+    "6292": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     283,
     110,
     293,
     120
   ],
-  "terrain": "indoors",
-  "description": [
-    "The tunnel falls off steeply to the north.  Something large peers out from behind the dirt ceiling ahead of you.  It's impossible to make out just what it is, but it seems to have been enough to convince the lazy little diggers to give up and head downward."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dirt Mines, Dark Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6290": 0.2,
-    "6292": 0.2
-  },
-  "id": 6291,
-  "location": "the Lower Dragonsclaw",
   "tags": [
     "some pothinir grass",
     "some cave moss",
@@ -38,10 +35,6 @@
     "cave moss",
     "murdroot",
     "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bur-clover root"
   ]
 }

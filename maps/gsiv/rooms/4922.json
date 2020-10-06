@@ -1,34 +1,31 @@
 {
+  "id": 4922,
+  "title": [
+    "[Gyldemar Forest, Crossroads]"
+  ],
+  "description": [
+    "As the old road ends, a barely visible path begins to the southeast.  The forest seems to be attempting to smother the path with new growth.  A few young saplings fight to survive among the large trees.",
+    "As the old road ends, a barely visible path begins to the southeast.  The forest seems to be attempting to smother the path with new growth.  A few young saplings fight to survive among the large trees.  Little moonlight filters through to the forest floor."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast"
+  ],
+  "location": "Gyldemar Forest",
   "wayto": {
     "4921": "northeast",
     "4923": "southeast"
   },
-  "paths": [
-    "Obvious paths: northeast, southeast"
-  ],
+  "timeto": {
+    "4921": 0.2,
+    "4923": 0.2
+  },
+  "image": "en-gyldemar-1264234799.png",
   "image_coords": [
     1006,
     329,
     1016,
     339
   ],
-  "terrain": "missing",
-  "description": [
-    "As the old road ends, a barely visible path begins to the southeast.  The forest seems to be attempting to smother the path with new growth.  A few young saplings fight to survive among the large trees.",
-    "As the old road ends, a barely visible path begins to the southeast.  The forest seems to be attempting to smother the path with new growth.  A few young saplings fight to survive among the large trees.  Little moonlight filters through to the forest floor."
-  ],
-  "image": "en-gyldemar-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Gyldemar Forest, Crossroads]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4921": 0.2,
-    "4923": 0.2
-  },
-  "id": 4922,
-  "location": "Gyldemar Forest",
   "tags": [
     "wood violet",
     "wild chokecherry",
@@ -38,57 +35,6 @@
     "ebony twig",
     "wild gooseberry",
     "soft white mushroom",
-    "fiddlehead fern",
-    "acantha leaf",
-    "torban leaf",
-    "calamia fruit",
-    "haphip root",
-    "basal moss",
-    "tkaro root",
-    "sticks",
-    "angelica root",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "blueberries",
-    "elderberries",
-    "wild grapes",
-    "broken twig",
-    "stalk of bluebells",
-    "golden buttercup",
-    "wild pink geranium",
-    "stalk of goldenrod",
-    "small wild rose",
-    "sprig of wild lilac",
-    "stalk of burdock",
-    "silver-edged fern",
-    "lady slipper blossom",
-    "wild orchid",
-    "wolfsbane root",
-    "sprig of mistletoe",
-    "tree bark",
-    "murkweed",
-    "white lily",
-    "pink rain lily",
-    "coppery rain lily",
-    "blue whortleberry",
-    "white baneberry",
-    "bloodwood twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "fiddlehead fern"
   ]
 }

@@ -1,48 +1,28 @@
 {
+  "id": 9582,
+  "title": [
+    "[Czeroth Caverns, Tunnel]"
+  ],
+  "description": [
+    "The tunnel walls are pitted with crevices and close in here, leaving just enough room for two giantmen to stand abreast.  The rank, acidic odor is very strong, causing your eyes and nose to burn and water."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "the Czeroth Caverns",
   "wayto": {
     "9581": "northeast",
     "9583": "southwest"
   },
-  "paths": [
-    "Obvious exits: northeast, southwest"
-  ],
+  "timeto": {
+    "9581": 0.2,
+    "9583": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     1187,
     266,
     1197,
     276
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The tunnel walls are pitted with crevices and close in here, leaving just enough room for two giantmen to stand abreast.  The rank, acidic odor is very strong, causing your eyes and nose to burn and water."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Czeroth Caverns, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9581": 0.2,
-    "9583": 0.2
-  },
-  "id": 9582,
-  "location": "the Czeroth Caverns",
-  "tags": [
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

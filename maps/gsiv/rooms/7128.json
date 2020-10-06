@@ -1,44 +1,36 @@
 {
+  "id": 7128,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "The floor is slimy under your feet, and very slippery.  Water seems to be running in trickles down the corridor from the east.  Scuttling noises fill the air, but with all the echoes in this intersection, you can't tell where they're coming from."
+  ],
+  "paths": [
+    "Obvious exits: east, south, west"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7130": "east",
     "7129": "go door",
     "7132": "south",
     "7127": "west"
   },
-  "paths": [
-    "Obvious exits: east, south, west"
-  ],
-  "image_coords": [
-    1083,
-    364,
-    1093,
-    374
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The floor is slimy under your feet, and very slippery.  Water seems to be running in trickles down the corridor from the east.  Scuttling noises fill the air, but with all the echoes in this intersection, you can't tell where they're coming from."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
   "timeto": {
     "7130": 0.2,
     "7129": 0.2,
     "7132": 0.2,
     "7127": 0.2
   },
-  "id": 7128,
-  "location": "Darkstone Castle",
+  "image": "wl-darkstone-1264234799.png",
+  "image_coords": [
+    1083,
+    364,
+    1093,
+    374
+  ],
   "tags": [
     "kiramon defender",
-    "kiramon worker",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "kiramon worker"
   ]
 }

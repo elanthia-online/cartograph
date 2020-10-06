@@ -1,34 +1,31 @@
 {
+  "id": 5933,
+  "title": [
+    "[Catacombs, Sewers]"
+  ],
+  "description": [
+    "Wet, foul smelling compost lines the floor making interesting squishing sounds underfoot.",
+    "Wet, foul smelling compost lines the floor making interesting squishing sounds underfoot.  From behind the wall, comes the distinct sound of someone or something clawing at the ground.  Perhaps it is anxious to find its next meal here."
+  ],
+  "paths": [
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "5932": "southeast",
     "5934": "northwest"
   },
-  "paths": [
-    "Obvious exits: southeast, northwest"
-  ],
+  "timeto": {
+    "5932": 0.2,
+    "5934": 0.2
+  },
+  "image": "en-tavaalor-1565907614.png",
   "image_coords": [
     345,
     819,
     352,
     830
   ],
-  "terrain": null,
-  "description": [
-    "Wet, foul smelling compost lines the floor making interesting squishing sounds underfoot.",
-    "Wet, foul smelling compost lines the floor making interesting squishing sounds underfoot.  From behind the wall, comes the distinct sound of someone or something clawing at the ground.  Perhaps it is anxious to find its next meal here."
-  ],
-  "image": "en-tavaalor-1565907614.png",
-  "climate": null,
-  "title": [
-    "[Catacombs, Sewers]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5932": 0.2,
-    "5934": 0.2
-  },
-  "id": 5933,
-  "location": "the catacombs",
   "tags": [
     "black hook mushroom",
     "soft white mushroom",
@@ -39,8 +36,5 @@
     "ironfern root",
     "bolmara lichen",
     "wingstem root"
-  ],
-  "links": [
-
   ]
 }

@@ -1,76 +1,30 @@
 {
-  "wayto": {
-    "1787": {
-      "stringproc": "9c7c88a7afb4f7f59f5b8341efee2560"
-    },
-    "1791": "south"
-  },
+  "id": 9919,
+  "title": [
+    "[Wraithenmist, Hollow Tree]"
+  ],
+  "description": [
+    "The interior of the tree, cavernous by any standard, shows no signs of what caused the massive hollow's creation.  Small patches of glowing lichen cling to the tree's ancient woody pulp, casting a dim phosphorescent glow across the darkened space."
+  ],
   "paths": [
     "Obvious paths: south"
   ],
+  "location": "Wraithenmist",
+  "wayto": {
+    "1787": {
+      "file": "string_procs/wayto/9919_1787.rb"
+    },
+    "1791": "south"
+  },
+  "timeto": {
+    "1787": 0.2,
+    "1791": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     543,
     122,
     553,
     132
-  ],
-  "terrain": "deciduous forest",
-  "description": [
-    "The interior of the tree, cavernous by any standard, shows no signs of what caused the massive hollow's creation.  Small patches of glowing lichen cling to the tree's ancient woody pulp, casting a dim phosphorescent glow across the darkened space."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Wraithenmist, Hollow Tree]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1787": 0.2,
-    "1791": 0.2
-  },
-  "id": 9919,
-  "location": "Wraithenmist",
-  "tags": [
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "tkaro root",
-    "sticks",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "soft white mushroom",
-    "withered black mushroom",
-    "white hook mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "blueberries",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "broken twig",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "small wild rose",
-    "sprig of wild lilac",
-    "wild chokecherry",
-    "bright red cranberry",
-    "tree bark",
-    "blue whortleberry",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

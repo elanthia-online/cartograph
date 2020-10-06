@@ -1,38 +1,28 @@
 {
+  "id": 7518,
+  "title": [
+    "[Catacombs, Dank Cellar]"
+  ],
+  "description": [
+    "This dank, musty room looks like it was used as a cooking area of some sort, by someone not too concerned with hygiene.  Moldy dishes are piled high in a huge wooden tub and the acrid smell of some long-since-burnt animal lingers in the close air.  In the northern wall is a large, rectangular opening, and beside it a vertical slot with a chain hanging down."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "7517": "south",
     "7519": "go opening"
   },
-  "paths": [
-    "Obvious exits: south"
-  ],
+  "timeto": {
+    "7517": 0.2,
+    "7519": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     661,
     963,
     671,
     973
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This dank, musty room looks like it was used as a cooking area of some sort, by someone not too concerned with hygiene.  Moldy dishes are piled high in a huge wooden tub and the acrid smell of some long-since-burnt animal lingers in the close air.  In the northern wall is a large, rectangular opening, and beside it a vertical slot with a chain hanging down."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Catacombs, Dank Cellar]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7517": 0.2,
-    "7519": 0.2
-  },
-  "id": 7518,
-  "location": "the catacombs",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

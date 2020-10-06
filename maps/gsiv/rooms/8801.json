@@ -1,39 +1,29 @@
 {
+  "id": 8801,
+  "title": [
+    "[Dragonsclaw Arms, Second Floor]"
+  ],
+  "description": [
+    "A darker patch on the thick green carpet lies under the small window that looks out on the street below - apparently the residents have neglected to close it when it rains.  The brass chandelier on the ceiling is missing a few candles, but the window provides plenty of light to find the doors.",
+    "A darker patch on the thick green carpet lies under the small window that looks out on the lantern-lit street below - apparently the residents have neglected to close it when it rains.  The brass chandelier on the ceiling is missing a few candles, but the window provides sufficient light to find the doors."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "8800": "north",
     "8802": "east"
   },
-  "paths": [
-    "Obvious exits: north, east"
-  ],
+  "timeto": {
+    "8800": 0.2,
+    "8802": 0.2
+  },
+  "image": "wl-homes-1-1264234799.png",
   "image_coords": [
     560,
     852,
     578,
     870
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A darker patch on the thick green carpet lies under the small window that looks out on the street below - apparently the residents have neglected to close it when it rains.  The brass chandelier on the ceiling is missing a few candles, but the window provides plenty of light to find the doors.",
-    "A darker patch on the thick green carpet lies under the small window that looks out on the lantern-lit street below - apparently the residents have neglected to close it when it rains.  The brass chandelier on the ceiling is missing a few candles, but the window provides sufficient light to find the doors."
-  ],
-  "image": "wl-homes-1-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dragonsclaw Arms, Second Floor]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8800": 0.2,
-    "8802": 0.2
-  },
-  "id": 8801,
-  "location": "Wehnimer's Landing",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

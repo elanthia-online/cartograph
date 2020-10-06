@@ -1,40 +1,32 @@
 {
-  "wayto": {
-    "23260": {
-      "stringproc": "a234c4dfb9348f43358e56adea9291ed"
-    },
-    "23262": {
-      "stringproc": "a38d807719728a1c1440a08cf22304a4"
-    },
-    "7453": {
-      "stringproc": "e3d799eb84e7700f4a3e6d2be8ca0cfa"
-    },
-    "23267": {
-      "stringproc": "3ef87e7eac63e97210b4aedf89dfae9b"
-    },
-    "7457": {
-      "stringproc": "b0515112b374f0190d8dd3851a3d8b9c"
-    }
-  },
-  "paths": [
-    "Obvious paths: north, northeast, southwest, west, northwest"
-  ],
-  "image_coords": [
-    730,
-    923,
-    741,
-    934
-  ],
-  "terrain": null,
-  "description": [
-    "A huge sea of boiling mud stretches out to the south and east.  Steam rises off the churning mass, choking the air with a dense, malodorous fog."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": null,
+  "id": 7455,
   "title": [
     "[The Broken Lands, Jagged Plain]"
   ],
-  "check_location": null,
+  "description": [
+    "A huge sea of boiling mud stretches out to the south and east.  Steam rises off the churning mass, choking the air with a dense, malodorous fog."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, southwest, west, northwest"
+  ],
+  "location": "the Broken Lands",
+  "wayto": {
+    "23260": {
+      "file": "string_procs/wayto/7455_23260.rb"
+    },
+    "23262": {
+      "file": "string_procs/wayto/7455_23262.rb"
+    },
+    "7453": {
+      "file": "string_procs/wayto/7455_7453.rb"
+    },
+    "23267": {
+      "file": "string_procs/wayto/7455_23267.rb"
+    },
+    "7457": {
+      "file": "string_procs/wayto/7455_7457.rb"
+    }
+  },
   "timeto": {
     "23260": 3.2,
     "23262": 3.2,
@@ -42,18 +34,17 @@
     "23267": 3.2,
     "7457": 3.2
   },
-  "id": 7455,
-  "location": "the Broken Lands",
+  "image": "wl-broken-1264234799.png",
+  "image_coords": [
+    730,
+    923,
+    741,
+    934
+  ],
   "tags": [
     "large black toadstool",
     "peer northeast =~ /^Obvious paths: north, southwest, west, northwest$/",
     "hooded figure",
-    "giant fog beetle",
-    "blackened moss",
-    "black toadstool",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "giant fog beetle"
   ]
 }

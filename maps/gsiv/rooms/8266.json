@@ -1,38 +1,28 @@
 {
+  "id": 8266,
+  "title": [
+    "[Wolves' Den, Stairway]"
+  ],
+  "description": [
+    "The stairs are steep and narrow, winding their way down into shadow.  A steady, chill draft blows up from below."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "the Wolves' Den",
   "wayto": {
     "8265": "up",
     "8267": "down"
   },
-  "paths": [
-    "Obvious exits: up, down"
-  ],
+  "timeto": {
+    "8265": 0.2,
+    "8267": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     186,
     563,
     196,
     573
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The stairs are steep and narrow, winding their way down into shadow.  A steady, chill draft blows up from below."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Wolves' Den, Stairway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8265": 0.2,
-    "8267": 0.2
-  },
-  "id": 8266,
-  "location": "the Wolves' Den",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

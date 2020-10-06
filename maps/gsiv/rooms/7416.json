@@ -1,41 +1,28 @@
 {
+  "id": 7416,
+  "title": [
+    "[Mine Tunnels]"
+  ],
+  "description": [
+    "Much of what was the ceiling now blocks the passageway, having caved in some time ago.  What few wooden beams remain above you support the cracks and fissures as much as they support what's left of the ceiling."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7415": "north",
     "7417": "west"
   },
-  "paths": [
-    "Obvious exits: north, west"
-  ],
+  "timeto": {
+    "7415": 0.2,
+    "7417": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1125,
     136,
     1133,
     144
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Much of what was the ceiling now blocks the passageway, having caved in some time ago.  What few wooden beams remain above you support the cracks and fissures as much as they support what's left of the ceiling."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mine Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7415": 0.2,
-    "7417": 0.2
-  },
-  "id": 7416,
-  "location": "the Shadow Valley",
-  "tags": [
-    "cave moss",
-    "blackgrove root",
-    "shadowlace moss",
-    "blue moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

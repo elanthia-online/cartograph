@@ -1,70 +1,40 @@
 {
-  "wayto": {
-    "21061": {
-      "stringproc": "d85ece0b13067d67ad270f4b82d3239d"
-    },
-    "21018": {
-      "stringproc": "1c304dc162ad33460c5751cce901dc5a"
-    },
-    "20999": {
-      "stringproc": "0360bc21ac37d36ac3979ab8eb2df6ff"
-    },
-    "21064": {
-      "stringproc": "00214580d5fab23d1c7eb0423ef13ba7"
-    }
-  },
-  "paths": [
-    "Obvious paths: north, southeast, southwest"
-  ],
-  "image_coords": [
-    1061,
-    1240,
-    1080,
-    1258
-  ],
-  "terrain": "tropical",
-  "description": [
-    "Ferns and flora burst out of the bottom of the cliff face, and mossy vines hang down from above, their curling ends tangling in birds of paradise, torch ginger, and golden goddess blossoms.  The exotic plants, however, merely provide a fragrant border dwarfed by a dark pool of water that a heavy stream of water splashes into with an oddly distinct delicacy.  In the darkness, chittering and scampering sounds are clearly audible, and a pair of yellowed eyes stare out from a branch just overhead."
-  ],
-  "image": "ifw-wilds-1368242816.png",
-  "climate": "humid",
+  "id": 21001,
   "title": [
     "[Alhan'aht River, Blossom Pool]"
   ],
-  "check_location": null,
+  "description": [
+    "Ferns and flora burst out of the bottom of the cliff face, and mossy vines hang down from above, their curling ends tangling in birds of paradise, torch ginger, and golden goddess blossoms.  The exotic plants, however, merely provide a fragrant border dwarfed by a dark pool of water that a heavy stream of water splashes into with an oddly distinct delicacy.  In the darkness, chittering and scampering sounds are clearly audible, and a pair of yellowed eyes stare out from a branch just overhead."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast, southwest"
+  ],
+  "location": "the environs of the Saewehna Lagoon",
+  "wayto": {
+    "21061": {
+      "file": "string_procs/wayto/21001_21061.rb"
+    },
+    "21018": {
+      "file": "string_procs/wayto/21001_21018.rb"
+    },
+    "20999": {
+      "file": "string_procs/wayto/21001_20999.rb"
+    },
+    "21064": {
+      "file": "string_procs/wayto/21001_21064.rb"
+    }
+  },
   "timeto": {
     "21061": 2.0,
     "21018": 2.0,
     "20999": 2.0,
     "21064": 2.0
   },
-  "id": 21001,
-  "location": "the environs of the Saewehna Lagoon",
-  "tags": [
-    "acantha leaf",
-    "yellow heliconia",
-    "orange heliconia",
-    "pink heliconia",
-    "red heliconia",
-    "purple passionflower",
-    "pink passionflower",
-    "red passionflower",
-    "white passionflower",
-    "yellow passionflower",
-    "blue passionflower",
-    "luckbloom blossom",
-    "murdroot",
-    "wavepetal blossom",
-    "twisted twig",
-    "slender twig",
-    "ebony twig",
-    "talneo root",
-    "brostheras grass",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null,
-  "links": [
-
+  "image": "ifw-wilds-1368242816.png",
+  "image_coords": [
+    1061,
+    1240,
+    1080,
+    1258
   ]
 }

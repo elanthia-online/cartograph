@@ -1,35 +1,32 @@
 {
+  "id": 2770,
+  "title": [
+    "[Northern Mountains, Pine Forest]"
+  ],
+  "description": [
+    "The expanse of towering pines cloaked in clumps of snow is broken by the stark silhouette of a large, wrought-iron gate straddling the trail.  It is unattached to a fence of any kind.  Across the arched top are the words 'Pinefar Trading Post', crowned by a 'P' enclosed within a circle.  Although no buildings can be seen through the gusting snow, a smudge of smoke can be glimpsed curling above the trees."
+  ],
+  "paths": [
+    "Obvious paths: north, east"
+  ],
+  "location": "the Pinefar forests",
   "wayto": {
     "2796": "go path",
     "2769": "east",
     "2771": "north"
   },
-  "paths": [
-    "Obvious paths: north, east"
-  ],
+  "timeto": {
+    "2796": 0.2,
+    "2769": 0.2,
+    "2771": 0.2
+  },
+  "image": "imt-pinefar-1264234799.png",
   "image_coords": [
     355,
     900,
     365,
     910
   ],
-  "terrain": "missing",
-  "description": [
-    "The expanse of towering pines cloaked in clumps of snow is broken by the stark silhouette of a large, wrought-iron gate straddling the trail.  It is unattached to a fence of any kind.  Across the arched top are the words 'Pinefar Trading Post', crowned by a 'P' enclosed within a circle.  Although no buildings can be seen through the gusting snow, a smudge of smoke can be glimpsed curling above the trees."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Northern Mountains, Pine Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2796": 0.2,
-    "2769": 0.2,
-    "2771": 0.2
-  },
-  "id": 2770,
-  "location": "the Pinefar forests",
   "tags": [
     "handful of pinenuts",
     "feverfern stalk",
@@ -63,20 +60,6 @@
     "orange rowanberry",
     "ironfern root",
     "twisted twig",
-    "slender twig",
-    "red lichen",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "wyrmwood bark",
-    "daggit root",
-    "pine needles",
-    "frostweed",
-    "tree bark",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "slender twig"
   ]
 }

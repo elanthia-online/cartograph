@@ -1,47 +1,37 @@
 {
+  "id": 4536,
+  "title": [
+    "[A Dark Shaft]"
+  ],
+  "description": [
+    "Endless tangles of cobwebs hang down from the ceiling, finding their way into your hair and clothes.  The walls here are scarred with pick marks but evidently the miners gave up in favor of other more profitable sites."
+  ],
+  "paths": [
+    "Obvious exits: north, east, west"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "4535": "east",
     "4537": "north",
     "4538": "west"
   },
-  "paths": [
-    "Obvious exits: north, east, west"
-  ],
+  "timeto": {
+    "4535": 0.2,
+    "4537": 0.2,
+    "4538": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1302,
     540,
     1312,
     550
   ],
-  "terrain": "indoors",
-  "description": [
-    "Endless tangles of cobwebs hang down from the ceiling, finding their way into your hair and clothes.  The walls here are scarred with pick marks but evidently the miners gave up in favor of other more profitable sites."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[A Dark Shaft]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4535": 0.2,
-    "4537": 0.2,
-    "4538": 0.2
-  },
-  "id": 4536,
-  "location": "the Shadow Valley",
   "tags": [
     "some cave moss",
     "some blue moss",
     "blackgrove root",
     "some shadowlace moss",
-    "ghostly pooka",
-    "cave moss",
-    "shadowlace moss",
-    "blue moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ghostly pooka"
   ]
 }

@@ -1,44 +1,34 @@
 {
+  "id": 9808,
+  "title": [
+    "[Maaghara Labyrinth]"
+  ],
+  "description": [
+    "Some sections of the larger roots have broken from their rough brown skins to display pale shafts.  The cool, damp scent of moisture permeates the air and the moisture-laden air has softened the tunnel floor.  A few impressions in the soft root-embedded floor lay scattered about."
+  ],
+  "paths": [
+    "Obvious exits: north, east, southwest"
+  ],
+  "location": "the Maaghara Tower",
   "wayto": {
     "9734": {
-      "stringproc": "8ba72f5b45e4c6cad5790295e680ffb9"
+      "file": "string_procs/wayto/9808_9734.rb"
     },
     "9805": "east",
     "9807": "southwest",
     "9809": "north"
   },
-  "paths": [
-    "Obvious exits: north, east, southwest"
-  ],
-  "image_coords": [
-    1257,
-    545,
-    1267,
-    555
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Some sections of the larger roots have broken from their rough brown skins to display pale shafts.  The cool, damp scent of moisture permeates the air and the moisture-laden air has softened the tunnel floor.  A few impressions in the soft root-embedded floor lay scattered about."
-  ],
-  "image": "en-tower-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Maaghara Labyrinth]"
-  ],
-  "check_location": null,
   "timeto": {
     "9734": 100.0,
     "9805": 0.2,
     "9807": 0.2,
     "9809": 0.2
   },
-  "id": 9808,
-  "location": "the Maaghara Tower",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-tower-1264234799.png",
+  "image_coords": [
+    1257,
+    545,
+    1267,
+    555
   ]
 }

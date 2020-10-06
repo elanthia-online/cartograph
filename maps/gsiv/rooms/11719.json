@@ -1,40 +1,30 @@
 {
+  "id": 11719,
+  "title": [
+    "[Marsh Keep, Grand Hall]"
+  ],
+  "description": [
+    "A draft slowly swings a large candelabra above back and forth over on the other side of the great hall, directly above a wide, black hole set in the middle of the floor.  Dark stains trail from a large examining table over the stone floor to the edge of the hole, from which emanates a rank odor.  Separating this area from the one to the south are a row of bookshelves brimming with tomes, scrolls, and odd artifacts."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the Marsh Keep",
   "wayto": {
     "11745": "go hole",
     "11746": "go door",
     "11716": "south"
   },
-  "paths": [
-    "Obvious exits: south"
-  ],
-  "image_coords": [
-    867,
-    847,
-    877,
-    857
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A draft slowly swings a large candelabra above back and forth over on the other side of the great hall, directly above a wide, black hole set in the middle of the floor.  Dark stains trail from a large examining table over the stone floor to the edge of the hole, from which emanates a rank odor.  Separating this area from the one to the south are a row of bookshelves brimming with tomes, scrolls, and odd artifacts."
-  ],
-  "image": "rr-marsh_keep-1266356986.png",
-  "climate": "indoors",
-  "title": [
-    "[Marsh Keep, Grand Hall]"
-  ],
-  "check_location": null,
   "timeto": {
     "11745": 0.2,
     "11746": 0.2,
     "11716": 0.2
   },
-  "id": 11719,
-  "location": "the Marsh Keep",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-marsh_keep-1266356986.png",
+  "image_coords": [
+    867,
+    847,
+    877,
+    857
   ]
 }

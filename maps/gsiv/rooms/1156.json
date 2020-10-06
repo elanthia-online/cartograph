@@ -1,64 +1,36 @@
 {
-  "wayto": {
-    "1155": {
-      "stringproc": "bc96d7009e8115351e9b2f6f175beeed"
-    },
-    "1157": {
-      "stringproc": "4d46f979a809a0d1e1be17421fa6988a"
-    }
-  },
+  "id": 1156,
+  "title": [
+    "[Locksmehr River Trail, Swamp]"
+  ],
+  "description": [
+    "A slight, widespread depression in the forest floor has gathered waters from previous floods.  The ridge along the riverbank blocks the drainage of water back into the river.  Clumps of long-bladed grass have popped up randomly in dry areas of the swamp.  Once mighty trees now lie rotten and moss-covered, victims of the soft ground's weakened support."
+  ],
   "paths": [
     "Obvious paths: north, southeast"
   ],
+  "location": "the Locksmehr Trail",
+  "wayto": {
+    "1155": {
+      "file": "string_procs/wayto/1156_1155.rb"
+    },
+    "1157": {
+      "file": "string_procs/wayto/1156_1157.rb"
+    }
+  },
+  "timeto": {
+    "1155": 0.2,
+    "1157": 0.2
+  },
+  "image": "en-trail-1264234799.png",
   "image_coords": [
     656,
     374,
     666,
     384
   ],
-  "terrain": "missing",
-  "description": [
-    "A slight, widespread depression in the forest floor has gathered waters from previous floods.  The ridge along the riverbank blocks the drainage of water back into the river.  Clumps of long-bladed grass have popped up randomly in dry areas of the swamp.  Once mighty trees now lie rotten and moss-covered, victims of the soft ground's weakened support."
-  ],
-  "image": "en-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Locksmehr River Trail, Swamp]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1155": 0.2,
-    "1157": 0.2
-  },
-  "id": 1156,
-  "location": "the Locksmehr Trail",
   "tags": [
     "water chestnut",
-    "some wingstem root",
-    "calamia fruit",
-    "haphip root",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "wild gooseberry",
-    "stalk of cattail",
-    "small wild rose",
-    "kylan berry",
-    "blue whortleberry",
-    "pepperthorn root",
-    "murdroot",
-    "wavepetal blossom",
-    "sunburst blossom",
-    "bolmara lichen",
-    "talneo root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

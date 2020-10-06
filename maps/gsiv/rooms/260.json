@@ -1,69 +1,37 @@
 {
+  "id": 260,
+  "title": [
+    "[Wehnimer's, Lyon Way]"
+  ],
+  "description": [
+    "The intermittent rhythm of movement through the street to the east and west is accentuated by a constant loud clanging coming from the north, where a column of smoke rises from a towering chimney.  A flatbed wagon has been abandoned here where it collided with the wall of a shabby workshop, and now serves only as a home for a few scrawny rats which scamper around its ruined platform.",
+    "The intermittent rhythm of movement through the street to the east and west is accentuated by a constant loud clanging coming from the north, where a column of smoke rises from a towering chimney.  A flatbed wagon has been abandoned here where it collided with the wall of a shabby workshop, and now serves only as amusement for the local children who play on its ruined platform."
+  ],
+  "paths": [
+    "Obvious paths: north, east, west"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "259": "west",
     "261": "north",
     "273": "east"
   },
-  "paths": [
-    "Obvious paths: north, east, west"
-  ],
+  "timeto": {
+    "259": 0.2,
+    "261": 0.2,
+    "273": 0.2
+  },
+  "image": "wl-wehnimers-1264234799.png",
   "image_coords": [
     584,
     526,
     620,
     561
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The intermittent rhythm of movement through the street to the east and west is accentuated by a constant loud clanging coming from the north, where a column of smoke rises from a towering chimney.  A flatbed wagon has been abandoned here where it collided with the wall of a shabby workshop, and now serves only as a home for a few scrawny rats which scamper around its ruined platform.",
-    "The intermittent rhythm of movement through the street to the east and west is accentuated by a constant loud clanging coming from the north, where a column of smoke rises from a towering chimney.  A flatbed wagon has been abandoned here where it collided with the wall of a shabby workshop, and now serves only as amusement for the local children who play on its ruined platform."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Wehnimer's, Lyon Way]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "259": 0.2,
-    "261": 0.2,
-    "273": 0.2
-  },
-  "id": 260,
-  "location": "the town of Wehnimer's Landing",
   "tags": [
     "some sovyn clove",
     "some acantha leaf",
     "pepperthorn root",
-    "meta:teleport:fwi",
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "small flower",
-    "small rose",
-    "small daisy",
-    "angelica root",
-    "withered black mushroom",
-    "stalk of chicory",
-    "sprig of alyssum",
-    "heath aster",
-    "stalk of goldenrod",
-    "yellow primrose",
-    "small wild rose",
-    "wild carrot",
-    "ginger root",
-    "wild chokecherry",
-    "motherwort",
-    "murkweed",
-    "blue whortleberry",
-    "white baneberry",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:teleport:fwi"
   ]
 }

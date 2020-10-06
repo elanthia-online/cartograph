@@ -1,38 +1,32 @@
 {
+  "id": 17212,
+  "title": [
+    "[Warrior Guild, Basement]"
+  ],
+  "description": [
+    "Frigid air permeates this chamber, no doubt a result of both its subterranean location and the tubs of ice placed here."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Ta'Illistim",
   "wayto": {
     "17211": "west",
     "17213": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "17211": 0.2,
+    "17213": 0.2
+  },
+  "image": "en-ta_illistim-warrior_guild.png",
   "image_coords": [
     622,
     574,
     642,
     598
   ],
-  "terrain": null,
-  "description": [
-    "Frigid air permeates this chamber, no doubt a result of both its subterranean location and the tubs of ice placed here."
-  ],
-  "image": "en-ta_illistim-warrior_guild.png",
-  "climate": null,
-  "title": [
-    "[Warrior Guild, Basement]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "17211": 0.2,
-    "17213": 0.2
-  },
-  "id": 17212,
-  "location": "Ta'Illistim",
   "tags": [
     "warrior guild icetub",
     "warrior guild icetub"
-  ],
-  "links": [
-
   ]
 }

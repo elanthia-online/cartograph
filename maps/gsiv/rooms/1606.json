@@ -1,39 +1,29 @@
 {
-  "wayto": {
-    "1605": "east",
-    "4628": "go doorway"
-  },
+  "id": 1606,
+  "title": [
+    "[Solhaven, North Market Pier]"
+  ],
+  "description": [
+    "A squat building, hung about with old fishing nets fills the pier, with only a narrow gallery running south along its shoreward side and west along its northern side.  Mouth-watering aromas of cooking seafood waft through an arched doorway formed from the bleached jawbone of a mammoth sea troll."
+  ],
   "paths": [
     "Obvious paths: east",
     "Obvious paths: east, west"
   ],
+  "location": "the free port of Solhaven",
+  "wayto": {
+    "1605": "east",
+    "4628": "go doorway"
+  },
+  "timeto": {
+    "1605": 0.2,
+    "4628": 0.2
+  },
+  "image": "vo-solhaven-1263764670.png",
   "image_coords": [
     697,
     450,
     721,
     474
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "A squat building, hung about with old fishing nets fills the pier, with only a narrow gallery running south along its shoreward side and west along its northern side.  Mouth-watering aromas of cooking seafood waft through an arched doorway formed from the bleached jawbone of a mammoth sea troll."
-  ],
-  "image": "vo-solhaven-1263764670.png",
-  "climate": "temperate",
-  "title": [
-    "[Solhaven, North Market Pier]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1605": 0.2,
-    "4628": 0.2
-  },
-  "id": 1606,
-  "location": "the free port of Solhaven",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

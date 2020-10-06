@@ -1,39 +1,36 @@
 {
-  "wayto": {
-    "2876": "go mound",
-    "2878": {
-      "stringproc": "3e154b8c4cde86b26a253f1601170992"
-    },
-    "2881": {
-      "stringproc": "c0c40d06f04d57695828773183cb313d"
-    }
-  },
+  "id": 2877,
+  "title": [
+    "[Northern Slopes, Timberline]"
+  ],
+  "description": [
+    "Scrub pines clutch the ground, struggling against the elements.  Their withered branches quiver in the wind, as if they too feel its biting chill.  Below, larger trees spring from the slope, forming a thick alpine forest.  Above, only snow and rock dare brave the steep mountain."
+  ],
   "paths": [
     "Obvious paths: southwest, down"
   ],
+  "location": "the Sleeping Lady Mountains",
+  "wayto": {
+    "2876": "go mound",
+    "2878": {
+      "file": "string_procs/wayto/2877_2878.rb"
+    },
+    "2881": {
+      "file": "string_procs/wayto/2877_2881.rb"
+    }
+  },
+  "timeto": {
+    "2876": 0.2,
+    "2878": 7.0,
+    "2881": 7.0
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     1347,
     229,
     1357,
     239
   ],
-  "terrain": "mountainous",
-  "description": [
-    "Scrub pines clutch the ground, struggling against the elements.  Their withered branches quiver in the wind, as if they too feel its biting chill.  Below, larger trees spring from the slope, forming a thick alpine forest.  Above, only snow and rock dare brave the steep mountain."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Northern Slopes, Timberline]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2876": 0.2,
-    "2878": 7.0,
-    "2881": 7.0
-  },
-  "id": 2877,
-  "location": "the Sleeping Lady Mountains",
   "tags": [
     "sassafras leaf",
     "some wingstem root",
@@ -59,23 +56,6 @@
     "red winterberry",
     "meta:mapname:Icemule Trace - East, West and North Gates",
     "meta:mapshortname:East, West and North Gates",
-    "meta:mapcategory:Icemule Trace",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "edelweiss",
-    "iceblossoms",
-    "winter rose",
-    "arctic moss",
-    "tundra grass",
-    "snowberries",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:mapcategory:Icemule Trace"
   ]
 }

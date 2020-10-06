@@ -1,1 +1,2 @@
-fput 'rub carving'; move 'go passage'
+fput 'rub carving'
+ move 'go passage'

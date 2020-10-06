@@ -1,43 +1,33 @@
 {
-  "wayto": {
-    "194": "northeast",
-    "604": "west",
-    "22352": "go opening"
-  },
-  "paths": [
-    "Obvious paths: northeast, west"
+  "id": 603,
+  "title": [
+    "[Ta'Illistim, Fraendel Court]"
   ],
-  "image_coords": [
-    672,
-    736,
-    694,
-    760
-  ],
-  "terrain": "hard, flat",
   "description": [
     "This part of the court contains gaily displayed awnings and window dressings apparently in rich color, now muted by night's dark embrace.  A few residents wander here but seem to keep mostly to the eastern side of this section.",
     "Gaudy hues of rich blues and greens color the bright marble facades of the buildings here.  This section of the court appears to be having some sort of competition for the residents.  Perhaps the one who calls the most attention to his or her abode will win some sort of prize.  The townsfolk wandering through the court gaze about and chuckle softly to themselves before walking onward.",
     "A multi-storied gatehouse of silvery blue stonework towers over the smaller residential structures on either side of it.  Twin banners of sapphire silk are unfurled down the building's front, flanking a single tall arched opening.  Atop the building, a domed cupola inset with round stained glass windows looks down over the entire Court.  Lanterns illuminate the area.",
     "A multi-storied gatehouse of silvery blue stonework towers over the smaller residential structures on either side of it.  Twin banners of sapphire silk are unfurled down the building's front, flanking a single tall arched opening.  Atop the building, a domed cupola inset with round stained glass windows looks down over the entire Court."
   ],
-  "image": "en-ta_illistim-new.jpg",
-  "climate": "temperate",
-  "title": [
-    "[Ta'Illistim, Fraendel Court]"
+  "paths": [
+    "Obvious paths: northeast, west"
   ],
-  "check_location": null,
+  "location": "Ta'Illistim",
+  "wayto": {
+    "194": "northeast",
+    "604": "west",
+    "22352": "go opening"
+  },
   "timeto": {
     "194": 0.2,
     "604": 0.2,
     "22352": 0.2
   },
-  "id": 603,
-  "location": "Ta'Illistim",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-ta_illistim-new.jpg",
+  "image_coords": [
+    672,
+    736,
+    694,
+    760
   ]
 }

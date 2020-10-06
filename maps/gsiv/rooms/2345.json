@@ -1,38 +1,32 @@
 {
+  "id": 2345,
+  "title": [
+    "[Hall of the Crafts]"
+  ],
+  "description": [
+    "The icy walls of this octagonal hall are elaborately carved with scenes of halflings at work.  In the center of the room are two large statues of men in attitudes of watchful repose, as if supervising the work going on around around them.  Between each statue and the surrounding walls stands a sturdy altar, one wrought of oak and the other carved from blue tanik."
+  ],
+  "paths": [
+    "Obvious exits: north, down"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "2344": "down",
     "2346": "north"
   },
-  "paths": [
-    "Obvious exits: north, down"
-  ],
+  "timeto": {
+    "2344": 0.2,
+    "2346": 0.2
+  },
+  "image": "imt-temple-1512640476.png",
   "image_coords": [
     832,
     279,
     997,
     462
   ],
-  "terrain": null,
-  "description": [
-    "The icy walls of this octagonal hall are elaborately carved with scenes of halflings at work.  In the center of the room are two large statues of men in attitudes of watchful repose, as if supervising the work going on around around them.  Between each statue and the surrounding walls stands a sturdy altar, one wrought of oak and the other carved from blue tanik."
-  ],
-  "image": "imt-temple-1512640476.png",
-  "climate": null,
-  "title": [
-    "[Hall of the Crafts]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2344": 0.2,
-    "2346": 0.2
-  },
-  "id": 2345,
-  "location": "Icemule Trace",
   "tags": [
     "eonak",
     "tonis"
-  ],
-  "links": [
-
   ]
 }

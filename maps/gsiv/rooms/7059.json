@@ -1,49 +1,37 @@
 {
+  "id": 7059,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "A number of passages converge here, some tiny and cramped, others a bit wider, but all of them musty and damp.  A strange, sticky substance oozes from the dirt walls."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest, west"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7052": "west",
     "7056": "northeast",
     "7060": "southwest"
   },
-  "paths": [
-    "Obvious exits: northeast, southwest, west"
-  ],
+  "timeto": {
+    "7052": 0.2,
+    "7056": 0.2,
+    "7060": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     351,
     817,
     361,
     827
   ],
-  "terrain": "indoors",
-  "description": [
-    "A number of passages converge here, some tiny and cramped, others a bit wider, but all of them musty and damp.  A strange, sticky substance oozes from the dirt walls."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7052": 0.2,
-    "7056": 0.2,
-    "7060": 0.2
-  },
-  "id": 7059,
-  "location": "Darkstone Castle",
   "tags": [
     "some wingstem root",
     "some cave moss",
     "withered black mushroom",
     "some wolifrew lichen",
-    "roa'ter",
-    "wolifrew lichen",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "roa'ter"
   ]
 }

@@ -1,33 +1,30 @@
 {
+  "id": 6954,
+  "title": [
+    "[Forest Path]"
+  ],
+  "description": [
+    "The forest undergrowth has all but obscured the path here, making it difficult for you to determine its exact course.  Tree limbs and saplings brush against your legs and shoulders as you work your way through.  To the east, a slight brightening of the forest's darkness suggests the path leads in that direction.  You strain your ears to catch the faint, distant sound of flowing water, which seems to come from the south."
+  ],
+  "paths": [
+    "Obvious paths: east, south"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "6953": "east",
     "6955": "south"
   },
-  "paths": [
-    "Obvious paths: east, south"
-  ],
+  "timeto": {
+    "6953": 0.2,
+    "6955": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     157,
     178,
     167,
     188
   ],
-  "terrain": null,
-  "description": [
-    "The forest undergrowth has all but obscured the path here, making it difficult for you to determine its exact course.  Tree limbs and saplings brush against your legs and shoulders as you work your way through.  To the east, a slight brightening of the forest's darkness suggests the path leads in that direction.  You strain your ears to catch the faint, distant sound of flowing water, which seems to come from the south."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Forest Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6953": 0.2,
-    "6955": 0.2
-  },
-  "id": 6954,
-  "location": "Darkstone Castle",
   "tags": [
     "some wolifrew lichen",
     "stalk of bluebells",
@@ -47,27 +44,6 @@
     "some pennyroyal stem",
     "stick",
     "bright red teaberry",
-    "sweetfern stalk",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "sticks",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "broken twig",
-    "tree bark",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sweetfern stalk"
   ]
 }

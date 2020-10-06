@@ -1,37 +1,34 @@
 {
+  "id": 7269,
+  "title": [
+    "[Wormwood Slough, Mire]"
+  ],
+  "description": [
+    "Higher ground to the north and south promises a respite from the sucking mud, but not from the stench of corruption that pervades the air.  Blighted trees provide little shade and less color, their limbs and leaves greyed with a coating of the same mud that fills the depression."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7264": "east",
     "7268": "north",
     "7270": "west",
     "7271": "south"
   },
-  "paths": [
-    "Obvious paths: north, east, south, west"
-  ],
-  "image_coords": [
-    81,
-    613,
-    91,
-    623
-  ],
-  "terrain": "barren scrub",
-  "description": [
-    "Higher ground to the north and south promises a respite from the sucking mud, but not from the stench of corruption that pervades the air.  Blighted trees provide little shade and less color, their limbs and leaves greyed with a coating of the same mud that fills the depression."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "humid",
-  "title": [
-    "[Wormwood Slough, Mire]"
-  ],
-  "check_location": null,
   "timeto": {
     "7264": 0.2,
     "7268": 0.2,
     "7270": 0.2,
     "7271": 0.2
   },
-  "id": 7269,
-  "location": "the Graveyard",
+  "image": "wl-graveyard-1264234799.png",
+  "image_coords": [
+    81,
+    613,
+    91,
+    623
+  ],
   "tags": [
     "some pothinir grass",
     "pink clover blossom",
@@ -55,10 +52,6 @@
     "wild chokecherry",
     "murkweed",
     "blue whortleberry",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

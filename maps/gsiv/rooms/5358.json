@@ -1,70 +1,38 @@
 {
-  "wayto": {
-    "5356": "northwest",
-    "5390": {
-      "stringproc": "ad8d6276252f66938cb181b21f47c818"
-    },
-    "5381": "east"
-  },
+  "id": 5358,
+  "title": [
+    "[Vornavian Coast, Forest Road]"
+  ],
+  "description": [
+    "The path here is choked with weeds and vines.  Bushes close in on the path, nearly closing it to further travel.  The main road to the northwest looks much easier to travel.  The path grows rougher to the east.  Shaped like a balled-up fist with a single extended finger, a large boulder points accusingly at the bone white tower looming above you on a rocky hillock."
+  ],
   "paths": [
     "Obvious paths: east, northwest"
   ],
+  "location": "the Vornavian Coast",
+  "wayto": {
+    "5356": "northwest",
+    "5390": {
+      "file": "string_procs/wayto/5358_5390.rb"
+    },
+    "5381": "east"
+  },
+  "timeto": {
+    "5356": 0.2,
+    "5390": 0.2,
+    "5381": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     1332,
     794,
     1342,
     804
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "The path here is choked with weeds and vines.  Bushes close in on the path, nearly closing it to further travel.  The main road to the northwest looks much easier to travel.  The path grows rougher to the east.  Shaped like a balled-up fist with a single extended finger, a large boulder points accusingly at the bone white tower looming above you on a rocky hillock."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Vornavian Coast, Forest Road]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5356": 0.2,
-    "5390": 0.2,
-    "5381": 0.2
-  },
-  "id": 5358,
-  "location": "the Vornavian Coast",
   "tags": [
     "some cactacae spine",
     "handful of currants",
     "wild strawberry",
-    "pink clover blossom",
-    "cactacae spine",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "blueberries",
-    "stalk of chicory",
-    "elderberries",
-    "wild grapes",
-    "broken twig",
-    "sprig of alyssum",
-    "golden buttercup",
-    "red clover blossom",
-    "white clover blossom",
-    "purple clover blossom",
-    "yellow clover blossom",
-    "stalk of goldenrod",
-    "sprig of larkspur",
-    "yellow primrose",
-    "small wild rose",
-    "sprig of wild lilac",
-    "Imaera's Lace",
-    "wild chokecherry",
-    "fire lily",
-    "pepperthorn root",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "pink clover blossom"
   ]
 }

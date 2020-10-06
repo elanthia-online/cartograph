@@ -1,33 +1,30 @@
 {
+  "id": 8691,
+  "title": [
+    "[Temple, Graveyard]"
+  ],
+  "description": [
+    "A large white marble monument stands watch over this quiet tree-lined bower.  The air is cool, and the silence is broken only by the rustling of leaves in a breeze.  A feeling of peace blankets the area, and the soft earth seems to invite you to sit and contemplate."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "8690": "southeast",
     "8692": "southwest"
   },
-  "paths": [
-    "Obvious paths: southeast, southwest"
-  ],
+  "timeto": {
+    "8690": 0.2,
+    "8692": 0.2
+  },
+  "image": "wl-wehnimers-1264234799.png",
   "image_coords": [
     584,
     706,
     594,
     716
   ],
-  "terrain": "cultivated",
-  "description": [
-    "A large white marble monument stands watch over this quiet tree-lined bower.  The air is cool, and the silence is broken only by the rustling of leaves in a breeze.  A feeling of peace blankets the area, and the soft earth seems to invite you to sit and contemplate."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Temple, Graveyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8690": 0.2,
-    "8692": 0.2
-  },
-  "id": 8691,
-  "location": "the town of Wehnimer's Landing",
   "tags": [
     "some sovyn clove",
     "some haphip root",
@@ -53,51 +50,6 @@
     "soft white mushroom",
     "trollfear mushroom",
     "blue trafel mushroom",
-    "meta:teleport:fwi",
-    "cactacae spine",
-    "calamia fruit",
-    "haphip root",
-    "sovyn clove",
-    "spearmint leaf",
-    "small flower",
-    "small rose",
-    "small daisy",
-    "angelica root",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "small violet",
-    "heath aster",
-    "Imaera's Lace",
-    "fennel bulb",
-    "ginger root",
-    "lettuce",
-    "rose-marrow root",
-    "motherwort",
-    "sprig of bleeding-heart",
-    "purple crocus",
-    "pale yellow daffodil",
-    "large white gardenia",
-    "iris blossom",
-    "sprig of jasmine",
-    "sprig of lavender",
-    "sprig of mournbloom",
-    "wild pansy blossom",
-    "small primrose",
-    "Elanthian snow rose",
-    "snapdragon stalk",
-    "orris root",
-    "small pumpkin",
-    "raspberries",
-    "small apple",
-    "white lily",
-    "tiger lily",
-    "blue whortleberry",
-    "wavepetal blossom",
-    "sunburst blossom",
-    "onion skin",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:teleport:fwi"
   ]
 }

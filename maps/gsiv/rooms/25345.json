@@ -1,30 +1,22 @@
 {
-  "wayto": {
-    "22573": {
-      "stringproc": "bf2e15cc9c3d72cdd5f00d7b77940c0b"
-    }
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Barely bigger than a closet, the back room is fit with several floor-to-ceiling shelves that house various random objects, from a human skull to a length of twine.  A threadbare carpet covers the dusty wooden floor, and despite its degraded state, it is obvious it was once an opulent decoration.  Affixed to the flame-marred wall, a sconce holds a taper candle that exudes an impotent glow.  A ragged canvas curtain leads out of the room and a single soot-stained window lets in absolutely no light at all from outside."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 25345,
   "title": [
     "[Let It Burn, Storage]"
   ],
-  "check_location": true,
+  "description": [
+    "Barely bigger than a closet, the back room is fit with several floor-to-ceiling shelves that house various random objects, from a human skull to a length of twine.  A threadbare carpet covers the dusty wooden floor, and despite its degraded state, it is obvious it was once an opulent decoration.  Affixed to the flame-marred wall, a sconce holds a taper candle that exudes an impotent glow.  A ragged canvas curtain leads out of the room and a single soot-stained window lets in absolutely no light at all from outside."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Feywrot Mire",
+  "wayto": {
+    "22573": {
+      "file": "string_procs/wayto/25345_22573.rb"
+    }
+  },
   "timeto": {
     "22573": 0.2
   },
-  "id": 25345,
-  "location": "the Feywrot Mire",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  "check_location": true
 }

@@ -1,43 +1,35 @@
 {
+  "id": 3104,
+  "title": [
+    "[Abandoned Farm, Barn]"
+  ],
+  "description": [
+    "Snow blows in through the cracks and missing planks of the barn.  Low stone walls frame several empty stalls to the north while from the west comes a nauseating stench.  A rickety ladder leads upwards into the gloom."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "the Abandoned Farm",
   "wayto": {
     "3091": "go doorway",
     "3105": "north",
     "3117": "west",
     "3118": "climb ladder"
   },
-  "paths": [
-    "Obvious exits: north, west"
-  ],
-  "image_coords": [
-    672,
-    542,
-    682,
-    552
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Snow blows in through the cracks and missing planks of the barn.  Low stone walls frame several empty stalls to the north while from the west comes a nauseating stench.  A rickety ladder leads upwards into the gloom."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abandoned Farm, Barn]"
-  ],
-  "check_location": null,
   "timeto": {
     "3091": 0.2,
     "3105": 0.2,
     "3117": 0.2,
     "3118": 0.2
   },
-  "id": 3104,
-  "location": "the Abandoned Farm",
-  "tags": [
-    "wraith",
-    "no forageables",
-    "meta:forage-sensed"
+  "image": "imt-south_gate-1264234799.png",
+  "image_coords": [
+    672,
+    542,
+    682,
+    552
   ],
-  "links": [
-
+  "tags": [
+    "wraith"
   ]
 }

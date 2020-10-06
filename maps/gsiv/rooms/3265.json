@@ -1,35 +1,32 @@
 {
+  "id": 3265,
+  "title": [
+    "[Ice Plains, Hill Base]"
+  ],
+  "description": [
+    "Around a slight bend in the path you spot another dark opening cut into the foothill.  The remnants of an iron gate lay broken to one side of the opening set against a small, snow-covered boulder.  Pieces of iron and small rock lie scattered about as if some great force had shattered this section of the structure."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Ice Plains",
   "wayto": {
     "3266": "east",
     "3271": "go open",
     "3264": "west"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "3266": 0.2,
+    "3271": 0.2,
+    "3264": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     342,
     410,
     352,
     420
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "Around a slight bend in the path you spot another dark opening cut into the foothill.  The remnants of an iron gate lay broken to one side of the opening set against a small, snow-covered boulder.  Pieces of iron and small rock lie scattered about as if some great force had shattered this section of the structure."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Ice Plains, Hill Base]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3266": 0.2,
-    "3271": 0.2,
-    "3264": 0.2
-  },
-  "id": 3265,
-  "location": "the Ice Plains",
   "tags": [
     "sassafras leaf",
     "some arctic moss",
@@ -38,15 +35,6 @@
     "some angelica root",
     "frostflower",
     "some valerian root",
-    "some pennyroyal stem",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "arctic moss",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some pennyroyal stem"
   ]
 }

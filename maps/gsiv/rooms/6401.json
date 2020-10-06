@@ -1,47 +1,36 @@
 {
+  "id": 6401,
+  "title": [
+    "[Blackened Cave, Cavern]"
+  ],
+  "description": [
+    "A large stalagmite juts up near the dark cavern walls.  You might be able to squeeze by it, if you suck in your tummy.  The ground is covered with black, gritty sand."
+  ],
+  "paths": [
+    "Obvious exits: south, northwest"
+  ],
+  "location": "the Lysierian Hills",
   "wayto": {
     "6399": "go stalagmite",
     "6402": "northwest",
     "6403": "south"
   },
-  "paths": [
-    "Obvious exits: south, northwest"
-  ],
+  "timeto": {
+    "6399": 0.2,
+    "6402": 0.2,
+    "6403": 0.2
+  },
+  "image": "wl-lysierian-1264234799.png",
   "image_coords": [
     356,
     407,
     366,
     417
   ],
-  "terrain": "indoors",
-  "description": [
-    "A large stalagmite juts up near the dark cavern walls.  You might be able to squeeze by it, if you suck in your tummy.  The ground is covered with black, gritty sand."
-  ],
-  "image": "wl-lysierian-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Blackened Cave, Cavern]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6399": 0.2,
-    "6402": 0.2,
-    "6403": 0.2
-  },
-  "id": 6401,
-  "location": "the Lysierian Hills",
   "tags": [
     "some cave moss",
     "fire rat",
     "fire cat",
-    "striped warcat",
-    "daggerstalk mushroom",
-    "black trafel mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "striped warcat"
   ]
 }

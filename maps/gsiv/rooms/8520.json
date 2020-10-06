@@ -1,53 +1,33 @@
 {
+  "id": 8520,
+  "title": [
+    "[Upper Trollfang]"
+  ],
+  "description": [
+    "This part of the forest bears the scars of a recent fire.  Though none of the bigger trees were killed, they were badly damaged and blackened."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "8519": "southwest",
     "8521": "east"
   },
-  "paths": [
-    "Obvious paths: east, southwest"
-  ],
+  "timeto": {
+    "8519": 0.2,
+    "8521": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     848,
     759,
     858,
     769
   ],
-  "terrain": "mountainous",
-  "description": [
-    "This part of the forest bears the scars of a recent fire.  Though none of the bigger trees were killed, they were badly damaged and blackened."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Upper Trollfang]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8519": 0.2,
-    "8521": 0.2
-  },
-  "id": 8520,
-  "location": "the Upper Trollfang",
   "tags": [
     "forest troll",
     "golden aster",
-    "sprig of ivy",
-    "angelica root",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "sprig of larkspur",
-    "yellow primrose",
-    "sprig of holly",
-    "small apple",
-    "pepperthorn root",
-    "ironfern root",
-    "sunburst blossom",
-    "bolmara lichen",
-    "wingstem root",
-    "alder bark",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sprig of ivy"
   ]
 }

@@ -1,39 +1,29 @@
 {
+  "id": 70,
+  "title": [
+    "[Whistler's Pass, Iron Bridge]"
+  ],
+  "description": [
+    "A wrought-iron statue of a drake spreads its wings out wide, its neck extended towards the heavens.  A torch burns in the drake's mouth.  At the south end of the bridge a series of steps lead up to a hill.  To the north, the bridge ends at another hilltop.",
+    "A wrought-iron statue of a drake spreads its wings out wide, its neck extended towards the heavens.  At the south end of the bridge a series of steps lead up to a hill.  To the north, the bridge ends at another hilltop."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "69": "north",
     "71": "go steps"
   },
-  "paths": [
-    "Obvious paths: north"
-  ],
+  "timeto": {
+    "69": 0.2,
+    "71": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     947,
     598,
     957,
     608
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "A wrought-iron statue of a drake spreads its wings out wide, its neck extended towards the heavens.  A torch burns in the drake's mouth.  At the south end of the bridge a series of steps lead up to a hill.  To the north, the bridge ends at another hilltop.",
-    "A wrought-iron statue of a drake spreads its wings out wide, its neck extended towards the heavens.  At the south end of the bridge a series of steps lead up to a hill.  To the north, the bridge ends at another hilltop."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Whistler's Pass, Iron Bridge]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "69": 0.2,
-    "71": 0.2
-  },
-  "id": 70,
-  "location": "Whistler's Pass",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

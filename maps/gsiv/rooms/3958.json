@@ -1,32 +1,23 @@
 {
-  "wayto": {
-    "3937": {
-      "stringproc": "e6714bf6da1a9625fb84734118a3d351"
-    }
-  },
-  "paths": [
-    "Obvious exits: northeast, southwest"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "You carefully pick your way around the bits and pieces of debris.  Just thinking about the nature of this debris makes you a bit nauseous.  The smell of the place is revolting, making matters even worse."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 3958,
   "title": [
     "[Abandoned Sewer]"
   ],
-  "check_location": null,
+  "description": [
+    "You carefully pick your way around the bits and pieces of debris.  Just thinking about the nature of this debris makes you a bit nauseous.  The smell of the place is revolting, making matters even worse."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "wayto": {
+    "3937": {
+      "file": "string_procs/wayto/3958_3937.rb"
+    }
+  },
   "timeto": {
     "3937": 1.6
   },
-  "id": 3958,
-  "location": null,
   "tags": [
     "no-auto-map"
-  ],
-  "links": [
-
   ]
 }

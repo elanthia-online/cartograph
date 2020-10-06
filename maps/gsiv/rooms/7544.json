@@ -1,35 +1,32 @@
 {
+  "id": 7544,
+  "title": [
+    "[Catacombs, Beneath a Well]"
+  ],
+  "description": [
+    "The columnar stone shaft of an old well punctures the vaulted ceiling above and extends about halfway to the ground.  Directly beneath is the glassy surface of a spring-fed lake of unsurpassed crystalline beauty.  Diffuse light refracts off the lake and casts multihued reflections on the walls, as though filtered through a thousand tiny prisms of Elven devising.  The scene is so enchanting, you almost forget the harsh, muffled sounds echoing down the well."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "7562": "climb stout rope",
     "7543": "south",
     "7545": "go darkened crevice"
   },
-  "paths": [
-    "Obvious exits: south"
-  ],
+  "timeto": {
+    "7562": 0.2,
+    "7543": 0.2,
+    "7545": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     340,
     1262,
     350,
     1272
   ],
-  "terrain": "indoors",
-  "description": [
-    "The columnar stone shaft of an old well punctures the vaulted ceiling above and extends about halfway to the ground.  Directly beneath is the glassy surface of a spring-fed lake of unsurpassed crystalline beauty.  Diffuse light refracts off the lake and casts multihued reflections on the walls, as though filtered through a thousand tiny prisms of Elven devising.  The scene is so enchanting, you almost forget the harsh, muffled sounds echoing down the well."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Catacombs, Beneath a Well]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7562": 0.2,
-    "7543": 0.2,
-    "7545": 0.2
-  },
-  "id": 7544,
-  "location": "the catacombs",
   "tags": [
     "node",
     "withered black mushroom",
@@ -43,15 +40,6 @@
     "some cave moss",
     "red trafel mushroom",
     "white hook mushroom",
-    "meta:noteleport:fwi",
-    "cave moss",
-    "ayana leaf",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:noteleport:fwi"
   ]
 }

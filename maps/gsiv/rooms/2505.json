@@ -1,33 +1,30 @@
 {
+  "id": 2505,
+  "title": [
+    "[Icemule Trail, Snowy Forest]"
+  ],
+  "description": [
+    "A massive tree lies on its side across the trail -- branches piled against it to make it easier to clamber over.  You judge its girth to be about head high on a tall halfling -- or perhaps a bit higher."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "the Icemule Trail",
   "wayto": {
     "2504": "climb tree",
     "2506": "south"
   },
-  "paths": [
-    "Obvious paths: south"
-  ],
+  "timeto": {
+    "2504": 0.2,
+    "2506": 0.2
+  },
+  "image": "imt-trail-1264234799.png",
   "image_coords": [
     1153,
     308,
     1163,
     318
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "A massive tree lies on its side across the trail -- branches piled against it to make it easier to clamber over.  You judge its girth to be about head high on a tall halfling -- or perhaps a bit higher."
-  ],
-  "image": "imt-trail-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Icemule Trail, Snowy Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2504": 0.2,
-    "2506": 0.2
-  },
-  "id": 2505,
-  "location": "the Icemule Trail",
   "tags": [
     "bright red teaberry",
     "tkaro root",
@@ -66,10 +63,6 @@
     "ironfern root",
     "twisted twig",
     "slender twig",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bolmara lichen"
   ]
 }

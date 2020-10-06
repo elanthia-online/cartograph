@@ -1,38 +1,28 @@
 {
+  "id": 2676,
+  "title": [
+    "[West Stair, Hill of Ice]"
+  ],
+  "description": [
+    "The stairs curve up toward the east, dark with shadow and treacherous with ice.  Along the outside wall, friezes follow the ascent, providing a rich panorama of dense detail that adds to the menace of the ice, adding the temptation of studying the carved stone instead of the ice-covered steps."
+  ],
+  "paths": [
+    "Obvious exits: southeast"
+  ],
+  "location": "Koar's Shrine",
   "wayto": {
     "2673": "go stair",
     "2675": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast"
-  ],
+  "timeto": {
+    "2673": 0.2,
+    "2675": 0.2
+  },
+  "image": "imt-pinefar-1264234799.png",
   "image_coords": [
     336,
     701,
     346,
     711
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The stairs curve up toward the east, dark with shadow and treacherous with ice.  Along the outside wall, friezes follow the ascent, providing a rich panorama of dense detail that adds to the menace of the ice, adding the temptation of studying the carved stone instead of the ice-covered steps."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[West Stair, Hill of Ice]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2673": 0.2,
-    "2675": 0.2
-  },
-  "id": 2676,
-  "location": "Koar's Shrine",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

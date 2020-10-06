@@ -1,45 +1,28 @@
 {
+  "id": 24541,
+  "title": [
+    "[Frozen Bramble Patch]"
+  ],
+  "description": [
+    "A simple bench of stone sits within the brush, evidence of better times within this forest of nails and spikes.  It alone has resisted the weather and time, its hard surface immune to the brambles' never ceasing caress."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast"
+  ],
+  "location": "the Abandoned Farm",
   "wayto": {
     "24542": "southeast",
     "24540": "north"
   },
-  "paths": [
-    "Obvious paths: north, southeast"
-  ],
+  "timeto": {
+    "24542": 0.2,
+    "24540": 0.2
+  },
+  "image": "imt-bramble_patch-1307499864.png",
   "image_coords": [
     266,
     190,
     280,
     204
-  ],
-  "terrain": "barren scrub",
-  "description": [
-    "A simple bench of stone sits within the brush, evidence of better times within this forest of nails and spikes.  It alone has resisted the weather and time, its hard surface immune to the brambles' never ceasing caress."
-  ],
-  "image": "imt-bramble_patch-1307499864.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Frozen Bramble Patch]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24542": 0.2,
-    "24540": 0.2
-  },
-  "id": 24541,
-  "location": "the Abandoned Farm",
-  "tags": [
-    "snow lily",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "arctic moss",
-    "broken twig",
-    "rockberry",
-    "crowberry",
-    "lingonberry",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+  ]
 }

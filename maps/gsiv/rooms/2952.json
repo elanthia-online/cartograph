@@ -1,41 +1,32 @@
 {
-  "wayto": {
-    "2951": "north",
-    "2953": "up",
-    "2990": "go screen"
-  },
-  "paths": [
-    "Obvious exits: north, up"
-  ],
-  "image_coords": [
-    830,
-    798,
-    840,
-    808
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Beneath gabled windows, continuous benches line the walls of the great hall.  At the eastern end of the room, two steps lead from the main floor to the dais.  Three lancet windows on the eastern wall are crowned by a traceried wheel-shaped window inset with glass in a rosy tint.  The small minstrels' gallery sits over the oak-paneled buttery screen which fills the western wall."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abbey Great Hall]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2951": 0.2,
-    "2953": 0.2,
-    "2990": 0.2
-  },
   "id": 2952,
-  "location": "the Abbey",
-  "tags": [
-    "nedum vereri",
-    "no forageables",
-    "meta:forage-sensed"
+  "title": [
+    "[Abbey, Great Hall]"
   ],
-  "links": [
-
+  "description": [
+    "Left open to the crisp air of day via vast maple doors, the great hall is a cavernous chamber lined with long wooden benches that march in neatly ordered rows beneath its gabled windows.  At its eastern end, two steps lead from the main floor to the dais.  Three lancet windows on the eastern wall halo the dais in light, crowned by a wheel-shaped window inset with rose-colored stained glass.  The small minstrels' gallery sits over the oak-paneled buttery screen that graces the western wall.",
+    "Left open to the chill of night via vast maple doors, the great hall is a cavernous chamber lined with long wooden benches that march in neatly ordered rows beneath its gabled windows.  At its eastern end, two steps lead from the main floor to the dais.  Three lancet windows on the eastern wall halo the dais in muted moonlight, crowned by a wheel-shaped window inset with rose-colored stained glass.  The small minstrels' gallery sits over the oak-paneled buttery screen that graces the western wall."
+  ],
+  "paths": [
+    "Obvious exits: north, up",
+    "Obvious exits: none"
+  ],
+  "location": "the Abbey",
+  "wayto": {
+    "2990": "go screen",
+    "2945": "go doors",
+    "28816": "go stairs"
+  },
+  "timeto": {
+    "2990": 0.2,
+    "2945": 0.2,
+    "28816": 0.2
+  },
+  "image": "imt-Abbey Map-51200831.png",
+  "image_coords": [
+    532,
+    1512,
+    640,
+    1616
   ]
 }

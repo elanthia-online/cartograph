@@ -1,43 +1,28 @@
 {
+  "id": 5660,
+  "title": [
+    "[Warrens]"
+  ],
+  "description": [
+    "A carpet of tangled roots has been placed over a small hole evidently in a feeble attempt to camouflage its existence.  The dim glow of torchlight peeking out from beneath the jumble of plants is further proof of the existence of a lower level below this room."
+  ],
+  "paths": [
+    "Obvious exits: northwest, down"
+  ],
+  "location": "the Vornavian Coast",
   "wayto": {
     "5658": "northwest",
     "5661": "down"
   },
-  "paths": [
-    "Obvious exits: northwest, down"
-  ],
+  "timeto": {
+    "5658": 0.2,
+    "5661": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     682,
     633,
     692,
     643
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A carpet of tangled roots has been placed over a small hole evidently in a feeble attempt to camouflage its existence.  The dim glow of torchlight peeking out from beneath the jumble of plants is further proof of the existence of a lower level below this room."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Warrens]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5658": 0.2,
-    "5661": 0.2
-  },
-  "id": 5660,
-  "location": "the Vornavian Coast",
-  "tags": [
-    "withered black mushroom",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

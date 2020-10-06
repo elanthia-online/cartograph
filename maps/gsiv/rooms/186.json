@@ -1,44 +1,34 @@
 {
-  "wayto": {
-    "185": "southwest",
-    "187": "northeast",
-    "4009": "go shop"
-  },
-  "paths": [
-    "Obvious paths: northeast, southwest",
-    "Obvious paths: northeast, southwest, northwest"
+  "id": 186,
+  "title": [
+    "[Ta'Illistim, Shimmarglin Court]"
   ],
-  "image_coords": [
-    1126,
-    509,
-    1147,
-    532
-  ],
-  "terrain": "hard, flat",
   "description": [
     "The city's general store provides the backdrop for this bustling area of the court.  Residents and travellers alike stream in and out of the stone building's front entrance, conversing jovially amongst themselves as they shop.  Two city guardsmen stand watch outside the store.",
     "The city's general store provides the backdrop for this bustling area of the court.  A few patrons wander in and out of the stone building's front entrance, conversing jovially amongst themselves as they shop.  Two city guardsmen stand watch outside the store.",
     "Three small shops, all alike in construction and style, frame this section of the courtyard.  The space between their buildings is taken up with the tarpulin-covered stalls and tables of the daily market, though only a few such obstacles sit near their fronts.  Arching out of the Court is the marble span of a bridge.",
     "Three small shops, all alike in construction and style, frame this section of the courtyard.  The space between their buildings is taken up with the temporary stalls and tables of the daily market, which also crowd the cobblestones at their fronts as well.  Arching out of the Court is the marble span of a bridge."
   ],
-  "image": "en-ta_illistim-new.jpg",
-  "climate": "temperate",
-  "title": [
-    "[Ta'Illistim, Shimmarglin Court]"
+  "paths": [
+    "Obvious paths: northeast, southwest",
+    "Obvious paths: northeast, southwest, northwest"
   ],
-  "check_location": null,
+  "location": "Ta'Illistim",
+  "wayto": {
+    "185": "southwest",
+    "187": "northeast",
+    "4009": "go shop"
+  },
   "timeto": {
     "185": 0.2,
     "187": 0.2,
     "4009": 0.2
   },
-  "id": 186,
-  "location": "Ta'Illistim",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-ta_illistim-new.jpg",
+  "image_coords": [
+    1126,
+    509,
+    1147,
+    532
   ]
 }

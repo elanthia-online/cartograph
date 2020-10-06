@@ -1,45 +1,28 @@
 {
+  "id": 24523,
+  "title": [
+    "[Frozen Bramble Patch]"
+  ],
+  "description": [
+    "The shrub has been hacked and cleaved here, a rusted longsword leaning against the growth.  Whoever attempted to clear a path failed miserably however, the snow-dusted skeleton evidence of the attempt."
+  ],
+  "paths": [
+    "Obvious paths: southwest, northwest"
+  ],
+  "location": "the Abandoned Farm",
   "wayto": {
     "24524": "northwest",
     "24522": "southwest"
   },
-  "paths": [
-    "Obvious paths: southwest, northwest"
-  ],
+  "timeto": {
+    "24524": 0.2,
+    "24522": 0.2
+  },
+  "image": "imt-bramble_patch-1307499864.png",
   "image_coords": [
     135,
     190,
     146,
     204
-  ],
-  "terrain": "barren scrub",
-  "description": [
-    "The shrub has been hacked and cleaved here, a rusted longsword leaning against the growth.  Whoever attempted to clear a path failed miserably however, the snow-dusted skeleton evidence of the attempt."
-  ],
-  "image": "imt-bramble_patch-1307499864.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Frozen Bramble Patch]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24524": 0.2,
-    "24522": 0.2
-  },
-  "id": 24523,
-  "location": "the Abandoned Farm",
-  "tags": [
-    "snow lily",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "arctic moss",
-    "broken twig",
-    "rockberry",
-    "crowberry",
-    "lingonberry",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+  ]
 }

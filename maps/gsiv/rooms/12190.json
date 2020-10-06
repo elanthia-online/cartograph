@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "12152": {
-      "stringproc": "e7b269de45035581300c76daf9e751cf"
-    },
-    "12089": {
-      "stringproc": "df16ace028c72dba18b51257349345d8"
-    },
-    "2635": {
-      "stringproc": "a5fc698b4e8aaa983aa8f5ad92908980"
-    },
-    "12189": "east",
-    "12191": "west"
-  },
+  "id": 12190,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "Despair and desolation hang heavy in the air over the small plain before you.  Off in the distance, near the coast, what was once a small city lies smouldering in ruins.  The thick, black smoke from the razed hamlet lies heavy near the building tops, as if the weight of the carnage held it fast.  A huge stack of bodies is piled near the western gate, some of which almost look familiar."
+  ],
   "paths": [
     "Obvious exits: east, west",
     "Obvious paths: east, west"
   ],
-  "image_coords": [
-    145,
-    1248,
-    155,
-    1258
-  ],
-  "terrain": null,
-  "description": [
-    "Despair and desolation hang heavy in the air over the small plain before you.  Off in the distance, near the coast, what was once a small city lies smouldering in ruins.  The thick, black smoke from the razed hamlet lies heavy near the building tops, as if the weight of the carnage held it fast.  A huge stack of bodies is piled near the western gate, some of which almost look familiar."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12152": {
+      "file": "string_procs/wayto/12190_12152.rb"
+    },
+    "12089": {
+      "file": "string_procs/wayto/12190_12089.rb"
+    },
+    "2635": {
+      "file": "string_procs/wayto/12190_2635.rb"
+    },
+    "12189": "east",
+    "12191": "west"
+  },
   "timeto": {
     "12152": 21.6,
     "12089": 21.6,
@@ -39,8 +31,13 @@
     "12189": 0.2,
     "12191": 0.2
   },
-  "id": 12190,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    145,
+    1248,
+    155,
+    1258
+  ],
   "tags": [
     "twisted black mawflower",
     "mass of congealed slime",
@@ -49,8 +46,5 @@
     "discolored fleshbinder bud",
     "rotting bile green fleshbulb",
     "withered deathblossom"
-  ],
-  "links": [
-
   ]
 }

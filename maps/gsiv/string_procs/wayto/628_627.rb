@@ -1,1 +1,3 @@
-fput 'kneel'; move 'go opening'; fput 'stand'
+fput 'kneel'
+ move 'go opening'
+ fput 'stand'

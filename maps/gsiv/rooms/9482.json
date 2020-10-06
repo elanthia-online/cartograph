@@ -1,41 +1,33 @@
 {
+  "id": 9482,
+  "title": [
+    "[Bawdy Bard Inn, Front Desk]"
+  ],
+  "description": [
+    "A low stone counter wraps around a small private space, providing a place for the innkeeper to do business separate from the customer area.  The counter is bare except for a ledger, a sign and a shiny brass bell.  Several tapestries depicting various famous dwarven bards hang from the austere timber-and-stone walls.  A dimly lit hallway leads off to the east."
+  ],
+  "paths": [
+    "Obvious exits: north, east, west"
+  ],
+  "location": "Zul Logoth",
   "wayto": {
     "9481": "west",
     "9483": "east",
     "9485": "north"
   },
-  "paths": [
-    "Obvious exits: north, east, west"
-  ],
+  "timeto": {
+    "9481": 0.2,
+    "9483": 0.2,
+    "9485": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     766,
     479,
     776,
     489
   ],
-  "terrain": "indoors",
-  "description": [
-    "A low stone counter wraps around a small private space, providing a place for the innkeeper to do business separate from the customer area.  The counter is bare except for a ledger, a sign and a shiny brass bell.  Several tapestries depicting various famous dwarven bards hang from the austere timber-and-stone walls.  A dimly lit hallway leads off to the east."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Bawdy Bard Inn, Front Desk]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9481": 0.2,
-    "9483": 0.2,
-    "9485": 0.2
-  },
-  "id": 9482,
-  "location": "Zul Logoth",
   "tags": [
-    "inn",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "inn"
   ]
 }

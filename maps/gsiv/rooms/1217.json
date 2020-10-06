@@ -1,66 +1,33 @@
 {
+  "id": 1217,
+  "title": [
+    "[A Dark Forest Path]"
+  ],
+  "description": [
+    "Dense foliage moves into the small path as it disappears into the trees to the south.  With little light and plenty of places to hide, you suspect this could be an excellent spot for an ambush.",
+    "Dense foliage moves into the small path as it disappears into the trees to the south.  Shadows crisscross the ground making you feel uneasy.  With little light and plenty of places to hide, you suspect this could be an excellent spot for an ambush."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "1216": "go footpath",
     "1218": "south"
   },
-  "paths": [
-    "Obvious paths: south"
-  ],
+  "timeto": {
+    "1216": 0.2,
+    "1218": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     999,
     1208,
     1009,
     1218
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "Dense foliage moves into the small path as it disappears into the trees to the south.  With little light and plenty of places to hide, you suspect this could be an excellent spot for an ambush.",
-    "Dense foliage moves into the small path as it disappears into the trees to the south.  Shadows crisscross the ground making you feel uneasy.  With little light and plenty of places to hide, you suspect this could be an excellent spot for an ambush."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[A Dark Forest Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1216": 0.2,
-    "1218": 0.2
-  },
-  "id": 1217,
-  "location": "the Upper Trollfang",
   "tags": [
     "some ephlox moss",
-    "some acantha leaf",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "tkaro root",
-    "sticks",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "white hook mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "broken twig",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "bright red cranberry",
-    "tree bark",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some acantha leaf"
   ]
 }

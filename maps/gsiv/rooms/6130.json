@@ -1,35 +1,32 @@
 {
+  "id": 6130,
+  "title": [
+    "[Krag Slopes]"
+  ],
+  "description": [
+    "A tremendous landslide has tumbled rocks and boulders over much of the miniscule track, all but barring passage.  Beyond the rubble, a grotesque pile of rotting bodies lies outside a narrow crack in the crumbling wall ahead."
+  ],
+  "paths": [
+    "Obvious paths: southwest, west"
+  ],
+  "location": "the Krag slopes",
   "wayto": {
     "6129": "west",
     "8607": "go crack",
     "6131": "southwest"
   },
-  "paths": [
-    "Obvious paths: southwest, west"
-  ],
+  "timeto": {
+    "6129": 0.2,
+    "8607": 0.2,
+    "6131": 0.2
+  },
+  "image": "wl-wehntoph-1310775397.png",
   "image_coords": [
     1378,
     627,
     1412,
     661
   ],
-  "terrain": null,
-  "description": [
-    "A tremendous landslide has tumbled rocks and boulders over much of the miniscule track, all but barring passage.  Beyond the rubble, a grotesque pile of rotting bodies lies outside a narrow crack in the crumbling wall ahead."
-  ],
-  "image": "wl-wehntoph-1310775397.png",
-  "climate": null,
-  "title": [
-    "[Krag Slopes]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6129": 0.2,
-    "8607": 0.2,
-    "6131": 0.2
-  },
-  "id": 6130,
-  "location": "the Krag slopes",
   "tags": [
     "some bolmara lichen",
     "some wingstem root",
@@ -47,8 +44,5 @@
     "ironfern root",
     "bolmara lichen",
     "wingstem root"
-  ],
-  "links": [
-
   ]
 }

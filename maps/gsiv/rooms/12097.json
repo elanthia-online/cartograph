@@ -1,35 +1,27 @@
 {
-  "wayto": {
-    "12151": "southwest",
-    "12207": {
-      "stringproc": "e92c9dd14f17f62ccd19f33b9f37fe22"
-    },
-    "12098": "northwest",
-    "12156": "east",
-    "12235": {
-      "stringproc": "6257723a0157210f5f1e2eb6e7c5dbb4"
-    }
-  },
+  "id": 12097,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "Black sand dunes stretch out to infinity.  No plants grow from the ebon ground, and you can hear no small animals or insects going about their business nearby.  In the distance, a triangular shape moves along the ground, breaking the surface of the sand and winding its way towards you before disappearing beneath the surface once again."
+  ],
   "paths": [
     "Obvious exits: east, southwest, northwest",
     "Obvious paths: east, southwest, northwest"
   ],
-  "image_coords": [
-    622,
-    1262,
-    632,
-    1272
-  ],
-  "terrain": null,
-  "description": [
-    "Black sand dunes stretch out to infinity.  No plants grow from the ebon ground, and you can hear no small animals or insects going about their business nearby.  In the distance, a triangular shape moves along the ground, breaking the surface of the sand and winding its way towards you before disappearing beneath the surface once again."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12151": "southwest",
+    "12207": {
+      "file": "string_procs/wayto/12097_12207.rb"
+    },
+    "12098": "northwest",
+    "12156": "east",
+    "12235": {
+      "file": "string_procs/wayto/12097_12235.rb"
+    }
+  },
   "timeto": {
     "12151": 0.2,
     "12207": 11.4,
@@ -37,18 +29,17 @@
     "12156": 0.2,
     "12235": 11.4
   },
-  "id": 12097,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    622,
+    1262,
+    632,
+    1272
+  ],
   "tags": [
     "twisted black mawflower",
     "slime-covered grave blossom",
     "rotting bile green fleshbulb",
-    "oozing fleshsore bulb",
-    "mass of congealed slime",
-    "withered deathblossom",
-    "discolored fleshbinder bud"
-  ],
-  "links": [
-
+    "oozing fleshsore bulb"
   ]
 }

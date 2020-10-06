@@ -1,36 +1,25 @@
 {
-  "wayto": {
-    "16669": "east",
-    "16379": "west",
-    "12270": "out"
-  },
-  "paths": [
-    "Obvious exits: east, west, out"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Beneath an uneven wooden ceiling, a tattered merchant permit hangs on one of the plain wooden walls.  A torn sailcloth hammock and a splintered cargo crate sit in opposite corners while a worn rug rests on an unfinished wooden floor."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 16371,
   "title": [
     "[Jadall's Outfitting]",
     "[Jadall's General Store]",
     "[Jadall's Magic Shoppe]"
   ],
-  "check_location": null,
+  "description": [
+    "Beneath an uneven wooden ceiling, a tattered merchant permit hangs on one of the plain wooden walls.  A torn sailcloth hammock and a splintered cargo crate sit in opposite corners while a worn rug rests on an unfinished wooden floor."
+  ],
+  "paths": [
+    "Obvious exits: east, west, out"
+  ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "16669": "east",
+    "16379": "west",
+    "12270": "out"
+  },
   "timeto": {
     "16669": 0.2,
     "16379": 0.2,
     "12270": 0.2
-  },
-  "id": 16371,
-  "location": "Mist Harbor",
-  "tags": [
-
-  ],
-  "links": [
-
-  ]
+  }
 }

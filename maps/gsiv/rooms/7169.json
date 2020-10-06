@@ -1,33 +1,30 @@
 {
+  "id": 7169,
+  "title": [
+    "[Graveyard]"
+  ],
+  "description": [
+    "You glance over to the west to relieve the depressing view of the somber crypt.  In that direction, a small creek etches a deep azure line through the dark landscape between low, thickly overgrown banks."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7168": "south",
     "7170": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, south"
-  ],
+  "timeto": {
+    "7168": 0.2,
+    "7170": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     192,
     807,
     202,
     817
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "You glance over to the west to relieve the depressing view of the somber crypt.  In that direction, a small creek etches a deep azure line through the dark landscape between low, thickly overgrown banks."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Graveyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7168": 0.2,
-    "7170": 0.2
-  },
-  "id": 7169,
-  "location": "the Graveyard",
   "tags": [
     "some wolifrew lichen",
     "some acantha leaf",
@@ -53,10 +50,6 @@
     "pennyroyal stem",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

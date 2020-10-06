@@ -1,45 +1,29 @@
 {
-  "wayto": {
-    "13055": "north"
-  },
+  "id": 13056,
+  "title": [
+    "[Sorena's Emporium, Used Goods]"
+  ],
+  "description": [
+    "The burrow's passage ends with an unmasked, earthen wall.  Root tendrils hang down from the ceiling, like forgotten streamers left in the wake of a party.  At the center of the rounded chamber, a stark white table stands, its pure white cover a clear contrast to the carved dirt walls."
+  ],
   "paths": [
     "Obvious exits: north"
   ],
+  "location": "Icemule Trace",
+  "wayto": {
+    "13055": "north"
+  },
+  "timeto": {
+    "13055": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     1293,
     171,
     1303,
     181
   ],
-  "terrain": "indoors",
-  "description": [
-    "The burrow's passage ends with an unmasked, earthen wall.  Root tendrils hang down from the ceiling, like forgotten streamers left in the wake of a party.  At the center of the rounded chamber, a stark white table stands, its pure white cover a clear contrast to the carved dirt walls."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Sorena's Emporium, Used Goods]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "13055": 0.2
-  },
-  "id": 13056,
-  "location": "Icemule Trace",
   "tags": [
-    "reagent shop",
-    "soft white mushroom",
-    "withered black mushroom",
-    "black hook mushroom",
-    "white hook mushroom",
-    "blue trafel mushroom",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "reagent shop"
   ]
 }

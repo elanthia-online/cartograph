@@ -1,43 +1,35 @@
 {
+  "id": 2942,
+  "title": [
+    "[Abbey Stables]"
+  ],
+  "description": [
+    "Motes of dust float gently in shafts of light streaming into the stable through great holes torn from the thatched ceiling.  The hard-packed floor is littered with molding straw, from which puffs of dust arise with one's every movement.",
+    "Motes of dust float gently in shafts of moonlight streaming into the stable through great holes torn from the thatched ceiling.  The hard-packed floor is littered with molding straw, from which puffs of dust arise with one's every movement."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Abbey",
   "wayto": {
     "23830": "north",
     "2941": "south"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "23830": 0.2,
+    "2941": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     664,
     695,
     674,
     706
   ],
-  "terrain": "indoors",
-  "description": [
-    "Motes of dust float gently in shafts of light streaming into the stable through great holes torn from the thatched ceiling.  The hard-packed floor is littered with molding straw, from which puffs of dust arise with one's every movement.",
-    "Motes of dust float gently in shafts of moonlight streaming into the stable through great holes torn from the thatched ceiling.  The hard-packed floor is littered with molding straw, from which puffs of dust arise with one's every movement."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abbey Stables]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "23830": 0.2,
-    "2941": 0.2
-  },
-  "id": 2942,
-  "location": "the Abbey",
   "tags": [
     "peer south =~ /^Obvious exits: north, southeast$/",
     "nedum vereri",
     "dark shambler",
-    "arctic puma",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "arctic puma"
   ]
 }

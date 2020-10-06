@@ -1,35 +1,28 @@
 {
+  "id": 28739,
+  "title": [
+    "[Brewpub, Royalty Suite]"
+  ],
+  "description": [
+    "Oiled black sconces cast a dim yet steady light upon the green and blue marble floor.  A series of connected, soft grey couches surround a quaint mosaic table.  The far wall is adorned with a richly woven tapestry."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "28736": "go arch",
     "28740": "go opening"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "28736": 0.2,
+    "28740": 0.2
+  },
+  "image": "imt-beacon_hall.png",
   "image_coords": [
     313,
     356,
     350,
     394
-  ],
-  "terrain": null,
-  "description": [
-    "Oiled black sconces cast a dim yet steady light upon the green and blue marble floor.  A series of connected, soft grey couches surround a quaint mosaic table.  The far wall is adorned with a richly woven tapestry."
-  ],
-  "image": "imt-beacon_hall.png",
-  "climate": null,
-  "title": [
-    "[Brewpub, Royalty Suite]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "28736": 0.2,
-    "28740": 0.2
-  },
-  "id": 28739,
-  "location": "Icemule Trace",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

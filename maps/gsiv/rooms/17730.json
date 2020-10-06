@@ -1,39 +1,34 @@
 {
+  "id": 17730,
+  "title": [
+    "[Empath Guild, Training Foyer]"
+  ],
+  "description": [
+    "Intricate marquetry of naturally hued woods, incorporating palest pine, purple-grey haon, vivid red cedar, and dusky ebonwood, forms the walls of this grandly proportioned foyer.  Assorted training rooms and their attendant equipment can be glimpsed further inside the training annex.  The dry, herbal scents of cedar and sandalwood fill the air, the aroma more intense near the lamps set along each wall."
+  ],
+  "paths": [
+    "Obvious exits: west, out"
+  ],
+  "location": "River's Rest",
   "wayto": {
     "17731": "go archway",
     "19886": "west",
     "17725": "out"
   },
-  "paths": [
-    "Obvious exits: west, out"
-  ],
+  "timeto": {
+    "17731": 0.2,
+    "19886": 0.2,
+    "17725": 0.2
+  },
+  "image": "rr-empath_guild-1525964802.jpg",
   "image_coords": [
     208,
     105,
     259,
     155
   ],
-  "terrain": null,
-  "description": [
-    "Intricate marquetry of naturally hued woods, incorporating palest pine, purple-grey haon, vivid red cedar, and dusky ebonwood, forms the walls of this grandly proportioned foyer.  Assorted training rooms and their attendant equipment can be glimpsed further inside the training annex.  The dry, herbal scents of cedar and sandalwood fill the air, the aroma more intense near the lamps set along each wall."
-  ],
-  "image": "rr-empath_guild-1525964802.jpg",
-  "climate": null,
-  "title": [
-    "[Empath Guild, Training Foyer]"
-  ],
-  "check_location": true,
-  "timeto": {
-    "17731": 0.2,
-    "19886": 0.2,
-    "17725": 0.2
-  },
-  "id": 17730,
-  "location": "River's Rest",
   "tags": [
     "empath alchemy administrator"
   ],
-  "links": [
-
-  ]
+  "check_location": true
 }

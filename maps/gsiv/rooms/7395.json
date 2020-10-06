@@ -1,44 +1,33 @@
 {
+  "id": 7395,
+  "title": [
+    "[Mine Shaft]"
+  ],
+  "description": [
+    "The floors of the tunnel are covered with dirt and debris from the heavily mottled walls.  You notice a slight incline as the shaft extends to the east."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7394": "east",
     "7396": "west"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "7394": 0.2,
+    "7396": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1280,
     339,
     1288,
     347
   ],
-  "terrain": "indoors",
-  "description": [
-    "The floors of the tunnel are covered with dirt and debris from the heavily mottled walls.  You notice a slight incline as the shaft extends to the east."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mine Shaft]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7394": 0.2,
-    "7396": 0.2
-  },
-  "id": 7395,
-  "location": "the Shadow Valley",
   "tags": [
     "some shadowlace moss",
     "some blue moss",
-    "some cave moss",
-    "cave moss",
-    "blackgrove root",
-    "shadowlace moss",
-    "blue moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

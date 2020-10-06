@@ -1,47 +1,37 @@
 {
+  "id": 4545,
+  "title": [
+    "[Dark Tunnel]"
+  ],
+  "description": [
+    "Another trio of tunnels meet to form a junction within this fair sized hollow.  Most of the old hoof tracks turn towards the south leading into the darkness beyond."
+  ],
+  "paths": [
+    "Obvious exits: southeast, south, southwest"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "4544": "southeast",
     "4546": "southwest",
     "4551": "south"
   },
-  "paths": [
-    "Obvious exits: southeast, south, southwest"
-  ],
+  "timeto": {
+    "4544": 0.2,
+    "4546": 0.2,
+    "4551": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1143,
     483,
     1153,
     493
   ],
-  "terrain": "indoors",
-  "description": [
-    "Another trio of tunnels meet to form a junction within this fair sized hollow.  Most of the old hoof tracks turn towards the south leading into the darkness beyond."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dark Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4544": 0.2,
-    "4546": 0.2,
-    "4551": 0.2
-  },
-  "id": 4545,
-  "location": "the Shadow Valley",
   "tags": [
     "some blue moss",
     "blackgrove root",
     "some shadowlace moss",
     "some cave moss",
-    "ghostly pooka",
-    "cave moss",
-    "shadowlace moss",
-    "blue moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ghostly pooka"
   ]
 }

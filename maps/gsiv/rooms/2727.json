@@ -1,35 +1,32 @@
 {
+  "id": 2727,
+  "title": [
+    "[Top of the World, Frozen Tundra]"
+  ],
+  "description": [
+    "Stretching higher than can be seen, the great frozen peak rises into the sky.  The southern face appears treacherous at best, jagged ice and rock rise in a steep slope until fading out of sight.  The swirling snow and wind keep the vision a blur, but it appears to meet the tundra to the east."
+  ],
+  "paths": [
+    "Obvious paths: east, south, west"
+  ],
+  "location": "the great mountain Aenatumgana",
   "wayto": {
     "2728": "west",
     "2732": "south",
     "2726": "east"
   },
-  "paths": [
-    "Obvious paths: east, south, west"
-  ],
+  "timeto": {
+    "2728": 0.2,
+    "2732": 0.2,
+    "2726": 0.2
+  },
+  "image": "imt-pinefar-1264234799.png",
   "image_coords": [
     845,
     688,
     855,
     698
   ],
-  "terrain": "mountainous",
-  "description": [
-    "Stretching higher than can be seen, the great frozen peak rises into the sky.  The southern face appears treacherous at best, jagged ice and rock rise in a steep slope until fading out of sight.  The swirling snow and wind keep the vision a blur, but it appears to meet the tundra to the east."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Top of the World, Frozen Tundra]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2728": 0.2,
-    "2732": 0.2,
-    "2726": 0.2
-  },
-  "id": 2727,
-  "location": "the great mountain Aenatumgana",
   "tags": [
     "sassafras leaf",
     "sweetfern stalk",
@@ -42,18 +39,6 @@
     "some red lichen",
     "manroot stalk",
     "gok nut",
-    "some angelica root",
-    "red lichen",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "wyrmwood bark",
-    "daggit root",
-    "arctic moss",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some angelica root"
   ]
 }

@@ -1,51 +1,38 @@
 {
+  "id": 6911,
+  "title": [
+    "[Smuggling Tunnels, Passage]"
+  ],
+  "description": [
+    "Bits of shattered stone litter the floor.  A disturbingly large hole gapes in the ceiling, and a dent has been forced into the ground just beneath it.  Judging by the size of the holes and the quantity of rock fragments, it would have taken great strength to break the boulder into manageable bits."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east, south, southwest"
+  ],
+  "location": "the smuggling tunnels",
   "wayto": {
     "6910": "east",
     "6912": "southwest",
     "6913": "south",
     "6914": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, east, south, southwest"
-  ],
-  "image_coords": [
-    958,
-    1276,
-    968,
-    1286
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Bits of shattered stone litter the floor.  A disturbingly large hole gapes in the ceiling, and a dent has been forced into the ground just beneath it.  Judging by the size of the holes and the quantity of rock fragments, it would have taken great strength to break the boulder into manageable bits."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Smuggling Tunnels, Passage]"
-  ],
-  "check_location": null,
   "timeto": {
     "6910": 0.2,
     "6912": 0.2,
     "6913": 0.2,
     "6914": 0.2
   },
-  "id": 6911,
-  "location": "the smuggling tunnels",
+  "image": "wl-gates-1264234799.png",
+  "image_coords": [
+    958,
+    1276,
+    968,
+    1286
+  ],
   "tags": [
     "some wingstem root",
     "withered black mushroom",
     "some bur-clover root",
-    "some cave moss",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

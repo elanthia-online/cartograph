@@ -1,40 +1,32 @@
 {
+  "id": 6698,
+  "title": [
+    "[Misty Cavern]"
+  ],
+  "description": [
+    "This part of the caves seems to be mostly untouched.  A fine mist blankets the floor of this cavern.  Stalactites and stalagmites have grown from the ceiling and floor blocking your path in places.  Minerals create a glimmering effect on the natural formations of rock.  The dim illumination from the cave lichen creates an unsettling sense of quiet here.  You feel a sense of holiness and sanctuary here.  The cave leads northwest and east out of the place of wonder."
+  ],
+  "paths": [
+    "Obvious exits: east, northwest"
+  ],
+  "location": "the Upper Dragonsclaw",
   "wayto": {
     "6697": "northwest",
     "6699": "east"
   },
-  "paths": [
-    "Obvious exits: east, northwest"
-  ],
+  "timeto": {
+    "6697": 0.2,
+    "6699": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     98,
     1364,
     108,
     1374
   ],
-  "terrain": "indoors",
-  "description": [
-    "This part of the caves seems to be mostly untouched.  A fine mist blankets the floor of this cavern.  Stalactites and stalagmites have grown from the ceiling and floor blocking your path in places.  Minerals create a glimmering effect on the natural formations of rock.  The dim illumination from the cave lichen creates an unsettling sense of quiet here.  You feel a sense of holiness and sanctuary here.  The cave leads northwest and east out of the place of wonder."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Misty Cavern]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6697": 0.2,
-    "6699": 0.2
-  },
-  "id": 6698,
-  "location": "the Upper Dragonsclaw",
   "tags": [
     "ayana leaf",
-    "ayana lichen",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ayana lichen"
   ]
 }

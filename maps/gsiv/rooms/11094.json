@@ -1,40 +1,29 @@
 {
+  "id": 11094,
+  "title": [
+    "[Krol Ship, Quarterdeck]"
+  ],
+  "description": [
+    "This is the command center of the ship, where the captain typically stands while the ship is at sea.  In the center of this deck is the ship's wheel from which the helmsmen steer the ship.  Some steps lead up to the poop deck, and another flight of stairs leads down to the main deck."
+  ],
+  "paths": [
+    "Obvious paths: up"
+  ],
   "wayto": {
     "11092": "climb stairs",
     "11095": "up",
     "11096": "go door"
   },
-  "paths": [
-    "Obvious paths: up"
-  ],
-  "image_coords": [
-    1192,
-    505,
-    1202,
-    515
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "This is the command center of the ship, where the captain typically stands while the ship is at sea.  In the center of this deck is the ship's wheel from which the helmsmen steer the ship.  Some steps lead up to the poop deck, and another flight of stairs leads down to the main deck."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "freshwater",
-  "title": [
-    "[Krol Ship, Quarterdeck]"
-  ],
-  "check_location": null,
   "timeto": {
     "11092": 0.2,
     "11095": 0.2,
     "11096": 0.2
   },
-  "id": 11094,
-  "location": "the Sea Caves",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-rivers_rest-1266350289.png",
+  "image_coords": [
+    1192,
+    505,
+    1202,
+    515
   ]
 }

@@ -1,17 +1,5 @@
 {
-  "wayto": {
-    "358": "out"
-  },
-  "paths": [
-    "Obvious exits: north, east, out"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "The broad sweep of the oak floor is interrupted by a suit of silver-chased armor.  Halfway to the beam ceiling, a curl-edged vellum wall map hangs on one of the glossy mistwood walls.  Some wrought-iron hooks and an oval-shaped speckled marble counter are pushed close together in the back of the shop."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 3865,
   "title": [
     "[Treap's Magic Shoppe]",
     "[Treap's General Store]",
@@ -21,16 +9,17 @@
     "[Treap's Combat Gear]",
     "[Treap's Trinkets]"
   ],
-  "check_location": null,
+  "description": [
+    "The broad sweep of the oak floor is interrupted by a suit of silver-chased armor.  Halfway to the beam ceiling, a curl-edged vellum wall map hangs on one of the glossy mistwood walls.  Some wrought-iron hooks and an oval-shaped speckled marble counter are pushed close together in the back of the shop."
+  ],
+  "paths": [
+    "Obvious exits: north, east, out"
+  ],
+  "location": "Wehnimer's Landing",
+  "wayto": {
+    "358": "out"
+  },
   "timeto": {
     "358": 0.2
-  },
-  "id": 3865,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "links": [
-
-  ]
+  }
 }

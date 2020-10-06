@@ -1,40 +1,30 @@
 {
+  "id": 2783,
+  "title": [
+    "[Pinefar, Front Desk]"
+  ],
+  "description": [
+    "No more than an alcove tucked beneath the wide staircase, this cozy nook is dominated by an imposing oak desk cluttered with papers.  Sitting on a table-easel amidst the debris is a small painting of a whiskered halfling.  Next to the portrait is a paper-weight that reads \"Office.\"  A narrow hall passes the desk and continues around the corner, its length hung with paintings of mountain scenes inspired, very likely, by local panoramas."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "the Pinefar Trading Post",
   "wayto": {
     "2784": "go door",
     "2785": "northeast",
     "2777": "southwest"
   },
-  "paths": [
-    "Obvious exits: northeast, southwest"
-  ],
-  "image_coords": [
-    212,
-    845,
-    222,
-    855
-  ],
-  "terrain": "indoors",
-  "description": [
-    "No more than an alcove tucked beneath the wide staircase, this cozy nook is dominated by an imposing oak desk cluttered with papers.  Sitting on a table-easel amidst the debris is a small painting of a whiskered halfling.  Next to the portrait is a paper-weight that reads \"Office.\"  A narrow hall passes the desk and continues around the corner, its length hung with paintings of mountain scenes inspired, very likely, by local panoramas."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Pinefar, Front Desk]"
-  ],
-  "check_location": null,
   "timeto": {
     "2784": 0.2,
     "2785": 0.2,
     "2777": 0.2
   },
-  "id": 2783,
-  "location": "the Pinefar Trading Post",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "imt-pinefar-1264234799.png",
+  "image_coords": [
+    212,
+    845,
+    222,
+    855
   ]
 }

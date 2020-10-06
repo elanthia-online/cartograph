@@ -1,52 +1,44 @@
 {
-  "wayto": {
-    "6213": {
-      "stringproc": "2ce07bb1fa7803974e3d11a5ec5ebf1d"
-    },
-    "6214": {
-      "stringproc": "1a05aafd2278bde66c6931d2b1827c90"
-    },
-    "6215": {
-      "stringproc": "f2915767c122f969549938ab06e6c32c"
-    },
-    "6216": {
-      "stringproc": "c138b2042b5dfafb74b0028a3f534ba3"
-    },
-    "6217": {
-      "stringproc": "d4057fa023f9470753a61614032cec5f"
-    },
-    "6218": {
-      "stringproc": "49f6fbffe5e27418ff134bfb6ea3f913"
-    },
-    "6219": {
-      "stringproc": "5e939d1443c4955400fa19e6d51fbc83"
-    },
-    "6220": {
-      "stringproc": "057a3cdb1269f29f30569a1aa61a7b21"
-    },
-    "6211": {
-      "stringproc": "0638770ecd6e4d0e6e70a7f97f0b011b"
-    }
-  },
-  "paths": [
-    "Obvious exits: north, northeast, east, southeast, south, southwest, west, northwest"
-  ],
-  "image_coords": [
-    761,
-    602,
-    779,
-    620
-  ],
-  "terrain": null,
-  "description": [
-    "The path continues through the darkness via a series of statue-flanked arches.  Each statue rests atop a sturdy stone pedestal and depicts a well-armed human soldier with a bull's head.  The arches are etched with runes, though their meanings have been lost to time."
-  ],
-  "image": "wl-wehntoph-1310775397.png",
-  "climate": null,
+  "id": 6212,
   "title": [
     "[Labyrinth, The Unending Path]"
   ],
-  "check_location": null,
+  "description": [
+    "The path continues through the darkness via a series of statue-flanked arches.  Each statue rests atop a sturdy stone pedestal and depicts a well-armed human soldier with a bull's head.  The arches are etched with runes, though their meanings have been lost to time."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east, southeast, south, southwest, west, northwest"
+  ],
+  "location": "The Hidden Plateau",
+  "wayto": {
+    "6213": {
+      "file": "string_procs/wayto/6212_6213.rb"
+    },
+    "6214": {
+      "file": "string_procs/wayto/6212_6214.rb"
+    },
+    "6215": {
+      "file": "string_procs/wayto/6212_6215.rb"
+    },
+    "6216": {
+      "file": "string_procs/wayto/6212_6216.rb"
+    },
+    "6217": {
+      "file": "string_procs/wayto/6212_6217.rb"
+    },
+    "6218": {
+      "file": "string_procs/wayto/6212_6218.rb"
+    },
+    "6219": {
+      "file": "string_procs/wayto/6212_6219.rb"
+    },
+    "6220": {
+      "file": "string_procs/wayto/6212_6220.rb"
+    },
+    "6211": {
+      "file": "string_procs/wayto/6212_6211.rb"
+    }
+  },
   "timeto": {
     "6213": 0.5,
     "6214": 0.5,
@@ -58,14 +50,16 @@
     "6220": 0.5,
     "6211": 0.5
   },
-  "id": 6212,
-  "location": "The Hidden Plateau",
+  "image": "wl-wehntoph-1310775397.png",
+  "image_coords": [
+    761,
+    602,
+    779,
+    620
+  ],
   "tags": [
     "withered black mushroom",
     "black hook mushroom",
     "murdroot"
-  ],
-  "links": [
-
   ]
 }

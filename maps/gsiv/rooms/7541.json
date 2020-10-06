@@ -1,38 +1,28 @@
 {
+  "id": 7541,
+  "title": [
+    "[Catacombs, Effluent]"
+  ],
+  "description": [
+    "This is the northern end of a long effluent constructed of ancient, moss-encrusted brick.  Pipe openings line the walls everywhere, but only a few have small trickles of brown water pouring out of them.  In the northwestern wall, a circular opening wide enough to crawl through is barred by a heavy iron grate.  At the foot of the grate, on either side, are rotting piles of hay and sawdust, mixed with crumbling material giving off the distinctive aroma of manure."
+  ],
+  "paths": [
+    "Obvious exits: southeast"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "3883": "go grate",
     "7539": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast"
-  ],
+  "timeto": {
+    "3883": 0.2,
+    "7539": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     447,
     1181,
     457,
     1191
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This is the northern end of a long effluent constructed of ancient, moss-encrusted brick.  Pipe openings line the walls everywhere, but only a few have small trickles of brown water pouring out of them.  In the northwestern wall, a circular opening wide enough to crawl through is barred by a heavy iron grate.  At the foot of the grate, on either side, are rotting piles of hay and sawdust, mixed with crumbling material giving off the distinctive aroma of manure."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Catacombs, Effluent]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3883": 0.2,
-    "7539": 0.2
-  },
-  "id": 7541,
-  "location": "the catacombs",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

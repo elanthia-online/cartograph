@@ -1,46 +1,37 @@
 {
-  "wayto": {
-    "11470": {
-      "stringproc": "b9248cfc9b113e5b3c9341af010fa35e"
-    },
-    "11471": {
-      "stringproc": "2475b19f394c069e111c2fa06831c1f7"
-    },
-    "11473": {
-      "stringproc": "8590757048f346da70e2325b7e9ba8ea"
-    },
-    "11529": {
-      "stringproc": "797a09457fb3ca0a7d5eededa7a0e875"
-    },
-    "11474": {
-      "stringproc": "83255565d617dbe7b0ecdb04e9a96925"
-    },
-    "11476": {
-      "stringproc": "84803c6220b0581d4151763c46ccdbbc"
-    },
-    "11478": {
-      "stringproc": "9eaa131926e46e6090f2390aa24f278f"
-    }
-  },
-  "paths": [
-    "Obvious exits: southeast, south, southwest, west, northwest, up"
-  ],
-  "image_coords": [
-    950,
-    1180,
-    960,
-    1190
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A rock wall, running southeast to northwest, rises abruptly from the sand of the bay floor.  The rocks are dotted with knotted rockweed and organ pipe sponges.  A current of warmer water channels through the rock wall, kicking up tiny spirals of golden sand."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "indoors",
+  "id": 11477,
   "title": [
     "[Maelstrom Bay, Bottom]"
   ],
-  "check_location": null,
+  "description": [
+    "A rock wall, running southeast to northwest, rises abruptly from the sand of the bay floor.  The rocks are dotted with knotted rockweed and organ pipe sponges.  A current of warmer water channels through the rock wall, kicking up tiny spirals of golden sand."
+  ],
+  "paths": [
+    "Obvious exits: southeast, south, southwest, west, northwest, up"
+  ],
+  "wayto": {
+    "11470": {
+      "file": "string_procs/wayto/11477_11470.rb"
+    },
+    "11471": {
+      "file": "string_procs/wayto/11477_11471.rb"
+    },
+    "11473": {
+      "file": "string_procs/wayto/11477_11473.rb"
+    },
+    "11529": {
+      "file": "string_procs/wayto/11477_11529.rb"
+    },
+    "11474": {
+      "file": "string_procs/wayto/11477_11474.rb"
+    },
+    "11476": {
+      "file": "string_procs/wayto/11477_11476.rb"
+    },
+    "11478": {
+      "file": "string_procs/wayto/11477_11478.rb"
+    }
+  },
   "timeto": {
     "11470": 2.0,
     "11471": 2.0,
@@ -50,12 +41,11 @@
     "11476": 3.0,
     "11478": 2.0
   },
-  "id": 11477,
-  "location": "Maelstrom Bay",
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "rr-maelstrom-1266390501.png",
+  "image_coords": [
+    950,
+    1180,
+    960,
+    1190
   ]
 }

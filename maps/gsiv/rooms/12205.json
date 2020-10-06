@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "12152": {
-      "stringproc": "e7b269de45035581300c76daf9e751cf"
-    },
-    "12089": {
-      "stringproc": "df16ace028c72dba18b51257349345d8"
-    },
-    "2635": {
-      "stringproc": "a5fc698b4e8aaa983aa8f5ad92908980"
-    },
-    "12212": "south",
-    "12204": "north"
-  },
+  "id": 12205,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "A long line of robed monks walks solemnly, fading off into the distance.  They seem to be traveling toward the largest mountain of a set which runs across the distant horizon.  Two bursts of flame shoot up from an opening in the mountain occasionally, illuminating a skull-shaped castle and a line of supplicants several miles long moving towards it."
+  ],
   "paths": [
     "Obvious paths: north, south",
     "Obvious exits: north, south"
   ],
-  "image_coords": [
-    320,
-    1118,
-    330,
-    1128
-  ],
-  "terrain": null,
-  "description": [
-    "A long line of robed monks walks solemnly, fading off into the distance.  They seem to be traveling toward the largest mountain of a set which runs across the distant horizon.  Two bursts of flame shoot up from an opening in the mountain occasionally, illuminating a skull-shaped castle and a line of supplicants several miles long moving towards it."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12152": {
+      "file": "string_procs/wayto/12205_12152.rb"
+    },
+    "12089": {
+      "file": "string_procs/wayto/12205_12089.rb"
+    },
+    "2635": {
+      "file": "string_procs/wayto/12205_2635.rb"
+    },
+    "12212": "south",
+    "12204": "north"
+  },
   "timeto": {
     "12152": 21.6,
     "12089": 21.6,
@@ -39,8 +31,13 @@
     "12212": 0.2,
     "12204": 0.2
   },
-  "id": 12205,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    320,
+    1118,
+    330,
+    1128
+  ],
   "tags": [
     "twisted black mawflower",
     "mass of congealed slime",
@@ -49,8 +46,5 @@
     "oozing fleshsore bulb",
     "rotting bile green fleshbulb",
     "withered deathblossom"
-  ],
-  "links": [
-
   ]
 }

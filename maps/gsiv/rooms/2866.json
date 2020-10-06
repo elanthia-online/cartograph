@@ -1,47 +1,36 @@
 {
+  "id": 2866,
+  "title": [
+    "[Northern Mountains, Dark Caves]"
+  ],
+  "description": [
+    "The cave is particularly dark here, and the rustling of claws on stone and dirt echoes through the air. A splintered thighbone projects dangerously from the wall, as if in warning."
+  ],
+  "paths": [
+    "Obvious exits: east, up"
+  ],
+  "location": "the Sleeping Lady Mountains",
   "wayto": {
     "2865": "up",
     "2867": "east"
   },
-  "paths": [
-    "Obvious exits: east, up"
-  ],
+  "timeto": {
+    "2865": 0.2,
+    "2867": 0.2
+  },
+  "image": "imt-pinefar-1264234799.png",
   "image_coords": [
     194,
     1270,
     204,
     1280
   ],
-  "terrain": "indoors",
-  "description": [
-    "The cave is particularly dark here, and the rustling of claws on stone and dirt echoes through the air. A splintered thighbone projects dangerously from the wall, as if in warning."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Northern Mountains, Dark Caves]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2865": 0.2,
-    "2867": 0.2
-  },
-  "id": 2866,
-  "location": "the Sleeping Lady Mountains",
   "tags": [
     "withered black mushroom",
     "black hook mushroom",
     "white hook mushroom",
     "red trafel mushroom",
     "soft white mushroom",
-    "blue trafel mushroom",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "blue trafel mushroom"
   ]
 }

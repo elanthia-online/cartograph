@@ -1,35 +1,32 @@
 {
+  "id": 2275,
+  "title": [
+    "[Abandoned Mine]"
+  ],
+  "description": [
+    "A lone mining lamp illuminates this musty cavern, though not enough to see well.  What little can be made out in the murky shadows would indicate this to be a storage area.  Iron railings enter from the northeast, southeast and west to intersect in the middle of the room."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, west"
+  ],
+  "location": "the Abandoned Mine",
   "wayto": {
     "2282": "northeast",
     "2274": "west",
     "2276": "southeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southeast, west"
-  ],
+  "timeto": {
+    "2282": 0.2,
+    "2274": 0.2,
+    "2276": 0.2
+  },
+  "image": "ti-teras-1264234799.png",
   "image_coords": [
     640,
     1080,
     650,
     1090
   ],
-  "terrain": "indoors",
-  "description": [
-    "A lone mining lamp illuminates this musty cavern, though not enough to see well.  What little can be made out in the murky shadows would indicate this to be a storage area.  Iron railings enter from the northeast, southeast and west to intersect in the middle of the room."
-  ],
-  "image": "ti-teras-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abandoned Mine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2282": 0.2,
-    "2274": 0.2,
-    "2276": 0.2
-  },
-  "id": 2275,
-  "location": "the Abandoned Mine",
   "tags": [
     "flathead mushroom",
     "blue trafel mushroom",
@@ -40,14 +37,6 @@
     "withered black mushroom",
     "red trafel mushroom",
     "daggerstalk mushroom",
-    "some wingstem root",
-    "cave moss",
-    "murdroot",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

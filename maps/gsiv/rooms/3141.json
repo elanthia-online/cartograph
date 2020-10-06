@@ -1,35 +1,32 @@
 {
+  "id": 3141,
+  "title": [
+    "[Abandoned Farm, Forest]"
+  ],
+  "description": [
+    "The wind continues to bite, its numerous tendrils reaching out to ensnare all within its grasp.  A few hardy shrubs have managed to fight off the fierce weather, and they hold firm against the stiff gales."
+  ],
+  "paths": [
+    "Obvious paths: east, southeast, northwest"
+  ],
+  "location": "the Abandoned Farm",
   "wayto": {
     "3139": "northwest",
     "3142": "east",
     "3143": "southeast"
   },
-  "paths": [
-    "Obvious paths: east, southeast, northwest"
-  ],
+  "timeto": {
+    "3139": 0.2,
+    "3142": 0.2,
+    "3143": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     1046,
     688,
     1056,
     698
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "The wind continues to bite, its numerous tendrils reaching out to ensnare all within its grasp.  A few hardy shrubs have managed to fight off the fierce weather, and they hold firm against the stiff gales."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Abandoned Farm, Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3139": 0.2,
-    "3142": 0.2,
-    "3143": 0.2
-  },
-  "id": 3141,
-  "location": "the Abandoned Farm",
   "tags": [
     "some tree bark",
     "pine cone",
@@ -70,27 +67,6 @@
     "bright blue iceblossom",
     "moonflower",
     "soft orange iceblossom",
-    "some pennyroyal stem",
-    "sticks",
-    "sassafras leaf",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "iceblossoms",
-    "moonflowers",
-    "winter rose",
-    "broken twig",
-    "pine needles",
-    "frostweed",
-    "snowberries",
-    "tree bark",
-    "ironfern root",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some pennyroyal stem"
   ]
 }

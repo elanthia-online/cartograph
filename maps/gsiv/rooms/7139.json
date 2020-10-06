@@ -1,42 +1,34 @@
 {
+  "id": 7139,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "The grey stone walls are covered with a spreading fungus.  It looks rather like milk that's been left out for a few days, and smells about the same too.  The floor is squishy beneath your feet, and strewn with scattered rocks and pebbles."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7140": "go door",
     "7141": "west",
     "7137": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "7140": 0.2,
+    "7141": 0.2,
+    "7137": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     1000,
     501,
     1010,
     511
   ],
-  "terrain": "indoors",
-  "description": [
-    "The grey stone walls are covered with a spreading fungus.  It looks rather like milk that's been left out for a few days, and smells about the same too.  The floor is squishy beneath your feet, and strewn with scattered rocks and pebbles."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7140": 0.2,
-    "7141": 0.2,
-    "7137": 0.2
-  },
-  "id": 7139,
-  "location": "Darkstone Castle",
   "tags": [
     "kiramon defender",
-    "kiramon worker",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "kiramon worker"
   ]
 }

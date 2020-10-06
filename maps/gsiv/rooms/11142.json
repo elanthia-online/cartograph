@@ -1,42 +1,28 @@
 {
+  "id": 11142,
+  "title": [
+    "[River Tunnels]"
+  ],
+  "description": [
+    "Pools of water cover the ground, fed by the streams of water flowing down the walls of the tunnel.  The rushing sound of the river overhead is much louder here, drowning out any other sounds.  You also notice some odd markings on the tunnel wall."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11139": "northeast",
     "11141": "se"
   },
-  "paths": [
-    "Obvious exits: northeast, southeast"
-  ],
+  "timeto": {
+    "11139": 0.2,
+    "11141": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     612,
     88,
     622,
     98
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Pools of water cover the ground, fed by the streams of water flowing down the walls of the tunnel.  The rushing sound of the river overhead is much louder here, drowning out any other sounds.  You also notice some odd markings on the tunnel wall."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "indoors",
-  "title": [
-    "[River Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11139": 0.2,
-    "11141": 0.2
-  },
-  "id": 11142,
-  "location": "the Citadel",
-  "tags": [
-    "withered black mushroom",
-    "cave moss",
-    "murdroot",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

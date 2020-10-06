@@ -1,36 +1,33 @@
 {
+  "id": 18897,
+  "title": [
+    "[Mist Harbor, Vineyard]"
+  ],
+  "description": [
+    "Verdant foliage tumbles across the short wall of the vineyard, its lush tendrils seeking purchase in the dirt and stone that line the pathway.  Here and there, dragonflies flicker in and out of deep shadows cast by the large stone-faced building that towers over the area.  A blue and red-paned lantern hangs lightless to one side above an ornate bronze plaque.",
+    "Verdant foliage tumbles across the short wall of the vineyard, its lush tendrils seeking purchase in the dirt and stone that line the pathway.  Here and there, fireflies flicker in the deep shadows of the exotic and domestic plant life that threatens to consume the large stone-faced building that towers above the area.  A blue and red-paned lantern provides ample light to see by and also illuminates an ornate bronze plaque."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest"
+  ],
+  "location": "Mist Harbor",
   "wayto": {
     "16728": "southeast",
     "19548": "southwest",
     "19860": "go building"
   },
-  "paths": [
-    "Obvious paths: southeast, southwest"
-  ],
+  "timeto": {
+    "16728": 0.2,
+    "19548": 0.2,
+    "19860": 0.2
+  },
+  "image": "ifw-cleric_guild.png",
   "image_coords": [
     1264,
     1920,
     1472,
     2098
   ],
-  "terrain": null,
-  "description": [
-    "Verdant foliage tumbles across the short wall of the vineyard, its lush tendrils seeking purchase in the dirt and stone that line the pathway.  Here and there, dragonflies flicker in and out of deep shadows cast by the large stone-faced building that towers over the area.  A blue and red-paned lantern hangs lightless to one side above an ornate bronze plaque.",
-    "Verdant foliage tumbles across the short wall of the vineyard, its lush tendrils seeking purchase in the dirt and stone that line the pathway.  Here and there, fireflies flicker in the deep shadows of the exotic and domestic plant life that threatens to consume the large stone-faced building that towers above the area.  A blue and red-paned lantern provides ample light to see by and also illuminates an ornate bronze plaque."
-  ],
-  "image": "ifw-cleric_guild.png",
-  "climate": null,
-  "title": [
-    "[Mist Harbor, Vineyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "16728": 0.2,
-    "19548": 0.2,
-    "19860": 0.2
-  },
-  "id": 18897,
-  "location": "Mist Harbor",
   "tags": [
     "clericguild",
     "meta:mapname:Isle of the Four Winds - Cleric Guild",
@@ -38,8 +35,5 @@
     "meta:mapcategory:Isle of the Four Winds",
     "meta:mapcategory:Guilds",
     "meta:mapcategory:Premium"
-  ],
-  "links": [
-
   ]
 }

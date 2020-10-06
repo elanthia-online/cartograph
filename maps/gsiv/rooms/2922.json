@@ -1,38 +1,28 @@
 {
+  "id": 2922,
+  "title": [
+    "[Northward Trail, Ice Floe]"
+  ],
+  "description": [
+    "Carved over centuries by the floe of ice at its bottom, this narrow gorge provides some relief from the elements.  The air is still bitterly cold, but at least the harsh winter winds are kept at bay by the lichen-covered walls that lie to the north and the south.  The carcass of a mule lies nearby, preserved from decay by the freezing temperatures."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Sleeping Lady Mountains",
   "wayto": {
     "2921": "go northern wall",
     "2923": "go southern wall"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "2921": 0.2,
+    "2923": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     1026,
     594,
     1036,
     604
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Carved over centuries by the floe of ice at its bottom, this narrow gorge provides some relief from the elements.  The air is still bitterly cold, but at least the harsh winter winds are kept at bay by the lichen-covered walls that lie to the north and the south.  The carcass of a mule lies nearby, preserved from decay by the freezing temperatures."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Northward Trail, Ice Floe]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2921": 0.2,
-    "2923": 0.2
-  },
-  "id": 2922,
-  "location": "the Sleeping Lady Mountains",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

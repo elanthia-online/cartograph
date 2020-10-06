@@ -1,48 +1,35 @@
 {
-  "wayto": {
-    "4566": {
-      "stringproc": "79b6aacb07358187764f434021f44bcf"
-    },
-    "4568": {
-      "stringproc": "395b361a16c8a355265cda519abf9fe5"
-    }
-  },
+  "id": 4567,
+  "title": [
+    "[Griffin's Keen, Emerald Point]"
+  ],
+  "description": [
+    "Here at the top of the crevasse, there is a dangerous looking gap where a thick sheet of ice has broken away from the rock wall of the mountainside.  Blowing snow is already beginning to fill in the opening, threatening to widen it.  This glacier may turn from slow moving ice to unbelievably fast moving ice any time now."
+  ],
   "paths": [
     "Obvious paths: northeast, down"
   ],
+  "location": "Griffin's Keen",
+  "wayto": {
+    "4566": {
+      "file": "string_procs/wayto/4567_4566.rb"
+    },
+    "4568": {
+      "file": "string_procs/wayto/4567_4568.rb"
+    }
+  },
+  "timeto": {
+    "4566": 4.2,
+    "4568": 4.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     607,
     170,
     617,
     180
   ],
-  "terrain": null,
-  "description": [
-    "Here at the top of the crevasse, there is a dangerous looking gap where a thick sheet of ice has broken away from the rock wall of the mountainside.  Blowing snow is already beginning to fill in the opening, threatening to widen it.  This glacier may turn from slow moving ice to unbelievably fast moving ice any time now."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Griffin's Keen, Emerald Point]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4566": 4.2,
-    "4568": 4.2
-  },
-  "id": 4567,
-  "location": "Griffin's Keen",
   "tags": [
-    "sweetfern stalk",
-    "sassafras leaf",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "sprig of holly",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sweetfern stalk"
   ]
 }

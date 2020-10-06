@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "8261": "west"
-  },
+  "id": 8264,
+  "title": [
+    "[Wolves' Den, Waste Room]"
+  ],
+  "description": [
+    "The walls here are blackened with soot.  A gaping pit opens up in the center of the room.  A draft rises from it, bearing the smell of ancient corruption.  Small bits of trash are scattered about the mouth of the pit."
+  ],
   "paths": [
     "Obvious exits: west"
   ],
+  "location": "the Wolves' Den",
+  "wayto": {
+    "8261": "west"
+  },
+  "timeto": {
+    "8261": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     194,
     406,
     204,
     416
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The walls here are blackened with soot.  A gaping pit opens up in the center of the room.  A draft rises from it, bearing the smell of ancient corruption.  Small bits of trash are scattered about the mouth of the pit."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Wolves' Den, Waste Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8261": 0.2
-  },
-  "id": 8264,
-  "location": "the Wolves' Den",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,53 +1,36 @@
 {
+  "id": 9510,
+  "title": [
+    "[Zul Logoth, Mine Extension]"
+  ],
+  "description": [
+    "The tunnel gently curves north and southeast.  Though easily overlooked in traversing tunnel's length, the southeast end seems to be somewhat higher than the north end, possibly the result of the miners following a vein of ore as they excavated in that direction.  The temperature also changes noticeably between ends, although the climate is uniformly dry.  The tunnel's southeast end is much cooler than the north end.  A pair of steel rails parallels the east wall."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast"
+  ],
+  "location": "the tunnels and caverns of Zul Logoth",
   "wayto": {
     "9509": "north",
     "18997": "go gate",
     "9511": "southeast"
   },
-  "paths": [
-    "Obvious exits: north, southeast"
-  ],
+  "timeto": {
+    "9509": 0.2,
+    "18997": {
+      "file": "string_procs/timeto/9510_18997.rb"
+    },
+    "9511": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     659,
     936,
     669,
     946
   ],
-  "terrain": "indoors",
-  "description": [
-    "The tunnel gently curves north and southeast.  Though easily overlooked in traversing tunnel's length, the southeast end seems to be somewhat higher than the north end, possibly the result of the miners following a vein of ore as they excavated in that direction.  The temperature also changes noticeably between ends, although the climate is uniformly dry.  The tunnel's southeast end is much cooler than the north end.  A pair of steel rails parallels the east wall."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Zul Logoth, Mine Extension]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9509": 0.2,
-    "18997": {
-      "stringproc": "3c0eeef8198990b22d359822a9163e1e"
-    },
-    "9511": 0.2
-  },
-  "id": 9510,
-  "location": "the tunnels and caverns of Zul Logoth",
   "tags": [
     "sorcerer guild",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "soft white mushroom"
   ]
 }

@@ -1,51 +1,43 @@
 {
-  "wayto": {
-    "12206": "east",
-    "12173": "southwest",
-    "2579": {
-      "stringproc": "8770ecf721b2f46d9bc09a8706aab02e"
-    },
-    "12211": "northwest"
-  },
+  "id": 12160,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "A group of worms has created a large hole in the ceiling.  Through it pours a torrent of blood, washing over the room and flooding the already overworked walls.  The smell is horrible, although you cannot tell if it comes from the worms or the decaying flesh."
+  ],
   "paths": [
     "Obvious paths: east, southwest, northwest",
     "Obvious exits: east, southwest, northwest"
   ],
-  "image_coords": [
-    964,
-    1081,
-    974,
-    1091
-  ],
-  "terrain": null,
-  "description": [
-    "A group of worms has created a large hole in the ceiling.  Through it pours a torrent of blood, washing over the room and flooding the already overworked walls.  The smell is horrible, although you cannot tell if it comes from the worms or the decaying flesh."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12206": "east",
+    "12173": "southwest",
+    "2579": {
+      "file": "string_procs/wayto/12160_2579.rb"
+    },
+    "12211": "northwest"
+  },
   "timeto": {
     "12206": 0.2,
     "12173": 0.2,
     "2579": 6.8,
     "12211": 0.2
   },
-  "id": 12160,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    964,
+    1081,
+    974,
+    1091
+  ],
   "tags": [
     "twisted black mawflower",
     "withered deathblossom",
     "mass of congealed slime",
     "fleshsore bulb",
     "oozing fleshsore bulb",
-    "discolored fleshbinder bud",
-    "rotting bile green fleshbulb",
-    "slime-covered grave blossom"
-  ],
-  "links": [
-
+    "discolored fleshbinder bud"
   ]
 }

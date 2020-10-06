@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "11193": "south"
-  },
+  "id": 16065,
+  "title": [
+    "[Garrison, Common Room]"
+  ],
+  "description": [
+    "This room, long and wide, was apparently the lounge or meeting room for the soldiers housed here.  Broken furniture and weapons litter the floor.  A spider scuttles across the floor, its legs rasping against the stones."
+  ],
   "paths": [
     "Obvious exits: south, west"
   ],
+  "location": "the Citadel",
+  "wayto": {
+    "11193": "south"
+  },
+  "timeto": {
+    "11193": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     571,
     165,
     581,
     175
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This room, long and wide, was apparently the lounge or meeting room for the soldiers housed here.  Broken furniture and weapons litter the floor.  A spider scuttles across the floor, its legs rasping against the stones."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Garrison, Common Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11193": 0.2
-  },
-  "id": 16065,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

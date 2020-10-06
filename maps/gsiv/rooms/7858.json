@@ -1,35 +1,32 @@
 {
+  "id": 7858,
+  "title": [
+    "[Glatoph, Glacier]"
+  ],
+  "description": [
+    "Ice crumbles from under your feet as you stand at the edge of the chasm, falling too far for you to see them hit the bottom.  It is obvious that the glacier is not very solid here, making it a dangerous place to stand."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, northwest"
+  ],
+  "location": "Glatoph",
   "wayto": {
     "7857": "northwest",
     "7860": "north",
     "7859": "northeast"
   },
-  "paths": [
-    "Obvious paths: north, northeast, northwest"
-  ],
+  "timeto": {
+    "7857": 0.2,
+    "7860": 0.2,
+    "7859": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     1014,
     740,
     1024,
     750
   ],
-  "terrain": "mountainous",
-  "description": [
-    "Ice crumbles from under your feet as you stand at the edge of the chasm, falling too far for you to see them hit the bottom.  It is obvious that the glacier is not very solid here, making it a dangerous place to stand."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Glatoph, Glacier]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7857": 0.2,
-    "7860": 0.2,
-    "7859": 0.2
-  },
-  "id": 7858,
-  "location": "Glatoph",
   "tags": [
     "arctic titan",
     "frost giant",
@@ -41,10 +38,6 @@
     "valerian root",
     "pennyroyal stem",
     "sprig of holly",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

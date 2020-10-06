@@ -1,33 +1,21 @@
 {
-  "wayto": {
-    "6955": {
-      "stringproc": "24b086f9275c3d7fa27617e90dae5d7a"
-    }
-  },
-  "paths": [
-    ""
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "You are in a murky, cold pool of water.  Although it does not seem very deep, your feet do not touch bottom.  Beneath the surface, down about 7 feet or so, there appears to be a floor of solid rock.  A flat, narrow ledge of granite forms the shore."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 22229,
   "title": [
     "[Pool]"
   ],
-  "check_location": null,
+  "description": [
+    "You are in a murky, cold pool of water.  Although it does not seem very deep, your feet do not touch bottom.  Beneath the surface, down about 7 feet or so, there appears to be a floor of solid rock.  A flat, narrow ledge of granite forms the shore."
+  ],
+  "paths": [
+    ""
+  ],
+  "location": false,
+  "wayto": {
+    "6955": {
+      "file": "string_procs/wayto/22229_6955.rb"
+    }
+  },
   "timeto": {
     "6955": 0.2
-  },
-  "id": 22229,
-  "location": false,
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  }
 }

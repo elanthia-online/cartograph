@@ -1,33 +1,30 @@
 {
+  "id": 2503,
+  "title": [
+    "[Icemule Trail, Tree Path]"
+  ],
+  "description": [
+    "A snowy owl glides silently among the trees above the path, searching for a likely victim in the falling snow.  The ghostly figure suddenly dives, then rises--a tiny animal grasped in its talons--and quickly spirals up out of the trees and wings its way home."
+  ],
+  "paths": [
+    "Obvious paths: west, down"
+  ],
+  "location": "the Icemule Trail",
   "wayto": {
     "2502": "down",
     "2504": "west"
   },
-  "paths": [
-    "Obvious paths: west, down"
-  ],
+  "timeto": {
+    "2502": 0.2,
+    "2504": 0.2
+  },
+  "image": "imt-trail-1264234799.png",
   "image_coords": [
     1170,
     290,
     1180,
     300
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "A snowy owl glides silently among the trees above the path, searching for a likely victim in the falling snow.  The ghostly figure suddenly dives, then rises--a tiny animal grasped in its talons--and quickly spirals up out of the trees and wings its way home."
-  ],
-  "image": "imt-trail-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Icemule Trail, Tree Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2502": 0.2,
-    "2504": 0.2
-  },
-  "id": 2503,
-  "location": "the Icemule Trail",
   "tags": [
     "light red iceblossom",
     "yellow iceblossom",
@@ -73,10 +70,6 @@
     "ironfern root",
     "twisted twig",
     "slender twig",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bolmara lichen"
   ]
 }

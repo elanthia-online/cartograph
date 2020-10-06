@@ -1,36 +1,33 @@
 {
+  "id": 10707,
+  "title": [
+    "[Plains of Bone, Outer Circle]"
+  ],
+  "description": [
+    "The walls turn the path sharply to the southeast.  The bones of small varmints crunch underfoot with each step.  Nearby, a section of the outer wall has collapsed into the darkness of the night.  The rubble prevents any passage through the portal, however.",
+    "The walls turn the path sharply to the southeast.  The bones of small varmints crunch underfoot with each step.  Nearby, a section of the outer wall has collapsed.  The rubble prevents any passage through the portal, however."
+  ],
+  "paths": [
+    "Obvious paths: southeast, west"
+  ],
+  "location": "the Plains of Bone",
   "wayto": {
     "10706": "west",
     "10729": "go breach",
     "10708": "southeast"
   },
-  "paths": [
-    "Obvious paths: southeast, west"
-  ],
+  "timeto": {
+    "10706": 0.2,
+    "10729": 0.2,
+    "10708": 0.2
+  },
+  "image": "en-cemetery-1264234799.png",
   "image_coords": [
     503,
     39,
     513,
     49
   ],
-  "terrain": null,
-  "description": [
-    "The walls turn the path sharply to the southeast.  The bones of small varmints crunch underfoot with each step.  Nearby, a section of the outer wall has collapsed into the darkness of the night.  The rubble prevents any passage through the portal, however.",
-    "The walls turn the path sharply to the southeast.  The bones of small varmints crunch underfoot with each step.  Nearby, a section of the outer wall has collapsed.  The rubble prevents any passage through the portal, however."
-  ],
-  "image": "en-cemetery-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Plains of Bone, Outer Circle]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10706": 0.2,
-    "10729": 0.2,
-    "10708": 0.2
-  },
-  "id": 10707,
-  "location": "the Plains of Bone",
   "tags": [
     "small daisy",
     "heath aster",
@@ -60,8 +57,5 @@
     "wingstem root",
     "bur-clover root",
     "bone golem"
-  ],
-  "links": [
-
   ]
 }

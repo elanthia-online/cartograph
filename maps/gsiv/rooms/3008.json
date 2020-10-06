@@ -1,33 +1,30 @@
 {
+  "id": 3008,
+  "title": [
+    "[Arctic Tundra, High Plain]"
+  ],
+  "description": [
+    "Snowfields line both sides of the path, swirled into delicate patterns by the constant chilling wind.  Occasional tufts of brown grass poke their way up above the snow cover, scavenging any light they can."
+  ],
+  "paths": [
+    "Obvious paths: southeast, west"
+  ],
+  "location": "the High Plains",
   "wayto": {
     "3005": "southeast",
     "3007": "west"
   },
-  "paths": [
-    "Obvious paths: southeast, west"
-  ],
+  "timeto": {
+    "3005": 0.2,
+    "3007": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     298,
     924,
     308,
     934
   ],
-  "terrain": "mountainous",
-  "description": [
-    "Snowfields line both sides of the path, swirled into delicate patterns by the constant chilling wind.  Occasional tufts of brown grass poke their way up above the snow cover, scavenging any light they can."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Arctic Tundra, High Plain]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3005": 0.2,
-    "3007": 0.2
-  },
-  "id": 3008,
-  "location": "the High Plains",
   "tags": [
     "some arctic moss",
     "winter rose",
@@ -43,14 +40,6 @@
     "sweetfern stalk",
     "red winterberry",
     "snowberries",
-    "ironfern root",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "arctic moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

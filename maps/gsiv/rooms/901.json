@@ -1,42 +1,35 @@
 {
+  "id": 901,
+  "title": [
+    "[Whistler's Pass, Crevasse]"
+  ],
+  "description": [
+    "The tight confines of the crevasse allow for very little extraneous movement beyond the sideways shuffling required to continue forward.  The stale, cramped air seems too thin to adequately feed the lungs, and the narrow walls of the fissure impede normal breathing."
+  ],
+  "paths": [
+    "Obvious exits: northeast, out"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "900": "northeast",
     "902": "out"
   },
-  "paths": [
-    "Obvious exits: northeast, out"
-  ],
+  "timeto": {
+    "900": 0.2,
+    "902": 0.2
+  },
+  "image": "en-whistlers_pass-1264234799.png",
   "image_coords": [
     501,
     218,
     511,
     228
   ],
-  "terrain": "indoors",
-  "description": [
-    "The tight confines of the crevasse allow for very little extraneous movement beyond the sideways shuffling required to continue forward.  The stale, cramped air seems too thin to adequately feed the lungs, and the narrow walls of the fissure impede normal breathing."
-  ],
-  "image": "en-whistlers_pass-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Whistler's Pass, Crevasse]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "900": 0.2,
-    "902": 0.2
-  },
-  "id": 901,
-  "location": "Whistler's Pass",
   "tags": [
     "white hook mushroom",
     "cave moss",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

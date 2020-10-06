@@ -1,4 +1,15 @@
 {
+  "id": 6722,
+  "title": [
+    "[Upper Dragonsclaw, Village]"
+  ],
+  "description": [
+    "A decrepit village lies sprawled in all directions.  Ragged tents lie in various states of disarray and small fires burn along the path.  Off to your side, a rabid mutt tears at the carcass of some small animal and snarls menacingly at you as it chews."
+  ],
+  "paths": [
+    "Obvious paths: northeast, east, southeast, southwest, northwest"
+  ],
+  "location": "the Upper Dragonsclaw",
   "wayto": {
     "6729": "southeast",
     "6721": "southwest",
@@ -6,25 +17,6 @@
     "6725": "northeast",
     "6727": "east"
   },
-  "paths": [
-    "Obvious paths: northeast, east, southeast, southwest, northwest"
-  ],
-  "image_coords": [
-    184,
-    847,
-    194,
-    857
-  ],
-  "terrain": "plain dirt",
-  "description": [
-    "A decrepit village lies sprawled in all directions.  Ragged tents lie in various states of disarray and small fires burn along the path.  Off to your side, a rabid mutt tears at the carcass of some small animal and snarls menacingly at you as it chews."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Upper Dragonsclaw, Village]"
-  ],
-  "check_location": null,
   "timeto": {
     "6729": 0.2,
     "6721": 0.2,
@@ -32,8 +24,13 @@
     "6725": 0.2,
     "6727": 0.2
   },
-  "id": 6722,
-  "location": "the Upper Dragonsclaw",
+  "image": "wl-gates-1264234799.png",
+  "image_coords": [
+    184,
+    847,
+    194,
+    857
+  ],
   "tags": [
     "some wolifrew lichen",
     "some acantha leaf",
@@ -41,20 +38,6 @@
     "sweetfern stalk",
     "some valerian root",
     "cuctucae berry",
-    "sassafras leaf",
-    "acantha leaf",
-    "wolifrew lichen",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "heath aster",
-    "moonlight cactus-bloom",
-    "bright red cranberry",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sassafras leaf"
   ]
 }

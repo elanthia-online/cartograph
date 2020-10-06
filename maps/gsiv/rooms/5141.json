@@ -1,47 +1,33 @@
 {
+  "id": 5141,
+  "title": [
+    "[Vornavian Coast, Caverns]"
+  ],
+  "description": [
+    "The cavern comes to a dead end to the east, after sloping very sharply down.  The water that has pooled here is rather deep and extremely cold.  The floor slopes upward to the west, and a tunnel enters this room high in the southwest wall."
+  ],
+  "paths": [
+    "Obvious exits: west, up"
+  ],
+  "location": "the Vornavian Coast",
   "wayto": {
     "5140": "west",
     "5142": "up"
   },
-  "paths": [
-    "Obvious exits: west, up"
-  ],
+  "timeto": {
+    "5140": 0.2,
+    "5142": 0.2
+  },
+  "image": "vo-north_beach-1264234799.png",
   "image_coords": [
     286,
     682,
     296,
     692
   ],
-  "terrain": "indoors",
-  "description": [
-    "The cavern comes to a dead end to the east, after sloping very sharply down.  The water that has pooled here is rather deep and extremely cold.  The floor slopes upward to the west, and a tunnel enters this room high in the southwest wall."
-  ],
-  "image": "vo-north_beach-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Vornavian Coast, Caverns]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5140": 0.2,
-    "5142": 0.2
-  },
-  "id": 5141,
-  "location": "the Vornavian Coast",
   "tags": [
     "black hook mushroom",
     "withered black mushroom",
-    "red trafel mushroom",
-    "soft white mushroom",
-    "white hook mushroom",
-    "blue trafel mushroom",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "red trafel mushroom"
   ]
 }

@@ -1,55 +1,37 @@
 {
+  "id": 8434,
+  "title": [
+    "[Upper Trollfang]"
+  ],
+  "description": [
+    "The surrounding landscape begins a gradual ascent to the south as you are nearing the base of the Dragonsclaw Mountains.  This region is heavily forested and the trees are large and ancient."
+  ],
+  "paths": [
+    "Obvious paths: north, east"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "8516": "east",
     "8433": "north",
     "8435": "go clearing"
   },
-  "paths": [
-    "Obvious paths: north, east"
-  ],
+  "timeto": {
+    "8516": 0.2,
+    "8433": 0.2,
+    "8435": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     714,
     812,
     724,
     822
   ],
-  "terrain": "mountainous",
-  "description": [
-    "The surrounding landscape begins a gradual ascent to the south as you are nearing the base of the Dragonsclaw Mountains.  This region is heavily forested and the trees are large and ancient."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Upper Trollfang]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8516": 0.2,
-    "8433": 0.2,
-    "8435": 0.2
-  },
-  "id": 8434,
-  "location": "the Upper Trollfang",
   "tags": [
     "forest troll",
     "small apple",
     "golden aster",
     "sprig of ivy",
-    "sprig of larkspur",
-    "angelica root",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "yellow primrose",
-    "sprig of holly",
-    "pepperthorn root",
-    "ironfern root",
-    "sunburst blossom",
-    "bolmara lichen",
-    "wingstem root",
-    "alder bark",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sprig of larkspur"
   ]
 }

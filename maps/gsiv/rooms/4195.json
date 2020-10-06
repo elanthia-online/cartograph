@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "4172": "north"
-  },
+  "id": 4195,
+  "title": [
+    "[Dark-One's Keep]"
+  ],
+  "description": [
+    "Lavish can not even begin to describe this room.  There are gold and jeweled objects everywhere.  Thick fur carpets the floor covering every inch of the rock.  Elaborate pillows are thrown about the room to be used for relaxing.  The walls have large tapestries, intricately woven into beautiful mosaics."
+  ],
   "paths": [
     "Obvious exits: north, east, south, west"
   ],
+  "location": "the Graveyard",
+  "wayto": {
+    "4172": "north"
+  },
+  "timeto": {
+    "4172": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     777,
     1054,
     787,
     1064
   ],
-  "terrain": "indoors",
-  "description": [
-    "Lavish can not even begin to describe this room.  There are gold and jeweled objects everywhere.  Thick fur carpets the floor covering every inch of the rock.  Elaborate pillows are thrown about the room to be used for relaxing.  The walls have large tapestries, intricately woven into beautiful mosaics."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dark-One's Keep]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4172": 0.2
-  },
-  "id": 4195,
-  "location": "the Graveyard",
   "tags": [
-    "node",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "node"
   ]
 }

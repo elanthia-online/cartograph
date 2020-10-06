@@ -1,48 +1,28 @@
 {
+  "id": 9584,
+  "title": [
+    "[Czeroth Caverns, Tunnel]"
+  ],
+  "description": [
+    "Despite the distant sound of water dripping, the air here is dry and stale, with a faint acidic odor coming from the southeast.  Several large bones lie in a pile against one wall."
+  ],
+  "paths": [
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "the Czeroth Caverns",
   "wayto": {
     "9583": "northwest",
     "9585": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast, northwest"
-  ],
+  "timeto": {
+    "9583": 0.2,
+    "9585": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     1187,
     337,
     1197,
     347
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Despite the distant sound of water dripping, the air here is dry and stale, with a faint acidic odor coming from the southeast.  Several large bones lie in a pile against one wall."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Czeroth Caverns, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9583": 0.2,
-    "9585": 0.2
-  },
-  "id": 9584,
-  "location": "the Czeroth Caverns",
-  "tags": [
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

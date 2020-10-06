@@ -1,40 +1,32 @@
 {
+  "id": 9888,
+  "title": [
+    "[Linden Grove, Path]"
+  ],
+  "description": [
+    "While the path loops and gambols beneath the tall, stately linden trees of the grove, the trees give the appearance of watching its antics like benevolent, albeit aloof elders pondering the headlong pursuits of children.  Although the grove seems airy with its tall canopy and spacious growth, nonetheless, to all sides the impenetrable quality of deep forest maintains a presence that is never out of mind."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest"
+  ],
+  "location": "the dark woods",
   "wayto": {
     "18803": {
-      "stringproc": "9530e7b353488450abf514d7328187a8"
+      "file": "string_procs/wayto/9888_18803.rb"
     },
     "13183": {
-      "stringproc": "9bf57bf3fda33e99abb00f61f6b4286d"
+      "file": "string_procs/wayto/9888_13183.rb"
     },
     "9890": "go grove",
     "9889": "southwest",
     "16956": {
-      "stringproc": "be97885db95624bceef2deaffc5e02c4"
+      "file": "string_procs/wayto/9888_16956.rb"
     },
     "16957": {
-      "stringproc": "3ec966178521e1f4be79cba045229179"
+      "file": "string_procs/wayto/9888_16957.rb"
     },
     "9887": "southeast"
   },
-  "paths": [
-    "Obvious paths: southeast, southwest"
-  ],
-  "image_coords": [
-    1047,
-    165,
-    1057,
-    175
-  ],
-  "terrain": "deciduous forest",
-  "description": [
-    "While the path loops and gambols beneath the tall, stately linden trees of the grove, the trees give the appearance of watching its antics like benevolent, albeit aloof elders pondering the headlong pursuits of children.  Although the grove seems airy with its tall canopy and spacious growth, nonetheless, to all sides the impenetrable quality of deep forest maintains a presence that is never out of mind."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Linden Grove, Path]"
-  ],
-  "check_location": null,
   "timeto": {
     "18803": 15.0,
     "13183": 15.0,
@@ -44,8 +36,13 @@
     "16957": 15.0,
     "9887": 0.2
   },
-  "id": 9888,
-  "location": "the dark woods",
+  "image": "en-sapphire-1264234799.png",
+  "image_coords": [
+    1047,
+    165,
+    1057,
+    175
+  ],
   "tags": [
     "some acantha leaf",
     "some torban leaf",
@@ -58,62 +55,6 @@
     "bloodwood twig",
     "twisted twig",
     "some murkweed",
-    "some haphip root",
-    "acantha leaf",
-    "torban leaf",
-    "calamia fruit",
-    "haphip root",
-    "basal moss",
-    "sticks",
-    "angelica root",
-    "trollfear mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "blueberries",
-    "elderberries",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "wild grapes",
-    "broken twig",
-    "stalk of bluebells",
-    "golden buttercup",
-    "wild pink geranium",
-    "stalk of goldenrod",
-    "small wild rose",
-    "sprig of wild lilac",
-    "wild beechnut",
-    "stalk of burdock",
-    "silver-edged fern",
-    "wild chokecherry",
-    "lady slipper blossom",
-    "wild orchid",
-    "wood violet",
-    "wolfsbane root",
-    "sprig of mistletoe",
-    "tree bark",
-    "murkweed",
-    "white lily",
-    "pink rain lily",
-    "coppery rain lily",
-    "oxblood lily",
-    "blue whortleberry",
-    "white baneberry",
-    "yew twig",
-    "oak twig",
-    "murdroot",
-    "nightbloom blossom",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some haphip root"
   ]
 }

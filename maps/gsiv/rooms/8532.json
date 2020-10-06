@@ -1,55 +1,35 @@
 {
+  "id": 8532,
+  "title": [
+    "[Upper Trollfang]"
+  ],
+  "description": [
+    "This is the northeastern corner of a great expanse of swampy land.  The path appears to lead deeper into the mist shrouded moors as it runs south."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "8531": "northeast",
     "8533": "south"
   },
-  "paths": [
-    "Obvious paths: northeast, south"
-  ],
+  "timeto": {
+    "8531": 0.2,
+    "8533": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     980,
     624,
     990,
     634
   ],
-  "terrain": "mountainous",
-  "description": [
-    "This is the northeastern corner of a great expanse of swampy land.  The path appears to lead deeper into the mist shrouded moors as it runs south."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Upper Trollfang]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8531": 0.2,
-    "8533": 0.2
-  },
-  "id": 8532,
-  "location": "the Upper Trollfang",
   "tags": [
     "forest troll",
     "some wingstem root",
     "some angelica root",
     "yellow primrose",
-    "sprig of holly",
-    "angelica root",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "sprig of larkspur",
-    "golden aster",
-    "sprig of ivy",
-    "small apple",
-    "pepperthorn root",
-    "ironfern root",
-    "sunburst blossom",
-    "bolmara lichen",
-    "wingstem root",
-    "alder bark",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sprig of holly"
   ]
 }

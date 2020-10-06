@@ -1,34 +1,31 @@
 {
+  "id": 2577,
+  "title": [
+    "[Upper Trollfang, Foothills]"
+  ],
+  "description": [
+    "From the top of this hill, you can look to the north and see the peak of the Glatoph, tallest and easternmost of the dragon's fangs in this range of mountains.  To the south and extending to the west you see the rest of the Trollfang range, fading into the hazy distance.",
+    "From the top of this hill, you can barely make out the peak of the Glatoph, tallest and easternmost of the dragon's fangs in this range of mountains.  The dark masses of the rest of the Trollfang range blot out the stars toward the western and southern horizons."
+  ],
+  "paths": [
+    "Obvious paths: north, down"
+  ],
+  "location": "Glatoph",
   "wayto": {
     "2576": "north",
     "2578": "down"
   },
-  "paths": [
-    "Obvious paths: north, down"
-  ],
+  "timeto": {
+    "2576": 0.2,
+    "2578": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     573,
     897,
     583,
     907
   ],
-  "terrain": "hilly",
-  "description": [
-    "From the top of this hill, you can look to the north and see the peak of the Glatoph, tallest and easternmost of the dragon's fangs in this range of mountains.  To the south and extending to the west you see the rest of the Trollfang range, fading into the hazy distance.",
-    "From the top of this hill, you can barely make out the peak of the Glatoph, tallest and easternmost of the dragon's fangs in this range of mountains.  The dark masses of the rest of the Trollfang range blot out the stars toward the western and southern horizons."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Upper Trollfang, Foothills]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2576": 0.2,
-    "2578": 0.2
-  },
-  "id": 2577,
-  "location": "Glatoph",
   "tags": [
     "cuctucae berry",
     "some valerian root",
@@ -60,10 +57,6 @@
     "twisted twig",
     "slender twig",
     "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

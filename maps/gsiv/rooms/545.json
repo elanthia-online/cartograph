@@ -1,34 +1,31 @@
 {
+  "id": 545,
+  "title": [
+    "[Whistler's Pass, Grassy Field]"
+  ],
+  "description": [
+    "The haon trees yield to a field of green grass illuminated by moon and starlight.  Birds work at gathering grass for nests in the field while others search for food.",
+    "The haon trees yield to a field of green grass.  Birds work at gathering grass for nests in the field while others search for food."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "546": "west",
     "544": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, west"
-  ],
+  "timeto": {
+    "546": 0.2,
+    "544": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     747,
     665,
     757,
     675
   ],
-  "terrain": "grassland",
-  "description": [
-    "The haon trees yield to a field of green grass illuminated by moon and starlight.  Birds work at gathering grass for nests in the field while others search for food.",
-    "The haon trees yield to a field of green grass.  Birds work at gathering grass for nests in the field while others search for food."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Whistler's Pass, Grassy Field]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "546": 0.2,
-    "544": 0.2
-  },
-  "id": 545,
-  "location": "Whistler's Pass",
   "tags": [
     "sprig of wild phlox",
     "acantha leaf",
@@ -106,10 +103,6 @@
     "wavepetal blossom",
     "ironfern root",
     "nightbloom blossom",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

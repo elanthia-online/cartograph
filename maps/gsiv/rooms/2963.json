@@ -1,39 +1,28 @@
 {
-  "wayto": {
-    "2962": "west",
-    "2964": "climb staircase"
-  },
+  "id": 2963,
+  "title": [
+    "[Abbey, Dorter]"
+  ],
+  "description": [
+    "Small, spare cells line the walls, each guarded by a door with a slotted window.  Beyond, every cell is remarkably similar, housing a bed, nightstand, and writing desk.  Torches along the walls drive back the day's chill, but the dorter's entrance is open and doorless, waiting at the top of a narrow staircase."
+  ],
   "paths": [
     "Obvious exits: west"
   ],
-  "image_coords": [
-    911,
-    684,
-    921,
-    694
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Small, poorly lit cells line the northern walls.  High, louvered windows provide the only source of light for these dormitory rooms.  Some of the cells still contain remnants of furniture, though for the most part, they are barren.  The narrow hallway leading past the dorter ends at a narrow staircase."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abbey Dorter]"
-  ],
-  "check_location": null,
+  "location": "the Abbey",
+  "wayto": {
+    "2962": "west",
+    "2964": "go staircase"
+  },
   "timeto": {
     "2962": 0.2,
     "2964": 0.2
   },
-  "id": 2963,
-  "location": "the Abbey",
-  "tags": [
-    "nedum vereri",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "imt-Abbey Map-51200831.png",
+  "image_coords": [
+    2336,
+    1290,
+    2440,
+    1386
   ]
 }

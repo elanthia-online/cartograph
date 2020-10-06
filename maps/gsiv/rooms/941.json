@@ -1,34 +1,31 @@
 {
+  "id": 941,
+  "title": [
+    "[Whistler's Pass, Rope Bridge]"
+  ],
+  "description": [
+    "Swaying over the unseen depths of the mist-enshrouded gorge, the rope bridge appears to be at the mercy of the chill, mountain winds.  Although the thick, woven cords seem to endure the wrath of the tumultuous air, sharp creaks and high-pitched squeals from the ropes attest to their burden.  Beneath the bridge, darkness hides what must be a rushing waterfall, the sound of its passage echoing like dull thunder from the gorge below.",
+    "Swaying over the unseen depths of the mist-enshrouded gorge, the rope bridge appears to be at the mercy of the chill, mountain winds.  Although the thick, woven cords seem to endure the wrath of the tumultuous air, sharp creaks and high-pitched squeals from the ropes attest to their burden.  Beneath the bridge, a heavy, greyish mist hides what must be a rushing waterfall, the sound of its passage echoing like dull thunder from the gorge below."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "942": "south",
     "940": "north"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "942": 0.2,
+    "940": 0.2
+  },
+  "image": "en-whistlers_pass-1264234799.png",
   "image_coords": [
     345,
     916,
     355,
     926
   ],
-  "terrain": "mountainous",
-  "description": [
-    "Swaying over the unseen depths of the mist-enshrouded gorge, the rope bridge appears to be at the mercy of the chill, mountain winds.  Although the thick, woven cords seem to endure the wrath of the tumultuous air, sharp creaks and high-pitched squeals from the ropes attest to their burden.  Beneath the bridge, darkness hides what must be a rushing waterfall, the sound of its passage echoing like dull thunder from the gorge below.",
-    "Swaying over the unseen depths of the mist-enshrouded gorge, the rope bridge appears to be at the mercy of the chill, mountain winds.  Although the thick, woven cords seem to endure the wrath of the tumultuous air, sharp creaks and high-pitched squeals from the ropes attest to their burden.  Beneath the bridge, a heavy, greyish mist hides what must be a rushing waterfall, the sound of its passage echoing like dull thunder from the gorge below."
-  ],
-  "image": "en-whistlers_pass-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Whistler's Pass, Rope Bridge]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "942": 0.2,
-    "940": 0.2
-  },
-  "id": 941,
-  "location": "Whistler's Pass",
   "tags": [
     "marallis berry",
     "cuctucae berry",
@@ -45,11 +42,6 @@
     "mountain dryan",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "mountain dryad",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

@@ -1,50 +1,36 @@
 {
+  "id": 8215,
+  "title": [
+    "[Sea Caverns, Garbage Chamber]"
+  ],
+  "description": [
+    "Massive piles of garbage reach nearly to the ceiling.  Bones, scraps and unrecognizables mix together in a rotten morass of greys, browns and black.  Much of it is piled about a fissure in the floor.  The stench is so bad it's almost visible."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the sea caverns",
   "wayto": {
     "8216": "go fissure",
     "8214": "north"
   },
-  "paths": [
-    "Obvious exits: north"
-  ],
+  "timeto": {
+    "8216": 0.2,
+    "8214": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     434,
     157,
     444,
     167
   ],
-  "terrain": "indoors",
-  "description": [
-    "Massive piles of garbage reach nearly to the ceiling.  Bones, scraps and unrecognizables mix together in a rotten morass of greys, browns and black.  Much of it is piled about a fissure in the floor.  The stench is so bad it's almost visible."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Caverns, Garbage Chamber]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8216": 0.2,
-    "8214": 0.2
-  },
-  "id": 8215,
-  "location": "the sea caverns",
   "tags": [
     "red trafel mushroom",
     "some bolmara lichen",
     "white hook mushroom",
     "murdroot",
     "blue trafel mushroom",
-    "some cave moss",
-    "soft white mushroom",
-    "withered black mushroom",
-    "black hook mushroom",
-    "cave moss",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

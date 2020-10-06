@@ -1,82 +1,37 @@
 {
+  "id": 5270,
+  "title": [
+    "[Vornavian Coast, The Hills]"
+  ],
+  "description": [
+    "The path rises toward a stone ridge to the northeast, and descends into a foggy valley to the south and southwest.  A wide, flat area off the path to the east has been used as a campsite by many travelers, as evidenced by a ring of stones used many times to contain campfires."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south, southwest"
+  ],
+  "location": "the Vornavian Coast",
   "wayto": {
     "5268": "south",
     "5269": "southwest",
     "5272": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, south, southwest"
-  ],
+  "timeto": {
+    "5268": 0.2,
+    "5269": 0.2,
+    "5272": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     679,
     502,
     687,
     510
   ],
-  "terrain": "hilly",
-  "description": [
-    "The path rises toward a stone ridge to the northeast, and descends into a foggy valley to the south and southwest.  A wide, flat area off the path to the east has been used as a campsite by many travelers, as evidenced by a ring of stones used many times to contain campfires."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Vornavian Coast, The Hills]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5268": 0.2,
-    "5269": 0.2,
-    "5272": 0.2
-  },
-  "id": 5270,
-  "location": "the Vornavian Coast",
   "tags": [
     "cluster of gorse",
     "sprig of rosemary",
     "sprig of ivy",
     "sprig of larkspur",
-    "rose-marrow root",
-    "ambrominas leaf",
-    "tkaro root",
-    "sticks",
-    "angelica root",
-    "trollfear mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "stalk of chicory",
-    "elderberries",
-    "sprig of alyssum",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "sprig of wild lilac",
-    "motherwort",
-    "wolfsbane root",
-    "huckleberries",
-    "sprig of mistletoe",
-    "tree bark",
-    "wiregrass",
-    "white lily",
-    "bloodwood twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "ironfern root",
-    "nightbloom blossom",
-    "twisted twig",
-    "slender twig",
-    "ebony twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "gorse",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "rose-marrow root"
   ]
 }

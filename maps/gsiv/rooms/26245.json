@@ -1,35 +1,28 @@
 {
+  "id": 26245,
+  "title": [
+    "[Lich's Landing, Corpse Row]"
+  ],
+  "description": [
+    "A small zombie goblin stands near a row of gnarled corpses, gnawing absentmindedly on some entrails hanging down from the bodies.  Disembodied eyes, all having red pupils, float through the area, scanning the surroundings as blood drips from their fleshy veins."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Talador",
   "wayto": {
     "26244": "south",
     "26246": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "26244": 0.2,
+    "26246": 0.2
+  },
+  "image": "wl-lichs_landing-1500800742.png",
   "image_coords": [
     282,
     487,
     308,
     512
-  ],
-  "terrain": null,
-  "description": [
-    "A small zombie goblin stands near a row of gnarled corpses, gnawing absentmindedly on some entrails hanging down from the bodies.  Disembodied eyes, all having red pupils, float through the area, scanning the surroundings as blood drips from their fleshy veins."
-  ],
-  "image": "wl-lichs_landing-1500800742.png",
-  "climate": null,
-  "title": [
-    "[Lich's Landing, Corpse Row]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26244": 0.2,
-    "26246": 0.2
-  },
-  "id": 26245,
-  "location": "Talador",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

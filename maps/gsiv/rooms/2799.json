@@ -1,34 +1,31 @@
 {
+  "id": 2799,
+  "title": [
+    "[A Silent Path]"
+  ],
+  "description": [
+    "A stark ray of light breaks through the pine boughs, casting a puddle of light on the ruts of the path like a spotlight.  Fine flakes of snow drift down through the beam, swirling and drifting in response to the wind's melody.  The trees standing like an audience to either side seem darker and quieter than they are, as though they are transfixed by the beauty of the performance.",
+    "A wan ray of moonlight breaks through the pine boughs, casting a puddle of light on the ruts of the path.  Fine flakes of snow drift down through the light, swirling and drifting in response to the wind's melody.  The trees standing like an audience to either side seem darker and quieter than they are, as though they are transfixed by the beauty of the performance."
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest"
+  ],
+  "location": "the Pinefar Trading Post",
   "wayto": {
     "2798": "northeast",
     "2800": "northwest"
   },
-  "paths": [
-    "Obvious paths: northeast, northwest"
-  ],
+  "timeto": {
+    "2798": 0.2,
+    "2800": 0.2
+  },
+  "image": "imt-pinefar-1264234799.png",
   "image_coords": [
     207,
     926,
     216,
     935
   ],
-  "terrain": "missing",
-  "description": [
-    "A stark ray of light breaks through the pine boughs, casting a puddle of light on the ruts of the path like a spotlight.  Fine flakes of snow drift down through the beam, swirling and drifting in response to the wind's melody.  The trees standing like an audience to either side seem darker and quieter than they are, as though they are transfixed by the beauty of the performance.",
-    "A wan ray of moonlight breaks through the pine boughs, casting a puddle of light on the ruts of the path.  Fine flakes of snow drift down through the light, swirling and drifting in response to the wind's melody.  The trees standing like an audience to either side seem darker and quieter than they are, as though they are transfixed by the beauty of the performance."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[A Silent Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2798": 0.2,
-    "2800": 0.2
-  },
-  "id": 2799,
-  "location": "the Pinefar Trading Post",
   "tags": [
     "some wyrmwood bark",
     "manroot stalk",
@@ -77,11 +74,6 @@
     "twisted twig",
     "slender twig",
     "bolmara lichen",
-    "brostheras grass",
-    "wyrmwood bark",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

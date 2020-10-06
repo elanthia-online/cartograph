@@ -1,39 +1,30 @@
 {
+  "id": 6350,
+  "title": [
+    "[Wizard Guild, Study Room]"
+  ],
+  "description": [
+    "The first floor of the northeast tower is a spacious study, yet small for a single room in a tower of this size.  A large slab of black slate has been framed in oak and fastened to the wall and used to display symbols and runes.  A few well worn tables and chairs are scattered about the room and some steep stairs spiral high up into the tower."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "6336": "south",
     "6349": "west",
     "6353": "go stairs"
   },
-  "paths": [
-    "Obvious exits: south, west"
-  ],
-  "image_coords": [
-    421,
-    311,
-    469,
-    357
-  ],
-  "terrain": null,
-  "description": [
-    "The first floor of the northeast tower is a spacious study, yet small for a single room in a tower of this size.  A large slab of black slate has been framed in oak and fastened to the wall and used to display symbols and runes.  A few well worn tables and chairs are scattered about the room and some steep stairs spiral high up into the tower."
-  ],
-  "image": "wl-wizard_guild.jpg",
-  "climate": null,
-  "title": [
-    "[Wizard Guild, Study Room]"
-  ],
-  "check_location": null,
   "timeto": {
     "6336": 0.2,
     "6349": 0.2,
     "6353": 0.2
   },
-  "id": 6350,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "wl-wizard_guild.jpg",
+  "image_coords": [
+    421,
+    311,
+    469,
+    357
   ]
 }

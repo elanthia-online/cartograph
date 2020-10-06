@@ -1,41 +1,32 @@
 {
+  "id": 2222,
+  "title": [
+    "[Depths of V'Tull, Lower Eye]"
+  ],
+  "description": [
+    "Thickening volcanic debris litters the ground here.  Translucent shards of natural glass jut out from the rubble.  The walls and topside are flecked with spiny horn-like projections of hardened basalt."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south"
+  ],
+  "location": "the Eye of V'Tull",
   "wayto": {
     "2223": "northeast",
     "2221": "south"
   },
-  "paths": [
-    "Obvious exits: northeast, south"
-  ],
+  "timeto": {
+    "2223": 0.2,
+    "2221": 0.2
+  },
+  "image": "ti-vtull-1264234799.png",
   "image_coords": [
     314,
     814,
     322,
     822
   ],
-  "terrain": "indoors",
-  "description": [
-    "Thickening volcanic debris litters the ground here.  Translucent shards of natural glass jut out from the rubble.  The walls and topside are flecked with spiny horn-like projections of hardened basalt."
-  ],
-  "image": "ti-vtull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Depths of V'Tull, Lower Eye]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2223": 0.2,
-    "2221": 0.2
-  },
-  "id": 2222,
-  "location": "the Eye of V'Tull",
   "tags": [
     "daggerstalk mushroom",
-    "black trafel mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "black trafel mushroom"
   ]
 }

@@ -1,38 +1,28 @@
 {
+  "id": 7701,
+  "title": [
+    "[Underground, Hidden Wing]"
+  ],
+  "description": [
+    "The hallway here takes a ninety degree turn."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "7700": "south",
     "7702": "east"
   },
-  "paths": [
-    "Obvious exits: east, south"
-  ],
+  "timeto": {
+    "7700": 0.2,
+    "7702": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     375,
     1056,
     385,
     1066
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The hallway here takes a ninety degree turn."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Underground, Hidden Wing]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7700": 0.2,
-    "7702": 0.2
-  },
-  "id": 7701,
-  "location": "the Coastal Cliffs",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,30 +1,23 @@
 {
-  "wayto": {
-    "25424": "east",
-    "25429": "climb ladder"
-  },
-  "paths": [
-    "Obvious exits: east"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "This is a large and spacious room, well-lit by numerous spherical iron lanterns hanging from the walls.  Dominating the room is a round red mahogany table, its lustre catching the ambient light and reflecting it.  Matching chairs surround the table, and the walls are papered with maps of the local wilds.  A smooth teak ladder in the west corner of the room disappears through a dark trapdoor in the ceiling."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 25425,
   "title": [
     "[Irregulars Barracks, War Room]"
   ],
-  "check_location": null,
+  "description": [
+    "This is a large and spacious room, well-lit by numerous spherical iron lanterns hanging from the walls.  Dominating the room is a round red mahogany table, its lustre catching the ambient light and reflecting it.  Matching chairs surround the table, and the walls are papered with maps of the local wilds.  A smooth teak ladder in the west corner of the room disappears through a dark trapdoor in the ceiling."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Wehnimer's Landing",
+  "wayto": {
+    "25424": "east",
+    "25429": "climb ladder",
+    "28763": "go ladder"
+  },
   "timeto": {
     "25424": 0.2,
-    "25429": 0.2
-  },
-  "id": 25425,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "unique_loot": null
+    "25429": 0.2,
+    "28763": 0.2
+  }
 }

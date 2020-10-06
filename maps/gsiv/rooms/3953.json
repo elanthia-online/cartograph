@@ -1,33 +1,25 @@
 {
-  "wayto": {
-    "3937": {
-      "stringproc": "1b05168490a4bc4256a681555163ac06"
-    }
-  },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "The trickle of sludge begins to move a bit faster, as the slope steepens.  The small pipes in the walls grow fewer, but no less filthy.  You can feel a touch of moving air, perhaps a bit fresher than that which you've grown used to breathing."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 3953,
   "title": [
     "[Abandoned Sewer]"
   ],
-  "check_location": null,
+  "description": [
+    "The trickle of sludge begins to move a bit faster, as the slope steepens.  The small pipes in the walls grow fewer, but no less filthy.  You can feel a touch of moving air, perhaps a bit fresher than that which you've grown used to breathing."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the catacombs",
+  "wayto": {
+    "3937": {
+      "file": "string_procs/wayto/3953_3937.rb"
+    }
+  },
   "timeto": {
     "3937": 1.6
   },
-  "id": 3953,
-  "location": "the catacombs",
   "tags": [
     "red trafel mushroom",
     "blue trafel mushroom"
-  ],
-  "links": [
-
   ]
 }

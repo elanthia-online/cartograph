@@ -1,37 +1,31 @@
 {
+  "id": 17211,
+  "title": [
+    "[Warrior Guild, Cold Storage]"
+  ],
+  "description": [
+    "Frightfully cold air floats all about, the temperature low enough to effect a hazy steam from mere breathing.  Several enormous metal tubs, almost completely filled with ice, have been lined up against the icy wall."
+  ],
+  "paths": [
+    "Obvious exits: east, northwest"
+  ],
+  "location": "Ta'Illistim",
   "wayto": {
     "17210": "northwest",
     "17212": "east"
   },
-  "paths": [
-    "Obvious exits: east, northwest"
-  ],
+  "timeto": {
+    "17210": 0.2,
+    "17212": 0.2
+  },
+  "image": "en-ta_illistim-warrior_guild.png",
   "image_coords": [
     525,
     575,
     544,
     599
   ],
-  "terrain": null,
-  "description": [
-    "Frightfully cold air floats all about, the temperature low enough to effect a hazy steam from mere breathing.  Several enormous metal tubs, almost completely filled with ice, have been lined up against the icy wall."
-  ],
-  "image": "en-ta_illistim-warrior_guild.png",
-  "climate": null,
-  "title": [
-    "[Warrior Guild, Cold Storage]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "17210": 0.2,
-    "17212": 0.2
-  },
-  "id": 17211,
-  "location": "Ta'Illistim",
   "tags": [
     "warrior guild icetub"
-  ],
-  "links": [
-
   ]
 }

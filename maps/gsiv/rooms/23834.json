@@ -1,39 +1,36 @@
 {
-  "wayto": {
-    "23833": "out",
-    "23835": "go white tower",
-    "23836": "go tankard-carved door",
-    "23837": "go dragon-carved door",
-    "23838": "go ebonwood doors"
-  },
-  "paths": [
-    "Obvious paths: out"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "In the center of the courtyard a white tower rises skyward, light flickering in the windows.  Mossy pathways meander among the quiet oak trees leading from door to door in the circular structure that encloses the area.  A small pond, its surface dotted with floating candles, is nestled near some flower patches.  Living sapling benches, formed by intertwining branches near a stone shrine, offer places to sit and enjoy the night air.  Somewhere nearby an owl hoots his nighttime refrain."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 23834,
   "title": [
     "[Baile Dragan, Courtyard]"
   ],
-  "check_location": null,
+  "description": [
+    "In the center of the courtyard a white tower rises skyward, light flickering in the windows.  Mossy pathways meander among the quiet oak trees leading from door to door in the circular structure that encloses the area.  A small pond, its surface dotted with floating candles, is nestled near some flower patches.  Living sapling benches, formed by intertwining branches near a stone shrine, offer places to sit and enjoy the night air.  Somewhere nearby an owl hoots his nighttime refrain."
+  ],
+  "paths": [
+    "Obvious paths: out"
+  ],
+  "location": "Wehnimer's Landing",
+  "wayto": {
+    "23835": "go tower",
+    "23836": "go tankard-carved door",
+    "23837": "go dragon-carved door",
+    "23838": "go doors",
+    "28815": "go moon-carved door",
+    "23833": "out"
+  },
   "timeto": {
-    "23833": 0.2,
     "23835": 0.2,
     "23836": 0.2,
     "23837": 0.2,
-    "23838": 0.2
+    "23838": 0.2,
+    "28815": 0.2,
+    "23833": 0.2
   },
-  "id": 23834,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
+  "image": "wl-Ord_An_Dragan.Map-5120-0901.png",
+  "image_coords": [
+    321,
+    531,
+    477,
+    629
   ]
 }

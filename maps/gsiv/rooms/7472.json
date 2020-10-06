@@ -1,48 +1,36 @@
 {
-  "wayto": {
-    "7471": {
-      "stringproc": "9562739203983e062dd5fcc7a8104b4e"
-    },
-    "7473": {
-      "stringproc": "e67c8febe0bc2995fe8a8239ed3fe386"
-    }
-  },
+  "id": 7472,
+  "title": [
+    "[Dark Grotto, Cavern]"
+  ],
+  "description": [
+    "A broad ledge runs all the way around the edge of this cavern, circling a huge pit at the center.  The ledge is smooth and even, with plenty of room for you to walk around."
+  ],
   "paths": [
     "Obvious exits: southwest"
   ],
+  "location": "the Broken Lands",
+  "wayto": {
+    "7471": {
+      "file": "string_procs/wayto/7472_7471.rb"
+    },
+    "7473": {
+      "file": "string_procs/wayto/7472_7473.rb"
+    }
+  },
+  "timeto": {
+    "7471": 0.2,
+    "7473": 0.2
+  },
+  "image": "wl-broken-1264234799.png",
   "image_coords": [
     943,
     934,
     953,
     944
   ],
-  "terrain": "indoors",
-  "description": [
-    "A broad ledge runs all the way around the edge of this cavern, circling a huge pit at the center.  The ledge is smooth and even, with plenty of room for you to walk around."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dark Grotto, Cavern]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7471": 0.2,
-    "7473": 0.2
-  },
-  "id": 7472,
-  "location": "the Broken Lands",
   "tags": [
     "some glowing green lichen",
-    "magru",
-    "blackened moss",
-    "green lichen",
-    "bone mushroom",
-    "cave moss",
-    "sponge mushroom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "magru"
   ]
 }

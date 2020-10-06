@@ -1,33 +1,30 @@
 {
+  "id": 11341,
+  "title": [
+    "[Citadel, Outside]"
+  ],
+  "description": [
+    "The only thing of interest is the small amount of rubble cluttering up this otherwise nondescript pathway.  The path rolls gently in a circle to the southeast and southwest."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11340": "southwest",
     "11342": "se"
   },
-  "paths": [
-    "Obvious paths: southeast, southwest"
-  ],
+  "timeto": {
+    "11340": 0.2,
+    "11342": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     655,
     1226,
     665,
     1236
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The only thing of interest is the small amount of rubble cluttering up this otherwise nondescript pathway.  The path rolls gently in a circle to the southeast and southwest."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "moist",
-  "title": [
-    "[Citadel, Outside]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11340": 0.2,
-    "11342": 0.2
-  },
-  "id": 11341,
-  "location": "the Citadel",
   "tags": [
     "some aloeas stem",
     "bright red cranberry",
@@ -39,17 +36,6 @@
     "some wingstem root",
     "some calamia fruit",
     "wild chokecherry",
-    "some motherwort",
-    "acantha leaf",
-    "calamia fruit",
-    "aloeas stem",
-    "motherwort",
-    "murkweed",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some motherwort"
   ]
 }

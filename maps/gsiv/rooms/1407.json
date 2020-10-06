@@ -1,33 +1,30 @@
 {
+  "id": 1407,
+  "title": [
+    "[Cairnfang Forest]"
+  ],
+  "description": [
+    "A carpet of splayed monkapple leaves hides the forest floor to either side of the trail, broken only by the trunks of ancient oaks rising like pillars to the green canopy above."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "1408": "southwest",
     "1406": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, southwest"
-  ],
+  "timeto": {
+    "1408": 0.2,
+    "1406": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     1048,
     990,
     1058,
     1000
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "A carpet of splayed monkapple leaves hides the forest floor to either side of the trail, broken only by the trunks of ancient oaks rising like pillars to the green canopy above."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Cairnfang Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1408": 0.2,
-    "1406": 0.2
-  },
-  "id": 1407,
-  "location": "the Cairnfang",
   "tags": [
     "some torban leaf",
     "sprig of wild lilac",
@@ -84,10 +81,6 @@
     "ebony twig",
     "bolmara lichen",
     "brostheras grass",
-    "alder bark",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "alder bark"
   ]
 }

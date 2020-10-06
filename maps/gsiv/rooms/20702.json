@@ -1,40 +1,30 @@
 {
-  "wayto": {
-    "3538": {
-      "stringproc": "1fbba9dcc90be8b37e5f20d6154dcd36"
-    },
-    "20706": "go villa"
-  },
+  "id": 20702,
+  "title": [
+    "[Etesian Villa, Courtyard]"
+  ],
+  "description": [
+    "Surrounded by a wrought iron fence, an expanse of green lawn spreads away from the open gate.  Pruned box hedges hug the fence, offering privacy for the grounds.  Painted the pale blue hue of a sunlit tropical sea and capped with a grey shingle roof, the villa is set far back from the wey, at the edge of the grass.  Its window boxes contain a variety of local blossoms, and cultivated flower beds flank the entrance to the building.  Floral scents perfume the air, and a set of crystal wind chimes lends a touch of music to the breeze."
+  ],
   "paths": [
     "Obvious paths: none"
   ],
+  "location": "Ta'Vaalor",
+  "wayto": {
+    "3538": {
+      "file": "string_procs/wayto/20702_3538.rb"
+    },
+    "20706": "go villa"
+  },
+  "timeto": {
+    "3538": 0.2,
+    "20706": 0.2
+  },
+  "image": "premium_halls-1489980086.png",
   "image_coords": [
     641,
     1183,
     764,
     1236
-  ],
-  "terrain": null,
-  "description": [
-    "Surrounded by a wrought iron fence, an expanse of green lawn spreads away from the open gate.  Pruned box hedges hug the fence, offering privacy for the grounds.  Painted the pale blue hue of a sunlit tropical sea and capped with a grey shingle roof, the villa is set far back from the wey, at the edge of the grass.  Its window boxes contain a variety of local blossoms, and cultivated flower beds flank the entrance to the building.  Floral scents perfume the air, and a set of crystal wind chimes lends a touch of music to the breeze."
-  ],
-  "image": "premium_halls-1489980086.png",
-  "climate": null,
-  "title": [
-    "[Etesian Villa, Courtyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3538": 0.2,
-    "20706": 0.2
-  },
-  "id": 20702,
-  "location": "Ta'Vaalor",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

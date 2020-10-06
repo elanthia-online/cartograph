@@ -1,35 +1,32 @@
 {
+  "id": 4269,
+  "title": [
+    "[Lysierian Hills, Forested Path]"
+  ],
+  "description": [
+    "A boulder stands comically to one side of the path, looking like a huge nose protruding from a mass of flowering vines.  The scent of the flowers is indeed sweet; no wonder the boulder wanted to smell them.  Here the path splits in several directions.  The path to the north is rougher, while the paths to the south and southeast appear to lead toward easier ground."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast, south"
+  ],
+  "location": "the Lysierian Hills",
   "wayto": {
     "4289": "north",
     "4268": "south",
     "4270": "southeast"
   },
-  "paths": [
-    "Obvious paths: north, southeast, south"
-  ],
+  "timeto": {
+    "4289": 0.2,
+    "4268": 0.2,
+    "4270": 0.2
+  },
+  "image": "wl-lysierian-1264234799.png",
   "image_coords": [
     93,
     455,
     103,
     465
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "A boulder stands comically to one side of the path, looking like a huge nose protruding from a mass of flowering vines.  The scent of the flowers is indeed sweet; no wonder the boulder wanted to smell them.  Here the path splits in several directions.  The path to the north is rougher, while the paths to the south and southeast appear to lead toward easier ground."
-  ],
-  "image": "wl-lysierian-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Lysierian Hills, Forested Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4289": 0.2,
-    "4268": 0.2,
-    "4270": 0.2
-  },
-  "id": 4269,
-  "location": "the Lysierian Hills",
   "tags": [
     "some basal moss",
     "some torban leaf",
@@ -78,38 +75,6 @@
     "some murkweed",
     "wintergreen leaf",
     "bloodwood twig",
-    "murdroot",
-    "acantha leaf",
-    "torban leaf",
-    "calamia fruit",
-    "haphip root",
-    "basal moss",
-    "sticks",
-    "angelica root",
-    "blue trafel mushroom",
-    "blueberries",
-    "elderberries",
-    "wild grapes",
-    "broken twig",
-    "tree bark",
-    "murkweed",
-    "white lily",
-    "pink rain lily",
-    "oxblood lily",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "nightbloom blossom",
-    "twisted twig",
-    "slender twig",
-    "ebony twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "walnuts",
-    "alder bark",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "murdroot"
   ]
 }

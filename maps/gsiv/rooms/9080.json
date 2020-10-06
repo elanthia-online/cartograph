@@ -1,44 +1,34 @@
 {
+  "id": 9080,
+  "title": [
+    "[Infested Tunnels, Rat's Nest]"
+  ],
+  "description": [
+    "The stench is unbearable.  You really don't want to linger overlong, lest the odor incapacitate you.  Rotting pieces of straw, pieces of fruit rind and some soft, dark pellets cover the tunnel floor. Together they make a squishy carpet that turns your stomach."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest, west"
+  ],
+  "location": "the subterranean tunnels",
   "wayto": {
     "9079": "southeast",
     "9081": "west",
     "9083": "southwest"
   },
-  "paths": [
-    "Obvious exits: southeast, southwest, west"
-  ],
+  "timeto": {
+    "9079": 0.2,
+    "9081": 0.2,
+    "9083": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     1323,
     404,
     1333,
     414
   ],
-  "terrain": "indoors",
-  "description": [
-    "The stench is unbearable.  You really don't want to linger overlong, lest the odor incapacitate you.  Rotting pieces of straw, pieces of fruit rind and some soft, dark pellets cover the tunnel floor. Together they make a squishy carpet that turns your stomach."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Infested Tunnels, Rat's Nest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9079": 0.2,
-    "9081": 0.2,
-    "9083": 0.2
-  },
-  "id": 9080,
-  "location": "the subterranean tunnels",
   "tags": [
     "some wolifrew lichen",
-    "some wingstem root",
-    "wolifrew lichen",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

@@ -1,1 +1,2 @@
-fput 'touch statue';fput 'say dyar trog'
+fput 'touch statue'
+fput 'say dyar trog'

@@ -1,40 +1,33 @@
 {
+  "id": 9316,
+  "title": [
+    "[Flynth Lake, Barn]"
+  ],
+  "description": [
+    "Here in the back of the barn, stalls for eight animals take up most of the area.  The enclosures are spacious and sturdy, and piles of hay fill a couple of them, spilling out onto the rough planks of the barn floor.  Freshly cut wood lies in a corner, ready to be split and stacked."
+  ],
+  "paths": [
+    "Obvious exits: northeast"
+  ],
+  "location": "the foothills of Zeltoph",
   "wayto": {
     "9317": "climb ladder",
     "9315": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast"
-  ],
+  "timeto": {
+    "9317": 0.2,
+    "9315": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     45,
     608,
     55,
     618
   ],
-  "terrain": "indoors",
-  "description": [
-    "Here in the back of the barn, stalls for eight animals take up most of the area.  The enclosures are spacious and sturdy, and piles of hay fill a couple of them, spilling out onto the rough planks of the barn floor.  Freshly cut wood lies in a corner, ready to be split and stacked."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Flynth Lake, Barn]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9317": 0.2,
-    "9315": 0.2
-  },
-  "id": 9316,
-  "location": "the foothills of Zeltoph",
   "tags": [
     "wolifrew lichen",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

@@ -1,44 +1,36 @@
 {
+  "id": 6385,
+  "title": [
+    "[Smokey Cave, Cavern]"
+  ],
+  "description": [
+    "This small cave is dimly lit by the light shining in from the opening at the east end.  There is a gritty layer of some strange black dirt underfoot that leaves black smudges on anything it touches.  The walls and ceiling of the cave are also covered in the same black grit."
+  ],
+  "paths": [
+    "Obvious exits: southwest, west, northwest"
+  ],
+  "location": "the Lysierian Hills",
   "wayto": {
     "6393": "southwest",
     "6384": "go opening",
     "6386": "northwest",
     "6387": "west"
   },
-  "paths": [
-    "Obvious exits: southwest, west, northwest"
-  ],
-  "image_coords": [
-    552,
-    403,
-    562,
-    413
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This small cave is dimly lit by the light shining in from the opening at the east end.  There is a gritty layer of some strange black dirt underfoot that leaves black smudges on anything it touches.  The walls and ceiling of the cave are also covered in the same black grit."
-  ],
-  "image": "wl-lysierian-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Smokey Cave, Cavern]"
-  ],
-  "check_location": null,
   "timeto": {
     "6393": 0.2,
     "6384": 0.2,
     "6386": 0.2,
     "6387": 0.2
   },
-  "id": 6385,
-  "location": "the Lysierian Hills",
+  "image": "wl-lysierian-1264234799.png",
+  "image_coords": [
+    552,
+    403,
+    562,
+    413
+  ],
   "tags": [
     "fire rat",
-    "fire cat",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "fire cat"
   ]
 }

@@ -1,38 +1,28 @@
 {
+  "id": 5811,
+  "title": [
+    "[Zaerthu Tunnels, Bridge]"
+  ],
+  "description": [
+    "Constellations of fungal growths as coldly bright as stars line the abyss beneath the bridge, but the ceiling of the chamber is in total darkness.  Unusually thick rope handholds and solid planks suggest that the builders of the bridge were not immune to the vertiginous illusory reversal of sky and ground."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Zaerthu Tunnels",
   "wayto": {
     "5810": "west",
     "5812": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "5810": 0.2,
+    "5812": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     206,
     1027,
     216,
     1037
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Constellations of fungal growths as coldly bright as stars line the abyss beneath the bridge, but the ceiling of the chamber is in total darkness.  Unusually thick rope handholds and solid planks suggest that the builders of the bridge were not immune to the vertiginous illusory reversal of sky and ground."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Zaerthu Tunnels, Bridge]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5810": 0.2,
-    "5812": 0.2
-  },
-  "id": 5811,
-  "location": "the Zaerthu Tunnels",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

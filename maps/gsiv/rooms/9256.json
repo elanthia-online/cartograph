@@ -1,4 +1,15 @@
 {
+  "id": 9256,
+  "title": [
+    "[Northern Caravansary, Green]"
+  ],
+  "description": [
+    "Four large dogwood trees stand at the northern, eastern, southern and western corners of this patch of grass, forming a refuge from the dust and odors of the pens to the west and the smoke from a campsite to the east.  A row of merchant wagons lines the southern wall of the palisade."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, southeast, south, southwest, northwest"
+  ],
+  "location": "the Northern Caravansary",
   "wayto": {
     "9251": "southeast",
     "9253": "go campsite",
@@ -9,25 +20,6 @@
     "9247": "southwest",
     "9249": "south"
   },
-  "paths": [
-    "Obvious paths: north, northeast, southeast, south, southwest, northwest"
-  ],
-  "image_coords": [
-    115,
-    357,
-    125,
-    367
-  ],
-  "terrain": "grassland",
-  "description": [
-    "Four large dogwood trees stand at the northern, eastern, southern and western corners of this patch of grass, forming a refuge from the dust and odors of the pens to the west and the smoke from a campsite to the east.  A row of merchant wagons lines the southern wall of the palisade."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Northern Caravansary, Green]"
-  ],
-  "check_location": null,
   "timeto": {
     "9251": 0.2,
     "9253": 0.2,
@@ -38,8 +30,13 @@
     "9247": 0.2,
     "9249": 0.2
   },
-  "id": 9256,
-  "location": "the Northern Caravansary",
+  "image": "vo-trail-1264234799.png",
+  "image_coords": [
+    115,
+    357,
+    125,
+    367
+  ],
   "tags": [
     "some acantha leaf",
     "node",
@@ -61,54 +58,6 @@
     "genkew mushroom",
     "meta:mapname:Trail to Vornavis",
     "meta:mapcategory:Vornavis",
-    "meta:mapcategory:Wehnimer's Landing",
-    "acantha leaf",
-    "ambrominas leaf",
-    "sovyn clove",
-    "small flower",
-    "small rose",
-    "small daisy",
-    "angelica root",
-    "trollfear mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "small violet",
-    "bright red teaberry",
-    "stalk of chicory",
-    "wild grapes",
-    "sprig of alyssum",
-    "heath aster",
-    "golden buttercup",
-    "red clover blossom",
-    "pink clover blossom",
-    "yellow clover blossom",
-    "sprig of larkspur",
-    "yellow primrose",
-    "Imaera's Lace",
-    "rose-marrow root",
-    "wild chokecherry",
-    "motherwort",
-    "wolfsbane root",
-    "huckleberries",
-    "sprig of ivy",
-    "raspberries",
-    "small apple",
-    "wiregrass",
-    "white lily",
-    "fire lily",
-    "ayana leaf",
-    "pepperthorn root",
-    "luckbloom blossom",
-    "murdroot",
-    "wavepetal blossom",
-    "ironfern root",
-    "nightbloom blossom",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:mapcategory:Wehnimer's Landing"
   ]
 }

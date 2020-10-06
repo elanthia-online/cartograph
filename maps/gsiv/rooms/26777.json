@@ -1,33 +1,26 @@
 {
-  "wayto": {
-    "26776": "north"
-  },
+  "id": 26777,
+  "title": [
+    "[Catacombs, Dark Tunnels]"
+  ],
+  "description": [
+    "The ceiling has collapsed around the remaining supports, blocking any further movement to the south.  As you look over the rocks and splintered beams, you can make out small scratchmarks that cover everything."
+  ],
   "paths": [
     "Obvious exits: north"
   ],
+  "location": "the catacombs",
+  "wayto": {
+    "26776": "north"
+  },
+  "timeto": {
+    "26776": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     927,
     1306,
     937,
     1317
-  ],
-  "terrain": null,
-  "description": [
-    "The ceiling has collapsed around the remaining supports, blocking any further movement to the south.  As you look over the rocks and splintered beams, you can make out small scratchmarks that cover everything."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Catacombs, Dark Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26776": 0.2
-  },
-  "id": 26777,
-  "location": "the catacombs",
-  "tags": [
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+  ]
 }

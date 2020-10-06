@@ -1,45 +1,34 @@
 {
+  "id": 5370,
+  "title": [
+    "[Noman's Land, Cave]"
+  ],
+  "description": [
+    "The cavern twists sharply here, curving north and east.  The southern wall is covered with a sickly grey fungus, which smells even worse than it looks.  Several chunks have been scooped out of it, as if by the hand of a giant."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "Noman's Land",
   "wayto": {
     "5369": "north",
     "5371": "east"
   },
-  "paths": [
-    "Obvious exits: north, east"
-  ],
+  "timeto": {
+    "5369": 0.2,
+    "5371": 0.2
+  },
+  "image": "vo-caravansary-1264234799.png",
   "image_coords": [
     161,
     639,
     169,
     647
   ],
-  "terrain": "indoors",
-  "description": [
-    "The cavern twists sharply here, curving north and east.  The southern wall is covered with a sickly grey fungus, which smells even worse than it looks.  Several chunks have been scooped out of it, as if by the hand of a giant."
-  ],
-  "image": "vo-caravansary-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Noman's Land, Cave]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5369": 0.2,
-    "5371": 0.2
-  },
-  "id": 5370,
-  "location": "Noman's Land",
   "tags": [
     "some wingstem root",
     "withered black mushroom",
     "some wolifrew lichen",
-    "cyclops",
-    "wolifrew lichen",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "cyclops"
   ]
 }

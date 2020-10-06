@@ -1,33 +1,30 @@
 {
+  "id": 837,
+  "title": [
+    "[Whistler's Pass, Subalpine]"
+  ],
+  "description": [
+    "The trail circles the lake, then crosses a large stream that carries its water south down the mountain.  A rough-hewn stone footbridge allows you to cross without getting wet, which might be dangerous in the chill mountain air."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "836": "go footbridge",
     "838": "west"
   },
-  "paths": [
-    "Obvious paths: west"
-  ],
+  "timeto": {
+    "836": 0.2,
+    "838": 0.2
+  },
+  "image": "en-whistlers_pass-1264234799.png",
   "image_coords": [
     1132,
     849,
     1142,
     859
   ],
-  "terrain": "riparian",
-  "description": [
-    "The trail circles the lake, then crosses a large stream that carries its water south down the mountain.  A rough-hewn stone footbridge allows you to cross without getting wet, which might be dangerous in the chill mountain air."
-  ],
-  "image": "en-whistlers_pass-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Whistler's Pass, Subalpine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "836": 0.2,
-    "838": 0.2
-  },
-  "id": 837,
-  "location": "Whistler's Pass",
   "tags": [
     "acantha leaf",
     "ephlox moss",
@@ -50,10 +47,6 @@
     "murdroot",
     "wavepetal blossom",
     "ironfern root",
-    "talneo root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "talneo root"
   ]
 }

@@ -1,33 +1,30 @@
 {
+  "id": 8566,
+  "title": [
+    "[Alpine Meadow]"
+  ],
+  "description": [
+    "A narrow road, which stretches far out of sight to the west, comes to an abrupt end here under a carpet of lush grasses.  The surrounding countryside appears to have been used for pasture, but no animals can be seen."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "the foothills of Zeltoph",
   "wayto": {
     "8555": "west",
     "8567": "go trail"
   },
-  "paths": [
-    "Obvious paths: west"
-  ],
+  "timeto": {
+    "8555": 0.2,
+    "8567": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     1373,
     785,
     1383,
     795
   ],
-  "terrain": "grassland",
-  "description": [
-    "A narrow road, which stretches far out of sight to the west, comes to an abrupt end here under a carpet of lush grasses.  The surrounding countryside appears to have been used for pasture, but no animals can be seen."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Alpine Meadow]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8555": 0.2,
-    "8567": 0.2
-  },
-  "id": 8566,
-  "location": "the foothills of Zeltoph",
   "tags": [
     "orris root",
     "handful of raspberries",
@@ -102,11 +99,6 @@
     "ironfern root",
     "nightbloom blossom",
     "brostheras grass",
-    "woad leaves",
-    "sunburst blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "woad leaves"
   ]
 }

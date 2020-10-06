@@ -1,36 +1,25 @@
 {
+  "id": 8812,
+  "title": [
+    "[Frith's Inn, Second Floor]"
+  ],
+  "description": [
+    "You are on the second floor of the inn.  As you lean over the polished modwir railing that surrounds the open landing, you see the front room below.  The stairway continues up and down here.  To the east is an oak door and to the west a teakwood door bearing a brass plaque."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "8813": "go teakwood door",
     "8814": "go oak door",
     "8815": "up",
     "1264": "down"
   },
-  "paths": [
-    "Obvious exits: up, down"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "You are on the second floor of the inn.  As you lean over the polished modwir railing that surrounds the open landing, you see the front room below.  The stairway continues up and down here.  To the east is an oak door and to the west a teakwood door bearing a brass plaque."
-  ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Frith's Inn, Second Floor]"
-  ],
-  "check_location": null,
   "timeto": {
     "8813": 0.2,
     "8814": 0.2,
     "8815": 0.2,
     "1264": 0.2
-  },
-  "id": 8812,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "links": [
-
-  ]
+  }
 }

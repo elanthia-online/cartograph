@@ -1,41 +1,33 @@
 {
+  "id": 13017,
+  "title": [
+    "[Bonespear Tower, West Hallway]"
+  ],
+  "description": [
+    "The hall ends at a gruesome doorway constructed completely of teeth.  Only the polished ivory femur used for a handle stands out, the rest of the door is nothing more than a mass of fangs and molars.  This passage won't soon bring a smile to anyone's face."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Bonespear Tower",
   "wayto": {
     "13018": "go doorway",
     "5418": "east"
   },
-  "paths": [
-    "Obvious exits: east"
-  ],
+  "timeto": {
+    "13018": 0.2,
+    "5418": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     880,
     1017,
     890,
     1027
   ],
-  "terrain": "indoors",
-  "description": [
-    "The hall ends at a gruesome doorway constructed completely of teeth.  Only the polished ivory femur used for a handle stands out, the rest of the door is nothing more than a mass of fangs and molars.  This passage won't soon bring a smile to anyone's face."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Bonespear Tower, West Hallway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "13018": 0.2,
-    "5418": 0.2
-  },
-  "id": 13017,
-  "location": "Bonespear Tower",
   "tags": [
     "waern",
     "dybbuk",
-    "eidolon",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "eidolon"
   ]
 }

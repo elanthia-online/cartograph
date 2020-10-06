@@ -1,36 +1,33 @@
 {
+  "id": 11031,
+  "title": [
+    "[Wizard Guild, Courtyard]"
+  ],
+  "description": [
+    "An expanse of lush grass stretches north to a pair of ivy-grown gates.  Ancient trees, their shadows long in the moonlight, almost obscure a domed building to your south, its curvilinear architecture giving it the look of having grown from the land it occupies.  A winding flagstone walkway leads to the ivy-covered gates of the guild hall.",
+    "An expanse of lush grass stretches north to a pair of ivy-grown gates.  Ancient trees cast dappled shadows on a domed building to your south, its curvilinear architecture giving it the look of something grown from the land rather than an artificial construct.  A winding flagstone walkway leads to the ivy-covered gates of the guild hall."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "River's Rest",
   "wayto": {
     "16166": "go cottage",
     "11030": "north",
     "16123": "go gates"
   },
-  "paths": [
-    "Obvious paths: north"
-  ],
+  "timeto": {
+    "16166": 0.2,
+    "11030": 0.2,
+    "16123": 0.2
+  },
+  "image": "rr-wizard_guild.png",
   "image_coords": [
     280,
     523,
     340,
     582
   ],
-  "terrain": null,
-  "description": [
-    "An expanse of lush grass stretches north to a pair of ivy-grown gates.  Ancient trees, their shadows long in the moonlight, almost obscure a domed building to your south, its curvilinear architecture giving it the look of having grown from the land it occupies.  A winding flagstone walkway leads to the ivy-covered gates of the guild hall.",
-    "An expanse of lush grass stretches north to a pair of ivy-grown gates.  Ancient trees cast dappled shadows on a domed building to your south, its curvilinear architecture giving it the look of something grown from the land rather than an artificial construct.  A winding flagstone walkway leads to the ivy-covered gates of the guild hall."
-  ],
-  "image": "rr-wizard_guild.png",
-  "climate": null,
-  "title": [
-    "[Wizard Guild, Courtyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "16166": 0.2,
-    "11030": 0.2,
-    "16123": 0.2
-  },
-  "id": 11031,
-  "location": "River's Rest",
   "tags": [
     "some sovyn clove",
     "wizardguild",
@@ -43,8 +40,5 @@
     "meta:mapshortname:Wizard Guild (River's Rest)",
     "meta:mapcategory:River's Rest",
     "meta:mapcategory:Guilds"
-  ],
-  "links": [
-
   ]
 }

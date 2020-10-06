@@ -1,40 +1,32 @@
 {
+  "id": 7630,
+  "title": [
+    "[Rocky Shore, Massive Boulder]"
+  ],
+  "description": [
+    "As you scramble and claw your way along the crevices, you dislodge several bird's nests.  One at least is still occupied and the owner gives vent to a raucous screeching that makes your ears ring as it echoes from the cliffs behind you."
+  ],
+  "paths": [
+    "Obvious paths: up, down"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "7629": "down",
     "7631": "up"
   },
-  "paths": [
-    "Obvious paths: up, down"
-  ],
+  "timeto": {
+    "7629": 0.2,
+    "7631": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     358,
     611,
     368,
     621
   ],
-  "terrain": "rough",
-  "description": [
-    "As you scramble and claw your way along the crevices, you dislodge several bird's nests.  One at least is still occupied and the owner gives vent to a raucous screeching that makes your ears ring as it echoes from the cliffs behind you."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "saltwater",
-  "title": [
-    "[Rocky Shore, Massive Boulder]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7629": 0.2,
-    "7631": 0.2
-  },
-  "id": 7630,
-  "location": "the Coastal Cliffs",
   "tags": [
     "strand of seaweed",
-    "broken twig",
-    "strof seaweed",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "broken twig"
   ]
 }

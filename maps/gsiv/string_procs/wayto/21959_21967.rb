@@ -1,1 +1,2 @@
-fput 'search'; move 'go crack'
+fput 'search'
+ move 'go crack'

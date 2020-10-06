@@ -1,38 +1,28 @@
 {
+  "id": 8228,
+  "title": [
+    "[Wolves' Den, Assembly Hall]"
+  ],
+  "description": [
+    "This long, vast hall is empty.  Torch sconces line the grey stone walls.  The remains of a small podium molder at the southern end.  A passage just beyond them leads south into the shadows."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Wolves' Den",
   "wayto": {
     "8227": "north",
     "8229": "south"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "8227": 0.2,
+    "8229": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     133,
     309,
     143,
     319
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This long, vast hall is empty.  Torch sconces line the grey stone walls.  The remains of a small podium molder at the southern end.  A passage just beyond them leads south into the shadows."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Wolves' Den, Assembly Hall]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8227": 0.2,
-    "8229": 0.2
-  },
-  "id": 8228,
-  "location": "the Wolves' Den",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,48 +1,34 @@
 {
-  "wayto": {
-    "21069": {
-      "stringproc": "25b57a47fa24e6f4eea217034f76e70e"
-    },
-    "20967": "go bank",
-    "21068": {
-      "stringproc": "33cfbebf60fac526621a584ea88dc94d"
-    }
-  },
-  "paths": [
-    "Obvious paths: south, northwest"
-  ],
-  "image_coords": [
-    1580,
-    1920,
-    1599,
-    1939
-  ],
-  "terrain": "riparian",
-  "description": [
-    "Slipping in and out of the gently curving landscape, the river picks up a bit of speed as it leaves the dark hills of the south and heads towards the northern jungle.  The western bank is comprised of a sheer cliff of dark granite, while the eastern bank has been fitted with a small landing dock.  Arching over the water course is an aerial bridge crafted of rough granite and pebbles."
-  ],
-  "image": "ifw-wilds-1368242816.png",
-  "climate": "freshwater",
+  "id": 20980,
   "title": [
     "[Alhan'aht River, Hilly Pass]"
   ],
-  "check_location": null,
+  "description": [
+    "Slipping in and out of the gently curving landscape, the river picks up a bit of speed as it leaves the dark hills of the south and heads towards the northern jungle.  The western bank is comprised of a sheer cliff of dark granite, while the eastern bank has been fitted with a small landing dock.  Arching over the water course is an aerial bridge crafted of rough granite and pebbles."
+  ],
+  "paths": [
+    "Obvious paths: south, northwest"
+  ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "21069": {
+      "file": "string_procs/wayto/20980_21069.rb"
+    },
+    "20967": "go bank",
+    "21068": {
+      "file": "string_procs/wayto/20980_21068.rb"
+    }
+  },
   "timeto": {
     "21069": 2.0,
     "20967": 0.2,
     "21068": 2.0
   },
-  "id": 20980,
-  "location": "Mist Harbor",
-  "tags": [
-    "stalk of cattail",
-    "murdroot",
-    "wavepetal blossom",
-    "sunburst blossom",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null,
-  "links": [
-
+  "image": "ifw-wilds-1368242816.png",
+  "image_coords": [
+    1580,
+    1920,
+    1599,
+    1939
   ]
 }

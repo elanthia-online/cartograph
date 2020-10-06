@@ -1,34 +1,25 @@
 {
+  "id": 25890,
+  "title": [
+    "[Shrine of Leya, Secret Passage]"
+  ],
+  "description": [
+    "Clay and shale walls glisten with a slight, damp trickle from the verdant forest above, sproutings of tangled roots run along the sides like skeletal fingers.  The gently sloping dirt floor leads down a torch-lit passage towards a flickering light glowing brightly at the far end.  Along the east wall, a long tapestry has been draped, illumination showing through where the edges warp and bow out."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "the distant forest",
   "wayto": {
     "8148": {
-      "stringproc": "ad916ab46365e15a3f8007bf1add0265"
+      "file": "string_procs/wayto/25890_8148.rb"
     },
     "25889": "down",
     "25891": "go tapestry"
   },
-  "paths": [
-    "Obvious exits: down"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Clay and shale walls glisten with a slight, damp trickle from the verdant forest above, sproutings of tangled roots run along the sides like skeletal fingers.  The gently sloping dirt floor leads down a torch-lit passage towards a flickering light glowing brightly at the far end.  Along the east wall, a long tapestry has been draped, illumination showing through where the edges warp and bow out."
-  ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Shrine of Leya, Secret Passage]"
-  ],
-  "check_location": null,
   "timeto": {
     "8148": 0.3,
     "25889": 0.2,
     "25891": 0.2
-  },
-  "id": 25890,
-  "location": "the distant forest",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  }
 }

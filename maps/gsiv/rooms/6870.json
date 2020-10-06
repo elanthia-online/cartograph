@@ -1,40 +1,30 @@
 {
+  "id": 6870,
+  "title": [
+    "[Abandoned Inn, Common Room]"
+  ],
+  "description": [
+    "The circular hearth in the center of the room burns merrily, shedding warmth and cheerful light.  Benches, chairs and other places to ease tired feet line the walls, promising comfort and rest to weary travellers.  A small archway opens to the west, giving a glimpse of a cozy tavern, while a green brocade curtain leads back into the front hall."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "the Abandoned Inn",
   "wayto": {
     "6873": "north",
     "6854": "go curtain",
     "6871": "west"
   },
-  "paths": [
-    "Obvious exits: north, west"
-  ],
-  "image_coords": [
-    799,
-    995,
-    809,
-    1005
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The circular hearth in the center of the room burns merrily, shedding warmth and cheerful light.  Benches, chairs and other places to ease tired feet line the walls, promising comfort and rest to weary travellers.  A small archway opens to the west, giving a glimpse of a cozy tavern, while a green brocade curtain leads back into the front hall."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abandoned Inn, Common Room]"
-  ],
-  "check_location": null,
   "timeto": {
     "6873": 0.2,
     "6854": 0.2,
     "6871": 0.2
   },
-  "id": 6870,
-  "location": "the Abandoned Inn",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-gates-1264234799.png",
+  "image_coords": [
+    799,
+    995,
+    809,
+    1005
   ]
 }

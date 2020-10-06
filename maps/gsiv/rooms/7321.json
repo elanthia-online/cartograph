@@ -1,37 +1,34 @@
 {
+  "id": 7321,
+  "title": [
+    "[Secluded Valley]"
+  ],
+  "description": [
+    "Dead trees reach out of the mist towards the sky, seeking to grasp some remnant of hope.  A few large black rocks break the surface of the chalky vapors, marking the surroundings."
+  ],
+  "paths": [
+    "Obvious paths: southeast, south, southwest, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7320": "south",
     "7319": "southeast",
     "7322": "southwest",
     "7323": "west"
   },
-  "paths": [
-    "Obvious paths: southeast, south, southwest, west"
-  ],
-  "image_coords": [
-    967,
-    315,
-    977,
-    325
-  ],
-  "terrain": "barren scrub",
-  "description": [
-    "Dead trees reach out of the mist towards the sky, seeking to grasp some remnant of hope.  A few large black rocks break the surface of the chalky vapors, marking the surroundings."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Secluded Valley]"
-  ],
-  "check_location": null,
   "timeto": {
     "7320": 0.2,
     "7319": 0.2,
     "7322": 0.2,
     "7323": 0.2
   },
-  "id": 7321,
-  "location": "the Graveyard",
+  "image": "wl-graveyard-1264234799.png",
+  "image_coords": [
+    967,
+    315,
+    977,
+    325
+  ],
   "tags": [
     "wild chokecherry",
     "sprig of larkspur",
@@ -47,10 +44,6 @@
     "small wild rose",
     "blue whortleberry",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

@@ -1,38 +1,27 @@
 {
+  "id": 11515,
+  "title": [
+    "[Ruined Dungeon, Chamber]"
+  ],
+  "description": [
+    "A broad stairway descends into this chamber, and muted grey light carries down the stairs to wash over the rough stone floor.  The rounded chamber was a guardpost, judging by the iron bell hanging from a steel brace protruding from the wall and the rotting weapon rack that rests against the side of the stairwell.  The remains of an iron gate, long ago turned to rust, lie on the floor before a shadow-draped corridor leading southeast."
+  ],
+  "paths": [
+    "Obvious exits: southeast, up"
+  ],
   "wayto": {
     "11492": "up",
     "11516": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast, up"
-  ],
+  "timeto": {
+    "11492": 0.2,
+    "11516": 0.2
+  },
+  "image": "rr-maelstrom-1266390501.png",
   "image_coords": [
     900,
     982,
     910,
     992
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A broad stairway descends into this chamber, and muted grey light carries down the stairs to wash over the rough stone floor.  The rounded chamber was a guardpost, judging by the iron bell hanging from a steel brace protruding from the wall and the rotting weapon rack that rests against the side of the stairwell.  The remains of an iron gate, long ago turned to rust, lie on the floor before a shadow-draped corridor leading southeast."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "indoors",
-  "title": [
-    "[Ruined Dungeon, Chamber]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11492": 0.2,
-    "11516": 0.2
-  },
-  "id": 11515,
-  "location": "the Ruined Tower",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

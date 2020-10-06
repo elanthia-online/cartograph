@@ -1,35 +1,28 @@
 {
+  "id": 25911,
+  "title": [
+    "[Sylinar's Spire]"
+  ],
+  "description": [
+    "An arched wooden door stands illuminated by tall pillar candles sitting on stone pedestals to either side.  The staircase has been blocked by a thick-linked iron chain, preventing further ascent."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Summit Academy",
   "wayto": {
     "25912": "go door",
     "25910": "down"
   },
-  "paths": [
-    "Obvious exits: down"
-  ],
+  "timeto": {
+    "25912": 0.2,
+    "25910": 0.2
+  },
+  "image": "Spire_Grounds_5117.png",
   "image_coords": [
     938,
     104,
     989,
     159
-  ],
-  "terrain": null,
-  "description": [
-    "An arched wooden door stands illuminated by tall pillar candles sitting on stone pedestals to either side.  The staircase has been blocked by a thick-linked iron chain, preventing further ascent."
-  ],
-  "image": "Spire_Grounds_5117.png",
-  "climate": null,
-  "title": [
-    "[Sylinar's Spire]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "25912": 0.2,
-    "25910": 0.2
-  },
-  "id": 25911,
-  "location": "Summit Academy",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

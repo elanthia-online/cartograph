@@ -1,43 +1,34 @@
 {
+  "id": 12003,
+  "title": [
+    "[Aqueduct]"
+  ],
+  "description": [
+    "A side tunnel heads east off the north/south aqueduct.  The area is unnervingly quiet.  The only sounds are those produced by the lapping of the water against the tunnel sides and those produced by interlopers from outside.  Even the lapping, though, is an unnatural consequence of the invasion by those who do not belong here.  The area was totally quiet before the intruders arrived, and it will become totally quiet again once they leave."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south"
+  ],
+  "location": "Old Ta'Faendryl",
   "wayto": {
     "12002": "north",
     "12004": "south",
     "12005": "east"
   },
-  "paths": [
-    "Obvious exits: north, east, south"
-  ],
+  "timeto": {
+    "12002": 0.2,
+    "12004": 0.2,
+    "12005": 0.2
+  },
+  "image": "en-old_ta_faendryl-1264234799.png",
   "image_coords": [
     281,
     293,
     291,
     303
   ],
-  "terrain": "indoors",
-  "description": [
-    "A side tunnel heads east off the north/south aqueduct.  The area is unnervingly quiet.  The only sounds are those produced by the lapping of the water against the tunnel sides and those produced by interlopers from outside.  Even the lapping, though, is an unnatural consequence of the invasion by those who do not belong here.  The area was totally quiet before the intruders arrived, and it will become totally quiet again once they leave."
-  ],
-  "image": "en-old_ta_faendryl-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Aqueduct]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "12002": 0.2,
-    "12004": 0.2,
-    "12005": 0.2
-  },
-  "id": 12003,
-  "location": "Old Ta'Faendryl",
   "tags": [
     "murdroot",
-    "some wingstem root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

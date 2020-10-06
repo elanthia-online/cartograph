@@ -1,40 +1,31 @@
 {
-  "wayto": {
-    "10117": {
-      "stringproc": "fc266ee5271704f1b14355032e91f2ca"
-    },
-    "10120": "south"
-  },
+  "id": 10119,
+  "title": [
+    "[Lake of Fear, South Dock]"
+  ],
+  "description": [
+    "Water laps about the pilings that hold up the greying surface of the wooden dock, the only sound to be heard across the eerily silent lake.  A thick coil of rope lies at the edge of the dock, waiting for the next boat to arrive.  A small wooden sign is tacked to the dock's sturdy railing.",
+    "Water laps about the pilings that hold up the greying surface of the wooden dock, the only sound to be heard across the dark and eerily silent lake.  A thick coil of rope lies at the edge of the dock, waiting for the next boat to arrive.  A small wooden sign is tacked to the dock's sturdy railing."
+  ],
   "paths": [
     "Obvious paths: south"
   ],
+  "location": "the Lake of Fear",
+  "wayto": {
+    "10117": {
+      "file": "string_procs/wayto/10119_10117.rb"
+    },
+    "10120": "south"
+  },
+  "timeto": {
+    "10117": 300.0,
+    "10120": 0.2
+  },
+  "image": "en-fearling-1264234799.png",
   "image_coords": [
     666,
     237,
     676,
     247
-  ],
-  "terrain": null,
-  "description": [
-    "Water laps about the pilings that hold up the greying surface of the wooden dock, the only sound to be heard across the eerily silent lake.  A thick coil of rope lies at the edge of the dock, waiting for the next boat to arrive.  A small wooden sign is tacked to the dock's sturdy railing.",
-    "Water laps about the pilings that hold up the greying surface of the wooden dock, the only sound to be heard across the dark and eerily silent lake.  A thick coil of rope lies at the edge of the dock, waiting for the next boat to arrive.  A small wooden sign is tacked to the dock's sturdy railing."
-  ],
-  "image": "en-fearling-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Lake of Fear, South Dock]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10117": 300.0,
-    "10120": 0.2
-  },
-  "id": 10119,
-  "location": "the Lake of Fear",
-  "tags": [
-
-  ],
-  "links": [
-
   ]
 }

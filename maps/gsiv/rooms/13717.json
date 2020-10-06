@@ -1,39 +1,28 @@
 {
+  "id": 13717,
+  "title": [
+    "[Empath Guild, Cloister]"
+  ],
+  "description": [
+    "Shadowy ivy vines across the limestone walls of a building forming the western side of the cloister, and climbing figs and leafy vines with tightly furled flowers meander about the columns which open onto the darkened garth.  A single rambling rose vine with blood red blooms frames a white door limned with stylized acantha leaf knotwork, matching a mosaic underfoot.",
+    "Ivy vines across the limestone walls of a building forming the western side of the cloister, and climbing figs and flower-filled leafy vines meander about the columns which open onto the garth.  A single rambling rose vine with blood red blooms frames a white door limned with stylized acantha leaf knotwork, matching a mosaic underfoot."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Ta'Vaalor",
   "wayto": {
     "13721": "south",
     "13716": "go steps",
     "18757": "go door",
     "13720": "north"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Shadowy ivy vines across the limestone walls of a building forming the western side of the cloister, and climbing figs and leafy vines with tightly furled flowers meander about the columns which open onto the darkened garth.  A single rambling rose vine with blood red blooms frames a white door limned with stylized acantha leaf knotwork, matching a mosaic underfoot.",
-    "Ivy vines across the limestone walls of a building forming the western side of the cloister, and climbing figs and flower-filled leafy vines meander about the columns which open onto the garth.  A single rambling rose vine with blood red blooms frames a white door limned with stylized acantha leaf knotwork, matching a mosaic underfoot."
-  ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Empath Guild, Cloister]"
-  ],
-  "check_location": null,
   "timeto": {
     "13721": 0.2,
     "13716": 0.2,
     "18757": {
-      "stringproc": "3728350e778521b6c3dae4d582bad44a"
+      "file": "string_procs/timeto/13717_18757.rb"
     },
     "13720": 0.2
-  },
-  "id": 13717,
-  "location": "Ta'Vaalor",
-  "tags": [
-
-  ],
-  "links": [
-
-  ]
+  }
 }

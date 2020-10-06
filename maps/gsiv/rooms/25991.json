@@ -1,35 +1,28 @@
 {
+  "id": 25991,
+  "title": [
+    "[Journey's End, Sitting Room]"
+  ],
+  "description": [
+    "Tucked away in the back of the manor is an elegant sitting room.  A sliding glass door dominates the north wall, giving a peek at the bright sky and the verdant garden beyond.  Several cushioned chairs are placed around a small mistwood table, creating an intimate setting.  A small porcelain stove sits in the corner, a basket of supplies open beside it.  A buffet table decorates the east wall, atop it sits a small ceramic pot filled with thick greenery, its long tendrils of leaves creeping down the side."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Ta'Illistim",
   "wayto": {
     "25996": "go glass door",
     "26834": "south"
   },
-  "paths": [
-    "Obvious exits: south"
-  ],
+  "timeto": {
+    "25996": 0.2,
+    "26834": 0.2
+  },
+  "image": "JourneysEnd.jpg",
   "image_coords": [
     368,
     505,
     439,
     556
-  ],
-  "terrain": null,
-  "description": [
-    "Tucked away in the back of the manor is an elegant sitting room.  A sliding glass door dominates the north wall, giving a peek at the bright sky and the verdant garden beyond.  Several cushioned chairs are placed around a small mistwood table, creating an intimate setting.  A small porcelain stove sits in the corner, a basket of supplies open beside it.  A buffet table decorates the east wall, atop it sits a small ceramic pot filled with thick greenery, its long tendrils of leaves creeping down the side."
-  ],
-  "image": "JourneysEnd.jpg",
-  "climate": null,
-  "title": [
-    "[Journey's End, Sitting Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "25996": 0.2,
-    "26834": 0.2
-  },
-  "id": 25991,
-  "location": "Ta'Illistim",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

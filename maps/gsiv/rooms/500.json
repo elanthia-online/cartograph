@@ -1,34 +1,31 @@
 {
+  "id": 500,
+  "title": [
+    "[Coastal Cliffs]"
+  ],
+  "description": [
+    "A low, flat rock rests beside the path.  A seedy patch of fragrant wildflowers grows beside it.  The wind seems gentler, and it is slightly warmer here.  Moonlight illuminates the area with a soft glow.",
+    "A low, flat rock rests beside the path.  A seedy patch of fragrant wildflowers grows beside it.  The wind seems gentler, and it is slightly warmer here, perhaps because there are no trees nearby to lend their shade."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "501": "west",
     "499": "east"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "501": 0.2,
+    "499": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     74,
     799,
     84,
     809
   ],
-  "terrain": "grassland",
-  "description": [
-    "A low, flat rock rests beside the path.  A seedy patch of fragrant wildflowers grows beside it.  The wind seems gentler, and it is slightly warmer here.  Moonlight illuminates the area with a soft glow.",
-    "A low, flat rock rests beside the path.  A seedy patch of fragrant wildflowers grows beside it.  The wind seems gentler, and it is slightly warmer here, perhaps because there are no trees nearby to lend their shade."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Coastal Cliffs]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "501": 0.2,
-    "499": 0.2
-  },
-  "id": 500,
-  "location": "the Coastal Cliffs",
   "tags": [
     "sassafras leaf",
     "withered black mushroom",
@@ -60,11 +57,6 @@
     "luckbloom blossom",
     "murdroot",
     "ironfern root",
-    "brostheras grass",
-    "sunburst blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

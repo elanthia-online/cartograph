@@ -1,45 +1,28 @@
 {
+  "id": 24522,
+  "title": [
+    "[Frozen Bramble Patch]"
+  ],
+  "description": [
+    "Thick brambles claw vainly at the frozen ground, trying to gain any sort of purchase.  The spiky plants curve back over themselves again and again, making it impossible to determine exactly where they begin and where they come to an end."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south"
+  ],
+  "location": "the Abandoned Farm",
   "wayto": {
     "24521": "south",
     "24523": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, south"
-  ],
+  "timeto": {
+    "24521": 0.2,
+    "24523": 0.2
+  },
+  "image": "imt-bramble_patch-1307499864.png",
   "image_coords": [
     100,
     224,
     112,
     237
-  ],
-  "terrain": "barren scrub",
-  "description": [
-    "Thick brambles claw vainly at the frozen ground, trying to gain any sort of purchase.  The spiky plants curve back over themselves again and again, making it impossible to determine exactly where they begin and where they come to an end."
-  ],
-  "image": "imt-bramble_patch-1307499864.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Frozen Bramble Patch]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24521": 0.2,
-    "24523": 0.2
-  },
-  "id": 24522,
-  "location": "the Abandoned Farm",
-  "tags": [
-    "snow lily",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "arctic moss",
-    "broken twig",
-    "rockberry",
-    "crowberry",
-    "lingonberry",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+  ]
 }

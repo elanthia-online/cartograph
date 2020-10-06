@@ -1,40 +1,30 @@
 {
+  "id": 21184,
+  "title": [
+    "[Rogue Guild, Sewers]"
+  ],
+  "description": [
+    "Scents of garlic and herbs mingle with those of rotten food.  The water flows slowly past piles of food wastes in various states of decay.  A soft click-click in the darkness suggests that the piles are feasts for some.  Rising from a pile of fresh slop, a slippery ladder leads upward to the apparent source."
+  ],
+  "paths": [
+    "Obvious exits: southwest, west"
+  ],
+  "location": "Mist Harbor",
   "wayto": {
     "21183": "west",
     "21185": "go ladder",
     "21186": "southwest"
   },
-  "paths": [
-    "Obvious exits: southwest, west"
-  ],
-  "image_coords": [
-    733,
-    471,
-    749,
-    486
-  ],
-  "terrain": null,
-  "description": [
-    "Scents of garlic and herbs mingle with those of rotten food.  The water flows slowly past piles of food wastes in various states of decay.  A soft click-click in the darkness suggests that the piles are feasts for some.  Rising from a pile of fresh slop, a slippery ladder leads upward to the apparent source."
-  ],
-  "image": "ifw-rogue_guild.png",
-  "climate": null,
-  "title": [
-    "[Rogue Guild, Sewers]"
-  ],
-  "check_location": null,
   "timeto": {
     "21183": 0.2,
     "21185": 0.2,
     "21186": 0.2
   },
-  "id": 21184,
-  "location": "Mist Harbor",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
+  "image": "ifw-rogue_guild.png",
+  "image_coords": [
+    733,
+    471,
+    749,
+    486
   ]
 }

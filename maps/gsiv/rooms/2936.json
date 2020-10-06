@@ -1,33 +1,30 @@
 {
-  "wayto": {
-    "2937": "go arch",
-    "2935": "down"
-  },
+  "id": 2936,
+  "title": [
+    "[Abbey Approach, Ledge]"
+  ],
+  "description": [
+    "The trail ends at a rose-veined white marble arch laid into the side of the mountain, its pale hue marking it immediately as distinct from the surrounding stone.  Narrow slits in the surrounding rock face are paned with stained glass, indicating that the mountainside is the facade of a small stronghold.  An engraved golden ora plaque gleams through the snow and ice from a smoothed plane of stone to the right of the entryway."
+  ],
   "paths": [
     "Obvious paths: down"
   ],
+  "location": "the Abbey",
+  "wayto": {
+    "2935": "down",
+    "2937": "go arch"
+  },
+  "timeto": {
+    "2935": 0.2,
+    "2937": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     638,
     817,
     648,
     827
   ],
-  "terrain": "mountainous",
-  "description": [
-    "The trail ends at a thick stone arch carved from the side of the mountain.  Narrow slits in the stones indicate that this was once part of a stonehold.  An engraved brass plaque, worn with time but still legible, is affixed to the right of the arch."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[A Winding Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2937": 0.2,
-    "2935": 0.2
-  },
-  "id": 2936,
-  "location": "the Abbey",
   "tags": [
     "buckthorn berry",
     "calamintha blossom",
@@ -51,18 +48,6 @@
     "orange rowanberry",
     "sassafras leaf",
     "some pennyroyal stem",
-    "handful of snowberries",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "tundra grass",
-    "snowberries",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "handful of snowberries"
   ]
 }

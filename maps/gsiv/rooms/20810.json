@@ -1,42 +1,34 @@
 {
-  "wayto": {
-    "20804": "go garden",
-    "25542": {
-      "stringproc": "2212d2573dddaf215e9049a92b9611e2"
-    },
-    "25545": {
-      "stringproc": "e64a17f80d16c9179fd5adbf8b665ddf"
-    },
-    "25546": {
-      "stringproc": "83ce6f327fd6c3d0db93df07c9eec74f"
-    },
-    "25547": {
-      "stringproc": "acb1ee42e98992b715b4a2d782d7f67c"
-    },
-    "25548": {
-      "stringproc": "e848a48101e5c553c6a766083677358c"
-    }
-  },
-  "paths": [
-    "Obvious exits: none"
+  "id": 20810,
+  "title": [
+    "[House Sovyn, Sun Room]"
   ],
-  "image_coords": [
-    1407,
-    182,
-    1575,
-    296
-  ],
-  "terrain": null,
   "description": [
     "Large glass panes form the walls and roof of this room, providing ample sunlight during the day and a perfect spot for the blossoming plants to grow.  The ground is covered with bricks and several tables are placed among the foliage.",
     "Large glass panes form the walls and roof of this sunny room, providing a perfect spot for the blossoming plants to grow.  The ground is covered with bricks and several tables are placed among the foliage."
   ],
-  "image": "wl-house_sovyn-11481362649.png",
-  "climate": null,
-  "title": [
-    "[House Sovyn, Sun Room]"
+  "paths": [
+    "Obvious exits: none"
   ],
-  "check_location": null,
+  "location": "Wehnimer's Landing",
+  "wayto": {
+    "20804": "go garden",
+    "25542": {
+      "file": "string_procs/wayto/20810_25542.rb"
+    },
+    "25545": {
+      "file": "string_procs/wayto/20810_25545.rb"
+    },
+    "25546": {
+      "file": "string_procs/wayto/20810_25546.rb"
+    },
+    "25547": {
+      "file": "string_procs/wayto/20810_25547.rb"
+    },
+    "25548": {
+      "file": "string_procs/wayto/20810_25548.rb"
+    }
+  },
   "timeto": {
     "20804": 0.2,
     "25542": 0.2,
@@ -45,13 +37,11 @@
     "25547": 0.2,
     "25548": 0.2
   },
-  "id": 20810,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
+  "image": "wl-house_sovyn-11481362649.png",
+  "image_coords": [
+    1407,
+    182,
+    1575,
+    296
   ]
 }

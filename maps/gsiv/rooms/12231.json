@@ -1,49 +1,34 @@
 {
-  "wayto": {
-    "12151": {
-      "stringproc": "c01b87e914b9cdeee3471070ec5e96d5"
-    },
-    "12230": "northwest",
-    "12233": "southeast"
-  },
-  "paths": [
-    "Obvious paths: southeast, northwest",
-    "Obvious exits: southeast, northwest"
+  "id": 12231,
+  "title": [
+    "[The Rift, Scatter]"
   ],
-  "image_coords": [
-    295,
-    267,
-    317,
-    289
-  ],
-  "terrain": null,
   "description": [
     "Frost coats an enormous pile of candlesticks and service ware that has been fused together in the middle of the room.  Reaching out of the floor is a bleached skeletal hand, clutching a warped, silver serving tray.",
     "An enormous pile of candlesticks and service ware has been fused together through some source of incredible heat; though the entire room has been scorched save for the three feet space surrounding the clump.  Reaching out of the floor is a bleached skeletal hand, clutching a warped, silver serving tray."
   ],
-  "image": "imt-scatter-1264234799.png",
-  "climate": null,
-  "title": [
-    "[The Rift, Scatter]"
+  "paths": [
+    "Obvious paths: southeast, northwest",
+    "Obvious exits: southeast, northwest"
   ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12151": {
+      "file": "string_procs/wayto/12231_12151.rb"
+    },
+    "12230": "northwest",
+    "12233": "southeast"
+  },
   "timeto": {
     "12151": 11.4,
     "12230": 0.2,
     "12233": 0.2
   },
-  "id": 12231,
-  "location": "the Rift",
-  "tags": [
-    "mass of congealed slime",
-    "oozing fleshsore bulb",
-    "withered deathblossom",
-    "rotting bile green fleshbulb",
-    "slime-covered grave blossom",
-    "discolored fleshbinder bud",
-    "twisted black mawflower"
-  ],
-  "links": [
-
+  "image": "imt-scatter-1264234799.png",
+  "image_coords": [
+    295,
+    267,
+    317,
+    289
   ]
 }

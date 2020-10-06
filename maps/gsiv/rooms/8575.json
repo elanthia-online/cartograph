@@ -1,33 +1,30 @@
 {
+  "id": 8575,
+  "title": [
+    "[Meadow, Wildflower Patch]"
+  ],
+  "description": [
+    "A deceptively tranquil and seductive meadow spreads out before your eyes.  You are overwhelmed for a moment by the sweet smell of the wildflowers and the constant hypnotic humming of insects.  A sink hole in a depression gushes forth with a trickling spring to one side, while along the other side of the opening, a small, mud path is evident."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "7157": "go hole",
     "8576": "east"
   },
-  "paths": [
-    "Obvious paths: east"
-  ],
+  "timeto": {
+    "7157": 0.2,
+    "8576": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     1115,
     403,
     1125,
     413
   ],
-  "terrain": null,
-  "description": [
-    "A deceptively tranquil and seductive meadow spreads out before your eyes.  You are overwhelmed for a moment by the sweet smell of the wildflowers and the constant hypnotic humming of insects.  A sink hole in a depression gushes forth with a trickling spring to one side, while along the other side of the opening, a small, mud path is evident."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Meadow, Wildflower Patch]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7157": 0.2,
-    "8576": 0.2
-  },
-  "id": 8575,
-  "location": "the Upper Trollfang",
   "tags": [
     "some acantha leaf",
     "some pothinir grass",
@@ -41,10 +38,6 @@
     "white clover blossom",
     "sprig of larkspur",
     "pink clover blossom",
-    "small wild rose",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "small wild rose"
   ]
 }

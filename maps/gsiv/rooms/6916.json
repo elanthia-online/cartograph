@@ -1,51 +1,38 @@
 {
+  "id": 6916,
+  "title": [
+    "[Smuggling Tunnels, Passage]"
+  ],
+  "description": [
+    "The tunnel to the southeast is illuminated by a pair of brightly burning lanterns.  The wooden shorings supporting the walls and ceiling look a bit worse for the wear of time but are, in general, whole.  Half a barrel leans against the wall, perhaps for watering beasts or cleaning up in."
+  ],
+  "paths": [
+    "Obvious exits: north, east, southeast, west"
+  ],
+  "location": "the smuggling tunnels",
   "wayto": {
     "6915": "north",
     "6917": "southeast",
     "17095": "west",
     "6924": "east"
   },
-  "paths": [
-    "Obvious exits: north, east, southeast, west"
-  ],
-  "image_coords": [
-    960,
-    1356,
-    970,
-    1366
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The tunnel to the southeast is illuminated by a pair of brightly burning lanterns.  The wooden shorings supporting the walls and ceiling look a bit worse for the wear of time but are, in general, whole.  Half a barrel leans against the wall, perhaps for watering beasts or cleaning up in."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Smuggling Tunnels, Passage]"
-  ],
-  "check_location": null,
   "timeto": {
     "6915": 0.2,
     "6917": 0.2,
     "17095": 0.2,
     "6924": 0.2
   },
-  "id": 6916,
-  "location": "the smuggling tunnels",
+  "image": "wl-gates-1264234799.png",
+  "image_coords": [
+    960,
+    1356,
+    970,
+    1366
+  ],
   "tags": [
     "some cave moss",
     "some wingstem root",
     "withered black mushroom",
-    "some bur-clover root",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some bur-clover root"
   ]
 }

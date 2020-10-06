@@ -1,35 +1,28 @@
 {
+  "id": 26344,
+  "title": [
+    "[Barracks, East Hall]"
+  ],
+  "description": [
+    "The sound of crunching bones echoes down the hallway, accompanied by the pitiful yelp of a dying creature.  Shadows hug the walls, moving about as if liquid darkness."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Talador",
   "wayto": {
     "26332": "west",
     "26345": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "26332": 0.2,
+    "26345": 0.2
+  },
+  "image": "wl-lichs_landing-1500800742.png",
   "image_coords": [
     1370,
     137,
     1396,
     163
-  ],
-  "terrain": null,
-  "description": [
-    "The sound of crunching bones echoes down the hallway, accompanied by the pitiful yelp of a dying creature.  Shadows hug the walls, moving about as if liquid darkness."
-  ],
-  "image": "wl-lichs_landing-1500800742.png",
-  "climate": null,
-  "title": [
-    "[Barracks, East Hall]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26332": 0.2,
-    "26345": 0.2
-  },
-  "id": 26344,
-  "location": "Talador",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

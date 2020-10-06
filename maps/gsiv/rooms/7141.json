@@ -1,42 +1,34 @@
 {
+  "id": 7141,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "The corridor widens a bit here at the corner.  The walls are uneven, as though hewn roughly from the bedrock.  A dark niche and many rocky extrusions twist the shadows into eerie forms.  In a couple of places, it looks like someone meant to dig a tunnel, then changed his mind."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7139": "east",
     "7142": "south",
     "7147": "go passage"
   },
-  "paths": [
-    "Obvious exits: east, south"
-  ],
+  "timeto": {
+    "7139": 0.2,
+    "7142": 0.2,
+    "7147": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     976,
     501,
     986,
     511
   ],
-  "terrain": "indoors",
-  "description": [
-    "The corridor widens a bit here at the corner.  The walls are uneven, as though hewn roughly from the bedrock.  A dark niche and many rocky extrusions twist the shadows into eerie forms.  In a couple of places, it looks like someone meant to dig a tunnel, then changed his mind."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7139": 0.2,
-    "7142": 0.2,
-    "7147": 0.2
-  },
-  "id": 7141,
-  "location": "Darkstone Castle",
   "tags": [
     "kiramon defender",
-    "kiramon worker",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "kiramon worker"
   ]
 }

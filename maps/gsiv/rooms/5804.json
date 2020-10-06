@@ -1,41 +1,31 @@
 {
+  "id": 5804,
+  "title": [
+    "[Zaerthu Tunnels, Abandoned Mine]"
+  ],
+  "description": [
+    "An old mining cart, its sides so eaten with rust that faint light from the phosphorescent lichen on the rough rock wall behind it shows through the holes.  Tools scattered near the cart and scraps of dry-rotted cloth tell a story of a hasty, possibly violent exit."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "the Zaerthu Tunnels",
   "wayto": {
     "5803": "southwest",
     "5805": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southwest"
-  ],
+  "timeto": {
+    "5803": 0.2,
+    "5805": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     179,
     848,
     189,
     858
   ],
-  "terrain": "indoors",
-  "description": [
-    "An old mining cart, its sides so eaten with rust that faint light from the phosphorescent lichen on the rough rock wall behind it shows through the holes.  Tools scattered near the cart and scraps of dry-rotted cloth tell a story of a hasty, possibly violent exit."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Zaerthu Tunnels, Abandoned Mine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5803": 0.2,
-    "5805": 0.2
-  },
-  "id": 5804,
-  "location": "the Zaerthu Tunnels",
   "tags": [
-    "some wolifrew lichen",
-    "wolifrew lichen",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wolifrew lichen"
   ]
 }

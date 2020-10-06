@@ -1,38 +1,28 @@
 {
+  "id": 127,
+  "title": [
+    "[Temple Wyneb, Calvaria]"
+  ],
+  "description": [
+    "A skeleton slumps against the far wall, its clothing little more than rotting scraps laid on dry bones.  Small metal arrows are scattered across the floor and imbedded in the wall, each one furry with dust.  Has the trap been neutralized by this unfortunate soul, or will your next step trigger a deadly rain of metal?"
+  ],
+  "paths": [
+    "Obvious exits: northeast, south"
+  ],
+  "location": "Temple Wyneb",
   "wayto": {
     "128": "northeast",
     "126": "south"
   },
-  "paths": [
-    "Obvious exits: northeast, south"
-  ],
+  "timeto": {
+    "128": 0.2,
+    "126": 0.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     771,
     710,
     781,
     720
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A skeleton slumps against the far wall, its clothing little more than rotting scraps laid on dry bones.  Small metal arrows are scattered across the floor and imbedded in the wall, each one furry with dust.  Has the trap been neutralized by this unfortunate soul, or will your next step trigger a deadly rain of metal?"
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Temple Wyneb, Calvaria]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "128": 0.2,
-    "126": 0.2
-  },
-  "id": 127,
-  "location": "Temple Wyneb",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

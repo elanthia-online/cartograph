@@ -1,1 +1,2 @@
-fput "search";move "pull loose floorboard"
+fput "search"
+move "pull loose floorboard"

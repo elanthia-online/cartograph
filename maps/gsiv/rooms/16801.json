@@ -1,45 +1,38 @@
 {
+  "id": 16801,
+  "title": [
+    "[Hall of the Dead, Debtors Vault]"
+  ],
+  "description": [
+    "Again, the row upon row of small crypts brings bile into your throat.  Though decomposed to various degrees, the strange placement of the bodies in the crypts begins to give you a sense of what this area is all about."
+  ],
+  "paths": [
+    "Obvious exits: north, south, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "4168": "north",
     "16800": "south",
     "16798": "west"
   },
-  "paths": [
-    "Obvious exits: north, south, west"
-  ],
+  "timeto": {
+    "4168": 0.2,
+    "16800": 0.2,
+    "16798": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     967,
     863,
     975,
     871
   ],
-  "terrain": "indoors",
-  "description": [
-    "Again, the row upon row of small crypts brings bile into your throat.  Though decomposed to various degrees, the strange placement of the bodies in the crypts begins to give you a sense of what this area is all about."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Hall of the Dead, Debtors Vault]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4168": 0.2,
-    "16800": 0.2,
-    "16798": 0.2
-  },
-  "id": 16801,
-  "location": "the Graveyard",
   "tags": [
     "wolifrew lichen",
     "withered black mushroom",
     "cave moss",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

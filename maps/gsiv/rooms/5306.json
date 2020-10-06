@@ -1,39 +1,31 @@
 {
+  "id": 5306,
+  "title": [
+    "[Deep Woods, Ruined Temple]"
+  ],
+  "description": [
+    "Burned out torches and shredded tapestries litter the floor, covering pools of crusted, dried blood.  Bones of several humanoid races as well as other unknown creatures mingle with the other debris, broken and chipped as if dropped onto the hard marble.  The air is stagnant, holding the smell of death and decay hostage in the stone ruins."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "the deep woods",
   "wayto": {
     "5305": "south",
     "5307": "east"
   },
-  "paths": [
-    "Obvious exits: east, south"
-  ],
+  "timeto": {
+    "5305": 0.2,
+    "5307": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     1207,
     197,
     1217,
     207
   ],
-  "terrain": "indoors",
-  "description": [
-    "Burned out torches and shredded tapestries litter the floor, covering pools of crusted, dried blood.  Bones of several humanoid races as well as other unknown creatures mingle with the other debris, broken and chipped as if dropped onto the hard marble.  The air is stagnant, holding the smell of death and decay hostage in the stone ruins."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Deep Woods, Ruined Temple]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5305": 0.2,
-    "5307": 0.2
-  },
-  "id": 5306,
-  "location": "the deep woods",
   "tags": [
-    "vesperti",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "vesperti"
   ]
 }

@@ -1,48 +1,35 @@
 {
+  "id": 6927,
+  "title": [
+    "[Smuggling Tunnels, Passage]"
+  ],
+  "description": [
+    "Golden light shines in from the northwest, driving back the darkness encroaching from the southern reaches of the tunnel.  The illumination displays a variety of footprints in the dirt, booted and barefoot alike.  Disturbingly, not all seem made by humans or other friendly races."
+  ],
+  "paths": [
+    "Obvious exits: southwest, west, northwest"
+  ],
+  "location": "the smuggling tunnels",
   "wayto": {
     "6917": "west",
     "6918": "southwest",
     "6924": "northwest"
   },
-  "paths": [
-    "Obvious exits: southwest, west, northwest"
-  ],
+  "timeto": {
+    "6917": 0.2,
+    "6918": 0.2,
+    "6924": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     1012,
     1381,
     1022,
     1391
   ],
-  "terrain": "indoors",
-  "description": [
-    "Golden light shines in from the northwest, driving back the darkness encroaching from the southern reaches of the tunnel.  The illumination displays a variety of footprints in the dirt, booted and barefoot alike.  Disturbingly, not all seem made by humans or other friendly races."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Smuggling Tunnels, Passage]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6917": 0.2,
-    "6918": 0.2,
-    "6924": 0.2
-  },
-  "id": 6927,
-  "location": "the smuggling tunnels",
   "tags": [
     "some bur-clover root",
     "withered black mushroom",
-    "some cave moss",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

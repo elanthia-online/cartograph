@@ -1,4 +1,3 @@
-
 wedge_list = { 'northern' => 'a large thick torus surrounded by nine tiny circles', 'eastern' => 'two crossed upside-down hammers circumscribed by a rounded arc', 'western' => 'a jagged triangular arch bisected by a vertical line', 'southern' => 'three pairs of obliquely intersecting parallel lines' }
 
  wedge_list.each_pair { |direction,position|
@@ -9,4 +8,3 @@ wedge_list = { 'northern' => 'a large thick torus surrounded by nine tiny circle
 	 }
 	 fput "push #{direction} wedge"
  }
- 

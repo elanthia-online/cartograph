@@ -1,68 +1,37 @@
 {
+  "id": 262,
+  "title": [
+    "[Wehnimer's, Valeria St.]"
+  ],
+  "description": [
+    "The footsteps of a few passing wayfarers and townspeople echo on the cobbled pavement between the rows of two-story wooden houses that flank the lane.  The street is quieter and darker here, blocks away from the busy square to the west.",
+    "The footsteps of passing wayfarers and townspeople echo on the cobbled pavement between the rows of two-story wooden houses that flank the lane.  The street seems a bit less congested here, blocks away from the busy square to the west."
+  ],
+  "paths": [
+    "Obvious paths: east, south, west"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "261": "south",
     "263": "east",
     "278": "west"
   },
-  "paths": [
-    "Obvious paths: east, south, west"
-  ],
+  "timeto": {
+    "261": 0.2,
+    "263": 0.2,
+    "278": 0.2
+  },
+  "image": "wl-wehnimers-1264234799.png",
   "image_coords": [
     586,
     350,
     621,
     387
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The footsteps of a few passing wayfarers and townspeople echo on the cobbled pavement between the rows of two-story wooden houses that flank the lane.  The street is quieter and darker here, blocks away from the busy square to the west.",
-    "The footsteps of passing wayfarers and townspeople echo on the cobbled pavement between the rows of two-story wooden houses that flank the lane.  The street seems a bit less congested here, blocks away from the busy square to the west."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Wehnimer's, Valeria St.]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "261": 0.2,
-    "263": 0.2,
-    "278": 0.2
-  },
-  "id": 262,
-  "location": "the town of Wehnimer's Landing",
   "tags": [
     "some acantha leaf",
     "small daisy",
     "stalk of chicory",
-    "meta:teleport:fwi",
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "small flower",
-    "small rose",
-    "angelica root",
-    "withered black mushroom",
-    "sprig of alyssum",
-    "heath aster",
-    "stalk of goldenrod",
-    "yellow primrose",
-    "small wild rose",
-    "wild carrot",
-    "ginger root",
-    "wild chokecherry",
-    "motherwort",
-    "murkweed",
-    "blue whortleberry",
-    "white baneberry",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:teleport:fwi"
   ]
 }

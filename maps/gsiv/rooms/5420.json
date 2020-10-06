@@ -1,45 +1,37 @@
 {
+  "id": 5420,
+  "title": [
+    "[Bonespear Tower, Stairwell]"
+  ],
+  "description": [
+    "The stairs continue both upward and downward from this vantage, but a flickering light down one passage invites those with courage to step out of the narrow stairwell.  The air is very stale, but while the scent is unpleasant, it is still breathable."
+  ],
+  "paths": [
+    "Obvious exits: east, south, up, down"
+  ],
+  "location": "Bonespear Tower",
   "wayto": {
     "5422": "up",
     "5423": "east",
     "5419": "down",
     "5421": "south"
   },
-  "paths": [
-    "Obvious exits: east, south, up, down"
-  ],
-  "image_coords": [
-    996,
-    965,
-    1004,
-    973
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The stairs continue both upward and downward from this vantage, but a flickering light down one passage invites those with courage to step out of the narrow stairwell.  The air is very stale, but while the scent is unpleasant, it is still breathable."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Bonespear Tower, Stairwell]"
-  ],
-  "check_location": null,
   "timeto": {
     "5422": 0.2,
     "5423": 0.2,
     "5419": 0.2,
     "5421": 0.2
   },
-  "id": 5420,
-  "location": "Bonespear Tower",
+  "image": "vo-foggy_valley-1264234799.png",
+  "image_coords": [
+    996,
+    965,
+    1004,
+    973
+  ],
   "tags": [
     "waern",
     "dybbuk",
-    "eidolon",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "eidolon"
   ]
 }

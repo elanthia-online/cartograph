@@ -1,40 +1,30 @@
 {
-  "wayto": {
-    "7000": {
-      "stringproc": "74d7cf40a63d12e81c286a9ec63d19de"
-    },
-    "6998": "go white portcullis"
-  },
+  "id": 6999,
+  "title": [
+    "[Castle Darkstone]"
+  ],
+  "description": [
+    "This narrow passage between the gatetowers is flanked at either end by two great portcullises crafted from solid mein.  Slits in the walls and holes in the ceiling provide defenders of the castle means to eliminate enemy forces trapped between the great gates.  Deep red stains on the floors and walls attest to their efficiency."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "Darkstone Castle",
+  "wayto": {
+    "7000": {
+      "file": "string_procs/wayto/6999_7000.rb"
+    },
+    "6998": "go white portcullis"
+  },
+  "timeto": {
+    "7000": 0.2,
+    "6998": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     431,
     428,
     441,
     438
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This narrow passage between the gatetowers is flanked at either end by two great portcullises crafted from solid mein.  Slits in the walls and holes in the ceiling provide defenders of the castle means to eliminate enemy forces trapped between the great gates.  Deep red stains on the floors and walls attest to their efficiency."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Castle Darkstone]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7000": 0.2,
-    "6998": 0.2
-  },
-  "id": 6999,
-  "location": "Darkstone Castle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

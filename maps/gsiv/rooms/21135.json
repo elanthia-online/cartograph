@@ -1,34 +1,22 @@
 {
-  "wayto": {
-    "21140": "west",
-    "19351": "go door"
-  },
-  "paths": [
-    "Obvious exits: west"
+  "id": 21135,
+  "title": [
+    "[The Broken Stein, Entry]"
   ],
-  "image_coords": null,
-  "terrain": null,
   "description": [
     "Brass lanterns decorate the dark walls and provide the small room with a dusky illumination that is just barely enough light to see by.  A series of cushioned brass stools stand before a polished driftwood bar that has a button-inlaid top, while glass shelves on the back wall support decanters, small barrels, and jars of various liquids.  Bands of moonlight spill through the open door that decorates a windowless wall.",
     "Brass lanterns decorate the dark walls and provide the small room with a dusky illumination that is just barely enough light to make out the sparse furnishings.  A series of cushioned brass stools stand before a polished driftwood bar that has a button-inlaid top, while glass shelves on the back wall support decanters, small barrels, and jars of various liquids.  Bands of moonlight spill through the open door that decorates a windowless wall."
   ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[The Broken Stein, Entry]"
+  "paths": [
+    "Obvious exits: west"
   ],
-  "check_location": null,
+  "location": "Mist Harbor",
+  "wayto": {
+    "21140": "west",
+    "19351": "go door"
+  },
   "timeto": {
     "21140": 0.2,
     "19351": 0.2
-  },
-  "id": 21135,
-  "location": "Mist Harbor",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  }
 }

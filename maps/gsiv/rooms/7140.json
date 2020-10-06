@@ -1,38 +1,30 @@
 {
-  "wayto": {
-    "7139": "go door"
-  },
+  "id": 7140,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "Small pots set high on the walls cast a flickering glow over this messy room.  Shelves and pieces of a broken bench lie scattered around the floor, most of the shelving reduced to splintered boards.  Shards of shattered pots litter the already messy floor, their sharp edges protruding from all the places where you might want to put down your feet."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "Darkstone Castle",
+  "wayto": {
+    "7139": "go door"
+  },
+  "timeto": {
+    "7139": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     1001,
     445,
     1011,
     455
   ],
-  "terrain": "indoors",
-  "description": [
-    "Small pots set high on the walls cast a flickering glow over this messy room.  Shelves and pieces of a broken bench lie scattered around the floor, most of the shelving reduced to splintered boards.  Shards of shattered pots litter the already messy floor, their sharp edges protruding from all the places where you might want to put down your feet."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7139": 0.2
-  },
-  "id": 7140,
-  "location": "Darkstone Castle",
   "tags": [
     "kiramon defender",
-    "kiramon worker",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "kiramon worker"
   ]
 }

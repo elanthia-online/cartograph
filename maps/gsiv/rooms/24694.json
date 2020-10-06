@@ -1,33 +1,30 @@
 {
+  "id": 24694,
+  "title": [
+    "[Red Forest, Ring of Mist]"
+  ],
+  "description": [
+    "Wide trees jut up from the ground, their branches grasping at the sky like gnarled fingers scraping the heavens.  Nearly impenetrable canopies spread out like a blanket overhead, forming a majestic and natural dome that throws the forest floor into a sea of shadows and fog."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "the Red Forest",
   "wayto": {
     "24693": "west",
     "24695": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, west"
-  ],
+  "timeto": {
+    "24693": 0.2,
+    "24695": 0.2
+  },
+  "image": "red_forest-1260914757.png",
   "image_coords": [
     302,
     274,
     316,
     288
   ],
-  "terrain": null,
-  "description": [
-    "Wide trees jut up from the ground, their branches grasping at the sky like gnarled fingers scraping the heavens.  Nearly impenetrable canopies spread out like a blanket overhead, forming a majestic and natural dome that throws the forest floor into a sea of shadows and fog."
-  ],
-  "image": "red_forest-1260914757.png",
-  "climate": null,
-  "title": [
-    "[Red Forest, Ring of Mist]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24693": 0.2,
-    "24695": 0.2
-  },
-  "id": 24694,
-  "location": "the Displaced Red Forest",
   "tags": [
     "some ephlox moss",
     "some tree bark",
@@ -62,24 +59,6 @@
     "broken twig",
     "slender twig",
     "small wild rose",
-    "sweetfern stalk",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "sticks",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "blueberries",
-    "tree bark",
-    "mistweed",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "twisted twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+    "sweetfern stalk"
+  ]
 }

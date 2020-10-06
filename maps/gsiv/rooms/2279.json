@@ -1,50 +1,34 @@
 {
+  "id": 2279,
+  "title": [
+    "[Abandoned Mine]"
+  ],
+  "description": [
+    "A rock lizard sits atop a shelf in the northern wall in the northern wall, its softly kindled eyes blinking in the gloomy dark.  Iron railings descend from a slope to the west, only to be buried under a blockade of rubble that nearly seals the eastern passage completely."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the Abandoned Mine",
   "wayto": {
     "2278": "climb rubble",
     "2280": "west"
   },
-  "paths": [
-    "Obvious exits: west"
-  ],
+  "timeto": {
+    "2278": 0.2,
+    "2280": 0.2
+  },
+  "image": "ti-teras-1264234799.png",
   "image_coords": [
     746,
     1027,
     756,
     1037
   ],
-  "terrain": "indoors",
-  "description": [
-    "A rock lizard sits atop a shelf in the northern wall in the northern wall, its softly kindled eyes blinking in the gloomy dark.  Iron railings descend from a slope to the west, only to be buried under a blockade of rubble that nearly seals the eastern passage completely."
-  ],
-  "image": "ti-teras-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abandoned Mine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2278": 0.2,
-    "2280": 0.2
-  },
-  "id": 2279,
-  "location": "the Abandoned Mine",
   "tags": [
     "genkew mushroom",
     "blue trafel mushroom",
     "some cave moss",
-    "black hook mushroom",
-    "red trafel mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "cave moss",
-    "murdroot",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "black hook mushroom"
   ]
 }

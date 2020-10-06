@@ -1,33 +1,30 @@
 {
+  "id": 8282,
+  "title": [
+    "[Lower Trollfang, Forest]"
+  ],
+  "description": [
+    "The path here broadens and splits off into small, overgrown trails leading deeper into the impenetrable forest.  The way east is rutted and worn, bearing some signs of frequent travel.  After a short distance, the path leaves the cover of the forest and veers off towards a stand of tall conifers which frame the entrance to a large clearing."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Lower Trollfang",
   "wayto": {
     "8283": "east",
     "8281": "west"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "8283": 0.2,
+    "8281": 0.2
+  },
+  "image": "wl-spider_temple-1264234799.png",
   "image_coords": [
     961,
     1388,
     971,
     1398
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "The path here broadens and splits off into small, overgrown trails leading deeper into the impenetrable forest.  The way east is rutted and worn, bearing some signs of frequent travel.  After a short distance, the path leaves the cover of the forest and veers off towards a stand of tall conifers which frame the entrance to a large clearing."
-  ],
-  "image": "wl-spider_temple-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Lower Trollfang, Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8283": 0.2,
-    "8281": 0.2
-  },
-  "id": 8282,
-  "location": "the Lower Trollfang",
   "tags": [
     "some acantha leaf",
     "some torban leaf",
@@ -49,38 +46,6 @@
     "flathead mushroom",
     "daggerstalk mushroom",
     "white baneberry",
-    "coppery rain lily",
-    "acantha leaf",
-    "torban leaf",
-    "calamia fruit",
-    "haphip root",
-    "sticks",
-    "angelica root",
-    "trollfear mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "bright red teaberry",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "broken twig",
-    "pine cone",
-    "pine needles",
-    "golden buttercup",
-    "ginger root",
-    "wild chokecherry",
-    "tree bark",
-    "white lily",
-    "pink rain lily",
-    "yew twig",
-    "ironfern root",
-    "twisted twig",
-    "slender twig",
-    "ebony twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "coppery rain lily"
   ]
 }

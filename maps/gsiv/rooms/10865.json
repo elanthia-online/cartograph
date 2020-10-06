@@ -1,38 +1,29 @@
 {
-  "wayto": {
-    "10861": "down"
-  },
+  "id": 10865,
+  "title": [
+    "[Willow Tree, Platform]"
+  ],
+  "description": [
+    "Moonlight filters through the dense foliage of the willow tree, illuminating the platform.  The rough-hewn oak planks that form the platform are clearly old ship's timbers.  They are slightly curved and retain a faint odor of pitch.  Twigs and windblown leafy detritus are stuck in the cracks of the planks.",
+    "Sunlight filters through the dense foliage of the willow tree, illuminating the platform.  The rough-hewn oak planks that form the platform are clearly old ship's timbers.  They are slightly curved and retain a faint odor of pitch.  Twigs and windblown leafy detritus are stuck in the cracks of the planks."
+  ],
   "paths": [
     "Obvious paths: down"
   ],
+  "wayto": {
+    "10861": "down"
+  },
+  "timeto": {
+    "10861": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     526,
     396,
     564,
     434
   ],
-  "terrain": "hard, flat",
-  "description": [
-    "Moonlight filters through the dense foliage of the willow tree, illuminating the platform.  The rough-hewn oak planks that form the platform are clearly old ship's timbers.  They are slightly curved and retain a faint odor of pitch.  Twigs and windblown leafy detritus are stuck in the cracks of the planks.",
-    "Sunlight filters through the dense foliage of the willow tree, illuminating the platform.  The rough-hewn oak planks that form the platform are clearly old ship's timbers.  They are slightly curved and retain a faint odor of pitch.  Twigs and windblown leafy detritus are stuck in the cracks of the planks."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "temperate",
-  "title": [
-    "[Willow Tree, Platform]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10861": 0.2
-  },
-  "id": 10865,
-  "location": "the town of River's Rest",
   "tags": [
-    "node",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "node"
   ]
 }

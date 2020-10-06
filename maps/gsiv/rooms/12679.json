@@ -1,38 +1,28 @@
 {
+  "id": 12679,
+  "title": [
+    "[Ruined Temple, Second Floor]"
+  ],
+  "description": [
+    "A pair of damaged fire pots flank the remains of a bridge that once connected the balcony to the west with this section of the temple.  Flashes of silver can be seen beneath it as sea creatures swim rapidly through the flooded rooms below."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "the Ruined Temple",
   "wayto": {
     "12678": "south",
     "12680": "east"
   },
-  "paths": [
-    "Obvious exits: east, south"
-  ],
+  "timeto": {
+    "12678": 0.2,
+    "12680": 0.2
+  },
+  "image": "ti-nelemar-1262373036.png",
   "image_coords": [
     743,
     708,
     779,
     744
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A pair of damaged fire pots flank the remains of a bridge that once connected the balcony to the west with this section of the temple.  Flashes of silver can be seen beneath it as sea creatures swim rapidly through the flooded rooms below."
-  ],
-  "image": "ti-nelemar-1262373036.png",
-  "climate": "indoors",
-  "title": [
-    "[Ruined Temple, Second Floor]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "12678": 0.2,
-    "12680": 0.2
-  },
-  "id": 12679,
-  "location": "the Ruined Temple",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,48 +1,32 @@
 {
+  "id": 6835,
+  "title": [
+    "[Upper Trollfang, Outside Inn]"
+  ],
+  "description": [
+    "You stand atop a low, rolling hill.  Green waves of grass and trees stretch back towards the higher hills that cradle this low clearing around the old inn.  From this vantage point, you can survey the inn and its grounds, the decaying roof, the smashed windows, the empty courtyard.  The wind whistles softly, forlornly, through the ruins and twists and eddies around you, causing the foliage to dance.",
+    "You are atop a low, rolling hill.  Waves of grass and trees stretch back towards the higher hills that cradle this low clearing around the old inn, blanketed in darkness.  From this vantage point, you can survey the inn and its grounds, the decaying roof, the smashed windows, the empty courtyard.  The wind whistles softly, forlornly, through the ruins and twists and eddies around you, causing the foliage to dance."
+  ],
+  "paths": [
+    "Obvious paths: down"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "6834": "down",
     "6836": "go ravine"
   },
-  "paths": [
-    "Obvious paths: down"
-  ],
+  "timeto": {
+    "6834": 0.2,
+    "6836": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     1107,
     583,
     1117,
     593
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "You stand atop a low, rolling hill.  Green waves of grass and trees stretch back towards the higher hills that cradle this low clearing around the old inn.  From this vantage point, you can survey the inn and its grounds, the decaying roof, the smashed windows, the empty courtyard.  The wind whistles softly, forlornly, through the ruins and twists and eddies around you, causing the foliage to dance.",
-    "You are atop a low, rolling hill.  Waves of grass and trees stretch back towards the higher hills that cradle this low clearing around the old inn, blanketed in darkness.  From this vantage point, you can survey the inn and its grounds, the decaying roof, the smashed windows, the empty courtyard.  The wind whistles softly, forlornly, through the ruins and twists and eddies around you, causing the foliage to dance."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Upper Trollfang, Outside Inn]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6834": 0.2,
-    "6836": 0.2
-  },
-  "id": 6835,
-  "location": "the Upper Trollfang",
   "tags": [
-    "moonlight cactus-bloom",
-    "cothinar flower",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "stalk of chicory",
-    "broken twig",
-    "sprig of larkspur",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed",
-    "some cothinar flower"
-  ],
-  "links": [
-
+    "moonlight cactus-bloom"
   ]
 }

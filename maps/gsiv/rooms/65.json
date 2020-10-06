@@ -1,34 +1,31 @@
 {
+  "id": 65,
+  "title": [
+    "[Whistler's Pass, Marsh]"
+  ],
+  "description": [
+    "The soggy grass and earth sink underfoot as you pass through, dark water rushing into the new footprints.  A snake slithers through some of the tall grass.",
+    "The soggy grass and earth sink underfoot as you pass through, water rushing into the new footprints.  A snake slithers through some of the tall grass."
+  ],
+  "paths": [
+    "Obvious paths: east, northwest"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "66": "northwest",
     "64": "east"
   },
-  "paths": [
-    "Obvious paths: east, northwest"
-  ],
+  "timeto": {
+    "66": 0.2,
+    "64": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     1000,
     514,
     1010,
     524
   ],
-  "terrain": "muddy wetlands",
-  "description": [
-    "The soggy grass and earth sink underfoot as you pass through, dark water rushing into the new footprints.  A snake slithers through some of the tall grass.",
-    "The soggy grass and earth sink underfoot as you pass through, water rushing into the new footprints.  A snake slithers through some of the tall grass."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Whistler's Pass, Marsh]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "66": 0.2,
-    "64": 0.2
-  },
-  "id": 65,
-  "location": "Whistler's Pass",
   "tags": [
     "wild gooseberry",
     "some talneo root",
@@ -55,10 +52,6 @@
     "bolmara lichen",
     "talneo root",
     "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bur-clover root"
   ]
 }

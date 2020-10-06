@@ -1,38 +1,28 @@
 {
+  "id": 9215,
+  "title": [
+    "[Thurfel's Cellar]"
+  ],
+  "description": [
+    "One of the walls is discolored with a rather large splotch.  The shape of the stain suggests something was hurled into the stone, then squashed like an overripe melon.  The stain has long since dried, but a few pieces of short brownish hair are still stuck within the cracks of the stone."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Thurfel's Island",
   "wayto": {
     "9214": "north",
     "9216": "south"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "9214": 0.2,
+    "9216": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     1253,
     733,
     1263,
     743
-  ],
-  "terrain": "indoors",
-  "description": [
-    "One of the walls is discolored with a rather large splotch.  The shape of the stain suggests something was hurled into the stone, then squashed like an overripe melon.  The stain has long since dried, but a few pieces of short brownish hair are still stuck within the cracks of the stone."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thurfel's Cellar]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9214": 0.2,
-    "9216": 0.2
-  },
-  "id": 9215,
-  "location": "Thurfel's Island",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

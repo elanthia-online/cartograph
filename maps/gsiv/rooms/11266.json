@@ -1,33 +1,30 @@
 {
+  "id": 11266,
+  "title": [
+    "[Citadel, Outside]"
+  ],
+  "description": [
+    "The littered walkway here runs from northeast to southwest, lined by relatively intact but deserted buildings.  A cool breeze follows the pathway, creating soft whispers as it flows through the cracks and holes in the building walls."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11260": "southwest",
     "11267": "ne"
   },
-  "paths": [
-    "Obvious paths: northeast, southwest"
-  ],
+  "timeto": {
+    "11260": 0.2,
+    "11267": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     387,
     661,
     397,
     671
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The littered walkway here runs from northeast to southwest, lined by relatively intact but deserted buildings.  A cool breeze follows the pathway, creating soft whispers as it flows through the cracks and holes in the building walls."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "moist",
-  "title": [
-    "[Citadel, Outside]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11260": 0.2,
-    "11267": 0.2
-  },
-  "id": 11266,
-  "location": "the Citadel",
   "tags": [
     "some aloeas stem",
     "bright red cranberry",
@@ -39,17 +36,6 @@
     "some wingstem root",
     "some calamia fruit",
     "wild chokecherry",
-    "some motherwort",
-    "acantha leaf",
-    "calamia fruit",
-    "aloeas stem",
-    "motherwort",
-    "murkweed",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some motherwort"
   ]
 }

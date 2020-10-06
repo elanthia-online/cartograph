@@ -1,35 +1,32 @@
 {
+  "id": 11322,
+  "title": [
+    "[Citadel, Outside]"
+  ],
+  "description": [
+    "The walkway heads southwest around to the front of the old stone building.  Towards the east it forks, circling to the north and south of the old dry fountain.  A cold clammy breeze blows through the area, sending you into a fit of shivering."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, southwest"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11160": "southeast",
     "11161": "northeast",
     "11293": "sw"
   },
-  "paths": [
-    "Obvious paths: northeast, southeast, southwest"
-  ],
+  "timeto": {
+    "11160": 0.2,
+    "11293": 0.2,
+    "11161": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     913,
     661,
     923,
     671
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The walkway heads southwest around to the front of the old stone building.  Towards the east it forks, circling to the north and south of the old dry fountain.  A cold clammy breeze blows through the area, sending you into a fit of shivering."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "moist",
-  "title": [
-    "[Citadel, Outside]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11160": 0.2,
-    "11293": 0.2,
-    "11161": 0.2
-  },
-  "id": 11322,
-  "location": "the Citadel",
   "tags": [
     "some aloeas stem",
     "bright red cranberry",
@@ -41,17 +38,6 @@
     "some wingstem root",
     "some calamia fruit",
     "wild chokecherry",
-    "some motherwort",
-    "acantha leaf",
-    "calamia fruit",
-    "aloeas stem",
-    "motherwort",
-    "murkweed",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some motherwort"
   ]
 }

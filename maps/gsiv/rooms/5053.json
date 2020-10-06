@@ -1,33 +1,30 @@
 {
+  "id": 5053,
+  "title": [
+    "[Vornavis, Ruins]"
+  ],
+  "description": [
+    "To the north, the ring of a broken tower blocks further progress.  To the south, the path leads toward a large marsh.  Burned and broken stone buildings are near the path here, and large mounds of earth and vegetation indicate where other buildings may have once stood, but are now long forgotten and hidden from sight."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "the plains of Vornavis",
   "wayto": {
     "5052": "south",
     "5054": "go breach"
   },
-  "paths": [
-    "Obvious paths: south"
-  ],
+  "timeto": {
+    "5052": 0.2,
+    "5054": 0.2
+  },
+  "image": "vo-caravansary-1264234799.png",
   "image_coords": [
     746,
     334,
     756,
     344
   ],
-  "terrain": "grassland",
-  "description": [
-    "To the north, the ring of a broken tower blocks further progress.  To the south, the path leads toward a large marsh.  Burned and broken stone buildings are near the path here, and large mounds of earth and vegetation indicate where other buildings may have once stood, but are now long forgotten and hidden from sight."
-  ],
-  "image": "vo-caravansary-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Vornavis, Ruins]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5052": 0.2,
-    "5054": 0.2
-  },
-  "id": 5053,
-  "location": "the plains of Vornavis",
   "tags": [
     "some rose-marrow root",
     "some sovyn clove",
@@ -54,44 +51,6 @@
     "some motherwort",
     "white clover blossom",
     "vermilion fire lily",
-    "red clover blossom",
-    "acantha leaf",
-    "ambrominas leaf",
-    "sovyn clove",
-    "angelica root",
-    "trollfear mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "wild strawberry",
-    "wild grapes",
-    "heath aster",
-    "yellow clover blossom",
-    "stalk of goldenrod",
-    "sprig of larkspur",
-    "Imaera's Lace",
-    "ear of corn",
-    "wild chokecherry",
-    "motherwort",
-    "huckleberries",
-    "raspberries",
-    "small apple",
-    "wiregrass",
-    "white lily",
-    "fire lily",
-    "pepperthorn root",
-    "luckbloom blossom",
-    "murdroot",
-    "wavepetal blossom",
-    "ironfern root",
-    "nightbloom blossom",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "red clover blossom"
   ]
 }

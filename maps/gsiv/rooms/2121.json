@@ -1,34 +1,31 @@
 {
+  "id": 2121,
+  "title": [
+    "[Teras Isle, Lava Flows]"
+  ],
+  "description": [
+    "Flames and incandescent splatterings of lava leap above the treetops to the north.  All along the ridgeline, flashes of red and bright orange peek through the silhouetted foliage and lend an air of impending destruction to the scene.",
+    "Flames and incandescent splatterings of lava leap above the treetops to the north.  All along the ridgeline, flashes of red and dull orange peek through the greenery and lend an air of impending destruction to the scene."
+  ],
+  "paths": [
+    "Obvious paths: northeast, down"
+  ],
+  "location": "the volcano",
   "wayto": {
     "2120": "down",
     "2122": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, down"
-  ],
+  "timeto": {
+    "2120": 0.2,
+    "2122": 0.2
+  },
+  "image": "ti-vtull-1264234799.png",
   "image_coords": [
     1129,
     676,
     1139,
     686
   ],
-  "terrain": null,
-  "description": [
-    "Flames and incandescent splatterings of lava leap above the treetops to the north.  All along the ridgeline, flashes of red and bright orange peek through the silhouetted foliage and lend an air of impending destruction to the scene.",
-    "Flames and incandescent splatterings of lava leap above the treetops to the north.  All along the ridgeline, flashes of red and dull orange peek through the greenery and lend an air of impending destruction to the scene."
-  ],
-  "image": "ti-vtull-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Teras Isle, Lava Flows]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2120": 0.2,
-    "2122": 0.2
-  },
-  "id": 2121,
-  "location": "the volcano",
   "tags": [
     "red clover blossom",
     "small wild rose",
@@ -53,14 +50,6 @@
     "handful of currants",
     "bright red teaberry",
     "wild strawberry",
-    "wild gooseberry",
-    "elderberries",
-    "broken twig",
-    "motherwort",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wild gooseberry"
   ]
 }

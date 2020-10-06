@@ -1,40 +1,30 @@
 {
+  "id": 9771,
+  "title": [
+    "[Maaghara Labyrinth]"
+  ],
+  "description": [
+    "Small tendrils of roots hang from the ceiling and a light mist rises from the ground.  A cluster of tiny worms writhe in pockets of slime oozing from the wall.  The sounds of the squirming pockets of worms echo down the tunnel."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest, northwest"
+  ],
+  "location": "the Maaghara Tower",
   "wayto": {
     "9770": "southeast",
     "9772": "northwest",
     "9784": "southwest"
   },
-  "paths": [
-    "Obvious exits: southeast, southwest, northwest"
-  ],
-  "image_coords": [
-    1097,
-    679,
-    1107,
-    689
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Small tendrils of roots hang from the ceiling and a light mist rises from the ground.  A cluster of tiny worms writhe in pockets of slime oozing from the wall.  The sounds of the squirming pockets of worms echo down the tunnel."
-  ],
-  "image": "en-tower-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Maaghara Labyrinth]"
-  ],
-  "check_location": null,
   "timeto": {
     "9770": 0.2,
     "9772": 0.2,
     "9784": 0.2
   },
-  "id": 9771,
-  "location": "the Maaghara Tower",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-tower-1264234799.png",
+  "image_coords": [
+    1097,
+    679,
+    1107,
+    689
   ]
 }

@@ -1,35 +1,28 @@
 {
+  "id": 25127,
+  "title": [
+    "[Reim Castle, East Wing]"
+  ],
+  "description": [
+    "The chamber narrows artistically along a gold-covered lattice rug.  A row of narrow skylights shine light upon support beams below, casting shadows in a matching latticework pattern to the rug.  Draped with curtains, a carved gold arch leads deeper into the visitor's wing.  A servants bell hangs from a simple hook on the inside of the arch."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "the Settlement of Reim",
   "wayto": {
     "25128": "go arch",
     "25126": "southwest"
   },
-  "paths": [
-    "Obvious exits: southwest"
-  ],
+  "timeto": {
+    "25128": 0.2,
+    "25126": 0.2
+  },
+  "image": "imt-Reim-1260914759.png",
   "image_coords": [
     439,
     276,
     454,
     289
-  ],
-  "terrain": null,
-  "description": [
-    "The chamber narrows artistically along a gold-covered lattice rug.  A row of narrow skylights shine light upon support beams below, casting shadows in a matching latticework pattern to the rug.  Draped with curtains, a carved gold arch leads deeper into the visitor's wing.  A servants bell hangs from a simple hook on the inside of the arch."
-  ],
-  "image": "imt-Reim-1260914759.png",
-  "climate": null,
-  "title": [
-    "[Reim Castle, East Wing]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "25128": 0.2,
-    "25126": 0.2
-  },
-  "id": 25127,
-  "location": "the Settlement of Reim",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

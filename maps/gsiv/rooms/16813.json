@@ -1,40 +1,30 @@
 {
+  "id": 16813,
+  "title": [
+    "[Castle Dungeons]"
+  ],
+  "description": [
+    "A flickering torch set into the wall casts dancing shadows all around you.  Damp straw trampled into the floor muffles the ambient sounds of the area.  The sounds of chittering rodents seem to echo up and down these lonely halls."
+  ],
+  "paths": [
+    "Obvious exits: north, east, west"
+  ],
+  "location": "Castle Varunar",
   "wayto": {
     "16812": "east",
     "16814": "west",
     "16819": "north"
   },
-  "paths": [
-    "Obvious exits: north, east, west"
-  ],
-  "image_coords": [
-    598,
-    377,
-    608,
-    387
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A flickering torch set into the wall casts dancing shadows all around you.  Damp straw trampled into the floor muffles the ambient sounds of the area.  The sounds of chittering rodents seem to echo up and down these lonely halls."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Castle Dungeons]"
-  ],
-  "check_location": null,
   "timeto": {
     "16812": 0.2,
     "16814": 0.2,
     "16819": 0.2
   },
-  "id": 16813,
-  "location": "Castle Varunar",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "vo-trail-1264234799.png",
+  "image_coords": [
+    598,
+    377,
+    608,
+    387
   ]
 }

@@ -1,4 +1,15 @@
 {
+  "id": 2408,
+  "title": [
+    "[Tavern Burrow, Stout Street]"
+  ],
+  "description": [
+    "A jumble of boxes is piled against a tall evergreen hedge where Stout Street ends at Barley Lane.  Soft mewing from one of the boxes mingles with the sound of muffled drumbeats, soft arpeggios, and muted voices lifted in song.  A gap in the hedge leads through the split-rail fence into the courtyard beyond.  The fence and hedge end at the corner of the property, where an easily-overlooked door leads into the side of a non-descript low building."
+  ],
+  "paths": [
+    "Obvious paths: east, south, west"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "22105": "go door",
     "2302": "east",
@@ -6,25 +17,6 @@
     "2407": "west",
     "3429": "south"
   },
-  "paths": [
-    "Obvious paths: east, south, west"
-  ],
-  "image_coords": [
-    494,
-    874,
-    530,
-    910
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "A jumble of boxes is piled against a tall evergreen hedge where Stout Street ends at Barley Lane.  Soft mewing from one of the boxes mingles with the sound of muffled drumbeats, soft arpeggios, and muted voices lifted in song.  A gap in the hedge leads through the split-rail fence into the courtyard beyond.  The fence and hedge end at the corner of the property, where an easily-overlooked door leads into the side of a non-descript low building."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Tavern Burrow, Stout Street]"
-  ],
-  "check_location": null,
   "timeto": {
     "22105": 0.2,
     "2302": 0.2,
@@ -32,13 +24,14 @@
     "2407": 0.2,
     "3429": 0.2
   },
-  "id": 2408,
-  "location": "Icemule Trace",
-  "tags": [
-    "calmintha flower",
-    "meta:forage-sensed"
+  "image": "imt-icemule-1474811966.png",
+  "image_coords": [
+    494,
+    874,
+    530,
+    910
   ],
-  "links": [
-
+  "tags": [
+    "calmintha flower"
   ]
 }

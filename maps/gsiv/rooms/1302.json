@@ -1,33 +1,30 @@
 {
+  "id": 1302,
+  "title": [
+    "[Zeltoph Switchbacks]"
+  ],
+  "description": [
+    "On a trailbed built from crushed rock and bone-aching labor, the caravan trail climbs the base of Zeltoph Mountain from northeast to southwest."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "the foothills of Zeltoph",
   "wayto": {
     "1301": "northeast",
     "1303": "southwest"
   },
-  "paths": [
-    "Obvious paths: northeast, southwest"
-  ],
+  "timeto": {
+    "1301": 0.2,
+    "1303": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     337,
     287,
     347,
     297
   ],
-  "terrain": "mountainous",
-  "description": [
-    "On a trailbed built from crushed rock and bone-aching labor, the caravan trail climbs the base of Zeltoph Mountain from northeast to southwest."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Zeltoph Switchbacks]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1301": 0.2,
-    "1303": 0.2
-  },
-  "id": 1302,
-  "location": "the foothills of Zeltoph",
   "tags": [
     "wild pink geranium",
     "sprig of holly",
@@ -44,10 +41,6 @@
     "ironfern root",
     "bolmara lichen",
     "wingstem root",
-    "alder bark",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "alder bark"
   ]
 }

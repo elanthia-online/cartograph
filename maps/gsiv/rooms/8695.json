@@ -1,99 +1,35 @@
 {
-  "wayto": {
-    "13532": {
-      "stringproc": "391134476cdbb3f41e34622dcefdc08b"
-    },
-    "235": "out"
-  },
+  "id": 8695,
+  "title": [
+    "[Silverwood Manor, Courtyard]"
+  ],
+  "description": [
+    "Surrounded by a pristine white stone wall, the rear of the courtyard is shaded by the boughs of numerous trees.  A multi-colored stone path leads west, guiding students to the main courtyard of the manor.  Short boxwood hedges line the edge of the path.",
+    "Silver-veined grey marble comprises a short wall that lines the entire expanse of the courtyard.  Leading towards the carved haon door of the manor, some short boxwood hedges line the multi-hued cobblestone path.  Azalea bushes with resplendent pink blossoms find root in flowerbeds at the manor's base, and affixed to the structure is a gilded plaque.  Off to the side, partially concealed by the hedges, is a donation bin."
+  ],
   "paths": [
     "Obvious paths: out"
   ],
+  "location": "Wehnimer's Landing",
+  "wayto": {
+    "13532": {
+      "file": "string_procs/wayto/8695_13532.rb"
+    },
+    "235": "out"
+  },
+  "timeto": {
+    "13532": 0.2,
+    "235": 0.2
+  },
+  "image": "wl-wehnimers-1264234799.png",
   "image_coords": [
     659,
     876,
     695,
     914
   ],
-  "terrain": "cultivated",
-  "description": [
-    "Surrounded by a pristine white stone wall, the rear of the courtyard is shaded by the boughs of numerous trees.  A multi-colored stone path leads west, guiding students to the main courtyard of the manor.  Short boxwood hedges line the edge of the path.",
-    "Silver-veined grey marble comprises a short wall that lines the entire expanse of the courtyard.  Leading towards the carved haon door of the manor, some short boxwood hedges line the multi-hued cobblestone path.  Azalea bushes with resplendent pink blossoms find root in flowerbeds at the manor's base, and affixed to the structure is a gilded plaque.  Off to the side, partially concealed by the hedges, is a donation bin."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Silverwood Manor, Courtyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "13532": 0.2,
-    "235": 0.2
-  },
-  "id": 8695,
-  "location": "Wehnimer's Landing",
   "tags": [
     "green tomato",
-    "mentors",
-    "cactacae spine",
-    "calamia fruit",
-    "haphip root",
-    "sovyn clove",
-    "spearmint leaf",
-    "small flower",
-    "small rose",
-    "small daisy",
-    "angelica root",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "small violet",
-    "heath aster",
-    "golden buttercup",
-    "Imaera's Lace",
-    "fennel bulb",
-    "ginger root",
-    "lettuce",
-    "rose-marrow root",
-    "striped tomato",
-    "red tomato",
-    "yellow tomato",
-    "orange tomato",
-    "motherwort",
-    "sprig of bleeding-heart",
-    "small carnation",
-    "purple crocus",
-    "pale yellow daffodil",
-    "stem of freesia flowers",
-    "large white gardenia",
-    "honeysuckle vine",
-    "iris blossom",
-    "sprig of jasmine",
-    "sprig of lavender",
-    "sprig of mournbloom",
-    "wild pansy blossom",
-    "small primrose",
-    "Elanthian snow rose",
-    "snapdragon stalk",
-    "sprig of holly",
-    "branch of kerria",
-    "orris root",
-    "small pumpkin",
-    "raspberries",
-    "small apple",
-    "white lily",
-    "tiger lily",
-    "blue whortleberry",
-    "yew twig",
-    "luckbloom blossom",
-    "wavepetal blossom",
-    "sunburst blossom",
-    "onion skin",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "mentors"
   ]
 }

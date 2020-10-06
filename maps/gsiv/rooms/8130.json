@@ -1,33 +1,30 @@
 {
+  "id": 8130,
+  "title": [
+    "[Dubh Brugh, Cavern]"
+  ],
+  "description": [
+    "Though the ground is flat and smooth, except for coarse sand and small pebbles nestling the perimeter, the domed ceiling and walls are corrugated diagonally.  Barring one area on the southern wall, the furrows are quite shallow."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Dubh Brugh",
   "wayto": {
     "8129": "west",
     "8131": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "8129": 0.2,
+    "8131": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     1202,
     720,
     1212,
     730
   ],
-  "terrain": "indoors",
-  "description": [
-    "Though the ground is flat and smooth, except for coarse sand and small pebbles nestling the perimeter, the domed ceiling and walls are corrugated diagonally.  Barring one area on the southern wall, the furrows are quite shallow."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dubh Brugh, Cavern]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8129": 0.2,
-    "8131": 0.2
-  },
-  "id": 8130,
-  "location": "Dubh Brugh",
   "tags": [
     "some bolmara lichen",
     "soft white mushroom",
@@ -35,18 +32,6 @@
     "some cave moss",
     "some wingstem root",
     "genkew mushroom",
-    "blue trafel mushroom",
-    "withered black mushroom",
-    "flathead mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "blue trafel mushroom"
   ]
 }

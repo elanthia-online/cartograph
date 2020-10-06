@@ -1,35 +1,32 @@
 {
+  "id": 5299,
+  "title": [
+    "[Deep Woods, Overgrowth]"
+  ],
+  "description": [
+    "The trees overhead, combined with the hillock to the southwest, almost completely block all light from ever reaching the ground.  The smell of must is pervasive, perpetuated by large toadstools spreading over the rich black earth.  A diagonal line of thick underbrush and overgrown bushes grows to the east, perhaps marking the run of an underground river."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, southwest"
+  ],
+  "location": "the deep woods",
   "wayto": {
     "5297": "southwest",
     "5300": "northeast",
     "13005": "southeast"
   },
-  "paths": [
-    "Obvious paths: northeast, southeast, southwest"
-  ],
+  "timeto": {
+    "5297": 0.2,
+    "5300": 0.2,
+    "13005": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     1035,
     316,
     1045,
     326
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "The trees overhead, combined with the hillock to the southwest, almost completely block all light from ever reaching the ground.  The smell of must is pervasive, perpetuated by large toadstools spreading over the rich black earth.  A diagonal line of thick underbrush and overgrown bushes grows to the east, perhaps marking the run of an underground river."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Deep Woods, Overgrowth]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5297": 0.2,
-    "5300": 0.2,
-    "13005": 0.2
-  },
-  "id": 5299,
-  "location": "the deep woods",
   "tags": [
     "some acantha leaf",
     "some angelica root",
@@ -47,44 +44,6 @@
     "no-magic",
     "red vornalite mushroom",
     "golden buttercup",
-    "bright red teaberry",
-    "acantha leaf",
-    "torban leaf",
-    "calamia fruit",
-    "haphip root",
-    "tkaro root",
-    "sticks",
-    "angelica root",
-    "trollfear mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "handful of pinenuts",
-    "broken twig",
-    "pine cone",
-    "pine needles",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "wild chokecherry",
-    "tree bark",
-    "white lily",
-    "pink rain lily",
-    "coppery rain lily",
-    "oxblood lily",
-    "ayana'al leaf",
-    "yew twig",
-    "ironfern root",
-    "twisted twig",
-    "slender twig",
-    "ebony twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bright red teaberry"
   ]
 }

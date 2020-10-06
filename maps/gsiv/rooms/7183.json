@@ -1,31 +1,28 @@
 {
-  "wayto": {
-    "7181": "west"
-  },
+  "id": 7183,
+  "title": [
+    "[Graveyard, Wooded Glade]"
+  ],
+  "description": [
+    "The dense forest opens into a small clearing, growing thick around the perimeter to leave only a narrow path to the west.  The thick undergrowth of the forest meets tall grass which thins to bare earth at the center of the clearing, where a ring of partially buried stones protects the charred remains of a fire.  A low haunting sound fills the air as the wind sweeps over the trees and into the glade."
+  ],
   "paths": [
     "Obvious paths: west"
   ],
+  "location": "the Graveyard",
+  "wayto": {
+    "7181": "west"
+  },
+  "timeto": {
+    "7181": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     492,
     859,
     502,
     869
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "The dense forest opens into a small clearing, growing thick around the perimeter to leave only a narrow path to the west.  The thick undergrowth of the forest meets tall grass which thins to bare earth at the center of the clearing, where a ring of partially buried stones protects the charred remains of a fire.  A low haunting sound fills the air as the wind sweeps over the trees and into the glade."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Graveyard, Wooded Glade]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7181": 0.2
-  },
-  "id": 7183,
-  "location": "the Graveyard",
   "tags": [
     "some cothinar flower",
     "wild chokecherry",
@@ -42,10 +39,6 @@
     "sprig of wild lilac",
     "blue whortleberry",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

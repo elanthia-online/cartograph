@@ -1,47 +1,40 @@
 {
-  "wayto": {
-    "3475": {
-      "stringproc": "627e8564b77acb15b93b042e15018ec5"
-    },
-    "3477": {
-      "stringproc": "2b4af1354e22d2a4bbc0aa605e096470"
-    },
-    "3478": {
-      "stringproc": "a1bd023500a3a9633d7c708d74ed9e8f"
-    }
-  },
+  "id": 3476,
+  "title": [
+    "[Deep Freeze, Cave of Ice]"
+  ],
+  "description": [
+    "Tiny rivulets of water trickle slowly down a multitude of stalactites and drip noisily onto the stalagmites rising from the frozen ground.  There are jagged shards of ice everywhere that crunch loudly beneath your feet as you explore this icy chamber."
+  ],
   "paths": [
     "Obvious exits: north, east, south"
   ],
+  "location": "the Icemule Trail",
+  "wayto": {
+    "3475": {
+      "file": "string_procs/wayto/3476_3475.rb"
+    },
+    "3477": {
+      "file": "string_procs/wayto/3476_3477.rb"
+    },
+    "3478": {
+      "file": "string_procs/wayto/3476_3478.rb"
+    }
+  },
+  "timeto": {
+    "3475": 0.2,
+    "3477": 0.2,
+    "3478": 0.2
+  },
+  "image": "imt-trail-1264234799.png",
   "image_coords": [
     852,
     687,
     862,
     697
   ],
-  "terrain": "indoors",
-  "description": [
-    "Tiny rivulets of water trickle slowly down a multitude of stalactites and drip noisily onto the stalagmites rising from the frozen ground.  There are jagged shards of ice everywhere that crunch loudly beneath your feet as you explore this icy chamber."
-  ],
-  "image": "imt-trail-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Deep Freeze, Cave of Ice]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3475": 0.2,
-    "3477": 0.2,
-    "3478": 0.2
-  },
-  "id": 3476,
-  "location": "the Icemule Trail",
   "tags": [
     "arctic moss",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

@@ -1,36 +1,33 @@
 {
+  "id": 288,
+  "title": [
+    "[Town Square, Small Park]"
+  ],
+  "description": [
+    "A small, shaded park fills an old vacant lot behind a row of buildings, the bright lamplight from the square filtering through the passage to the north to illuminate the area with a soft glow.  A weatherworn grey marble statue of a stocky human in pioneer's clothing overlooks the park, his stone hat encrusted by the gifts of decades of passing birds and his right hand half-upraised as if it once held some now-missing object.",
+    "A small, shady park fills an old vacant lot behind a row of buildings, the bustling sounds of the square filtering through the passage to the north to animate the area despite its appearance of peace and serenity.  A weatherworn grey marble statue of a stocky human in pioneer's clothing overlooks the park, his stone hat encrusted by the gifts of decades of passing birds and his right hand half-upraised as if it once held some now-missing object."
+  ],
+  "paths": [
+    "Obvious paths: north, south, west"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "284": "north",
     "318": "west",
     "297": "south"
   },
-  "paths": [
-    "Obvious paths: north, south, west"
-  ],
+  "timeto": {
+    "284": 0.2,
+    "318": 0.2,
+    "297": 0.2
+  },
+  "image": "wl-wehnimers-1264234799.png",
   "image_coords": [
     198,
     930,
     234,
     966
   ],
-  "terrain": "cultivated",
-  "description": [
-    "A small, shaded park fills an old vacant lot behind a row of buildings, the bright lamplight from the square filtering through the passage to the north to illuminate the area with a soft glow.  A weatherworn grey marble statue of a stocky human in pioneer's clothing overlooks the park, his stone hat encrusted by the gifts of decades of passing birds and his right hand half-upraised as if it once held some now-missing object.",
-    "A small, shady park fills an old vacant lot behind a row of buildings, the bustling sounds of the square filtering through the passage to the north to animate the area despite its appearance of peace and serenity.  A weatherworn grey marble statue of a stocky human in pioneer's clothing overlooks the park, his stone hat encrusted by the gifts of decades of passing birds and his right hand half-upraised as if it once held some now-missing object."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Town Square, Small Park]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "284": 0.2,
-    "318": 0.2,
-    "297": 0.2
-  },
-  "id": 288,
-  "location": "the town of Wehnimer's Landing",
   "tags": [
     "some sovyn clove",
     "some acantha leaf",
@@ -104,17 +101,6 @@
     "wavepetal blossom",
     "onion skin",
     "vermilion fire lily",
-    "meta:teleport:fwi",
-    "cactacae spine",
-    "calamia fruit",
-    "haphip root",
-    "sovyn clove",
-    "angelica root",
-    "lettuce",
-    "sunburst blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:teleport:fwi"
   ]
 }

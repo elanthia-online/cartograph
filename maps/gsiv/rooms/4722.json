@@ -1,77 +1,34 @@
 {
+  "id": 4722,
+  "title": [
+    "[Gyldemar Road]"
+  ],
+  "description": [
+    "The cobblestone road leads straight and true, north and south.  The thick trunks of firs, pines, spruces, cedars, and even the occasional redwood line the roadway, scattering off to the east and west as far as one can see.  Their branches intertwine overhead, allowing light to filter down to the ground but blocking any clear view of the sky above.  A thick layer of needles covers the roadway, only scuffed away in places by the passage of those who have gone before."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Gyldemar Road",
   "wayto": {
     "4721": "south",
     "10807": "north"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "4721": 0.2,
+    "10807": 0.2
+  },
+  "image": "en-gyldemar-1264234799.png",
   "image_coords": [
     410,
     735,
     420,
     745
   ],
-  "terrain": "missing",
-  "description": [
-    "The cobblestone road leads straight and true, north and south.  The thick trunks of firs, pines, spruces, cedars, and even the occasional redwood line the roadway, scattering off to the east and west as far as one can see.  Their branches intertwine overhead, allowing light to filter down to the ground but blocking any clear view of the sky above.  A thick layer of needles covers the roadway, only scuffed away in places by the passage of those who have gone before."
-  ],
-  "image": "en-gyldemar-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Gyldemar Road]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4721": 0.2,
-    "10807": 0.2
-  },
-  "id": 4722,
-  "location": "Gyldemar Road",
   "tags": [
     "some acantha leaf",
     "white baneberry",
     "withered black mushroom",
-    "wild pink geranium",
-    "acantha leaf",
-    "torban leaf",
-    "calamia fruit",
-    "haphip root",
-    "tkaro root",
-    "sticks",
-    "angelica root",
-    "soft white mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "handful of pinenuts",
-    "broken twig",
-    "pine cone",
-    "pine needles",
-    "stalk of bluebells",
-    "golden buttercup",
-    "wild chokecherry",
-    "tree bark",
-    "white lily",
-    "pink rain lily",
-    "coppery rain lily",
-    "blue whortleberry",
-    "yew twig",
-    "ironfern root",
-    "sunburst blossom",
-    "twisted twig",
-    "slender twig",
-    "ebony twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wild pink geranium"
   ]
 }

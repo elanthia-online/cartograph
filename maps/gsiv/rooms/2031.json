@@ -1,45 +1,31 @@
 {
+  "id": 2031,
+  "title": [
+    "[Cave]"
+  ],
+  "description": [
+    "The narrow tunnel halts at the foot of an incline descending down into the murk, its grade strewn with boulders, driftwood and debris.  Overhead, the ceiling follows the slope down, lowering to hover only a few feet above the rocks at its furthest point.  The sound of the surf outside is still audible, like an amplified version of the roar one hears within a shell."
+  ],
+  "paths": [
+    "Obvious exits: northwest, down"
+  ],
+  "location": "Greymist Woods",
   "wayto": {
     "2030": "northwest",
     "2032": "down"
   },
-  "paths": [
-    "Obvious exits: northwest, down"
-  ],
+  "timeto": {
+    "2030": 0.2,
+    "2032": 0.2
+  },
+  "image": "ti-wilds-1264234799.png",
   "image_coords": [
     97,
     417,
     107,
     427
   ],
-  "terrain": "indoors",
-  "description": [
-    "The narrow tunnel halts at the foot of an incline descending down into the murk, its grade strewn with boulders, driftwood and debris.  Overhead, the ceiling follows the slope down, lowering to hover only a few feet above the rocks at its furthest point.  The sound of the surf outside is still audible, like an amplified version of the roar one hears within a shell."
-  ],
-  "image": "ti-wilds-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Cave]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2030": 0.2,
-    "2032": 0.2
-  },
-  "id": 2031,
-  "location": "Greymist Woods",
   "tags": [
-    "some cave moss",
-    "pothinir grass",
-    "withered black mushroom",
-    "black trafel mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

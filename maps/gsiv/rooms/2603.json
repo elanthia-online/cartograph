@@ -1,38 +1,30 @@
 {
-  "wayto": {
-    "12208": {
-      "stringproc": "a0576f0215d746452e7afb93c1ee082c"
-    },
-    "2591": "north",
-    "2635": {
-      "stringproc": "01b8924575c8d70e4ed7eea7ed00be84"
-    },
-    "2602": "east",
-    "12101": {
-      "stringproc": "cf4b8e5b125b22b01c9349827d02c9fd"
-    },
-    "2604": "west"
-  },
+  "id": 2603,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "Crimson veins run through the black marble of the walls of the throne room.  The streaks seem to pulse, as if it they were not streamers of red lacing the black stone, but actual arteries carrying blood through the rock.  Upon a massive, corroded silver throne sits a man whose eyes are pools of black essence.  They seem to pull the light into themselves, allowing no spark of brightness or hope to escape.  \"Slaughter them,\" he is saying.  \"Kill them all and leave their corpses for the maggots.\""
+  ],
   "paths": [
     "Obvious paths: north, east, west",
     "Obvious exits: north, east, west"
   ],
-  "image_coords": [
-    185,
-    750,
-    195,
-    760
-  ],
-  "terrain": null,
-  "description": [
-    "Crimson veins run through the black marble of the walls of the throne room.  The streaks seem to pulse, as if it they were not streamers of red lacing the black stone, but actual arteries carrying blood through the rock.  Upon a massive, corroded silver throne sits a man whose eyes are pools of black essence.  They seem to pull the light into themselves, allowing no spark of brightness or hope to escape.  \"Slaughter them,\" he is saying.  \"Kill them all and leave their corpses for the maggots.\""
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12208": {
+      "file": "string_procs/wayto/2603_12208.rb"
+    },
+    "2591": "north",
+    "2635": {
+      "file": "string_procs/wayto/2603_2635.rb"
+    },
+    "2602": "east",
+    "12101": {
+      "file": "string_procs/wayto/2603_12101.rb"
+    },
+    "2604": "west"
+  },
   "timeto": {
     "12208": 22.0,
     "2591": 0.2,
@@ -41,8 +33,13 @@
     "12101": 26.0,
     "2604": 0.2
   },
-  "id": 2603,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    185,
+    750,
+    195,
+    760
+  ],
   "tags": [
     "mass of congealed slime",
     "discolored fleshbinder bud",
@@ -51,8 +48,5 @@
     "rotting bile green fleshbulb",
     "withered deathblossom",
     "twisted black mawflower"
-  ],
-  "links": [
-
   ]
 }

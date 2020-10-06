@@ -1,45 +1,33 @@
 {
+  "id": 1736,
+  "title": [
+    "[Gossamer Valley, Glacier]"
+  ],
+  "description": [
+    "A huge, rounded section of the DragonSpine Mountains impinges on the valley from the west, leaving three general directions of travel.  A wide, flat, snow-filled valley extends due east, its flatness punctuated by boulders here and there.  Northward, the vision is much the same, although in the distance the valley seems to rise somewhat and shed some of its snow covering.  A narrow leg of the glacier slips in between the mountains to the southwest."
+  ],
+  "paths": [
+    "Obvious paths: north, east, southwest"
+  ],
+  "location": "Gossamer Valley",
   "wayto": {
     "1738": "southwest",
     "1735": "east",
     "1737": "north"
   },
-  "paths": [
-    "Obvious paths: north, east, southwest"
-  ],
+  "timeto": {
+    "1738": 0.2,
+    "1735": 0.2,
+    "1737": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     179,
     626,
     189,
     636
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "A huge, rounded section of the DragonSpine Mountains impinges on the valley from the west, leaving three general directions of travel.  A wide, flat, snow-filled valley extends due east, its flatness punctuated by boulders here and there.  Northward, the vision is much the same, although in the distance the valley seems to rise somewhat and shed some of its snow covering.  A narrow leg of the glacier slips in between the mountains to the southwest."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Gossamer Valley, Glacier]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1738": 0.2,
-    "1735": 0.2,
-    "1737": 0.2
-  },
-  "id": 1736,
-  "location": "Gossamer Valley",
   "tags": [
-    "some wingstem root",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "broken twig",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

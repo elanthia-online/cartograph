@@ -1,33 +1,30 @@
 {
+  "id": 2206,
+  "title": [
+    "[Eye of V'Tull, Inner Circle]"
+  ],
+  "description": [
+    "A sudden burst of steam blows from a nearby fissure, and you take a few cautious steps around it to avoid the scorching heat."
+  ],
+  "paths": [
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "the Eye of V'Tull",
   "wayto": {
     "2205": "southeast",
     "2207": "northwest"
   },
-  "paths": [
-    "Obvious exits: southeast, northwest"
-  ],
+  "timeto": {
+    "2205": 0.2,
+    "2207": 0.2
+  },
+  "image": "ti-vtull-1264234799.png",
   "image_coords": [
     742,
     789,
     750,
     797
   ],
-  "terrain": "indoors",
-  "description": [
-    "A sudden burst of steam blows from a nearby fissure, and you take a few cautious steps around it to avoid the scorching heat."
-  ],
-  "image": "ti-vtull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Eye of V'Tull, Inner Circle]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2205": 0.2,
-    "2207": 0.2
-  },
-  "id": 2206,
-  "location": "the Eye of V'Tull",
   "tags": [
     "soft white mushroom",
     "blue trafel mushroom",
@@ -36,14 +33,6 @@
     "some cave moss",
     "withered black mushroom",
     "daggerstalk mushroom",
-    "black trafel mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "black trafel mushroom"
   ]
 }

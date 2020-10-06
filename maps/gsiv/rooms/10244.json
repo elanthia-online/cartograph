@@ -1,35 +1,32 @@
 {
+  "id": 10244,
+  "title": [
+    "[Vineyard]"
+  ],
+  "description": [
+    "A path continues on through the maze of vines, wandering east and west and turning off to the north toward an open field.  To the northeast a small apple orchard is nestled at the base of another range of low-lying hills."
+  ],
+  "paths": [
+    "Obvious paths: north, east, west"
+  ],
+  "location": "the grasslands",
   "wayto": {
     "10247": "east",
     "10248": "west",
     "10240": "north"
   },
-  "paths": [
-    "Obvious paths: north, east, west"
-  ],
+  "timeto": {
+    "10247": 0.2,
+    "10248": 0.2,
+    "10240": 0.2
+  },
+  "image": "en-fearling-1264234799.png",
   "image_coords": [
     200,
     1026,
     210,
     1036
   ],
-  "terrain": null,
-  "description": [
-    "A path continues on through the maze of vines, wandering east and west and turning off to the north toward an open field.  To the northeast a small apple orchard is nestled at the base of another range of low-lying hills."
-  ],
-  "image": "en-fearling-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Vineyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10247": 0.2,
-    "10248": 0.2,
-    "10240": 0.2
-  },
-  "id": 10244,
-  "location": "the grasslands",
   "tags": [
     "some sovyn clove",
     "some calamia fruit",
@@ -110,8 +107,5 @@
     "wavepetal blossom",
     "sunburst blossom",
     "onion skin"
-  ],
-  "links": [
-
   ]
 }

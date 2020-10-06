@@ -1,46 +1,35 @@
 {
+  "id": 7574,
+  "title": [
+    "[Dark Cavern, Tunnels]"
+  ],
+  "description": [
+    "You step around the muddy pits in the floor formed by the constant dripping of water from the ceiling.  Rivulets trickle down the walls through deep crevices worn by years of erosion.  The soft plip-plop of water droplets echoes all around you, along with a faint but constant clicking that seems to come from all directions."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south, northwest"
+  ],
+  "location": "the dark caverns",
   "wayto": {
     "7573": "south",
     "7575": "northeast",
     "7578": "northwest"
   },
-  "paths": [
-    "Obvious exits: northeast, south, northwest"
-  ],
+  "timeto": {
+    "7573": 0.2,
+    "7575": 0.2,
+    "7578": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     118,
     1235,
     128,
     1245
   ],
-  "terrain": "indoors",
-  "description": [
-    "You step around the muddy pits in the floor formed by the constant dripping of water from the ceiling.  Rivulets trickle down the walls through deep crevices worn by years of erosion.  The soft plip-plop of water droplets echoes all around you, along with a faint but constant clicking that seems to come from all directions."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dark Cavern, Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7573": 0.2,
-    "7575": 0.2,
-    "7578": 0.2
-  },
-  "id": 7574,
-  "location": "the dark caverns",
   "tags": [
     "some bur-clover root",
     "withered black mushroom",
-    "some wingstem root",
-    "cave moss",
-    "murdroot",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

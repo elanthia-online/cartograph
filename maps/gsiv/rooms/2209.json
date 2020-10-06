@@ -1,44 +1,35 @@
 {
-  "wayto": {
-    "2208": "climb fissure",
-    "2210": {
-      "stringproc": "be575b74f86bbeacdd5b7225e505391f"
-    }
-  },
+  "id": 2209,
+  "title": [
+    "[Depths of V'Tull, Crawlway]"
+  ],
+  "description": [
+    "You see a sharply descending cylindrical crawlway leading down into the depths of the volcano.  The air here is so hot it's painful to breathe.  This passageway is cramped, and the lava-scorched glassine walls seem somewhat unstable as they squeeze in from either side."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "the Eye of V'Tull",
+  "wayto": {
+    "2208": "climb fissure",
+    "2210": {
+      "file": "string_procs/wayto/2209_2210.rb"
+    }
+  },
+  "timeto": {
+    "2208": 0.2,
+    "2210": 0.2
+  },
+  "image": "ti-vtull-1264234799.png",
   "image_coords": [
     641,
     773,
     651,
     783
   ],
-  "terrain": "indoors",
-  "description": [
-    "You see a sharply descending cylindrical crawlway leading down into the depths of the volcano.  The air here is so hot it's painful to breathe.  This passageway is cramped, and the lava-scorched glassine walls seem somewhat unstable as they squeeze in from either side."
-  ],
-  "image": "ti-vtull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Depths of V'Tull, Crawlway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2208": 0.2,
-    "2210": 0.2
-  },
-  "id": 2209,
-  "location": "the Eye of V'Tull",
   "tags": [
     "black trafel mushroom",
     "daggerstalk mushroom",
-    "some cave moss",
-    "cave moss",
-    "pepperthorn root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

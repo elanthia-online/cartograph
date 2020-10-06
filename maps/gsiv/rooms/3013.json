@@ -1,36 +1,33 @@
 {
+  "id": 3013,
+  "title": [
+    "[Arctic Tundra, High Plain]"
+  ],
+  "description": [
+    "A sparkling peninsula of ice bridges the deep ravine in front of the garrison entrance.  High overhead, a lone falcon calls out as it passes, searching for prey.  Tiny tracks in the snow give evidence that there is more to this tundra than meets the eye.",
+    "A moonlit peninsula of ice bridges the deep ravine in front of the garrison entrance.  High overhead, a lone snowy owl calls out as it passes, searching for prey.  Tiny tracks in the snow give evidence that there is more to this tundra than meets the eye."
+  ],
+  "paths": [
+    "Obvious paths: south, northwest"
+  ],
+  "location": "the High Plains",
   "wayto": {
     "3014": "go ice",
     "3029": "south",
     "3012": "northwest"
   },
-  "paths": [
-    "Obvious paths: south, northwest"
-  ],
+  "timeto": {
+    "3014": 0.2,
+    "3029": 0.2,
+    "3012": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     620,
     717,
     630,
     727
   ],
-  "terrain": "mountainous",
-  "description": [
-    "A sparkling peninsula of ice bridges the deep ravine in front of the garrison entrance.  High overhead, a lone falcon calls out as it passes, searching for prey.  Tiny tracks in the snow give evidence that there is more to this tundra than meets the eye.",
-    "A moonlit peninsula of ice bridges the deep ravine in front of the garrison entrance.  High overhead, a lone snowy owl calls out as it passes, searching for prey.  Tiny tracks in the snow give evidence that there is more to this tundra than meets the eye."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Arctic Tundra, High Plain]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3014": 0.2,
-    "3029": 0.2,
-    "3012": 0.2
-  },
-  "id": 3013,
-  "location": "the High Plains",
   "tags": [
     "some valerian root",
     "some arctic moss",
@@ -59,14 +56,6 @@
     "lingonberry",
     "ironfern root",
     "bolmara lichen",
-    "sprig of edelweiss",
-    "angelica root",
-    "valerian root",
-    "arctic moss",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sprig of edelweiss"
   ]
 }

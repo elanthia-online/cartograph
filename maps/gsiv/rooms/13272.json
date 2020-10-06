@@ -1,37 +1,28 @@
 {
+  "id": 13272,
+  "title": [
+    "[West Wing]"
+  ],
+  "description": [
+    "The corridor stretches away to the northwest and southeast.  High, vaulted ceilings vanish into the darkness high above, dimly lit by flaming sconces that line the walls of carved basalt.  A gentle breeze suddenly sets the flames dancing for a moment, then stillness returns."
+  ],
+  "paths": [
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "the Lost Home",
   "wayto": {
     "13271": "southeast",
     "13273": "northwest"
   },
-  "paths": [
-    "Obvious exits: southeast, northwest"
-  ],
+  "timeto": {
+    "13271": 0.2,
+    "13273": 0.2
+  },
+  "image": "en-ta_illistim_buildings.png",
   "image_coords": [
     388,
     376,
     442,
     432
-  ],
-  "terrain": null,
-  "description": [
-    "The corridor stretches away to the northwest and southeast.  High, vaulted ceilings vanish into the darkness high above, dimly lit by flaming sconces that line the walls of carved basalt.  A gentle breeze suddenly sets the flames dancing for a moment, then stillness returns."
-  ],
-  "image": "en-ta_illistim_buildings.png",
-  "climate": null,
-  "title": [
-    "[West Wing]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "13271": 0.2,
-    "13273": 0.2
-  },
-  "id": 13272,
-  "location": "the Lost Home",
-  "tags": [
-
-  ],
-  "links": [
-
   ]
 }

@@ -1,41 +1,32 @@
 {
+  "id": 11884,
+  "title": [
+    "[Aqueduct]"
+  ],
+  "description": [
+    "The stream flows steadily east to west, hemmed in by the tunnel walls on either side.  A shaft of light pierces the gloom overhead to illuminate the rounded sides of an old well.  No rope dangles down, probably long rotted away, and no bucket lies in the water on the floor, most likely rusted to nothing or carried away by the current.  Fresh air descends from the well, intermingling with the stuffier air in the tunnel to make it more breathable."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Old Ta'Faendryl",
   "wayto": {
     "11883": "east",
     "11885": "west"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "11883": 0.2,
+    "11885": 0.2
+  },
+  "image": "en-old_ta_faendryl-1264234799.png",
   "image_coords": [
     1080,
     1071,
     1090,
     1081
   ],
-  "terrain": "indoors",
-  "description": [
-    "The stream flows steadily east to west, hemmed in by the tunnel walls on either side.  A shaft of light pierces the gloom overhead to illuminate the rounded sides of an old well.  No rope dangles down, probably long rotted away, and no bucket lies in the water on the floor, most likely rusted to nothing or carried away by the current.  Fresh air descends from the well, intermingling with the stuffier air in the tunnel to make it more breathable."
-  ],
-  "image": "en-old_ta_faendryl-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Aqueduct]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11883": 0.2,
-    "11885": 0.2
-  },
-  "id": 11884,
-  "location": "Old Ta'Faendryl",
   "tags": [
     "murdroot",
-    "some wingstem root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

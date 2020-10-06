@@ -1,39 +1,31 @@
 {
+  "id": 5524,
+  "title": [
+    "[Outlands Manor, Tower]"
+  ],
+  "description": [
+    "This is the tower's antechamber and was designed to be a death trap to invaders.  Only a single narrow doorway allows access to the tower's interior, and kill holes pierce the chamber's ceiling from the floor above.  An iron chute above the inner doorway still bears a dust-covered coating of oil, and the chamber's walls are fire-blackened."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Outlands",
   "wayto": {
     "5521": "go portcullis",
     "5562": "north"
   },
-  "paths": [
-    "Obvious exits: north"
-  ],
+  "timeto": {
+    "5521": 0.2,
+    "5562": 0.2
+  },
+  "image": "vo-outlands-1264234799.png",
   "image_coords": [
     976,
     353,
     986,
     363
   ],
-  "terrain": "indoors",
-  "description": [
-    "This is the tower's antechamber and was designed to be a death trap to invaders.  Only a single narrow doorway allows access to the tower's interior, and kill holes pierce the chamber's ceiling from the floor above.  An iron chute above the inner doorway still bears a dust-covered coating of oil, and the chamber's walls are fire-blackened."
-  ],
-  "image": "vo-outlands-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Outlands Manor, Tower]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5521": 0.2,
-    "5562": 0.2
-  },
-  "id": 5524,
-  "location": "the Outlands",
   "tags": [
-    "dobrem",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "dobrem"
   ]
 }

@@ -1,49 +1,38 @@
 {
-  "wayto": {
-    "3986": {
-      "stringproc": "395b361a16c8a355265cda519abf9fe5"
-    },
-    "3988": "up"
-  },
+  "id": 3987,
+  "title": [
+    "[Griffin's Keen, Western Track]"
+  ],
+  "description": [
+    "The difficult path clings to the mountainside, sloping acutely.  A lone bush grows right out of the mountain face, and the rocky trail is speckled with clumps of wet snow."
+  ],
   "paths": [
     "Obvious paths: up, down"
   ],
+  "location": "Griffin's Keen",
+  "wayto": {
+    "3986": {
+      "file": "string_procs/wayto/3987_3986.rb"
+    },
+    "3988": "up"
+  },
+  "timeto": {
+    "3986": 4.2,
+    "3988": 0.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     530,
     372,
     540,
     382
   ],
-  "terrain": null,
-  "description": [
-    "The difficult path clings to the mountainside, sloping acutely.  A lone bush grows right out of the mountain face, and the rocky trail is speckled with clumps of wet snow."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Griffin's Keen, Western Track]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3986": 4.2,
-    "3988": 0.2
-  },
-  "id": 3987,
-  "location": "Griffin's Keen",
   "tags": [
     "sweetfern stalk",
     "sassafras leaf",
     "some valerian root",
     "some pennyroyal stem",
     "some angelica root",
-    "sprig of holly",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sprig of holly"
   ]
 }

@@ -1,41 +1,28 @@
 {
+  "id": 7419,
+  "title": [
+    "[Mine Tunnels]"
+  ],
+  "description": [
+    "Odd blotches of glowing silvery grey moss cover the tunnel walls.  Some of the blotches have been marked or scraped, as if someone once tried to draw or carve some sort of message on the wall, though nothing of it is still recognizable."
+  ],
+  "paths": [
+    "Obvious exits: north, southwest"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7417": "north",
     "7422": "southwest"
   },
-  "paths": [
-    "Obvious exits: north, southwest"
-  ],
+  "timeto": {
+    "7417": 0.2,
+    "7422": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1099,
     163,
     1107,
     171
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Odd blotches of glowing silvery grey moss cover the tunnel walls.  Some of the blotches have been marked or scraped, as if someone once tried to draw or carve some sort of message on the wall, though nothing of it is still recognizable."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mine Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7417": 0.2,
-    "7422": 0.2
-  },
-  "id": 7419,
-  "location": "the Shadow Valley",
-  "tags": [
-    "cave moss",
-    "blackgrove root",
-    "shadowlace moss",
-    "blue moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,40 +1,33 @@
 {
+  "id": 3454,
+  "title": [
+    "[Tavern Burrow, Porter Street]"
+  ],
+  "description": [
+    "Three shallow steps lead from the street down to a low doorway at the side of a building, apparently the local armor shop.  Its crisply edged stucco walls have been painted steely grey, with faint traces of white and black accenting each swirl of mortar.  Inside a polished bay window are displayed several sets of armor, each designed to fit a diminutive frame.  A family pauses briefly before the statue of a halfling warrior standing opposite the door as the parents tell the hero's story to their children."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "3455": "go shop",
     "2392": "west",
     "2397": "east"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "3455": 0.2,
+    "2392": 0.2,
+    "2397": 0.2
+  },
+  "image": "imt-icemule-1474811966.png",
   "image_coords": [
     226,
     1143,
     262,
     1179
   ],
-  "terrain": "hard, flat",
-  "description": [
-    "Three shallow steps lead from the street down to a low doorway at the side of a building, apparently the local armor shop.  Its crisply edged stucco walls have been painted steely grey, with faint traces of white and black accenting each swirl of mortar.  Inside a polished bay window are displayed several sets of armor, each designed to fit a diminutive frame.  A family pauses briefly before the statue of a halfling warrior standing opposite the door as the parents tell the hero's story to their children."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Tavern Burrow, Porter Street]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3455": 0.2,
-    "2392": 0.2,
-    "2397": 0.2
-  },
-  "id": 3454,
-  "location": "Icemule Trace",
   "tags": [
-    "calmintha flower",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "calmintha flower"
   ]
 }

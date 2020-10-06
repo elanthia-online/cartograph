@@ -1,43 +1,32 @@
 {
+  "id": 7428,
+  "title": [
+    "[Mine Tunnels]"
+  ],
+  "description": [
+    "Scattered clumps of clay and mud cover the southern end of the tunnel.  A few of the clumps have been trampled and squished by something, though there is not enough detail to determine the identity of the squisher."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7427": "north",
     "7429": "south"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "7427": 0.2,
+    "7429": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1204,
     216,
     1214,
     226
   ],
-  "terrain": "indoors",
-  "description": [
-    "Scattered clumps of clay and mud cover the southern end of the tunnel.  A few of the clumps have been trampled and squished by something, though there is not enough detail to determine the identity of the squisher."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mine Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7427": 0.2,
-    "7429": 0.2
-  },
-  "id": 7428,
-  "location": "the Shadow Valley",
   "tags": [
     "some blue moss",
-    "some cave moss",
-    "cave moss",
-    "blackgrove root",
-    "shadowlace moss",
-    "blue moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

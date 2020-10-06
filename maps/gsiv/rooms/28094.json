@@ -1,35 +1,28 @@
 {
+  "id": 28094,
+  "title": [
+    "[Valley of Gold]"
+  ],
+  "description": [
+    "Spreading out across the rest of the valley is a city of tents, hues of crimson to the west and sapphire to the east.  Trampled grass shows the large amount of people that passed this way.  Wagons filled with barrels of drink and crates of supplies can be seen traveling to one camp or the other.  The sounds of laughter, singing, and marching echo from both sides."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "between Wehnimer's Landing and Zul Logoth",
   "wayto": {
     "28151": "go gangplank",
     "28159": "south"
   },
-  "paths": [
-    "Obvious paths: south"
-  ],
+  "timeto": {
+    "28151": 0.2,
+    "28159": 0.2
+  },
+  "image": "fest-valley_of_gold-1561138415.png",
   "image_coords": [
     238,
     19,
     256,
     38
-  ],
-  "terrain": null,
-  "description": [
-    "Spreading out across the rest of the valley is a city of tents, hues of crimson to the west and sapphire to the east.  Trampled grass shows the large amount of people that passed this way.  Wagons filled with barrels of drink and crates of supplies can be seen traveling to one camp or the other.  The sounds of laughter, singing, and marching echo from both sides."
-  ],
-  "image": "fest-valley_of_gold-1561138415.png",
-  "climate": null,
-  "title": [
-    "[Valley of Gold]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "28151": 0.2,
-    "28159": 0.2
-  },
-  "id": 28094,
-  "location": "between Wehnimer's Landing and Zul Logoth",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

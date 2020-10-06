@@ -1,39 +1,32 @@
 {
+  "id": 7316,
+  "title": [
+    "[Dark Crevice]"
+  ],
+  "description": [
+    "Darkness prevents a clear survey of this small niche, but you feel a space above your head.  The floor begins a steep incline rising up into the rock and a narrow fissure, possibly wide enough to squeeze through, is barely visible along the wall.  You feel a cool dampness around your ankles."
+  ],
+  "paths": [
+    "Obvious exits: up"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7315": "go fissure",
     "7317": "up"
   },
-  "paths": [
-    "Obvious exits: up"
-  ],
+  "timeto": {
+    "7315": 0.2,
+    "7317": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1087,
     385,
     1097,
     395
   ],
-  "terrain": "indoors",
-  "description": [
-    "Darkness prevents a clear survey of this small niche, but you feel a space above your head.  The floor begins a steep incline rising up into the rock and a narrow fissure, possibly wide enough to squeeze through, is barely visible along the wall.  You feel a cool dampness around your ankles."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dark Crevice]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7315": 0.2,
-    "7317": 0.2
-  },
-  "id": 7316,
-  "location": "the Graveyard",
   "tags": [
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

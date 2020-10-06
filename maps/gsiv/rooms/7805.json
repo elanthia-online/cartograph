@@ -1,38 +1,28 @@
 {
+  "id": 7805,
+  "title": [
+    "[Cave, Something Room]"
+  ],
+  "description": [
+    "The slow moving air seems to be carrying the odor of decaying flesh as it moves towards the mouth of the cave to the south.  Scattered about this small room are the dessicated remains of several...somethings."
+  ],
+  "paths": [
+    "Obvious exits: south, northwest"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "7804": "south",
     "7806": "northwest"
   },
-  "paths": [
-    "Obvious exits: south, northwest"
-  ],
+  "timeto": {
+    "7804": 0.2,
+    "7806": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     322,
     713,
     332,
     723
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The slow moving air seems to be carrying the odor of decaying flesh as it moves towards the mouth of the cave to the south.  Scattered about this small room are the dessicated remains of several...somethings."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Cave, Something Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7804": 0.2,
-    "7806": 0.2
-  },
-  "id": 7805,
-  "location": "the Upper Trollfang",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

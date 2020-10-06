@@ -1,35 +1,32 @@
 {
+  "id": 10200,
+  "title": [
+    "[Grassland]"
+  ],
+  "description": [
+    "A jutting chunk of rock sprawls north and south from the edges of a copse of trees down to the bank of a small inland pond.  Lichen, bird droppings and the bones of small rodents plaster the sides of the massive boulder, indication that some winged predator favors the spot as a dining perch."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south"
+  ],
+  "location": "the grasslands",
   "wayto": {
     "10199": "north",
     "10201": "east",
     "10202": "south"
   },
-  "paths": [
-    "Obvious paths: north, east, south"
-  ],
+  "timeto": {
+    "10199": 0.2,
+    "10201": 0.2,
+    "10202": 0.2
+  },
+  "image": "en-fearling-1264234799.png",
   "image_coords": [
     147,
     462,
     157,
     472
   ],
-  "terrain": null,
-  "description": [
-    "A jutting chunk of rock sprawls north and south from the edges of a copse of trees down to the bank of a small inland pond.  Lichen, bird droppings and the bones of small rodents plaster the sides of the massive boulder, indication that some winged predator favors the spot as a dining perch."
-  ],
-  "image": "en-fearling-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Grassland]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10199": 0.2,
-    "10201": 0.2,
-    "10202": 0.2
-  },
-  "id": 10200,
-  "location": "the grasslands",
   "tags": [
     "some sovyn clove",
     "some acantha leaf",
@@ -112,8 +109,5 @@
     "sunburst blossom",
     "brostheras grass",
     "woad leaves"
-  ],
-  "links": [
-
   ]
 }

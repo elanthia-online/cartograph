@@ -1,53 +1,44 @@
 {
-  "wayto": {
-    "11446": {
-      "stringproc": "fca73c0fdfb5b02d3b95efa24885592a"
-    },
-    "16041": {
-      "stringproc": "6ec0d3f2602af819251801455c03b9d7"
-    },
-    "11447": {
-      "stringproc": "d1ab0fc82426b99746caa62b1f882697"
-    },
-    "11438": {
-      "stringproc": "ecb29216e38b2eccfa243d0a331e41b2"
-    },
-    "16054": {
-      "stringproc": "df0635901e9065a4aadbe5056471d5c8"
-    },
-    "11461": {
-      "stringproc": "c5de6a93c272509e579c13cc8cd916bf"
-    },
-    "11450": {
-      "stringproc": "311ee2488122f711ecdb848822003512"
-    },
-    "11451": {
-      "stringproc": "df0635901e9065a4aadbe5056471d5c8"
-    },
-    "11455": {
-      "stringproc": "e874f03e7b4c2d51bbdcaccf4bb927c8"
-    }
-  },
-  "paths": [
-    "Obvious paths: north, northeast, east, southeast, south, west, northwest, down"
+  "id": 11439,
+  "title": [
+    "[Maelstrom Bay, Surface]"
   ],
-  "image_coords": [
-    702,
-    1260,
-    712,
-    1270
-  ],
-  "terrain": "missing",
   "description": [
     "The green waters of Maelstrom Bay stretch out in all directions.  Low, gentle swells roll in rhythmically from the great western sea.  To the east, the mainland is marked by a sheer, rocky cliff.  The green swells reflect the moonlight, making them shine strangely as they roll in.",
     "The green waters of Maelstrom Bay stretch out in all directions.  Low, gentle swells roll in rhythmically from the great western sea.  To the east, the mainland is marked by a sheer, rocky cliff.  The green swells refract the sunlight, making them sparkle as they roll in."
   ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "missing",
-  "title": [
-    "[Maelstrom Bay, Surface]"
+  "paths": [
+    "Obvious paths: north, northeast, east, southeast, south, west, northwest, down"
   ],
-  "check_location": null,
+  "wayto": {
+    "11446": {
+      "file": "string_procs/wayto/11439_11446.rb"
+    },
+    "16041": {
+      "file": "string_procs/wayto/11439_16041.rb"
+    },
+    "11447": {
+      "file": "string_procs/wayto/11439_11447.rb"
+    },
+    "11438": {
+      "file": "string_procs/wayto/11439_11438.rb"
+    },
+    "16054": {
+      "file": "string_procs/wayto/11439_16054.rb"
+    },
+    "11461": {
+      "file": "string_procs/wayto/11439_11461.rb"
+    },
+    "11450": {
+      "file": "string_procs/wayto/11439_11450.rb"
+    },
+    "11451": {
+      "file": "string_procs/wayto/11439_11451.rb"
+    },
+    "11455": {
+      "file": "string_procs/wayto/11439_11455.rb"
+    }
+  },
   "timeto": {
     "11446": 2.0,
     "16041": 2.0,
@@ -59,13 +50,11 @@
     "11451": 2.0,
     "11455": 2.0
   },
-  "id": 11439,
-  "location": "Maelstrom Bay",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-maelstrom-1266390501.png",
+  "image_coords": [
+    702,
+    1260,
+    712,
+    1270
   ]
 }

@@ -1,44 +1,34 @@
 {
+  "id": 7345,
+  "title": [
+    "[Shadow Valley, Dark Pasture]"
+  ],
+  "description": [
+    "Sloping down to the edge of a stream bank, the trail ends abruptly at a rotten wooden footbridge.  The footbridge once provided passage over the large stream, but now has rotted to the point of being unusable.  The water has dried up on this side, but near the other bank, a black sludgy liquid moves languidly to the east."
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7333": "northwest",
     "7335": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, northwest"
-  ],
+  "timeto": {
+    "7333": 0.2,
+    "7335": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1070,
     787,
     1076,
     793
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "Sloping down to the edge of a stream bank, the trail ends abruptly at a rotten wooden footbridge.  The footbridge once provided passage over the large stream, but now has rotted to the point of being unusable.  The water has dried up on this side, but near the other bank, a black sludgy liquid moves languidly to the east."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Shadow Valley, Dark Pasture]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7333": 0.2,
-    "7335": 0.2
-  },
-  "id": 7345,
-  "location": "the Shadow Valley",
   "tags": [
     "black-tipped wyrm thorn",
     "some petrified shadowstalk",
     "some longgrass",
-    "night mare",
-    "longgrass",
-    "wyrm thorn",
-    "petrified shadowstalk",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "night mare"
   ]
 }

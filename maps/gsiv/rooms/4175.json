@@ -1,42 +1,32 @@
 {
+  "id": 4175,
+  "title": [
+    "[Minion Quarters]"
+  ],
+  "description": [
+    "Heat as from the depths of the underworld assaults you as you enter the room.  The walls look more like they have been melted into this giant cavern.  This room was not cut by the crude carvings of man or elf.  The light of the flickering torch shows off some movement on the ground.  Looking down, you see a heavy mist floating around your feet."
+  ],
+  "paths": [
+    "Obvious exits: east, southeast, southwest, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "4190": "east",
     "4191": "southeast",
     "4194": "southwest",
     "4176": "west"
   },
-  "paths": [
-    "Obvious exits: east, southeast, southwest, west"
-  ],
-  "image_coords": [
-    764,
-    997,
-    774,
-    1007
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Heat as from the depths of the underworld assaults you as you enter the room.  The walls look more like they have been melted into this giant cavern.  This room was not cut by the crude carvings of man or elf.  The light of the flickering torch shows off some movement on the ground.  Looking down, you see a heavy mist floating around your feet."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Minion Quarters]"
-  ],
-  "check_location": null,
   "timeto": {
     "4190": 0.2,
     "4191": 0.2,
     "4194": 0.2,
     "4176": 0.2
   },
-  "id": 4175,
-  "location": "the Graveyard",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-graveyard-1264234799.png",
+  "image_coords": [
+    764,
+    997,
+    774,
+    1007
   ]
 }

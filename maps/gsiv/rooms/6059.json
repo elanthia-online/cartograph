@@ -1,34 +1,31 @@
 {
+  "id": 6059,
+  "title": [
+    "[Yander's Farm, Farmland Road]"
+  ],
+  "description": [
+    "The road disappears into the scrub weeds as it approaches a spiral field of barley.",
+    "The road disappears into the weeds as it approaches a spiral field of barley.  The weeds clamber over the road and insinuate themselves in the wheel ruts, unaware that the crushing wheels may very well return again to evict the squatters from their new-found homes.  Barley, planted in a wide, tight row, spirals toward a center point to the southwest.  The spiral takes advantage of the flat, marshy terrain of the field, allowing a trench to follow the spiral on both sides and drain off excess water."
+  ],
+  "paths": [
+    "Obvious paths: southeast"
+  ],
+  "location": "Yander's Farm",
   "wayto": {
     "6060": "go field",
     "6042": "southeast"
   },
-  "paths": [
-    "Obvious paths: southeast"
-  ],
+  "timeto": {
+    "6060": 0.2,
+    "6042": 0.2
+  },
+  "image": "en-victory-1264234799.png",
   "image_coords": [
     451,
     401,
     461,
     411
   ],
-  "terrain": null,
-  "description": [
-    "The road disappears into the scrub weeds as it approaches a spiral field of barley.",
-    "The road disappears into the weeds as it approaches a spiral field of barley.  The weeds clamber over the road and insinuate themselves in the wheel ruts, unaware that the crushing wheels may very well return again to evict the squatters from their new-found homes.  Barley, planted in a wide, tight row, spirals toward a center point to the southwest.  The spiral takes advantage of the flat, marshy terrain of the field, allowing a trench to follow the spiral on both sides and drain off excess water."
-  ],
-  "image": "en-victory-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Yander's Farm, Farmland Road]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6060": 0.2,
-    "6042": 0.2
-  },
-  "id": 6059,
-  "location": "Yander's Farm",
   "tags": [
     "some sovyn clove",
     "some acantha leaf",
@@ -58,8 +55,5 @@
     "ironfern root",
     "wingstem root",
     "bur-clover root"
-  ],
-  "links": [
-
   ]
 }

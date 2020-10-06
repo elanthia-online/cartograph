@@ -1,50 +1,31 @@
 {
-  "wayto": {
-    "1697": {
-      "stringproc": "0ea5f8d2bd08b719d859a258fb4cb01c"
-    },
-    "1699": "south"
-  },
+  "id": 1698,
+  "title": [
+    "[Bottom of the Well]"
+  ],
+  "description": [
+    "The damp stone walls of the well rise steeply, ending in a dark circle of star-filled sky.  Water trickles down the stone walls and drips onto the muddy floor with a soft, repetitious plop.  On the southern wall is the entrance to a narrow tunnel.",
+    "The damp stone walls of the well rise steeply, ending in a bright blue circle of cloudless sky.  Water trickles down the stone walls and drips onto the muddy floor with a soft, repetitious plop.  On the southern wall is the entrance to a low tunnel."
+  ],
   "paths": [
     "Obvious exits: south"
   ],
+  "location": "Teorainn Dale",
+  "wayto": {
+    "1697": {
+      "file": "string_procs/wayto/1698_1697.rb"
+    },
+    "1699": "south"
+  },
+  "timeto": {
+    "1697": 0.2,
+    "1699": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     1161,
     1051,
     1171,
     1061
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The damp stone walls of the well rise steeply, ending in a dark circle of star-filled sky.  Water trickles down the stone walls and drips onto the muddy floor with a soft, repetitious plop.  On the southern wall is the entrance to a narrow tunnel.",
-    "The damp stone walls of the well rise steeply, ending in a bright blue circle of cloudless sky.  Water trickles down the stone walls and drips onto the muddy floor with a soft, repetitious plop.  On the southern wall is the entrance to a low tunnel."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Bottom of the Well]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1697": 0.2,
-    "1699": 0.2
-  },
-  "id": 1698,
-  "location": "Teorainn Dale",
-  "tags": [
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "talneo root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

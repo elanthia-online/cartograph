@@ -1,40 +1,26 @@
 {
-  "wayto": {
-    "7576": "southeast"
-  },
+  "id": 7580,
+  "title": [
+    "[Dark Cavern, Landslide]"
+  ],
+  "description": [
+    "The passage widens into a small room, blocked by a landslide of dirt and rocks that seems to have fallen a long time ago, as the glowing lichen has spread over most of its surface.  The gnawed arm of a skeleton that appears somewhat human protrudes from beneath a fallen boulder."
+  ],
   "paths": [
     "Obvious exits: southeast"
   ],
+  "location": "the dark caverns",
+  "wayto": {
+    "7576": "southeast"
+  },
+  "timeto": {
+    "7576": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     171,
     1101,
     181,
     1111
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The passage widens into a small room, blocked by a landslide of dirt and rocks that seems to have fallen a long time ago, as the glowing lichen has spread over most of its surface.  The gnawed arm of a skeleton that appears somewhat human protrudes from beneath a fallen boulder."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dark Cavern, Landslide]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7576": 0.2
-  },
-  "id": 7580,
-  "location": "the dark caverns",
-  "tags": [
-    "withered black mushroom",
-    "cave moss",
-    "murdroot",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

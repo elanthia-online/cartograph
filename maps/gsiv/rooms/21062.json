@@ -1,47 +1,32 @@
 {
-  "wayto": {
-    "21018": {
-      "stringproc": "9b0f4730cf11038cbc83f77a235c39e6"
-    },
-    "21063": {
-      "stringproc": "1c304dc162ad33460c5751cce901dc5a"
-    }
-  },
+  "id": 21062,
+  "title": [
+    "[Alhan'aht River, Rooted Bank]"
+  ],
+  "description": [
+    "Firewheel trees and jambu spread their limbs, their foliage covered in colorful flora, their roots firmly planted near the edge of the river that tumbles by.  In one direction, moonlit sandstone cliffs rise up above the forest, their light color contrasting sharply with the darker shades of the night jungle.  To the other side, only ferns and trees are visible as they block out a full view of the sky."
+  ],
   "paths": [
     "Obvious paths: east, southwest"
   ],
+  "location": "the environs of the Saewehna Lagoon",
+  "wayto": {
+    "21018": {
+      "file": "string_procs/wayto/21062_21018.rb"
+    },
+    "21063": {
+      "file": "string_procs/wayto/21062_21063.rb"
+    }
+  },
+  "timeto": {
+    "21018": 2.0,
+    "21063": 2.0
+  },
+  "image": "ifw-wilds-1368242816.png",
   "image_coords": [
     780,
     1379,
     801,
     1399
-  ],
-  "terrain": "riparian",
-  "description": [
-    "Firewheel trees and jambu spread their limbs, their foliage covered in colorful flora, their roots firmly planted near the edge of the river that tumbles by.  In one direction, moonlit sandstone cliffs rise up above the forest, their light color contrasting sharply with the darker shades of the night jungle.  To the other side, only ferns and trees are visible as they block out a full view of the sky."
-  ],
-  "image": "ifw-wilds-1368242816.png",
-  "climate": "humid",
-  "title": [
-    "[Alhan'aht River, Rooted Bank]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "21018": 2.0,
-    "21063": 2.0
-  },
-  "id": 21062,
-  "location": "the environs of the Saewehna Lagoon",
-  "tags": [
-    "acantha leaf",
-    "stalk of cattail",
-    "murdroot",
-    "wavepetal blossom",
-    "talneo root",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

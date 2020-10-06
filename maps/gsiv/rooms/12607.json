@@ -1,38 +1,28 @@
 {
-  "wayto": {
-    "12608": {
-      "stringproc": "3aef94ef85bbe83084b39a2ede70f034"
-    }
-  },
+  "id": 12607,
+  "title": [
+    "[Luukos' Gullet, Narrow Hollow]"
+  ],
+  "description": [
+    "Bursts of hot gas, disturbed in their upward flight by the outcropping just beneath you, have charred a shallow indentation in the stone.  It's just enough room to squeeze into, although it takes quite a bit of squirming to keep from sliding off into the abyss.  Someone has carved a message near the base, but it is difficult to make out the charred letters."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "the Dark Palisade",
+  "wayto": {
+    "12608": {
+      "file": "string_procs/wayto/12607_12608.rb"
+    }
+  },
+  "timeto": {
+    "12608": 3.4
+  },
+  "image": "ti-wilds-1264234799.png",
   "image_coords": [
     774,
     649,
     784,
     659
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Bursts of hot gas, disturbed in their upward flight by the outcropping just beneath you, have charred a shallow indentation in the stone.  It's just enough room to squeeze into, although it takes quite a bit of squirming to keep from sliding off into the abyss.  Someone has carved a message near the base, but it is difficult to make out the charred letters."
-  ],
-  "image": "ti-wilds-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Luukos' Gullet, Narrow Hollow]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "12608": 3.4
-  },
-  "id": 12607,
-  "location": "the Dark Palisade",
-  "tags": [
-    "pepperthorn root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

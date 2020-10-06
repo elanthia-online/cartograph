@@ -1,56 +1,37 @@
 {
+  "id": 1292,
+  "title": [
+    "[Upper Trollfang]"
+  ],
+  "description": [
+    "You are on the eastern edge of a vast region of hills and forest.  To the east and south stretches a rolling plain of tall grasses."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "1291": "north",
     "1293": "east",
     "8530": "south"
   },
-  "paths": [
-    "Obvious paths: north, east, south"
-  ],
+  "timeto": {
+    "1291": 0.2,
+    "1293": 0.2,
+    "8530": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     1060,
     651,
     1070,
     661
   ],
-  "terrain": "mountainous",
-  "description": [
-    "You are on the eastern edge of a vast region of hills and forest.  To the east and south stretches a rolling plain of tall grasses."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Upper Trollfang]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1291": 0.2,
-    "1293": 0.2,
-    "8530": 0.2
-  },
-  "id": 1292,
-  "location": "the Upper Trollfang",
   "tags": [
     "forest troll",
     "sprig of holly",
     "wild pink geranium",
     "some wingstem root",
-    "yellow primrose",
-    "angelica root",
-    "stalk of bluebells",
-    "sprig of larkspur",
-    "golden aster",
-    "sprig of ivy",
-    "small apple",
-    "pepperthorn root",
-    "ironfern root",
-    "sunburst blossom",
-    "bolmara lichen",
-    "wingstem root",
-    "alder bark",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "yellow primrose"
   ]
 }

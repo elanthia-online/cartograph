@@ -1,35 +1,32 @@
 {
-  "wayto": {
-    "2505": {
-      "stringproc": "2b4af1354e22d2a4bbc0aa605e096470"
-    },
-    "2507": "go trail"
-  },
+  "id": 2506,
+  "title": [
+    "[Icemule Trail, Snowy Forest]"
+  ],
+  "description": [
+    "Heavy snow from the upper branches of the wind-blown trees plops wetly on the trail, creating little islands of slippery ice that impede your way.  It is impossible to avoid the falling snow which slips down your neck and seeps into your clothing, setting your teeth to chattering."
+  ],
   "paths": [
     "Obvious paths: north"
   ],
+  "location": "the Icemule Trail",
+  "wayto": {
+    "2505": {
+      "file": "string_procs/wayto/2506_2505.rb"
+    },
+    "2507": "go trail"
+  },
+  "timeto": {
+    "2505": 0.2,
+    "2507": 0.2
+  },
+  "image": "imt-trail-1264234799.png",
   "image_coords": [
     1152,
     326,
     1162,
     336
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "Heavy snow from the upper branches of the wind-blown trees plops wetly on the trail, creating little islands of slippery ice that impede your way.  It is impossible to avoid the falling snow which slips down your neck and seeps into your clothing, setting your teeth to chattering."
-  ],
-  "image": "imt-trail-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Icemule Trail, Snowy Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2505": 0.2,
-    "2507": 0.2
-  },
-  "id": 2506,
-  "location": "the Icemule Trail",
   "tags": [
     "rockberry",
     "handful of pinenuts",
@@ -65,10 +62,6 @@
     "ironfern root",
     "twisted twig",
     "slender twig",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bolmara lichen"
   ]
 }

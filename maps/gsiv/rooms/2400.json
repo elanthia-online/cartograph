@@ -1,45 +1,38 @@
 {
+  "id": 2400,
+  "title": [
+    "[Tavern Burrow, Ale Street]"
+  ],
+  "description": [
+    "Stucco seems the preferred building material of the Tavern Burrow residents.  The street has been newly cobbled, and the rough edges cause several people to nearly trip as they hurry along.  A stucco well attracts a group of children, who drop stones into it, then hoot with glee at the muffled splash."
+  ],
+  "paths": [
+    "Obvious paths: north, south, northwest"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "2399": "south",
     "2401": "northwest",
     "2407": "north"
   },
-  "paths": [
-    "Obvious paths: north, south, northwest"
-  ],
+  "timeto": {
+    "2399": 2.4,
+    "2401": 2.4,
+    "2407": 2.4
+  },
+  "image": "imt-icemule-1474811966.png",
   "image_coords": [
     403,
     964,
     439,
     1000
   ],
-  "terrain": "hard, flat",
-  "description": [
-    "Stucco seems the preferred building material of the Tavern Burrow residents.  The street has been newly cobbled, and the rough edges cause several people to nearly trip as they hurry along.  A stucco well attracts a group of children, who drop stones into it, then hoot with glee at the muffled splash."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Tavern Burrow, Ale Street]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2399": 2.4,
-    "2401": 2.4,
-    "2407": 2.4
-  },
-  "id": 2400,
-  "location": "Icemule Trace",
   "tags": [
     "node",
     "calmintha flower",
     "supernode",
     "meta:boxpool:npc:shivering burghal gnome boss",
     "meta:boxpool:table:drakar-braced beech trestle table",
-    "locksmith pool",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "locksmith pool"
   ]
 }

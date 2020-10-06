@@ -1,38 +1,30 @@
 {
-  "wayto": {
-    "16608": "east",
-    "16609": "north",
-    "12269": {
-      "stringproc": "acecee8ddcdc5ba0c5fd64a17c28069b"
-    }
-  },
-  "paths": [
-    "Obvious exits: north, east, out"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Beneath an uneven wooden ceiling, a tattered merchant permit hangs on one of the plain wooden walls.  A plain wooden table sits in one corner while a worn rug rests on the wooden floor.",
-    "Beneath an uneven wooden ceiling, a tattered merchant permit hangs on one of the plain wooden walls.  A fish hook rack and a warped treasure chest sit in opposite corners while a worn rug rests on an unfinished wooden floor."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 16550,
   "title": [
     "[Arroke's Magic Shoppe]",
     "[Arroke's General Store]"
   ],
-  "check_location": null,
+  "description": [
+    "Beneath an uneven wooden ceiling, a tattered merchant permit hangs on one of the plain wooden walls.  A plain wooden table sits in one corner while a worn rug rests on the wooden floor.",
+    "Beneath an uneven wooden ceiling, a tattered merchant permit hangs on one of the plain wooden walls.  A fish hook rack and a warped treasure chest sit in opposite corners while a worn rug rests on an unfinished wooden floor."
+  ],
+  "paths": [
+    "Obvious exits: north, east, out"
+  ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "16608": "east",
+    "16609": "north",
+    "12269": {
+      "file": "string_procs/wayto/16550_12269.rb"
+    }
+  },
   "timeto": {
     "16608": 0.2,
     "16609": 0.2,
     "12269": 0.2
   },
-  "id": 16550,
-  "location": "Mist Harbor",
   "tags": [
     "no-auto-map"
-  ],
-  "links": [
-
   ]
 }

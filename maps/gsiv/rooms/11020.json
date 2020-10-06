@@ -1,34 +1,33 @@
 {
+  "id": 11020,
+  "title": [
+    "[Overgrown Trail]"
+  ],
+  "description": [
+    "The foliage of the trees combined with the hundreds of vines that enshroud them is so thick as to keep the area in almost total darkness.  Tiny yellow flowers luminesce in the pallid threads of moonlight.  Tall, segmented grasses grow on the trail, making it difficult to follow.  Underfoot are a few haphazardly placed and badly cracked paving stones.",
+    "The foliage of the trees combined with the hundreds of vines that enshroud them is so thick as to keep the area in perpetual near-gloom.  Tiny yellow flowers grow in bright profusion on the upper vines.  Tall, segmented grasses grow on the trail, making it difficult to follow.  Underfoot are a few haphazardly placed and badly cracked paving stones."
+  ],
+  "paths": [
+    "Obvious paths: south, northwest"
+  ],
+  "location": "the Karazja Jungle",
+  "climate": "temperate",
+  "terrain": "tropical",
   "wayto": {
     "11019": "northwest",
     "11021": "south"
   },
-  "paths": [
-    "Obvious paths: south, northwest"
-  ],
+  "timeto": {
+    "11019": 0.2,
+    "11021": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     527,
     1089,
     537,
     1099
   ],
-  "terrain": "tropical",
-  "description": [
-    "The foliage of the trees combined with the hundreds of vines that enshroud them is so thick as to keep the area in almost total darkness.  Tiny yellow flowers luminesce in the pallid threads of moonlight.  Tall, segmented grasses grow on the trail, making it difficult to follow.  Underfoot are a few haphazardly placed and badly cracked paving stones.",
-    "The foliage of the trees combined with the hundreds of vines that enshroud them is so thick as to keep the area in perpetual near-gloom.  Tiny yellow flowers grow in bright profusion on the upper vines.  Tall, segmented grasses grow on the trail, making it difficult to follow.  Underfoot are a few haphazardly placed and badly cracked paving stones."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "temperate",
-  "title": [
-    "[Overgrown Trail]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11019": 0.2,
-    "11021": 0.2
-  },
-  "id": 11020,
-  "location": "the Karazja Jungle",
   "tags": [
     "some acantha leaf",
     "some torban leaf",
@@ -57,11 +56,6 @@
     "slender twig",
     "ebony twig",
     "talneo root",
-    "brostheras grass",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

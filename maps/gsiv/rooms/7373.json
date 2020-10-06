@@ -1,41 +1,31 @@
 {
+  "id": 7373,
+  "title": [
+    "[Shadow Valley, Dark Pasture]"
+  ],
+  "description": [
+    "Deep cracks spread over the barren earth like skeletal fingers choking the life out of the pasture.  Rust colored stains flow along the broken web of cracks.  The dark stains lay a quiet, persistent siege to what little life remains."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7376": "southwest",
     "7344": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, southwest"
-  ],
+  "timeto": {
+    "7376": 0.2,
+    "7344": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1069,
     836,
     1077,
     844
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "Deep cracks spread over the barren earth like skeletal fingers choking the life out of the pasture.  Rust colored stains flow along the broken web of cracks.  The dark stains lay a quiet, persistent siege to what little life remains."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Shadow Valley, Dark Pasture]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7376": 0.2,
-    "7344": 0.2
-  },
-  "id": 7373,
-  "location": "the Shadow Valley",
   "tags": [
-    "night mare",
-    "longgrass",
-    "wyrm thorn",
-    "petrified shadowstalk",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "night mare"
   ]
 }

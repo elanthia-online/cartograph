@@ -1,41 +1,34 @@
 {
+  "id": 2467,
+  "title": [
+    "[Commerce Burrow, Giantman Path]"
+  ],
+  "description": [
+    "This quiet path veers south of the bazaar, along a residential street lined with simple homes of all shapes and sizes.  The sounds of the Trace are muffled by thatched roofs and several sturdy oak trees lining the path."
+  ],
+  "paths": [
+    "Obvious paths: east, northwest"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "2465": "northwest",
     "3389": "go building",
     "2468": "east"
   },
-  "paths": [
-    "Obvious paths: east, northwest"
-  ],
+  "timeto": {
+    "2465": 0.2,
+    "3389": 0.2,
+    "2468": 0.2
+  },
+  "image": "imt-icemule-1474811966.png",
   "image_coords": [
     936,
     1233,
     972,
     1269
   ],
-  "terrain": "hard, flat",
-  "description": [
-    "This quiet path veers south of the bazaar, along a residential street lined with simple homes of all shapes and sizes.  The sounds of the Trace are muffled by thatched roofs and several sturdy oak trees lining the path."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Commerce Burrow, Giantman Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2465": 0.2,
-    "3389": 0.2,
-    "2468": 0.2
-  },
-  "id": 2467,
-  "location": "Icemule Trace",
   "tags": [
     "node",
-    "calmintha flower",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "calmintha flower"
   ]
 }

@@ -1,32 +1,20 @@
 {
-  "wayto": {
-    "11170": {
-      "stringproc": "33a8ca174b74f566e6393bb6d01b69a8"
-    }
-  },
-  "paths": [
-    "Obvious exits: east"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Long and narrow, this barracks room once housed about two dozen soldiers in relative comfort.  All the bedding and furniture has long since been destroyed.  The remains of the soldiers do not seem to mind the mess in their once polished room."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 11189,
   "title": [
     "[Garrison, Barracks]"
   ],
-  "check_location": null,
+  "description": [
+    "Long and narrow, this barracks room once housed about two dozen soldiers in relative comfort.  All the bedding and furniture has long since been destroyed.  The remains of the soldiers do not seem to mind the mess in their once polished room."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "wayto": {
+    "11170": {
+      "file": "string_procs/wayto/11189_11170.rb"
+    }
+  },
   "timeto": {
     "11170": 1.2
-  },
-  "id": 11189,
-  "location": null,
-  "tags": [
-
-  ],
-  "links": [
-
-  ]
+  }
 }

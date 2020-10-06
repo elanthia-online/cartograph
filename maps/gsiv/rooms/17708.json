@@ -1,40 +1,29 @@
 {
+  "id": 17708,
+  "title": [
+    "[Citadel, Dungeon Corridor]"
+  ],
+  "description": [
+    "Yellow light illuminates the corridor from a shining golden orb affixed to the wall, the first of many orbs that line the corridor like brilliant beads to the north and to the east.  Dust particles float through the air, stirred by recent passage, glittering in the yellow light and slowly drifting toward the floor.  Slung into the space between the floor and the wall is a coil of rope."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south"
+  ],
   "wayto": {
     "17707": "south",
     "17709": "east",
     "17711": "north"
   },
-  "paths": [
-    "Obvious exits: north, east, south"
-  ],
-  "image_coords": [
-    37,
-    1068,
-    47,
-    1078
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Yellow light illuminates the corridor from a shining golden orb affixed to the wall, the first of many orbs that line the corridor like brilliant beads to the north and to the east.  Dust particles float through the air, stirred by recent passage, glittering in the yellow light and slowly drifting toward the floor.  Slung into the space between the floor and the wall is a coil of rope."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Citadel, Dungeon Corridor]"
-  ],
-  "check_location": null,
   "timeto": {
     "17707": 0.2,
     "17709": 0.2,
     "17711": 0.2
   },
-  "id": 17708,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-citadel-1267238976.png",
+  "image_coords": [
+    37,
+    1068,
+    47,
+    1078
   ]
 }

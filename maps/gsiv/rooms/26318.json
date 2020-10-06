@@ -1,35 +1,28 @@
 {
+  "id": 26318,
+  "title": [
+    "[Lich Citadel, Soul Pit]"
+  ],
+  "description": [
+    "Deep, guttural moaning rises up from the recesses of the pit nearby.  The loud groaning echoes off the shadowy walls of the chamber."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "Talador",
   "wayto": {
     "26317": "east",
     "26320": "north"
   },
-  "paths": [
-    "Obvious exits: north, east"
-  ],
+  "timeto": {
+    "26317": 0.2,
+    "26320": 0.2
+  },
+  "image": "wl-lichs_landing-1500800742.png",
   "image_coords": [
     1099,
     728,
     1125,
     755
-  ],
-  "terrain": null,
-  "description": [
-    "Deep, guttural moaning rises up from the recesses of the pit nearby.  The loud groaning echoes off the shadowy walls of the chamber."
-  ],
-  "image": "wl-lichs_landing-1500800742.png",
-  "climate": null,
-  "title": [
-    "[Lich Citadel, Soul Pit]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26317": 0.2,
-    "26320": 0.2
-  },
-  "id": 26318,
-  "location": "Talador",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

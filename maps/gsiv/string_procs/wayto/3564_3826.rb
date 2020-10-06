@@ -1,1 +1,2 @@
-move 'up'; waitrt?
+move 'up'
+ waitrt?

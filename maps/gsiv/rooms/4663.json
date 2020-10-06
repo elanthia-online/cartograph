@@ -1,40 +1,32 @@
 {
+  "id": 4663,
+  "title": [
+    "[Hihaeim's Locksmithery]"
+  ],
+  "description": [
+    "Plaster and stone walls remain unadorned, along with the majority of the room.  Though vacant, the shop is meticulously clean and nary a speck of dust can be found.  A bejeweled brass bin is tucked behind a smooth granite counter, prominently displaying a catalog of wares.  Warm light shines through a narrow oak archway draped in pale blue fabric.",
+    "Plaster and stone walls remain unadorned, along with the majority of the room.  Though vacant, the shop is meticulously clean and nary a speck of dust can be found.  A catalog of wares is prominently displayed upon a smooth granite counter, open for perusal and to facilitate the delivery of orders from the curtained-off backroom."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Cysaegir",
   "wayto": {
     "4661": "out",
     "28718": "go oak archway"
   },
-  "paths": [
-    "Obvious exits: out"
-  ],
+  "timeto": {
+    "4661": 0.2,
+    "28718": 0.2
+  },
+  "image": "en-cysaegir-1264234799.png",
   "image_coords": [
     893,
     852,
     929,
     888
   ],
-  "terrain": "indoors",
-  "description": [
-    "Plaster and stone walls remain unadorned, along with the majority of the room.  Though vacant, the shop is meticulously clean and nary a speck of dust can be found.  A bejeweled brass bin is tucked behind a smooth granite counter, prominently displaying a catalog of wares.  Warm light shines through a narrow oak archway draped in pale blue fabric.",
-    "Plaster and stone walls remain unadorned, along with the majority of the room.  Though vacant, the shop is meticulously clean and nary a speck of dust can be found.  A catalog of wares is prominently displayed upon a smooth granite counter, open for perusal and to facilitate the delivery of orders from the curtained-off backroom."
-  ],
-  "image": "en-cysaegir-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Hihaeim's Locksmithery]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4661": 0.2,
-    "28718": 0.2
-  },
-  "id": 4663,
-  "location": "Cysaegir",
   "tags": [
-    "locksmith",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "locksmith"
   ]
 }

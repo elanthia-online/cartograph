@@ -1,40 +1,30 @@
 {
+  "id": 7043,
+  "title": [
+    "[Castle Darkstone, Tower]"
+  ],
+  "description": [
+    "Large cracks in the walls here make you question the structural integrity of this tower.  Broken bits of stone and a fine rocky dust cover most everything in this room, what little there is."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7033": "out",
     "7044": "go steps",
     "7045": "go staircase"
   },
-  "paths": [
-    "Obvious exits: out"
-  ],
-  "image_coords": [
-    668,
-    621,
-    678,
-    631
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Large cracks in the walls here make you question the structural integrity of this tower.  Broken bits of stone and a fine rocky dust cover most everything in this room, what little there is."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Castle Darkstone, Tower]"
-  ],
-  "check_location": null,
   "timeto": {
     "7033": 0.2,
     "7044": 0.2,
     "7045": 0.2
   },
-  "id": 7043,
-  "location": "Darkstone Castle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-darkstone-1264234799.png",
+  "image_coords": [
+    668,
+    621,
+    678,
+    631
   ]
 }

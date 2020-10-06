@@ -1,51 +1,36 @@
 {
-  "wayto": {
-    "12238": "southeast",
-    "12151": {
-      "stringproc": "c01b87e914b9cdeee3471070ec5e96d5"
-    },
-    "12234": "south",
-    "12235": "northwest"
-  },
-  "paths": [
-    "Obvious exits: southeast, south, northwest",
-    "Obvious paths: southeast, south, northwest"
+  "id": 12236,
+  "title": [
+    "[The Rift, Scatter]"
   ],
-  "image_coords": [
-    460,
-    210,
-    484,
-    234
-  ],
-  "terrain": null,
   "description": [
     "A white-washed baby's crib stands alone in a circle of dark stones.  Snow swirls around the bed in a loose vortex.  The tortured cries and wails of an infant can be heard clearly, though there is no child to be found anywhere.",
     "A white-washed baby's crib stands alone in a circle of glowing coals, illuminated with a reddish hue against the darkness.  The tortured cries and wails of an infant can be heard clearly, though there is no child to be found anywhere."
   ],
-  "image": "imt-scatter-1264234799.png",
-  "climate": null,
-  "title": [
-    "[The Rift, Scatter]"
+  "paths": [
+    "Obvious exits: southeast, south, northwest",
+    "Obvious paths: southeast, south, northwest"
   ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12238": "southeast",
+    "12151": {
+      "file": "string_procs/wayto/12236_12151.rb"
+    },
+    "12234": "south",
+    "12235": "northwest"
+  },
   "timeto": {
     "12238": 0.2,
     "12151": 11.4,
     "12234": 0.2,
     "12235": 0.2
   },
-  "id": 12236,
-  "location": "the Rift",
-  "tags": [
-    "mass of congealed slime",
-    "oozing fleshsore bulb",
-    "withered deathblossom",
-    "rotting bile green fleshbulb",
-    "slime-covered grave blossom",
-    "discolored fleshbinder bud",
-    "twisted black mawflower"
-  ],
-  "links": [
-
+  "image": "imt-scatter-1264234799.png",
+  "image_coords": [
+    460,
+    210,
+    484,
+    234
   ]
 }

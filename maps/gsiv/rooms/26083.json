@@ -1,34 +1,25 @@
 {
-  "wayto": {
-    "26084": {
-      "stringproc": "2be5e1713fd441fb9d96ee2c6b6c09c0"
-    },
-    "26082": {
-      "stringproc": "b0be0d51fa1a6a17201f92c65e8511c2"
-    }
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Intricately carved patterns dance across the western wall as they travel from the downward spiraling stairs to the upward ones, their thick and thin lines are a combination of whorls and musical notes.  Dim light, created by four potted toadstools, illuminates the corridor and draws attention to the colorful murals that are housed within the eastern wall.  Faint and carefree, the sound of a fife playing a joyful tune fills the air."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 26083,
   "title": [
     "[Zul Logoth, Ancient Passage]"
   ],
-  "check_location": null,
+  "description": [
+    "Intricately carved patterns dance across the western wall as they travel from the downward spiraling stairs to the upward ones, their thick and thin lines are a combination of whorls and musical notes.  Dim light, created by four potted toadstools, illuminates the corridor and draws attention to the colorful murals that are housed within the eastern wall.  Faint and carefree, the sound of a fife playing a joyful tune fills the air."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Zul Logoth",
+  "wayto": {
+    "26084": {
+      "file": "string_procs/wayto/26083_26084.rb"
+    },
+    "26082": {
+      "file": "string_procs/wayto/26083_26082.rb"
+    }
+  },
   "timeto": {
     "26084": 12.0,
     "26082": 24.0
-  },
-  "id": 26083,
-  "location": "Zul Logoth",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  }
 }

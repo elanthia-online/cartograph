@@ -1,42 +1,32 @@
 {
+  "id": 9442,
+  "title": [
+    "[Zaratek Hall, Foyer]"
+  ],
+  "description": [
+    "A series of three arches branch off to the west, each a fine example of masonry.  The gentle luminescence of giant glowing toadstools cast upon the foyer's stonework illuminates their cleanly hewn surfaces.  Standing forefront, a life-sized statue wrought of bronze has been set upon a polished granite pedestal."
+  ],
+  "paths": [
+    "Obvious exits: southwest, west, northwest, out"
+  ],
+  "location": "Zul Logoth",
   "wayto": {
     "1010": "out",
     "9443": "northwest",
     "9444": "west",
     "9445": "southwest"
   },
-  "paths": [
-    "Obvious exits: southwest, west, northwest, out"
-  ],
-  "image_coords": [
-    353,
-    576,
-    389,
-    612
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A series of three arches branch off to the west, each a fine example of masonry.  The gentle luminescence of giant glowing toadstools cast upon the foyer's stonework illuminates their cleanly hewn surfaces.  Standing forefront, a life-sized statue wrought of bronze has been set upon a polished granite pedestal."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Zaratek Hall, Foyer]"
-  ],
-  "check_location": null,
   "timeto": {
     "1010": 0.2,
     "9443": 0.2,
     "9444": 0.2,
     "9445": 0.2
   },
-  "id": 9442,
-  "location": "Zul Logoth",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-zul_logoth-1264234799.png",
+  "image_coords": [
+    353,
+    576,
+    389,
+    612
   ]
 }

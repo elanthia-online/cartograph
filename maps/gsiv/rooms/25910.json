@@ -1,37 +1,30 @@
 {
+  "id": 25910,
+  "title": [
+    "[Sylinar's Spire]"
+  ],
+  "description": [
+    "A dusty suit of platemail stands at rest, leaning against the dull greatsword held downward before it.  Across from the armor, a pocket of cold air enshrouds an open door.  A spiraling stone staircase spirals further upward to the sixth level of the tower."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Summit Academy",
   "wayto": {
     "25911": "go staircase",
     "25913": "go door",
     "25909": "down"
   },
-  "paths": [
-    "Obvious exits: down"
-  ],
-  "image_coords": [
-    937,
-    211,
-    988,
-    264
-  ],
-  "terrain": null,
-  "description": [
-    "A dusty suit of platemail stands at rest, leaning against the dull greatsword held downward before it.  Across from the armor, a pocket of cold air enshrouds an open door.  A spiraling stone staircase spirals further upward to the sixth level of the tower."
-  ],
-  "image": "Spire_Grounds_5117.png",
-  "climate": null,
-  "title": [
-    "[Sylinar's Spire]"
-  ],
-  "check_location": null,
   "timeto": {
     "25911": 0.2,
     "25913": 0.2,
     "25909": 0.2
   },
-  "id": 25910,
-  "location": "Summit Academy",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  "image": "Spire_Grounds_5117.png",
+  "image_coords": [
+    937,
+    211,
+    988,
+    264
+  ]
 }

@@ -1,33 +1,30 @@
 {
+  "id": 24700,
+  "title": [
+    "[Red Forest, Ring of Mist]"
+  ],
+  "description": [
+    "Splinters of sunlight peek in through the abundant canopy above, infusing the mist-shrouded woods with a pale amber glow.  The markings of hooves dot the ground among some broken twigs and trampled grass."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "the Red Forest",
   "wayto": {
     "24701": "west",
     "24699": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, west"
-  ],
+  "timeto": {
+    "24701": 0.2,
+    "24699": 0.2
+  },
+  "image": "red_forest-1260914757.png",
   "image_coords": [
     204,
     76,
     217,
     89
   ],
-  "terrain": null,
-  "description": [
-    "Splinters of sunlight peek in through the abundant canopy above, infusing the mist-shrouded woods with a pale amber glow.  The markings of hooves dot the ground among some broken twigs and trampled grass."
-  ],
-  "image": "red_forest-1260914757.png",
-  "climate": null,
-  "title": [
-    "[Red Forest, Ring of Mist]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24701": 0.2,
-    "24699": 0.2
-  },
-  "id": 24700,
-  "location": "the Displaced Red Forest",
   "tags": [
     "wild gooseberry",
     "sassafras leaf",
@@ -59,27 +56,6 @@
     "massive black boar",
     "winged viper",
     "some valerian root",
-    "some mistweed",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "sticks",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "blueberries",
-    "broken twig",
-    "small wild rose",
-    "tree bark",
-    "mistweed",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+    "some mistweed"
+  ]
 }

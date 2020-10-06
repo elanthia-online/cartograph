@@ -1,35 +1,32 @@
 {
+  "id": 217,
+  "title": [
+    "[Lower Dragonsclaw, Forest]"
+  ],
+  "description": [
+    "The light dims as you pass beneath the eaves of the forest, with little sun filtering through the canopy formed by the branches of the surrounding fir and pine.  There is no discernible path between the closely grown trees and shrubs.",
+    "The darkness closes around you as you pass beneath the eaves of the forest, with little moonlight filtering through the canopy formed by the branches of the surrounding fir and pine.  There is no discernible path between the closely grown trees and shrubs.\"",
+    "The darkness closes around you as you pass beneath the eaves of the forest, with little moonlight filtering through the canopy formed by the branches of the surrounding fir and pine.  There is no discernible path between the closely grown trees and shrubs."
+  ],
+  "paths": [
+    "Obvious paths: east, south"
+  ],
+  "location": "the Lower Dragonsclaw",
   "wayto": {
     "216": "south",
     "218": "east"
   },
-  "paths": [
-    "Obvious paths: east, south"
-  ],
+  "timeto": {
+    "216": 0.2,
+    "218": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     576,
     303,
     586,
     313
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "The light dims as you pass beneath the eaves of the forest, with little sun filtering through the canopy formed by the branches of the surrounding fir and pine.  There is no discernible path between the closely grown trees and shrubs.",
-    "The darkness closes around you as you pass beneath the eaves of the forest, with little moonlight filtering through the canopy formed by the branches of the surrounding fir and pine.  There is no discernible path between the closely grown trees and shrubs.\"",
-    "The darkness closes around you as you pass beneath the eaves of the forest, with little moonlight filtering through the canopy formed by the branches of the surrounding fir and pine.  There is no discernible path between the closely grown trees and shrubs."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Lower Dragonsclaw, Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "216": 0.2,
-    "218": 0.2
-  },
-  "id": 217,
-  "location": "the Lower Dragonsclaw",
   "tags": [
     "blue trafel mushroom",
     "some bolmara lichen",
@@ -85,10 +82,6 @@
     "white baneberry",
     "ironfern root",
     "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

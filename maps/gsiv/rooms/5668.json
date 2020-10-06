@@ -1,43 +1,28 @@
 {
+  "id": 5668,
+  "title": [
+    "[Warrens]"
+  ],
+  "description": [
+    "The earthen ceiling is badly saturated from some unknown source of water and this is causing the run-off to splatter to the floor in large droplets.  The excess liquid on the ground has made the floor muddy and difficult to walk on, although a few small footprints lend evidence that others have passed this way."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest"
+  ],
+  "location": "the Vornavian Coast",
   "wayto": {
     "5666": "southeast",
     "5669": "southwest"
   },
-  "paths": [
-    "Obvious exits: southeast, southwest"
-  ],
+  "timeto": {
+    "5666": 0.2,
+    "5669": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     577,
     581,
     587,
     591
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The earthen ceiling is badly saturated from some unknown source of water and this is causing the run-off to splatter to the floor in large droplets.  The excess liquid on the ground has made the floor muddy and difficult to walk on, although a few small footprints lend evidence that others have passed this way."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Warrens]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5666": 0.2,
-    "5669": 0.2
-  },
-  "id": 5668,
-  "location": "the Vornavian Coast",
-  "tags": [
-    "withered black mushroom",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

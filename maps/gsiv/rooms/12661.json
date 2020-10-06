@@ -1,38 +1,28 @@
 {
+  "id": 12661,
+  "title": [
+    "[Fhorian Village, Storage Shed]"
+  ],
+  "description": [
+    "The room here is empty except for the vines which reach out everywhere.  You can see where the plant emerged from the floor of the shed and spread out to the walls and ceiling as if looking for something."
+  ],
+  "paths": [
+    "Obvious exits: north, out"
+  ],
+  "location": "the Fhorian Village",
   "wayto": {
     "12660": "north",
     "2089": "out"
   },
-  "paths": [
-    "Obvious exits: north, out"
-  ],
+  "timeto": {
+    "12660": 0.2,
+    "2089": 0.2
+  },
+  "image": "ti-wilds-1264234799.png",
   "image_coords": [
     1144,
     999,
     1154,
     1009
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The room here is empty except for the vines which reach out everywhere.  You can see where the plant emerged from the floor of the shed and spread out to the walls and ceiling as if looking for something."
-  ],
-  "image": "ti-wilds-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Fhorian Village, Storage Shed]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "12660": 0.2,
-    "2089": 0.2
-  },
-  "id": 12661,
-  "location": "the Fhorian Village",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

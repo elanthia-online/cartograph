@@ -1,10 +1,11 @@
 {
-  "wayto": {
-    "6212": {
-      "stringproc": "e590e6ed67a48efb1ae125c876541a12"
-    },
-    "6200": "northeast"
-  },
+  "id": 6211,
+  "title": [
+    "[Labyrinth, The Unending Path]"
+  ],
+  "description": [
+    "The tunnel narrows as it continues forward, and the air becomes less stale.  The path transforms slowly from unending darkness and rough walls and flooring to a dimly lit, cobblestone trail.  The walls are crafted from sandstone blocks, and the remains of murals and tapestries hang from its height."
+  ],
   "paths": [
     "Obvious exits: northeast, west",
     "Obvious exits: northeast, south",
@@ -12,34 +13,27 @@
     "Obvious exits: northeast, southwest",
     "Obvious exits: northeast, southeast"
   ],
+  "location": "The Hidden Plateau",
+  "wayto": {
+    "6212": {
+      "file": "string_procs/wayto/6211_6212.rb"
+    },
+    "6200": "northeast"
+  },
+  "timeto": {
+    "6212": 0.2,
+    "6200": 0.2
+  },
+  "image": "wl-wehntoph-1310775397.png",
   "image_coords": [
     843,
     500,
     879,
     536
   ],
-  "terrain": null,
-  "description": [
-    "The tunnel narrows as it continues forward, and the air becomes less stale.  The path transforms slowly from unending darkness and rough walls and flooring to a dimly lit, cobblestone trail.  The walls are crafted from sandstone blocks, and the remains of murals and tapestries hang from its height."
-  ],
-  "image": "wl-wehntoph-1310775397.png",
-  "climate": null,
-  "title": [
-    "[Labyrinth, The Unending Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6212": 0.2,
-    "6200": 0.2
-  },
-  "id": 6211,
-  "location": "The Hidden Plateau",
   "tags": [
     "black hook mushroom",
     "withered black mushroom",
     "red trafel mushroom"
-  ],
-  "links": [
-
   ]
 }

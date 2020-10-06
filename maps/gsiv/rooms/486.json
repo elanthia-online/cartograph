@@ -1,35 +1,32 @@
 {
+  "id": 486,
+  "title": [
+    "[Coastal Cliffs]"
+  ],
+  "description": [
+    "The cliffs narrow and you catch a glimpse of the jagged, rocky wasteland that lies eighty or so feet below you.  A few small rocks tumble out over the edge,  and it is breathless moments later before you hear them smash against the boulders below."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "7601": "climb path",
     "485": "southeast",
     "487": "northwest"
   },
-  "paths": [
-    "Obvious paths: southeast, northwest"
-  ],
+  "timeto": {
+    "7601": 0.2,
+    "485": 0.2,
+    "487": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     444,
     785,
     454,
     795
   ],
-  "terrain": "rough",
-  "description": [
-    "The cliffs narrow and you catch a glimpse of the jagged, rocky wasteland that lies eighty or so feet below you.  A few small rocks tumble out over the edge,  and it is breathless moments later before you hear them smash against the boulders below."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Coastal Cliffs]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7601": 0.2,
-    "485": 0.2,
-    "487": 0.2
-  },
-  "id": 486,
-  "location": "the Coastal Cliffs",
   "tags": [
     "handful of blueberries",
     "wild strawberry",
@@ -43,10 +40,6 @@
     "blueberries",
     "broken twig",
     "wild chokecherry",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

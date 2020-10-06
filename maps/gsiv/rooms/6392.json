@@ -1,40 +1,32 @@
 {
+  "id": 6392,
+  "title": [
+    "[Smokey Cave, Cavern]"
+  ],
+  "description": [
+    "This large round cavern has a high, domed ceiling.  A huge stalactite descends from the ceiling at the center of the cavern, reaching down to within inches of the cavern floor.  The same black grit seems to cover everything."
+  ],
+  "paths": [
+    "Obvious exits: north, northwest"
+  ],
+  "location": "the Lysierian Hills",
   "wayto": {
     "6391": "northwest",
     "6393": "north"
   },
-  "paths": [
-    "Obvious exits: north, northwest"
-  ],
+  "timeto": {
+    "6391": 0.2,
+    "6393": 0.2
+  },
+  "image": "wl-lysierian-1264234799.png",
   "image_coords": [
     527,
     456,
     537,
     466
   ],
-  "terrain": "indoors",
-  "description": [
-    "This large round cavern has a high, domed ceiling.  A huge stalactite descends from the ceiling at the center of the cavern, reaching down to within inches of the cavern floor.  The same black grit seems to cover everything."
-  ],
-  "image": "wl-lysierian-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Smokey Cave, Cavern]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6391": 0.2,
-    "6393": 0.2
-  },
-  "id": 6392,
-  "location": "the Lysierian Hills",
   "tags": [
     "fire rat",
-    "fire cat",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "fire cat"
   ]
 }

@@ -1,45 +1,39 @@
 {
-  "wayto": {
-    "388": {
-      "stringproc": "131c75dd183bacb8032d750db8b11c66"
-    },
-    "390": {
-      "stringproc": "3d9aa4a61b4982e4bb4309304511eb89"
-    },
-    "3855": "go opening"
-  },
+  "id": 389,
+  "title": [
+    "[Moot Hall, Storage Hall]"
+  ],
+  "description": [
+    "You are in a darkly lit hallway which travels east and west.  On the north wall is a curtained opening."
+  ],
   "paths": [
     "Obvious exits: east, west"
   ],
+  "location": "Wehnimer's Landing",
+  "wayto": {
+    "388": {
+      "file": "string_procs/wayto/389_388.rb"
+    },
+    "390": {
+      "file": "string_procs/wayto/389_390.rb"
+    },
+    "3855": "go opening"
+  },
+  "timeto": {
+    "388": 0.2,
+    "390": 0.2,
+    "3855": 0.2
+  },
+  "image": "wl-moot_hall-1486755929.png",
   "image_coords": [
     861,
     1120,
     1003,
     1180
   ],
-  "terrain": null,
-  "description": [
-    "You are in a darkly lit hallway which travels east and west.  On the north wall is a curtained opening."
-  ],
-  "image": "wl-moot_hall-1486755929.png",
-  "climate": null,
-  "title": [
-    "[Moot Hall, Storage Hall]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "388": 0.2,
-    "390": 0.2,
-    "3855": 0.2
-  },
-  "id": 389,
-  "location": "Wehnimer's Landing",
   "tags": [
     "publiclockers",
     "public locker",
     "meta:teleport:fwi"
-  ],
-  "links": [
-
   ]
 }

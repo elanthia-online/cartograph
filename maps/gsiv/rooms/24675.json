@@ -1,45 +1,42 @@
 {
+  "id": 24675,
+  "title": [
+    "[Red Forest, Ring of Mist]"
+  ],
+  "description": [
+    "Serpentine coils of thick grey mist bend and twist through the lush forest, obscuring entire swathes of the crowded forest in a hazy shroud.  The distant call of a songbird echoes somewhere within the heavy canopies above."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast"
+  ],
+  "location": "the Red Forest",
   "wayto": {
     "7892": {
-      "stringproc": "4aac4bb8a2113bc9ffe447afbb4ddd59"
+      "file": "string_procs/wayto/24675_7892.rb"
     },
     "24676": "southeast",
     "24688": "northeast",
     "16744": {
-      "stringproc": "4aac4bb8a2113bc9ffe447afbb4ddd59"
+      "file": "string_procs/wayto/24675_16744.rb"
     }
   },
-  "paths": [
-    "Obvious paths: northeast, southeast"
-  ],
+  "timeto": {
+    "7892": {
+      "file": "string_procs/timeto/24675_7892.rb"
+    },
+    "24676": 0.2,
+    "24688": 0.2,
+    "16744": {
+      "file": "string_procs/timeto/24675_16744.rb"
+    }
+  },
+  "image": "red_forest-1260914757.png",
   "image_coords": [
     104,
     143,
     118,
     156
   ],
-  "terrain": null,
-  "description": [
-    "Serpentine coils of thick grey mist bend and twist through the lush forest, obscuring entire swathes of the crowded forest in a hazy shroud.  The distant call of a songbird echoes somewhere within the heavy canopies above."
-  ],
-  "image": "red_forest-1260914757.png",
-  "climate": null,
-  "title": [
-    "[Red Forest, Ring of Mist]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7892": {
-      "stringproc": "e078d48a722c16c88ee6dd6abc4daf6a"
-    },
-    "24676": 0.2,
-    "24688": 0.2,
-    "16744": {
-      "stringproc": "59f5fb73dba146a82460461b35786de7"
-    }
-  },
-  "id": 24675,
-  "location": "the Displaced Red Forest",
   "tags": [
     "some wolifrew lichen",
     "wild pink geranium",
@@ -77,25 +74,6 @@
     "meta:mapname:Red Forest, The",
     "meta:mapshortname:Red Forest",
     "meta:mapcategory:Wehnimer's Landing",
-    "meta:mapcategory:Elven Nations",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "sticks",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "blueberries",
-    "broken twig",
-    "tree bark",
-    "mistweed",
-    "willow twig",
-    "oak twig",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+    "meta:mapcategory:Elven Nations"
+  ]
 }

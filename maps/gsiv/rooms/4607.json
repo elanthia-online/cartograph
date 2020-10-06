@@ -1,47 +1,31 @@
 {
-  "wayto": {
-    "4609": {
-      "stringproc": "395b361a16c8a355265cda519abf9fe5"
-    },
-    "4606": "northwest"
-  },
+  "id": 4607,
+  "title": [
+    "[Griffin's Keen, Ruby Point]"
+  ],
+  "description": [
+    "To the north, the DragonSpine Mountains march off into the distance, their moonlit white grandeur providing a breathtaking backdrop for the climb.  By contrast, the peak just across the valley looks less inviting, topped as it is with jagged black outcroppings of stone.",
+    "To the north, the DragonSpine Mountains march off into the distance, their blue-white grandeur providing a breathtaking backdrop for the climb.  By contrast, the peak just across the valley looks less inviting, topped as it is with jagged black outcroppings of stone."
+  ],
   "paths": [
     "Obvious paths: northwest, down"
   ],
+  "location": "Griffin's Keen",
+  "wayto": {
+    "4609": {
+      "file": "string_procs/wayto/4607_4609.rb"
+    },
+    "4606": "northwest"
+  },
+  "timeto": {
+    "4609": 4.2,
+    "4606": 0.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     744,
     171,
     754,
     181
-  ],
-  "terrain": null,
-  "description": [
-    "To the north, the DragonSpine Mountains march off into the distance, their moonlit white grandeur providing a breathtaking backdrop for the climb.  By contrast, the peak just across the valley looks less inviting, topped as it is with jagged black outcroppings of stone.",
-    "To the north, the DragonSpine Mountains march off into the distance, their blue-white grandeur providing a breathtaking backdrop for the climb.  By contrast, the peak just across the valley looks less inviting, topped as it is with jagged black outcroppings of stone."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Griffin's Keen, Ruby Point]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4609": 4.2,
-    "4606": 0.2
-  },
-  "id": 4607,
-  "location": "Griffin's Keen",
-  "tags": [
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "sprig of holly",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

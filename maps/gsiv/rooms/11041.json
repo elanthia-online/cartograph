@@ -1,33 +1,32 @@
 {
+  "id": 11041,
+  "title": [
+    "[A Silent Path, Meadowlands]"
+  ],
+  "description": [
+    "The oft-trodden dirt path snakes around grassy knolls in this wide-open meadow.  Views from the small rises reveal a building off in the distance southeast of here.  A wide, meandering creek keeps travellers company as they make their way to their destination, while benches made of tanik and stone provide a scenic resting place by the water's edge for the weary.  A southwest turn in the path heads further into the meadow."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest"
+  ],
+  "location": "the River's Rest Voln Monastery",
+  "climate": "temperate",
+  "terrain": "coniferous forest",
   "wayto": {
     "11040": "southwest",
     "11042": "southeast"
   },
-  "paths": [
-    "Obvious paths: southeast, southwest"
-  ],
+  "timeto": {
+    "11040": 0.2,
+    "11042": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     938,
     831,
     948,
     841
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "The oft-trodden dirt path snakes around grassy knolls in this wide-open meadow.  Views from the small rises reveal a building off in the distance southeast of here.  A wide, meandering creek keeps travellers company as they make their way to their destination, while benches made of tanik and stone provide a scenic resting place by the water's edge for the weary.  A southwest turn in the path heads further into the meadow."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "temperate",
-  "title": [
-    "[A Silent Path, Meadowlands]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11040": 0.2,
-    "11042": 0.2
-  },
-  "id": 11041,
-  "location": "the River's Rest Voln Monastery",
   "tags": [
     "some calamia fruit",
     "tkaro root",
@@ -68,13 +67,6 @@
     "sunburst blossom",
     "twisted twig",
     "slender twig",
-    "bolmara lichen",
-    "trollfear mushroom",
-    "oxblood lily",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bolmara lichen"
   ]
 }

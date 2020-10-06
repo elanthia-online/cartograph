@@ -1,38 +1,30 @@
 {
-  "wayto": {
-    "7925": "out"
-  },
+  "id": 7926,
+  "title": [
+    "[The Shrine of Dreams]"
+  ],
+  "description": [
+    "Stars surround you, twinkling brightly as far as the eye can see.  Or so it seems, until you look more closely, and realize that the walls and ceiling of this room are made of rocks pieced together in such a way that bits of light flicker through the crevices, giving the illusion of being beneath a starlit sky.  Pinpoints of light reflect off of the polished black marble floor, adding to the sensation that you have entered the heavens themselves."
+  ],
   "paths": [
     "Obvious exits: out"
   ],
+  "location": "the distant forest",
+  "wayto": {
+    "7925": "out"
+  },
+  "timeto": {
+    "7925": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     372,
     1018,
     382,
     1028
   ],
-  "terrain": "indoors",
-  "description": [
-    "Stars surround you, twinkling brightly as far as the eye can see.  Or so it seems, until you look more closely, and realize that the walls and ceiling of this room are made of rocks pieced together in such a way that bits of light flicker through the crevices, giving the illusion of being beneath a starlit sky.  Pinpoints of light reflect off of the polished black marble floor, adding to the sensation that you have entered the heavens themselves."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[The Shrine of Dreams]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7925": 0.2
-  },
-  "id": 7926,
-  "location": "the distant forest",
   "tags": [
     "node",
-    "ronan",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ronan"
   ]
 }

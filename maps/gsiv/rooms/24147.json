@@ -1,37 +1,25 @@
 {
+  "id": 24147,
+  "title": [
+    "[Necropolis, Narrow Ledge]"
+  ],
+  "description": [
+    "The deafening sound of a waterfall can be heard to the north.  The ledge ends abruptly, and the only way to continue is to leap into the depths below."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Feywrot Mire",
   "wayto": {
     "24146": "north",
     "24148": "jump",
     "24168": {
-      "stringproc": "b52e9d826984efa7b636e54840588c98"
+      "file": "string_procs/wayto/24147_24168.rb"
     }
   },
-  "paths": [
-    "Obvious exits: north"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "The deafening sound of a waterfall can be heard to the north.  The ledge ends abruptly, and the only way to continue is to leap into the depths below."
-  ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Necropolis, Narrow Ledge]"
-  ],
-  "check_location": null,
   "timeto": {
     "24146": 0.2,
     "24148": 0.2,
     "24168": 0.4
-  },
-  "id": 24147,
-  "location": "the Feywrot Mire",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  }
 }

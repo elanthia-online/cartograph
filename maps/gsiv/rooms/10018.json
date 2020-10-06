@@ -1,55 +1,34 @@
 {
+  "id": 10018,
+  "title": [
+    "[High Plains, Cliff's Edge]"
+  ],
+  "description": [
+    "The plain ends just to the south at the edge of a deep ravine, where the wind blows wispy tendrils of mist past the sudden border of the grass to disperse over the rocks far below.  The dark forms of huge birds circle overhead, casting drifting shadows in the fog-filtered sunlight.",
+    "The plain ends just to the south at the edge of a deep ravine, where the wind blows wispy tendrils of mist past the sudden border of the grass to disperse over the rocks far below.  The dark forms of huge birds circle overhead, casting drifting shadows over the fog-shrouded moons."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, west"
+  ],
+  "location": "the Yegharren Plains",
   "wayto": {
     "10017": "southeast",
     "10019": "northeast",
     "10021": "west"
   },
-  "paths": [
-    "Obvious paths: northeast, southeast, west"
-  ],
+  "timeto": {
+    "10017": 0.2,
+    "10019": 0.2,
+    "10021": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     1270,
     488,
     1280,
     498
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "The plain ends just to the south at the edge of a deep ravine, where the wind blows wispy tendrils of mist past the sudden border of the grass to disperse over the rocks far below.  The dark forms of huge birds circle overhead, casting drifting shadows in the fog-filtered sunlight.",
-    "The plain ends just to the south at the edge of a deep ravine, where the wind blows wispy tendrils of mist past the sudden border of the grass to disperse over the rocks far below.  The dark forms of huge birds circle overhead, casting drifting shadows over the fog-shrouded moons."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[High Plains, Cliff's Edge]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10017": 0.2,
-    "10019": 0.2,
-    "10021": 0.2
-  },
-  "id": 10018,
-  "location": "the Yegharren Plains",
   "tags": [
-    "some cothinar flower",
-    "cothinar flower",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "wild strawberry",
-    "blueberries",
-    "stalk of chicory",
-    "broken twig",
-    "sprig of larkspur",
-    "small wild rose",
-    "sprig of wild lilac",
-    "wild chokecherry",
-    "blue whortleberry",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cothinar flower"
   ]
 }

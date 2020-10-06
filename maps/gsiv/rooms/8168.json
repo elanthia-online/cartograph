@@ -1,43 +1,28 @@
 {
+  "id": 8168,
+  "title": [
+    "[Mine]"
+  ],
+  "description": [
+    "The walls of the cavern contain many exploratory digs which revealed no signs of the minerals that the people were searching for.  Other deeper veins have been worked until they yielded no more traces of the mineral wealth."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "the crystal caves",
   "wayto": {
     "8167": "west",
     "8169": "south"
   },
-  "paths": [
-    "Obvious exits: south, west"
-  ],
+  "timeto": {
+    "8167": 0.2,
+    "8169": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     942,
     575,
     952,
     585
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The walls of the cavern contain many exploratory digs which revealed no signs of the minerals that the people were searching for.  Other deeper veins have been worked until they yielded no more traces of the mineral wealth."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8167": 0.2,
-    "8169": 0.2
-  },
-  "id": 8168,
-  "location": "the crystal caves",
-  "tags": [
-    "wolifrew lichen",
-    "withered black mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

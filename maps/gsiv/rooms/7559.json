@@ -1,49 +1,34 @@
 {
+  "id": 7559,
+  "title": [
+    "[Twisting Tunnel]"
+  ],
+  "description": [
+    "The tunnel dips drastically causing mist to flow in and gather in a thick layer.  Visibility drops to almost nothing as the swirling mist hangs around you like a damp shroud.  Sounds echo strangely in this confined area, most probably due to the lower level of the floor here."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "7558": "north",
     "7549": "southeast"
   },
-  "paths": [
-    "Obvious exits: north, southeast"
-  ],
+  "timeto": {
+    "7558": 0.2,
+    "7549": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     393,
     990,
     403,
     1000
   ],
-  "terrain": "indoors",
-  "description": [
-    "The tunnel dips drastically causing mist to flow in and gather in a thick layer.  Visibility drops to almost nothing as the swirling mist hangs around you like a damp shroud.  Sounds echo strangely in this confined area, most probably due to the lower level of the floor here."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Twisting Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7558": 0.2,
-    "7549": 0.2
-  },
-  "id": 7559,
-  "location": "the catacombs",
   "tags": [
     "some wingstem root",
     "some cave moss",
     "red trafel mushroom",
-    "black hook mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "black hook mushroom"
   ]
 }

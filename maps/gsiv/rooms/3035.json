@@ -1,14 +1,8 @@
 {
-  "wayto": {
-    "3034": {
-      "stringproc": "05f5d3e018e1706705aa223864d4824b"
-    }
-  },
-  "paths": [
-    "Obvious paths: north, northeast, east, southeast, south, southwest, west, northwest"
+  "id": 3035,
+  "title": [
+    "[Lost In The Woods]"
   ],
-  "image_coords": null,
-  "terrain": null,
   "description": [
     "Tracks of previous travelers wander aimlessly through the snow.  A large spruce tree lies on the ground off to the side, covered in ice and snow.  The small open area where the tree once stood lets the bitter-cold breeze flow through the area.",
     "The silence of the snow-covered forest is frightening.  Distant howls of coyotes and occasional sounds of snow falling from high branches is all that can be heard.",
@@ -20,24 +14,22 @@
     "The tracks in the snow here look familiar, making you wonder if you are just walking in circles.  A strange chittering coming from up in a tree echos through the cold dry air of the forest.",
     "Snow drifts against fallen trees off of the beaten paths.  Occasionally, the sounds of snow falling from branches can be heard throughout the forest.  The trees all look alike, making you wonder if you have been here before."
   ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Lost In The Woods]"
+  "paths": [
+    "Obvious paths: north, northeast, east, southeast, south, southwest, west, northwest"
   ],
-  "check_location": null,
+  "location": "Icemule Ranger Guild",
+  "wayto": {
+    "3034": {
+      "file": "string_procs/wayto/3035_3034.rb"
+    }
+  },
   "timeto": {
     "3034": 1.0
   },
-  "id": 3035,
-  "location": "Icemule Ranger Guild",
   "tags": [
     "stick",
     "some tree bark",
     "some bolmara lichen",
     "some valerian root"
-  ],
-  "links": [
-
   ]
 }

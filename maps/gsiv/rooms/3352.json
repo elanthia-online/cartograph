@@ -1,34 +1,31 @@
 {
+  "id": 3352,
+  "title": [
+    "[Wizard Guild, Icy Walkway]"
+  ],
+  "description": [
+    "The dome of the expansive fieldstone edifice to the north is painted such a brilliant white that even the weak northern sunlight is blinding on it.  Snowdrifts standing waist high to a halfling line the walkway leading to the arched doors of the building, yet the flagstones of the walk are curiously dry and free of ice.  A footbridge spans a narrow, fast-moving stream that rushes in a sweeping arc around the cylindrical building.",
+    "The dome of the expansive fieldstone edifice to the north is painted such a brilliant white that it nearly glows from the starlight reflected off it.  The dark shapes of snowdrifts standing waist high to a halfling line the walkway leading towards the building.  A footbridge spans a stream that you hear swiftly rushing along below in the dark somewhere."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "2370": "go gate",
     "8918": "go footbridge"
   },
-  "paths": [
-    "Obvious paths: none"
-  ],
+  "timeto": {
+    "2370": 0.2,
+    "8918": 0.2
+  },
+  "image": "imt-wizard_guild.png",
   "image_coords": [
     108,
     802,
     158,
     848
   ],
-  "terrain": null,
-  "description": [
-    "The dome of the expansive fieldstone edifice to the north is painted such a brilliant white that even the weak northern sunlight is blinding on it.  Snowdrifts standing waist high to a halfling line the walkway leading to the arched doors of the building, yet the flagstones of the walk are curiously dry and free of ice.  A footbridge spans a narrow, fast-moving stream that rushes in a sweeping arc around the cylindrical building.",
-    "The dome of the expansive fieldstone edifice to the north is painted such a brilliant white that it nearly glows from the starlight reflected off it.  The dark shapes of snowdrifts standing waist high to a halfling line the walkway leading towards the building.  A footbridge spans a stream that you hear swiftly rushing along below in the dark somewhere."
-  ],
-  "image": "imt-wizard_guild.png",
-  "climate": null,
-  "title": [
-    "[Wizard Guild, Icy Walkway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2370": 0.2,
-    "8918": 0.2
-  },
-  "id": 3352,
-  "location": "Icemule Trace",
   "tags": [
     "moonflower",
     "sassafras leaf",
@@ -43,8 +40,5 @@
     "witchwood twig",
     "yew twig",
     "luckbloom blossom"
-  ],
-  "links": [
-
   ]
 }

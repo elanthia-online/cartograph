@@ -1,48 +1,28 @@
 {
+  "id": 9577,
+  "title": [
+    "[Czeroth Caverns, Tunnel]"
+  ],
+  "description": [
+    "The tunnel walls are damp and pitted here.  Long streaks are visible on the floor, seemingly scratched into it.  Thin veins of phosphorescent minerals weave their way through the stone walls."
+  ],
+  "paths": [
+    "Obvious exits: southwest, northwest"
+  ],
+  "location": "the Czeroth Caverns",
   "wayto": {
     "9576": "southwest",
     "9578": "northwest"
   },
-  "paths": [
-    "Obvious exits: southwest, northwest"
-  ],
+  "timeto": {
+    "9576": 0.2,
+    "9578": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     1391,
     302,
     1401,
     312
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The tunnel walls are damp and pitted here.  Long streaks are visible on the floor, seemingly scratched into it.  Thin veins of phosphorescent minerals weave their way through the stone walls."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Czeroth Caverns, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9576": 0.2,
-    "9578": 0.2
-  },
-  "id": 9577,
-  "location": "the Czeroth Caverns",
-  "tags": [
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

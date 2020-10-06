@@ -1,36 +1,33 @@
 {
+  "id": 7289,
+  "title": [
+    "[Slither Creek]"
+  ],
+  "description": [
+    "The creek overflows its banks slightly, making the banks sodden, but not impossible to climb.  Beneath your feet, bright green slime covers the bottom, easily seen in the shallow water.  From the east a slight hum reaches your ears, unpleasantly familiar.",
+    "The creek overflows its banks slightly, making the banks sodden, but not impossible to climb.  Beneath your feet, green slime covers the bottom, easily seen in the shallow water.  From the east a slight hum reaches your ears, unpleasantly familiar."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7286": "go bank",
     "7288": "southwest",
     "7290": "east"
   },
-  "paths": [
-    "Obvious paths: east, southwest"
-  ],
+  "timeto": {
+    "7286": 0.2,
+    "7288": 0.2,
+    "7290": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     72,
     178,
     82,
     188
   ],
-  "terrain": "riparian",
-  "description": [
-    "The creek overflows its banks slightly, making the banks sodden, but not impossible to climb.  Beneath your feet, bright green slime covers the bottom, easily seen in the shallow water.  From the east a slight hum reaches your ears, unpleasantly familiar.",
-    "The creek overflows its banks slightly, making the banks sodden, but not impossible to climb.  Beneath your feet, green slime covers the bottom, easily seen in the shallow water.  From the east a slight hum reaches your ears, unpleasantly familiar."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "freshwater",
-  "title": [
-    "[Slither Creek]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7286": 0.2,
-    "7288": 0.2,
-    "7290": 0.2
-  },
-  "id": 7289,
-  "location": "the Graveyard",
   "tags": [
     "some aloeas stem",
     "yellow water lily",
@@ -41,10 +38,6 @@
     "stalk of cattail",
     "white water lily",
     "murdroot",
-    "wavepetal blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wavepetal blossom"
   ]
 }

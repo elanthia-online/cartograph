@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "11196": "east"
-  },
+  "id": 11200,
+  "title": [
+    "[Garrison, Hallway]"
+  ],
+  "description": [
+    "This part of the hallway is fairly clear of debris.  Apparently, much of the fighting went on elsewhere in the garrison.  Only one skeleton remains, though it is so mangled it is hard to tell if it is human."
+  ],
   "paths": [
     "Obvious exits: north, east, south, west"
   ],
+  "location": "the Citadel",
+  "wayto": {
+    "11196": "east"
+  },
+  "timeto": {
+    "11196": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     544,
     111,
     554,
     121
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This part of the hallway is fairly clear of debris.  Apparently, much of the fighting went on elsewhere in the garrison.  Only one skeleton remains, though it is so mangled it is hard to tell if it is human."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Garrison, Hallway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11196": 0.2
-  },
-  "id": 11200,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

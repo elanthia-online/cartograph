@@ -1,38 +1,28 @@
 {
+  "id": 10084,
+  "title": [
+    "[Sylvarraend Road]"
+  ],
+  "description": [
+    "An enormous tree has fallen across the road, taking several smaller trees with it on its plunge.  The cobblestoned road is cracked and the stones upturned in a jumbled heap alongside the massive trunk.  The area has become a sort of construction zone, as groups of elves work to clear the rubble and remove the tree."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "Sylvarraend Road",
   "wayto": {
     "10083": "northwest",
     "10085": "southeast"
   },
-  "paths": [
-    "Obvious paths: southeast, northwest"
-  ],
+  "timeto": {
+    "10083": 0.2,
+    "10085": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     681,
     841,
     691,
     851
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "An enormous tree has fallen across the road, taking several smaller trees with it on its plunge.  The cobblestoned road is cracked and the stones upturned in a jumbled heap alongside the massive trunk.  The area has become a sort of construction zone, as groups of elves work to clear the rubble and remove the tree."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Sylvarraend Road]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10083": 0.2,
-    "10085": 0.2
-  },
-  "id": 10084,
-  "location": "Sylvarraend Road",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

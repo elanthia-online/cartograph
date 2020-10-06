@@ -1,45 +1,38 @@
 {
+  "id": 16799,
+  "title": [
+    "[Hall of the Dead, Debtors Vault]"
+  ],
+  "description": [
+    "Rows of small niches line the walls, each one tightly packed with assorted body parts.  You are not sure if any slot holds an entire body, or just parts from several bodies."
+  ],
+  "paths": [
+    "Obvious exits: north, east, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "16800": "east",
     "16796": "west",
     "16798": "north"
   },
-  "paths": [
-    "Obvious exits: north, east, west"
-  ],
+  "timeto": {
+    "16800": 0.2,
+    "16796": 0.2,
+    "16798": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     938,
     888,
     948,
     898
   ],
-  "terrain": "indoors",
-  "description": [
-    "Rows of small niches line the walls, each one tightly packed with assorted body parts.  You are not sure if any slot holds an entire body, or just parts from several bodies."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Hall of the Dead, Debtors Vault]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "16800": 0.2,
-    "16796": 0.2,
-    "16798": 0.2
-  },
-  "id": 16799,
-  "location": "the Graveyard",
   "tags": [
     "wolifrew lichen",
     "withered black mushroom",
     "cave moss",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

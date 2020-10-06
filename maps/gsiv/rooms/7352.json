@@ -1,48 +1,38 @@
 {
+  "id": 7352,
+  "title": [
+    "[Shadow Plain]"
+  ],
+  "description": [
+    "Several skeletons lie awkwardly on the ground, with some bones trampled into dusty fragments.  A very faint trail of hoofprints leads from the flats of the plain towards some rolling black hills to the southeast."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, southwest, northwest"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7360": "southeast",
     "7351": "northwest",
     "7353": "northeast",
     "7369": "southwest"
   },
-  "paths": [
-    "Obvious paths: northeast, southeast, southwest, northwest"
-  ],
-  "image_coords": [
-    1254,
-    917,
-    1262,
-    925
-  ],
-  "terrain": "barren scrub",
-  "description": [
-    "Several skeletons lie awkwardly on the ground, with some bones trampled into dusty fragments.  A very faint trail of hoofprints leads from the flats of the plain towards some rolling black hills to the southeast."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Shadow Plain]"
-  ],
-  "check_location": null,
   "timeto": {
     "7360": 0.2,
     "7351": 0.2,
     "7353": 0.2,
     "7369": 0.2
   },
-  "id": 7352,
-  "location": "the Shadow Valley",
+  "image": "wl-graveyard-1264234799.png",
+  "image_coords": [
+    1254,
+    917,
+    1262,
+    925
+  ],
   "tags": [
     "some petrified shadowstalk",
     "black-tipped wyrm thorn",
     "night mare",
-    "some longgrass",
-    "longgrass",
-    "wyrm thorn",
-    "petrified shadowstalk",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some longgrass"
   ]
 }

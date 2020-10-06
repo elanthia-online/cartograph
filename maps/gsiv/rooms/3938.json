@@ -1,32 +1,24 @@
 {
-  "wayto": {
-    "3937": {
-      "stringproc": "2faf5b60c3e4d3acd3c71aafe6959b11"
-    }
-  },
-  "paths": [
-    "Obvious exits: southeast, northwest"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "The openings of small pipes are visible through the muck on the walls.  To judge from the smell, they used to deliver raw sewage into this main tunnel.  The tunnel continues to descend, as the darkness and humidity seem to close in around you."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 3938,
   "title": [
     "[Abandoned Sewer]"
   ],
-  "check_location": null,
+  "description": [
+    "The openings of small pipes are visible through the muck on the walls.  To judge from the smell, they used to deliver raw sewage into this main tunnel.  The tunnel continues to descend, as the darkness and humidity seem to close in around you."
+  ],
+  "paths": [
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "the catacombs",
+  "wayto": {
+    "3937": {
+      "file": "string_procs/wayto/3938_3937.rb"
+    }
+  },
   "timeto": {
     "3937": 1.6
   },
-  "id": 3938,
-  "location": "the catacombs",
   "tags": [
     "no-auto-map"
-  ],
-  "links": [
-
   ]
 }

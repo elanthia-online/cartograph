@@ -1,42 +1,35 @@
 {
+  "id": 3438,
+  "title": [
+    "[Tavern Burrow, Honeybeer Road]"
+  ],
+  "description": [
+    "You find yourself at the busy intersection of Stout Street and Honeybeer Road.  The smells of roasting meats entice you to move west, yet there seems to be some activity to the north which might be worth investigating.  Pausing briefly, you whistle a quick tune and make your way down the road."
+  ],
+  "paths": [
+    "Obvious paths: north, east, west"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "15690": "climb ladder",
     "2412": "east",
     "3437": "north",
     "2396": "west"
   },
-  "paths": [
-    "Obvious paths: north, east, west"
-  ],
-  "image_coords": [
-    494,
-    1233,
-    530,
-    1269
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "You find yourself at the busy intersection of Stout Street and Honeybeer Road.  The smells of roasting meats entice you to move west, yet there seems to be some activity to the north which might be worth investigating.  Pausing briefly, you whistle a quick tune and make your way down the road."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Tavern Burrow, Honeybeer Road]"
-  ],
-  "check_location": null,
   "timeto": {
     "15690": 0.2,
     "2412": 0.2,
     "3437": 0.2,
     "2396": 0.2
   },
-  "id": 3438,
-  "location": "Icemule Trace",
-  "tags": [
-    "calmintha flower",
-    "meta:forage-sensed"
+  "image": "imt-icemule-1474811966.png",
+  "image_coords": [
+    494,
+    1233,
+    530,
+    1269
   ],
-  "links": [
-
+  "tags": [
+    "calmintha flower"
   ]
 }

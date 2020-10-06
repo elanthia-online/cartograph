@@ -1,33 +1,30 @@
 {
+  "id": 5909,
+  "title": [
+    "[Catacombs, Entrance]"
+  ],
+  "description": [
+    "A vaulted ceiling allows dim rays of light to seep in through the cracks from the grate above.  Flickering shadows of various shapes and sizes play on the walls.  An odd assortment of paper, kegs and other trinkets litter the ground.  Shattered crates and barrels mar the surface of the floor, and almost hidden behind them lies the rusted top of an opened hatch."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "5910": "go hatch",
     "3503": "climb grate"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "5910": 0.2,
+    "3503": 0.2
+  },
+  "image": "en-tavaalor-1565907614.png",
   "image_coords": [
     354,
     492,
     362,
     502
   ],
-  "terrain": null,
-  "description": [
-    "A vaulted ceiling allows dim rays of light to seep in through the cracks from the grate above.  Flickering shadows of various shapes and sizes play on the walls.  An odd assortment of paper, kegs and other trinkets litter the ground.  Shattered crates and barrels mar the surface of the floor, and almost hidden behind them lies the rusted top of an opened hatch."
-  ],
-  "image": "en-tavaalor-1565907614.png",
-  "climate": null,
-  "title": [
-    "[Catacombs, Entrance]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5910": 0.2,
-    "3503": 0.2
-  },
-  "id": 5909,
-  "location": "the catacombs",
   "tags": [
     "soft white mushroom",
     "red trafel mushroom",
@@ -40,8 +37,5 @@
     "murdroot",
     "bolmara lichen",
     "wingstem root"
-  ],
-  "links": [
-
   ]
 }

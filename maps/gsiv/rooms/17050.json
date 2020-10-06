@@ -1,37 +1,28 @@
 {
+  "id": 17050,
+  "title": [
+    "[Wizard Guild, Catwalk]"
+  ],
+  "description": [
+    "The sturdy stone floor narrows suddenly, becoming not much more than a slender bridge between the library to the west and a massive steel door to the east.  It is unclear whether the chasm is the product of design or nature, but neither option is comfortable to contemplate as you move along the walkway.  Improbably slender railings only seem to emphasize the echoing depths of the abyss beneath you."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "River's Rest",
   "wayto": {
     "16232": "west",
     "17051": "go door"
   },
-  "paths": [
-    "Obvious exits: west"
-  ],
+  "timeto": {
+    "16232": 0.2,
+    "17051": 0.2
+  },
+  "image": "rr-wizard_guild.png",
   "image_coords": [
     526,
     402,
     584,
     457
-  ],
-  "terrain": null,
-  "description": [
-    "The sturdy stone floor narrows suddenly, becoming not much more than a slender bridge between the library to the west and a massive steel door to the east.  It is unclear whether the chasm is the product of design or nature, but neither option is comfortable to contemplate as you move along the walkway.  Improbably slender railings only seem to emphasize the echoing depths of the abyss beneath you."
-  ],
-  "image": "rr-wizard_guild.png",
-  "climate": null,
-  "title": [
-    "[Wizard Guild, Catwalk]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "16232": 0.2,
-    "17051": 0.2
-  },
-  "id": 17050,
-  "location": "River's Rest",
-  "tags": [
-
-  ],
-  "links": [
-
   ]
 }

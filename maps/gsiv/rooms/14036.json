@@ -1,38 +1,28 @@
 {
+  "id": 14036,
+  "title": [
+    "[Castle Varunar, Tunnel]"
+  ],
+  "description": [
+    "Two sturdy walls and the granite hillside protect access to a massive stone ramp.  The ramp stretches upwards and stops in front of the gates that protect the inner ward of the castle."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "Castle Varunar",
   "wayto": {
     "14035": "east",
     "14037": "go ramp"
   },
-  "paths": [
-    "Obvious paths: east"
-  ],
+  "timeto": {
+    "14035": 0.2,
+    "14037": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     817,
     253,
     827,
     263
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "Two sturdy walls and the granite hillside protect access to a massive stone ramp.  The ramp stretches upwards and stops in front of the gates that protect the inner ward of the castle."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Castle Varunar, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "14035": 0.2,
-    "14037": 0.2
-  },
-  "id": 14036,
-  "location": "Castle Varunar",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

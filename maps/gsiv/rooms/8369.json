@@ -1,38 +1,28 @@
 {
+  "id": 8369,
+  "title": [
+    "[Stronghold, Walk of the Shaman]"
+  ],
+  "description": [
+    "The convolution of the hallway results in each segment of its passage possessing the intimacy of a small chamber.  Sight to higher and lower sections is limited, blocked by the densely carved walls and the gloom.  The clouds of dust have compressed into a low-lying fog, which drifts up the corridor with a steady resolution."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "Stone Valley",
   "wayto": {
     "8370": "up",
     "8368": "down"
   },
-  "paths": [
-    "Obvious exits: up, down"
-  ],
+  "timeto": {
+    "8370": 0.2,
+    "8368": 0.2
+  },
+  "image": "wl-stronghold-1264234799.png",
   "image_coords": [
     740,
     356,
     750,
     366
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The convolution of the hallway results in each segment of its passage possessing the intimacy of a small chamber.  Sight to higher and lower sections is limited, blocked by the densely carved walls and the gloom.  The clouds of dust have compressed into a low-lying fog, which drifts up the corridor with a steady resolution."
-  ],
-  "image": "wl-stronghold-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Stronghold, Walk of the Shaman]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8370": 0.2,
-    "8368": 0.2
-  },
-  "id": 8369,
-  "location": "Stone Valley",
-  "tags": [
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

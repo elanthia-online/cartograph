@@ -1,33 +1,21 @@
 {
-  "wayto": {
-    "24267": {
-      "stringproc": "d5fba80dc1c7437649e734294a0335b7"
-    }
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "A large, black iron anvil stands in the center of this chamber.  Within easy reach to either side of the anvil are a brick forge and a tempering trough.  Directly above the trough, suspended by a web of delicate mithril chains, hangs a teardrop-cut crystal easily the size of a giantman.  One corner of the room is taken up by a cistern inlaid with fragments of coral, and a leather bucket hangs from a hook on the wall next to it.  Heat from the brick forge fills the chamber.  Some discarded oilskins rest haphazardly in the corner."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 24268,
   "title": [
     "[Coral Forge]"
   ],
-  "check_location": null,
+  "description": [
+    "A large, black iron anvil stands in the center of this chamber.  Within easy reach to either side of the anvil are a brick forge and a tempering trough.  Directly above the trough, suspended by a web of delicate mithril chains, hangs a teardrop-cut crystal easily the size of a giantman.  One corner of the room is taken up by a cistern inlaid with fragments of coral, and a leather bucket hangs from a hook on the wall next to it.  Heat from the brick forge fills the chamber.  Some discarded oilskins rest haphazardly in the corner."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "River's Rest",
+  "wayto": {
+    "24267": {
+      "file": "string_procs/wayto/24268_24267.rb"
+    }
+  },
   "timeto": {
     "24267": 0.2
-  },
-  "id": 24268,
-  "location": "River's Rest",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  }
 }

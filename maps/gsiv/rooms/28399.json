@@ -1,35 +1,28 @@
 {
-  "wayto": {
-    "16401": "go outlet",
-    "28398": "go bridge"
-  },
+  "id": 28399,
+  "title": [
+    "[Windfellow's Retreat, Bridge]"
+  ],
+  "description": [
+    "Stretching before you into the mist is a particularly worn rope bridge.  The fraying fibers are knotted and weathered to varying degrees, and the whole structure sways beneath your feet with each gust of the sea breeze.  Nothing can be seen beyond the mists ahead but the sound of waves breaking against something solid can be clearly heard."
+  ],
   "paths": [
     "Obvious paths: none"
   ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "28398": "go bridge",
+    "16401": "go outlet"
+  },
+  "timeto": {
+    "28398": 0.2,
+    "16401": 0.2
+  },
+  "image": "fest-windfellows_retreat-1566674846.jpg",
   "image_coords": [
     602,
     2853,
     671,
     2920
-  ],
-  "terrain": null,
-  "description": [
-    "Stretching before you into the mist is a particularly worn rope bridge.  The fraying fibers are knotted and weathered to varying degrees, and the whole structure sways beneath your feet with each gust of the sea breeze.  Nothing can be seen beyond the mists ahead but the sound of waves breaking against something solid can be clearly heard."
-  ],
-  "image": "fest-windfellows_retreat-1566674846.jpg",
-  "climate": null,
-  "title": [
-    "[Windfellow's Retreat, Bridge]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "28398": 0.2,
-    "16401": 0.2
-  },
-  "id": 28399,
-  "location": "Mist Harbor",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

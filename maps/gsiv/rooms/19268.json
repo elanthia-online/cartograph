@@ -1,39 +1,31 @@
 {
+  "id": 19268,
+  "title": [
+    "[Dark Shrine, Chapel]"
+  ],
+  "description": [
+    "In long ages past, some dark, evil priest once sat upon the large stone chair that occupies this part of the chamber like a throne.  Or perhaps one of the Dark Lords themselves, or one of their dark servants, presided over the evil that was performed here."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest"
+  ],
+  "location": "the Broken Lands",
   "wayto": {
     "19267": "southeast",
     "19262": "southwest"
   },
-  "paths": [
-    "Obvious exits: southeast, southwest"
-  ],
+  "timeto": {
+    "19267": 0.2,
+    "19262": 0.2
+  },
+  "image": "wl-broken-1264234799.png",
   "image_coords": [
     1000,
     222,
     1009,
     231
   ],
-  "terrain": "indoors",
-  "description": [
-    "In long ages past, some dark, evil priest once sat upon the large stone chair that occupies this part of the chamber like a throne.  Or perhaps one of the Dark Lords themselves, or one of their dark servants, presided over the evil that was performed here."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dark Shrine, Chapel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "19267": 0.2,
-    "19262": 0.2
-  },
-  "id": 19268,
-  "location": "the Broken Lands",
   "tags": [
-    "lesser vruul",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "lesser vruul"
   ]
 }

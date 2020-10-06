@@ -1,40 +1,30 @@
 {
+  "id": 8471,
+  "title": [
+    "[Temple, Foyer]"
+  ],
+  "description": [
+    "The room is dimly lit by light coming in through an empty doorway.  Wispy cobwebs hang from the rafters, waving in the hint of a draft, and dust covers every surface, tickling your nose until you sneeze.  The sound does not carry far, but breaking the silence seems somehow iniquitous.  A pair of double doors opens to the north, while a small arch leads off to the west."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Temple of Love",
   "wayto": {
     "8470": "go doorway",
     "8472": "go arch",
     "8488": "go double doors"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": [
-    305,
-    833,
-    315,
-    843
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The room is dimly lit by light coming in through an empty doorway.  Wispy cobwebs hang from the rafters, waving in the hint of a draft, and dust covers every surface, tickling your nose until you sneeze.  The sound does not carry far, but breaking the silence seems somehow iniquitous.  A pair of double doors opens to the north, while a small arch leads off to the west."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Temple, Foyer]"
-  ],
-  "check_location": null,
   "timeto": {
     "8470": 0.2,
     "8472": 0.2,
     "8488": 0.2
   },
-  "id": 8471,
-  "location": "the Temple of Love",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-trollfang-1264234799.png",
+  "image_coords": [
+    305,
+    833,
+    315,
+    843
   ]
 }

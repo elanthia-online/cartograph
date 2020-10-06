@@ -1,37 +1,34 @@
 {
+  "id": 7234,
+  "title": [
+    "[Under Crypt, Tunnels]"
+  ],
+  "description": [
+    "Icicles have begun to form here from moisture dripping down from the graveyard above. Rather than the pure white of water, these are tinged with a faint red that makes you shudder at the thought of their source."
+  ],
+  "paths": [
+    "Obvious exits: north, south, southwest, northwest"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7228": "northwest",
     "7230": "north",
     "7232": "southwest",
     "7233": "south"
   },
-  "paths": [
-    "Obvious exits: north, south, southwest, northwest"
-  ],
-  "image_coords": [
-    796,
-    532,
-    806,
-    542
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Icicles have begun to form here from moisture dripping down from the graveyard above. Rather than the pure white of water, these are tinged with a faint red that makes you shudder at the thought of their source."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Under Crypt, Tunnels]"
-  ],
-  "check_location": null,
   "timeto": {
     "7228": 0.2,
     "7230": 0.2,
     "7232": 0.2,
     "7233": 0.2
   },
-  "id": 7234,
-  "location": "the Graveyard",
+  "image": "wl-graveyard-1264234799.png",
+  "image_coords": [
+    796,
+    532,
+    806,
+    542
+  ],
   "tags": [
     "some wolifrew lichen",
     "arch weight",
@@ -41,10 +38,6 @@
     "cave moss",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

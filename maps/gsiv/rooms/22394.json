@@ -1,44 +1,34 @@
 {
+  "id": 22394,
+  "title": [
+    "[Dwarven Embassy, Hallway]"
+  ],
+  "description": [
+    "Rectangular tiles of blue-flecked white marble comprise the hallway's floor, lined with moss green runners embroidered with tawny whorls.  A blue sapphire-inset door resides in the eastern wall, while a set of tall silver-traced doors occupies the terminus of the corridor.  Within a modest recess nearest to the antechamber, a simple stone door has been partially hidden behind a velvety blue curtain."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Ta'Illistim Embassies",
   "wayto": {
     "22392": "south",
     "22395": "go silver door",
     "22418": "go stone door",
     "22396": "go sapphire door"
   },
-  "paths": [
-    "Obvious exits: south"
-  ],
+  "timeto": {
+    "22392": 0.2,
+    "22395": 0.2,
+    "22418": {
+      "file": "string_procs/timeto/22394_22418.rb"
+    },
+    "22396": 0.2
+  },
+  "image": "en-ta_illistim-embassies-1405076623.png",
   "image_coords": [
     878,
     657,
     942,
     696
-  ],
-  "terrain": null,
-  "description": [
-    "Rectangular tiles of blue-flecked white marble comprise the hallway's floor, lined with moss green runners embroidered with tawny whorls.  A blue sapphire-inset door resides in the eastern wall, while a set of tall silver-traced doors occupies the terminus of the corridor.  Within a modest recess nearest to the antechamber, a simple stone door has been partially hidden behind a velvety blue curtain."
-  ],
-  "image": "en-ta_illistim-embassies-1405076623.png",
-  "climate": null,
-  "title": [
-    "[Dwarven Embassy, Hallway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "22392": 0.2,
-    "22395": 0.2,
-    "22418": {
-      "stringproc": "860c2c8fad89660a6496ec701ca6b580"
-    },
-    "22396": 0.2
-  },
-  "id": 22394,
-  "location": "Ta'Illistim Embassies",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

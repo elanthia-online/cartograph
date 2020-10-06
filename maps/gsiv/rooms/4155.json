@@ -1,38 +1,28 @@
 {
+  "id": 4155,
+  "title": [
+    "[Hall of the Dead, Common Crypt]"
+  ],
+  "description": [
+    "You stop and murmur a silent prayer for one of the dead entombed here could be a friend or relative.  The lack of identification markings on the crypts, makes it impossible to tell who might rest here.  You bolster your resolve as you move on."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "4153": "north",
     "4156": "west"
   },
-  "paths": [
-    "Obvious exits: north, west"
-  ],
+  "timeto": {
+    "4153": 0.2,
+    "4156": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     941,
     785,
     951,
     795
-  ],
-  "terrain": "indoors",
-  "description": [
-    "You stop and murmur a silent prayer for one of the dead entombed here could be a friend or relative.  The lack of identification markings on the crypts, makes it impossible to tell who might rest here.  You bolster your resolve as you move on."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Hall of the Dead, Common Crypt]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4153": 0.2,
-    "4156": 0.2
-  },
-  "id": 4155,
-  "location": "the Graveyard",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

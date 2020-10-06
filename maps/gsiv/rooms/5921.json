@@ -1,34 +1,31 @@
 {
+  "id": 5921,
+  "title": [
+    "[Catacombs, Landfill]"
+  ],
+  "description": [
+    "Various refuse litters the floor, discarded from the city street above.",
+    "Various refuse litters the floor, discarded from the city street above.  Some of the compost has begun to degrade, causing a vile, rotten smell to permeate through the dank air.  Patches of brown moss are scattered along the moist walls, clinging heartily.  Roaches and maggots scurry in and out of large cracks along stone walls."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "5920": "south",
     "5922": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "5920": 0.2,
+    "5922": 0.2
+  },
+  "image": "en-tavaalor-1565907614.png",
   "image_coords": [
     260,
     988,
     268,
     997
   ],
-  "terrain": null,
-  "description": [
-    "Various refuse litters the floor, discarded from the city street above.",
-    "Various refuse litters the floor, discarded from the city street above.  Some of the compost has begun to degrade, causing a vile, rotten smell to permeate through the dank air.  Patches of brown moss are scattered along the moist walls, clinging heartily.  Roaches and maggots scurry in and out of large cracks along stone walls."
-  ],
-  "image": "en-tavaalor-1565907614.png",
-  "climate": null,
-  "title": [
-    "[Catacombs, Landfill]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5920": 0.2,
-    "5922": 0.2
-  },
-  "id": 5921,
-  "location": "the catacombs",
   "tags": [
     "some bolmara lichen",
     "blue trafel mushroom",
@@ -40,8 +37,5 @@
     "murdroot",
     "bolmara lichen",
     "wingstem root"
-  ],
-  "links": [
-
   ]
 }

@@ -1,69 +1,36 @@
 {
+  "id": 5521,
+  "title": [
+    "[Outlands Manor, Courtyard]"
+  ],
+  "description": [
+    "Although only three stories tall, the square tower is substantial -- its walls constructed of large stone blocks.  Clearly more defensible than the manor house, the tower is crowned with battlements that provide deadly vantage points for its occupants.  The grasses and weeds growing between the paving stones have been trodden almost to extinction close by the tower and the half-raised portcullis that once protected its entrance."
+  ],
+  "paths": [
+    "Obvious paths: south, southwest"
+  ],
+  "location": "the Outlands",
   "wayto": {
     "5523": "south",
     "5524": "go portcullis",
     "5520": "southwest"
   },
-  "paths": [
-    "Obvious paths: south, southwest"
-  ],
+  "timeto": {
+    "5523": 0.2,
+    "5524": 0.2,
+    "5520": 0.2
+  },
+  "image": "vo-outlands-1264234799.png",
   "image_coords": [
     976,
     433,
     986,
     443
   ],
-  "terrain": "rough",
-  "description": [
-    "Although only three stories tall, the square tower is substantial -- its walls constructed of large stone blocks.  Clearly more defensible than the manor house, the tower is crowned with battlements that provide deadly vantage points for its occupants.  The grasses and weeds growing between the paving stones have been trodden almost to extinction close by the tower and the half-raised portcullis that once protected its entrance."
-  ],
-  "image": "vo-outlands-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Outlands Manor, Courtyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5523": 0.2,
-    "5524": 0.2,
-    "5520": 0.2
-  },
-  "id": 5521,
-  "location": "the Outlands",
   "tags": [
     "bunch of wild grapes",
     "sprig of larkspur",
     "white baneberry",
-    "dobrem",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "wild strawberry",
-    "blueberries",
-    "stalk of chicory",
-    "handful of currants",
-    "elderberries",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "wild grapes",
-    "broken twig",
-    "sprig of alyssum",
-    "heath aster",
-    "golden buttercup",
-    "red clover blossom",
-    "pink clover blossom",
-    "white clover blossom",
-    "purple clover blossom",
-    "yellow clover blossom",
-    "stalk of goldenrod",
-    "yellow primrose",
-    "small wild rose",
-    "wild chokecherry",
-    "motherwort",
-    "pepperthorn root",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "dobrem"
   ]
 }

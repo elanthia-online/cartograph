@@ -1,45 +1,31 @@
 {
+  "id": 7794,
+  "title": [
+    "[Cave, Spider Room]"
+  ],
+  "description": [
+    "A large cave spider scurries into an attack position far above your head.  Though not nearly as big as the great spiders that can be found near the sea, it is still of sufficient size to inject a lethal dose of venom.  Bound securely in its huge web are the silent corpses of several creatures that learned this lesson far too late."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "7793": "southwest",
     "7795": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southwest"
-  ],
+  "timeto": {
+    "7793": 0.2,
+    "7795": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     173,
     766,
     183,
     776
   ],
-  "terrain": "indoors",
-  "description": [
-    "A large cave spider scurries into an attack position far above your head.  Though not nearly as big as the great spiders that can be found near the sea, it is still of sufficient size to inject a lethal dose of venom.  Bound securely in its huge web are the silent corpses of several creatures that learned this lesson far too late."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Cave, Spider Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7793": 0.2,
-    "7795": 0.2
-  },
-  "id": 7794,
-  "location": "the Upper Trollfang",
   "tags": [
-    "some cave moss",
-    "withered black mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

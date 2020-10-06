@@ -1,33 +1,30 @@
 {
+  "id": 6733,
+  "title": [
+    "[Upper Dragonsclaw, Barren Hill]"
+  ],
+  "description": [
+    "The sweat from your exhaustive climbing turns to chill as you reach the crest of this barren hilltop.  A slight fog swirls about the ground, wisping up from the clouds below.  A narrow ravine leads down the mountainside, disappearing behind the rocks."
+  ],
+  "paths": [
+    "Obvious paths: northwest, down"
+  ],
+  "location": "the Upper Dragonsclaw",
   "wayto": {
     "6732": "northwest",
     "6734": "down"
   },
-  "paths": [
-    "Obvious paths: northwest, down"
-  ],
+  "timeto": {
+    "6732": 0.2,
+    "6734": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     335,
     901,
     345,
     911
   ],
-  "terrain": "hilly",
-  "description": [
-    "The sweat from your exhaustive climbing turns to chill as you reach the crest of this barren hilltop.  A slight fog swirls about the ground, wisping up from the clouds below.  A narrow ravine leads down the mountainside, disappearing behind the rocks."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Upper Dragonsclaw, Barren Hill]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6732": 0.2,
-    "6734": 0.2
-  },
-  "id": 6733,
-  "location": "the Upper Dragonsclaw",
   "tags": [
     "marallis berry",
     "cuctucae berry",
@@ -36,31 +33,6 @@
     "sweetfern stalk",
     "wintergreen leaf",
     "sprig of larkspur",
-    "some valerian root",
-    "tkaro root",
-    "sticks",
-    "sassafras leaf",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "white hook mushroom",
-    "bright red teaberry",
-    "stalk of chicory",
-    "stalk of bluebells",
-    "moonlight cactus-bloom",
-    "wild pink geranium",
-    "tree bark",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "ironfern root",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some valerian root"
   ]
 }

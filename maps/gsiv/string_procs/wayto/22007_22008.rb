@@ -1,1 +1,2 @@
-waitrt?; move 'south'
+waitrt?
+ move 'south'

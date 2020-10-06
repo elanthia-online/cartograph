@@ -1,36 +1,33 @@
 {
+  "id": 52,
+  "title": [
+    "[Whistler's Pass, Meadow]"
+  ],
+  "description": [
+    "The heavy mist seems to rise off the the land, ascending upwards to rejoin the darkened clouds above.  Surrounded by mountains, the tall blades of grass of the meadow seem dwarfed in comparison.",
+    "The heavy mist seems to rise off the the land, ascending upwards to rejoin the clouds above.  Surrounded by mountains, the tall blades of grass of the meadow seem dwarfed in comparison."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "51": "north",
     "53": "southwest",
     "28297": "go gate"
   },
-  "paths": [
-    "Obvious paths: north, southwest"
-  ],
+  "timeto": {
+    "51": 0.2,
+    "53": 0.2,
+    "28297": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     1091,
     306,
     1101,
     316
   ],
-  "terrain": "grassland",
-  "description": [
-    "The heavy mist seems to rise off the the land, ascending upwards to rejoin the darkened clouds above.  Surrounded by mountains, the tall blades of grass of the meadow seem dwarfed in comparison.",
-    "The heavy mist seems to rise off the the land, ascending upwards to rejoin the clouds above.  Surrounded by mountains, the tall blades of grass of the meadow seem dwarfed in comparison."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Whistler's Pass, Meadow]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "51": 0.2,
-    "53": 0.2,
-    "28297": 0.2
-  },
-  "id": 52,
-  "location": "Whistler's Pass",
   "tags": [
     "some sovyn clove",
     "some acantha leaf",
@@ -116,10 +113,6 @@
     "fire lily",
     "murdroot",
     "nightbloom blossom",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

@@ -1,42 +1,39 @@
 {
-  "wayto": {
-    "5873": "southwest",
-    "5875": {
-      "stringproc": "5f9dc30b5f2712b74250231c71b87282"
-    },
-    "5882": {
-      "stringproc": "c02b43716ea87ec7c03633255cdc3b81"
-    }
-  },
-  "paths": [
-    "Obvious paths: northeast, southwest"
+  "id": 5874,
+  "title": [
+    "[Glaise Cnoc, Cemetery]"
   ],
-  "image_coords": [
-    476,
-    590,
-    482,
-    598
-  ],
-  "terrain": null,
   "description": [
     "A pair of large oak trees flank the gravel path, creating a canopy of leaves overhead.  Sunlight filtering through the leaves creates a mottled pattern on the ground.  Despite the sun, the air remains cool and crisp.  Somewhere nearby, the tranquil voice of a songbird dances in the air.",
     "A pair of large oak trees flank the gravel path, creating a canopy of leaves overhead.  Moonlight filtering through the leaves creates a mottled pattern on the ground.  From somewhere nearby, the hoots of an owl fill the cool, crisp night air.",
     "Sunlight shines down upon a black marble marker, set into the ground amid a meadow of gently swaying flowers.  The marker is worn with age, but the inscription is still legible.  The sweet smell of wildflowers and the hypnotic humming of bees create a seductive setting.",
     "Moonlight shines down upon a black marble marker, set into the ground amid a meadow of gently swaying flowers.  The marker is worn with age, but the inscription is still legible.  The sweet smell of wildflowers and the hypnotic humming of nocturnal insects create a seductive setting."
   ],
-  "image": "en-cemetery-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Glaise Cnoc, Cemetery]"
+  "paths": [
+    "Obvious paths: northeast, southwest"
   ],
-  "check_location": null,
+  "location": "the Glaise Cnoc Cemetary",
+  "wayto": {
+    "5873": "southwest",
+    "5875": {
+      "file": "string_procs/wayto/5874_5875.rb"
+    },
+    "5882": {
+      "file": "string_procs/wayto/5874_5882.rb"
+    }
+  },
   "timeto": {
     "5873": 0.2,
     "5875": 1.2,
     "5882": 1.4
   },
-  "id": 5874,
-  "location": "the Glaise Cnoc Cemetary",
+  "image": "en-cemetery-1264234799.png",
+  "image_coords": [
+    476,
+    590,
+    482,
+    598
+  ],
   "tags": [
     "fennel bulb",
     "stargazer lily",
@@ -114,8 +111,5 @@
     "wavepetal blossom",
     "sunburst blossom",
     "onion skin"
-  ],
-  "links": [
-
   ]
 }

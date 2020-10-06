@@ -1,33 +1,30 @@
 {
+  "id": 24731,
+  "title": [
+    "[Red Forest, Deep Woods]"
+  ],
+  "description": [
+    "A blanket of crushed foliage spreads out underfoot, creating a large arena of snapped branches, broken sticks, and rotting stumps.  The ground is broken in some places, with clusters of dark roots pulled up from the earth and curled over, some withered and crumbling."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south"
+  ],
+  "location": "the Red Forest",
   "wayto": {
     "24732": "south",
     "24730": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, south"
-  ],
+  "timeto": {
+    "24732": 0.2,
+    "24730": 0.2
+  },
+  "image": "red_forest-1260914757.png",
   "image_coords": [
     402,
     506,
     415,
     519
   ],
-  "terrain": null,
-  "description": [
-    "A blanket of crushed foliage spreads out underfoot, creating a large arena of snapped branches, broken sticks, and rotting stumps.  The ground is broken in some places, with clusters of dark roots pulled up from the earth and curled over, some withered and crumbling."
-  ],
-  "image": "red_forest-1260914757.png",
-  "climate": null,
-  "title": [
-    "[Red Forest, Deep Woods]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24732": 0.2,
-    "24730": 0.2
-  },
-  "id": 24731,
-  "location": "the Displaced Red Forest",
   "tags": [
     "some wolifrew lichen",
     "tkaro root",
@@ -52,30 +49,6 @@
     "some ephlox moss",
     "some brostheras grass",
     "withered black mushroom",
-    "wild chokecherry",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "sticks",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "blueberries",
-    "fiddlehead fern",
-    "broken twig",
-    "wild pink geranium",
-    "tree bark",
-    "mistweed",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+    "wild chokecherry"
+  ]
 }

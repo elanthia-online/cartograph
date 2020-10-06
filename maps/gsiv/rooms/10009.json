@@ -1,59 +1,36 @@
 {
+  "id": 10009,
+  "title": [
+    "[High Plains, Old Barrow Road]"
+  ],
+  "description": [
+    "Uprooted chunks of bramble bushes blow across the road like ghostly tumbleweeds, joining the mist in a windblown dance.  The crumbling stones that border the ancient road lead due north, to where a dark, misty moor rises above the plain."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Yegharren Plains",
   "wayto": {
     "10008": "south",
     "10010": "north"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "10008": 0.2,
+    "10010": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     1350,
     516,
     1358,
     524
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "Uprooted chunks of bramble bushes blow across the road like ghostly tumbleweeds, joining the mist in a windblown dance.  The crumbling stones that border the ancient road lead due north, to where a dark, misty moor rises above the plain."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[High Plains, Old Barrow Road]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10008": 0.2,
-    "10010": 0.2
-  },
-  "id": 10009,
-  "location": "the Yegharren Plains",
   "tags": [
     "some wolifrew lichen",
     "some valerian root",
     "cuctucae berry",
     "some aloeas stem",
     "some pennyroyal stem",
-    "bright red cranberry",
-    "acantha leaf",
-    "wolifrew lichen",
-    "aloeas stem",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "withered black mushroom",
-    "stalk of chicory",
-    "small wild rose",
-    "wild chokecherry",
-    "blue whortleberry",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bright red cranberry"
   ]
 }

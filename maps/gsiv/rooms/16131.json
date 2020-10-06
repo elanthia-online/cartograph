@@ -1,46 +1,38 @@
 {
+  "id": 16131,
+  "title": [
+    "[Timor's, House Annex Hallway]"
+  ],
+  "description": [
+    "The hallway floor is warped and uneven.  Ceramic oil lamps hang from the ceiling, bathing the hallway in a flickering light."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "River's Rest",
   "wayto": {
     "23204": "north",
     "16129": "south",
     "16132": "go orange curtain"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "23204": 0.2,
+    "16129": 0.2,
+    "16132": 0.2
+  },
+  "image": "rr-warrens-1266380776.png",
   "image_coords": [
     853,
     1025,
     891,
     1063
   ],
-  "terrain": "indoors",
-  "description": [
-    "The hallway floor is warped and uneven.  Ceramic oil lamps hang from the ceiling, bathing the hallway in a flickering light."
-  ],
-  "image": "rr-warrens-1266380776.png",
-  "climate": "indoors",
-  "title": [
-    "[Timor's, House Annex Hallway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "23204": 0.2,
-    "16129": 0.2,
-    "16132": 0.2
-  },
-  "id": 16131,
-  "location": "River's Rest",
   "tags": [
     "meta:mapname:River's Rest - Warrens",
     "meta:mapshortname:Warrens",
-    "meta:mapcategory:River's Rest",
-    "no forageables",
-    "meta:forage-sensed"
+    "meta:mapcategory:River's Rest"
   ],
   "unique_loot": [
     "azure curtain with the sigil of Rising Phoenix"
-  ],
-  "links": [
-
   ]
 }

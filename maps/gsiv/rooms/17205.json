@@ -1,38 +1,32 @@
 {
+  "id": 17205,
+  "title": [
+    "[Warrior Guild, Hall of Armor]"
+  ],
+  "description": [
+    "The hall continues here, a seemingly endless expanse of stately granite and graceful columns.  Impressive in their craftmanship and state of preservation, antique full plate armor displays recall bygone days of monumental battles and victories."
+  ],
+  "paths": [
+    "Obvious exits: southwest, northwest"
+  ],
+  "location": "Ta'Illistim",
   "wayto": {
     "17204": "southwest",
     "17206": "northwest"
   },
-  "paths": [
-    "Obvious exits: southwest, northwest"
-  ],
+  "timeto": {
+    "17204": 0.2,
+    "17206": 0.2
+  },
+  "image": "en-ta_illistim-warrior_guild.png",
   "image_coords": [
     1118,
     683,
     1138,
     708
   ],
-  "terrain": null,
-  "description": [
-    "The hall continues here, a seemingly endless expanse of stately granite and graceful columns.  Impressive in their craftmanship and state of preservation, antique full plate armor displays recall bygone days of monumental battles and victories."
-  ],
-  "image": "en-ta_illistim-warrior_guild.png",
-  "climate": null,
-  "title": [
-    "[Warrior Guild, Hall of Armor]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "17204": 0.2,
-    "17206": 0.2
-  },
-  "id": 17205,
-  "location": "Ta'Illistim",
   "tags": [
     "warrior guild armor",
     "warrior guild floor"
-  ],
-  "links": [
-
   ]
 }

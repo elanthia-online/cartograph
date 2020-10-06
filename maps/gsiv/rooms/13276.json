@@ -1,39 +1,30 @@
 {
+  "id": 13276,
+  "title": [
+    "[East Wing]"
+  ],
+  "description": [
+    "The corridor stretches away to the northeast and southwest.  High, vaulted ceilings vanish into the darkness high above, dimly lit by flaming sconces that line the walls of carved basalt.  A pale haze of smoke drifts through the still air."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "the Lost Home",
   "wayto": {
     "13275": "southwest",
     "13277": "go granite arch",
     "13278": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southwest"
-  ],
-  "image_coords": [
-    789,
-    376,
-    847,
-    433
-  ],
-  "terrain": null,
-  "description": [
-    "The corridor stretches away to the northeast and southwest.  High, vaulted ceilings vanish into the darkness high above, dimly lit by flaming sconces that line the walls of carved basalt.  A pale haze of smoke drifts through the still air."
-  ],
-  "image": "en-ta_illistim_buildings.png",
-  "climate": null,
-  "title": [
-    "[East Wing]"
-  ],
-  "check_location": null,
   "timeto": {
     "13275": 0.2,
     "13277": 0.2,
     "13278": 0.2
   },
-  "id": 13276,
-  "location": "the Lost Home",
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "en-ta_illistim_buildings.png",
+  "image_coords": [
+    789,
+    376,
+    847,
+    433
   ]
 }

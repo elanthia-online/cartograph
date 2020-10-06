@@ -1,39 +1,29 @@
 {
-  "wayto": {
-    "2961": "west",
-    "2963": "east"
-  },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
-  "image_coords": [
-    884,
-    682,
-    895,
-    692
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Small, poorly lit cells line the northern walls.  High, louvered windows provide the only source of light for these dormitory rooms.  Some of the cells still contain remnants of furniture, though for the most part, they are barren."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abbey Dorter]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2961": 0.2,
-    "2963": 0.2
-  },
   "id": 2962,
-  "location": "the Abbey",
-  "tags": [
-    "nedum vereri",
-    "no forageables",
-    "meta:forage-sensed"
+  "title": [
+    "[Abbey, Dorter]"
   ],
-  "links": [
-
+  "description": [
+    "A colorful woven rug provides a lone spot of color amidst the grey, even walls of the dorter.  High, louvered windows let in a bit of pallid daylight, but otherwise, the light of torches is only sufficient to keep the hall in dim twilight.  The odor of beeswax wafts strongly from a plain spruce door in the western wall."
+  ],
+  "paths": [
+    "Obvious exits: east, west",
+    "Obvious exits: east"
+  ],
+  "location": "the Abbey",
+  "wayto": {
+    "2963": "east",
+    "28873": "go door"
+  },
+  "timeto": {
+    "2963": 0.2,
+    "28873": 0.2
+  },
+  "image": "imt-Abbey Map-51200831.png",
+  "image_coords": [
+    2108,
+    1288,
+    2216,
+    1388
   ]
 }

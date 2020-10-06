@@ -1,62 +1,35 @@
 {
+  "id": 3897,
+  "title": [
+    "[Marshtown Road]"
+  ],
+  "description": [
+    "To the west, an ancient stone bridge stretches across a north-south ravine, but the road veers northward, then arcs back to the south and enters the ravine just north of the bridge.  Looking more closely, you see that the ravine has ceased to be an obstacle.  Decades of silt have been topped off with a roadbed of gravel, and the ravine now provides a comfortable descent to the tidal marshes below."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the holdings of Vornavis",
   "wayto": {
     "3896": "east",
     "3898": "go ravine",
     "4626": "go bridge"
   },
-  "paths": [
-    "Obvious paths: east"
-  ],
+  "timeto": {
+    "3896": 0.2,
+    "3898": 0.2,
+    "4626": 0.2
+  },
+  "image": "vo-caravansary-1264234799.png",
   "image_coords": [
     970,
     384,
     980,
     394
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "To the west, an ancient stone bridge stretches across a north-south ravine, but the road veers northward, then arcs back to the south and enters the ravine just north of the bridge.  Looking more closely, you see that the ravine has ceased to be an obstacle.  Decades of silt have been topped off with a roadbed of gravel, and the ravine now provides a comfortable descent to the tidal marshes below."
-  ],
-  "image": "vo-caravansary-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Marshtown Road]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3896": 0.2,
-    "3898": 0.2,
-    "4626": 0.2
-  },
-  "id": 3897,
-  "location": "the holdings of Vornavis",
   "tags": [
     "small daisy",
     "small flower",
-    "some sovyn clove",
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "small rose",
-    "angelica root",
-    "withered black mushroom",
-    "stalk of chicory",
-    "sprig of alyssum",
-    "heath aster",
-    "stalk of goldenrod",
-    "yellow primrose",
-    "small wild rose",
-    "wild chokecherry",
-    "motherwort",
-    "white baneberry",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some sovyn clove"
   ]
 }

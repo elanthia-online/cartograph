@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "1000": "out"
-  },
+  "id": 9493,
+  "title": [
+    "[Zul Logoth General Store]"
+  ],
+  "description": [
+    "All the varied dry goods that a dwarf would need for day-to-day living seem to be on display in this store.  The displays may seem more packed, however, because the store itself is so very small.  A sales desk sits near the south wall and provides a place where the proprietor can transact business.  Pushed into a corner, one tall toadstool in a lone stone pot does its best to light the area.  The only means of exit is through a crude stone arch."
+  ],
   "paths": [
     "Obvious exits: out"
   ],
+  "location": "Zul Logoth",
+  "wayto": {
+    "1000": "out"
+  },
+  "timeto": {
+    "1000": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     810,
     629,
     820,
     639
   ],
-  "terrain": "indoors",
-  "description": [
-    "All the varied dry goods that a dwarf would need for day-to-day living seem to be on display in this store.  The displays may seem more packed, however, because the store itself is so very small.  A sales desk sits near the south wall and provides a place where the proprietor can transact business.  Pushed into a corner, one tall toadstool in a lone stone pot does its best to light the area.  The only means of exit is through a crude stone arch."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Zul Logoth General Store]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1000": 0.2
-  },
-  "id": 9493,
-  "location": "Zul Logoth",
   "tags": [
-    "general store",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "general store"
   ]
 }

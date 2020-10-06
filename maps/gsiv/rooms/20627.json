@@ -1,50 +1,28 @@
 {
+  "id": 20627,
+  "title": [
+    "[Wehnimer's, Burrow Way]"
+  ],
+  "description": [
+    "At the edge of this warren, only a single torch burns, its light barely pushing away any darkness.  The faint sound of rodents skittering about can be heard close by."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "20626": "north",
     "20641": "search\ngo crack"
   },
-  "paths": [
-    "Obvious exits: north"
-  ],
+  "timeto": {
+    "20626": 0.2,
+    "20641": 0.2
+  },
+  "image": "wl-burrow_way-1360361110.png",
   "image_coords": [
     749,
     279,
     776,
     305
-  ],
-  "terrain": "indoors",
-  "description": [
-    "At the edge of this warren, only a single torch burns, its light barely pushing away any darkness.  The faint sound of rodents skittering about can be heard close by."
-  ],
-  "image": "wl-burrow_way-1360361110.png",
-  "climate": "indoors",
-  "title": [
-    "[Wehnimer's, Burrow Way]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "20626": 0.2,
-    "20641": 0.2
-  },
-  "id": 20627,
-  "location": "the town of Wehnimer's Landing",
-  "tags": [
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

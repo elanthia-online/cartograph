@@ -1,46 +1,32 @@
 {
-  "wayto": {
-    "21075": {
-      "stringproc": "9506d600680c4c3023b27f245fc72958"
-    },
-    "21077": {
-      "stringproc": "25b57a47fa24e6f4eea217034f76e70e"
-    }
-  },
+  "id": 21076,
+  "title": [
+    "[Alhan'naht River, Jungle Pass]"
+  ],
+  "description": [
+    "Falling away from the foothills, the river tumbles through the forest.  A dense haze clings to the chillier surface of the water as it passes through the choking humidity of the jungle and draws the attention of small flying insects.  The delicate hum of the winged beasts fills the air."
+  ],
   "paths": [
     "Obvious paths: northeast, south"
   ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "21075": {
+      "file": "string_procs/wayto/21076_21075.rb"
+    },
+    "21077": {
+      "file": "string_procs/wayto/21076_21077.rb"
+    }
+  },
+  "timeto": {
+    "21075": 2.0,
+    "21077": 2.0
+  },
+  "image": "ifw-wilds-1368242816.png",
   "image_coords": [
     1579,
     2560,
     1599,
     2579
-  ],
-  "terrain": "riparian",
-  "description": [
-    "Falling away from the foothills, the river tumbles through the forest.  A dense haze clings to the chillier surface of the water as it passes through the choking humidity of the jungle and draws the attention of small flying insects.  The delicate hum of the winged beasts fills the air."
-  ],
-  "image": "ifw-wilds-1368242816.png",
-  "climate": "freshwater",
-  "title": [
-    "[Alhan'naht River, Jungle Pass]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "21075": 2.0,
-    "21077": 2.0
-  },
-  "id": 21076,
-  "location": "Mist Harbor",
-  "tags": [
-    "stalk of cattail",
-    "murdroot",
-    "wavepetal blossom",
-    "sunburst blossom",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

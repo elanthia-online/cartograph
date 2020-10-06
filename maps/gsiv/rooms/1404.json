@@ -1,33 +1,30 @@
 {
+  "id": 1404,
+  "title": [
+    "[Cairnfang Forest]"
+  ],
+  "description": [
+    "The sharp hammering of a hungry woodpecker echoes amongst the trees, as the trail follows a valley northward between ridgelines to the east and west."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "1403": "north",
     "1405": "south"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "1403": 0.2,
+    "1405": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     1101,
     911,
     1111,
     921
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "The sharp hammering of a hungry woodpecker echoes amongst the trees, as the trail follows a valley northward between ridgelines to the east and west."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Cairnfang Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1403": 0.2,
-    "1405": 0.2
-  },
-  "id": 1404,
-  "location": "the Cairnfang",
   "tags": [
     "sprig of wild lilac",
     "nightbloom blossom",
@@ -83,10 +80,6 @@
     "ebony twig",
     "bolmara lichen",
     "brostheras grass",
-    "alder bark",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "alder bark"
   ]
 }

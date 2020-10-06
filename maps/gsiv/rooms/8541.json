@@ -1,4 +1,15 @@
 {
+  "id": 8541,
+  "title": [
+    "[Foothills]"
+  ],
+  "description": [
+    "You are atop a small hill.  To the south looms Zeltoph Mountain while to the north stretches a long, rolling plain."
+  ],
+  "paths": [
+    "Obvious paths: north, east, southeast, south, southwest, west"
+  ],
+  "location": "the foothills of Zeltoph",
   "wayto": {
     "1293": "west",
     "1294": "southwest",
@@ -7,25 +18,6 @@
     "8544": "southeast",
     "8545": "south"
   },
-  "paths": [
-    "Obvious paths: north, east, southeast, south, southwest, west"
-  ],
-  "image_coords": [
-    1112,
-    653,
-    1122,
-    663
-  ],
-  "terrain": "hilly",
-  "description": [
-    "You are atop a small hill.  To the south looms Zeltoph Mountain while to the north stretches a long, rolling plain."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Foothills]"
-  ],
-  "check_location": null,
   "timeto": {
     "1293": 0.2,
     "1294": 0.2,
@@ -34,8 +26,13 @@
     "8544": 0.2,
     "8545": 0.2
   },
-  "id": 8541,
-  "location": "the foothills of Zeltoph",
+  "image": "wl-trollfang-1264234799.png",
+  "image_coords": [
+    1112,
+    653,
+    1122,
+    663
+  ],
   "tags": [
     "some bolmara lichen",
     "flathead mushroom",
@@ -93,11 +90,6 @@
     "ebony twig",
     "bolmara lichen",
     "brostheras grass",
-    "woad leaves",
-    "sunburst blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "woad leaves"
   ]
 }

@@ -1,37 +1,31 @@
 {
+  "id": 19016,
+  "title": [
+    "[Sorcerer Guild, Magic Workroom]"
+  ],
+  "description": [
+    "Items are haphazardly strewn all over this room as if someone had taken a large stick and stirred the room's contents.  The walls are pitted and cracked, and the silver carpet pitches and rolls unevenly, evidence of localized seismic forces at work.  Sunlight streams liberally through the cracks in the walls.  A heavy iron table lies on its side, and extinguished torch stands recline uselessly in a corner.  The only item still standing upright is a squat iron chest."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast"
+  ],
+  "location": "Kharam-Dzu",
   "wayto": {
     "19013": "southeast",
     "19027": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southeast"
-  ],
+  "timeto": {
+    "19013": 0.2,
+    "19027": 0.2
+  },
+  "image": "ti-sorcerer_guild-1405076623.png",
   "image_coords": [
     74,
     232,
     115,
     270
   ],
-  "terrain": null,
-  "description": [
-    "Items are haphazardly strewn all over this room as if someone had taken a large stick and stirred the room's contents.  The walls are pitted and cracked, and the silver carpet pitches and rolls unevenly, evidence of localized seismic forces at work.  Sunlight streams liberally through the cracks in the walls.  A heavy iron table lies on its side, and extinguished torch stands recline uselessly in a corner.  The only item still standing upright is a squat iron chest."
-  ],
-  "image": "ti-sorcerer_guild-1405076623.png",
-  "climate": null,
-  "title": [
-    "[Sorcerer Guild, Magic Workroom]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "19013": 0.2,
-    "19027": 0.2
-  },
-  "id": 19016,
-  "location": "Kharam-Dzu",
   "tags": [
     "workshop"
-  ],
-  "links": [
-
   ]
 }

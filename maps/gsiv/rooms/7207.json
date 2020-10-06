@@ -1,33 +1,30 @@
 {
+  "id": 7207,
+  "title": [
+    "[Top of Mound, Depression]"
+  ],
+  "description": [
+    "A saucer-shaped depression here encroaches into the summit of the burial mound.  Dark, rich earth forms a concave hollow, as though the wrathful fist of some angered deity had just left its mark of utter contempt upon the land."
+  ],
+  "paths": [
+    "Obvious paths: up"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7206": "up",
     "7208": "go path"
   },
-  "paths": [
-    "Obvious paths: up"
-  ],
+  "timeto": {
+    "7206": 0.2,
+    "7208": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     424,
     79,
     434,
     89
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "A saucer-shaped depression here encroaches into the summit of the burial mound.  Dark, rich earth forms a concave hollow, as though the wrathful fist of some angered deity had just left its mark of utter contempt upon the land."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Top of Mound, Depression]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7206": 0.2,
-    "7208": 0.2
-  },
-  "id": 7207,
-  "location": "the Graveyard",
   "tags": [
     "some wolifrew lichen",
     "some acantha leaf",
@@ -51,10 +48,6 @@
     "bright red cranberry",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

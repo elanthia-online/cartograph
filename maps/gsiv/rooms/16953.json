@@ -1,40 +1,34 @@
 {
+  "id": 16953,
+  "title": [
+    "[Wizard Guild, Library]"
+  ],
+  "description": [
+    "The long rows of bookshelves that line the adjacent halls meet here at the corner of the library, their contents muffling the soft murmur of voices that hovers on the air.  Colored light streams in through several arched stained glass windows set high in the walls, painting vibrant highlights across the faces of the wizards who gather here.  A pair of gilded columns marks an entrance to the central atrium to the southeast.",
+    "The long rows of bookshelves that line the adjacent halls meet here at the corner of the library, their contents muffling the soft murmur of voices that hovers on the air.  Faint beams of tinted light from the arched stained glass windows paint the wizards who gather here even at this hour in muted color.  A pair of gilded columns marks an entrance to the central atrium to the southeast."
+  ],
+  "paths": [
+    "Obvious exits: east, southeast, south"
+  ],
+  "location": "Ta'Illistim",
   "wayto": {
     "16954": "south",
     "16959": "east",
     "16952": "southeast"
   },
-  "paths": [
-    "Obvious exits: east, southeast, south"
-  ],
+  "timeto": {
+    "16954": 0.2,
+    "16959": 0.2,
+    "16952": 0.2
+  },
+  "image": "en-ta_illistim-Wizard_Guild-1264234799.gif",
   "image_coords": [
     16,
     334,
     40,
     358
   ],
-  "terrain": null,
-  "description": [
-    "The long rows of bookshelves that line the adjacent halls meet here at the corner of the library, their contents muffling the soft murmur of voices that hovers on the air.  Colored light streams in through several arched stained glass windows set high in the walls, painting vibrant highlights across the faces of the wizards who gather here.  A pair of gilded columns marks an entrance to the central atrium to the southeast.",
-    "The long rows of bookshelves that line the adjacent halls meet here at the corner of the library, their contents muffling the soft murmur of voices that hovers on the air.  Faint beams of tinted light from the arched stained glass windows paint the wizards who gather here even at this hour in muted color.  A pair of gilded columns marks an entrance to the central atrium to the southeast."
-  ],
-  "image": "en-ta_illistim-Wizard_Guild-1264234799.gif",
-  "climate": null,
-  "title": [
-    "[Wizard Guild, Library]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "16954": 0.2,
-    "16959": 0.2,
-    "16952": 0.2
-  },
-  "id": 16953,
-  "location": "Ta'Illistim",
   "tags": [
     "wizard alchemy masters"
-  ],
-  "links": [
-
   ]
 }

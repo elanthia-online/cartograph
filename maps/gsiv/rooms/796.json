@@ -1,33 +1,30 @@
 {
+  "id": 796,
+  "title": [
+    "[Whistler's Pass, Icy Crags]"
+  ],
+  "description": [
+    "The jagged rocks rising from the icy mountainside resemble a chain of volcanic islands--or the business end of a morning star.  Wise travelers choose their steps with care, as sliding down the mountainside seems as unattractive a fate as the alternative: impaling oneself on an icy crag."
+  ],
+  "paths": [
+    "Obvious paths: east, south"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "795": "east",
     "797": "south"
   },
-  "paths": [
-    "Obvious paths: east, south"
-  ],
+  "timeto": {
+    "795": 0.2,
+    "797": 0.2
+  },
+  "image": "en-whistlers_pass-1264234799.png",
   "image_coords": [
     833,
     317,
     843,
     327
   ],
-  "terrain": "mountainous",
-  "description": [
-    "The jagged rocks rising from the icy mountainside resemble a chain of volcanic islands--or the business end of a morning star.  Wise travelers choose their steps with care, as sliding down the mountainside seems as unattractive a fate as the alternative: impaling oneself on an icy crag."
-  ],
-  "image": "en-whistlers_pass-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Whistler's Pass, Icy Crags]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "795": 0.2,
-    "797": 0.2
-  },
-  "id": 796,
-  "location": "Whistler's Pass",
   "tags": [
     "sassafras leaf",
     "sweetfern stalk",
@@ -35,10 +32,6 @@
     "valerian root",
     "pennyroyal stem",
     "sprig of holly",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

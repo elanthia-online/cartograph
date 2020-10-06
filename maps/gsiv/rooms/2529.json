@@ -1,33 +1,30 @@
 {
+  "id": 2529,
+  "title": [
+    "[Snowy Plains, White Ice Lake]"
+  ],
+  "description": [
+    "The broken remains of an old, weather-beaten dinghy lies upon the lake shore.  It seems rather odd to find a boat of any kind beside a frozen lake, even a broken one.  You ponder on what possible use it might serve."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "the Icemule Trail",
   "wayto": {
     "2530": "southwest",
     "2528": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, southwest"
-  ],
+  "timeto": {
+    "2530": 0.2,
+    "2528": 0.2
+  },
+  "image": "imt-trail-1264234799.png",
   "image_coords": [
     958,
     573,
     968,
     583
   ],
-  "terrain": "riparian",
-  "description": [
-    "The broken remains of an old, weather-beaten dinghy lies upon the lake shore.  It seems rather odd to find a boat of any kind beside a frozen lake, even a broken one.  You ponder on what possible use it might serve."
-  ],
-  "image": "imt-trail-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Snowy Plains, White Ice Lake]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2530": 0.2,
-    "2528": 0.2
-  },
-  "id": 2529,
-  "location": "the Icemule Trail",
   "tags": [
     "some talneo root",
     "some frostweed",
@@ -39,10 +36,6 @@
     "murdroot",
     "wavepetal blossom",
     "ironfern root",
-    "talneo root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "talneo root"
   ]
 }

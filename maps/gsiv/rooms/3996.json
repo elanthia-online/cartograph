@@ -1,52 +1,38 @@
 {
-  "wayto": {
-    "3995": {
-      "stringproc": "3157bbb118c54a6236859635e57fcbb9"
-    },
-    "3997": {
-      "stringproc": "79b6aacb07358187764f434021f44bcf"
-    },
-    "9876": "go hole"
-  },
+  "id": 3996,
+  "title": [
+    "[Griffin's Keen, Switchbacks]"
+  ],
+  "description": [
+    "Shallow steps carved into the trail give the illusion of purchase, but the years have smoothed them over with layers of ice.  What once were vertical edges and flat surfaces are now no more than blurry stripes on the ground.  Near the topmost step, a large hole in the rock face looks like it leads to a sheltered spot."
+  ],
   "paths": [
     "Obvious paths: northeast, southwest"
   ],
+  "location": "Griffin's Keen",
+  "wayto": {
+    "3995": {
+      "file": "string_procs/wayto/3996_3995.rb"
+    },
+    "3997": {
+      "file": "string_procs/wayto/3996_3997.rb"
+    },
+    "9876": "go hole"
+  },
+  "timeto": {
+    "3995": 4.2,
+    "3997": 4.2,
+    "9876": 0.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     807,
     222,
     817,
     232
   ],
-  "terrain": null,
-  "description": [
-    "Shallow steps carved into the trail give the illusion of purchase, but the years have smoothed them over with layers of ice.  What once were vertical edges and flat surfaces are now no more than blurry stripes on the ground.  Near the topmost step, a large hole in the rock face looks like it leads to a sheltered spot."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Griffin's Keen, Switchbacks]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3995": 4.2,
-    "3997": 4.2,
-    "9876": 0.2
-  },
-  "id": 3996,
-  "location": "Griffin's Keen",
   "tags": [
     "some valerian root",
-    "some angelica root",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "sprig of holly",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some angelica root"
   ]
 }

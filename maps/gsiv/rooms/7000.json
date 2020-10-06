@@ -1,37 +1,34 @@
 {
+  "id": 7000,
+  "title": [
+    "[Castle Darkstone, Outer Ward]"
+  ],
+  "description": [
+    "This wide space lies between the inner and outer curtain walls and extends all the way around the castle.  You stand just inside the portcullis which leads out of the castle through the gatehouse.  Before you stands the massive inner curtain wall whose crumbling towers rise high above you.  To the south of here is the inner curtain gatehouse."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7001": "north",
     "7025": "south",
     "6998": {
-      "stringproc": "74d7cf40a63d12e81c286a9ec63d19de"
+      "file": "string_procs/wayto/7000_6998.rb"
     }
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "7001": 0.2,
+    "7025": 0.2,
+    "6998": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     488,
     428,
     498,
     438
   ],
-  "terrain": null,
-  "description": [
-    "This wide space lies between the inner and outer curtain walls and extends all the way around the castle.  You stand just inside the portcullis which leads out of the castle through the gatehouse.  Before you stands the massive inner curtain wall whose crumbling towers rise high above you.  To the south of here is the inner curtain gatehouse."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Castle Darkstone, Outer Ward]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7001": 0.2,
-    "7025": 0.2,
-    "6998": 0.2
-  },
-  "id": 7000,
-  "location": "Darkstone Castle",
   "tags": [
     "some wingstem root",
     "some wolifrew lichen",
@@ -41,19 +38,6 @@
     "sweetfern stalk",
     "cuctucae berry",
     "bright red cranberry",
-    "heath aster",
-    "acantha leaf",
-    "wolifrew lichen",
-    "sassafras leaf",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "stalk of chicory",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "heath aster"
   ]
 }

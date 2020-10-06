@@ -1,35 +1,28 @@
 {
+  "id": 26250,
+  "title": [
+    "[Lich's Landing, Corpse Row]"
+  ],
+  "description": [
+    "A whiff of decomposing flesh rises up from the narrow lane, as the high palisade walls loom to the west.  Swarms of flies still hover about the bodies decorating the road."
+  ],
+  "paths": [
+    "Obvious exits: north, southwest"
+  ],
+  "location": "Talador",
   "wayto": {
     "26249": "southwest",
     "26251": "north"
   },
-  "paths": [
-    "Obvious exits: north, southwest"
-  ],
+  "timeto": {
+    "26249": 0.2,
+    "26251": 0.2
+  },
+  "image": "wl-lichs_landing-1500800742.png",
   "image_coords": [
     318,
     303,
     344,
     329
-  ],
-  "terrain": null,
-  "description": [
-    "A whiff of decomposing flesh rises up from the narrow lane, as the high palisade walls loom to the west.  Swarms of flies still hover about the bodies decorating the road."
-  ],
-  "image": "wl-lichs_landing-1500800742.png",
-  "climate": null,
-  "title": [
-    "[Lich's Landing, Corpse Row]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26249": 0.2,
-    "26251": 0.2
-  },
-  "id": 26250,
-  "location": "Talador",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

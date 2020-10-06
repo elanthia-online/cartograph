@@ -1,39 +1,33 @@
 {
+  "id": 17827,
+  "title": [
+    "[Workshop]"
+  ],
+  "description": [
+    "The interior of this sizeable workshop is tidy and organized, mostly due to the pair of guild apprentices cleaning up the place.  A row of cluttered toolbenches awaits those wishing to get a bit of work done."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Ta'Vaalor",
   "wayto": {
     "17826": "go door",
     "24050": "go toolbenches",
     "17828": "north"
   },
-  "paths": [
-    "Obvious exits: north"
-  ],
+  "timeto": {
+    "17826": 0.2,
+    "24050": 0.2,
+    "17828": 0.2
+  },
+  "image": "en-vaalor-rogue-guild.png",
   "image_coords": [
     1120,
     529,
     1159,
     567
   ],
-  "terrain": null,
-  "description": [
-    "The interior of this sizeable workshop is tidy and organized, mostly due to the pair of guild apprentices cleaning up the place.  A row of cluttered toolbenches awaits those wishing to get a bit of work done."
-  ],
-  "image": "en-vaalor-rogue-guild.png",
-  "climate": null,
-  "title": [
-    "[Workshop]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "17826": 0.2,
-    "24050": 0.2,
-    "17828": 0.2
-  },
-  "id": 17827,
-  "location": "Ta'Vaalor",
   "tags": [
     "rogue guild workshop"
-  ],
-  "links": [
-
   ]
 }

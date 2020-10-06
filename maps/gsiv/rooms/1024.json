@@ -1,53 +1,30 @@
 {
-  "wayto": {
-    "1023": "southeast",
-    "1025": {
-      "stringproc": "7cb2a12bc85c5721229e716d299a731c"
-    }
-  },
+  "id": 1024,
+  "title": [
+    "[Western DragonSpine, Slope]"
+  ],
+  "description": [
+    "A thick mist envelopes the mountainside just below this narrow ledge.  Wisps of the mist rise up on the steady breeze, drifting slowly through the air before dissipating.  The dry air pushes gritty, loose dirt across the now smooth, rocky mountainside."
+  ],
   "paths": [
     "Obvious paths: southeast"
   ],
+  "location": "between Wehnimer's Landing and Zul Logoth",
+  "wayto": {
+    "1023": "southeast",
+    "1025": {
+      "file": "string_procs/wayto/1024_1025.rb"
+    }
+  },
+  "timeto": {
+    "1023": 0.2,
+    "1025": 0.2
+  },
+  "image": "en-trail-1264234799.png",
   "image_coords": [
     1294,
     322,
     1304,
     332
-  ],
-  "terrain": "mountainous",
-  "description": [
-    "A thick mist envelopes the mountainside just below this narrow ledge.  Wisps of the mist rise up on the steady breeze, drifting slowly through the air before dissipating.  The dry air pushes gritty, loose dirt across the now smooth, rocky mountainside."
-  ],
-  "image": "en-trail-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Western DragonSpine, Slope]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1023": 0.2,
-    "1025": 0.2
-  },
-  "id": 1024,
-  "location": "Khazar's Hold",
-  "tags": [
-    "marallis berry",
-    "cuctucae berry",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "sprig of larkspur",
-    "ironfern root",
-    "sunburst blossom",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

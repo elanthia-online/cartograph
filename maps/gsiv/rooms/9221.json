@@ -1,38 +1,28 @@
 {
+  "id": 9221,
+  "title": [
+    "[Thurfel's Cellar]"
+  ],
+  "description": [
+    "A fitted stone wall blocks passage to the north.  This vantage overlooks a large divided pit filled with devices and cages."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "Thurfel's Island",
   "wayto": {
     "9222": "east",
     "9234": "south"
   },
-  "paths": [
-    "Obvious exits: east, south"
-  ],
+  "timeto": {
+    "9222": 0.2,
+    "9234": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     1145,
     922,
     1155,
     932
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A fitted stone wall blocks passage to the north.  This vantage overlooks a large divided pit filled with devices and cages."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thurfel's Cellar]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9222": 0.2,
-    "9234": 0.2
-  },
-  "id": 9221,
-  "location": "Thurfel's Island",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

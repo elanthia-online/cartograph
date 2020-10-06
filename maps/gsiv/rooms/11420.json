@@ -1,33 +1,30 @@
 {
+  "id": 11420,
+  "title": [
+    "[Troll Lair, Quarters]"
+  ],
+  "description": [
+    "This room is small, cramped and dank.  There are three skins, covering matted leaves, which serve as beds.  Moss competes with garbage for floor space.  The walls are caked with grime and decaying meat.  The corners are crowded with bones and rancid flesh."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Hidden Vale",
   "wayto": {
     "11417": "west",
     "11421": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "11417": 0.2,
+    "11421": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     933,
     1412,
     943,
     1422
   ],
-  "terrain": "indoors",
-  "description": [
-    "This room is small, cramped and dank.  There are three skins, covering matted leaves, which serve as beds.  Moss competes with garbage for floor space.  The walls are caked with grime and decaying meat.  The corners are crowded with bones and rancid flesh."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Troll Lair, Quarters]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11417": 0.2,
-    "11421": 0.2
-  },
-  "id": 11420,
-  "location": "the Hidden Vale",
   "tags": [
     "withered black mushroom",
     "some wingstem root",
@@ -41,11 +38,6 @@
     "soft white mushroom",
     "black hook mushroom",
     "cave moss",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bolmara lichen"
   ]
 }

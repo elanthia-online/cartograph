@@ -1,68 +1,30 @@
 {
-  "wayto": {
-    "8868": "go gate",
-    "263": "south",
-    "265": "north",
-    "28237": "go door"
-  },
+  "id": 264,
+  "title": [
+    "[Wehnimer's, Dagmar Lane]"
+  ],
+  "description": [
+    "This long, narrow dirt road presses between several buildings, connecting one of the quieter corners of this part of town with the main thoroughfares, where small residences and humble shops give way to the larger emporia, offices and grander structures."
+  ],
   "paths": [
     "Obvious paths: north, south"
   ],
+  "location": "the town of Wehnimer's Landing",
+  "wayto": {
+    "8868": "go gate",
+    "263": "south",
+    "265": "north"
+  },
+  "timeto": {
+    "8868": 0.2,
+    "263": 0.2,
+    "265": 0.2
+  },
+  "image": "wl-wehnimers-1264234799.png",
   "image_coords": [
     659,
     262,
     694,
     299
-  ],
-  "terrain": "plain dirt",
-  "description": [
-    "This long, narrow dirt road presses between several buildings, connecting one of the quieter corners of this part of town with the main thoroughfares, where small residences and humble shops give way to the larger emporia, offices and grander structures.",
-    "This long, narrow dirt road presses between several buildings, connecting one of the quieter corners of this part of town with the main thoroughfares, where small residences and humble shops give way to the larger emporia, offices and grander structures.  A heavy iron-banded door has been set into a high wall of the town barracks."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Wehnimer's, Dagmar Lane]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8868": 0.2,
-    "263": 0.2,
-    "265": 0.2,
-    "28237": 0.2
-  },
-  "id": 264,
-  "location": "the town of Wehnimer's Landing",
-  "tags": [
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "small flower",
-    "small rose",
-    "small daisy",
-    "angelica root",
-    "withered black mushroom",
-    "stalk of chicory",
-    "sprig of alyssum",
-    "heath aster",
-    "stalk of goldenrod",
-    "yellow primrose",
-    "small wild rose",
-    "wild carrot",
-    "ginger root",
-    "wild chokecherry",
-    "motherwort",
-    "murkweed",
-    "blue whortleberry",
-    "white baneberry",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

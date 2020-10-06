@@ -1,33 +1,30 @@
 {
+  "id": 1718,
+  "title": [
+    "[Trail Ascent]"
+  ],
+  "description": [
+    "The forest butts up against the DragonSpine Mountains.  A faint path winds its way into the conifers to the east, but nothing really resembling a trail ventures up the incline toward the westerly peaks.  Even the forest appears to have given up hope of extending its influence up the rocky face of the mountainside and contents itself with occupying the flatter area just below.  There do appear to be handholds and footholds, though, and perhaps an ascent can be managed."
+  ],
+  "paths": [
+    "Obvious paths: east, up"
+  ],
+  "location": "Gossamer Valley",
   "wayto": {
     "1717": "east",
     "1719": "up"
   },
-  "paths": [
-    "Obvious paths: east, up"
-  ],
+  "timeto": {
+    "1717": 0.2,
+    "1719": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     365,
     865,
     375,
     875
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "The forest butts up against the DragonSpine Mountains.  A faint path winds its way into the conifers to the east, but nothing really resembling a trail ventures up the incline toward the westerly peaks.  Even the forest appears to have given up hope of extending its influence up the rocky face of the mountainside and contents itself with occupying the flatter area just below.  There do appear to be handholds and footholds, though, and perhaps an ascent can be managed."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Trail Ascent]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1717": 0.2,
-    "1719": 0.2
-  },
-  "id": 1718,
-  "location": "Gossamer Valley",
   "tags": [
     "some pine needles",
     "wintergreen leaf",
@@ -45,19 +42,6 @@
     "some bolmara lichen",
     "tkaro root",
     "handful of pinenuts",
-    "stick",
-    "sticks",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "broken twig",
-    "pine needles",
-    "tree bark",
-    "ironfern root",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "stick"
   ]
 }

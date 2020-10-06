@@ -1,49 +1,35 @@
 {
-  "wayto": {
-    "4575": {
-      "stringproc": "395b361a16c8a355265cda519abf9fe5"
-    },
-    "4577": {
-      "stringproc": "dbbfd361e7886ce7121cafa8a1b5c5c5"
-    }
-  },
+  "id": 4576,
+  "title": [
+    "[Griffin's Keen, Valley View]"
+  ],
+  "description": [
+    "Snow and sleet pelts you mercilessly, thudding against your clothing and stinging your skin wherever it touches.  The trail wraps around the side of the peak, steeply canted and slick with ice."
+  ],
   "paths": [
     "Obvious paths: up, down"
   ],
+  "location": "Griffin's Keen",
+  "wayto": {
+    "4575": {
+      "file": "string_procs/wayto/4576_4575.rb"
+    },
+    "4577": {
+      "file": "string_procs/wayto/4576_4577.rb"
+    }
+  },
+  "timeto": {
+    "4575": 4.2,
+    "4577": 4.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     584,
     209,
     594,
     219
   ],
-  "terrain": null,
-  "description": [
-    "Snow and sleet pelts you mercilessly, thudding against your clothing and stinging your skin wherever it touches.  The trail wraps around the side of the peak, steeply canted and slick with ice."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Griffin's Keen, Valley View]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4575": 4.2,
-    "4577": 4.2
-  },
-  "id": 4576,
-  "location": "Griffin's Keen",
   "tags": [
-    "some angelica root",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "sprig of holly",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some angelica root"
   ]
 }

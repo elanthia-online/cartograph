@@ -1,33 +1,30 @@
 {
+  "id": 9344,
+  "title": [
+    "[Rocky Pass]"
+  ],
+  "description": [
+    "The rock-strewn floor of this pass leads on between towering black stone walls.  Piles of broken stone at the base of the walls show where pieces have fallen in the past.  The wind causes a lonely whistling sound as it blows through the pass.  A few stunted bushes indicate how difficult it is for anything to survive in such inhospitable and rocky ground."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "9343": "south",
     "9345": "north"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "9343": 0.2,
+    "9345": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     1213,
     325,
     1225,
     337
   ],
-  "terrain": "rough",
-  "description": [
-    "The rock-strewn floor of this pass leads on between towering black stone walls.  Piles of broken stone at the base of the walls show where pieces have fallen in the past.  The wind causes a lonely whistling sound as it blows through the pass.  A few stunted bushes indicate how difficult it is for anything to survive in such inhospitable and rocky ground."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Rocky Pass]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9343": 0.2,
-    "9345": 0.2
-  },
-  "id": 9344,
-  "location": "the Cairnfang",
   "tags": [
     "wintergreen leaf",
     "bright red teaberry",
@@ -56,10 +53,6 @@
     "motherwort",
     "white baneberry",
     "pepperthorn root",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

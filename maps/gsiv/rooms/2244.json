@@ -1,40 +1,30 @@
 {
+  "id": 2244,
+  "title": [
+    "[Glaes Vein]"
+  ],
+  "description": [
+    "Tunnels veer off in three directions.  Air currents have quickened, carrying the stink of sulfur and fire.  To the south, the passageway widens, and a cavern is just visible around a bend of the walls.  Opposite that, a tunnel to the north leads into deep shadow, in which no landmarks are visible other than a churned up pile of stone at its mouth to lend hazard to the darkness."
+  ],
+  "paths": [
+    "Obvious exits: north, south, northwest"
+  ],
+  "location": "the Eye of V'Tull",
   "wayto": {
     "2245": "south",
     "2247": "north",
     "2243": "northwest"
   },
-  "paths": [
-    "Obvious exits: north, south, northwest"
-  ],
-  "image_coords": [
-    198,
-    788,
-    206,
-    796
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Tunnels veer off in three directions.  Air currents have quickened, carrying the stink of sulfur and fire.  To the south, the passageway widens, and a cavern is just visible around a bend of the walls.  Opposite that, a tunnel to the north leads into deep shadow, in which no landmarks are visible other than a churned up pile of stone at its mouth to lend hazard to the darkness."
-  ],
-  "image": "ti-vtull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Glaes Vein]"
-  ],
-  "check_location": null,
   "timeto": {
     "2245": 0.2,
     "2247": 0.2,
     "2243": 0.2
   },
-  "id": 2244,
-  "location": "the Eye of V'Tull",
-  "tags": [
-    "pepperthorn root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "ti-vtull-1264234799.png",
+  "image_coords": [
+    198,
+    788,
+    206,
+    796
   ]
 }

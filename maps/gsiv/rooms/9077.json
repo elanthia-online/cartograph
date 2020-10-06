@@ -1,44 +1,34 @@
 {
+  "id": 9077,
+  "title": [
+    "[Infested Tunnels, Rat's Nest]"
+  ],
+  "description": [
+    "The rodents who made these tunnels were certainly industrious.  There are bite marks plainly visible on the ceiling, well out of the reach of even the largest of giant rats.  Come to think of it, some of those bite marks are awfully large."
+  ],
+  "paths": [
+    "Obvious exits: northeast, west, northwest"
+  ],
+  "location": "the subterranean tunnels",
   "wayto": {
     "9076": "west",
     "9078": "northeast",
     "9083": "northwest"
   },
-  "paths": [
-    "Obvious exits: northeast, west, northwest"
-  ],
+  "timeto": {
+    "9076": 0.2,
+    "9078": 0.2,
+    "9083": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     1323,
     482,
     1333,
     492
   ],
-  "terrain": "indoors",
-  "description": [
-    "The rodents who made these tunnels were certainly industrious.  There are bite marks plainly visible on the ceiling, well out of the reach of even the largest of giant rats.  Come to think of it, some of those bite marks are awfully large."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Infested Tunnels, Rat's Nest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9076": 0.2,
-    "9078": 0.2,
-    "9083": 0.2
-  },
-  "id": 9077,
-  "location": "the subterranean tunnels",
   "tags": [
     "some wolifrew lichen",
-    "some wingstem root",
-    "wolifrew lichen",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

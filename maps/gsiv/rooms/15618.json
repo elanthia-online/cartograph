@@ -1,39 +1,33 @@
 {
+  "id": 15618,
+  "title": [
+    "[Wizard Guild, Branch]"
+  ],
+  "description": [
+    "Three passages meet in this branching hallway.  To the northeast stands a slender archway of pink-flecked granite that flickers occasionally with a hazy reddish aura.  A white marble arch is set into the northwest wall, ornately carved and shot through with meandering veins of gold.  The corridor continues to the south, framed by polished oak paneled walls."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Ta'Illistim",
   "wayto": {
     "692": "go marble arch",
     "16937": "go archway",
     "15599": "south"
   },
-  "paths": [
-    "Obvious exits: south"
-  ],
+  "timeto": {
+    "692": 0.2,
+    "16937": 0.2,
+    "15599": 0.2
+  },
+  "image": "en-ta_illistim-Wizard_Guild-1264234799.gif",
   "image_coords": [
     55,
     581,
     81,
     607
   ],
-  "terrain": null,
-  "description": [
-    "Three passages meet in this branching hallway.  To the northeast stands a slender archway of pink-flecked granite that flickers occasionally with a hazy reddish aura.  A white marble arch is set into the northwest wall, ornately carved and shot through with meandering veins of gold.  The corridor continues to the south, framed by polished oak paneled walls."
-  ],
-  "image": "en-ta_illistim-Wizard_Guild-1264234799.gif",
-  "climate": null,
-  "title": [
-    "[Wizard Guild, Branch]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "692": 0.2,
-    "16937": 0.2,
-    "15599": 0.2
-  },
-  "id": 15618,
-  "location": "Ta'Illistim",
   "tags": [
     "no-auto-map"
-  ],
-  "links": [
-
   ]
 }

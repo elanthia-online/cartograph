@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "7095": "go arch"
-  },
+  "id": 7096,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "In the center of the room, opposite the arch, stands a statue.  Carved of black marble with fine white veining, it portrays a noble looking man of middle years, dressed in the garb of several centuries past.  He bears a striking resemblance to the man in the mosaic in the outer room."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "Darkstone Castle",
+  "wayto": {
+    "7095": "go arch"
+  },
+  "timeto": {
+    "7095": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     894,
     1104,
     904,
     1114
-  ],
-  "terrain": "indoors",
-  "description": [
-    "In the center of the room, opposite the arch, stands a statue.  Carved of black marble with fine white veining, it portrays a noble looking man of middle years, dressed in the garb of several centuries past.  He bears a striking resemblance to the man in the mosaic in the outer room."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7095": 0.2
-  },
-  "id": 7096,
-  "location": "Darkstone Castle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,40 +1,29 @@
 {
+  "id": 11519,
+  "title": [
+    "[Ruined Dungeon, Passageway]"
+  ],
+  "description": [
+    "An ancient, rusting sconce holds the crumbling remains of a torch on the dark stone wall.  Blackened streaks mar the wall above the sconce, stretching to the ceiling of the passage.  A door hangs loosely in the entrance to a cell to the southeast, the iron spikes in the hinges reluctantly releasing their grip on the rotting wood."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, southwest"
+  ],
   "wayto": {
     "11518": "southwest",
     "11520": "southeast",
     "11521": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southeast, southwest"
-  ],
-  "image_coords": [
-    981,
-    1009,
-    991,
-    1019
-  ],
-  "terrain": "indoors",
-  "description": [
-    "An ancient, rusting sconce holds the crumbling remains of a torch on the dark stone wall.  Blackened streaks mar the wall above the sconce, stretching to the ceiling of the passage.  A door hangs loosely in the entrance to a cell to the southeast, the iron spikes in the hinges reluctantly releasing their grip on the rotting wood."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "indoors",
-  "title": [
-    "[Ruined Dungeon, Passageway]"
-  ],
-  "check_location": null,
   "timeto": {
     "11518": 0.2,
     "11520": 0.2,
     "11521": 0.2
   },
-  "id": 11519,
-  "location": "the Ruined Tower",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-maelstrom-1266390501.png",
+  "image_coords": [
+    981,
+    1009,
+    991,
+    1019
   ]
 }

@@ -1,40 +1,29 @@
 {
+  "id": 11119,
+  "title": [
+    "[Krol Ship, Hold Forward]"
+  ],
+  "description": [
+    "This is the forward section of the hold, the bulkheads curving inward toward the bow.  The hold is damp and dimly lit, as the only light seems to be coming from the grate high overhead aft of here.  A wooden ladder extends up into the forecastle and down into the darkness of the bilge."
+  ],
+  "paths": [
+    "Obvious exits: north, up, down"
+  ],
   "wayto": {
     "11106": "north",
     "11118": "up",
     "11121": "down"
   },
-  "paths": [
-    "Obvious exits: north, up, down"
-  ],
-  "image_coords": [
-    1428,
-    727,
-    1438,
-    737
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This is the forward section of the hold, the bulkheads curving inward toward the bow.  The hold is damp and dimly lit, as the only light seems to be coming from the grate high overhead aft of here.  A wooden ladder extends up into the forecastle and down into the darkness of the bilge."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "indoors",
-  "title": [
-    "[Krol Ship, Hold Forward]"
-  ],
-  "check_location": null,
   "timeto": {
     "11106": 0.2,
     "11118": 0.2,
     "11121": 0.2
   },
-  "id": 11119,
-  "location": "the Sea Caves",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-rivers_rest-1266350289.png",
+  "image_coords": [
+    1428,
+    727,
+    1438,
+    737
   ]
 }

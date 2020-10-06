@@ -1,40 +1,30 @@
 {
+  "id": 7104,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "A harsh draft blows through this intersection, a chill wind that sears to your very bones.  It carries the scent of evil, and of death, and your soul trembles at the feel of its icy caress."
+  ],
+  "paths": [
+    "Obvious exits: north, south, west"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7099": "north",
     "7091": "west",
     "7105": "south"
   },
-  "paths": [
-    "Obvious exits: north, south, west"
-  ],
-  "image_coords": [
-    1002,
-    1050,
-    1012,
-    1060
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A harsh draft blows through this intersection, a chill wind that sears to your very bones.  It carries the scent of evil, and of death, and your soul trembles at the feel of its icy caress."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
   "timeto": {
     "7099": 0.2,
     "7091": 0.2,
     "7105": 0.2
   },
-  "id": 7104,
-  "location": "Darkstone Castle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-darkstone-1264234799.png",
+  "image_coords": [
+    1002,
+    1050,
+    1012,
+    1060
   ]
 }

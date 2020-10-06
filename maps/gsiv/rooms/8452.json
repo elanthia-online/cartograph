@@ -1,48 +1,33 @@
 {
+  "id": 8452,
+  "title": [
+    "[Upper Trollfang, Sentoph]"
+  ],
+  "description": [
+    "A steady howl fills your ears as the wind sings a lonely, desolate song through the crags of the mountaintop."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, southeast"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "8451": "north",
     "8453": "southeast",
     "8456": "northeast"
   },
-  "paths": [
-    "Obvious paths: north, northeast, southeast"
-  ],
+  "timeto": {
+    "8451": 0.2,
+    "8453": 0.2,
+    "8456": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     509,
     664,
     519,
     674
   ],
-  "terrain": "mountainous",
-  "description": [
-    "A steady howl fills your ears as the wind sings a lonely, desolate song through the crags of the mountaintop."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Upper Trollfang, Sentoph]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8451": 0.2,
-    "8453": 0.2,
-    "8456": 0.2
-  },
-  "id": 8452,
-  "location": "the Upper Trollfang",
   "tags": [
-    "some angelica root",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "sprig of holly",
-    "ironfern root",
-    "sunburst blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some angelica root"
   ]
 }

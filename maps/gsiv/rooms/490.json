@@ -1,35 +1,32 @@
 {
+  "id": 490,
+  "title": [
+    "[Coastal Cliffs]"
+  ],
+  "description": [
+    "A deep sense of solitude washes over you as you stand between the dark, silent forest to the south, and the vast, churning waters to the north.  The distinct feeling that you are being watched disturbs the illusion, however."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south, west"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "491": "south",
     "492": "west",
     "489": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, south, west"
-  ],
+  "timeto": {
+    "491": 0.2,
+    "492": 0.2,
+    "489": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     321,
     798,
     331,
     808
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "A deep sense of solitude washes over you as you stand between the dark, silent forest to the south, and the vast, churning waters to the north.  The distinct feeling that you are being watched disturbs the illusion, however."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Coastal Cliffs]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "491": 0.2,
-    "492": 0.2,
-    "489": 0.2
-  },
-  "id": 490,
-  "location": "the Coastal Cliffs",
   "tags": [
     "tkaro root",
     "withered black mushroom",
@@ -78,10 +75,6 @@
     "twisted twig",
     "slender twig",
     "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

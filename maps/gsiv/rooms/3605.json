@@ -1,35 +1,32 @@
 {
+  "id": 3605,
+  "title": [
+    "[Wehnimer's, Exterior]"
+  ],
+  "description": [
+    "Thick brambles grow high upon the walls of this, the east, side of Wehnimer's Landing.  Small pieces of cloth (and flesh) still cling to the sharp thorns of these bushes, left behind by those foolish enough to think that they could gain access to the walled town by climbing the prickly vines."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Lower Dragonsclaw",
   "wayto": {
     "3606": "south",
     "3604": "north",
     "4134": "go trail"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "3606": 0.2,
+    "3604": 0.2,
+    "4134": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     1030,
     93,
     1040,
     103
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "Thick brambles grow high upon the walls of this, the east, side of Wehnimer's Landing.  Small pieces of cloth (and flesh) still cling to the sharp thorns of these bushes, left behind by those foolish enough to think that they could gain access to the walled town by climbing the prickly vines."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Wehnimer's, Exterior]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3606": 0.2,
-    "3604": 0.2,
-    "4134": 0.2
-  },
-  "id": 3605,
-  "location": "the Lower Dragonsclaw",
   "tags": [
     "some acantha leaf",
     "some torban leaf",
@@ -79,10 +76,6 @@
     "slender twig",
     "ebony twig",
     "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

@@ -1,1 +1,2 @@
-fput "search";move "go narrow pathway"
+fput "search"
+move "go narrow pathway"

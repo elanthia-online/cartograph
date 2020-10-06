@@ -1,35 +1,28 @@
 {
+  "id": 25109,
+  "title": [
+    "[Reim Castle, Entry]"
+  ],
+  "description": [
+    "A towering gate stands outside of the castle, while a gold-embroidered crimson rug leads deeper inside.  Perfectly spaced apart on the walls, a row of golden candelabras burn with heatless ethereal flame, casting a bluish white radiance across the entry.  Placed onto a marble podium in the center of the annex, a picture of a family clad with ornate royal jewelry and clothing proudly sits between a greatsword and embossed shield."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Settlement of Reim",
   "wayto": {
     "25076": "go gate",
     "25110": "north"
   },
-  "paths": [
-    "Obvious exits: north"
-  ],
+  "timeto": {
+    "25076": 0.2,
+    "25110": 0.2
+  },
+  "image": "imt-Reim-1260914759.png",
   "image_coords": [
     308,
     376,
     319,
     386
-  ],
-  "terrain": null,
-  "description": [
-    "A towering gate stands outside of the castle, while a gold-embroidered crimson rug leads deeper inside.  Perfectly spaced apart on the walls, a row of golden candelabras burn with heatless ethereal flame, casting a bluish white radiance across the entry.  Placed onto a marble podium in the center of the annex, a picture of a family clad with ornate royal jewelry and clothing proudly sits between a greatsword and embossed shield."
-  ],
-  "image": "imt-Reim-1260914759.png",
-  "climate": null,
-  "title": [
-    "[Reim Castle, Entry]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "25076": 0.2,
-    "25110": 0.2
-  },
-  "id": 25109,
-  "location": "the Settlement of Reim",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

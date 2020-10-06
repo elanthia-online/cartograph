@@ -1,39 +1,31 @@
 {
+  "id": 5309,
+  "title": [
+    "[Deep Woods, Ruined Temple]"
+  ],
+  "description": [
+    "Multiple bodies have been stacked here like firewood.  The skin is drawn tightly across the skeletons almost as if sucked inward, thin enough that each bone fracture can be clearly seen.  One of the corpses is significantly newer than the rest, still moist and pinkish blue over the bony framework.  Blood has washed over the entire floor, and the scent is nearly unbearable."
+  ],
+  "paths": [
+    "Obvious exits: north, southwest"
+  ],
+  "location": "the deep woods",
   "wayto": {
     "5308": "north",
     "5310": "southwest"
   },
-  "paths": [
-    "Obvious exits: north, southwest"
-  ],
+  "timeto": {
+    "5308": 0.2,
+    "5310": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     1260,
     250,
     1270,
     260
   ],
-  "terrain": "indoors",
-  "description": [
-    "Multiple bodies have been stacked here like firewood.  The skin is drawn tightly across the skeletons almost as if sucked inward, thin enough that each bone fracture can be clearly seen.  One of the corpses is significantly newer than the rest, still moist and pinkish blue over the bony framework.  Blood has washed over the entire floor, and the scent is nearly unbearable."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Deep Woods, Ruined Temple]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5308": 0.2,
-    "5310": 0.2
-  },
-  "id": 5309,
-  "location": "the deep woods",
   "tags": [
-    "vesperti",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "vesperti"
   ]
 }

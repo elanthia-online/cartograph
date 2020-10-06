@@ -1,42 +1,32 @@
 {
+  "id": 8361,
+  "title": [
+    "[Spider Temple, Near Altar]"
+  ],
+  "description": [
+    "You are standing before the spiritual center of the shrine--a massive black marble altar that rises several feet from the floor.  Its sides are adorned with images of various spiders."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south, west"
+  ],
+  "location": "the Spider Temple",
   "wayto": {
     "8337": "west",
     "8349": "north",
     "8327": "east",
     "8332": "south"
   },
-  "paths": [
-    "Obvious exits: north, east, south, west"
-  ],
-  "image_coords": [
-    634,
-    798,
-    644,
-    808
-  ],
-  "terrain": "indoors",
-  "description": [
-    "You are standing before the spiritual center of the shrine--a massive black marble altar that rises several feet from the floor.  Its sides are adorned with images of various spiders."
-  ],
-  "image": "wl-spider_temple-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Spider Temple, Near Altar]"
-  ],
-  "check_location": null,
   "timeto": {
     "8337": 0.2,
     "8349": 0.2,
     "8327": 0.2,
     "8332": 0.2
   },
-  "id": 8361,
-  "location": "the Spider Temple",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-spider_temple-1264234799.png",
+  "image_coords": [
+    634,
+    798,
+    644,
+    808
   ]
 }

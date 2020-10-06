@@ -1,66 +1,31 @@
 {
+  "id": 5528,
+  "title": [
+    "[Outlands Manor, Exterior]"
+  ],
+  "description": [
+    "This is the southwest corner of the manor house.  The tall grass grows unfettered, rustling softly against the walls.  The windows have long since been broken, and bits of glass sparkle in the grass.  A short distance off you can see a ruined stable set behind the house."
+  ],
+  "paths": [
+    "Obvious paths: north, east"
+  ],
+  "location": "the Outlands",
   "wayto": {
     "5527": "north",
     "5529": "east"
   },
-  "paths": [
-    "Obvious paths: north, east"
-  ],
+  "timeto": {
+    "5527": 0.2,
+    "5529": 0.2
+  },
+  "image": "vo-outlands-1264234799.png",
   "image_coords": [
     976,
     962,
     986,
     972
   ],
-  "terrain": "rough",
-  "description": [
-    "This is the southwest corner of the manor house.  The tall grass grows unfettered, rustling softly against the walls.  The windows have long since been broken, and bits of glass sparkle in the grass.  A short distance off you can see a ruined stable set behind the house."
-  ],
-  "image": "vo-outlands-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Outlands Manor, Exterior]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5527": 0.2,
-    "5529": 0.2
-  },
-  "id": 5528,
-  "location": "the Outlands",
   "tags": [
-    "dobrem",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "wild strawberry",
-    "blueberries",
-    "stalk of chicory",
-    "handful of currants",
-    "elderberries",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "wild grapes",
-    "broken twig",
-    "sprig of alyssum",
-    "heath aster",
-    "golden buttercup",
-    "red clover blossom",
-    "pink clover blossom",
-    "white clover blossom",
-    "purple clover blossom",
-    "yellow clover blossom",
-    "stalk of goldenrod",
-    "sprig of larkspur",
-    "yellow primrose",
-    "small wild rose",
-    "wild chokecherry",
-    "motherwort",
-    "white baneberry",
-    "pepperthorn root",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "dobrem"
   ]
 }

@@ -1,46 +1,37 @@
 {
-  "wayto": {
-    "11457": {
-      "stringproc": "2475b19f394c069e111c2fa06831c1f7"
-    },
-    "11459": {
-      "stringproc": "c5de6a93c272509e579c13cc8cd916bf"
-    },
-    "11461": {
-      "stringproc": "83255565d617dbe7b0ecdb04e9a96925"
-    },
-    "11450": {
-      "stringproc": "84803c6220b0581d4151763c46ccdbbc"
-    },
-    "11466": {
-      "stringproc": "9eaa131926e46e6090f2390aa24f278f"
-    },
-    "16060": {
-      "stringproc": "e531eb47f19700d00ac81ca15d619ca8"
-    },
-    "11456": {
-      "stringproc": "8590757048f346da70e2325b7e9ba8ea"
-    }
-  },
-  "paths": [
-    "Obvious exits: north, south, southwest, west, northwest, up, down"
-  ],
-  "image_coords": [
-    815,
-    1261,
-    825,
-    1271
-  ],
-  "terrain": null,
-  "description": [
-    "Light green water above, deep green water below, green water all around.  Bladder rockweed, growing thickly in the rocky wall to the east, sways rhythmically.  The shimmering surface of the bay rolls sinuously overhead."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": null,
+  "id": 11458,
   "title": [
     "[Maelstrom Bay, Underwater]"
   ],
-  "check_location": null,
+  "description": [
+    "Light green water above, deep green water below, green water all around.  Bladder rockweed, growing thickly in the rocky wall to the east, sways rhythmically.  The shimmering surface of the bay rolls sinuously overhead."
+  ],
+  "paths": [
+    "Obvious exits: north, south, southwest, west, northwest, up, down"
+  ],
+  "wayto": {
+    "11457": {
+      "file": "string_procs/wayto/11458_11457.rb"
+    },
+    "11459": {
+      "file": "string_procs/wayto/11458_11459.rb"
+    },
+    "11461": {
+      "file": "string_procs/wayto/11458_11461.rb"
+    },
+    "11450": {
+      "file": "string_procs/wayto/11458_11450.rb"
+    },
+    "11466": {
+      "file": "string_procs/wayto/11458_11466.rb"
+    },
+    "16060": {
+      "file": "string_procs/wayto/11458_16060.rb"
+    },
+    "11456": {
+      "file": "string_procs/wayto/11458_11456.rb"
+    }
+  },
   "timeto": {
     "11457": 2.0,
     "11459": 3.0,
@@ -50,12 +41,11 @@
     "16060": 2.0,
     "11456": 2.0
   },
-  "id": 11458,
-  "location": null,
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "rr-maelstrom-1266390501.png",
+  "image_coords": [
+    815,
+    1261,
+    825,
+    1271
   ]
 }

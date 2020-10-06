@@ -1,37 +1,30 @@
 {
+  "id": 26782,
+  "title": [
+    "[Catacombs, Dark Tunnels]"
+  ],
+  "description": [
+    "The area is dark but you can still make out several supports around the outer edges of the room.  A wooden ramp circles the entire room and spirals upward into the darkness.  Walking across the floor stirs up the dust making it difficult to see much of anything."
+  ],
+  "paths": [
+    "Obvious exits: south, west, up"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "26781": "up",
     "26783": "west",
     "26785": "south"
   },
-  "paths": [
-    "Obvious exits: south, west, up"
-  ],
-  "image_coords": [
-    1007,
-    1359,
-    1017,
-    1369
-  ],
-  "terrain": null,
-  "description": [
-    "The area is dark but you can still make out several supports around the outer edges of the room.  A wooden ramp circles the entire room and spirals upward into the darkness.  Walking across the floor stirs up the dust making it difficult to see much of anything."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Catacombs, Dark Tunnels]"
-  ],
-  "check_location": null,
   "timeto": {
     "26781": 0.2,
     "26783": 0.2,
     "26785": 0.2
   },
-  "id": 26782,
-  "location": "the catacombs",
-  "tags": [
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+  "image": "wl-catacombs-1264234799.png",
+  "image_coords": [
+    1007,
+    1359,
+    1017,
+    1369
+  ]
 }

@@ -1,39 +1,32 @@
 {
+  "id": 26910,
+  "title": [
+    "[Black Hand, Game Room]"
+  ],
+  "description": [
+    "The energy of the cavern echoes off the walls as patrons are camouflaged under a thick haze of hazelnut cigar smoke.  Sanguine leather bar stools line a sturdy ebonwood bar that curves outward to provide ample room behind the bar for shelves of various liquor from across Elanthia.  The expansive floor plan opens up to reveal a dart board, which receives the only splash of light in the grotto.  A dimly lit inlet in the rock houses a series of sleek cream leather booths creating an intimate atmosphere."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "26909": "go hole",
     "26912": "east",
     "26911": {
-      "stringproc": "0ad73d4dba173e52c0be16f624b1bb13"
+      "file": "string_procs/wayto/26910_26911.rb"
     }
   },
-  "paths": [
-    "Obvious exits: east"
-  ],
-  "image_coords": [
-    432,
-    732,
-    586,
-    862
-  ],
-  "terrain": null,
-  "description": [
-    "The energy of the cavern echoes off the walls as patrons are camouflaged under a thick haze of hazelnut cigar smoke.  Sanguine leather bar stools line a sturdy ebonwood bar that curves outward to provide ample room behind the bar for shelves of various liquor from across Elanthia.  The expansive floor plan opens up to reveal a dart board, which receives the only splash of light in the grotto.  A dimly lit inlet in the rock houses a series of sleek cream leather booths creating an intimate atmosphere."
-  ],
-  "image": "wl-black_hand-1527320047.png",
-  "climate": null,
-  "title": [
-    "[Black Hand, Game Room]"
-  ],
-  "check_location": null,
   "timeto": {
     "26909": 0.2,
     "26912": 0.2,
     "26911": 3.0
   },
-  "id": 26910,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  "image": "wl-black_hand-1527320047.png",
+  "image_coords": [
+    432,
+    732,
+    586,
+    862
+  ]
 }

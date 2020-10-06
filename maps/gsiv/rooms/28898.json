@@ -1,0 +1,40 @@
+{
+  "id": 28898,
+  "title": [
+    "[Wandering Eye Market, South]"
+  ],
+  "description": [
+    "Brightly reflecting the sunlight, frosted globes dangle from the gutters of a scrollworked purple wooden wagon that is parked upon the painted cobblestones of the sprawling market.  Scrawling gold, silver, and purple lettering adorns the decorative waist board, while roller-scotches rest beneath the wheels to prevent it from rolling either forward or back.  Other shops in this section of the market give the structure a wide berth."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south, west"
+  ],
+  "location": "Kraken's Fall",
+  "wayto": {
+    "28813": "north",
+    "28895": "west",
+    "28899": "east",
+    "28897": "south",
+    "28943": "go purple wagon",
+    "3668": {
+      "file": "string_procs/wayto/28898_3668.rb"
+    }
+  },
+  "timeto": {
+    "28813": 0.2,
+    "28895": 0.2,
+    "28899": 0.2,
+    "28897": 0.2,
+    "28943": 0.2,
+    "3668": {
+      "file": "string_procs/timeto/28898_3668.rb"
+    }
+  },
+  "image": "kf-krackens_fall-1465343055.png",
+  "image_coords": [
+    407,
+    440,
+    419,
+    453
+  ]
+}

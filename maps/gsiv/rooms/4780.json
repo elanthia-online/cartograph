@@ -1,35 +1,32 @@
 {
+  "id": 4780,
+  "title": [
+    "[Gyldemar Forest, Fungal Growth]"
+  ],
+  "description": [
+    "The smell of decaying vegetation hangs heavy in the still air, its apparent source a cluster of fungal growth around the stout oak trunks nearby.  A cloud of tiny gnats, apparently drawn to the sickly-sweet odor, dances just above the rotting mushrooms."
+  ],
+  "paths": [
+    "Obvious paths: east, west, northwest"
+  ],
+  "location": "Gyldemar Forest",
   "wayto": {
     "4778": "west",
     "4779": "northwest",
     "4781": "east"
   },
-  "paths": [
-    "Obvious paths: east, west, northwest"
-  ],
+  "timeto": {
+    "4778": 0.2,
+    "4779": 0.2,
+    "4781": 0.2
+  },
+  "image": "en-gyldemar-1264234799.png",
   "image_coords": [
     542,
     738,
     552,
     748
   ],
-  "terrain": "missing",
-  "description": [
-    "The smell of decaying vegetation hangs heavy in the still air, its apparent source a cluster of fungal growth around the stout oak trunks nearby.  A cloud of tiny gnats, apparently drawn to the sickly-sweet odor, dances just above the rotting mushrooms."
-  ],
-  "image": "en-gyldemar-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Gyldemar Forest, Fungal Growth]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4778": 0.2,
-    "4779": 0.2,
-    "4781": 0.2
-  },
-  "id": 4780,
-  "location": "Gyldemar Forest",
   "tags": [
     "fiddlehead fern",
     "bright red cranberry",
@@ -42,36 +39,6 @@
     "blue whortleberry",
     "soft white mushroom",
     "bright red teaberry",
-    "wild chokecherry",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "tkaro root",
-    "sticks",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "withered black mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "blueberries",
-    "wild gooseberry",
-    "broken twig",
-    "stalk of bluebells",
-    "tree bark",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wild chokecherry"
   ]
 }

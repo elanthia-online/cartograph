@@ -1,35 +1,32 @@
 {
+  "id": 7194,
+  "title": [
+    "[Graveyard]"
+  ],
+  "description": [
+    "Along the northeast flank of the great earthen barrow, some loose stones and mud have washed down the slope, slashing a narrow gully through the sod and spewing detritus out onto the trail.  You detour around the debris, stepping back onto the turf.  From this perspective, you pause to get your bearings, gazing up thoughtfully at the silent, inscrutable heights."
+  ],
+  "paths": [
+    "Obvious paths: southeast, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7206": "go gully",
     "7188": "southeast",
     "7193": "west"
   },
-  "paths": [
-    "Obvious paths: southeast, west"
-  ],
+  "timeto": {
+    "7206": 0.2,
+    "7188": 0.2,
+    "7193": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     448,
     374,
     458,
     384
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "Along the northeast flank of the great earthen barrow, some loose stones and mud have washed down the slope, slashing a narrow gully through the sod and spewing detritus out onto the trail.  You detour around the debris, stepping back onto the turf.  From this perspective, you pause to get your bearings, gazing up thoughtfully at the silent, inscrutable heights."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Graveyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7206": 0.2,
-    "7188": 0.2,
-    "7193": 0.2
-  },
-  "id": 7194,
-  "location": "the Graveyard",
   "tags": [
     "some wolifrew lichen",
     "some acantha leaf",
@@ -54,10 +51,6 @@
     "blue whortleberry",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

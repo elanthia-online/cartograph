@@ -1,44 +1,34 @@
 {
+  "id": 7346,
+  "title": [
+    "[Shadow Valley, Dark Pasture]"
+  ],
+  "description": [
+    "The vacant eye sockets of a horse skull bear silent witness to the desolation of the pasture.  Oddly enough, a small patch of green longgrass has sprouted up behind the skull."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7333": "northeast",
     "7347": "southeast"
   },
-  "paths": [
-    "Obvious paths: northeast, southeast"
-  ],
+  "timeto": {
+    "7333": 0.2,
+    "7347": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1014,
     784,
     1024,
     794
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "The vacant eye sockets of a horse skull bear silent witness to the desolation of the pasture.  Oddly enough, a small patch of green longgrass has sprouted up behind the skull."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Shadow Valley, Dark Pasture]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7333": 0.2,
-    "7347": 0.2
-  },
-  "id": 7346,
-  "location": "the Shadow Valley",
   "tags": [
     "some longgrass",
     "some petrified shadowstalk",
     "black-tipped wyrm thorn",
-    "night mare",
-    "longgrass",
-    "wyrm thorn",
-    "petrified shadowstalk",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "night mare"
   ]
 }

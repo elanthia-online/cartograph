@@ -1,37 +1,31 @@
 {
+  "id": 18004,
+  "title": [
+    "[Rogue Guild, Hallway]"
+  ],
+  "description": [
+    "The tiled floor is partly covered with simple rugs.  The flickering light from the ornate brass oil lamps reflects off a brightly polished tower shield which hangs on the wall."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "River's Rest",
   "wayto": {
     "18002": "north",
     "19220": "go step"
   },
-  "paths": [
-    "Obvious exits: north"
-  ],
+  "timeto": {
+    "18002": 0.2,
+    "19220": 0.2
+  },
+  "image": "rr-rogue_guild-1305438533.png",
   "image_coords": [
     191,
     411,
     220,
     436
   ],
-  "terrain": null,
-  "description": [
-    "The tiled floor is partly covered with simple rugs.  The flickering light from the ornate brass oil lamps reflects off a brightly polished tower shield which hangs on the wall."
-  ],
-  "image": "rr-rogue_guild-1305438533.png",
-  "climate": null,
-  "title": [
-    "[Rogue Guild, Hallway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "18002": 0.2,
-    "19220": 0.2
-  },
-  "id": 18004,
-  "location": "River's Rest",
   "tags": [
     "rogue workshop"
-  ],
-  "links": [
-
   ]
 }

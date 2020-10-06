@@ -1,35 +1,32 @@
 {
+  "id": 7291,
+  "title": [
+    "[Slither Creek]"
+  ],
+  "description": [
+    "The creek is flowing rapidly here, digging away at the banks and making them soft and muddy, although sturdy enough to walk on.  A patch of water grass clings to the side, seeming to hold on with all its strength, and a few small fish nibble at the leaves."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7284": "go bank",
     "7290": "west",
     "7292": "east"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "7284": 0.2,
+    "7290": 0.2,
+    "7292": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     142,
     179,
     152,
     189
   ],
-  "terrain": "riparian",
-  "description": [
-    "The creek is flowing rapidly here, digging away at the banks and making them soft and muddy, although sturdy enough to walk on.  A patch of water grass clings to the side, seeming to hold on with all its strength, and a few small fish nibble at the leaves."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "freshwater",
-  "title": [
-    "[Slither Creek]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7284": 0.2,
-    "7290": 0.2,
-    "7292": 0.2
-  },
-  "id": 7291,
-  "location": "the Graveyard",
   "tags": [
     "some aloeas stem",
     "water chestnut",
@@ -40,10 +37,6 @@
     "yellow water lily",
     "blue water lily",
     "murdroot",
-    "wavepetal blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wavepetal blossom"
   ]
 }

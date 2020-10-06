@@ -1,42 +1,34 @@
 {
+  "id": 9117,
+  "title": [
+    "[Great Cavern, Bog]"
+  ],
+  "description": [
+    "Fog drifts lazily across what could easily be a desolate swamp above ground, were it not for the spikes of stone rising out of the marsh.  Only a thick layer of decaying vines makes the bog passable.  Giant fireflies flit madly about just out of reach."
+  ],
+  "paths": [
+    "Obvious exits: east, south, up"
+  ],
+  "location": "the subterranean tunnels",
   "wayto": {
     "9120": "up",
     "9114": "east",
     "9116": "south"
   },
-  "paths": [
-    "Obvious exits: east, south, up"
-  ],
+  "timeto": {
+    "9120": 0.2,
+    "9114": 0.2,
+    "9116": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     169,
     727,
     179,
     737
   ],
-  "terrain": "indoors",
-  "description": [
-    "Fog drifts lazily across what could easily be a desolate swamp above ground, were it not for the spikes of stone rising out of the marsh.  Only a thick layer of decaying vines makes the bog passable.  Giant fireflies flit madly about just out of reach."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Great Cavern, Bog]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9120": 0.2,
-    "9114": 0.2,
-    "9116": 0.2
-  },
-  "id": 9117,
-  "location": "the subterranean tunnels",
   "tags": [
     "some orchil lichen",
-    "murdroot",
-    "orchil lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "murdroot"
   ]
 }

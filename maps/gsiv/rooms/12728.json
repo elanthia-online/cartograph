@@ -1,45 +1,35 @@
 {
-  "wayto": {
-    "20786": {
-      "stringproc": "8c22feeed337609e1c627f90bdaad1ad"
-    },
-    "12662": {
-      "stringproc": "0002229da959838f6c76ba4ac93b23c9"
-    },
-    "12677": {
-      "stringproc": "441d5ac4139f957b4bba4cb37c950f50"
-    }
-  },
-  "paths": [
-    ""
-  ],
-  "image_coords": [
-    1130,
-    859,
-    1150,
-    879
-  ],
-  "terrain": null,
-  "description": [
-    "The water flows onward at fierce speeds, swirling and twisting wildly through the sea.  The chill and total lack of light indicate that the current's path has taken it far from the surface."
-  ],
-  "image": "ti-nelemar-1262373036.png",
-  "climate": null,
+  "id": 12728,
   "title": [
     "[Teras Isle, Underwater]"
   ],
-  "check_location": null,
+  "description": [
+    "The water flows onward at fierce speeds, swirling and twisting wildly through the sea.  The chill and total lack of light indicate that the current's path has taken it far from the surface."
+  ],
+  "paths": [
+    ""
+  ],
+  "wayto": {
+    "20786": {
+      "file": "string_procs/wayto/12728_20786.rb"
+    },
+    "12662": {
+      "file": "string_procs/wayto/12728_12662.rb"
+    },
+    "12677": {
+      "file": "string_procs/wayto/12728_12677.rb"
+    }
+  },
   "timeto": {
     "20786": 45.0,
     "12662": 45.0,
     "12677": 45.0
   },
-  "id": 12728,
-  "location": null,
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "ti-nelemar-1262373036.png",
+  "image_coords": [
+    1130,
+    859,
+    1150,
+    879
   ]
 }

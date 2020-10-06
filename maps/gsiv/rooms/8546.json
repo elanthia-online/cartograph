@@ -1,36 +1,33 @@
 {
+  "id": 8546,
+  "title": [
+    "[Mountain Path]"
+  ],
+  "description": [
+    "The high walls of this twisting canyon keep this area bathed in a deep and constant shadow.  A narrow crevice in the north wall appears to lead out to brighter ground while a little used trail follows along the rubble strewn floor of this secret pass.",
+    "The high walls of this twisting canyon plunge the area into almost total darkness.  A narrow crevice in the north wall appears to lead out to moonlit ground while a little used trail follows along the rubble strewn floor of this secret pass."
+  ],
+  "paths": [
+    "Obvious paths: southeast, up"
+  ],
+  "location": "the foothills of Zeltoph",
   "wayto": {
     "8547": "up",
     "8549": "southeast",
     "8544": "go crevice"
   },
-  "paths": [
-    "Obvious paths: southeast, up"
-  ],
+  "timeto": {
+    "8547": 0.2,
+    "8549": 0.2,
+    "8544": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     1208,
     679,
     1218,
     689
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "The high walls of this twisting canyon keep this area bathed in a deep and constant shadow.  A narrow crevice in the north wall appears to lead out to brighter ground while a little used trail follows along the rubble strewn floor of this secret pass.",
-    "The high walls of this twisting canyon plunge the area into almost total darkness.  A narrow crevice in the north wall appears to lead out to moonlit ground while a little used trail follows along the rubble strewn floor of this secret pass."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Mountain Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8547": 0.2,
-    "8549": 0.2,
-    "8544": 0.2
-  },
-  "id": 8546,
-  "location": "the foothills of Zeltoph",
   "tags": [
     "some cothinar flower",
     "sprig of larkspur",
@@ -42,11 +39,6 @@
     "stalk of chicory",
     "broken twig",
     "ironfern root",
-    "wingstem root",
-    "sunburst blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

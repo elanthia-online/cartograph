@@ -1,36 +1,30 @@
 {
-  "wayto": {
-    "8926": "go door"
-  },
+  "id": 8930,
+  "title": [
+    "[Wizard Guild, Masters' Chamber]"
+  ],
+  "description": [
+    "Containing little more than a capacious desk and a comfortably stuffed velvet sofa, the office derives its beauty from the magnificent view of Icemule Trace through the mullioned windows.  The warmth of the nearby conservatory graces this room as well, though a fire is laid in the hearth to chase any vagrant chill.",
+    "Containing little more than a capacious desk and a comfortably stuffed velvet sofa, the office derives its beauty from the magnificent view of torchlit Icemule Trace through the mullioned windows.  The warmth of the nearby conservatory graces this room as well, and a fire burns in the hearth to augment it and chase away the night's chill."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "Icemule Trace",
+  "wayto": {
+    "8926": "go door"
+  },
+  "timeto": {
+    "8926": 0.2
+  },
+  "image": "imt-wizard_guild.png",
   "image_coords": [
     421,
     696,
     472,
     745
   ],
-  "terrain": null,
-  "description": [
-    "Containing little more than a capacious desk and a comfortably stuffed velvet sofa, the office derives its beauty from the magnificent view of Icemule Trace through the mullioned windows.  The warmth of the nearby conservatory graces this room as well, though a fire is laid in the hearth to chase any vagrant chill.",
-    "Containing little more than a capacious desk and a comfortably stuffed velvet sofa, the office derives its beauty from the magnificent view of torchlit Icemule Trace through the mullioned windows.  The warmth of the nearby conservatory graces this room as well, and a fire burns in the hearth to augment it and chase away the night's chill."
-  ],
-  "image": "imt-wizard_guild.png",
-  "climate": null,
-  "title": [
-    "[Wizard Guild, Masters' Chamber]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8926": 0.2
-  },
-  "id": 8930,
-  "location": "Icemule Trace",
   "tags": [
     "wizard alchemy guildmaster"
-  ],
-  "links": [
-
   ]
 }

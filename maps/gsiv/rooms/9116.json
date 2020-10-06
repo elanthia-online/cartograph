@@ -1,42 +1,34 @@
 {
+  "id": 9116,
+  "title": [
+    "[Great Cavern, Bog]"
+  ],
+  "description": [
+    "The sheer west wall of the cavern looms darkly in the gray haze.  A great plant has grown against it, perhaps finding some solid purchase among the cracked stone.  The plant is like nothing you've ever seen, half mold and half palm."
+  ],
+  "paths": [
+    "Obvious exits: north, east, southeast"
+  ],
+  "location": "the subterranean tunnels",
   "wayto": {
     "9118": "southeast",
     "9115": "east",
     "9117": "north"
   },
-  "paths": [
-    "Obvious exits: north, east, southeast"
-  ],
+  "timeto": {
+    "9118": 0.2,
+    "9115": 0.2,
+    "9117": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     171,
     752,
     181,
     762
   ],
-  "terrain": "indoors",
-  "description": [
-    "The sheer west wall of the cavern looms darkly in the gray haze.  A great plant has grown against it, perhaps finding some solid purchase among the cracked stone.  The plant is like nothing you've ever seen, half mold and half palm."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Great Cavern, Bog]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9118": 0.2,
-    "9115": 0.2,
-    "9117": 0.2
-  },
-  "id": 9116,
-  "location": "the subterranean tunnels",
   "tags": [
     "some orchil lichen",
-    "murdroot",
-    "orchil lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "murdroot"
   ]
 }

@@ -1,38 +1,31 @@
 {
+  "id": 2401,
+  "title": [
+    "[Tavern Burrow, Lager Road]"
+  ],
+  "description": [
+    "Lager Road turns slightly here, away from the facade of a boarded up wooden building.  The building's clapboards are grey and weathered, in contrast to the light tan planks across the doors and windows.  It almost appears as though this building was transported here intact from another town, then never used."
+  ],
+  "paths": [
+    "Obvious paths: southeast, west"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "2400": "southeast",
     "2402": "west"
   },
-  "paths": [
-    "Obvious paths: southeast, west"
-  ],
+  "timeto": {
+    "2400": 0.2,
+    "2402": 0.2
+  },
+  "image": "imt-icemule-1474811966.png",
   "image_coords": [
     317,
     877,
     353,
     913
   ],
-  "terrain": "hard, flat",
-  "description": [
-    "Lager Road turns slightly here, away from the facade of a boarded up wooden building.  The building's clapboards are grey and weathered, in contrast to the light tan planks across the doors and windows.  It almost appears as though this building was transported here intact from another town, then never used."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Tavern Burrow, Lager Road]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2400": 0.2,
-    "2402": 0.2
-  },
-  "id": 2401,
-  "location": "Icemule Trace",
   "tags": [
-    "calmintha flower",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "calmintha flower"
   ]
 }

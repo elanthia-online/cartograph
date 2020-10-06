@@ -1,35 +1,32 @@
 {
+  "id": 5068,
+  "title": [
+    "[Vornavis, West Road]"
+  ],
+  "description": [
+    "A swampy area approaches the road from the north here, but does not come close enough to make the road wet.  Frogs and crickets can be heard from the dank-smelling fens, and mosquitoes buzz about, seeking a meal from the road."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the plains of Vornavis",
   "wayto": {
     "5070": "west",
     "5067": "east",
     "5069": "go path"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "5070": 0.2,
+    "5067": 0.2,
+    "5069": 0.2
+  },
+  "image": "vo-caravansary-1264234799.png",
   "image_coords": [
     483,
     363,
     493,
     373
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "A swampy area approaches the road from the north here, but does not come close enough to make the road wet.  Frogs and crickets can be heard from the dank-smelling fens, and mosquitoes buzz about, seeking a meal from the road."
-  ],
-  "image": "vo-caravansary-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Vornavis, West Road]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5070": 0.2,
-    "5067": 0.2,
-    "5069": 0.2
-  },
-  "id": 5068,
-  "location": "the plains of Vornavis",
   "tags": [
     "wild pink geranium",
     "kylan berry",
@@ -47,41 +44,6 @@
     "pine cone",
     "handful of pinenuts",
     "tkaro root",
-    "red vornalite mushroom",
-    "acantha leaf",
-    "torban leaf",
-    "calamia fruit",
-    "haphip root",
-    "sticks",
-    "angelica root",
-    "trollfear mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "wild gooseberry",
-    "broken twig",
-    "pine needles",
-    "stalk of bluebells",
-    "golden buttercup",
-    "wild chokecherry",
-    "tree bark",
-    "white lily",
-    "pink rain lily",
-    "oxblood lily",
-    "white baneberry",
-    "yew twig",
-    "ironfern root",
-    "twisted twig",
-    "slender twig",
-    "ebony twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "red vornalite mushroom"
   ]
 }

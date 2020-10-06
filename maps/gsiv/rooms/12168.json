@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "2635": {
-      "stringproc": "f88a5ac335110328444947aa8fdfa490"
-    },
-    "12169": "southwest",
-    "12093": {
-      "stringproc": "dc0110972ab7e067d5fec20ece15581c"
-    },
-    "2605": {
-      "stringproc": "317c6eedd1ea40322b9b26b259a3053f"
-    },
-    "12126": "northwest"
-  },
+  "id": 12168,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "A battered wooden gate rests against the pitted stone walls surrounding a small city.  Mail-clad guards with pikes and heavy crossbows pace back and forth atop the walls.  Members of an invading force, beasts of burden, and captives travel the broken street leading into the remnants of town.  A bestial military squad drills on the rocky parade ground just inside the gate.  Fog obscures them as they march to and fro, and the gruff barks of their sergeant blend in with the din of the prisoners at the gate."
+  ],
   "paths": [
     "Obvious paths: southwest, northwest",
     "Obvious exits: southwest, northwest"
   ],
-  "image_coords": [
-    1029,
-    671,
-    1039,
-    681
-  ],
-  "terrain": null,
-  "description": [
-    "A battered wooden gate rests against the pitted stone walls surrounding a small city.  Mail-clad guards with pikes and heavy crossbows pace back and forth atop the walls.  Members of an invading force, beasts of burden, and captives travel the broken street leading into the remnants of town.  A bestial military squad drills on the rocky parade ground just inside the gate.  Fog obscures them as they march to and fro, and the gruff barks of their sergeant blend in with the din of the prisoners at the gate."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "2635": {
+      "file": "string_procs/wayto/12168_2635.rb"
+    },
+    "12169": "southwest",
+    "12093": {
+      "file": "string_procs/wayto/12168_12093.rb"
+    },
+    "2605": {
+      "file": "string_procs/wayto/12168_2605.rb"
+    },
+    "12126": "northwest"
+  },
   "timeto": {
     "2635": 16.0,
     "12169": 0.2,
@@ -39,8 +31,13 @@
     "2605": 16.0,
     "12126": 0.2
   },
-  "id": 12168,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    1029,
+    671,
+    1039,
+    681
+  ],
   "tags": [
     "withered deathblossom",
     "rotting bile green fleshbulb",
@@ -49,8 +46,5 @@
     "mass of congealed slime",
     "oozing fleshsore bulb",
     "discolored fleshbinder bud"
-  ],
-  "links": [
-
   ]
 }

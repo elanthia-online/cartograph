@@ -1,45 +1,35 @@
 {
+  "id": 4552,
+  "title": [
+    "[Dark Pit]"
+  ],
+  "description": [
+    "A large round pit rests in the center of the tunnel as the hoof paths circle around it.  At first glance, it appears to be just another hole in this ancient excavation, but signs of blood along the walls and near the edge of pit make you wonder if it had been used for something other than mining silver."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "4553": "south",
     "4551": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "4553": 0.2,
+    "4551": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1141,
     538,
     1151,
     548
   ],
-  "terrain": "indoors",
-  "description": [
-    "A large round pit rests in the center of the tunnel as the hoof paths circle around it.  At first glance, it appears to be just another hole in this ancient excavation, but signs of blood along the walls and near the edge of pit make you wonder if it had been used for something other than mining silver."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dark Pit]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4553": 0.2,
-    "4551": 0.2
-  },
-  "id": 4552,
-  "location": "the Shadow Valley",
   "tags": [
     "blackgrove root",
     "some shadowlace moss",
     "some blue moss",
     "some cave moss",
-    "ghostly pooka",
-    "cave moss",
-    "shadowlace moss",
-    "blue moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ghostly pooka"
   ]
 }

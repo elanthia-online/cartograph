@@ -1,40 +1,30 @@
 {
+  "id": 16059,
+  "title": [
+    "[Infirmary, Hallway]"
+  ],
+  "description": [
+    "Dusty cobwebs cover the ceiling.  The wide-planked pine floor shows little wear.  Mold grows in the grouting of the pale green ceramic tiles.  A brass lantern hangs from the ceiling.  The smell of mold and dust permeates the hallway."
+  ],
+  "paths": [
+    "Obvious exits: north, south, west"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11240": "west",
     "11242": "south",
     "11243": "north"
   },
-  "paths": [
-    "Obvious exits: north, south, west"
-  ],
-  "image_coords": [
-    246,
-    520,
-    256,
-    530
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Dusty cobwebs cover the ceiling.  The wide-planked pine floor shows little wear.  Mold grows in the grouting of the pale green ceramic tiles.  A brass lantern hangs from the ceiling.  The smell of mold and dust permeates the hallway."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Infirmary, Hallway]"
-  ],
-  "check_location": null,
   "timeto": {
     "11240": 0.2,
     "11242": 0.2,
     "11243": 0.2
   },
-  "id": 16059,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-citadel-1267238976.png",
+  "image_coords": [
+    246,
+    520,
+    256,
+    530
   ]
 }

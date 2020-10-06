@@ -1,33 +1,30 @@
 {
+  "id": 1283,
+  "title": [
+    "[Upper Trollfang]"
+  ],
+  "description": [
+    "The stream enters this area from the northwest and then meanders back to the northeast.  The water moves fast enough to allow large numbers of trout to live in the cold depths.  The trail is very wet and the going is difficult."
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "1282": "northwest",
     "1284": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, northwest"
-  ],
+  "timeto": {
+    "1282": 0.2,
+    "1284": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     794,
     508,
     804,
     518
   ],
-  "terrain": "riparian",
-  "description": [
-    "The stream enters this area from the northwest and then meanders back to the northeast.  The water moves fast enough to allow large numbers of trout to live in the cold depths.  The trail is very wet and the going is difficult."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "freshwater",
-  "title": [
-    "[Upper Trollfang]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1282": 0.2,
-    "1284": 0.2
-  },
-  "id": 1283,
-  "location": "the Upper Trollfang",
   "tags": [
     "some aloeas stem",
     "water chestnut",
@@ -36,13 +33,6 @@
     "white water lily",
     "blue water lily",
     "wild gooseberry",
-    "murdroot",
-    "aloeas stem",
-    "wavepetal blossom",
-    "sunburst blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "murdroot"
   ]
 }

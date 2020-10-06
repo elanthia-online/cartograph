@@ -1,35 +1,32 @@
 {
+  "id": 2499,
+  "title": [
+    "[Icemule Trail, Snowy Forest]"
+  ],
+  "description": [
+    "The wide track leading to the clearing east of you is free of snow and has been pounded flat by the heavily-laden carts headed toward the southeast.  The forest is filled with the sound of heavy objects striking wood."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "the Icemule Trail",
   "wayto": {
     "2498": "northeast",
     "2500": "southwest",
     "3462": "go track"
   },
-  "paths": [
-    "Obvious paths: northeast, southwest"
-  ],
+  "timeto": {
+    "2498": 0.2,
+    "2500": 0.2,
+    "3462": 0.2
+  },
+  "image": "imt-trail-1264234799.png",
   "image_coords": [
     1206,
     255,
     1216,
     265
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "The wide track leading to the clearing east of you is free of snow and has been pounded flat by the heavily-laden carts headed toward the southeast.  The forest is filled with the sound of heavy objects striking wood."
-  ],
-  "image": "imt-trail-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Icemule Trail, Snowy Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2498": 0.2,
-    "2500": 0.2,
-    "3462": 0.2
-  },
-  "id": 2499,
-  "location": "the Icemule Trail",
   "tags": [
     "crowberry",
     "sassafras leaf",
@@ -85,10 +82,6 @@
     "ironfern root",
     "twisted twig",
     "slender twig",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bolmara lichen"
   ]
 }

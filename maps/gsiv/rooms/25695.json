@@ -1,35 +1,28 @@
 {
-  "wayto": {
-    "25693": {
-      "stringproc": "7c97847f49fd5aa0407dedb0e3609199"
-    }
-  },
+  "id": 25695,
+  "title": [
+    "[Eastern Waterway]"
+  ],
+  "description": [
+    "Crashing waves send a salty mist into the air as they spend their fury upon the wall that rings the harbor.  Beyond the thick, brick barrier, the shopping district bustles with activity as people move in and out of a large warehouse.  In contrast to the busy streets beyond, the waterway calmly spreads outward towards the distant islands."
+  ],
   "paths": [
     "Obvious paths: southeast"
   ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "25693": {
+      "file": "string_procs/wayto/25695_25693.rb"
+    }
+  },
+  "timeto": {
+    "25693": 6.0
+  },
+  "image": "ifw-eastern_waterway-1489553700.png",
   "image_coords": [
     961,
     960,
     980,
     979
-  ],
-  "terrain": null,
-  "description": [
-    "Crashing waves send a salty mist into the air as they spend their fury upon the wall that rings the harbor.  Beyond the thick, brick barrier, the shopping district bustles with activity as people move in and out of a large warehouse.  In contrast to the busy streets beyond, the waterway calmly spreads outward towards the distant islands."
-  ],
-  "image": "ifw-eastern_waterway-1489553700.png",
-  "climate": null,
-  "title": [
-    "[Eastern Waterway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "25693": 6.0
-  },
-  "id": 25695,
-  "location": "Mist Harbor",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

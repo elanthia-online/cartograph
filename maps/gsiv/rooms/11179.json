@@ -1,38 +1,28 @@
 {
+  "id": 11179,
+  "title": [
+    "[Garrison, Mess Hall]"
+  ],
+  "description": [
+    "Most of the furniture in the mess hall is broken, and the room is littered with the skeletons of men and trolls.  High along the wall, a bas relief has been broken and chipped to such an extent that you are unable to determine what it had once proudly depicted."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11178": "east",
     "11180": "go door"
   },
-  "paths": [
-    "Obvious exits: east"
-  ],
+  "timeto": {
+    "11178": 0.2,
+    "11180": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     489,
     442,
     499,
     452
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Most of the furniture in the mess hall is broken, and the room is littered with the skeletons of men and trolls.  High along the wall, a bas relief has been broken and chipped to such an extent that you are unable to determine what it had once proudly depicted."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Garrison, Mess Hall]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11178": 0.2,
-    "11180": 0.2
-  },
-  "id": 11179,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

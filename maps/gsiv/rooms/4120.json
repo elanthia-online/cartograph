@@ -1,33 +1,30 @@
 {
+  "id": 4120,
+  "title": [
+    "[Upper Trollfang, Glatoph]"
+  ],
+  "description": [
+    "A warm wind blows from the northwest, dancing through the trees and bushes, setting the leaves and flowers to swaying.  Half a dozen haaries screech and climb over your head, pelting you with acorns and branches.  Sniffing the breeze, you smell a faint trace of sulphur in the air."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "Glatoph",
   "wayto": {
     "4119": "southeast",
     "4121": "northwest"
   },
-  "paths": [
-    "Obvious paths: southeast, northwest"
-  ],
+  "timeto": {
+    "4119": 0.2,
+    "4121": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     433,
     648,
     443,
     658
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "A warm wind blows from the northwest, dancing through the trees and bushes, setting the leaves and flowers to swaying.  Half a dozen haaries screech and climb over your head, pelting you with acorns and branches.  Sniffing the breeze, you smell a faint trace of sulphur in the air."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Upper Trollfang, Glatoph]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4119": 0.2,
-    "4121": 0.2
-  },
-  "id": 4120,
-  "location": "Glatoph",
   "tags": [
     "white hook mushroom",
     "bright red cranberry",
@@ -71,10 +68,6 @@
     "twisted twig",
     "slender twig",
     "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

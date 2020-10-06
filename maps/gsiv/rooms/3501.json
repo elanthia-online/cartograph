@@ -1,19 +1,8 @@
 {
-  "wayto": {
-    "10419": "go building",
-    "3498": "north",
-    "3514": "south"
-  },
-  "paths": [
-    "Obvious paths: north, south"
+  "id": 3501,
+  "title": [
+    "[Ta'Vaalor, Aethenireas Wey]"
   ],
-  "image_coords": [
-    628,
-    480,
-    660,
-    513
-  ],
-  "terrain": null,
   "description": [
     "Tall privet hedges guard the front of several small buildings.  The hedges part for small stone steps that lead to barred doors.  A single glaes-paned mithglin lantern hangs above each door.",
     "Tall privet hedges guard the front of several small buildings.  The hedges part for small stone steps that lead to barred doors.  A single glaes-paned mithglin lantern burns dimly above each door.",
@@ -21,23 +10,25 @@
     "Several small buildings have been burned to their foundations, leaving nothing but smoldering carcasses and piles of ash and timber.  Fire has ravaged the hedges that used to line this area, and acrid smoke hangs heavy in the air.  A massive limestone wall is partially constructed, running along the length of the wey.",
     "An imposing granite building stands tall here, atop a small hill surrounded by an massive, crenellated limestone wall.  Guards tightly line the top of the wall with their weapons at the ready, and a few stand outside the entrance, frowning at anyone who passes."
   ],
-  "image": "en-tavaalor-1565907614.png",
-  "climate": null,
-  "title": [
-    "[Ta'Vaalor, Aethenireas Wey]"
+  "paths": [
+    "Obvious paths: north, south"
   ],
-  "check_location": null,
+  "location": "the city of Ta'Vaalor",
+  "wayto": {
+    "10419": "go building",
+    "3498": "north",
+    "3514": "south"
+  },
   "timeto": {
     "10419": 0.2,
     "3498": 0.2,
     "3514": 0.2
   },
-  "id": 3501,
-  "location": "the city of Ta'Vaalor",
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "en-tavaalor-1565907614.png",
+  "image_coords": [
+    628,
+    480,
+    660,
+    513
   ]
 }

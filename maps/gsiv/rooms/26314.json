@@ -1,35 +1,28 @@
 {
+  "id": 26314,
+  "title": [
+    "[Lich Citadel, Feast Yard]"
+  ],
+  "description": [
+    "Corpses twitch on the slick floors, their bodies still shifting as hordes of ghouls move about.  Low, pitiful moaning fills the area with mournful noise."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "Talador",
   "wayto": {
     "26315": "east",
     "26297": "north"
   },
-  "paths": [
-    "Obvious exits: north, east"
-  ],
+  "timeto": {
+    "26315": 0.2,
+    "26297": 0.2
+  },
+  "image": "wl-lichs_landing-1500800742.png",
   "image_coords": [
     1403,
     888,
     1429,
     915
-  ],
-  "terrain": null,
-  "description": [
-    "Corpses twitch on the slick floors, their bodies still shifting as hordes of ghouls move about.  Low, pitiful moaning fills the area with mournful noise."
-  ],
-  "image": "wl-lichs_landing-1500800742.png",
-  "climate": null,
-  "title": [
-    "[Lich Citadel, Feast Yard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26315": 0.2,
-    "26297": 0.2
-  },
-  "id": 26314,
-  "location": "Talador",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

@@ -1,38 +1,28 @@
 {
+  "id": 132,
+  "title": [
+    "[Temple Wyneb, Calvaria]"
+  ],
+  "description": [
+    "Ingeniously sculpted from the mountain itself, this cavern makes use of a very hard substrate layer to form the ceiling and hold back the countless tons of rock resting over your head.  The designers of this tunnel clearly knew the strengths and weaknesses of rock, and used that knowledge to their advantage."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Temple Wyneb",
   "wayto": {
     "131": "south",
     "133": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "131": 0.2,
+    "133": 0.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     852,
     574,
     862,
     584
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Ingeniously sculpted from the mountain itself, this cavern makes use of a very hard substrate layer to form the ceiling and hold back the countless tons of rock resting over your head.  The designers of this tunnel clearly knew the strengths and weaknesses of rock, and used that knowledge to their advantage."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Temple Wyneb, Calvaria]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "131": 0.2,
-    "133": 0.2
-  },
-  "id": 132,
-  "location": "Temple Wyneb",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

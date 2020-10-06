@@ -1,37 +1,26 @@
 {
-  "wayto": {
-    "12263": "out",
-    "16588": "northwest",
-    "16589": "northeast"
-  },
-  "paths": [
-    "Obvious exits: northeast, northwest, out"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Beneath an uneven wooden ceiling, a tattered merchant permit hangs on one of the plain wooden walls.  An aqua-hued seaglass display and a plain wooden table sit in opposite corners while a worn rug rests on an unfinished wooden floor.",
-    "Beneath an uneven wooden ceiling, a tattered merchant permit hangs on one of the plain wooden walls.  An aqua-hued seaglass display and a warped treasure chest sit in opposite corners while a worn rug rests on an unfinished wooden floor."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 16518,
   "title": [
     "[Tiffaine's Armory]",
     "[Tiffaine's Outfitting]",
     "[Tiffaine's General Store]"
   ],
-  "check_location": null,
+  "description": [
+    "Beneath an uneven wooden ceiling, a tattered merchant permit hangs on one of the plain wooden walls.  An aqua-hued seaglass display and a plain wooden table sit in opposite corners while a worn rug rests on an unfinished wooden floor.",
+    "Beneath an uneven wooden ceiling, a tattered merchant permit hangs on one of the plain wooden walls.  An aqua-hued seaglass display and a warped treasure chest sit in opposite corners while a worn rug rests on an unfinished wooden floor."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest, out"
+  ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "12263": "out",
+    "16588": "northwest",
+    "16589": "northeast"
+  },
   "timeto": {
     "12263": 0.2,
     "16588": 0.2,
     "16589": 0.2
-  },
-  "id": 16518,
-  "location": "Mist Harbor",
-  "tags": [
-
-  ],
-  "links": [
-
-  ]
+  }
 }

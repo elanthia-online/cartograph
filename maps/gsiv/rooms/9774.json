@@ -1,38 +1,28 @@
 {
+  "id": 9774,
+  "title": [
+    "[Maaghara Labyrinth]"
+  ],
+  "description": [
+    "Large depressions in the clay are filled with a layer of crushed roots and moss.  A strong earthy odor fills the tunnel as a slight breeze comes in."
+  ],
+  "paths": [
+    "Obvious exits: east, northwest"
+  ],
+  "location": "the Maaghara Tower",
   "wayto": {
     "9773": "east",
     "9775": "northwest"
   },
-  "paths": [
-    "Obvious exits: east, northwest"
-  ],
+  "timeto": {
+    "9773": 0.2,
+    "9775": 0.2
+  },
+  "image": "en-tower-1264234799.png",
   "image_coords": [
     1258,
     625,
     1268,
     635
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Large depressions in the clay are filled with a layer of crushed roots and moss.  A strong earthy odor fills the tunnel as a slight breeze comes in."
-  ],
-  "image": "en-tower-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Maaghara Labyrinth]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9773": 0.2,
-    "9775": 0.2
-  },
-  "id": 9774,
-  "location": "the Maaghara Tower",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

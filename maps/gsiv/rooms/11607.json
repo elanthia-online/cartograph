@@ -1,49 +1,27 @@
 {
+  "id": 11607,
+  "title": [
+    "[Smuggler's Tunnel]"
+  ],
+  "description": [
+    "Moonlight filters into the tunnel from a small opening to the west.  Some steps, made of wide planks of wood set into the dirt, lead upward into the darkness.  A trickle of water runs down the steps and out the small tunnel entrance.  The smell of saltwater and the sound of crashing waves fills the tunnel."
+  ],
+  "paths": [
+    "Obvious exits: west, up"
+  ],
   "wayto": {
     "11606": "up",
     "11608": "west"
   },
-  "paths": [
-    "Obvious exits: west, up"
-  ],
+  "timeto": {
+    "11606": 0.2,
+    "11608": 0.2
+  },
+  "image": "rr-maelstrom-1266390501.png",
   "image_coords": [
     82,
     618,
     92,
     628
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Moonlight filters into the tunnel from a small opening to the west.  Some steps, made of wide planks of wood set into the dirt, lead upward into the darkness.  A trickle of water runs down the steps and out the small tunnel entrance.  The smell of saltwater and the sound of crashing waves fills the tunnel."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "indoors",
-  "title": [
-    "[Smuggler's Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11606": 0.2,
-    "11608": 0.2
-  },
-  "id": 11607,
-  "location": "the Shattered Moors",
-  "tags": [
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

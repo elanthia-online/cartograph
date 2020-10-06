@@ -1,59 +1,49 @@
 {
-  "wayto": {
-    "4687": "northwest",
-    "26096": {
-      "stringproc": "14e23cbd969b1dac2e8032a357d44237"
-    },
-    "26097": {
-      "stringproc": "66464da3afdfb86736b7c3c8c45f30ae"
-    },
-    "26105": {
-      "stringproc": "b1547d949e8212e67e6902fb22c4fe51"
-    },
-    "26106": {
-      "stringproc": "bf1e80280481a5b6123514a064e58ce9"
-    },
-    "26107": {
-      "stringproc": "c7209528010c6fdf1ecdce97e5fa8bcc"
-    },
-    "28683": "go bar"
-  },
-  "paths": [
-    "Obvious exits: northwest"
-  ],
-  "image_coords": [
-    100,
-    583,
-    121,
-    604
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Warmth emanates from a monstrous red brick fireplace situated opposite cushy sofas arranged around a plush oval rug.  Savory aromas drift in from the swinging kitchen door, while hearty laughter roars from around a lacquered mahogany bar.  The tawny plaster walls have been framed with the same thick wooden beams that cross the high ceiling.  Wrought iron sconces cast the entire tavern in a warm glow befitting its friendly atmosphere."
-  ],
-  "image": "en-cysaegir-1264234799.png",
-  "climate": "indoors",
+  "id": 4688,
   "title": [
     "[Naerine Hostelry, Tavern]"
   ],
-  "check_location": null,
+  "description": [
+    "Warmth emanates from a monstrous red brick fireplace situated opposite cushy sofas arranged around a plush oval rug.  Savory aromas drift in from the swinging kitchen door, while hearty laughter roars from around a lacquered mahogany bar.  The tawny plaster walls have been framed with the same thick wooden beams that cross the high ceiling.  Wrought iron sconces cast the entire tavern in a warm glow befitting its friendly atmosphere."
+  ],
+  "paths": [
+    "Obvious exits: northwest"
+  ],
+  "location": "Cysaegir",
+  "wayto": {
+    "4687": "northwest",
+    "26096": {
+      "file": "string_procs/wayto/4688_26096.rb"
+    },
+    "26097": {
+      "file": "string_procs/wayto/4688_26097.rb"
+    },
+    "26105": {
+      "file": "string_procs/wayto/4688_26105.rb"
+    },
+    "26106": {
+      "file": "string_procs/wayto/4688_26106.rb"
+    },
+    "26107": {
+      "file": "string_procs/wayto/4688_26107.rb"
+    }
+  },
   "timeto": {
     "4687": 0.2,
     "26096": 0.2,
     "26097": 0.2,
     "26106": 0.2,
     "26105": 0.2,
-    "26107": 0.2,
-    "28683": 0.2
+    "26107": 0.2
   },
-  "id": 4688,
-  "location": "Cysaegir",
-  "tags": [
-    "table",
-    "no forageables",
-    "meta:forage-sensed"
+  "image": "en-cysaegir-1264234799.png",
+  "image_coords": [
+    100,
+    583,
+    121,
+    604
   ],
-  "links": [
-
+  "tags": [
+    "table"
   ]
 }

@@ -1,40 +1,29 @@
 {
+  "id": 11512,
+  "title": [
+    "[Ruined Tower, Stairwell]"
+  ],
+  "description": [
+    "A small leaded glass window in the bare stone wall looks out over Maelstrom Bay to the east.  A spider has woven a delicate web in one angle of the window.  The fluted column in the center of the room supports a narrow circular stair."
+  ],
+  "paths": [
+    "Obvious exits: west, up, down"
+  ],
   "wayto": {
     "11513": "west",
     "11514": "up",
     "11511": "down"
   },
-  "paths": [
-    "Obvious exits: west, up, down"
-  ],
-  "image_coords": [
-    792,
-    829,
-    802,
-    839
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A small leaded glass window in the bare stone wall looks out over Maelstrom Bay to the east.  A spider has woven a delicate web in one angle of the window.  The fluted column in the center of the room supports a narrow circular stair."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "indoors",
-  "title": [
-    "[Ruined Tower, Stairwell]"
-  ],
-  "check_location": null,
   "timeto": {
     "11513": 0.2,
     "11514": 0.2,
     "11511": 0.2
   },
-  "id": 11512,
-  "location": "the Ruined Tower",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-maelstrom-1266390501.png",
+  "image_coords": [
+    792,
+    829,
+    802,
+    839
   ]
 }

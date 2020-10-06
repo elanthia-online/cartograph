@@ -1,42 +1,32 @@
 {
+  "id": 117,
+  "title": [
+    "[Temple Wyneb, Calvaria]"
+  ],
+  "description": [
+    "An astonishingly beautiful relief carving covers the entire eastern wall.  Though stained by leaching minerals and the occasional passing bat, there is no mistaking the passion and skill which brought this artwork into being."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Temple Wyneb",
   "wayto": {
     "116": "north",
     "118": "south",
     "16751": {
-      "stringproc": "b4e48f93fbbac35a54dc6d8291bd6d17"
+      "file": "string_procs/wayto/117_16751.rb"
     }
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
-  "image_coords": [
-    583,
-    737,
-    593,
-    747
-  ],
-  "terrain": "indoors",
-  "description": [
-    "An astonishingly beautiful relief carving covers the entire eastern wall.  Though stained by leaching minerals and the occasional passing bat, there is no mistaking the passion and skill which brought this artwork into being."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Temple Wyneb, Calvaria]"
-  ],
-  "check_location": null,
   "timeto": {
     "116": 0.2,
     "118": 0.2,
     "16751": 0.4
   },
-  "id": 117,
-  "location": "Temple Wyneb",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-skull-1264234799.png",
+  "image_coords": [
+    583,
+    737,
+    593,
+    747
   ]
 }

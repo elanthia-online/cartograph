@@ -1,34 +1,31 @@
 {
+  "id": 532,
+  "title": [
+    "[Whistler's Pass, Brambles]"
+  ],
+  "description": [
+    "A sea of thorns fills the pass.  Older broken brambles carpet the trail, while newer growth threatens to take over.  At odd times the brambles rustle ominously.  The intertwined vines create a web of shadows in the moonlight.",
+    "A sea of thorns fills the pass.  Older broken brambles carpet the trail, while newer growth threatens to take over.  At odd times the brambles rustle ominously."
+  ],
+  "paths": [
+    "Obvious paths: south, northwest"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "531": "northwest",
     "533": "south"
   },
-  "paths": [
-    "Obvious paths: south, northwest"
-  ],
+  "timeto": {
+    "531": 0.2,
+    "533": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     801,
     433,
     811,
     443
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "A sea of thorns fills the pass.  Older broken brambles carpet the trail, while newer growth threatens to take over.  At odd times the brambles rustle ominously.  The intertwined vines create a web of shadows in the moonlight.",
-    "A sea of thorns fills the pass.  Older broken brambles carpet the trail, while newer growth threatens to take over.  At odd times the brambles rustle ominously."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Whistler's Pass, Brambles]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "531": 0.2,
-    "533": 0.2
-  },
-  "id": 532,
-  "location": "Whistler's Pass",
   "tags": [
     "cactacae spine",
     "wintergreen leaf",
@@ -59,10 +56,6 @@
     "blue whortleberry",
     "pepperthorn root",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

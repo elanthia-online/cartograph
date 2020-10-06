@@ -1,38 +1,28 @@
 {
+  "id": 12686,
+  "title": [
+    "[Ruined Temple, Second Floor]"
+  ],
+  "description": [
+    "The walls are slick with moisture and, aside from the windows to the east and south, are completely unadorned.  A large marble pillar, partially eroded from the water that streams down it, marks the end of the eastern passage as the hall turns north."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "the Ruined Temple",
   "wayto": {
     "12682": "north",
     "12687": "west"
   },
-  "paths": [
-    "Obvious exits: north, west"
-  ],
+  "timeto": {
+    "12682": 0.2,
+    "12687": 0.2
+  },
+  "image": "ti-nelemar-1262373036.png",
   "image_coords": [
     945,
     776,
     981,
     812
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The walls are slick with moisture and, aside from the windows to the east and south, are completely unadorned.  A large marble pillar, partially eroded from the water that streams down it, marks the end of the eastern passage as the hall turns north."
-  ],
-  "image": "ti-nelemar-1262373036.png",
-  "climate": "indoors",
-  "title": [
-    "[Ruined Temple, Second Floor]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "12682": 0.2,
-    "12687": 0.2
-  },
-  "id": 12686,
-  "location": "the Ruined Temple",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

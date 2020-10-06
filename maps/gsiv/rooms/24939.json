@@ -1,40 +1,28 @@
 {
+  "id": 24939,
+  "title": [
+    "[Iyo Village, Circle Hut]"
+  ],
+  "description": [
+    "Sticking up out of deeply dug holes in the ground, several thick tree trunks serve as supports for the palm frond roof.  Spread beneath the ceiling, a thin layer of dirty blue woven cloth covers the floor.  Several pots of clay are scattered along one edge of the hut's floor, though the majority of the hut is laden with what appear to be rusty, slipshod tools for crafting armor and weapons.  The open walls of the hut allow for a clear view of the village."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast"
+  ],
+  "location": "the Shimmering Mists",
   "wayto": {
     "24929": "northeast",
     "24940": "southeast"
   },
-  "paths": [
-    "Obvious paths: northeast, southeast"
-  ],
+  "timeto": {
+    "24929": 0.2,
+    "24940": 0.2
+  },
+  "image": "ifw-iyo_village.png",
   "image_coords": [
     85,
     228,
     105,
     250
-  ],
-  "terrain": "plain dirt",
-  "description": [
-    "Sticking up out of deeply dug holes in the ground, several thick tree trunks serve as supports for the palm frond roof.  Spread beneath the ceiling, a thin layer of dirty blue woven cloth covers the floor.  Several pots of clay are scattered along one edge of the hut's floor, though the majority of the hut is laden with what appear to be rusty, slipshod tools for crafting armor and weapons.  The open walls of the hut allow for a clear view of the village."
-  ],
-  "image": "ifw-iyo_village.png",
-  "climate": "humid",
-  "title": [
-    "[Iyo Village, Circle Hut]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24929": 0.2,
-    "24940": 0.2
-  },
-  "id": 24939,
-  "location": "the Shimmering Mists",
-  "tags": [
-    "acantha leaf",
-    "blackened moss",
-    "murdroot",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+  ]
 }

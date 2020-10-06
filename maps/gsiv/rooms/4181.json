@@ -1,38 +1,28 @@
 {
+  "id": 4181,
+  "title": [
+    "[Minion Quarters]"
+  ],
+  "description": [
+    "This room is the bed chamber.  The cots are nothing more than straw filled boxes, large enough to fit a man.  The straw has been covered by moth eaten blankets.  These cots have been stacked four high, to form bunks, thus saving space."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "4180": "north",
     "4182": "east"
   },
-  "paths": [
-    "Obvious exits: north, east"
-  ],
+  "timeto": {
+    "4180": 0.2,
+    "4182": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     696,
     1139,
     706,
     1149
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This room is the bed chamber.  The cots are nothing more than straw filled boxes, large enough to fit a man.  The straw has been covered by moth eaten blankets.  These cots have been stacked four high, to form bunks, thus saving space."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Minion Quarters]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4180": 0.2,
-    "4182": 0.2
-  },
-  "id": 4181,
-  "location": "the Graveyard",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,1 +1,3 @@
-empty_hands; move 'climb trail'; waitrt?
+empty_hands
+ move 'climb trail'
+ waitrt?

@@ -1,40 +1,33 @@
 {
+  "id": 8960,
+  "title": [
+    "[Spitfire Alley, Gunner's Lane]"
+  ],
+  "description": [
+    "A massive rock sits in the middle of the road, diverting traffic to the north and down Gunner's Lane to the northeast and southeast.  The familiar skull and crossbones of seaborne brigands is scratched into the surface of the immense stone, probably left there by a drunken reveler staggering home from the Crow's Nest Pub."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, southeast"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "8954": "north",
     "8959": "southeast",
     "15786": "northeast"
   },
-  "paths": [
-    "Obvious paths: north, northeast, southeast"
-  ],
+  "timeto": {
+    "8954": 0.2,
+    "8959": 0.2,
+    "15786": 0.2
+  },
+  "image": "imt-homes-1264234799.png",
   "image_coords": [
     892,
     471,
     912,
     491
   ],
-  "terrain": null,
-  "description": [
-    "A massive rock sits in the middle of the road, diverting traffic to the north and down Gunner's Lane to the northeast and southeast.  The familiar skull and crossbones of seaborne brigands is scratched into the surface of the immense stone, probably left there by a drunken reveler staggering home from the Crow's Nest Pub."
-  ],
-  "image": "imt-homes-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Spitfire Alley, Gunner's Lane]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8954": 0.2,
-    "8959": 0.2,
-    "15786": 0.2
-  },
-  "id": 8960,
-  "location": "Icemule Trace",
   "tags": [
-    "calmintha flower",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "calmintha flower"
   ]
 }

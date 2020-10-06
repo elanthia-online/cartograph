@@ -1,40 +1,30 @@
 {
-  "wayto": {
-    "172": "north",
-    "211": "southeast"
-  },
-  "paths": [
-    "Obvious paths: north, southeast"
+  "id": 212,
+  "title": [
+    "[Ta'Illistim, Greyar Wey]"
   ],
-  "image_coords": [
-    528,
-    618,
-    550,
-    638
-  ],
-  "terrain": "hard, flat",
   "description": [
     "Several small but elegant manor homes are set far back from the cobblestoned street and surrounded by lush landscaping.  Slender maoral trees line each side of the wey, lending their leafy canopies as a shade to passersby.",
     "Several small but elegant manor homes are set far back from the cobblestoned street and surrounded by lush landscaping.  Slender maoral trees line each side of the wey, the night breeze setting their leafy canopies rustling gently.",
     "Several small but elegant villas are set far back from the cobblestoned street and surrounded by lush landscaping.  Slender maoral trees line each side of the wey, their leafy canopies lending a bit of shade to the road."
   ],
-  "image": "en-ta_illistim-new.jpg",
-  "climate": "temperate",
-  "title": [
-    "[Ta'Illistim, Greyar Wey]"
+  "paths": [
+    "Obvious paths: north, southeast"
   ],
-  "check_location": null,
+  "location": "Ta'Illistim",
+  "wayto": {
+    "172": "north",
+    "211": "southeast"
+  },
   "timeto": {
     "172": 0.2,
     "211": 0.2
   },
-  "id": 212,
-  "location": "Ta'Illistim",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-ta_illistim-new.jpg",
+  "image_coords": [
+    528,
+    618,
+    550,
+    638
   ]
 }

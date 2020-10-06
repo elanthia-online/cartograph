@@ -1,56 +1,37 @@
 {
-  "wayto": {
-    "108": "south",
-    "110": {
-      "stringproc": "d02f6492f0a6c8cfd795eca8a260c331"
-    },
-    "1778": "northeast"
-  },
+  "id": 109,
+  "title": [
+    "[Masked Hills, Hairline Ridge]"
+  ],
+  "description": [
+    "A deep depression has been worn into the bare rock of the trail.  Dirt, dried leaves, pebbles, and other detritus have filled it in for the most part."
+  ],
   "paths": [
     "Obvious paths: northeast, south"
   ],
+  "location": "the Emerald Forest",
+  "wayto": {
+    "108": "south",
+    "110": {
+      "file": "string_procs/wayto/109_110.rb"
+    },
+    "1778": "northeast"
+  },
+  "timeto": {
+    "108": 0.2,
+    "110": 3.0,
+    "1778": 0.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     474,
     547,
     484,
     557
   ],
-  "terrain": null,
-  "description": [
-    "A deep depression has been worn into the bare rock of the trail.  Dirt, dried leaves, pebbles, and other detritus have filled it in for the most part."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Masked Hills, Hairline Ridge]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "108": 0.2,
-    "110": 3.0,
-    "1778": 0.2
-  },
-  "id": 109,
-  "location": "the Emerald Forest",
   "tags": [
     "some valerian root",
     "marallis berry",
-    "sassafras leaf",
-    "cuctucae berry",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "sprig of larkspur",
-    "cluster of butterflyweed",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sassafras leaf"
   ]
 }

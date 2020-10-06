@@ -1,61 +1,35 @@
 {
+  "id": 2756,
+  "title": [
+    "[Arctic Tundra]"
+  ],
+  "description": [
+    "The mountain range extends from a pass to the southeast, curling up to the northwest before fading out of sight.  Across the vast tundra stretching north and east, wind whips up flurries of snow that shimmer in the half-light like strange portals leading into a white maw."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, northwest"
+  ],
+  "location": "the Pinefar forests",
   "wayto": {
     "2755": "northwest",
     "2757": "northeast",
     "2760": "southeast"
   },
-  "paths": [
-    "Obvious paths: northeast, southeast, northwest"
-  ],
+  "timeto": {
+    "2755": 0.2,
+    "2757": 0.2,
+    "2760": 0.2
+  },
+  "image": "imt-pinefar-1264234799.png",
   "image_coords": [
     651,
     970,
     661,
     980
   ],
-  "terrain": "mountainous",
-  "description": [
-    "The mountain range extends from a pass to the southeast, curling up to the northwest before fading out of sight.  Across the vast tundra stretching north and east, wind whips up flurries of snow that shimmer in the half-light like strange portals leading into a white maw."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Arctic Tundra]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2755": 0.2,
-    "2757": 0.2,
-    "2760": 0.2
-  },
-  "id": 2756,
-  "location": "the Pinefar forests",
   "tags": [
     "gok nut",
     "manroot stalk",
-    "some arctic moss",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "red lichen",
-    "feverfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "wyrmwood bark",
-    "daggit root",
-    "arctic moss",
-    "tundra grass",
-    "red winterberry",
-    "rockberry",
-    "crowberry",
-    "lingonberry",
-    "orange rowanberry",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some arctic moss"
   ]
 }

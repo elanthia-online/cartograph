@@ -1,40 +1,30 @@
 {
+  "id": 2256,
+  "title": [
+    "[Glaes Caverns]"
+  ],
+  "description": [
+    "A river of molten glaes rolls bubbling and spitting across most of the chamber's floor.  Black pillars rise up out of the magma, their silhouettes crooked and forbidding.  Rockets of fiery shards are sent ricocheting off the cavern's walls, launched by explosions from the river's depths.  They leave smoking trailers hanging in the air in their wake."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, northwest"
+  ],
+  "location": "the Eye of V'Tull",
   "wayto": {
     "2255": "north",
     "2257": "northwest",
     "2258": "northeast"
   },
-  "paths": [
-    "Obvious exits: north, northeast, northwest"
-  ],
-  "image_coords": [
-    170,
-    644,
-    180,
-    654
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A river of molten glaes rolls bubbling and spitting across most of the chamber's floor.  Black pillars rise up out of the magma, their silhouettes crooked and forbidding.  Rockets of fiery shards are sent ricocheting off the cavern's walls, launched by explosions from the river's depths.  They leave smoking trailers hanging in the air in their wake."
-  ],
-  "image": "ti-vtull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Glaes Caverns]"
-  ],
-  "check_location": null,
   "timeto": {
     "2255": 0.2,
     "2257": 0.2,
     "2258": 0.2
   },
-  "id": 2256,
-  "location": "the Eye of V'Tull",
-  "tags": [
-    "pepperthorn root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "ti-vtull-1264234799.png",
+  "image_coords": [
+    170,
+    644,
+    180,
+    654
   ]
 }

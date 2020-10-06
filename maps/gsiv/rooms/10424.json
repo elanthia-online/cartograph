@@ -1,38 +1,35 @@
 {
+  "id": 10424,
+  "title": [
+    "[Helgreth's Tavern, Taproom]"
+  ],
+  "description": [
+    "Boisterous laughter erupts often from the congregation of imbibing patrons seated at Helgreth's tables.  A scattering of flickering beeswax candles glimmer off the numerous brass fixtures and pristine inverted glassware suspended above the polished bar.  In their starched uniforms, off-duty military officers traverse the tumult of the taproom as they come and go from a plush sanguine velvet curtain marked by a heraldic Vaalorian buckler overhead."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Ta'Vaalor Inns",
   "wayto": {
     "10425": "go stair",
     "28270": "go curtain",
     "28271": {
-      "stringproc": "507ee5ee54db9702e400027296d70328"
+      "file": "string_procs/wayto/10424_28271.rb"
     },
     "28272": {
-      "stringproc": "5c72fcccf9ff9302ae963354879cb1fd"
+      "file": "string_procs/wayto/10424_28272.rb"
     },
     "28273": {
-      "stringproc": "1cc18da4a619fdac7de24579b99196c3"
+      "file": "string_procs/wayto/10424_28273.rb"
     },
     "28274": {
-      "stringproc": "6a358b7fb96f291f4c950fef8debb861"
+      "file": "string_procs/wayto/10424_28274.rb"
     },
     "28275": {
-      "stringproc": "13e442a8addf5798a566c6654fbbf657"
+      "file": "string_procs/wayto/10424_28275.rb"
     },
     "3498": "out"
   },
-  "paths": [
-    "Obvious exits: out"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Boisterous laughter erupts often from the congregation of imbibing patrons seated at Helgreth's tables.  A scattering of flickering beeswax candles glimmer off the numerous brass fixtures and pristine inverted glassware suspended above the polished bar.  In their starched uniforms, off-duty military officers traverse the tumult of the taproom as they come and go from a plush sanguine velvet curtain marked by a heraldic Vaalorian buckler overhead."
-  ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Helgreth's Tavern, Taproom]"
-  ],
-  "check_location": null,
   "timeto": {
     "10425": 0.2,
     "28270": 0.2,
@@ -43,10 +40,7 @@
     "28275": 0.2,
     "3498": 0.2
   },
-  "id": 10424,
-  "location": "Ta'Vaalor Inns",
   "tags": [
     "table"
-  ],
-  "unique_loot": null
+  ]
 }

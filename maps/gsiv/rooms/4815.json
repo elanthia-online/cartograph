@@ -1,38 +1,28 @@
 {
+  "id": 4815,
+  "title": [
+    "[Calelith Villa, Wine Cellar]"
+  ],
+  "description": [
+    "The cellar is dark and musty, with the smell of wine still lingering in the air.  Dark stains cover the floor and several kegs sit with their spigots in the open position.  Large wine racks cover two walls.  Curiously, all the bottles are still in place but the corks have been removed.  Odd scratches are visible in the floor, beneath the dust."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Gyldemar Forest",
   "wayto": {
     "10774": "east",
     "4809": "go staircase"
   },
-  "paths": [
-    "Obvious exits: east"
-  ],
+  "timeto": {
+    "10774": 0.2,
+    "4809": 0.2
+  },
+  "image": "en-gyldemar-1264234799.png",
   "image_coords": [
     196,
     454,
     206,
     464
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The cellar is dark and musty, with the smell of wine still lingering in the air.  Dark stains cover the floor and several kegs sit with their spigots in the open position.  Large wine racks cover two walls.  Curiously, all the bottles are still in place but the corks have been removed.  Odd scratches are visible in the floor, beneath the dust."
-  ],
-  "image": "en-gyldemar-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Calelith Villa, Wine Cellar]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10774": 0.2,
-    "4809": 0.2
-  },
-  "id": 4815,
-  "location": "Gyldemar Forest",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

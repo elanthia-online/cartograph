@@ -1,40 +1,39 @@
 {
+  "id": 292,
+  "title": [
+    "[Wehnimer's, West Ring Rd.]"
+  ],
+  "description": [
+    "The lane to the east leads into the heart of town and the main square.  Pedestrians and carts laden down with cargo make their way along the road.  The back wall of the grocer's shop borders the road, its wide door surrounded by piles of rough gunny sacks and stacks of wooden crates, some empty, others still to be unpacked.",
+    "The lane to the east leads into the heart of town and the main square.  The back wall of the grocer's shop borders the road, its wide door surrounded by piles of rough gunny sacks and stacks of wooden crates, some empty, others still to be unpacked."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "7579": "go wide hole",
     "293": "north",
     "295": "east",
     "4105": "go door",
-    "291": "south"
+    "291": "south",
+    "28761": "go gate"
   },
-  "paths": [
-    "Obvious paths: north, east, south"
-  ],
+  "timeto": {
+    "7579": 0.2,
+    "293": 0.2,
+    "295": 0.2,
+    "4105": 0.2,
+    "291": 0.2,
+    "28761": 0.2
+  },
+  "image": "wl-wehnimers-1264234799.png",
   "image_coords": [
     48,
     613,
     85,
     650
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The lane to the east leads into the heart of town and the main square.  Pedestrians and carts laden down with cargo make their way along the road.  The back wall of the grocer's shop borders the road, its wide door surrounded by piles of rough gunny sacks and stacks of wooden crates, some empty, others still to be unpacked.",
-    "The lane to the east leads into the heart of town and the main square.  The back wall of the grocer's shop borders the road, its wide door surrounded by piles of rough gunny sacks and stacks of wooden crates, some empty, others still to be unpacked."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Wehnimer's, West Ring Rd.]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7579": 0.2,
-    "293": 0.2,
-    "295": 0.2,
-    "4105": 0.2,
-    "291": 0.2
-  },
-  "id": 292,
-  "location": "the town of Wehnimer's Landing",
   "tags": [
     "some sovyn clove",
     "some acantha leaf",
@@ -53,24 +52,6 @@
     "stalk of chicory",
     "murdroot",
     "small wild rose",
-    "meta:teleport:fwi",
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "angelica root",
-    "sprig of alyssum",
-    "heath aster",
-    "stalk of goldenrod",
-    "ginger root",
-    "motherwort",
-    "murkweed",
-    "blue whortleberry",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:teleport:fwi"
   ]
 }

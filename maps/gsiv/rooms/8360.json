@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "8355": "go door"
-  },
+  "id": 8360,
+  "title": [
+    "[Spider Temple, Cell]"
+  ],
+  "description": [
+    "Cold iron manacles gleam dully, the color of rain, against the far wall of this small cell -- their tantalizing reach preciously few inches too short for a bid to freedom.  The oppressive nature of the dark stone walls causes hope to dwindle in the captives who must survive here, whittling away until it is a small spark, an ember whose fate is decided for good or ill by the wind."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "the Spider Temple",
+  "wayto": {
+    "8355": "go door"
+  },
+  "timeto": {
+    "8355": 0.2
+  },
+  "image": "wl-spider_temple-1264234799.png",
   "image_coords": [
     470,
     641,
     480,
     651
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Cold iron manacles gleam dully, the color of rain, against the far wall of this small cell -- their tantalizing reach preciously few inches too short for a bid to freedom.  The oppressive nature of the dark stone walls causes hope to dwindle in the captives who must survive here, whittling away until it is a small spark, an ember whose fate is decided for good or ill by the wind."
-  ],
-  "image": "wl-spider_temple-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Spider Temple, Cell]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8355": 0.2
-  },
-  "id": 8360,
-  "location": "the Spider Temple",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

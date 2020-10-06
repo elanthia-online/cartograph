@@ -1,38 +1,28 @@
 {
+  "id": 4129,
+  "title": [
+    "[Glatoph, Lava Pool]"
+  ],
+  "description": [
+    "Two bubbles form near each other, below you in the pool.  They rise and merge, forming a huge, elongated bubble.  It rises high in the air before it finally bursts, spitting molten rock high in the air.  You hear a sizzle near your foot, and see a splat of cooling rock inches from your toe."
+  ],
+  "paths": [
+    "Obvious exits: north, southwest"
+  ],
+  "location": "Glatoph",
   "wayto": {
     "4128": "southwest",
     "4130": "north"
   },
-  "paths": [
-    "Obvious exits: north, southwest"
-  ],
+  "timeto": {
+    "4128": 0.2,
+    "4130": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     295,
     439,
     305,
     449
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Two bubbles form near each other, below you in the pool.  They rise and merge, forming a huge, elongated bubble.  It rises high in the air before it finally bursts, spitting molten rock high in the air.  You hear a sizzle near your foot, and see a splat of cooling rock inches from your toe."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Glatoph, Lava Pool]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4128": 0.2,
-    "4130": 0.2
-  },
-  "id": 4129,
-  "location": "Glatoph",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

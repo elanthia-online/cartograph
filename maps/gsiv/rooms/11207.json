@@ -1,42 +1,32 @@
 {
+  "id": 11207,
+  "title": [
+    "[Armory, Hallway]"
+  ],
+  "description": [
+    "The hallway is littered with splintered wood and small bits of metal.  Twisted iron hinges creak mournfully against the empty doorway on the northern wall.  A foul smell wafts toward you from an opening in the southern wall."
+  ],
+  "paths": [
+    "Obvious exits: east, south, west"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11215": "go doorway",
     "11206": "west",
     "11208": "south",
     "11209": "east"
   },
-  "paths": [
-    "Obvious exits: east, south, west"
-  ],
-  "image_coords": [
-    278,
-    206,
-    288,
-    216
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The hallway is littered with splintered wood and small bits of metal.  Twisted iron hinges creak mournfully against the empty doorway on the northern wall.  A foul smell wafts toward you from an opening in the southern wall."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Armory, Hallway]"
-  ],
-  "check_location": null,
   "timeto": {
     "11215": 0.2,
     "11206": 0.2,
     "11208": 0.2,
     "11209": 0.2
   },
-  "id": 11207,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-citadel-1267238976.png",
+  "image_coords": [
+    278,
+    206,
+    288,
+    216
   ]
 }

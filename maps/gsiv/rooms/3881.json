@@ -1,4 +1,15 @@
 {
+  "id": 3881,
+  "title": [
+    "[Helden Hall, Inner Bailey]"
+  ],
+  "description": [
+    "As you step through the gate, you find yourself in a walled enclosure some one hundred yards square.  To the north is a massive hall with large oaken doors, and the sounds of livestock are coming from pens to the northeast.  There is a hut against the western wall of the Hall with tendrils of steam escaping from an opening in the roof."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "3880": "go doors",
     "3879": "go gate",
@@ -6,25 +17,6 @@
     "15680": "go stables",
     "17697": "go tree"
   },
-  "paths": [
-    "Obvious paths: none"
-  ],
-  "image_coords": [
-    363,
-    1219,
-    399,
-    1255
-  ],
-  "terrain": null,
-  "description": [
-    "As you step through the gate, you find yourself in a walled enclosure some one hundred yards square.  To the north is a massive hall with large oaken doors, and the sounds of livestock are coming from pens to the northeast.  There is a hut against the western wall of the Hall with tendrils of steam escaping from an opening in the roof."
-  ],
-  "image": "wl-heldenhall-1502386358.png",
-  "climate": null,
-  "title": [
-    "[Helden Hall, Inner Bailey]"
-  ],
-  "check_location": null,
   "timeto": {
     "3880": 0.2,
     "3879": 0.2,
@@ -32,12 +24,11 @@
     "15680": 0.2,
     "17697": 0.2
   },
-  "id": 3881,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "wl-heldenhall-1502386358.png",
+  "image_coords": [
+    363,
+    1219,
+    399,
+    1255
   ]
 }

@@ -1,43 +1,36 @@
 {
+  "id": 19275,
+  "title": [
+    "[Moot Hall, South Corridor]"
+  ],
+  "description": [
+    "Rich merlot carpet muffles footsteps through the southern corridor of Moot Hall.  Two long wooden benches sit on each side of a carved wooden door, while a lone giantman guard stands watch over a modwir arch.  A small wooden placard hangs on the wall above an ivory-handled door."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "19276": "go arch",
     "23832": "go ivory-handled door",
     "21370": "go wooden door",
     "387": "north"
   },
-  "paths": [
-    "Obvious exits: north"
-  ],
-  "image_coords": [
-    356,
-    613,
-    391,
-    649
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Rich merlot carpet muffles footsteps through the southern corridor of Moot Hall.  Two long wooden benches sit on each side of a carved wooden door, while a lone giantman guard stands watch over a modwir arch.  A small wooden placard hangs on the wall above an ivory-handled door."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Moot Hall, South Corridor]"
-  ],
-  "check_location": false,
   "timeto": {
     "19276": 0.2,
     "23832": 0.2,
     "21370": 0.2,
     "387": 0.2
   },
-  "id": 19275,
-  "location": "the town of Wehnimer's Landing",
-  "tags": [
-    "meta:teleport:fwi",
-    "no forageables",
-    "meta:forage-sensed"
+  "image": "wl-wehnimers-1264234799.png",
+  "image_coords": [
+    356,
+    613,
+    391,
+    649
   ],
-  "links": [
-
-  ]
+  "tags": [
+    "meta:teleport:fwi"
+  ],
+  "check_location": false
 }

@@ -1,35 +1,32 @@
 {
+  "id": 2748,
+  "title": [
+    "[Arctic Tundra]"
+  ],
+  "description": [
+    "The screaming wind howls across the frozen wasteland, scouring all signs of life from the bleak tundra.  Deep snow piles atop a tall ridgeline to the east, threatening to dislodge at any moment."
+  ],
+  "paths": [
+    "Obvious paths: north, west, northwest"
+  ],
+  "location": "the Pinefar forests",
   "wayto": {
     "2750": "northwest",
     "2747": "north",
     "2749": "west"
   },
-  "paths": [
-    "Obvious paths: north, west, northwest"
-  ],
+  "timeto": {
+    "2750": 0.2,
+    "2747": 0.2,
+    "2749": 0.2
+  },
+  "image": "imt-pinefar-1264234799.png",
   "image_coords": [
     770,
     930,
     780,
     940
   ],
-  "terrain": "mountainous",
-  "description": [
-    "The screaming wind howls across the frozen wasteland, scouring all signs of life from the bleak tundra.  Deep snow piles atop a tall ridgeline to the east, threatening to dislodge at any moment."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Arctic Tundra]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2750": 0.2,
-    "2747": 0.2,
-    "2749": 0.2
-  },
-  "id": 2748,
-  "location": "the Pinefar forests",
   "tags": [
     "gok nut",
     "red winterberry",
@@ -39,28 +36,6 @@
     "some daggit root",
     "sweetfern stalk",
     "some red lichen",
-    "some wyrmwood bark",
-    "sassafras leaf",
-    "red lichen",
-    "feverfern stalk",
-    "manroot stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "wyrmwood bark",
-    "daggit root",
-    "arctic moss",
-    "tundra grass",
-    "rockberry",
-    "crowberry",
-    "lingonberry",
-    "orange rowanberry",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wyrmwood bark"
   ]
 }

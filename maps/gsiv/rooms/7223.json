@@ -1,35 +1,32 @@
 {
+  "id": 7223,
+  "title": [
+    "[Underbarrow, Burial Chamber]"
+  ],
+  "description": [
+    "The chamber is lined with bodies.  Stacked as high as a human is tall, they are sealed in a thick casing of ice.  Young and old, male and female, they hold to no particular theme save that of death.  Some seem to have died natural deaths, their corpses devoid of injury.  Others are bloody and mangled, the ice closing over gaping wounds but forever leaving the insides of the bodies open to inspection."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7218": "east",
     "7219": "northeast",
     "7224": "north"
   },
-  "paths": [
-    "Obvious exits: north, northeast, east"
-  ],
+  "timeto": {
+    "7218": 0.2,
+    "7219": 0.2,
+    "7224": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     625,
     187,
     635,
     197
   ],
-  "terrain": "indoors",
-  "description": [
-    "The chamber is lined with bodies.  Stacked as high as a human is tall, they are sealed in a thick casing of ice.  Young and old, male and female, they hold to no particular theme save that of death.  Some seem to have died natural deaths, their corpses devoid of injury.  Others are bloody and mangled, the ice closing over gaping wounds but forever leaving the insides of the bodies open to inspection."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Underbarrow, Burial Chamber]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7218": 0.2,
-    "7219": 0.2,
-    "7224": 0.2
-  },
-  "id": 7223,
-  "location": "the Graveyard",
   "tags": [
     "some wolifrew lichen",
     "some cave moss",
@@ -38,10 +35,6 @@
     "cave moss",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

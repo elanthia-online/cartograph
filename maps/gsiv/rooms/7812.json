@@ -1,44 +1,28 @@
 {
+  "id": 7812,
+  "title": [
+    "[Cave, Vaulted Chamber]"
+  ],
+  "description": [
+    "A narrow ledge is perched high on the north wall of this vaulted chamber.  Several large rocks have been moved from other parts of the room and now rest in a jumble directly beneath the ledge."
+  ],
+  "paths": [
+    "Obvious exits: southeast"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "7811": "climb rocks",
     "7813": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast"
-  ],
+  "timeto": {
+    "7811": 0.2,
+    "7813": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     240,
     754,
     250,
     764
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A narrow ledge is perched high on the north wall of this vaulted chamber.  Several large rocks have been moved from other parts of the room and now rest in a jumble directly beneath the ledge."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Cave, Vaulted Chamber]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7811": 0.2,
-    "7813": 0.2
-  },
-  "id": 7812,
-  "location": "the Upper Trollfang",
-  "tags": [
-    "withered black mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,33 +1,30 @@
 {
+  "id": 2703,
+  "title": [
+    "[Top of the World, Aenatumgana]"
+  ],
+  "description": [
+    "The great glacier grinds its way down the canyon, pulverizing rock and mountain alike.  An icy slope serves as the leading edge to the mighty frozen river inching its way towards the flats of the polar cap.  Deep tracks in the permafrost hint at creatures eking out an existence in this bitter climate."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "the great mountain Aenatumgana",
   "wayto": {
     "2702": "northeast",
     "2704": "climb slope"
   },
-  "paths": [
-    "Obvious paths: northeast"
-  ],
+  "timeto": {
+    "2702": 0.2,
+    "2704": 0.2
+  },
+  "image": "imt-pinefar-1264234799.png",
   "image_coords": [
     669,
     447,
     679,
     457
   ],
-  "terrain": "mountainous",
-  "description": [
-    "The great glacier grinds its way down the canyon, pulverizing rock and mountain alike.  An icy slope serves as the leading edge to the mighty frozen river inching its way towards the flats of the polar cap.  Deep tracks in the permafrost hint at creatures eking out an existence in this bitter climate."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Top of the World, Aenatumgana]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2702": 0.2,
-    "2704": 0.2
-  },
-  "id": 2703,
-  "location": "the great mountain Aenatumgana",
   "tags": [
     "gok nut",
     "manroot stalk",
@@ -36,20 +33,6 @@
     "some valerian root",
     "some red lichen",
     "some arctic moss",
-    "some angelica root",
-    "sassafras leaf",
-    "red lichen",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "wyrmwood bark",
-    "daggit root",
-    "arctic moss",
-    "red winterberry",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some angelica root"
   ]
 }

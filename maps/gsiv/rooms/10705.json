@@ -1,34 +1,31 @@
 {
+  "id": 10705,
+  "title": [
+    "[Plains of Bone, Outer Circle]"
+  ],
+  "description": [
+    "The space between the two walls narrows markedly, forcing many adventurers to scoot through the darkness sideways.  Broken bones lie in small piles in the darkened pass.  To the east, the two walls flare to their widest point.",
+    "The space between the two walls narrows markedly, forcing many adventurers to scoot through sideways.  Broken bones lie in small piles in the narrow pass.  To the east, the two walls flare to their widest point."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Plains of Bone",
   "wayto": {
     "10706": "east",
     "10704": "west"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "10706": 0.2,
+    "10704": 0.2
+  },
+  "image": "en-cemetery-1264234799.png",
   "image_coords": [
     449,
     38,
     459,
     48
   ],
-  "terrain": null,
-  "description": [
-    "The space between the two walls narrows markedly, forcing many adventurers to scoot through the darkness sideways.  Broken bones lie in small piles in the darkened pass.  To the east, the two walls flare to their widest point.",
-    "The space between the two walls narrows markedly, forcing many adventurers to scoot through sideways.  Broken bones lie in small piles in the narrow pass.  To the east, the two walls flare to their widest point."
-  ],
-  "image": "en-cemetery-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Plains of Bone, Outer Circle]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10706": 0.2,
-    "10704": 0.2
-  },
-  "id": 10705,
-  "location": "the Plains of Bone",
   "tags": [
     "some sovyn clove",
     "some bur-clover root",
@@ -57,8 +54,5 @@
     "wingstem root",
     "bur-clover root",
     "bone golem"
-  ],
-  "links": [
-
   ]
 }

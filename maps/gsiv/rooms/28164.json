@@ -1,35 +1,28 @@
 {
+  "id": 28164,
+  "title": [
+    "[Valley of Gold, Mountain Path]"
+  ],
+  "description": [
+    "Newly created, the wide trail leads downward, guided by bright lanterns lighting the way with a soft glow.  A cool mist flows about, disturbed by a strong mountain breeze.  Bits of sparse shrubbery grow from small fissures in the hard ground."
+  ],
+  "paths": [
+    "Obvious paths: down"
+  ],
+  "location": "between Wehnimer's Landing and Zul Logoth",
   "wayto": {
     "1032": "go path",
     "28165": "down"
   },
-  "paths": [
-    "Obvious paths: down"
-  ],
+  "timeto": {
+    "1032": 0.2,
+    "28165": 0.2
+  },
+  "image": "fest-valley_of_gold-1561138415.png",
   "image_coords": [
     86,
     554,
     101,
     568
-  ],
-  "terrain": null,
-  "description": [
-    "Newly created, the wide trail leads downward, guided by bright lanterns lighting the way with a soft glow.  A cool mist flows about, disturbed by a strong mountain breeze.  Bits of sparse shrubbery grow from small fissures in the hard ground."
-  ],
-  "image": "fest-valley_of_gold-1561138415.png",
-  "climate": null,
-  "title": [
-    "[Valley of Gold, Mountain Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1032": 0.2,
-    "28165": 0.2
-  },
-  "id": 28164,
-  "location": "between Wehnimer's Landing and Zul Logoth",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

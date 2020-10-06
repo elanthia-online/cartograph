@@ -1,35 +1,32 @@
 {
+  "id": 18838,
+  "title": [
+    "[Sorcerer's Isle, Vale]"
+  ],
+  "description": [
+    "Down in the vale, the field stretches out like a lush blanket of thick grass adorned with colorful wildflowers.  An escarpment rises up at one end, leading to the hilly ridge of the forest, while opposite the land continues to spread out toward the shore."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest, up"
+  ],
+  "location": "Sorcerer's Isle",
   "wayto": {
     "18837": "north",
     "18839": "up",
     "18840": "southwest"
   },
-  "paths": [
-    "Obvious paths: north, southwest, up"
-  ],
+  "timeto": {
+    "18837": 0.2,
+    "18839": 0.2,
+    "18840": 0.2
+  },
+  "image": "en-ravelin.png",
   "image_coords": [
     999,
     246,
     1026,
     272
   ],
-  "terrain": null,
-  "description": [
-    "Down in the vale, the field stretches out like a lush blanket of thick grass adorned with colorful wildflowers.  An escarpment rises up at one end, leading to the hilly ridge of the forest, while opposite the land continues to spread out toward the shore."
-  ],
-  "image": "en-ravelin.png",
-  "climate": null,
-  "title": [
-    "[Sorcerer's Isle, Vale]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "18837": 0.2,
-    "18839": 0.2,
-    "18840": 0.2
-  },
-  "id": 18838,
-  "location": "Sorcerer's Isle",
   "tags": [
     "wild orchid",
     "lady slipper blossom",
@@ -76,8 +73,5 @@
     "ebony twig",
     "bolmara lichen",
     "brostheras grass"
-  ],
-  "links": [
-
   ]
 }

@@ -1,34 +1,23 @@
 {
-  "wayto": {
-    "13766": "east",
-    "20430": {
-      "stringproc": "42e2d31fdecd79453e041b5a49df3971"
-    }
-  },
-  "paths": [
-    "Obvious exits: east"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Here the hallway ends its long descent, amid pillars of cold, dark basalt, the tops of which are lost amid the shadows far above.  The only light to relieve the cold darkness glimmers from higher up the passage, to the east, as faint as the memory of summer at mid-winter.  In that dim light, gems set into a massive vaalorn door glint coldly, casting an unearthly light on a dark-hued tapestry."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 14060,
   "title": [
     "[Hall of the Arkati, Lower Hall]"
   ],
-  "check_location": null,
+  "description": [
+    "Here the hallway ends its long descent, amid pillars of cold, dark basalt, the tops of which are lost amid the shadows far above.  The only light to relieve the cold darkness glimmers from higher up the passage, to the east, as faint as the memory of summer at mid-winter.  In that dim light, gems set into a massive vaalorn door glint coldly, casting an unearthly light on a dark-hued tapestry."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Ta'Vaalor",
+  "wayto": {
+    "13766": "east",
+    "20430": {
+      "file": "string_procs/wayto/14060_20430.rb"
+    }
+  },
   "timeto": {
     "13766": 0.2,
     "20430": 300.0
-  },
-  "id": 14060,
-  "location": "Ta'Vaalor",
-  "tags": [
-
-  ],
-  "links": [
-
-  ]
+  }
 }

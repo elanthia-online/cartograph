@@ -1,48 +1,32 @@
 {
+  "id": 17683,
+  "title": [
+    "[Smuggler's Tunnels, Tunnel]"
+  ],
+  "description": [
+    "As the tunnel continues to the northwest, it begins to widen considerable, while doing the opposite to the south.  A metal hatch is set into the side of the tunnel's north wall, and two torches flicker in sconces placed to either side of the hatch.  Reflecting the uneven torchlight is a metal object set into the wall adjacent to the hatch.  On the opposite wall hangs the skeleton of a krolvin, pinned to the wall by a large pike."
+  ],
+  "paths": [
+    "Obvious exits: south, northwest"
+  ],
   "wayto": {
     "17685": "south",
     "17682": "northwest"
   },
-  "paths": [
-    "Obvious exits: south, northwest"
-  ],
+  "timeto": {
+    "17685": 0.2,
+    "17682": 0.2
+  },
+  "image": "rr-warrens-1266380776.png",
   "image_coords": [
     780,
     1098,
     818,
     1136
   ],
-  "terrain": "indoors",
-  "description": [
-    "As the tunnel continues to the northwest, it begins to widen considerable, while doing the opposite to the south.  A metal hatch is set into the side of the tunnel's north wall, and two torches flicker in sconces placed to either side of the hatch.  Reflecting the uneven torchlight is a metal object set into the wall adjacent to the hatch.  On the opposite wall hangs the skeleton of a krolvin, pinned to the wall by a large pike."
-  ],
-  "image": "rr-warrens-1266380776.png",
-  "climate": "indoors",
-  "title": [
-    "[Smuggler's Tunnels, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "17685": 0.2,
-    "17682": 0.2
-  },
-  "id": 17683,
-  "location": "River's Rest",
   "tags": [
     "withered black mushroom",
     "genkew mushroom",
-    "black hook mushroom",
-    "soft white mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "black hook mushroom"
   ]
 }

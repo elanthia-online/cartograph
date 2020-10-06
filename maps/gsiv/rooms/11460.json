@@ -1,43 +1,34 @@
 {
-  "wayto": {
-    "11468": {
-      "stringproc": "18c4b59ed599a02893a4dbb26b362e46"
-    },
-    "11459": {
-      "stringproc": "84d7e9c5466c56efd7dc0ac337b0a9ea"
-    },
-    "11461": {
-      "stringproc": "84803c6220b0581d4151763c46ccdbbc"
-    },
-    "11463": {
-      "stringproc": "83255565d617dbe7b0ecdb04e9a96925"
-    },
-    "11464": {
-      "stringproc": "9eaa131926e46e6090f2390aa24f278f"
-    },
-    "11467": {
-      "stringproc": "e531eb47f19700d00ac81ca15d619ca8"
-    }
-  },
-  "paths": [
-    "Obvious exits: north, northeast, east, west, northwest, up"
-  ],
-  "image_coords": [
-    949,
-    1260,
-    959,
-    1270
-  ],
-  "terrain": null,
-  "description": [
-    "Elkhorn coral, ten feet tall and branched like trees, grows in small groves.  The floor of the bay, uneven and dotted with clumps of kelp and seaweed, rises sharply to south.  The tracks of crabs and mud shrimp score the sand on the bay floor."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": null,
+  "id": 11460,
   "title": [
     "[Maelstrom Bay, Bottom]"
   ],
-  "check_location": null,
+  "description": [
+    "Elkhorn coral, ten feet tall and branched like trees, grows in small groves.  The floor of the bay, uneven and dotted with clumps of kelp and seaweed, rises sharply to south.  The tracks of crabs and mud shrimp score the sand on the bay floor."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east, west, northwest, up"
+  ],
+  "wayto": {
+    "11468": {
+      "file": "string_procs/wayto/11460_11468.rb"
+    },
+    "11459": {
+      "file": "string_procs/wayto/11460_11459.rb"
+    },
+    "11461": {
+      "file": "string_procs/wayto/11460_11461.rb"
+    },
+    "11463": {
+      "file": "string_procs/wayto/11460_11463.rb"
+    },
+    "11464": {
+      "file": "string_procs/wayto/11460_11464.rb"
+    },
+    "11467": {
+      "file": "string_procs/wayto/11460_11467.rb"
+    }
+  },
   "timeto": {
     "11468": 2.0,
     "11459": 2.0,
@@ -46,12 +37,11 @@
     "11464": 2.0,
     "11467": 2.0
   },
-  "id": 11460,
-  "location": null,
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "rr-maelstrom-1266390501.png",
+  "image_coords": [
+    949,
+    1260,
+    959,
+    1270
   ]
 }

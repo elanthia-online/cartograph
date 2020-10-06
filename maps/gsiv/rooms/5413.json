@@ -1,43 +1,35 @@
 {
-  "wayto": {
-    "5411": {
-      "stringproc": "d5fba80dc1c7437649e734294a0335b7"
-    },
-    "5417": "north"
-  },
+  "id": 5413,
+  "title": [
+    "[Bonespear Tower, Antechamber]"
+  ],
+  "description": [
+    "Two grand arches reach up towards the ceiling, and both have been completely covered with chipped and yellowed bone fragments.  The floor is covered with dust, and the antechamber itself is empty save for some scattered unidentifiable bits of debris."
+  ],
   "paths": [
     "Obvious exits: north"
   ],
+  "location": "Bonespear Tower",
+  "wayto": {
+    "5411": {
+      "file": "string_procs/wayto/5413_5411.rb"
+    },
+    "5417": "north"
+  },
+  "timeto": {
+    "5411": 0.2,
+    "5417": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     906,
     1070,
     916,
     1080
   ],
-  "terrain": "indoors",
-  "description": [
-    "Two grand arches reach up towards the ceiling, and both have been completely covered with chipped and yellowed bone fragments.  The floor is covered with dust, and the antechamber itself is empty save for some scattered unidentifiable bits of debris."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Bonespear Tower, Antechamber]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5411": 0.2,
-    "5417": 0.2
-  },
-  "id": 5413,
-  "location": "Bonespear Tower",
   "tags": [
     "waern",
     "dybbuk",
-    "eidolon",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "eidolon"
   ]
 }

@@ -1,35 +1,32 @@
 {
+  "id": 289,
+  "title": [
+    "[Wehnimer's, Sindar Lane]"
+  ],
+  "description": [
+    "A welter of discordant sounds fills the air here, in sudden contrast to the relative calm of the surrounding streets.  The clanging of metal striking metal, the hissing of air and the roaring of the forge, and the gruff voice of the proprietor bellowing out orders make it all too clear that this is the entrance to Aznell's Armory.  A metal sign hangs above the doorway."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "284": "east",
     "290": "west",
     "401": "go Armory"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "284": 0.2,
+    "290": 0.2,
+    "401": 0.2
+  },
+  "image": "wl-wehnimers-1264234799.png",
   "image_coords": [
     118,
     877,
     154,
     913
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "A welter of discordant sounds fills the air here, in sudden contrast to the relative calm of the surrounding streets.  The clanging of metal striking metal, the hissing of air and the roaring of the forge, and the gruff voice of the proprietor bellowing out orders make it all too clear that this is the entrance to Aznell's Armory.  A metal sign hangs above the doorway."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Wehnimer's, Sindar Lane]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "284": 0.2,
-    "290": 0.2,
-    "401": 0.2
-  },
-  "id": 289,
-  "location": "the town of Wehnimer's Landing",
   "tags": [
     "some sovyn clove",
     "some calamia fruit",
@@ -37,33 +34,6 @@
     "some acantha leaf",
     "small daisy",
     "pepperthorn root",
-    "meta:teleport:fwi",
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "small flower",
-    "angelica root",
-    "withered black mushroom",
-    "stalk of chicory",
-    "sprig of alyssum",
-    "heath aster",
-    "stalk of goldenrod",
-    "yellow primrose",
-    "small wild rose",
-    "wild carrot",
-    "ginger root",
-    "wild chokecherry",
-    "motherwort",
-    "murkweed",
-    "blue whortleberry",
-    "white baneberry",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:teleport:fwi"
   ]
 }

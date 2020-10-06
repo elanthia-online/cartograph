@@ -1,4 +1,15 @@
 {
+  "id": 24665,
+  "title": [
+    "[Underground Temple, Sunken Tomb]"
+  ],
+  "description": [
+    "Part of the ruin wall has sheered off and slid to the ground, blocking half of the passage and making it difficult to traverse.  The sharp edges once caught both flesh and cloth alike, judging from the rust-hued stains and threaded bits of fabric snagged.  Piles of dirt, like giant ant hills, run along the broken pathway sides."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south, southwest, west"
+  ],
+  "location": false,
   "wayto": {
     "24666": "west",
     "24660": "southwest",
@@ -6,20 +17,6 @@
     "24667": "northeast",
     "24465": "east"
   },
-  "paths": [
-    "Obvious exits: northeast, south, southwest, west"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Part of the ruin wall has sheered off and slid to the ground, blocking half of the passage and making it difficult to traverse.  The sharp edges once caught both flesh and cloth alike, judging from the rust-hued stains and threaded bits of fabric snagged.  Piles of dirt, like giant ant hills, run along the broken pathway sides."
-  ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Underground Temple, Sunken Tomb]"
-  ],
-  "check_location": true,
   "timeto": {
     "24666": 0.2,
     "24660": 0.2,
@@ -27,10 +24,5 @@
     "24667": 0.2,
     "24465": 0.2
   },
-  "id": 24665,
-  "location": false,
-  "tags": [
-
-  ],
-  "unique_loot": null
+  "check_location": true
 }

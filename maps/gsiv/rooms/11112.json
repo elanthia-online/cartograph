@@ -1,36 +1,25 @@
 {
-  "wayto": {
-    "11111": "go door"
-  },
+  "id": 11112,
+  "title": [
+    "[Krol Ship, Purser's Office]"
+  ],
+  "description": [
+    "The Purser's Office, once the orderly financial center of the ship, appears to have been recently ransacked.  The strongboxes and files have been strewn about, and the furniture smashed."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "wayto": {
+    "11111": "go door"
+  },
+  "timeto": {
+    "11111": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     1215,
     559,
     1225,
     569
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The Purser's Office, once the orderly financial center of the ship, appears to have been recently ransacked.  The strongboxes and files have been strewn about, and the furniture smashed."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "indoors",
-  "title": [
-    "[Krol Ship, Purser's Office]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11111": 0.2
-  },
-  "id": 11112,
-  "location": "the Sea Caves",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

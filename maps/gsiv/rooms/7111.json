@@ -1,40 +1,30 @@
 {
+  "id": 7111,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "There are signs that a battle raged in this intersection long ago.  Dark rust stains spatter the floor and walls, and there's a large chip missing out of the stone on the southwest corner.  The oaken door to the south is cracked and gouged, and even the iron door to the east is streaked with rust where steel once scratched its surface."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7118": "west",
     "7110": "go iron door",
     "7112": "go oaken door"
   },
-  "paths": [
-    "Obvious exits: west"
-  ],
-  "image_coords": [
-    890,
-    1148,
-    900,
-    1158
-  ],
-  "terrain": "indoors",
-  "description": [
-    "There are signs that a battle raged in this intersection long ago.  Dark rust stains spatter the floor and walls, and there's a large chip missing out of the stone on the southwest corner.  The oaken door to the south is cracked and gouged, and even the iron door to the east is streaked with rust where steel once scratched its surface."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
   "timeto": {
     "7118": 0.2,
     "7110": 0.2,
     "7112": 0.2
   },
-  "id": 7111,
-  "location": "Darkstone Castle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-darkstone-1264234799.png",
+  "image_coords": [
+    890,
+    1148,
+    900,
+    1158
   ]
 }

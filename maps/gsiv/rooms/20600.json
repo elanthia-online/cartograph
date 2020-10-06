@@ -1,56 +1,38 @@
 {
+  "id": 20600,
+  "title": [
+    "[Wehnimer's, Burrow Way]"
+  ],
+  "description": [
+    "The underground channel descends, as the heat of the torches work to fight off the cold air of the greater depth.  Small embers of fire twirl up from the torches as the flames rise and ebb."
+  ],
+  "paths": [
+    "Obvious exits: east, west",
+    "Obvious exits: north, east, west"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "20599": "east",
     "23336": "north",
     "20601": "west",
     "19946": "search\ngo crevice"
   },
-  "paths": [
-    "Obvious exits: east, west",
-    "Obvious exits: north, east, west"
-  ],
-  "image_coords": [
-    514,
-    150,
-    541,
-    176
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The underground channel descends, as the heat of the torches work to fight off the cold air of the greater depth.  Small embers of fire twirl up from the torches as the flames rise and ebb."
-  ],
-  "image": "wl-burrow_way-1360361110.png",
-  "climate": "indoors",
-  "title": [
-    "[Wehnimer's, Burrow Way]"
-  ],
-  "check_location": false,
   "timeto": {
     "20599": 0.2,
     "23336": 0.2,
     "20601": 0.2,
     "19946": 0.2
   },
-  "id": 20600,
-  "location": "the town of Wehnimer's Landing",
+  "image": "wl-burrow_way-1360361110.png",
+  "image_coords": [
+    514,
+    150,
+    541,
+    176
+  ],
   "tags": [
     "soft white mushroom",
-    "meta:noteleport:fwi",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
+    "meta:noteleport:fwi"
   ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  "check_location": false
 }

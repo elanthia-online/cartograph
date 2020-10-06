@@ -1,42 +1,32 @@
 {
+  "id": 6642,
+  "title": [
+    "[Monastery, Stone Corridor]"
+  ],
+  "description": [
+    "Lit torches are mounted to either side of the doorways leading north and south.  The doorways are open, with no doors mounted in the frames to block passage.  The corridor continues to the southeast and west."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast, south, west"
+  ],
+  "location": "the Broken Lands",
   "wayto": {
     "6643": "north",
     "6644": "south",
     "6645": "west",
     "6639": "southeast"
   },
-  "paths": [
-    "Obvious exits: north, southeast, south, west"
-  ],
-  "image_coords": [
-    195,
-    1156,
-    205,
-    1166
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Lit torches are mounted to either side of the doorways leading north and south.  The doorways are open, with no doors mounted in the frames to block passage.  The corridor continues to the southeast and west."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Monastery, Stone Corridor]"
-  ],
-  "check_location": null,
   "timeto": {
     "6643": 0.2,
     "6644": 0.2,
     "6645": 0.2,
     "6639": 0.2
   },
-  "id": 6642,
-  "location": "the Broken Lands",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-broken-1264234799.png",
+  "image_coords": [
+    195,
+    1156,
+    205,
+    1166
   ]
 }

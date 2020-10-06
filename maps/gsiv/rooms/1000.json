@@ -1,4 +1,15 @@
 {
+  "id": 1000,
+  "title": [
+    "[Zul Logoth, Sapphire Tunnel]"
+  ],
+  "description": [
+    "The sweet scent of composted wood pervades the tunnel, though the source of the odor is not readily apparent.  A steel door occupies a portion of the west wall, and a burnished brass sign flanks the door.  A crude stone arch along the eastern wall provides entrance to a small shop.  Dwarves carrying packages and dry goods wander in and out of the shop.  Some seem happy and gregarious, while others are aloof and serious."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the tunnels and caverns of Zul Logoth",
   "wayto": {
     "9493": "go arch",
     "9494": "go door",
@@ -6,25 +17,6 @@
     "1001": "north",
     "3357": "go hovel"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
-  "image_coords": [
-    805,
-    624,
-    825,
-    644
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The sweet scent of composted wood pervades the tunnel, though the source of the odor is not readily apparent.  A steel door occupies a portion of the west wall, and a burnished brass sign flanks the door.  A crude stone arch along the eastern wall provides entrance to a small shop.  Dwarves carrying packages and dry goods wander in and out of the shop.  Some seem happy and gregarious, while others are aloof and serious."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Zul Logoth, Sapphire Tunnel]"
-  ],
-  "check_location": null,
   "timeto": {
     "9493": 0.2,
     "9494": 0.2,
@@ -32,23 +24,16 @@
     "1001": 0.2,
     "3357": 0.2
   },
-  "id": 1000,
-  "location": "the tunnels and caverns of Zul Logoth",
+  "image": "en-zul_logoth-1264234799.png",
+  "image_coords": [
+    805,
+    624,
+    825,
+    644
+  ],
   "tags": [
     "pepperthorn root",
     "flathead mushroom",
-    "ironfern root",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "murdroot",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

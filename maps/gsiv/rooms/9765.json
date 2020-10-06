@@ -1,38 +1,28 @@
 {
+  "id": 9765,
+  "title": [
+    "[Maaghara Tower, Observatory]"
+  ],
+  "description": [
+    "At the tree's apex, the walls abruptly dwindle into a circulatory of twisting tendrils that supports a huge, transparent sphere.  Outside, the dark foliage of the tree can be seen cradling the bubble in its black embrace.  Most of the interior of the observatory is filled with a vast construction.  Its surfaces appear to be mostly made of metals -- copper, iron, and bronze.  However, some gears, globes and wires are also crafted of silver and gold, giving the thing a marvelous, exotic sparkle."
+  ],
+  "paths": [
+    "Obvious exits: southwest, northwest"
+  ],
+  "location": "Ta'Illistim",
   "wayto": {
     "9762": "northwest",
     "9764": "southwest"
   },
-  "paths": [
-    "Obvious exits: southwest, northwest"
-  ],
+  "timeto": {
+    "9762": 0.2,
+    "9764": 0.2
+  },
+  "image": "en-tower-1264234799.png",
   "image_coords": [
     780,
     201,
     790,
     211
-  ],
-  "terrain": "indoors",
-  "description": [
-    "At the tree's apex, the walls abruptly dwindle into a circulatory of twisting tendrils that supports a huge, transparent sphere.  Outside, the dark foliage of the tree can be seen cradling the bubble in its black embrace.  Most of the interior of the observatory is filled with a vast construction.  Its surfaces appear to be mostly made of metals -- copper, iron, and bronze.  However, some gears, globes and wires are also crafted of silver and gold, giving the thing a marvelous, exotic sparkle."
-  ],
-  "image": "en-tower-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Maaghara Tower, Observatory]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9762": 0.2,
-    "9764": 0.2
-  },
-  "id": 9765,
-  "location": "Ta'Illistim",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

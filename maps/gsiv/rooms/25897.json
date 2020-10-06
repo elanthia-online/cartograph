@@ -1,35 +1,28 @@
 {
+  "id": 25897,
+  "title": [
+    "[Brickburn Hall, Antechamber]"
+  ],
+  "description": [
+    "Two pillars flank an arched hoarbeam door in the hall's formal entrance.  The side walls are adorned with portraits of august professors and headmasters, their attire formal, if antiquated.  Centered on the back wall, a large plaque in a gilded frame hangs with sconces on either side, the candlelight illuminating its elaborate script.  A westward corridor leads toward the classrooms."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Summit Academy",
   "wayto": {
     "25894": "go corridor",
     "25898": "go door"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "25894": 0.2,
+    "25898": 0.2
+  },
+  "image": "Spire_Grounds_5117.png",
   "image_coords": [
     225,
     357,
     275,
     409
-  ],
-  "terrain": null,
-  "description": [
-    "Two pillars flank an arched hoarbeam door in the hall's formal entrance.  The side walls are adorned with portraits of august professors and headmasters, their attire formal, if antiquated.  Centered on the back wall, a large plaque in a gilded frame hangs with sconces on either side, the candlelight illuminating its elaborate script.  A westward corridor leads toward the classrooms."
-  ],
-  "image": "Spire_Grounds_5117.png",
-  "climate": null,
-  "title": [
-    "[Brickburn Hall, Antechamber]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "25894": 0.2,
-    "25898": 0.2
-  },
-  "id": 25897,
-  "location": "Summit Academy",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

@@ -1,42 +1,31 @@
 {
+  "id": 11082,
+  "title": [
+    "[Sea Caves]"
+  ],
+  "description": [
+    "The cave narrows to the west, but grows much wider to the south.  A slight breeze blows in from the south, bringing fresh air to the caves.  Dry sand mixed with fist-sized rocks covers the floor."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
   "wayto": {
     "11081": "south",
     "11074": "west"
   },
-  "paths": [
-    "Obvious exits: south, west"
-  ],
+  "timeto": {
+    "11081": 0.2,
+    "11074": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     1216,
     138,
     1226,
     148
   ],
-  "terrain": "indoors",
-  "description": [
-    "The cave narrows to the west, but grows much wider to the south.  A slight breeze blows in from the south, bringing fresh air to the caves.  Dry sand mixed with fist-sized rocks covers the floor."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Caves]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11081": 0.2,
-    "11074": 0.2
-  },
-  "id": 11082,
-  "location": "the Sea Caves",
   "tags": [
     "some wingstem root",
-    "some bur-clover root",
-    "murdroot",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some bur-clover root"
   ]
 }

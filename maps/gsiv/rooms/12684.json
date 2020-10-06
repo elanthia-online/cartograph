@@ -1,40 +1,30 @@
 {
+  "id": 12684,
+  "title": [
+    "[Ruined Temple, Second Floor]"
+  ],
+  "description": [
+    "The sound of crashing waves reverberates loudly here, and a thin coating of moisture clings to every surface.  The air is thick with the smell of the sea, and natural light streams into the hallway from the north."
+  ],
+  "paths": [
+    "Obvious exits: north, south, west"
+  ],
+  "location": "the Ruined Temple",
   "wayto": {
     "12690": "west",
     "12683": "south",
     "12685": "north"
   },
-  "paths": [
-    "Obvious exits: north, south, west"
-  ],
-  "image_coords": [
-    945,
-    438,
-    981,
-    474
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The sound of crashing waves reverberates loudly here, and a thin coating of moisture clings to every surface.  The air is thick with the smell of the sea, and natural light streams into the hallway from the north."
-  ],
-  "image": "ti-nelemar-1262373036.png",
-  "climate": "indoors",
-  "title": [
-    "[Ruined Temple, Second Floor]"
-  ],
-  "check_location": null,
   "timeto": {
     "12690": 0.2,
     "12683": 0.2,
     "12685": 0.2
   },
-  "id": 12684,
-  "location": "the Ruined Temple",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "ti-nelemar-1262373036.png",
+  "image_coords": [
+    945,
+    438,
+    981,
+    474
   ]
 }

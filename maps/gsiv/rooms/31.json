@@ -1,43 +1,33 @@
 {
-  "wayto": {
-    "30": "north",
-    "3747": "go gate",
-    "32": "southwest"
-  },
-  "paths": [
-    "Obvious paths: north, southwest"
+  "id": 31,
+  "title": [
+    "[Ta'Illistim, Mzaarine Wey]"
   ],
-  "image_coords": [
-    1353,
-    795,
-    1375,
-    817
-  ],
-  "terrain": "hard, flat",
   "description": [
     "The wey opens onto a larger cobblestoned var, as the few passersby move off towards their separate destinations.  Several city guardsmen, casually watching the passersby and talking quietly amongst themselves, stand at the corner of the wey.",
     "The wey opens onto a larger cobblestoned var, the congestion easing somewhat as the throngs move off towards their separate destinations.  Several city guardsmen, casually watching the passersby and talking quietly amongst themselves, stand at the corner of the wey.",
     "At the juncture of wey and var, the cobblestones of the two streets merge together.  The former, much smaller than the latter, opens up at the intersection, forming a fan pattern on the ground.  The bluish-grey stones are joined with a mica-flecked mortar, which under the veil of night appears darker than it probably really is.  A gate peeks out from behind a stand of climbing roses.",
     "At the juncture of wey and var, the cobblestones of the two streets merge together.  The former, much smaller than the latter, opens up at the intersection, forming a fan pattern on the ground.  The bluish-grey stones are joined with a mica-flecked mortar, which glints in the sunlight.  A gate peeks out from behind a stand of climbing roses."
   ],
-  "image": "en-ta_illistim-new.jpg",
-  "climate": "temperate",
-  "title": [
-    "[Ta'Illistim, Mzaarine Wey]"
+  "paths": [
+    "Obvious paths: north, southwest"
   ],
-  "check_location": null,
+  "location": "Ta'Illistim",
+  "wayto": {
+    "30": "north",
+    "3747": "go gate",
+    "32": "southwest"
+  },
   "timeto": {
     "30": 0.2,
     "3747": 0.2,
     "32": 0.2
   },
-  "id": 31,
-  "location": "Ta'Illistim",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-ta_illistim-new.jpg",
+  "image_coords": [
+    1353,
+    795,
+    1375,
+    817
   ]
 }

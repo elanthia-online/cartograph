@@ -1,1 +1,2 @@
-empty_hands;move "go gondolas"
+empty_hands
+move "go gondolas"

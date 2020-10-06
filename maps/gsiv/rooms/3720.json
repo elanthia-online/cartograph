@@ -1,33 +1,30 @@
 {
+  "id": 3720,
+  "title": [
+    "[Darkstone, Winding Tunnel]"
+  ],
+  "description": [
+    "The ceiling dips low and the floor begins rising to meet it.  You wonder if this may be the end of the line.  Still, there seems to be room to squeeze a bit further west."
+  ],
+  "paths": [
+    "Obvious exits: northeast, west"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "3719": "northeast",
     "3721": "west"
   },
-  "paths": [
-    "Obvious exits: northeast, west"
-  ],
+  "timeto": {
+    "3719": 0.2,
+    "3721": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     650,
     1268,
     660,
     1278
   ],
-  "terrain": "indoors",
-  "description": [
-    "The ceiling dips low and the floor begins rising to meet it.  You wonder if this may be the end of the line.  Still, there seems to be room to squeeze a bit further west."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Winding Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3719": 0.2,
-    "3721": 0.2
-  },
-  "id": 3720,
-  "location": "Darkstone Castle",
   "tags": [
     "black hook mushroom",
     "withered black mushroom",
@@ -37,15 +34,6 @@
     "some cave moss",
     "some bolmara lichen",
     "some wingstem root",
-    "massive troll king",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "massive troll king"
   ]
 }

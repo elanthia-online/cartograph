@@ -1,50 +1,35 @@
 {
+  "id": 9427,
+  "title": [
+    "[Zul Logoth, Opal Tunnel]"
+  ],
+  "description": [
+    "Vivid banners completely cover a rather larger stalagmite jutting from the middle of the tunnel, so much so that there appears to be numerous layers to dig through before reaching the actual stone formation.  As residents go about their errands, an occasional mother and child pause as the youngster tugs on the mother's skirt and points to a particularly inviting shop selling sweets."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast"
+  ],
+  "location": "Zul Logoth",
   "wayto": {
     "9426": "southeast",
     "9428": "north",
     "16883": "go door"
   },
-  "paths": [
-    "Obvious exits: north, southeast"
-  ],
+  "timeto": {
+    "9426": 0.2,
+    "9428": 0.2,
+    "16883": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     938,
     403,
     958,
     423
   ],
-  "terrain": "indoors",
-  "description": [
-    "Vivid banners completely cover a rather larger stalagmite jutting from the middle of the tunnel, so much so that there appears to be numerous layers to dig through before reaching the actual stone formation.  As residents go about their errands, an occasional mother and child pause as the youngster tugs on the mother's skirt and points to a particularly inviting shop selling sweets."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Zul Logoth, Opal Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9426": 0.2,
-    "9428": 0.2,
-    "16883": 0.2
-  },
-  "id": 9427,
-  "location": "Zul Logoth",
   "tags": [
     "pepperthorn root",
     "genkew mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "blue trafel mushroom",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "soft white mushroom"
   ]
 }

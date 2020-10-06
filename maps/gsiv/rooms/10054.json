@@ -1,38 +1,28 @@
 {
+  "id": 10054,
+  "title": [
+    "[North Barrow, Ossuary]"
+  ],
+  "description": [
+    "Piles of bones and skulls are stacked along every wall, the dark spaces between them filled with spider webs and ancient dust.  Muddy water drips slowly down the limestone wall from a crack in the ceiling, draining from the grassy mound above and collecting in a foul-smelling puddle on the cold stone floor."
+  ],
+  "paths": [
+    "Obvious exits: north, northwest"
+  ],
+  "location": "the Yegharren Plains",
   "wayto": {
     "10051": "northwest",
     "10053": "north"
   },
-  "paths": [
-    "Obvious exits: north, northwest"
-  ],
+  "timeto": {
+    "10051": 0.2,
+    "10053": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     1375,
     276,
     1385,
     286
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Piles of bones and skulls are stacked along every wall, the dark spaces between them filled with spider webs and ancient dust.  Muddy water drips slowly down the limestone wall from a crack in the ceiling, draining from the grassy mound above and collecting in a foul-smelling puddle on the cold stone floor."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[North Barrow, Ossuary]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10051": 0.2,
-    "10053": 0.2
-  },
-  "id": 10054,
-  "location": "the Yegharren Plains",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

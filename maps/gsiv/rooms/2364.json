@@ -1,41 +1,34 @@
 {
+  "id": 2364,
+  "title": [
+    "[Magical Burrow, Wraith Road]"
+  ],
+  "description": [
+    "A low, dense, cold fog blankets everything.  In some places a halfling could walk with only his or her head sticking above the eerie fog."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest",
+    "Obvious paths: northeast, southwest, northwest"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "2365": "southwest",
     "2362": "northeast",
     "24430": "northwest"
   },
-  "paths": [
-    "Obvious paths: northeast, southwest",
-    "Obvious paths: northeast, southwest, northwest"
-  ],
+  "timeto": {
+    "2365": 0.2,
+    "2362": 0.2,
+    "24430": 0.2
+  },
+  "image": "imt-icemule-1474811966.png",
   "image_coords": [
     228,
     431,
     264,
     467
   ],
-  "terrain": "hard, flat",
-  "description": [
-    "A low, dense, cold fog blankets everything.  In some places a halfling could walk with only his or her head sticking above the eerie fog."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Magical Burrow, Wraith Road]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2365": 0.2,
-    "2362": 0.2,
-    "24430": 0.2
-  },
-  "id": 2364,
-  "location": "Icemule Trace",
   "tags": [
-    "calmintha flower",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "calmintha flower"
   ]
 }

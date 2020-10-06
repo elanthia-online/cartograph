@@ -1,35 +1,32 @@
 {
+  "id": 1400,
+  "title": [
+    "[Cairnfang Forest, Clearing]"
+  ],
+  "description": [
+    "Obviously used by caravans as a campsite, this clearing is marred by the remains of firepits and the signs of recent trampling by shod hooves.  The river is just visible through the trees to the south."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "1399": "northeast",
     "1401": "southwest",
     "9376": "go trees"
   },
-  "paths": [
-    "Obvious paths: northeast, southwest"
-  ],
+  "timeto": {
+    "1399": 0.2,
+    "1401": 0.2,
+    "9376": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     1127,
     805,
     1137,
     815
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "Obviously used by caravans as a campsite, this clearing is marred by the remains of firepits and the signs of recent trampling by shod hooves.  The river is just visible through the trees to the south."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Cairnfang Forest, Clearing]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1399": 0.2,
-    "1401": 0.2,
-    "9376": 0.2
-  },
-  "id": 1400,
-  "location": "the Cairnfang",
   "tags": [
     "sprig of wild lilac",
     "bloodwood twig",
@@ -85,10 +82,6 @@
     "ebony twig",
     "bolmara lichen",
     "brostheras grass",
-    "alder bark",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "alder bark"
   ]
 }

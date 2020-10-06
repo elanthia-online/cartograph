@@ -1,35 +1,32 @@
 {
+  "id": 6153,
+  "title": [
+    "[Hidden Plateau]"
+  ],
+  "description": [
+    "A ruined stone walkway traverses the base of the steep mountainside, running from north to south.  Struggling grasses and shattered marble ruins dot the terrain along the path, and a large weathered stone rests near a fork in the path."
+  ],
+  "paths": [
+    "Obvious paths: north, south, southwest"
+  ],
+  "location": "The Hidden Plateau",
   "wayto": {
     "6158": "southwest",
     "6152": "north",
     "6154": "south"
   },
-  "paths": [
-    "Obvious paths: north, south, southwest"
-  ],
+  "timeto": {
+    "6158": 0.2,
+    "6152": 0.2,
+    "6154": 0.2
+  },
+  "image": "wl-wehntoph-1310775397.png",
   "image_coords": [
     543,
     884,
     579,
     920
   ],
-  "terrain": null,
-  "description": [
-    "A ruined stone walkway traverses the base of the steep mountainside, running from north to south.  Struggling grasses and shattered marble ruins dot the terrain along the path, and a large weathered stone rests near a fork in the path."
-  ],
-  "image": "wl-wehntoph-1310775397.png",
-  "climate": null,
-  "title": [
-    "[Hidden Plateau]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6158": 0.2,
-    "6152": 0.2,
-    "6154": 0.2
-  },
-  "id": 6153,
-  "location": "The Hidden Plateau",
   "tags": [
     "genkew mushroom",
     "some brostheras grass",
@@ -93,8 +90,5 @@
     "small apple",
     "blue trafel mushroom",
     "spearmint leaf"
-  ],
-  "links": [
-
   ]
 }

@@ -1,35 +1,28 @@
 {
-  "wayto": {
-    "13966": {
-      "stringproc": "fe1346f138ccc3b4f041440fd5c4317f"
-    }
-  },
+  "id": 25621,
+  "title": [
+    "[Mistydeep, Ravelin]"
+  ],
+  "description": [
+    "Here, the Mistydeep slows its pace as it meanders through a quiet community.  Homes blend in with the surrounding foliage as if part of the forest itself.  Propped in the fork of a tree, a fishing pole leans out over the water, its line and cork float bobbing gaily in the current.  On the other side of the river, a pebbled shoal gives way to a marshy area where dragonflies dart about a tall stand of cattails."
+  ],
   "paths": [
     "Obvious paths: north, east, southeast, northwest, down"
   ],
+  "location": "the northern reaches of the Mistydeep River",
+  "wayto": {
+    "13966": {
+      "file": "string_procs/wayto/25621_13966.rb"
+    }
+  },
+  "timeto": {
+    "13966": 0.2
+  },
+  "image": "en-ravelin.png",
   "image_coords": [
     1083,
     651,
     1103,
     669
-  ],
-  "terrain": null,
-  "description": [
-    "Here, the Mistydeep slows its pace as it meanders through a quiet community.  Homes blend in with the surrounding foliage as if part of the forest itself.  Propped in the fork of a tree, a fishing pole leans out over the water, its line and cork float bobbing gaily in the current.  On the other side of the river, a pebbled shoal gives way to a marshy area where dragonflies dart about a tall stand of cattails."
-  ],
-  "image": "en-ravelin.png",
-  "climate": null,
-  "title": [
-    "[Mistydeep, Ravelin]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "13966": 0.2
-  },
-  "id": 25621,
-  "location": "the northern reaches of the Mistydeep River",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

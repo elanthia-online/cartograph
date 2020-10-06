@@ -1,4 +1,15 @@
 {
+  "id": 2373,
+  "title": [
+    "[Icemule, Enchantment Alley]"
+  ],
+  "description": [
+    "Wizards of every shape and size move quietly through the shops of Enchantment Alley clutching potion bottles, bundled spell components, or merely wands and staffs.  Nervous glances cut from the city wall to the other mages, as if unsure which constitutes the greater threat."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "15858": "go boutique",
     "15859": "go store",
@@ -8,25 +19,6 @@
     "15862": "go simple shop",
     "2374": "west"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
-  "image_coords": [
-    271,
-    253,
-    291,
-    273
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "Wizards of every shape and size move quietly through the shops of Enchantment Alley clutching potion bottles, bundled spell components, or merely wands and staffs.  Nervous glances cut from the city wall to the other mages, as if unsure which constitutes the greater threat."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Icemule, Enchantment Alley]"
-  ],
-  "check_location": null,
   "timeto": {
     "15858": 0.2,
     "15859": 0.2,
@@ -36,13 +28,11 @@
     "15862": 0.2,
     "2374": 0.2
   },
-  "id": 2373,
-  "location": "Icemule Trace",
-  "tags": [
-    "calmintha flower",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "imt-icemule-1474811966.png",
+  "image_coords": [
+    271,
+    253,
+    291,
+    273
   ]
 }

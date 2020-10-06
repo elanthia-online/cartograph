@@ -1,40 +1,30 @@
 {
+  "id": 7079,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "Pebbles and dirt and sandy grit cover the floor in this stretch of corridor.  You notice with some consternation that there's a large crack in the western wall, from the ceiling down to within a few handspans of the floor.  Dust covers everything, and puffs up in clouds with every step you take."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7078": "south",
     "7080": "go door",
     "7081": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
-  "image_coords": [
-    841,
-    1050,
-    851,
-    1060
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Pebbles and dirt and sandy grit cover the floor in this stretch of corridor.  You notice with some consternation that there's a large crack in the western wall, from the ceiling down to within a few handspans of the floor.  Dust covers everything, and puffs up in clouds with every step you take."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
   "timeto": {
     "7078": 0.2,
     "7080": 0.2,
     "7081": 0.2
   },
-  "id": 7079,
-  "location": "Darkstone Castle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-darkstone-1264234799.png",
+  "image_coords": [
+    841,
+    1050,
+    851,
+    1060
   ]
 }

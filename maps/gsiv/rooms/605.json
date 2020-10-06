@@ -1,40 +1,30 @@
 {
-  "wayto": {
-    "604": "south",
-    "211": "west"
-  },
-  "paths": [
-    "Obvious paths: south, west"
+  "id": 605,
+  "title": [
+    "[Ta'Illistim, Glimaer Wey]"
   ],
-  "image_coords": [
-    638,
-    677,
-    658,
-    698
-  ],
-  "terrain": "hard, flat",
   "description": [
     "The cobblestoned wey continues to curve in snake-like fashion, winding its way among the almost gardenlike setting.  A birdbath stands beneath a small grove of nearby trees, the moonlight reflecting a silvery sheen upon the watery surface of the bowl.",
     "The cobblestoned wey continues to curve in snake-like fashion, winding its way among the almost gardenlike setting.  A birdbath stands beneath a small grove of nearby trees, its denizens alternatively splashing and chasing one another away from the water-filled bowl.",
     "The cobblestoned wey continues to curve in a snake-like fashion, winding its way among an almost garden-like setting.  A birdbath stands beneath a small grove of nearby trees, its water-filled bowl a tarnished copper."
   ],
-  "image": "en-ta_illistim-new.jpg",
-  "climate": "temperate",
-  "title": [
-    "[Ta'Illistim, Glimaer Wey]"
+  "paths": [
+    "Obvious paths: south, west"
   ],
-  "check_location": null,
+  "location": "Ta'Illistim",
+  "wayto": {
+    "604": "south",
+    "211": "west"
+  },
   "timeto": {
     "604": 0.2,
     "211": 0.2
   },
-  "id": 605,
-  "location": "Ta'Illistim",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-ta_illistim-new.jpg",
+  "image_coords": [
+    638,
+    677,
+    658,
+    698
   ]
 }

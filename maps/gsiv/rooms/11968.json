@@ -1,42 +1,34 @@
 {
+  "id": 11968,
+  "title": [
+    "[West Woods, Tiny Cottage]"
+  ],
+  "description": [
+    "The stringent smell of crushed herbs pervades the front room of the cottage.  Shelves positioned above a large, well-scrubbed pine table hold a neat assortment of jars and bottles that seem to be the source of the smell.  Unglazed windows are shut tightly against the coolness of the night air and a crackling fire from the hearth in the corner of the room paints long shadows up the cottage walls.  A wide arch opens into the back of the cottage and a door leads out to the woods.",
+    "The stringent smell of crushed herbs pervades the front room of the cottage.  Shelves positioned above a large, well-scrubbed pine table hold a neat assortment of jars and bottles that seem to be the source of the smell.  Dozens of wicker baskets hang from the ceiling, along with bunches of drying flowers.  Unglazed windows have their shutters opened to let in the daytime breezes.  A wide arch opens into the back of the cottage and a door leads out to the woods."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Old Ta'Faendryl",
   "wayto": {
     "11967": "out",
     "15650": "go curtain",
     "11969": "go arch"
   },
-  "paths": [
-    "Obvious exits: out"
-  ],
+  "timeto": {
+    "11967": 0.2,
+    "15650": 0.2,
+    "11969": 0.2
+  },
+  "image": "en-old_ta_faendryl-1264234799.png",
   "image_coords": [
     153,
     669,
     163,
     679
   ],
-  "terrain": "indoors",
-  "description": [
-    "The stringent smell of crushed herbs pervades the front room of the cottage.  Shelves positioned above a large, well-scrubbed pine table hold a neat assortment of jars and bottles that seem to be the source of the smell.  Unglazed windows are shut tightly against the coolness of the night air and a crackling fire from the hearth in the corner of the room paints long shadows up the cottage walls.  A wide arch opens into the back of the cottage and a door leads out to the woods.",
-    "The stringent smell of crushed herbs pervades the front room of the cottage.  Shelves positioned above a large, well-scrubbed pine table hold a neat assortment of jars and bottles that seem to be the source of the smell.  Dozens of wicker baskets hang from the ceiling, along with bunches of drying flowers.  Unglazed windows have their shutters opened to let in the daytime breezes.  A wide arch opens into the back of the cottage and a door leads out to the woods."
-  ],
-  "image": "en-old_ta_faendryl-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[West Woods, Tiny Cottage]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11967": 0.2,
-    "15650": 0.2,
-    "11969": 0.2
-  },
-  "id": 11968,
-  "location": "Old Ta'Faendryl",
   "tags": [
-    "some sovyn clove",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some sovyn clove"
   ]
 }

@@ -1,34 +1,31 @@
 {
+  "id": 10722,
+  "title": [
+    "[Plains of Bone, Boneyard]"
+  ],
+  "description": [
+    "A large patch of brambles engulfs this section of the boneyard, a nasty surprise for those careless in their nighttime travels.  The long thorns mix with sharpened bones to create a dangerous display.  The broken remains of an ancient rowboat have nearly been consumed by the thorny vines.",
+    "A large patch of brambles engulfs this section of the boneyard.  The long thorns mix with sharpened bones to create a dangerous display.  The broken remains of an ancient rowboat have nearly been consumed by the thorny vines."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Plains of Bone",
   "wayto": {
     "10721": "north",
     "10723": "south"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "10721": 0.2,
+    "10723": 0.2
+  },
+  "image": "en-cemetery-1264234799.png",
   "image_coords": [
     640,
     149,
     650,
     159
   ],
-  "terrain": null,
-  "description": [
-    "A large patch of brambles engulfs this section of the boneyard, a nasty surprise for those careless in their nighttime travels.  The long thorns mix with sharpened bones to create a dangerous display.  The broken remains of an ancient rowboat have nearly been consumed by the thorny vines.",
-    "A large patch of brambles engulfs this section of the boneyard.  The long thorns mix with sharpened bones to create a dangerous display.  The broken remains of an ancient rowboat have nearly been consumed by the thorny vines."
-  ],
-  "image": "en-cemetery-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Plains of Bone, Boneyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10721": 0.2,
-    "10723": 0.2
-  },
-  "id": 10722,
-  "location": "the Plains of Bone",
   "tags": [
     "yellow primrose",
     "vermilion fire lily",
@@ -60,8 +57,5 @@
     "ironfern root",
     "sunburst blossom",
     "wingstem root"
-  ],
-  "links": [
-
   ]
 }

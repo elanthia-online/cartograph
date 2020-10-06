@@ -1,16 +1,10 @@
 {
-  "wayto": {
-    "2376": "out",
-    "27861": "west",
-    "28694": "east"
-  },
-  "paths": [
-    "Obvious exits: east, west, out",
-    "Obvious exits: east",
-    "Obvious exits: west"
+  "id": 27853,
+  "title": [
+    "[Selaesia's General Store]",
+    "[Selaesia's Magic Shoppe]",
+    "[Selaesia's Outfitting]"
   ],
-  "image_coords": null,
-  "terrain": null,
   "description": [
     "Beneath an uneven wooden ceiling, a tattered merchant permit hangs on one of the plain wooden walls.  A plain wooden table sits in one corner while a worn rug rests on the wooden floor.",
     "The broad sweep of the blonde oak floor is interrupted by a worn rug.  Halfway to the oak beam ceiling, a tattered merchant permit hangs on one of the smooth white plaster walls.  A plain wooden table is pushed to the back of the shop.",
@@ -20,23 +14,20 @@
     "Beneath an oak beam ceiling, a tattered merchant permit hangs on one of the smooth white plaster walls.  A heavy white granite counter and a tall oak and ivory cabinet sit in opposite corners while a stuffed grizzly bear rests on a golden blonde oak floor.",
     "A noble elf maiden portrait hangs on one of the smooth white plaster walls, and an oak beam ceiling rises overhead.  A glass-fronted bookcase sits in one corner of a golden blonde oak floor.  There is a heavy lead glass display case on one side of the shop and a spacious grey slate counter on the other."
   ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Selaesia's General Store]",
-    "[Selaesia's Magic Shoppe]",
-    "[Selaesia's Outfitting]"
+  "paths": [
+    "Obvious exits: east, west, out",
+    "Obvious exits: east",
+    "Obvious exits: west"
   ],
-  "check_location": null,
+  "location": "Icemule Trace",
+  "wayto": {
+    "2376": "out",
+    "27861": "west",
+    "28694": "east"
+  },
   "timeto": {
     "2376": 0.2,
     "27861": 0.2,
     "28694": 0.2
-  },
-  "id": 27853,
-  "location": "Icemule Trace",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  }
 }

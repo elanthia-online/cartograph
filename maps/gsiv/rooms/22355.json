@@ -1,40 +1,30 @@
 {
-  "wayto": {
-    "22356": "go arch",
-    "22357": "go third arch",
-    "22354": "out"
-  },
-  "paths": [
-    "Obvious exits: out"
-  ],
-  "image_coords": [
-    606,
-    407,
-    670,
-    444
-  ],
-  "terrain": null,
-  "description": [
-    "Capped with a rounded dome of stained glass, the smooth walls of crimson-veined alabaster are fitted seamlessly into place.  An intricate frieze adorns the rotunda between velvet-draped arches, each leading deeper into the consulate.  The floor is inlaid with concentric rings of heliodor surrounded by an eight-pointed star of despanal.  Hanging on the wall just to the side of the entrance is an an ebon plaque, its dark frame embellished with muted golden gilt."
-  ],
-  "image": "en-ta_illistim-embassies-1405076623.png",
-  "climate": null,
+  "id": 22355,
   "title": [
     "[Faendryl Embassy, Rotunda]"
   ],
-  "check_location": null,
+  "description": [
+    "Capped with a rounded dome of stained glass, the smooth walls of crimson-veined alabaster are fitted seamlessly into place.  An intricate frieze adorns the rotunda between velvet-draped arches, each leading deeper into the consulate.  The floor is inlaid with concentric rings of heliodor surrounded by an eight-pointed star of despanal.  Hanging on the wall just to the side of the entrance is an an ebon plaque, its dark frame embellished with muted golden gilt."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Ta'Illistim Embassies",
+  "wayto": {
+    "22356": "go third arch",
+    "22357": "go arch",
+    "22354": "out"
+  },
   "timeto": {
     "22356": 0.2,
     "22357": 0.2,
     "22354": 0.2
   },
-  "id": 22355,
-  "location": "Ta'Illistim Embassies",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
+  "image": "en-ta_illistim-embassies-1405076623.png",
+  "image_coords": [
+    606,
+    407,
+    670,
+    444
   ]
 }

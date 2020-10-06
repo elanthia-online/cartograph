@@ -1,36 +1,25 @@
 {
-  "wayto": {
-    "11111": "go door"
-  },
+  "id": 11113,
+  "title": [
+    "[Krol Ship, Armory]"
+  ],
+  "description": [
+    "This room contains half a dozen various racks for swords, axes, and other weapons, but not a dagger remains.  All the racks have been splintered, their locks destroyed, and the contents pilfered."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "wayto": {
+    "11111": "go door"
+  },
+  "timeto": {
+    "11111": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     1410,
     559,
     1420,
     569
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This room contains half a dozen various racks for swords, axes, and other weapons, but not a dagger remains.  All the racks have been splintered, their locks destroyed, and the contents pilfered."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "indoors",
-  "title": [
-    "[Krol Ship, Armory]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11111": 0.2
-  },
-  "id": 11113,
-  "location": "the Sea Caves",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

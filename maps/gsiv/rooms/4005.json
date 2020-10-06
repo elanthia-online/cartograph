@@ -1,49 +1,35 @@
 {
-  "wayto": {
-    "4004": {
-      "stringproc": "395b361a16c8a355265cda519abf9fe5"
-    },
-    "4006": {
-      "stringproc": "dbbfd361e7886ce7121cafa8a1b5c5c5"
-    }
-  },
+  "id": 4005,
+  "title": [
+    "[Griffin's Keen, Inner Trail]"
+  ],
+  "description": [
+    "Billowing snow tumbles down the mountainside carried on the shrieking wind.  The frozen carcass of a mountain rolton lies wedged into the crease formed where the trail meets the mountainside.  Even through the layers of ice you can see the matted coat has been torn into ragged strips."
+  ],
   "paths": [
     "Obvious paths: up, down"
   ],
+  "location": "Griffin's Keen",
+  "wayto": {
+    "4004": {
+      "file": "string_procs/wayto/4005_4004.rb"
+    },
+    "4006": {
+      "file": "string_procs/wayto/4005_4006.rb"
+    }
+  },
+  "timeto": {
+    "4004": 4.2,
+    "4006": 4.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     744,
     291,
     754,
     301
   ],
-  "terrain": null,
-  "description": [
-    "Billowing snow tumbles down the mountainside carried on the shrieking wind.  The frozen carcass of a mountain rolton lies wedged into the crease formed where the trail meets the mountainside.  Even through the layers of ice you can see the matted coat has been torn into ragged strips."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Griffin's Keen, Inner Trail]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4004": 4.2,
-    "4006": 4.2
-  },
-  "id": 4005,
-  "location": "Griffin's Keen",
   "tags": [
-    "some pennyroyal stem",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "sprig of holly",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some pennyroyal stem"
   ]
 }

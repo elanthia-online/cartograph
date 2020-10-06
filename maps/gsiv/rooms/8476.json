@@ -1,32 +1,29 @@
 {
-  "wayto": {
-    "8474": "go door"
-  },
+  "id": 8476,
+  "title": [
+    "[Vegetable Garden]"
+  ],
+  "description": [
+    "Wind rustles through the dry stalks of plants in what must have been a small vegetable garden.  The neat rows of plants have all withered and died, but strangely no other damage is evident.  To the north rises the sheer face of the mountain, capped in dark clouds, and a splintered door leads back into the temple to the southeast.",
+    "Wind rustles through the dry stalks of plants in what must have been a small vegetable garden.  The neat rows of plants have all withered and died, but strangely no other damage is evident.  To the north rises the sheer face of the mountain, capped in moonlight-silvered clouds, and a splintered door leads back into the temple to the southeast."
+  ],
   "paths": [
     "Obvious paths: none"
   ],
+  "location": "the Temple of Love",
+  "wayto": {
+    "8474": "go door"
+  },
+  "timeto": {
+    "8474": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     216,
     727,
     226,
     737
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "Wind rustles through the dry stalks of plants in what must have been a small vegetable garden.  The neat rows of plants have all withered and died, but strangely no other damage is evident.  To the north rises the sheer face of the mountain, capped in dark clouds, and a splintered door leads back into the temple to the southeast.",
-    "Wind rustles through the dry stalks of plants in what must have been a small vegetable garden.  The neat rows of plants have all withered and died, but strangely no other damage is evident.  To the north rises the sheer face of the mountain, capped in moonlight-silvered clouds, and a splintered door leads back into the temple to the southeast."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Vegetable Garden]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8474": 0.2
-  },
-  "id": 8476,
-  "location": "the Temple of Love",
   "tags": [
     "some ephlox moss",
     "heath aster",
@@ -38,18 +35,6 @@
     "sweetfern stalk",
     "some pennyroyal stem",
     "stalk of chicory",
-    "moonlight cactus-bloom",
-    "acantha leaf",
-    "wolifrew lichen",
-    "cuctucae berry",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "moonlight cactus-bloom"
   ]
 }

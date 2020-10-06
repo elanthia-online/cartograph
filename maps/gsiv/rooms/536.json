@@ -1,34 +1,31 @@
 {
+  "id": 536,
+  "title": [
+    "[Whistler's Pass, Brambles]"
+  ],
+  "description": [
+    "The brambles thicken to form a short tunnel to the northeast.  The elongated thorns here resemble spears rathar than normal thorns.  The distant cry of a hawk pierces the calm of the night.",
+    "The brambles thicken to form a short tunnel to the northeast.  The elongated thorns here resemble spears rather than normal thorns."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "535": "northeast",
     "537": "south"
   },
-  "paths": [
-    "Obvious paths: northeast, south"
-  ],
+  "timeto": {
+    "535": 0.2,
+    "537": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     783,
     505,
     793,
     515
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "The brambles thicken to form a short tunnel to the northeast.  The elongated thorns here resemble spears rathar than normal thorns.  The distant cry of a hawk pierces the calm of the night.",
-    "The brambles thicken to form a short tunnel to the northeast.  The elongated thorns here resemble spears rather than normal thorns."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Whistler's Pass, Brambles]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "535": 0.2,
-    "537": 0.2
-  },
-  "id": 536,
-  "location": "Whistler's Pass",
   "tags": [
     "cactacae spine",
     "wintergreen leaf",
@@ -59,10 +56,6 @@
     "blue whortleberry",
     "pepperthorn root",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

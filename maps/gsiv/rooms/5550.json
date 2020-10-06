@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "5548": "go door"
-  },
+  "id": 5550,
+  "title": [
+    "[Manor House, Sitting Room]"
+  ],
+  "description": [
+    "Two large armchairs stand near the room's fireplace.  The leather covers of both have been torn off, and the stuffing has been pulled loose and strewn about the room.  Pieces of a broken table lie near the east wall, but the wooden frames of the chairs appear to be intact.  A tanik door is set in the center of the south wall."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "the Outlands",
+  "wayto": {
+    "5548": "go door"
+  },
+  "timeto": {
+    "5548": 0.2
+  },
+  "image": "vo-outlands-1264234799.png",
   "image_coords": [
     1127,
     575,
     1137,
     585
   ],
-  "terrain": "indoors",
-  "description": [
-    "Two large armchairs stand near the room's fireplace.  The leather covers of both have been torn off, and the stuffing has been pulled loose and strewn about the room.  Pieces of a broken table lie near the east wall, but the wooden frames of the chairs appear to be intact.  A tanik door is set in the center of the south wall."
-  ],
-  "image": "vo-outlands-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Manor House, Sitting Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5548": 0.2
-  },
-  "id": 5550,
-  "location": "the Outlands",
   "tags": [
-    "dobrem",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "dobrem"
   ]
 }

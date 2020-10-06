@@ -1,54 +1,42 @@
 {
-  "wayto": {
-    "7464": {
-      "stringproc": "817909f28bfc261890572074067a677d"
-    },
-    "7466": {
-      "stringproc": "6ca1cc833b334ac3c8528f898928a54c"
-    },
-    "7467": {
-      "stringproc": "7a2eac65f450d0a838cf18504abe2ac2"
-    }
-  },
+  "id": 7465,
+  "title": [
+    "[Dark Grotto, Small Tunnel]"
+  ],
+  "description": [
+    "The tunnel branches in three directions here.  The air is still, there is no detectable breeze or air current from any of the branches.  A subtle, bitter odor nags at your palate, leaving a foul taste in your mouth, and irritating your nose and eyes."
+  ],
   "paths": [
     "Obvious exits: north, east, south"
   ],
+  "location": "the Broken Lands",
+  "wayto": {
+    "7464": {
+      "file": "string_procs/wayto/7465_7464.rb"
+    },
+    "7466": {
+      "file": "string_procs/wayto/7465_7466.rb"
+    },
+    "7467": {
+      "file": "string_procs/wayto/7465_7467.rb"
+    }
+  },
+  "timeto": {
+    "7464": 0.2,
+    "7466": 0.2,
+    "7467": 0.2
+  },
+  "image": "wl-broken-1264234799.png",
   "image_coords": [
     807,
     960,
     817,
     970
   ],
-  "terrain": "indoors",
-  "description": [
-    "The tunnel branches in three directions here.  The air is still, there is no detectable breeze or air current from any of the branches.  A subtle, bitter odor nags at your palate, leaving a foul taste in your mouth, and irritating your nose and eyes."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dark Grotto, Small Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7464": 0.2,
-    "7466": 0.2,
-    "7467": 0.2
-  },
-  "id": 7465,
-  "location": "the Broken Lands",
   "tags": [
     "some blackened moss",
     "some cave moss",
     "magru",
-    "some glowing green lichen",
-    "blackened moss",
-    "green lichen",
-    "bone mushroom",
-    "cave moss",
-    "sponge mushroom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some glowing green lichen"
   ]
 }

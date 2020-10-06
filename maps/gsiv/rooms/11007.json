@@ -1,35 +1,34 @@
 {
+  "id": 11007,
+  "title": [
+    "[River Beach]"
+  ],
+  "description": [
+    "The river widens here past the town, opening up and emptying into a large bay of water.  Sand lines the mouth of the river, making it a convenient place for people to sit about and relax.  A path between two ancient, gnarled olive trees leads to the southeast.  The land rises to the southwest, creating a bluff overlooking the bay."
+  ],
+  "paths": [
+    "Obvious paths: east, southeast, southwest"
+  ],
+  "location": "the South River Road",
+  "climate": "moist",
+  "terrain": "riparian",
   "wayto": {
     "11006": "east",
     "11008": "southwest",
     "11012": "southeast"
   },
-  "paths": [
-    "Obvious paths: east, southeast, southwest"
-  ],
+  "timeto": {
+    "11006": 0.2,
+    "11008": 0.2,
+    "11012": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     472,
     926,
     482,
     936
   ],
-  "terrain": "riparian",
-  "description": [
-    "The river widens here past the town, opening up and emptying into a large bay of water.  Sand lines the mouth of the river, making it a convenient place for people to sit about and relax.  A path between two ancient, gnarled olive trees leads to the southeast.  The land rises to the southwest, creating a bluff overlooking the bay."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "moist",
-  "title": [
-    "[River Beach]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11006": 0.2,
-    "11008": 0.2,
-    "11012": 0.2
-  },
-  "id": 11007,
-  "location": "the South River Road",
   "tags": [
     "some acantha leaf",
     "some aloeas stem",
@@ -51,11 +50,6 @@
     "kylan berry",
     "murdroot",
     "wavepetal blossom",
-    "sunburst blossom",
-    "talneo root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sunburst blossom"
   ]
 }

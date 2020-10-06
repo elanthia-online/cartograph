@@ -1,35 +1,28 @@
 {
+  "id": 27015,
+  "title": [
+    "[Keep Aenatumgana, Triage Yard]"
+  ],
+  "description": [
+    "The open-air yard is enclosed by stone walls and the tall tower on the southern side.  At the center of the yard, a wood-burning brazier warms the injured.  Healers and clerics tend to those lying on canvas cots scattered throughout the yard.  The walls are inset with carved reliefs of healing herbs.  Hung near a narrow arch is a communal sack of herbs.  A stone stairway leads up into a hall that projects outward from the wall on corbels.  The stone tower projects a faint illumination over the yard from its glaesine windows."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Keep Aenatumgana, outside the glacier-locked town of Icemule Trace",
   "wayto": {
     "27016": "go stairway",
     "3032": "go arch"
   },
-  "paths": [
-    "Obvious paths: none"
-  ],
+  "timeto": {
+    "27016": 0.2,
+    "3032": 0.2
+  },
+  "image": "imt-keep-aenatumgana.png",
   "image_coords": [
     448,
     695,
     616,
     791
-  ],
-  "terrain": null,
-  "description": [
-    "The open-air yard is enclosed by stone walls and the tall tower on the southern side.  At the center of the yard, a wood-burning brazier warms the injured.  Healers and clerics tend to those lying on canvas cots scattered throughout the yard.  The walls are inset with carved reliefs of healing herbs.  Hung near a narrow arch is a communal sack of herbs.  A stone stairway leads up into a hall that projects outward from the wall on corbels.  The stone tower projects a faint illumination over the yard from its glaesine windows."
-  ],
-  "image": "imt-keep-aenatumgana.png",
-  "climate": null,
-  "title": [
-    "[Keep Aenatumgana, Triage Yard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "27016": 0.2,
-    "3032": 0.2
-  },
-  "id": 27015,
-  "location": "Keep Aenatumgana, outside the glacier-locked town of Icemule Trace",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

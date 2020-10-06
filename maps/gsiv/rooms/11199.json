@@ -1,40 +1,30 @@
 {
-  "wayto": {
-    "11196": "west",
-    "11170": {
-      "stringproc": "0680990f0646805eb745531c0f46b0d1"
-    }
-  },
+  "id": 11199,
+  "title": [
+    "[Garrison, Lieutenant's Quarters]"
+  ],
+  "description": [
+    "This looks to have been a very nice place to hang your hat, at one time.  Now all the furniture has been destroyed or looted, leaving nothing of value behind.  A skeleton lies on what remains of the bed, the skull crushed beyond recognition, and a dark stain covers the remaining bedding and the wall."
+  ],
   "paths": [
     "Obvious exits: west"
   ],
+  "location": "the Citadel",
+  "wayto": {
+    "11196": "west",
+    "11170": {
+      "file": "string_procs/wayto/11199_11170.rb"
+    }
+  },
+  "timeto": {
+    "11196": 0.2,
+    "11170": 1.0
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     599,
     110,
     609,
     120
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This looks to have been a very nice place to hang your hat, at one time.  Now all the furniture has been destroyed or looted, leaving nothing of value behind.  A skeleton lies on what remains of the bed, the skull crushed beyond recognition, and a dark stain covers the remaining bedding and the wall."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Garrison, Lieutenant's Quarters]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11196": 0.2,
-    "11170": 1.0
-  },
-  "id": 11199,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

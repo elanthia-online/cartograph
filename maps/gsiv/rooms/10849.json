@@ -1,34 +1,33 @@
 {
+  "id": 10849,
+  "title": [
+    "[River's Rest, Breakwater]"
+  ],
+  "description": [
+    "The riverwalk ends at a stone breakwater on the eastern end of the island.  The great Tempest River divides here, a smaller branch flowing north, the main branch continuing along the southern side of the island.  A stucco watchtower stands like a ghostly sentinel in the moonlight atop a grassy knoll on the breakwater.",
+    "The riverwalk ends at a stone breakwater on the eastern end of the island.  The great Tempest River divides here, a smaller branch flowing north, the main branch continuing along the southern side of the island.  A stucco watchtower stands atop a grassy knoll on the breakwater."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "the town of River's Rest",
+  "climate": "temperate",
+  "terrain": "riparian",
   "wayto": {
     "10848": "west",
     "10946": "go watchtower"
   },
-  "paths": [
-    "Obvious paths: west"
-  ],
+  "timeto": {
+    "10848": 0.2,
+    "10946": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     907,
     744,
     945,
     782
   ],
-  "terrain": "riparian",
-  "description": [
-    "The riverwalk ends at a stone breakwater on the eastern end of the island.  The great Tempest River divides here, a smaller branch flowing north, the main branch continuing along the southern side of the island.  A stucco watchtower stands like a ghostly sentinel in the moonlight atop a grassy knoll on the breakwater.",
-    "The riverwalk ends at a stone breakwater on the eastern end of the island.  The great Tempest River divides here, a smaller branch flowing north, the main branch continuing along the southern side of the island.  A stucco watchtower stands atop a grassy knoll on the breakwater."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "temperate",
-  "title": [
-    "[River's Rest, Breakwater]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10848": 0.2,
-    "10946": 0.2
-  },
-  "id": 10849,
-  "location": "the town of River's Rest",
   "tags": [
     "some acantha leaf",
     "pepperthorn root",
@@ -66,11 +65,6 @@
     "murdroot",
     "wavepetal blossom",
     "ironfern root",
-    "sunburst blossom",
-    "talneo root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sunburst blossom"
   ]
 }

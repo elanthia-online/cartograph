@@ -1,34 +1,31 @@
 {
+  "id": 79,
+  "title": [
+    "[Whistler's Pass, Hills]"
+  ],
+  "description": [
+    "Matted grass marks the trail down the hill.  The everpresent mist thickens in the night-shrouded valleys between the hills.",
+    "Matted grass marks the trail down the hill.  The everpresent mist thickens in the valleys between the hills."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "78": "east",
     "80": "southwest"
   },
-  "paths": [
-    "Obvious paths: east, southwest"
-  ],
+  "timeto": {
+    "78": 0.2,
+    "80": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     871,
     311,
     881,
     321
   ],
-  "terrain": "hilly",
-  "description": [
-    "Matted grass marks the trail down the hill.  The everpresent mist thickens in the night-shrouded valleys between the hills.",
-    "Matted grass marks the trail down the hill.  The everpresent mist thickens in the valleys between the hills."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Whistler's Pass, Hills]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "78": 0.2,
-    "80": 0.2
-  },
-  "id": 79,
-  "location": "Whistler's Pass",
   "tags": [
     "stick",
     "bloodwood twig",
@@ -87,11 +84,6 @@
     "ebony twig",
     "bolmara lichen",
     "brostheras grass",
-    "sky-blue delphinuris",
-    "mountain dryad",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sky-blue delphinuris"
   ]
 }

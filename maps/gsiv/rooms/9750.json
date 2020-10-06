@@ -1,38 +1,28 @@
 {
+  "id": 9750,
+  "title": [
+    "[Maaghara Tower, Landing]"
+  ],
+  "description": [
+    "Great arching branches come together in the center of the tree, forming a huge cathedral-like hall.  The walls stretching upwards from the landing are a deep, black hue so dark they appear liquid.  Great branch-like structures form a majestic colonnade down the periphery of the huge chamber.  The smooth, expansive floor is broken abruptly in the center of the room by the passage leading down."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Ta'Illistim",
   "wayto": {
     "9746": "down",
     "9751": "climb stairs"
   },
-  "paths": [
-    "Obvious exits: down"
-  ],
+  "timeto": {
+    "9746": 0.2,
+    "9751": 0.2
+  },
+  "image": "en-tower-1264234799.png",
   "image_coords": [
     808,
     437,
     818,
     447
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Great arching branches come together in the center of the tree, forming a huge cathedral-like hall.  The walls stretching upwards from the landing are a deep, black hue so dark they appear liquid.  Great branch-like structures form a majestic colonnade down the periphery of the huge chamber.  The smooth, expansive floor is broken abruptly in the center of the room by the passage leading down."
-  ],
-  "image": "en-tower-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Maaghara Tower, Landing]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9746": 0.2,
-    "9751": 0.2
-  },
-  "id": 9750,
-  "location": "Ta'Illistim",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

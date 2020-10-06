@@ -1,35 +1,32 @@
 {
+  "id": 4291,
+  "title": [
+    "[Lysierian Hills, Rocky Path]"
+  ],
+  "description": [
+    "The path makes a hairpin turn here, following the contour of the hills rising before you.  The rock-strewn path leads more or less downward in both directions, but there is also a faint trail leading up into the foothills."
+  ],
+  "paths": [
+    "Obvious paths: southwest, west"
+  ],
+  "location": "the Lysierian Hills",
   "wayto": {
     "4290": "west",
     "4292": "southwest",
     "6372": "go trail"
   },
-  "paths": [
-    "Obvious paths: southwest, west"
-  ],
+  "timeto": {
+    "4290": 0.2,
+    "4292": 0.2,
+    "6372": 0.2
+  },
+  "image": "wl-lysierian-1264234799.png",
   "image_coords": [
     146,
     402,
     156,
     412
   ],
-  "terrain": "rough",
-  "description": [
-    "The path makes a hairpin turn here, following the contour of the hills rising before you.  The rock-strewn path leads more or less downward in both directions, but there is also a faint trail leading up into the foothills."
-  ],
-  "image": "wl-lysierian-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Lysierian Hills, Rocky Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4290": 0.2,
-    "4292": 0.2,
-    "6372": 0.2
-  },
-  "id": 4291,
-  "location": "the Lysierian Hills",
   "tags": [
     "wild strawberry",
     "wintergreen leaf",
@@ -47,24 +44,6 @@
     "black bear",
     "fiddlehead fern",
     "purple clover blossom",
-    "wild gooseberry",
-    "bright red teaberry",
-    "blueberries",
-    "elderberries",
-    "wild grapes",
-    "broken twig",
-    "sprig of alyssum",
-    "heath aster",
-    "golden buttercup",
-    "stalk of goldenrod",
-    "yellow primrose",
-    "small wild rose",
-    "motherwort",
-    "pepperthorn root",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wild gooseberry"
   ]
 }

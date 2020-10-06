@@ -1,41 +1,32 @@
 {
+  "id": 12010,
+  "title": [
+    "[Aqueduct]"
+  ],
+  "description": [
+    "On the outside of this bend in the aqueduct, a skeleton sits in the cold water and reclines against the granite wall.  Not a bit of flesh remains on the skeleton's frame.  The skeleton's upper legs, partially buried in the thin layer of sediment on the tunnel's bottom, both appear to be broken, and the skull has been smashed in on one side as if from the blow of some blunt instrument.  How long the skeleton has been here is anyone's guess."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "Old Ta'Faendryl",
   "wayto": {
     "12009": "north",
     "12011": "west"
   },
-  "paths": [
-    "Obvious exits: north, west"
-  ],
+  "timeto": {
+    "12009": 0.2,
+    "12011": 0.2
+  },
+  "image": "en-old_ta_faendryl-1264234799.png",
   "image_coords": [
     388,
     319,
     398,
     329
   ],
-  "terrain": "indoors",
-  "description": [
-    "On the outside of this bend in the aqueduct, a skeleton sits in the cold water and reclines against the granite wall.  Not a bit of flesh remains on the skeleton's frame.  The skeleton's upper legs, partially buried in the thin layer of sediment on the tunnel's bottom, both appear to be broken, and the skull has been smashed in on one side as if from the blow of some blunt instrument.  How long the skeleton has been here is anyone's guess."
-  ],
-  "image": "en-old_ta_faendryl-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Aqueduct]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "12009": 0.2,
-    "12011": 0.2
-  },
-  "id": 12010,
-  "location": "Old Ta'Faendryl",
   "tags": [
     "some wingstem root",
-    "murdroot",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "murdroot"
   ]
 }

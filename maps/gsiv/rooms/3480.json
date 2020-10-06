@@ -1,47 +1,40 @@
 {
-  "wayto": {
-    "3475": {
-      "stringproc": "96f762a3c5540f71716927f4f186a4fa"
-    },
-    "3481": {
-      "stringproc": "2b4af1354e22d2a4bbc0aa605e096470"
-    },
-    "3482": {
-      "stringproc": "a1bd023500a3a9633d7c708d74ed9e8f"
-    }
-  },
+  "id": 3480,
+  "title": [
+    "[Deep Freeze, Cave of Ice]"
+  ],
+  "description": [
+    "Something very heavy has trampled through the area, packing snow into the icy ground and making it very slippery.  If it weren't for the feeling of imminent danger, you might actually enjoy spending more time exploring -- as it is, you dare not linger too long."
+  ],
   "paths": [
     "Obvious exits: north, south, west"
   ],
+  "location": "the Icemule Trail",
+  "wayto": {
+    "3475": {
+      "file": "string_procs/wayto/3480_3475.rb"
+    },
+    "3481": {
+      "file": "string_procs/wayto/3480_3481.rb"
+    },
+    "3482": {
+      "file": "string_procs/wayto/3480_3482.rb"
+    }
+  },
+  "timeto": {
+    "3475": 0.2,
+    "3481": 0.2,
+    "3482": 0.2
+  },
+  "image": "imt-trail-1264234799.png",
   "image_coords": [
     888,
     688,
     898,
     698
   ],
-  "terrain": "indoors",
-  "description": [
-    "Something very heavy has trampled through the area, packing snow into the icy ground and making it very slippery.  If it weren't for the feeling of imminent danger, you might actually enjoy spending more time exploring -- as it is, you dare not linger too long."
-  ],
-  "image": "imt-trail-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Deep Freeze, Cave of Ice]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3475": 0.2,
-    "3481": 0.2,
-    "3482": 0.2
-  },
-  "id": 3480,
-  "location": "the Icemule Trail",
   "tags": [
     "arctic moss",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

@@ -1,45 +1,26 @@
 {
-  "wayto": {
-    "8008": "north"
-  },
+  "id": 8012,
+  "title": [
+    "[Kobold Mines, Storage]"
+  ],
+  "description": [
+    "A tiny, crowded and narrow cave apparently used as storage.  Piles of crude picks and shovels lie heaped everywhere to rust and rot in the damp air.  The remains of several greasy animal skin sacks give off the pungent scent of some sort of oil but appear to be beyond use.  A large pile of crushed and bent iron caps sit, heaped in one corner, next to a broken anvil where they were repaired."
+  ],
   "paths": [
     "Obvious exits: north"
   ],
+  "location": "the old Mine Road",
+  "wayto": {
+    "8008": "north"
+  },
+  "timeto": {
+    "8008": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     105,
     943,
     115,
     953
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A tiny, crowded and narrow cave apparently used as storage.  Piles of crude picks and shovels lie heaped everywhere to rust and rot in the damp air.  The remains of several greasy animal skin sacks give off the pungent scent of some sort of oil but appear to be beyond use.  A large pile of crushed and bent iron caps sit, heaped in one corner, next to a broken anvil where they were repaired."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Kobold Mines, Storage]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8008": 0.2
-  },
-  "id": 8012,
-  "location": "the old Mine Road",
-  "tags": [
-    "soft white mushroom",
-    "withered black mushroom",
-    "black hook mushroom",
-    "white hook mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

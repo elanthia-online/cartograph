@@ -1,39 +1,33 @@
 {
+  "id": 2337,
+  "title": [
+    "[Hall of Madness]"
+  ],
+  "description": [
+    "The chamber is so shadowy, its spatial limits are uncertain.  Its walls are covered in carved symbols.  Strobes of light play across the walls, creating a disturbing, disorienting fog in the mind of anyone occupying the chamber for any length of time.  The flaring lights emanating from shadowy, concealed corners of the chamber briefly illuminate an altar standing in the room's center."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, west"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "2336": "west",
     "2338": "northeast",
     "2342": "southeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southeast, west"
-  ],
+  "timeto": {
+    "2336": 0.2,
+    "2338": 0.2,
+    "2342": 0.2
+  },
+  "image": "imt-temple-1512640476.png",
   "image_coords": [
     1144,
     674,
     1308,
     852
   ],
-  "terrain": null,
-  "description": [
-    "The chamber is so shadowy, its spatial limits are uncertain.  Its walls are covered in carved symbols.  Strobes of light play across the walls, creating a disturbing, disorienting fog in the mind of anyone occupying the chamber for any length of time.  The flaring lights emanating from shadowy, concealed corners of the chamber briefly illuminate an altar standing in the room's center."
-  ],
-  "image": "imt-temple-1512640476.png",
-  "climate": null,
-  "title": [
-    "[Hall of Madness]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2336": 0.2,
-    "2338": 0.2,
-    "2342": 0.2
-  },
-  "id": 2337,
-  "location": "Icemule Trace",
   "tags": [
     "zelia"
-  ],
-  "links": [
-
   ]
 }

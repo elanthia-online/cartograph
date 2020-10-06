@@ -1,40 +1,30 @@
 {
-  "wayto": {
-    "7437": "out",
-    "6626": {
-      "stringproc": "bf98a1a5da3e7a71e7c13bfb347e31a3"
-    }
-  },
+  "id": 7436,
+  "title": [
+    "[The Broken Lands, Cavern]"
+  ],
+  "description": [
+    "The ceiling and floor of this small cavern are dotted with stalactites and stalagmites of various sizes.  Near one wall of the cavern, a particularly large stalactite dips down from the ceiling of the cavern, almost touching the tip of a matching stalagmite that rises from the cavern floor."
+  ],
   "paths": [
     "Obvious exits: out"
   ],
+  "location": "the Broken Lands",
+  "wayto": {
+    "7437": "out",
+    "6626": {
+      "file": "string_procs/wayto/7436_6626.rb"
+    }
+  },
+  "timeto": {
+    "7437": 0.2,
+    "6626": 0.2
+  },
+  "image": "wl-broken-1264234799.png",
   "image_coords": [
     502,
     899,
     512,
     909
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The ceiling and floor of this small cavern are dotted with stalactites and stalagmites of various sizes.  Near one wall of the cavern, a particularly large stalactite dips down from the ceiling of the cavern, almost touching the tip of a matching stalagmite that rises from the cavern floor."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[The Broken Lands, Cavern]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7437": 0.2,
-    "6626": 0.2
-  },
-  "id": 7436,
-  "location": "the Broken Lands",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

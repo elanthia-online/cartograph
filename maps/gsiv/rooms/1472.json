@@ -1,43 +1,35 @@
 {
+  "id": 1472,
+  "title": [
+    "[Solhaven, North Market South]"
+  ],
+  "description": [
+    "A young lad in a tattered tunic sits begging in front of a half-timber store, fending off any that would encroach on his domain with a deadly glare.  To the north, the hawking of merchants, arguments of bargainers and shuffle of wares and boots combine to form an almost pleasant din."
+  ],
+  "paths": [
+    "Obvious paths: north, east, west"
+  ],
+  "location": "the free port of Solhaven",
   "wayto": {
     "13238": "go shop",
     "1460": "east",
     "1438": "north",
     "1473": "west"
   },
-  "paths": [
-    "Obvious paths: north, east, west"
-  ],
-  "image_coords": [
-    941,
-    639,
-    965,
-    663
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "A young lad in a tattered tunic sits begging in front of a half-timber store, fending off any that would encroach on his domain with a deadly glare.  To the north, the hawking of merchants, arguments of bargainers and shuffle of wares and boots combine to form an almost pleasant din."
-  ],
-  "image": "vo-solhaven-1263764670.png",
-  "climate": "temperate",
-  "title": [
-    "[Solhaven, North Market South]"
-  ],
-  "check_location": null,
   "timeto": {
     "13238": 0.2,
     "1460": 0.2,
     "1438": 0.2,
     "1473": 0.2
   },
-  "id": 1472,
-  "location": "the free port of Solhaven",
-  "tags": [
-    "advpickup",
-    "no forageables",
-    "meta:forage-sensed"
+  "image": "vo-solhaven-1263764670.png",
+  "image_coords": [
+    941,
+    639,
+    965,
+    663
   ],
-  "links": [
-
+  "tags": [
+    "advpickup"
   ]
 }

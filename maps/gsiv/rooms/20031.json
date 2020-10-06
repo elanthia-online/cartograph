@@ -1,42 +1,35 @@
 {
+  "id": 20031,
+  "title": [
+    "[Cleric Guild, Training Foyer]"
+  ],
+  "description": [
+    "Ruddy light, rippling with the intensity of the heat held back by the glaes walls illuminates the passageway that leads into the depths of the training annex.  As beautiful and deadly as an exotic snake, the veins of lava undulating through the depths of the volcano, visible behind the glaes, boast all the shades of red from the duskiest red-black of a dying ember to the most brilliant orange ever produced by a sunset.  A smoothly carved archway stands in the north wall, placed strategically between veins of lava."
+  ],
+  "paths": [
+    "Obvious exits: north, west, out"
+  ],
+  "location": "Kharam-Dzu",
   "wayto": {
     "20030": "out",
     "20042": "west",
     "20043": "north",
     "20032": "go archway"
   },
-  "paths": [
-    "Obvious exits: north, west, out"
-  ],
-  "image_coords": [
-    77,
-    199,
-    110,
-    233
-  ],
-  "terrain": null,
-  "description": [
-    "Ruddy light, rippling with the intensity of the heat held back by the glaes walls illuminates the passageway that leads into the depths of the training annex.  As beautiful and deadly as an exotic snake, the veins of lava undulating through the depths of the volcano, visible behind the glaes, boast all the shades of red from the duskiest red-black of a dying ember to the most brilliant orange ever produced by a sunset.  A smoothly carved archway stands in the north wall, placed strategically between veins of lava."
-  ],
-  "image": "ti-Cleric_Guild-1267238976.jpg",
-  "climate": null,
-  "title": [
-    "[Cleric Guild, Training Foyer]"
-  ],
-  "check_location": null,
   "timeto": {
     "20030": 0.2,
     "20042": 0.2,
     "20043": 0.2,
     "20032": 0.2
   },
-  "id": 20031,
-  "location": "Kharam-Dzu",
+  "image": "ti-Cleric_Guild-1267238976.jpg",
+  "image_coords": [
+    77,
+    199,
+    110,
+    233
+  ],
   "tags": [
     "cleric alchemy administrator"
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

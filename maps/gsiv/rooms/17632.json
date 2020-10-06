@@ -1,42 +1,31 @@
 {
+  "id": 17632,
+  "title": [
+    "[Silken Mist, Hallway]"
+  ],
+  "description": [
+    "A small but very detailed crystal chandelier is hanging from the ceiling, and a strategically placed air vent is causing the tiny glassine shards of the lamp to musically tinkle against each other.  There is no light coming from the chandelier, rather it seems to only serve as a ornamental mobile."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
   "wayto": {
     "17629": "south",
     "17633": "go carved door",
     "17634": "go glass-inlaid door",
     "17635": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
-  "image_coords": [
-    481,
-    1541,
-    501,
-    1562
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A small but very detailed crystal chandelier is hanging from the ceiling, and a strategically placed air vent is causing the tiny glassine shards of the lamp to musically tinkle against each other.  There is no light coming from the chandelier, rather it seems to only serve as a ornamental mobile."
-  ],
-  "image": "ifw-isle_of_four_winds-1310232949.png",
-  "climate": "indoors",
-  "title": [
-    "[Silken Mist, Hallway]"
-  ],
-  "check_location": null,
   "timeto": {
     "17629": 0.2,
     "17633": 0.2,
     "17634": 0.2,
     "17635": 0.2
   },
-  "id": 17632,
-  "location": "Silken Mist on Four Winds Isle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "ifw-isle_of_four_winds-1310232949.png",
+  "image_coords": [
+    481,
+    1541,
+    501,
+    1562
   ]
 }

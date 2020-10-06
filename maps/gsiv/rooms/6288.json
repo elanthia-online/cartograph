@@ -1,33 +1,30 @@
 {
+  "id": 6288,
+  "title": [
+    "[Dirt Mines, Dark Tunnel]"
+  ],
+  "description": [
+    "The air is thick with the scent of earth and the walls are warm and crumbly to the touch.  A few rickety timbers prop up the ceiling and walls where the earth seems to long to embrace itself again, along with any surface creatures foolish enough to stand in the way."
+  ],
+  "paths": [
+    "Obvious exits: north, southwest"
+  ],
+  "location": "the Lower Dragonsclaw",
   "wayto": {
     "6289": "north",
     "6287": "southwest"
   },
-  "paths": [
-    "Obvious exits: north, southwest"
-  ],
+  "timeto": {
+    "6289": 0.2,
+    "6287": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     256,
     165,
     266,
     175
   ],
-  "terrain": "indoors",
-  "description": [
-    "The air is thick with the scent of earth and the walls are warm and crumbly to the touch.  A few rickety timbers prop up the ceiling and walls where the earth seems to long to embrace itself again, along with any surface creatures foolish enough to stand in the way."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dirt Mines, Dark Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6289": 0.2,
-    "6287": 0.2
-  },
-  "id": 6288,
-  "location": "the Lower Dragonsclaw",
   "tags": [
     "some pothinir grass",
     "some cave moss",
@@ -37,10 +34,6 @@
     "cave moss",
     "murdroot",
     "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bur-clover root"
   ]
 }

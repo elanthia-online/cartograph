@@ -1,42 +1,32 @@
 {
+  "id": 9920,
+  "title": [
+    "[The Feystone Inn, Entry]"
+  ],
+  "description": [
+    "The entry hall of the inn is small and stuffy, smelling as if the place hasn't been aired out in years.  A ratty tapestry covers the wall opposite the front entrance, its fabric too moth-eaten to discern what the scene upon it may have once depicted.  Raucous noise comes from behind a swinging door in the south wall."
+  ],
+  "paths": [
+    "Obvious exits: north, out"
+  ],
+  "location": "Ta'Illistim",
   "wayto": {
     "9921": "north",
     "9922": "go staircase",
     "658": "out",
     "15608": "go door"
   },
-  "paths": [
-    "Obvious exits: north, out"
-  ],
-  "image_coords": [
-    433,
-    613,
-    443,
-    623
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The entry hall of the inn is small and stuffy, smelling as if the place hasn't been aired out in years.  A ratty tapestry covers the wall opposite the front entrance, its fabric too moth-eaten to discern what the scene upon it may have once depicted.  Raucous noise comes from behind a swinging door in the south wall."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[The Feystone Inn, Entry]"
-  ],
-  "check_location": null,
   "timeto": {
     "9921": 0.2,
     "9922": 0.2,
     "658": 0.2,
     "15608": 0.2
   },
-  "id": 9920,
-  "location": "Ta'Illistim",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-sylvarraend-1264234799.png",
+  "image_coords": [
+    433,
+    613,
+    443,
+    623
   ]
 }

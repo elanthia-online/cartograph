@@ -1,38 +1,35 @@
 {
+  "id": 2558,
+  "title": [
+    "[Glatoph, Glacier]"
+  ],
+  "description": [
+    "The way to the east ends in an icy abyss.  The chasm's bottom cannot be seen, and you move carefully away from the edge, hoping the wind will not shove you over and to your death.",
+    "The way to the east ends in an icy abyss.  Stinging snow and darkness make it impossible to see to the chasm's bottom, and you move carefully away from the edge, hoping the wind will not shove you over and to your death."
+  ],
+  "paths": [
+    "Obvious paths: southwest, west, northwest"
+  ],
+  "location": "Glatoph",
   "wayto": {
     "2557": "go chasm",
     "2559": "northwest",
     "3559": "west",
     "3550": "southwest"
   },
-  "paths": [
-    "Obvious paths: southwest, west, northwest"
-  ],
-  "image_coords": [
-    1082,
-    538,
-    1092,
-    548
-  ],
-  "terrain": "mountainous",
-  "description": [
-    "The way to the east ends in an icy abyss.  The chasm's bottom cannot be seen, and you move carefully away from the edge, hoping the wind will not shove you over and to your death.",
-    "The way to the east ends in an icy abyss.  Stinging snow and darkness make it impossible to see to the chasm's bottom, and you move carefully away from the edge, hoping the wind will not shove you over and to your death."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Glatoph, Glacier]"
-  ],
-  "check_location": null,
   "timeto": {
     "2557": 0.2,
     "2559": 0.2,
     "3559": 0.2,
     "3550": 0.2
   },
-  "id": 2558,
-  "location": "Glatoph",
+  "image": "wl-danjirland-1264234799.png",
+  "image_coords": [
+    1082,
+    538,
+    1092,
+    548
+  ],
   "tags": [
     "some valerian root",
     "arctic titan",
@@ -45,10 +42,6 @@
     "valerian root",
     "pennyroyal stem",
     "sprig of holly",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

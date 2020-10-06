@@ -1,35 +1,32 @@
 {
-  "wayto": {
-    "6136": {
-      "stringproc": "cebe50333ee9575f0d858e2b65d12e2c"
-    },
-    "6134": "north"
-  },
+  "id": 6135,
+  "title": [
+    "[Krag Slopes]"
+  ],
+  "description": [
+    "The shrieking wind races across the frozen ground and slams against the rugged wall which rises sharply to the south.  To one side a sizeable stone chest lies on its side, firmly imbedded in the lava that spilled over it years ago."
+  ],
   "paths": [
     "Obvious paths: north"
   ],
+  "location": "the Krag slopes",
+  "wayto": {
+    "6136": {
+      "file": "string_procs/wayto/6135_6136.rb"
+    },
+    "6134": "north"
+  },
+  "timeto": {
+    "6136": 0.2,
+    "6134": 0.2
+  },
+  "image": "wl-wehntoph-1310775397.png",
   "image_coords": [
     1243,
     959,
     1279,
     995
   ],
-  "terrain": null,
-  "description": [
-    "The shrieking wind races across the frozen ground and slams against the rugged wall which rises sharply to the south.  To one side a sizeable stone chest lies on its side, firmly imbedded in the lava that spilled over it years ago."
-  ],
-  "image": "wl-wehntoph-1310775397.png",
-  "climate": null,
-  "title": [
-    "[Krag Slopes]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6136": 0.2,
-    "6134": 0.2
-  },
-  "id": 6135,
-  "location": "the Krag slopes",
   "tags": [
     "some bolmara lichen",
     "some pennyroyal stem",
@@ -50,8 +47,5 @@
     "ironfern root",
     "bolmara lichen",
     "wingstem root"
-  ],
-  "links": [
-
   ]
 }

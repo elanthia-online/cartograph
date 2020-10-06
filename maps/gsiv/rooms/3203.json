@@ -1,35 +1,32 @@
 {
+  "id": 3203,
+  "title": [
+    "[Snowflake Vale, Forest]"
+  ],
+  "description": [
+    "Several broken snares and traps are scattered at the base of a tall fir tree.  Some of the traps are half-covered by snow, causing you to step very cautiously, lest you accidentally set one off yourself."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south, northwest"
+  ],
+  "location": "the southern snowfields",
   "wayto": {
     "3202": "south",
     "3204": "northeast",
     "3197": "northwest"
   },
-  "paths": [
-    "Obvious paths: northeast, south, northwest"
-  ],
+  "timeto": {
+    "3202": 0.2,
+    "3204": 0.2,
+    "3197": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     172,
     1204,
     182,
     1214
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "Several broken snares and traps are scattered at the base of a tall fir tree.  Some of the traps are half-covered by snow, causing you to step very cautiously, lest you accidentally set one off yourself."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Snowflake Vale, Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3202": 0.2,
-    "3204": 0.2,
-    "3197": 0.2
-  },
-  "id": 3203,
-  "location": "the southern snowfields",
   "tags": [
     "tkaro root",
     "snow lily",
@@ -41,36 +38,6 @@
     "some tree bark",
     "rockberry",
     "some angelica root",
-    "some bolmara lichen",
-    "sticks",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "iceblossoms",
-    "winter rose",
-    "bright red teaberry",
-    "handful of pinenuts",
-    "broken twig",
-    "pine cone",
-    "pine needles",
-    "frostweed",
-    "snowberries",
-    "pale thornberry",
-    "small loganberry",
-    "tree bark",
-    "frostflower",
-    "crowberry",
-    "lingonberry",
-    "orange rowanberry",
-    "ironfern root",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some bolmara lichen"
   ]
 }

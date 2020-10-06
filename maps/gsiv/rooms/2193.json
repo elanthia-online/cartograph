@@ -1,44 +1,36 @@
 {
+  "id": 2193,
+  "title": [
+    "[Eye of V'Tull, Crystal Chamber]"
+  ],
+  "description": [
+    "Low steady vibrations shake the area violently as V'Tull protests the forces reshaping it.  The vibrations have shattered many of the crystal stalactites leaving the floor with a mixed cover of shards and ash while whiffs of steam and sulferous gasses dance in the small whirlwinds on the currents of hot air."
+  ],
+  "paths": [
+    "Obvious exits: north, west, northwest"
+  ],
+  "location": "the Eye of V'Tull",
   "wayto": {
     "2192": "north",
     "2194": "northwest",
     "2195": "west"
   },
-  "paths": [
-    "Obvious exits: north, west, northwest"
-  ],
+  "timeto": {
+    "2192": 0.2,
+    "2194": 0.2,
+    "2195": 0.2
+  },
+  "image": "ti-vtull-1264234799.png",
   "image_coords": [
     895,
     575,
     903,
     583
   ],
-  "terrain": "indoors",
-  "description": [
-    "Low steady vibrations shake the area violently as V'Tull protests the forces reshaping it.  The vibrations have shattered many of the crystal stalactites leaving the floor with a mixed cover of shards and ash while whiffs of steam and sulferous gasses dance in the small whirlwinds on the currents of hot air."
-  ],
-  "image": "ti-vtull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Eye of V'Tull, Crystal Chamber]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2192": 0.2,
-    "2194": 0.2,
-    "2195": 0.2
-  },
-  "id": 2193,
-  "location": "the Eye of V'Tull",
   "tags": [
     "some cave moss",
     "black trafel mushroom",
     "daggerstalk mushroom",
-    "pepperthorn root",
-    "cave moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "pepperthorn root"
   ]
 }

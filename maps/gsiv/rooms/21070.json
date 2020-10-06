@@ -1,46 +1,32 @@
 {
-  "wayto": {
-    "21069": {
-      "stringproc": "9506d600680c4c3023b27f245fc72958"
-    },
-    "21071": {
-      "stringproc": "25b57a47fa24e6f4eea217034f76e70e"
-    }
-  },
+  "id": 21070,
+  "title": [
+    "[Alhan'aht River, The Divide]"
+  ],
+  "description": [
+    "Roughly churning, the river carves a path through the smooth granite bedrock that is the foundation of the surrounding hills.  Dips and gullies cause the water to drop from various heights as it moves in a northern direction away from the large mountain that looms in the southwest."
+  ],
   "paths": [
     "Obvious paths: northeast, south"
   ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "21069": {
+      "file": "string_procs/wayto/21070_21069.rb"
+    },
+    "21071": {
+      "file": "string_procs/wayto/21070_21071.rb"
+    }
+  },
+  "timeto": {
+    "21069": 2.0,
+    "21071": 2.0
+  },
+  "image": "ifw-wilds-1368242816.png",
   "image_coords": [
     1498,
     2081,
     1517,
     2101
-  ],
-  "terrain": "riparian",
-  "description": [
-    "Roughly churning, the river carves a path through the smooth granite bedrock that is the foundation of the surrounding hills.  Dips and gullies cause the water to drop from various heights as it moves in a northern direction away from the large mountain that looms in the southwest."
-  ],
-  "image": "ifw-wilds-1368242816.png",
-  "climate": "freshwater",
-  "title": [
-    "[Alhan'aht River, The Divide]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "21069": 2.0,
-    "21071": 2.0
-  },
-  "id": 21070,
-  "location": "Mist Harbor",
-  "tags": [
-    "stalk of cattail",
-    "murdroot",
-    "wavepetal blossom",
-    "sunburst blossom",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

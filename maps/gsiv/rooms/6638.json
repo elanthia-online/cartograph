@@ -1,38 +1,28 @@
 {
+  "id": 6638,
+  "title": [
+    "[Monastery, Stone Corridor]"
+  ],
+  "description": [
+    "This plain stone corridor is unremarkable except for the lit torches resting in brass sconces mounted on the walls at five foot intervals.  A light draft can be felt moving down the corridor from the west.  The corridor continues to the east and west."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Broken Lands",
   "wayto": {
     "6637": "east",
     "6639": "west"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "6637": 0.2,
+    "6639": 0.2
+  },
+  "image": "wl-broken-1264234799.png",
   "image_coords": [
     251,
     1182,
     261,
     1192
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This plain stone corridor is unremarkable except for the lit torches resting in brass sconces mounted on the walls at five foot intervals.  A light draft can be felt moving down the corridor from the west.  The corridor continues to the east and west."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Monastery, Stone Corridor]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6637": 0.2,
-    "6639": 0.2
-  },
-  "id": 6638,
-  "location": "the Broken Lands",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

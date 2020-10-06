@@ -1,1 +1,2 @@
-move 'go mud'; waitrt?
+move 'go mud'
+ waitrt?

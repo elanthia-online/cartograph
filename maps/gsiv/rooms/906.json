@@ -1,42 +1,35 @@
 {
+  "id": 906,
+  "title": [
+    "[Whistler's Pass, Tunnel]"
+  ],
+  "description": [
+    "The few pebbles and finger-sized stone chips scattered across the stone floor do little to deter your passage through the tunnel.  A low, deep sound emanates from somewhere in the area and moves along the floor in rhythmic waves."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "907": "southeast",
     "905": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southeast"
-  ],
+  "timeto": {
+    "907": 0.2,
+    "905": 0.2
+  },
+  "image": "en-whistlers_pass-1264234799.png",
   "image_coords": [
     385,
     290,
     395,
     300
   ],
-  "terrain": "indoors",
-  "description": [
-    "The few pebbles and finger-sized stone chips scattered across the stone floor do little to deter your passage through the tunnel.  A low, deep sound emanates from somewhere in the area and moves along the floor in rhythmic waves."
-  ],
-  "image": "en-whistlers_pass-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Whistler's Pass, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "907": 0.2,
-    "905": 0.2
-  },
-  "id": 906,
-  "location": "Whistler's Pass",
   "tags": [
     "white hook mushroom",
     "cave moss",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

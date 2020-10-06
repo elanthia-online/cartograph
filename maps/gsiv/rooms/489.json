@@ -1,33 +1,30 @@
 {
+  "id": 489,
+  "title": [
+    "[Coastal Cliffs]"
+  ],
+  "description": [
+    "Your nose tingles, not unpleasantly, as the briny smell of the Darkstone mixes with the green, mossy aroma of the forest.  The rough, cracked bark of the tree trunks, dampened by the salty breeze, give off a pungent, woody scent."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "490": "southwest",
     "488": "east"
   },
-  "paths": [
-    "Obvious paths: east, southwest"
-  ],
+  "timeto": {
+    "490": 0.2,
+    "488": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     362,
     758,
     372,
     768
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "Your nose tingles, not unpleasantly, as the briny smell of the Darkstone mixes with the green, mossy aroma of the forest.  The rough, cracked bark of the tree trunks, dampened by the salty breeze, give off a pungent, woody scent."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Coastal Cliffs]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "490": 0.2,
-    "488": 0.2
-  },
-  "id": 489,
-  "location": "the Coastal Cliffs",
   "tags": [
     "blue trafel mushroom",
     "some acantha leaf",
@@ -74,10 +71,6 @@
     "twisted twig",
     "slender twig",
     "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

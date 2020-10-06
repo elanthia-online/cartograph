@@ -1,41 +1,31 @@
 {
+  "id": 5615,
+  "title": [
+    "[Vornavis, The Bog]"
+  ],
+  "description": [
+    "The road crumbles at the edges here, and even the center of the path is soft enough to give underfoot.  Puddles stagnate on the path, creating a foul, oppressive odor that hangs constantly in the still air.  Mosquitoes swarm around travelers as they splash along the path, looking for a bit of exposed flesh for a quick meal."
+  ],
+  "paths": [
+    "Obvious paths: north, east"
+  ],
+  "location": "the plains of Vornavis",
   "wayto": {
     "5614": "north",
     "5616": "east"
   },
-  "paths": [
-    "Obvious paths: north, east"
-  ],
+  "timeto": {
+    "5614": 0.2,
+    "5616": 0.2
+  },
+  "image": "vo-caravansary-1264234799.png",
   "image_coords": [
     412,
     529,
     422,
     539
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "The road crumbles at the edges here, and even the center of the path is soft enough to give underfoot.  Puddles stagnate on the path, creating a foul, oppressive odor that hangs constantly in the still air.  Mosquitoes swarm around travelers as they splash along the path, looking for a bit of exposed flesh for a quick meal."
-  ],
-  "image": "vo-caravansary-1264234799.png",
-  "climate": "moist",
-  "title": [
-    "[Vornavis, The Bog]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5614": 0.2,
-    "5616": 0.2
-  },
-  "id": 5615,
-  "location": "the plains of Vornavis",
   "tags": [
-    "spotted heart mushroom",
-    "broken twig",
-    "wild chokecherry",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "spotted heart mushroom"
   ]
 }

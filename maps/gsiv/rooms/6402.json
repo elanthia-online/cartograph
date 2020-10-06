@@ -1,43 +1,32 @@
 {
-  "wayto": {
-    "6401": "southeast"
-  },
+  "id": 6402,
+  "title": [
+    "[Blackened Cave, Cavern]"
+  ],
+  "description": [
+    "This cavern looks like it's hollowed out of obsidian -- hollowed out by the massive fist of nature.  Sharp obsidian shards cover the ground, crunching with every step you take."
+  ],
   "paths": [
     "Obvious exits: southeast"
   ],
+  "location": "the Lysierian Hills",
+  "wayto": {
+    "6401": "southeast"
+  },
+  "timeto": {
+    "6401": 0.2
+  },
+  "image": "wl-lysierian-1264234799.png",
   "image_coords": [
     328,
     380,
     338,
     390
   ],
-  "terrain": "indoors",
-  "description": [
-    "This cavern looks like it's hollowed out of obsidian -- hollowed out by the massive fist of nature.  Sharp obsidian shards cover the ground, crunching with every step you take."
-  ],
-  "image": "wl-lysierian-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Blackened Cave, Cavern]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6401": 0.2
-  },
-  "id": 6402,
-  "location": "the Lysierian Hills",
   "tags": [
     "some cave moss",
     "fire rat",
     "fire cat",
-    "striped warcat",
-    "daggerstalk mushroom",
-    "black trafel mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "striped warcat"
   ]
 }

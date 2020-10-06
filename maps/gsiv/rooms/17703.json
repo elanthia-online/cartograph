@@ -1,41 +1,30 @@
 {
+  "id": 17703,
+  "title": [
+    "[Citadel, Workshop]"
+  ],
+  "description": [
+    "Black scorch marks create a sporadic circle that fills the open floor space of west side of the workshop.  Within the circle, the floor is covered in claw marks and scratches, which end abruptly at the black marks, leaving the remainder of the stone flooring in pristine condition."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
   "wayto": {
     "17702": "east",
     "17704": "go door"
   },
-  "paths": [
-    "Obvious exits: east"
-  ],
+  "timeto": {
+    "17702": 0.2,
+    "17704": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     364,
     1165,
     374,
     1175
   ],
-  "terrain": "indoors",
-  "description": [
-    "Black scorch marks create a sporadic circle that fills the open floor space of west side of the workshop.  Within the circle, the floor is covered in claw marks and scratches, which end abruptly at the black marks, leaving the remainder of the stone flooring in pristine condition."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Citadel, Workshop]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "17702": 0.2,
-    "17704": 0.2
-  },
-  "id": 17703,
-  "location": "the Citadel",
   "tags": [
-    "black trafel mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "black trafel mushroom"
   ]
 }

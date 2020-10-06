@@ -1,45 +1,42 @@
 {
-  "wayto": {
-    "5867": {
-      "stringproc": "a7859aab79946cef82a03676d6e865f0"
-    },
-    "5892": {
-      "stringproc": "21fa310b92b918c695dd9c722669d08e"
-    },
-    "5869": {
-      "stringproc": "3a8e2414eb510672b3a80f0170908a79"
-    },
-    "5893": {
-      "stringproc": "afe52f1ab1437e75024c51b49b0ef484"
-    }
-  },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
-  "image_coords": [
-    423,
-    669,
-    431,
-    676
-  ],
-  "terrain": null,
-  "description": [
-    "Headstones flank both sides of the gravel path here.  Weatherworn, the headstones in this area are obviously older than those which follow the fence enclosing the cemetery.  The gravel path crunches underfoot, but provides an easy route to follow."
-  ],
-  "image": "en-cemetery-1264234799.png",
-  "climate": null,
+  "id": 5868,
   "title": [
     "[Glaise Cnoc, Cemetery]"
   ],
-  "check_location": null,
+  "description": [
+    "Headstones flank both sides of the gravel path here.  Weatherworn, the headstones in this area are obviously older than those which follow the fence enclosing the cemetery.  The gravel path crunches underfoot, but provides an easy route to follow."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Glaise Cnoc Cemetary",
+  "wayto": {
+    "5867": {
+      "file": "string_procs/wayto/5868_5867.rb"
+    },
+    "5892": {
+      "file": "string_procs/wayto/5868_5892.rb"
+    },
+    "5869": {
+      "file": "string_procs/wayto/5868_5869.rb"
+    },
+    "5893": {
+      "file": "string_procs/wayto/5868_5893.rb"
+    }
+  },
   "timeto": {
     "5867": 1.0,
     "5892": 1.0,
     "5869": 0.8,
     "5893": 0.8
   },
-  "id": 5868,
-  "location": "the Glaise Cnoc Cemetary",
+  "image": "en-cemetery-1264234799.png",
+  "image_coords": [
+    423,
+    669,
+    431,
+    676
+  ],
   "tags": [
     "trollfear mushroom",
     "blaestonberry blossom",
@@ -127,8 +124,5 @@
   ],
   "unique_loot": [
     "large grave marker"
-  ],
-  "links": [
-
   ]
 }

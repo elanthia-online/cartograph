@@ -1,39 +1,36 @@
 {
-  "wayto": {
-    "9481": "go arch",
-    "24376": {
-      "stringproc": "c8b31f73866826519c1dc162c02d96b3"
-    },
-    "24377": {
-      "stringproc": "6f6ec5208d0935d2e36b34a1a8d99957"
-    },
-    "24378": {
-      "stringproc": "409453baa35eae8b3551b5377f0c390e"
-    },
-    "24379": {
-      "stringproc": "b686ce3fdc1dd5de62832d2c0547a754"
-    },
-    "24380": {
-      "stringproc": "2e0ee4723b3e038bd4dd52bf2be026e2"
-    },
-    "24381": {
-      "stringproc": "0b687aa0e7ac2d20c950e16220434abb"
-    }
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Small humus pots suspended from the ceiling cast donut-shaped pools of light across the stone floor of this cramped tavern.  The scent of pipe tobacco mixes with the odor of stale ale, and a smoky haze envelops the entire room.  Behind a low granite bar, the proprietor gazes out mistrustfully at the patrons gathered at the strangely shaped tables, his eyes darting every so often to the cash box that he keeps within easy reach.  A sign on the bar lists the fare available."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 16849,
   "title": [
     "[Bawdy Bard Inn, Tavern]"
   ],
-  "check_location": null,
+  "description": [
+    "Small humus pots suspended from the ceiling cast donut-shaped pools of light across the stone floor of this cramped tavern.  The scent of pipe tobacco mixes with the odor of stale ale, and a smoky haze envelops the entire room.  Behind a low granite bar, the proprietor gazes out mistrustfully at the patrons gathered at the strangely shaped tables, his eyes darting every so often to the cash box that he keeps within easy reach.  A sign on the bar lists the fare available."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Zul Logoth",
+  "wayto": {
+    "9481": "go arch",
+    "24376": {
+      "file": "string_procs/wayto/16849_24376.rb"
+    },
+    "24377": {
+      "file": "string_procs/wayto/16849_24377.rb"
+    },
+    "24378": {
+      "file": "string_procs/wayto/16849_24378.rb"
+    },
+    "24379": {
+      "file": "string_procs/wayto/16849_24379.rb"
+    },
+    "24380": {
+      "file": "string_procs/wayto/16849_24380.rb"
+    },
+    "24381": {
+      "file": "string_procs/wayto/16849_24381.rb"
+    }
+  },
   "timeto": {
     "9481": 0.2,
     "24376": 0.2,
@@ -43,12 +40,7 @@
     "24380": 0.2,
     "24381": 0.2
   },
-  "id": 16849,
-  "location": "Zul Logoth",
   "tags": [
     "table"
-  ],
-  "links": [
-
   ]
 }

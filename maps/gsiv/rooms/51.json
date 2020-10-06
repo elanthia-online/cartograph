@@ -1,34 +1,31 @@
 {
+  "id": 51,
+  "title": [
+    "[Whistler's Pass, Trail]"
+  ],
+  "description": [
+    "The grass gradually shortens as the trail travels to the north.  Finger-like slivers of mist push in among the dark grass.",
+    "The grass gradually shortens as the trail travels to the north.  Finger-like slivers of mist push in among the grass."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "50": "north",
     "52": "south"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "50": 0.2,
+    "52": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     1091,
     287,
     1101,
     297
   ],
-  "terrain": "grassland",
-  "description": [
-    "The grass gradually shortens as the trail travels to the north.  Finger-like slivers of mist push in among the dark grass.",
-    "The grass gradually shortens as the trail travels to the north.  Finger-like slivers of mist push in among the grass."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Whistler's Pass, Trail]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "50": 0.2,
-    "52": 0.2
-  },
-  "id": 51,
-  "location": "Whistler's Pass",
   "tags": [
     "some sovyn clove",
     "some acantha leaf",
@@ -113,10 +110,6 @@
     "fire lily",
     "murdroot",
     "nightbloom blossom",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

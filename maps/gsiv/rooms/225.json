@@ -1,35 +1,32 @@
 {
+  "id": 225,
+  "title": [
+    "[Wehnimer's, North Ring Rd.]"
+  ],
+  "description": [
+    "The road turns gradually at this point as it forms the northwest corner of the city.  The main path curves along the north and west walls, and another leads south between the buildings.  The massive oak and modwir logs of the city palisade tower overhead."
+  ],
+  "paths": [
+    "Obvious paths: east, south, southwest"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "226": "south",
     "294": "southwest",
     "224": "east"
   },
-  "paths": [
-    "Obvious paths: east, south, southwest"
-  ],
+  "timeto": {
+    "226": 0.2,
+    "294": 0.2,
+    "224": 0.2
+  },
+  "image": "wl-wehnimers-1264234799.png",
   "image_coords": [
     197,
     175,
     233,
     211
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The road turns gradually at this point as it forms the northwest corner of the city.  The main path curves along the north and west walls, and another leads south between the buildings.  The massive oak and modwir logs of the city palisade tower overhead."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Wehnimer's, North Ring Rd.]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "226": 0.2,
-    "294": 0.2,
-    "224": 0.2
-  },
-  "id": 225,
-  "location": "the town of Wehnimer's Landing",
   "tags": [
     "some sovyn clove",
     "some acantha leaf",
@@ -43,29 +40,6 @@
     "small wild rose",
     "white baneberry",
     "small daisy",
-    "meta:teleport:fwi",
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "small flower",
-    "angelica root",
-    "withered black mushroom",
-    "stalk of chicory",
-    "sprig of alyssum",
-    "stalk of goldenrod",
-    "yellow primrose",
-    "wild carrot",
-    "ginger root",
-    "wild chokecherry",
-    "motherwort",
-    "murkweed",
-    "blue whortleberry",
-    "murdroot",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:teleport:fwi"
   ]
 }

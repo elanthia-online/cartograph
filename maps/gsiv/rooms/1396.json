@@ -1,33 +1,30 @@
 {
+  "id": 1396,
+  "title": [
+    "[Cairnfang, Stepfalls Gorge]"
+  ],
+  "description": [
+    "The force of the water and the jumble of unyielding stone churns the water to a foaming white along this stretch of the river.  As the going becomes more difficult along the top of the gorge, the trail turns north for the safer footing of the forested slopes."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "1397": "southwest",
     "1395": "north"
   },
-  "paths": [
-    "Obvious paths: north, southwest"
-  ],
+  "timeto": {
+    "1397": 0.2,
+    "1395": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     1232,
     700,
     1242,
     710
   ],
-  "terrain": "rough",
-  "description": [
-    "The force of the water and the jumble of unyielding stone churns the water to a foaming white along this stretch of the river.  As the going becomes more difficult along the top of the gorge, the trail turns north for the safer footing of the forested slopes."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Cairnfang, Stepfalls Gorge]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1397": 0.2,
-    "1395": 0.2
-  },
-  "id": 1396,
-  "location": "the Cairnfang",
   "tags": [
     "small wild rose",
     "pink clover blossom",
@@ -56,10 +53,6 @@
     "motherwort",
     "white baneberry",
     "pepperthorn root",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

@@ -1,49 +1,36 @@
 {
-  "wayto": {
-    "4580": {
-      "stringproc": "dbbfd361e7886ce7121cafa8a1b5c5c5"
-    },
-    "4582": {
-      "stringproc": "395b361a16c8a355265cda519abf9fe5"
-    }
-  },
+  "id": 4581,
+  "title": [
+    "[Griffin's Keen, Snow Scramble]"
+  ],
+  "description": [
+    "The thin trail crawls up the mountain face, making upright travel impossible.  The wind stirs up the blanket of snow that covers everything, muffling the shapes of the rock and making a careless step a potential disaster."
+  ],
   "paths": [
     "Obvious paths: up, down"
   ],
+  "location": "Griffin's Keen",
+  "wayto": {
+    "4580": {
+      "file": "string_procs/wayto/4581_4580.rb"
+    },
+    "4582": {
+      "file": "string_procs/wayto/4581_4582.rb"
+    }
+  },
+  "timeto": {
+    "4580": 4.2,
+    "4582": 4.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     528,
     250,
     538,
     260
   ],
-  "terrain": "missing",
-  "description": [
-    "The thin trail crawls up the mountain face, making upright travel impossible.  The wind stirs up the blanket of snow that covers everything, muffling the shapes of the rock and making a careless step a potential disaster."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": "missing",
-  "title": [
-    "[Griffin's Keen, Snow Scramble]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4580": 4.2,
-    "4582": 4.2
-  },
-  "id": 4581,
-  "location": "Griffin's Keen",
   "tags": [
     "some angelica root",
-    "sprig of holly",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sprig of holly"
   ]
 }

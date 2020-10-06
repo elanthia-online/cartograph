@@ -1,35 +1,32 @@
 {
+  "id": 10192,
+  "title": [
+    "[Grassland]"
+  ],
+  "description": [
+    "Gopher mounds and other small burrows dot the landscape, half-hidden by the thick grass growing in the field.  Each little hole is a tiny trap, waiting to snag the feet of the unwary."
+  ],
+  "paths": [
+    "Obvious paths: east, south, west"
+  ],
+  "location": "the grasslands",
   "wayto": {
     "10190": "east",
     "10193": "west",
     "10197": "south"
   },
-  "paths": [
-    "Obvious paths: east, south, west"
-  ],
+  "timeto": {
+    "10190": 0.2,
+    "10193": 0.2,
+    "10197": 0.2
+  },
+  "image": "en-fearling-1264234799.png",
   "image_coords": [
     200,
     410,
     210,
     420
   ],
-  "terrain": null,
-  "description": [
-    "Gopher mounds and other small burrows dot the landscape, half-hidden by the thick grass growing in the field.  Each little hole is a tiny trap, waiting to snag the feet of the unwary."
-  ],
-  "image": "en-fearling-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Grassland]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10190": 0.2,
-    "10193": 0.2,
-    "10197": 0.2
-  },
-  "id": 10192,
-  "location": "the grasslands",
   "tags": [
     "some sovyn clove",
     "some acantha leaf",
@@ -112,8 +109,5 @@
     "sunburst blossom",
     "brostheras grass",
     "woad leaves"
-  ],
-  "links": [
-
   ]
 }

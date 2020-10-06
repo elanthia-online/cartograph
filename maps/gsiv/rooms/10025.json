@@ -1,36 +1,33 @@
 {
+  "id": 10025,
+  "title": [
+    "[Yegharren Plain, Forest's Edge]"
+  ],
+  "description": [
+    "The dark, twisted forms of trees surround the trail, their skeletal branches reaching out as if to grasp at unwary travelers and draw them into their tangled clutches.  Little sunlight filters through the heavy growth, and the forest floor is covered with a thick mulch of leaves that silences almost any footstep.",
+    "The dark, twisted forms of trees surround the trail, their skeletal branches reaching out as if to grasp at unwary travelers and draw them into their tangled clutches.  Only a little moonlight filters through the heavy growth, and the forest floor is covered with a thick mulch of leaves that silences almost any footstep."
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest"
+  ],
+  "location": "the Yegharren Plains",
   "wayto": {
     "10026": "northeast",
     "10032": "northwest",
     "10022": "go trail"
   },
-  "paths": [
-    "Obvious paths: northeast, northwest"
-  ],
+  "timeto": {
+    "10026": 0.2,
+    "10032": 0.2,
+    "10022": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     1165,
     462,
     1173,
     470
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "The dark, twisted forms of trees surround the trail, their skeletal branches reaching out as if to grasp at unwary travelers and draw them into their tangled clutches.  Little sunlight filters through the heavy growth, and the forest floor is covered with a thick mulch of leaves that silences almost any footstep.",
-    "The dark, twisted forms of trees surround the trail, their skeletal branches reaching out as if to grasp at unwary travelers and draw them into their tangled clutches.  Only a little moonlight filters through the heavy growth, and the forest floor is covered with a thick mulch of leaves that silences almost any footstep."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Yegharren Plain, Forest's Edge]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10026": 0.2,
-    "10032": 0.2,
-    "10022": 0.2
-  },
-  "id": 10025,
-  "location": "the Yegharren Plains",
   "tags": [
     "tkaro root",
     "sweetfern stalk",
@@ -47,38 +44,6 @@
     "wild chokecherry",
     "stalk of bluebells",
     "some bolmara lichen",
-    "some ephlox moss",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "sticks",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "withered black mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "blueberries",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "broken twig",
-    "wild pink geranium",
-    "small wild rose",
-    "sprig of wild lilac",
-    "tree bark",
-    "blue whortleberry",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some ephlox moss"
   ]
 }

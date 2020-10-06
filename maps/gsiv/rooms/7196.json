@@ -1,35 +1,32 @@
 {
+  "id": 7196,
+  "title": [
+    "[Graveyard]"
+  ],
+  "description": [
+    "The land rises slightly to the west, in the direction of some odd stone ruins.  The air here is noticeably clammy and causes beads of humidity to mix with the perspiration of dread already present on your skin.  The hollow calls of tree frogs and the humming of countless tiny gnats grate on your nerves.  The wild noises and dank breeze seem to originate from the bog to the west."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7195": "northeast",
     "7197": "south",
     "7198": "west"
   },
-  "paths": [
-    "Obvious paths: northeast, south, west"
-  ],
+  "timeto": {
+    "7195": 0.2,
+    "7197": 0.2,
+    "7198": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     262,
     453,
     272,
     463
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The land rises slightly to the west, in the direction of some odd stone ruins.  The air here is noticeably clammy and causes beads of humidity to mix with the perspiration of dread already present on your skin.  The hollow calls of tree frogs and the humming of countless tiny gnats grate on your nerves.  The wild noises and dank breeze seem to originate from the bog to the west."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Graveyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7195": 0.2,
-    "7197": 0.2,
-    "7198": 0.2
-  },
-  "id": 7196,
-  "location": "the Graveyard",
   "tags": [
     "some wolifrew lichen",
     "some acantha leaf",
@@ -52,10 +49,6 @@
     "bright red cranberry",
     "blue whortleberry",
     "murdroot",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

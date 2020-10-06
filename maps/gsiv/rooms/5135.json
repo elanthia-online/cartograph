@@ -1,46 +1,31 @@
 {
+  "id": 5135,
+  "title": [
+    "[Vornavian Coast, Caverns]"
+  ],
+  "description": [
+    "Discarded torches litter this area of the cavern, as if someone recently spent a great deal of time here exploring.  Closer examination reveals wax drippings on the floor and the burnt-out ends of candles littering the corridor.  Huge stone panels carved into the walls depict a story."
+  ],
+  "paths": [
+    "Obvious exits: southeast, west"
+  ],
+  "location": "the Vornavian Coast",
   "wayto": {
     "5143": "southeast",
     "5134": "west"
   },
-  "paths": [
-    "Obvious exits: southeast, west"
-  ],
+  "timeto": {
+    "5143": 0.2,
+    "5134": 0.2
+  },
+  "image": "vo-north_beach-1264234799.png",
   "image_coords": [
     292,
     792,
     302,
     802
   ],
-  "terrain": "indoors",
-  "description": [
-    "Discarded torches litter this area of the cavern, as if someone recently spent a great deal of time here exploring.  Closer examination reveals wax drippings on the floor and the burnt-out ends of candles littering the corridor.  Huge stone panels carved into the walls depict a story."
-  ],
-  "image": "vo-north_beach-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Vornavian Coast, Caverns]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5143": 0.2,
-    "5134": 0.2
-  },
-  "id": 5135,
-  "location": "the Vornavian Coast",
   "tags": [
-    "blue trafel mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "murdroot",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "blue trafel mushroom"
   ]
 }

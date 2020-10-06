@@ -1,35 +1,28 @@
 {
+  "id": 26781,
+  "title": [
+    "[Catacombs, Dark Tunnels]"
+  ],
+  "description": [
+    "The ramp continues around the outer edges of the shaft.  With each step the ramp groans under your weight and the sound echoes loudly up and down the shaft."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "26782": "down",
     "26780": "up"
   },
-  "paths": [
-    "Obvious exits: up, down"
-  ],
+  "timeto": {
+    "26782": 0.2,
+    "26780": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     1007,
     1332,
     1017,
     1342
-  ],
-  "terrain": null,
-  "description": [
-    "The ramp continues around the outer edges of the shaft.  With each step the ramp groans under your weight and the sound echoes loudly up and down the shaft."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Catacombs, Dark Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26782": 0.2,
-    "26780": 0.2
-  },
-  "id": 26781,
-  "location": "the catacombs",
-  "tags": [
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+  ]
 }

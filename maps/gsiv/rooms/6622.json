@@ -1,4 +1,15 @@
 {
+  "id": 6622,
+  "title": [
+    "[The Broken Lands, Central Hall]"
+  ],
+  "description": [
+    "The high ceiling of this large hall is supported by several tall columns.  Discolored areas on the floor indicate that several pieces of furniture or other large items once stood here for a long period of time."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east, south, west, northwest"
+  ],
+  "location": "the Broken Lands",
   "wayto": {
     "6629": "northwest",
     "6621": "go arch",
@@ -7,25 +18,6 @@
     "6625": "west",
     "6626": "south"
   },
-  "paths": [
-    "Obvious exits: northeast, east, south, west, northwest"
-  ],
-  "image_coords": [
-    502,
-    817,
-    512,
-    827
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The high ceiling of this large hall is supported by several tall columns.  Discolored areas on the floor indicate that several pieces of furniture or other large items once stood here for a long period of time."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[The Broken Lands, Central Hall]"
-  ],
-  "check_location": null,
   "timeto": {
     "6629": 0.2,
     "6621": 0.2,
@@ -34,13 +26,11 @@
     "6625": 0.2,
     "6626": 0.2
   },
-  "id": 6622,
-  "location": "the Broken Lands",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-broken-1264234799.png",
+  "image_coords": [
+    502,
+    817,
+    512,
+    827
   ]
 }

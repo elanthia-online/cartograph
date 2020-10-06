@@ -1,43 +1,35 @@
 {
+  "id": 7603,
+  "title": [
+    "[Beach Area, Rocky Shore]"
+  ],
+  "description": [
+    "Standing near the cliff path, you halt upon a narrow spit of sand and gravel.  Your choices here are limited by the sea and the largely unscaleable cliffs above.  To the east, the shore gives way to a tide pool carved out among the rocks.  Turning west, a narrow strand leads to an old pier jutting into the ocean.  Near the old pier, several buildings still stand beneath the cliffs.  Beyond the tumbled structures, among the rocks and boulders, you spy gaps that may lead down to the sea."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "7604": "east",
     "7605": "west",
     "496": "go path"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "7604": 0.2,
+    "7605": 0.2,
+    "496": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     520,
     529,
     530,
     539
   ],
-  "terrain": "sandy",
-  "description": [
-    "Standing near the cliff path, you halt upon a narrow spit of sand and gravel.  Your choices here are limited by the sea and the largely unscaleable cliffs above.  To the east, the shore gives way to a tide pool carved out among the rocks.  Turning west, a narrow strand leads to an old pier jutting into the ocean.  Near the old pier, several buildings still stand beneath the cliffs.  Beyond the tumbled structures, among the rocks and boulders, you spy gaps that may lead down to the sea."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "saltwater",
-  "title": [
-    "[Beach Area, Rocky Shore]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7604": 0.2,
-    "7605": 0.2,
-    "496": 0.2
-  },
-  "id": 7603,
-  "location": "the Coastal Cliffs",
   "tags": [
     "yabathilium fruit",
     "strand of seaweed",
-    "murdroot",
-    "strof seaweed",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "murdroot"
   ]
 }

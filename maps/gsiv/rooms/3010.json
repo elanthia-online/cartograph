@@ -1,36 +1,33 @@
 {
+  "id": 3010,
+  "title": [
+    "[Arctic Tundra, High Plain]"
+  ],
+  "description": [
+    "A small garrison of ice and snow looms to the east, shining brightly with an inner glow.  A tower reaches high overhead, sparkling with fresh snow crystals.",
+    "A small garrison of ice and snow looms to the east, shining with an inner glow in the moonlight.  A tower reaches high overhead, sparkling with fresh snow crystals."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, southwest"
+  ],
+  "location": "the High Plains",
   "wayto": {
     "3027": "southeast",
     "3009": "southwest",
     "3011": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, southeast, southwest"
-  ],
+  "timeto": {
+    "3027": 0.2,
+    "3009": 0.2,
+    "3011": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     357,
     812,
     363,
     818
   ],
-  "terrain": "mountainous",
-  "description": [
-    "A small garrison of ice and snow looms to the east, shining brightly with an inner glow.  A tower reaches high overhead, sparkling with fresh snow crystals.",
-    "A small garrison of ice and snow looms to the east, shining with an inner glow in the moonlight.  A tower reaches high overhead, sparkling with fresh snow crystals."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Arctic Tundra, High Plain]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3027": 0.2,
-    "3009": 0.2,
-    "3011": 0.2
-  },
-  "id": 3010,
-  "location": "the High Plains",
   "tags": [
     "some valerian root",
     "crowberry",
@@ -58,11 +55,6 @@
     "ironfern root",
     "bolmara lichen",
     "wingstem root",
-    "some tundra grass",
-    "valerian root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some tundra grass"
   ]
 }

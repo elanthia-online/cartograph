@@ -1,50 +1,28 @@
 {
+  "id": 20606,
+  "title": [
+    "[Wehnimer's, Burrow Way]"
+  ],
+  "description": [
+    "Huge in size, the underground chamber is set with blazing torches along every wall.  Old wagons have been pulled to one side of the pathway, all of them in need of serious repair."
+  ],
+  "paths": [
+    "Obvious exits: southeast"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "20605": "southeast",
     "20607": "go fissure"
   },
-  "paths": [
-    "Obvious exits: southeast"
-  ],
+  "timeto": {
+    "20605": 0.2,
+    "20607": 0.2
+  },
+  "image": "wl-burrow_way-1360361110.png",
   "image_coords": [
     267,
     229,
     293,
     256
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Huge in size, the underground chamber is set with blazing torches along every wall.  Old wagons have been pulled to one side of the pathway, all of them in need of serious repair."
-  ],
-  "image": "wl-burrow_way-1360361110.png",
-  "climate": "indoors",
-  "title": [
-    "[Wehnimer's, Burrow Way]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "20605": 0.2,
-    "20607": 0.2
-  },
-  "id": 20606,
-  "location": "the town of Wehnimer's Landing",
-  "tags": [
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

@@ -1,34 +1,31 @@
 {
+  "id": 948,
+  "title": [
+    "[Whistler's Pass]"
+  ],
+  "description": [
+    "Something small and unseen skitters across the rock wall, its miniature form masked by a thick blanket of darkness.  All around, chaotic wind gusts blow lightweight debris across the narrow canyon floor.",
+    "A small, grey-backed lizard skitters across the shallow grooves in the rock wall, only pausing for mere seconds to sense the air before scampering on its way.  All around, chaotic wind gusts blow slivers of wood and other light debris across the narrow canyon floor."
+  ],
+  "paths": [
+    "Obvious paths: south, northwest"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "947": "northwest",
     "949": "south"
   },
-  "paths": [
-    "Obvious paths: south, northwest"
-  ],
+  "timeto": {
+    "947": 0.2,
+    "949": 0.2
+  },
+  "image": "en-whistlers_pass-1264234799.png",
   "image_coords": [
     345,
     1073,
     355,
     1083
   ],
-  "terrain": "mountainous",
-  "description": [
-    "Something small and unseen skitters across the rock wall, its miniature form masked by a thick blanket of darkness.  All around, chaotic wind gusts blow lightweight debris across the narrow canyon floor.",
-    "A small, grey-backed lizard skitters across the shallow grooves in the rock wall, only pausing for mere seconds to sense the air before scampering on its way.  All around, chaotic wind gusts blow slivers of wood and other light debris across the narrow canyon floor."
-  ],
-  "image": "en-whistlers_pass-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Whistler's Pass]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "947": 0.2,
-    "949": 0.2
-  },
-  "id": 948,
-  "location": "Whistler's Pass",
   "tags": [
     "marallis berry",
     "cuctucae berry",
@@ -43,10 +40,6 @@
     "cluster of butterflyweed",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

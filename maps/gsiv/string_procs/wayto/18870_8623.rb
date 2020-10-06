@@ -1,1 +1,2 @@
-fput 'search'; move 'go ladder'
+fput 'search'
+ move 'go ladder'

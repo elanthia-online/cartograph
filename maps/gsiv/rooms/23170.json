@@ -1,35 +1,23 @@
 {
-  "wayto": {
-    "24072": "east",
-    "24324": {
-      "stringproc": "e7490976b90c03215b45ab1c44e43cb2"
-    }
-  },
-  "paths": [
-    "Obvious exits: east"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Large chunks of a stone bridge clutter the ground, as they must have fallen from above where the necropolis was blocked off.  Skeletal remains are piled up high, some still having flesh on the bone.  The rocky walls climb further than the eye can see."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 23170,
   "title": [
     "[Darkness, Pit]"
   ],
-  "check_location": null,
+  "description": [
+    "Large chunks of a stone bridge clutter the ground, as they must have fallen from above where the necropolis was blocked off.  Skeletal remains are piled up high, some still having flesh on the bone.  The rocky walls climb further than the eye can see."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the Feywrot Mire",
+  "wayto": {
+    "24072": "east",
+    "24324": {
+      "file": "string_procs/wayto/23170_24324.rb"
+    }
+  },
   "timeto": {
     "24072": 0.2,
     "24324": 0.2
-  },
-  "id": 23170,
-  "location": "the Feywrot Mire",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  }
 }

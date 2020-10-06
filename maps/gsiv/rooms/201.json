@@ -1,39 +1,29 @@
 {
+  "id": 201,
+  "title": [
+    "[Ta'Illistim, Baeialin Court]"
+  ],
+  "description": [
+    "A round belltower, capped with a dark lapis-tiled spire, occupies the center of the courtyard.  Atop the spire, the silver and sapphire pennant of House Illistim waves slightly in the night breeze.  A thanot door appears to be the only source of egress from the tower.  Near the top of the dark grey granite structure, a small window is barely visible.",
+    "A round belltower, capped with a dark lapis-tiled spire, occupies the center of the courtyard.  Atop the spire, the silver and sapphire pennant of House Illistim waves slightly in the breeze.  A thanot door appears to be the only source of egress from the tower.  Near the top of the dark grey granite structure, a small window is barely visible."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "Ta'Illistim",
   "wayto": {
     "200": "east",
     "13300": "go door"
   },
-  "paths": [
-    "Obvious paths: east"
-  ],
+  "timeto": {
+    "200": 0.2,
+    "13300": 0.2
+  },
+  "image": "en-ta_illistim-new.jpg",
   "image_coords": [
     243,
     464,
     265,
     485
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "A round belltower, capped with a dark lapis-tiled spire, occupies the center of the courtyard.  Atop the spire, the silver and sapphire pennant of House Illistim waves slightly in the night breeze.  A thanot door appears to be the only source of egress from the tower.  Near the top of the dark grey granite structure, a small window is barely visible.",
-    "A round belltower, capped with a dark lapis-tiled spire, occupies the center of the courtyard.  Atop the spire, the silver and sapphire pennant of House Illistim waves slightly in the breeze.  A thanot door appears to be the only source of egress from the tower.  Near the top of the dark grey granite structure, a small window is barely visible."
-  ],
-  "image": "en-ta_illistim-new.jpg",
-  "climate": "temperate",
-  "title": [
-    "[Ta'Illistim, Baeialin Court]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "200": 0.2,
-    "13300": 0.2
-  },
-  "id": 201,
-  "location": "Ta'Illistim",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

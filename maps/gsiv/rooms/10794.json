@@ -1,66 +1,35 @@
 {
+  "id": 10794,
+  "title": [
+    "[Gyldemar Forest, Outpost]"
+  ],
+  "description": [
+    "An oak of wide girth, its trunk a stony grey hue, rises from the thick forest undergrowth, its skeletal branches oddly absent of leaves.  Its once sturdy bark has turned brittle, flaking off in long strips which litter the path.  Short stubby branches extend from the trunk in a seemingly intelligent pattern, almost appearing as footholds for ascension.  A heavy odor, like the scent of moist earth in swampy regions, pervades the area."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Gyldemar Forest",
   "wayto": {
     "10795": "climb branches",
     "10796": "east",
     "4743": "west"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "10795": 0.2,
+    "10796": 0.2,
+    "4743": 0.2
+  },
+  "image": "en-gyldemar-1264234799.png",
   "image_coords": [
     781,
     1142,
     789,
     1150
   ],
-  "terrain": "missing",
-  "description": [
-    "An oak of wide girth, its trunk a stony grey hue, rises from the thick forest undergrowth, its skeletal branches oddly absent of leaves.  Its once sturdy bark has turned brittle, flaking off in long strips which litter the path.  Short stubby branches extend from the trunk in a seemingly intelligent pattern, almost appearing as footholds for ascension.  A heavy odor, like the scent of moist earth in swampy regions, pervades the area."
-  ],
-  "image": "en-gyldemar-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Gyldemar Forest, Outpost]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10795": 0.2,
-    "10796": 0.2,
-    "4743": 0.2
-  },
-  "id": 10794,
-  "location": "Gyldemar Forest",
   "tags": [
     "some acantha leaf",
     "some brostheras grass",
-    "tkaro root",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "sticks",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "broken twig",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "bright red cranberry",
-    "tree bark",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "tkaro root"
   ]
 }

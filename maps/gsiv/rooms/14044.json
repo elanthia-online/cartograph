@@ -1,33 +1,30 @@
 {
+  "id": 14044,
+  "title": [
+    "[Castle Varunar, Outer Ward]"
+  ],
+  "description": [
+    "A stack of wagon wheels leans against the outer wall, the wood seemingly infested with termites.  Several rotting wooden shacks and storage bins form a circle around the wheels, giving one the impression this was once a storage depot of some kind."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Castle Varunar",
   "wayto": {
     "14043": "east",
     "14045": "west"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "14043": 0.2,
+    "14045": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     613,
     40,
     623,
     50
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "A stack of wagon wheels leans against the outer wall, the wood seemingly infested with termites.  Several rotting wooden shacks and storage bins form a circle around the wheels, giving one the impression this was once a storage depot of some kind."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Castle Varunar, Outer Ward]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "14043": 0.2,
-    "14045": 0.2
-  },
-  "id": 14044,
-  "location": "Castle Varunar",
   "tags": [
     "some acantha leaf",
     "some calamia fruit",
@@ -36,27 +33,6 @@
     "small daisy",
     "small flower",
     "heath aster",
-    "stalk of goldenrod",
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "small rose",
-    "angelica root",
-    "withered black mushroom",
-    "stalk of chicory",
-    "sprig of alyssum",
-    "yellow primrose",
-    "small wild rose",
-    "wild chokecherry",
-    "motherwort",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "stalk of goldenrod"
   ]
 }

@@ -1,50 +1,28 @@
 {
+  "id": 20617,
+  "title": [
+    "[Wehnimer's, Burrow Way]"
+  ],
+  "description": [
+    "A narrow path winds through darkened rocks, their edges jagged and jutting out dangerously.  The walls of the burrow glisten slightly, their surface slick with moisture.  Strange, glowing green lichen clings to the walls, creating an eerie viridian glow throughout the area."
+  ],
+  "paths": [
+    "Obvious exits: southeast, west"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "20616": "southeast",
     "20618": "west"
   },
-  "paths": [
-    "Obvious exits: southeast, west"
-  ],
+  "timeto": {
+    "20616": 0.2,
+    "20618": 0.2
+  },
+  "image": "wl-burrow_way-1360361110.png",
   "image_coords": [
     76,
     350,
     100,
     376
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A narrow path winds through darkened rocks, their edges jagged and jutting out dangerously.  The walls of the burrow glisten slightly, their surface slick with moisture.  Strange, glowing green lichen clings to the walls, creating an eerie viridian glow throughout the area."
-  ],
-  "image": "wl-burrow_way-1360361110.png",
-  "climate": "indoors",
-  "title": [
-    "[Wehnimer's, Burrow Way]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "20616": 0.2,
-    "20618": 0.2
-  },
-  "id": 20617,
-  "location": "the town of Wehnimer's Landing",
-  "tags": [
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

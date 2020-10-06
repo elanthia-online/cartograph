@@ -1,33 +1,21 @@
 {
-  "wayto": {
-    "24182": {
-      "stringproc": "7414c68d80bd514f54363dadb324e343"
-    }
-  },
-  "paths": [
-    "Obvious paths: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Blood stains the floor of the chamber, surrounding a raised platform in the center of the room.  A glowing violet mote floats above a colossal granite sepulcher.  A faintly glowing exit within the mist serves as the only egress from the castle, as the black ora door is completely surrounded by a magical barrier from this side of the chamber."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 24181,
   "title": [
     "[Castle of the Damned, Chamber]"
   ],
-  "check_location": null,
+  "description": [
+    "Blood stains the floor of the chamber, surrounding a raised platform in the center of the room.  A glowing violet mote floats above a colossal granite sepulcher.  A faintly glowing exit within the mist serves as the only egress from the castle, as the black ora door is completely surrounded by a magical barrier from this side of the chamber."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "the Feywrot Mire",
+  "wayto": {
+    "24182": {
+      "file": "string_procs/wayto/24181_24182.rb"
+    }
+  },
   "timeto": {
     "24182": 0.2
-  },
-  "id": 24181,
-  "location": "the Feywrot Mire",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  }
 }

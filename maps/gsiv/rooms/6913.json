@@ -1,4 +1,15 @@
 {
+  "id": 6913,
+  "title": [
+    "[Smuggling Tunnels, Passage]"
+  ],
+  "description": [
+    "Cobwebs stream from the ancient shorings like party streamers, perfectly still in the stagnant air.  Spiders large and small crawl over them, building them up and repairing them where passers-by have damaged the threads.  One spider has a large silken bundle on one corner of his web, likely an insectile victim for his evening meal."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east, south, west"
+  ],
+  "location": "the smuggling tunnels",
   "wayto": {
     "6915": "south",
     "6926": "east",
@@ -6,25 +17,6 @@
     "6911": "north",
     "6912": "west"
   },
-  "paths": [
-    "Obvious exits: north, northeast, east, south, west"
-  ],
-  "image_coords": [
-    958,
-    1302,
-    968,
-    1312
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Cobwebs stream from the ancient shorings like party streamers, perfectly still in the stagnant air.  Spiders large and small crawl over them, building them up and repairing them where passers-by have damaged the threads.  One spider has a large silken bundle on one corner of his web, likely an insectile victim for his evening meal."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Smuggling Tunnels, Passage]"
-  ],
-  "check_location": null,
   "timeto": {
     "6915": 0.2,
     "6926": 0.2,
@@ -32,22 +24,17 @@
     "6911": 0.2,
     "6912": 0.2
   },
-  "id": 6913,
-  "location": "the smuggling tunnels",
+  "image": "wl-gates-1264234799.png",
+  "image_coords": [
+    958,
+    1302,
+    968,
+    1312
+  ],
   "tags": [
     "withered black mushroom",
     "some cave moss",
     "some wingstem root",
-    "some bur-clover root",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some bur-clover root"
   ]
 }

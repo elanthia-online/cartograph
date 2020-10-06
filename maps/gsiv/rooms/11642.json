@@ -1,33 +1,29 @@
 {
+  "id": 11642,
+  "title": [
+    "[Miasmal Forest, Creek]"
+  ],
+  "description": [
+    "The creek is little more than a thin trickle of dark, tannic water gurgling around the stony creekbed.  The muddy, reed-choked banks are too slippery to climb.  The fog is so thick that it would be disorienting anywhere but in the steep-walled creekbed."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast"
+  ],
   "wayto": {
     "11641": "north",
     "11643": "southeast"
   },
-  "paths": [
-    "Obvious paths: north, southeast"
-  ],
+  "timeto": {
+    "11641": 0.2,
+    "11643": 0.2
+  },
+  "image": "rr-maelstrom-1266390501.png",
   "image_coords": [
     635,
     461,
     645,
     471
   ],
-  "terrain": "riparian",
-  "description": [
-    "The creek is little more than a thin trickle of dark, tannic water gurgling around the stony creekbed.  The muddy, reed-choked banks are too slippery to climb.  The fog is so thick that it would be disorienting anywhere but in the steep-walled creekbed."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Miasmal Forest, Creek]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11641": 0.2,
-    "11643": 0.2
-  },
-  "id": 11642,
-  "location": "the Miasmal Forest",
   "tags": [
     "some ephlox moss",
     "bright red teaberry",
@@ -42,23 +38,6 @@
     "blue trafel mushroom",
     "bright red cranberry",
     "wintergreen leaf",
-    "wild gooseberry",
-    "acantha leaf",
-    "ephlox moss",
-    "aloeas stem",
-    "soft white mushroom",
-    "withered black mushroom",
-    "blueberries",
-    "stalk of cattail",
-    "small wild rose",
-    "mistweed",
-    "murdroot",
-    "wavepetal blossom",
-    "ironfern root",
-    "talneo root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wild gooseberry"
   ]
 }

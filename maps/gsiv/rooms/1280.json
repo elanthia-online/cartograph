@@ -1,33 +1,30 @@
 {
+  "id": 1280,
+  "title": [
+    "[Upper Trollfang]"
+  ],
+  "description": [
+    "This part of the forest is damp and moss covered.  The sound of running water can be heard to the south and the terrain of this area slopes down in that direction."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "1279": "north",
     "1281": "south"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "1279": 0.2,
+    "1281": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     740,
     429,
     750,
     439
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "This part of the forest is damp and moss covered.  The sound of running water can be heard to the south and the terrain of this area slopes down in that direction."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "moist",
-  "title": [
-    "[Upper Trollfang]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1279": 0.2,
-    "1281": 0.2
-  },
-  "id": 1280,
-  "location": "the Upper Trollfang",
   "tags": [
     "some acantha leaf",
     "some calamia fruit",
@@ -55,27 +52,6 @@
     "handful of walnuts",
     "murdroot",
     "twisted twig",
-    "flathead mushroom",
-    "acantha leaf",
-    "woth flower",
-    "calamia fruit",
-    "haphip root",
-    "sticks",
-    "soft white mushroom",
-    "withered black mushroom",
-    "broken twig",
-    "tree bark",
-    "murkweed",
-    "willow twig",
-    "yew twig",
-    "luckbloom blossom",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "walnuts",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "flathead mushroom"
   ]
 }

@@ -1,39 +1,29 @@
 {
+  "id": 7149,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "Sticky cobwebs cling to your face, despite your best efforts to brush them away.  The webbing is tougher and stickier than any you've ever encountered before.  A small pot set high on a wall sheds a flickering light over the area, just enough to turn the webs into shadowy traps.",
+    "Sticky cobwebs cling to your face despite your best efforts to brush them away.  The webbing is tougher and stickier than any you've ever encountered before.  A small pot set high on a wall sheds a flickering light over the area, just enough to turn the webs into shadowy traps."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7147": "northeast",
     "7150": "south"
   },
-  "paths": [
-    "Obvious exits: northeast, south"
-  ],
+  "timeto": {
+    "7147": 0.2,
+    "7150": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     872,
     527,
     882,
     537
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Sticky cobwebs cling to your face, despite your best efforts to brush them away.  The webbing is tougher and stickier than any you've ever encountered before.  A small pot set high on a wall sheds a flickering light over the area, just enough to turn the webs into shadowy traps.",
-    "Sticky cobwebs cling to your face despite your best efforts to brush them away.  The webbing is tougher and stickier than any you've ever encountered before.  A small pot set high on a wall sheds a flickering light over the area, just enough to turn the webs into shadowy traps."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7147": 0.2,
-    "7150": 0.2
-  },
-  "id": 7149,
-  "location": "Darkstone Castle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

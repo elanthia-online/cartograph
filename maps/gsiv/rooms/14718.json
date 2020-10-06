@@ -1,32 +1,21 @@
 {
-  "wayto": {
-    "14711": {
-      "stringproc": "d8257632965a432d9fdcf4a0687357be"
-    }
-  },
-  "paths": [
-    "Obvious paths: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "This raised stone plateau offers a panoramic view of the wilds of Teras Isle.  The Eye of V'Tull stands sentry over the trees of Greymist, the Fhorian Village, and the gates of the town of Kharam Dzu proper.  A round steel hatch leads down through the stone floor."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 14718,
   "title": [
     "[Outer Courtyard]"
   ],
-  "check_location": null,
+  "description": [
+    "This raised stone plateau offers a panoramic view of the wilds of Teras Isle.  The Eye of V'Tull stands sentry over the trees of Greymist, the Fhorian Village, and the gates of the town of Kharam Dzu proper.  A round steel hatch leads down through the stone floor."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "the Guardians of Sunfist outpost",
+  "wayto": {
+    "14711": {
+      "file": "string_procs/wayto/14718_14711.rb"
+    }
+  },
   "timeto": {
     "14711": 0.2
-  },
-  "id": 14718,
-  "location": "the Guardians of Sunfist outpost",
-  "tags": [
-
-  ],
-  "links": [
-
-  ]
+  }
 }

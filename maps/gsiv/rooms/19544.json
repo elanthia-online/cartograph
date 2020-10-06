@@ -1,51 +1,35 @@
 {
-  "wayto": {
-    "19546": {
-      "stringproc": "85e0f53ae9639a177d4a808ad7f27c86"
-    },
-    "1084": {
-      "stringproc": "292be274bddc9f264adde397fe15e7b9"
-    }
-  },
+  "id": 19544,
+  "title": [
+    "[Dead Plateau, Interior]"
+  ],
+  "description": [
+    "Sunlight glints off the myriad particles of gemstone within the plateau's surface, promising untold riches to whoever might find the source of even larger gems in abundance.  The face of the plateau winds among the cracks, moving in a haphazard fashion and often doubling back until even the position of the sun is no help in discerning one's location.  The cold wind howls across the landscape as a chill, mocking reminder that the elements here do not suffer travelers in their domain for long."
+  ],
   "paths": [
     "Obvious paths: north, northeast, east, southeast, south, southwest, west, northwest"
   ],
+  "location": "the Locksmehr Trail",
+  "wayto": {
+    "19546": {
+      "file": "string_procs/wayto/19544_19546.rb"
+    },
+    "1084": {
+      "file": "string_procs/wayto/19544_1084.rb"
+    }
+  },
+  "timeto": {
+    "19546": 0.6,
+    "1084": 0.6
+  },
+  "image": "en-trail-1264234799.png",
   "image_coords": [
     1333,
     910,
     1342,
     918
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "Sunlight glints off the myriad particles of gemstone within the plateau's surface, promising untold riches to whoever might find the source of even larger gems in abundance.  The face of the plateau winds among the cracks, moving in a haphazard fashion and often doubling back until even the position of the sun is no help in discerning one's location.  The cold wind howls across the landscape as a chill, mocking reminder that the elements here do not suffer travelers in their domain for long."
-  ],
-  "image": "en-trail-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Dead Plateau, Interior]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "19546": 0.6,
-    "1084": 0.6
-  },
-  "id": 19544,
-  "location": "the Locksmehr Trail",
   "tags": [
-    "no-auto-map",
-    "cothinar flower",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "stalk of chicory",
-    "broken twig",
-    "sprig of larkspur",
-    "ironfern root",
-    "sunburst blossom",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "no-auto-map"
   ]
 }

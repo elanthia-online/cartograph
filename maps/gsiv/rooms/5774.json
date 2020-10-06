@@ -1,51 +1,36 @@
 {
+  "id": 5774,
+  "title": [
+    "[Mraent Cavern, Granite Tunnel]"
+  ],
+  "description": [
+    "A granite statue of a dwarf, carved out of the tunnel wall, looks out over the destroyed railway.  The figure has somehow been riddled with lengths of steel rail without any damage to the stone form."
+  ],
+  "paths": [
+    "Obvious exits: north, east, west"
+  ],
+  "location": "the Mraent Caverns",
   "wayto": {
     "5775": "north",
     "5776": "west",
     "5772": "east"
   },
-  "paths": [
-    "Obvious exits: north, east, west"
-  ],
+  "timeto": {
+    "5775": 0.2,
+    "5776": 0.2,
+    "5772": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     357,
     177,
     367,
     187
   ],
-  "terrain": "indoors",
-  "description": [
-    "A granite statue of a dwarf, carved out of the tunnel wall, looks out over the destroyed railway.  The figure has somehow been riddled with lengths of steel rail without any damage to the stone form."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mraent Cavern, Granite Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5775": 0.2,
-    "5776": 0.2,
-    "5772": 0.2
-  },
-  "id": 5774,
-  "location": "the Mraent Caverns",
   "tags": [
     "red trafel mushroom",
     "giant glowing toadstool",
     "some bolmara lichen",
-    "blue trafel mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "black hook mushroom",
-    "glowing toadstool",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "blue trafel mushroom"
   ]
 }

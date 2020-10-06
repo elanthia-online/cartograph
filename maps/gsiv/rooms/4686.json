@@ -1,39 +1,31 @@
 {
+  "id": 4686,
+  "title": [
+    "[Cysaegir Bank]"
+  ],
+  "description": [
+    "Simple wooden teller windows fitted with glaes panes stand open to service the many Aelotoi men and women bustling about.  A domed skylight allows sunshine to stream in, glinting off the silver coins being transferred, withdrawn, and deposited.  Vivid butterflies have been painted flitting across the pale pink and blue-tinted stone walls."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Cysaegir",
   "wayto": {
     "9667": "go arch",
     "4639": "out"
   },
-  "paths": [
-    "Obvious exits: out"
-  ],
+  "timeto": {
+    "9667": 0.2,
+    "4639": 0.2
+  },
+  "image": "en-cysaegir-1264234799.png",
   "image_coords": [
     51,
     731,
     87,
     767
   ],
-  "terrain": "indoors",
-  "description": [
-    "Simple wooden teller windows fitted with glaes panes stand open to service the many Aelotoi men and women bustling about.  A domed skylight allows sunshine to stream in, glinting off the silver coins being transferred, withdrawn, and deposited.  Vivid butterflies have been painted flitting across the pale pink and blue-tinted stone walls."
-  ],
-  "image": "en-cysaegir-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Cysaegir Bank]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9667": 0.2,
-    "4639": 0.2
-  },
-  "id": 4686,
-  "location": "Cysaegir",
   "tags": [
-    "bank",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bank"
   ]
 }

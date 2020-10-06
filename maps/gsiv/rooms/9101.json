@@ -1,38 +1,28 @@
 {
+  "id": 9101,
+  "title": [
+    "[Great Cavern, Flue]"
+  ],
+  "description": [
+    "Moss grows so thickly around you that it is impossible to make out the stone behind it.  A constant flow of warm, moist air feeds the glowing moss.  It hangs down in clumps here and there, almost to the floor where another sort grows in rough clumps."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "the subterranean tunnels",
   "wayto": {
     "9100": "up",
     "9102": "down"
   },
-  "paths": [
-    "Obvious exits: up, down"
-  ],
+  "timeto": {
+    "9100": 0.2,
+    "9102": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     201,
     519,
     211,
     529
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Moss grows so thickly around you that it is impossible to make out the stone behind it.  A constant flow of warm, moist air feeds the glowing moss.  It hangs down in clumps here and there, almost to the floor where another sort grows in rough clumps."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Great Cavern, Flue]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9100": 0.2,
-    "9102": 0.2
-  },
-  "id": 9101,
-  "location": "the subterranean tunnels",
-  "tags": [
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,15 +1,8 @@
 {
-  "wayto": {
-    "11026": {
-      "stringproc": "2a8ae81efc1e03f55c705690d59c92ef"
-    }
-  },
-  "paths": [
-    "Obvious paths: north, northeast, east, southeast, south, southwest, west, northwest",
-    "Obvious paths: north, northeast, east, southeast, south, southwest, west, northwest, up, down"
+  "id": 16022,
+  "title": [
+    "[River's Rest, Forest]"
   ],
-  "image_coords": null,
-  "terrain": "deciduous forest",
   "description": [
     "Moonlight on the winding path between the trees only emphasizes the depth of shadows beneath the canopy of leaves.  There are few landmarks by which to find your way, but the spicy scent of dried oak leaves and the somnolescent murmur of owls make the meandering journey pleasant.",
     "Dappled sunlight on the winding path between the trees only emphasizes the cool green shadows beneath the canopy of leaves.  There are few landmarks by which to find your way, but the spicy scent of dried oak leaves and the constant birdsong make the meandering journey pleasant.",
@@ -22,17 +15,21 @@
     "The scent of damp earth implies a nearby pond or stream, but the countless trees obscure your view.  Leaves rustle at your approach as small creatures flee your imposition on their territory.",
     "Leaves on the forest floor are hidden among tussocks of grass as the stately old-growth modwirs give way to willows, their lighter greens brilliant in the sunlight.  A nearby outcropping of native rock would be about knee-high on an average human, and judging by the smooth polish of its top, it has seen much use as a seat."
   ],
-  "image": null,
-  "climate": "temperate",
-  "title": [
-    "[River's Rest, Forest]"
+  "paths": [
+    "Obvious paths: north, northeast, east, southeast, south, southwest, west, northwest",
+    "Obvious paths: north, northeast, east, southeast, south, southwest, west, northwest, up, down"
   ],
-  "check_location": null,
+  "location": "River's Rest",
+  "climate": "temperate",
+  "terrain": "deciduous forest",
+  "wayto": {
+    "11026": {
+      "file": "string_procs/wayto/16022_11026.rb"
+    }
+  },
   "timeto": {
     "11026": 3.0
   },
-  "id": 16022,
-  "location": "River's Rest",
   "tags": [
     "stick",
     "fiddlehead fern",
@@ -82,8 +79,5 @@
     "bolmara lichen",
     "brostheras grass",
     "walnuts,"
-  ],
-  "links": [
-
   ]
 }

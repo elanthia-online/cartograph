@@ -1,32 +1,23 @@
 {
-  "wayto": {
-    "3937": {
-      "stringproc": "b93cf08a79728f26b15f405399c3f972"
-    }
-  },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "The tunnel slopes gently downward, and much of the floor is shattered and broken.  You could easily do without the slight movement of the air, as it only brings ever more appalling scents to your attention."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 3967,
   "title": [
     "[Abandoned Sewer]"
   ],
-  "check_location": null,
+  "description": [
+    "The tunnel slopes gently downward, and much of the floor is shattered and broken.  You could easily do without the slight movement of the air, as it only brings ever more appalling scents to your attention."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "wayto": {
+    "3937": {
+      "file": "string_procs/wayto/3967_3937.rb"
+    }
+  },
   "timeto": {
     "3937": 1.6
   },
-  "id": 3967,
-  "location": null,
   "tags": [
     "no-auto-map"
-  ],
-  "links": [
-
   ]
 }

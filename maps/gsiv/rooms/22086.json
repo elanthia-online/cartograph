@@ -1,37 +1,25 @@
 {
-  "wayto": {
-    "20866": {
-      "stringproc": "2b5f4f6dea3634614a6f86736cacfc29"
-    },
-    "22087": {
-      "stringproc": "cd686e8f6b3c156d4631a5b8da8313ef"
-    }
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "The hall is dark, lit only by a guttering torch over each of the two doors and a beam of light pouring through a small hole in the wall.  The obsidian walls are unbroken by decorations, and any noises echo loudly off the stone."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 22086,
   "title": [
     "[Storage Hall]"
   ],
-  "check_location": null,
+  "description": [
+    "The hall is dark, lit only by a guttering torch over each of the two doors and a beam of light pouring through a small hole in the wall.  The obsidian walls are unbroken by decorations, and any noises echo loudly off the stone."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "wayto": {
+    "20866": {
+      "file": "string_procs/wayto/22086_20866.rb"
+    },
+    "22087": {
+      "file": "string_procs/wayto/22086_22087.rb"
+    }
+  },
   "timeto": {
     "20866": 0.2,
     "22087": 0.2
-  },
-  "id": 22086,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  }
 }

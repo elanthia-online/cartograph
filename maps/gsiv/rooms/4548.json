@@ -1,45 +1,35 @@
 {
+  "id": 4548,
+  "title": [
+    "[Dark Tunnel]"
+  ],
+  "description": [
+    "Blotchy patches of cobwebs fill a vast array of holes within the walls.  Considering the odd placement of many of the holes, you are not quite convinced these were made by miners, but perhaps by some burrowing creature long since dead."
+  ],
+  "paths": [
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "4547": "northwest",
     "4549": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast, northwest"
-  ],
+  "timeto": {
+    "4547": 0.2,
+    "4549": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1118,
     563,
     1128,
     573
   ],
-  "terrain": "indoors",
-  "description": [
-    "Blotchy patches of cobwebs fill a vast array of holes within the walls.  Considering the odd placement of many of the holes, you are not quite convinced these were made by miners, but perhaps by some burrowing creature long since dead."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dark Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4547": 0.2,
-    "4549": 0.2
-  },
-  "id": 4548,
-  "location": "the Shadow Valley",
   "tags": [
     "some shadowlace moss",
     "blackgrove root",
     "some cave moss",
     "some blue moss",
-    "ghostly pooka",
-    "cave moss",
-    "shadowlace moss",
-    "blue moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ghostly pooka"
   ]
 }

@@ -1,46 +1,30 @@
 {
-  "wayto": {
-    "8205": "west"
-  },
+  "id": 8206,
+  "title": [
+    "[Sea Caverns, River's Edge]"
+  ],
+  "description": [
+    "Here, the cavern is more spacious.  The loose pebbles of the floor disappear into the embrace of a river as dark as a moonless night.  It appears to have a swift current, judging from the sound of it flowing through a fissure in the southern wall."
+  ],
   "paths": [
     "Obvious exits: west"
   ],
+  "location": "the sea caverns",
+  "wayto": {
+    "8205": "west"
+  },
+  "timeto": {
+    "8205": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     606,
     209,
     616,
     219
   ],
-  "terrain": "indoors",
-  "description": [
-    "Here, the cavern is more spacious.  The loose pebbles of the floor disappear into the embrace of a river as dark as a moonless night.  It appears to have a swift current, judging from the sound of it flowing through a fissure in the southern wall."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Caverns, River's Edge]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8205": 0.2
-  },
-  "id": 8206,
-  "location": "the sea caverns",
   "tags": [
     "red trafel mushroom",
-    "blue trafel mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "black hook mushroom",
-    "white hook mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "blue trafel mushroom"
   ]
 }

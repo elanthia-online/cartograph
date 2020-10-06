@@ -1,35 +1,32 @@
 {
+  "id": 7213,
+  "title": [
+    "[Graveyard, Barrow Tunnel]"
+  ],
+  "description": [
+    "The tunnel widens into a small circular chamber that has been dug out of the dirt and stone.  The curved, irregular walls are covered with thick layers of spiderwebs, some of the strands as big around as a finger, which almost conceal the dozens of dark holes that dot the chamber.  A faint, chill breeze passes through the room."
+  ],
+  "paths": [
+    "Obvious exits: east, southeast, southwest"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7212": "southwest",
     "7246": "southeast",
     "7214": "east"
   },
-  "paths": [
-    "Obvious exits: east, southeast, southwest"
-  ],
+  "timeto": {
+    "7212": 0.2,
+    "7246": 0.2,
+    "7214": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     477,
     185,
     487,
     195
   ],
-  "terrain": "indoors",
-  "description": [
-    "The tunnel widens into a small circular chamber that has been dug out of the dirt and stone.  The curved, irregular walls are covered with thick layers of spiderwebs, some of the strands as big around as a finger, which almost conceal the dozens of dark holes that dot the chamber.  A faint, chill breeze passes through the room."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Graveyard, Barrow Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7212": 0.2,
-    "7246": 0.2,
-    "7214": 0.2
-  },
-  "id": 7213,
-  "location": "the Graveyard",
   "tags": [
     "some wolifrew lichen",
     "some cave moss",
@@ -38,10 +35,6 @@
     "cave moss",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

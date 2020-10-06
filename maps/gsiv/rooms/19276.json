@@ -1,41 +1,34 @@
 {
+  "id": 19276,
+  "title": [
+    "[Moot Hall, Chamber of Justice]"
+  ],
+  "description": [
+    "Two high-backed, elaborately carved chairs face the imposing, burnished oak bench where members of the official Town Council convene to decide matters of solemn importance.  A narrow stairway leads up to a low balcony that surrounds the chamber, providing ample seating for interested visitors to observe the proceedings."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "19277": "go stairway",
     "19278": "go door",
     "19275": "go arch"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "19277": 0.2,
+    "19278": 0.2,
+    "19275": 0.2
+  },
+  "image": "wl-wehnimers-1264234799.png",
   "image_coords": [
     356,
     613,
     391,
     649
   ],
-  "terrain": "indoors",
-  "description": [
-    "Two high-backed, elaborately carved chairs face the imposing, burnished oak bench where members of the official Town Council convene to decide matters of solemn importance.  A narrow stairway leads up to a low balcony that surrounds the chamber, providing ample seating for interested visitors to observe the proceedings."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Moot Hall, Chamber of Justice]"
-  ],
-  "check_location": false,
-  "timeto": {
-    "19277": 0.2,
-    "19278": 0.2,
-    "19275": 0.2
-  },
-  "id": 19276,
-  "location": "the town of Wehnimer's Landing",
   "tags": [
-    "meta:teleport:fwi",
-    "no forageables",
-    "meta:forage-sensed"
+    "meta:teleport:fwi"
   ],
-  "links": [
-
-  ]
+  "check_location": false
 }

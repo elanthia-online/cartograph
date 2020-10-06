@@ -1,37 +1,34 @@
 {
+  "id": 11228,
+  "title": [
+    "[Citadel, Outside]"
+  ],
+  "description": [
+    "Before you stands an old, but relatively intact, building.  The crumbly walls appear to have once been painted white, but have since yellowed with weather and age.  A small door set into the wall hangs on by its rusted hinges, a sharp, distinct odor drifting out from within.  Moss covered walkways lead off in several directions, but the passing mist obscures whatever might lay down them."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south, northwest"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11226": "northwest",
     "11229": "go door",
     "11257": "s",
     "11224": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, south, northwest"
-  ],
-  "image_coords": [
-    360,
-    606,
-    370,
-    616
-  ],
-  "terrain": "plain dirt",
-  "description": [
-    "Before you stands an old, but relatively intact, building.  The crumbly walls appear to have once been painted white, but have since yellowed with weather and age.  A small door set into the wall hangs on by its rusted hinges, a sharp, distinct odor drifting out from within.  Moss covered walkways lead off in several directions, but the passing mist obscures whatever might lay down them."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "moist",
-  "title": [
-    "[Citadel, Outside]"
-  ],
-  "check_location": null,
   "timeto": {
     "11226": 0.2,
     "11229": 0.2,
     "11257": 0.2,
     "11224": 0.2
   },
-  "id": 11228,
-  "location": "the Citadel",
+  "image": "rr-citadel-1267238976.png",
+  "image_coords": [
+    360,
+    606,
+    370,
+    616
+  ],
   "tags": [
     "some aloeas stem",
     "bright red cranberry",
@@ -43,17 +40,6 @@
     "some wingstem root",
     "some calamia fruit",
     "wild chokecherry",
-    "some motherwort",
-    "acantha leaf",
-    "calamia fruit",
-    "aloeas stem",
-    "motherwort",
-    "murkweed",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some motherwort"
   ]
 }

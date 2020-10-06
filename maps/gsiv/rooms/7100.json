@@ -1,38 +1,28 @@
 {
+  "id": 7100,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "This room is a shambles.  Benches and other furniture that would be antiques if they were in one piece are smashed and splintered, their pieces strewn all over the room in a chaotic explosion.  A few rusty swords, and a shield rim like a great iron hoop protrude from the junk.  Most of the wood is blackened, and a great charred table lies upended against one wall."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7099": "go door",
     "7101": "go trapdoor"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "7099": 0.2,
+    "7101": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     1055,
     925,
     1065,
     935
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This room is a shambles.  Benches and other furniture that would be antiques if they were in one piece are smashed and splintered, their pieces strewn all over the room in a chaotic explosion.  A few rusty swords, and a shield rim like a great iron hoop protrude from the junk.  Most of the wood is blackened, and a great charred table lies upended against one wall."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7099": 0.2,
-    "7101": 0.2
-  },
-  "id": 7100,
-  "location": "Darkstone Castle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

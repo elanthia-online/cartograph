@@ -1,38 +1,28 @@
 {
+  "id": 6720,
+  "title": [
+    "[Upper Dragonsclaw, Tower Cellar]"
+  ],
+  "description": [
+    "An eerie pall of silence falls over this dark chamber filled with an array of torturous devices.  Battered shackles dangle from loops on the walls, and dried patches of blood stain the packed dirt floor.  Behind an imposing iron table, you see a rough-edged hole carved into the wall."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Upper Dragonsclaw",
   "wayto": {
     "6719": "climb stairs",
     "6721": "go hole"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "6719": 0.2,
+    "6721": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     157,
     926,
     167,
     936
-  ],
-  "terrain": "indoors",
-  "description": [
-    "An eerie pall of silence falls over this dark chamber filled with an array of torturous devices.  Battered shackles dangle from loops on the walls, and dried patches of blood stain the packed dirt floor.  Behind an imposing iron table, you see a rough-edged hole carved into the wall."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Upper Dragonsclaw, Tower Cellar]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6719": 0.2,
-    "6721": 0.2
-  },
-  "id": 6720,
-  "location": "the Upper Dragonsclaw",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

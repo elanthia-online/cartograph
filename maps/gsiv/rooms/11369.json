@@ -1,36 +1,25 @@
 {
-  "wayto": {
-    "11368": "north"
-  },
+  "id": 11369,
+  "title": [
+    "[Hall of Records]"
+  ],
+  "description": [
+    "Scribes once worked furiously at these four desks, detailing all of the actions taken by the Council and its servants.  The shelves are crammed from floor to ceiling with papers and scrolls:  census records, imports, exports, treaties, council meetings, and military actions."
+  ],
   "paths": [
     "Obvious exits: north"
   ],
+  "wayto": {
+    "11368": "north"
+  },
+  "timeto": {
+    "11368": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     112,
     1291,
     122,
     1301
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Scribes once worked furiously at these four desks, detailing all of the actions taken by the Council and its servants.  The shelves are crammed from floor to ceiling with papers and scrolls:  census records, imports, exports, treaties, council meetings, and military actions."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Hall of Records]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11368": 0.2
-  },
-  "id": 11369,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

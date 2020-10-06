@@ -1,38 +1,28 @@
 {
+  "id": 9096,
+  "title": [
+    "[Great Cavern, Limestone Stairs]"
+  ],
+  "description": [
+    "The stone of the stairs and walls is pitted and flakes off easily.  Even so, the stairs are sturdy and seem to have stood for ages.  Glowing moss grows in occasional patches, illuminating the steps with a dull shine."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "the subterranean tunnels",
   "wayto": {
     "9097": "down",
     "9095": "up"
   },
-  "paths": [
-    "Obvious exits: up, down"
-  ],
+  "timeto": {
+    "9097": 0.2,
+    "9095": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     202,
     358,
     212,
     368
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The stone of the stairs and walls is pitted and flakes off easily.  Even so, the stairs are sturdy and seem to have stood for ages.  Glowing moss grows in occasional patches, illuminating the steps with a dull shine."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Great Cavern, Limestone Stairs]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9097": 0.2,
-    "9095": 0.2
-  },
-  "id": 9096,
-  "location": "the subterranean tunnels",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

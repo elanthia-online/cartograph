@@ -1,50 +1,37 @@
 {
+  "id": 6903,
+  "title": [
+    "[Smuggling Tunnels, Passage]"
+  ],
+  "description": [
+    "Nearly hidden in the shadows of the dirt walls is a large sack of cotton.  The markings on the sack are illegible now, but the burlap of the sack itself looks like it came from a well-known merchant in Wehnimer's Landing.  Whether he was having his own goods smuggled, or they were being stolen, is something only the sack itself knows."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast, south, west"
+  ],
+  "location": "the smuggling tunnels",
   "wayto": {
     "6904": "south",
     "6905": "southeast",
     "6906": "west",
     "6902": "north"
   },
-  "paths": [
-    "Obvious exits: north, southeast, south, west"
-  ],
-  "image_coords": [
-    1129,
-    1409,
-    1139,
-    1419
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Nearly hidden in the shadows of the dirt walls is a large sack of cotton.  The markings on the sack are illegible now, but the burlap of the sack itself looks like it came from a well-known merchant in Wehnimer's Landing.  Whether he was having his own goods smuggled, or they were being stolen, is something only the sack itself knows."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Smuggling Tunnels, Passage]"
-  ],
-  "check_location": null,
   "timeto": {
     "6904": 0.2,
     "6905": 0.2,
     "6906": 0.2,
     "6902": 0.2
   },
-  "id": 6903,
-  "location": "the smuggling tunnels",
+  "image": "wl-gates-1264234799.png",
+  "image_coords": [
+    1129,
+    1409,
+    1139,
+    1419
+  ],
   "tags": [
     "some cave moss",
     "withered black mushroom",
-    "some wingstem root",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

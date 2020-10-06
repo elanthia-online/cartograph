@@ -1,44 +1,34 @@
 {
+  "id": 9072,
+  "title": [
+    "[Underground Tunnel]"
+  ],
+  "description": [
+    "The nondescript tunnel runs off into the darkness.  A dull thudding reverberates through the tunnel, shaking dirt clods loose from the ceiling which explode on the floor in syncopated time.  A thick cloud of dust obscures your vision."
+  ],
+  "paths": [
+    "Obvious exits: east, up"
+  ],
+  "location": "the subterranean tunnels",
   "wayto": {
     "9074": "east",
     "9071": "up",
     "9073": "go tunnel"
   },
-  "paths": [
-    "Obvious exits: east, up"
-  ],
+  "timeto": {
+    "9074": 0.2,
+    "9071": 0.2,
+    "9073": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     1113,
     171,
     1123,
     181
   ],
-  "terrain": "indoors",
-  "description": [
-    "The nondescript tunnel runs off into the darkness.  A dull thudding reverberates through the tunnel, shaking dirt clods loose from the ceiling which explode on the floor in syncopated time.  A thick cloud of dust obscures your vision."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Underground Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9074": 0.2,
-    "9071": 0.2,
-    "9073": 0.2
-  },
-  "id": 9072,
-  "location": "the subterranean tunnels",
   "tags": [
     "some wolifrew lichen",
-    "some wingstem root",
-    "wolifrew lichen",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

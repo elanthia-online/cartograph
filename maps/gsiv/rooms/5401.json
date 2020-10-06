@@ -1,33 +1,30 @@
 {
+  "id": 5401,
+  "title": [
+    "[Ruined Courtyard]"
+  ],
+  "description": [
+    "The iron gate that allowed entrance to this courtyard is no longer in sight, so there will be no quick escape to safety if needed.  A badly mangled piece of what might have been a shield is protruding from the ground, and based on its condition, it did a very poor job of protecting its owner."
+  ],
+  "paths": [
+    "Obvious paths: east, south"
+  ],
+  "location": "Bonespear Tower",
   "wayto": {
     "5400": "south",
     "5402": "east"
   },
-  "paths": [
-    "Obvious paths: east, south"
-  ],
+  "timeto": {
+    "5400": 0.2,
+    "5402": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     1197,
     906,
     1207,
     916
   ],
-  "terrain": "rough",
-  "description": [
-    "The iron gate that allowed entrance to this courtyard is no longer in sight, so there will be no quick escape to safety if needed.  A badly mangled piece of what might have been a shield is protruding from the ground, and based on its condition, it did a very poor job of protecting its owner."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "humid",
-  "title": [
-    "[Ruined Courtyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5400": 0.2,
-    "5402": 0.2
-  },
-  "id": 5401,
-  "location": "Bonespear Tower",
   "tags": [
     "sprig of larkspur",
     "fiddlehead fern",
@@ -49,13 +46,6 @@
     "red clover blossom",
     "white passionflower",
     "stalk of chicory",
-    "golden hook mushroom",
-    "blueberries",
-    "broken twig",
-    "motherwort",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "golden hook mushroom"
   ]
 }

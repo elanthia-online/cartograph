@@ -1,34 +1,31 @@
 {
+  "id": 5225,
+  "title": [
+    "[Vornavian Coast, Coastal Woods]"
+  ],
+  "description": [
+    "Bright moonlight flows in from the west, where the sounds of the crashing surf can be heard over the rushing winds and rustling leaves.  The woods here are lush, and thick underbrush covers the ground around the trees.  The cliff to the west can be climbed down to the beach.",
+    "Glaring sunlight flows in from the west, where the sounds of the crashing surf can be heard over the rushing winds and rustling leaves.  The woods here are lush, and thick underbrush covers the ground around the trees.  The cliff to the west can be climbed down to the beach."
+  ],
+  "paths": [
+    "Obvious paths: northeast"
+  ],
+  "location": "the Vornavian Coast",
   "wayto": {
     "5247": "northeast",
     "5223": "climb cliff"
   },
-  "paths": [
-    "Obvious paths: northeast"
-  ],
+  "timeto": {
+    "5247": 0.2,
+    "5223": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     427,
     845,
     437,
     855
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "Bright moonlight flows in from the west, where the sounds of the crashing surf can be heard over the rushing winds and rustling leaves.  The woods here are lush, and thick underbrush covers the ground around the trees.  The cliff to the west can be climbed down to the beach.",
-    "Glaring sunlight flows in from the west, where the sounds of the crashing surf can be heard over the rushing winds and rustling leaves.  The woods here are lush, and thick underbrush covers the ground around the trees.  The cliff to the west can be climbed down to the beach."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Vornavian Coast, Coastal Woods]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5247": 0.2,
-    "5223": 0.2
-  },
-  "id": 5225,
-  "location": "the Vornavian Coast",
   "tags": [
     "trollfear mushroom",
     "blue trafel mushroom",
@@ -64,40 +61,6 @@
     "white baneberry",
     "some calamia fruit",
     "twisted twig",
-    "handful of blueberries",
-    "acantha leaf",
-    "torban leaf",
-    "calamia fruit",
-    "haphip root",
-    "basal moss",
-    "sticks",
-    "angelica root",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "blueberries",
-    "elderberries",
-    "wild grapes",
-    "broken twig",
-    "stalk of bluebells",
-    "stalk of goldenrod",
-    "tree bark",
-    "white lily",
-    "pink rain lily",
-    "oxblood lily",
-    "bloodwood twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "nightbloom blossom",
-    "slender twig",
-    "ebony twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "alder bark",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "handful of blueberries"
   ]
 }

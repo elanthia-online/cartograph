@@ -1,35 +1,32 @@
 {
+  "id": 6123,
+  "title": [
+    "[Krag Slopes]"
+  ],
+  "description": [
+    "The trees and foliage are becoming sparser, their roots finding it difficult to gain purchase in the mountainside as the soil gives way to rockier terrain.  The dark adit of a cave can be seen just up the side of the slope."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "the Krag slopes",
   "wayto": {
     "6124": "southwest",
     "8601": "go adit",
     "6122": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, southwest"
-  ],
+  "timeto": {
+    "6124": 0.2,
+    "8601": 0.2,
+    "6122": 0.2
+  },
+  "image": "wl-wehntoph-1310775397.png",
   "image_coords": [
     1510,
     226,
     1546,
     262
   ],
-  "terrain": null,
-  "description": [
-    "The trees and foliage are becoming sparser, their roots finding it difficult to gain purchase in the mountainside as the soil gives way to rockier terrain.  The dark adit of a cave can be seen just up the side of the slope."
-  ],
-  "image": "wl-wehntoph-1310775397.png",
-  "climate": null,
-  "title": [
-    "[Krag Slopes]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6124": 0.2,
-    "8601": 0.2,
-    "6122": 0.2
-  },
-  "id": 6123,
-  "location": "the Krag slopes",
   "tags": [
     "some bolmara lichen",
     "stalk of bluebells",
@@ -50,8 +47,5 @@
     "ironfern root",
     "bolmara lichen",
     "wingstem root"
-  ],
-  "links": [
-
   ]
 }

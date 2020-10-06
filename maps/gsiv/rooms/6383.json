@@ -1,33 +1,30 @@
 {
+  "id": 6383,
+  "title": [
+    "[Lysierian Hills, High Ridge]"
+  ],
+  "description": [
+    "As you make your way along this ridge, you can see a dense forest to the southwest and barren foothills to the northeast.  There is no obvious safe passage in either of these directions, so you are forced to follow the ridge either to the north or to the southeast."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast"
+  ],
+  "location": "the Lysierian Hills",
   "wayto": {
     "6382": "southeast",
     "6384": "north"
   },
-  "paths": [
-    "Obvious paths: north, southeast"
-  ],
+  "timeto": {
+    "6382": 0.2,
+    "6384": 0.2
+  },
+  "image": "wl-lysierian-1264234799.png",
   "image_coords": [
     640,
     429,
     650,
     439
   ],
-  "terrain": "hilly",
-  "description": [
-    "As you make your way along this ridge, you can see a dense forest to the southwest and barren foothills to the northeast.  There is no obvious safe passage in either of these directions, so you are forced to follow the ridge either to the north or to the southeast."
-  ],
-  "image": "wl-lysierian-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Lysierian Hills, High Ridge]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6382": 0.2,
-    "6384": 0.2
-  },
-  "id": 6383,
-  "location": "the Lysierian Hills",
   "tags": [
     "some ambrominas leaf",
     "traesharm berry",
@@ -38,51 +35,6 @@
     "cluster of woad leaves",
     "sprig of mournbloom",
     "rose-marrow root",
-    "wild pansy blossom",
-    "ambrominas leaf",
-    "tkaro root",
-    "sticks",
-    "angelica root",
-    "trollfear mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "stalk of chicory",
-    "elderberries",
-    "sprig of alyssum",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "sprig of larkspur",
-    "sprig of wild lilac",
-    "motherwort",
-    "golden aster",
-    "honeysuckle vine",
-    "sprig of jasmine",
-    "sprig of mistletoe",
-    "tree bark",
-    "wiregrass",
-    "murkweed",
-    "white lily",
-    "bloodwood twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "ironfern root",
-    "nightbloom blossom",
-    "twisted twig",
-    "slender twig",
-    "ebony twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "woad leaves",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wild pansy blossom"
   ]
 }

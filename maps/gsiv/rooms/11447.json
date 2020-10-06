@@ -1,43 +1,34 @@
 {
-  "wayto": {
-    "11446": {
-      "stringproc": "6ec0d3f2602af819251801455c03b9d7"
-    },
-    "11448": {
-      "stringproc": "ecb29216e38b2eccfa243d0a331e41b2"
-    },
-    "11438": {
-      "stringproc": "311ee2488122f711ecdb848822003512"
-    },
-    "11439": {
-      "stringproc": "e874f03e7b4c2d51bbdcaccf4bb927c8"
-    },
-    "11450": {
-      "stringproc": "df0635901e9065a4aadbe5056471d5c8"
-    },
-    "11456": {
-      "stringproc": "c5de6a93c272509e579c13cc8cd916bf"
-    }
-  },
-  "paths": [
-    "Obvious paths: north, northeast, east, southeast, northwest, down"
-  ],
-  "image_coords": [
-    702,
-    1288,
-    712,
-    1298
-  ],
-  "terrain": null,
-  "description": [
-    "The slow-moving swells of the bay disguise the swift currents that make it impossible to move to the west.  To the east is the tall, steep cliff of the mainland.  The island of River's Rest is visible to the southeast."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": null,
+  "id": 11447,
   "title": [
     "[Maelstrom Bay, Surface]"
   ],
-  "check_location": null,
+  "description": [
+    "The slow-moving swells of the bay disguise the swift currents that make it impossible to move to the west.  To the east is the tall, steep cliff of the mainland.  The island of River's Rest is visible to the southeast."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, east, southeast, northwest, down"
+  ],
+  "wayto": {
+    "11446": {
+      "file": "string_procs/wayto/11447_11446.rb"
+    },
+    "11448": {
+      "file": "string_procs/wayto/11447_11448.rb"
+    },
+    "11438": {
+      "file": "string_procs/wayto/11447_11438.rb"
+    },
+    "11439": {
+      "file": "string_procs/wayto/11447_11439.rb"
+    },
+    "11450": {
+      "file": "string_procs/wayto/11447_11450.rb"
+    },
+    "11456": {
+      "file": "string_procs/wayto/11447_11456.rb"
+    }
+  },
   "timeto": {
     "11446": 2.0,
     "11448": 2.0,
@@ -46,12 +37,11 @@
     "11450": 2.0,
     "11456": 3.0
   },
-  "id": 11447,
-  "location": null,
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "rr-maelstrom-1266390501.png",
+  "image_coords": [
+    702,
+    1288,
+    712,
+    1298
   ]
 }

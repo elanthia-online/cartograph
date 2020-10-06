@@ -1,36 +1,25 @@
 {
-  "wayto": {
-    "13688": "northeast",
-    "10461": "out",
-    "13687": "northwest"
-  },
-  "paths": [
-    "Obvious exits: northeast, northwest, out"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Beneath an elegantly arched fel ceiling, a gold and crimson wyvern tapestry hangs on one of the textured ivory silk walls.  A carved mahogany box and a gold-veined black marble counter sit in opposite corners while a sphere-topped black marble fountain rests on a parquet golden oak floor."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 13603,
   "title": [
     "[Quessara's Outfitting]",
     "[Quessara's Armory]",
     "[Quessara's General Store]"
   ],
-  "check_location": null,
+  "description": [
+    "Beneath an elegantly arched fel ceiling, a gold and crimson wyvern tapestry hangs on one of the textured ivory silk walls.  A carved mahogany box and a gold-veined black marble counter sit in opposite corners while a sphere-topped black marble fountain rests on a parquet golden oak floor."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest, out"
+  ],
+  "location": "Ta'Vaalor",
+  "wayto": {
+    "13688": "northeast",
+    "10461": "out",
+    "13687": "northwest"
+  },
   "timeto": {
     "13688": 0.2,
     "10461": 0.2,
     "13687": 0.2
-  },
-  "id": 13603,
-  "location": "Ta'Vaalor",
-  "tags": [
-
-  ],
-  "links": [
-
-  ]
+  }
 }

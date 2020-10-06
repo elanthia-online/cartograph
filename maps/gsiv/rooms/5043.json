@@ -1,42 +1,32 @@
 {
+  "id": 5043,
+  "title": [
+    "[Marshtown, Jag Hill]"
+  ],
+  "description": [
+    "The walkway turns abruptly southeast from here, while striking due west toward a large hill.  The buildings here sport signs reading \"Jag Hill\" and have shining steel numbers attached.  This section of town seems very well kept when compared with the rest of the sprawl.  A dark, narrow alley leads due south between two taller buildings.  Denuded of its mane by the elements, the skin of a cragviper is stretched on a tanning frame that hangs above a doorway just inside the alley."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the lowlands of Marshtown",
   "wayto": {
     "5042": "east",
     "5044": "west",
     "5726": "go doorway",
     "5728": "go alley"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
-  "image_coords": [
-    812,
-    670,
-    822,
-    680
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "The walkway turns abruptly southeast from here, while striking due west toward a large hill.  The buildings here sport signs reading \"Jag Hill\" and have shining steel numbers attached.  This section of town seems very well kept when compared with the rest of the sprawl.  A dark, narrow alley leads due south between two taller buildings.  Denuded of its mane by the elements, the skin of a cragviper is stretched on a tanning frame that hangs above a doorway just inside the alley."
-  ],
-  "image": "vo-caravansary-1264234799.png",
-  "climate": "humid",
-  "title": [
-    "[Marshtown, Jag Hill]"
-  ],
-  "check_location": null,
   "timeto": {
     "5042": 0.2,
     "5044": 0.2,
     "5726": 0.2,
     "5728": 0.2
   },
-  "id": 5043,
-  "location": "the lowlands of Marshtown",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "vo-caravansary-1264234799.png",
+  "image_coords": [
+    812,
+    670,
+    822,
+    680
   ]
 }

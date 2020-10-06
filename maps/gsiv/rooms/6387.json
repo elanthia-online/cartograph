@@ -1,38 +1,30 @@
 {
-  "wayto": {
-    "6385": "east"
-  },
+  "id": 6387,
+  "title": [
+    "[Smokey Cave, Cavern]"
+  ],
+  "description": [
+    "There is a strong odor in the air, as if someone had recently built a camp fire in this cave.  The floor, walls and ceiling of this cavern are covered in the same black grit as the outer cavern."
+  ],
   "paths": [
     "Obvious exits: east"
   ],
+  "location": "the Lysierian Hills",
+  "wayto": {
+    "6385": "east"
+  },
+  "timeto": {
+    "6385": 0.2
+  },
+  "image": "wl-lysierian-1264234799.png",
   "image_coords": [
     528,
     403,
     538,
     413
   ],
-  "terrain": "indoors",
-  "description": [
-    "There is a strong odor in the air, as if someone had recently built a camp fire in this cave.  The floor, walls and ceiling of this cavern are covered in the same black grit as the outer cavern."
-  ],
-  "image": "wl-lysierian-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Smokey Cave, Cavern]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6385": 0.2
-  },
-  "id": 6387,
-  "location": "the Lysierian Hills",
   "tags": [
     "fire rat",
-    "fire cat",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "fire cat"
   ]
 }

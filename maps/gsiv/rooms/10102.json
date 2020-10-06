@@ -1,38 +1,28 @@
 {
+  "id": 10102,
+  "title": [
+    "[A Muddy Path]"
+  ],
+  "description": [
+    "Stray grasses that have crept onto the muddy path, have been trampled to near death by frequent travelers.  A glimpse of a red barn can be seen toward the east."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Sylvarraend Road",
   "wayto": {
     "10101": "west",
     "10103": "east"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "10101": 0.2,
+    "10103": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     848,
     983,
     856,
     991
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "Stray grasses that have crept onto the muddy path, have been trampled to near death by frequent travelers.  A glimpse of a red barn can be seen toward the east."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[A Muddy Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10101": 0.2,
-    "10103": 0.2
-  },
-  "id": 10102,
-  "location": "Sylvarraend Road",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

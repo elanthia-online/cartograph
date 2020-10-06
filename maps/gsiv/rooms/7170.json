@@ -1,33 +1,30 @@
 {
+  "id": 7170,
+  "title": [
+    "[Graveyard]"
+  ],
+  "description": [
+    "From this corner of the crypt, you spy lowlying terrain to the north and west, as the vegetation takes on a darker green color and low curling mists obscure the ground in the distance."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7169": "southwest",
     "7171": "east"
   },
-  "paths": [
-    "Obvious paths: east, southwest"
-  ],
+  "timeto": {
+    "7169": 0.2,
+    "7171": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     214,
     785,
     224,
     795
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "From this corner of the crypt, you spy lowlying terrain to the north and west, as the vegetation takes on a darker green color and low curling mists obscure the ground in the distance."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Graveyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7169": 0.2,
-    "7171": 0.2
-  },
-  "id": 7170,
-  "location": "the Graveyard",
   "tags": [
     "some wolifrew lichen",
     "some acantha leaf",
@@ -53,10 +50,6 @@
     "pennyroyal stem",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

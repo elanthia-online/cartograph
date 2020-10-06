@@ -1,38 +1,28 @@
 {
+  "id": 12761,
+  "title": [
+    "[Ruined Temple, Second Floor]"
+  ],
+  "description": [
+    "The hall continues along its dark, damp, and cold path with little change.  Carved grooves in the surface of the floor provide secure footing, despite being submerged below the water's surface."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Ruined Temple",
   "wayto": {
     "12759": "east",
     "12760": "west"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "12759": 0.2,
+    "12760": 0.2
+  },
+  "image": "ti-nelemar-1262373036.png",
   "image_coords": [
     877,
     303,
     913,
     339
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The hall continues along its dark, damp, and cold path with little change.  Carved grooves in the surface of the floor provide secure footing, despite being submerged below the water's surface."
-  ],
-  "image": "ti-nelemar-1262373036.png",
-  "climate": "indoors",
-  "title": [
-    "[Ruined Temple, Second Floor]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "12759": 0.2,
-    "12760": 0.2
-  },
-  "id": 12761,
-  "location": "the Ruined Temple",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

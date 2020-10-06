@@ -1,42 +1,32 @@
 {
+  "id": 2359,
+  "title": [
+    "[Icemule Trace, North Gate]"
+  ],
+  "description": [
+    "Several well-armed guards stand to either side of a hole in the glacier.  People wander in and out of the opening, which apparantly serves as a gate to the town.  Within the ice you can see the faint shadow of what once must have been the actual gates.  However, the glacier has devoured it over time, and the resourceful halflings have taken advantage of the natural wall created by the ice."
+  ],
+  "paths": [
+    "Obvious paths: south, west"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "2358": "south",
     "2360": "west",
     "3307": "go ice-encrusted gate",
     "3726": "go stairs"
   },
-  "paths": [
-    "Obvious paths: south, west"
-  ],
-  "image_coords": [
-    584,
-    343,
-    620,
-    379
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "Several well-armed guards stand to either side of a hole in the glacier.  People wander in and out of the opening, which apparantly serves as a gate to the town.  Within the ice you can see the faint shadow of what once must have been the actual gates.  However, the glacier has devoured it over time, and the resourceful halflings have taken advantage of the natural wall created by the ice."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Icemule Trace, North Gate]"
-  ],
-  "check_location": null,
   "timeto": {
     "2358": 0.2,
     "2360": 0.2,
     "3307": 0.2,
     "3726": 0.2
   },
-  "id": 2359,
-  "location": "Icemule Trace",
-  "tags": [
-    "calmintha flower",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "imt-icemule-1474811966.png",
+  "image_coords": [
+    584,
+    343,
+    620,
+    379
   ]
 }

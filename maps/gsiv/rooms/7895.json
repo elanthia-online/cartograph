@@ -1,35 +1,32 @@
 {
+  "id": 7895,
+  "title": [
+    "[Hidden Settlement]"
+  ],
+  "description": [
+    "Two small tents flank the path as it splits to the southeast and southwest and you note a pair of eyes watching you quietly from inside one of them.  Silence prevails here as even the wind blowing lightly through the trees is a barely audible whisper."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast, southwest"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "7901": "southwest",
     "7896": "southeast",
     "1218": "north"
   },
-  "paths": [
-    "Obvious paths: north, southeast, southwest"
-  ],
+  "timeto": {
+    "7901": 0.2,
+    "7896": 0.2,
+    "1218": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     1000,
     1263,
     1010,
     1273
   ],
-  "terrain": "grassland",
-  "description": [
-    "Two small tents flank the path as it splits to the southeast and southwest and you note a pair of eyes watching you quietly from inside one of them.  Silence prevails here as even the wind blowing lightly through the trees is a barely audible whisper."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Hidden Settlement]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7901": 0.2,
-    "7896": 0.2,
-    "1218": 0.2
-  },
-  "id": 7895,
-  "location": "the Upper Trollfang",
   "tags": [
     "stalk of chicory",
     "cuctucae berry",
@@ -37,26 +34,6 @@
     "moonlight cactus-bloom",
     "sprig of larkspur",
     "some wolifrew lichen",
-    "ayana weed",
-    "acantha leaf",
-    "wolifrew lichen",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "white hook mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "heath aster",
-    "bright red cranberry",
-    "ayana leaf",
-    "luckbloom blossom",
-    "ironfern root",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ayana weed"
   ]
 }

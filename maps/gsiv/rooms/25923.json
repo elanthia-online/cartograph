@@ -1,35 +1,28 @@
 {
+  "id": 25923,
+  "title": [
+    "[Ostwicke Hall, Office]"
+  ],
+  "description": [
+    "A scribe's desk sits before a cushioned wooden bench in the center of the room.  Behind it, a long row of cabinets is topped by books, ledgers, and scrolls.  A tall door has been wedged open by a wooden block, though the boxes that threaten to spill out would likely be enough to keep the door from closing."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Summit Academy",
   "wayto": {
     "25924": "go door",
     "25922": "out"
   },
-  "paths": [
-    "Obvious exits: out"
-  ],
+  "timeto": {
+    "25924": 0.2,
+    "25922": 0.2
+  },
+  "image": "Spire_Grounds_5117.png",
   "image_coords": [
     581,
     91,
     632,
     143
-  ],
-  "terrain": null,
-  "description": [
-    "A scribe's desk sits before a cushioned wooden bench in the center of the room.  Behind it, a long row of cabinets is topped by books, ledgers, and scrolls.  A tall door has been wedged open by a wooden block, though the boxes that threaten to spill out would likely be enough to keep the door from closing."
-  ],
-  "image": "Spire_Grounds_5117.png",
-  "climate": null,
-  "title": [
-    "[Ostwicke Hall, Office]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "25924": 0.2,
-    "25922": 0.2
-  },
-  "id": 25923,
-  "location": "Summit Academy",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

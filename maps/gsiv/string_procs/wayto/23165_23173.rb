@@ -1,1 +1,2 @@
-move "out";waitrt
+move "out"
+waitrt

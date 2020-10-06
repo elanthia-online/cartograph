@@ -1,49 +1,31 @@
 {
+  "id": 9598,
+  "title": [
+    "[Czeroth Caverns, Tunnel]"
+  ],
+  "description": [
+    "A sharp curve in the tunnel allows passage to either the northeast or northwest.  The sound of dripping water echoes through the air, seeming to come from all directions.  A faint chittering is heard among the echoes."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest"
+  ],
+  "location": "the Czeroth Caverns",
   "wayto": {
     "9597": "northwest",
     "9599": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, northwest"
-  ],
+  "timeto": {
+    "9597": 0.2,
+    "9599": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     1258,
     381,
     1268,
     391
   ],
-  "terrain": "indoors",
-  "description": [
-    "A sharp curve in the tunnel allows passage to either the northeast or northwest.  The sound of dripping water echoes through the air, seeming to come from all directions.  A faint chittering is heard among the echoes."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Czeroth Caverns, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9597": 0.2,
-    "9599": 0.2
-  },
-  "id": 9598,
-  "location": "the Czeroth Caverns",
   "tags": [
-    "some wingstem root",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

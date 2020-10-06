@@ -1,39 +1,31 @@
 {
-  "wayto": {
-    "5430": "west"
-  },
+  "id": 5431,
+  "title": [
+    "[Bonespear Tower, Laboratory]"
+  ],
+  "description": [
+    "The floor is covered with a carpet of shattered glass, and from the looks of the ruined tubes and wires scattered about, this might have been a lab at one time.  Unlike the yellow color of most of the bones making up this tower, the walls here have been badly stained with reddish splotches."
+  ],
   "paths": [
     "Obvious exits: west"
   ],
+  "location": "Bonespear Tower",
+  "wayto": {
+    "5430": "west"
+  },
+  "timeto": {
+    "5430": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     977,
     929,
     987,
     939
   ],
-  "terrain": "indoors",
-  "description": [
-    "The floor is covered with a carpet of shattered glass, and from the looks of the ruined tubes and wires scattered about, this might have been a lab at one time.  Unlike the yellow color of most of the bones making up this tower, the walls here have been badly stained with reddish splotches."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Bonespear Tower, Laboratory]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5430": 0.2
-  },
-  "id": 5431,
-  "location": "Bonespear Tower",
   "tags": [
     "waern",
     "dybbuk",
-    "eidolon",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "eidolon"
   ]
 }

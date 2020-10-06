@@ -1,33 +1,30 @@
 {
+  "id": 7200,
+  "title": [
+    "[Graveyard]"
+  ],
+  "description": [
+    "The small lake overflows the creek bank and laps against your feet.  Low, shrubby spinewood trees grow right up to the edge and some protrude from the surface of the water.  The only firm footing to be found is over the felled logs that hold back the course of the creek, blocking its northward flow."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7273": "go dam",
     "7199": "south"
   },
-  "paths": [
-    "Obvious paths: south"
-  ],
+  "timeto": {
+    "7273": 0.2,
+    "7199": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     181,
     426,
     191,
     436
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The small lake overflows the creek bank and laps against your feet.  Low, shrubby spinewood trees grow right up to the edge and some protrude from the surface of the water.  The only firm footing to be found is over the felled logs that hold back the course of the creek, blocking its northward flow."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "freshwater",
-  "title": [
-    "[Graveyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7273": 0.2,
-    "7199": 0.2
-  },
-  "id": 7200,
-  "location": "the Graveyard",
   "tags": [
     "some aloeas stem",
     "some wingstem root",
@@ -35,10 +32,6 @@
     "blue whortleberry",
     "murdroot",
     "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bur-clover root"
   ]
 }

@@ -1,42 +1,32 @@
 {
-  "wayto": {
-    "645": "east",
-    "45": "northeast",
-    "47": "southwest"
-  },
-  "paths": [
-    "Obvious paths: northeast, east, southwest"
+  "id": 46,
+  "title": [
+    "[Whistler's Pass, Road]"
   ],
-  "image_coords": [
-    1108,
-    199,
-    1118,
-    209
-  ],
-  "terrain": "hard, flat",
   "description": [
     "The road heads up the steep hillside to the northeast.  Ancient runes can barely be seen in the stones.  A pattern of small shrubs line the cobblestone border at regular intervals.",
     "The road heads up the steep hillside to the northeast.  Ancient runes can barely be seen in the stones.  A pattern of small shrubs line the cobblestone border at regular intervals.  Off to one side of the road, a guard tower sits behind high stone walls.",
     "The road heads up the steep hillside to the northeast.  Ancient runes have been carved into some of the stones.  A pattern of small shrubs line the cobblestone border at regular intervals.  Off to one side of the road, a guard tower sits behind high stone walls."
   ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Whistler's Pass, Road]"
+  "paths": [
+    "Obvious paths: northeast, east, southwest"
   ],
-  "check_location": null,
+  "location": "Whistler's Pass",
+  "wayto": {
+    "645": "east",
+    "45": "northeast",
+    "47": "southwest"
+  },
   "timeto": {
     "645": 0.2,
     "45": 0.2,
     "47": 0.2
   },
-  "id": 46,
-  "location": "Whistler's Pass",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-sapphire-1264234799.png",
+  "image_coords": [
+    1108,
+    199,
+    1118,
+    209
   ]
 }

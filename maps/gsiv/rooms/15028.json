@@ -1,36 +1,25 @@
 {
-  "wayto": {
-    "15030": "northeast",
-    "371": "out",
-    "15029": "northwest"
-  },
-  "paths": [
-    "Obvious exits: northeast, northwest, out"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Polished oak walls rise from the black marble floor.  Just above a bronzed drake sculpture hangs a midnight blue rising phoenix tapestry, and a vaulted ceiling completes the picture.  A gilded maple cabinet and a glass-topped mistwood counter stand side by side in the middle of the room."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 15028,
   "title": [
     "[Vindicate's Magic Shoppe]",
     "[Vindicate's Armory]",
     "[Vindicate's Combat Gear]"
   ],
-  "check_location": null,
+  "description": [
+    "Polished oak walls rise from the black marble floor.  Just above a bronzed drake sculpture hangs a midnight blue rising phoenix tapestry, and a vaulted ceiling completes the picture.  A gilded maple cabinet and a glass-topped mistwood counter stand side by side in the middle of the room."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest, out"
+  ],
+  "location": "Wehnimer's Landing",
+  "wayto": {
+    "15030": "northeast",
+    "371": "out",
+    "15029": "northwest"
+  },
   "timeto": {
     "15030": 0.2,
     "371": 0.2,
     "15029": 0.2
-  },
-  "id": 15028,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "links": [
-
-  ]
+  }
 }

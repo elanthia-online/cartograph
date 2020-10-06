@@ -1,35 +1,28 @@
 {
+  "id": 26018,
+  "title": [
+    "[Burghal Enclave, King's Court]"
+  ],
+  "description": [
+    "Sloping downward sharply, the tunnel winds its way deeply through the bedrock into the white tufa beneath.  Running northward, the passageway cuts beneath Guardian Keep, the very heart of Ta'Vaalor."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Ta'Vaalor",
   "wayto": {
     "3520": "go door",
     "25296": "north"
   },
-  "paths": [
-    "Obvious exits: north"
-  ],
+  "timeto": {
+    "3520": 0.2,
+    "25296": 0.2
+  },
+  "image": "EN-tavaalor-1534463105.png",
   "image_coords": [
     463,
     2208,
     499,
     2244
-  ],
-  "terrain": null,
-  "description": [
-    "Sloping downward sharply, the tunnel winds its way deeply through the bedrock into the white tufa beneath.  Running northward, the passageway cuts beneath Guardian Keep, the very heart of Ta'Vaalor."
-  ],
-  "image": "EN-tavaalor-1534463105.png",
-  "climate": null,
-  "title": [
-    "[Burghal Enclave, King's Court]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3520": 0.2,
-    "25296": 0.2
-  },
-  "id": 26018,
-  "location": "Ta'Vaalor",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

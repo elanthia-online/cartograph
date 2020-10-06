@@ -1,33 +1,30 @@
 {
+  "id": 2532,
+  "title": [
+    "[Snowy Plains, White Ice Lake]"
+  ],
+  "description": [
+    "There is nothing here but the blinding whiteness of the ice and snow--and the incessant wind.  Only careful concentration keeps your plodding feet on the almost nonexistent trail.  The prospect of straying out upon the frozen lake or into the barren wilderness strikes fear into many a soul!"
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Icemule Trail",
   "wayto": {
     "2531": "east",
     "2533": "west"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "2531": 0.2,
+    "2533": 0.2
+  },
+  "image": "imt-trail-1264234799.png",
   "image_coords": [
     905,
     590,
     915,
     600
   ],
-  "terrain": "riparian",
-  "description": [
-    "There is nothing here but the blinding whiteness of the ice and snow--and the incessant wind.  Only careful concentration keeps your plodding feet on the almost nonexistent trail.  The prospect of straying out upon the frozen lake or into the barren wilderness strikes fear into many a soul!"
-  ],
-  "image": "imt-trail-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Snowy Plains, White Ice Lake]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2531": 0.2,
-    "2533": 0.2
-  },
-  "id": 2532,
-  "location": "the Icemule Trail",
   "tags": [
     "some talneo root",
     "some frostweed",
@@ -39,10 +36,6 @@
     "murdroot",
     "wavepetal blossom",
     "ironfern root",
-    "talneo root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "talneo root"
   ]
 }

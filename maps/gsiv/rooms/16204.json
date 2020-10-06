@@ -1,39 +1,30 @@
 {
-  "wayto": {
-    "18888": {
-      "stringproc": "e553f6282505795d41144e27f0b65325"
-    },
-    "16203": "north"
-  },
+  "id": 16204,
+  "title": [
+    "[Beacon Hall, Waiting Room]"
+  ],
+  "description": [
+    "A panoramic mural of Maelstrom Bay covers the walls of this long hallway.  Beneath the mural sit soft leather benches dyed a deep burgundy.  Plush velvet draperies frame the north entrance to this hallway, and proudly displayed at the opposite end is a silver shield bearing the coat of arms of the Beacon Hall Archives."
+  ],
   "paths": [
     "Obvious exits: north"
   ],
+  "location": "Maelstrom Bay",
+  "wayto": {
+    "18888": {
+      "file": "string_procs/wayto/16204_18888.rb"
+    },
+    "16203": "north"
+  },
+  "timeto": {
+    "18888": 0.2,
+    "16203": 0.2
+  },
+  "image": "rr-beacon_hall-1405076623.png",
   "image_coords": [
     1212,
     566,
     1257,
     611
-  ],
-  "terrain": null,
-  "description": [
-    "A panoramic mural of Maelstrom Bay covers the walls of this long hallway.  Beneath the mural sit soft leather benches dyed a deep burgundy.  Plush velvet draperies frame the north entrance to this hallway, and proudly displayed at the opposite end is a silver shield bearing the coat of arms of the Beacon Hall Archives."
-  ],
-  "image": "rr-beacon_hall-1405076623.png",
-  "climate": null,
-  "title": [
-    "[Beacon Hall, Waiting Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "18888": 0.2,
-    "16203": 0.2
-  },
-  "id": 16204,
-  "location": "Maelstrom Bay",
-  "tags": [
-
-  ],
-  "links": [
-
   ]
 }

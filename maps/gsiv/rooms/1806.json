@@ -1,79 +1,38 @@
 {
+  "id": 1806,
+  "title": [
+    "[Wraithenmist, Misty Trail]"
+  ],
+  "description": [
+    "The trail forks three ways, each path disappearing into the mist only a few feet distant.  Thickly crowded tree trunks, most devoid of leafy vegetation, encroach upon the trail like menacing skeletons."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast, southwest"
+  ],
+  "location": "Wraithenmist",
   "wayto": {
     "1805": "north",
     "1807": "southwest",
     "9896": "southeast"
   },
-  "paths": [
-    "Obvious paths: north, southeast, southwest"
-  ],
+  "timeto": {
+    "1805": 0.2,
+    "1807": 0.2,
+    "9896": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     517,
     238,
     525,
     246
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "The trail forks three ways, each path disappearing into the mist only a few feet distant.  Thickly crowded tree trunks, most devoid of leafy vegetation, encroach upon the trail like menacing skeletons."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Wraithenmist, Misty Trail]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1805": 0.2,
-    "1807": 0.2,
-    "9896": 0.2
-  },
-  "id": 1806,
-  "location": "Wraithenmist",
   "tags": [
     "some bolmara lichen",
     "bright red teaberry",
     "white hook mushroom",
     "wild pink geranium",
     "some tree bark",
-    "stick",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "tkaro root",
-    "sticks",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "soft white mushroom",
-    "withered black mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "blueberries",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "broken twig",
-    "stalk of bluebells",
-    "small wild rose",
-    "sprig of wild lilac",
-    "wild chokecherry",
-    "bright red cranberry",
-    "tree bark",
-    "blue whortleberry",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "stick"
   ]
 }

@@ -1,40 +1,30 @@
 {
+  "id": 8343,
+  "title": [
+    "[Spider Temple, Leg of Acolytes]"
+  ],
+  "description": [
+    "You traverse a narrow hallway, your footfalls echoing off the cold stone.  A cell door is recessed into one of the stone walls here."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Spider Temple",
   "wayto": {
     "8341": "east",
     "8344": "go door",
     "8345": "west"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
-  "image_coords": [
-    406,
-    799,
-    416,
-    809
-  ],
-  "terrain": "indoors",
-  "description": [
-    "You traverse a narrow hallway, your footfalls echoing off the cold stone.  A cell door is recessed into one of the stone walls here."
-  ],
-  "image": "wl-spider_temple-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Spider Temple, Leg of Acolytes]"
-  ],
-  "check_location": null,
   "timeto": {
     "8341": 0.2,
     "8344": 0.2,
     "8345": 0.2
   },
-  "id": 8343,
-  "location": "the Spider Temple",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-spider_temple-1264234799.png",
+  "image_coords": [
+    406,
+    799,
+    416,
+    809
   ]
 }

@@ -1,35 +1,23 @@
 {
-  "wayto": {
-    "20927": "go tree",
-    "21121": {
-      "stringproc": "70872b8aca5f49917d3258ad490b93fd"
-    }
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Scratched into the bedrock is this hollow cavern that stretches below a great banyan.  A solitary candle on a simple altar lends illumination and shadows to the pockmarked and irregular formations surrounding the underground den.  An elaborate upside-down tree growing down from the ceiling has been shaped from the banyan's roots and mirrored in carvings that span the stone walls.  A light musk infiltrates as the air is stirred through the cavern, and a subtle but oppressive silence hangs in the air."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 21120,
   "title": [
     "[Monsoon Jungle, Stone Tree]"
   ],
-  "check_location": null,
+  "description": [
+    "Scratched into the bedrock is this hollow cavern that stretches below a great banyan.  A solitary candle on a simple altar lends illumination and shadows to the pockmarked and irregular formations surrounding the underground den.  An elaborate upside-down tree growing down from the ceiling has been shaped from the banyan's roots and mirrored in carvings that span the stone walls.  A light musk infiltrates as the air is stirred through the cavern, and a subtle but oppressive silence hangs in the air."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "20927": "go tree",
+    "21121": {
+      "file": "string_procs/wayto/21120_21121.rb"
+    }
+  },
   "timeto": {
     "20927": 0.2,
     "21121": 3
-  },
-  "id": 21120,
-  "location": "Mist Harbor",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  }
 }

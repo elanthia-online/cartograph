@@ -15,7 +15,7 @@ Repo.download_mapdb() unless Opts["no-download"]
 MapDB.import_mapdb()
 Repo.lock_with_checksum()
 now = Time.now.utc.to_s
-checksum = File.read("checksum")
+checksum = File.read("maps/gsiv/checksum")
 
 exit if Opts["no-commit"]
 
@@ -31,7 +31,7 @@ if changed_rooms.empty? && changed_string_procs.empty?
 end
 
 Dry.x(%[git prune])
-Dry.x(%[git checkout -b chore/#{checksum}])
+Dry.x(%[git checkout -b chore/gsiv/#{checksum}])
 
 unless changed_rooms.empty?
   Dry.x(%[git add #{changed_rooms.join(" ")}])

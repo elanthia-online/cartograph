@@ -1,33 +1,30 @@
 {
+  "id": 3061,
+  "title": [
+    "[Icemule Trace, Snowfield]"
+  ],
+  "description": [
+    "An icy blast of wind from the north tugs at you, making it difficult to walk.  It is only luck which keeps you from falling into the drifts that line the trails."
+  ],
+  "paths": [
+    "Obvious paths: north, down"
+  ],
+  "location": "the southern snowfields",
   "wayto": {
     "3060": "north",
     "3062": "down"
   },
-  "paths": [
-    "Obvious paths: north, down"
-  ],
+  "timeto": {
+    "3060": 0.2,
+    "3062": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     546,
     754,
     556,
     764
   ],
-  "terrain": "grassland",
-  "description": [
-    "An icy blast of wind from the north tugs at you, making it difficult to walk.  It is only luck which keeps you from falling into the drifts that line the trails."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Icemule Trace, Snowfield]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3060": 0.2,
-    "3062": 0.2
-  },
-  "id": 3061,
-  "location": "the southern snowfields",
   "tags": [
     "wavepetal blossom",
     "some arctic moss",
@@ -42,20 +39,6 @@
     "sweetfern stalk",
     "some pennyroyal stem",
     "wintergreen leaf",
-    "some valerian root",
-    "sassafras leaf",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "edelweiss",
-    "iceblossoms",
-    "arctic moss",
-    "tundra grass",
-    "murdroot",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some valerian root"
   ]
 }

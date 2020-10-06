@@ -1,43 +1,34 @@
 {
-  "wayto": {
-    "10815": {
-      "stringproc": "01bd55f713423ab79a1d59d5ba99488b"
-    },
-    "10817": {
-      "stringproc": "01bd55f713423ab79a1d59d5ba99488b"
-    }
-  },
+  "id": 10821,
+  "title": [
+    "[Under The Black Water]"
+  ],
+  "description": [
+    "Wet blackness envelops everything, and the mud grasps powerfully at feet and legs.  The lack of vision and the unsure footing in the muck below combine to confuse the senses, making direction a meaningless idea.  Even \"up\" is in question at times.  One can only swim and hope.",
+    ""
+  ],
   "paths": [
     "Obvious paths: east",
     ""
   ],
+  "location": false,
+  "wayto": {
+    "10815": {
+      "file": "string_procs/wayto/10821_10815.rb"
+    },
+    "10817": {
+      "file": "string_procs/wayto/10821_10817.rb"
+    }
+  },
+  "timeto": {
+    "10815": 5.0,
+    "10817": 5.0
+  },
+  "image": "en-gyldemar-1264234799.png",
   "image_coords": [
     782,
     660,
     790,
     668
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Wet blackness envelops everything, and the mud grasps powerfully at feet and legs.  The lack of vision and the unsure footing in the muck below combine to confuse the senses, making direction a meaningless idea.  Even \"up\" is in question at times.  One can only swim and hope.",
-    ""
-  ],
-  "image": "en-gyldemar-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Under The Black Water]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10815": 5.0,
-    "10817": 5.0
-  },
-  "id": 10821,
-  "location": false,
-  "tags": [
-
-  ],
-  "links": [
-
   ]
 }

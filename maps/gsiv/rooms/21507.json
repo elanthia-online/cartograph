@@ -1,36 +1,25 @@
 {
-  "wayto": {
-    "20291": "out",
-    "23158": {
-      "stringproc": "69291498237efc93681c2a719561ca42"
-    }
-  },
-  "paths": [
-    "Obvious exits: out"
+  "id": 21507,
+  "title": [
+    "[The Golden Rule]"
   ],
-  "image_coords": null,
-  "terrain": null,
   "description": [
     "Dappled sunlight streams in through the gaps in the leafy ceiling and glitters across the items on a shallow metal tray.  A hard-packed dirt floor sends dust into the air with every footfall, which dances in the sunbeams like tiny sprites.  Small golden trinkets decorate all four walls, and each one sparkles in the tawny light.",
     "Dappled moonlight streams in through the gaps in the leafy ceiling and glitters across the items on a shallow metal tray.  Every footfall on the hard-packed dirt floor sends dust into the air, which dances in the moonbeams like tiny sprites.  Small golden trinkets decorate all four walls, and each one sparkles in the silvery light."
   ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[The Golden Rule]"
+  "paths": [
+    "Obvious exits: out"
   ],
-  "check_location": true,
+  "location": false,
+  "wayto": {
+    "20291": "out",
+    "23158": {
+      "file": "string_procs/wayto/21507_23158.rb"
+    }
+  },
   "timeto": {
     "20291": 0.2,
     "23158": 0.2
   },
-  "id": 21507,
-  "location": false,
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  "check_location": true
 }

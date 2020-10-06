@@ -1,40 +1,31 @@
 {
+  "id": 9152,
+  "title": [
+    "[Thurfel's Island]"
+  ],
+  "description": [
+    "This portion of the island is covered with white sand and black stones.  The rocks seem to be scattered about randomly, but oddly all of them are exactly the same size.  There is no telling what they are made of, as the material of the stone is very unfamiliar."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Thurfel's Island",
   "wayto": {
     "9151": "west",
     "9153": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "9151": 0.2,
+    "9153": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     437,
     857,
     447,
     867
   ],
-  "terrain": "indoors",
-  "description": [
-    "This portion of the island is covered with white sand and black stones.  The rocks seem to be scattered about randomly, but oddly all of them are exactly the same size.  There is no telling what they are made of, as the material of the stone is very unfamiliar."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thurfel's Island]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9151": 0.2,
-    "9153": 0.2
-  },
-  "id": 9152,
-  "location": "Thurfel's Island",
   "tags": [
-    "some bur-clover root",
-    "murdroot",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some bur-clover root"
   ]
 }

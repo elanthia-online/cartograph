@@ -1,49 +1,36 @@
 {
+  "id": 6899,
+  "title": [
+    "[Smuggling Tunnels, Storage]"
+  ],
+  "description": [
+    "Rudimentary animal pens, small and cramped in this limited space, divide the room off.  The northern edge of them has been scorched and damaged, but the rest still stand, devoid of occupants.  Torches still burn in their holders on the walls, filling the room with a ruddy glow."
+  ],
+  "paths": [
+    "Obvious exits: north, east, southeast"
+  ],
+  "location": "the smuggling tunnels",
   "wayto": {
     "6895": "east",
     "6897": "north",
     "6898": "southeast"
   },
-  "paths": [
-    "Obvious exits: north, east, southeast"
-  ],
+  "timeto": {
+    "6895": 0.2,
+    "6897": 0.2,
+    "6898": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     1050,
     1329,
     1060,
     1339
   ],
-  "terrain": "indoors",
-  "description": [
-    "Rudimentary animal pens, small and cramped in this limited space, divide the room off.  The northern edge of them has been scorched and damaged, but the rest still stand, devoid of occupants.  Torches still burn in their holders on the walls, filling the room with a ruddy glow."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Smuggling Tunnels, Storage]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6895": 0.2,
-    "6897": 0.2,
-    "6898": 0.2
-  },
-  "id": 6899,
-  "location": "the smuggling tunnels",
   "tags": [
     "withered black mushroom",
     "some wingstem root",
     "some bur-clover root",
-    "some cave moss",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

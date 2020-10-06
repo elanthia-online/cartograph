@@ -1,38 +1,28 @@
 {
+  "id": 3689,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "Torchlight dances across the surface of the polished stone wall, reflecting brightly off the quartz veins streaking its surface.  Low, moaning sounds, occasionally punctuated by a thin, blood-curdling shriek, weave their way through the air, hinting of madness and torture nearby."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "3688": "north",
     "3690": "south"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "3688": 0.2,
+    "3690": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     174,
     1180,
     184,
     1190
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Torchlight dances across the surface of the polished stone wall, reflecting brightly off the quartz veins streaking its surface.  Low, moaning sounds, occasionally punctuated by a thin, blood-curdling shriek, weave their way through the air, hinting of madness and torture nearby."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3688": 0.2,
-    "3690": 0.2
-  },
-  "id": 3689,
-  "location": "Darkstone Castle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,64 +1,36 @@
 {
-  "wayto": {
-    "1152": {
-      "stringproc": "fe46f80993db81d2787b5d7c413dd7f5"
-    },
-    "1154": {
-      "stringproc": "0e24e9cfabb7c7019f4189c37af1772a"
-    }
-  },
+  "id": 1153,
+  "title": [
+    "[Locksmehr River Trail, Swamp]"
+  ],
+  "description": [
+    "A small, swampy clearing is surrounded by the dense forest on the northern and western sides.  The large branches of the trees along the perimeter create a canopy of leaves above with just patches of moonlight penetrating the foliage.  Hollow logs lie half covered by water and mud, moss and fungi growing from the decay.  Quiet bubbling sounds emanate from the water as frogs and other critters surface out of and dive into the swamp.",
+    "A small, swampy clearing is surrounded by the dense forest on the northern and western sides.  The large branches of the trees along the perimeter create a canopy of leaves above with just patches of sunlight penetrating the foliage.  Hollow logs lie half covered by water and mud, moss and fungi growing from the decay.  Quiet bubbling sounds emanate from the water as frogs and other critters surface out of and dive into the swamp."
+  ],
   "paths": [
     "Obvious paths: northeast, south"
   ],
+  "location": "the Locksmehr Trail",
+  "wayto": {
+    "1152": {
+      "file": "string_procs/wayto/1153_1152.rb"
+    },
+    "1154": {
+      "file": "string_procs/wayto/1153_1154.rb"
+    }
+  },
+  "timeto": {
+    "1152": 0.2,
+    "1154": 0.2
+  },
+  "image": "en-trail-1264234799.png",
   "image_coords": [
     656,
     321,
     666,
     331
   ],
-  "terrain": "missing",
-  "description": [
-    "A small, swampy clearing is surrounded by the dense forest on the northern and western sides.  The large branches of the trees along the perimeter create a canopy of leaves above with just patches of moonlight penetrating the foliage.  Hollow logs lie half covered by water and mud, moss and fungi growing from the decay.  Quiet bubbling sounds emanate from the water as frogs and other critters surface out of and dive into the swamp.",
-    "A small, swampy clearing is surrounded by the dense forest on the northern and western sides.  The large branches of the trees along the perimeter create a canopy of leaves above with just patches of sunlight penetrating the foliage.  Hollow logs lie half covered by water and mud, moss and fungi growing from the decay.  Quiet bubbling sounds emanate from the water as frogs and other critters surface out of and dive into the swamp."
-  ],
-  "image": "en-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Locksmehr River Trail, Swamp]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1152": 0.2,
-    "1154": 0.2
-  },
-  "id": 1153,
-  "location": "the Locksmehr Trail",
   "tags": [
-    "stalk of cattail",
-    "calamia fruit",
-    "haphip root",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "wild gooseberry",
-    "water chestnut",
-    "small wild rose",
-    "kylan berry",
-    "blue whortleberry",
-    "pepperthorn root",
-    "murdroot",
-    "wavepetal blossom",
-    "sunburst blossom",
-    "bolmara lichen",
-    "talneo root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "stalk of cattail"
   ]
 }

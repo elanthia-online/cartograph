@@ -1,42 +1,32 @@
 {
+  "id": 9102,
+  "title": [
+    "[Great Cavern, Stalagmite Forest]"
+  ],
+  "description": [
+    "A vast forest of rock formations stretches off in all directions.  The ceiling is low here, and a squat stalagmite hill leads up to the opening of a natural flue.  It would be pretty easy to scramble up it."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south, northwest"
+  ],
+  "location": "the subterranean tunnels",
   "wayto": {
     "9107": "south",
     "9101": "go flue",
     "9103": "northeast",
     "9104": "northwest"
   },
-  "paths": [
-    "Obvious exits: northeast, south, northwest"
-  ],
-  "image_coords": [
-    143,
-    573,
-    153,
-    583
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A vast forest of rock formations stretches off in all directions.  The ceiling is low here, and a squat stalagmite hill leads up to the opening of a natural flue.  It would be pretty easy to scramble up it."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Great Cavern, Stalagmite Forest]"
-  ],
-  "check_location": null,
   "timeto": {
     "9107": 0.2,
     "9101": 0.2,
     "9103": 0.2,
     "9104": 0.2
   },
-  "id": 9102,
-  "location": "the subterranean tunnels",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "imt-underground-1264234799.png",
+  "image_coords": [
+    143,
+    573,
+    153,
+    583
   ]
 }

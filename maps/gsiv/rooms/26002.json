@@ -1,35 +1,28 @@
 {
-  "wayto": {
-    "26000": {
-      "stringproc": "60e1454458be13aea8e4ee5d181035f6"
-    }
-  },
+  "id": 26002,
+  "title": [
+    "[Isharn Enclave, Nook]"
+  ],
+  "description": [
+    "A carpet of silver-grey leaves softens the paving stones near the edge of a crystal-clear pond in the courtyard's corner.  Fed by a burbling fountain shaped like three elven maidens, the pool's music echoes off of the walls in an even, lulling manner.  Cushioned chairs ornate enough to be thrones laze by the waterside in a patch of cool shadows."
+  ],
   "paths": [
     "Obvious paths: northwest"
   ],
+  "location": "New Ta'Faendryl",
+  "wayto": {
+    "26000": {
+      "file": "string_procs/wayto/26002_26000.rb"
+    }
+  },
+  "timeto": {
+    "26000": 0.2
+  },
+  "image": "en-ta_illistim-isharn_enclave-1487783541.png",
   "image_coords": [
     1071,
     703,
     1367,
     959
-  ],
-  "terrain": null,
-  "description": [
-    "A carpet of silver-grey leaves softens the paving stones near the edge of a crystal-clear pond in the courtyard's corner.  Fed by a burbling fountain shaped like three elven maidens, the pool's music echoes off of the walls in an even, lulling manner.  Cushioned chairs ornate enough to be thrones laze by the waterside in a patch of cool shadows."
-  ],
-  "image": "en-ta_illistim-isharn_enclave-1487783541.png",
-  "climate": null,
-  "title": [
-    "[Isharn Enclave, Nook]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26000": 0.2
-  },
-  "id": 26002,
-  "location": "New Ta'Faendryl",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

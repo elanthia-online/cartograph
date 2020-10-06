@@ -1,43 +1,36 @@
 {
-  "wayto": {
-    "25848": {
-      "stringproc": "7c97847f49fd5aa0407dedb0e3609199"
-    },
-    "25832": {
-      "stringproc": "9b05cb4429e6ad5efbe157efd92e6023"
-    },
-    "25834": {
-      "stringproc": "7c906cf3c37f156a5de40e3486f4dfc0"
-    }
-  },
-  "paths": [
-    "Obvious paths: southeast, southwest, northwest"
-  ],
-  "image_coords": [
-    1121,
-    1599,
-    1141,
-    1619
-  ],
-  "terrain": null,
-  "description": [
-    "Sheer and formidable, the cliffs of the nearby island fall in a sheer drop to the ocean floor.  White-capped waves insistently spend their strength against their smooth faces, but the sturdy structure stoically ignores the mutable attempts of the bright blue water.  Just beneath the southern edge of the cliffs, a small dock can be seen stretching out into the water."
-  ],
-  "image": "ifw-eastern_waterway-1489553700.png",
-  "climate": null,
+  "id": 25833,
   "title": [
     "[Eastern Waterway]"
   ],
-  "check_location": null,
+  "description": [
+    "Sheer and formidable, the cliffs of the nearby island fall in a sheer drop to the ocean floor.  White-capped waves insistently spend their strength against their smooth faces, but the sturdy structure stoically ignores the mutable attempts of the bright blue water.  Just beneath the southern edge of the cliffs, a small dock can be seen stretching out into the water."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest, northwest"
+  ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "25848": {
+      "file": "string_procs/wayto/25833_25848.rb"
+    },
+    "25832": {
+      "file": "string_procs/wayto/25833_25832.rb"
+    },
+    "25834": {
+      "file": "string_procs/wayto/25833_25834.rb"
+    }
+  },
   "timeto": {
     "25848": 6.0,
     "25832": 6.0,
     "25834": 6.0
   },
-  "id": 25833,
-  "location": "Mist Harbor",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  "image": "ifw-eastern_waterway-1489553700.png",
+  "image_coords": [
+    1121,
+    1599,
+    1141,
+    1619
+  ]
 }

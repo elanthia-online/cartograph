@@ -1,50 +1,28 @@
 {
+  "id": 20599,
+  "title": [
+    "[Wehnimer's, Burrow Way]"
+  ],
+  "description": [
+    "The dark hallway is narrow, hugged tightly by jagged walls of earth and stone.  Torchlight causes shadows to dance along the walls like incorporeal puppets."
+  ],
+  "paths": [
+    "Obvious exits: southeast, west"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "20598": "southeast",
     "20600": "west"
   },
-  "paths": [
-    "Obvious exits: southeast, west"
-  ],
+  "timeto": {
+    "20598": 0.2,
+    "20600": 0.2
+  },
+  "image": "wl-burrow_way-1360361110.png",
   "image_coords": [
     559,
     150,
     584,
     176
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The dark hallway is narrow, hugged tightly by jagged walls of earth and stone.  Torchlight causes shadows to dance along the walls like incorporeal puppets."
-  ],
-  "image": "wl-burrow_way-1360361110.png",
-  "climate": "indoors",
-  "title": [
-    "[Wehnimer's, Burrow Way]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "20598": 0.2,
-    "20600": 0.2
-  },
-  "id": 20599,
-  "location": "the town of Wehnimer's Landing",
-  "tags": [
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

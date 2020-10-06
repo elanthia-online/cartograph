@@ -1,35 +1,28 @@
 {
+  "id": 26313,
+  "title": [
+    "[The Lich's Throne]"
+  ],
+  "description": [
+    "A polished floor of deep black marble stretches up to an enormous cerulean dais.  Rising from the platform is a high-backed throne, constructed from a series blackened bones, all interconnected by bloody ligaments.  Surrounding the throne stand a half-circle of armored death knights."
+  ],
+  "paths": [
+    "Obvious exits: southwest, northwest"
+  ],
+  "location": "Talador",
   "wayto": {
     "26312": "northwest",
     "26311": "southwest"
   },
-  "paths": [
-    "Obvious exits: southwest, northwest"
-  ],
+  "timeto": {
+    "26312": 0.2,
+    "26311": 0.2
+  },
+  "image": "wl-lichs_landing-1500800742.png",
   "image_coords": [
     1405,
     545,
     1430,
     571
-  ],
-  "terrain": null,
-  "description": [
-    "A polished floor of deep black marble stretches up to an enormous cerulean dais.  Rising from the platform is a high-backed throne, constructed from a series blackened bones, all interconnected by bloody ligaments.  Surrounding the throne stand a half-circle of armored death knights."
-  ],
-  "image": "wl-lichs_landing-1500800742.png",
-  "climate": null,
-  "title": [
-    "[The Lich's Throne]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26312": 0.2,
-    "26311": 0.2
-  },
-  "id": 26313,
-  "location": "Talador",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

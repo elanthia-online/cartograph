@@ -1,33 +1,30 @@
 {
+  "id": 8580,
+  "title": [
+    "[Meadow, Trail]"
+  ],
+  "description": [
+    "The flat ground becomes barer, the weeds thin out, the castle looms closer.  The jumble of small trails converges to a track leading along the banks of the moat."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "8579": "southwest",
     "8581": "north"
   },
-  "paths": [
-    "Obvious paths: north, southwest"
-  ],
+  "timeto": {
+    "8579": 0.2,
+    "8581": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     1221,
     322,
     1231,
     332
   ],
-  "terrain": null,
-  "description": [
-    "The flat ground becomes barer, the weeds thin out, the castle looms closer.  The jumble of small trails converges to a track leading along the banks of the moat."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Meadow, Trail]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8579": 0.2,
-    "8581": 0.2
-  },
-  "id": 8580,
-  "location": "the Upper Trollfang",
   "tags": [
     "some acantha leaf",
     "some pothinir grass",
@@ -42,10 +39,6 @@
     "yellow clover blossom",
     "soft white mushroom",
     "white clover blossom",
-    "purple clover blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "purple clover blossom"
   ]
 }

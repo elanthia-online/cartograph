@@ -1,33 +1,30 @@
 {
+  "id": 525,
+  "title": [
+    "[Coastal Cliffs, Quiet Path]"
+  ],
+  "description": [
+    "A low, crumbling stone wall runs north and south on either side of the dirt footpath.  In some places, it is a few feet high, in others, only the stone surface peeks out from the ground to mark its existence."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "513": "southwest",
     "482": "north"
   },
-  "paths": [
-    "Obvious paths: north, southwest"
-  ],
+  "timeto": {
+    "513": 0.2,
+    "482": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     524,
     866,
     534,
     876
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "A low, crumbling stone wall runs north and south on either side of the dirt footpath.  In some places, it is a few feet high, in others, only the stone surface peeks out from the ground to mark its existence."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Coastal Cliffs, Quiet Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "513": 0.2,
-    "482": 0.2
-  },
-  "id": 525,
-  "location": "the Coastal Cliffs",
   "tags": [
     "some wingstem root",
     "some acantha leaf",
@@ -49,10 +46,6 @@
     "bright red cranberry",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

@@ -1,38 +1,30 @@
 {
-  "wayto": {
-    "12089": "southeast",
-    "2635": {
-      "stringproc": "f88a5ac335110328444947aa8fdfa490"
-    },
-    "12115": "south",
-    "12093": {
-      "stringproc": "dc0110972ab7e067d5fec20ece15581c"
-    },
-    "2605": {
-      "stringproc": "317c6eedd1ea40322b9b26b259a3053f"
-    },
-    "12116": "north"
-  },
+  "id": 12112,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "Headstones of grey marble seem to grow from the ground, placed in neat rows.  A pall of silence hangs over the graveyard, and not even a breath of wind disturbs the serenity.  Set slightly apart from the rest of the graves is a large black tomb.  Carved upon the face of the stone, in the place reserved for the identity of the departed, is the name \"Elanthia.\""
+  ],
   "paths": [
     "Obvious paths: north, southeast, south",
     "Obvious exits: north, southeast, south"
   ],
-  "image_coords": [
-    868,
-    645,
-    878,
-    655
-  ],
-  "terrain": null,
-  "description": [
-    "Headstones of grey marble seem to grow from the ground, placed in neat rows.  A pall of silence hangs over the graveyard, and not even a breath of wind disturbs the serenity.  Set slightly apart from the rest of the graves is a large black tomb.  Carved upon the face of the stone, in the place reserved for the identity of the departed, is the name \"Elanthia.\""
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12089": "southeast",
+    "2635": {
+      "file": "string_procs/wayto/12112_2635.rb"
+    },
+    "12115": "south",
+    "12093": {
+      "file": "string_procs/wayto/12112_12093.rb"
+    },
+    "2605": {
+      "file": "string_procs/wayto/12112_2605.rb"
+    },
+    "12116": "north"
+  },
   "timeto": {
     "12089": 0.2,
     "2635": 16.0,
@@ -41,8 +33,13 @@
     "2605": 16.0,
     "12116": 0.2
   },
-  "id": 12112,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    868,
+    645,
+    878,
+    655
+  ],
   "tags": [
     "withered deathblossom",
     "slime-covered grave blossom",
@@ -51,8 +48,5 @@
     "twisted black mawflower",
     "rotting bile green fleshbulb",
     "mass of congealed slime"
-  ],
-  "links": [
-
   ]
 }

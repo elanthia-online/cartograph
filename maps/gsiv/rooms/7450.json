@@ -1,49 +1,41 @@
 {
-  "wayto": {
-    "23259": {
-      "stringproc": "3ef87e7eac63e97210b4aedf89dfae9b"
-    },
-    "23262": {
-      "stringproc": "3014f0f1ddce50edda95b441e1eaf20a"
-    },
-    "23263": {
-      "stringproc": "a234c4dfb9348f43358e56adea9291ed"
-    },
-    "23264": {
-      "stringproc": "20bd86befba92047041b874e1739aeb9"
-    },
-    "23265": {
-      "stringproc": "e3d799eb84e7700f4a3e6d2be8ca0cfa"
-    },
-    "23266": {
-      "stringproc": "b0515112b374f0190d8dd3851a3d8b9c"
-    },
-    "23267": {
-      "stringproc": "83c2f3d972bad023563640cfd207c046"
-    },
-    "17319": {
-      "stringproc": "a38d807719728a1c1440a08cf22304a4"
-    }
-  },
-  "paths": [
-    "Obvious paths: north, northeast, east, southeast, south, southwest, west, northwest"
-  ],
-  "image_coords": [
-    676,
-    897,
-    686,
-    907
-  ],
-  "terrain": null,
-  "description": [
-    "A large crystal dome rises above the jumble of huge boulders and jagged rocks, breaking the monotony of the terrain.  There is no question in your mind that the dome is man-made and not a natural feature of the area.  A dense fog swirls around the base of the dome, and generally obscures your vision."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": null,
+  "id": 7450,
   "title": [
     "[The Broken Lands, Jagged Plain]"
   ],
-  "check_location": null,
+  "description": [
+    "A large crystal dome rises above the jumble of huge boulders and jagged rocks, breaking the monotony of the terrain.  There is no question in your mind that the dome is man-made and not a natural feature of the area.  A dense fog swirls around the base of the dome, and generally obscures your vision."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, east, southeast, south, southwest, west, northwest"
+  ],
+  "location": "the Broken Lands",
+  "wayto": {
+    "23259": {
+      "file": "string_procs/wayto/7450_23259.rb"
+    },
+    "23262": {
+      "file": "string_procs/wayto/7450_23262.rb"
+    },
+    "23263": {
+      "file": "string_procs/wayto/7450_23263.rb"
+    },
+    "23264": {
+      "file": "string_procs/wayto/7450_23264.rb"
+    },
+    "23265": {
+      "file": "string_procs/wayto/7450_23265.rb"
+    },
+    "23266": {
+      "file": "string_procs/wayto/7450_23266.rb"
+    },
+    "23267": {
+      "file": "string_procs/wayto/7450_23267.rb"
+    },
+    "17319": {
+      "file": "string_procs/wayto/7450_17319.rb"
+    }
+  },
   "timeto": {
     "23259": 3.2,
     "23262": 3.2,
@@ -54,18 +46,17 @@
     "23267": 3.2,
     "17319": 3.2
   },
-  "id": 7450,
-  "location": "the Broken Lands",
+  "image": "wl-broken-1264234799.png",
+  "image_coords": [
+    676,
+    897,
+    686,
+    907
+  ],
   "tags": [
     "large black toadstool",
     "some blackened moss",
     "hooded figure",
-    "giant fog beetle",
-    "blackened moss",
-    "black toadstool",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "giant fog beetle"
   ]
 }

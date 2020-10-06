@@ -1,43 +1,35 @@
 {
+  "id": 7664,
+  "title": [
+    "[Sea Cave, Rocky Cavern]"
+  ],
+  "description": [
+    "Jagged stone teeth protrude from the floor beneath you, as though from the rotting jaw of a decaying giant.  As you make your way through the stalagmites, you notice one rough column of stone that extends over to a high ledge."
+  ],
+  "paths": [
+    "Obvious exits: northeast, west"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "7669": {
-      "stringproc": "5a2fe5181149ea12e915b2f4ac64b4fa"
+      "file": "string_procs/wayto/7664_7669.rb"
     },
     "7659": "northeast",
     "7665": "west"
   },
-  "paths": [
-    "Obvious exits: northeast, west"
-  ],
+  "timeto": {
+    "7669": 0.2,
+    "7659": 0.2,
+    "7665": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     857,
     412,
     867,
     422
   ],
-  "terrain": "indoors",
-  "description": [
-    "Jagged stone teeth protrude from the floor beneath you, as though from the rotting jaw of a decaying giant.  As you make your way through the stalagmites, you notice one rough column of stone that extends over to a high ledge."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Cave, Rocky Cavern]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7669": 0.2,
-    "7659": 0.2,
-    "7665": 0.2
-  },
-  "id": 7664,
-  "location": "the Coastal Cliffs",
   "tags": [
-    "shelfae chieftain",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "shelfae chieftain"
   ]
 }

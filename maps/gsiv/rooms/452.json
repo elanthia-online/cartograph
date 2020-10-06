@@ -1,33 +1,30 @@
 {
+  "id": 452,
+  "title": [
+    "[Upper Trollfang]"
+  ],
+  "description": [
+    "You are standing at the northern edge of a hilly and deeply forested region known as the Upper Trollfang.  A wide and well used trail cuts through the deep underbrush to the south and appears to be the only visible entrance to the forest."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "449": "go path",
     "453": "south"
   },
-  "paths": [
-    "Obvious paths: south"
-  ],
+  "timeto": {
+    "449": 0.2,
+    "453": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     631,
     704,
     641,
     714
   ],
-  "terrain": "grassland",
-  "description": [
-    "You are standing at the northern edge of a hilly and deeply forested region known as the Upper Trollfang.  A wide and well used trail cuts through the deep underbrush to the south and appears to be the only visible entrance to the forest."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Upper Trollfang]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "449": 0.2,
-    "453": 0.2
-  },
-  "id": 452,
-  "location": "the Upper Trollfang",
   "tags": [
     "some sovyn clove",
     "sprig of lavender",
@@ -92,28 +89,6 @@
     "some murkweed",
     "sunburst blossom",
     "handful of raspberries",
-    "wavepetal blossom",
-    "acantha leaf",
-    "ambrominas leaf",
-    "sovyn clove",
-    "angelica root",
-    "wild grapes",
-    "Imaera's Lace",
-    "monkey grass",
-    "motherwort",
-    "raspberries",
-    "wiregrass",
-    "murkweed",
-    "white lily",
-    "fire lily",
-    "murdroot",
-    "ironfern root",
-    "nightbloom blossom",
-    "brostheras grass",
-    "woad leaves",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wavepetal blossom"
   ]
 }

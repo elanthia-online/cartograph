@@ -1,39 +1,30 @@
 {
-  "wayto": {
-    "12000": "west"
-  },
+  "id": 12001,
+  "title": [
+    "[Aqueduct]"
+  ],
+  "description": [
+    "A metal grate bars exit from the tunnel to the east, leaving the only means of egress to the west.  The grate is firmly set in the surrounding rock, as if someone had managed to open the rock up, slide the grate in on all sides, and then close the rock again.  On the other side of the grate, the river moves slowly past, and the height of the river allows a foot of water or so to filter into the aqueduct.  The water in the aqueduct simply pools, though, without movement or current of any kind."
+  ],
   "paths": [
     "Obvious exits: west"
   ],
+  "location": "Old Ta'Faendryl",
+  "wayto": {
+    "12000": "west"
+  },
+  "timeto": {
+    "12000": 0.2
+  },
+  "image": "en-old_ta_faendryl-1264234799.png",
   "image_coords": [
     388,
     214,
     398,
     224
   ],
-  "terrain": "indoors",
-  "description": [
-    "A metal grate bars exit from the tunnel to the east, leaving the only means of egress to the west.  The grate is firmly set in the surrounding rock, as if someone had managed to open the rock up, slide the grate in on all sides, and then close the rock again.  On the other side of the grate, the river moves slowly past, and the height of the river allows a foot of water or so to filter into the aqueduct.  The water in the aqueduct simply pools, though, without movement or current of any kind."
-  ],
-  "image": "en-old_ta_faendryl-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Aqueduct]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "12000": 0.2
-  },
-  "id": 12001,
-  "location": "Old Ta'Faendryl",
   "tags": [
     "some wingstem root",
-    "murdroot",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "murdroot"
   ]
 }

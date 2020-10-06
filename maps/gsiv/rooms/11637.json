@@ -1,53 +1,34 @@
 {
+  "id": 11637,
+  "title": [
+    "[Miasmal Forest]"
+  ],
+  "description": [
+    "A foggy, malodorous mire, dotted with the grey stumps of dead trees, impedes any passage to the north.  The far end of the mire is lost in the fog.  A soft breeze carries the stink of rot and decay from the mire.  The pathway is boggy underfoot.  Only the faintest hint of moonlight filters through the thick fog."
+  ],
+  "paths": [
+    "Obvious paths: east, south, west"
+  ],
   "wayto": {
     "11636": "west",
     "11638": "south",
     "11640": "east"
   },
-  "paths": [
-    "Obvious paths: east, south, west"
-  ],
+  "timeto": {
+    "11636": 0.2,
+    "11638": 0.2,
+    "11640": 0.2
+  },
+  "image": "rr-maelstrom-1266390501.png",
   "image_coords": [
     527,
     348,
     537,
     358
   ],
-  "terrain": "muddy wetlands",
-  "description": [
-    "A foggy, malodorous mire, dotted with the grey stumps of dead trees, impedes any passage to the north.  The far end of the mire is lost in the fog.  A soft breeze carries the stink of rot and decay from the mire.  The pathway is boggy underfoot.  Only the faintest hint of moonlight filters through the thick fog."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Miasmal Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11636": 0.2,
-    "11638": 0.2,
-    "11640": 0.2
-  },
-  "id": 11637,
-  "location": "the Miasmal Forest",
   "tags": [
     "small wild rose",
     "stalk of cattail",
-    "wild gooseberry",
-    "aloeas stem",
-    "soft white mushroom",
-    "withered black mushroom",
-    "white hook mushroom",
-    "blue trafel mushroom",
-    "mistweed",
-    "murdroot",
-    "wavepetal blossom",
-    "bolmara lichen",
-    "talneo root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wild gooseberry"
   ]
 }

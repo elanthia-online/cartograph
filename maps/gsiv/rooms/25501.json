@@ -1,17 +1,5 @@
 {
-  "wayto": {
-    "25493": "west"
-  },
-  "paths": [
-    "Obvious exits: west"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Enclosed by smooth granite walls, the shop features a grey-veined white marble fountain in the center of its black marble floor.  An ornately rendered clan crest hangs under the golden oak ceiling.  Right near the front is a heavy lead glass display case and a giant invar-bound chest."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 25501,
   "title": [
     "[Wadsworth's Weaponry]",
     "[Wadsworth's General Store]",
@@ -20,14 +8,17 @@
     "[Wadsworth's Outfitting]",
     "[Wadsworth's Combat Gear]"
   ],
-  "check_location": null,
+  "description": [
+    "Enclosed by smooth granite walls, the shop features a grey-veined white marble fountain in the center of its black marble floor.  An ornately rendered clan crest hangs under the golden oak ceiling.  Right near the front is a heavy lead glass display case and a giant invar-bound chest."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Wehnimer's Landing",
+  "wayto": {
+    "25493": "west"
+  },
   "timeto": {
     "25493": 0.2
-  },
-  "id": 25501,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  }
 }

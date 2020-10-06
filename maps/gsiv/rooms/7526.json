@@ -1,45 +1,30 @@
 {
-  "wayto": {
-    "7525": "north"
-  },
+  "id": 7526,
+  "title": [
+    "[Catacombs, Old Tunnel]"
+  ],
+  "description": [
+    "The tunnel comes to a dead end here.  Unlike the other areas of the tunnel, the floor here is suprisingly clear of debris.  A slender crack runs along the length of the floor.  Strange sounds echo through the chamber and the floor shifts underfoot periodically."
+  ],
   "paths": [
     "Obvious exits: north"
   ],
+  "location": "the catacombs",
+  "wayto": {
+    "7525": "north"
+  },
+  "timeto": {
+    "7525": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     861,
     1226,
     871,
     1236
   ],
-  "terrain": "indoors",
-  "description": [
-    "The tunnel comes to a dead end here.  Unlike the other areas of the tunnel, the floor here is suprisingly clear of debris.  A slender crack runs along the length of the floor.  Strange sounds echo through the chamber and the floor shifts underfoot periodically."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Catacombs, Old Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7525": 0.2
-  },
-  "id": 7526,
-  "location": "the catacombs",
   "tags": [
     "black hook mushroom",
-    "blue trafel mushroom",
-    "red trafel mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "blue trafel mushroom"
   ]
 }

@@ -1,35 +1,32 @@
 {
-  "wayto": {
-    "2809": "east",
-    "2811": {
-      "stringproc": "c2f35339ece466ff7a209eab5eb2ca59"
-    }
-  },
+  "id": 2810,
+  "title": [
+    "[Nightmare Gorge]"
+  ],
+  "description": [
+    "Jagged crags of stone tower up on either side from a broken field of boulders made more treacherous by ice and snow.  The gorge snakes its way west, twisting out of sight around a large outcrop of stone protruding from the north face in the distance.  Here and there, scraggly bushes crouch between the rocks, their branches cloaked in a layer of ice."
+  ],
   "paths": [
     "Obvious paths: east"
   ],
+  "location": "the Pinefar forests",
+  "wayto": {
+    "2809": "east",
+    "2811": {
+      "file": "string_procs/wayto/2810_2811.rb"
+    }
+  },
+  "timeto": {
+    "2809": 0.2,
+    "2811": 0.2
+  },
+  "image": "imt-pinefar-1264234799.png",
   "image_coords": [
     380,
     1083,
     390,
     1093
   ],
-  "terrain": "mountainous",
-  "description": [
-    "Jagged crags of stone tower up on either side from a broken field of boulders made more treacherous by ice and snow.  The gorge snakes its way west, twisting out of sight around a large outcrop of stone protruding from the north face in the distance.  Here and there, scraggly bushes crouch between the rocks, their branches cloaked in a layer of ice."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Nightmare Gorge]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2809": 0.2,
-    "2811": 0.2
-  },
-  "id": 2810,
-  "location": "the Pinefar forests",
   "tags": [
     "sassafras leaf",
     "some tundra grass",
@@ -55,27 +52,6 @@
     "ice blue iceblossom",
     "handful of snowberries",
     "soft orange iceblossom",
-    "winter rose",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "edelweiss",
-    "iceblossoms",
-    "snow lily",
-    "arctic moss",
-    "tundra grass",
-    "calamintha blossom",
-    "snowberries",
-    "red winterberry",
-    "crowberry",
-    "lingonberry",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "winter rose"
   ]
 }

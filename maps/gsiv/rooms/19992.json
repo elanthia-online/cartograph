@@ -1,37 +1,28 @@
 {
-  "wayto": {
-    "19728": {
-      "stringproc": "f10387c6c0eee71b79dc7c58913b614c"
-    }
-  },
+  "id": 19992,
+  "title": [
+    "[Cavernhold, Treasure Vault]"
+  ],
+  "description": [
+    "This is the fabled Treasure Vault of the Gnolls of Cavernhold.  In here are kept the exquisite works of art created by the master craftsmen that inhabit this cave system.  Stone shelves occupy every available inch of wall space."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "the foothills of Zeltoph",
+  "wayto": {
+    "19728": {
+      "file": "string_procs/wayto/19992_19728.rb"
+    }
+  },
+  "timeto": {
+    "19728": 0.2
+  },
+  "image": "wl-cavernhold-1295073688.png",
   "image_coords": [
     467,
     551,
     476,
     561
-  ],
-  "terrain": null,
-  "description": [
-    "This is the fabled Treasure Vault of the Gnolls of Cavernhold.  In here are kept the exquisite works of art created by the master craftsmen that inhabit this cave system.  Stone shelves occupy every available inch of wall space."
-  ],
-  "image": "wl-cavernhold-1295073688.png",
-  "climate": null,
-  "title": [
-    "[Cavernhold, Treasure Vault]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "19728": 0.2
-  },
-  "id": 19992,
-  "location": "the foothills of Zeltoph",
-  "tags": [
-
-  ],
-  "links": [
-
   ]
 }

@@ -1,42 +1,34 @@
 {
+  "id": 2955,
+  "title": [
+    "[Abbey Gallery]"
+  ],
+  "description": [
+    "Silver light glints off the diamond-shaped panes in the windows running along the southern wall of the long gallery.  Fading paintings, which depict the surrounding lands in the days before the permafrost, cover the opposite wall.",
+    "Silver moonlight glints off the diamond-shaped panes in the windows running along the southern wall of the long gallery.  Fading paintings, which depict the surrounding lands in the days before the permafrost, cover the opposite wall."
+  ],
+  "paths": [
+    "Obvious exits: north, east, down"
+  ],
+  "location": "the Abbey",
   "wayto": {
     "2961": "north",
     "2954": "down",
     "2956": "east"
   },
-  "paths": [
-    "Obvious exits: north, east, down"
-  ],
+  "timeto": {
+    "2961": 0.2,
+    "2954": 0.2,
+    "2956": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     858,
     708,
     868,
     718
   ],
-  "terrain": "indoors",
-  "description": [
-    "Silver light glints off the diamond-shaped panes in the windows running along the southern wall of the long gallery.  Fading paintings, which depict the surrounding lands in the days before the permafrost, cover the opposite wall.",
-    "Silver moonlight glints off the diamond-shaped panes in the windows running along the southern wall of the long gallery.  Fading paintings, which depict the surrounding lands in the days before the permafrost, cover the opposite wall."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abbey Gallery]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2961": 0.2,
-    "2954": 0.2,
-    "2956": 0.2
-  },
-  "id": 2955,
-  "location": "the Abbey",
   "tags": [
-    "nedum vereri",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "nedum vereri"
   ]
 }

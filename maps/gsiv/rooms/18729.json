@@ -1,37 +1,29 @@
 {
+  "id": 18729,
+  "title": [
+    "[Cleric Guild, Cauldrons]"
+  ],
+  "description": [
+    "Several training rooms completely equipped with cauldrons, beakers, measures, and other supplies, are accessible around the perimeter of this room, their arched entryways carefully positioned so that no room looks directly into the entrance of another.  A bundle of dried herbs is hung above each archway.  Rippling in each entryway, the air wavers and dances, as if thicker in the archways than elsewhere."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "18730": "go cauldrons",
     "18611": "south"
   },
-  "paths": [
-    "Obvious exits: south"
-  ],
+  "timeto": {
+    "18730": 0.2,
+    "18611": 0.2
+  },
+  "image": "wl-cleric_guild-1275417297.png",
   "image_coords": [
     17,
     267,
     53,
     298
   ],
-  "terrain": null,
-  "description": [
-    "Several training rooms completely equipped with cauldrons, beakers, measures, and other supplies, are accessible around the perimeter of this room, their arched entryways carefully positioned so that no room looks directly into the entrance of another.  A bundle of dried herbs is hung above each archway.  Rippling in each entryway, the air wavers and dances, as if thicker in the archways than elsewhere."
-  ],
-  "image": "wl-cleric_guild-1275417297.png",
-  "climate": null,
-  "title": [
-    "[Cleric Guild, Cauldrons]"
-  ],
-  "check_location": true,
-  "timeto": {
-    "18730": 0.2,
-    "18611": 0.2
-  },
-  "id": 18729,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "links": [
-
-  ]
+  "check_location": true
 }

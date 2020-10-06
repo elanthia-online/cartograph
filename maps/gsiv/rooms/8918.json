@@ -1,35 +1,32 @@
 {
+  "id": 8918,
+  "title": [
+    "[Wizard Guild, Courtyard]"
+  ],
+  "description": [
+    "Winter appears to have somewhat loosened its cold grip upon the verdant swath of lawn surrounding the stone building.  Flowers imported from a more mild climate much farther to the south line either side of the path that courses through a green sea of impeccably clipped grass.  A cobblestone path arcs away from the courtyard while a pair of large arched doors leading into the guild stand slightly ajar."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "8919": "go path",
     "8920": "go doors",
     "3352": "go footbridge"
   },
-  "paths": [
-    "Obvious paths: none"
-  ],
+  "timeto": {
+    "8919": 0.2,
+    "8920": 0.2,
+    "3352": 0.2
+  },
+  "image": "imt-wizard_guild.png",
   "image_coords": [
     212,
     800,
     263,
     851
   ],
-  "terrain": null,
-  "description": [
-    "Winter appears to have somewhat loosened its cold grip upon the verdant swath of lawn surrounding the stone building.  Flowers imported from a more mild climate much farther to the south line either side of the path that courses through a green sea of impeccably clipped grass.  A cobblestone path arcs away from the courtyard while a pair of large arched doors leading into the guild stand slightly ajar."
-  ],
-  "image": "imt-wizard_guild.png",
-  "climate": null,
-  "title": [
-    "[Wizard Guild, Courtyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8919": 0.2,
-    "8920": 0.2,
-    "3352": 0.2
-  },
-  "id": 8918,
-  "location": "Icemule Trace",
   "tags": [
     "wizardguild",
     "some cactacae spine",
@@ -61,8 +58,5 @@
     "wavepetal blossom",
     "nightbloom blossom",
     "onion skin"
-  ],
-  "links": [
-
   ]
 }

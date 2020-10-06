@@ -1,38 +1,28 @@
 {
+  "id": 11267,
+  "title": [
+    "[Aquarium Entrance]"
+  ],
+  "description": [
+    "You stand before a large brick enclosure that rises about twelve feet from the ground.  There doesn't appear to be a roof to the structure but a set of slate steps leads to the top."
+  ],
+  "paths": [
+    "Obvious paths: southwest"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11266": "southwest",
     "11268": "go steps"
   },
-  "paths": [
-    "Obvious paths: southwest"
-  ],
+  "timeto": {
+    "11266": 0.2,
+    "11268": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     414,
     634,
     424,
     644
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "You stand before a large brick enclosure that rises about twelve feet from the ground.  There doesn't appear to be a roof to the structure but a set of slate steps leads to the top."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "humid",
-  "title": [
-    "[Aquarium Entrance]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11266": 0.2,
-    "11268": 0.2
-  },
-  "id": 11267,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

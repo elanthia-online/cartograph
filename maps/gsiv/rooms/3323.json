@@ -1,39 +1,28 @@
 {
+  "id": 3323,
+  "title": [
+    "[Icemule, Ruins]"
+  ],
+  "description": [
+    "The ice takes on a greyish cast, colored by the soot from the forge it has crushed.  Twisted wrecks of metal lay within the frozen walls, and tools have been scattered across the dirt at the front of the building.  An anvil sticks out of the ice, nearly making you stub your toe."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest"
+  ],
+  "location": "the Glacier",
   "wayto": {
     "3322": "southwest",
     "3324": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast, southwest"
-  ],
+  "timeto": {
+    "3322": 0.2,
+    "3324": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     1391,
     837,
     1401,
     847
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The ice takes on a greyish cast, colored by the soot from the forge it has crushed.  Twisted wrecks of metal lay within the frozen walls, and tools have been scattered across the dirt at the front of the building.  An anvil sticks out of the ice, nearly making you stub your toe."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Icemule, Ruins]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3322": 0.2,
-    "3324": 0.2
-  },
-  "id": 3323,
-  "location": "the Glacier",
-  "tags": [
-    "arctic moss",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

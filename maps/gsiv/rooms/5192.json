@@ -1,56 +1,31 @@
 {
+  "id": 5192,
+  "title": [
+    "[Vornavian Coast, The Lagoon]"
+  ],
+  "description": [
+    "Brambles and sticker bushes grow out from the forest here, nearly reaching the shore of the lagoon.  Strawberries and cantaloupes grow within the brambles, protected from most animals by the sharp thorns about them.  Burrs dot the sand and prick the feet of the bare footed traveler."
+  ],
+  "paths": [
+    "Obvious paths: southeast, west"
+  ],
+  "location": "the Vornavian Coast",
   "wayto": {
     "5191": "west",
     "5193": "southeast"
   },
-  "paths": [
-    "Obvious paths: southeast, west"
-  ],
+  "timeto": {
+    "5191": 0.2,
+    "5193": 0.2
+  },
+  "image": "vo-north_beach-1264234799.png",
   "image_coords": [
     559,
     171,
     569,
     181
   ],
-  "terrain": "riparian",
-  "description": [
-    "Brambles and sticker bushes grow out from the forest here, nearly reaching the shore of the lagoon.  Strawberries and cantaloupes grow within the brambles, protected from most animals by the sharp thorns about them.  Burrs dot the sand and prick the feet of the bare footed traveler."
-  ],
-  "image": "vo-north_beach-1264234799.png",
-  "climate": "hot, damp",
-  "title": [
-    "[Vornavian Coast, The Lagoon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5191": 0.2,
-    "5193": 0.2
-  },
-  "id": 5192,
-  "location": "the Vornavian Coast",
   "tags": [
-    "some acantha leaf",
-    "acantha leaf",
-    "calamia fruit",
-    "yabathilium fruit",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "black trafel mushroom",
-    "blue trafel mushroom",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "stalk of cattail",
-    "small wild rose",
-    "sprig of wild lilac",
-    "wild chokecherry",
-    "pepperthorn root",
-    "murdroot",
-    "wavepetal blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some acantha leaf"
   ]
 }

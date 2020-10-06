@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "5562": "south"
-  },
+  "id": 5565,
+  "title": [
+    "[Outlands Manor, Tower]"
+  ],
+  "description": [
+    "Empty weapon racks line the walls of this room, but not a single sword or bow has been left behind.  Only a pair of short bins that look like they might have once held crossbow quarrels remain."
+  ],
   "paths": [
     "Obvious exits: south"
   ],
+  "location": "the Outlands",
+  "wayto": {
+    "5562": "south"
+  },
+  "timeto": {
+    "5562": 0.2
+  },
+  "image": "vo-outlands-1264234799.png",
   "image_coords": [
     976,
     300,
     986,
     310
   ],
-  "terrain": "indoors",
-  "description": [
-    "Empty weapon racks line the walls of this room, but not a single sword or bow has been left behind.  Only a pair of short bins that look like they might have once held crossbow quarrels remain."
-  ],
-  "image": "vo-outlands-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Outlands Manor, Tower]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5562": 0.2
-  },
-  "id": 5565,
-  "location": "the Outlands",
   "tags": [
-    "dobrem",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "dobrem"
   ]
 }

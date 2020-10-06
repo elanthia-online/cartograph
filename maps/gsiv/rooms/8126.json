@@ -1,31 +1,28 @@
 {
-  "wayto": {
-    "8125": "go opening"
-  },
+  "id": 8126,
+  "title": [
+    "[Dubh Brugh, Cave]"
+  ],
+  "description": [
+    "The hollow may be cold and clammy, but it is also impossible for large beasts to enter.  Nasty snarls from somewhere outside the opening almost make it possible to forget the shivering and the darkness.  Almost, but not quite."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "Dubh Brugh",
+  "wayto": {
+    "8125": "go opening"
+  },
+  "timeto": {
+    "8125": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     1241,
     643,
     1251,
     653
   ],
-  "terrain": "indoors",
-  "description": [
-    "The hollow may be cold and clammy, but it is also impossible for large beasts to enter.  Nasty snarls from somewhere outside the opening almost make it possible to forget the shivering and the darkness.  Almost, but not quite."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dubh Brugh, Cave]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8125": 0.2
-  },
-  "id": 8126,
-  "location": "Dubh Brugh",
   "tags": [
     "some cave moss",
     "daggerstalk mushroom",
@@ -33,18 +30,6 @@
     "some bolmara lichen",
     "blue trafel mushroom",
     "some wingstem root",
-    "withered black mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "withered black mushroom"
   ]
 }

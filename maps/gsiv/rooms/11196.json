@@ -1,42 +1,32 @@
 {
+  "id": 11196,
+  "title": [
+    "[Garrison, Hallway]"
+  ],
+  "description": [
+    "From this top floor landing, you can see the stairs spiraling down below you to the ground floor.  Although the light is very dim, you can see that some of the bones you passed on your way up here had fallen from this point.  The bannisters are completely missing, causing you to glance cautiously over your shoulder as you back away from the edge."
+  ],
+  "paths": [
+    "Obvious exits: north, east, west, down"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11197": "north",
     "11199": "east",
     "11200": "west",
     "11192": "down"
   },
-  "paths": [
-    "Obvious exits: north, east, west, down"
-  ],
-  "image_coords": [
-    571,
-    110,
-    581,
-    120
-  ],
-  "terrain": "indoors",
-  "description": [
-    "From this top floor landing, you can see the stairs spiraling down below you to the ground floor.  Although the light is very dim, you can see that some of the bones you passed on your way up here had fallen from this point.  The bannisters are completely missing, causing you to glance cautiously over your shoulder as you back away from the edge."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Garrison, Hallway]"
-  ],
-  "check_location": null,
   "timeto": {
     "11197": 0.2,
     "11199": 0.2,
     "11200": 0.2,
     "11192": 0.2
   },
-  "id": 11196,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-citadel-1267238976.png",
+  "image_coords": [
+    571,
+    110,
+    581,
+    120
   ]
 }

@@ -1,35 +1,32 @@
 {
+  "id": 2801,
+  "title": [
+    "[A Silent Path]"
+  ],
+  "description": [
+    "While the trail splits into a junction, its accompanying pines are steadfast and in perfect formation.  The way leads off in its various directions bounded on both sides by the arched canopy, like the intersection of naves in a grand temple to silence.  The wind spits in dizzy gusts, as if undecided upon which path to follow."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, southwest"
+  ],
+  "location": "the Pinefar Trading Post",
   "wayto": {
     "2806": "southeast",
     "2800": "northeast",
     "2802": "southwest"
   },
-  "paths": [
-    "Obvious paths: northeast, southeast, southwest"
-  ],
+  "timeto": {
+    "2806": 0.2,
+    "2800": 0.2,
+    "2802": 0.2
+  },
+  "image": "imt-pinefar-1264234799.png",
   "image_coords": [
     154,
     927,
     164,
     937
   ],
-  "terrain": "missing",
-  "description": [
-    "While the trail splits into a junction, its accompanying pines are steadfast and in perfect formation.  The way leads off in its various directions bounded on both sides by the arched canopy, like the intersection of naves in a grand temple to silence.  The wind spits in dizzy gusts, as if undecided upon which path to follow."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[A Silent Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2806": 0.2,
-    "2800": 0.2,
-    "2802": 0.2
-  },
-  "id": 2801,
-  "location": "the Pinefar Trading Post",
   "tags": [
     "some wyrmwood bark",
     "crowberry",
@@ -78,11 +75,6 @@
     "twisted twig",
     "slender twig",
     "bolmara lichen",
-    "brostheras grass",
-    "wyrmwood bark",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

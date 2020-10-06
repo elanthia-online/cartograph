@@ -1,50 +1,36 @@
 {
-  "wayto": {
-    "3992": {
-      "stringproc": "e3de8b74c33aaa72c5c348d6dad7b90c"
-    },
-    "3994": {
-      "stringproc": "79b6aacb07358187764f434021f44bcf"
-    }
-  },
+  "id": 3993,
+  "title": [
+    "[Griffin's Keen, Switchbacks]"
+  ],
+  "description": [
+    "The rise of the trail is shallow here, but a misstep could still send an unwary climber tumbling.  The slender trail hugs the icy mountainside and almost disappears in places."
+  ],
   "paths": [
     "Obvious paths: northeast, southeast"
   ],
+  "location": "Griffin's Keen",
+  "wayto": {
+    "3992": {
+      "file": "string_procs/wayto/3993_3992.rb"
+    },
+    "3994": {
+      "file": "string_procs/wayto/3993_3994.rb"
+    }
+  },
+  "timeto": {
+    "3992": 4.2,
+    "3994": 4.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     798,
     304,
     808,
     314
   ],
-  "terrain": null,
-  "description": [
-    "The rise of the trail is shallow here, but a misstep could still send an unwary climber tumbling.  The slender trail hugs the icy mountainside and almost disappears in places."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Griffin's Keen, Switchbacks]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3992": 4.2,
-    "3994": 4.2
-  },
-  "id": 3993,
-  "location": "Griffin's Keen",
   "tags": [
     "some valerian root",
-    "some angelica root",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "sprig of holly",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some angelica root"
   ]
 }

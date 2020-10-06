@@ -1,37 +1,28 @@
 {
+  "id": 20007,
+  "title": [
+    "[Cavernhold, Lower Passage]"
+  ],
+  "description": [
+    "This narrow passage, which is reasonably well lit by large amounts of the glowing moss, undulates slightly and seems to run a considerable distance in a north-south direction.  The sound of dripping water can be heard to the north while the oddly out of place smell of straw or hay comes from the south."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the foothills of Zeltoph",
   "wayto": {
     "20006": "north",
     "20008": "south"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "20006": 0.2,
+    "20008": 0.2
+  },
+  "image": "wl-cavernhold-1295073688.png",
   "image_coords": [
     1044,
     1005,
     1054,
     1016
-  ],
-  "terrain": null,
-  "description": [
-    "This narrow passage, which is reasonably well lit by large amounts of the glowing moss, undulates slightly and seems to run a considerable distance in a north-south direction.  The sound of dripping water can be heard to the north while the oddly out of place smell of straw or hay comes from the south."
-  ],
-  "image": "wl-cavernhold-1295073688.png",
-  "climate": null,
-  "title": [
-    "[Cavernhold, Lower Passage]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "20006": 0.2,
-    "20008": 0.2
-  },
-  "id": 20007,
-  "location": "the foothills of Zeltoph",
-  "tags": [
-
-  ],
-  "links": [
-
   ]
 }

@@ -1,40 +1,33 @@
 {
+  "id": 9357,
+  "title": [
+    "[Caves]"
+  ],
+  "description": [
+    "Moss grows on the walls of the cave, glowing a soft green when the light from the torch does not directly hit it.  Light flickers, creating odd, unpleasant shadows on the uneven surface of the cavern walls."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast, southwest"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "9365": "southeast",
     "9356": "southwest",
     "9358": "north"
   },
-  "paths": [
-    "Obvious exits: north, southeast, southwest"
-  ],
+  "timeto": {
+    "9365": 0.2,
+    "9356": 0.2,
+    "9358": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     982,
     89,
     994,
     101
   ],
-  "terrain": "indoors",
-  "description": [
-    "Moss grows on the walls of the cave, glowing a soft green when the light from the torch does not directly hit it.  Light flickers, creating odd, unpleasant shadows on the uneven surface of the cavern walls."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Caves]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9365": 0.2,
-    "9356": 0.2,
-    "9358": 0.2
-  },
-  "id": 9357,
-  "location": "the Cairnfang",
   "tags": [
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

@@ -1,38 +1,28 @@
 {
+  "id": 8616,
+  "title": [
+    "[Blacksmith, Forge]"
+  ],
+  "description": [
+    "Iron Jack's boasts four well-sized forges, three of which are currently in operation.  Several new apprentices are gathered around one, learning the finer points of Smithery, while the blacksmith's eldest son is crafting a large sword at another.  At the third forge, two older apprentices are working on shorter blades suitable for knives."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "8615": "south",
     "8617": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "8615": 0.2,
+    "8617": 0.2
+  },
+  "image": "wl-wehnimers-1264234799.png",
   "image_coords": [
     505,
     463,
     514,
     473
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Iron Jack's boasts four well-sized forges, three of which are currently in operation.  Several new apprentices are gathered around one, learning the finer points of Smithery, while the blacksmith's eldest son is crafting a large sword at another.  At the third forge, two older apprentices are working on shorter blades suitable for knives."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Blacksmith, Forge]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8615": 0.2,
-    "8617": 0.2
-  },
-  "id": 8616,
-  "location": "Wehnimer's Landing",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

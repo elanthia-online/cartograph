@@ -1,43 +1,36 @@
 {
-  "wayto": {
-    "2981": "south",
-    "2982": "west",
-    "2979": "east",
-    "15942": "north"
-  },
-  "paths": [
-    "Obvious exits: north, east, south, west"
-  ],
-  "image_coords": [
-    836,
-    511,
-    846,
-    521
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The wavering shadows that fill this intersection flow with a pattern that seems to ignore the dim, flickering flames of torches held in ancient wall sconces.  Eerie dark shapes dance up and down the wall with purpose, seeming to vanish under a direct stare."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "indoors",
+  "id": 2980,
   "title": [
     "[Abbey, Ossuary]"
   ],
-  "check_location": null,
+  "description": [
+    "The wavering shadows that fill this intersection flow with a pattern that seems to ignore the dim, flickering flames of torches held in ancient wall sconces.  Eerie dark shapes dance up and down the wall with purpose, seeming to vanish under a direct stare."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south, west",
+    "Obvious exits: north"
+  ],
+  "location": "the Abbey",
+  "wayto": {
+    "2982": "west",
+    "2979": "east",
+    "15942": "north",
+    "2981": "south"
+  },
   "timeto": {
-    "2981": 0.2,
     "2982": 0.2,
     "2979": 0.2,
-    "15942": 0.2
+    "15942": 0.2,
+    "2981": 0.2
   },
-  "id": 2980,
-  "location": "the Abbey",
-  "tags": [
-    "arch wight",
-    "no forageables",
-    "meta:forage-sensed"
+  "image": "imt-Abbey Map-51200831.png",
+  "image_coords": [
+    3006,
+    1062,
+    3114,
+    1174
   ],
-  "links": [
-
+  "tags": [
+    "arch wight"
   ]
 }

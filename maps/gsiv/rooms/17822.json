@@ -1,37 +1,28 @@
 {
+  "id": 17822,
+  "title": [
+    "[Warehouse]"
+  ],
+  "description": [
+    "A small corridor leads to another group of doorless rooms.  Training mannequins can be spotted in each chamber, patiently awaiting their turned to be used and abused."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Ta'Vaalor",
   "wayto": {
     "17819": "south",
     "17823": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "17819": 0.2,
+    "17823": 0.2
+  },
+  "image": "en-vaalor-rogue-guild.png",
   "image_coords": [
     177,
     592,
     219,
     633
-  ],
-  "terrain": null,
-  "description": [
-    "A small corridor leads to another group of doorless rooms.  Training mannequins can be spotted in each chamber, patiently awaiting their turned to be used and abused."
-  ],
-  "image": "en-vaalor-rogue-guild.png",
-  "climate": null,
-  "title": [
-    "[Warehouse]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "17819": 0.2,
-    "17823": 0.2
-  },
-  "id": 17822,
-  "location": "Ta'Vaalor",
-  "tags": [
-
-  ],
-  "links": [
-
   ]
 }

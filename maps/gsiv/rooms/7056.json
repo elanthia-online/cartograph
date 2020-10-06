@@ -1,49 +1,37 @@
 {
+  "id": 7056,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "An occasional hint of fresh air wafts through this section of tunnel, which it stretches off in three directions as far as your eyes can see."
+  ],
+  "paths": [
+    "Obvious exits: east, southwest, northwest"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7055": "northwest",
     "7057": "east",
     "7059": "southwest"
   },
-  "paths": [
-    "Obvious exits: east, southwest, northwest"
-  ],
+  "timeto": {
+    "7055": 0.2,
+    "7057": 0.2,
+    "7059": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     377,
     792,
     387,
     802
   ],
-  "terrain": "indoors",
-  "description": [
-    "An occasional hint of fresh air wafts through this section of tunnel, which it stretches off in three directions as far as your eyes can see."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7055": 0.2,
-    "7057": 0.2,
-    "7059": 0.2
-  },
-  "id": 7056,
-  "location": "Darkstone Castle",
   "tags": [
     "some cave moss",
     "withered black mushroom",
     "some wolifrew lichen",
     "roa'ter",
-    "some wingstem root",
-    "wolifrew lichen",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

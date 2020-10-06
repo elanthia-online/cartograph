@@ -1,53 +1,33 @@
 {
+  "id": 10014,
+  "title": [
+    "[High Plains, Plateau]"
+  ],
+  "description": [
+    "The ground rises into a desolate plateau, overlooking the rocky abyss of the ravine far below.  A lone tree stands on the moor amid tendrils of swirling mist, its branches stripped by the constant wind into an ominous skeleton of wood.",
+    "The ground rises into a desolate plateau, overlooking the abyss of the ravine far below, its darkness bottomless in the night.  A lone tree stands on the moor amid tendrils of swirling mist, its dark branches stripped by the constant wind into an ominous skeleton of wood."
+  ],
+  "paths": [
+    "Obvious paths: northeast, northwest"
+  ],
+  "location": "the Yegharren Plains",
   "wayto": {
     "10013": "northeast",
     "10008": "northwest"
   },
-  "paths": [
-    "Obvious paths: northeast, northwest"
-  ],
+  "timeto": {
+    "10013": 0.2,
+    "10008": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     1376,
     568,
     1386,
     578
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "The ground rises into a desolate plateau, overlooking the rocky abyss of the ravine far below.  A lone tree stands on the moor amid tendrils of swirling mist, its branches stripped by the constant wind into an ominous skeleton of wood.",
-    "The ground rises into a desolate plateau, overlooking the abyss of the ravine far below, its darkness bottomless in the night.  A lone tree stands on the moor amid tendrils of swirling mist, its dark branches stripped by the constant wind into an ominous skeleton of wood."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[High Plains, Plateau]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10013": 0.2,
-    "10008": 0.2
-  },
-  "id": 10014,
-  "location": "the Yegharren Plains",
   "tags": [
     "some cothinar flower",
-    "sprig of wild lilac",
-    "cothinar flower",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "wild strawberry",
-    "blueberries",
-    "stalk of chicory",
-    "broken twig",
-    "sprig of larkspur",
-    "small wild rose",
-    "wild chokecherry",
-    "blue whortleberry",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sprig of wild lilac"
   ]
 }

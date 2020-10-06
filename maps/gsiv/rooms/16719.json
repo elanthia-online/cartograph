@@ -1,93 +1,30 @@
 {
-  "wayto": {
-    "16718": "north",
-    "16720": {
-      "stringproc": "684b44dbb5a6a0eca6cf6ef453e3f764"
-    }
-  },
+  "id": 16719,
+  "title": [
+    "[Aradhul Road, Stone Wall]"
+  ],
+  "description": [
+    "Stretching away into the woods and disappearing into the dim light of the forest, is a vine-covered stone wall.  Little of the wall remains as tall and true as it once did, resembling now more a stone berm subject to the whims of the woods, with great trees and low-slung plants growing upon and over it.  Beyond the north side of the wall, a trail disappears into the trees."
+  ],
   "paths": [
     "Obvious paths: north"
   ],
+  "location": "Aradhul Road",
+  "wayto": {
+    "16718": "north",
+    "16720": {
+      "file": "string_procs/wayto/16719_16720.rb"
+    }
+  },
+  "timeto": {
+    "16718": 0.2,
+    "16720": 5.0
+  },
+  "image": "en-aradhul-road-1308194332.png",
   "image_coords": [
     329,
     359,
     350,
     377
-  ],
-  "terrain": "missing",
-  "description": [
-    "Stretching away into the woods and disappearing into the dim light of the forest, is a vine-covered stone wall.  Little of the wall remains as tall and true as it once did, resembling now more a stone berm subject to the whims of the woods, with great trees and low-slung plants growing upon and over it.  Beyond the north side of the wall, a trail disappears into the trees."
-  ],
-  "image": "en-aradhul-road-1308194332.png",
-  "climate": "temperate",
-  "title": [
-    "[Aradhul Road, Stone Wall]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "16718": 0.2,
-    "16720": 5.0
-  },
-  "id": 16719,
-  "location": "Aradhul Road",
-  "tags": [
-    "acantha leaf",
-    "torban leaf",
-    "calamia fruit",
-    "haphip root",
-    "basal moss",
-    "tkaro root",
-    "sticks",
-    "angelica root",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "blueberries",
-    "elderberries",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "wild grapes",
-    "broken twig",
-    "stalk of bluebells",
-    "golden buttercup",
-    "wild pink geranium",
-    "stalk of goldenrod",
-    "small wild rose",
-    "sprig of wild lilac",
-    "wild beechnut",
-    "stalk of burdock",
-    "silver-edged fern",
-    "wild chokecherry",
-    "lady slipper blossom",
-    "wild orchid",
-    "wood violet",
-    "wolfsbane root",
-    "sprig of mistletoe",
-    "tree bark",
-    "murkweed",
-    "white lily",
-    "pink rain lily",
-    "coppery rain lily",
-    "blue whortleberry",
-    "white baneberry",
-    "bloodwood twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "twisted twig",
-    "slender twig",
-    "ebony twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

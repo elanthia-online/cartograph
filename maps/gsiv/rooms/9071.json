@@ -1,42 +1,32 @@
 {
+  "id": 9071,
+  "title": [
+    "[Underground Tunnel]"
+  ],
+  "description": [
+    "A massive clump of roots dangles down from the ceiling as the tunnel ends abruptly.  The tunnel slants downward as it twists to the south.  There are several holes along one wall, possibly the burrows of some small animal."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "the subterranean tunnels",
   "wayto": {
     "2383": "go roots",
     "9072": "down"
   },
-  "paths": [
-    "Obvious exits: down"
-  ],
+  "timeto": {
+    "2383": 0.2,
+    "9072": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     1113,
     145,
     1123,
     155
   ],
-  "terrain": "indoors",
-  "description": [
-    "A massive clump of roots dangles down from the ceiling as the tunnel ends abruptly.  The tunnel slants downward as it twists to the south.  There are several holes along one wall, possibly the burrows of some small animal."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Underground Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2383": 0.2,
-    "9072": 0.2
-  },
-  "id": 9071,
-  "location": "the subterranean tunnels",
   "tags": [
     "some wolifrew lichen",
-    "some wingstem root",
-    "wolifrew lichen",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

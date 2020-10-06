@@ -1,40 +1,34 @@
 {
+  "id": 6493,
+  "title": [
+    "[Monastery, Chapel]"
+  ],
+  "description": [
+    "Colorful tiles form a mosaic on the floor of this small chapel.  There are no benches or pews, but there is a low kneeling rail at the west end of the room, separating the main chapel area from the altar to the west."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, west"
+  ],
+  "location": "the Lysierian Hills",
   "wayto": {
     "6489": "southeast",
     "6494": "northeast",
     "6497": "west"
   },
-  "paths": [
-    "Obvious exits: northeast, southeast, west"
-  ],
+  "timeto": {
+    "6489": 0.2,
+    "6494": 0.2,
+    "6497": 0.2
+  },
+  "image": "wl-lysierian-1264234799.png",
   "image_coords": [
     228,
     979,
     238,
     989
   ],
-  "terrain": null,
-  "description": [
-    "Colorful tiles form a mosaic on the floor of this small chapel.  There are no benches or pews, but there is a low kneeling rail at the west end of the room, separating the main chapel area from the altar to the west."
-  ],
-  "image": "wl-lysierian-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Monastery, Chapel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6489": 0.2,
-    "6494": 0.2,
-    "6497": 0.2
-  },
-  "id": 6493,
-  "location": "the Lysierian Hills",
   "tags": [
     "spectral monk",
     "monastic lich"
-  ],
-  "links": [
-
   ]
 }

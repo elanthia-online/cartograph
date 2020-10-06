@@ -1,51 +1,40 @@
 {
-  "wayto": {
-    "3989": {
-      "stringproc": "3157bbb118c54a6236859635e57fcbb9"
-    },
-    "3991": {
-      "stringproc": "96f762a3c5540f71716927f4f186a4fa"
-    }
-  },
+  "id": 3990,
+  "title": [
+    "[Griffin's Keen, Switchbacks]"
+  ],
+  "description": [
+    "The extreme west turnaround of this part of the trail provides a view of the humps and peaks of the DragonSpine Mountain range extending off to the west and north.  Pearl grey peaks light up the horizon under the star dotted black skies."
+  ],
   "paths": [
     "Obvious paths: southwest, west"
   ],
+  "location": "Griffin's Keen",
+  "wayto": {
+    "3989": {
+      "file": "string_procs/wayto/3990_3989.rb"
+    },
+    "3991": {
+      "file": "string_procs/wayto/3990_3991.rb"
+    }
+  },
+  "timeto": {
+    "3989": 4.2,
+    "3991": 4.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     826,
     359,
     836,
     369
   ],
-  "terrain": null,
-  "description": [
-    "The extreme west turnaround of this part of the trail provides a view of the humps and peaks of the DragonSpine Mountain range extending off to the west and north.  Pearl grey peaks light up the horizon under the star dotted black skies."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Griffin's Keen, Switchbacks]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3989": 4.2,
-    "3991": 4.2
-  },
-  "id": 3990,
-  "location": "Griffin's Keen",
   "tags": [
     "sprig of holly",
     "sassafras leaf",
     "some pennyroyal stem",
     "some valerian root",
     "some angelica root",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sweetfern stalk"
   ]
 }

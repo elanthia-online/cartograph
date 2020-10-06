@@ -1,51 +1,31 @@
 {
+  "id": 20638,
+  "title": [
+    "[Wehnimer's, Burrow Way]"
+  ],
+  "description": [
+    "Empty wooden crates line an entire wall of the tunnel, discolored labels marking them as property of the Wehnimer's Landing Museum.  Because of the partial blockade of chests, the passageway is narrower here."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "20637": "north",
     "20057": "go crack"
   },
-  "paths": [
-    "Obvious exits: north"
-  ],
+  "timeto": {
+    "20637": 0.2,
+    "20057": 0.2
+  },
+  "image": "wl-burrow_way-1360361110.png",
   "image_coords": [
     863,
     456,
     890,
     482
   ],
-  "terrain": "indoors",
-  "description": [
-    "Empty wooden crates line an entire wall of the tunnel, discolored labels marking them as property of the Wehnimer's Landing Museum.  Because of the partial blockade of chests, the passageway is narrower here."
-  ],
-  "image": "wl-burrow_way-1360361110.png",
-  "climate": "indoors",
-  "title": [
-    "[Wehnimer's, Burrow Way]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "20637": 0.2,
-    "20057": 0.2
-  },
-  "id": 20638,
-  "location": "the town of Wehnimer's Landing",
   "tags": [
-    "meta:noteleport:fwi",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null,
-  "links": [
-
+    "meta:noteleport:fwi"
   ]
 }

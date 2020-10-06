@@ -1,38 +1,28 @@
 {
+  "id": 6651,
+  "title": [
+    "[Monastery, Carpeted Hall]"
+  ],
+  "description": [
+    "Incandescent globes hang from the ceiling, illuminating the hallway with an eerie glow.  Plush carpeting the color of warm blood covers the stone floor here, its pristine surface well-kept and free of stains.  The walls have been painted with archaic runes the same color as the carpeting."
+  ],
+  "paths": [
+    "Obvious exits: northeast, west"
+  ],
+  "location": "the Broken Lands",
   "wayto": {
     "6652": "west",
     "6637": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, west"
-  ],
+  "timeto": {
+    "6652": 0.2,
+    "6637": 0.2
+  },
+  "image": "wl-broken-1264234799.png",
   "image_coords": [
     251,
     1210,
     261,
     1220
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Incandescent globes hang from the ceiling, illuminating the hallway with an eerie glow.  Plush carpeting the color of warm blood covers the stone floor here, its pristine surface well-kept and free of stains.  The walls have been painted with archaic runes the same color as the carpeting."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Monastery, Carpeted Hall]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6652": 0.2,
-    "6637": 0.2
-  },
-  "id": 6651,
-  "location": "the Broken Lands",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

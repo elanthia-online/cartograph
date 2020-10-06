@@ -1,35 +1,32 @@
 {
+  "id": 6170,
+  "title": [
+    "[Hidden Plateau]"
+  ],
+  "description": [
+    "A large portion of the northern wall has collapsed, offering a clear view of the region below.  A long dead tree stands sentry here, its broken and withered limbs creaking with the coming and going of the mountain breeze."
+  ],
+  "paths": [
+    "Obvious paths: east, southwest, west"
+  ],
+  "location": "The Hidden Plateau",
   "wayto": {
     "6169": "east",
     "6171": "west",
     "6172": "southwest"
   },
-  "paths": [
-    "Obvious paths: east, southwest, west"
-  ],
+  "timeto": {
+    "6169": 0.2,
+    "6171": 0.2,
+    "6172": 0.2
+  },
+  "image": "wl-wehntoph-1310775397.png",
   "image_coords": [
     210,
     685,
     244,
     719
   ],
-  "terrain": null,
-  "description": [
-    "A large portion of the northern wall has collapsed, offering a clear view of the region below.  A long dead tree stands sentry here, its broken and withered limbs creaking with the coming and going of the mountain breeze."
-  ],
-  "image": "wl-wehntoph-1310775397.png",
-  "climate": null,
-  "title": [
-    "[Hidden Plateau]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6169": 0.2,
-    "6171": 0.2,
-    "6172": 0.2
-  },
-  "id": 6170,
-  "location": "The Hidden Plateau",
   "tags": [
     "stalk of burdock",
     "withered black mushroom",
@@ -75,8 +72,5 @@
     "sprig of jasmine",
     "some ambrominas leaf",
     "sprig of ivy"
-  ],
-  "links": [
-
   ]
 }

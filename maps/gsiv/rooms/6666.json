@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "6655": "go door"
-  },
+  "id": 6666,
+  "title": [
+    "[Monastery, Council Room]"
+  ],
+  "description": [
+    "In the center of the room stands a large triangular table cut from a single slab of granite.  A large faceted crystal globe hangs over the table, and three smaller ones adorn each corner.  A lone chair sits on each face of the triangle that forms the table.  Five feet behind each of those chairs rest two more with a small table between them."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "the Broken Lands",
+  "wayto": {
+    "6655": "go door"
+  },
+  "timeto": {
+    "6655": 0.2
+  },
+  "image": "wl-broken-1264234799.png",
   "image_coords": [
     412,
     1235,
     420,
     1245
-  ],
-  "terrain": "indoors",
-  "description": [
-    "In the center of the room stands a large triangular table cut from a single slab of granite.  A large faceted crystal globe hangs over the table, and three smaller ones adorn each corner.  A lone chair sits on each face of the triangle that forms the table.  Five feet behind each of those chairs rest two more with a small table between them."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Monastery, Council Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6655": 0.2
-  },
-  "id": 6666,
-  "location": "the Broken Lands",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

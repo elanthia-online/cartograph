@@ -1,40 +1,30 @@
 {
-  "wayto": {
-    "3590": {
-      "stringproc": "e1b570dc7b5c98ee0512c9ed01464221"
-    },
-    "3593": "east"
-  },
+  "id": 3592,
+  "title": [
+    "[Stronghold, Barracks]"
+  ],
+  "description": [
+    "The barracks looks more like a mausoleum than a billet, with its double row of huge stone slabs marching down the cavernous chamber.  Above, the ceiling arches into multiple peaks, each sending ribs of stone down the walls that take on a skeletal quality in the half-light.  A deep layer of dust rises on each side of the center path through the rows of bier-like bunks."
+  ],
   "paths": [
     "Obvious exits: east"
   ],
+  "location": "Stone Valley",
+  "wayto": {
+    "3590": {
+      "file": "string_procs/wayto/3592_3590.rb"
+    },
+    "3593": "east"
+  },
+  "timeto": {
+    "3590": 0.2,
+    "3593": 0.2
+  },
+  "image": "wl-stronghold-1264234799.png",
   "image_coords": [
     544,
     577,
     554,
     587
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The barracks looks more like a mausoleum than a billet, with its double row of huge stone slabs marching down the cavernous chamber.  Above, the ceiling arches into multiple peaks, each sending ribs of stone down the walls that take on a skeletal quality in the half-light.  A deep layer of dust rises on each side of the center path through the rows of bier-like bunks."
-  ],
-  "image": "wl-stronghold-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Stronghold, Barracks]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3590": 0.2,
-    "3593": 0.2
-  },
-  "id": 3592,
-  "location": "Stone Valley",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

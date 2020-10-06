@@ -15,9 +15,17 @@ module MapDB
   SYNTAX_OK = "Syntax OK\n"
 
   StringProc = -> k, v {v.is_a?(String) && v.start_with?(STRING_PROC_PREAMBLE)}
+  
+  def self.env_dir(*args)
+    File.join Dir.pwd, "maps/#{GAME}", *args
+  end
 
   def self.mapdb_file()
     File.join Dir.pwd, "tmp", "mapdb.json"
+  end
+
+  def self.checksum_file()
+    env_dir("checksum")
   end
 
   def self.load_map()
@@ -25,8 +33,9 @@ module MapDB
     @_map.take(Opts.to_h.fetch(:n, 100_000).to_i)
   end
 
-  def self.env_dir(*args)
-    File.join Dir.pwd, "maps/#{GAME}", *args
+  def self.checksum()
+    return false unless File.exists? checksum_file
+    File.read checksum_file
   end
 
   def self.cleanup_dirs()

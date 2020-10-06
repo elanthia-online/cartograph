@@ -1,33 +1,30 @@
 {
+  "id": 3059,
+  "title": [
+    "[Icemule Trace, Snowfield]"
+  ],
+  "description": [
+    "The footprints in the snow provide the only indication that others have passed this way before you.  You can make out a dark line in the distance across the rolling snowfield."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest"
+  ],
+  "location": "the southern snowfields",
   "wayto": {
     "3058": "north",
     "3060": "southwest"
   },
-  "paths": [
-    "Obvious paths: north, southwest"
-  ],
+  "timeto": {
+    "3058": 0.2,
+    "3060": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     573,
     700,
     583,
     710
   ],
-  "terrain": "grassland",
-  "description": [
-    "The footprints in the snow provide the only indication that others have passed this way before you.  You can make out a dark line in the distance across the rolling snowfield."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Icemule Trace, Snowfield]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3058": 0.2,
-    "3060": 0.2
-  },
-  "id": 3059,
-  "location": "the southern snowfields",
   "tags": [
     "wavepetal blossom",
     "sassafras leaf",
@@ -60,19 +57,6 @@
     "peach iceblossom",
     "bright blue iceblossom",
     "yellow iceblossom",
-    "fiery red iceblossom",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "edelweiss",
-    "iceblossoms",
-    "arctic moss",
-    "tundra grass",
-    "murdroot",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "fiery red iceblossom"
   ]
 }

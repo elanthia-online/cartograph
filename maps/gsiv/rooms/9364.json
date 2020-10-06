@@ -1,38 +1,31 @@
 {
+  "id": 9364,
+  "title": [
+    "[Caves]"
+  ],
+  "description": [
+    "The high-pitched squeak of bats comes from further inside the cave, leaving suspicions about the slickness of the floor.  The torchlight flickers ominously as a draft passes from some unseen source."
+  ],
+  "paths": [
+    "Obvious exits: northeast, west"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "9363": "west",
     "9365": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, west"
-  ],
+  "timeto": {
+    "9363": 0.2,
+    "9365": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     983,
     142,
     993,
     152
   ],
-  "terrain": "indoors",
-  "description": [
-    "The high-pitched squeak of bats comes from further inside the cave, leaving suspicions about the slickness of the floor.  The torchlight flickers ominously as a draft passes from some unseen source."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Caves]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9363": 0.2,
-    "9365": 0.2
-  },
-  "id": 9364,
-  "location": "the Cairnfang",
   "tags": [
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

@@ -1,38 +1,29 @@
 {
-  "wayto": {
-    "5883": "go staircase"
-  },
+  "id": 13779,
+  "title": [
+    "[Stone Turret, Waiting Room]"
+  ],
+  "description": [
+    "Dozens of comfortable leather chairs have been gathered into informal seating areas around this circular room, with nearby oil lamps casting a warm glow.  To one side of a twisting stone staircase leading down stands a curving brass and onyx counter."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "Victory Road",
+  "wayto": {
+    "5883": "go staircase"
+  },
+  "timeto": {
+    "5883": 0.2
+  },
+  "image": "en-victory-1264234799.png",
   "image_coords": [
     962,
     533,
     972,
     543
   ],
-  "terrain": null,
-  "description": [
-    "Dozens of comfortable leather chairs have been gathered into informal seating areas around this circular room, with nearby oil lamps casting a warm glow.  To one side of a twisting stone staircase leading down stands a curving brass and onyx counter."
-  ],
-  "image": "en-victory-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Stone Turret, Waiting Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5883": 0.2,
-    "13169": {
-      "stringproc": "001ab2d6d28b11bfb19aec28c6524c13"
-    }
-  },
-  "id": 13779,
-  "location": "Victory Road",
   "tags": [
     "travel waiting room"
-  ],
-  "links": [
-
   ]
 }

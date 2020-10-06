@@ -1,38 +1,35 @@
 {
+  "id": 10886,
+  "title": [
+    "[Sorcerer Guild, Entrance]"
+  ],
+  "description": [
+    "Tall palisade walls of logged white birch trunks march into the vicious brambles on either side.  The tips of the log wall's trunks have been whittled to nasty points, and something brown and malodorous has been spread across these sharpened spires.  A wide piece of surfaced redwood arches over the open gate, upon which an insignia has been painted, and to one side something has been burned into the palisade wall itself.  Several torches illuminate the path and gate.",
+    "Tall palisade walls of logged white birch trunks march into the vicious brambles on either side.  The tips of the log wall's trunks have been whittled to nasty points, and something brown and malodorous has been spread across these sharpened spires.  A wide piece of surfaced redwood arches over the open gate, upon which an insignia has been painted, and to one side something has been burned into the palisade wall itself.  Several torches line the path, ready to provide illumination when darkness falls."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "River's Rest",
   "wayto": {
     "10884": "go path",
     "13102": "go gate"
   },
-  "paths": [
-    "Obvious paths: none"
-  ],
+  "timeto": {
+    "10884": {
+      "file": "string_procs/timeto/10886_10884.rb"
+    },
+    "13102": {
+      "file": "string_procs/timeto/10886_13102.rb"
+    }
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     322,
     238,
     360,
     276
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "Tall palisade walls of logged white birch trunks march into the vicious brambles on either side.  The tips of the log wall's trunks have been whittled to nasty points, and something brown and malodorous has been spread across these sharpened spires.  A wide piece of surfaced redwood arches over the open gate, upon which an insignia has been painted, and to one side something has been burned into the palisade wall itself.  Several torches illuminate the path and gate.",
-    "Tall palisade walls of logged white birch trunks march into the vicious brambles on either side.  The tips of the log wall's trunks have been whittled to nasty points, and something brown and malodorous has been spread across these sharpened spires.  A wide piece of surfaced redwood arches over the open gate, upon which an insignia has been painted, and to one side something has been burned into the palisade wall itself.  Several torches line the path, ready to provide illumination when darkness falls."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "temperate",
-  "title": [
-    "[Sorcerer Guild, Entrance]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10884": {
-      "stringproc": "3c0eeef8198990b22d359822a9163e1e"
-    },
-    "13102": {
-      "stringproc": "3c0eeef8198990b22d359822a9163e1e"
-    }
-  },
-  "id": 10886,
-  "location": "River's Rest",
   "tags": [
     "some acantha leaf",
     "some basal moss",
@@ -44,54 +41,6 @@
     "luckbloom blossom",
     "withered black mushroom",
     "yew twig",
-    "twisted twig",
-    "acantha leaf",
-    "torban leaf",
-    "calamia fruit",
-    "basal moss",
-    "sticks",
-    "angelica root",
-    "trollfear mushroom",
-    "soft white mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "blueberries",
-    "elderberries",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "wild grapes",
-    "broken twig",
-    "stalk of bluebells",
-    "golden buttercup",
-    "wild pink geranium",
-    "stalk of goldenrod",
-    "small wild rose",
-    "sprig of wild lilac",
-    "wild chokecherry",
-    "sprig of mistletoe",
-    "tree bark",
-    "murkweed",
-    "mistweed",
-    "white lily",
-    "pink rain lily",
-    "coppery rain lily",
-    "oxblood lily",
-    "kylan berry",
-    "oak twig",
-    "murdroot",
-    "slender twig",
-    "ebony twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "walnuts",
-    "alder bark",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "twisted twig"
   ]
 }

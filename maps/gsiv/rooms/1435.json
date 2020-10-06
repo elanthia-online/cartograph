@@ -1,42 +1,32 @@
 {
+  "id": 1435,
+  "title": [
+    "[Solhaven, Bayside Road]"
+  ],
+  "description": [
+    "The crowds thicken as they push deeper into town.  To the southwest, you notice the outline of a dock against the waters of the bay.  Eastward, you can see wagons trundling down the street towards the cliffs.  Nearby, a lone fisherman stands poised on the rocks, casting his line into the sea."
+  ],
+  "paths": [
+    "Obvious paths: northeast, east, south, southwest"
+  ],
+  "location": "the free port of Solhaven",
   "wayto": {
     "1444": "south",
     "1434": "northeast",
     "1436": "southwest",
     "1440": "east"
   },
-  "paths": [
-    "Obvious paths: northeast, east, south, southwest"
-  ],
-  "image_coords": [
-    1063,
-    387,
-    1087,
-    411
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "The crowds thicken as they push deeper into town.  To the southwest, you notice the outline of a dock against the waters of the bay.  Eastward, you can see wagons trundling down the street towards the cliffs.  Nearby, a lone fisherman stands poised on the rocks, casting his line into the sea."
-  ],
-  "image": "vo-solhaven-1263764670.png",
-  "climate": "temperate",
-  "title": [
-    "[Solhaven, Bayside Road]"
-  ],
-  "check_location": null,
   "timeto": {
     "1444": 0.2,
     "1434": 0.2,
     "1436": 0.2,
     "1440": 0.2
   },
-  "id": 1435,
-  "location": "the free port of Solhaven",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "vo-solhaven-1263764670.png",
+  "image_coords": [
+    1063,
+    387,
+    1087,
+    411
   ]
 }

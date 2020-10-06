@@ -1,37 +1,27 @@
 {
-  "wayto": {
-    "10949": "south"
-  },
+  "id": 10950,
+  "title": [
+    "[Relynard's Pawnshop]"
+  ],
+  "description": [
+    "A narrow beam of moonlight filters down through the grimy skylight.  Four tables are crowded into the small room, leaving little space for moving.  The wide-planked walls are marred by scratches and holes where prospective customers have tested the points and blades of various weapons.",
+    "Motes of dust are illuminated in the stingy shaft of sunlight that finds its way through the grimy skylight.  Four tables are crowded into the small room, leaving little space for moving.  The wide-planked walls are marred by scratches and holes where prospective customers have tested the points and blades of various weapons."
+  ],
   "paths": [
     "Obvious exits: south"
   ],
+  "location": "the town of River's Rest",
+  "wayto": {
+    "10949": "south"
+  },
+  "timeto": {
+    "10949": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     889,
     584,
     901,
     596
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A narrow beam of moonlight filters down through the grimy skylight.  Four tables are crowded into the small room, leaving little space for moving.  The wide-planked walls are marred by scratches and holes where prospective customers have tested the points and blades of various weapons.",
-    "Motes of dust are illuminated in the stingy shaft of sunlight that finds its way through the grimy skylight.  Four tables are crowded into the small room, leaving little space for moving.  The wide-planked walls are marred by scratches and holes where prospective customers have tested the points and blades of various weapons."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "indoors",
-  "title": [
-    "[Relynard's Pawnshop]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10949": 0.2
-  },
-  "id": 10950,
-  "location": "the town of River's Rest",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

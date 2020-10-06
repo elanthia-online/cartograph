@@ -1,41 +1,31 @@
 {
-  "wayto": {
-    "179": "west",
-    "181": "northeast"
-  },
-  "paths": [
-    "Obvious paths: northeast, west"
+  "id": 180,
+  "title": [
+    "[Ta'Illistim, Stearriza Var]"
   ],
-  "image_coords": [
-    1138,
-    948,
-    1162,
-    971
-  ],
-  "terrain": "hard, flat",
   "description": [
     "The cobblestoned path winds around a sharp bend where it meets Ellaerin Var.  No cottages stand here in the shadow of the massive city wall.  The wall's grey granite blocks climb endlessly upward, the crennelated top barely visible from this vantage point.",
     "The cobblestoned path winds around a sharp bend where it meets Ellaerin Var.  No cottages stand here in the shadow of the massive city wall.  The wall's grey granite blocks climb endlessly upward, the crennelated top completely invisible in the deepening darkness above.",
     "The cobblestoned path winds around a sharp bend where it meets Ellaerin Var.  No houses stand here, in the shadow of the massive city wall.  Silvery blue granite blocks climb endlessly upward, the wall's crenelated top completely invisible in the deepening darkness above.",
     "The cobblestoned path winds around a sharp bend where it meets Ellaerin Var.  No houses stand here, in the shadow of the massive city wall.  Silvery blue granite blocks climb endlessly upward, the wall's crenelated top barely visible from a vantage point so far below."
   ],
-  "image": "en-ta_illistim-new.jpg",
-  "climate": "temperate",
-  "title": [
-    "[Ta'Illistim, Stearriza Var]"
+  "paths": [
+    "Obvious paths: northeast, west"
   ],
-  "check_location": null,
+  "location": "Ta'Illistim",
+  "wayto": {
+    "179": "west",
+    "181": "northeast"
+  },
   "timeto": {
     "179": 0.2,
     "181": 0.2
   },
-  "id": 180,
-  "location": "Ta'Illistim",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-ta_illistim-new.jpg",
+  "image_coords": [
+    1138,
+    948,
+    1162,
+    971
   ]
 }

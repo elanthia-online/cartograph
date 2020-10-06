@@ -1,33 +1,30 @@
 {
+  "id": 7210,
+  "title": [
+    "[Graveyard, Barrow Tunnel]"
+  ],
+  "description": [
+    "The piled dirt that forms the burial mound gives way to a passage hewn into the stone of the ground below.  A narrow ledge has been carved into the walls, providing a precarious means of descent as it circles downward into darkness."
+  ],
+  "paths": [
+    "Obvious paths: up, down"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7209": "up",
     "7211": "down"
   },
-  "paths": [
-    "Obvious paths: up, down"
-  ],
+  "timeto": {
+    "7209": 0.2,
+    "7211": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     424,
     185,
     434,
     195
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The piled dirt that forms the burial mound gives way to a passage hewn into the stone of the ground below.  A narrow ledge has been carved into the walls, providing a precarious means of descent as it circles downward into darkness."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Graveyard, Barrow Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7209": 0.2,
-    "7211": 0.2
-  },
-  "id": 7210,
-  "location": "the Graveyard",
   "tags": [
     "some wolifrew lichen",
     "some acantha leaf",
@@ -49,10 +46,6 @@
     "blue whortleberry",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

@@ -1,35 +1,32 @@
 {
-  "wayto": {
-    "23243": {
-      "stringproc": "010277bc65d9235d1512b9589267e147"
-    },
-    "3661": "out",
-    "26187": {
-      "stringproc": "a57486b4f3bf15e49aba0b01089a909d"
-    },
-    "26188": {
-      "stringproc": "958d6023c3667e9b5d3dd0ff279c81a4"
-    },
-    "26189": {
-      "stringproc": "7cf38ebcb267f82309be38e74162912d"
-    },
-    "23745": "east"
-  },
-  "paths": [
-    "Obvious exits: east, out"
+  "id": 12364,
+  "title": [
+    "[The Portable Water Hole]"
   ],
-  "image_coords": null,
-  "terrain": null,
   "description": [
     "Oilcloth and canvas panels are strapped to monstrously large sea thrak ribs to create a weather-friendly roof that is loose enough to allow breezes to enter, yet tight enough to protect against rain.  Several of the ribs are yellowed with age, while others display tiny fractures that are mended with wide strips of rawhide.  A narrow corridor runs the length of the wagon with barely enough room to travel between the four booths housing tidy tables, the narrow entryway, and the bustling kitchen.",
     "Oilcloth and canvas panels are strapped to monstrously large sea thrak ribs to create a weather-friendly roof that is loose enough to allow breezes to enter, yet tight enough to protect against rain.  Several of the ribs are yellowed with age, while others display tiny fractures that are mended with wide strips of rawhide.  A narrow corridor runs the length of the wagon with barely enough room to travel between the four compact booths, the narrow entryway, and the bustling kitchen."
   ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[The Portable Water Hole]"
+  "paths": [
+    "Obvious exits: east, out"
   ],
-  "check_location": null,
+  "location": "Mist Harbor",
+  "wayto": {
+    "23243": {
+      "file": "string_procs/wayto/12364_23243.rb"
+    },
+    "3661": "out",
+    "26187": {
+      "file": "string_procs/wayto/12364_26187.rb"
+    },
+    "26188": {
+      "file": "string_procs/wayto/12364_26188.rb"
+    },
+    "26189": {
+      "file": "string_procs/wayto/12364_26189.rb"
+    },
+    "23745": "east"
+  },
   "timeto": {
     "23243": 0.2,
     "3661": 0.2,
@@ -38,13 +35,7 @@
     "26189": 0.2,
     "23745": 0.2
   },
-  "id": 12364,
-  "location": "Mist Harbor",
   "tags": [
     "table"
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

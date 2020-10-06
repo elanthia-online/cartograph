@@ -1,50 +1,28 @@
 {
+  "id": 20626,
+  "title": [
+    "[Wehnimer's, Burrow Way]"
+  ],
+  "description": [
+    "The ground is irregular here, cluttered with rusted debris, broken glass, and old blood stains.  A corpse is slumped up against a wall, garbed in a tattered and dirty Wehnimer's Militia uniform."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "20625": "east",
     "20627": "south"
   },
-  "paths": [
-    "Obvious exits: east, south"
-  ],
+  "timeto": {
+    "20625": 0.2,
+    "20627": 0.2
+  },
+  "image": "wl-burrow_way-1360361110.png",
   "image_coords": [
     749,
     235,
     775,
     260
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The ground is irregular here, cluttered with rusted debris, broken glass, and old blood stains.  A corpse is slumped up against a wall, garbed in a tattered and dirty Wehnimer's Militia uniform."
-  ],
-  "image": "wl-burrow_way-1360361110.png",
-  "climate": "indoors",
-  "title": [
-    "[Wehnimer's, Burrow Way]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "20625": 0.2,
-    "20627": 0.2
-  },
-  "id": 20626,
-  "location": "the town of Wehnimer's Landing",
-  "tags": [
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

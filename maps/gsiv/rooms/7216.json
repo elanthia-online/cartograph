@@ -1,35 +1,32 @@
 {
+  "id": 7216,
+  "title": [
+    "[Underbarrow, Tunnels]"
+  ],
+  "description": [
+    "A deep chill laces the air, clammy against your skin.  Bones litter the floor of the tunnel, glossed with frost and covered with small bits of flesh and tendon.  Spiderwebs curtain the stone walls and glisten with crystals of ice in the low light.  A fine layer of dust lies over the tunnel like a blanket, disturbed only by scuffed footprints and other disturbing signs of movement."
+  ],
+  "paths": [
+    "Obvious exits: east, west, northwest"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7217": "east",
     "7222": "west",
     "7215": "northwest"
   },
-  "paths": [
-    "Obvious exits: east, west, northwest"
-  ],
+  "timeto": {
+    "7217": 0.2,
+    "7222": 0.2,
+    "7215": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     624,
     213,
     634,
     223
   ],
-  "terrain": "indoors",
-  "description": [
-    "A deep chill laces the air, clammy against your skin.  Bones litter the floor of the tunnel, glossed with frost and covered with small bits of flesh and tendon.  Spiderwebs curtain the stone walls and glisten with crystals of ice in the low light.  A fine layer of dust lies over the tunnel like a blanket, disturbed only by scuffed footprints and other disturbing signs of movement."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Underbarrow, Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7217": 0.2,
-    "7222": 0.2,
-    "7215": 0.2
-  },
-  "id": 7216,
-  "location": "the Graveyard",
   "tags": [
     "some wolifrew lichen",
     "some cave moss",
@@ -38,10 +35,6 @@
     "cave moss",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

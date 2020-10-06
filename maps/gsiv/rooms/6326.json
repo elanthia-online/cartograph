@@ -1,34 +1,31 @@
 {
+  "id": 6326,
+  "title": [
+    "[Melgorehn's Reach, Overlook]"
+  ],
+  "description": [
+    "This small clearing reveals a view overlooking the moonlit reflections from Lake Eonak far below.  A few steps away, a narrow set of stairs lead up toward an imposing grey tower.  A broad path is barely visible at the end of the clearing.",
+    "This small clearing reveals a spectacular view of Lake Eonak and Wehnimer's Landing far below.  A few steps away, a narrow set of stairs lead up toward an imposing grey tower.  A large mountain blocks the sunlight and casts darkness along a broad path pushing down into a grassy valley."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Melgorehn's Reach",
   "wayto": {
     "450": "go path",
     "6327": "climb stairs"
   },
-  "paths": [
-    "Obvious paths: none"
-  ],
+  "timeto": {
+    "450": 0.2,
+    "6327": 0.2
+  },
+  "image": "wl-wizard_guild.jpg",
   "image_coords": [
     711,
     651,
     721,
     661
   ],
-  "terrain": null,
-  "description": [
-    "This small clearing reveals a view overlooking the moonlit reflections from Lake Eonak far below.  A few steps away, a narrow set of stairs lead up toward an imposing grey tower.  A broad path is barely visible at the end of the clearing.",
-    "This small clearing reveals a spectacular view of Lake Eonak and Wehnimer's Landing far below.  A few steps away, a narrow set of stairs lead up toward an imposing grey tower.  A large mountain blocks the sunlight and casts darkness along a broad path pushing down into a grassy valley."
-  ],
-  "image": "wl-wizard_guild.jpg",
-  "climate": null,
-  "title": [
-    "[Melgorehn's Reach, Overlook]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "450": 0.2,
-    "6327": 0.2
-  },
-  "id": 6326,
-  "location": "Melgorehn's Reach",
   "tags": [
     "cuctucae berry",
     "marallis berry",
@@ -41,8 +38,5 @@
     "meta:mapshortname:Wizard Guild (Wehnimer's)",
     "meta:mapcategory:Wehnimer's Landing",
     "meta:mapcategory:Guilds"
-  ],
-  "links": [
-
   ]
 }

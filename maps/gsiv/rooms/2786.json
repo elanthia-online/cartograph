@@ -1,38 +1,30 @@
 {
-  "wayto": {
-    "2785": "go door"
-  },
+  "id": 2786,
+  "title": [
+    "[Pinefar, Gemshop]"
+  ],
+  "description": [
+    "The small cranny of a shop has walls painted a deep shade of burgundy, which are edged with polished oak.  Shelves cover the back wall, fronted by a low counter with a glass top and shallow drawers beneath that.  One small window gives a view of the mountainside, but heavy bars criss-cross the view just outside the glass, protecting the room from intrusion.",
+    "The small cranny of a shop has walls painted a deep shade of burgundy, which are edged with polished oak.  Shelves cover the back wall, fronted by a low counter with a glass top and shallow drawers beneath that.  One small window gives a view of the moonlit mountainside, but heavy bars criss-cross the view just outside the glass, protecting the room from intrusion."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "the Pinefar Trading Post",
+  "wayto": {
+    "2785": "go door"
+  },
+  "timeto": {
+    "2785": 0.2
+  },
+  "image": "imt-pinefar-1264234799.png",
   "image_coords": [
     212,
     844,
     221,
     853
   ],
-  "terrain": "indoors",
-  "description": [
-    "The small cranny of a shop has walls painted a deep shade of burgundy, which are edged with polished oak.  Shelves cover the back wall, fronted by a low counter with a glass top and shallow drawers beneath that.  One small window gives a view of the mountainside, but heavy bars criss-cross the view just outside the glass, protecting the room from intrusion.",
-    "The small cranny of a shop has walls painted a deep shade of burgundy, which are edged with polished oak.  Shelves cover the back wall, fronted by a low counter with a glass top and shallow drawers beneath that.  One small window gives a view of the moonlit mountainside, but heavy bars criss-cross the view just outside the glass, protecting the room from intrusion."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Pinefar, Gemshop]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2785": 0.2
-  },
-  "id": 2786,
-  "location": "the Pinefar Trading Post",
   "tags": [
-    "gemshop",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "gemshop"
   ]
 }

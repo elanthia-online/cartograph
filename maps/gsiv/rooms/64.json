@@ -1,34 +1,31 @@
 {
+  "id": 64,
+  "title": [
+    "[Whistler's Pass, Marsh]"
+  ],
+  "description": [
+    "Each step causes water to seep to the surface of the spongy soil.  Bullfrogs leap through the darkness.",
+    "Each step causes water to seep to the surface of the spongy soil.  Bullfrogs leap through the surrounding grass."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "63": "northeast",
     "65": "west"
   },
-  "paths": [
-    "Obvious paths: northeast, west"
-  ],
+  "timeto": {
+    "63": 0.2,
+    "65": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     1019,
     514,
     1029,
     524
   ],
-  "terrain": "muddy wetlands",
-  "description": [
-    "Each step causes water to seep to the surface of the spongy soil.  Bullfrogs leap through the darkness.",
-    "Each step causes water to seep to the surface of the spongy soil.  Bullfrogs leap through the surrounding grass."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Whistler's Pass, Marsh]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "63": 0.2,
-    "65": 0.2
-  },
-  "id": 64,
-  "location": "Whistler's Pass",
   "tags": [
     "some wingstem root",
     "some talneo root",
@@ -55,10 +52,6 @@
     "bolmara lichen",
     "talneo root",
     "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bur-clover root"
   ]
 }

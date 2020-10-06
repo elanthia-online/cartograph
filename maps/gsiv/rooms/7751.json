@@ -1,49 +1,35 @@
 {
+  "id": 7751,
+  "title": [
+    "[Mossy Caverns, Pool]"
+  ],
+  "description": [
+    "The trail skirts a large pool of water here.  A stone bridge spans the pool and ends at what appears to be a small stone shrine.  The trail continues both east and west."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "7755": "go bridge",
     "7750": "west",
     "7752": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "7755": 0.2,
+    "7750": 0.2,
+    "7752": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     974,
     1317,
     984,
     1327
   ],
-  "terrain": "indoors",
-  "description": [
-    "The trail skirts a large pool of water here.  A stone bridge spans the pool and ends at what appears to be a small stone shrine.  The trail continues both east and west."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mossy Caverns, Pool]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7755": 0.2,
-    "7750": 0.2,
-    "7752": 0.2
-  },
-  "id": 7751,
-  "location": "the Coastal Cliffs",
   "tags": [
     "some bur-clover root",
     "some pothinir grass",
-    "some cave moss",
-    "pothinir grass",
-    "withered black mushroom",
-    "black trafel mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

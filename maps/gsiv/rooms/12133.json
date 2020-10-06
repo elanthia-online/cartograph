@@ -1,52 +1,44 @@
 {
-  "wayto": {
-    "12151": "southeast",
-    "12152": "northeast",
-    "12207": {
-      "stringproc": "e92c9dd14f17f62ccd19f33b9f37fe22"
-    },
-    "12235": {
-      "stringproc": "6257723a0157210f5f1e2eb6e7c5dbb4"
-    }
-  },
+  "id": 12133,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "Spectres crowd around you.  Their ghostly hands reach out to touch you, seeking the warmth and vitality only the living have.  But as each grasping figure makes contact it draws back, wailing in pain as if burned.  Still the others seek to feel you, expressions of hunger on their haunted faces."
+  ],
   "paths": [
     "Obvious exits: northeast, southeast",
     "Obvious paths: northeast, southeast"
   ],
-  "image_coords": [
-    541,
-    1236,
-    551,
-    1246
-  ],
-  "terrain": null,
-  "description": [
-    "Spectres crowd around you.  Their ghostly hands reach out to touch you, seeking the warmth and vitality only the living have.  But as each grasping figure makes contact it draws back, wailing in pain as if burned.  Still the others seek to feel you, expressions of hunger on their haunted faces."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12151": "southeast",
+    "12152": "northeast",
+    "12207": {
+      "file": "string_procs/wayto/12133_12207.rb"
+    },
+    "12235": {
+      "file": "string_procs/wayto/12133_12235.rb"
+    }
+  },
   "timeto": {
     "12151": 0.2,
     "12152": 0.2,
     "12207": 11.4,
     "12235": 11.4
   },
-  "id": 12133,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    541,
+    1236,
+    551,
+    1246
+  ],
   "tags": [
     "oozing fleshsore bulb",
     "twisted black mawflower",
     "slime-covered grave blossom",
     "rotting bile green fleshbulb",
-    "mass of congealed slime",
-    "withered deathblossom",
-    "discolored fleshbinder bud"
-  ],
-  "links": [
-
+    "mass of congealed slime"
   ]
 }

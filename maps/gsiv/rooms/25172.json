@@ -1,35 +1,28 @@
 {
+  "id": 25172,
+  "title": [
+    "[Sanctum of Scales, Privy]"
+  ],
+  "description": [
+    "Given that the air is heavy with the odor of things best long since buried, it is safe to state that the small privy smells somehow worse than death.  Stains mar the walls around a large latrine pit, the edges of which have been widened in an uneven and ragged fashion.  Nearby, a modesty curtain lies, stained and mildewed, torn free of its hanging rods."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the shadow of the Sanctum",
   "wayto": {
     "25171": "out",
     "25231": "climb pit"
   },
-  "paths": [
-    "Obvious exits: out"
-  ],
+  "timeto": {
+    "25171": 0.2,
+    "25231": 0.2
+  },
+  "image": "sanctum-1474169333.png",
   "image_coords": [
     528,
     119,
     542,
     132
-  ],
-  "terrain": null,
-  "description": [
-    "Given that the air is heavy with the odor of things best long since buried, it is safe to state that the small privy smells somehow worse than death.  Stains mar the walls around a large latrine pit, the edges of which have been widened in an uneven and ragged fashion.  Nearby, a modesty curtain lies, stained and mildewed, torn free of its hanging rods."
-  ],
-  "image": "sanctum-1474169333.png",
-  "climate": null,
-  "title": [
-    "[Sanctum of Scales, Privy]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "25171": 0.2,
-    "25231": 0.2
-  },
-  "id": 25172,
-  "location": "the shadow of the Sanctum",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

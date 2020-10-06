@@ -1,48 +1,31 @@
 {
+  "id": 7560,
+  "title": [
+    "[Twisting Tunnel]"
+  ],
+  "description": [
+    "The passage slopes down slightly making the rubble strewn floor even more treacherous to negotiate.  Thin streams of water wind their way through the rubble following the slope of the tunnel into darkness."
+  ],
+  "paths": [
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "7561": "northwest",
     "7551": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast, northwest"
-  ],
+  "timeto": {
+    "7561": 0.2,
+    "7551": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     259,
     1016,
     269,
     1026
   ],
-  "terrain": "indoors",
-  "description": [
-    "The passage slopes down slightly making the rubble strewn floor even more treacherous to negotiate.  Thin streams of water wind their way through the rubble following the slope of the tunnel into darkness."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Twisting Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7561": 0.2,
-    "7551": 0.2
-  },
-  "id": 7560,
-  "location": "the catacombs",
   "tags": [
-    "some cave moss",
-    "red trafel mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "black hook mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

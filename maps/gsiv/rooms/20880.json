@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "12152": {
-      "stringproc": "e7b269de45035581300c76daf9e751cf"
-    },
-    "12089": {
-      "stringproc": "df16ace028c72dba18b51257349345d8"
-    },
-    "2635": {
-      "stringproc": "a5fc698b4e8aaa983aa8f5ad92908980"
-    },
-    "12189": "west",
-    "20881": "east"
-  },
+  "id": 20880,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "Climbing a small hill, you now look over a long valley filled with warriors.  A huge giantman in plate-mail stands at the front of the vanguard, holding a battle axe in each hand.  His skin is rotted and mildewed, and the hollow eye sockets drop bits of goo and small bugs.  The entire host of undead soldiers shifts anxiously behind him, as if waiting for a command from their chieftain."
+  ],
   "paths": [
     "Obvious exits: east, west",
     "Obvious paths: east, west"
   ],
-  "image_coords": [
-    201,
-    1250,
-    210,
-    1260
-  ],
-  "terrain": null,
-  "description": [
-    "Climbing a small hill, you now look over a long valley filled with warriors.  A huge giantman in plate-mail stands at the front of the vanguard, holding a battle axe in each hand.  His skin is rotted and mildewed, and the hollow eye sockets drop bits of goo and small bugs.  The entire host of undead soldiers shifts anxiously behind him, as if waiting for a command from their chieftain."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12152": {
+      "file": "string_procs/wayto/20880_12152.rb"
+    },
+    "12089": {
+      "file": "string_procs/wayto/20880_12089.rb"
+    },
+    "2635": {
+      "file": "string_procs/wayto/20880_2635.rb"
+    },
+    "12189": "west",
+    "20881": "east"
+  },
   "timeto": {
     "12152": 21.6,
     "12089": 21.6,
@@ -39,19 +31,11 @@
     "12189": 0.2,
     "20881": 0.2
   },
-  "id": 20880,
-  "location": "the Rift",
-  "tags": [
-    "mass of congealed slime",
-    "oozing fleshsore bulb",
-    "withered deathblossom",
-    "rotting bile green fleshbulb",
-    "slime-covered grave blossom",
-    "discolored fleshbinder bud",
-    "twisted black mawflower"
-  ],
-  "unique_loot": null,
-  "links": [
-
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    201,
+    1250,
+    210,
+    1260
   ]
 }

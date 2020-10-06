@@ -1,38 +1,28 @@
 {
+  "id": 9103,
+  "title": [
+    "[Great Cavern, Stalagmite Forest]"
+  ],
+  "description": [
+    "A particularly large stalagmite squats here among the others.  The sides are awash with natural flowing stone deposits. Its tip merges with a stalactite above, resembling a giant apple core."
+  ],
+  "paths": [
+    "Obvious exits: southwest, west"
+  ],
+  "location": "the subterranean tunnels",
   "wayto": {
     "9102": "southwest",
     "9104": "west"
   },
-  "paths": [
-    "Obvious exits: southwest, west"
-  ],
+  "timeto": {
+    "9102": 0.2,
+    "9104": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     177,
     544,
     187,
     554
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A particularly large stalagmite squats here among the others.  The sides are awash with natural flowing stone deposits. Its tip merges with a stalactite above, resembling a giant apple core."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Great Cavern, Stalagmite Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9102": 0.2,
-    "9104": 0.2
-  },
-  "id": 9103,
-  "location": "the subterranean tunnels",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

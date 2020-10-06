@@ -1,36 +1,27 @@
 {
+  "id": 25352,
+  "title": [
+    "[Delirium Manor, Front Lawn]"
+  ],
+  "description": [
+    "Vibrant flowers fill small planters that have been arranged in orderly rows to guide visitors to and from an inviting manor.  Manicured grounds encircle the residence on all sides and are dappled with white-pebbled walkways and brightly painted outbuildings.  From this wide open vantage point, massive retaining walls surrounding the entire area are visible in every direction."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south, northwest"
+  ],
+  "location": "Delirium Manor",
   "wayto": {
     "25353": "northwest",
     "25351": "south",
     "25354": "northeast",
     "25356": {
-      "stringproc": "1ac3eda808712684479d98f75a4a834c"
+      "file": "string_procs/wayto/25352_25356.rb"
     }
   },
-  "paths": [
-    "Obvious paths: northeast, south, northwest"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Vibrant flowers fill small planters that have been arranged in orderly rows to guide visitors to and from an inviting manor.  Manicured grounds encircle the residence on all sides and are dappled with white-pebbled walkways and brightly painted outbuildings.  From this wide open vantage point, massive retaining walls surrounding the entire area are visible in every direction."
-  ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Delirium Manor, Front Lawn]"
-  ],
-  "check_location": null,
   "timeto": {
     "25353": 0.2,
     "25351": 0.2,
     "25354": 0.2,
     "25356": 0.2
-  },
-  "id": 25352,
-  "location": "Delirium Manor",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  }
 }

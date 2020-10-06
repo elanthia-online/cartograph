@@ -1,38 +1,28 @@
 {
+  "id": 4128,
+  "title": [
+    "[Glatoph, Lava Pool]"
+  ],
+  "description": [
+    "Waves of heat rise from the lava, and everything around you shimmers and dances.  To the west, you see a huge grey arch reaching for the ceiling of the chamber.  The arch seems to vibrate in the billows of heated air, as though it's about to tumble into the pool below."
+  ],
+  "paths": [
+    "Obvious exits: northeast, west"
+  ],
+  "location": "Glatoph",
   "wayto": {
     "4127": "west",
     "4129": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, west"
-  ],
+  "timeto": {
+    "4127": 0.2,
+    "4129": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     267,
     465,
     277,
     475
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Waves of heat rise from the lava, and everything around you shimmers and dances.  To the west, you see a huge grey arch reaching for the ceiling of the chamber.  The arch seems to vibrate in the billows of heated air, as though it's about to tumble into the pool below."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Glatoph, Lava Pool]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4127": 0.2,
-    "4129": 0.2
-  },
-  "id": 4128,
-  "location": "Glatoph",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

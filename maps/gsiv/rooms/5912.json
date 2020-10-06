@@ -1,33 +1,30 @@
 {
+  "id": 5912,
+  "title": [
+    "[Catacombs, Workroom]"
+  ],
+  "description": [
+    "Abandoned machinery, clearly decades old, lies scattered about in this chamber.  Apparently, their owners just dropped them where they stood as they hastily vacated the area.  Along the western wall, a small, mostly rusted cart lies on its side.  Hordes of small gelatinous creatures slither and squirm about on the inside of the cart.  An old, woebegone door stands slightly ajar."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "5911": "north",
     "5913": "go door"
   },
-  "paths": [
-    "Obvious exits: north"
-  ],
+  "timeto": {
+    "5911": 0.2,
+    "5913": 0.2
+  },
+  "image": "en-tavaalor-1565907614.png",
   "image_coords": [
     355,
     626,
     363,
     634
   ],
-  "terrain": null,
-  "description": [
-    "Abandoned machinery, clearly decades old, lies scattered about in this chamber.  Apparently, their owners just dropped them where they stood as they hastily vacated the area.  Along the western wall, a small, mostly rusted cart lies on its side.  Hordes of small gelatinous creatures slither and squirm about on the inside of the cart.  An old, woebegone door stands slightly ajar."
-  ],
-  "image": "en-tavaalor-1565907614.png",
-  "climate": null,
-  "title": [
-    "[Catacombs, Workroom]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5911": 0.2,
-    "5913": 0.2
-  },
-  "id": 5912,
-  "location": "the catacombs",
   "tags": [
     "red trafel mushroom",
     "some wingstem root",
@@ -40,8 +37,5 @@
     "murdroot",
     "bolmara lichen",
     "wingstem root"
-  ],
-  "links": [
-
   ]
 }

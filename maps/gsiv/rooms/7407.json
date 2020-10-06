@@ -1,41 +1,28 @@
 {
+  "id": 7407,
+  "title": [
+    "[Mine Tunnels]"
+  ],
+  "description": [
+    "A definite crunch can be heard and felt beneath your footsteps.  Too dark to see the ground, you hope the source of the noise to be pebbles and not something small and crawly."
+  ],
+  "paths": [
+    "Obvious exits: north, southwest"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7406": "southwest",
     "7408": "north"
   },
-  "paths": [
-    "Obvious exits: north, southwest"
-  ],
+  "timeto": {
+    "7406": 0.2,
+    "7408": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1258,
     109,
     1266,
     117
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A definite crunch can be heard and felt beneath your footsteps.  Too dark to see the ground, you hope the source of the noise to be pebbles and not something small and crawly."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mine Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7406": 0.2,
-    "7408": 0.2
-  },
-  "id": 7407,
-  "location": "the Shadow Valley",
-  "tags": [
-    "cave moss",
-    "blackgrove root",
-    "shadowlace moss",
-    "blue moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

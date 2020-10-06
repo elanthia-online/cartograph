@@ -1,33 +1,30 @@
 {
+  "id": 1821,
+  "title": [
+    "[Wraithenmist, Lakeside Trail]"
+  ],
+  "description": [
+    "The trail winds its way towards the edge of the Lake of Shadowed Sorrows.  Pale silver mist rolls off the lake, penetrating the thickly growing trees and limiting visibility to only a dozen feet or so."
+  ],
+  "paths": [
+    "Obvious paths: south, northwest"
+  ],
+  "location": "Wraithenmist",
   "wayto": {
     "1820": "south",
     "1822": "northwest"
   },
-  "paths": [
-    "Obvious paths: south, northwest"
-  ],
+  "timeto": {
+    "1820": 0.2,
+    "1822": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     175,
     318,
     183,
     326
   ],
-  "terrain": "riparian",
-  "description": [
-    "The trail winds its way towards the edge of the Lake of Shadowed Sorrows.  Pale silver mist rolls off the lake, penetrating the thickly growing trees and limiting visibility to only a dozen feet or so."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Wraithenmist, Lakeside Trail]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1820": 0.2,
-    "1822": 0.2
-  },
-  "id": 1821,
-  "location": "Wraithenmist",
   "tags": [
     "some ephlox moss",
     "some aloeas stem",
@@ -39,26 +36,6 @@
     "withered black mushroom",
     "wavepetal blossom",
     "sunburst blossom",
-    "handful of blueberries",
-    "acantha leaf",
-    "ephlox moss",
-    "aloeas stem",
-    "white hook mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "blueberries",
-    "wild gooseberry",
-    "stalk of bluebells",
-    "small wild rose",
-    "sprig of wild lilac",
-    "wild chokecherry",
-    "bright red cranberry",
-    "murdroot",
-    "ironfern root",
-    "talneo root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "handful of blueberries"
   ]
 }

@@ -1,38 +1,31 @@
 {
+  "id": 6311,
+  "title": [
+    "[Dirt Mines, Mud Pits]"
+  ],
+  "description": [
+    "It looks like something big has been rolling around in the muck here.  Whatever it was, you really hope you don't come across it.  A few tufts of hair can be seen sticking out of the mud."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Lower Dragonsclaw",
   "wayto": {
     "6312": "south",
     "6310": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "6312": 0.2,
+    "6310": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     37,
     56,
     47,
     66
   ],
-  "terrain": "indoors",
-  "description": [
-    "It looks like something big has been rolling around in the muck here.  Whatever it was, you really hope you don't come across it.  A few tufts of hair can be seen sticking out of the mud."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dirt Mines, Mud Pits]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6312": 0.2,
-    "6310": 0.2
-  },
-  "id": 6311,
-  "location": "the Lower Dragonsclaw",
   "tags": [
-    "murdroot",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "murdroot"
   ]
 }

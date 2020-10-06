@@ -1,63 +1,34 @@
 {
+  "id": 10800,
+  "title": [
+    "[Great Oak, Vine Bridge]"
+  ],
+  "description": [
+    "A soft breeze brushes across the vine bridge, causing it to sway back and forth, before returning to a reasonable sense of stability.  Dry leaves on the nearby oak branches rustle in the wind, the quiet sound mimicking the low wheezing of hushed whispers.  A damp murky scent lingers in the air, its source unclear."
+  ],
+  "paths": [
+    "Obvious paths: northwest"
+  ],
+  "location": "Gyldemar Forest",
   "wayto": {
     "10801": "go landing",
     "4749": "northwest"
   },
-  "paths": [
-    "Obvious paths: northwest"
-  ],
+  "timeto": {
+    "10801": 0.2,
+    "4749": 0.2
+  },
+  "image": "en-gyldemar-1264234799.png",
   "image_coords": [
     994,
     1019,
     1002,
     1027
   ],
-  "terrain": "missing",
-  "description": [
-    "A soft breeze brushes across the vine bridge, causing it to sway back and forth, before returning to a reasonable sense of stability.  Dry leaves on the nearby oak branches rustle in the wind, the quiet sound mimicking the low wheezing of hushed whispers.  A damp murky scent lingers in the air, its source unclear."
-  ],
-  "image": "en-gyldemar-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Great Oak, Vine Bridge]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10801": 0.2,
-    "4749": 0.2
-  },
-  "id": 10800,
-  "location": "Gyldemar Forest",
   "tags": [
     "bright red cranberry",
     "bright red teaberry",
     "some brostheras grass",
-    "wintergreen leaf",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "tkaro root",
-    "sticks",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "broken twig",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "tree bark",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wintergreen leaf"
   ]
 }

@@ -1,66 +1,34 @@
 {
+  "id": 4773,
+  "title": [
+    "[Outpost, Overgrown Trail]"
+  ],
+  "description": [
+    "A small clearing opens at the mouth of the overgrown trail, revealing a ramshackle hut squatting in its midst.  The dome-shaped structure, formed from stout birch trunks hammered into the hard earth and then bent upward to form a rounded roof, has been paneled with thick sheets of pliable wood to form exterior walls.  Although badly damaged and pocked with gaping holes, the hut appears stable.  An arched doorway leads within."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest"
+  ],
+  "location": "Gyldemar Forest",
   "wayto": {
     "4774": "go doorway",
     "10806": "north",
     "4772": "southwest"
   },
-  "paths": [
-    "Obvious paths: north, southwest"
-  ],
+  "timeto": {
+    "4774": 0.2,
+    "10806": 0.2,
+    "4772": 0.2
+  },
+  "image": "en-gyldemar-1264234799.png",
   "image_coords": [
     941,
     1337,
     949,
     1345
   ],
-  "terrain": "missing",
-  "description": [
-    "A small clearing opens at the mouth of the overgrown trail, revealing a ramshackle hut squatting in its midst.  The dome-shaped structure, formed from stout birch trunks hammered into the hard earth and then bent upward to form a rounded roof, has been paneled with thick sheets of pliable wood to form exterior walls.  Although badly damaged and pocked with gaping holes, the hut appears stable.  An arched doorway leads within."
-  ],
-  "image": "en-gyldemar-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Outpost, Overgrown Trail]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4774": 0.2,
-    "10806": 0.2,
-    "4772": 0.2
-  },
-  "id": 4773,
-  "location": "Gyldemar Forest",
   "tags": [
     "some tree bark",
-    "some bolmara lichen",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "tkaro root",
-    "sticks",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "broken twig",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "bright red cranberry",
-    "tree bark",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some bolmara lichen"
   ]
 }

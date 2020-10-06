@@ -1,45 +1,35 @@
 {
-  "wayto": {
-    "634": "go door",
-    "173": "northeast",
-    "175": "southeast",
-    "191": "northwest"
-  },
-  "paths": [
-    "Obvious paths: northeast, southeast, northwest"
+  "id": 174,
+  "title": [
+    "[Ta'Illistim, Glaendier Wey]"
   ],
-  "image_coords": [
-    894,
-    873,
-    915,
-    895
-  ],
-  "terrain": "hard, flat",
   "description": [
     "A round belltower, capped with a dark lapis-tiled spire, occupies the center of the courtyard.  Atop the spire, the silver and sapphire pennant of House Illistim waves slightly in the breeze.  A maoral door appears to be the only source of egress from the tower.  Near the top of the dark grey granite structure, a small window is barely visible.",
     "A round belltower, capped with a dark lapis-tiled spire, occupies the center of the courtyard.  Atop the spire, the silver and sapphire pennant of House Illistim waves slightly in the night breeze.  A maoral door appears to be the only source of egress from the tower.  Near the top of the dark grey granite structure, a small window is barely visible.",
     "A round bell tower, capped with a dark lapis-tiled spire, occupies the center of the courtyard.  Atop the spire, the silver and sapphire pennant of House Illistim waves slightly in the night breeze.  A maoral door appears to be the only source of egress from the tower.  Near the top of the silvery blue stone structure, a small window is barely visible.",
     "A round bell tower, capped with a dark lapis-tiled spire, occupies the center of the courtyard.  Atop the spire, the silver and sapphire pennant of House Illistim waves slightly in the breeze.  A maoral door appears to be the only source of egress from the tower.  Near the top of the silvery blue stone structure, a small window is barely visible."
   ],
-  "image": "en-ta_illistim-new.jpg",
-  "climate": "temperate",
-  "title": [
-    "[Ta'Illistim, Glaendier Wey]"
+  "paths": [
+    "Obvious paths: northeast, southeast, northwest"
   ],
-  "check_location": null,
+  "location": "Ta'Illistim",
+  "wayto": {
+    "634": "go door",
+    "173": "northeast",
+    "175": "southeast",
+    "191": "northwest"
+  },
   "timeto": {
     "634": 0.2,
     "173": 0.2,
     "175": 0.2,
     "191": 0.2
   },
-  "id": 174,
-  "location": "Ta'Illistim",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-ta_illistim-new.jpg",
+  "image_coords": [
+    894,
+    873,
+    915,
+    895
   ]
 }

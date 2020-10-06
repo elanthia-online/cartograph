@@ -1,33 +1,30 @@
 {
+  "id": 14672,
+  "title": [
+    "[Liabo Circle, Wooded Path]"
+  ],
+  "description": [
+    "The path wanders through a leafy glade, meandering about like a preoccupied child.  A few small buildings crouch among the trees.  From one, you hear faint strains of a lyre."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "14668": "west",
     "8760": "east"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "14668": 0.2,
+    "8760": 0.2
+  },
+  "image": "wl-homes-1-1264234799.png",
   "image_coords": [
     578,
     1207,
     596,
     1225
   ],
-  "terrain": null,
-  "description": [
-    "The path wanders through a leafy glade, meandering about like a preoccupied child.  A few small buildings crouch among the trees.  From one, you hear faint strains of a lyre."
-  ],
-  "image": "wl-homes-1-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Liabo Circle, Wooded Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "14668": 0.2,
-    "8760": 0.2
-  },
-  "id": 14672,
-  "location": "Wehnimer's Landing",
   "tags": [
     "acantha leaf",
     "torban leaf",
@@ -86,10 +83,6 @@
     "brostheras grass",
     "walnuts",
     "alder bark",
-    "meta:teleport:fwi",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:teleport:fwi"
   ]
 }

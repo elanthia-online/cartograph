@@ -1,41 +1,33 @@
 {
+  "id": 5311,
+  "title": [
+    "[Deep Woods, Ruined Temple]"
+  ],
+  "description": [
+    "An interior wall has fallen over, creating many crevices for dust and pine needles to blow into.  Marble-sized pieces of yellow topaz roll on the floor, each with a black cats-eye slit in the center.  Twisted gold candelabras lean against the walls, threatening to fall over with the slightest movement."
+  ],
+  "paths": [
+    "Obvious exits: east, south, northwest"
+  ],
+  "location": "the deep woods",
   "wayto": {
     "5312": "south",
     "5304": "northwest",
     "5310": "east"
   },
-  "paths": [
-    "Obvious exits: east, south, northwest"
-  ],
+  "timeto": {
+    "5312": 0.2,
+    "5304": 0.2,
+    "5310": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     1207,
     278,
     1215,
     286
   ],
-  "terrain": "indoors",
-  "description": [
-    "An interior wall has fallen over, creating many crevices for dust and pine needles to blow into.  Marble-sized pieces of yellow topaz roll on the floor, each with a black cats-eye slit in the center.  Twisted gold candelabras lean against the walls, threatening to fall over with the slightest movement."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Deep Woods, Ruined Temple]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5312": 0.2,
-    "5304": 0.2,
-    "5310": 0.2
-  },
-  "id": 5311,
-  "location": "the deep woods",
   "tags": [
-    "vesperti",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "vesperti"
   ]
 }

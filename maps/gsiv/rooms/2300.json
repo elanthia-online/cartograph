@@ -1,45 +1,36 @@
 {
+  "id": 2300,
+  "title": [
+    "[Icemule Trace, Town Center]"
+  ],
+  "description": [
+    "The bustling town comes together in this square.  Halflings dressed in varying fashions stand about, some chattering happily, others reclining on cloaks laid on the ground.  One ancient halfling leans against the base of the large ice statue of a mule, snoring blissfully.  A feeling of community pervades the area, putting you immediately at ease.",
+    "The center of the bustling frontier town is overseen by the large ice statue of a mule, which rises from the surrounding snow on a plinth of cold dark stone.  The sun's radiance filters through the ice, casting prismatic rays of light over a swirling throng of halflings.  Some chatter loudly by a colorful silver-bound barrel emblazoned with a row of tiny grey penguins, while others recline on colorful cloaks spread out across the hard ground.  Over by a smooth dark stone bench, a roaring bonfire crackles merrily, lending its warmth to the surroundings.",
+    "The center of the slumbering frontier town is overseen by the large ice statue of a mule, which rises from the surrounding snow on a plinth of cold dark stone.  The stars' brilliance winks through the ice, casting prismatic glints of light over a scattering of halflings.  Some chatter quietly by a colorful silver-bound barrel emblazoned with a row of tiny grey penguins, while others stargaze on colorful cloaks spread out across the hard ground.  Near the comfort of a smooth dark stone bench, a roaring bonfire crackles merrily, lending its warmth and illumination to the surroundings."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south, west"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "3233": "west",
     "2301": "north",
     "2302": "south",
-    "2426": "east",
-    "3668": {
-      "stringproc": "1d41454a8ce526999afe00d553b29bee"
-    }
+    "2426": "east"
   },
-  "paths": [
-    "Obvious paths: north, east, south, west"
-  ],
+  "timeto": {
+    "3233": 2.4,
+    "2301": 2.4,
+    "2302": 2.4,
+    "2426": 2.4
+  },
+  "image": "imt-icemule-1474811966.png",
   "image_coords": [
     581,
     787,
     617,
     823
   ],
-  "terrain": "hard, flat",
-  "description": [
-    "The bustling town comes together in this square.  Halflings dressed in varying fashions stand about, some chattering happily, others reclining on cloaks laid on the ground.  One ancient halfling leans against the base of the large ice statue of a mule, snoring blissfully.  A feeling of community pervades the area, putting you immediately at ease.",
-    "The center of the bustling frontier town is overseen by the large ice statue of a mule, which rises from the surrounding snow on a plinth of cold dark stone.  The sun's radiance filters through the ice, casting prismatic rays of light over a swirling throng of halflings.  Some chatter loudly by a colorful silver-bound barrel emblazoned with a row of tiny grey penguins, while others recline on colorful cloaks spread out across the hard ground.  Over by a smooth dark stone bench, a roaring bonfire crackles merrily, lending its warmth to the surroundings.",
-    "The center of the slumbering frontier town is overseen by the large ice statue of a mule, which rises from the surrounding snow on a plinth of cold dark stone.  The stars' brilliance winks through the ice, casting prismatic glints of light over a scattering of halflings.  Some chatter quietly by a colorful silver-bound barrel emblazoned with a row of tiny grey penguins, while others stargaze on colorful cloaks spread out across the hard ground.  Near the comfort of a smooth dark stone bench, a roaring bonfire crackles merrily, lending its warmth and illumination to the surroundings."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Icemule Trace, Town Center]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3233": 5.0,
-    "2301": 5.0,
-    "2302": 5.0,
-    "2426": 5.0,
-    "3668": {
-      "stringproc": "2e87af919b7aa36629593478fcf980f8"
-    }
-  },
-  "id": 2300,
-  "location": "Icemule Trace",
   "tags": [
     "node",
     "town",
@@ -48,9 +39,7 @@
     "meta:mapname:Icemule Trace",
     "meta:mapcategory:Icemule Trace",
     "meta:mapcategory:Towns",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "Bonny",
+    "bonny"
   ]
 }

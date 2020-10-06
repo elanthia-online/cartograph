@@ -1,38 +1,28 @@
 {
+  "id": 9227,
+  "title": [
+    "[Thurfel's Cellar]"
+  ],
+  "description": [
+    "Coming from somewhere nearby, a faint cackling laugh disturbs the silence of the path.  The source of the noise is impossible to pinpoint, but there doesn't seem to be anything amusing about the gloom of this cellar.  Even a touch of sunlight would be welcome."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Thurfel's Island",
   "wayto": {
     "9228": "south",
     "9226": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "9228": 0.2,
+    "9226": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     1252,
     977,
     1262,
     987
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Coming from somewhere nearby, a faint cackling laugh disturbs the silence of the path.  The source of the noise is impossible to pinpoint, but there doesn't seem to be anything amusing about the gloom of this cellar.  Even a touch of sunlight would be welcome."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thurfel's Cellar]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9228": 0.2,
-    "9226": 0.2
-  },
-  "id": 9227,
-  "location": "Thurfel's Island",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

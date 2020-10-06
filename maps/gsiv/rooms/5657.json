@@ -1,45 +1,30 @@
 {
+  "id": 5657,
+  "title": [
+    "[Warrens]"
+  ],
+  "description": [
+    "There is an odd barking sound echoing along the walls, but the source of the noise is nowhere to be seen.  A look in any direction reveals nothing but identical passages, the twisting nature of the tunnels further confusing all attempts to gain a bearing."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, south"
+  ],
+  "location": "the Vornavian Coast",
   "wayto": {
     "5656": "south",
     "5658": "northeast",
     "5673": "southeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southeast, south"
-  ],
-  "image_coords": [
-    630,
-    633,
-    640,
-    643
-  ],
-  "terrain": "indoors",
-  "description": [
-    "There is an odd barking sound echoing along the walls, but the source of the noise is nowhere to be seen.  A look in any direction reveals nothing but identical passages, the twisting nature of the tunnels further confusing all attempts to gain a bearing."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Warrens]"
-  ],
-  "check_location": null,
   "timeto": {
     "5656": 0.2,
     "5658": 0.2,
     "5673": 0.2
   },
-  "id": 5657,
-  "location": "the Vornavian Coast",
-  "tags": [
-    "withered black mushroom",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "vo-foggy_valley-1264234799.png",
+  "image_coords": [
+    630,
+    633,
+    640,
+    643
   ]
 }

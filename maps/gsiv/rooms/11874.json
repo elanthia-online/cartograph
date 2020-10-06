@@ -1,41 +1,32 @@
 {
+  "id": 11874,
+  "title": [
+    "[Aqueduct]"
+  ],
+  "description": [
+    "A steady stream pours down the slope from the east, and another stream of nearly the same volume joins from the northeast.  The water sprays up into the air where the two streams collide, showering anything near with the emerald spray before continuing on its way westward through the dimly lit tunnel.  Near the bottom of the slope, the constant action of pouring water has eroded a deep hole, but the rest of the area seems to be covered by a uniform two feet of water."
+  ],
+  "paths": [
+    "Obvious exits: northeast, west"
+  ],
+  "location": "Old Ta'Faendryl",
   "wayto": {
     "11875": "west",
     "11873": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, west"
-  ],
+  "timeto": {
+    "11875": 0.2,
+    "11873": 0.2
+  },
+  "image": "en-old_ta_faendryl-1264234799.png",
   "image_coords": [
     1188,
     1097,
     1198,
     1107
   ],
-  "terrain": "indoors",
-  "description": [
-    "A steady stream pours down the slope from the east, and another stream of nearly the same volume joins from the northeast.  The water sprays up into the air where the two streams collide, showering anything near with the emerald spray before continuing on its way westward through the dimly lit tunnel.  Near the bottom of the slope, the constant action of pouring water has eroded a deep hole, but the rest of the area seems to be covered by a uniform two feet of water."
-  ],
-  "image": "en-old_ta_faendryl-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Aqueduct]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11875": 0.2,
-    "11873": 0.2
-  },
-  "id": 11874,
-  "location": "Old Ta'Faendryl",
   "tags": [
     "murdroot",
-    "some wingstem root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

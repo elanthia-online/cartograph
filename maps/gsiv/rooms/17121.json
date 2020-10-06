@@ -1,36 +1,33 @@
 {
+  "id": 17121,
+  "title": [
+    "[Warrior Guild, Master Courtyard]"
+  ],
+  "description": [
+    "A verdant, neatly maintained area of the courtyard is a testament to continuous and dedicated upkeep.  A couple of carved stone benches with polished marble inlay offer a temporary respite from the arduous training atmopshere palpable throughout the guild grounds.",
+    "The verdant, neatly maintained area of the courtyard is even more striking during nighttime as fluttering torches help suffuse light, but also create swaggering shadows all around.  A couple of carved stone benches with polished marble inlay offer a temporary respite from the arduous training atmopshere palpable throughout the guild grounds, even after dark."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Ta'Illistim",
   "wayto": {
     "17122": "go gate",
     "17178": "north",
     "17094": "south"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "17122": 0.2,
+    "17178": 0.2,
+    "17094": 0.2
+  },
+  "image": "en-ta_illistim-warrior_guild.png",
   "image_coords": [
     524,
     1212,
     545,
     1235
   ],
-  "terrain": null,
-  "description": [
-    "A verdant, neatly maintained area of the courtyard is a testament to continuous and dedicated upkeep.  A couple of carved stone benches with polished marble inlay offer a temporary respite from the arduous training atmopshere palpable throughout the guild grounds.",
-    "The verdant, neatly maintained area of the courtyard is even more striking during nighttime as fluttering torches help suffuse light, but also create swaggering shadows all around.  A couple of carved stone benches with polished marble inlay offer a temporary respite from the arduous training atmopshere palpable throughout the guild grounds, even after dark."
-  ],
-  "image": "en-ta_illistim-warrior_guild.png",
-  "climate": null,
-  "title": [
-    "[Warrior Guild, Master Courtyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "17122": 0.2,
-    "17178": 0.2,
-    "17094": 0.2
-  },
-  "id": 17121,
-  "location": "Ta'Illistim",
   "tags": [
     "warrior guild masters",
     "cactacae spine",
@@ -108,8 +105,5 @@
     "wavepetal blossom",
     "nightbloom blossom",
     "onion skin"
-  ],
-  "links": [
-
   ]
 }

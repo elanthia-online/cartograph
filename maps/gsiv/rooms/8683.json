@@ -1,39 +1,31 @@
 {
+  "id": 8683,
+  "title": [
+    "[Wehnimer's, Narrow Alleyway]"
+  ],
+  "description": [
+    "This narrow, dead-end alleyway runs from town square to the south, up to a bare wall at the north end.  To the west, partially hidden behind teetering stacks of boxes, you see a weatherbeaten door with paint peeling off of it."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "276": "south",
     "19943": "search\ngo long rope"
   },
-  "paths": [
-    "Obvious paths: south"
-  ],
+  "timeto": {
+    "276": 0.2,
+    "19943": 10
+  },
+  "image": "wl-wehnimers-1264234799.png",
   "image_coords": [
     355,
     262,
     391,
     298
   ],
-  "terrain": "hard, flat",
-  "description": [
-    "This narrow, dead-end alleyway runs from town square to the south, up to a bare wall at the north end.  To the west, partially hidden behind teetering stacks of boxes, you see a weatherbeaten door with paint peeling off of it."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Wehnimer's, Narrow Alleyway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "276": 0.2,
-    "19943": 10
-  },
-  "id": 8683,
-  "location": "Wehnimer's Landing",
   "tags": [
-    "meta:teleport:fwi",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:teleport:fwi"
   ]
 }

@@ -1,37 +1,34 @@
 {
-  "wayto": {
-    "2520": {
-      "stringproc": "79b6aacb07358187764f434021f44bcf"
-    },
-    "2522": {
-      "stringproc": "3157bbb118c54a6236859635e57fcbb9"
-    }
-  },
+  "id": 2521,
+  "title": [
+    "[Blue Glacier, Mountain Pass]"
+  ],
+  "description": [
+    "You pick your way carefully over the rocks heavily coated with ice as you push forward on your stone-bruised feet.  The snow clouds hang low over the rugged mountains, hiding the glacier tops from your view."
+  ],
   "paths": [
     "Obvious paths: northeast, southwest"
   ],
+  "location": "the Icemule Trail",
+  "wayto": {
+    "2520": {
+      "file": "string_procs/wayto/2521_2520.rb"
+    },
+    "2522": {
+      "file": "string_procs/wayto/2521_2522.rb"
+    }
+  },
+  "timeto": {
+    "2520": 0.2,
+    "2522": 0.2
+  },
+  "image": "imt-trail-1264234799.png",
   "image_coords": [
     1081,
     536,
     1091,
     546
   ],
-  "terrain": "mountainous",
-  "description": [
-    "You pick your way carefully over the rocks heavily coated with ice as you push forward on your stone-bruised feet.  The snow clouds hang low over the rugged mountains, hiding the glacier tops from your view."
-  ],
-  "image": "imt-trail-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Blue Glacier, Mountain Pass]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2520": 0.2,
-    "2522": 0.2
-  },
-  "id": 2521,
-  "location": "the Icemule Trail",
   "tags": [
     "some valerian root",
     "small loganberry",
@@ -46,10 +43,6 @@
     "snowberries",
     "pale thornberry",
     "red winterberry",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

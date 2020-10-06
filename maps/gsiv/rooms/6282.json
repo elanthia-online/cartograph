@@ -1,35 +1,32 @@
 {
+  "id": 6282,
+  "title": [
+    "[Kobold Village]"
+  ],
+  "description": [
+    "This part of the village is not only shabby, it's boring.  Absolutely nothing distinguishes the meritless huts, one from another.  The kobolds who live here must shuffle off sadly into the forest each day with little hope of anything interesting in their pathetic lives... unless they are fortunate enough to find an end to their miserable existences at the swordpoint of some Wehnimerian whelp."
+  ],
+  "paths": [
+    "Obvious paths: east, northwest"
+  ],
+  "location": "the Lower Dragonsclaw",
   "wayto": {
     "6269": "northwest",
     "6283": "go hovel",
     "6275": "east"
   },
-  "paths": [
-    "Obvious paths: east, northwest"
-  ],
+  "timeto": {
+    "6269": 0.2,
+    "6283": 0.2,
+    "6275": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     176,
     454,
     186,
     464
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "This part of the village is not only shabby, it's boring.  Absolutely nothing distinguishes the meritless huts, one from another.  The kobolds who live here must shuffle off sadly into the forest each day with little hope of anything interesting in their pathetic lives... unless they are fortunate enough to find an end to their miserable existences at the swordpoint of some Wehnimerian whelp."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Kobold Village]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6269": 0.2,
-    "6283": 0.2,
-    "6275": 0.2
-  },
-  "id": 6282,
-  "location": "the Lower Dragonsclaw",
   "tags": [
     "some wolifrew lichen",
     "some acantha leaf",
@@ -53,10 +50,6 @@
     "blue whortleberry",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

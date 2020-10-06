@@ -1,33 +1,30 @@
 {
+  "id": 2504,
+  "title": [
+    "[Icemule Trail, Tree Path]"
+  ],
+  "description": [
+    "A light snowfall has dusted the path that ends at the trunk of a massive, fallen tree.  Hardy lichen has taken root along the sides of the tree providing homes for the hardy northern bugs."
+  ],
+  "paths": [
+    "Obvious paths: east, down"
+  ],
+  "location": "the Icemule Trail",
   "wayto": {
     "2503": "east",
     "2505": "down"
   },
-  "paths": [
-    "Obvious paths: east, down"
-  ],
+  "timeto": {
+    "2503": 0.2,
+    "2505": 0.2
+  },
+  "image": "imt-trail-1264234799.png",
   "image_coords": [
     1151,
     291,
     1161,
     301
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "A light snowfall has dusted the path that ends at the trunk of a massive, fallen tree.  Hardy lichen has taken root along the sides of the tree providing homes for the hardy northern bugs."
-  ],
-  "image": "imt-trail-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Icemule Trail, Tree Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2503": 0.2,
-    "2505": 0.2
-  },
-  "id": 2504,
-  "location": "the Icemule Trail",
   "tags": [
     "peach iceblossom",
     "snow white iceblossom",
@@ -77,10 +74,6 @@
     "ironfern root",
     "twisted twig",
     "slender twig",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bolmara lichen"
   ]
 }

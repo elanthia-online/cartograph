@@ -1,46 +1,34 @@
 {
+  "id": 8388,
+  "title": [
+    "[Thanatoph Bowels, Tunnel]"
+  ],
+  "description": [
+    "Tendrils of uneven moss fan out along the walls, their greenish illumination creating oddly shaped shadows within this passage.  The air trapped in this tunnel is old and stale but still breathable."
+  ],
+  "paths": [
+    "Obvious exits: south, northwest"
+  ],
+  "location": "the bowels of Thanatoph",
   "wayto": {
     "8384": "northwest",
     "8386": "south"
   },
-  "paths": [
-    "Obvious exits: south, northwest"
-  ],
+  "timeto": {
+    "8384": 0.2,
+    "8386": 0.2
+  },
+  "image": "wl-stronghold-1264234799.png",
   "image_coords": [
     1183,
     440,
     1193,
     450
   ],
-  "terrain": "indoors",
-  "description": [
-    "Tendrils of uneven moss fan out along the walls, their greenish illumination creating oddly shaped shadows within this passage.  The air trapped in this tunnel is old and stale but still breathable."
-  ],
-  "image": "wl-stronghold-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thanatoph Bowels, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8384": 0.2,
-    "8386": 0.2
-  },
-  "id": 8388,
-  "location": "the bowels of Thanatoph",
   "tags": [
     "some cave moss",
     "withered black mushroom",
     "some wingstem root",
-    "some wolifrew lichen",
-    "wolifrew lichen",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wolifrew lichen"
   ]
 }

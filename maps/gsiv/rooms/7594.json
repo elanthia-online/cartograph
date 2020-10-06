@@ -1,4 +1,15 @@
 {
+  "id": 7594,
+  "title": [
+    "[Ant Nest, Tunnels]"
+  ],
+  "description": [
+    "Water drips from the ceiling, collecting in a small pool between the stone columns.  A few bones lie scattered around the tunnel, pressed into the dirt floor by time and passing creatures.  The damp air is heavy with the acrid smell that permeates the tunnels."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east, southeast, southwest, northwest"
+  ],
+  "location": "the dark caverns",
   "wayto": {
     "7592": "southeast",
     "7593": "east",
@@ -7,25 +18,6 @@
     "7598": "northwest",
     "7589": "northeast"
   },
-  "paths": [
-    "Obvious exits: north, northeast, east, southeast, southwest, northwest"
-  ],
-  "image_coords": [
-    55,
-    1128,
-    65,
-    1138
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Water drips from the ceiling, collecting in a small pool between the stone columns.  A few bones lie scattered around the tunnel, pressed into the dirt floor by time and passing creatures.  The damp air is heavy with the acrid smell that permeates the tunnels."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Ant Nest, Tunnels]"
-  ],
-  "check_location": null,
   "timeto": {
     "7592": 0.2,
     "7593": 0.2,
@@ -34,17 +26,11 @@
     "7598": 0.2,
     "7589": 0.2
   },
-  "id": 7594,
-  "location": "the dark caverns",
-  "tags": [
-    "withered black mushroom",
-    "cave moss",
-    "murdroot",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-catacombs-1264234799.png",
+  "image_coords": [
+    55,
+    1128,
+    65,
+    1138
   ]
 }

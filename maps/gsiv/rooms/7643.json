@@ -1,40 +1,32 @@
 {
+  "id": 7643,
+  "title": [
+    "[Beach Area, Dock Piling]"
+  ],
+  "description": [
+    "You manage to make it this far, clinging to the sour smelling wood, your fingers digging splinters out of the piling.  Above you is the relative safety of the dock.  Below you is a slimy wooden platform largely covered with odd growths."
+  ],
+  "paths": [
+    "Obvious paths: up, down"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "7642": "up",
     "7644": "down"
   },
-  "paths": [
-    "Obvious paths: up, down"
-  ],
+  "timeto": {
+    "7642": 0.2,
+    "7644": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     276,
     331,
     286,
     341
   ],
-  "terrain": "rough",
-  "description": [
-    "You manage to make it this far, clinging to the sour smelling wood, your fingers digging splinters out of the piling.  Above you is the relative safety of the dock.  Below you is a slimy wooden platform largely covered with odd growths."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "saltwater",
-  "title": [
-    "[Beach Area, Dock Piling]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7642": 0.2,
-    "7644": 0.2
-  },
-  "id": 7643,
-  "location": "the Coastal Cliffs",
   "tags": [
     "strand of seaweed",
-    "broken twig",
-    "strof seaweed",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "broken twig"
   ]
 }

@@ -1,37 +1,30 @@
 {
+  "id": 26326,
+  "title": [
+    "[Underground Cavern]"
+  ],
+  "description": [
+    "The cavern is deep and wide, shrouded in darkness and illuminated only by strands of spectral pale light.  Rising out among the stalagmites, is a huge wooden palisade wall, broken up by a pair of giant towers, comprised of bones and ligaments.  Between the ghastly towers is a barbed black iron gate."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "Talador",
   "wayto": {
     "26325": "go gate",
     "26357": "west",
     "26358": "south"
   },
-  "paths": [
-    "Obvious exits: south, west"
-  ],
-  "image_coords": [
-    574,
-    147,
-    600,
-    174
-  ],
-  "terrain": null,
-  "description": [
-    "The cavern is deep and wide, shrouded in darkness and illuminated only by strands of spectral pale light.  Rising out among the stalagmites, is a huge wooden palisade wall, broken up by a pair of giant towers, comprised of bones and ligaments.  Between the ghastly towers is a barbed black iron gate."
-  ],
-  "image": "wl-lichs_landing-1500800742.png",
-  "climate": null,
-  "title": [
-    "[Underground Cavern]"
-  ],
-  "check_location": null,
   "timeto": {
     "26325": 0.2,
     "26357": 0.2,
     "26358": 0.2
   },
-  "id": 26326,
-  "location": "Talador",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  "image": "wl-lichs_landing-1500800742.png",
+  "image_coords": [
+    574,
+    147,
+    600,
+    174
+  ]
 }

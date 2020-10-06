@@ -1,51 +1,36 @@
 {
+  "id": 12229,
+  "title": [
+    "[The Rift, Scatter]"
+  ],
+  "description": [
+    "Dripping water has frozen in mid-cascade down the sides of the crypt's marble walls.  Pillars of ice stand at the corners of a giant square pit in the middle of the floor.  Within the depression, silvery grey rats clamor upon each other in a sea of squeaks and hissing, slavering with bloodlust.  Several arrows have been imbedded into a nearby arch's keystone.",
+    "Ambient heat emanates from the crypt's marble walls, steam rising from the seams between the stones.  Pillars of ice stand at the corners of a giant square pit in the middle of the floor.  Within the depression, silvery grey rats clamor upon each other in a sea of squeaks and hissing, slavering with bloodlust.  Several arrows have been imbedded into a nearby arch's keystone."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south, southwest",
+    "Obvious paths: northeast, south, southwest"
+  ],
+  "location": "the Rift",
   "wayto": {
     "12151": {
-      "stringproc": "c01b87e914b9cdeee3471070ec5e96d5"
+      "file": "string_procs/wayto/12229_12151.rb"
     },
     "12228": "southwest",
     "12240": "northeast",
     "12220": "south"
   },
-  "paths": [
-    "Obvious exits: northeast, south, southwest",
-    "Obvious paths: northeast, south, southwest"
-  ],
-  "image_coords": [
-    127,
-    210,
-    151,
-    234
-  ],
-  "terrain": null,
-  "description": [
-    "Dripping water has frozen in mid-cascade down the sides of the crypt's marble walls.  Pillars of ice stand at the corners of a giant square pit in the middle of the floor.  Within the depression, silvery grey rats clamor upon each other in a sea of squeaks and hissing, slavering with bloodlust.  Several arrows have been imbedded into a nearby arch's keystone.",
-    "Ambient heat emanates from the crypt's marble walls, steam rising from the seams between the stones.  Pillars of ice stand at the corners of a giant square pit in the middle of the floor.  Within the depression, silvery grey rats clamor upon each other in a sea of squeaks and hissing, slavering with bloodlust.  Several arrows have been imbedded into a nearby arch's keystone."
-  ],
-  "image": "imt-scatter-1264234799.png",
-  "climate": null,
-  "title": [
-    "[The Rift, Scatter]"
-  ],
-  "check_location": null,
   "timeto": {
     "12151": 11.4,
     "12228": 0.2,
     "12240": 0.2,
     "12220": 0.2
   },
-  "id": 12229,
-  "location": "the Rift",
-  "tags": [
-    "mass of congealed slime",
-    "oozing fleshsore bulb",
-    "withered deathblossom",
-    "rotting bile green fleshbulb",
-    "slime-covered grave blossom",
-    "discolored fleshbinder bud",
-    "twisted black mawflower"
-  ],
-  "links": [
-
+  "image": "imt-scatter-1264234799.png",
+  "image_coords": [
+    127,
+    210,
+    151,
+    234
   ]
 }

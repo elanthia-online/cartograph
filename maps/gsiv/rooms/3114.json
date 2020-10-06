@@ -1,33 +1,30 @@
 {
+  "id": 3114,
+  "title": [
+    "[Bramble Ravine]"
+  ],
+  "description": [
+    "A picture of eerie beauty, the white mists curl gently around the trunks of stark black brambles.  Spiked branches twist this way and that, their intertwining limbs creating a mosaic of black against the white."
+  ],
+  "paths": [
+    "Obvious paths: south, northwest"
+  ],
+  "location": "the Abandoned Farm",
   "wayto": {
     "3113": "south",
     "3115": "northwest"
   },
-  "paths": [
-    "Obvious paths: south, northwest"
-  ],
+  "timeto": {
+    "3113": 0.2,
+    "3115": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     884,
     380,
     894,
     390
   ],
-  "terrain": "rough",
-  "description": [
-    "A picture of eerie beauty, the white mists curl gently around the trunks of stark black brambles.  Spiked branches twist this way and that, their intertwining limbs creating a mosaic of black against the white."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Bramble Ravine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3113": 0.2,
-    "3115": 0.2
-  },
-  "id": 3114,
-  "location": "the Abandoned Farm",
   "tags": [
     "bright red teaberry",
     "handful of blueberries",
@@ -40,14 +37,6 @@
     "handful of bearberries",
     "stalk of chicory",
     "wintergreen leaf",
-    "wraith",
-    "blueberries",
-    "bearberries",
-    "broken twig",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wraith"
   ]
 }

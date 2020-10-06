@@ -1,43 +1,28 @@
 {
+  "id": 4311,
+  "title": [
+    "[Mine]"
+  ],
+  "description": [
+    "The tunnel slopes slightly upward towards the northern end and you can hear the sounds of fluttering wings coming from the north.  The floor of the passage is slippery and there is an unsettling absence of rubble here."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the crystal caves",
   "wayto": {
     "4312": "north",
     "4310": "south"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "4312": 0.2,
+    "4310": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     754,
     417,
     764,
     427
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The tunnel slopes slightly upward towards the northern end and you can hear the sounds of fluttering wings coming from the north.  The floor of the passage is slippery and there is an unsettling absence of rubble here."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4312": 0.2,
-    "4310": 0.2
-  },
-  "id": 4311,
-  "location": "the crystal caves",
-  "tags": [
-    "wolifrew lichen",
-    "withered black mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

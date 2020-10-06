@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "4143": "east"
-  },
+  "id": 4345,
+  "title": [
+    "[Graveyard, Crypt]"
+  ],
+  "description": [
+    "This room holds niches and chests filled with dusty tomes, yellowing scrolls and brittle manuscripts.  The scrolls are fastened with sealing wax and silk ribbons, while the volumes are bound in rare leathers.  Although fragile from the passage of time, the dry atmosphere of the tomb has preserved them.  The documents arouse your interest but the fear that they may contain evil spells and dangerous knowledge prompts you to leave them be."
+  ],
   "paths": [
     "Obvious exits: east"
   ],
+  "location": "the Graveyard",
+  "wayto": {
+    "4143": "east"
+  },
+  "timeto": {
+    "4143": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     541,
     949,
     551,
     959
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This room holds niches and chests filled with dusty tomes, yellowing scrolls and brittle manuscripts.  The scrolls are fastened with sealing wax and silk ribbons, while the volumes are bound in rare leathers.  Although fragile from the passage of time, the dry atmosphere of the tomb has preserved them.  The documents arouse your interest but the fear that they may contain evil spells and dangerous knowledge prompts you to leave them be."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Graveyard, Crypt]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4143": 0.2
-  },
-  "id": 4345,
-  "location": "the Graveyard",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,37 +1,30 @@
 {
+  "id": 24764,
+  "title": [
+    "[Helden Hall, Corridor]"
+  ],
+  "description": [
+    "You walk along this torchlit corridor, climbing a few steps at regular intervals.  At the end of the passageway you look back, and realize you must be in the northwest tower.  There are two doors in this corrider.  A plain wooden door is distinguished by fine workmanship and a beautiful finish enhancing the pattern of the grain.  Further down the corrider is a black glaes door, gleaming from regular polishing."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "24765": "go glaes door",
     "24766": "go wooden door",
     "15474": "east"
   },
-  "paths": [
-    "Obvious exits: east"
-  ],
-  "image_coords": [
-    643,
-    732,
-    681,
-    765
-  ],
-  "terrain": null,
-  "description": [
-    "You walk along this torchlit corridor, climbing a few steps at regular intervals.  At the end of the passageway you look back, and realize you must be in the northwest tower.  There are two doors in this corrider.  A plain wooden door is distinguished by fine workmanship and a beautiful finish enhancing the pattern of the grain.  Further down the corrider is a black glaes door, gleaming from regular polishing."
-  ],
-  "image": "wl-heldenhall-1502386358.png",
-  "climate": null,
-  "title": [
-    "[Helden Hall, Corridor]"
-  ],
-  "check_location": null,
   "timeto": {
     "24765": 0.2,
     "24766": 0.2,
     "15474": 0.2
   },
-  "id": 24764,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  "image": "wl-heldenhall-1502386358.png",
+  "image_coords": [
+    643,
+    732,
+    681,
+    765
+  ]
 }

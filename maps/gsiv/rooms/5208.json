@@ -1,44 +1,34 @@
 {
+  "id": 5208,
+  "title": [
+    "[Vornavian Coast, Beach]"
+  ],
+  "description": [
+    "A natural stone pier juts into the surf, the rocks of the pier being more resistant to the pounding of the ocean than the rest of the shore along here.  Sand crabs gather amongst broken seashells near the edge of the surf and the rocks of the pier.  The noise of waves crashing against the pier is deafening."
+  ],
+  "paths": [
+    "Obvious paths: east, northwest"
+  ],
+  "location": "the Vornavian Coast",
   "wayto": {
     "5206": "northwest",
     "5209": "go pier",
     "5210": "east"
   },
-  "paths": [
-    "Obvious paths: east, northwest"
-  ],
+  "timeto": {
+    "5206": 0.2,
+    "5209": 0.2,
+    "5210": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     229,
     556,
     239,
     566
   ],
-  "terrain": "riparian",
-  "description": [
-    "A natural stone pier juts into the surf, the rocks of the pier being more resistant to the pounding of the ocean than the rest of the shore along here.  Sand crabs gather amongst broken seashells near the edge of the surf and the rocks of the pier.  The noise of waves crashing against the pier is deafening."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "saltwater",
-  "title": [
-    "[Vornavian Coast, Beach]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5206": 0.2,
-    "5209": 0.2,
-    "5210": 0.2
-  },
-  "id": 5208,
-  "location": "the Vornavian Coast",
   "tags": [
     "strand of seaweed",
-    "yabathilium fruit",
-    "strof seaweed",
-    "murdroot",
-    "wavepetal blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "yabathilium fruit"
   ]
 }

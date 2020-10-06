@@ -1,40 +1,32 @@
 {
+  "id": 5307,
+  "title": [
+    "[Deep Woods, Ruined Temple]"
+  ],
+  "description": [
+    "A grey marble altar sits against the wall, oddly preserved amid the other destruction in this place of worship.  An immense golden topaz sits in the center of the dais, broken only by a piece of onyx running down the center like the pupil in the eye of a cat.  Atop the altar is a huge book, pages yellowed but writing still legible even after all this time."
+  ],
+  "paths": [
+    "Obvious exits: southeast, west"
+  ],
+  "location": "the deep woods",
   "wayto": {
     "5306": "west",
     "5308": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast, west"
-  ],
+  "timeto": {
+    "5306": 0.2,
+    "5308": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     1233,
     197,
     1243,
     207
   ],
-  "terrain": "indoors",
-  "description": [
-    "A grey marble altar sits against the wall, oddly preserved amid the other destruction in this place of worship.  An immense golden topaz sits in the center of the dais, broken only by a piece of onyx running down the center like the pupil in the eye of a cat.  Atop the altar is a huge book, pages yellowed but writing still legible even after all this time."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Deep Woods, Ruined Temple]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5306": 0.2,
-    "5308": 0.2
-  },
-  "id": 5307,
-  "location": "the deep woods",
   "tags": [
     "vesperti",
-    "no-magic",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "no-magic"
   ]
 }

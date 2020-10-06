@@ -1,34 +1,31 @@
 {
+  "id": 69,
+  "title": [
+    "[Whistler's Pass, Bridge]"
+  ],
+  "description": [
+    "An iron bridge curves off to the southwest toward another hilltop.  A fog bank shrouds the northern path in darkness and perpetual mist.",
+    "An iron bridge curves off to the southwest towards another hilltop.  A fog bank shrouds the northern path in perpetual mist."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "68": "north",
     "70": "go bridge"
   },
-  "paths": [
-    "Obvious paths: north"
-  ],
+  "timeto": {
+    "68": 0.2,
+    "70": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     948,
     533,
     958,
     543
   ],
-  "terrain": "hilly",
-  "description": [
-    "An iron bridge curves off to the southwest toward another hilltop.  A fog bank shrouds the northern path in darkness and perpetual mist.",
-    "An iron bridge curves off to the southwest towards another hilltop.  A fog bank shrouds the northern path in perpetual mist."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Whistler's Pass, Bridge]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "68": 0.2,
-    "70": 0.2
-  },
-  "id": 69,
-  "location": "Whistler's Pass",
   "tags": [
     "stick",
     "yew twig",
@@ -87,11 +84,6 @@
     "ebony twig",
     "bolmara lichen",
     "brostheras grass",
-    "sky-blue delphinuris",
-    "mountain dryad",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sky-blue delphinuris"
   ]
 }

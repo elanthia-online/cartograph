@@ -1,55 +1,34 @@
 {
+  "id": 8523,
+  "title": [
+    "[Upper Trollfang]"
+  ],
+  "description": [
+    "You are deep within the forest and the thick cover of leaves blocks most of the available sunlight, making this region dark on even the brightest of days.  The seemingly reverent silence at first thrills you with a feeling of awe, but this feeling soon gives way to one of dread and fear as the ominous lack of noise works its way into your soul.",
+    "You are deep within the forest and the thick cover of leaves blocks most of the available moonlight, making this region dark on even the brightest of days.  The seemingly reverent silence at first thrills you with a feeling of awe, but this feeling soon gives way to one of dread and fear as the ominous lack of noise works its way into your soul."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "8524": "east",
     "8522": "west"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "8524": 0.2,
+    "8522": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     980,
     758,
     990,
     768
   ],
-  "terrain": "mountainous",
-  "description": [
-    "You are deep within the forest and the thick cover of leaves blocks most of the available sunlight, making this region dark on even the brightest of days.  The seemingly reverent silence at first thrills you with a feeling of awe, but this feeling soon gives way to one of dread and fear as the ominous lack of noise works its way into your soul.",
-    "You are deep within the forest and the thick cover of leaves blocks most of the available moonlight, making this region dark on even the brightest of days.  The seemingly reverent silence at first thrills you with a feeling of awe, but this feeling soon gives way to one of dread and fear as the ominous lack of noise works its way into your soul."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Upper Trollfang]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8524": 0.2,
-    "8522": 0.2
-  },
-  "id": 8523,
-  "location": "the Upper Trollfang",
   "tags": [
     "forest troll",
     "golden aster",
-    "some wingstem root",
-    "angelica root",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "sprig of larkspur",
-    "yellow primrose",
-    "sprig of holly",
-    "sprig of ivy",
-    "small apple",
-    "pepperthorn root",
-    "ironfern root",
-    "sunburst blossom",
-    "bolmara lichen",
-    "wingstem root",
-    "alder bark",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

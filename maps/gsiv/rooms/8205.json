@@ -1,49 +1,34 @@
 {
+  "id": 8205,
+  "title": [
+    "[Sea Caverns, Small Chamber]"
+  ],
+  "description": [
+    "The walls widen here, making it comfortable to take a moment's ease.  Although there's garbage about, a cool breeze wafting in from the east dilutes the stench a bit.  A soft gurgle of water is identifiable, emanating from the same direction as the fresher air.  Underfoot, the cave's floor has turned to a loose shale leading down towards the water's song."
+  ],
+  "paths": [
+    "Obvious exits: east, northwest"
+  ],
+  "location": "the sea caverns",
   "wayto": {
     "8206": "east",
     "8204": "northwest"
   },
-  "paths": [
-    "Obvious exits: east, northwest"
-  ],
+  "timeto": {
+    "8206": 0.2,
+    "8204": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     580,
     209,
     590,
     219
   ],
-  "terrain": "indoors",
-  "description": [
-    "The walls widen here, making it comfortable to take a moment's ease.  Although there's garbage about, a cool breeze wafting in from the east dilutes the stench a bit.  A soft gurgle of water is identifiable, emanating from the same direction as the fresher air.  Underfoot, the cave's floor has turned to a loose shale leading down towards the water's song."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Caverns, Small Chamber]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8206": 0.2,
-    "8204": 0.2
-  },
-  "id": 8205,
-  "location": "the sea caverns",
   "tags": [
     "red trafel mushroom",
     "soft white mushroom",
     "blue trafel mushroom",
-    "some bolmara lichen",
-    "withered black mushroom",
-    "black hook mushroom",
-    "white hook mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some bolmara lichen"
   ]
 }

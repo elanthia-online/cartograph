@@ -1,39 +1,29 @@
 {
+  "id": 1828,
+  "title": [
+    "[Wraithenmist, Fishing Hut]"
+  ],
+  "description": [
+    "The roof of the hut has long since rotted away, but bits and pieces of the thatch cling to the tops of the stone walls.  An overturned table lies in the center of the packed earthen floor.  Little moonlight manages to penetrate the canopy of trees overhead, leaving the room gloomy despite its lack of a roof.",
+    "The roof of the hut has long since rotted away, but bits and pieces of the thatch cling to the tops of the stone walls.  An overturned table lies in the center of the packed earthen floor.  Little daylight manages to penetrate the canopy of trees overhead, leaving the room gloomy despite its lack of a roof."
+  ],
+  "paths": [
+    "Obvious exits: north, out"
+  ],
+  "location": "Wraithenmist",
   "wayto": {
     "1827": "out",
     "1829": "north"
   },
-  "paths": [
-    "Obvious exits: north, out"
-  ],
+  "timeto": {
+    "1827": 0.2,
+    "1829": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     98,
     224,
     108,
     234
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The roof of the hut has long since rotted away, but bits and pieces of the thatch cling to the tops of the stone walls.  An overturned table lies in the center of the packed earthen floor.  Little moonlight manages to penetrate the canopy of trees overhead, leaving the room gloomy despite its lack of a roof.",
-    "The roof of the hut has long since rotted away, but bits and pieces of the thatch cling to the tops of the stone walls.  An overturned table lies in the center of the packed earthen floor.  Little daylight manages to penetrate the canopy of trees overhead, leaving the room gloomy despite its lack of a roof."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Wraithenmist, Fishing Hut]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1827": 0.2,
-    "1829": 0.2
-  },
-  "id": 1828,
-  "location": "Wraithenmist",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

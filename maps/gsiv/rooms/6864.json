@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "6855": "go door"
-  },
+  "id": 6864,
+  "title": [
+    "[Abandoned Inn, Guest Room]"
+  ],
+  "description": [
+    "A wood-framed bed stands in a corner, covered in fresh linens and thick down comforters.  Next to it is a small nightstand, providing a place for a clean bowl of wash water and a drawer for small necessities.  Dark curtains cover the windows to keep the light at bay until the room's occupant is ready to face it."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "the Abandoned Inn",
+  "wayto": {
+    "6855": "go door"
+  },
+  "timeto": {
+    "6855": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     844,
     1106,
     854,
     1116
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A wood-framed bed stands in a corner, covered in fresh linens and thick down comforters.  Next to it is a small nightstand, providing a place for a clean bowl of wash water and a drawer for small necessities.  Dark curtains cover the windows to keep the light at bay until the room's occupant is ready to face it."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abandoned Inn, Guest Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6855": 0.2
-  },
-  "id": 6864,
-  "location": "the Abandoned Inn",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

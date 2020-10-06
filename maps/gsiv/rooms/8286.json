@@ -1,35 +1,32 @@
 {
+  "id": 8286,
+  "title": [
+    "[Lower Trollfang, Clearing]"
+  ],
+  "description": [
+    "As you skirt the outer edge of a very large clearing, you notice a rather drab and nondescript hut to the east.  Farther to the west, you can barely discern the shape of a sinister black dome.  The path continues through the brush."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest"
+  ],
+  "location": "the Lower Trollfang",
   "wayto": {
     "8284": "southwest",
     "8287": "go hut",
     "8288": "north"
   },
-  "paths": [
-    "Obvious paths: north, southwest"
-  ],
+  "timeto": {
+    "8284": 0.2,
+    "8287": 0.2,
+    "8288": 0.2
+  },
+  "image": "wl-spider_temple-1264234799.png",
   "image_coords": [
     1014,
     881,
     1024,
     891
   ],
-  "terrain": "grassland",
-  "description": [
-    "As you skirt the outer edge of a very large clearing, you notice a rather drab and nondescript hut to the east.  Farther to the west, you can barely discern the shape of a sinister black dome.  The path continues through the brush."
-  ],
-  "image": "wl-spider_temple-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Lower Trollfang, Clearing]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8284": 0.2,
-    "8287": 0.2,
-    "8288": 0.2
-  },
-  "id": 8286,
-  "location": "the Lower Trollfang",
   "tags": [
     "some sovyn clove",
     "some acantha leaf",
@@ -55,58 +52,6 @@
     "vermilion fire lily",
     "pink clover blossom",
     "sprig of lavender",
-    "honeysuckle vine",
-    "acantha leaf",
-    "ambrominas leaf",
-    "sovyn clove",
-    "spearmint leaf",
-    "small flower",
-    "small daisy",
-    "angelica root",
-    "trollfear mushroom",
-    "soft white mushroom",
-    "daggerstalk mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "wild strawberry",
-    "stalk of chicory",
-    "wild grapes",
-    "heath aster",
-    "golden buttercup",
-    "red clover blossom",
-    "white clover blossom",
-    "purple clover blossom",
-    "yellow clover blossom",
-    "stalk of goldenrod",
-    "yellow primrose",
-    "small wild rose",
-    "Imaera's Lace",
-    "monkey grass",
-    "ginger root",
-    "rose-marrow root",
-    "motherwort",
-    "sprig of jasmine",
-    "sprig of mournbloom",
-    "wild orchid",
-    "wild tulip",
-    "traesharm berry",
-    "sprig of ivy",
-    "small pumpkin",
-    "raspberries",
-    "wiregrass",
-    "murkweed",
-    "white lily",
-    "fire lily",
-    "murdroot",
-    "wavepetal blossom",
-    "ironfern root",
-    "nightbloom blossom",
-    "brostheras grass",
-    "woad leaves",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "honeysuckle vine"
   ]
 }

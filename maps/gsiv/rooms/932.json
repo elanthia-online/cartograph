@@ -1,42 +1,35 @@
 {
+  "id": 932,
+  "title": [
+    "[Whistler's Pass, Tunnel]"
+  ],
+  "description": [
+    "Although a thin layer of dust coats much of the stone floor, very little debris clutters the passage, attesting to both its strength and frequent use.  Occasionally, the burnt stub of a torch can be found lying in the darkness along one of the twisting walls, its usefulness at an end."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "931": "north",
     "933": "south"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "931": 0.2,
+    "933": 0.2
+  },
+  "image": "en-whistlers_pass-1264234799.png",
   "image_coords": [
     381,
     716,
     391,
     726
   ],
-  "terrain": "indoors",
-  "description": [
-    "Although a thin layer of dust coats much of the stone floor, very little debris clutters the passage, attesting to both its strength and frequent use.  Occasionally, the burnt stub of a torch can be found lying in the darkness along one of the twisting walls, its usefulness at an end."
-  ],
-  "image": "en-whistlers_pass-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Whistler's Pass, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "931": 0.2,
-    "933": 0.2
-  },
-  "id": 932,
-  "location": "Whistler's Pass",
   "tags": [
     "white hook mushroom",
     "cave moss",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

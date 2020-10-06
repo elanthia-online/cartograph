@@ -1,42 +1,35 @@
 {
+  "id": 910,
+  "title": [
+    "[Whistler's Pass, Tunnel]"
+  ],
+  "description": [
+    "The powerful sound of falling water is loud in this section of tunnel, its booming rhythm engulfing the subterranean passage.  Heavy and dank, the air seems to be laden with moisture and the odor of soggy climes."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "909": "northeast",
     "911": "south"
   },
-  "paths": [
-    "Obvious exits: northeast, south"
-  ],
+  "timeto": {
+    "909": 0.2,
+    "911": 0.2
+  },
+  "image": "en-whistlers_pass-1264234799.png",
   "image_coords": [
     350,
     361,
     360,
     371
   ],
-  "terrain": "indoors",
-  "description": [
-    "The powerful sound of falling water is loud in this section of tunnel, its booming rhythm engulfing the subterranean passage.  Heavy and dank, the air seems to be laden with moisture and the odor of soggy climes."
-  ],
-  "image": "en-whistlers_pass-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Whistler's Pass, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "909": 0.2,
-    "911": 0.2
-  },
-  "id": 910,
-  "location": "Whistler's Pass",
   "tags": [
     "white hook mushroom",
     "cave moss",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

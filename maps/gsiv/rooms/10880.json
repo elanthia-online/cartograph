@@ -1,38 +1,28 @@
 {
+  "id": 10880,
+  "title": [
+    "[Bard Guild, Terrace]"
+  ],
+  "description": [
+    "A generous terrace stretches before the entrance to the Jastev Amphitheater.  From the elevated vantage point, the plaza below is striking with its alternating bands of color.  At the apex of the monumental arch leading into the theater, the lintel is carved with an image of a bearded man framed by a crossed pair of artist's brushes."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "River's Rest",
   "wayto": {
     "10881": "go arch",
     "10879": "go stairs"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "10881": 0.2,
+    "10879": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     939,
     338,
     975,
     374
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A generous terrace stretches before the entrance to the Jastev Amphitheater.  From the elevated vantage point, the plaza below is striking with its alternating bands of color.  At the apex of the monumental arch leading into the theater, the lintel is carved with an image of a bearded man framed by a crossed pair of artist's brushes."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "indoors",
-  "title": [
-    "[Bard Guild, Terrace]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10881": 0.2,
-    "10879": 0.2
-  },
-  "id": 10880,
-  "location": "River's Rest",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

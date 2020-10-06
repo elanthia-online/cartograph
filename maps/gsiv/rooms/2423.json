@@ -1,40 +1,30 @@
 {
+  "id": 2423,
+  "title": [
+    "[Commerce Burrow, Trader's Way]"
+  ],
+  "description": [
+    "Halfling merchants wander up and down the road here, hawking their wares.  A low wooden building sits to the side of the road, decorated with banners in a rainbow of colors, each declaring it a general store.  From inside, the hustle and bustle of feet can be heard, punctuated by an occasional shout as items are bought and sold."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "2421": "south",
     "2424": "go store",
     "2426": "north"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
-  "image_coords": [
-    671,
-    911,
-    707,
-    947
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "Halfling merchants wander up and down the road here, hawking their wares.  A low wooden building sits to the side of the road, decorated with banners in a rainbow of colors, each declaring it a general store.  From inside, the hustle and bustle of feet can be heard, punctuated by an occasional shout as items are bought and sold."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Commerce Burrow, Trader's Way]"
-  ],
-  "check_location": null,
   "timeto": {
     "2421": 0.2,
     "2424": 0.2,
     "2426": 0.2
   },
-  "id": 2423,
-  "location": "Icemule Trace",
-  "tags": [
-    "calmintha flower",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "imt-icemule-1474811966.png",
+  "image_coords": [
+    671,
+    911,
+    707,
+    947
   ]
 }

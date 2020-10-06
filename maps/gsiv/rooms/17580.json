@@ -1,30 +1,22 @@
 {
-  "wayto": {
-    "17579": "go curtain"
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "You are standing in a secluded alcove facing a wall of small, locked doors.  One of the lockers has been removed for you and placed on a marble counter."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 17580,
   "title": [
     "[Annex, Booth]"
   ],
-  "check_location": null,
+  "description": [
+    "You are standing in a secluded alcove facing a wall of small, locked doors.  One of the lockers has been removed for you and placed on a marble counter."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "17579": "go curtain"
+  },
   "timeto": {
     "17579": 0.2
   },
-  "id": 17580,
-  "location": "Mist Harbor",
   "tags": [
     "peer curtain =~ /^\\[Annex, Twilight Hall Lobby\\]$/"
-  ],
-  "links": [
-
   ]
 }

@@ -1,1 +1,2 @@
-fput 'pull rope'; move 'go down'
+fput 'pull rope'
+ move 'go down'

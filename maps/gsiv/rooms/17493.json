@@ -1,43 +1,33 @@
 {
+  "id": 17493,
+  "title": [
+    "[Jirkirl's Hilltop, Meadow]"
+  ],
+  "description": [
+    "An enormous boulder bearing an uncanny resemblance to a frog wearing a hat sits off the side of the road.  The rock is completely coated in a slimy green fungus.  Gooseberries line up along the edge of the hard dirt-packed road, and numerous yellow and red berries have been trampled into the ground."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south"
+  ],
   "wayto": {
     "17454": "northeast",
     "17499": "south",
     "3235": {
-      "stringproc": "07ae8f5ad4f0399baa2005d632c583c5"
+      "file": "string_procs/wayto/17493_3235.rb"
     },
     "17494": "go arches"
   },
-  "paths": [
-    "Obvious paths: northeast, south"
-  ],
-  "image_coords": [
-    132,
-    238,
-    180,
-    286
-  ],
-  "terrain": null,
-  "description": [
-    "An enormous boulder bearing an uncanny resemblance to a frog wearing a hat sits off the side of the road.  The rock is completely coated in a slimy green fungus.  Gooseberries line up along the edge of the hard dirt-packed road, and numerous yellow and red berries have been trampled into the ground."
-  ],
-  "image": "fest-highman_games-1265497377.png",
-  "climate": null,
-  "title": [
-    "[Jirkirl's Hilltop, Meadow]"
-  ],
-  "check_location": null,
   "timeto": {
     "17454": 0.2,
     "17499": 0.2,
     "3235": 0.2,
     "17494": 0.2
   },
-  "id": 17493,
-  "location": null,
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "fest-highman_games-1265497377.png",
+  "image_coords": [
+    132,
+    238,
+    180,
+    286
   ]
 }

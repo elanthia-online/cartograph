@@ -1,38 +1,28 @@
 {
+  "id": 9187,
+  "title": [
+    "[Thurfel's Keep]"
+  ],
+  "description": [
+    "Hundreds of identical, smooth glass eyeballs completely cover this passageway.  The oddities move in unison with any motion, continuing to track the movement until it ceases.  The marble-like spheres are uncannily lifelike."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast"
+  ],
+  "location": "Thurfel's Island",
   "wayto": {
     "9186": "north",
     "9188": "southeast"
   },
-  "paths": [
-    "Obvious exits: north, southeast"
-  ],
+  "timeto": {
+    "9186": 0.2,
+    "9188": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     714,
     924,
     724,
     934
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Hundreds of identical, smooth glass eyeballs completely cover this passageway.  The oddities move in unison with any motion, continuing to track the movement until it ceases.  The marble-like spheres are uncannily lifelike."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thurfel's Keep]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9186": 0.2,
-    "9188": 0.2
-  },
-  "id": 9187,
-  "location": "Thurfel's Island",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

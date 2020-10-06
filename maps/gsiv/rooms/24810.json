@@ -1,19 +1,5 @@
 {
-  "wayto": {
-    "364": "out",
-    "24973": "east",
-    "24974": "north"
-  },
-  "paths": [
-    "Obvious exits: north, east, out"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Enclosed by tattered canvas walls, the shop features a worn rug in the center of its wooden floor.  A tattered merchant permit hangs under the wooden ceiling.  Right near the front is a bamboo rack and a vine-carved mahogany table."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 24810,
   "title": [
     "[Steinbeck's Weaponry]",
     "[Steinbeck's General Store]",
@@ -21,16 +7,21 @@
     "[Steinbeck's Combat Gear]",
     "[Steinbeck's Outfitting]"
   ],
-  "check_location": null,
+  "description": [
+    "Enclosed by tattered canvas walls, the shop features a worn rug in the center of its wooden floor.  A tattered merchant permit hangs under the wooden ceiling.  Right near the front is a bamboo rack and a vine-carved mahogany table."
+  ],
+  "paths": [
+    "Obvious exits: north, east, out"
+  ],
+  "location": "Wehnimer's Landing",
+  "wayto": {
+    "364": "out",
+    "24973": "east",
+    "24974": "north"
+  },
   "timeto": {
     "364": 0.2,
     "24973": 0.2,
     "24974": 0.2
-  },
-  "id": 24810,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  }
 }

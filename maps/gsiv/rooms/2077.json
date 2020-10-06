@@ -1,35 +1,32 @@
 {
+  "id": 2077,
+  "title": [
+    "[Teras Isle, Fhorian Village]"
+  ],
+  "description": [
+    "An odd outcropping of rock stands tall here at the western edge of the village, shaped something like a huge hand.  It seems to be holding back the oppressive tide of the dense forest to the west, or perhaps it is a warning to those in the village to proceed no further.  A certain irony looms here, near this now dead village, in the form of a cold grey mausoleum, which seems to offer vague, frightening promises as you pass."
+  ],
+  "paths": [
+    "Obvious paths: north, east"
+  ],
+  "location": "the Fhorian Village",
   "wayto": {
     "2283": "go door",
     "2076": "east",
     "2078": "north"
   },
-  "paths": [
-    "Obvious paths: north, east"
-  ],
+  "timeto": {
+    "2283": 0.2,
+    "2076": 0.2,
+    "2078": 0.2
+  },
+  "image": "ti-wilds-1264234799.png",
   "image_coords": [
     324,
     999,
     334,
     1009
   ],
-  "terrain": null,
-  "description": [
-    "An odd outcropping of rock stands tall here at the western edge of the village, shaped something like a huge hand.  It seems to be holding back the oppressive tide of the dense forest to the west, or perhaps it is a warning to those in the village to proceed no further.  A certain irony looms here, near this now dead village, in the form of a cold grey mausoleum, which seems to offer vague, frightening promises as you pass."
-  ],
-  "image": "ti-wilds-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Teras Isle, Fhorian Village]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2283": 0.2,
-    "2076": 0.2,
-    "2078": 0.2
-  },
-  "id": 2077,
-  "location": "the Fhorian Village",
   "tags": [
     "yellow heliconia",
     "some woth flower",
@@ -39,30 +36,6 @@
     "some pothinir grass",
     "orange heliconia",
     "slender twig",
-    "some talneo root",
-    "acantha leaf",
-    "woth flower",
-    "calamia fruit",
-    "haphip root",
-    "pothinir grass",
-    "sticks",
-    "wild gooseberry",
-    "broken twig",
-    "tree bark",
-    "white passionflower",
-    "yellow passionflower",
-    "blue passionflower",
-    "luckbloom blossom",
-    "murdroot",
-    "wavepetal blossom",
-    "twisted twig",
-    "ebony twig",
-    "talneo root",
-    "brostheras grass",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some talneo root"
   ]
 }

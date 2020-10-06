@@ -1,42 +1,31 @@
 {
-  "wayto": {
-    "11436": {
-      "stringproc": "fca73c0fdfb5b02d3b95efa24885592a"
-    },
-    "11433": {
-      "stringproc": "311ee2488122f711ecdb848822003512"
-    }
-  },
+  "id": 11435,
+  "title": [
+    "[Tempest River, North Fork]"
+  ],
+  "description": [
+    "The current hugs the northern bank of the wide river.  Towering above the rocky bank is a sheer, unclimbable cliff.  The top of the cliff is lost in the moonlight.  Despite the dark, the sandy bottom of the riverbed is visible through the clear water.  To the west the river widens into the mouth of Maelstrom Bay"
+  ],
   "paths": [
     "Obvious paths: east, west"
   ],
+  "wayto": {
+    "11436": {
+      "file": "string_procs/wayto/11435_11436.rb"
+    },
+    "11433": {
+      "file": "string_procs/wayto/11435_11433.rb"
+    }
+  },
+  "timeto": {
+    "11436": 2.0,
+    "11433": 2.0
+  },
+  "image": "rr-maelstrom-1266390501.png",
   "image_coords": [
     810,
     1341,
     820,
     1351
-  ],
-  "terrain": "missing",
-  "description": [
-    "The current hugs the northern bank of the wide river.  Towering above the rocky bank is a sheer, unclimbable cliff.  The top of the cliff is lost in the moonlight.  Despite the dark, the sandy bottom of the riverbed is visible through the clear water.  To the west the river widens into the mouth of Maelstrom Bay"
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "missing",
-  "title": [
-    "[Tempest River, North Fork]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11436": 2.0,
-    "11433": 2.0
-  },
-  "id": 11435,
-  "location": "Maelstrom Bay",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

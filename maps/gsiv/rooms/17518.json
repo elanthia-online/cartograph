@@ -1,51 +1,32 @@
 {
+  "id": 17518,
+  "title": [
+    "[Mist Harbor, Southern Gates]"
+  ],
+  "description": [
+    "Twin towers rise up on either side of the wrought iron gates, the terra cotta tiles of their roofs standing out in dark contrast to the muted yellow paint that decorates their faces.  Stretching east and west of the entry is a tall stockade fence, while a wide dirt pathway disappears into the jungle."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "the environs of the Saewehna Lagoon",
   "wayto": {
     "17577": "south",
     "3665": "go gates",
     "23661": {
-      "stringproc": "a2670e8b35c5844f0dfe95d9f6cc1629"
+      "file": "string_procs/wayto/17518_23661.rb"
     }
   },
-  "paths": [
-    "Obvious paths: south"
-  ],
-  "image_coords": [
-    2771,
-    2302,
-    2811,
-    2339
-  ],
-  "terrain": "tropical",
-  "description": [
-    "Twin towers rise up on either side of the wrought iron gates, the terra cotta tiles of their roofs standing out in dark contrast to the muted yellow paint that decorates their faces.  Stretching east and west of the entry is a tall stockade fence, while a wide dirt pathway disappears into the jungle."
-  ],
-  "image": "ifw-isle_of_four_winds-1310232949.png",
-  "climate": "temperate",
-  "title": [
-    "[Mist Harbor, Southern Gates]"
-  ],
-  "check_location": null,
   "timeto": {
     "17577": 0.2,
     "3665": 0.2,
     "23661": 1.0
   },
-  "id": 17518,
-  "location": "the environs of the Saewehna Lagoon",
-  "tags": [
-    "acantha leaf",
-    "luckbloom blossom",
-    "murdroot",
-    "wavepetal blossom",
-    "twisted twig",
-    "slender twig",
-    "ebony twig",
-    "talneo root",
-    "brostheras grass",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "ifw-isle_of_four_winds-1310232949.png",
+  "image_coords": [
+    2771,
+    2302,
+    2811,
+    2339
   ]
 }

@@ -1,32 +1,21 @@
 {
+  "id": 20002,
+  "title": [
+    "[Cavernhold, Western Shore]"
+  ],
+  "description": [
+    "You are on the western side of a swiftly moving underground stream.  The cavern here is large and dark, making it difficult to see very far in any one direction.  A passage curves off to the southwest, closely following the path of the stream."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "the foothills of Zeltoph",
   "wayto": {
     "20010": "southwest",
     "20001": "go bridge"
   },
-  "paths": [
-    "Obvious exits: southwest"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "You are on the western side of a swiftly moving underground stream.  The cavern here is large and dark, making it difficult to see very far in any one direction.  A passage curves off to the southwest, closely following the path of the stream."
-  ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Cavernhold, Western Shore]"
-  ],
-  "check_location": null,
   "timeto": {
     "20010": 0.2,
     "20001": 0.2
-  },
-  "id": 20002,
-  "location": "the foothills of Zeltoph",
-  "tags": [
-
-  ],
-  "links": [
-
-  ]
+  }
 }

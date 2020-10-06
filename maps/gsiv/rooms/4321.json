@@ -1,46 +1,33 @@
 {
+  "id": 4321,
+  "title": [
+    "[Mine]"
+  ],
+  "description": [
+    "A rather large boulder lays on the floor near the eastern edge of the room and you can see a ledge above the room in the southern wall with a set of stone steps cut into the rock face there."
+  ],
+  "paths": [
+    "Obvious exits: west, northwest"
+  ],
+  "location": "the crystal caves",
   "wayto": {
     "8178": "go steps",
     "4320": "west",
     "4319": "northwest"
   },
-  "paths": [
-    "Obvious exits: west, northwest"
-  ],
+  "timeto": {
+    "8178": 0.2,
+    "4320": 0.2,
+    "4319": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     833,
     444,
     843,
     454
   ],
-  "terrain": "indoors",
-  "description": [
-    "A rather large boulder lays on the floor near the eastern edge of the room and you can see a ledge above the room in the southern wall with a set of stone steps cut into the rock face there."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8178": 0.2,
-    "4320": 0.2,
-    "4319": 0.2
-  },
-  "id": 4321,
-  "location": "the crystal caves",
   "tags": [
-    "some wolifrew lichen",
-    "wolifrew lichen",
-    "withered black mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wolifrew lichen"
   ]
 }

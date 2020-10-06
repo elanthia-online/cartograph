@@ -1,35 +1,28 @@
 {
+  "id": 26293,
+  "title": [
+    "[Lich Citadel, Darkway]"
+  ],
+  "description": [
+    "The very walls seem to shift, as if formed from liquid darkness.  Coils of white smoke twist and turn, drifting up and down the corridor."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "Talador",
   "wayto": {
     "26290": "southwest",
     "26294": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southwest"
-  ],
+  "timeto": {
+    "26290": 0.2,
+    "26294": 0.2
+  },
+  "image": "wl-lichs_landing-1500800742.png",
   "image_coords": [
     1287,
     844,
     1314,
     871
-  ],
-  "terrain": null,
-  "description": [
-    "The very walls seem to shift, as if formed from liquid darkness.  Coils of white smoke twist and turn, drifting up and down the corridor."
-  ],
-  "image": "wl-lichs_landing-1500800742.png",
-  "climate": null,
-  "title": [
-    "[Lich Citadel, Darkway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26290": 0.2,
-    "26294": 0.2
-  },
-  "id": 26293,
-  "location": "Talador",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

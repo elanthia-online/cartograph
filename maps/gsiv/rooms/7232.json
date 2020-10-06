@@ -1,35 +1,32 @@
 {
+  "id": 7232,
+  "title": [
+    "[Under Crypt, Tunnels]"
+  ],
+  "description": [
+    "These tunnels are dank and chill, your breath forms clouds of steam in front of you as you walk along."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7231": "north",
     "7233": "east",
     "7235": "south"
   },
-  "paths": [
-    "Obvious exits: north, east, south"
-  ],
+  "timeto": {
+    "7231": 0.2,
+    "7233": 0.2,
+    "7235": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     743,
     561,
     753,
     571
   ],
-  "terrain": "indoors",
-  "description": [
-    "These tunnels are dank and chill, your breath forms clouds of steam in front of you as you walk along."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Under Crypt, Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7231": 0.2,
-    "7233": 0.2,
-    "7235": 0.2
-  },
-  "id": 7232,
-  "location": "the Graveyard",
   "tags": [
     "some wolifrew lichen",
     "some cave moss",
@@ -39,10 +36,6 @@
     "cave moss",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

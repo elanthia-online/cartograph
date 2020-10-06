@@ -1,36 +1,25 @@
 {
-  "wayto": {
-    "11523": "northwest"
-  },
+  "id": 11524,
+  "title": [
+    "[Ruined Dungeon, Cell]"
+  ],
+  "description": [
+    "A few tattered scraps of ticking are scattered in one corner of this dank cell, the final remnants of a rotted bedding pile.  Faint scratch marks can be seen on the wall beside the door, signifying a long-forgotten prisoner's accounting tablet."
+  ],
   "paths": [
     "Obvious exits: northwest"
   ],
+  "wayto": {
+    "11523": "northwest"
+  },
+  "timeto": {
+    "11523": 0.2
+  },
+  "image": "rr-maelstrom-1266390501.png",
   "image_coords": [
     1061,
     982,
     1071,
     992
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A few tattered scraps of ticking are scattered in one corner of this dank cell, the final remnants of a rotted bedding pile.  Faint scratch marks can be seen on the wall beside the door, signifying a long-forgotten prisoner's accounting tablet."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "indoors",
-  "title": [
-    "[Ruined Dungeon, Cell]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11523": 0.2
-  },
-  "id": 11524,
-  "location": "the Ruined Tower",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

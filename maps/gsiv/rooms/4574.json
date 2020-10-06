@@ -1,51 +1,38 @@
 {
-  "wayto": {
-    "4575": "up",
-    "9882": {
-      "stringproc": "fe66c8251a504790e60521ab8a949250"
-    },
-    "4573": {
-      "stringproc": "395b361a16c8a355265cda519abf9fe5"
-    }
-  },
+  "id": 4574,
+  "title": [
+    "[Griffin's Keen, Valley View]"
+  ],
+  "description": [
+    "A jagged horizontal crack parts the rock along the base of the trail making an uncomfortable space between you and the mountain.  Although the trail here seems solid and is not as steep as in the higher reaches, the effect is dizzying."
+  ],
   "paths": [
     "Obvious paths: up, down"
   ],
+  "location": "Griffin's Keen",
+  "wayto": {
+    "4575": "up",
+    "9882": {
+      "file": "string_procs/wayto/4574_9882.rb"
+    },
+    "4573": {
+      "file": "string_procs/wayto/4574_4573.rb"
+    }
+  },
+  "timeto": {
+    "4575": 0.2,
+    "9882": 6,
+    "4573": 4.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     583,
     291,
     593,
     301
   ],
-  "terrain": null,
-  "description": [
-    "A jagged horizontal crack parts the rock along the base of the trail making an uncomfortable space between you and the mountain.  Although the trail here seems solid and is not as steep as in the higher reaches, the effect is dizzying."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Griffin's Keen, Valley View]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4575": 0.2,
-    "9882": 6,
-    "4573": 4.2
-  },
-  "id": 4574,
-  "location": "Griffin's Keen",
   "tags": [
     "some angelica root",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "sprig of holly",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sassafras leaf"
   ]
 }

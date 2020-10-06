@@ -1,33 +1,30 @@
 {
+  "id": 2561,
+  "title": [
+    "[Glatoph, Glacier]"
+  ],
+  "description": [
+    "Through the ice-laden gusts of wind you see a large crack in the ice.  Too large to cross and certainly large enough for you to fall into, it blocks the eastern path, forcing a detour to the southeast if you choose to travel that direction."
+  ],
+  "paths": [
+    "Obvious paths: southeast, west"
+  ],
+  "location": "Glatoph",
   "wayto": {
     "2560": "southeast",
     "2562": "west"
   },
-  "paths": [
-    "Obvious paths: southeast, west"
-  ],
+  "timeto": {
+    "2560": 0.2,
+    "2562": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     999,
     484,
     1009,
     494
   ],
-  "terrain": "mountainous",
-  "description": [
-    "Through the ice-laden gusts of wind you see a large crack in the ice.  Too large to cross and certainly large enough for you to fall into, it blocks the eastern path, forcing a detour to the southeast if you choose to travel that direction."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Glatoph, Glacier]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2560": 0.2,
-    "2562": 0.2
-  },
-  "id": 2561,
-  "location": "Glatoph",
   "tags": [
     "sassafras leaf",
     "arctic titan",
@@ -39,10 +36,6 @@
     "valerian root",
     "pennyroyal stem",
     "sprig of holly",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

@@ -1,46 +1,33 @@
 {
+  "id": 6442,
+  "title": [
+    "[Abandoned Mine, Cold Tunnel]"
+  ],
+  "description": [
+    "The rails end here, at an odd looking wooden barricade.  An old mine cart lies overturned against one wall of smooth rock."
+  ],
+  "paths": [
+    "Obvious exits: north, west, northwest"
+  ],
+  "location": "the Lysierian Hills",
   "wayto": {
     "6443": "north",
     "6444": "west",
     "6438": "northwest"
   },
-  "paths": [
-    "Obvious exits: north, west, northwest"
-  ],
+  "timeto": {
+    "6443": 0.2,
+    "6444": 0.2,
+    "6438": 0.2
+  },
+  "image": "wl-lysierian-1264234799.png",
   "image_coords": [
     1178,
     162,
     1188,
     172
   ],
-  "terrain": "indoors",
-  "description": [
-    "The rails end here, at an odd looking wooden barricade.  An old mine cart lies overturned against one wall of smooth rock."
-  ],
-  "image": "wl-lysierian-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abandoned Mine, Cold Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6443": 0.2,
-    "6444": 0.2,
-    "6438": 0.2
-  },
-  "id": 6442,
-  "location": "the Lysierian Hills",
   "tags": [
-    "some wolifrew lichen",
-    "wolifrew lichen",
-    "withered black mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wolifrew lichen"
   ]
 }

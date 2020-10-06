@@ -1,38 +1,28 @@
 {
+  "id": 9776,
+  "title": [
+    "[Maaghara Labyrinth]"
+  ],
+  "description": [
+    "The roots have been burned clean from the walls of the circular tunnel, leaving the clay severely scorched.  Dried patches of the black soot mixed with clay leave evidence of several muddy footprints that lead off in both directions."
+  ],
+  "paths": [
+    "Obvious exits: east, southwest"
+  ],
+  "location": "the Maaghara Tower",
   "wayto": {
     "9775": "east",
     "9777": "southwest"
   },
-  "paths": [
-    "Obvious exits: east, southwest"
-  ],
+  "timeto": {
+    "9775": 0.2,
+    "9777": 0.2
+  },
+  "image": "en-tower-1264234799.png",
   "image_coords": [
     1176,
     597,
     1184,
     605
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The roots have been burned clean from the walls of the circular tunnel, leaving the clay severely scorched.  Dried patches of the black soot mixed with clay leave evidence of several muddy footprints that lead off in both directions."
-  ],
-  "image": "en-tower-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Maaghara Labyrinth]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9775": 0.2,
-    "9777": 0.2
-  },
-  "id": 9776,
-  "location": "the Maaghara Tower",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

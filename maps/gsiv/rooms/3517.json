@@ -1,20 +1,8 @@
 {
-  "wayto": {
-    "3518": "east",
-    "3543": "southeast",
-    "10384": "go inn",
-    "3516": "west"
-  },
-  "paths": [
-    "Obvious paths: east, southeast, west"
+  "id": 3517,
+  "title": [
+    "[Ta'Vaalor, Victory Wey]"
   ],
-  "image_coords": [
-    775,
-    854,
-    811,
-    890
-  ],
-  "terrain": null,
   "description": [
     "Patrons wander into and out of a local inn, some quietly moving on while others congregate and chat amongst themselves.  The thick red roof tiles of the inn glint in the sunlight, brightening the countenance of the inn's pale limestone-clad walls.  Flowerbeds thick with fragrant blossoms flank the inn's blue-painted front door.",
     "Patrons wander into and out of a local inn, some quietly moving on while others congregate and chat amongst themselves.  The thick red roof tiles of the inn glint in the silvery moonlight, shadowing the countenance of the inn's pale limestone-clad walls.  Flowerbeds thick with fragrant blossoms flank the inn's blue-painted front door.",
@@ -22,24 +10,27 @@
     "A trickle of late-night patrons stride into and out of a large limestone inn that tightly hugs the wey.  The sounds of talk and laughter, punctuated by the occasional bawdy tune, drift from the bright blue doors.  The thick red roof tiles of the inn glint in the silvery moonlight, and the occasional shadow of a moving figure can be seen against some flickering light in a second story window.",
     "A steady flow of merchants, townsfolk, and soldiers stride into and out of a large limestone inn that tightly hugs the wey, while a smaller portion congregate outside its bright blue door to chat amongst themselves.  The thick red roof tiles of the inn glint in the sunlight, and the occasional maid can be seen peeking out from a second story window."
   ],
-  "image": "en-tavaalor-1565907614.png",
-  "climate": null,
-  "title": [
-    "[Ta'Vaalor, Victory Wey]"
+  "paths": [
+    "Obvious paths: east, southeast, west"
   ],
-  "check_location": null,
+  "location": "the city of Ta'Vaalor",
+  "wayto": {
+    "3518": "east",
+    "3543": "southeast",
+    "10384": "go inn",
+    "3516": "west"
+  },
   "timeto": {
     "3518": 0.2,
     "3543": 0.2,
     "10384": 0.2,
     "3516": 0.2
   },
-  "id": 3517,
-  "location": "the city of Ta'Vaalor",
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "en-tavaalor-1565907614.png",
+  "image_coords": [
+    775,
+    854,
+    811,
+    890
   ]
 }

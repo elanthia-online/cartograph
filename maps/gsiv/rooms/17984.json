@@ -1,44 +1,37 @@
 {
-  "wayto": {
-    "17983": "go bags",
-    "17985": {
-      "stringproc": "870a598f50834b9c8d83ea068269a5ad"
-    }
-  },
+  "id": 17984,
+  "title": [
+    "[Inn Pantry, Storage]"
+  ],
+  "description": [
+    "Wine casks, pickle barrels and produce crates have been arranged in this small, tidy room like furniture.  A book, with a sage leaf as a bookmark, rests on an overturned lime carton.  Large burlap bags of flour lean against one wall.  At the rear is a surprisingly sturdy oak door."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "wayto": {
+    "17983": "go bags",
+    "17985": {
+      "file": "string_procs/wayto/17984_17985.rb"
+    }
+  },
+  "timeto": {
+    "17983": 0.2,
+    "17985": {
+      "file": "string_procs/timeto/17984_17985.rb"
+    }
+  },
+  "image": "rr-rogue_guild-1305438533.png",
   "image_coords": [
     444,
     59,
     451,
     71
   ],
-  "terrain": null,
-  "description": [
-    "Wine casks, pickle barrels and produce crates have been arranged in this small, tidy room like furniture.  A book, with a sage leaf as a bookmark, rests on an overturned lime carton.  Large burlap bags of flour lean against one wall.  At the rear is a surprisingly sturdy oak door."
-  ],
-  "image": "rr-rogue_guild-1305438533.png",
-  "climate": null,
-  "title": [
-    "[Inn Pantry, Storage]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "17983": 0.2,
-    "17985": {
-      "stringproc": "12c6b4615e97a2c7fb68a7e5988f17eb"
-    }
-  },
-  "id": 17984,
-  "location": null,
   "tags": [
     "meta:mapname:River's Rest - Rogue Guild",
     "meta:mapshortname:Rogue Guild (River's Rest)",
     "meta:mapcategory:River's Rest",
     "meta:mapcategory:Guilds"
-  ],
-  "links": [
-
   ]
 }

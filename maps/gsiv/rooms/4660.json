@@ -1,33 +1,30 @@
 {
+  "id": 4660,
+  "title": [
+    "[Cysaegir, Behind Waterfall]"
+  ],
+  "description": [
+    "Water flows down over the rockface, creating small puddles that either need to be stepped over or crossed through to enter the cave mouth.  Echoes from the waterfall bounce against the walls of this grotto.  Small holes serve as natural sconces for several burning mullein torches, their flickering light creating dancing shadows along the surface and revealing a narrow opening to the north."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the village of Cysaegir",
   "wayto": {
     "4678": "go opening",
     "4657": "go mouth"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "4678": 0.2,
+    "4657": 0.2
+  },
+  "image": "en-cysaegir-1264234799.png",
   "image_coords": [
     155,
     1164,
     191,
     1200
   ],
-  "terrain": "indoors",
-  "description": [
-    "Water flows down over the rockface, creating small puddles that either need to be stepped over or crossed through to enter the cave mouth.  Echoes from the waterfall bounce against the walls of this grotto.  Small holes serve as natural sconces for several burning mullein torches, their flickering light creating dancing shadows along the surface and revealing a narrow opening to the north."
-  ],
-  "image": "en-cysaegir-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Cysaegir, Behind Waterfall]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4678": 0.2,
-    "4657": 0.2
-  },
-  "id": 4660,
-  "location": "the village of Cysaegir",
   "tags": [
     "soft white mushroom",
     "withered black mushroom",
@@ -40,10 +37,6 @@
     "murdroot",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

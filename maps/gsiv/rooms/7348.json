@@ -1,45 +1,35 @@
 {
+  "id": 7348,
+  "title": [
+    "[Shadow Valley, Dark Pasture]"
+  ],
+  "description": [
+    "The trail dies out here, swallowed by the desolation surrounding it.  Parched and cracked, the ground crumbles beneath your feet as you walk through."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, northwest"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7349": "southeast",
     "7340": "northeast",
     "7343": "northwest"
   },
-  "paths": [
-    "Obvious paths: northeast, southeast, northwest"
-  ],
+  "timeto": {
+    "7349": 0.2,
+    "7340": 0.2,
+    "7343": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1148,
     864,
     1156,
     872
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "The trail dies out here, swallowed by the desolation surrounding it.  Parched and cracked, the ground crumbles beneath your feet as you walk through."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Shadow Valley, Dark Pasture]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7349": 0.2,
-    "7340": 0.2,
-    "7343": 0.2
-  },
-  "id": 7348,
-  "location": "the Shadow Valley",
   "tags": [
     "some petrified shadowstalk",
     "some longgrass",
-    "night mare",
-    "longgrass",
-    "wyrm thorn",
-    "petrified shadowstalk",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "night mare"
   ]
 }

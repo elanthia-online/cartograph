@@ -1,38 +1,28 @@
 {
+  "id": 24315,
+  "title": [
+    "[Ranger Guild, Dining Room]"
+  ],
+  "description": [
+    "A long buffet table set near the double doors is heaped high with food, plates, and silverware.  Smaller tables and wooden benches are arranged about the room, providing plenty of seating.  Wrought iron candelabras on the buffet, individual candles on each table, and sconces on the walls illuminate the room with a bright golden glow."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "Solhaven",
   "wayto": {
     "24316": "go doors",
     "24308": "north"
   },
-  "paths": [
-    "Obvious exits: north"
-  ],
+  "timeto": {
+    "24316": 0.2,
+    "24308": 0.2
+  },
+  "image": "vo-rangerguild-v2.png",
   "image_coords": [
     143,
     211,
     153,
     220
-  ],
-  "terrain": null,
-  "description": [
-    "A long buffet table set near the double doors is heaped high with food, plates, and silverware.  Smaller tables and wooden benches are arranged about the room, providing plenty of seating.  Wrought iron candelabras on the buffet, individual candles on each table, and sconces on the walls illuminate the room with a bright golden glow."
-  ],
-  "image": "vo-rangerguild-v2.png",
-  "climate": null,
-  "title": [
-    "[Ranger Guild, Dining Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24316": 0.2,
-    "24308": 0.2
-  },
-  "id": 24315,
-  "location": "Solhaven",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

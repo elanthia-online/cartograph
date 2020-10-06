@@ -1,67 +1,32 @@
 {
+  "id": 6384,
+  "title": [
+    "[Lysierian Hills, Promontory]"
+  ],
+  "description": [
+    "You are standing on a rocky promontory, gazing up at the steep cliffs of a high peak to the west.  A high ridge leads away to the south, promising passage down into the foothills.  In the side of the cliff you can make out a small cave opening.  There is a faint odor of charcoal rising out of the opening."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "the Lysierian Hills",
   "wayto": {
     "6383": "south",
     "6385": "go cave"
   },
-  "paths": [
-    "Obvious paths: south"
-  ],
+  "timeto": {
+    "6383": 0.2,
+    "6385": 0.2
+  },
+  "image": "wl-lysierian-1264234799.png",
   "image_coords": [
     641,
     401,
     651,
     411
   ],
-  "terrain": "rough",
-  "description": [
-    "You are standing on a rocky promontory, gazing up at the steep cliffs of a high peak to the west.  A high ridge leads away to the south, promising passage down into the foothills.  In the side of the cliff you can make out a small cave opening.  There is a faint odor of charcoal rising out of the opening."
-  ],
-  "image": "wl-lysierian-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Lysierian Hills, Promontory]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6383": 0.2,
-    "6385": 0.2
-  },
-  "id": 6384,
-  "location": "the Lysierian Hills",
   "tags": [
     "red clover blossom",
-    "ayana lichen",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "wild strawberry",
-    "blueberries",
-    "stalk of chicory",
-    "handful of currants",
-    "elderberries",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "wild grapes",
-    "broken twig",
-    "sprig of alyssum",
-    "heath aster",
-    "golden buttercup",
-    "pink clover blossom",
-    "white clover blossom",
-    "purple clover blossom",
-    "yellow clover blossom",
-    "stalk of goldenrod",
-    "sprig of larkspur",
-    "yellow primrose",
-    "small wild rose",
-    "wild chokecherry",
-    "motherwort",
-    "white baneberry",
-    "ayana leaf",
-    "pepperthorn root",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ayana lichen"
   ]
 }

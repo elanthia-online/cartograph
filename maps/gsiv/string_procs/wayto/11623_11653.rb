@@ -1,1 +1,4 @@
-fput 'search';move 'go trail';move 'southeast';move 'southeast'
+fput 'search'
+move 'go trail'
+move 'southeast'
+move 'southeast'

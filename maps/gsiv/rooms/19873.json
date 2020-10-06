@@ -1,39 +1,33 @@
 {
+  "id": 19873,
+  "title": [
+    "[Northern Corridor]"
+  ],
+  "description": [
+    "Out of place in the line of limestone columns, a small rectangular area houses a plastered window that completely obstructs the panoramic views that many of the other windows in the corridor have.  Set within the whitewashed anomaly, a simple pine door is fitted with rose-hued hinges and knob.  Upon the opposite wall, a pair of woven mats rest before twin alcoves that are framed in marble."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Mist Harbor",
   "wayto": {
     "19874": "go door",
     "19875": "north",
     "19867": "south"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "19874": 0.2,
+    "19875": 0.2,
+    "19867": 0.2
+  },
+  "image": "ifw-cleric_guild.png",
   "image_coords": [
     1364,
     624,
     1508,
     762
   ],
-  "terrain": null,
-  "description": [
-    "Out of place in the line of limestone columns, a small rectangular area houses a plastered window that completely obstructs the panoramic views that many of the other windows in the corridor have.  Set within the whitewashed anomaly, a simple pine door is fitted with rose-hued hinges and knob.  Upon the opposite wall, a pair of woven mats rest before twin alcoves that are framed in marble."
-  ],
-  "image": "ifw-cleric_guild.png",
-  "climate": null,
-  "title": [
-    "[Northern Corridor]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "19874": 0.2,
-    "19875": 0.2,
-    "19867": 0.2
-  },
-  "id": 19873,
-  "location": "Mist Harbor",
   "tags": [
     "cleric alchemy administrator"
-  ],
-  "links": [
-
   ]
 }

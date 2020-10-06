@@ -1,40 +1,32 @@
 {
+  "id": 6391,
+  "title": [
+    "[Smokey Cave, Tunnel]"
+  ],
+  "description": [
+    "As you progress down the tunnel, the black grit that seems to cover everything grinds underfoot.  All echoes of your footfalls sound muffled and any sounds you make will not travel very far."
+  ],
+  "paths": [
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "the Lysierian Hills",
   "wayto": {
     "6390": "northwest",
     "6392": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast, northwest"
-  ],
+  "timeto": {
+    "6390": 0.2,
+    "6392": 0.2
+  },
+  "image": "wl-lysierian-1264234799.png",
   "image_coords": [
     499,
     429,
     509,
     439
   ],
-  "terrain": "indoors",
-  "description": [
-    "As you progress down the tunnel, the black grit that seems to cover everything grinds underfoot.  All echoes of your footfalls sound muffled and any sounds you make will not travel very far."
-  ],
-  "image": "wl-lysierian-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Smokey Cave, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6390": 0.2,
-    "6392": 0.2
-  },
-  "id": 6391,
-  "location": "the Lysierian Hills",
   "tags": [
     "fire rat",
-    "fire cat",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "fire cat"
   ]
 }

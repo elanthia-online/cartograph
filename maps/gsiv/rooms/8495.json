@@ -1,33 +1,30 @@
 {
+  "id": 8495,
+  "title": [
+    "[Meditation Garden]"
+  ],
+  "description": [
+    "Once-beautiful flower gardens surround you.  They are dead now, dried into corpses of the colorful blooms of the past.  The rubble of ruined stone benches litters the ground, and the walls containing the area are crumbling slowly into dust.  To the north is a bower of dead vines, which arch over the remains of a modwir trellis.  A warped door leads back into the sanctuary to the east."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "the Temple of Love",
   "wayto": {
     "8492": "go door",
     "8496": "go bower"
   },
-  "paths": [
-    "Obvious paths: none"
-  ],
+  "timeto": {
+    "8492": 0.2,
+    "8496": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     225,
     683,
     235,
     693
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "Once-beautiful flower gardens surround you.  They are dead now, dried into corpses of the colorful blooms of the past.  The rubble of ruined stone benches litters the ground, and the walls containing the area are crumbling slowly into dust.  To the north is a bower of dead vines, which arch over the remains of a modwir trellis.  A warped door leads back into the sanctuary to the east."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Meditation Garden]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8492": 0.2,
-    "8496": 0.2
-  },
-  "id": 8495,
-  "location": "the Temple of Love",
   "tags": [
     "some wolifrew lichen",
     "some acantha leaf",
@@ -41,18 +38,6 @@
     "moonlight cactus-bloom",
     "stalk of chicory",
     "bright red cranberry",
-    "some wingstem root",
-    "acantha leaf",
-    "wolifrew lichen",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

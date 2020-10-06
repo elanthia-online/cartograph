@@ -1,43 +1,28 @@
 {
+  "id": 6446,
+  "title": [
+    "[Abandoned Mine, Mudslide]"
+  ],
+  "description": [
+    "A wall of mud slopes down into this small, cramped space from a height of nearly eight feet, to a viscous layer covering the ground.  Here and there, stalactites pierce the mud ceiling overhead, making every movement an exercise in agility."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "the Lysierian Hills",
   "wayto": {
     "6445": "go gap",
     "6447": "down"
   },
-  "paths": [
-    "Obvious exits: down"
-  ],
+  "timeto": {
+    "6445": 0.2,
+    "6447": 0.2
+  },
+  "image": "wl-lysierian-1264234799.png",
   "image_coords": [
     1202,
     187,
     1212,
     197
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A wall of mud slopes down into this small, cramped space from a height of nearly eight feet, to a viscous layer covering the ground.  Here and there, stalactites pierce the mud ceiling overhead, making every movement an exercise in agility."
-  ],
-  "image": "wl-lysierian-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abandoned Mine, Mudslide]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6445": 0.2,
-    "6447": 0.2
-  },
-  "id": 6446,
-  "location": "the Lysierian Hills",
-  "tags": [
-    "wolifrew lichen",
-    "withered black mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

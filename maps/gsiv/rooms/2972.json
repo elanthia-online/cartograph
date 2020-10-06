@@ -1,40 +1,30 @@
 {
-  "wayto": {
-    "2948": "go doorway",
-    "2973": "go panel",
-    "2988": "northwest"
-  },
+  "id": 2972,
+  "title": [
+    "[Abbey Cellar]",
+    "[Abbey, Cellar]"
+  ],
+  "description": [
+    "Long rows of oak wine casks create dark aisles in the cold, damp cellar.  The air is tinged with the musty scent of decaying wood mixed with the sweet smell of aged wine.  A crumbling doorway, propped by thick timbers, opens onto the kitchen garden.",
+    "Long rows of casks create dark aisles in the cold darkness of the cellar.  The air is heavy with the distinctive odor of fermented honey commingled with the dry, woodsy aroma of the aging casks.  A heavy spruce door, coated with hardened resin at the sides to better seal it when closed, opens onto the kitchen garden."
+  ],
   "paths": [
     "Obvious exits: northwest"
   ],
-  "image_coords": [
-    726,
-    644,
-    736,
-    654
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Long rows of oak wine casks create dark aisles in the cold, damp cellar.  The air is tinged with the musty scent of decaying wood mixed with the sweet smell of aged wine.  A crumbling doorway, propped by thick timbers, opens onto the kitchen garden."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abbey Cellar]"
-  ],
-  "check_location": null,
+  "location": "the Abbey",
+  "wayto": {
+    "2948": "go door",
+    "2988": "northwest"
+  },
   "timeto": {
     "2948": 0.2,
-    "2973": 0.2,
     "2988": 0.2
   },
-  "id": 2972,
-  "location": "the Abbey",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "imt-Abbey Map-51200831.png",
+  "image_coords": [
+    1210,
+    838,
+    1312,
+    938
   ]
 }

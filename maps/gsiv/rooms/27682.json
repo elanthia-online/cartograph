@@ -1,35 +1,28 @@
 {
+  "id": 27682,
+  "title": [
+    "[Clovertooth, Kitchen]"
+  ],
+  "description": [
+    "A pair of swinging white oak doors separates the kitchen and dining room, sealing off some of the noise from the bustling staff at work.  A large fel cupboard occupies one corner, its doors ajar, revealing shelves stacked with fresh fruit and prepared desserts.  The white marble counter is laden with cutting boards and a variety of knives and utensils.  A red-faced halfling chef threatens his assistants with a rolling pin as they scurry about the kitchen preparing dishes for the guests in the dining room."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "27673": "go doors",
     "27687": "go stairs"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "27673": 0.2,
+    "27687": 0.2
+  },
+  "image": "imt-clovertooth_hall-1546618992.png",
   "image_coords": [
     745,
     615,
     847,
     682
-  ],
-  "terrain": null,
-  "description": [
-    "A pair of swinging white oak doors separates the kitchen and dining room, sealing off some of the noise from the bustling staff at work.  A large fel cupboard occupies one corner, its doors ajar, revealing shelves stacked with fresh fruit and prepared desserts.  The white marble counter is laden with cutting boards and a variety of knives and utensils.  A red-faced halfling chef threatens his assistants with a rolling pin as they scurry about the kitchen preparing dishes for the guests in the dining room."
-  ],
-  "image": "imt-clovertooth_hall-1546618992.png",
-  "climate": null,
-  "title": [
-    "[Clovertooth, Kitchen]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "27673": 0.2,
-    "27687": 0.2
-  },
-  "id": 27682,
-  "location": "Icemule Trace",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

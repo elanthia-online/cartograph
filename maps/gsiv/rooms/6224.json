@@ -1,55 +1,47 @@
 {
-  "wayto": {
-    "6223": {
-      "stringproc": "d9ac4bb3b2a57993e5dbf4a6f1edf2d1"
-    },
-    "6234": {
-      "stringproc": "c1d790c6f637bccd93ae48df43d3b3f1"
-    },
-    "6235": {
-      "stringproc": "95e99095b8a4cc1349f77bd5b02975c9"
-    },
-    "6225": {
-      "stringproc": "613d9d619d83aa282d4b4359e2ff46a7"
-    },
-    "6229": {
-      "stringproc": "2f57a82a95e01047047eee3d6a298651"
-    },
-    "6230": {
-      "stringproc": "b73070289af1197141e94bd36a3b7cbe"
-    },
-    "6231": {
-      "stringproc": "00448e8e63f79bf7fdbb4fdda0a150a8"
-    },
-    "6232": {
-      "stringproc": "cc19102eef9c6ca29dba64cbac086fce"
-    },
-    "6222": {
-      "stringproc": "f20c3d394c4ab45e63857281ffd9e99b"
-    },
-    "6233": {
-      "stringproc": "47af4c624917f6a6824d5a0156ded934"
-    }
-  },
-  "paths": [
-    "Obvious exits: north, northeast, east, southeast, south, southwest, west, northwest"
-  ],
-  "image_coords": [
-    977,
-    277,
-    995,
-    295
-  ],
-  "terrain": null,
-  "description": [
-    "The stone passage continues in several directions with no remarkable changes.  The passages are lit by a glowing lichen that grows where the floor meets the walls, and an occasional *plink* echoes from all around when a drop of water falls from somewhere on the ceiling above."
-  ],
-  "image": "wl-wehntoph-1310775397.png",
-  "climate": null,
+  "id": 6224,
   "title": [
     "[Labyrinth]"
   ],
-  "check_location": null,
+  "description": [
+    "The stone passage continues in several directions with no remarkable changes.  The passages are lit by a glowing lichen that grows where the floor meets the walls, and an occasional *plink* echoes from all around when a drop of water falls from somewhere on the ceiling above."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east, southeast, south, southwest, west, northwest"
+  ],
+  "location": "The Hidden Plateau",
+  "wayto": {
+    "6223": {
+      "file": "string_procs/wayto/6224_6223.rb"
+    },
+    "6234": {
+      "file": "string_procs/wayto/6224_6234.rb"
+    },
+    "6235": {
+      "file": "string_procs/wayto/6224_6235.rb"
+    },
+    "6225": {
+      "file": "string_procs/wayto/6224_6225.rb"
+    },
+    "6229": {
+      "file": "string_procs/wayto/6224_6229.rb"
+    },
+    "6230": {
+      "file": "string_procs/wayto/6224_6230.rb"
+    },
+    "6231": {
+      "file": "string_procs/wayto/6224_6231.rb"
+    },
+    "6232": {
+      "file": "string_procs/wayto/6224_6232.rb"
+    },
+    "6222": {
+      "file": "string_procs/wayto/6224_6222.rb"
+    },
+    "6233": {
+      "file": "string_procs/wayto/6224_6233.rb"
+    }
+  },
   "timeto": {
     "6223": 0.5,
     "6234": 0.5,
@@ -62,14 +54,16 @@
     "6222": 0.5,
     "6233": 0.5
   },
-  "id": 6224,
-  "location": "The Hidden Plateau",
+  "image": "wl-wehntoph-1310775397.png",
+  "image_coords": [
+    977,
+    277,
+    995,
+    295
+  ],
   "tags": [
     "some cave moss",
     "withered black mushroom",
     "genkew mushroom"
-  ],
-  "links": [
-
   ]
 }

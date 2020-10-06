@@ -1,34 +1,31 @@
 {
+  "id": 18119,
+  "title": [
+    "[Sorcerer Guild, Garden]"
+  ],
+  "description": [
+    "A jungle atmosphere pervades this dimly lit garden, and only a few random rays of light intrude here and there from windows on the south and west walls.  Vines creep up the walls and across the ceiling, trailing tendrils as if waiting to ensnare the unwary.  Crickets chirp noisily somewhere deep under the abundant plant life.  A trail winds through the foliage, and several benches are unobtrusively placed to provide restful spots for quiet contemplation.",
+    "A jungle atmosphere pervades this dimly lit garden, and only a few random rays of light intrude here and there from windows on the south and west walls.  Vines creep up the walls and across the ceiling, trailing tendrils as if waiting to ensnare the unwary.  Bees flit from blossom to blossom, buzzing softly as they look to harvest the abundant pollen.  A trail winds through the foliage, and several benches are unobtrusively placed to provide restful spots for quiet contemplation."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "18112": "west",
     "18120": "south"
   },
-  "paths": [
-    "Obvious exits: south, west"
-  ],
+  "timeto": {
+    "18112": 0.2,
+    "18120": 0.2
+  },
+  "image": "wl-sorcerer_guild-1405076623.png",
   "image_coords": [
     623,
     620,
     664,
     659
   ],
-  "terrain": null,
-  "description": [
-    "A jungle atmosphere pervades this dimly lit garden, and only a few random rays of light intrude here and there from windows on the south and west walls.  Vines creep up the walls and across the ceiling, trailing tendrils as if waiting to ensnare the unwary.  Crickets chirp noisily somewhere deep under the abundant plant life.  A trail winds through the foliage, and several benches are unobtrusively placed to provide restful spots for quiet contemplation.",
-    "A jungle atmosphere pervades this dimly lit garden, and only a few random rays of light intrude here and there from windows on the south and west walls.  Vines creep up the walls and across the ceiling, trailing tendrils as if waiting to ensnare the unwary.  Bees flit from blossom to blossom, buzzing softly as they look to harvest the abundant pollen.  A trail winds through the foliage, and several benches are unobtrusively placed to provide restful spots for quiet contemplation."
-  ],
-  "image": "wl-sorcerer_guild-1405076623.png",
-  "climate": null,
-  "title": [
-    "[Sorcerer Guild, Garden]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "18112": 0.2,
-    "18120": 0.2
-  },
-  "id": 18119,
-  "location": "the Coastal Cliffs",
   "tags": [
     "sorcerer guild node",
     "withered black mushroom",
@@ -37,8 +34,5 @@
     "meta:mapshortname:Sorcerer Guild (Wehnimer's)",
     "meta:mapcategory:Wehnimer's Landing",
     "meta:mapcategory:Guilds"
-  ],
-  "links": [
-
   ]
 }

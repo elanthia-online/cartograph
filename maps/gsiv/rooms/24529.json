@@ -1,45 +1,28 @@
 {
+  "id": 24529,
+  "title": [
+    "[Frozen Bramble Patch]"
+  ],
+  "description": [
+    "A cold mist covers the ground, moving silently through the brambles.  The path is treacherous, the thick, swirling fog hiding things unseen.  No direction seems to offer relief from the untiring thorns."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "the Abandoned Farm",
   "wayto": {
     "24528": "northwest",
     "24530": "southeast"
   },
-  "paths": [
-    "Obvious paths: southeast, northwest"
-  ],
+  "timeto": {
+    "24528": 0.2,
+    "24530": 0.2
+  },
+  "image": "imt-bramble_patch-1307499864.png",
   "image_coords": [
     201,
     223,
     215,
     237
-  ],
-  "terrain": "barren scrub",
-  "description": [
-    "A cold mist covers the ground, moving silently through the brambles.  The path is treacherous, the thick, swirling fog hiding things unseen.  No direction seems to offer relief from the untiring thorns."
-  ],
-  "image": "imt-bramble_patch-1307499864.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Frozen Bramble Patch]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24528": 0.2,
-    "24530": 0.2
-  },
-  "id": 24529,
-  "location": "the Abandoned Farm",
-  "tags": [
-    "snow lily",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "arctic moss",
-    "broken twig",
-    "rockberry",
-    "crowberry",
-    "lingonberry",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+  ]
 }

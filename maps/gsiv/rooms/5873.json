@@ -1,39 +1,36 @@
 {
-  "wayto": {
-    "5884": {
-      "stringproc": "75d35c4a82a71ed2c0f5379352075fa6"
-    },
-    "5874": "northeast",
-    "5869": {
-      "stringproc": "66e67e487ccd83ad1dc30d1d6032943a"
-    }
-  },
+  "id": 5873,
+  "title": [
+    "[Glaise Cnoc, Cemetery]"
+  ],
+  "description": [
+    "Headstones flank both sides of the gravel path here.  Weatherworn, the headstones in this area are obviously older than those which follow the fence enclosing the cemetery.  The gravel path crunches underfoot, but provides an easy route to follow."
+  ],
   "paths": [
     "Obvious paths: northeast, southwest"
   ],
+  "location": "the Glaise Cnoc Cemetary",
+  "wayto": {
+    "5884": {
+      "file": "string_procs/wayto/5873_5884.rb"
+    },
+    "5874": "northeast",
+    "5869": {
+      "file": "string_procs/wayto/5873_5869.rb"
+    }
+  },
+  "timeto": {
+    "5884": 1.2,
+    "5874": 0.2,
+    "5869": 1.2
+  },
+  "image": "en-cemetery-1264234799.png",
   "image_coords": [
     449,
     614,
     457,
     624
   ],
-  "terrain": null,
-  "description": [
-    "Headstones flank both sides of the gravel path here.  Weatherworn, the headstones in this area are obviously older than those which follow the fence enclosing the cemetery.  The gravel path crunches underfoot, but provides an easy route to follow."
-  ],
-  "image": "en-cemetery-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Glaise Cnoc, Cemetery]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5884": 1.2,
-    "5874": 0.2,
-    "5869": 1.2
-  },
-  "id": 5873,
-  "location": "the Glaise Cnoc Cemetary",
   "tags": [
     "stargazer lily",
     "cactacae spine",
@@ -110,8 +107,5 @@
     "wavepetal blossom",
     "sunburst blossom",
     "onion skin"
-  ],
-  "links": [
-
   ]
 }

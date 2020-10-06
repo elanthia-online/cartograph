@@ -1,38 +1,28 @@
 {
+  "id": 2055,
+  "title": [
+    "[Teras Isle, Suspension Bridge]"
+  ],
+  "description": [
+    "Within the wooden tunnel of the bridge, you can see nothing of the river outside.  Still, there can be no doubt of where this tunnel is.  The sounds of rushing water, the creak of rope on wood, and the unending sway, all tell you this is no mine shaft."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the old Logging Road",
   "wayto": {
     "2054": "west",
     "2056": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "2054": 0.2,
+    "2056": 0.2
+  },
+  "image": "ti-wilds-1264234799.png",
   "image_coords": [
     523,
     377,
     533,
     387
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Within the wooden tunnel of the bridge, you can see nothing of the river outside.  Still, there can be no doubt of where this tunnel is.  The sounds of rushing water, the creak of rope on wood, and the unending sway, all tell you this is no mine shaft."
-  ],
-  "image": "ti-wilds-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Teras Isle, Suspension Bridge]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2054": 0.2,
-    "2056": 0.2
-  },
-  "id": 2055,
-  "location": "the old Logging Road",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

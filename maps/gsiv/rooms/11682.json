@@ -1,35 +1,32 @@
 {
-  "wayto": {
-    "11681": "southeast",
-    "11683": {
-      "stringproc": "5bb3f07682b6eb192a498dc5e4b7d2ea"
-    }
-  },
+  "id": 11682,
+  "title": [
+    "[Ghastly Swamp, Foggy Path]"
+  ],
+  "description": [
+    "Tendrils of cold, damp fog swirl about the area, reducing visibility to nothing with encompassing walls of white mist, leaving no sign of the pathway underfoot.  Even the surrounding sounds and noises of the swampy area are muted by the fog, creating a stillness that permeates the area."
+  ],
   "paths": [
     "Obvious paths: southeast"
   ],
+  "location": "the Marsh Keep",
+  "wayto": {
+    "11681": "southeast",
+    "11683": {
+      "file": "string_procs/wayto/11682_11683.rb"
+    }
+  },
+  "timeto": {
+    "11681": 0.2,
+    "11683": 0.2
+  },
+  "image": "rr-marsh_keep-1266356986.png",
   "image_coords": [
     97,
     1161,
     107,
     1171
   ],
-  "terrain": "muddy wetlands",
-  "description": [
-    "Tendrils of cold, damp fog swirl about the area, reducing visibility to nothing with encompassing walls of white mist, leaving no sign of the pathway underfoot.  Even the surrounding sounds and noises of the swampy area are muted by the fog, creating a stillness that permeates the area."
-  ],
-  "image": "rr-marsh_keep-1266356986.png",
-  "climate": "moist",
-  "title": [
-    "[Ghastly Swamp, Foggy Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11681": 0.2,
-    "11683": 0.2
-  },
-  "id": 11682,
-  "location": "the Marsh Keep",
   "tags": [
     "some bur-clover root",
     "yellow heliconia",
@@ -40,30 +37,6 @@
     "pink heliconia",
     "white spider lily",
     "withered black mushroom",
-    "red heliconia",
-    "calamia fruit",
-    "aloeas stem",
-    "trollfear mushroom",
-    "soft white mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "water chestnut",
-    "stalk of cattail",
-    "spider lily",
-    "alligator lily",
-    "kylan berry",
-    "orange heliconia",
-    "murdroot",
-    "wavepetal blossom",
-    "bolmara lichen",
-    "talneo root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "red heliconia"
   ]
 }

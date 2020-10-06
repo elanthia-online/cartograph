@@ -1,47 +1,28 @@
 {
+  "id": 8020,
+  "title": [
+    "[Kobold Mines, Dark Pool]"
+  ],
+  "description": [
+    "You are standing on a narrow footpath worn into the smooth stone in between the cavern wall and the edge of the dark pool.  As you gaze out over the pool, you notice step-like terraces of slick rock that rise along one wall, creating a multi-layered natural dam.  Water trickles down from level to level, forming a quiet waterfall that pools near your feet."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the old Mine Road",
   "wayto": {
     "8019": "go footpath",
     "8021": "go shaft"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "8019": 0.2,
+    "8021": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     190,
     970,
     200,
     980
-  ],
-  "terrain": "indoors",
-  "description": [
-    "You are standing on a narrow footpath worn into the smooth stone in between the cavern wall and the edge of the dark pool.  As you gaze out over the pool, you notice step-like terraces of slick rock that rise along one wall, creating a multi-layered natural dam.  Water trickles down from level to level, forming a quiet waterfall that pools near your feet."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Kobold Mines, Dark Pool]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8019": 0.2,
-    "8021": 0.2
-  },
-  "id": 8020,
-  "location": "the old Mine Road",
-  "tags": [
-    "soft white mushroom",
-    "withered black mushroom",
-    "black hook mushroom",
-    "white hook mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

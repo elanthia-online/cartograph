@@ -1,35 +1,28 @@
 {
+  "id": 25119,
+  "title": [
+    "[Reim Castle, Pantry]"
+  ],
+  "description": [
+    "Row after row of trays, plates, and utensils are neatly organized on a collection of carved ironwood racks.  A hollowed chamber, lined with giant ice blocks, contains a collection of meats, cheeses, and dairy products.  Sitting opposite the hollowed chamber is a long pantry lined with assorted dry goods and jarred vegetables.  Some small, wooden carts remain half-packed with goods awaiting delivery."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Settlement of Reim",
   "wayto": {
     "25115": "south",
     "25118": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "25115": 0.2,
+    "25118": 0.2
+  },
+  "image": "imt-Reim-1260914759.png",
   "image_coords": [
     176,
     342,
     188,
     355
-  ],
-  "terrain": null,
-  "description": [
-    "Row after row of trays, plates, and utensils are neatly organized on a collection of carved ironwood racks.  A hollowed chamber, lined with giant ice blocks, contains a collection of meats, cheeses, and dairy products.  Sitting opposite the hollowed chamber is a long pantry lined with assorted dry goods and jarred vegetables.  Some small, wooden carts remain half-packed with goods awaiting delivery."
-  ],
-  "image": "imt-Reim-1260914759.png",
-  "climate": null,
-  "title": [
-    "[Reim Castle, Pantry]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "25115": 0.2,
-    "25118": 0.2
-  },
-  "id": 25119,
-  "location": "the Settlement of Reim",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

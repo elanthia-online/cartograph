@@ -1,37 +1,32 @@
 {
-  "wayto": {
-    "18959": {
-      "stringproc": "76f6b4e796840fa353b4a1d17768efe6"
-    }
-  },
+  "id": 18976,
+  "title": [
+    "[Sorcerer Guild, Guild Shop]"
+  ],
+  "description": [
+    "Thick redwood paneling serves to keep the chill from the cold basalt walls from seeping in.  The faintly glowing pipes running along two walls prevent the bitter cold beyond the walls from being noticeable unless one rests against one of the many stalagmites or stalactites.  A mannequin of ivory rests atop one of the numerous polar bear fur rugs in one corner.  In the center is a lone stalagmite, squared off at the top with several small objects resting in the grooves cut for them."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "the town of Icemule Trace",
+  "wayto": {
+    "18959": {
+      "file": "string_procs/wayto/18976_18959.rb"
+    }
+  },
+  "timeto": {
+    "18959": 0.2
+  },
+  "image": "imt-sorcerer_guild-1405076623.png",
   "image_coords": [
     641,
     743,
     681,
     782
   ],
-  "terrain": null,
-  "description": [
-    "Thick redwood paneling serves to keep the chill from the cold basalt walls from seeping in.  The faintly glowing pipes running along two walls prevent the bitter cold beyond the walls from being noticeable unless one rests against one of the many stalagmites or stalactites.  A mannequin of ivory rests atop one of the numerous polar bear fur rugs in one corner.  In the center is a lone stalagmite, squared off at the top with several small objects resting in the grooves cut for them."
-  ],
-  "image": "imt-sorcerer_guild-1405076623.png",
-  "climate": null,
-  "title": [
-    "[Sorcerer Guild, Guild Shop]"
-  ],
-  "check_location": false,
-  "timeto": {
-    "18959": 0.2
-  },
-  "id": 18976,
-  "location": "the town of Icemule Trace",
   "tags": [
     "sorcerer guild shop"
   ],
-  "links": [
-
-  ]
+  "check_location": false
 }

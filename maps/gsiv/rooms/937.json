@@ -1,38 +1,28 @@
 {
+  "id": 937,
+  "title": [
+    "[Whistler's Pass, Tunnel]"
+  ],
+  "description": [
+    "The tunnel opens up suddenly as the ground drops away into a deep gorge below.  Rushing water rumbles down the gorge, the sound thundering in the tunnel's mouth and bouncing off the stone walls endlessly.  A rope bridge extends across the gorge, to a ledge just visible at the bridge's far end."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "936": "north",
     "938": "go bridge"
   },
-  "paths": [
-    "Obvious paths: north"
-  ],
+  "timeto": {
+    "936": 0.2,
+    "938": 0.2
+  },
+  "image": "en-whistlers_pass-1264234799.png",
   "image_coords": [
     344,
     806,
     354,
     816
-  ],
-  "terrain": null,
-  "description": [
-    "The tunnel opens up suddenly as the ground drops away into a deep gorge below.  Rushing water rumbles down the gorge, the sound thundering in the tunnel's mouth and bouncing off the stone walls endlessly.  A rope bridge extends across the gorge, to a ledge just visible at the bridge's far end."
-  ],
-  "image": "en-whistlers_pass-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Whistler's Pass, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "936": 0.2,
-    "938": 0.2
-  },
-  "id": 937,
-  "location": "Whistler's Pass",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,30 +1,21 @@
 {
-  "wayto": {
-    "28232": "north",
-    "264": "go door"
-  },
-  "paths": [
-    "Obvious exits: north"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "The chamber narrows significantly, cluttered by rows and rows of unopened crates, barrels, and chests, each one labeled as food, ale, or supplies.  A low wooden shelf juts out from a far wall, its surface packed with folded clothing items, from tabards, to gloves, to boots and hats.  A few wooden tables have been stacked up in a corner, along with a number of unused cots."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 28237,
   "title": [
     "[Town Barracks, Storage Hall]"
   ],
-  "check_location": null,
-  "timeto": {
-    "28232": 0.2,
-    "264": 0.2
-  },
-  "id": 28237,
-  "location": "the town of Wehnimer's Landing",
-  "tags": [
-
+  "description": [
+    "The chamber narrows significantly, cluttered by rows and rows of unopened crates, barrels, and chests, each one labeled as food, ale, or supplies.  A low wooden shelf juts out from a far wall, its surface packed with folded clothing items, from tabards, to gloves, to boots and hats.  A few wooden tables have been stacked up in a corner, along with a number of unused cots."
   ],
-  "unique_loot": null
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the town of Wehnimer's Landing",
+  "wayto": {
+    "28238": "go door",
+    "28232": "north"
+  },
+  "timeto": {
+    "28238": 0.2,
+    "28232": 0.2
+  }
 }

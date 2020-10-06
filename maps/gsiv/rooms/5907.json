@@ -1,41 +1,35 @@
 {
-  "wayto": {
-    "3516": {
-      "stringproc": "132761fc3aefda51e3182390c445fd0e"
-    },
-    "5948": "southwest"
-  },
+  "id": 5907,
+  "title": [
+    "[Ta'Vaalor, Victory Gate]"
+  ],
+  "description": [
+    "The towering limestone facade of the Victory Gate is heavily carved with scenes of battle.  Hordes of elves fight faceless wraithen shapes, as flames rise from the ground and jagged, ripped clouds hang above.  Several city guardsmen stand near the gate, inspecting all who pass."
+  ],
   "paths": [
     "Obvious paths: southwest"
   ],
+  "location": "the city of Ta'Vaalor",
+  "wayto": {
+    "3516": {
+      "file": "string_procs/wayto/5907_3516.rb"
+    },
+    "5948": "southwest"
+  },
+  "timeto": {
+    "3516": {
+      "file": "string_procs/timeto/5907_3516.rb"
+    },
+    "5948": 0.2
+  },
+  "image": "en-victory-1264234799.png",
   "image_coords": [
     1126,
     370,
     1136,
     380
   ],
-  "terrain": null,
-  "description": [
-    "The towering limestone facade of the Victory Gate is heavily carved with scenes of battle.  Hordes of elves fight faceless wraithen shapes, as flames rise from the ground and jagged, ripped clouds hang above.  Several city guardsmen stand near the gate, inspecting all who pass."
-  ],
-  "image": "en-victory-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Ta'Vaalor, Victory Gate]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3516": {
-      "stringproc": "c605976957083abdc914cbf50ef48a56"
-    },
-    "5948": 0.2
-  },
-  "id": 5907,
-  "location": "the city of Ta'Vaalor",
   "tags": [
     "advguard"
-  ],
-  "links": [
-
   ]
 }

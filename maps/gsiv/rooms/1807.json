@@ -1,76 +1,34 @@
 {
+  "id": 1807,
+  "title": [
+    "[Wraithenmist, Misty Trail]"
+  ],
+  "description": [
+    "The trail threads its way through the thickening forest, barely visible in the eerie light filtering through the mist.  Droplets of condensation fall to the ground with a soft *plop*, their incessant noise the only sound to be heard."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "Wraithenmist",
   "wayto": {
     "1806": "northeast",
     "1808": "southwest"
   },
-  "paths": [
-    "Obvious paths: northeast, southwest"
-  ],
+  "timeto": {
+    "1806": 0.2,
+    "1808": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     491,
     264,
     499,
     272
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "The trail threads its way through the thickening forest, barely visible in the eerie light filtering through the mist.  Droplets of condensation fall to the ground with a soft *plop*, their incessant noise the only sound to be heard."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Wraithenmist, Misty Trail]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1806": 0.2,
-    "1808": 0.2
-  },
-  "id": 1807,
-  "location": "Wraithenmist",
   "tags": [
     "white hook mushroom",
     "some brostheras grass",
     "stick",
-    "bright red cranberry",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "tkaro root",
-    "sticks",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "soft white mushroom",
-    "withered black mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "blueberries",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "broken twig",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "small wild rose",
-    "sprig of wild lilac",
-    "wild chokecherry",
-    "tree bark",
-    "blue whortleberry",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bright red cranberry"
   ]
 }

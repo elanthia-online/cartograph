@@ -1,41 +1,31 @@
 {
-  "wayto": {
-    "12383": {
-      "stringproc": "c3d3f42bd1ccc69b71ceb2631a933781"
-    },
-    "1988": "go path"
-  },
+  "id": 12382,
+  "title": [
+    "[Aquamarine, Cul-de-sac]"
+  ],
+  "description": [
+    "A crooked path weaves through the maze of boxwood nooks, bringing you to the curved wall of stone, familiar for its fortress-like enclosure.  Dangling from a series of pulleys above, a thick rope hauls a large passenger basket up to a rocky ledge.",
+    "A crooked path weaves through the maze of boxwood nooks, bringing you to the curved wall of stone, familiar for its fortress-like enclosure.  Dangling from a series of pulleys above, a thick rope hauls a large passenger basket up to a rocky ledge.  Several flickering, wall-braced invar sconces run the length of the apparatus, lighting the way."
+  ],
   "paths": [
     "Obvious paths: none"
   ],
+  "location": "Kharam-Dzu",
+  "wayto": {
+    "12383": {
+      "file": "string_procs/wayto/12382_12383.rb"
+    },
+    "1988": "go path"
+  },
+  "timeto": {
+    "12383": 0.6,
+    "1988": 0.2
+  },
+  "image": "ti-teras-1264234799.png",
   "image_coords": [
     203,
     180,
     239,
     216
-  ],
-  "terrain": null,
-  "description": [
-    "A crooked path weaves through the maze of boxwood nooks, bringing you to the curved wall of stone, familiar for its fortress-like enclosure.  Dangling from a series of pulleys above, a thick rope hauls a large passenger basket up to a rocky ledge.",
-    "A crooked path weaves through the maze of boxwood nooks, bringing you to the curved wall of stone, familiar for its fortress-like enclosure.  Dangling from a series of pulleys above, a thick rope hauls a large passenger basket up to a rocky ledge.  Several flickering, wall-braced invar sconces run the length of the apparatus, lighting the way."
-  ],
-  "image": "ti-teras-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Aquamarine, Cul-de-sac]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "12383": 0.6,
-    "1988": 0.2
-  },
-  "id": 12382,
-  "location": "Kharam-Dzu",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

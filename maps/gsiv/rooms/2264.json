@@ -1,33 +1,30 @@
 {
+  "id": 2264,
+  "title": [
+    "[Abandoned Mine]"
+  ],
+  "description": [
+    "The colorful vein along the eastern wall widens to the south and narrows almost to a point at the north.  Several moths dart and weave around a single torch that flickers weakly near the southwestern edge of the chamber."
+  ],
+  "paths": [
+    "Obvious exits: north, southwest"
+  ],
+  "location": "the Abandoned Mine",
   "wayto": {
     "2263": "north",
     "2265": "southwest"
   },
-  "paths": [
-    "Obvious exits: north, southwest"
-  ],
+  "timeto": {
+    "2263": 0.2,
+    "2265": 0.2
+  },
+  "image": "ti-teras-1264234799.png",
   "image_coords": [
     521,
     948,
     531,
     958
   ],
-  "terrain": "indoors",
-  "description": [
-    "The colorful vein along the eastern wall widens to the south and narrows almost to a point at the north.  Several moths dart and weave around a single torch that flickers weakly near the southwestern edge of the chamber."
-  ],
-  "image": "ti-teras-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abandoned Mine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2263": 0.2,
-    "2265": 0.2
-  },
-  "id": 2264,
-  "location": "the Abandoned Mine",
   "tags": [
     "genkew mushroom",
     "soft white mushroom",
@@ -39,14 +36,6 @@
     "flathead mushroom",
     "some bolmara lichen",
     "daggerstalk mushroom",
-    "some cave moss",
-    "cave moss",
-    "murdroot",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

@@ -1,42 +1,32 @@
 {
+  "id": 11206,
+  "title": [
+    "[Armory, Hallway]"
+  ],
+  "description": [
+    "The vines which covered the ceiling in the other parts of the hallway have not made much headway in this section.  The floor is clear of debris, although the walls bear heavy gouge-marks."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south, west"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11216": "north",
     "11205": "south",
     "11218": "west",
     "11207": "east"
   },
-  "paths": [
-    "Obvious exits: north, east, south, west"
-  ],
-  "image_coords": [
-    251,
-    206,
-    261,
-    216
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The vines which covered the ceiling in the other parts of the hallway have not made much headway in this section.  The floor is clear of debris, although the walls bear heavy gouge-marks."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Armory, Hallway]"
-  ],
-  "check_location": null,
   "timeto": {
     "11216": 0.2,
     "11205": 0.2,
     "11218": 0.2,
     "11207": 0.2
   },
-  "id": 11206,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-citadel-1267238976.png",
+  "image_coords": [
+    251,
+    206,
+    261,
+    216
   ]
 }

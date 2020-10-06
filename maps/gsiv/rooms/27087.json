@@ -1,35 +1,28 @@
 {
+  "id": 27087,
+  "title": [
+    "[Wildwood of the Dryad, Boscage]"
+  ],
+  "description": [
+    "Torn banners dangle from branches and lamp posts are weathered and ruined by a leafy vine-covered arch.  Several hollowed acorns are strewn across the footpath where bipedal hoof imprints are pressed into some of the exposed soil.  Motes of various colors drift in and out of the moonlight high above the forest."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Coraesine Forest",
   "wayto": {
     "27067": "go arch",
     "27075": "north"
   },
-  "paths": [
-    "Obvious paths: north"
-  ],
+  "timeto": {
+    "27067": 0.2,
+    "27075": 0.2
+  },
+  "image": "en-wildwood.png",
   "image_coords": [
     380,
     1146,
     430,
     1197
-  ],
-  "terrain": null,
-  "description": [
-    "Torn banners dangle from branches and lamp posts are weathered and ruined by a leafy vine-covered arch.  Several hollowed acorns are strewn across the footpath where bipedal hoof imprints are pressed into some of the exposed soil.  Motes of various colors drift in and out of the moonlight high above the forest."
-  ],
-  "image": "en-wildwood.png",
-  "climate": null,
-  "title": [
-    "[Wildwood of the Dryad, Boscage]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "27067": 0.2,
-    "27075": 0.2
-  },
-  "id": 27087,
-  "location": "Coraesine Forest",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

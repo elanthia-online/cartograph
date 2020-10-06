@@ -1,33 +1,30 @@
 {
+  "id": 3242,
+  "title": [
+    "[Ice Plains, Hill Base]"
+  ],
+  "description": [
+    "The hills join together here in a valley covered with deep drifts of snow.  Travel further along the path without getting lost beneath the snow might be possible, with some luck.  The wind is not as noticeable in this area, as the hills around you provide excellent protection."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the Ice Plains",
   "wayto": {
     "3241": "east",
     "3243": "go path"
   },
-  "paths": [
-    "Obvious paths: east"
-  ],
+  "timeto": {
+    "3241": 0.2,
+    "3243": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     96,
     533,
     106,
     543
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "The hills join together here in a valley covered with deep drifts of snow.  Travel further along the path without getting lost beneath the snow might be possible, with some luck.  The wind is not as noticeable in this area, as the hills around you provide excellent protection."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Ice Plains, Hill Base]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3241": 0.2,
-    "3243": 0.2
-  },
-  "id": 3242,
-  "location": "the Ice Plains",
   "tags": [
     "winter rose",
     "some angelica root",
@@ -38,16 +35,6 @@
     "some pennyroyal stem",
     "sweetfern stalk",
     "handful of snowberries",
-    "some valerian root",
-    "sticks",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "broken twig",
-    "snowberries",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some valerian root"
   ]
 }

@@ -1,42 +1,32 @@
 {
+  "id": 20831,
+  "title": [
+    "[House Sovyn, Vault]"
+  ],
+  "description": [
+    "This small cave is brightly lit by some sort of glowing fungus which covers all the walls.  A path has been worn out of the stone floor by repeated use.  You also see a curtain leading to a small alcove and a lever on one wall."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "20818": {
-      "stringproc": "d7ac405d7a29c02b4cc4a1e287bb15da"
+      "file": "string_procs/wayto/20831_20818.rb"
     },
     "20832": "go curtain",
     "20833": "south"
   },
-  "paths": [
-    "Obvious exits: south"
-  ],
-  "image_coords": [
-    574,
-    1450,
-    742,
-    1536
-  ],
-  "terrain": null,
-  "description": [
-    "This small cave is brightly lit by some sort of glowing fungus which covers all the walls.  A path has been worn out of the stone floor by repeated use.  You also see a curtain leading to a small alcove and a lever on one wall."
-  ],
-  "image": "wl-house_sovyn-11481362649.png",
-  "climate": null,
-  "title": [
-    "[House Sovyn, Vault]"
-  ],
-  "check_location": null,
   "timeto": {
     "20818": 0.2,
     "20832": 0.2,
     "20833": 0.2
   },
-  "id": 20831,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
+  "image": "wl-house_sovyn-11481362649.png",
+  "image_coords": [
+    574,
+    1450,
+    742,
+    1536
   ]
 }

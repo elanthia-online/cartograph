@@ -1,50 +1,30 @@
 {
+  "id": 9599,
+  "title": [
+    "[Czeroth Caverns, Tunnel]"
+  ],
+  "description": [
+    "The tunnel slopes steeply here, making it difficult to maintain your footing, and the smooth ground offers little traction.  Small veins of silver are visible on the tunnel walls."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, southwest"
+  ],
+  "location": "the Czeroth Caverns",
   "wayto": {
     "9598": "southwest",
     "9608": "southeast",
     "9600": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southeast, southwest"
-  ],
-  "image_coords": [
-    1284,
-    355,
-    1294,
-    365
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The tunnel slopes steeply here, making it difficult to maintain your footing, and the smooth ground offers little traction.  Small veins of silver are visible on the tunnel walls."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Czeroth Caverns, Tunnel]"
-  ],
-  "check_location": null,
   "timeto": {
     "9598": 0.2,
     "9608": 0.2,
     "9600": 0.2
   },
-  "id": 9599,
-  "location": "the Czeroth Caverns",
-  "tags": [
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-zul_logoth-1264234799.png",
+  "image_coords": [
+    1284,
+    355,
+    1294,
+    365
   ]
 }

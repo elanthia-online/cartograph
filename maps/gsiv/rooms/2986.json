@@ -1,41 +1,33 @@
 {
+  "id": 2986,
+  "title": [
+    "[Abbey, Ossuary]"
+  ],
+  "description": [
+    "Two urns of solid ivory, one tall and one squat, guard the entrance to this room, both deeply etched with the symbol of Oleani.  Dust crawls about the floor with every footfall, carpetlike in its thickness.  A single strand of web stretches the length of the room, creating a tiny bridge from one corner to the other, its delicate form swaying gently from some recent disturbance."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east, south"
+  ],
+  "location": "the Abbey",
   "wayto": {
     "2983": "south",
     "2985": "east",
     "2987": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, east, south"
-  ],
-  "image_coords": [
-    784,
-    460,
-    794,
-    470
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Two urns of solid ivory, one tall and one squat, guard the entrance to this room, both deeply etched with the symbol of Oleani.  Dust crawls about the floor with every footfall, carpetlike in its thickness.  A single strand of web stretches the length of the room, creating a tiny bridge from one corner to the other, its delicate form swaying gently from some recent disturbance."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abbey, Ossuary]"
-  ],
-  "check_location": null,
   "timeto": {
     "2983": 0.2,
     "2985": 0.2,
     "2987": 0.2
   },
-  "id": 2986,
-  "location": "the Abbey",
-  "tags": [
-    "arch wight",
-    "no forageables",
-    "meta:forage-sensed"
+  "image": "imt-Abbey Map-51200831.png",
+  "image_coords": [
+    2558,
+    612,
+    2664,
+    720
   ],
-  "links": [
-
+  "tags": [
+    "arch wight"
   ]
 }

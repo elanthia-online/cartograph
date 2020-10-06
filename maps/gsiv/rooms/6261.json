@@ -1,33 +1,30 @@
 {
+  "id": 6261,
+  "title": [
+    "[Lower Dragonsclaw, Briar Patch]"
+  ],
+  "description": [
+    "Underbrush and stunted oaks twist together in a death grip as the ground begins to slope downward.  Some of the nearby briars have stems so thick that, if not for their hateful thorns, you could almost mistake them for saplings.  The oaks, in turn, are bent double by masses of clinging vines.  The whole effect is of a nasty little miniature Dragonsclaw."
+  ],
+  "paths": [
+    "Obvious paths: northeast, down"
+  ],
+  "location": "the Lower Dragonsclaw",
   "wayto": {
     "6260": "northeast",
     "6262": "down"
   },
-  "paths": [
-    "Obvious paths: northeast, down"
-  ],
+  "timeto": {
+    "6260": 0.2,
+    "6262": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     324,
     311,
     334,
     321
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "Underbrush and stunted oaks twist together in a death grip as the ground begins to slope downward.  Some of the nearby briars have stems so thick that, if not for their hateful thorns, you could almost mistake them for saplings.  The oaks, in turn, are bent double by masses of clinging vines.  The whole effect is of a nasty little miniature Dragonsclaw."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Lower Dragonsclaw, Briar Patch]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6260": 0.2,
-    "6262": 0.2
-  },
-  "id": 6261,
-  "location": "the Lower Dragonsclaw",
   "tags": [
     "some wolifrew lichen",
     "some acantha leaf",
@@ -69,10 +66,6 @@
     "murdroot",
     "slender twig",
     "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

@@ -1,67 +1,37 @@
 {
+  "id": 2840,
+  "title": [
+    "[Northern Slopes, Quiet Forest]"
+  ],
+  "description": [
+    "This rocky, tree-covered ledge is clearly hazardous. Pebbles, snow, and loose ice slide down the slope with each powerful gust of chill wind. An icy incline leads to a large forested shelf above you."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the Sleeping Lady Mountains",
   "wayto": {
     "2871": "climb slope",
     "2839": "east",
     "2841": {
-      "stringproc": "80a59b21c47bc053be2dbc95000a8d36"
+      "file": "string_procs/wayto/2840_2841.rb"
     }
   },
-  "paths": [
-    "Obvious paths: east"
-  ],
+  "timeto": {
+    "2871": 0.2,
+    "2839": 0.2,
+    "2841": 0.2
+  },
+  "image": "imt-pinefar-1264234799.png",
   "image_coords": [
     249,
     1244,
     259,
     1254
   ],
-  "terrain": "mountainous",
-  "description": [
-    "This rocky, tree-covered ledge is clearly hazardous. Pebbles, snow, and loose ice slide down the slope with each powerful gust of chill wind. An icy incline leads to a large forested shelf above you."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Northern Slopes, Quiet Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2871": 0.2,
-    "2839": 0.2,
-    "2841": 0.2
-  },
-  "id": 2840,
-  "location": "the Sleeping Lady Mountains",
   "tags": [
     "sassafras leaf",
     "handful of snowberries",
-    "sprig of edelweiss",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "edelweiss",
-    "iceblossoms",
-    "snow lily",
-    "winter rose",
-    "arctic moss",
-    "tundra grass",
-    "golden aster",
-    "calamintha blossom",
-    "snowberries",
-    "pale thornberry",
-    "red winterberry",
-    "small loganberry",
-    "rockberry",
-    "crowberry",
-    "lingonberry",
-    "orange rowanberry",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sprig of edelweiss"
   ]
 }

@@ -1,48 +1,37 @@
 {
+  "id": 5371,
+  "title": [
+    "[Noman's Land, Cave]"
+  ],
+  "description": [
+    "Hide ropes are strung from massive wooden stakes driven into the ground around the perimeter of this large, round chamber.  Urgh carcasses hang here to ripen, some of them skinned, some still bearing fur.  A small, smoky fire burns in a small pit in the center of this oversize pantry."
+  ],
+  "paths": [
+    "Obvious exits: southeast, south, southwest, west"
+  ],
+  "location": "Noman's Land",
   "wayto": {
     "5370": "west",
     "5372": "southwest",
     "5373": "south",
     "5374": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast, south, southwest, west"
-  ],
-  "image_coords": [
-    188,
-    639,
-    196,
-    647
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Hide ropes are strung from massive wooden stakes driven into the ground around the perimeter of this large, round chamber.  Urgh carcasses hang here to ripen, some of them skinned, some still bearing fur.  A small, smoky fire burns in a small pit in the center of this oversize pantry."
-  ],
-  "image": "vo-caravansary-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Noman's Land, Cave]"
-  ],
-  "check_location": null,
   "timeto": {
     "5370": 0.2,
     "5372": 0.2,
     "5373": 0.2,
     "5374": 0.2
   },
-  "id": 5371,
-  "location": "Noman's Land",
+  "image": "vo-caravansary-1264234799.png",
+  "image_coords": [
+    188,
+    639,
+    196,
+    647
+  ],
   "tags": [
     "withered black mushroom",
     "some wolifrew lichen",
-    "cyclops",
-    "wolifrew lichen",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "cyclops"
   ]
 }

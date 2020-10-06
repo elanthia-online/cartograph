@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "12194": "north",
-    "12152": {
-      "stringproc": "e7b269de45035581300c76daf9e751cf"
-    },
-    "12089": {
-      "stringproc": "df16ace028c72dba18b51257349345d8"
-    },
-    "2635": {
-      "stringproc": "a5fc698b4e8aaa983aa8f5ad92908980"
-    },
-    "12192": "south"
-  },
+  "id": 12193,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "The fog you wander through parts to reveal thousands of stairways surrounding you.  Sets of stairs lead to unknown destinations around you, up and down, horizontal and vertical.  The bizarre monument fills your vision as far as you can see, none of the stairs really appear to be going anywhere except to other stairs."
+  ],
   "paths": [
     "Obvious paths: north, south",
     "Obvious exits: north, south"
   ],
-  "image_coords": [
-    78,
-    1194,
-    88,
-    1204
-  ],
-  "terrain": null,
-  "description": [
-    "The fog you wander through parts to reveal thousands of stairways surrounding you.  Sets of stairs lead to unknown destinations around you, up and down, horizontal and vertical.  The bizarre monument fills your vision as far as you can see, none of the stairs really appear to be going anywhere except to other stairs."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12194": "north",
+    "12152": {
+      "file": "string_procs/wayto/12193_12152.rb"
+    },
+    "12089": {
+      "file": "string_procs/wayto/12193_12089.rb"
+    },
+    "2635": {
+      "file": "string_procs/wayto/12193_2635.rb"
+    },
+    "12192": "south"
+  },
   "timeto": {
     "12194": 0.2,
     "12152": 21.6,
@@ -39,8 +31,13 @@
     "2635": 21.6,
     "12192": 0.2
   },
-  "id": 12193,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    78,
+    1194,
+    88,
+    1204
+  ],
   "tags": [
     "twisted black mawflower",
     "slime-covered grave blossom",
@@ -49,8 +46,5 @@
     "withered deathblossom",
     "rotting bile green fleshbulb",
     "oozing fleshsore bulb"
-  ],
-  "links": [
-
   ]
 }

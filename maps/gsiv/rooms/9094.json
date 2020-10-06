@@ -1,38 +1,28 @@
 {
+  "id": 9094,
+  "title": [
+    "[Icemule Trace, Well]"
+  ],
+  "description": [
+    "Shattered paving stones mark where the well once ended.  A dark crack runs the length of the floor and beyond are a set of stairs curving down into the darkness.  Grating encircles you, where water must have once entered.  The floor is bone-dry now."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "the subterranean tunnels",
   "wayto": {
     "9093": "up",
     "9095": "down"
   },
-  "paths": [
-    "Obvious exits: up, down"
-  ],
+  "timeto": {
+    "9093": 0.2,
+    "9095": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     201,
     305,
     211,
     315
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Shattered paving stones mark where the well once ended.  A dark crack runs the length of the floor and beyond are a set of stairs curving down into the darkness.  Grating encircles you, where water must have once entered.  The floor is bone-dry now."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Icemule Trace, Well]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9093": 0.2,
-    "9095": 0.2
-  },
-  "id": 9094,
-  "location": "the subterranean tunnels",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

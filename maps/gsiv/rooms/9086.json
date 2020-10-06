@@ -1,43 +1,33 @@
 {
+  "id": 9086,
+  "title": [
+    "[Infested Tunnels, Rat's Nest]"
+  ],
+  "description": [
+    "Broken bones litter the floor, arranged in heaps and piled against the walls in the way straw and other debris are used in the chambers below.  Even a lich would turn up its nose at this place."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest, west"
+  ],
+  "location": "the subterranean tunnels",
   "wayto": {
     "9087": "west",
     "9091": "southeast",
     "9084": "southwest"
   },
-  "paths": [
-    "Obvious exits: southeast, southwest, west"
-  ],
+  "timeto": {
+    "9087": 0.2,
+    "9091": 0.2,
+    "9084": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     1324,
     226,
     1334,
     236
   ],
-  "terrain": "indoors",
-  "description": [
-    "Broken bones litter the floor, arranged in heaps and piled against the walls in the way straw and other debris are used in the chambers below.  Even a lich would turn up its nose at this place."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Infested Tunnels, Rat's Nest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9087": 0.2,
-    "9091": 0.2,
-    "9084": 0.2
-  },
-  "id": 9086,
-  "location": "the subterranean tunnels",
   "tags": [
-    "some wolifrew lichen",
-    "wolifrew lichen",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wolifrew lichen"
   ]
 }

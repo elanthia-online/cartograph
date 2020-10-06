@@ -1,38 +1,27 @@
 {
+  "id": 11115,
+  "title": [
+    "[Krol Ship, Forecastle]"
+  ],
+  "description": [
+    "The deck here is elevated from the main deck to provide a tactical advantage to the sailors during boardings.  From here most of the river can be viewed, as well as most of the cove to the south."
+  ],
+  "paths": [
+    "Obvious paths: down"
+  ],
   "wayto": {
     "11116": "climb bowsprit",
     "11114": "down"
   },
-  "paths": [
-    "Obvious paths: down"
-  ],
+  "timeto": {
+    "11116": 0.2,
+    "11114": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     1169,
     663,
     1179,
     673
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "The deck here is elevated from the main deck to provide a tactical advantage to the sailors during boardings.  From here most of the river can be viewed, as well as most of the cove to the south."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "freshwater",
-  "title": [
-    "[Krol Ship, Forecastle]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11116": 0.2,
-    "11114": 0.2
-  },
-  "id": 11115,
-  "location": "the Sea Caves",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

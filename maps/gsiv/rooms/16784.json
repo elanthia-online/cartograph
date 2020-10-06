@@ -1,42 +1,32 @@
 {
+  "id": 16784,
+  "title": [
+    "[Temple Wyneb, Occipitum]"
+  ],
+  "description": [
+    "A robed wizardess is carved deeply into the blood-red marble on the east wall.  She is casting a spell, and black lines of energy explode from her hands to create a protective sphere all around her."
+  ],
+  "paths": [
+    "Obvious exits: southwest, northwest"
+  ],
+  "location": "Temple Wyneb",
   "wayto": {
     "16782": "southwest",
     "16783": "northwest",
     "16785": {
-      "stringproc": "c9947e76de0adc120a6311054f4af78e"
+      "file": "string_procs/wayto/16784_16785.rb"
     }
   },
-  "paths": [
-    "Obvious exits: southwest, northwest"
-  ],
-  "image_coords": [
-    824,
-    573,
-    834,
-    583
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A robed wizardess is carved deeply into the blood-red marble on the east wall.  She is casting a spell, and black lines of energy explode from her hands to create a protective sphere all around her."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Temple Wyneb, Occipitum]"
-  ],
-  "check_location": null,
   "timeto": {
     "16782": 0.2,
     "16783": 0.2,
     "16785": 0.4
   },
-  "id": 16784,
-  "location": "Temple Wyneb",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-skull-1264234799.png",
+  "image_coords": [
+    824,
+    573,
+    834,
+    583
   ]
 }

@@ -1,35 +1,32 @@
 {
+  "id": 7227,
+  "title": [
+    "[Under Crypt, Tunnels]"
+  ],
+  "description": [
+    "A glitter of something set in the wall catches your eye for a moment before you realize it is merely a reflection from ice crystals forming from the deepening cold."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast, south"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7228": "southeast",
     "7231": "south",
     "7226": "north"
   },
-  "paths": [
-    "Obvious exits: north, southeast, south"
-  ],
+  "timeto": {
+    "7228": 0.2,
+    "7231": 0.2,
+    "7226": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     744,
     492,
     754,
     502
   ],
-  "terrain": "indoors",
-  "description": [
-    "A glitter of something set in the wall catches your eye for a moment before you realize it is merely a reflection from ice crystals forming from the deepening cold."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Under Crypt, Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7228": 0.2,
-    "7231": 0.2,
-    "7226": 0.2
-  },
-  "id": 7227,
-  "location": "the Graveyard",
   "tags": [
     "some wolifrew lichen",
     "arch weight",
@@ -39,10 +36,6 @@
     "cave moss",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

@@ -1,44 +1,33 @@
 {
+  "id": 5228,
+  "title": [
+    "[Vornavian Coast, South Beach]"
+  ],
+  "description": [
+    "A massive oak tree has toppled from the cliff to the east here, and is tall enough to allow a climb to the top of the cliffs.  The roots of the tree still cling to the cliffside, and rocks lie strewn about the tree on the beach, dislodged in the fall."
+  ],
+  "paths": [
+    "Obvious paths: southwest, northwest"
+  ],
+  "location": "the Vornavian Coast",
   "wayto": {
     "5227": "northwest",
     "5229": "southwest",
     "5264": "climb tree"
   },
-  "paths": [
-    "Obvious paths: southwest, northwest"
-  ],
+  "timeto": {
+    "5227": 0.2,
+    "5229": 0.2,
+    "5264": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     413,
     953,
     423,
     963
   ],
-  "terrain": "riparian",
-  "description": [
-    "A massive oak tree has toppled from the cliff to the east here, and is tall enough to allow a climb to the top of the cliffs.  The roots of the tree still cling to the cliffside, and rocks lie strewn about the tree on the beach, dislodged in the fall."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "saltwater",
-  "title": [
-    "[Vornavian Coast, South Beach]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5227": 0.2,
-    "5229": 0.2,
-    "5264": 0.2
-  },
-  "id": 5228,
-  "location": "the Vornavian Coast",
   "tags": [
-    "strand of seaweed",
-    "yabathilium fruit",
-    "strof seaweed",
-    "murdroot",
-    "wavepetal blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "strand of seaweed"
   ]
 }

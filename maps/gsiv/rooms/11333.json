@@ -1,35 +1,32 @@
 {
+  "id": 11333,
+  "title": [
+    "[Citadel, Gardens]"
+  ],
+  "description": [
+    "Lined with tile, a large pool rests in the center of the citadel's garden.  A statue carved in the likeness of Aeia, a local goddess of the earth, stands in the middle of the pool.  The water that feeds the pool seeps forth from the base of the statue."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest, northwest"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11332": "northwest",
     "11335": "southwest",
     "11334": "se"
   },
-  "paths": [
-    "Obvious paths: southeast, southwest, northwest"
-  ],
+  "timeto": {
+    "11332": 0.2,
+    "11334": 0.2,
+    "11335": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     1034,
     929,
     1044,
     939
   ],
-  "terrain": "grassland",
-  "description": [
-    "Lined with tile, a large pool rests in the center of the citadel's garden.  A statue carved in the likeness of Aeia, a local goddess of the earth, stands in the middle of the pool.  The water that feeds the pool seeps forth from the base of the statue."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "temperate",
-  "title": [
-    "[Citadel, Gardens]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11332": 0.2,
-    "11334": 0.2,
-    "11335": 0.2
-  },
-  "id": 11333,
-  "location": "the Citadel",
   "tags": [
     "flathead mushroom",
     "handful of huckleberries",
@@ -87,26 +84,6 @@
     "white clover blossom",
     "rose-marrow root",
     "small flower",
-    "small wild rose",
-    "acantha leaf",
-    "ambrominas leaf",
-    "sovyn clove",
-    "angelica root",
-    "wild grapes",
-    "Imaera's Lace",
-    "motherwort",
-    "flaeshorn berry",
-    "huckleberries",
-    "raspberries",
-    "wiregrass",
-    "murkweed",
-    "mistweed",
-    "white lily",
-    "fire lily",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "small wild rose"
   ]
 }

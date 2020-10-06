@@ -1,37 +1,31 @@
 {
+  "id": 18100,
+  "title": [
+    "[Wizard Guild, Storage Room]"
+  ],
+  "description": [
+    "A rough-hewn pine floor supports a tall wooden cabinet against one of the room's four white walls.  Set off to one side is a large dust bin, built from the same unfinished wood as the room's floor."
+  ],
+  "paths": [
+    "Obvious exits: east, up"
+  ],
+  "location": "Kharam-Dzu",
   "wayto": {
     "18079": "up",
     "18107": "east"
   },
-  "paths": [
-    "Obvious exits: east, up"
-  ],
+  "timeto": {
+    "18079": 0.2,
+    "18107": 0.2
+  },
+  "image": "ti-wizard_guild.png",
   "image_coords": [
     668,
     268,
     732,
     331
   ],
-  "terrain": null,
-  "description": [
-    "A rough-hewn pine floor supports a tall wooden cabinet against one of the room's four white walls.  Set off to one side is a large dust bin, built from the same unfinished wood as the room's floor."
-  ],
-  "image": "ti-wizard_guild.png",
-  "climate": null,
-  "title": [
-    "[Wizard Guild, Storage Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "18079": 0.2,
-    "18107": 0.2
-  },
-  "id": 18100,
-  "location": "Kharam-Dzu",
   "tags": [
     "wizard alchemy cleaning supplies"
-  ],
-  "links": [
-
   ]
 }

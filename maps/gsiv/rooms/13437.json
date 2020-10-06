@@ -1,47 +1,28 @@
 {
+  "id": 13437,
+  "title": [
+    "[Ta'Illistim, Catacombs]"
+  ],
+  "description": [
+    "At the far end of this subterranean granite tunnel, a darkened opening resembling a gaping maw seems to beckon, while a nearby trickle of light provides a welcome refuge."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Ta'Illistim",
   "wayto": {
     "13438": "west",
     "13244": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "13438": 0.2,
+    "13244": 0.2
+  },
+  "image": "en-ta_illistim-new.jpg",
   "image_coords": [
     219,
     984,
     241,
     1005
-  ],
-  "terrain": "indoors",
-  "description": [
-    "At the far end of this subterranean granite tunnel, a darkened opening resembling a gaping maw seems to beckon, while a nearby trickle of light provides a welcome refuge."
-  ],
-  "image": "en-ta_illistim-new.jpg",
-  "climate": "indoors",
-  "title": [
-    "[Ta'Illistim, Catacombs]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "13438": 0.2,
-    "13244": 0.2
-  },
-  "id": 13437,
-  "location": "Ta'Illistim",
-  "tags": [
-    "soft white mushroom",
-    "withered black mushroom",
-    "black hook mushroom",
-    "white hook mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

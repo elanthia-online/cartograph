@@ -1,40 +1,29 @@
 {
+  "id": 11570,
+  "title": [
+    "[Cargo Hold]"
+  ],
+  "description": [
+    "The wide-planked deck slants to starboard.  Wooden crates and barrels are stacked from deck to ceiling.  Most are lashed against each other and to the bulkhead, but a few have broken loose."
+  ],
+  "paths": [
+    "Obvious exits: north, west, northwest"
+  ],
   "wayto": {
     "11567": "west",
     "11568": "north",
     "11564": "northwest"
   },
-  "paths": [
-    "Obvious exits: north, west, northwest"
-  ],
-  "image_coords": [
-    194,
-    1342,
-    204,
-    1352
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The wide-planked deck slants to starboard.  Wooden crates and barrels are stacked from deck to ceiling.  Most are lashed against each other and to the bulkhead, but a few have broken loose."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "indoors",
-  "title": [
-    "[Cargo Hold]"
-  ],
-  "check_location": null,
   "timeto": {
     "11567": 0.2,
     "11568": 0.2,
     "11564": 0.2
   },
-  "id": 11570,
-  "location": "the Shattered Moors",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-maelstrom-1266390501.png",
+  "image_coords": [
+    194,
+    1342,
+    204,
+    1352
   ]
 }

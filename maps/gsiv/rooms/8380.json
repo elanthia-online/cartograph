@@ -1,48 +1,36 @@
 {
+  "id": 8380,
+  "title": [
+    "[Thanatoph Bowels, Tunnel]"
+  ],
+  "description": [
+    "Loose dirt is piled along the edges of the floor, but the middle of the path is smooth and flat as if something heavy travels this direction quite often.  A giant pockmark mars the earthen wall of this tunnel, but the faint light of the area refuses to reveal its contents."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, southeast"
+  ],
+  "location": "the bowels of Thanatoph",
   "wayto": {
     "8381": "southeast",
     "8382": "north",
     "8379": "northeast"
   },
-  "paths": [
-    "Obvious exits: north, northeast, southeast"
-  ],
+  "timeto": {
+    "8381": 0.2,
+    "8382": 0.2,
+    "8379": 0.2
+  },
+  "image": "wl-stronghold-1264234799.png",
   "image_coords": [
     1051,
     492,
     1061,
     502
   ],
-  "terrain": "indoors",
-  "description": [
-    "Loose dirt is piled along the edges of the floor, but the middle of the path is smooth and flat as if something heavy travels this direction quite often.  A giant pockmark mars the earthen wall of this tunnel, but the faint light of the area refuses to reveal its contents."
-  ],
-  "image": "wl-stronghold-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thanatoph Bowels, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8381": 0.2,
-    "8382": 0.2,
-    "8379": 0.2
-  },
-  "id": 8380,
-  "location": "the bowels of Thanatoph",
   "tags": [
     "withered black mushroom",
     "some wingstem root",
     "some cave moss",
-    "some wolifrew lichen",
-    "wolifrew lichen",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wolifrew lichen"
   ]
 }

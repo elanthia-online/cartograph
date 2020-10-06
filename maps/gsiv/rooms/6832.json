@@ -1,47 +1,33 @@
 {
+  "id": 6832,
+  "title": [
+    "[Upper Trollfang, Outside Inn]"
+  ],
+  "description": [
+    "A patch of scorched earth, a blackened, hardened ring of now baked mud, crosses the path and forbids the growth of any vegetation within its dead, foul boundaries.  The spot forms a perfect circle, and no signs of brushfire, lightning strike or other natural disaster mar the landscape."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "6831": "south",
     "6833": "north"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "6831": 0.2,
+    "6833": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     1082,
     665,
     1092,
     675
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "A patch of scorched earth, a blackened, hardened ring of now baked mud, crosses the path and forbids the growth of any vegetation within its dead, foul boundaries.  The spot forms a perfect circle, and no signs of brushfire, lightning strike or other natural disaster mar the landscape."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Upper Trollfang, Outside Inn]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6831": 0.2,
-    "6833": 0.2
-  },
-  "id": 6832,
-  "location": "the Upper Trollfang",
   "tags": [
     "some cothinar flower",
     "moonlight cactus-bloom",
-    "ironfern root",
-    "cothinar flower",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "stalk of chicory",
-    "broken twig",
-    "sprig of larkspur",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

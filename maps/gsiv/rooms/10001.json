@@ -1,33 +1,30 @@
 {
+  "id": 10001,
+  "title": [
+    "[Yegharren Valley, Ravine Ledge]"
+  ],
+  "description": [
+    "The precarious ledge winds beneath a jagged overhang of the wall, and the stone under the eternal shadow is dark and cool.  Crude paintings of soaring, monstrous birds cover the moss-tinged wall in the shelter of the ledge, untouched by the howling wind that whistles through the grotto."
+  ],
+  "paths": [
+    "Obvious paths: southeast, west"
+  ],
+  "location": "the Yegharren Plains",
   "wayto": {
     "10002": "southeast",
     "9999": "west"
   },
-  "paths": [
-    "Obvious paths: southeast, west"
-  ],
+  "timeto": {
+    "10002": 0.2,
+    "9999": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     1296,
     744,
     1306,
     754
   ],
-  "terrain": "mountainous",
-  "description": [
-    "The precarious ledge winds beneath a jagged overhang of the wall, and the stone under the eternal shadow is dark and cool.  Crude paintings of soaring, monstrous birds cover the moss-tinged wall in the shelter of the ledge, untouched by the howling wind that whistles through the grotto."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Yegharren Valley, Ravine Ledge]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10002": 0.2,
-    "9999": 0.2
-  },
-  "id": 10001,
-  "location": "the Yegharren Plains",
   "tags": [
     "wild pink geranium",
     "some angelica root",
@@ -35,24 +32,6 @@
     "small apple",
     "stalk of bluebells",
     "sprig of holly",
-    "sprig of ivy",
-    "angelica root",
-    "sprig of larkspur",
-    "yellow primrose",
-    "wild sage",
-    "sprig of columbine",
-    "small dandelion",
-    "crimson dragonstalk",
-    "mountain dryad",
-    "stalk of monkeyflower",
-    "juicy plum",
-    "pepperthorn root",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sprig of ivy"
   ]
 }

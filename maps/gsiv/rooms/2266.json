@@ -1,50 +1,36 @@
 {
+  "id": 2266,
+  "title": [
+    "[Abandoned Mine]"
+  ],
+  "description": [
+    "Much of the rock has been chipped away here, creating a cavern that is as large as any you can recall seeing.  The floor is covered with a thick layer of dust, though it sparkles oddly in the light cast by a torch set set into one wall.  Every so often, a few crumbled bits of rock cascade down the western wall, rolling down the steep incline that angles so sharply to the southeast."
+  ],
+  "paths": [
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "the Abandoned Mine",
   "wayto": {
     "2267": "southeast",
     "2265": "northwest"
   },
-  "paths": [
-    "Obvious exits: southeast, northwest"
-  ],
+  "timeto": {
+    "2267": 0.2,
+    "2265": 0.2
+  },
+  "image": "ti-teras-1264234799.png",
   "image_coords": [
     522,
     1002,
     530,
     1010
   ],
-  "terrain": "indoors",
-  "description": [
-    "Much of the rock has been chipped away here, creating a cavern that is as large as any you can recall seeing.  The floor is covered with a thick layer of dust, though it sparkles oddly in the light cast by a torch set set into one wall.  Every so often, a few crumbled bits of rock cascade down the western wall, rolling down the steep incline that angles so sharply to the southeast."
-  ],
-  "image": "ti-teras-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abandoned Mine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2267": 0.2,
-    "2265": 0.2
-  },
-  "id": 2266,
-  "location": "the Abandoned Mine",
   "tags": [
     "red trafel mushroom",
     "genkew mushroom",
     "soft white mushroom",
     "blue trafel mushroom",
     "some cave moss",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "black hook mushroom",
-    "flathead mushroom",
-    "cave moss",
-    "murdroot",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "withered black mushroom"
   ]
 }

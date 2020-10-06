@@ -1,35 +1,32 @@
 {
+  "id": 454,
+  "title": [
+    "[Upper Trollfang]"
+  ],
+  "description": [
+    "The scurrying of unseen creatures occassionally cause the snapping of a tiny twig and you oft times catch the glimpse of brown fur or black feather.  The dense and low-lying flora of the area quickly conceal anything that is not directly on the path however and you are feeling a bit apprehensive about moving further."
+  ],
+  "paths": [
+    "Obvious paths: southeast, west, northwest"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "453": "northwest",
     "476": "west",
     "455": "southeast"
   },
-  "paths": [
-    "Obvious paths: southeast, west, northwest"
-  ],
+  "timeto": {
+    "453": 0.2,
+    "476": 0.2,
+    "455": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     657,
     757,
     667,
     767
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "The scurrying of unseen creatures occassionally cause the snapping of a tiny twig and you oft times catch the glimpse of brown fur or black feather.  The dense and low-lying flora of the area quickly conceal anything that is not directly on the path however and you are feeling a bit apprehensive about moving further."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Upper Trollfang]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "453": 0.2,
-    "476": 0.2,
-    "455": 0.2
-  },
-  "id": 454,
-  "location": "the Upper Trollfang",
   "tags": [
     "some bolmara lichen",
     "some acantha leaf",
@@ -74,39 +71,6 @@
     "wild gooseberry",
     "genkew mushroom",
     "small wild rose",
-    "flathead mushroom",
-    "acantha leaf",
-    "torban leaf",
-    "calamia fruit",
-    "haphip root",
-    "basal moss",
-    "sticks",
-    "angelica root",
-    "daggerstalk mushroom",
-    "blueberries",
-    "elderberries",
-    "fiddlehead fern",
-    "wild grapes",
-    "tree bark",
-    "murkweed",
-    "white lily",
-    "pink rain lily",
-    "oxblood lily",
-    "blue whortleberry",
-    "yew twig",
-    "oak twig",
-    "murdroot",
-    "nightbloom blossom",
-    "twisted twig",
-    "slender twig",
-    "ebony twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "walnuts",
-    "alder bark",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "flathead mushroom"
   ]
 }

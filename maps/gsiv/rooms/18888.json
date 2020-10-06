@@ -1,37 +1,28 @@
 {
+  "id": 18888,
+  "title": [
+    "[Beacon Hall, Locker Entrance]"
+  ],
+  "description": [
+    "This small, austere room is the entry point for the Beacon Hall lockers.  Two curtains are drawn over the openings to the storage area."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Maelstrom Bay",
   "wayto": {
     "18889": "go curtained opening",
     "16204": "out"
   },
-  "paths": [
-    "Obvious exits: out"
-  ],
+  "timeto": {
+    "18889": 0.2,
+    "16204": 0.2
+  },
+  "image": "rr-beacon_hall-1405076623.png",
   "image_coords": [
     1212,
     668,
     1258,
     714
-  ],
-  "terrain": null,
-  "description": [
-    "This small, austere room is the entry point for the Beacon Hall lockers.  Two curtains are drawn over the openings to the storage area."
-  ],
-  "image": "rr-beacon_hall-1405076623.png",
-  "climate": null,
-  "title": [
-    "[Beacon Hall, Locker Entrance]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "18889": 0.2,
-    "16204": 0.2
-  },
-  "id": 18888,
-  "location": "Maelstrom Bay",
-  "tags": [
-
-  ],
-  "links": [
-
   ]
 }

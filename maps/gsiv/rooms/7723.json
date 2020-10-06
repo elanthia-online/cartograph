@@ -1,52 +1,35 @@
 {
+  "id": 7723,
+  "title": [
+    "[Caverns, Tunnel]"
+  ],
+  "description": [
+    "The floor of the tunnel slopes upward, and a number of large stones lie piled against the walls in small, uneven pyramids.  The raised part of the cavern floor is dry and rough, and a few patches of moss, dried lichen and seaweed provide a mottled carpet."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, west"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "7722": "northeast",
     "7724": "west",
     "7719": "north"
   },
-  "paths": [
-    "Obvious exits: north, northeast, west"
-  ],
+  "timeto": {
+    "7722": 0.2,
+    "7724": 0.2,
+    "7719": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     295,
     1466,
     305,
     1476
   ],
-  "terrain": "indoors",
-  "description": [
-    "The floor of the tunnel slopes upward, and a number of large stones lie piled against the walls in small, uneven pyramids.  The raised part of the cavern floor is dry and rough, and a few patches of moss, dried lichen and seaweed provide a mottled carpet."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Caverns, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7722": 0.2,
-    "7724": 0.2,
-    "7719": 0.2
-  },
-  "id": 7723,
-  "location": "the Coastal Cliffs",
   "tags": [
     "withered black mushroom",
     "some cave moss",
-    "blue trafel mushroom",
-    "soft white mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "blue trafel mushroom"
   ]
 }

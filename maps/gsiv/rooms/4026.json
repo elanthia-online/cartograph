@@ -1,33 +1,30 @@
 {
+  "id": 4026,
+  "title": [
+    "[Wizard Guild, Courtyard]"
+  ],
+  "description": [
+    "Flanked by a small hill of verdant green grass, a massive spire of silver-sheened crystal rises up amid the tall rooftops of the city, its surface sparkling and pristine.  A white walkway leads up to the base of the tower, yet its flawless walls offer no obvious means of access.  A ring of identical silver monoliths encircle the tower, and a scarlet circle of runes is scribed into the soft earth at the end of the walkway."
+  ],
+  "paths": [
+    "Obvious paths: out"
+  ],
+  "location": "Ta'Illistim",
   "wayto": {
     "15538": "go tower",
     "618": "out"
   },
-  "paths": [
-    "Obvious paths: out"
-  ],
+  "timeto": {
+    "15538": 0.2,
+    "618": 0.2
+  },
+  "image": "en-ta_illistim-new.jpg",
   "image_coords": [
     875,
     143,
     898,
     165
   ],
-  "terrain": "cultivated",
-  "description": [
-    "Flanked by a small hill of verdant green grass, a massive spire of silver-sheened crystal rises up amid the tall rooftops of the city, its surface sparkling and pristine.  A white walkway leads up to the base of the tower, yet its flawless walls offer no obvious means of access.  A ring of identical silver monoliths encircle the tower, and a scarlet circle of runes is scribed into the soft earth at the end of the walkway."
-  ],
-  "image": "en-ta_illistim-new.jpg",
-  "climate": "temperate",
-  "title": [
-    "[Wizard Guild, Courtyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "15538": 0.2,
-    "618": 0.2
-  },
-  "id": 4026,
-  "location": "Ta'Illistim",
   "tags": [
     "wizardguild",
     "cactacae spine",
@@ -104,10 +101,6 @@
     "luckbloom blossom",
     "wavepetal blossom",
     "nightbloom blossom",
-    "onion skin",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "onion skin"
   ]
 }

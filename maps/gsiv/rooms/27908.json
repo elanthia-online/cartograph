@@ -1,30 +1,21 @@
 {
-  "wayto": {
-    "19257": {
-      "stringproc": "325c7e41ab9d30ccb94812827f14b668"
-    }
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Warm light filters through the curtained opening, faintly illuminating the simple cell."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 27908,
   "title": [
     "[Lounge Lockers]"
   ],
-  "check_location": null,
+  "description": [
+    "Warm light filters through the curtained opening, faintly illuminating the simple cell."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Lost Home",
+  "wayto": {
+    "19257": {
+      "file": "string_procs/wayto/27908_19257.rb"
+    }
+  },
   "timeto": {
     "19257": 0.2
-  },
-  "id": 27908,
-  "location": "the Lost Home",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  }
 }

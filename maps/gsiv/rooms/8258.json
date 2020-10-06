@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "8230": "go door"
-  },
+  "id": 8258,
+  "title": [
+    "[Wolves' Den, Forge]"
+  ],
+  "description": [
+    "The massive iron anvil in the center of the room is pitted with rust.  The fire pit beside it is cold, filled with ashes eons old.  A rack filled with blacksmith's tools leans to the left, partway through a slow collapse."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "the Wolves' Den",
+  "wayto": {
+    "8230": "go door"
+  },
+  "timeto": {
+    "8230": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     159,
     284,
     169,
     294
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The massive iron anvil in the center of the room is pitted with rust.  The fire pit beside it is cold, filled with ashes eons old.  A rack filled with blacksmith's tools leans to the left, partway through a slow collapse."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Wolves' Den, Forge]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8230": 0.2
-  },
-  "id": 8258,
-  "location": "the Wolves' Den",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

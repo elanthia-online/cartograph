@@ -1,44 +1,30 @@
 {
+  "id": 11141,
+  "title": [
+    "[River Tunnels, Barrier]"
+  ],
+  "description": [
+    "The humming, glowing barriers that make up the north and south walls immediately grab your attention when you enter this chamber.  The amount of mana involved in constructing and maintaining two such barriers throughout the ages staggers you as you think about it.  You can even feel the ambient mana in the room bathing you in its flows."
+  ],
+  "paths": [
+    "Obvious exits: northeast, northwest"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11140": "northeast",
     "11142": "nw",
     "11143": "go blue barrier"
   },
-  "paths": [
-    "Obvious exits: northeast, northwest"
-  ],
-  "image_coords": [
-    640,
-    116,
-    650,
-    126
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The humming, glowing barriers that make up the north and south walls immediately grab your attention when you enter this chamber.  The amount of mana involved in constructing and maintaining two such barriers throughout the ages staggers you as you think about it.  You can even feel the ambient mana in the room bathing you in its flows."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "indoors",
-  "title": [
-    "[River Tunnels, Barrier]"
-  ],
-  "check_location": null,
   "timeto": {
     "11140": 0.2,
     "11142": 0.2,
     "11143": 0.2
   },
-  "id": 11141,
-  "location": "the Citadel",
-  "tags": [
-    "withered black mushroom",
-    "cave moss",
-    "murdroot",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-rivers_rest-1266350289.png",
+  "image_coords": [
+    640,
+    116,
+    650,
+    126
   ]
 }

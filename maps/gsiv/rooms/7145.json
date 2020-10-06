@@ -1,40 +1,32 @@
 {
+  "id": 7145,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "Strands of spider web brush your face, and something with lots of legs scuttles across your chest, disappearing into the shadows.  Looking up, you see that the corner is fuzzy grey with webs.  Half a dozen lumpy blobs are wrapped in silk and hanging from the webs."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7144": "west",
     "7137": "north"
   },
-  "paths": [
-    "Obvious exits: north, west"
-  ],
+  "timeto": {
+    "7144": 0.2,
+    "7137": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     1028,
     553,
     1038,
     563
   ],
-  "terrain": "indoors",
-  "description": [
-    "Strands of spider web brush your face, and something with lots of legs scuttles across your chest, disappearing into the shadows.  Looking up, you see that the corner is fuzzy grey with webs.  Half a dozen lumpy blobs are wrapped in silk and hanging from the webs."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7144": 0.2,
-    "7137": 0.2
-  },
-  "id": 7145,
-  "location": "Darkstone Castle",
   "tags": [
     "kiramon defender",
-    "kiramon worker",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "kiramon worker"
   ]
 }

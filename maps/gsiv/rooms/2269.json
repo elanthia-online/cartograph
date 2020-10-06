@@ -1,33 +1,30 @@
 {
+  "id": 2269,
+  "title": [
+    "[Abandoned Mine]"
+  ],
+  "description": [
+    "In an apparent attempt to keep the weight of the noble Stormbrow from collapsing the shaft, several logs have been driven into the walls, with a few placed upright to support the ceiling.  Considering the piles of rocks and debris scattered about, this was probably the only thing that kept the tunnel from closing off completely years ago."
+  ],
+  "paths": [
+    "Obvious exits: south, up"
+  ],
+  "location": "the Abandoned Mine",
   "wayto": {
     "2268": "south",
     "2270": "up"
   },
-  "paths": [
-    "Obvious exits: south, up"
-  ],
+  "timeto": {
+    "2268": 0.2,
+    "2270": 0.2
+  },
+  "image": "ti-teras-1264234799.png",
   "image_coords": [
     521,
     1053,
     531,
     1063
   ],
-  "terrain": "indoors",
-  "description": [
-    "In an apparent attempt to keep the weight of the noble Stormbrow from collapsing the shaft, several logs have been driven into the walls, with a few placed upright to support the ceiling.  Considering the piles of rocks and debris scattered about, this was probably the only thing that kept the tunnel from closing off completely years ago."
-  ],
-  "image": "ti-teras-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abandoned Mine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2268": 0.2,
-    "2270": 0.2
-  },
-  "id": 2269,
-  "location": "the Abandoned Mine",
   "tags": [
     "red trafel mushroom",
     "blue trafel mushroom",
@@ -37,16 +34,6 @@
     "some bolmara lichen",
     "flathead mushroom",
     "black hook mushroom",
-    "some cave moss",
-    "soft white mushroom",
-    "daggerstalk mushroom",
-    "cave moss",
-    "murdroot",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

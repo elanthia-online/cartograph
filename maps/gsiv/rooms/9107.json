@@ -1,40 +1,30 @@
 {
+  "id": 9107,
+  "title": [
+    "[Great Cavern, Stalagmite Forest]"
+  ],
+  "description": [
+    "The fog that rolls about the cavern in twin layers has grown so thick here that it is a single massive bank of dark grey.  Dim shapes of stone mark the edges of your vision like sentries.  Every now and then the fog lifts a bit, giving you a glimpse of what lies beyond."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast, west"
+  ],
+  "location": "the subterranean tunnels",
   "wayto": {
     "9108": "southeast",
     "9102": "north",
     "9106": "west"
   },
-  "paths": [
-    "Obvious exits: north, southeast, west"
-  ],
-  "image_coords": [
-    144,
-    596,
-    154,
-    606
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The fog that rolls about the cavern in twin layers has grown so thick here that it is a single massive bank of dark grey.  Dim shapes of stone mark the edges of your vision like sentries.  Every now and then the fog lifts a bit, giving you a glimpse of what lies beyond."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Great Cavern, Stalagmite Forest]"
-  ],
-  "check_location": null,
   "timeto": {
     "9108": 0.2,
     "9102": 0.2,
     "9106": 0.2
   },
-  "id": 9107,
-  "location": "the subterranean tunnels",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "imt-underground-1264234799.png",
+  "image_coords": [
+    144,
+    596,
+    154,
+    606
   ]
 }

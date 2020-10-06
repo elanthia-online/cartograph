@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
 
 # util to create the tag
-$stdout.puts "map.gsiv.%s" % File.read("checksum")
+$stdout.puts "map/gsiv/%s" % File.read("checksum")

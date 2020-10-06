@@ -1,38 +1,28 @@
 {
+  "id": 12716,
+  "title": [
+    "[Ruined Temple, Second Floor]"
+  ],
+  "description": [
+    "Arched windows offer a view of the sea to the north and west, set on either side of a large marble statue placed in the corner of the room.  Small streams of water trickle gently down the slick walls, flowing to the south through the carved grooves in the floor."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "the Ruined Temple",
   "wayto": {
     "12703": "south",
     "12708": "east"
   },
-  "paths": [
-    "Obvious exits: east, south"
-  ],
+  "timeto": {
+    "12703": 0.2,
+    "12708": 0.2
+  },
+  "image": "ti-nelemar-1262373036.png",
   "image_coords": [
     405,
     371,
     441,
     407
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Arched windows offer a view of the sea to the north and west, set on either side of a large marble statue placed in the corner of the room.  Small streams of water trickle gently down the slick walls, flowing to the south through the carved grooves in the floor."
-  ],
-  "image": "ti-nelemar-1262373036.png",
-  "climate": "indoors",
-  "title": [
-    "[Ruined Temple, Second Floor]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "12703": 0.2,
-    "12708": 0.2
-  },
-  "id": 12716,
-  "location": "the Ruined Temple",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

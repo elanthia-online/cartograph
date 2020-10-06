@@ -1,33 +1,30 @@
 {
+  "id": 438,
+  "title": [
+    "[Wehnimer's, Exterior]"
+  ],
+  "description": [
+    "The dirt path bends around the southwest corner of the landing.  Far to the east, you can see a thin blue line that must be the river."
+  ],
+  "paths": [
+    "Obvious paths: east, northwest"
+  ],
+  "location": "the Lower Dragonsclaw",
   "wayto": {
     "437": "northwest",
     "439": "east"
   },
-  "paths": [
-    "Obvious paths: east, northwest"
-  ],
+  "timeto": {
+    "437": 0.2,
+    "439": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     658,
     437,
     668,
     447
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The dirt path bends around the southwest corner of the landing.  Far to the east, you can see a thin blue line that must be the river."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Wehnimer's, Exterior]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "437": 0.2,
-    "439": 0.2
-  },
-  "id": 438,
-  "location": "the Lower Dragonsclaw",
   "tags": [
     "some sovyn clove",
     "some acantha leaf",
@@ -61,10 +58,6 @@
     "murkweed",
     "ironfern root",
     "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bur-clover root"
   ]
 }

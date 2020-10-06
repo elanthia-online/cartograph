@@ -1,33 +1,32 @@
 {
+  "id": 11030,
+  "title": [
+    "[A Small Clearing]"
+  ],
+  "description": [
+    "Towards the southern end of the path, the forest appears to thin a bit, the trees no longer a solid wall.  A courtyard lies just beyond the edge of the path, hints of a large building visible beyond the tangle of vegetation surrounding the trail.  A few figures roam about the clearing, most of them in robes."
+  ],
+  "paths": [
+    "Obvious paths: south, northwest"
+  ],
+  "location": "the South River Road",
+  "climate": "temperate",
+  "terrain": "grassland",
   "wayto": {
     "11029": "northwest",
     "11031": "south"
   },
-  "paths": [
-    "Obvious paths: south, northwest"
-  ],
+  "timeto": {
+    "11029": 0.2,
+    "11031": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     608,
     1048,
     618,
     1058
   ],
-  "terrain": "grassland",
-  "description": [
-    "Towards the southern end of the path, the forest appears to thin a bit, the trees no longer a solid wall.  A courtyard lies just beyond the edge of the path, hints of a large building visible beyond the tangle of vegetation surrounding the trail.  A few figures roam about the clearing, most of them in robes."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "temperate",
-  "title": [
-    "[A Small Clearing]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11029": 0.2,
-    "11031": 0.2
-  },
-  "id": 11030,
-  "location": "the South River Road",
   "tags": [
     "some sovyn clove",
     "some acantha leaf",
@@ -92,13 +91,6 @@
     "murdroot",
     "wavepetal blossom",
     "ironfern root",
-    "sunburst blossom",
-    "trollfear mushroom",
-    "fire lily",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sunburst blossom"
   ]
 }

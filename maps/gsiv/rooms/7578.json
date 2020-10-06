@@ -1,44 +1,33 @@
 {
+  "id": 7578,
+  "title": [
+    "[Dark Cavern, Tunnels]"
+  ],
+  "description": [
+    "The walls of the tunnel are moist and covered with phosphorescent lichen that provides an eerie green glow.  A constant sound of dripping water echoes from the southeast, distracting you as you try to keep your footing on the muddy, sloping floor."
+  ],
+  "paths": [
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "the dark caverns",
   "wayto": {
     "7579": "northwest",
     "7574": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast, northwest"
-  ],
+  "timeto": {
+    "7579": 0.2,
+    "7574": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     91,
     1208,
     101,
     1218
   ],
-  "terrain": "indoors",
-  "description": [
-    "The walls of the tunnel are moist and covered with phosphorescent lichen that provides an eerie green glow.  A constant sound of dripping water echoes from the southeast, distracting you as you try to keep your footing on the muddy, sloping floor."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dark Cavern, Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7579": 0.2,
-    "7574": 0.2
-  },
-  "id": 7578,
-  "location": "the dark caverns",
   "tags": [
     "withered black mushroom",
     "some bur-clover root",
-    "some wingstem root",
-    "cave moss",
-    "murdroot",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

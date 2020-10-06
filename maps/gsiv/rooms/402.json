@@ -1,40 +1,32 @@
 {
+  "id": 402,
+  "title": [
+    "[Tykel's Arms, Showroom]"
+  ],
+  "description": [
+    "Glancing about the interior of the shop reveals all manner of bladed weapons, from daggers to twohanded swords.  Most of the weaponry is wrought in bronze, although finer specimens reflect the glint of steel.  All seem to share an air about them that says, \"This weapon is meant to be used\".  Tykel the Weaponsmith stands ready to sing the praises of his handiwork."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "403": "go door",
     "276": "out"
   },
-  "paths": [
-    "Obvious exits: out"
-  ],
+  "timeto": {
+    "403": 0.2,
+    "276": 0.2
+  },
+  "image": "wl-wehnimers-1264234799.png",
   "image_coords": [
     360,
     353,
     390,
     383
   ],
-  "terrain": "indoors",
-  "description": [
-    "Glancing about the interior of the shop reveals all manner of bladed weapons, from daggers to twohanded swords.  Most of the weaponry is wrought in bronze, although finer specimens reflect the glint of steel.  All seem to share an air about them that says, \"This weapon is meant to be used\".  Tykel the Weaponsmith stands ready to sing the praises of his handiwork."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Tykel's Arms, Showroom]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "403": 0.2,
-    "276": 0.2
-  },
-  "id": 402,
-  "location": "Wehnimer's Landing",
   "tags": [
     "weaponshop",
-    "meta:noteleport:fwi",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:noteleport:fwi"
   ]
 }

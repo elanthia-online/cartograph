@@ -1,35 +1,32 @@
 {
-  "wayto": {
-    "5268": "north",
-    "5266": {
-      "stringproc": "67c16af52b9cf6e6d6d249827399bf5b"
-    }
-  },
+  "id": 5267,
+  "title": [
+    "[Vornavian Coast, Foggy Valley]"
+  ],
+  "description": [
+    "Thick fog covers the valley floor as far as the eye can see.  Pine trees grow more dense to the southwest, and thin out considerably to the north.  The tops of bushes poke through the top of the mist that carpets the ground."
+  ],
   "paths": [
     "Obvious paths: north"
   ],
+  "location": "the Vornavian Coast",
+  "wayto": {
+    "5268": "north",
+    "5266": {
+      "file": "string_procs/wayto/5267_5266.rb"
+    }
+  },
+  "timeto": {
+    "5268": 0.2,
+    "5266": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     678,
     554,
     688,
     564
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "Thick fog covers the valley floor as far as the eye can see.  Pine trees grow more dense to the southwest, and thin out considerably to the north.  The tops of bushes poke through the top of the mist that carpets the ground."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "humid",
-  "title": [
-    "[Vornavian Coast, Foggy Valley]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5268": 0.2,
-    "5266": 0.2
-  },
-  "id": 5267,
-  "location": "the Vornavian Coast",
   "tags": [
     "genkew mushroom",
     "some pothinir grass",
@@ -39,36 +36,6 @@
     "striped heart mushroom",
     "some acantha leaf",
     "some pine needles",
-    "pine cone",
-    "acantha leaf",
-    "woth flower",
-    "calamia fruit",
-    "haphip root",
-    "pothinir grass",
-    "sticks",
-    "trollfear mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "wild gooseberry",
-    "handful of pinenuts",
-    "broken twig",
-    "pine needles",
-    "stalk of bluebells",
-    "wild chokecherry",
-    "tree bark",
-    "yew twig",
-    "twisted twig",
-    "slender twig",
-    "ebony twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "pine cone"
   ]
 }

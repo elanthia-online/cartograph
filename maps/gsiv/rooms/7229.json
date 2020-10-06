@@ -1,31 +1,28 @@
 {
-  "wayto": {
-    "7228": "go stairs"
-  },
+  "id": 7229,
+  "title": [
+    "[Under Crypt, Ice Room]"
+  ],
+  "description": [
+    "This room is dominated by a giant slab of ice.  There is a chill here that transcends the cold you felt elsewhere.  Piled in front of the ice slab are the remains of many a grisly sacrifice.  Bones and skulls lie piled at the base of the slab as though in homage to something.  Your curiosity piqued, you draw close to the slab.  Dimly within you can make out a richly robed figure.  On one side of the room are some roughly carved stairs."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "the Graveyard",
+  "wayto": {
+    "7228": "go stairs"
+  },
+  "timeto": {
+    "7228": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     769,
     446,
     779,
     456
   ],
-  "terrain": "indoors",
-  "description": [
-    "This room is dominated by a giant slab of ice.  There is a chill here that transcends the cold you felt elsewhere.  Piled in front of the ice slab are the remains of many a grisly sacrifice.  Bones and skulls lie piled at the base of the slab as though in homage to something.  Your curiosity piqued, you draw close to the slab.  Dimly within you can make out a richly robed figure.  On one side of the room are some roughly carved stairs."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Under Crypt, Ice Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7228": 0.2
-  },
-  "id": 7229,
-  "location": "the Graveyard",
   "tags": [
     "some wolifrew lichen",
     "node",
@@ -37,10 +34,6 @@
     "ayana leaf",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

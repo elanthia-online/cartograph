@@ -1,42 +1,35 @@
 {
+  "id": 935,
+  "title": [
+    "[Whistler's Pass, Tunnel]"
+  ],
+  "description": [
+    "A dull thunder emanates from the walls of the dark tunnel, its source originating from beneath the dirt-strewn floor.  The low, muffled sound of rushing water, perhaps from an underground river, vibrates through the stone, engulfing the passage in an audible hum."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "934": "northeast",
     "936": "south"
   },
-  "paths": [
-    "Obvious exits: northeast, south"
-  ],
+  "timeto": {
+    "934": 0.2,
+    "936": 0.2
+  },
+  "image": "en-whistlers_pass-1264234799.png",
   "image_coords": [
     345,
     771,
     355,
     781
   ],
-  "terrain": "indoors",
-  "description": [
-    "A dull thunder emanates from the walls of the dark tunnel, its source originating from beneath the dirt-strewn floor.  The low, muffled sound of rushing water, perhaps from an underground river, vibrates through the stone, engulfing the passage in an audible hum."
-  ],
-  "image": "en-whistlers_pass-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Whistler's Pass, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "934": 0.2,
-    "936": 0.2
-  },
-  "id": 935,
-  "location": "Whistler's Pass",
   "tags": [
     "white hook mushroom",
     "cave moss",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

@@ -1,4 +1,15 @@
 {
+  "id": 18870,
+  "title": [
+    "[Twilight, Lower Environs]"
+  ],
+  "description": [
+    "Illuminated by eight freestanding copper fire pits, these environs are meticulously clean and dry.  Light from the pits dances about the area, providing a warm, almost cheerful, glow.  The faint sound of flowing water echoes through the cavern, although no obvious source exists.  Carved into the bedrock are numerous chambers, many carefully fitted with secure frames and doors for privacy.  In the center of the cavern, a wide column rises up to the ceiling and beyond, a spiral staircase carved into its bulk."
+  ],
+  "paths": [
+    "Obvious exits: up"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "18871": "go polished door",
     "18861": "up",
@@ -7,28 +18,9 @@
     "18874": "go ironwood door",
     "24575": "go opening",
     "8623": {
-      "stringproc": "e1a474870bca279172efa89e81cf9819"
+      "file": "string_procs/wayto/18870_8623.rb"
     }
   },
-  "paths": [
-    "Obvious exits: up"
-  ],
-  "image_coords": [
-    992,
-    441,
-    1077,
-    498
-  ],
-  "terrain": null,
-  "description": [
-    "Illuminated by eight freestanding copper fire pits, these environs are meticulously clean and dry.  Light from the pits dances about the area, providing a warm, almost cheerful, glow.  The faint sound of flowing water echoes through the cavern, although no obvious source exists.  Carved into the bedrock are numerous chambers, many carefully fitted with secure frames and doors for privacy.  In the center of the cavern, a wide column rises up to the ceiling and beyond, a spiral staircase carved into its bulk."
-  ],
-  "image": "wl-twilight_hall.jpg",
-  "climate": null,
-  "title": [
-    "[Twilight, Lower Environs]"
-  ],
-  "check_location": null,
   "timeto": {
     "18871": 0.2,
     "18861": 0.2,
@@ -38,12 +30,11 @@
     "24575": 0.2,
     "8623": 0.2
   },
-  "id": 18870,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "wl-twilight_hall.jpg",
+  "image_coords": [
+    992,
+    441,
+    1077,
+    498
   ]
 }

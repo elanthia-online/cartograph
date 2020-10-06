@@ -1,47 +1,28 @@
 {
+  "id": 8222,
+  "title": [
+    "[Sea Caverns]"
+  ],
+  "description": [
+    "The size of this cavern is larger than one would have anticipated while making the precarious climb up the wall.  The darkness is pierced by a single shaft of light from a narrow fissure high above.  A faint chirping noise tells you there are bats nesting in lofty aeries overhead.  There is no sign at all of the garbage here, however, so a little bat dung underfoot seems a reasonable exchange.  A large rock slide to the south seems to block further travel on this level."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the sea caverns",
   "wayto": {
     "8207": "go wall",
     "8223": "go rocks"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "8207": 0.2,
+    "8223": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     528,
     275,
     538,
     285
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The size of this cavern is larger than one would have anticipated while making the precarious climb up the wall.  The darkness is pierced by a single shaft of light from a narrow fissure high above.  A faint chirping noise tells you there are bats nesting in lofty aeries overhead.  There is no sign at all of the garbage here, however, so a little bat dung underfoot seems a reasonable exchange.  A large rock slide to the south seems to block further travel on this level."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Caverns]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8207": 0.2,
-    "8223": 0.2
-  },
-  "id": 8222,
-  "location": "the sea caverns",
-  "tags": [
-    "soft white mushroom",
-    "withered black mushroom",
-    "black hook mushroom",
-    "white hook mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,37 +1,28 @@
 {
+  "id": 17007,
+  "title": [
+    "[Wizard Guild, Twisting Passage]"
+  ],
+  "description": [
+    "Flickering sconces set high atop rough outcroppings along the tortuous corridor light your way, but poorly.  Though the cavern twists and doubles back on itself, the floor slopes perceptibly to the north, leading deeper below the ground."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "River's Rest",
   "wayto": {
     "16123": "go archway",
     "17052": "north"
   },
-  "paths": [
-    "Obvious exits: north"
-  ],
+  "timeto": {
+    "16123": 0.2,
+    "17052": 0.2
+  },
+  "image": "rr-wizard_guild.png",
   "image_coords": [
     280,
     157,
     337,
     213
-  ],
-  "terrain": null,
-  "description": [
-    "Flickering sconces set high atop rough outcroppings along the tortuous corridor light your way, but poorly.  Though the cavern twists and doubles back on itself, the floor slopes perceptibly to the north, leading deeper below the ground."
-  ],
-  "image": "rr-wizard_guild.png",
-  "climate": null,
-  "title": [
-    "[Wizard Guild, Twisting Passage]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "16123": 0.2,
-    "17052": 0.2
-  },
-  "id": 17007,
-  "location": "River's Rest",
-  "tags": [
-
-  ],
-  "links": [
-
   ]
 }

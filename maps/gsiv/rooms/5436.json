@@ -1,41 +1,33 @@
 {
+  "id": 5436,
+  "title": [
+    "[Bonespear Tower, Stairwell]"
+  ],
+  "description": [
+    "A solid steel trapdoor has been twisted and warped by a fierce explosive force.  Its iron latch has been fused and it is no longer possible to close the trapdoor."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Bonespear Tower",
   "wayto": {
     "5440": "go trapdoor",
     "5429": "down"
   },
-  "paths": [
-    "Obvious exits: down"
-  ],
+  "timeto": {
+    "5440": 0.2,
+    "5429": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     929,
     824,
     937,
     832
   ],
-  "terrain": "indoors",
-  "description": [
-    "A solid steel trapdoor has been twisted and warped by a fierce explosive force.  Its iron latch has been fused and it is no longer possible to close the trapdoor."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Bonespear Tower, Stairwell]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5440": 0.2,
-    "5429": 0.2
-  },
-  "id": 5436,
-  "location": "Bonespear Tower",
   "tags": [
     "waern",
     "dybbuk",
-    "eidolon",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "eidolon"
   ]
 }

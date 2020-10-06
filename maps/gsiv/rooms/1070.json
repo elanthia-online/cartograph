@@ -1,70 +1,38 @@
 {
-  "wayto": {
-    "1069": "northwest",
-    "1071": {
-      "stringproc": "68297cc244c972e2c6fdc54b6caf5fd0"
-    }
-  },
+  "id": 1070,
+  "title": [
+    "[Glo'antern Moor, Rope Ladder]"
+  ],
+  "description": [
+    "A thick rope ladder dangles down the side of the cliff, pooling a bit on the ground.  The top of the ladder is not distinguishable as it disappears quickly into the mists above.  A small barren spot has been worn in the matted grass just below the rope ladder, most likely from the passing of feet and the swaying of the ladder.  In all directions away from the cliff the damp, thick grass grows high enough to prevent movement, although it seems to be somewhat beaten down along the cliff to the northwest."
+  ],
   "paths": [
     "Obvious paths: northwest"
   ],
+  "location": "the Locksmehr Trail",
+  "wayto": {
+    "1069": "northwest",
+    "1071": {
+      "file": "string_procs/wayto/1070_1071.rb"
+    }
+  },
+  "timeto": {
+    "1069": 0.2,
+    "1071": 30.0
+  },
+  "image": "en-trail-1264234799.png",
   "image_coords": [
     1246,
     808,
     1256,
     818
   ],
-  "terrain": "grassland",
-  "description": [
-    "A thick rope ladder dangles down the side of the cliff, pooling a bit on the ground.  The top of the ladder is not distinguishable as it disappears quickly into the mists above.  A small barren spot has been worn in the matted grass just below the rope ladder, most likely from the passing of feet and the swaying of the ladder.  In all directions away from the cliff the damp, thick grass grows high enough to prevent movement, although it seems to be somewhat beaten down along the cliff to the northwest."
-  ],
-  "image": "en-trail-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Glo'antern Moor, Rope Ladder]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1069": 0.2,
-    "1071": 30.0
-  },
-  "id": 1070,
-  "location": "the Locksmehr Trail",
   "tags": [
     "some valerian root",
     "fairy primrose",
     "some acantha leaf",
     "white hook mushroom",
     "some pennyroyal stem",
-    "golden aster",
-    "acantha leaf",
-    "wolifrew lichen",
-    "cuctucae berry",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "soft white mushroom",
-    "withered black mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "wild strawberry",
-    "stalk of chicory",
-    "sprig of larkspur",
-    "small wild rose",
-    "wild chokecherry",
-    "bright red cranberry",
-    "luckbloom blossom",
-    "murdroot",
-    "wavepetal blossom",
-    "ironfern root",
-    "sunburst blossom",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "golden aster"
   ]
 }

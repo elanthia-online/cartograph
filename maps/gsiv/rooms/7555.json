@@ -1,48 +1,31 @@
 {
+  "id": 7555,
+  "title": [
+    "[Twisting Tunnel]"
+  ],
+  "description": [
+    "The tunnel narrows sharply making the going extremely difficult and treacherous.  The air hangs damp and heavy making it difficult to breathe and adding to the illusion of the walls closing in.  The tight confines seem to magnify the sounds of the water dripping from the ceiling above."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "7554": "south",
     "7556": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, south"
-  ],
+  "timeto": {
+    "7554": 0.2,
+    "7556": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     341,
     909,
     351,
     919
   ],
-  "terrain": "indoors",
-  "description": [
-    "The tunnel narrows sharply making the going extremely difficult and treacherous.  The air hangs damp and heavy making it difficult to breathe and adding to the illusion of the walls closing in.  The tight confines seem to magnify the sounds of the water dripping from the ceiling above."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Twisting Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7554": 0.2,
-    "7556": 0.2
-  },
-  "id": 7555,
-  "location": "the catacombs",
   "tags": [
-    "some cave moss",
-    "red trafel mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "black hook mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

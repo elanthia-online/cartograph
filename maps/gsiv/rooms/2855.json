@@ -1,47 +1,31 @@
 {
+  "id": 2855,
+  "title": [
+    "[Northern Mountains, Dark Caves]"
+  ],
+  "description": [
+    "The cool, stagnant air feels particularly damp here. Thick mud makes up the floor of the cave here and holds several clawed pawprints. Sharp rock shards stick out of the soft, wet ground."
+  ],
+  "paths": [
+    "Obvious exits: northwest, up, down"
+  ],
+  "location": "the Sleeping Lady Mountains",
   "wayto": {
     "2862": "up",
     "2856": "down"
   },
-  "paths": [
-    "Obvious exits: northwest, up, down"
-  ],
+  "timeto": {
+    "2862": 0.2,
+    "2856": 0.2
+  },
+  "image": "imt-pinefar-1264234799.png",
   "image_coords": [
     141,
     1270,
     151,
     1280
   ],
-  "terrain": "indoors",
-  "description": [
-    "The cool, stagnant air feels particularly damp here. Thick mud makes up the floor of the cave here and holds several clawed pawprints. Sharp rock shards stick out of the soft, wet ground."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Northern Mountains, Dark Caves]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2862": 0.2,
-    "2856": 0.2
-  },
-  "id": 2855,
-  "location": "the Sleeping Lady Mountains",
   "tags": [
-    "red trafel mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "black hook mushroom",
-    "white hook mushroom",
-    "blue trafel mushroom",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "red trafel mushroom"
   ]
 }

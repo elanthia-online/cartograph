@@ -1,35 +1,32 @@
 {
+  "id": 10184,
+  "title": [
+    "[Grassland]"
+  ],
+  "description": [
+    "A path leads down to a bridge that crosses the stream to the south and up the hilly slope to the northeast.  A small patch of violets grows to the side of the trail, forming a soft blanket on the lush green carpet of the tall grass."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, southwest"
+  ],
+  "location": "the grasslands",
   "wayto": {
     "10183": "north",
     "10185": "northeast",
     "10207": "southwest"
   },
-  "paths": [
-    "Obvious paths: north, northeast, southwest"
-  ],
+  "timeto": {
+    "10183": 0.2,
+    "10185": 0.2,
+    "10207": 0.2
+  },
+  "image": "en-fearling-1264234799.png",
   "image_coords": [
     253,
     462,
     263,
     472
   ],
-  "terrain": null,
-  "description": [
-    "A path leads down to a bridge that crosses the stream to the south and up the hilly slope to the northeast.  A small patch of violets grows to the side of the trail, forming a soft blanket on the lush green carpet of the tall grass."
-  ],
-  "image": "en-fearling-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Grassland]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10183": 0.2,
-    "10185": 0.2,
-    "10207": 0.2
-  },
-  "id": 10184,
-  "location": "the grasslands",
   "tags": [
     "some sovyn clove",
     "some acantha leaf",
@@ -116,8 +113,5 @@
     "sunburst blossom",
     "brostheras grass",
     "woad leaves"
-  ],
-  "links": [
-
   ]
 }

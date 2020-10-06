@@ -1,41 +1,35 @@
 {
-  "wayto": {
-    "6226": "east",
-    "6228": {
-      "stringproc": "2193f670159901830c9e347eb1358033"
-    }
-  },
+  "id": 6227,
+  "title": [
+    "[Labyrinth]"
+  ],
+  "description": [
+    "The hallway continues onward with no visible end.  A gentle stream of moonlight breaks through the darkness as it shines down on a small path that rises steeply to the west, bringing with it the smell of fresh air.",
+    "The hallway continues onward with no visible end.  A gentle stream of sunlight breaks through the darkness as it shines down on a small path that rises steeply to the west, bringing with it the smell of fresh air."
+  ],
   "paths": [
     "Obvious exits: east"
   ],
+  "location": "The Hidden Plateau",
+  "wayto": {
+    "6226": "east",
+    "6228": {
+      "file": "string_procs/wayto/6227_6228.rb"
+    }
+  },
+  "timeto": {
+    "6226": 0.2,
+    "6228": 0.2
+  },
+  "image": "wl-wehntoph-1310775397.png",
   "image_coords": [
     843,
     226,
     879,
     262
   ],
-  "terrain": null,
-  "description": [
-    "The hallway continues onward with no visible end.  A gentle stream of moonlight breaks through the darkness as it shines down on a small path that rises steeply to the west, bringing with it the smell of fresh air.",
-    "The hallway continues onward with no visible end.  A gentle stream of sunlight breaks through the darkness as it shines down on a small path that rises steeply to the west, bringing with it the smell of fresh air."
-  ],
-  "image": "wl-wehntoph-1310775397.png",
-  "climate": null,
-  "title": [
-    "[Labyrinth]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6226": 0.2,
-    "6228": 0.2
-  },
-  "id": 6227,
-  "location": "The Hidden Plateau",
   "tags": [
     "withered black mushroom",
     "black hook mushroom"
-  ],
-  "links": [
-
   ]
 }

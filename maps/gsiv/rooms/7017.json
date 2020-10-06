@@ -1,38 +1,28 @@
 {
+  "id": 7017,
+  "title": [
+    "[Castle Darkstone, Parapet]"
+  ],
+  "description": [
+    "You are standing on a high stone walk which extends all along the top of the outer curtain wall.  The wall is far lower than the inner curtain and generally in good shape, aside from a few loose stones and broken mortar.  To the north from here is the guardtower, while the gatehouse lies to the south."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7018": "south",
     "7015": "north"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "7018": 0.2,
+    "7015": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     305,
     348,
     315,
     358
-  ],
-  "terrain": null,
-  "description": [
-    "You are standing on a high stone walk which extends all along the top of the outer curtain wall.  The wall is far lower than the inner curtain and generally in good shape, aside from a few loose stones and broken mortar.  To the north from here is the guardtower, while the gatehouse lies to the south."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Castle Darkstone, Parapet]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7018": 0.2,
-    "7015": 0.2
-  },
-  "id": 7017,
-  "location": "Darkstone Castle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

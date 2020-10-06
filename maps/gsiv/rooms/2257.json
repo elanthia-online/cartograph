@@ -1,38 +1,28 @@
 {
+  "id": 2257,
+  "title": [
+    "[Head of the Beast]"
+  ],
+  "description": [
+    "The cavern is immense, yet it seems almost dwarfed by the monstrous head of a beast rendered in a strange scaled substance that defies analysis.  Emerging from the surrounding walls, its visage is contorted in an eternal grimace of fury and pain.  Beneath it sits a large glaes anvil.  A steady drip of bubbling black liquid leaks from the glittering eyes and snakes down the sides of the monstrosity's face, falling down upon the anvil's top where it pools just before hissing into a vapor of steam."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast"
+  ],
+  "location": "the Eye of V'Tull",
   "wayto": {
     "2255": "northeast",
     "2256": "southeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southeast"
-  ],
+  "timeto": {
+    "2255": 0.2,
+    "2256": 0.2
+  },
+  "image": "ti-vtull-1264234799.png",
   "image_coords": [
     145,
     619,
     153,
     627
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The cavern is immense, yet it seems almost dwarfed by the monstrous head of a beast rendered in a strange scaled substance that defies analysis.  Emerging from the surrounding walls, its visage is contorted in an eternal grimace of fury and pain.  Beneath it sits a large glaes anvil.  A steady drip of bubbling black liquid leaks from the glittering eyes and snakes down the sides of the monstrosity's face, falling down upon the anvil's top where it pools just before hissing into a vapor of steam."
-  ],
-  "image": "ti-vtull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Head of the Beast]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2255": 0.2,
-    "2256": 0.2
-  },
-  "id": 2257,
-  "location": "the Eye of V'Tull",
-  "tags": [
-    "pepperthorn root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

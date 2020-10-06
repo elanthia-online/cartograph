@@ -1,47 +1,31 @@
 {
+  "id": 1105,
+  "title": [
+    "[Dead Plateau]"
+  ],
+  "description": [
+    "A chill, gusty wind sweeps out from the barren interior of the Dead Plateau and off the edge toward the low mountains to the west.  The wind's howling makes hearing difficult except in those short times when it mercifully abates.  The edge of the plateau looms perilously close, and to the north a deep crevice blocks passage.  A switchback drops down the cliff side, leading to an inviting copse of trees and a small creek, while the discernable trail follows the edge of the plateau to the southwest."
+  ],
+  "paths": [
+    "Obvious paths: southwest, down"
+  ],
+  "location": "the Locksmehr Trail",
   "wayto": {
     "1104": "southwest",
     "1106": "down"
   },
-  "paths": [
-    "Obvious paths: southwest, down"
-  ],
+  "timeto": {
+    "1104": 0.2,
+    "1106": 0.2
+  },
+  "image": "en-trail-1264234799.png",
   "image_coords": [
     1089,
     911,
     1099,
     921
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "A chill, gusty wind sweeps out from the barren interior of the Dead Plateau and off the edge toward the low mountains to the west.  The wind's howling makes hearing difficult except in those short times when it mercifully abates.  The edge of the plateau looms perilously close, and to the north a deep crevice blocks passage.  A switchback drops down the cliff side, leading to an inviting copse of trees and a small creek, while the discernable trail follows the edge of the plateau to the southwest."
-  ],
-  "image": "en-trail-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Dead Plateau]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1104": 0.2,
-    "1106": 0.2
-  },
-  "id": 1105,
-  "location": "the Locksmehr Trail",
   "tags": [
-    "some cothinar flower",
-    "cothinar flower",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "stalk of chicory",
-    "broken twig",
-    "sprig of larkspur",
-    "ironfern root",
-    "sunburst blossom",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cothinar flower"
   ]
 }

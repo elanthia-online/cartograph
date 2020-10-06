@@ -1,46 +1,34 @@
 {
+  "id": 4303,
+  "title": [
+    "[Mine]"
+  ],
+  "description": [
+    "A large boulder blocks the middle of the tunnel here.  In the ceiling above is a jagged hole where it was ripped away from the native stone of the mountain."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the crystal caves",
   "wayto": {
     "4302": "south",
     "4304": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "4302": 0.2,
+    "4304": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     755,
     629,
     765,
     639
   ],
-  "terrain": "indoors",
-  "description": [
-    "A large boulder blocks the middle of the tunnel here.  In the ceiling above is a jagged hole where it was ripped away from the native stone of the mountain."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4302": 0.2,
-    "4304": 0.2
-  },
-  "id": 4303,
-  "location": "the crystal caves",
   "tags": [
     "some cave moss",
     "withered black mushroom",
     "some wolifrew lichen",
-    "some wingstem root",
-    "wolifrew lichen",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

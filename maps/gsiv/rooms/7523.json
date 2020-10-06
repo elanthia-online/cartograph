@@ -1,39 +1,31 @@
 {
+  "id": 7523,
+  "title": [
+    "[Temple, Altar]"
+  ],
+  "description": [
+    "The altar is plain, and bears only onyx bowls of smouldering incense and smoking paraffin.  Draped behind it is a cloth banner, appliqued with an ancient mystical pattern.  A legend is embroidered along the bottom.  On the far side of the room at the end of an aisle, you see two pillars."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "4041": "out",
     "7522": "go crack"
   },
-  "paths": [
-    "Obvious exits: out"
-  ],
+  "timeto": {
+    "4041": 0.2,
+    "7522": 0.2
+  },
+  "image": "wl-wehnimers-1264234799.png",
   "image_coords": [
     584,
     884,
     620,
     920
   ],
-  "terrain": "indoors",
-  "description": [
-    "The altar is plain, and bears only onyx bowls of smouldering incense and smoking paraffin.  Draped behind it is a cloth banner, appliqued with an ancient mystical pattern.  A legend is embroidered along the bottom.  On the far side of the room at the end of an aisle, you see two pillars."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Temple, Altar]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4041": 0.2,
-    "7522": 0.2
-  },
-  "id": 7523,
-  "location": "Wehnimer's Landing",
   "tags": [
-    "meta:teleport:fwi",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:teleport:fwi"
   ]
 }

@@ -1,35 +1,32 @@
 {
+  "id": 8690,
+  "title": [
+    "[Temple, Graveyard]"
+  ],
+  "description": [
+    "A Wehnimer's guardsman stands before one of the graves, talking in low tones to the headstone.  As you listen, he tells a humorous story about the time he sat in the tavern and his friend poured ale on his head.  A gentle feeling of sadness washes over you as you realize that his friend now lies in the grave."
+  ],
+  "paths": [
+    "Obvious paths: south, west, northwest"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "8689": "south",
     "8691": "northwest",
     "8692": "west"
   },
-  "paths": [
-    "Obvious paths: south, west, northwest"
-  ],
+  "timeto": {
+    "8689": 0.2,
+    "8691": 0.2,
+    "8692": 0.2
+  },
+  "image": "wl-wehnimers-1264234799.png",
   "image_coords": [
     615,
     737,
     623,
     745
   ],
-  "terrain": "cultivated",
-  "description": [
-    "A Wehnimer's guardsman stands before one of the graves, talking in low tones to the headstone.  As you listen, he tells a humorous story about the time he sat in the tavern and his friend poured ale on his head.  A gentle feeling of sadness washes over you as you realize that his friend now lies in the grave."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Temple, Graveyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8689": 0.2,
-    "8691": 0.2,
-    "8692": 0.2
-  },
-  "id": 8690,
-  "location": "the town of Wehnimer's Landing",
   "tags": [
     "some sovyn clove",
     "some haphip root",
@@ -54,51 +51,6 @@
     "blue trafel mushroom",
     "flathead mushroom",
     "sprig of Imaera's Lace",
-    "meta:teleport:fwi",
-    "cactacae spine",
-    "calamia fruit",
-    "haphip root",
-    "sovyn clove",
-    "spearmint leaf",
-    "small flower",
-    "small rose",
-    "small daisy",
-    "angelica root",
-    "soft white mushroom",
-    "genkew mushroom",
-    "heath aster",
-    "golden buttercup",
-    "Imaera's Lace",
-    "fennel bulb",
-    "ginger root",
-    "lettuce",
-    "rose-marrow root",
-    "yellow tomato",
-    "motherwort",
-    "sprig of bleeding-heart",
-    "stem of freesia flowers",
-    "large white gardenia",
-    "iris blossom",
-    "sprig of jasmine",
-    "sprig of lavender",
-    "sprig of mournbloom",
-    "wild pansy blossom",
-    "Elanthian snow rose",
-    "snapdragon stalk",
-    "branch of kerria",
-    "orris root",
-    "small pumpkin",
-    "raspberries",
-    "small apple",
-    "white lily",
-    "tiger lily",
-    "blue whortleberry",
-    "wavepetal blossom",
-    "sunburst blossom",
-    "onion skin",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:teleport:fwi"
   ]
 }

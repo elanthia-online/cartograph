@@ -1,33 +1,30 @@
 {
+  "id": 8213,
+  "title": [
+    "[Sea Caverns, Storage Chamber]"
+  ],
+  "description": [
+    "Boxes and sacks are jumbled together in this small, round chamber.  A thick swarm of flies buzzes about, and various sorts of beetles work over the foodstuffs stored here.  Some rusted cookware hangs from hooks on the wall."
+  ],
+  "paths": [
+    "Obvious exits: northeast"
+  ],
+  "location": "the sea caverns",
   "wayto": {
     "8221": "go trapdoor",
     "8212": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast"
-  ],
+  "timeto": {
+    "8221": 0.2,
+    "8212": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     381,
     129,
     391,
     139
   ],
-  "terrain": "indoors",
-  "description": [
-    "Boxes and sacks are jumbled together in this small, round chamber.  A thick swarm of flies buzzes about, and various sorts of beetles work over the foodstuffs stored here.  Some rusted cookware hangs from hooks on the wall."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Caverns, Storage Chamber]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8221": 0.2,
-    "8212": 0.2
-  },
-  "id": 8213,
-  "location": "the sea caverns",
   "tags": [
     "red trafel mushroom",
     "soft white mushroom",
@@ -36,16 +33,6 @@
     "blue trafel mushroom",
     "some wingstem root",
     "murdroot",
-    "some bolmara lichen",
-    "withered black mushroom",
-    "black hook mushroom",
-    "cave moss",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some bolmara lichen"
   ]
 }

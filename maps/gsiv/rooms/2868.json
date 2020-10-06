@@ -1,47 +1,34 @@
 {
+  "id": 2868,
+  "title": [
+    "[Northern Mountains, Dark Caves]"
+  ],
+  "description": [
+    "A cool breeze filters in from somewhere, stirring the still air and dispelling the stench that seems to permeate the rest of the cave. Cold water trickles down a wall, making a large puddle on the floor."
+  ],
+  "paths": [
+    "Obvious exits: up, down"
+  ],
+  "location": "the Sleeping Lady Mountains",
   "wayto": {
     "2867": "up",
     "2857": "down"
   },
-  "paths": [
-    "Obvious exits: up, down"
-  ],
+  "timeto": {
+    "2867": 0.2,
+    "2857": 0.2
+  },
+  "image": "imt-pinefar-1264234799.png",
   "image_coords": [
     220,
     1297,
     230,
     1307
   ],
-  "terrain": "indoors",
-  "description": [
-    "A cool breeze filters in from somewhere, stirring the still air and dispelling the stench that seems to permeate the rest of the cave. Cold water trickles down a wall, making a large puddle on the floor."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Northern Mountains, Dark Caves]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2867": 0.2,
-    "2857": 0.2
-  },
-  "id": 2868,
-  "location": "the Sleeping Lady Mountains",
   "tags": [
     "black hook mushroom",
     "soft white mushroom",
     "red trafel mushroom",
-    "withered black mushroom",
-    "white hook mushroom",
-    "blue trafel mushroom",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "withered black mushroom"
   ]
 }

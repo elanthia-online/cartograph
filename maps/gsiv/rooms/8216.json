@@ -1,49 +1,33 @@
 {
+  "id": 8216,
+  "title": [
+    "[Sea Caverns, Refuse Pile]"
+  ],
+  "description": [
+    "The floor is covered with rotting piles of garbage, apparently dumped from the dark fissure above.  Some of the piles seem to be writhing, though it's tough to be sure through the noxious fog that blankets the floor.  To the southeast, a mass of webs fills the tunnel."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the sea caverns",
   "wayto": {
     "8217": "go webs",
     "8220": "west"
   },
-  "paths": [
-    "Obvious exits: west"
-  ],
+  "timeto": {
+    "8217": 0.2,
+    "8220": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     436,
     231,
     446,
     241
   ],
-  "terrain": "indoors",
-  "description": [
-    "The floor is covered with rotting piles of garbage, apparently dumped from the dark fissure above.  Some of the piles seem to be writhing, though it's tough to be sure through the noxious fog that blankets the floor.  To the southeast, a mass of webs fills the tunnel."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Caverns, Refuse Pile]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8217": 0.2,
-    "8220": 0.2
-  },
-  "id": 8216,
-  "location": "the sea caverns",
   "tags": [
     "some bolmara lichen",
     "black hook mushroom",
-    "red trafel mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "white hook mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "red trafel mushroom"
   ]
 }

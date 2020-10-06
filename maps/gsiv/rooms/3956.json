@@ -1,33 +1,25 @@
 {
-  "wayto": {
-    "3937": {
-      "stringproc": "e6714bf6da1a9625fb84734118a3d351"
-    }
-  },
-  "paths": [
-    "Obvious exits: northeast, southwest"
+  "id": 3956,
+  "title": [
+    "[Abandoned Sewer]"
   ],
-  "image_coords": null,
-  "terrain": null,
   "description": [
     "A faint light trickles in through the cracks in the ceiling, as the tunnel continues to drop.  In the distance, you can hear the faint scratching sounds of vermin going about their business.",
     "A faint light trickles in through the cracks in the ceiling, as the tunnel continues to drop.  In the distance, you can hear the faint scratching sounds of vermin being about their business."
   ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Abandoned Sewer]"
+  "paths": [
+    "Obvious exits: northeast, southwest"
   ],
-  "check_location": null,
+  "location": "the catacombs",
+  "wayto": {
+    "3937": {
+      "file": "string_procs/wayto/3956_3937.rb"
+    }
+  },
   "timeto": {
     "3937": 1.6
   },
-  "id": 3956,
-  "location": "the catacombs",
   "tags": [
     "no-auto-map"
-  ],
-  "links": [
-
   ]
 }

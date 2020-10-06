@@ -1,34 +1,31 @@
 {
+  "id": 25146,
+  "title": [
+    "[Sea of Fire, Kanchoco Oasis]"
+  ],
+  "description": [
+    "Sun reflects in undulating shimmers off of the ruddy sand several paces away from the oasis's fertile shore, making a stark and blazing line between living soil and dead sand.  Just past the demarcation, a steep hillside rises in craggy majesty, overseeing the greenery with a pitted and impassive face.  A cleft splits its base, delving down into cool shadows.",
+    "Moonlight blanches the ruddy sand several paces away from the oasis's fertile shore, marking a stark and shining line between living soil and dead sand.  Just past the demarcation, a steep hillside rises in craggy majesty, overseeing the shadowed greenery with a pitted and impassive face.  A near-hidden cleft splits its base, delving down into impenetrable blackness."
+  ],
+  "paths": [
+    "Obvious paths: southwest"
+  ],
+  "location": "the shadow of the Sanctum",
   "wayto": {
     "25147": "go cleft",
     "25144": "southwest"
   },
-  "paths": [
-    "Obvious paths: southwest"
-  ],
+  "timeto": {
+    "25147": 0.2,
+    "25144": 0.2
+  },
+  "image": "sanctum-1474169333.png",
   "image_coords": [
     825,
     415,
     840,
     430
   ],
-  "terrain": null,
-  "description": [
-    "Sun reflects in undulating shimmers off of the ruddy sand several paces away from the oasis's fertile shore, making a stark and blazing line between living soil and dead sand.  Just past the demarcation, a steep hillside rises in craggy majesty, overseeing the greenery with a pitted and impassive face.  A cleft splits its base, delving down into cool shadows.",
-    "Moonlight blanches the ruddy sand several paces away from the oasis's fertile shore, marking a stark and shining line between living soil and dead sand.  Just past the demarcation, a steep hillside rises in craggy majesty, overseeing the shadowed greenery with a pitted and impassive face.  A near-hidden cleft splits its base, delving down into impenetrable blackness."
-  ],
-  "image": "sanctum-1474169333.png",
-  "climate": null,
-  "title": [
-    "[Sea of Fire, Kanchoco Oasis]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "25147": 0.2,
-    "25144": 0.2
-  },
-  "id": 25146,
-  "location": "the shadow of the Sanctum",
   "tags": [
     "golden poppy",
     "some cothinar flower",
@@ -46,8 +43,6 @@
     "wintergreen leaf",
     "red poppy",
     "pink poppy",
-    "small wild rose",
-    "cothinar flower"
-  ],
-  "unique_loot": null
+    "small wild rose"
+  ]
 }

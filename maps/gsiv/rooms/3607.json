@@ -1,33 +1,30 @@
 {
+  "id": 3607,
+  "title": [
+    "[Wehnimer's, Exterior]"
+  ],
+  "description": [
+    "This open field stretches from the southeast corner of Wehnimer's Landing.  From here, a faint path can be seen heading to the northeast and to the west as it follows the high walls of the fortified town."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "the Lower Dragonsclaw",
   "wayto": {
     "3606": "northeast",
     "3608": "west"
   },
-  "paths": [
-    "Obvious paths: northeast, west"
-  ],
+  "timeto": {
+    "3606": 0.2,
+    "3608": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     1004,
     147,
     1014,
     157
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "This open field stretches from the southeast corner of Wehnimer's Landing.  From here, a faint path can be seen heading to the northeast and to the west as it follows the high walls of the fortified town."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Wehnimer's, Exterior]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3606": 0.2,
-    "3608": 0.2
-  },
-  "id": 3607,
-  "location": "the Lower Dragonsclaw",
   "tags": [
     "some sovyn clove",
     "some acantha leaf",
@@ -59,10 +56,6 @@
     "murdroot",
     "ironfern root",
     "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bur-clover root"
   ]
 }

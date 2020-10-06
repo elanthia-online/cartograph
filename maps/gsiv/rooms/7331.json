@@ -1,41 +1,33 @@
 {
-  "wayto": {
-    "7315": {
-      "stringproc": "5fdbf2ffff2575359a6af0f575e4cbbf"
-    },
-    "7328": "up"
-  },
+  "id": 7331,
+  "title": [
+    "[A Dark Crevice]"
+  ],
+  "description": [
+    "You are perched on the ledge of a dangerously steep crevice which juts out from the wall hanging over a dark abyss.  The odd mists within it glow with an ethereal light as they lash about in their chaotic dance.  From above, the sound of thundering hooves reverberate throughout the chasm, seemingly vanishing into the bottomless pit below."
+  ],
   "paths": [
     "Obvious exits: up"
   ],
+  "location": "the Shadow Valley",
+  "wayto": {
+    "7315": {
+      "file": "string_procs/wayto/7331_7315.rb"
+    },
+    "7328": "up"
+  },
+  "timeto": {
+    "7315": 30.0,
+    "7328": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1390,
     696,
     1398,
     704
   ],
-  "terrain": "indoors",
-  "description": [
-    "You are perched on the ledge of a dangerously steep crevice which juts out from the wall hanging over a dark abyss.  The odd mists within it glow with an ethereal light as they lash about in their chaotic dance.  From above, the sound of thundering hooves reverberate throughout the chasm, seemingly vanishing into the bottomless pit below."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[A Dark Crevice]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7315": 30.0,
-    "7328": 0.2
-  },
-  "id": 7331,
-  "location": "the Shadow Valley",
   "tags": [
-    "node",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "node"
   ]
 }

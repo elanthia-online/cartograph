@@ -1,40 +1,30 @@
 {
-  "wayto": {
-    "299": {
-      "stringproc": "93c207170d94156bc3d8384ad3f9669a"
-    },
-    "22243": "northwest"
-  },
+  "id": 22236,
+  "title": [
+    "[The Swale, Outskirts]"
+  ],
+  "description": [
+    "Caravans of wagons, and travelers on foot, trudge down a steep mountainside, their packs and carts full of wares to be sold at the market in town.  The formidable mountains stretch into the distance, blanketing the thinning landscape."
+  ],
   "paths": [
     "Obvious paths: northwest"
   ],
+  "location": "Talador",
+  "wayto": {
+    "299": {
+      "file": "string_procs/wayto/22236_299.rb"
+    },
+    "22243": "northwest"
+  },
+  "timeto": {
+    "299": 0.2,
+    "22243": 0.2
+  },
+  "image": "wl-swale-1405616532.png",
   "image_coords": [
     543,
     249,
     558,
     263
-  ],
-  "terrain": null,
-  "description": [
-    "Caravans of wagons, and travelers on foot, trudge down a steep mountainside, their packs and carts full of wares to be sold at the market in town.  The formidable mountains stretch into the distance, blanketing the thinning landscape."
-  ],
-  "image": "wl-swale-1405616532.png",
-  "climate": null,
-  "title": [
-    "[The Swale, Outskirts]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "299": 0.2,
-    "22243": 0.2
-  },
-  "id": 22236,
-  "location": "Talador",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

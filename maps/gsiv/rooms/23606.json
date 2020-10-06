@@ -1,33 +1,22 @@
 {
-  "wayto": {
-    "5924": {
-      "stringproc": "9813661eebf37892a88ba7660705b1e3"
-    }
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Bits of moldering cloth and broken bones litter the floor of this tiny cavern.  A small patch of phosphorescent moss, casting a dim and eerie light across the room, grows on the upper portion of one wall."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 23606,
   "title": [
     "[Catacombs, Fetid Alcove]"
   ],
-  "check_location": true,
+  "description": [
+    "Bits of moldering cloth and broken bones litter the floor of this tiny cavern.  A small patch of phosphorescent moss, casting a dim and eerie light across the room, grows on the upper portion of one wall."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the catacombs",
+  "wayto": {
+    "5924": {
+      "file": "string_procs/wayto/23606_5924.rb"
+    }
+  },
   "timeto": {
     "5924": 0.2
   },
-  "id": 23606,
-  "location": "the catacombs",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  "check_location": true
 }

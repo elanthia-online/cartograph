@@ -1,46 +1,32 @@
 {
-  "wayto": {
-    "21074": {
-      "stringproc": "d85ece0b13067d67ad270f4b82d3239d"
-    },
-    "21076": {
-      "stringproc": "1c304dc162ad33460c5751cce901dc5a"
-    }
-  },
+  "id": 21075,
+  "title": [
+    "[Alhan'naht River, Jungle Pass]"
+  ],
+  "description": [
+    "Dark boulders rise out of the wide river along the southern end, their thick and sturdy angles neatly bisecting the water course in half.  The western edge continues to amble peacefully through the jungle, while the eastern edge picks up speed and rushes off towards the distant, thunderous sound of water falling from a great height.  A series of thick hemp nets stretches across the eastern passage, preventing travel in that direction.  The nets are clogged with logs, twigs, and other debris."
+  ],
   "paths": [
     "Obvious paths: north, southwest"
   ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "21074": {
+      "file": "string_procs/wayto/21075_21074.rb"
+    },
+    "21076": {
+      "file": "string_procs/wayto/21075_21076.rb"
+    }
+  },
+  "timeto": {
+    "21074": 2.0,
+    "21076": 2.0
+  },
+  "image": "ifw-wilds-1368242816.png",
   "image_coords": [
     1659,
     2479,
     1680,
     2499
-  ],
-  "terrain": "riparian",
-  "description": [
-    "Dark boulders rise out of the wide river along the southern end, their thick and sturdy angles neatly bisecting the water course in half.  The western edge continues to amble peacefully through the jungle, while the eastern edge picks up speed and rushes off towards the distant, thunderous sound of water falling from a great height.  A series of thick hemp nets stretches across the eastern passage, preventing travel in that direction.  The nets are clogged with logs, twigs, and other debris."
-  ],
-  "image": "ifw-wilds-1368242816.png",
-  "climate": "freshwater",
-  "title": [
-    "[Alhan'naht River, Jungle Pass]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "21074": 2.0,
-    "21076": 2.0
-  },
-  "id": 21075,
-  "location": "Mist Harbor",
-  "tags": [
-    "stalk of cattail",
-    "murdroot",
-    "wavepetal blossom",
-    "sunburst blossom",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

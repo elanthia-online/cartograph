@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "11320": "north"
-  },
+  "id": 11321,
+  "title": [
+    "[Alchemist, Cage Room]"
+  ],
+  "description": [
+    "Iron cages line the far wall, all strangely distorted in shape and reinforced with silvery vultite wire.  Lumpy sacks of animal feed have been piled in a corner of the room, but the corpses filling the various cages were clearly well-enough fed -- for the rats, kobolds, and other animal corpses are grotesquely large as well as hideously distorted in their features.  Spots of yellow mold grow on some of the corpses, adding a fungal smell to the reek of rotting flesh."
+  ],
   "paths": [
     "Obvious exits: north"
   ],
+  "location": "the Citadel",
+  "wayto": {
+    "11320": "north"
+  },
+  "timeto": {
+    "11320": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     861,
     806,
     871,
     816
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Iron cages line the far wall, all strangely distorted in shape and reinforced with silvery vultite wire.  Lumpy sacks of animal feed have been piled in a corner of the room, but the corpses filling the various cages were clearly well-enough fed -- for the rats, kobolds, and other animal corpses are grotesquely large as well as hideously distorted in their features.  Spots of yellow mold grow on some of the corpses, adding a fungal smell to the reek of rotting flesh."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Alchemist, Cage Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11320": 0.2
-  },
-  "id": 11321,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

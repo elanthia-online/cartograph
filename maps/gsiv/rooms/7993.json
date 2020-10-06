@@ -1,70 +1,36 @@
 {
+  "id": 7993,
+  "title": [
+    "[Upper Trollfang]"
+  ],
+  "description": [
+    "The steep path makes travel difficult and the sight of not so well balanced boulders on the slopes above you, explains why few travellers pass this way.  An iron ring is attached to a rusty spike in the rock face and the shredded remains of a rope dangles from the ring."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast"
+  ],
+  "location": "the old Mine Road",
   "wayto": {
     "7997": {
-      "stringproc": "2c1376d0a671169fdac94c4cd7b5734d"
+      "file": "string_procs/wayto/7993_7997.rb"
     },
     "4206": "southeast",
     "7994": "north"
   },
-  "paths": [
-    "Obvious paths: north, southeast"
-  ],
+  "timeto": {
+    "7997": 0.2,
+    "4206": 0.2,
+    "7994": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     343,
     680,
     353,
     690
   ],
-  "terrain": "rough",
-  "description": [
-    "The steep path makes travel difficult and the sight of not so well balanced boulders on the slopes above you, explains why few travellers pass this way.  An iron ring is attached to a rusty spike in the rock face and the shredded remains of a rope dangles from the ring."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Upper Trollfang]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7997": 0.2,
-    "4206": 0.2,
-    "7994": 0.2
-  },
-  "id": 7993,
-  "location": "the old Mine Road",
   "tags": [
     "yellow primrose",
-    "some motherwort",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "wild strawberry",
-    "blueberries",
-    "stalk of chicory",
-    "handful of currants",
-    "elderberries",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "wild grapes",
-    "broken twig",
-    "sprig of alyssum",
-    "heath aster",
-    "golden buttercup",
-    "red clover blossom",
-    "pink clover blossom",
-    "white clover blossom",
-    "purple clover blossom",
-    "yellow clover blossom",
-    "stalk of goldenrod",
-    "sprig of larkspur",
-    "small wild rose",
-    "wild chokecherry",
-    "motherwort",
-    "white baneberry",
-    "pepperthorn root",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some motherwort"
   ]
 }

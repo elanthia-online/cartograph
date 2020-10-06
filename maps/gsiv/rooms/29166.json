@@ -1,0 +1,32 @@
+{
+  "id": 29166,
+  "title": [
+    "[Basalt Cliff, Face]"
+  ],
+  "description": [
+    "Halfway up the cliff face is a ledge wide enough to pause on safely.  It extends further east though the footing is treacherous.  The view from here is breathtaking, with Kharam Dzu appearing like a toy town below were it not for the tiny inhabitants moving about their daily routines."
+  ],
+  "paths": [
+    "Obvious paths: east, down"
+  ],
+  "location": "the volcanic flats",
+  "wayto": {
+    "29165": "down",
+    "29167": "east",
+    "29168": {
+      "file": "string_procs/wayto/29166_29168.rb"
+    }
+  },
+  "timeto": {
+    "29165": 0.2,
+    "29167": 0.2,
+    "29168": 0.2
+  },
+  "image": "ti-feyrie-1599500894.png",
+  "image_coords": [
+    118,
+    321,
+    126,
+    333
+  ]
+}

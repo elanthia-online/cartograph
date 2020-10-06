@@ -1,35 +1,32 @@
 {
+  "id": 3158,
+  "title": [
+    "[Frozen Garden, Pond]"
+  ],
+  "description": [
+    "Small groves of evergreen trees grow at the edge of a small, frozen pond.  A thin ribbon of ice leads from the pond and marks what was once a shallow stream.  Snow drifts climb above the edges of the stream creating a narrow gully for it to wind its way through."
+  ],
+  "paths": [
+    "Obvious paths: east, south, northwest"
+  ],
+  "location": "the Frozen Garden",
   "wayto": {
     "23281": "go portal",
     "3157": "east",
     "3159": "northwest"
   },
-  "paths": [
-    "Obvious paths: east, south, northwest"
-  ],
+  "timeto": {
+    "23281": 0.2,
+    "3157": 0.2,
+    "3159": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     101,
     655,
     111,
     665
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "Small groves of evergreen trees grow at the edge of a small, frozen pond.  A thin ribbon of ice leads from the pond and marks what was once a shallow stream.  Snow drifts climb above the edges of the stream creating a narrow gully for it to wind its way through."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Frozen Garden, Pond]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "23281": 0.2,
-    "3157": 0.2,
-    "3159": 0.2
-  },
-  "id": 3158,
-  "location": "the Frozen Garden",
   "tags": [
     "slender twig",
     "tkaro root",
@@ -46,31 +43,6 @@
     "orange rowanberry",
     "bright red teaberry",
     "handful of pinenuts",
-    "some pine needles",
-    "sticks",
-    "sassafras leaf",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "iceblossoms",
-    "winter rose",
-    "wintergreen leaf",
-    "broken twig",
-    "pine cone",
-    "pine needles",
-    "frostweed",
-    "snowberries",
-    "pale thornberry",
-    "small loganberry",
-    "tree bark",
-    "rockberry",
-    "crowberry",
-    "lingonberry",
-    "ironfern root",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some pine needles"
   ]
 }

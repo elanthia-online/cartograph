@@ -1,36 +1,29 @@
 {
-  "wayto": {
-    "9369": "west"
-  },
+  "id": 9370,
+  "title": [
+    "[Lower Caves]"
+  ],
+  "description": [
+    "A small fire burns here, illuminating the room.  The remains of a modest meal lie on a scarred table in one corner, and iron shackles have been bolted to the far wall.  A small shrine lies in one corner, strewn with candles and other tiny objects, but as a whole it pulses with restrained power."
+  ],
   "paths": [
     "Obvious exits: west"
   ],
+  "location": "the Cairnfang",
+  "wayto": {
+    "9369": "west"
+  },
+  "timeto": {
+    "9369": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     1086,
     115,
     1098,
     127
   ],
-  "terrain": "indoors",
-  "description": [
-    "A small fire burns here, illuminating the room.  The remains of a modest meal lie on a scarred table in one corner, and iron shackles have been bolted to the far wall.  A small shrine lies in one corner, strewn with candles and other tiny objects, but as a whole it pulses with restrained power."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Lower Caves]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9369": 0.2
-  },
-  "id": 9370,
-  "location": "the Cairnfang",
   "tags": [
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

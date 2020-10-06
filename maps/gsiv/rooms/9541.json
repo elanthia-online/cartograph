@@ -1,41 +1,33 @@
 {
+  "id": 9541,
+  "title": [
+    "[Troll Burial Grounds]"
+  ],
+  "description": [
+    "The walls narrow even further here, making it possible to stand atop the pile of bones and touch each wall with an outstretched arm.  Undertaker bats have been particularly active in this room, evidenced by the large amount of bat guano covering most surfaces.  Dust and bits of dried guano, kicked up by scavenging rats, mingle with the thick, rotting air."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Troll Burial Grounds",
   "wayto": {
     "9540": "east",
     "9542": "west"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "9540": 0.2,
+    "9542": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     579,
     1131,
     589,
     1141
   ],
-  "terrain": "indoors",
-  "description": [
-    "The walls narrow even further here, making it possible to stand atop the pile of bones and touch each wall with an outstretched arm.  Undertaker bats have been particularly active in this room, evidenced by the large amount of bat guano covering most surfaces.  Dust and bits of dried guano, kicked up by scavenging rats, mingle with the thick, rotting air."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Troll Burial Grounds]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9540": 0.2,
-    "9542": 0.2
-  },
-  "id": 9541,
-  "location": "the Troll Burial Grounds",
   "tags": [
     "soft white mushroom",
     "withered black mushroom",
-    "blue trafel mushroom",
-    "pepperthorn root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "blue trafel mushroom"
   ]
 }

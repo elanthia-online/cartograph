@@ -1,42 +1,34 @@
 {
+  "id": 2182,
+  "title": [
+    "[Eye of V'Tull, Outer Caverns]"
+  ],
+  "description": [
+    "Whistling loudly as it passes, hot air, heavy with ash, scours the floor and walls clean as it is funneled upwards by the narrowing passage."
+  ],
+  "paths": [
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "the Eye of V'Tull",
   "wayto": {
     "2181": "northwest",
     "2183": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast, northwest"
-  ],
+  "timeto": {
+    "2181": 0.2,
+    "2183": 0.2
+  },
+  "image": "ti-vtull-1264234799.png",
   "image_coords": [
     814,
     441,
     824,
     451
   ],
-  "terrain": "indoors",
-  "description": [
-    "Whistling loudly as it passes, hot air, heavy with ash, scours the floor and walls clean as it is funneled upwards by the narrowing passage."
-  ],
-  "image": "ti-vtull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Eye of V'Tull, Outer Caverns]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2181": 0.2,
-    "2183": 0.2
-  },
-  "id": 2182,
-  "location": "the Eye of V'Tull",
   "tags": [
     "pepperthorn root",
     "black trafel mushroom",
     "some cave moss",
-    "daggerstalk mushroom",
-    "cave moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "daggerstalk mushroom"
   ]
 }

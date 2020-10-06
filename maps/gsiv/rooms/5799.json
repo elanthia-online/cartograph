@@ -1,41 +1,31 @@
 {
+  "id": 5799,
+  "title": [
+    "[Zaerthu Tunnels, Abandoned Mine]"
+  ],
+  "description": [
+    "The mine shaft widens into a square chamber strewn with evidence of past habitation.  Shards of shattered drinking vessels, a crate encrusted with candle-wax, and a pair of broken stools beside the makeshift table suggest that the chamber was once a resting place for miners.  A thick layer of dust on the crude furnishings bespeaks many years' disuse."
+  ],
+  "paths": [
+    "Obvious exits: north, southwest"
+  ],
+  "location": "the Zaerthu Tunnels",
   "wayto": {
     "5798": "north",
     "5800": "southwest"
   },
-  "paths": [
-    "Obvious exits: north, southwest"
-  ],
+  "timeto": {
+    "5798": 0.2,
+    "5800": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     233,
     901,
     243,
     911
   ],
-  "terrain": "indoors",
-  "description": [
-    "The mine shaft widens into a square chamber strewn with evidence of past habitation.  Shards of shattered drinking vessels, a crate encrusted with candle-wax, and a pair of broken stools beside the makeshift table suggest that the chamber was once a resting place for miners.  A thick layer of dust on the crude furnishings bespeaks many years' disuse."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Zaerthu Tunnels, Abandoned Mine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5798": 0.2,
-    "5800": 0.2
-  },
-  "id": 5799,
-  "location": "the Zaerthu Tunnels",
   "tags": [
-    "some wolifrew lichen",
-    "wolifrew lichen",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wolifrew lichen"
   ]
 }

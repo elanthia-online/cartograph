@@ -1,48 +1,36 @@
 {
+  "id": 7566,
+  "title": [
+    "[Catacombs, Natural Cavern]"
+  ],
+  "description": [
+    "The cavern widens into a large room, illuminated by moonlight that streams in through cracks in the ceiling far above.  Colorful mosses, nourished by the sparse sunlight that filters in during the day, grow on ancient stalagmites formed by centuries of dripping water.  To the north, an opening in the wall leads into a darker tunnel.",
+    "The cavern widens into a large room, illuminated by light that streams in through cracks in the ceiling far above.  Colorful mosses, nourished by the sparse sunlight, grow on ancient stalagmites formed by centuries of dripping water.  To the north, an opening in the wall leads into a darker tunnel."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast"
+  ],
+  "location": "the dark caverns",
   "wayto": {
     "7565": "northeast",
     "7567": "north"
   },
-  "paths": [
-    "Obvious exits: north, northeast"
-  ],
+  "timeto": {
+    "7565": 0.2,
+    "7567": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     224,
     1396,
     234,
     1406
   ],
-  "terrain": "indoors",
-  "description": [
-    "The cavern widens into a large room, illuminated by moonlight that streams in through cracks in the ceiling far above.  Colorful mosses, nourished by the sparse sunlight that filters in during the day, grow on ancient stalagmites formed by centuries of dripping water.  To the north, an opening in the wall leads into a darker tunnel.",
-    "The cavern widens into a large room, illuminated by light that streams in through cracks in the ceiling far above.  Colorful mosses, nourished by the sparse sunlight, grow on ancient stalagmites formed by centuries of dripping water.  To the north, an opening in the wall leads into a darker tunnel."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Catacombs, Natural Cavern]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7565": 0.2,
-    "7567": 0.2
-  },
-  "id": 7566,
-  "location": "the dark caverns",
   "tags": [
     "some pothinir grass",
     "withered black mushroom",
     "some wingstem root",
     "some cave moss",
-    "some bur-clover root",
-    "pothinir grass",
-    "cave moss",
-    "murdroot",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some bur-clover root"
   ]
 }

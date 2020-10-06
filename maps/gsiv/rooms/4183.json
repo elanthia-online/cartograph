@@ -1,42 +1,32 @@
 {
+  "id": 4183,
+  "title": [
+    "[Minion Quarters]"
+  ],
+  "description": [
+    "The fog hangs very close to the floor here.  Each step causes it to swirl into strange patterns that give the fog a lifelike quality.  A large chunk of rock has fallen from the ceiling here.  This room is carved larger than most of the others and it causes you no inconvenience as you go around it."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east, west, northwest"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "4192": "northeast",
     "4182": "west",
     "4193": "northwest",
     "4184": "east"
   },
-  "paths": [
-    "Obvious exits: northeast, east, west, northwest"
-  ],
-  "image_coords": [
-    765,
-    1141,
-    775,
-    1151
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The fog hangs very close to the floor here.  Each step causes it to swirl into strange patterns that give the fog a lifelike quality.  A large chunk of rock has fallen from the ceiling here.  This room is carved larger than most of the others and it causes you no inconvenience as you go around it."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Minion Quarters]"
-  ],
-  "check_location": null,
   "timeto": {
     "4192": 0.2,
     "4182": 0.2,
     "4193": 0.2,
     "4184": 0.2
   },
-  "id": 4183,
-  "location": "the Graveyard",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-graveyard-1264234799.png",
+  "image_coords": [
+    765,
+    1141,
+    775,
+    1151
   ]
 }

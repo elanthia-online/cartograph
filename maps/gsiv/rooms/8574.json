@@ -1,33 +1,25 @@
 {
+  "id": 8574,
+  "title": [
+    "[Secluded Valley]"
+  ],
+  "description": [
+    "Outcroppings of bare rock jut from the heavily brush covered slope that rises to the north of you.  Rugged Zeltoph Mountain looms above the entire scene, its snow covered peak barely visible beneath a blanket of thick gray clouds.",
+    "Outcroppings of bare rock jut from the heavily brush covered slope that rises to the north of you.  Rugged Zeltoph Mountain looms above the entire scene, its snow covered peak barely visible high in the night sky."
+  ],
+  "paths": [
+    "Obvious paths: southeast, south, southwest, northwest"
+  ],
+  "location": "the foothills of Zeltoph",
   "wayto": {
     "19651": {
-      "stringproc": "8e9c73e8f73dde86c602c1ace9016664"
+      "file": "string_procs/wayto/8574_19651.rb"
     },
     "8570": "northwest",
     "8571": "southwest",
     "8572": "south",
     "8573": "southeast"
   },
-  "paths": [
-    "Obvious paths: southeast, south, southwest, northwest"
-  ],
-  "image_coords": [
-    1293,
-    923,
-    1303,
-    933
-  ],
-  "terrain": "hilly",
-  "description": [
-    "Outcroppings of bare rock jut from the heavily brush covered slope that rises to the north of you.  Rugged Zeltoph Mountain looms above the entire scene, its snow covered peak barely visible beneath a blanket of thick gray clouds.",
-    "Outcroppings of bare rock jut from the heavily brush covered slope that rises to the north of you.  Rugged Zeltoph Mountain looms above the entire scene, its snow covered peak barely visible high in the night sky."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Secluded Valley]"
-  ],
-  "check_location": null,
   "timeto": {
     "19651": 0.6,
     "8570": 0.2,
@@ -35,8 +27,13 @@
     "8572": 0.2,
     "8573": 0.2
   },
-  "id": 8574,
-  "location": "the foothills of Zeltoph",
+  "image": "wl-trollfang-1264234799.png",
+  "image_coords": [
+    1293,
+    923,
+    1303,
+    933
+  ],
   "tags": [
     "white hook mushroom",
     "tkaro root",
@@ -68,11 +65,6 @@
     "twisted twig",
     "slender twig",
     "bolmara lichen",
-    "brostheras grass",
-    "sunburst blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

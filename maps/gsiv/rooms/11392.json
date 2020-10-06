@@ -1,38 +1,28 @@
 {
+  "id": 11392,
+  "title": [
+    "[Citadel, Battlement]"
+  ],
+  "description": [
+    "Reaching out across the stone floor of the battlements is a bleached bony hand belonging to an armored skeleton.  The skeleton lies propped against the wall, a large boulder resting on his lower half.  The passage of time has removed the skull from the body, depositing it elsewhere out of sight, leaving the unknown Citadel defender to an eternity of indignity."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11391": "east",
     "11393": "west"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "11391": 0.2,
+    "11393": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     533,
     1448,
     543,
     1458
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "Reaching out across the stone floor of the battlements is a bleached bony hand belonging to an armored skeleton.  The skeleton lies propped against the wall, a large boulder resting on his lower half.  The passage of time has removed the skull from the body, depositing it elsewhere out of sight, leaving the unknown Citadel defender to an eternity of indignity."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "arid",
-  "title": [
-    "[Citadel, Battlement]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11391": 0.2,
-    "11393": 0.2
-  },
-  "id": 11392,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

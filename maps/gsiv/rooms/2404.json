@@ -1,40 +1,33 @@
 {
+  "id": 2404,
+  "title": [
+    "[Tavern Burrow, Barley Lane]"
+  ],
+  "description": [
+    "The narrow buildings on Barley Lane appear taller than others in the Trace, possibly due to the lowering of the street level.  The eaves of the buildings are low and broad, shading their porches from the southern sun in summer, and keeping the walkways snow-free in winter."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south, west"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "2403": "west",
     "3458": "south",
     "2407": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, south, west"
-  ],
+  "timeto": {
+    "2403": 0.2,
+    "3458": 0.2,
+    "2407": 0.2
+  },
+  "image": "imt-icemule-1474811966.png",
   "image_coords": [
     316,
     965,
     352,
     1001
   ],
-  "terrain": "hard, flat",
-  "description": [
-    "The narrow buildings on Barley Lane appear taller than others in the Trace, possibly due to the lowering of the street level.  The eaves of the buildings are low and broad, shading their porches from the southern sun in summer, and keeping the walkways snow-free in winter."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Tavern Burrow, Barley Lane]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2403": 0.2,
-    "3458": 0.2,
-    "2407": 0.2
-  },
-  "id": 2404,
-  "location": "Icemule Trace",
   "tags": [
-    "calmintha flower",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "calmintha flower"
   ]
 }

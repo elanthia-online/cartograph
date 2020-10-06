@@ -1,46 +1,38 @@
 {
+  "id": 1550,
+  "title": [
+    "[Sorcerer Guild, Entrance]"
+  ],
+  "description": [
+    "A limestone wall topped with driftwood carvings supports a silver gate.  A thick layer of crunchy yellow and white brick chips covers the area between the street and the gate.  Torches affixed to the wall on either side of the gate blaze brilliantly to light the surrounding area.",
+    "Mere feet from the dark waters that tug at every shore of the small island, a silver gate gleams from the surface of a limestone wall topped with driftwood carvings.  A thick layer of blue and black stone chips forms a path that extends from the gate to a short span of carved stone to the east that links the island to the mainland.  Torches affixed to the walls to either side of the gate blaze brilliantly, throwing the shadows back to the meeting of sand and sea.",
+    "Mere feet from the lapping waves that tug at every shore of the small island, a silver gate gleams from the surface of a limestone wall topped with driftwood carvings.  A thick layer of blue and black stone chips forms a path that extends from the gate to a short span of carved stone to the east that links the island to the mainland.  Unlit torches affixed to the walls to either side of the gate await the onset of night."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "Solhaven",
   "wayto": {
     "18928": "go gate",
     "22350": "go portal",
     "1546": "east"
   },
-  "paths": [
-    "Obvious paths: east"
-  ],
+  "timeto": {
+    "18928": {
+      "file": "string_procs/timeto/1550_18928.rb"
+    },
+    "22350": 5.0,
+    "1546": 0.2
+  },
+  "image": "vo-solhaven-1263764670.png",
   "image_coords": [
     515,
     1207,
     537,
     1229
   ],
-  "terrain": "hard, flat",
-  "description": [
-    "A limestone wall topped with driftwood carvings supports a silver gate.  A thick layer of crunchy yellow and white brick chips covers the area between the street and the gate.  Torches affixed to the wall on either side of the gate blaze brilliantly to light the surrounding area.",
-    "Mere feet from the dark waters that tug at every shore of the small island, a silver gate gleams from the surface of a limestone wall topped with driftwood carvings.  A thick layer of blue and black stone chips forms a path that extends from the gate to a short span of carved stone to the east that links the island to the mainland.  Torches affixed to the walls to either side of the gate blaze brilliantly, throwing the shadows back to the meeting of sand and sea.",
-    "Mere feet from the lapping waves that tug at every shore of the small island, a silver gate gleams from the surface of a limestone wall topped with driftwood carvings.  A thick layer of blue and black stone chips forms a path that extends from the gate to a short span of carved stone to the east that links the island to the mainland.  Unlit torches affixed to the walls to either side of the gate await the onset of night."
-  ],
-  "image": "vo-solhaven-1263764670.png",
-  "climate": "temperate",
-  "title": [
-    "[Sorcerer Guild, Entrance]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "18928": {
-      "stringproc": "3c0eeef8198990b22d359822a9163e1e"
-    },
-    "22350": 5.0,
-    "1546": 0.2
-  },
-  "id": 1550,
-  "location": "Solhaven",
   "tags": [
     "sorcerer guild",
-    "sorcererguild",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sorcererguild"
   ]
 }

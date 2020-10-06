@@ -1,37 +1,30 @@
 {
-  "wayto": {
-    "28395": "go doors",
-    "28401": "go staircase",
-    "28422": "go metal door"
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": [
-    600,
-    1877,
-    673,
-    1947
-  ],
-  "terrain": null,
-  "description": [
-    "The black stone walls in this space are joined by a similarly crafted staircase rising from the stones underneath in a rough circular trajectory hugging the internal walls of the tower.  At the center of this room is a massive sculpture depicting a trio of gargoyles artfully arranged in attack postures, their jaws open wide and wings flared.  Torches are placed around the base of the sculpture, providing both light for the room and dramatic shadows across the sculpture's surface."
-  ],
-  "image": "fest-windfellows_retreat-1566674846.jpg",
-  "climate": null,
+  "id": 28400,
   "title": [
     "[Windfellow's Retreat, Greatroom]"
   ],
-  "check_location": null,
+  "description": [
+    "The black stone walls in this space are joined by a similarly crafted staircase rising from the stones underneath in a rough circular trajectory hugging the internal walls of the tower.  At the center of this room is a massive sculpture depicting a trio of gargoyles artfully arranged in attack postures, their jaws open wide and wings flared.  Torches are placed around the base of the sculpture, providing both light for the room and dramatic shadows across the sculpture's surface."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "28401": "go staircase",
+    "28422": "go metal door",
+    "28395": "go doors"
+  },
   "timeto": {
     "28395": 0.2,
     "28401": 0.2,
     "28422": 0.2
   },
-  "id": 28400,
-  "location": "Mist Harbor",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  "image": "fest-windfellows_retreat-1566674846.jpg",
+  "image_coords": [
+    600,
+    1877,
+    673,
+    1947
+  ]
 }

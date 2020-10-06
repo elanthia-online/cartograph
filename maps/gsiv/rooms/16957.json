@@ -1,47 +1,44 @@
 {
-  "wayto": {
-    "18803": {
-      "stringproc": "9530e7b353488450abf514d7328187a8"
-    },
-    "9888": {
-      "stringproc": "08ae52e283e0d6629d2648f0850e5f14"
-    },
-    "13183": {
-      "stringproc": "9bf57bf3fda33e99abb00f61f6b4286d"
-    },
-    "9889": {
-      "stringproc": "2a252b152d6d7f47eab1cf36a98cdbcc"
-    },
-    "16956": {
-      "stringproc": "be97885db95624bceef2deaffc5e02c4"
-    },
-    "9884": {
-      "stringproc": "a71c7879b3ac3f9a1481a682a9eec400"
-    },
-    "9885": {
-      "stringproc": "783451204e9e7ab8afb0fe9c4bd11d6b"
-    },
-    "9886": {
-      "stringproc": "698bb71856ee1a8d330d9de704c5414c"
-    },
-    "9887": {
-      "stringproc": "a2ca5c08d934683139763cec97c7f8d6"
-    }
-  },
-  "paths": [
-    "Obvious paths: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "The canopy overhead thins out enough to allow sunlight to play across the forest floor.  In its benevolence grow a host of plants, from tumbles of blackberry vines to flowering lilies and wild roses.  Small woodland violets dot the green with multicolored, jewel-like blossoms, and huge clumps of ferns ring the rampant verdure like hosts welcoming visiting family members."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 16957,
   "title": [
     "[Deep Forest, Secret Garden]"
   ],
-  "check_location": null,
+  "description": [
+    "The canopy overhead thins out enough to allow sunlight to play across the forest floor.  In its benevolence grow a host of plants, from tumbles of blackberry vines to flowering lilies and wild roses.  Small woodland violets dot the green with multicolored, jewel-like blossoms, and huge clumps of ferns ring the rampant verdure like hosts welcoming visiting family members."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "the dark woods",
+  "wayto": {
+    "18803": {
+      "file": "string_procs/wayto/16957_18803.rb"
+    },
+    "9888": {
+      "file": "string_procs/wayto/16957_9888.rb"
+    },
+    "13183": {
+      "file": "string_procs/wayto/16957_13183.rb"
+    },
+    "9889": {
+      "file": "string_procs/wayto/16957_9889.rb"
+    },
+    "16956": {
+      "file": "string_procs/wayto/16957_16956.rb"
+    },
+    "9884": {
+      "file": "string_procs/wayto/16957_9884.rb"
+    },
+    "9885": {
+      "file": "string_procs/wayto/16957_9885.rb"
+    },
+    "9886": {
+      "file": "string_procs/wayto/16957_9886.rb"
+    },
+    "9887": {
+      "file": "string_procs/wayto/16957_9887.rb"
+    }
+  },
   "timeto": {
     "18803": 15.0,
     "9888": 15.0,
@@ -53,14 +50,9 @@
     "9886": 15.0,
     "9887": 15.0
   },
-  "id": 16957,
-  "location": "the dark woods",
   "tags": [
     "no-auto-map",
     "some calamia fruit",
     "some sovyn clove"
-  ],
-  "links": [
-
   ]
 }

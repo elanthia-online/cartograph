@@ -1,35 +1,28 @@
 {
+  "id": 26257,
+  "title": [
+    "[Banshee Tower, First Floor]"
+  ],
+  "description": [
+    "Smooth, crystal black walls form a circular chamber of the first floor of the tower.  The murky opaque, barely translucent surface of the walls allows only the slightest, yet blurred view of the road outside."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Talador",
   "wayto": {
     "26258": "go mist",
     "26256": "search\ngo opening"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "26258": 0.2,
+    "26256": 0.2
+  },
+  "image": "wl-lichs_landing-1500800742.png",
   "image_coords": [
     126,
     595,
     153,
     622
-  ],
-  "terrain": null,
-  "description": [
-    "Smooth, crystal black walls form a circular chamber of the first floor of the tower.  The murky opaque, barely translucent surface of the walls allows only the slightest, yet blurred view of the road outside."
-  ],
-  "image": "wl-lichs_landing-1500800742.png",
-  "climate": null,
-  "title": [
-    "[Banshee Tower, First Floor]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26258": 0.2,
-    "26256": 0.2
-  },
-  "id": 26257,
-  "location": "Talador",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

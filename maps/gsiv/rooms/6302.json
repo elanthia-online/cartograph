@@ -1,38 +1,31 @@
 {
+  "id": 6302,
+  "title": [
+    "[Dirt Mines, Sluice]"
+  ],
+  "description": [
+    "Dirty waves break against the rounded sides of the pipe.  They crest in sets, sloshing first to one side and then to another.  The rhythmic echo reverberates against the hard clay louder than a monstrous waterfall."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "the Lower Dragonsclaw",
   "wayto": {
     "6301": "northeast",
     "6303": "southwest"
   },
-  "paths": [
-    "Obvious exits: northeast, southwest"
-  ],
+  "timeto": {
+    "6301": 0.2,
+    "6303": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     171,
     177,
     181,
     187
   ],
-  "terrain": "indoors",
-  "description": [
-    "Dirty waves break against the rounded sides of the pipe.  They crest in sets, sloshing first to one side and then to another.  The rhythmic echo reverberates against the hard clay louder than a monstrous waterfall."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dirt Mines, Sluice]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6301": 0.2,
-    "6303": 0.2
-  },
-  "id": 6302,
-  "location": "the Lower Dragonsclaw",
   "tags": [
-    "murdroot",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "murdroot"
   ]
 }

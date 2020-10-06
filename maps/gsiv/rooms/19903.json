@@ -1,71 +1,32 @@
 {
+  "id": 19903,
+  "title": [
+    "[Woodlands, Blackberry Patch]"
+  ],
+  "description": [
+    "The trail bends from the north to the west through a sunny clearing that breaks the deep woods.  Tangles of blackberry bushes grow around the trunks of the scattered trees, their brambles extending into the small paths that lead to homes in the underbrush.  A flock of blackbirds have stopped to rest in the branches of a nearby oak, filling the clearing with their cries."
+  ],
+  "paths": [
+    "Obvious paths: north, west"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "19904": {
-      "stringproc": "d09d170fd725a704e5e3e5a2eae69e9a"
+      "file": "string_procs/wayto/19903_19904.rb"
     },
     "19905": "north",
     "19906": "west"
   },
-  "paths": [
-    "Obvious paths: north, west"
-  ],
-  "image_coords": [
-    522,
-    559,
-    538,
-    574
-  ],
-  "terrain": null,
-  "description": [
-    "The trail bends from the north to the west through a sunny clearing that breaks the deep woods.  Tangles of blackberry bushes grow around the trunks of the scattered trees, their brambles extending into the small paths that lead to homes in the underbrush.  A flock of blackbirds have stopped to rest in the branches of a nearby oak, filling the clearing with their cries."
-  ],
-  "image": "wl-homes-2-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Woodlands, Blackberry Patch]"
-  ],
-  "check_location": null,
   "timeto": {
     "19904": 0.2,
     "19905": 0.2,
     "19906": 0.2
   },
-  "id": 19903,
-  "location": "Wehnimer's Landing",
-  "tags": [
-    "cactacae spine",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "wild strawberry",
-    "blueberries",
-    "stalk of chicory",
-    "handful of currants",
-    "elderberries",
-    "wild grapes",
-    "broken twig",
-    "sprig of alyssum",
-    "golden buttercup",
-    "red clover blossom",
-    "pink clover blossom",
-    "white clover blossom",
-    "purple clover blossom",
-    "yellow clover blossom",
-    "stalk of goldenrod",
-    "sprig of larkspur",
-    "yellow primrose",
-    "small wild rose",
-    "sprig of wild lilac",
-    "Imaera's Lace",
-    "wild chokecherry",
-    "murkweed",
-    "blue whortleberry",
-    "pepperthorn root",
-    "ironfern root",
-    "sunburst blossom",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-homes-2-1264234799.png",
+  "image_coords": [
+    522,
+    559,
+    538,
+    574
   ]
 }

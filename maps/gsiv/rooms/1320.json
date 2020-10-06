@@ -1,33 +1,30 @@
 {
+  "id": 1320,
+  "title": [
+    "[Plateau, Flynth River]"
+  ],
+  "description": [
+    "Game trails crisscross the area, most heading towards a copse of trees to the east.  A grouse, flushed from the tall grass, squawks loudly as it flies up and away."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest"
+  ],
+  "location": "the foothills of Zeltoph",
   "wayto": {
     "1321": "southwest",
     "1319": "north"
   },
-  "paths": [
-    "Obvious paths: north, southwest"
-  ],
+  "timeto": {
+    "1321": 0.2,
+    "1319": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     106,
     661,
     116,
     671
   ],
-  "terrain": "grassland",
-  "description": [
-    "Game trails crisscross the area, most heading towards a copse of trees to the east.  A grouse, flushed from the tall grass, squawks loudly as it flies up and away."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Plateau, Flynth River]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1321": 0.2,
-    "1319": 0.2
-  },
-  "id": 1320,
-  "location": "the foothills of Zeltoph",
   "tags": [
     "some wolifrew lichen",
     "sprig of larkspur",
@@ -48,10 +45,6 @@
     "moonlight cactus-bloom",
     "luckbloom blossom",
     "ironfern root",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

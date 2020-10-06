@@ -1,41 +1,33 @@
 {
+  "id": 8668,
+  "title": [
+    "[Town Well]"
+  ],
+  "description": [
+    "Sunlight streaming through a gap in the great oak's branches casts a bright spot on the flagstone court around the old well.  A few flowering weeds thrive in the shadow of the well, adding a splash of color to the city corner.",
+    "Moonlight streaming through a gap in the great oak's branches casts a bright sheen on the flagstone court around the old well.  A few flowering weeds thrive in the shadow of the well, adding a splash of color in the darkness."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "8667": "northeast",
     "7562": "southeast"
   },
-  "paths": [
-    "Obvious paths: northeast, southeast"
-  ],
+  "timeto": {
+    "8667": 0.2,
+    "7562": 0.2
+  },
+  "image": "wl-wehnimers-1264234799.png",
   "image_coords": [
     246,
     421,
     256,
     431
   ],
-  "terrain": "hard, flat",
-  "description": [
-    "Sunlight streaming through a gap in the great oak's branches casts a bright spot on the flagstone court around the old well.  A few flowering weeds thrive in the shadow of the well, adding a splash of color to the city corner.",
-    "Moonlight streaming through a gap in the great oak's branches casts a bright sheen on the flagstone court around the old well.  A few flowering weeds thrive in the shadow of the well, adding a splash of color in the darkness."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "humid",
-  "title": [
-    "[Town Well]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8667": 0.2,
-    "7562": 0.2
-  },
-  "id": 8668,
-  "location": "the town of Wehnimer's Landing",
   "tags": [
     "node",
-    "meta:teleport:fwi",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:teleport:fwi"
   ]
 }

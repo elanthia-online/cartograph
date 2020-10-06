@@ -1,45 +1,34 @@
 {
+  "id": 4977,
+  "title": [
+    "[Maernstrike Caverns, Tunnel]"
+  ],
+  "description": [
+    "Foul smelling air in this section makes breathing through the nose optional.  Walking becomes difficult as the ground suddenly shifts underfoot.  The serrated surface of the walls is covered with webs, and their owners stand their ground defiantly."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "the Maernstrike Caverns",
   "wayto": {
     "4976": "east",
     "4979": "north"
   },
-  "paths": [
-    "Obvious exits: north, east"
-  ],
+  "timeto": {
+    "4976": 0.2,
+    "4979": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     1384,
     335,
     1392,
     343
   ],
-  "terrain": "indoors",
-  "description": [
-    "Foul smelling air in this section makes breathing through the nose optional.  Walking becomes difficult as the ground suddenly shifts underfoot.  The serrated surface of the walls is covered with webs, and their owners stand their ground defiantly."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Maernstrike Caverns, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4976": 0.2,
-    "4979": 0.2
-  },
-  "id": 4977,
-  "location": "the Maernstrike Caverns",
   "tags": [
     "some cave moss",
     "some wingstem root",
     "white hook mushroom",
-    "some bolmara lichen",
-    "cave moss",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some bolmara lichen"
   ]
 }

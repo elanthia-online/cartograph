@@ -1,38 +1,27 @@
 {
+  "id": 16155,
+  "title": [
+    "[Krolvin Carrack, Bilge]"
+  ],
+  "description": [
+    "Dark and cramped, this narrow passageway is awash in foul, briny water.  The air is fetid.  The poor footing of the slimy and slippery deck is exacerbated by the extreme tilt of the ship."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
   "wayto": {
     "11592": "east",
     "11572": "west"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "11592": 0.2,
+    "11572": 0.2
+  },
+  "image": "rr-maelstrom-1266390501.png",
   "image_coords": [
     212,
     1377,
     222,
     1387
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Dark and cramped, this narrow passageway is awash in foul, briny water.  The air is fetid.  The poor footing of the slimy and slippery deck is exacerbated by the extreme tilt of the ship."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "indoors",
-  "title": [
-    "[Krolvin Carrack, Bilge]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11592": 0.2,
-    "11572": 0.2
-  },
-  "id": 16155,
-  "location": "the Shattered Moors",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

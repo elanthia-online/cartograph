@@ -1,33 +1,30 @@
 {
+  "id": 10032,
+  "title": [
+    "[Yegharren Plain, Forest's Edge]"
+  ],
+  "description": [
+    "Huge, gnarled roots crisscross the path, almost seeming to move like shifting serpents in the dim light.  The occasional sound of something rustling as it moves through the canopy above drifts through the thick silence of the forest air."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast"
+  ],
+  "location": "the Yegharren Plains",
   "wayto": {
     "10025": "southeast",
     "10033": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, southeast"
-  ],
+  "timeto": {
+    "10025": 0.2,
+    "10033": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     1138,
     437,
     1146,
     445
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "Huge, gnarled roots crisscross the path, almost seeming to move like shifting serpents in the dim light.  The occasional sound of something rustling as it moves through the canopy above drifts through the thick silence of the forest air."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Yegharren Plain, Forest's Edge]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10025": 0.2,
-    "10033": 0.2
-  },
-  "id": 10032,
-  "location": "the Yegharren Plains",
   "tags": [
     "tkaro root",
     "some valerian root",
@@ -46,35 +43,6 @@
     "blue trafel mushroom",
     "some acantha leaf",
     "sweetfern stalk",
-    "soft white mushroom",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "sticks",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "withered black mushroom",
-    "wintergreen leaf",
-    "blueberries",
-    "fiddlehead fern",
-    "broken twig",
-    "small wild rose",
-    "sprig of wild lilac",
-    "tree bark",
-    "blue whortleberry",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "soft white mushroom"
   ]
 }

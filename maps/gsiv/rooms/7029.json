@@ -1,52 +1,34 @@
 {
+  "id": 7029,
+  "title": [
+    "[Castle Darkstone, Outer Ward]"
+  ],
+  "description": [
+    "A cold shiver runs up your back as you step gingerly around some vaguely human remains.  Who, or even what, they belonged to is quite beyond you, but their presence is enough to fill you with dread.  The inner keep continues to the east, and the southwest guardtower lies to the west."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7030": "east",
     "7027": "west"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "7030": 0.2,
+    "7027": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     514,
     562,
     524,
     572
   ],
-  "terrain": null,
-  "description": [
-    "A cold shiver runs up your back as you step gingerly around some vaguely human remains.  Who, or even what, they belonged to is quite beyond you, but their presence is enough to fill you with dread.  The inner keep continues to the east, and the southwest guardtower lies to the west."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Castle Darkstone, Outer Ward]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7030": 0.2,
-    "7027": 0.2
-  },
-  "id": 7029,
-  "location": "Darkstone Castle",
   "tags": [
     "some wolifrew lichen",
     "some wingstem root",
     "bright red cranberry",
-    "heath aster",
-    "acantha leaf",
-    "wolifrew lichen",
-    "cuctucae berry",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "stalk of chicory",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "heath aster"
   ]
 }

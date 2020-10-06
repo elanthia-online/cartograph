@@ -1,43 +1,33 @@
 {
+  "id": 12336,
+  "title": [
+    "[Firefly Villa, Corridor]"
+  ],
+  "description": [
+    "White stucco walls line the northern side of the corridor and stand opposite ornate windows of stained glass.  A myriad of hues swirls through the colored panes to bathe a paneled mahogany door and a golden linden door in their sun-warmed light.",
+    "White stucco walls line the northern side of the corridor and stand opposite ornate windows of stained glass.  As moonlight filters through the panes, it bathes a paneled mahogany door and a golden linden door in its silvery glow."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Mist Harbor",
   "wayto": {
     "12328": "go linden door",
     "16451": "west",
     "16441": "go mahogany door",
     "12320": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
-  "image_coords": [
-    480,
-    2400,
-    501,
-    2421
-  ],
-  "terrain": "indoors",
-  "description": [
-    "White stucco walls line the northern side of the corridor and stand opposite ornate windows of stained glass.  A myriad of hues swirls through the colored panes to bathe a paneled mahogany door and a golden linden door in their sun-warmed light.",
-    "White stucco walls line the northern side of the corridor and stand opposite ornate windows of stained glass.  As moonlight filters through the panes, it bathes a paneled mahogany door and a golden linden door in its silvery glow."
-  ],
-  "image": "ifw-isle_of_four_winds-1310232949.png",
-  "climate": "indoors",
-  "title": [
-    "[Firefly Villa, Corridor]"
-  ],
-  "check_location": null,
   "timeto": {
     "12328": 0.2,
     "16451": 0.2,
     "16441": 0.2,
     "12320": 0.2
   },
-  "id": 12336,
-  "location": "Mist Harbor",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "ifw-isle_of_four_winds-1310232949.png",
+  "image_coords": [
+    480,
+    2400,
+    501,
+    2421
   ]
 }

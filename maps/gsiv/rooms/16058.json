@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "16056": "south"
-  },
+  "id": 16058,
+  "title": [
+    "[Infirmary, Patient Ward]"
+  ],
+  "description": [
+    "Eight beds with straw tick mattresses line the walls of this ward room.  The mattresses, some of which have been flipped onto the floor, have been gnawed at by rodents and other vermin.  The tattered shreds of the linen curtains used to separate the beds hang limply from their hooks."
+  ],
   "paths": [
     "Obvious exits: south"
   ],
+  "location": "the Citadel",
+  "wayto": {
+    "16056": "south"
+  },
+  "timeto": {
+    "16056": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     192,
     493,
     202,
     503
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Eight beds with straw tick mattresses line the walls of this ward room.  The mattresses, some of which have been flipped onto the floor, have been gnawed at by rodents and other vermin.  The tattered shreds of the linen curtains used to separate the beds hang limply from their hooks."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Infirmary, Patient Ward]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "16056": 0.2
-  },
-  "id": 16058,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

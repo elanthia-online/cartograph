@@ -1,39 +1,31 @@
 {
+  "id": 12790,
+  "title": [
+    "[Lobby]"
+  ],
+  "description": [
+    "This square room seems to have been carved out of solid rock, as evidenced by the smooth, hard walls.  A simple, deep brown rug covers the center of the floor.  A mural has been painted on one wall, covering it from floor to ceiling with a detailed image of the Eye of V'Tull.  Two granite benches sit against the adjacent walls, and a refreshment cart stands in the corner.  A sign hangs over a carved stone stairway, and a rounded arch is carved in the fourth wall, nearly hidden by deep blue curtains."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the old Logging Road",
   "wayto": {
     "12789": "out",
     "12791": "climb stairway"
   },
-  "paths": [
-    "Obvious exits: out"
-  ],
+  "timeto": {
+    "12789": 0.2,
+    "12791": 0.2
+  },
+  "image": "ti-teras-1264234799.png",
   "image_coords": [
     289,
     1101,
     325,
     1137
   ],
-  "terrain": "indoors",
-  "description": [
-    "This square room seems to have been carved out of solid rock, as evidenced by the smooth, hard walls.  A simple, deep brown rug covers the center of the floor.  A mural has been painted on one wall, covering it from floor to ceiling with a detailed image of the Eye of V'Tull.  Two granite benches sit against the adjacent walls, and a refreshment cart stands in the corner.  A sign hangs over a carved stone stairway, and a rounded arch is carved in the fourth wall, nearly hidden by deep blue curtains."
-  ],
-  "image": "ti-teras-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Lobby]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "12789": 0.2,
-    "12791": 0.2
-  },
-  "id": 12790,
-  "location": "the town of Kharam-Dzu",
   "tags": [
-    "chronomage",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "chronomage"
   ]
 }

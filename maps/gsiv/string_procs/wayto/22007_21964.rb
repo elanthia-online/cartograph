@@ -1,1 +1,4 @@
-waitrt?; empty_hands; move 'climb wall'; fill_hands
+waitrt?
+ empty_hands
+ move 'climb wall'
+ fill_hands

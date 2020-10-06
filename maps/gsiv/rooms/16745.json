@@ -1,58 +1,34 @@
 {
-  "wayto": {
-    "16744": "north",
-    "16746": {
-      "stringproc": "0d49759a22a4af5b02194ae87364c770"
-    }
-  },
+  "id": 16745,
+  "title": [
+    "[Aradhul Road, Rocky Trail]"
+  ],
+  "description": [
+    "The high, rocky walls of the ravine loom above the trail, and a gigantic rock, dislodged from high above, blocks passage to the south.  The ravine walls widen to the north, yielding to a thick forest."
+  ],
   "paths": [
     "Obvious paths: north"
   ],
+  "location": "Aradhul Road",
+  "wayto": {
+    "16744": "north",
+    "16746": {
+      "file": "string_procs/wayto/16745_16746.rb"
+    }
+  },
+  "timeto": {
+    "16744": 0.2,
+    "16746": 15000
+  },
+  "image": "en-aradhul-road-1308194332.png",
   "image_coords": [
     652,
     756,
     676,
     777
   ],
-  "terrain": "mountainous",
-  "description": [
-    "The high, rocky walls of the ravine loom above the trail, and a gigantic rock, dislodged from high above, blocks passage to the south.  The ravine walls widen to the north, yielding to a thick forest."
-  ],
-  "image": "en-aradhul-road-1308194332.png",
-  "climate": "temperate",
-  "title": [
-    "[Aradhul Road, Rocky Trail]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "16744": 0.2,
-    "16746": 15
-  },
-  "id": 16745,
-  "location": "Aradhul Road",
   "tags": [
     "small apple",
-    "juicy plum",
-    "angelica root",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "sprig of larkspur",
-    "yellow primrose",
-    "wild sage",
-    "sprig of columbine",
-    "crimson dragonstalk",
-    "mountain dryad",
-    "stalk of monkeyflower",
-    "sprig of holly",
-    "sprig of ivy",
-    "pepperthorn root",
-    "ironfern root",
-    "sunburst blossom",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "juicy plum"
   ]
 }

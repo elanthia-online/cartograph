@@ -1,45 +1,28 @@
 {
+  "id": 24525,
+  "title": [
+    "[Frozen Bramble Patch]"
+  ],
+  "description": [
+    "The brambles here have taken on a comical pose, shaped like some overweight bear.  Spreading out from underneath the comically-shaped brambles, sinously curved appendages twist in every direction."
+  ],
+  "paths": [
+    "Obvious paths: east, south"
+  ],
+  "location": "the Abandoned Farm",
   "wayto": {
     "24524": "south",
     "24526": "east"
   },
-  "paths": [
-    "Obvious paths: east, south"
-  ],
+  "timeto": {
+    "24524": 0.2,
+    "24526": 0.2
+  },
+  "image": "imt-bramble_patch-1307499864.png",
   "image_coords": [
     102,
     126,
     115,
     139
-  ],
-  "terrain": "barren scrub",
-  "description": [
-    "The brambles here have taken on a comical pose, shaped like some overweight bear.  Spreading out from underneath the comically-shaped brambles, sinously curved appendages twist in every direction."
-  ],
-  "image": "imt-bramble_patch-1307499864.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Frozen Bramble Patch]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24524": 0.2,
-    "24526": 0.2
-  },
-  "id": 24525,
-  "location": "the Abandoned Farm",
-  "tags": [
-    "snow lily",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "arctic moss",
-    "broken twig",
-    "rockberry",
-    "crowberry",
-    "lingonberry",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+  ]
 }

@@ -1,43 +1,26 @@
 {
-  "wayto": {
-    "24530": "south"
-  },
+  "id": 24545,
+  "title": [
+    "[Frozen Bramble Patch]"
+  ],
+  "description": [
+    "Relief is nowhere to be found as sharp spikes continue to thrust outward from the spiny bushes.  The ancient snow carpeting the ground here is anything but serene, it's color yellow from age.  A rotted canvas sack is stuck within the thorns, the slight breeze unable to free it from its prison."
+  ],
   "paths": [
     "Obvious paths: south"
   ],
+  "location": "the Abandoned Farm",
+  "wayto": {
+    "24530": "south"
+  },
+  "timeto": {
+    "24530": 0.2
+  },
+  "image": "imt-bramble_patch-1307499864.png",
   "image_coords": [
     234,
     223,
     245,
     236
-  ],
-  "terrain": "barren scrub",
-  "description": [
-    "Relief is nowhere to be found as sharp spikes continue to thrust outward from the spiny bushes.  The ancient snow carpeting the ground here is anything but serene, it's color yellow from age.  A rotted canvas sack is stuck within the thorns, the slight breeze unable to free it from its prison."
-  ],
-  "image": "imt-bramble_patch-1307499864.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Frozen Bramble Patch]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24530": 0.2
-  },
-  "id": 24545,
-  "location": "the Abandoned Farm",
-  "tags": [
-    "snow lily",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "arctic moss",
-    "broken twig",
-    "rockberry",
-    "crowberry",
-    "lingonberry",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+  ]
 }

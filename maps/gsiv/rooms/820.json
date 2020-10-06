@@ -1,34 +1,31 @@
 {
+  "id": 820,
+  "title": [
+    "[Whistler's Pass, Montane Forest]"
+  ],
+  "description": [
+    "The trail passes through a small clearing where a dense grove of spruce yields to more thinly-spaced, towering pines.  Whispery starlight pours into the area, bathing onion and catchfly plants with a pale silver glow.",
+    "The trail passes through a small clearing where a dense grove of spruce yields to more thinly-spaced, towering pines.  Intense sunlight pours into the area, bathing onion and catchfly plants with a bright golden glow."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "819": "northeast",
     "821": "southwest"
   },
-  "paths": [
-    "Obvious paths: northeast, southwest"
-  ],
+  "timeto": {
+    "819": 0.2,
+    "821": 0.2
+  },
+  "image": "en-whistlers_pass-1264234799.png",
   "image_coords": [
     977,
     667,
     987,
     677
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "The trail passes through a small clearing where a dense grove of spruce yields to more thinly-spaced, towering pines.  Whispery starlight pours into the area, bathing onion and catchfly plants with a pale silver glow.",
-    "The trail passes through a small clearing where a dense grove of spruce yields to more thinly-spaced, towering pines.  Intense sunlight pours into the area, bathing onion and catchfly plants with a bright golden glow."
-  ],
-  "image": "en-whistlers_pass-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Whistler's Pass, Montane Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "819": 0.2,
-    "821": 0.2
-  },
-  "id": 820,
-  "location": "Whistler's Pass",
   "tags": [
     "acantha leaf",
     "wolifrew lichen",
@@ -56,10 +53,6 @@
     "twisted twig",
     "slender twig",
     "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

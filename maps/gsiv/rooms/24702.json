@@ -1,33 +1,30 @@
 {
+  "id": 24702,
+  "title": [
+    "[Red Forest, Inner Weald]"
+  ],
+  "description": [
+    "Lush greenery curves to the south through the forest, bordered by a thick haze which blocks the view in all directions.  Heavy foliage blankets the ground, nearly entombing a fallen old grey tree."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast"
+  ],
+  "location": "the Red Forest",
   "wayto": {
     "24703": "southeast",
     "24696": "north"
   },
-  "paths": [
-    "Obvious paths: north, southeast"
-  ],
+  "timeto": {
+    "24703": 0.2,
+    "24696": 0.2
+  },
+  "image": "red_forest-1260914757.png",
   "image_coords": [
     467,
     176,
     481,
     188
   ],
-  "terrain": null,
-  "description": [
-    "Lush greenery curves to the south through the forest, bordered by a thick haze which blocks the view in all directions.  Heavy foliage blankets the ground, nearly entombing a fallen old grey tree."
-  ],
-  "image": "red_forest-1260914757.png",
-  "climate": null,
-  "title": [
-    "[Red Forest, Inner Weald]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24703": 0.2,
-    "24696": 0.2
-  },
-  "id": 24702,
-  "location": "the Displaced Red Forest",
   "tags": [
     "some tree bark",
     "wild chokecherry",
@@ -51,31 +48,6 @@
     "blue whortleberry",
     "foe:direwolf",
     "foe:warped tree spirit",
-    "foe:direbear",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "tkaro root",
-    "sticks",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "withered black mushroom",
-    "blueberries",
-    "fiddlehead fern",
-    "broken twig",
-    "tree bark",
-    "mistweed",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+    "foe:direbear"
+  ]
 }

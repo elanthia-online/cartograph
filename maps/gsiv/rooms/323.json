@@ -1,66 +1,34 @@
 {
+  "id": 323,
+  "title": [
+    "[Wehnimer's, Lanthar Rd.]"
+  ],
+  "description": [
+    "Lanthar Road leads east and west here, serving as a passage between the local inns and warehouses bordering the riverfront district and the center of Wehnimer's Landing.  A stray jarlik sniffs at a patch of grass growing between cracks in the cobbled pavement to one side of the road."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "320": "west",
     "243": "east",
     "8830": "go gate"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "320": 0.2,
+    "243": 0.2,
+    "8830": 0.2
+  },
+  "image": "wl-wehnimers-1264234799.png",
   "image_coords": [
     813,
     526,
     849,
     562
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "Lanthar Road leads east and west here, serving as a passage between the local inns and warehouses bordering the riverfront district and the center of Wehnimer's Landing.  A stray jarlik sniffs at a patch of grass growing between cracks in the cobbled pavement to one side of the road."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Wehnimer's, Lanthar Rd.]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "320": 0.2,
-    "243": 0.2,
-    "8830": 0.2
-  },
-  "id": 323,
-  "location": "the town of Wehnimer's Landing",
   "tags": [
     "some acantha leaf",
-    "pepperthorn root",
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "small flower",
-    "small rose",
-    "small daisy",
-    "angelica root",
-    "withered black mushroom",
-    "stalk of chicory",
-    "sprig of alyssum",
-    "heath aster",
-    "stalk of goldenrod",
-    "yellow primrose",
-    "small wild rose",
-    "wild carrot",
-    "ginger root",
-    "wild chokecherry",
-    "motherwort",
-    "murkweed",
-    "blue whortleberry",
-    "white baneberry",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "pepperthorn root"
   ]
 }

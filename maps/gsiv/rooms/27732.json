@@ -1,34 +1,25 @@
 {
-  "wayto": {
-    "27733": {
-      "stringproc": "5dd959750d0121980290722e0ca6c781"
-    },
-    "27731": {
-      "stringproc": "96166631e16e39e71dc1c4aa11b37727"
-    }
-  },
-  "paths": [
-    "Obvious exits: down"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "A few simple tokens hang above each narrow slitted window, each marred by some faint scar, dent, or tear.  Dark planks harboring black stains in the wood make up the floor, their short railings ensuring that none will take a rather nasty plunge to the floor far below.  A length of knotted rope is gathered beneath a grommet set into the wall beneath one of the wider windows to allow access to the west wall."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 27732,
   "title": [
     "[West Barbican, North Tower]"
   ],
-  "check_location": null,
+  "description": [
+    "A few simple tokens hang above each narrow slitted window, each marred by some faint scar, dent, or tear.  Dark planks harboring black stains in the wood make up the floor, their short railings ensuring that none will take a rather nasty plunge to the floor far below.  A length of knotted rope is gathered beneath a grommet set into the wall beneath one of the wider windows to allow access to the west wall."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Icemule Trace",
+  "wayto": {
+    "27733": {
+      "file": "string_procs/wayto/27732_27733.rb"
+    },
+    "27731": {
+      "file": "string_procs/wayto/27732_27731.rb"
+    }
+  },
   "timeto": {
     "27733": 5.2,
     "27731": 10.2
-  },
-  "id": 27732,
-  "location": "Icemule Trace",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  }
 }

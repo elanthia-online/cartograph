@@ -1,33 +1,30 @@
 {
+  "id": 9355,
+  "title": [
+    "[Ravine]"
+  ],
+  "description": [
+    "The ravine comes to a dead end here at a high rock wall which is pocked with holes, some openings even large enough for a giantman to walk through.  Sound seems to echo strangely in these openings, as though they are deeper than they first appear.  The stream flows from inside one of the larger ones."
+  ],
+  "paths": [
+    "Obvious paths: southeast"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "9354": "southeast",
     "9356": "go opening"
   },
-  "paths": [
-    "Obvious paths: southeast"
-  ],
+  "timeto": {
+    "9354": 0.2,
+    "9356": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     1009,
     168,
     1019,
     178
   ],
-  "terrain": "riparian",
-  "description": [
-    "The ravine comes to a dead end here at a high rock wall which is pocked with holes, some openings even large enough for a giantman to walk through.  Sound seems to echo strangely in these openings, as though they are deeper than they first appear.  The stream flows from inside one of the larger ones."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Ravine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9354": 0.2,
-    "9356": 0.2
-  },
-  "id": 9355,
-  "location": "the Cairnfang",
   "tags": [
     "sprig of wild lilac",
     "some talneo root",
@@ -63,10 +60,6 @@
     "murdroot",
     "wavepetal blossom",
     "ironfern root",
-    "talneo root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "talneo root"
   ]
 }

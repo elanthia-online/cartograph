@@ -1,52 +1,36 @@
 {
+  "id": 7719,
+  "title": [
+    "[Caverns, Tunnel]"
+  ],
+  "description": [
+    "The tunnel widens into a yawning cavern, its pale grey walls festooned with small glowing patches of greenish lichen.  An arch of rock opens into a small cave in the northern wall, faint beams of light winking in and out of existence from within."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south, west"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "7733": "go cave",
     "7723": "south",
     "7717": "west",
     "7720": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, south, west"
-  ],
-  "image_coords": [
-    295,
-    1439,
-    305,
-    1449
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The tunnel widens into a yawning cavern, its pale grey walls festooned with small glowing patches of greenish lichen.  An arch of rock opens into a small cave in the northern wall, faint beams of light winking in and out of existence from within."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Caverns, Tunnel]"
-  ],
-  "check_location": null,
   "timeto": {
     "7733": 0.2,
     "7723": 0.2,
     "7717": 0.2,
     "7720": 0.2
   },
-  "id": 7719,
-  "location": "the Coastal Cliffs",
+  "image": "wl-coastal_cliffs-1264234799.png",
+  "image_coords": [
+    295,
+    1439,
+    305,
+    1449
+  ],
   "tags": [
     "soft white mushroom",
-    "some cave moss",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

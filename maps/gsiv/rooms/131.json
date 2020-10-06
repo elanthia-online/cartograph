@@ -1,38 +1,28 @@
 {
+  "id": 131,
+  "title": [
+    "[Temple Wyneb, Calvaria]"
+  ],
+  "description": [
+    "It is impossible to avoid the bat guano entirely, as it covers every inch of the floor.  However, the greatest density appears to be in the center of the room, so you do what you can to keep to the edges."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Temple Wyneb",
   "wayto": {
     "130": "south",
     "132": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "130": 0.2,
+    "132": 0.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     852,
     599,
     862,
     609
-  ],
-  "terrain": "indoors",
-  "description": [
-    "It is impossible to avoid the bat guano entirely, as it covers every inch of the floor.  However, the greatest density appears to be in the center of the room, so you do what you can to keep to the edges."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Temple Wyneb, Calvaria]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "130": 0.2,
-    "132": 0.2
-  },
-  "id": 131,
-  "location": "Temple Wyneb",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

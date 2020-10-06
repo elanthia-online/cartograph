@@ -1,67 +1,39 @@
 {
+  "id": 2838,
+  "title": [
+    "[Northern Slopes, Quiet Forest]"
+  ],
+  "description": [
+    "The thick tree coverage runs up to the edge of a steep cliff and provides welcome shelter from the harsh wind. Without those frigid gusts howling through the tree branches, the forest is remarkably peaceful. Several sets of tracks wind chaotically through the forest, and a few disappear up a fairly steep incline."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "the Sleeping Lady Mountains",
   "wayto": {
     "2872": "west",
     "2839": "climb incline",
     "2837": {
-      "stringproc": "f9d269dd63248dc78731718a02f043ab"
+      "file": "string_procs/wayto/2838_2837.rb"
     }
   },
-  "paths": [
-    "Obvious paths: west"
-  ],
+  "timeto": {
+    "2872": 0.2,
+    "2839": 0.2,
+    "2837": 0.2
+  },
+  "image": "imt-pinefar-1264234799.png",
   "image_coords": [
     302,
     1322,
     312,
     1332
   ],
-  "terrain": "mountainous",
-  "description": [
-    "The thick tree coverage runs up to the edge of a steep cliff and provides welcome shelter from the harsh wind. Without those frigid gusts howling through the tree branches, the forest is remarkably peaceful. Several sets of tracks wind chaotically through the forest, and a few disappear up a fairly steep incline."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Northern Slopes, Quiet Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2872": 0.2,
-    "2839": 0.2,
-    "2837": 0.2
-  },
-  "id": 2838,
-  "location": "the Sleeping Lady Mountains",
   "tags": [
     "sassafras leaf",
     "handful of snowberries",
     "lingonberry",
     "some arctic moss",
-    "calamintha blossom",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "edelweiss",
-    "iceblossoms",
-    "snow lily",
-    "winter rose",
-    "arctic moss",
-    "tundra grass",
-    "golden aster",
-    "snowberries",
-    "pale thornberry",
-    "red winterberry",
-    "small loganberry",
-    "rockberry",
-    "crowberry",
-    "orange rowanberry",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "calamintha blossom"
   ]
 }

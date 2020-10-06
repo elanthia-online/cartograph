@@ -1,1 +1,2 @@
-move 'west'; move 'south' while checkpaths.include?('s')
+move 'west'
+ move 'south' while checkpaths.include?('s')

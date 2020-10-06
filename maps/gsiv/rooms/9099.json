@@ -1,38 +1,28 @@
 {
+  "id": 9099,
+  "title": [
+    "[Great Cavern, Flue]"
+  ],
+  "description": [
+    "A wide tunnel extends straight upwards.  Below, the tunnel slopes downward and off to one side a bit.  The ceiling of the flue is covered in thick glowing moss and a drop or two of water falls from above.  The air is still cool here, but well above freezing."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "the subterranean tunnels",
   "wayto": {
     "9098": "go stairs",
     "9100": "down"
   },
-  "paths": [
-    "Obvious exits: down"
-  ],
+  "timeto": {
+    "9098": 0.2,
+    "9100": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     202,
     466,
     212,
     476
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A wide tunnel extends straight upwards.  Below, the tunnel slopes downward and off to one side a bit.  The ceiling of the flue is covered in thick glowing moss and a drop or two of water falls from above.  The air is still cool here, but well above freezing."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Great Cavern, Flue]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9098": 0.2,
-    "9100": 0.2
-  },
-  "id": 9099,
-  "location": "the subterranean tunnels",
-  "tags": [
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

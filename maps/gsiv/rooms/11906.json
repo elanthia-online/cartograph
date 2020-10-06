@@ -1,39 +1,36 @@
 {
+  "id": 11906,
+  "title": [
+    "[Old Ta'Faendryl, East Woods]"
+  ],
+  "description": [
+    "Tree-dotted hillsides rise on both sides of the path, providing ample cover for the wildlife living in the woods.  The road here is mostly flat as it meanders along the city plateau, although there is a slight incline to the north.  One especially large modwir tree lies fallen near the edge of the road, its roots helplessly exposed."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "Old Ta'Faendryl",
   "wayto": {
     "11907": "northeast",
     "627": "go hole",
     "11905": "west",
     "12259": {
-      "stringproc": "acf60f2757a511fe719a8fd3ae545d83"
+      "file": "string_procs/wayto/11906_12259.rb"
     }
   },
-  "paths": [
-    "Obvious paths: northeast, west"
-  ],
-  "image_coords": [
-    1293,
-    567,
-    1303,
-    577
-  ],
-  "terrain": null,
-  "description": [
-    "Tree-dotted hillsides rise on both sides of the path, providing ample cover for the wildlife living in the woods.  The road here is mostly flat as it meanders along the city plateau, although there is a slight incline to the north.  One especially large modwir tree lies fallen near the edge of the road, its roots helplessly exposed."
-  ],
-  "image": "en-old_ta_faendryl-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Old Ta'Faendryl, East Woods]"
-  ],
-  "check_location": null,
   "timeto": {
     "11907": 0.2,
     "627": 0.2,
     "11905": 0.2,
     "12259": 0.4
   },
-  "id": 11906,
-  "location": "Old Ta'Faendryl",
+  "image": "en-old_ta_faendryl-1264234799.png",
+  "image_coords": [
+    1293,
+    567,
+    1303,
+    577
+  ],
   "tags": [
     "some bolmara lichen",
     "lady slipper blossom",
@@ -42,31 +39,6 @@
     "sprig of mistletoe",
     "some acantha leaf",
     "tkaro root",
-    "stick",
-    "acantha leaf",
-    "torban leaf",
-    "calamia fruit",
-    "haphip root",
-    "basal moss",
-    "sticks",
-    "angelica root",
-    "wild chokecherry",
-    "wild orchid",
-    "wood violet",
-    "tree bark",
-    "bloodwood twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "twisted twig",
-    "slender twig",
-    "ebony twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "stick"
   ]
 }

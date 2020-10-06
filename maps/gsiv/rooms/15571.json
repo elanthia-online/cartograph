@@ -1,33 +1,25 @@
 {
+  "id": 15571,
+  "title": [
+    "[Wizard Guild, Nexus of Elements]"
+  ],
+  "description": [
+    "The half-translucent surroundings of crystal are marked with a variety of flowing runes, their wavy forms casting four distinct hues of light across the wide, cavernous surroundings.  A single black tome sits atop a dark onyx podium, its pages rustling ever so slightly with brief drafts of air flowing in from the east.  A small marble staircase leads into the upper sections of the tower, the faint hums of power from above reverberating around the room."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south, west, down"
+  ],
+  "location": "Ta'Illistim",
   "wayto": {
     "15569": "down",
     "16965": "east",
     "16968": "south",
     "17721": {
-      "stringproc": "b01331b0ea79643790fd9b446cbb7651"
+      "file": "string_procs/wayto/15571_17721.rb"
     },
     "16962": "north",
     "16963": "west"
   },
-  "paths": [
-    "Obvious exits: north, east, south, west, down"
-  ],
-  "image_coords": [
-    457,
-    186,
-    509,
-    238
-  ],
-  "terrain": null,
-  "description": [
-    "The half-translucent surroundings of crystal are marked with a variety of flowing runes, their wavy forms casting four distinct hues of light across the wide, cavernous surroundings.  A single black tome sits atop a dark onyx podium, its pages rustling ever so slightly with brief drafts of air flowing in from the east.  A small marble staircase leads into the upper sections of the tower, the faint hums of power from above reverberating around the room."
-  ],
-  "image": "en-ta_illistim-Wizard_Guild-1264234799.gif",
-  "climate": null,
-  "title": [
-    "[Wizard Guild, Nexus of Elements]"
-  ],
-  "check_location": null,
   "timeto": {
     "15569": 0.2,
     "16965": 0.2,
@@ -36,12 +28,11 @@
     "16962": 0.2,
     "16963": 0.2
   },
-  "id": 15571,
-  "location": "Ta'Illistim",
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "en-ta_illistim-Wizard_Guild-1264234799.gif",
+  "image_coords": [
+    457,
+    186,
+    509,
+    238
   ]
 }

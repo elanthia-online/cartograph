@@ -1,33 +1,30 @@
 {
+  "id": 1206,
+  "title": [
+    "[Upper Trollfang]"
+  ],
+  "description": [
+    "The trail narrows here and the branches of the trees meet over your head, casting deep shadows all around.  You brush against a pine tree and pick up a smear of gluey black sap down your arm.  The sharp scent of the resin bites your nose and throat, and your attempts to clean the goop off only spreads it around."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "1205": "south",
     "1207": "north"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "1205": 0.2,
+    "1207": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     573,
     1087,
     583,
     1097
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "The trail narrows here and the branches of the trees meet over your head, casting deep shadows all around.  You brush against a pine tree and pick up a smear of gluey black sap down your arm.  The sharp scent of the resin bites your nose and throat, and your attempts to clean the goop off only spreads it around."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Upper Trollfang]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1205": 0.2,
-    "1207": 0.2
-  },
-  "id": 1206,
-  "location": "the Upper Trollfang",
   "tags": [
     "pine cone",
     "wild gooseberry",
@@ -35,49 +32,6 @@
     "some acantha leaf",
     "some tree bark",
     "some brostheras grass",
-    "war troll",
-    "acantha leaf",
-    "torban leaf",
-    "calamia fruit",
-    "haphip root",
-    "tkaro root",
-    "sticks",
-    "angelica root",
-    "trollfear mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "fiddlehead fern",
-    "handful of pinenuts",
-    "broken twig",
-    "pine needles",
-    "stalk of bluebells",
-    "golden buttercup",
-    "ginger root",
-    "wild chokecherry",
-    "tree bark",
-    "white lily",
-    "pink rain lily",
-    "coppery rain lily",
-    "oxblood lily",
-    "kylan berry",
-    "blue whortleberry",
-    "white baneberry",
-    "yew twig",
-    "ironfern root",
-    "twisted twig",
-    "slender twig",
-    "ebony twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "war troll"
   ]
 }

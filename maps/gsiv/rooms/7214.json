@@ -1,35 +1,32 @@
 {
+  "id": 7214,
+  "title": [
+    "[Graveyard, Barrow Tunnel]"
+  ],
+  "description": [
+    "A chill breeze bearing a faint odor of decay wafts through the huge stone arch that dominates the eastern end of the tunnel.  The arch is worn by dark rivulets of water dripping from somewhere above, the acidic liquid etching deep streaks in the ancient grey stone and nearly obliterating the many symbols of dark gods carved into its pockmarked surface."
+  ],
+  "paths": [
+    "Obvious exits: south, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7246": "south",
     "7213": "west",
     "7215": "go arch"
   },
-  "paths": [
-    "Obvious exits: south, west"
-  ],
+  "timeto": {
+    "7246": 0.2,
+    "7213": 0.2,
+    "7215": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     531,
     185,
     541,
     195
   ],
-  "terrain": "indoors",
-  "description": [
-    "A chill breeze bearing a faint odor of decay wafts through the huge stone arch that dominates the eastern end of the tunnel.  The arch is worn by dark rivulets of water dripping from somewhere above, the acidic liquid etching deep streaks in the ancient grey stone and nearly obliterating the many symbols of dark gods carved into its pockmarked surface."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Graveyard, Barrow Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7246": 0.2,
-    "7213": 0.2,
-    "7215": 0.2
-  },
-  "id": 7214,
-  "location": "the Graveyard",
   "tags": [
     "some wolifrew lichen",
     "some wingstem root",
@@ -39,10 +36,6 @@
     "cave moss",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

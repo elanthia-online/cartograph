@@ -1,66 +1,31 @@
 {
+  "id": 5530,
+  "title": [
+    "[Outlands Manor, Exterior]"
+  ],
+  "description": [
+    "The southeastern corner of the manor house rises here.  The grass near the wall appears to be well trampled beneath boarded windows that are missing a board or two."
+  ],
+  "paths": [
+    "Obvious paths: north, west"
+  ],
+  "location": "the Outlands",
   "wayto": {
     "5529": "west",
     "5531": "north"
   },
-  "paths": [
-    "Obvious paths: north, west"
-  ],
+  "timeto": {
+    "5529": 0.2,
+    "5531": 0.2
+  },
+  "image": "vo-outlands-1264234799.png",
   "image_coords": [
     1292,
     962,
     1302,
     972
   ],
-  "terrain": "rough",
-  "description": [
-    "The southeastern corner of the manor house rises here.  The grass near the wall appears to be well trampled beneath boarded windows that are missing a board or two."
-  ],
-  "image": "vo-outlands-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Outlands Manor, Exterior]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5529": 0.2,
-    "5531": 0.2
-  },
-  "id": 5530,
-  "location": "the Outlands",
   "tags": [
-    "dobrem",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "wild strawberry",
-    "blueberries",
-    "stalk of chicory",
-    "handful of currants",
-    "elderberries",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "wild grapes",
-    "broken twig",
-    "sprig of alyssum",
-    "heath aster",
-    "golden buttercup",
-    "red clover blossom",
-    "pink clover blossom",
-    "white clover blossom",
-    "purple clover blossom",
-    "yellow clover blossom",
-    "stalk of goldenrod",
-    "sprig of larkspur",
-    "yellow primrose",
-    "small wild rose",
-    "wild chokecherry",
-    "motherwort",
-    "white baneberry",
-    "pepperthorn root",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "dobrem"
   ]
 }

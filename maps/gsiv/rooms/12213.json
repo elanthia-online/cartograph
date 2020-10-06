@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "12152": {
-      "stringproc": "e7b269de45035581300c76daf9e751cf"
-    },
-    "12089": {
-      "stringproc": "df16ace028c72dba18b51257349345d8"
-    },
-    "2635": {
-      "stringproc": "a5fc698b4e8aaa983aa8f5ad92908980"
-    },
-    "12212": "north",
-    "12214": "southwest"
-  },
+  "id": 12213,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "An immense tapestry hangs here in midair.  Thin magical threads create the shimmering cloth, almost seeming to move and adjust themselves as they hang.  Several long, shadowy outlines hover near the tapestry, attending to the minor knots and slips.  At this position you are too close to see the entire work of art, but it does seem somehow familiar."
+  ],
   "paths": [
     "Obvious exits: north, southwest",
     "Obvious paths: north, southwest"
   ],
-  "image_coords": [
-    320,
-    1181,
-    330,
-    1191
-  ],
-  "terrain": null,
-  "description": [
-    "An immense tapestry hangs here in midair.  Thin magical threads create the shimmering cloth, almost seeming to move and adjust themselves as they hang.  Several long, shadowy outlines hover near the tapestry, attending to the minor knots and slips.  At this position you are too close to see the entire work of art, but it does seem somehow familiar."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12152": {
+      "file": "string_procs/wayto/12213_12152.rb"
+    },
+    "12089": {
+      "file": "string_procs/wayto/12213_12089.rb"
+    },
+    "2635": {
+      "file": "string_procs/wayto/12213_2635.rb"
+    },
+    "12212": "north",
+    "12214": "southwest"
+  },
   "timeto": {
     "12152": 21.6,
     "12089": 21.6,
@@ -39,18 +31,19 @@
     "12212": 0.2,
     "12214": 0.2
   },
-  "id": 12213,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    320,
+    1181,
+    330,
+    1191
+  ],
   "tags": [
     "mass of congealed slime",
     "twisted black mawflower",
     "withered deathblossom",
     "slime-covered grave blossom",
     "rotting bile green fleshbulb",
-    "oozing fleshsore bulb",
-    "discolored fleshbinder bud"
-  ],
-  "links": [
-
+    "oozing fleshsore bulb"
   ]
 }

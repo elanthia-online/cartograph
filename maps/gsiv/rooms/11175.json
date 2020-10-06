@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "11170": "north"
-  },
+  "id": 11175,
+  "title": [
+    "[Garrison, Trophy Room]"
+  ],
+  "description": [
+    "This room holds shabby trophies from battles long ago.  The tattered remains of eight barbarian national flags hang on the wall, together with a seven foot high tower shield and the hilt of its matching weapon.  Hanging at a precarious angle is the claw of some huge fell beast."
+  ],
   "paths": [
     "Obvious exits: north"
   ],
+  "location": "the Citadel",
+  "wayto": {
+    "11170": "north"
+  },
+  "timeto": {
+    "11170": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     571,
     524,
     581,
     534
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This room holds shabby trophies from battles long ago.  The tattered remains of eight barbarian national flags hang on the wall, together with a seven foot high tower shield and the hilt of its matching weapon.  Hanging at a precarious angle is the claw of some huge fell beast."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Garrison, Trophy Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11170": 0.2
-  },
-  "id": 11175,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

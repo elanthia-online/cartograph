@@ -1,38 +1,28 @@
 {
+  "id": 6875,
+  "title": [
+    "[Abandoned Inn, Kitchen]"
+  ],
+  "description": [
+    "The kitchen is a whirlwind of ordered chaos.  Assistants, corporeal and non, bustle about tending pots and preparing ingredients in a masterfully orchestrated dance.  Their choreographer is a massive zombie wearing an oversized chef's hat, who shouts orders in a voice loud enough to rattle the glass in the windows.  A trapdoor dominates one corner of the room, presumably leading down to the cellar space."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Abandoned Inn",
   "wayto": {
     "6874": "go door",
     "6876": "go trapdoor"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "6874": 0.2,
+    "6876": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     888,
     967,
     898,
     977
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The kitchen is a whirlwind of ordered chaos.  Assistants, corporeal and non, bustle about tending pots and preparing ingredients in a masterfully orchestrated dance.  Their choreographer is a massive zombie wearing an oversized chef's hat, who shouts orders in a voice loud enough to rattle the glass in the windows.  A trapdoor dominates one corner of the room, presumably leading down to the cellar space."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abandoned Inn, Kitchen]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6874": 0.2,
-    "6876": 0.2
-  },
-  "id": 6875,
-  "location": "the Abandoned Inn",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

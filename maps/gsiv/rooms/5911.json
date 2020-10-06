@@ -1,34 +1,31 @@
 {
+  "id": 5911,
+  "title": [
+    "[Catacombs, Tunnels]"
+  ],
+  "description": [
+    "Muffled sounds from the city above provide some comfort in this section of the sewer.",
+    "Muffled sounds from the city above provide some comfort in this section of the sewer.  Blackened stone walls make the room feel even smaller and more cramped than it really is.  Faint traces of the suet once used to flame the fire of the mullein torches still linger in the air.  Carved deeply within the wall, an arrow conveniently points downward towards a fair-sized hole in the ground."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "5910": "north",
     "5912": "south"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "5910": 0.2,
+    "5912": 0.2
+  },
+  "image": "en-tavaalor-1565907614.png",
   "image_coords": [
     355,
     598,
     362,
     606
   ],
-  "terrain": null,
-  "description": [
-    "Muffled sounds from the city above provide some comfort in this section of the sewer.",
-    "Muffled sounds from the city above provide some comfort in this section of the sewer.  Blackened stone walls make the room feel even smaller and more cramped than it really is.  Faint traces of the suet once used to flame the fire of the mullein torches still linger in the air.  Carved deeply within the wall, an arrow conveniently points downward towards a fair-sized hole in the ground."
-  ],
-  "image": "en-tavaalor-1565907614.png",
-  "climate": null,
-  "title": [
-    "[Catacombs, Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5910": 0.2,
-    "5912": 0.2
-  },
-  "id": 5911,
-  "location": "the catacombs",
   "tags": [
     "red trafel mushroom",
     "some wingstem root",
@@ -41,8 +38,5 @@
     "murdroot",
     "bolmara lichen",
     "wingstem root"
-  ],
-  "links": [
-
   ]
 }

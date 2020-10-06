@@ -1,38 +1,28 @@
 {
+  "id": 12626,
+  "title": [
+    "[Temple of Luukos, Dusty Passage]"
+  ],
+  "description": [
+    "Dusty maelstroms in miniature swirl across the floor, settling over a scattering of rodent trails.  A horde of motionless serpents crawls the walls and ceiling, trapped by some slave's brush.  Unable to strike, spit, or coil around intruders, they stare petulantly and slowly shed their painted skin."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Dark Palisade",
   "wayto": {
     "12625": "go hatch",
     "12627": "go opening"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "12625": 0.2,
+    "12627": 0.2
+  },
+  "image": "ti-wilds-1264234799.png",
   "image_coords": [
     1051,
     544,
     1061,
     554
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Dusty maelstroms in miniature swirl across the floor, settling over a scattering of rodent trails.  A horde of motionless serpents crawls the walls and ceiling, trapped by some slave's brush.  Unable to strike, spit, or coil around intruders, they stare petulantly and slowly shed their painted skin."
-  ],
-  "image": "ti-wilds-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Temple of Luukos, Dusty Passage]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "12625": 0.2,
-    "12627": 0.2
-  },
-  "id": 12626,
-  "location": "the Dark Palisade",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

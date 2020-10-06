@@ -1,43 +1,33 @@
 {
-  "wayto": {
-    "716": "northeast",
-    "717": "southwest",
-    "156": "southeast"
-  },
-  "paths": [
-    "Obvious paths: northeast, southeast, southwest"
+  "id": 715,
+  "title": [
+    "[Ta'Illistim, BriarStone Keep]"
   ],
-  "image_coords": [
-    384,
-    308,
-    408,
-    332
-  ],
-  "terrain": "hard, flat",
   "description": [
     "Dwarfing all buildings nearby, the massive facade of the keep rises towards the sky.  Torches burn along the walls atop the building, casting fitful light across the court.  Twin belltowers rise at the far corners of the keep, their blue spires sparkling slightly in the moonlight.  Four guards stand in front of the keep's massive iron-bound front doors, warily inspecting passersby.",
     "Dwarfing all buildings nearby, the massive facade of the keep rises towards the sky.  Twin belltowers rise at the far corners of the keep, their blue spires sparkling like sapphires in the light.  Four guards stand in front of the keep's massive iron-bound front doors, warily inspecting passersby.",
     "Each of the corners of BriarStone Keep is set with a square-roofed bell tower, tiled in sapphire blue.  The dome in the center of the building is decorated in the same colorful manner, with walls divided into registers -- below is an older pedimented structure of silvery blue granite, and above is an addition, a facade of white marble, inset with circular stained glass windows just below the dome's roofline.  Standing at the highest point in the city, the Keep overlooks all of Ta'Illistim and down the darkened cliffside as well.",
     "Each of the corners of BriarStone Keep is set with a square-roofed bell tower, tiled in sapphire blue.  The dome in the center of the building is decorated in the same colorful manner, with walls divided into registers -- below is an older pedimented structure of silvery blue granite, and above is an addition, a facade of white marble, inset with circular stained glass windows just below the dome's roofline.  Standing at the highest point in the city, the Keep overlooks all of Ta'Illistim and down the cliffside as well."
   ],
-  "image": "en-ta_illistim-new.jpg",
-  "climate": "temperate",
-  "title": [
-    "[Ta'Illistim, BriarStone Keep]"
+  "paths": [
+    "Obvious paths: northeast, southeast, southwest"
   ],
-  "check_location": null,
+  "location": "Ta'Illistim",
+  "wayto": {
+    "716": "northeast",
+    "717": "southwest",
+    "156": "southeast"
+  },
   "timeto": {
     "716": 0.2,
     "717": 0.2,
     "156": 0.2
   },
-  "id": 715,
-  "location": "Ta'Illistim",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-ta_illistim-new.jpg",
+  "image_coords": [
+    384,
+    308,
+    408,
+    332
   ]
 }

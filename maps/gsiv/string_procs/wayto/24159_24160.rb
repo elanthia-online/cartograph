@@ -1,1 +1,2 @@
-move "go dock";fill_hands
+move "go dock"
+fill_hands

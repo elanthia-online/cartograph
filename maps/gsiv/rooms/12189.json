@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "12152": {
-      "stringproc": "e7b269de45035581300c76daf9e751cf"
-    },
-    "12089": {
-      "stringproc": "df16ace028c72dba18b51257349345d8"
-    },
-    "2635": {
-      "stringproc": "a5fc698b4e8aaa983aa8f5ad92908980"
-    },
-    "12190": "west",
-    "20880": "east"
-  },
+  "id": 12189,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "Moans and shrieks of agony fill the large brown canvas tent.  Chirurgeons walk between the cots, attempting to tend the wounds of those who lay bleeding on the rude beds.  Suddenly, the flap of the tent is torn down, revealing a knight in bloody black armor.  He raises his gargantuan claidhmore...and the scene fades, leaving you standing on the crumbling red earth."
+  ],
   "paths": [
     "Obvious paths: east, west",
     "Obvious exits: east, west"
   ],
-  "image_coords": [
-    172,
-    1248,
-    182,
-    1258
-  ],
-  "terrain": null,
-  "description": [
-    "Moans and shrieks of agony fill the large brown canvas tent.  Chirurgeons walk between the cots, attempting to tend the wounds of those who lay bleeding on the rude beds.  Suddenly, the flap of the tent is torn down, revealing a knight in bloody black armor.  He raises his gargantuan claidhmore...and the scene fades, leaving you standing on the crumbling red earth."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12152": {
+      "file": "string_procs/wayto/12189_12152.rb"
+    },
+    "12089": {
+      "file": "string_procs/wayto/12189_12089.rb"
+    },
+    "2635": {
+      "file": "string_procs/wayto/12189_2635.rb"
+    },
+    "12190": "west",
+    "20880": "east"
+  },
   "timeto": {
     "12152": 21.6,
     "12089": 21.6,
@@ -39,8 +31,13 @@
     "12190": 0.2,
     "20880": 0.2
   },
-  "id": 12189,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    172,
+    1248,
+    182,
+    1258
+  ],
   "tags": [
     "twisted black mawflower",
     "withered deathblossom",
@@ -49,8 +46,5 @@
     "rotting bile green fleshbulb",
     "discolored fleshbinder bud",
     "oozing fleshsore bulb"
-  ],
-  "links": [
-
   ]
 }

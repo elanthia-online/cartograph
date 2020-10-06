@@ -1,31 +1,28 @@
 {
-  "wayto": {
-    "11418": "northwest"
-  },
+  "id": 11419,
+  "title": [
+    "[Troll Lair, Stores]"
+  ],
+  "description": [
+    "This tiny room holds a stash of food, sacks and tools for digging."
+  ],
   "paths": [
     "Obvious exits: northwest"
   ],
+  "location": "the Hidden Vale",
+  "wayto": {
+    "11418": "northwest"
+  },
+  "timeto": {
+    "11418": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     961,
     1467,
     971,
     1477
   ],
-  "terrain": "indoors",
-  "description": [
-    "This tiny room holds a stash of food, sacks and tools for digging."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Troll Lair, Stores]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11418": 0.2
-  },
-  "id": 11419,
-  "location": "the Hidden Vale",
   "tags": [
     "withered black mushroom",
     "some wingstem root",
@@ -39,11 +36,6 @@
     "soft white mushroom",
     "black hook mushroom",
     "cave moss",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bolmara lichen"
   ]
 }

@@ -1,35 +1,29 @@
 {
-  "wayto": {
-    "28739": {
-      "stringproc": "325c7e41ab9d30ccb94812827f14b668"
-    }
-  },
+  "id": 28740,
+  "title": [
+    "[Beacon Hall, Brewpub Locker]"
+  ],
+  "description": [
+    "Stout wooden kegs, each banded with iron and stamped with a white lighthouse emblem, are stacked upon one another against the walls of this room.  A long silver mirror, somewhat burnt and warped at the edges, sits in a corner beneath a colorful round lantern, the flickering flame within casting long shadows around the cellar."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "Icemule Trace",
+  "wayto": {
+    "28739": "go opening"
+  },
+  "timeto": {
+    "28739": 0.2
+  },
+  "image": "imt-beacon_hall.png",
   "image_coords": [
     316,
     456,
     349,
     491
   ],
-  "terrain": null,
-  "description": [
-    "Stout wooden kegs, each banded with iron and stamped with a white lighthouse emblem, are stacked upon one another against the walls of this room.  A long silver mirror, somewhat burnt and warped at the edges, sits in a corner beneath a colorful round lantern, the flickering flame within casting long shadows around the cellar."
-  ],
-  "image": "imt-beacon_hall.png",
-  "climate": null,
-  "title": [
-    "[Beacon Hall, Brewpub Locker]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "28739": 0.2
-  },
-  "id": 28740,
-  "location": "Icemule Trace",
   "tags": [
     "bhalocker"
-  ],
-  "unique_loot": null
+  ]
 }

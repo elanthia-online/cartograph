@@ -1,31 +1,28 @@
 {
-  "wayto": {
-    "6279": "north"
-  },
+  "id": 6280,
+  "title": [
+    "[Kobold Village, Squirrel Hutch]"
+  ],
+  "description": [
+    "Gnawed bones and other more obscene carrion weave a grisly carpet here, a tapestry depicting carnage more vivid than the most gifted and demented of mortal artists might dare.  You struggle to hold down your latest meal as you note a familiar looking skull nearby.  What fate could be worse than to spend eternity between the razor sharp teeth of diseased rodents?"
+  ],
   "paths": [
     "Obvious exits: north"
   ],
+  "location": "the Lower Dragonsclaw",
+  "wayto": {
+    "6279": "north"
+  },
+  "timeto": {
+    "6279": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     230,
     562,
     240,
     572
   ],
-  "terrain": "indoors",
-  "description": [
-    "Gnawed bones and other more obscene carrion weave a grisly carpet here, a tapestry depicting carnage more vivid than the most gifted and demented of mortal artists might dare.  You struggle to hold down your latest meal as you note a familiar looking skull nearby.  What fate could be worse than to spend eternity between the razor sharp teeth of diseased rodents?"
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Kobold Village, Squirrel Hutch]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6279": 0.2
-  },
-  "id": 6280,
-  "location": "the Lower Dragonsclaw",
   "tags": [
     "some wolifrew lichen",
     "wolifrew lichen",
@@ -33,10 +30,6 @@
     "cave moss",
     "murdroot",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

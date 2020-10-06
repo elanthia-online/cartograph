@@ -1,40 +1,33 @@
 {
+  "id": 21280,
+  "title": [
+    "[Silvergate Inn, Hallway]"
+  ],
+  "description": [
+    "Scented candles cast a faint, golden light in this long hallway.  Plush carpets and decorative rugs gathered from remote Southern marketplaces mute the sound of your footsteps.  A curtained opening dominates one wall."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "21289": "go opening",
     "21250": "north",
     "21297": "south"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "21289": 0.2,
+    "21250": 0.2,
+    "21297": 0.2
+  },
+  "image": "wl-silvergate_inn-1487242763.png",
   "image_coords": [
     479,
     700,
     563,
     753
   ],
-  "terrain": null,
-  "description": [
-    "Scented candles cast a faint, golden light in this long hallway.  Plush carpets and decorative rugs gathered from remote Southern marketplaces mute the sound of your footsteps.  A curtained opening dominates one wall."
-  ],
-  "image": "wl-silvergate_inn-1487242763.png",
-  "climate": null,
-  "title": [
-    "[Silvergate Inn, Hallway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "21289": 0.2,
-    "21250": 0.2,
-    "21297": 0.2
-  },
-  "id": 21280,
-  "location": "Wehnimer's Landing",
   "tags": [
     "peer north =~ /^Obvious exits: south, northwest/"
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

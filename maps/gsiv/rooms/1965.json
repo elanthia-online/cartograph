@@ -1,43 +1,33 @@
 {
-  "wayto": {
-    "2260": {
-      "stringproc": "75a1d1b7efdc8b10d8709984a545cd76"
-    },
-    "1964": "northeast",
-    "1966": "go booth"
-  },
-  "paths": [
-    "Obvious paths: northeast"
+  "id": 1965,
+  "title": [
+    "[Kharam-Dzu, East Docks]"
   ],
-  "image_coords": [
-    857,
-    1045,
-    893,
-    1081
-  ],
-  "terrain": null,
   "description": [
     "A lone wooden dock sways and creaks, awaiting ferryboats traveling the short distance to the mine tunnel.  Upstream, the river widens as it begins its journey to the sea.  At the northeast end of the riverfront, a small street leads away from the dock and back towards town.",
     "A lone wooden dock sways and creaks, awaiting a ferryboat traveling the short distance to the mine tunnel.  Upstream, the river widens as it begins its journey to the sea, the color of the water shifting to a lighter hue.  At the northeast end of the riverfront, a small street leads away from the dock and back towards town."
   ],
-  "image": "ti-teras-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Kharam-Dzu, East Docks]"
+  "paths": [
+    "Obvious paths: northeast"
   ],
-  "check_location": null,
+  "location": "the town of Kharam-Dzu",
+  "wayto": {
+    "2260": {
+      "file": "string_procs/wayto/1965_2260.rb"
+    },
+    "1964": "northeast",
+    "1966": "go booth"
+  },
   "timeto": {
     "2260": 90.0,
     "1964": 0.2,
     "1966": 0.2
   },
-  "id": 1965,
-  "location": "the town of Kharam-Dzu",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "ti-teras-1264234799.png",
+  "image_coords": [
+    857,
+    1045,
+    893,
+    1081
   ]
 }

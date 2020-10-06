@@ -1,33 +1,30 @@
 {
+  "id": 11259,
+  "title": [
+    "[Citadel, Outside]"
+  ],
+  "description": [
+    "Moss and vines fill in the holes blasted in the wall that runs along the path here.  The path itself is littered with stones and other parts of the crumbling buildings and wall, forcing you to pick your way through them slowly."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11260": "se",
     "11258": "north"
   },
-  "paths": [
-    "Obvious paths: north, southeast"
-  ],
+  "timeto": {
+    "11260": 0.2,
+    "11258": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     332,
     661,
     342,
     671
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "Moss and vines fill in the holes blasted in the wall that runs along the path here.  The path itself is littered with stones and other parts of the crumbling buildings and wall, forcing you to pick your way through them slowly."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "moist",
-  "title": [
-    "[Citadel, Outside]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11260": 0.2,
-    "11258": 0.2
-  },
-  "id": 11259,
-  "location": "the Citadel",
   "tags": [
     "some aloeas stem",
     "bright red cranberry",
@@ -39,17 +36,6 @@
     "some wingstem root",
     "some calamia fruit",
     "wild chokecherry",
-    "some motherwort",
-    "acantha leaf",
-    "calamia fruit",
-    "aloeas stem",
-    "motherwort",
-    "murkweed",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some motherwort"
   ]
 }

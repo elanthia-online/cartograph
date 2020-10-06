@@ -1,49 +1,33 @@
 {
+  "id": 7557,
+  "title": [
+    "[Twisting Tunnel]"
+  ],
+  "description": [
+    "A warm gust of air blows through the tunnel counteracting the perpetual dampness that hangs in the air.  Tiny malevolent eyes shine in the darkness of several small holes, glaring at you from their hiding place as you pass by."
+  ],
+  "paths": [
+    "Obvious exits: southeast, west"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "7558": "southeast",
     "7554": "west"
   },
-  "paths": [
-    "Obvious exits: southeast, west"
-  ],
+  "timeto": {
+    "7558": 0.2,
+    "7554": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     367,
     936,
     377,
     946
   ],
-  "terrain": "indoors",
-  "description": [
-    "A warm gust of air blows through the tunnel counteracting the perpetual dampness that hangs in the air.  Tiny malevolent eyes shine in the darkness of several small holes, glaring at you from their hiding place as you pass by."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Twisting Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7558": 0.2,
-    "7554": 0.2
-  },
-  "id": 7557,
-  "location": "the catacombs",
   "tags": [
     "some wingstem root",
     "some cave moss",
-    "black hook mushroom",
-    "red trafel mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "black hook mushroom"
   ]
 }

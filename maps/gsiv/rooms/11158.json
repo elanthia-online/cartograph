@@ -1,33 +1,30 @@
 {
+  "id": 11158,
+  "title": [
+    "[Citadel, Outside]"
+  ],
+  "description": [
+    "The grass nearly reaches your knees and the old walkway is only identifiable as a line of short grass, heading north.  You get a glimpse of something through the wisps of mist to the north, but can't get a clear enough look to tell what it is.  To the southeast, the grass gets crowded out by two huge bushy hedges flanking the walkway."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11157": "southeast",
     "11159": "n"
   },
-  "paths": [
-    "Obvious paths: north, southeast"
-  ],
+  "timeto": {
+    "11157": 0.2,
+    "11159": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     941,
     743,
     951,
     753
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The grass nearly reaches your knees and the old walkway is only identifiable as a line of short grass, heading north.  You get a glimpse of something through the wisps of mist to the north, but can't get a clear enough look to tell what it is.  To the southeast, the grass gets crowded out by two huge bushy hedges flanking the walkway."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "moist",
-  "title": [
-    "[Citadel, Outside]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11157": 0.2,
-    "11159": 0.2
-  },
-  "id": 11158,
-  "location": "the Citadel",
   "tags": [
     "some aloeas stem",
     "bright red cranberry",
@@ -39,17 +36,6 @@
     "some wingstem root",
     "some calamia fruit",
     "wild chokecherry",
-    "some motherwort",
-    "acantha leaf",
-    "calamia fruit",
-    "aloeas stem",
-    "motherwort",
-    "murkweed",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some motherwort"
   ]
 }

@@ -1,46 +1,36 @@
 {
-  "wayto": {
-    "7328": {
-      "stringproc": "6b7c3ddc5c411607501b42af4608a1de"
-    },
-    "7392": "west"
-  },
+  "id": 7393,
+  "title": [
+    "[Mine Shaft]"
+  ],
+  "description": [
+    "The shaft comes to an abrupt end as the ceiling begins to slope rapidly downward to meet the floor.  The wall juts sharply underneath itself and you can see the ground reaching far underneath it."
+  ],
   "paths": [
     "Obvious exits: west"
   ],
+  "location": "the Shadow Valley",
+  "wayto": {
+    "7328": {
+      "file": "string_procs/wayto/7393_7328.rb"
+    },
+    "7392": "west"
+  },
+  "timeto": {
+    "7328": 0.2,
+    "7392": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1438,
     338,
     1448,
     348
   ],
-  "terrain": "indoors",
-  "description": [
-    "The shaft comes to an abrupt end as the ceiling begins to slope rapidly downward to meet the floor.  The wall juts sharply underneath itself and you can see the ground reaching far underneath it."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mine Shaft]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7328": 0.2,
-    "7392": 0.2
-  },
-  "id": 7393,
-  "location": "the Shadow Valley",
   "tags": [
     "some blue moss",
     "some shadowlace moss",
     "blackgrove root",
-    "some cave moss",
-    "cave moss",
-    "shadowlace moss",
-    "blue moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

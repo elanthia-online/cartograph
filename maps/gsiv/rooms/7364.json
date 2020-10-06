@@ -1,4 +1,15 @@
 {
+  "id": 7364,
+  "title": [
+    "[Shadow Plain]"
+  ],
+  "description": [
+    "The parched earth begs the dull, grey skies overhead for some long sought after relief.  A few patches of yellowed longgrass cling to the hardscrabble ground, but most living things have left this area in search of a more hospitable climate."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, south, southwest, northwest"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7384": "northwest",
     "7363": "south",
@@ -6,25 +17,6 @@
     "7365": "northeast",
     "7366": "southeast"
   },
-  "paths": [
-    "Obvious paths: northeast, southeast, south, southwest, northwest"
-  ],
-  "image_coords": [
-    1305,
-    1074,
-    1315,
-    1084
-  ],
-  "terrain": "barren scrub",
-  "description": [
-    "The parched earth begs the dull, grey skies overhead for some long sought after relief.  A few patches of yellowed longgrass cling to the hardscrabble ground, but most living things have left this area in search of a more hospitable climate."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Shadow Plain]"
-  ],
-  "check_location": null,
   "timeto": {
     "7384": 0.2,
     "7363": 0.2,
@@ -32,17 +24,15 @@
     "7365": 0.2,
     "7366": 0.2
   },
-  "id": 7364,
-  "location": "the Shadow Valley",
+  "image": "wl-graveyard-1264234799.png",
+  "image_coords": [
+    1305,
+    1074,
+    1315,
+    1084
+  ],
   "tags": [
     "some petrified shadowstalk",
-    "night mare",
-    "longgrass",
-    "wyrm thorn",
-    "petrified shadowstalk",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "night mare"
   ]
 }

@@ -1,33 +1,30 @@
 {
+  "id": 2802,
+  "title": [
+    "[A Silent Path]"
+  ],
+  "description": [
+    "One pine among the proud rows lining the path has succumbed to age and the elements.  It angles across the way, supported by its fellows on the facing row, creating a triangular door through which the trail passes.  The boughs of the crippled tree sweep down in elegant, needled swashes, as though they are appendages bracing the pine's slow descent to the ground."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south"
+  ],
+  "location": "the Pinefar Trading Post",
   "wayto": {
     "2801": "northeast",
     "2803": "south"
   },
-  "paths": [
-    "Obvious paths: northeast, south"
-  ],
+  "timeto": {
+    "2801": 0.2,
+    "2803": 0.2
+  },
+  "image": "imt-pinefar-1264234799.png",
   "image_coords": [
     127,
     951,
     137,
     961
   ],
-  "terrain": "missing",
-  "description": [
-    "One pine among the proud rows lining the path has succumbed to age and the elements.  It angles across the way, supported by its fellows on the facing row, creating a triangular door through which the trail passes.  The boughs of the crippled tree sweep down in elegant, needled swashes, as though they are appendages bracing the pine's slow descent to the ground."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[A Silent Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2801": 0.2,
-    "2803": 0.2
-  },
-  "id": 2802,
-  "location": "the Pinefar Trading Post",
   "tags": [
     "some wyrmwood bark",
     "crowberry",
@@ -76,11 +73,6 @@
     "twisted twig",
     "slender twig",
     "bolmara lichen",
-    "brostheras grass",
-    "wyrmwood bark",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

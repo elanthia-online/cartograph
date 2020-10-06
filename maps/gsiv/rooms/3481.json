@@ -1,37 +1,30 @@
 {
-  "wayto": {
-    "3480": "south"
-  },
+  "id": 3481,
+  "title": [
+    "[Deep Freeze, Cave of Ice]"
+  ],
+  "description": [
+    "This chamber seems somewhat drier but it is darker and just as bone-chilling cold as the others you have seen.  The frigid conditions are sapping your energy, making merely staying awake a supreme effort."
+  ],
   "paths": [
     "Obvious exits: south"
   ],
+  "location": "the Icemule Trail",
+  "wayto": {
+    "3480": "south"
+  },
+  "timeto": {
+    "3480": 0.2
+  },
+  "image": "imt-trail-1264234799.png",
   "image_coords": [
     889,
     670,
     899,
     680
   ],
-  "terrain": "indoors",
-  "description": [
-    "This chamber seems somewhat drier but it is darker and just as bone-chilling cold as the others you have seen.  The frigid conditions are sapping your energy, making merely staying awake a supreme effort."
-  ],
-  "image": "imt-trail-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Deep Freeze, Cave of Ice]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3480": 0.2
-  },
-  "id": 3481,
-  "location": "the Icemule Trail",
   "tags": [
     "arctic moss",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

@@ -1,40 +1,31 @@
 {
+  "id": 9162,
+  "title": [
+    "[Thurfel's Island]"
+  ],
+  "description": [
+    "The entire shore of this beachfront is made up of brightly colored tiny glass marbles, each with its own unique design.  The odd rounded stones dance about madly with each new wave, the clashes creating a rather pleasant bell-like music."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast"
+  ],
+  "location": "Thurfel's Island",
   "wayto": {
     "9161": "northeast",
     "9150": "southeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southeast"
-  ],
+  "timeto": {
+    "9161": 0.2,
+    "9150": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     316,
     842,
     326,
     852
   ],
-  "terrain": "indoors",
-  "description": [
-    "The entire shore of this beachfront is made up of brightly colored tiny glass marbles, each with its own unique design.  The odd rounded stones dance about madly with each new wave, the clashes creating a rather pleasant bell-like music."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thurfel's Island]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9161": 0.2,
-    "9150": 0.2
-  },
-  "id": 9162,
-  "location": "Thurfel's Island",
   "tags": [
-    "some bur-clover root",
-    "murdroot",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some bur-clover root"
   ]
 }

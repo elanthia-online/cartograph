@@ -1,45 +1,35 @@
 {
-  "wayto": {
-    "20786": {
-      "stringproc": "8c22feeed337609e1c627f90bdaad1ad"
-    },
-    "12662": {
-      "stringproc": "0002229da959838f6c76ba4ac93b23c9"
-    },
-    "12677": {
-      "stringproc": "441d5ac4139f957b4bba4cb37c950f50"
-    }
-  },
-  "paths": [
-    ""
-  ],
-  "image_coords": [
-    1093,
-    948,
-    1113,
-    968
-  ],
-  "terrain": null,
-  "description": [
-    "Fierce currents careen about in a rampage, swirling and churning as if in an unending assault against the calm of the rest of the sea."
-  ],
-  "image": "ti-nelemar-1262373036.png",
-  "climate": null,
+  "id": 12727,
   "title": [
     "[Teras Isle, Underwater]"
   ],
-  "check_location": null,
+  "description": [
+    "Fierce currents careen about in a rampage, swirling and churning as if in an unending assault against the calm of the rest of the sea."
+  ],
+  "paths": [
+    ""
+  ],
+  "wayto": {
+    "20786": {
+      "file": "string_procs/wayto/12727_20786.rb"
+    },
+    "12662": {
+      "file": "string_procs/wayto/12727_12662.rb"
+    },
+    "12677": {
+      "file": "string_procs/wayto/12727_12677.rb"
+    }
+  },
   "timeto": {
     "20786": 45.0,
     "12662": 45.0,
     "12677": 45.0
   },
-  "id": 12727,
-  "location": null,
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "ti-nelemar-1262373036.png",
+  "image_coords": [
+    1093,
+    948,
+    1113,
+    968
   ]
 }

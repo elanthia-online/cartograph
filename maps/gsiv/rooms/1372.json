@@ -1,33 +1,30 @@
 {
+  "id": 1372,
+  "title": [
+    "[Cairnfang Uplands]"
+  ],
+  "description": [
+    "From the vantage of the ridgetop the land opens to the north and south.  Appearing as almost a border between the wholesome and the unwholesome, the ridge separates an idyllic meadow to the south, filled with wildflowers and a pond, from a mist-shrouded bog, littered with boulders and standing water to the north."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "1371": "north",
     "1373": "southeast"
   },
-  "paths": [
-    "Obvious paths: north, southeast"
-  ],
+  "timeto": {
+    "1371": 0.2,
+    "1373": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     904,
     378,
     914,
     388
   ],
-  "terrain": "grassland",
-  "description": [
-    "From the vantage of the ridgetop the land opens to the north and south.  Appearing as almost a border between the wholesome and the unwholesome, the ridge separates an idyllic meadow to the south, filled with wildflowers and a pond, from a mist-shrouded bog, littered with boulders and standing water to the north."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Cairnfang Uplands]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1371": 0.2,
-    "1373": 0.2
-  },
-  "id": 1372,
-  "location": "the Cairnfang",
   "tags": [
     "some ambrominas leaf",
     "small flower",
@@ -91,10 +88,6 @@
     "wavepetal blossom",
     "ironfern root",
     "nightbloom blossom",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

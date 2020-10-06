@@ -1,4 +1,15 @@
 {
+  "id": 7999,
+  "title": [
+    "[Kobold Mines, Entrance]"
+  ],
+  "description": [
+    "This is a wide section of cavern that slopes rapidly downwards into darkness.  The rock-strewn floor has been worn smooth by the passing of many feet hauling heavy loads.  Several smaller caverns and chambers open up in several directions, but in the uncertain light their contents remain hidden.  Twin streaks of rust vanish downslope into the chill and damp air of this benighted domain."
+  ],
+  "paths": [
+    "Obvious exits: north, northwest, down, out"
+  ],
+  "location": "the old Mine Road",
   "wayto": {
     "7997": "out",
     "8000": "north",
@@ -6,25 +17,6 @@
     "8004": "go cave",
     "8005": "down"
   },
-  "paths": [
-    "Obvious exits: north, northwest, down, out"
-  ],
-  "image_coords": [
-    105,
-    814,
-    115,
-    824
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This is a wide section of cavern that slopes rapidly downwards into darkness.  The rock-strewn floor has been worn smooth by the passing of many feet hauling heavy loads.  Several smaller caverns and chambers open up in several directions, but in the uncertain light their contents remain hidden.  Twin streaks of rust vanish downslope into the chill and damp air of this benighted domain."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Kobold Mines, Entrance]"
-  ],
-  "check_location": null,
   "timeto": {
     "7997": 0.2,
     "8000": 0.2,
@@ -32,22 +24,11 @@
     "8004": 0.2,
     "8005": 0.2
   },
-  "id": 7999,
-  "location": "the old Mine Road",
-  "tags": [
-    "soft white mushroom",
-    "withered black mushroom",
-    "black hook mushroom",
-    "white hook mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-mineroad-1264234799.png",
+  "image_coords": [
+    105,
+    814,
+    115,
+    824
   ]
 }

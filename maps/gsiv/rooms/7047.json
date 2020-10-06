@@ -1,47 +1,34 @@
 {
+  "id": 7047,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "There is barely enough room for you to squeeze through this tunnel, and you find you must alternately stoop and crawl, pressing yourself hard against the damp, earthen walls.  Hundreds of tiny, blind worms writhe in the crevices, making your skin crawl as you brush past them."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7068": "southwest",
     "7048": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southwest"
-  ],
+  "timeto": {
+    "7068": 0.2,
+    "7048": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     162,
     898,
     172,
     908
   ],
-  "terrain": "indoors",
-  "description": [
-    "There is barely enough room for you to squeeze through this tunnel, and you find you must alternately stoop and crawl, pressing yourself hard against the damp, earthen walls.  Hundreds of tiny, blind worms writhe in the crevices, making your skin crawl as you brush past them."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7068": 0.2,
-    "7048": 0.2
-  },
-  "id": 7047,
-  "location": "Darkstone Castle",
   "tags": [
     "some wingstem root",
     "some cave moss",
     "some wolifrew lichen",
-    "roa'ter",
-    "wolifrew lichen",
-    "withered black mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "roa'ter"
   ]
 }

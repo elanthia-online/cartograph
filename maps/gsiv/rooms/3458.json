@@ -1,40 +1,33 @@
 {
+  "id": 3458,
+  "title": [
+    "[Tavern Burrow, Barley Lane]"
+  ],
+  "description": [
+    "Barley Lane turns sharply north here, its forward progress blocked by a community well.  This section of town is somewhat quieter, although occasionally, the voices of parties heading home or to a tavern echo off the narrow buildings."
+  ],
+  "paths": [
+    "Obvious paths: north, west"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "3223": "west",
     "2404": "north",
     "3459": "climb well"
   },
-  "paths": [
-    "Obvious paths: north, west"
-  ],
+  "timeto": {
+    "3223": 0.2,
+    "2404": 0.2,
+    "3459": 0.2
+  },
+  "image": "imt-icemule-1474811966.png",
   "image_coords": [
     316,
     1055,
     352,
     1091
   ],
-  "terrain": "hard, flat",
-  "description": [
-    "Barley Lane turns sharply north here, its forward progress blocked by a community well.  This section of town is somewhat quieter, although occasionally, the voices of parties heading home or to a tavern echo off the narrow buildings."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Tavern Burrow, Barley Lane]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3223": 0.2,
-    "2404": 0.2,
-    "3459": 0.2
-  },
-  "id": 3458,
-  "location": "Icemule Trace",
   "tags": [
-    "calmintha flower",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "calmintha flower"
   ]
 }

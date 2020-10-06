@@ -1,44 +1,34 @@
 {
+  "id": 21742,
+  "title": [
+    "[Phoenix Annex, Courtyard]"
+  ],
+  "description": [
+    "Within this serene courtyard, a variety of young trees and flowering bushes thrive along the flagstone path leading from the archway to the main building.  A small grove of cherry trees provides a shady retreat near some polished wooden benches placed along a grassy bank leading down to a small bubbling spring.  Nestled within the shade of the fruit trees sits a small cherrywood beehive.  A polished cherry dart board inlaid with a rising phoenix hangs from a willow tree."
+  ],
+  "paths": [
+    "Obvious paths: up"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "21743": "up",
     "21744": "go bank",
     "256": "go archway",
     "21771": {
-      "stringproc": "ea6055ed2fdb5fae6b06f6ff56614ee5"
+      "file": "string_procs/wayto/21742_21771.rb"
     }
   },
-  "paths": [
-    "Obvious paths: up"
-  ],
-  "image_coords": [
-    547,
-    1471,
-    668,
-    1547
-  ],
-  "terrain": null,
-  "description": [
-    "Within this serene courtyard, a variety of young trees and flowering bushes thrive along the flagstone path leading from the archway to the main building.  A small grove of cherry trees provides a shady retreat near some polished wooden benches placed along a grassy bank leading down to a small bubbling spring.  Nestled within the shade of the fruit trees sits a small cherrywood beehive.  A polished cherry dart board inlaid with a rising phoenix hangs from a willow tree."
-  ],
-  "image": "wl-house_phoenix-1485115199.png",
-  "climate": null,
-  "title": [
-    "[Phoenix Annex, Courtyard]"
-  ],
-  "check_location": null,
   "timeto": {
     "21743": 0.2,
     "21744": 0.2,
     "256": 0.2,
     "21771": 0.2
   },
-  "id": 21742,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
+  "image": "wl-house_phoenix-1485115199.png",
+  "image_coords": [
+    547,
+    1471,
+    668,
+    1547
   ]
 }

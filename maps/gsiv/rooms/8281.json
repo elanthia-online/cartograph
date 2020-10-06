@@ -1,33 +1,30 @@
 {
+  "id": 8281,
+  "title": [
+    "[Lower Trollfang, Forest]"
+  ],
+  "description": [
+    "Murky shapes, indistinct in the primeval forest gloom, filter through the swaying pine boughs of the woods surrounding you.  Suspended between two ancient and venerable pines is a large, intricate spider web.  Tattered to shreds and fluttering in the breeze, it appears to have been spun to trap man-sized prey."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the Lower Trollfang",
   "wayto": {
     "8282": "east",
     "8280": "go path"
   },
-  "paths": [
-    "Obvious paths: east"
-  ],
+  "timeto": {
+    "8282": 0.2,
+    "8280": 0.2
+  },
+  "image": "wl-spider_temple-1264234799.png",
   "image_coords": [
     933,
     1389,
     943,
     1399
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "Murky shapes, indistinct in the primeval forest gloom, filter through the swaying pine boughs of the woods surrounding you.  Suspended between two ancient and venerable pines is a large, intricate spider web.  Tattered to shreds and fluttering in the breeze, it appears to have been spun to trap man-sized prey."
-  ],
-  "image": "wl-spider_temple-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Lower Trollfang, Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8282": 0.2,
-    "8280": 0.2
-  },
-  "id": 8281,
-  "location": "the Lower Trollfang",
   "tags": [
     "some acantha leaf",
     "some torban leaf",
@@ -48,39 +45,6 @@
     "stalk of bluebells",
     "some angelica root",
     "wintergreen leaf",
-    "daggerstalk mushroom",
-    "acantha leaf",
-    "torban leaf",
-    "calamia fruit",
-    "haphip root",
-    "sticks",
-    "angelica root",
-    "soft white mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "bright red teaberry",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "broken twig",
-    "pine needles",
-    "golden buttercup",
-    "ginger root",
-    "wild chokecherry",
-    "tree bark",
-    "white lily",
-    "pink rain lily",
-    "white baneberry",
-    "yew twig",
-    "ironfern root",
-    "twisted twig",
-    "slender twig",
-    "ebony twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "daggerstalk mushroom"
   ]
 }

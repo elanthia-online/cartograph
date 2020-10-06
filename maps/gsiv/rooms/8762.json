@@ -1,41 +1,33 @@
 {
+  "id": 8762,
+  "title": [
+    "[Liabo Circle, Phoen's Way]"
+  ],
+  "description": [
+    "In the center of this three-way intersection is a black marble fountain, water spouting up from the middle and splashing merrily down.  A fat, white pigeon glares out from the bowl, daring any to disturb her bath. To the west, you see the beginnings of a wide wooden bridge."
+  ],
+  "paths": [
+    "Obvious paths: southeast, west, northwest"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "8768": "northwest",
     "8761": "southeast",
     "8763": "west"
   },
-  "paths": [
-    "Obvious paths: southeast, west, northwest"
-  ],
+  "timeto": {
+    "8768": 0.2,
+    "8761": 0.2,
+    "8763": 0.2
+  },
+  "image": "wl-homes-1-1264234799.png",
   "image_coords": [
     595,
     1154,
     615,
     1174
   ],
-  "terrain": null,
-  "description": [
-    "In the center of this three-way intersection is a black marble fountain, water spouting up from the middle and splashing merrily down.  A fat, white pigeon glares out from the bowl, daring any to disturb her bath. To the west, you see the beginnings of a wide wooden bridge."
-  ],
-  "image": "wl-homes-1-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Liabo Circle, Phoen's Way]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8768": 0.2,
-    "8761": 0.2,
-    "8763": 0.2
-  },
-  "id": 8762,
-  "location": "Wehnimer's Landing",
   "tags": [
-    "meta:teleport:fwi",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:teleport:fwi"
   ]
 }

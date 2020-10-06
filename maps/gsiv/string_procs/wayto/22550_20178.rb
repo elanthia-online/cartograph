@@ -1,1 +1,2 @@
-move 'go doorway';$go2_restart=true
+move 'go doorway'
+$go2_restart=true

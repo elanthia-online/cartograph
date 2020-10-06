@@ -1,37 +1,30 @@
 {
-  "wayto": {
-    "19276": "go stairway"
-  },
+  "id": 19277,
+  "title": [
+    "[Moot Hall, Observation Balcony]"
+  ],
+  "description": [
+    "Several rows of hardwood benches line the balcony, each row a bit higher than the previous one in order to provide a view of the proceedings below from every seat.  A polished oak railing forms the front barrier of the viewing area, and a narrow stairway leads down."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "the town of Wehnimer's Landing",
+  "wayto": {
+    "19276": "go stairway"
+  },
+  "timeto": {
+    "19276": 0.2
+  },
+  "image": "wl-wehnimers-1264234799.png",
   "image_coords": [
     356,
     613,
     391,
     649
   ],
-  "terrain": "indoors",
-  "description": [
-    "Several rows of hardwood benches line the balcony, each row a bit higher than the previous one in order to provide a view of the proceedings below from every seat.  A polished oak railing forms the front barrier of the viewing area, and a narrow stairway leads down."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Moot Hall, Observation Balcony]"
-  ],
-  "check_location": false,
-  "timeto": {
-    "19276": 0.2
-  },
-  "id": 19277,
-  "location": "the town of Wehnimer's Landing",
   "tags": [
-    "meta:noteleport:fwi",
-    "no forageables",
-    "meta:forage-sensed"
+    "meta:noteleport:fwi"
   ],
-  "links": [
-
-  ]
+  "check_location": false
 }

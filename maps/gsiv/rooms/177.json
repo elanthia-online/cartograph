@@ -1,42 +1,32 @@
 {
-  "wayto": {
-    "25": "north",
-    "176": "southwest",
-    "178": "south"
-  },
-  "paths": [
-    "Obvious paths: north, south, southwest"
+  "id": 177,
+  "title": [
+    "[Ta'Illistim, Ellaerin Var]"
   ],
-  "image_coords": [
-    1065,
-    807,
-    1089,
-    829
-  ],
-  "terrain": "hard, flat",
   "description": [
     "The day's crowds ebb and flow through the intersection of var and wey, some travelling in small casually conversing groups, and others hurrying about their business.  A small statue has been erected in the center of the cobblestoned intersection.",
     "The crowds are thin at this late hour, mostly walking alone and moving quickly towards their destinations.  A small statue has been erected in the center of the cobblestoned intersection.",
     "A small statue has been erected in the center of the cobblestoned intersection, surrounded by a low argent fence and placed atop a marble plinth.  The cobblestones continue around the public display, deep channels worn into the centermost stones in the roadway."
   ],
-  "image": "en-ta_illistim-new.jpg",
-  "climate": "temperate",
-  "title": [
-    "[Ta'Illistim, Ellaerin Var]"
+  "paths": [
+    "Obvious paths: north, south, southwest"
   ],
-  "check_location": null,
+  "location": "Ta'Illistim",
+  "wayto": {
+    "25": "north",
+    "176": "southwest",
+    "178": "south"
+  },
   "timeto": {
     "25": 0.2,
     "176": 0.2,
     "178": 0.2
   },
-  "id": 177,
-  "location": "Ta'Illistim",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-ta_illistim-new.jpg",
+  "image_coords": [
+    1065,
+    807,
+    1089,
+    829
   ]
 }

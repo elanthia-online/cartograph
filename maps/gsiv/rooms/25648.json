@@ -1,35 +1,28 @@
 {
-  "wayto": {
-    "24058": {
-      "stringproc": "cfb1ea739066bcdbf9af5bede5465c9a"
-    }
-  },
+  "id": 25648,
+  "title": [
+    "[Paupers, Sacrament Chamber]"
+  ],
+  "description": [
+    "Tarnished silver candelabra occupy each corner of the chamber, their fires flickering and casting dancing shadows in every direction.  One whole wall is constructed out of translucent glaes, and near the center of the room an old summoning circle has been carved into the floor, accented with dried bloodstains.  The skeletal remains of a humanoid are wedged firmly into a massive indent in one wall, and a cracked crystal shard rests at its feet."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "Wehnimer's Landing",
+  "wayto": {
+    "24058": {
+      "file": "string_procs/wayto/25648_24058.rb"
+    }
+  },
+  "timeto": {
+    "24058": 3.2
+  },
+  "image": "wl-house_paupers.jpg",
   "image_coords": [
     1066,
     339,
     1150,
     393
-  ],
-  "terrain": null,
-  "description": [
-    "Tarnished silver candelabra occupy each corner of the chamber, their fires flickering and casting dancing shadows in every direction.  One whole wall is constructed out of translucent glaes, and near the center of the room an old summoning circle has been carved into the floor, accented with dried bloodstains.  The skeletal remains of a humanoid are wedged firmly into a massive indent in one wall, and a cracked crystal shard rests at its feet."
-  ],
-  "image": "wl-house_paupers.jpg",
-  "climate": null,
-  "title": [
-    "[Paupers, Sacrament Chamber]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24058": 3.2
-  },
-  "id": 25648,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

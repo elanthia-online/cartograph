@@ -1,43 +1,35 @@
 {
+  "id": 5421,
+  "title": [
+    "[Bonespear Tower, Hallway]"
+  ],
+  "description": [
+    "What looks to have been a door at some point is no longer anything but a few shattered pieces of bone surrounding a gaping portal.  Several ruined pieces of furniture have spilled out into the hall from what's left of this doorway and look as if they were used as a scratching post by some massive clawed beast."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Bonespear Tower",
   "wayto": {
     "13019": "go portal",
     "5427": "south",
     "5420": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "13019": 0.2,
+    "5427": 0.2,
+    "5420": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     994,
     990,
     1004,
     1000
   ],
-  "terrain": "indoors",
-  "description": [
-    "What looks to have been a door at some point is no longer anything but a few shattered pieces of bone surrounding a gaping portal.  Several ruined pieces of furniture have spilled out into the hall from what's left of this doorway and look as if they were used as a scratching post by some massive clawed beast."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Bonespear Tower, Hallway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "13019": 0.2,
-    "5427": 0.2,
-    "5420": 0.2
-  },
-  "id": 5421,
-  "location": "Bonespear Tower",
   "tags": [
     "waern",
     "dybbuk",
-    "eidolon",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "eidolon"
   ]
 }

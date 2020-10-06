@@ -1,41 +1,32 @@
 {
+  "id": 2946,
+  "title": [
+    "[Abbey, Porch]"
+  ],
+  "description": [
+    "Some broad stone steps curve downward from the porch toward a verdant garden of evergreens, the minty bite of resin rising from below on the breeze.  At the end of the low balustrade, a carved stone figure stands poised and proud.  Several garlands of rose are heaped at her feet."
+  ],
+  "paths": [
+    "Obvious paths: south, down",
+    "Obvious paths: south"
+  ],
+  "location": "the Abbey",
   "wayto": {
     "2945": "south",
-    "2947": "down"
+    "2947": "go steps"
   },
-  "paths": [
-    "Obvious paths: south, down"
-  ],
-  "image_coords": [
-    717,
-    669,
-    727,
-    679
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "Wide steps curve downward from the porch.  At the end of the low balustrade, a stone figurine stands poised, as though ready to leap to the snowy courtyard below."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Abbey Porch]"
-  ],
-  "check_location": null,
   "timeto": {
     "2945": 0.2,
     "2947": 0.2
   },
-  "id": 2946,
-  "location": "the Abbey",
-  "tags": [
-    "calmintha flower",
-    "nedum vereri",
-    "dark shambler",
-    "arctic puma",
-    "meta:forage-sensed"
+  "image": "imt-Abbey Map-51200831.png",
+  "image_coords": [
+    1438,
+    1288,
+    1540,
+    1388
   ],
-  "links": [
-
+  "tags": [
+    "calmintha flower"
   ]
 }

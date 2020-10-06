@@ -1,46 +1,29 @@
 {
-  "wayto": {
-    "8222": "go rocks"
-  },
+  "id": 8223,
+  "title": [
+    "[Sea Caverns, Hidden Chamber]"
+  ],
+  "description": [
+    "Crawling over the rocks, you find yourself in yet another chamber.  This one is smaller, with its corners cloaked in shadow.  Looking up elicits a gasp of surprise...cave paintings!  Roltons, velnalins, horses and wolves race across walls and ceilings in wild profusion.  Some are simply outlined in black while others are filled in with bright earth colors, but all show the same uncanny sense of life.  This is obviously not the work of goblins!"
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "the sea caverns",
+  "wayto": {
+    "8222": "go rocks"
+  },
+  "timeto": {
+    "8222": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     528,
     349,
     538,
     359
   ],
-  "terrain": "indoors",
-  "description": [
-    "Crawling over the rocks, you find yourself in yet another chamber.  This one is smaller, with its corners cloaked in shadow.  Looking up elicits a gasp of surprise...cave paintings!  Roltons, velnalins, horses and wolves race across walls and ceilings in wild profusion.  Some are simply outlined in black while others are filled in with bright earth colors, but all show the same uncanny sense of life.  This is obviously not the work of goblins!"
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Caverns, Hidden Chamber]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8222": 0.2
-  },
-  "id": 8223,
-  "location": "the sea caverns",
   "tags": [
-    "some bolmara lichen",
-    "soft white mushroom",
-    "withered black mushroom",
-    "black hook mushroom",
-    "white hook mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some bolmara lichen"
   ]
 }

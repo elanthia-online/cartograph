@@ -1,35 +1,32 @@
 {
-  "wayto": {
-    "10842": "go path",
-    "10845": {
-      "stringproc": "a6541dcc9457199d6c90959944a568ab"
-    }
-  },
+  "id": 10844,
+  "title": [
+    "[River's Rest, Creek Bank]"
+  ],
+  "description": [
+    "The pebbled path leads you to a grassy hillock overlooking the creek.  The creek bank here is rather steep.  At the water's edge is a small half moon of pebbles...blue, green and brown...flanked by reeds and cattails.  To the north you can see a small footbridge crossing the creek.  Tied to a limb of a tall oak tree is a length of hempen rope."
+  ],
   "paths": [
     "Obvious paths: none"
   ],
+  "location": "the town of River's Rest",
+  "wayto": {
+    "10842": "go path",
+    "10845": {
+      "file": "string_procs/wayto/10844_10845.rb"
+    }
+  },
+  "timeto": {
+    "10842": 0.2,
+    "10845": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     282,
     763,
     320,
     801
   ],
-  "terrain": "riparian",
-  "description": [
-    "The pebbled path leads you to a grassy hillock overlooking the creek.  The creek bank here is rather steep.  At the water's edge is a small half moon of pebbles...blue, green and brown...flanked by reeds and cattails.  To the north you can see a small footbridge crossing the creek.  Tied to a limb of a tall oak tree is a length of hempen rope."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "temperate",
-  "title": [
-    "[River's Rest, Creek Bank]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10842": 0.2,
-    "10845": 0.2
-  },
-  "id": 10844,
-  "location": "the town of River's Rest",
   "tags": [
     "some acantha leaf",
     "kylan berry",
@@ -40,40 +37,6 @@
     "some calamia fruit",
     "some talneo root",
     "pepperthorn root",
-    "sprig of Imaera's Lace",
-    "acantha leaf",
-    "calamia fruit",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "blueberries",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "water chestnut",
-    "wild grapes",
-    "stalk of cattail",
-    "stalk of bluebells",
-    "red clover blossom",
-    "pink clover blossom",
-    "white clover blossom",
-    "purple clover blossom",
-    "yellow clover blossom",
-    "stalk of goldenrod",
-    "small wild rose",
-    "Imaera's Lace",
-    "wild chokecherry",
-    "mistweed",
-    "wavepetal blossom",
-    "ironfern root",
-    "talneo root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sprig of Imaera's Lace"
   ]
 }

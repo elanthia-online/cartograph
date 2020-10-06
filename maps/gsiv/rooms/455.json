@@ -1,35 +1,32 @@
 {
+  "id": 455,
+  "title": [
+    "[Upper Trollfang]"
+  ],
+  "description": [
+    "A high, steep hill lies directly to the south and the trail splits as it makes its way around.  The wider, and obviously more used trail, runs off to the southwest while a smaller trail heads off to the southeast."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest, northwest"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "475": "southwest",
     "454": "northwest",
     "456": "southeast"
   },
-  "paths": [
-    "Obvious paths: southeast, southwest, northwest"
-  ],
+  "timeto": {
+    "475": 0.2,
+    "454": 0.2,
+    "456": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     684,
     785,
     694,
     795
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "A high, steep hill lies directly to the south and the trail splits as it makes its way around.  The wider, and obviously more used trail, runs off to the southwest while a smaller trail heads off to the southeast."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Upper Trollfang]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "475": 0.2,
-    "454": 0.2,
-    "456": 0.2
-  },
-  "id": 455,
-  "location": "the Upper Trollfang",
   "tags": [
     "some acantha leaf",
     "some calamia fruit",
@@ -50,24 +47,6 @@
     "withered black mushroom",
     "heath aster",
     "some murkweed",
-    "blue whortleberry",
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "angelica root",
-    "yellow primrose",
-    "small wild rose",
-    "wild chokecherry",
-    "motherwort",
-    "murkweed",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "blue whortleberry"
   ]
 }

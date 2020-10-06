@@ -1,79 +1,32 @@
 {
+  "id": 5303,
+  "title": [
+    "[Deep Woods, Overgrowth]"
+  ],
+  "description": [
+    "A wall of slate grey stone lies hidden behind the brush and trees to the southeast.  A small hole in it displays darkness beyond, leading inside the forgotten structure.  The rock is stained from years in the elements untended, and is slick with green-black slime and moss."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "the deep woods",
   "wayto": {
     "5302": "northwest",
     "5304": "southeast"
   },
-  "paths": [
-    "Obvious paths: southeast, northwest"
-  ],
+  "timeto": {
+    "5302": 0.2,
+    "5304": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     1153,
     223,
     1163,
     233
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "A wall of slate grey stone lies hidden behind the brush and trees to the southeast.  A small hole in it displays darkness beyond, leading inside the forgotten structure.  The rock is stained from years in the elements untended, and is slick with green-black slime and moss."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Deep Woods, Overgrowth]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5302": 0.2,
-    "5304": 0.2
-  },
-  "id": 5303,
-  "location": "the deep woods",
   "tags": [
     "some angelica root",
-    "vesperti",
-    "acantha leaf",
-    "torban leaf",
-    "calamia fruit",
-    "haphip root",
-    "tkaro root",
-    "sticks",
-    "angelica root",
-    "trollfear mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "handful of pinenuts",
-    "broken twig",
-    "pine cone",
-    "pine needles",
-    "stalk of bluebells",
-    "golden buttercup",
-    "wild pink geranium",
-    "wild chokecherry",
-    "tree bark",
-    "white lily",
-    "pink rain lily",
-    "coppery rain lily",
-    "oxblood lily",
-    "kylan berry",
-    "white baneberry",
-    "yew twig",
-    "ironfern root",
-    "twisted twig",
-    "slender twig",
-    "ebony twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "vesperti"
   ]
 }

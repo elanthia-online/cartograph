@@ -1,47 +1,33 @@
 {
+  "id": 7747,
+  "title": [
+    "[Mossy Caverns, Tunnel]"
+  ],
+  "description": [
+    "Thin rivulets of water spill from small crevices in the tunnel walls.  The water feeds into a small channel that flows south and disappears into the gloom."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "7746": "north",
     "7748": "south"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "7746": 0.2,
+    "7748": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     840,
     1263,
     850,
     1273
   ],
-  "terrain": "indoors",
-  "description": [
-    "Thin rivulets of water spill from small crevices in the tunnel walls.  The water feeds into a small channel that flows south and disappears into the gloom."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mossy Caverns, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7746": 0.2,
-    "7748": 0.2
-  },
-  "id": 7747,
-  "location": "the Coastal Cliffs",
   "tags": [
     "some cave moss",
     "some pothinir grass",
-    "some bur-clover root",
-    "pothinir grass",
-    "withered black mushroom",
-    "black trafel mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some bur-clover root"
   ]
 }

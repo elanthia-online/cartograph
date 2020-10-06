@@ -1,43 +1,31 @@
 {
+  "id": 7795,
+  "title": [
+    "[Cave, Drip Room]"
+  ],
+  "description": [
+    "Water drips from the ceiling of this room with a rhythmic, almost hypnotizing, cadence.  The air is damp and heavy but the smell of \"cave perfume\" is nearly as intoxicating as a strong ale."
+  ],
+  "paths": [
+    "Obvious exits: southwest, northwest"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "7794": "southwest",
     "7796": "northwest"
   },
-  "paths": [
-    "Obvious exits: southwest, northwest"
-  ],
+  "timeto": {
+    "7794": 0.2,
+    "7796": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     200,
     741,
     210,
     751
   ],
-  "terrain": "indoors",
-  "description": [
-    "Water drips from the ceiling of this room with a rhythmic, almost hypnotizing, cadence.  The air is damp and heavy but the smell of \"cave perfume\" is nearly as intoxicating as a strong ale."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Cave, Drip Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7794": 0.2,
-    "7796": 0.2
-  },
-  "id": 7795,
-  "location": "the Upper Trollfang",
   "tags": [
-    "some cave moss",
-    "withered black mushroom",
-    "cave moss",
-    "murdroot",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

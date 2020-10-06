@@ -1,35 +1,32 @@
 {
+  "id": 1375,
+  "title": [
+    "[Cairnfang Uplands]"
+  ],
+  "description": [
+    "The trail forms a 'T' here, with the base of the 'T' stretching south.  One arm of the trail heads west, and the other heads east towards the river.  A dauntingly sheer face of rock rises just beyond the intersection, a shoulder of the mountain to the north shrugging itself free of trees and soil."
+  ],
+  "paths": [
+    "Obvious paths: east, south, west"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "1376": "south",
     "1374": "west",
     "9336": "east"
   },
-  "paths": [
-    "Obvious paths: east, south, west"
-  ],
+  "timeto": {
+    "1376": 0.2,
+    "1374": 0.2,
+    "9336": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     983,
     405,
     993,
     415
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The trail forms a 'T' here, with the base of the 'T' stretching south.  One arm of the trail heads west, and the other heads east towards the river.  A dauntingly sheer face of rock rises just beyond the intersection, a shoulder of the mountain to the north shrugging itself free of trees and soil."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Cairnfang Uplands]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1376": 0.2,
-    "1374": 0.2,
-    "9336": 0.2
-  },
-  "id": 1375,
-  "location": "the Cairnfang",
   "tags": [
     "some angelica root",
     "some bur-clover root",
@@ -57,10 +54,6 @@
     "murdroot",
     "ironfern root",
     "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bur-clover root"
   ]
 }

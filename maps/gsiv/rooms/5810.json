@@ -1,44 +1,33 @@
 {
+  "id": 5810,
+  "title": [
+    "[Zaerthu Tunnels, Chasm]"
+  ],
+  "description": [
+    "The floor gives way to a gaping pit spanned by a narrow bridge.  Stout pegs driven into the rock support the bridge, which rocks gently in the reeking current of air rising from the depths.  A nearby beam bears scratches that look like writing in the wan fungal glow."
+  ],
+  "paths": [
+    "Obvious exits: up"
+  ],
+  "location": "the Zaerthu Tunnels",
   "wayto": {
     "5809": "up",
     "5811": "go bridge"
   },
-  "paths": [
-    "Obvious exits: up"
-  ],
+  "timeto": {
+    "5809": 0.2,
+    "5811": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     126,
     1026,
     136,
     1036
   ],
-  "terrain": "indoors",
-  "description": [
-    "The floor gives way to a gaping pit spanned by a narrow bridge.  Stout pegs driven into the rock support the bridge, which rocks gently in the reeking current of air rising from the depths.  A nearby beam bears scratches that look like writing in the wan fungal glow."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Zaerthu Tunnels, Chasm]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5809": 0.2,
-    "5811": 0.2
-  },
-  "id": 5810,
-  "location": "the Zaerthu Tunnels",
   "tags": [
     "some pothinir grass",
     "withered black mushroom",
-    "some bur-clover root",
-    "pothinir grass",
-    "murdroot",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some bur-clover root"
   ]
 }

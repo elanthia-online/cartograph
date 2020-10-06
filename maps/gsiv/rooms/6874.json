@@ -1,38 +1,28 @@
 {
+  "id": 6874,
+  "title": [
+    "[Abandoned Inn, North Hall]"
+  ],
+  "description": [
+    "The hall ends here with a single swinging door to the east.  Mouthwatering smells waft out each time a member of the wait staff swings the portal open, coaxing a reflexive growl from your stomach.  A loud, energetic bellowing voice echoes through the corridor, issuing instructions for food preparation and presentation that rival the orders of any military commander.  To the west opens a graceful archway, framed in engraved wood."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the Abandoned Inn",
   "wayto": {
     "6873": "west",
     "6875": "go door"
   },
-  "paths": [
-    "Obvious exits: west"
-  ],
+  "timeto": {
+    "6873": 0.2,
+    "6875": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     835,
     965,
     845,
     975
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The hall ends here with a single swinging door to the east.  Mouthwatering smells waft out each time a member of the wait staff swings the portal open, coaxing a reflexive growl from your stomach.  A loud, energetic bellowing voice echoes through the corridor, issuing instructions for food preparation and presentation that rival the orders of any military commander.  To the west opens a graceful archway, framed in engraved wood."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abandoned Inn, North Hall]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6873": 0.2,
-    "6875": 0.2
-  },
-  "id": 6874,
-  "location": "the Abandoned Inn",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

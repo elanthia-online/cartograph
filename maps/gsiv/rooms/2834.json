@@ -1,66 +1,37 @@
 {
-  "wayto": {
-    "2835": {
-      "stringproc": "5bb3f07682b6eb192a498dc5e4b7d2ea"
-    },
-    "2826": "east"
-  },
+  "id": 2834,
+  "title": [
+    "[Northern Slopes, Snowy Drifts]"
+  ],
+  "description": [
+    "The trail dwindles to nothing, engulfed by the gentle swells of deep snow drifts that surround the trunks of the conifers like a stark, frozen ocean.  Here and there, animal tracks mar the snow's surface, leaving deep indentations.  They create an erratic pattern that circles and backtracks, then meanders away through the drifts as if following an invisible path."
+  ],
   "paths": [
     "Obvious paths: east"
   ],
+  "location": "the Pinefar forests",
+  "wayto": {
+    "2835": {
+      "file": "string_procs/wayto/2834_2835.rb"
+    },
+    "2826": "east"
+  },
+  "timeto": {
+    "2835": 0.2,
+    "2826": 0.2
+  },
+  "image": "imt-pinefar-1264234799.png",
   "image_coords": [
     456,
     1384,
     468,
     1396
   ],
-  "terrain": "mountainous",
-  "description": [
-    "The trail dwindles to nothing, engulfed by the gentle swells of deep snow drifts that surround the trunks of the conifers like a stark, frozen ocean.  Here and there, animal tracks mar the snow's surface, leaving deep indentations.  They create an erratic pattern that circles and backtracks, then meanders away through the drifts as if following an invisible path."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Northern Slopes, Snowy Drifts]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2835": 0.2,
-    "2826": 0.2
-  },
-  "id": 2834,
-  "location": "the Pinefar forests",
   "tags": [
     "sprig of edelweiss",
     "red winterberry",
     "small loganberry",
     "some angelica root",
-    "some pennyroyal stem",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "edelweiss",
-    "iceblossoms",
-    "snow lily",
-    "winter rose",
-    "arctic moss",
-    "tundra grass",
-    "golden aster",
-    "calamintha blossom",
-    "snowberries",
-    "pale thornberry",
-    "rockberry",
-    "crowberry",
-    "lingonberry",
-    "orange rowanberry",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some pennyroyal stem"
   ]
 }

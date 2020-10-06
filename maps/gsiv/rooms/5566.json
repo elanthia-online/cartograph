@@ -1,39 +1,31 @@
 {
+  "id": 5566,
+  "title": [
+    "[Outlands Manor, Tower]"
+  ],
+  "description": [
+    "Brownish stains darken the stone floor in this chamber, although a distinct pattern is evident after more than a cursory glance.  Remnants of bloodstained canvas still sheath the broken frames of cots that lie crumpled against the walls, but most of the cloth appears to have been chewed away.  More recent than the stains, narrow cracks and an upward warping of the floor are evident in the center of the room and extend toward the stairway to the first floor along the east wall."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the Outlands",
   "wayto": {
     "5567": "west",
     "5564": "go stairway"
   },
-  "paths": [
-    "Obvious exits: west"
-  ],
+  "timeto": {
+    "5567": 0.2,
+    "5564": 0.2
+  },
+  "image": "vo-outlands-1264234799.png",
   "image_coords": [
     1003,
     241,
     1013,
     251
   ],
-  "terrain": "indoors",
-  "description": [
-    "Brownish stains darken the stone floor in this chamber, although a distinct pattern is evident after more than a cursory glance.  Remnants of bloodstained canvas still sheath the broken frames of cots that lie crumpled against the walls, but most of the cloth appears to have been chewed away.  More recent than the stains, narrow cracks and an upward warping of the floor are evident in the center of the room and extend toward the stairway to the first floor along the east wall."
-  ],
-  "image": "vo-outlands-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Outlands Manor, Tower]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5567": 0.2,
-    "5564": 0.2
-  },
-  "id": 5566,
-  "location": "the Outlands",
   "tags": [
-    "dobrem",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "dobrem"
   ]
 }

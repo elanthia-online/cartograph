@@ -1,38 +1,32 @@
 {
+  "id": 17247,
+  "title": [
+    "[Citadel, Hallway]"
+  ],
+  "description": [
+    "There are no windows or openings in this corridor.  Flickering torches give a bit of light, but barely enough.  There is no draft in the hallway, but this area is quite cold."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Ta'Vaalor",
   "wayto": {
     "17246": "east",
     "17248": "west"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "17246": 0.2,
+    "17248": 0.2
+  },
+  "image": "warrior_guilds-1268684755.png",
   "image_coords": [
     226,
     454,
     245,
     471
   ],
-  "terrain": null,
-  "description": [
-    "There are no windows or openings in this corridor.  Flickering torches give a bit of light, but barely enough.  There is no draft in the hallway, but this area is quite cold."
-  ],
-  "image": "warrior_guilds-1268684755.png",
-  "climate": null,
-  "title": [
-    "[Citadel, Hallway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "17246": 0.2,
-    "17248": 0.2
-  },
-  "id": 17247,
-  "location": "Ta'Vaalor",
   "tags": [
     "warrior guild floor",
     "warrior guild armor"
-  ],
-  "links": [
-
   ]
 }

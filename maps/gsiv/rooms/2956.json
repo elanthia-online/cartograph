@@ -1,41 +1,33 @@
 {
+  "id": 2956,
+  "title": [
+    "[Abbey Gallery]"
+  ],
+  "description": [
+    "The gallery ends at an oak-framed doorway leading east toward a private chamber.  To the southeast, a narrow archway leads to another, smaller chamber.  Several panes have broken in the diamond-paned windows along the southern wall, creating an icy draft."
+  ],
+  "paths": [
+    "Obvious exits: east, southeast, west"
+  ],
+  "location": "the Abbey",
   "wayto": {
     "2955": "west",
     "2957": "southeast",
     "2958": "east"
   },
-  "paths": [
-    "Obvious exits: east, southeast, west"
-  ],
+  "timeto": {
+    "2955": 0.2,
+    "2957": 0.2,
+    "2958": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     912,
     708,
     921,
     718
   ],
-  "terrain": "indoors",
-  "description": [
-    "The gallery ends at an oak-framed doorway leading east toward a private chamber.  To the southeast, a narrow archway leads to another, smaller chamber.  Several panes have broken in the diamond-paned windows along the southern wall, creating an icy draft."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abbey Gallery]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2955": 0.2,
-    "2957": 0.2,
-    "2958": 0.2
-  },
-  "id": 2956,
-  "location": "the Abbey",
   "tags": [
-    "nedum vereri",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "nedum vereri"
   ]
 }

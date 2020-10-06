@@ -1,35 +1,32 @@
 {
+  "id": 5364,
+  "title": [
+    "[Noman's Land, Urgh Pens]"
+  ],
+  "description": [
+    "A particularly stubborn scrub tree clings to life here, somehow finding sustenance in the mud.  It has but a few leaves, and its trunk is bare of bark from the ground up to the span of a dwarf.  A mud-spattered raven perches on one branch, huddled against the damp breeze."
+  ],
+  "paths": [
+    "Obvious paths: east, south, west"
+  ],
+  "location": "Noman's Land",
   "wayto": {
     "5361": "west",
     "5362": "east",
     "5363": "south"
   },
-  "paths": [
-    "Obvious paths: east, south, west"
-  ],
+  "timeto": {
+    "5361": 0.2,
+    "5362": 0.2,
+    "5363": 0.2
+  },
+  "image": "vo-caravansary-1264234799.png",
   "image_coords": [
     187,
     493,
     197,
     503
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "A particularly stubborn scrub tree clings to life here, somehow finding sustenance in the mud.  It has but a few leaves, and its trunk is bare of bark from the ground up to the span of a dwarf.  A mud-spattered raven perches on one branch, huddled against the damp breeze."
-  ],
-  "image": "vo-caravansary-1264234799.png",
-  "climate": "moist",
-  "title": [
-    "[Noman's Land, Urgh Pens]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5361": 0.2,
-    "5362": 0.2,
-    "5363": 0.2
-  },
-  "id": 5364,
-  "location": "Noman's Land",
   "tags": [
     "some calamia fruit",
     "withered black mushroom",
@@ -37,17 +34,6 @@
     "some wingstem root",
     "bright red cranberry",
     "some aloeas stem",
-    "some acantha leaf",
-    "acantha leaf",
-    "calamia fruit",
-    "aloeas stem",
-    "motherwort",
-    "murdroot",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some acantha leaf"
   ]
 }

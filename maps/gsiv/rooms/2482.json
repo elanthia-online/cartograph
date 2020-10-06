@@ -1,38 +1,31 @@
 {
+  "id": 2482,
+  "title": [
+    "[Icemule, Barter Alley]"
+  ],
+  "description": [
+    "An old pushcart lies abandoned at the side of the alley, where its wooden wheels gave out under its final load.  Many footprints marked on the packing-crate pavement suggest that visitors to the alley frequently inspect the cart before rejecting its value at salvage."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "2481": "east",
     "2483": "west"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "2481": 0.2,
+    "2483": 0.2
+  },
+  "image": "imt-icemule-1474811966.png",
   "image_coords": [
     879,
     1401,
     899,
     1421
   ],
-  "terrain": "hard, flat",
-  "description": [
-    "An old pushcart lies abandoned at the side of the alley, where its wooden wheels gave out under its final load.  Many footprints marked on the packing-crate pavement suggest that visitors to the alley frequently inspect the cart before rejecting its value at salvage."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Icemule, Barter Alley]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2481": 0.2,
-    "2483": 0.2
-  },
-  "id": 2482,
-  "location": "Icemule Trace",
   "tags": [
-    "calmintha flower",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "calmintha flower"
   ]
 }

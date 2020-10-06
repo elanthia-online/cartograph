@@ -1,38 +1,28 @@
 {
+  "id": 8485,
+  "title": [
+    "[Temple, High Priestess' Chamber]"
+  ],
+  "description": [
+    "The dust is thick in this once elegant room.  The window remains in the pane, although cracks spider through the glass in crazed patterns, fragmenting your view of the outside.  The bed has been ripped in half, and a small nightstand smashed against the wall.  A white sheet lays draped over the featherbed like a shroud, and a ruined portrait leans in the corner, canvas ripped by four parallel slashes.  A small white door stands open in the north wall."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the Temple of Love",
   "wayto": {
     "8484": "out",
     "8486": "go door"
   },
-  "paths": [
-    "Obvious exits: out"
-  ],
+  "timeto": {
+    "8484": 0.2,
+    "8486": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     37,
     727,
     47,
     737
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The dust is thick in this once elegant room.  The window remains in the pane, although cracks spider through the glass in crazed patterns, fragmenting your view of the outside.  The bed has been ripped in half, and a small nightstand smashed against the wall.  A white sheet lays draped over the featherbed like a shroud, and a ruined portrait leans in the corner, canvas ripped by four parallel slashes.  A small white door stands open in the north wall."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Temple, High Priestess' Chamber]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8484": 0.2,
-    "8486": 0.2
-  },
-  "id": 8485,
-  "location": "the Temple of Love",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

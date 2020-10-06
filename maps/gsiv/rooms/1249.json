@@ -1,37 +1,29 @@
 {
+  "id": 1249,
+  "title": [
+    "[Alchemist's House, Shop]"
+  ],
+  "description": [
+    "The front part of the small house serves as an alchemist's shop.  The cramped room is filled with various ramshackle furnishings holding all manner of amulets, wands, phials, and magical potions.  A locked glass-paned bookcase holds ancient volumes and magical scrolls.  A strong steel door is set into the back wall."
+  ],
+  "paths": [
+    "Obvious exits: out",
+    "Obvious exits: east, out"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "6256": "east",
     "1250": "go doorway",
     "333": "out",
     "23246": "go steel door"
   },
-  "paths": [
-    "Obvious exits: out",
-    "Obvious exits: east, out"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "The front part of the small house serves as an alchemist's shop.  The cramped room is filled with various ramshackle furnishings holding all manner of amulets, wands, phials, and magical potions.  A locked glass-paned bookcase holds ancient volumes and magical scrolls.  A strong steel door is set into the back wall."
-  ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Alchemist's House, Shop]"
-  ],
-  "check_location": null,
   "timeto": {
     "6256": 0.2,
     "1250": 0.2,
     "333": 0.2,
     "23246": 0.2
   },
-  "id": 1249,
-  "location": "Wehnimer's Landing",
   "tags": [
     "alchemist"
-  ],
-  "links": [
-
   ]
 }

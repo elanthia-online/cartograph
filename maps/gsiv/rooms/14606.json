@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "14605": "go doorway"
-  },
+  "id": 14606,
+  "title": [
+    "[Manor House, Conservatory]"
+  ],
+  "description": [
+    "Overturned planters and the desiccated remains of uprooted plants litter the floor of this room.  The unboarded windows have been broken out on the east and west walls, and shards of glass cover the floor nearby.  Through a haon doorway in the room's northwest corner a corridor is visible."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "the Outlands",
+  "wayto": {
+    "14605": "go doorway"
+  },
+  "timeto": {
+    "14605": 0.2
+  },
+  "image": "vo-outlands-1264234799.png",
   "image_coords": [
     1047,
     927,
     1058,
     936
   ],
-  "terrain": "indoors",
-  "description": [
-    "Overturned planters and the desiccated remains of uprooted plants litter the floor of this room.  The unboarded windows have been broken out on the east and west walls, and shards of glass cover the floor nearby.  Through a haon doorway in the room's northwest corner a corridor is visible."
-  ],
-  "image": "vo-outlands-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Manor House, Conservatory]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "14605": 0.2
-  },
-  "id": 14606,
-  "location": "the Outlands",
   "tags": [
-    "dobrem",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "dobrem"
   ]
 }

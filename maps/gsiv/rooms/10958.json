@@ -1,44 +1,35 @@
 {
-  "wayto": {
-    "17070": {
-      "stringproc": "136f790e3ad2943129c5ea65da57d30e"
-    },
-    "17071": {
-      "stringproc": "4d3e5b2edd5cb20e5563e00d2b3b36dc"
-    },
-    "17082": {
-      "stringproc": "d2f17072d06b9eedf5dde3a98e3e524e"
-    },
-    "17073": {
-      "stringproc": "ebb6d0de6891da5eae741b6f23433eef"
-    },
-    "17074": {
-      "stringproc": "1c274379a8b8c384de68b4acb3b62687"
-    },
-    "17076": {
-      "stringproc": "b1715a507d92a0c2085965ecf828e3e5"
-    },
-    "10957": "go doorway"
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": [
-    762,
-    530,
-    788,
-    556
-  ],
-  "terrain": null,
-  "description": [
-    "Fresh cooked meats and herbs beckon you to have a seat at one of the many tables here and enjoy some of the towns finest meals.  A servant passes you with a smile as she continues to a nearby table to deliver a feast for some of the hungry customers.  From a door to the south you hear an occasional rattle of pots and pans."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 10958,
   "title": [
     "[River's Rest, Dining Room]"
   ],
-  "check_location": null,
+  "description": [
+    "Fresh cooked meats and herbs beckon you to have a seat at one of the many tables here and enjoy some of the towns finest meals.  A servant passes you with a smile as she continues to a nearby table to deliver a feast for some of the hungry customers.  From a door to the south you hear an occasional rattle of pots and pans."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "wayto": {
+    "17070": {
+      "file": "string_procs/wayto/10958_17070.rb"
+    },
+    "17071": {
+      "file": "string_procs/wayto/10958_17071.rb"
+    },
+    "17082": {
+      "file": "string_procs/wayto/10958_17082.rb"
+    },
+    "17073": {
+      "file": "string_procs/wayto/10958_17073.rb"
+    },
+    "17074": {
+      "file": "string_procs/wayto/10958_17074.rb"
+    },
+    "17076": {
+      "file": "string_procs/wayto/10958_17076.rb"
+    },
+    "10957": "go doorway"
+  },
   "timeto": {
     "17070": 0.2,
     "17071": 0.2,
@@ -48,12 +39,13 @@
     "17076": 0.2,
     "10957": 0.2
   },
-  "id": 10958,
-  "location": null,
+  "image_coords": [
+    762,
+    530,
+    788,
+    556
+  ],
   "tags": [
     "table"
-  ],
-  "links": [
-
   ]
 }

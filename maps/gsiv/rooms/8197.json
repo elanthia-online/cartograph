@@ -1,37 +1,34 @@
 {
+  "id": 8197,
+  "title": [
+    "[Sea Caverns]"
+  ],
+  "description": [
+    "Small footprints cover the floor of this large, round cavern.  Grunts, squeals and high-pitched squeaks echo down the passages leading out.  In the center of the room are the ashes of a small fire pit."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south, west"
+  ],
+  "location": "the sea caverns",
   "wayto": {
     "8195": "north",
     "8198": "east",
     "8212": "west",
     "8214": "south"
   },
-  "paths": [
-    "Obvious exits: north, east, south, west"
-  ],
-  "image_coords": [
-    435,
-    104,
-    445,
-    114
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Small footprints cover the floor of this large, round cavern.  Grunts, squeals and high-pitched squeaks echo down the passages leading out.  In the center of the room are the ashes of a small fire pit."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Caverns]"
-  ],
-  "check_location": null,
   "timeto": {
     "8195": 0.2,
     "8198": 0.2,
     "8212": 0.2,
     "8214": 0.2
   },
-  "id": 8197,
-  "location": "the sea caverns",
+  "image": "wl-mineroad-1264234799.png",
+  "image_coords": [
+    435,
+    104,
+    445,
+    114
+  ],
   "tags": [
     "red trafel mushroom",
     "soft white mushroom",
@@ -42,14 +39,6 @@
     "blue trafel mushroom",
     "some wingstem root",
     "black hook mushroom",
-    "white hook mushroom",
-    "cave moss",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "white hook mushroom"
   ]
 }

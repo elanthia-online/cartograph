@@ -1,38 +1,31 @@
 {
+  "id": 21328,
+  "title": [
+    "[House Brigatta, Workshop]"
+  ],
+  "description": [
+    "The walls are slightly burned in spots where someone's apparently amateurish attempts at magic have gone awry.  Dead center in the room is a heavy marble slab scratched and blackened from the powerful spells which have been cast in the room.  The ceiling is covered with polished copper, the mirrored surface reflecting your movements."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "21322": "go door",
     "28696": "go door"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "21322": 0.2,
+    "28696": 0.2
+  },
+  "image": "wl-brigatta.jpg",
   "image_coords": [
     304,
     108,
     390,
     163
   ],
-  "terrain": null,
-  "description": [
-    "The walls are slightly burned in spots where someone's apparently amateurish attempts at magic have gone awry.  Dead center in the room is a heavy marble slab scratched and blackened from the powerful spells which have been cast in the room.  The ceiling is covered with polished copper, the mirrored surface reflecting your movements."
-  ],
-  "image": "wl-brigatta.jpg",
-  "climate": null,
-  "title": [
-    "[House Brigatta, Workshop]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "21322": 0.2,
-    "28696": 0.2
-  },
-  "id": 21328,
-  "location": "Wehnimer's Landing",
   "tags": [
     "brigatta workshop"
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

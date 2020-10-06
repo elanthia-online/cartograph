@@ -1,46 +1,36 @@
 {
+  "id": 7343,
+  "title": [
+    "[Shadow Valley, Dark Pasture]"
+  ],
+  "description": [
+    "The dull, grey sky contrasts with the dark deterioration of the pasture around you.  The trail meanders through the ruined pasture, bending to avoid the encroaching decay."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast, southwest, northwest"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7348": "southeast",
     "7372": "southwest",
     "7341": "northeast",
     "7344": "northwest"
   },
-  "paths": [
-    "Obvious paths: northeast, southeast, southwest, northwest"
-  ],
-  "image_coords": [
-    1121,
-    837,
-    1129,
-    845
-  ],
-  "terrain": "barren scrub",
-  "description": [
-    "The dull, grey sky contrasts with the dark deterioration of the pasture around you.  The trail meanders through the ruined pasture, bending to avoid the encroaching decay."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Shadow Valley, Dark Pasture]"
-  ],
-  "check_location": null,
   "timeto": {
     "7348": 0.2,
     "7372": 0.2,
     "7341": 0.2,
     "7344": 0.2
   },
-  "id": 7343,
-  "location": "the Shadow Valley",
+  "image": "wl-graveyard-1264234799.png",
+  "image_coords": [
+    1121,
+    837,
+    1129,
+    845
+  ],
   "tags": [
     "black-tipped wyrm thorn",
-    "night mare",
-    "longgrass",
-    "wyrm thorn",
-    "petrified shadowstalk",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "night mare"
   ]
 }

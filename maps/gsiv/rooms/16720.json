@@ -1,95 +1,32 @@
 {
-  "wayto": {
-    "16719": {
-      "stringproc": "684b44dbb5a6a0eca6cf6ef453e3f764"
-    },
-    "16721": {
-      "stringproc": "13db13835b74ee5146aa34a2cdf5c2fd"
-    }
-  },
+  "id": 16720,
+  "title": [
+    "[Aradhul Road, Trail]"
+  ],
+  "description": [
+    "A cluster of massive trees casts a dense shadow over this part of the forest, their gnarled roots protruding from the ground and creating a tangled maze which encroaches on a forgotten stone structure.  From between the roots and trunks of these behemoths, a single empty window glares out over a vine-covered stone wall.  Nearby stands a lone stone column, its height nearly overcome by vines and broad, verdant leaves."
+  ],
   "paths": [
     "Obvious paths: southwest"
   ],
+  "location": "Aradhul Road",
+  "wayto": {
+    "16719": {
+      "file": "string_procs/wayto/16720_16719.rb"
+    },
+    "16721": {
+      "file": "string_procs/wayto/16720_16721.rb"
+    }
+  },
+  "timeto": {
+    "16719": 5.0,
+    "16721": 0.2
+  },
+  "image": "en-aradhul-road-1308194332.png",
   "image_coords": [
     329,
     409,
     348,
     427
-  ],
-  "terrain": "missing",
-  "description": [
-    "A cluster of massive trees casts a dense shadow over this part of the forest, their gnarled roots protruding from the ground and creating a tangled maze which encroaches on a forgotten stone structure.  From between the roots and trunks of these behemoths, a single empty window glares out over a vine-covered stone wall.  Nearby stands a lone stone column, its height nearly overcome by vines and broad, verdant leaves."
-  ],
-  "image": "en-aradhul-road-1308194332.png",
-  "climate": "temperate",
-  "title": [
-    "[Aradhul Road, Trail]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "16719": 5.0,
-    "16721": 0.2
-  },
-  "id": 16720,
-  "location": "Aradhul Road",
-  "tags": [
-    "acantha leaf",
-    "torban leaf",
-    "calamia fruit",
-    "haphip root",
-    "basal moss",
-    "tkaro root",
-    "sticks",
-    "angelica root",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "blueberries",
-    "elderberries",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "wild grapes",
-    "broken twig",
-    "stalk of bluebells",
-    "golden buttercup",
-    "wild pink geranium",
-    "stalk of goldenrod",
-    "small wild rose",
-    "sprig of wild lilac",
-    "wild beechnut",
-    "stalk of burdock",
-    "silver-edged fern",
-    "wild chokecherry",
-    "lady slipper blossom",
-    "wild orchid",
-    "wood violet",
-    "wolfsbane root",
-    "sprig of mistletoe",
-    "tree bark",
-    "murkweed",
-    "white lily",
-    "pink rain lily",
-    "coppery rain lily",
-    "blue whortleberry",
-    "white baneberry",
-    "bloodwood twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "twisted twig",
-    "slender twig",
-    "ebony twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

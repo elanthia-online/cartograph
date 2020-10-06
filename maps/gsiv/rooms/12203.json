@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "12152": {
-      "stringproc": "e7b269de45035581300c76daf9e751cf"
-    },
-    "12089": {
-      "stringproc": "df16ace028c72dba18b51257349345d8"
-    },
-    "2635": {
-      "stringproc": "a5fc698b4e8aaa983aa8f5ad92908980"
-    },
-    "12202": "northwest",
-    "12204": "southeast"
-  },
+  "id": 12203,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "A forest of large trees stretches in all directions.  Their bark is an ashen grey, and their leaves almost glow crimson in the dim light.  Tied to each tree is a man, arms over his head and bound tightly against the rough bark.  Each man is alive, if only barely, emaciated and weak from lack of food or water.  Every head is bowed, awaiting the sacrifice each knows he must make."
+  ],
   "paths": [
     "Obvious exits: southeast, northwest",
     "Obvious paths: southeast, northwest"
   ],
-  "image_coords": [
-    293,
-    1059,
-    303,
-    1069
-  ],
-  "terrain": null,
-  "description": [
-    "A forest of large trees stretches in all directions.  Their bark is an ashen grey, and their leaves almost glow crimson in the dim light.  Tied to each tree is a man, arms over his head and bound tightly against the rough bark.  Each man is alive, if only barely, emaciated and weak from lack of food or water.  Every head is bowed, awaiting the sacrifice each knows he must make."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12152": {
+      "file": "string_procs/wayto/12203_12152.rb"
+    },
+    "12089": {
+      "file": "string_procs/wayto/12203_12089.rb"
+    },
+    "2635": {
+      "file": "string_procs/wayto/12203_2635.rb"
+    },
+    "12202": "northwest",
+    "12204": "southeast"
+  },
   "timeto": {
     "12152": 21.6,
     "12089": 21.6,
@@ -39,8 +31,13 @@
     "12202": 0.2,
     "12204": 0.2
   },
-  "id": 12203,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    293,
+    1059,
+    303,
+    1069
+  ],
   "tags": [
     "twisted black mawflower",
     "slime-covered grave blossom",
@@ -49,8 +46,5 @@
     "withered deathblossom",
     "oozing fleshsore bulb",
     "rotting bile green fleshbulb"
-  ],
-  "links": [
-
   ]
 }

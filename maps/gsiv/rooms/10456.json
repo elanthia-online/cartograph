@@ -1,4 +1,16 @@
 {
+  "id": 10456,
+  "title": [
+    "[Guardian Keep, Outer Wall]"
+  ],
+  "description": [
+    "Sunlight reflects off a recently cleaned section of the keep wall, further illuminating the already bright corner area of the outer wall.  A few wooden stands and merchant tents have been set up here, taking advantage of the extra light to show off their goods.",
+    "Moonlight reflects off a recently cleaned section of the keep wall, further illuminating the torch lit corner area of the outer wall.  A few wooden stands and merchant tents have been set up here, taking advantage of the extra light to show off their goods."
+  ],
+  "paths": [
+    "Obvious paths: north, west"
+  ],
+  "location": "Ta'Vaalor",
   "wayto": {
     "18805": "go simple shop",
     "10454": "north",
@@ -6,26 +18,6 @@
     "17304": "go pavilion",
     "10459": "west"
   },
-  "paths": [
-    "Obvious paths: north, west"
-  ],
-  "image_coords": [
-    888,
-    705,
-    906,
-    722
-  ],
-  "terrain": null,
-  "description": [
-    "Sunlight reflects off a recently cleaned section of the keep wall, further illuminating the already bright corner area of the outer wall.  A few wooden stands and merchant tents have been set up here, taking advantage of the extra light to show off their goods.",
-    "Moonlight reflects off a recently cleaned section of the keep wall, further illuminating the torch lit corner area of the outer wall.  A few wooden stands and merchant tents have been set up here, taking advantage of the extra light to show off their goods."
-  ],
-  "image": "en-tavaalor-1565907614.png",
-  "climate": null,
-  "title": [
-    "[Guardian Keep, Outer Wall]"
-  ],
-  "check_location": null,
   "timeto": {
     "18805": 0.2,
     "10454": 0.2,
@@ -33,8 +25,13 @@
     "17304": 0.2,
     "10459": 0.2
   },
-  "id": 10456,
-  "location": "Ta'Vaalor",
+  "image": "en-tavaalor-1565907614.png",
+  "image_coords": [
+    888,
+    705,
+    906,
+    722
+  ],
   "tags": [
     "some sovyn clove",
     "some acantha leaf",
@@ -47,8 +44,5 @@
     "blue trafel mushroom",
     "crimson dragonstalk",
     "some mistweed"
-  ],
-  "links": [
-
   ]
 }

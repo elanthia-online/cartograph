@@ -1,52 +1,43 @@
 {
-  "wayto": {
-    "11457": {
-      "stringproc": "b9248cfc9b113e5b3c9341af010fa35e"
-    },
-    "11458": {
-      "stringproc": "84d7e9c5466c56efd7dc0ac337b0a9ea"
-    },
-    "11460": {
-      "stringproc": "c5de6a93c272509e579c13cc8cd916bf"
-    },
-    "11439": {
-      "stringproc": "84803c6220b0581d4151763c46ccdbbc"
-    },
-    "11462": {
-      "stringproc": "83255565d617dbe7b0ecdb04e9a96925"
-    },
-    "11465": {
-      "stringproc": "9eaa131926e46e6090f2390aa24f278f"
-    },
-    "11466": {
-      "stringproc": "e531eb47f19700d00ac81ca15d619ca8"
-    },
-    "16060": {
-      "stringproc": "18c4b59ed599a02893a4dbb26b362e46"
-    },
-    "11456": {
-      "stringproc": "2475b19f394c069e111c2fa06831c1f7"
-    }
-  },
-  "paths": [
-    "Obvious exits: north, northeast, east, southeast, south, west, northwest, up, down"
-  ],
-  "image_coords": [
-    788,
-    1261,
-    798,
-    1271
-  ],
-  "terrain": null,
-  "description": [
-    "Light green water above, deep green water below, green water all around.  The shimmering surface of the bay rolls sinuously overhead.  A powerful and steady current pushing in from the west prevents swimming in that direction."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": null,
+  "id": 11461,
   "title": [
     "[Maelstrom Bar, Underwater]"
   ],
-  "check_location": null,
+  "description": [
+    "Light green water above, deep green water below, green water all around.  The shimmering surface of the bay rolls sinuously overhead.  A powerful and steady current pushing in from the west prevents swimming in that direction."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east, southeast, south, west, northwest, up, down"
+  ],
+  "wayto": {
+    "11457": {
+      "file": "string_procs/wayto/11461_11457.rb"
+    },
+    "11458": {
+      "file": "string_procs/wayto/11461_11458.rb"
+    },
+    "11460": {
+      "file": "string_procs/wayto/11461_11460.rb"
+    },
+    "11439": {
+      "file": "string_procs/wayto/11461_11439.rb"
+    },
+    "11462": {
+      "file": "string_procs/wayto/11461_11462.rb"
+    },
+    "11465": {
+      "file": "string_procs/wayto/11461_11465.rb"
+    },
+    "11466": {
+      "file": "string_procs/wayto/11461_11466.rb"
+    },
+    "16060": {
+      "file": "string_procs/wayto/11461_16060.rb"
+    },
+    "11456": {
+      "file": "string_procs/wayto/11461_11456.rb"
+    }
+  },
   "timeto": {
     "11457": 2.0,
     "11458": 2.0,
@@ -58,12 +49,11 @@
     "16060": 2.0,
     "11456": 2.0
   },
-  "id": 11461,
-  "location": null,
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "rr-maelstrom-1266390501.png",
+  "image_coords": [
+    788,
+    1261,
+    798,
+    1271
   ]
 }

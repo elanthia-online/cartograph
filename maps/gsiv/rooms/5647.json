@@ -1,43 +1,28 @@
 {
+  "id": 5647,
+  "title": [
+    "[Warrens]"
+  ],
+  "description": [
+    "A large tree stump has been dragged into this room and evidently serves as a crude table.  The uncomfortable looking piles of straw near the table appear to be the seating arrangements for this dining area and serve as both chairs and trash cans based on the various bits of food that can be seen sticking out from them."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "the Vornavian Coast",
   "wayto": {
     "5644": "northeast",
     "5650": "southwest"
   },
-  "paths": [
-    "Obvious exits: northeast, southwest"
-  ],
+  "timeto": {
+    "5644": 0.2,
+    "5650": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     736,
     687,
     746,
     697
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A large tree stump has been dragged into this room and evidently serves as a crude table.  The uncomfortable looking piles of straw near the table appear to be the seating arrangements for this dining area and serve as both chairs and trash cans based on the various bits of food that can be seen sticking out from them."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Warrens]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5644": 0.2,
-    "5650": 0.2
-  },
-  "id": 5647,
-  "location": "the Vornavian Coast",
-  "tags": [
-    "withered black mushroom",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

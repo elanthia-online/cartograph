@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "7591": "go crevice"
-  },
+  "id": 7600,
+  "title": [
+    "[Ant Nest, Burial Chamber]"
+  ],
+  "description": [
+    "The natural shape of the stone forms a deep, arching crevice.  Only a few shreds of lichen grow on the dry rock, providing little light.  As your eyes adjust to the darkness, you notice that the walls are piled high with the dried exoskeletons of thousands of huge dead ants, each at least as long as a halfling is tall."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "the dark caverns",
+  "wayto": {
+    "7591": "go crevice"
+  },
+  "timeto": {
+    "7591": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     82,
     981,
     92,
     991
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The natural shape of the stone forms a deep, arching crevice.  Only a few shreds of lichen grow on the dry rock, providing little light.  As your eyes adjust to the darkness, you notice that the walls are piled high with the dried exoskeletons of thousands of huge dead ants, each at least as long as a halfling is tall."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Ant Nest, Burial Chamber]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7591": 0.2
-  },
-  "id": 7600,
-  "location": "the dark caverns",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

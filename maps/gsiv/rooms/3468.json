@@ -1,43 +1,36 @@
 {
+  "id": 3468,
+  "title": [
+    "[Snowy Plains, Deep Freeze]"
+  ],
+  "description": [
+    "You heave a thankful sigh of relief as the snowfall all but stops and a few rays of sun find their way through the dense cloud cover.  Although it brings no warmth, the sunlight brightens your mood and with new resolve, you forge ahead.",
+    "You heave a thankful sigh of relief as the snowfall all but stops and a few rays of moonlight find their way through the dense cloud cover.  Although it brings no warmth, the moonlight brightens your mood and with new resolve, you forge ahead."
+  ],
+  "paths": [
+    "Obvious paths: east, northwest"
+  ],
+  "location": "the Icemule Trail",
   "wayto": {
     "3467": "northwest",
     "3469": "east"
   },
-  "paths": [
-    "Obvious paths: east, northwest"
-  ],
+  "timeto": {
+    "3467": 0.2,
+    "3469": 0.2
+  },
+  "image": "imt-trail-1264234799.png",
   "image_coords": [
     835,
     789,
     845,
     798
   ],
-  "terrain": "rough",
-  "description": [
-    "You heave a thankful sigh of relief as the snowfall all but stops and a few rays of sun find their way through the dense cloud cover.  Although it brings no warmth, the sunlight brightens your mood and with new resolve, you forge ahead.",
-    "You heave a thankful sigh of relief as the snowfall all but stops and a few rays of moonlight find their way through the dense cloud cover.  Although it brings no warmth, the moonlight brightens your mood and with new resolve, you forge ahead."
-  ],
-  "image": "imt-trail-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Snowy Plains, Deep Freeze]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3467": 0.2,
-    "3469": 0.2
-  },
-  "id": 3468,
-  "location": "the Icemule Trail",
   "tags": [
     "wintergreen leaf",
     "bright red teaberry",
     "arctic moss",
     "broken twig",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

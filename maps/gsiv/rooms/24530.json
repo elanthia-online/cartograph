@@ -1,47 +1,30 @@
 {
+  "id": 24530,
+  "title": [
+    "[Frozen Bramble Patch]"
+  ],
+  "description": [
+    "There seems to be little escape from the spiked thorns of the surrounding area.  Small bits of shredded cloth and leather litter the ground, some caught in the growth, testament to others attempting to pass this way."
+  ],
+  "paths": [
+    "Obvious paths: north, west, northwest"
+  ],
+  "location": "the Abandoned Farm",
   "wayto": {
     "24529": "northwest",
     "24520": "west",
     "24545": "north"
   },
-  "paths": [
-    "Obvious paths: north, west, northwest"
-  ],
-  "image_coords": [
-    233,
-    256,
-    246,
-    269
-  ],
-  "terrain": "barren scrub",
-  "description": [
-    "There seems to be little escape from the spiked thorns of the surrounding area.  Small bits of shredded cloth and leather litter the ground, some caught in the growth, testament to others attempting to pass this way."
-  ],
-  "image": "imt-bramble_patch-1307499864.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Frozen Bramble Patch]"
-  ],
-  "check_location": null,
   "timeto": {
     "24529": 0.2,
     "24520": 0.2,
     "24545": 0.2
   },
-  "id": 24530,
-  "location": "the Abandoned Farm",
-  "tags": [
-    "snow lily",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "arctic moss",
-    "broken twig",
-    "rockberry",
-    "crowberry",
-    "lingonberry",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+  "image": "imt-bramble_patch-1307499864.png",
+  "image_coords": [
+    233,
+    256,
+    246,
+    269
+  ]
 }

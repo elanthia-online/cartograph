@@ -1,1 +1,5 @@
-if UserVars.mapdb_fwi_return_room == 1944; 2.0;else;nil;end;
+if UserVars.mapdb_fwi_return_room == 1944
+ 15.0
+else
+nil
+end

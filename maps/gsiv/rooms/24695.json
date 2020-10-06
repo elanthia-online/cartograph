@@ -1,37 +1,34 @@
 {
+  "id": 24695,
+  "title": [
+    "[Red Forest, Ring of Mist]"
+  ],
+  "description": [
+    "The air here is heavy and choked with tenuous pockets of mist.  A slow, but cold wind stirs in the area, seemingly stuck in a contorted maelstrom, locking the wraithlike fog into an endless circular pattern."
+  ],
+  "paths": [
+    "Obvious paths: southwest, northwest"
+  ],
+  "location": "the Red Forest",
   "wayto": {
     "24696": {
-      "stringproc": "5c771a2568c8bcc0fa2afd609aa56ea6"
+      "file": "string_procs/wayto/24695_24696.rb"
     },
     "24697": "northwest",
     "24694": "southwest"
   },
-  "paths": [
-    "Obvious paths: southwest, northwest"
-  ],
+  "timeto": {
+    "24696": 0.2,
+    "24697": 0.2,
+    "24694": 0.2
+  },
+  "image": "red_forest-1260914757.png",
   "image_coords": [
     402,
     175,
     414,
     188
   ],
-  "terrain": null,
-  "description": [
-    "The air here is heavy and choked with tenuous pockets of mist.  A slow, but cold wind stirs in the area, seemingly stuck in a contorted maelstrom, locking the wraithlike fog into an endless circular pattern."
-  ],
-  "image": "red_forest-1260914757.png",
-  "climate": null,
-  "title": [
-    "[Red Forest, Ring of Mist]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24696": 0.2,
-    "24697": 0.2,
-    "24694": 0.2
-  },
-  "id": 24695,
-  "location": "the Displaced Red Forest",
   "tags": [
     "bright red cranberry",
     "bright red teaberry",
@@ -66,26 +63,6 @@
     "some mistweed",
     "stick",
     "sweetfern stalk",
-    "tkaro root",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "sticks",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "blueberries",
-    "broken twig",
-    "tree bark",
-    "mistweed",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+    "tkaro root"
+  ]
 }

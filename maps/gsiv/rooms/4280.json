@@ -1,74 +1,34 @@
 {
-  "wayto": {
-    "4279": "west",
-    "8142": {
-      "stringproc": "71664f07fe695671159e55e0fd37c701"
-    }
-  },
+  "id": 4280,
+  "title": [
+    "[Wooded Path]"
+  ],
+  "description": [
+    "At the verdant feet of an incredibly large growth of the ferns, the dwindling path abruptly ends.  The pines have withdrawn a few paces, growing in a symmetrical ring that creates an intimate glade.  Rich mosses and clover provide a soft carpet dotted here and there with tiny white blossoms."
+  ],
   "paths": [
     "Obvious paths: west"
   ],
+  "location": "the distant forest",
+  "wayto": {
+    "4279": "west",
+    "8142": {
+      "file": "string_procs/wayto/4280_8142.rb"
+    }
+  },
+  "timeto": {
+    "4279": 0.2,
+    "8142": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     1253,
     139,
     1263,
     149
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "At the verdant feet of an incredibly large growth of the ferns, the dwindling path abruptly ends.  The pines have withdrawn a few paces, growing in a symmetrical ring that creates an intimate glade.  Rich mosses and clover provide a soft carpet dotted here and there with tiny white blossoms."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "moist",
-  "title": [
-    "[Wooded Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4279": 0.2,
-    "8142": 0.2
-  },
-  "id": 4280,
-  "location": "the distant forest",
   "tags": [
     "some bolmara lichen",
-    "blue trafel mushroom",
-    "acantha leaf",
-    "woth flower",
-    "calamia fruit",
-    "haphip root",
-    "sticks",
-    "trollfear mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "broken twig",
-    "stalk of bluebells",
-    "wild chokecherry",
-    "bright red cranberry",
-    "wild orchid",
-    "tree bark",
-    "murkweed",
-    "kylan berry",
-    "blue whortleberry",
-    "white passionflower",
-    "yellow passionflower",
-    "blue passionflower",
-    "willow twig",
-    "yew twig",
-    "luckbloom blossom",
-    "murdroot",
-    "nightbloom blossom",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "walnuts",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "blue trafel mushroom"
   ]
 }

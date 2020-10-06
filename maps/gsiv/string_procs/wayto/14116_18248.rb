@@ -1,1 +1,5 @@
-move 'west';move 'west';move 'north';move 'north';move 'go door'
+move 'west'
+move 'west'
+move 'north'
+move 'north'
+move 'go door'

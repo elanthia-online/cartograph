@@ -1,35 +1,32 @@
 {
+  "id": 13925,
+  "title": [
+    "[Limne Var]"
+  ],
+  "description": [
+    "Stretched along the bank, a large hoarbeam building dominates the river's edge.  Amaranth, pansies, and fire lilies fill the beds to each side of its fel door, while swathes of wisteria festoon its beams and lintels.  Bending down to greet their cousins, baskets of ivy and petunias overflow on windowsills.  Boisterous conversation carries from the terrace to the river side of the building."
+  ],
+  "paths": [
+    "Obvious paths: southwest"
+  ],
+  "location": "the hamlet of Ravelin",
   "wayto": {
     "13926": "go building",
     "10681": "southwest",
     "13928": "go footbridge"
   },
-  "paths": [
-    "Obvious paths: southwest"
-  ],
+  "timeto": {
+    "13926": 0.2,
+    "10681": 0.2,
+    "13928": 0.2
+  },
+  "image": "en-ravelin.png",
   "image_coords": [
     398,
     762,
     446,
     806
   ],
-  "terrain": null,
-  "description": [
-    "Stretched along the bank, a large hoarbeam building dominates the river's edge.  Amaranth, pansies, and fire lilies fill the beds to each side of its fel door, while swathes of wisteria festoon its beams and lintels.  Bending down to greet their cousins, baskets of ivy and petunias overflow on windowsills.  Boisterous conversation carries from the terrace to the river side of the building."
-  ],
-  "image": "en-ravelin.png",
-  "climate": null,
-  "title": [
-    "[Limne Var]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "13926": 0.2,
-    "10681": 0.2,
-    "13928": 0.2
-  },
-  "id": 13925,
-  "location": "the hamlet of Ravelin",
   "tags": [
     "yabathilium fruit",
     "acantha leaf",
@@ -63,8 +60,5 @@
     "murdroot",
     "wavepetal blossom",
     "talneo root"
-  ],
-  "links": [
-
   ]
 }

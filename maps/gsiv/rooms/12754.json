@@ -1,38 +1,28 @@
 {
+  "id": 12754,
+  "title": [
+    "[Ruined Temple, Second Floor]"
+  ],
+  "description": [
+    "Two large holes in the wall mark the one-time home of the rusted iron bar that has collapsed and fallen into the seawater that flows through the area.  A marble stand rises above the water, its surface scratched, chipped, and burned.  Three large portions of broken pottery, faded and weathered, rest at its base."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Ruined Temple",
   "wayto": {
     "12755": "east",
     "12753": "west"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "12755": 0.2,
+    "12753": 0.2
+  },
+  "image": "ti-nelemar-1262373036.png",
   "image_coords": [
     675,
     303,
     711,
     339
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Two large holes in the wall mark the one-time home of the rusted iron bar that has collapsed and fallen into the seawater that flows through the area.  A marble stand rises above the water, its surface scratched, chipped, and burned.  Three large portions of broken pottery, faded and weathered, rest at its base."
-  ],
-  "image": "ti-nelemar-1262373036.png",
-  "climate": "indoors",
-  "title": [
-    "[Ruined Temple, Second Floor]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "12755": 0.2,
-    "12753": 0.2
-  },
-  "id": 12754,
-  "location": "the Ruined Temple",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

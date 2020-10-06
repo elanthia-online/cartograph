@@ -1,33 +1,30 @@
 {
+  "id": 11418,
+  "title": [
+    "[Troll Lair, Quarters]"
+  ],
+  "description": [
+    "A single skin-covered pallet stands by the wall of the small chamber, which is apparently home to a single troll.  The floor is covered in debris, old bones, and half-eaten game, and a small cask stands in one corner."
+  ],
+  "paths": [
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "the Hidden Vale",
   "wayto": {
     "11417": "northwest",
     "11419": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast, northwest"
-  ],
+  "timeto": {
+    "11417": 0.2,
+    "11419": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     934,
     1440,
     944,
     1450
   ],
-  "terrain": "indoors",
-  "description": [
-    "A single skin-covered pallet stands by the wall of the small chamber, which is apparently home to a single troll.  The floor is covered in debris, old bones, and half-eaten game, and a small cask stands in one corner."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Troll Lair, Quarters]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11417": 0.2,
-    "11419": 0.2
-  },
-  "id": 11418,
-  "location": "the Hidden Vale",
   "tags": [
     "withered black mushroom",
     "some wingstem root",
@@ -41,11 +38,6 @@
     "soft white mushroom",
     "black hook mushroom",
     "cave moss",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bolmara lichen"
   ]
 }

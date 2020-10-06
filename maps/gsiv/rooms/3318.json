@@ -1,41 +1,30 @@
 {
+  "id": 3318,
+  "title": [
+    "[Icemule, Ruins]"
+  ],
+  "description": [
+    "The ice forms a small natural cavern here.  Within the walls, you can see the flattened remains of several houses, crushed to bits by the flow of the glacier.  The rubble is still in good relative condition, as if frozen in time.  A hole opens in the ice to the south."
+  ],
+  "paths": [
+    "Obvious exits: east, northwest"
+  ],
+  "location": "the Glacier",
   "wayto": {
     "3317": "go hole",
     "3329": "east",
     "3319": "northwest"
   },
-  "paths": [
-    "Obvious exits: east, northwest"
-  ],
-  "image_coords": [
-    1338,
-    944,
-    1348,
-    954
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The ice forms a small natural cavern here.  Within the walls, you can see the flattened remains of several houses, crushed to bits by the flow of the glacier.  The rubble is still in good relative condition, as if frozen in time.  A hole opens in the ice to the south."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Icemule, Ruins]"
-  ],
-  "check_location": null,
   "timeto": {
     "3317": 0.2,
     "3329": 0.2,
     "3319": 0.2
   },
-  "id": 3318,
-  "location": "the Glacier",
-  "tags": [
-    "arctic moss",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "imt-east_west_north_gates-1264234799.png",
+  "image_coords": [
+    1338,
+    944,
+    1348,
+    954
   ]
 }

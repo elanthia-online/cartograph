@@ -1,1 +1,2 @@
-fput 'search'; move 'go opening'
+fput 'search'
+ move 'go opening'

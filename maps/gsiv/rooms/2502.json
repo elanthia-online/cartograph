@@ -1,35 +1,32 @@
 {
-  "wayto": {
-    "2501": {
-      "stringproc": "2b4af1354e22d2a4bbc0aa605e096470"
-    },
-    "2503": "climb branch"
-  },
+  "id": 2502,
+  "title": [
+    "[Icemule Trail, Snowy Forest]"
+  ],
+  "description": [
+    "A large branch is tightly wedged against a massive tree that has been uprooted and is lying across the southern path.  Powdery snow and slippery ice cover everything, making every step an effort."
+  ],
   "paths": [
     "Obvious paths: north"
   ],
+  "location": "the Icemule Trail",
+  "wayto": {
+    "2501": {
+      "file": "string_procs/wayto/2502_2501.rb"
+    },
+    "2503": "climb branch"
+  },
+  "timeto": {
+    "2501": 0.2,
+    "2503": 0.2
+  },
+  "image": "imt-trail-1264234799.png",
   "image_coords": [
     1189,
     309,
     1199,
     319
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "A large branch is tightly wedged against a massive tree that has been uprooted and is lying across the southern path.  Powdery snow and slippery ice cover everything, making every step an effort."
-  ],
-  "image": "imt-trail-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Icemule Trail, Snowy Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2501": 0.2,
-    "2503": 0.2
-  },
-  "id": 2502,
-  "location": "the Icemule Trail",
   "tags": [
     "small loganberry",
     "some pine needles",
@@ -83,10 +80,6 @@
     "ironfern root",
     "twisted twig",
     "slender twig",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bolmara lichen"
   ]
 }

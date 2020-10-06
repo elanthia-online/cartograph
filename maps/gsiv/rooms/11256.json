@@ -1,40 +1,32 @@
 {
+  "id": 11256,
+  "title": [
+    "[Rubble]"
+  ],
+  "description": [
+    "A beam of moonlight shines through a narrow opening revealing a jumble of stone blocks and wooden beams.  Clearly, this ruin was once a room.  The remnants of a table lie shattered under a fallen block.  Bones, scattered and gnawed, litter the area.  A large monir cabinet, rotten with age, has toppled on its side revealing a dark tunnel leading southeast.",
+    "A beam of sunlight shines through a narrow opening revealing a jumble of stone blocks and wooden beams.  Clearly, this ruin was once a room.  The remnants of a table lie shattered under a fallen block.  Bones, scattered and gnawed, litter the area.  A large monir cabinet, rotten with age, has toppled on its side revealing a dark tunnel leading southeast."
+  ],
+  "paths": [
+    "Obvious exits: southeast"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11255": "southeast",
     "11224": "go opening"
   },
-  "paths": [
-    "Obvious exits: southeast"
-  ],
+  "timeto": {
+    "11255": 0.2,
+    "11224": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     36,
     438,
     46,
     448
   ],
-  "terrain": "indoors",
-  "description": [
-    "A beam of moonlight shines through a narrow opening revealing a jumble of stone blocks and wooden beams.  Clearly, this ruin was once a room.  The remnants of a table lie shattered under a fallen block.  Bones, scattered and gnawed, litter the area.  A large monir cabinet, rotten with age, has toppled on its side revealing a dark tunnel leading southeast.",
-    "A beam of sunlight shines through a narrow opening revealing a jumble of stone blocks and wooden beams.  Clearly, this ruin was once a room.  The remnants of a table lie shattered under a fallen block.  Bones, scattered and gnawed, litter the area.  A large monir cabinet, rotten with age, has toppled on its side revealing a dark tunnel leading southeast."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Rubble]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11255": 0.2,
-    "11224": 0.2
-  },
-  "id": 11256,
-  "location": "the Citadel",
   "tags": [
-    "pepperthorn root",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "pepperthorn root"
   ]
 }

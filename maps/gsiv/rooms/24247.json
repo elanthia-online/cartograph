@@ -1,35 +1,28 @@
 {
+  "id": 24247,
+  "title": [
+    "[Helden Hall, Armory Passage]"
+  ],
+  "description": [
+    "This small dark stone passage leads to another large bedraggled brown curtain.  The torchlight flickers from a draft, while the faint pungent odor of polishing oil still reaches you."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "5203": "go curtain",
     "4664": "south"
   },
-  "paths": [
-    "Obvious exits: south"
-  ],
+  "timeto": {
+    "5203": 0.2,
+    "4664": 0.2
+  },
+  "image": "wl-heldenhall-1502386358.png",
   "image_coords": [
     137,
     716,
     176,
     748
-  ],
-  "terrain": null,
-  "description": [
-    "This small dark stone passage leads to another large bedraggled brown curtain.  The torchlight flickers from a draft, while the faint pungent odor of polishing oil still reaches you."
-  ],
-  "image": "wl-heldenhall-1502386358.png",
-  "climate": null,
-  "title": [
-    "[Helden Hall, Armory Passage]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5203": 0.2,
-    "4664": 0.2
-  },
-  "id": 24247,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

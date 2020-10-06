@@ -1,35 +1,30 @@
 {
-  "wayto": {
-    "19013": "go door"
-  },
+  "id": 19015,
+  "title": [
+    "[Sorcerer Guild, Arcane Studies]"
+  ],
+  "description": [
+    "Opaque mist forms the basis of this rotund chamber.  It has no physical walls nor any structure that lends it solid form.  Passageways created by the parting of mist open and close within a moment's notice at the beckoning of the Arcane Masters who buzz around the chamber at an almost frenzied pace attending to their tasks.  The world away from this room is completely obscured, and your existence is likely obscured from the world, with the exception of an opening in the mist directly in front of a rune-carved door."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "Kharam-Dzu",
+  "wayto": {
+    "19013": "go door"
+  },
+  "timeto": {
+    "19013": 0.2
+  },
+  "image": "ti-sorcerer_guild-1405076623.png",
   "image_coords": [
     78,
     371,
     113,
     409
   ],
-  "terrain": null,
-  "description": [
-    "Opaque mist forms the basis of this rotund chamber.  It has no physical walls nor any structure that lends it solid form.  Passageways created by the parting of mist open and close within a moment's notice at the beckoning of the Arcane Masters who buzz around the chamber at an almost frenzied pace attending to their tasks.  The world away from this room is completely obscured, and your existence is likely obscured from the world, with the exception of an opening in the mist directly in front of a rune-carved door."
-  ],
-  "image": "ti-sorcerer_guild-1405076623.png",
-  "climate": null,
-  "title": [
-    "[Sorcerer Guild, Arcane Studies]"
-  ],
-  "check_location": true,
-  "timeto": {
-    "19013": 0.2
-  },
-  "id": 19015,
-  "location": "Kharam-Dzu",
   "tags": [
     "sorcerer alchemy masters"
   ],
-  "links": [
-
-  ]
+  "check_location": true
 }

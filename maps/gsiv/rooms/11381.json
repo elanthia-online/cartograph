@@ -1,38 +1,27 @@
 {
+  "id": 11381,
+  "title": [
+    "[Citadel, Hallway]"
+  ],
+  "description": [
+    "The oak paneling of the hallway has decayed into sawdust in several areas revealing the grey stone of the walls beneath.  As you walk down this hallway, your feet make a soft shuffling noise in the sawdust that has fallen to the floor."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
   "wayto": {
     "11380": "west",
     "11376": "north"
   },
-  "paths": [
-    "Obvious exits: north, west"
-  ],
+  "timeto": {
+    "11380": 0.2,
+    "11376": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     347,
     1343,
     357,
     1353
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The oak paneling of the hallway has decayed into sawdust in several areas revealing the grey stone of the walls beneath.  As you walk down this hallway, your feet make a soft shuffling noise in the sawdust that has fallen to the floor."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Citadel, Hallway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11380": 0.2,
-    "11376": 0.2
-  },
-  "id": 11381,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,50 +1,36 @@
 {
+  "id": 6703,
+  "title": [
+    "[Gnome Mine, Entrance]"
+  ],
+  "description": [
+    "This is the entrance to a series of natural caves.  As your eyes adjust to the change in light you see a path worn in the cave floor leading to the southeast.  It looks like the cave off to the southwest is seldom used by the cave occupants."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest"
+  ],
+  "location": "the Upper Dragonsclaw",
   "wayto": {
     "6702": "southeast",
     "6715": "go opening",
     "6704": "southwest"
   },
-  "paths": [
-    "Obvious exits: southeast, southwest"
-  ],
+  "timeto": {
+    "6702": 0.2,
+    "6715": 0.2,
+    "6704": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     154,
     1285,
     164,
     1295
   ],
-  "terrain": "indoors",
-  "description": [
-    "This is the entrance to a series of natural caves.  As your eyes adjust to the change in light you see a path worn in the cave floor leading to the southeast.  It looks like the cave off to the southwest is seldom used by the cave occupants."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Gnome Mine, Entrance]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6702": 0.2,
-    "6715": 0.2,
-    "6704": 0.2
-  },
-  "id": 6703,
-  "location": "the Upper Dragonsclaw",
   "tags": [
     "white hook mushroom",
     "black hook mushroom",
     "withered black mushroom",
-    "red trafel mushroom",
-    "soft white mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "red trafel mushroom"
   ]
 }

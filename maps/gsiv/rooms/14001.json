@@ -1,33 +1,30 @@
 {
+  "id": 14001,
+  "title": [
+    "[Castle Varunar, Outer Ward]"
+  ],
+  "description": [
+    "You see an abandoned merchant's stall leaning against the outer castle wall.  Tattered remnants of once-colorful canvas hang from the framework of rough hewn fel wood.  Inside the stall are broken shards of clay pottery and several smashed display cases."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Castle Varunar",
   "wayto": {
     "13999": "west",
     "14033": "east"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "13999": 0.2,
+    "14033": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     796,
     391,
     806,
     401
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "You see an abandoned merchant's stall leaning against the outer castle wall.  Tattered remnants of once-colorful canvas hang from the framework of rough hewn fel wood.  Inside the stall are broken shards of clay pottery and several smashed display cases."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Castle Varunar, Outer Ward]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "13999": 0.2,
-    "14033": 0.2
-  },
-  "id": 14001,
-  "location": "Castle Varunar",
   "tags": [
     "some calamia fruit",
     "some bur-clover root",
@@ -39,26 +36,6 @@
     "small rose",
     "stalk of goldenrod",
     "some acantha leaf",
-    "some motherwort",
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "angelica root",
-    "withered black mushroom",
-    "sprig of alyssum",
-    "heath aster",
-    "yellow primrose",
-    "wild chokecherry",
-    "motherwort",
-    "white baneberry",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some motherwort"
   ]
 }

@@ -1,34 +1,25 @@
 {
-  "wayto": {
-    "27740": {
-      "stringproc": "5dd959750d0121980290722e0ca6c781"
-    },
-    "27738": {
-      "stringproc": "96166631e16e39e71dc1c4aa11b37727"
-    }
-  },
-  "paths": [
-    "Obvious exits: down"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "The stairs come to an end in this upper room, where a rough construction of planks and reinforced wood forms a small platform giving access to slitted windows in the walls.  A stunted little barrel stands between the gaps of the numerous slitted windows that encircle the area.  One wider window looks down upon the western wall of Icemule Trace, and a knotted rope is tied to a grommet securely fastened to its stony ledge."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 27739,
   "title": [
     "[West Barbican, South Tower]"
   ],
-  "check_location": null,
+  "description": [
+    "The stairs come to an end in this upper room, where a rough construction of planks and reinforced wood forms a small platform giving access to slitted windows in the walls.  A stunted little barrel stands between the gaps of the numerous slitted windows that encircle the area.  One wider window looks down upon the western wall of Icemule Trace, and a knotted rope is tied to a grommet securely fastened to its stony ledge."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Icemule Trace",
+  "wayto": {
+    "27740": {
+      "file": "string_procs/wayto/27739_27740.rb"
+    },
+    "27738": {
+      "file": "string_procs/wayto/27739_27738.rb"
+    }
+  },
   "timeto": {
     "27740": 5.2,
     "27738": 10.2
-  },
-  "id": 27739,
-  "location": "Icemule Trace",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  }
 }

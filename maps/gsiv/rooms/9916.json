@@ -1,55 +1,35 @@
 {
+  "id": 9916,
+  "title": [
+    "[Wraithenmist, Shallow Swamp]"
+  ],
+  "description": [
+    "A small hut, surrounded by a strangely profuse herb garden, stands on the rise of a hill in the center of the clearing.  A thin column of smoke wafts from the hut's stacked stone chimney.  Oddly, the air about the hut's dooryard shimmers slightly, as if there is some sort of invisible barrier present."
+  ],
+  "paths": [
+    "Obvious paths: southwest, west, northwest"
+  ],
+  "location": "Wraithenmist",
   "wayto": {
     "9915": "northwest",
     "9917": "southwest",
     "9918": "west"
   },
-  "paths": [
-    "Obvious paths: southwest, west, northwest"
-  ],
+  "timeto": {
+    "9915": 0.2,
+    "9917": 0.2,
+    "9918": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     689,
     444,
     699,
     454
   ],
-  "terrain": "muddy wetlands",
-  "description": [
-    "A small hut, surrounded by a strangely profuse herb garden, stands on the rise of a hill in the center of the clearing.  A thin column of smoke wafts from the hut's stacked stone chimney.  Oddly, the air about the hut's dooryard shimmers slightly, as if there is some sort of invisible barrier present."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Wraithenmist, Shallow Swamp]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9915": 0.2,
-    "9917": 0.2,
-    "9918": 0.2
-  },
-  "id": 9916,
-  "location": "Wraithenmist",
   "tags": [
     "some wingstem root",
     "some talneo root",
-    "stalk of cattail",
-    "aloeas stem",
-    "soft white mushroom",
-    "withered black mushroom",
-    "white hook mushroom",
-    "blue trafel mushroom",
-    "wild gooseberry",
-    "small wild rose",
-    "blue whortleberry",
-    "murdroot",
-    "wavepetal blossom",
-    "bolmara lichen",
-    "talneo root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "stalk of cattail"
   ]
 }

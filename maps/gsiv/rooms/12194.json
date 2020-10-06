@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "12195": "north",
-    "12152": {
-      "stringproc": "e7b269de45035581300c76daf9e751cf"
-    },
-    "12089": {
-      "stringproc": "df16ace028c72dba18b51257349345d8"
-    },
-    "2635": {
-      "stringproc": "a5fc698b4e8aaa983aa8f5ad92908980"
-    },
-    "12193": "south"
-  },
+  "id": 12194,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "A set of stairs carved from the purest white marble spirals up...into nothingness.  No landing, no floor, simply a darkness so deep it seems to consume the light around it.  The stairs rest on a floor of dark black onyx, making the twisting white column the only spot of light in the area."
+  ],
   "paths": [
     "Obvious exits: north, south",
     "Obvious paths: north, south"
   ],
-  "image_coords": [
-    77,
-    1149,
-    87,
-    1159
-  ],
-  "terrain": null,
-  "description": [
-    "A set of stairs carved from the purest white marble spirals up...into nothingness.  No landing, no floor, simply a darkness so deep it seems to consume the light around it.  The stairs rest on a floor of dark black onyx, making the twisting white column the only spot of light in the area."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12195": "north",
+    "12152": {
+      "file": "string_procs/wayto/12194_12152.rb"
+    },
+    "12089": {
+      "file": "string_procs/wayto/12194_12089.rb"
+    },
+    "2635": {
+      "file": "string_procs/wayto/12194_2635.rb"
+    },
+    "12193": "south"
+  },
   "timeto": {
     "12195": 0.2,
     "12152": 21.6,
@@ -39,8 +31,13 @@
     "2635": 21.6,
     "12193": 0.2
   },
-  "id": 12194,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    77,
+    1149,
+    87,
+    1159
+  ],
   "tags": [
     "twisted black mawflower",
     "slime-covered grave blossom",
@@ -49,8 +46,5 @@
     "withered deathblossom",
     "rotting bile green fleshbulb",
     "oozing fleshsore bulb"
-  ],
-  "links": [
-
   ]
 }

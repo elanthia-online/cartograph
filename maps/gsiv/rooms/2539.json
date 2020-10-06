@@ -1,38 +1,28 @@
 {
+  "id": 2539,
+  "title": [
+    "[Snowy Plains, Bridge]"
+  ],
+  "description": [
+    "A huge glacier can be seen to the south of you, its cracked and worn face a stark comparison to the flatness of the plains to the north.  An old, stone bridge stands to the north and crosses over the icy river."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "the Icemule Trail",
   "wayto": {
     "2538": "go bridge",
     "2540": "south"
   },
-  "paths": [
-    "Obvious paths: south"
-  ],
+  "timeto": {
+    "2538": 0.2,
+    "2540": 0.2
+  },
+  "image": "imt-trail-1264234799.png",
   "image_coords": [
     818,
     574,
     828,
     584
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "A huge glacier can be seen to the south of you, its cracked and worn face a stark comparison to the flatness of the plains to the north.  An old, stone bridge stands to the north and crosses over the icy river."
-  ],
-  "image": "imt-trail-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Snowy Plains, Bridge]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2538": 0.2,
-    "2540": 0.2
-  },
-  "id": 2539,
-  "location": "the Icemule Trail",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

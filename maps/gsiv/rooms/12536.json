@@ -1,38 +1,29 @@
 {
-  "wayto": {
-    "12537": "go doors",
-    "1934": "east"
-  },
+  "id": 12536,
+  "title": [
+    "[Adventurers' Rest, Bar]"
+  ],
+  "description": [
+    "Gleaming mistwood stools are grouped against the long sturdy bar.  The stools, and even sections of the bar itself, vary in height to accommodate everyone from giantman to halfling comfortably."
+  ],
   "paths": [
     "Obvious exits: east",
     "Obvious exits: north, east"
   ],
+  "location": "the town of Kharam-Dzu",
+  "wayto": {
+    "12537": "go doors",
+    "1934": "east"
+  },
+  "timeto": {
+    "12537": 0.2,
+    "1934": 0.2
+  },
+  "image": "ti-adventurers_rest-1486448911.png",
   "image_coords": [
     5,
     670,
     150,
     733
-  ],
-  "terrain": null,
-  "description": [
-    "Gleaming mistwood stools are grouped against the long sturdy bar.  The stools, and even sections of the bar itself, vary in height to accommodate everyone from giantman to halfling comfortably."
-  ],
-  "image": "ti-adventurers_rest-1486448911.png",
-  "climate": null,
-  "title": [
-    "[Adventurers' Rest, Bar]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "12537": 0.2,
-    "1934": 0.2
-  },
-  "id": 12536,
-  "location": "the town of Kharam-Dzu",
-  "tags": [
-
-  ],
-  "links": [
-
   ]
 }

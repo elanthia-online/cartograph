@@ -1,44 +1,34 @@
 {
+  "id": 4551,
+  "title": [
+    "[Dark Tunnel]"
+  ],
+  "description": [
+    "The walls narrow slightly, enhancing the claustrophobic feel of this gloomy excavation.  Rotting roots reach out from the ceiling, seemingly adding their touch to the loathsomeness of these tunnels."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "4545": "north",
     "4552": "south"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "4545": 0.2,
+    "4552": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     1143,
     512,
     1153,
     522
   ],
-  "terrain": "indoors",
-  "description": [
-    "The walls narrow slightly, enhancing the claustrophobic feel of this gloomy excavation.  Rotting roots reach out from the ceiling, seemingly adding their touch to the loathsomeness of these tunnels."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dark Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4545": 0.2,
-    "4552": 0.2
-  },
-  "id": 4551,
-  "location": "the Shadow Valley",
   "tags": [
     "some shadowlace moss",
     "blackgrove root",
     "ghostly pooka",
-    "some blue moss",
-    "cave moss",
-    "shadowlace moss",
-    "blue moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some blue moss"
   ]
 }

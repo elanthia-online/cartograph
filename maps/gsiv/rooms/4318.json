@@ -1,46 +1,33 @@
 {
+  "id": 4318,
+  "title": [
+    "[Mine]"
+  ],
+  "description": [
+    "This natural cavern is tall but not very deep and the floor is covered with pine branches that have been dragged in from the hillside of the Upper Trollfang outside of the mine."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east, west"
+  ],
+  "location": "the crystal caves",
   "wayto": {
     "4320": "east",
     "4319": "northeast",
     "4310": "west"
   },
-  "paths": [
-    "Obvious exits: northeast, east, west"
-  ],
+  "timeto": {
+    "4320": 0.2,
+    "4319": 0.2,
+    "4310": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     779,
     446,
     789,
     456
   ],
-  "terrain": "indoors",
-  "description": [
-    "This natural cavern is tall but not very deep and the floor is covered with pine branches that have been dragged in from the hillside of the Upper Trollfang outside of the mine."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4320": 0.2,
-    "4319": 0.2,
-    "4310": 0.2
-  },
-  "id": 4318,
-  "location": "the crystal caves",
   "tags": [
-    "some wolifrew lichen",
-    "wolifrew lichen",
-    "withered black mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wolifrew lichen"
   ]
 }

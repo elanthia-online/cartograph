@@ -1,38 +1,28 @@
 {
+  "id": 4159,
+  "title": [
+    "[Hall of the Dead, Common Crypt]"
+  ],
+  "description": [
+    "The dead are packed into notches that bear little resemblance to the beautiful crypts you have witnessed before.  In fact, various body parts dangle from several of the ledges.  Not even a simple name card shows you who might be in the wall pockets."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "4158": "west",
     "4154": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "4158": 0.2,
+    "4154": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     916,
     734,
     926,
     744
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The dead are packed into notches that bear little resemblance to the beautiful crypts you have witnessed before.  In fact, various body parts dangle from several of the ledges.  Not even a simple name card shows you who might be in the wall pockets."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Hall of the Dead, Common Crypt]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4158": 0.2,
-    "4154": 0.2
-  },
-  "id": 4159,
-  "location": "the Graveyard",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

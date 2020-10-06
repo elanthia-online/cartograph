@@ -1,35 +1,28 @@
 {
+  "id": 26288,
+  "title": [
+    "[Lich's Landing, Revenant Road]"
+  ],
+  "description": [
+    "Flatbed wagons carrying wood and rock lumbers slowly down the road, pulled by fiery-maned steeds and driven by ugly ghouls.  The path comes to an end near the wall of a tavern, where a number of grisly zombies and skeletons linger about.  A bone-inlaid stairway leads up to a elven hide curtain, which serves as an entrance to the tavern."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Talador",
   "wayto": {
     "26289": "go tavern",
     "26287": "west"
   },
-  "paths": [
-    "Obvious exits: west"
-  ],
+  "timeto": {
+    "26289": 0.2,
+    "26287": 0.2
+  },
+  "image": "wl-lichs_landing-1500800742.png",
   "image_coords": [
     975,
     421,
     1000,
     447
-  ],
-  "terrain": null,
-  "description": [
-    "Flatbed wagons carrying wood and rock lumbers slowly down the road, pulled by fiery-maned steeds and driven by ugly ghouls.  The path comes to an end near the wall of a tavern, where a number of grisly zombies and skeletons linger about.  A bone-inlaid stairway leads up to a elven hide curtain, which serves as an entrance to the tavern."
-  ],
-  "image": "wl-lichs_landing-1500800742.png",
-  "climate": null,
-  "title": [
-    "[Lich's Landing, Revenant Road]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26289": 0.2,
-    "26287": 0.2
-  },
-  "id": 26288,
-  "location": "Talador",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

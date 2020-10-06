@@ -1,54 +1,44 @@
 {
-  "wayto": {
-    "7461": {
-      "stringproc": "9562739203983e062dd5fcc7a8104b4e"
-    },
-    "7476": {
-      "stringproc": "a6b628ff54c0248726e97cd80f297c91"
-    },
-    "7478": {
-      "stringproc": "b6e50bf35d33fb87fd0cfd22f187f1fb"
-    }
-  },
+  "id": 7477,
+  "title": [
+    "[Dark Grotto, Cavern]"
+  ],
+  "description": [
+    "Every sound that you make is amplified by the high domed ceiling of this oblong cavern.  One end of the cavern has  been hollowed out, forming a kind of amphitheater with four broad, terraced ledges forming a semicircle around a stone platform.  The cavern could not be a natural formation, but there are no tool marks from where the stone might have been carved or worked by hand, no telltale joints where stones have been fitted together.  Deep niches line the walls of the cavern."
+  ],
   "paths": [
     "Obvious exits: southeast, southwest"
   ],
+  "location": "the Broken Lands",
+  "wayto": {
+    "7461": {
+      "file": "string_procs/wayto/7477_7461.rb"
+    },
+    "7476": {
+      "file": "string_procs/wayto/7477_7476.rb"
+    },
+    "7478": {
+      "file": "string_procs/wayto/7477_7478.rb"
+    }
+  },
+  "timeto": {
+    "7461": 0.2,
+    "7476": 0.2,
+    "7478": 0.2
+  },
+  "image": "wl-broken-1264234799.png",
   "image_coords": [
     862,
     827,
     872,
     837
   ],
-  "terrain": "indoors",
-  "description": [
-    "Every sound that you make is amplified by the high domed ceiling of this oblong cavern.  One end of the cavern has  been hollowed out, forming a kind of amphitheater with four broad, terraced ledges forming a semicircle around a stone platform.  The cavern could not be a natural formation, but there are no tool marks from where the stone might have been carved or worked by hand, no telltale joints where stones have been fitted together.  Deep niches line the walls of the cavern."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dark Grotto, Cavern]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7461": 0.2,
-    "7476": 0.2,
-    "7478": 0.2
-  },
-  "id": 7477,
-  "location": "the Broken Lands",
   "tags": [
     "some cave moss",
     "some glowing green lichen",
     "sponge mushroom",
     "some blackened moss",
     "magru",
-    "bone mushroom",
-    "blackened moss",
-    "green lichen",
-    "cave moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bone mushroom"
   ]
 }

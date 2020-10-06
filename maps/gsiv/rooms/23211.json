@@ -1,4 +1,15 @@
 {
+  "id": 23211,
+  "title": [
+    "[White Haven, Founders Hall]"
+  ],
+  "description": [
+    "A highly polished marble floor dances with reflected light from the shimmering crystal chandelier overhead.  Next to a large open fireplace sits a white basket filled with wood and kindling.  Nearby, several plush chairs and a carved huntboard add comfort and warmth to the huge room.  Covering the north wall is an elegant mural of White Haven's founders.  A sweeping staircase of carved white modwir gently curves as it ascends to the tower's upper floors."
+  ],
+  "paths": [
+    "Obvious exits: east, out"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "23214": "go mural",
     "23215": "go archway",
@@ -8,28 +19,9 @@
     "23221": "east",
     "23213": "go staircase",
     "25993": {
-      "stringproc": "d258b5ce9bb60d6aec00a67e5d4c186a"
+      "file": "string_procs/wayto/23211_25993.rb"
     }
   },
-  "paths": [
-    "Obvious exits: east, out"
-  ],
-  "image_coords": [
-    562,
-    441,
-    640,
-    521
-  ],
-  "terrain": null,
-  "description": [
-    "A highly polished marble floor dances with reflected light from the shimmering crystal chandelier overhead.  Next to a large open fireplace sits a white basket filled with wood and kindling.  Nearby, several plush chairs and a carved huntboard add comfort and warmth to the huge room.  Covering the north wall is an elegant mural of White Haven's founders.  A sweeping staircase of carved white modwir gently curves as it ascends to the tower's upper floors."
-  ],
-  "image": "imt-WhiteHaven2.png",
-  "climate": null,
-  "title": [
-    "[White Haven, Founders Hall]"
-  ],
-  "check_location": null,
   "timeto": {
     "23214": 0.2,
     "23215": 0.2,
@@ -40,13 +32,11 @@
     "23213": 0.2,
     "25993": 0.2
   },
-  "id": 23211,
-  "location": "Icemule Trace",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
+  "image": "imt-WhiteHaven2.png",
+  "image_coords": [
+    562,
+    441,
+    640,
+    521
   ]
 }

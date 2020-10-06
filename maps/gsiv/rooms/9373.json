@@ -1,31 +1,28 @@
 {
-  "wayto": {
-    "9372": "east"
-  },
+  "id": 9373,
+  "title": [
+    "[Overlook]"
+  ],
+  "description": [
+    "The path ends here at a small clearing overlooking the ravine below.  There is a stone bench here which is cracked in two by a small tree growing up through it.  At the edge of the clearing the land drops off steeply to the ravine below.  A few trees perch precariously right on the edge of the drop-off."
+  ],
   "paths": [
     "Obvious paths: east"
   ],
+  "location": "the Cairnfang",
+  "wayto": {
+    "9372": "east"
+  },
+  "timeto": {
+    "9372": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     1161,
     168,
     1173,
     180
   ],
-  "terrain": "rough",
-  "description": [
-    "The path ends here at a small clearing overlooking the ravine below.  There is a stone bench here which is cracked in two by a small tree growing up through it.  At the edge of the clearing the land drops off steeply to the ravine below.  A few trees perch precariously right on the edge of the drop-off."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Overlook]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9372": 0.2
-  },
-  "id": 9373,
-  "location": "the Cairnfang",
   "tags": [
     "handful of elderberries",
     "wintergreen leaf",
@@ -55,10 +52,6 @@
     "motherwort",
     "white baneberry",
     "pepperthorn root",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

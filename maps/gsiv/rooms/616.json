@@ -1,43 +1,33 @@
 {
-  "wayto": {
-    "615": "northeast",
-    "617": "northwest",
-    "26795": "go arched door"
-  },
-  "paths": [
-    "Obvious paths: northeast, northwest"
+  "id": 616,
+  "title": [
+    "[Ta'Illistim, Aerie Wey]"
   ],
-  "image_coords": [
-    983,
-    155,
-    1005,
-    177
-  ],
-  "terrain": "hard, flat",
   "description": [
     "The docks are relatively quiet at this hour of the night, with only the occasional shout emanating from the nearby area.  Several city guardsmen stand night watch, keeping an eye on passersby.",
     "The bustle of the docks swirls around you, eddying around small groups of people and flowing around wagons and other obstacles as crowds move to and from the nearby airship docks.  Nearby, a line of wagons awaits inspection by the city guardsmen.",
     "The road dips around a high tower, set flush against the exterior city wall.  The tower, raised as it is above the crenelations of the wall, looks down over both the interior of Ta'Illistim and the cliffside upon which the Shining City rests.  Atop its spire, a dome of sapphire tiles stands out against the night sky, a spot of blue in a star-dappled black tableau.",
     "The road dips around a high tower, set flush against the exterior city wall.  The tower, raised as it is above the crenelations of the wall, looks down over both the interior of Ta'Illistim and the cliffside upon which the Shining City rests.  Atop its spire, a dome of sapphire tiles stands out against the sky, brighter and more blue."
   ],
-  "image": "en-ta_illistim-new.jpg",
-  "climate": "temperate",
-  "title": [
-    "[Ta'Illistim, Aerie Wey]"
+  "paths": [
+    "Obvious paths: northeast, northwest"
   ],
-  "check_location": null,
+  "location": "Ta'Illistim",
+  "wayto": {
+    "615": "northeast",
+    "617": "northwest",
+    "26795": "go arched door"
+  },
   "timeto": {
     "615": 0.2,
     "617": 0.2,
     "26795": 0.2
   },
-  "id": 616,
-  "location": "Ta'Illistim",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-ta_illistim-new.jpg",
+  "image_coords": [
+    983,
+    155,
+    1005,
+    177
   ]
 }

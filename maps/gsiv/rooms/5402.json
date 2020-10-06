@@ -1,33 +1,30 @@
 {
+  "id": 5402,
+  "title": [
+    "[Ruined Courtyard]"
+  ],
+  "description": [
+    "The iron fence surrounding the courtyard still stands, but the corrosion and rust is so bad in the metal, it's only a matter of time before it collapses.  It does still serve to keep out the wildlife, or perhaps keep it in."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Bonespear Tower",
   "wayto": {
     "5401": "west",
     "5403": "east"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "5401": 0.2,
+    "5403": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     1224,
     907,
     1234,
     917
   ],
-  "terrain": "rough",
-  "description": [
-    "The iron fence surrounding the courtyard still stands, but the corrosion and rust is so bad in the metal, it's only a matter of time before it collapses.  It does still serve to keep out the wildlife, or perhaps keep it in."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "humid",
-  "title": [
-    "[Ruined Courtyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5401": 0.2,
-    "5403": 0.2
-  },
-  "id": 5402,
-  "location": "Bonespear Tower",
   "tags": [
     "bright red teaberry",
     "blue passionflower",
@@ -49,13 +46,6 @@
     "wild chokecherry",
     "wild gooseberry",
     "white passionflower",
-    "sprig of larkspur",
-    "blueberries",
-    "broken twig",
-    "motherwort",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sprig of larkspur"
   ]
 }

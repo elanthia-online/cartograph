@@ -1,44 +1,35 @@
 {
-  "wayto": {
-    "10436": "go green curtain",
-    "28342": {
-      "stringproc": "59f0caa16a0132ebf03cda1a528307b2"
-    },
-    "28343": {
-      "stringproc": "3917331fe35463b8d9391856ed10acd4"
-    },
-    "28344": {
-      "stringproc": "44181ef1b9ae3a407d33f18348fa7b8b"
-    },
-    "28345": {
-      "stringproc": "3568d511c72ee85e00e837f8239c0854"
-    }
-  },
-  "paths": [
-    "Obvious exits: west"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Dim sunlight filters through this cozy room's thick curtains of loosely woven silk, casting a maroon-tinged glow over the scattered groups seated at the tables and private booths.  A magnificently carved mahogany bar runs the length of the west wall, its polished onyx surface reflecting the gleaming barware, bottles and brass of the trade.  An occasional raucous laugh or snippet of heated conversation filters through a heavy green velvet curtain on the north side of the room."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 28341,
   "title": [
     "[Bard Guild, Member's Bar]"
   ],
-  "check_location": null,
+  "description": [
+    "Dim sunlight filters through this cozy room's thick curtains of loosely woven silk, casting a maroon-tinged glow over the scattered groups seated at the tables and private booths.  A magnificently carved mahogany bar runs the length of the west wall, its polished onyx surface reflecting the gleaming barware, bottles and brass of the trade.  An occasional raucous laugh or snippet of heated conversation filters through a heavy green velvet curtain on the north side of the room."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "the Ta'Vaalor Bard Guild",
+  "wayto": {
+    "10436": "go green curtain",
+    "28342": {
+      "file": "string_procs/wayto/28341_28342.rb"
+    },
+    "28343": {
+      "file": "string_procs/wayto/28341_28343.rb"
+    },
+    "28344": {
+      "file": "string_procs/wayto/28341_28344.rb"
+    },
+    "28345": {
+      "file": "string_procs/wayto/28341_28345.rb"
+    }
+  },
   "timeto": {
     "10436": 0.2,
     "28342": 0.2,
     "28343": 0.2,
     "28344": 0.2,
     "28345": 0.2
-  },
-  "id": 28341,
-  "location": "the Ta'Vaalor Bard Guild",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  }
 }

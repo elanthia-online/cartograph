@@ -1,40 +1,30 @@
 {
-  "wayto": {
-    "2640": {
-      "stringproc": "e107950bba888356ceb4a9b8f3841828"
-    },
-    "2637": "go bank"
-  },
+  "id": 2639,
+  "title": [
+    "[Lake of Tears]"
+  ],
+  "description": [
+    "The warm water of the lake churns in the grip of strong currents.  Tossed by the confluence, water droplets spray into the air above the waves, creating shimmering rainbows in the low cavern light.  The bank of the lake beckons with its promise of solid ground, while below, the depths descend into shifting shadows."
+  ],
   "paths": [
     "Obvious exits: down"
   ],
+  "location": "Koar's Shrine",
+  "wayto": {
+    "2640": {
+      "file": "string_procs/wayto/2639_2640.rb"
+    },
+    "2637": "go bank"
+  },
+  "timeto": {
+    "2640": 5.0,
+    "2637": 0.2
+  },
+  "image": "imt-pinefar-1264234799.png",
   "image_coords": [
     38,
     174,
     46,
     182
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The warm water of the lake churns in the grip of strong currents.  Tossed by the confluence, water droplets spray into the air above the waves, creating shimmering rainbows in the low cavern light.  The bank of the lake beckons with its promise of solid ground, while below, the depths descend into shifting shadows."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Lake of Tears]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2640": 5.0,
-    "2637": 0.2
-  },
-  "id": 2639,
-  "location": "Koar's Shrine",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

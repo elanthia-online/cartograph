@@ -1,31 +1,28 @@
 {
-  "wayto": {
-    "11423": "west"
-  },
+  "id": 11424,
+  "title": [
+    "[Clan Leader's Stores]"
+  ],
+  "description": [
+    "This irregularly-shaped chamber is filled with deep shadows, in which can be seen the forms of various rabbits, birds and small reptiles hung up to be stored as food.  The rotting hulk of a slaughtered rolton fills one corner, and the room is littered with sacks, tools, and casks."
+  ],
   "paths": [
     "Obvious exits: west"
   ],
+  "location": "the Hidden Vale",
+  "wayto": {
+    "11423": "west"
+  },
+  "timeto": {
+    "11423": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     933,
     1357,
     943,
     1367
   ],
-  "terrain": "indoors",
-  "description": [
-    "This irregularly-shaped chamber is filled with deep shadows, in which can be seen the forms of various rabbits, birds and small reptiles hung up to be stored as food.  The rotting hulk of a slaughtered rolton fills one corner, and the room is littered with sacks, tools, and casks."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Clan Leader's Stores]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11423": 0.2
-  },
-  "id": 11424,
-  "location": "the Hidden Vale",
   "tags": [
     "red trafel mushroom",
     "withered black mushroom",
@@ -39,11 +36,6 @@
     "soft white mushroom",
     "black hook mushroom",
     "cave moss",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bolmara lichen"
   ]
 }

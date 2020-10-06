@@ -1,34 +1,31 @@
 {
+  "id": 1313,
+  "title": [
+    "[Plateau, Flynth River]"
+  ],
+  "description": [
+    "The peak of Zeltoph Mountain is directly to the north, while the plateau stretches southward.  In the distance, Flynth Lake shimmers, reflecting glistening moonlight in the crisp, clear air.",
+    "The peak of Zeltoph Mountain is directly to the north, while the plateau stretches southward.  In the distance, Flynth Lake shimmers, reflecting blinding glints of sunlight in the crisp, clear air."
+  ],
+  "paths": [
+    "Obvious paths: south, northwest"
+  ],
+  "location": "the foothills of Zeltoph",
   "wayto": {
     "1312": "northwest",
     "1314": "south"
   },
-  "paths": [
-    "Obvious paths: south, northwest"
-  ],
+  "timeto": {
+    "1312": 0.2,
+    "1314": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     416,
     505,
     426,
     515
   ],
-  "terrain": "mountainous",
-  "description": [
-    "The peak of Zeltoph Mountain is directly to the north, while the plateau stretches southward.  In the distance, Flynth Lake shimmers, reflecting glistening moonlight in the crisp, clear air.",
-    "The peak of Zeltoph Mountain is directly to the north, while the plateau stretches southward.  In the distance, Flynth Lake shimmers, reflecting blinding glints of sunlight in the crisp, clear air."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Plateau, Flynth River]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1312": 0.2,
-    "1314": 0.2
-  },
-  "id": 1313,
-  "location": "the foothills of Zeltoph",
   "tags": [
     "marallis berry",
     "some wingstem root",
@@ -43,10 +40,6 @@
     "sprig of larkspur",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

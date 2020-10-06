@@ -1,37 +1,31 @@
 {
+  "id": 18345,
+  "title": [
+    "[Cellar]"
+  ],
+  "description": [
+    "Several half-filled sconces sputter and flare, fighting in vain to stay alit.  They shed just enough light to reveal several small alcoves within this ample cellar.  A large sewage grate partially covers an opening leading somewhere below."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Ta'Vaalor",
   "wayto": {
     "18346": "down",
     "17824": "go trapdoor"
   },
-  "paths": [
-    "Obvious exits: down"
-  ],
+  "timeto": {
+    "18346": 0.2,
+    "17824": 0.2
+  },
+  "image": "en-vaalor-rogue-guild.png",
   "image_coords": [
     283,
     297,
     321,
     339
   ],
-  "terrain": null,
-  "description": [
-    "Several half-filled sconces sputter and flare, fighting in vain to stay alit.  They shed just enough light to reveal several small alcoves within this ample cellar.  A large sewage grate partially covers an opening leading somewhere below."
-  ],
-  "image": "en-vaalor-rogue-guild.png",
-  "climate": null,
-  "title": [
-    "[Cellar]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "18346": 0.2,
-    "17824": 0.2
-  },
-  "id": 18345,
-  "location": "Ta'Vaalor",
   "tags": [
     "rogue guild masters"
-  ],
-  "links": [
-
   ]
 }

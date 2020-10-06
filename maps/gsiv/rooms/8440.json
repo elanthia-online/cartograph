@@ -1,35 +1,32 @@
 {
+  "id": 8440,
+  "title": [
+    "[Upper Trollfang, Sentoph]"
+  ],
+  "description": [
+    "The wind has scoured the rock clean on this side of the mountain.  Not a bush nor a tree nor a blade of grass mars the harsh nakedness of the stone.  The wind whips up small pockets of dust, depositing them in your eyes and ears and clothing.  Through the swirling dust, you glimpse a narrow trail cutting its way up the mountainside."
+  ],
+  "paths": [
+    "Obvious paths: north, southeast"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "8439": "north",
     "8441": "southeast",
     "8443": "climb trail"
   },
-  "paths": [
-    "Obvious paths: north, southeast"
-  ],
+  "timeto": {
+    "8439": 0.2,
+    "8441": 0.2,
+    "8443": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     607,
     883,
     617,
     893
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "The wind has scoured the rock clean on this side of the mountain.  Not a bush nor a tree nor a blade of grass mars the harsh nakedness of the stone.  The wind whips up small pockets of dust, depositing them in your eyes and ears and clothing.  Through the swirling dust, you glimpse a narrow trail cutting its way up the mountainside."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Upper Trollfang, Sentoph]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8439": 0.2,
-    "8441": 0.2,
-    "8443": 0.2
-  },
-  "id": 8440,
-  "location": "the Upper Trollfang",
   "tags": [
     "handful of currants",
     "sprig of alyssum",
@@ -44,29 +41,6 @@
     "white clover blossom",
     "some cactacae spine",
     "bright red teaberry",
-    "some murkweed",
-    "cactacae spine",
-    "wild strawberry",
-    "blueberries",
-    "elderberries",
-    "wild grapes",
-    "broken twig",
-    "golden buttercup",
-    "stalk of goldenrod",
-    "yellow primrose",
-    "small wild rose",
-    "sprig of wild lilac",
-    "Imaera's Lace",
-    "wild chokecherry",
-    "murkweed",
-    "blue whortleberry",
-    "pepperthorn root",
-    "ironfern root",
-    "sunburst blossom",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some murkweed"
   ]
 }

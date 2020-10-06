@@ -1,38 +1,28 @@
 {
+  "id": 6719,
+  "title": [
+    "[Upper Dragonsclaw, Dark Tower]"
+  ],
+  "description": [
+    "Cobwebs of immense size hang from the rafters, and a musky smell wafts up from the rotting wood floor.  A charred glaes orb lies in a dark corner, emanating a sickly faint glow.  Entranced by its power, you still hesitate to touch it, feeling a definite evil presence."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "the Upper Dragonsclaw",
   "wayto": {
     "6718": "out",
     "6720": "climb stairs"
   },
-  "paths": [
-    "Obvious exits: out"
-  ],
+  "timeto": {
+    "6718": 0.2,
+    "6720": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     226,
     925,
     236,
     935
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Cobwebs of immense size hang from the rafters, and a musky smell wafts up from the rotting wood floor.  A charred glaes orb lies in a dark corner, emanating a sickly faint glow.  Entranced by its power, you still hesitate to touch it, feeling a definite evil presence."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Upper Dragonsclaw, Dark Tower]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6718": 0.2,
-    "6720": 0.2
-  },
-  "id": 6719,
-  "location": "the Upper Dragonsclaw",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

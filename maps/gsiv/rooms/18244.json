@@ -1,17 +1,5 @@
 {
-  "wayto": {
-    "24768": "west"
-  },
-  "paths": [
-    "Obvious exits: west"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "A snarling troll king mask hangs on one of the knotty pine walls, and a raised fel panel ceiling rises overhead.  A pile of striped throw pillows sits in one corner of a polished oak floor.  There is a jewel-inlaid caddy on one side of the shop and a gilded maple table on the other."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 18244,
   "title": [
     "[Artiminus' Combat Gear]",
     "[Artiminus' Weaponry]",
@@ -20,14 +8,17 @@
     "[Artiminus' Armory]",
     "[Artiminus' General Store]"
   ],
-  "check_location": null,
+  "description": [
+    "A snarling troll king mask hangs on one of the knotty pine walls, and a raised fel panel ceiling rises overhead.  A pile of striped throw pillows sits in one corner of a polished oak floor.  There is a jewel-inlaid caddy on one side of the shop and a gilded maple table on the other."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Wehnimer's Landing",
+  "wayto": {
+    "24768": "west"
+  },
   "timeto": {
     "24768": 0.2
-  },
-  "id": 18244,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  }
 }

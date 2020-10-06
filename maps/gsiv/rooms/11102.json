@@ -1,36 +1,25 @@
 {
-  "wayto": {
-    "11101": "go door"
-  },
+  "id": 11102,
+  "title": [
+    "[Krol Ship, Officer's Cabins]"
+  ],
+  "description": [
+    "This is the cabin of the first officer of the Krolvin ship.  Despite the importance of this position, the ship's design affords him little luxury.  A small desk and a bed are the only items of furniture here, while the walls are adorned with nothing but an empty ornamental sheath, which is firmly attached to the bulkhead."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "wayto": {
+    "11101": "go door"
+  },
+  "timeto": {
+    "11101": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     1188,
     396,
     1198,
     406
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This is the cabin of the first officer of the Krolvin ship.  Despite the importance of this position, the ship's design affords him little luxury.  A small desk and a bed are the only items of furniture here, while the walls are adorned with nothing but an empty ornamental sheath, which is firmly attached to the bulkhead."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "indoors",
-  "title": [
-    "[Krol Ship, Officer's Cabins]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11101": 0.2
-  },
-  "id": 11102,
-  "location": "the Sea Caves",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

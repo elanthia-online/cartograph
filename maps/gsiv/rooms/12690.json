@@ -1,42 +1,32 @@
 {
+  "id": 12690,
+  "title": [
+    "[Ruined Temple, Second Floor]"
+  ],
+  "description": [
+    "The remains of a large mosaic remain inset into sections of the wall, including portions that have deteriorated and fallen to the north, blocking access.  An elaborately carved stone causeway descends to the west, forming a stable path to the balcony below."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east, south"
+  ],
+  "location": "the Ruined Temple",
   "wayto": {
     "12689": "south",
     "12701": "go causeway",
     "12684": "east",
     "12685": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, east, south"
-  ],
-  "image_coords": [
-    878,
-    438,
-    914,
-    474
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The remains of a large mosaic remain inset into sections of the wall, including portions that have deteriorated and fallen to the north, blocking access.  An elaborately carved stone causeway descends to the west, forming a stable path to the balcony below."
-  ],
-  "image": "ti-nelemar-1262373036.png",
-  "climate": "indoors",
-  "title": [
-    "[Ruined Temple, Second Floor]"
-  ],
-  "check_location": null,
   "timeto": {
     "12689": 0.2,
     "12701": 0.2,
     "12684": 0.2,
     "12685": 0.2
   },
-  "id": 12690,
-  "location": "the Ruined Temple",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "ti-nelemar-1262373036.png",
+  "image_coords": [
+    878,
+    438,
+    914,
+    474
   ]
 }

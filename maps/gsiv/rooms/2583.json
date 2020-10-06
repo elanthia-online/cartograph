@@ -1,39 +1,31 @@
 {
-  "wayto": {
-    "2586": "southwest",
-    "2587": "southeast",
-    "12208": {
-      "stringproc": "a0576f0215d746452e7afb93c1ee082c"
-    },
-    "2635": {
-      "stringproc": "01b8924575c8d70e4ed7eea7ed00be84"
-    },
-    "12101": {
-      "stringproc": "cf4b8e5b125b22b01c9349827d02c9fd"
-    },
-    "2582": "east",
-    "2584": "west"
-  },
+  "id": 2583,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "A jagged chasm opens up nearly beneath your feet.  Before you can step into it, a sharp barking sound startles you, catching your attention and bringing you to a halt.  Looking down, you see a small skeletal dog at your feet.  He dances nimbly before you, halting your forward progress into the pit.  Blinking, you look again, and both the dog and the chasm are gone."
+  ],
   "paths": [
     "Obvious exits: east, southeast, southwest, west",
     "Obvious paths: east, southeast, southwest, west"
   ],
-  "image_coords": [
-    186,
-    643,
-    196,
-    653
-  ],
-  "terrain": null,
-  "description": [
-    "A jagged chasm opens up nearly beneath your feet.  Before you can step into it, a sharp barking sound startles you, catching your attention and bringing you to a halt.  Looking down, you see a small skeletal dog at your feet.  He dances nimbly before you, halting your forward progress into the pit.  Blinking, you look again, and both the dog and the chasm are gone."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "2586": "southwest",
+    "2587": "southeast",
+    "12208": {
+      "file": "string_procs/wayto/2583_12208.rb"
+    },
+    "2635": {
+      "file": "string_procs/wayto/2583_2635.rb"
+    },
+    "12101": {
+      "file": "string_procs/wayto/2583_12101.rb"
+    },
+    "2582": "east",
+    "2584": "west"
+  },
   "timeto": {
     "2586": 0.2,
     "2587": 0.2,
@@ -43,8 +35,13 @@
     "2582": 0.2,
     "2584": 0.2
   },
-  "id": 2583,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    186,
+    643,
+    196,
+    653
+  ],
   "tags": [
     "mass of congealed slime",
     "oozing fleshsore bulb",
@@ -53,8 +50,5 @@
     "twisted black mawflower",
     "withered deathblossom",
     "slime-covered grave blossom"
-  ],
-  "links": [
-
   ]
 }

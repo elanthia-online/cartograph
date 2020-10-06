@@ -1,38 +1,28 @@
 {
+  "id": 11671,
+  "title": [
+    "[Oteska's Haven, Armory]"
+  ],
+  "description": [
+    "Empty weapon racks have been torn from the walls.  In the back of the shack are a dust-covered forge and a large, rusty anvil.  Strewn across the wide-planked floor are a few broken stools and an overturned wooden bench.  The smell of mold and dust permeate the wooden building.  A set of crude steps lead up through a small trapdoor in the ceiling."
+  ],
+  "paths": [
+    "Obvious exits: up, out"
+  ],
+  "location": "the Miasmal Forest",
   "wayto": {
     "11670": "out",
     "11672": "up"
   },
-  "paths": [
-    "Obvious exits: up, out"
-  ],
+  "timeto": {
+    "11670": 0.2,
+    "11672": 0.2
+  },
+  "image": "rr-maelstrom-1266390501.png",
   "image_coords": [
     841,
     92,
     851,
     102
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Empty weapon racks have been torn from the walls.  In the back of the shack are a dust-covered forge and a large, rusty anvil.  Strewn across the wide-planked floor are a few broken stools and an overturned wooden bench.  The smell of mold and dust permeate the wooden building.  A set of crude steps lead up through a small trapdoor in the ceiling."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "indoors",
-  "title": [
-    "[Oteska's Haven, Armory]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11670": 0.2,
-    "11672": 0.2
-  },
-  "id": 11671,
-  "location": "the Miasmal Forest",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

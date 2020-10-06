@@ -1,30 +1,21 @@
 {
-  "wayto": {
-    "14119": {
-      "stringproc": "c796b30a73b198772471fae751fef37a"
-    }
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Tall, tightly arranged stacks of crates make walls to three sides, while a curtain keeps anyone from seeing your activity here in this alcove."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 26723,
   "title": [
     "[Warehouse, Alcove]"
   ],
-  "check_location": null,
+  "description": [
+    "Tall, tightly arranged stacks of crates make walls to three sides, while a curtain keeps anyone from seeing your activity here in this alcove."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Solhaven",
+  "wayto": {
+    "14119": {
+      "file": "string_procs/wayto/26723_14119.rb"
+    }
+  },
   "timeto": {
     "14119": 0.2
-  },
-  "id": 26723,
-  "location": "Solhaven",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  }
 }

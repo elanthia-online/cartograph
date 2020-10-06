@@ -1,42 +1,32 @@
 {
+  "id": 2792,
+  "title": [
+    "[Pinefar, Second Floor Hallway]"
+  ],
+  "description": [
+    "The hall runs east and west, flanked with more of the carved doors and carpeted with its coniferously patterned runner.  The door on the left stands facing an alcove where a couple of comfortable chairs sit on either side of a low table."
+  ],
+  "paths": [
+    "Obvious exits: east, south, southwest"
+  ],
+  "location": "the Pinefar Trading Post",
   "wayto": {
     "2794": "east",
     "15604": "go door",
     "2790": "southwest",
     "2793": "south"
   },
-  "paths": [
-    "Obvious exits: east, south, southwest"
-  ],
-  "image_coords": [
-    212,
-    844,
-    222,
-    854
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The hall runs east and west, flanked with more of the carved doors and carpeted with its coniferously patterned runner.  The door on the left stands facing an alcove where a couple of comfortable chairs sit on either side of a low table."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Pinefar, Second Floor Hallway]"
-  ],
-  "check_location": null,
   "timeto": {
     "2794": 0.2,
     "15604": 0.2,
     "2790": 0.2,
     "2793": 0.2
   },
-  "id": 2792,
-  "location": "the Pinefar Trading Post",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "imt-pinefar-1264234799.png",
+  "image_coords": [
+    212,
+    844,
+    222,
+    854
   ]
 }

@@ -1,33 +1,30 @@
 {
+  "id": 3198,
+  "title": [
+    "[Snowflake Vale, Forest]"
+  ],
+  "description": [
+    "Cold mist rises from a wide, reed-fringed pond.  Only the edges of the pond are completely frozen.  A trail leads southwest, accessible only by stepping carefully along the frozen edges of the pond."
+  ],
+  "paths": [
+    "Obvious paths: southeast"
+  ],
+  "location": "the southern snowfields",
   "wayto": {
     "3197": "southeast",
     "3199": "go pond"
   },
-  "paths": [
-    "Obvious paths: southeast"
-  ],
+  "timeto": {
+    "3197": 0.2,
+    "3199": 10.0
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     133,
     1169,
     143,
     1179
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "Cold mist rises from a wide, reed-fringed pond.  Only the edges of the pond are completely frozen.  A trail leads southwest, accessible only by stepping carefully along the frozen edges of the pond."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Snowflake Vale, Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3197": 0.2,
-    "3199": 10.0
-  },
-  "id": 3198,
-  "location": "the southern snowfields",
   "tags": [
     "tkaro root",
     "snow lily",
@@ -35,36 +32,6 @@
     "mountain snowcat",
     "hobgoblin",
     "red winterberry",
-    "rockberry",
-    "sticks",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "iceblossoms",
-    "winter rose",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "handful of pinenuts",
-    "broken twig",
-    "pine cone",
-    "pine needles",
-    "frostweed",
-    "snowberries",
-    "pale thornberry",
-    "tree bark",
-    "frostflower",
-    "crowberry",
-    "lingonberry",
-    "orange rowanberry",
-    "ironfern root",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "rockberry"
   ]
 }

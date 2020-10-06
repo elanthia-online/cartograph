@@ -1,48 +1,45 @@
 {
-  "wayto": {
-    "12504": "go door",
-    "28733": {
-      "stringproc": "6bd32339e88663de9d72323537c82f9c"
-    },
-    "28722": {
-      "stringproc": "0ada30523378a9df3795ddb1bab8943b"
-    },
-    "28725": {
-      "stringproc": "67aff79532554f152bf2988382028bc7"
-    },
-    "28726": {
-      "stringproc": "6b0d06d6f6781ea80c6b684208675a52"
-    },
-    "28730": {
-      "stringproc": "cf5d65b8bea6aed635de5c8cf5c459ec"
-    },
-    "28729": {
-      "stringproc": "202fa7cc0854862045fbc8af61179b10"
-    },
-    "28731": {
-      "stringproc": "e46353d73254560cd4697f07a1f139e4"
-    },
-    "28732": {
-      "stringproc": "1537561216156b571bab2fd1a62e7f84"
-    },
-    "28734": {
-      "stringproc": "0509f3cae4ed28419da9f794bd9be34f"
-    }
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "An immense circular hearth fills the center of the room.  A roast sizzles on a spit over the fire.  The juices drip into the coals, popping and hissing as they land.  Sturdy oak tables are set throughout, surrounded by chairs wide enough for the most ample of patrons.  A pleasant breeze drifts through the open windows set high in the whitewashed wood-and-stone walls."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 12506,
   "title": [
     "[Golden Helm, Hearth Room]"
   ],
-  "check_location": null,
+  "description": [
+    "An immense circular hearth fills the center of the room.  A roast sizzles on a spit over the fire.  The juices drip into the coals, popping and hissing as they land.  Sturdy oak tables are set throughout, surrounded by chairs wide enough for the most ample of patrons.  A pleasant breeze drifts through the open windows set high in the whitewashed wood-and-stone walls."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the town of Kharam-Dzu",
+  "wayto": {
+    "12504": "go door",
+    "28733": {
+      "file": "string_procs/wayto/12506_28733.rb"
+    },
+    "28722": {
+      "file": "string_procs/wayto/12506_28722.rb"
+    },
+    "28725": {
+      "file": "string_procs/wayto/12506_28725.rb"
+    },
+    "28726": {
+      "file": "string_procs/wayto/12506_28726.rb"
+    },
+    "28730": {
+      "file": "string_procs/wayto/12506_28730.rb"
+    },
+    "28729": {
+      "file": "string_procs/wayto/12506_28729.rb"
+    },
+    "28731": {
+      "file": "string_procs/wayto/12506_28731.rb"
+    },
+    "28732": {
+      "file": "string_procs/wayto/12506_28732.rb"
+    },
+    "28734": {
+      "file": "string_procs/wayto/12506_28734.rb"
+    }
+  },
   "timeto": {
     "12504": 0.2,
     "28722": 0.2,
@@ -55,12 +52,7 @@
     "28733": 0.2,
     "28734": 0.2
   },
-  "id": 12506,
-  "location": "the town of Kharam-Dzu",
   "tags": [
     "table"
-  ],
-  "links": [
-
   ]
 }

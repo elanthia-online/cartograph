@@ -1,4 +1,15 @@
 {
+  "id": 7252,
+  "title": [
+    "[Graveyard, Bog]"
+  ],
+  "description": [
+    "Intermittent pools of murky water smear a scummy film over the ground as seepage through the porous humus has made it a shifting, almost liquid mass.  The wet earth here cannot support the tombstones upright.  Tilted at odd angles, or fallen, the markers are now partially submerged or sunken in the mud."
+  ],
+  "paths": [
+    "Obvious paths: east, southeast, south, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7272": "west",
     "7262": "east",
@@ -6,25 +17,6 @@
     "7263": "southeast",
     "7198": "go path"
   },
-  "paths": [
-    "Obvious paths: east, southeast, south, west"
-  ],
-  "image_coords": [
-    209,
-    560,
-    219,
-    570
-  ],
-  "terrain": "grassland",
-  "description": [
-    "Intermittent pools of murky water smear a scummy film over the ground as seepage through the porous humus has made it a shifting, almost liquid mass.  The wet earth here cannot support the tombstones upright.  Tilted at odd angles, or fallen, the markers are now partially submerged or sunken in the mud."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "moist",
-  "title": [
-    "[Graveyard, Bog]"
-  ],
-  "check_location": null,
   "timeto": {
     "7272": 0.2,
     "7262": 0.2,
@@ -32,8 +24,13 @@
     "7263": 0.2,
     "7198": 0.2
   },
-  "id": 7252,
-  "location": "the Graveyard",
+  "image": "wl-graveyard-1264234799.png",
+  "image_coords": [
+    209,
+    560,
+    219,
+    570
+  ],
   "tags": [
     "some acantha leaf",
     "soft white mushroom",
@@ -56,10 +53,6 @@
     "murdroot",
     "wavepetal blossom",
     "nightbloom blossom",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

@@ -1,38 +1,28 @@
 {
+  "id": 9800,
+  "title": [
+    "[Maaghara Labyrinth]"
+  ],
+  "description": [
+    "The root-supported clay walls bulge inward from both sides as if some extreme pressure has built up on the other side.  A bed of translucent lichen rises up from the floor, searching for some sign of light."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast"
+  ],
+  "location": "the Maaghara Tower",
   "wayto": {
     "9801": "northeast",
     "9799": "southeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southeast"
-  ],
+  "timeto": {
+    "9801": 0.2,
+    "9799": 0.2
+  },
+  "image": "en-tower-1264234799.png",
   "image_coords": [
     1069,
     570,
     1079,
     580
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The root-supported clay walls bulge inward from both sides as if some extreme pressure has built up on the other side.  A bed of translucent lichen rises up from the floor, searching for some sign of light."
-  ],
-  "image": "en-tower-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Maaghara Labyrinth]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9801": 0.2,
-    "9799": 0.2
-  },
-  "id": 9800,
-  "location": "the Maaghara Tower",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

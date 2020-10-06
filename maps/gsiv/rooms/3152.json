@@ -1,35 +1,32 @@
 {
+  "id": 3152,
+  "title": [
+    "[Abandoned Farm, Orchard]"
+  ],
+  "description": [
+    "A brutally slick slope leads north, nothing more than a sheer ramp of ice leading downward.  Several trees ring the area, no longer bearing fruit, but still sprouting frozen, sparse leaves from their gnarled branches."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, southeast"
+  ],
+  "location": "the Abandoned Farm",
   "wayto": {
     "3134": "northeast",
     "3126": "north",
     "3151": "southeast"
   },
-  "paths": [
-    "Obvious paths: north, northeast, southeast"
-  ],
+  "timeto": {
+    "3134": 0.2,
+    "3126": 0.2,
+    "3151": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     918,
     812,
     928,
     822
   ],
-  "terrain": "cultivated",
-  "description": [
-    "A brutally slick slope leads north, nothing more than a sheer ramp of ice leading downward.  Several trees ring the area, no longer bearing fruit, but still sprouting frozen, sparse leaves from their gnarled branches."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Abandoned Farm, Orchard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3134": 0.2,
-    "3126": 0.2,
-    "3151": 0.2
-  },
-  "id": 3152,
-  "location": "the Abandoned Farm",
   "tags": [
     "snow pansy",
     "some valerian root",
@@ -38,14 +35,6 @@
     "moonflower",
     "winter rose",
     "sweetfern stalk",
-    "ice tulip",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "frostflower",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ice tulip"
   ]
 }

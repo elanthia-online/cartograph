@@ -1,44 +1,35 @@
 {
-  "wayto": {
-    "10441": "go gate",
-    "3519": "south",
-    "26018": {
-      "stringproc": "1fe8d99b0e0c7315bf4a9593b1c21a86"
-    }
-  },
-  "paths": [
-    "Obvious paths: south"
+  "id": 3520,
+  "title": [
+    "[Ta'Vaalor, Victory Wey]"
   ],
-  "image_coords": [
-    924,
-    778,
-    961,
-    815
-  ],
-  "terrain": null,
   "description": [
     "The turrets and crennelated walls of Guardian Keep tower above the city.  Fashioned of pale ivory stone, the ancestral home of House Vaalor is a deceptively lovely stronghold.  Glittering red and gold pennants flutter atop the crimson tiled rooftops.  Several city guardsmen stand in the center of the wey, blocking any progress into the Keep's inner courtyard.",
     "The turrets and crennelated walls of Guardian Keep tower above the city.  Fashioned of pale ivory stone, the ancestral home of House Vaalor is a deceptively lovely stronghold.  Glittering red and gold pennants flutter atop the crimson-tiled rooftops.  Several city guardsmen stand in the center of the wey, studying everyone that passes through the gate into the Keep's outer bailey.",
     "The turrets and crennelated walls of Guardian Keep tower above the city.  Fashioned of pale ivory stone, the ancestral home of House Vaalor is an imposing stronghold.  Glittering red and gold pennants flutter atop the crimson-tiled rooftops.  Several city guardsmen stand in the center of the wey, studying everyone that passes through the gate into the Keep's outer bailey.",
     "The turrets and crenellated walls of Guardian Keep tower above the city.  Fashioned of pale ivory stone, the ancestral home of House Vaalor is an imposing stronghold.  Glittering red and gold pennants flutter atop the crimson-tiled rooftops.  Several city guardsmen stand in the center of the wey, studying everyone that passes through the gate into the Keep's outer bailey."
   ],
-  "image": "en-tavaalor-1565907614.png",
-  "climate": null,
-  "title": [
-    "[Ta'Vaalor, Victory Wey]"
+  "paths": [
+    "Obvious paths: south"
   ],
-  "check_location": null,
+  "location": "the city of Ta'Vaalor",
+  "wayto": {
+    "10441": "go gate",
+    "3519": "south",
+    "26018": {
+      "file": "string_procs/wayto/3520_26018.rb"
+    }
+  },
   "timeto": {
     "10441": 0.2,
     "3519": 0.2,
     "26018": 5.0
   },
-  "id": 3520,
-  "location": "the city of Ta'Vaalor",
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "en-tavaalor-1565907614.png",
+  "image_coords": [
+    924,
+    778,
+    961,
+    815
   ]
 }

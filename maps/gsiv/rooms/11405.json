@@ -1,38 +1,31 @@
 {
+  "id": 11405,
+  "title": [
+    "[Cavern, Waterfall]"
+  ],
+  "description": [
+    "The ceiling of the natural chamber rises high above your head.  The north wall forms a steep slope, smoothed by the wide cascade of water that flows down its surface and disappears into an underground stream.  Looking up, you can see a space of light near the top of the wall where the fall originates."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the Hidden Vale",
   "wayto": {
     "11404": "south",
     "11406": "climb ledge"
   },
-  "paths": [
-    "Obvious exits: south"
-  ],
+  "timeto": {
+    "11404": 0.2,
+    "11406": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     747,
     1389,
     757,
     1399
   ],
-  "terrain": "indoors",
-  "description": [
-    "The ceiling of the natural chamber rises high above your head.  The north wall forms a steep slope, smoothed by the wide cascade of water that flows down its surface and disappears into an underground stream.  Looking up, you can see a space of light near the top of the wall where the fall originates."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Cavern, Waterfall]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11404": 0.2,
-    "11406": 0.2
-  },
-  "id": 11405,
-  "location": "the Hidden Vale",
   "tags": [
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

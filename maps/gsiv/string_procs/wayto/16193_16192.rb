@@ -1,1 +1,2 @@
-multifput('search','push block');move 'go opening'
+multifput('search','push block')
+move 'go opening'

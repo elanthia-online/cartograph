@@ -1,67 +1,37 @@
 {
+  "id": 7891,
+  "title": [
+    "[Upper Trollfang, Winding Trees]"
+  ],
+  "description": [
+    "Moonlight shines though the dense branches from above, striking the ground around you.  The columns of pale light seem to form their own tiny forest within the larger forest of trees.",
+    "Light shines though the dense branches from above, striking the ground around you.  The bright columns of golden light seem to form their own tiny forest within the larger forest of trees."
+  ],
+  "paths": [
+    "Obvious paths: southeast, northwest"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "7890": "northwest",
     "7892": "southeast",
     "7893": "go footpath"
   },
-  "paths": [
-    "Obvious paths: southeast, northwest"
-  ],
+  "timeto": {
+    "7890": 0.2,
+    "7892": 0.2,
+    "7893": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     1056,
     1008,
     1066,
     1018
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "Moonlight shines though the dense branches from above, striking the ground around you.  The columns of pale light seem to form their own tiny forest within the larger forest of trees.",
-    "Light shines though the dense branches from above, striking the ground around you.  The bright columns of golden light seem to form their own tiny forest within the larger forest of trees."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Upper Trollfang, Winding Trees]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7890": 0.2,
-    "7892": 0.2,
-    "7893": 0.2
-  },
-  "id": 7891,
-  "location": "the Upper Trollfang",
   "tags": [
     "wild pink geranium",
     "some pennyroyal stem",
     "bright red teaberry",
-    "bright red cranberry",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "tkaro root",
-    "sticks",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "white hook mushroom",
-    "wintergreen leaf",
-    "broken twig",
-    "stalk of bluebells",
-    "tree bark",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bright red cranberry"
   ]
 }

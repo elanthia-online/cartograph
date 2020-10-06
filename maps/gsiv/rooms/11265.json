@@ -1,31 +1,28 @@
 {
-  "wayto": {
-    "11264": "n"
-  },
+  "id": 11265,
+  "title": [
+    "[Citadel, Outside]"
+  ],
+  "description": [
+    "The path comes to a dead end here, leaving little to see aside from a blackened portion of the citadel wall.  For some strange reason the mist in the air pulls away from it, as if some unseen force prevents it from touching the wall."
+  ],
   "paths": [
     "Obvious paths: north"
   ],
+  "location": "the Citadel",
+  "wayto": {
+    "11264": "n"
+  },
+  "timeto": {
+    "11264": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     360,
     770,
     370,
     780
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The path comes to a dead end here, leaving little to see aside from a blackened portion of the citadel wall.  For some strange reason the mist in the air pulls away from it, as if some unseen force prevents it from touching the wall."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "moist",
-  "title": [
-    "[Citadel, Outside]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11264": 0.2
-  },
-  "id": 11265,
-  "location": "the Citadel",
   "tags": [
     "some aloeas stem",
     "bright red cranberry",
@@ -37,17 +34,6 @@
     "some wingstem root",
     "some calamia fruit",
     "wild chokecherry",
-    "some motherwort",
-    "acantha leaf",
-    "calamia fruit",
-    "aloeas stem",
-    "motherwort",
-    "murkweed",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some motherwort"
   ]
 }

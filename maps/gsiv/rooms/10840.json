@@ -1,4 +1,15 @@
 {
+  "id": 10840,
+  "title": [
+    "[River's Rest, River Road]"
+  ],
+  "description": [
+    "As safe as a gate, the river runs swiftly east to west, secure against intrusion when the well-built drawbridge to the mainland is raised.  Along the riverfront, comfortable benches are interspersed with odd three sided structures, large enough to hold a giant man comfortably, but their use not readily apparent.  A fresh breeze carries the sounds of a nearby marketplace from the east, and an occasional hint of roasting meat from somewhere to the north."
+  ],
+  "paths": [
+    "Obvious paths: north, east, west"
+  ],
+  "location": "the town of River's Rest",
   "wayto": {
     "10838": "go weeds",
     "10852": "north",
@@ -6,25 +17,6 @@
     "10841": "west",
     "10846": "east"
   },
-  "paths": [
-    "Obvious paths: north, east, west"
-  ],
-  "image_coords": [
-    486,
-    673,
-    522,
-    709
-  ],
-  "terrain": "plain dirt",
-  "description": [
-    "As safe as a gate, the river runs swiftly east to west, secure against intrusion when the well-built drawbridge to the mainland is raised.  Along the riverfront, comfortable benches are interspersed with odd three sided structures, large enough to hold a giant man comfortably, but their use not readily apparent.  A fresh breeze carries the sounds of a nearby marketplace from the east, and an occasional hint of roasting meat from somewhere to the north."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "temperate",
-  "title": [
-    "[River's Rest, River Road]"
-  ],
-  "check_location": null,
   "timeto": {
     "10838": 0.2,
     "10852": 0.2,
@@ -32,8 +24,13 @@
     "10841": 0.2,
     "10846": 0.2
   },
-  "id": 10840,
-  "location": "the town of River's Rest",
+  "image": "rr-rivers_rest-1266350289.png",
+  "image_coords": [
+    486,
+    673,
+    522,
+    709
+  ],
   "tags": [
     "some sovyn clove",
     "some acantha leaf",
@@ -58,22 +55,6 @@
     "some angelica root",
     "wild chokecherry",
     "withered black mushroom",
-    "alchemy sea water",
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "small flower",
-    "angelica root",
-    "small wild rose",
-    "motherwort",
-    "sagebrush root",
-    "murkweed",
-    "mistweed",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "alchemy sea water"
   ]
 }

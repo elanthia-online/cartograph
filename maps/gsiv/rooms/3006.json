@@ -1,35 +1,32 @@
 {
+  "id": 3006,
+  "title": [
+    "[Arctic Tundra, High Plain]"
+  ],
+  "description": [
+    "Life on the tundra is a constant struggle against the elements, leaving it barren except for the few plants hardy enough to survive.  Tiny yellow flowers struggle up between the rocks, reaching for any glimmer of light."
+  ],
+  "paths": [
+    "Obvious paths: east, southeast, northwest"
+  ],
+  "location": "the High Plains",
   "wayto": {
     "3004": "southeast",
     "3005": "east",
     "3007": "northwest"
   },
-  "paths": [
-    "Obvious paths: east, southeast, northwest"
-  ],
+  "timeto": {
+    "3004": 0.2,
+    "3005": 0.2,
+    "3007": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     299,
     951,
     309,
     961
   ],
-  "terrain": "mountainous",
-  "description": [
-    "Life on the tundra is a constant struggle against the elements, leaving it barren except for the few plants hardy enough to survive.  Tiny yellow flowers struggle up between the rocks, reaching for any glimmer of light."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Arctic Tundra, High Plain]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3004": 0.2,
-    "3005": 0.2,
-    "3007": 0.2
-  },
-  "id": 3006,
-  "location": "the High Plains",
   "tags": [
     "winter rose",
     "small loganberry",
@@ -44,13 +41,6 @@
     "pale thornberry",
     "valerian root",
     "snowberries",
-    "ironfern root",
-    "angelica root",
-    "pennyroyal stem",
-    "arctic moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

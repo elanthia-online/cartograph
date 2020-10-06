@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "11252": "west"
-  },
+  "id": 11253,
+  "title": [
+    "[Infirmary, Metalworks]"
+  ],
+  "description": [
+    "There is barely enough room to move around between the sturdy steel-topped workbench and the tall oaken table.  The floor is strewn with metal shavings and sharp metal slivers.  Oil lamps hang low over the workbench and tables."
+  ],
   "paths": [
     "Obvious exits: west"
   ],
+  "location": "the Citadel",
+  "wayto": {
+    "11252": "west"
+  },
+  "timeto": {
+    "11252": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     63,
     492,
     73,
     502
-  ],
-  "terrain": "indoors",
-  "description": [
-    "There is barely enough room to move around between the sturdy steel-topped workbench and the tall oaken table.  The floor is strewn with metal shavings and sharp metal slivers.  Oil lamps hang low over the workbench and tables."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Infirmary, Metalworks]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11252": 0.2
-  },
-  "id": 11253,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

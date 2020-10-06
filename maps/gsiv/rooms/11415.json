@@ -1,33 +1,30 @@
 {
+  "id": 11415,
+  "title": [
+    "[Troll Lair, Entrance Hall]"
+  ],
+  "description": [
+    "The passage continues dropping slightly as it runs east.  Moss and lichens grow thick on the walls and in patches on the ceiling.  The lichens are glowing slightly giving an eerie aura to everything here.  Your stomach turns at the reek in the air."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Hidden Vale",
   "wayto": {
     "11414": "west",
     "11416": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "11414": 0.2,
+    "11416": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     833,
     1385,
     843,
     1395
   ],
-  "terrain": "indoors",
-  "description": [
-    "The passage continues dropping slightly as it runs east.  Moss and lichens grow thick on the walls and in patches on the ceiling.  The lichens are glowing slightly giving an eerie aura to everything here.  Your stomach turns at the reek in the air."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Troll Lair, Entrance Hall]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11414": 0.2,
-    "11416": 0.2
-  },
-  "id": 11415,
-  "location": "the Hidden Vale",
   "tags": [
     "withered black mushroom",
     "some wingstem root",
@@ -41,11 +38,6 @@
     "soft white mushroom",
     "black hook mushroom",
     "cave moss",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bolmara lichen"
   ]
 }

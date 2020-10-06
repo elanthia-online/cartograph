@@ -1,33 +1,30 @@
 {
+  "id": 8573,
+  "title": [
+    "[Secluded Valley]"
+  ],
+  "description": [
+    "You have reached the end of this little valley.  The high stone walls that tower above you are quite unclimbable and very flat, almost as if unknown hands had carved them in this way to prevent an easy ascent."
+  ],
+  "paths": [
+    "Obvious paths: southwest, northwest"
+  ],
+  "location": "the foothills of Zeltoph",
   "wayto": {
     "8572": "southwest",
     "8574": "northwest"
   },
-  "paths": [
-    "Obvious paths: southwest, northwest"
-  ],
+  "timeto": {
+    "8572": 0.2,
+    "8574": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     1319,
     950,
     1329,
     960
   ],
-  "terrain": "mountainous",
-  "description": [
-    "You have reached the end of this little valley.  The high stone walls that tower above you are quite unclimbable and very flat, almost as if unknown hands had carved them in this way to prevent an easy ascent."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Secluded Valley]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8572": 0.2,
-    "8574": 0.2
-  },
-  "id": 8573,
-  "location": "the foothills of Zeltoph",
   "tags": [
     "marallis berry",
     "cuctucae berry",
@@ -41,11 +38,6 @@
     "sprig of larkspur",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "sunburst blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

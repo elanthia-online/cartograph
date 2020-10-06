@@ -1,40 +1,30 @@
 {
+  "id": 11729,
+  "title": [
+    "[Marsh Keep, Dungeon Hallway]"
+  ],
+  "description": [
+    "Hissing and sputtering comes from a torch, while flaming bits of its meager fuel drip to the ground, where they immediately are extinguished in a puddle of water.  Beside the torch is an iron door which hangs from a broken hinge, allowing barely enough space for passage into the cell beyond.  The skeletal remains of a hand, stained yellow and covered with dust and cobwebs, lies nearby."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "the Marsh Keep",
   "wayto": {
     "11728": "east",
     "11730": "go door",
     "11731": "south"
   },
-  "paths": [
-    "Obvious exits: east, south"
-  ],
-  "image_coords": [
-    473,
-    401,
-    483,
-    411
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Hissing and sputtering comes from a torch, while flaming bits of its meager fuel drip to the ground, where they immediately are extinguished in a puddle of water.  Beside the torch is an iron door which hangs from a broken hinge, allowing barely enough space for passage into the cell beyond.  The skeletal remains of a hand, stained yellow and covered with dust and cobwebs, lies nearby."
-  ],
-  "image": "rr-marsh_keep-1266356986.png",
-  "climate": "indoors",
-  "title": [
-    "[Marsh Keep, Dungeon Hallway]"
-  ],
-  "check_location": null,
   "timeto": {
     "11728": 0.2,
     "11730": 0.2,
     "11731": 0.2
   },
-  "id": 11729,
-  "location": "the Marsh Keep",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-marsh_keep-1266356986.png",
+  "image_coords": [
+    473,
+    401,
+    483,
+    411
   ]
 }

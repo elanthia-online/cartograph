@@ -1,34 +1,31 @@
 {
+  "id": 762,
+  "title": [
+    "[Whistler's Pass, Grassy Field]"
+  ],
+  "description": [
+    "A layer of heavy mist floats above the grass, sparkling in the moonlight.  The mist tumbles away from travellers in the area.  The distant cry of a bird of prey announces the beginning of a hunt.",
+    "A layer of heavy mist floats above the grass, sparkling in the sunlight.  The mist tumbles away from travellers in the area.  The distant cry of a bird of prey announces the beginning of a hunt."
+  ],
+  "paths": [
+    "Obvious paths: north, southwest"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "761": "north",
     "763": "southwest"
   },
-  "paths": [
-    "Obvious paths: north, southwest"
-  ],
+  "timeto": {
+    "761": 0.2,
+    "763": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     560,
     830,
     570,
     840
   ],
-  "terrain": "mountainous",
-  "description": [
-    "A layer of heavy mist floats above the grass, sparkling in the moonlight.  The mist tumbles away from travellers in the area.  The distant cry of a bird of prey announces the beginning of a hunt.",
-    "A layer of heavy mist floats above the grass, sparkling in the sunlight.  The mist tumbles away from travellers in the area.  The distant cry of a bird of prey announces the beginning of a hunt."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Whistler's Pass, Grassy Field]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "761": 0.2,
-    "763": 0.2
-  },
-  "id": 762,
-  "location": "Whistler's Pass",
   "tags": [
     "angelica root",
     "stalk of bluebells",
@@ -49,11 +46,6 @@
     "pepperthorn root",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "mountain dryad",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

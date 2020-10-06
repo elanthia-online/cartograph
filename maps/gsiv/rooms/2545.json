@@ -1,43 +1,33 @@
 {
-  "wayto": {
-    "2544": {
-      "stringproc": "2b4af1354e22d2a4bbc0aa605e096470"
-    },
-    "2546": {
-      "stringproc": "3157bbb118c54a6236859635e57fcbb9"
-    }
-  },
+  "id": 2545,
+  "title": [
+    "[Glatoph, Icy Passage]"
+  ],
+  "description": [
+    "Small openings in the ceiling allow rays of light to shine in, illuminating the trail beneath you.  Being careful not to slip on the icy floor, you look down through thin ice and see what you can only assume to be the river, moving under your feet.",
+    "Small openings in the ceiling allow rays of moonlight to shine in, illuminating the trail beneath you.  Being careful not to slip on the icy floor, you look down through thin ice and see what you can only assume to be the river, moving under your feet."
+  ],
   "paths": [
     "Obvious exits: north, southwest"
   ],
+  "location": "the Icemule Trail",
+  "wayto": {
+    "2544": {
+      "file": "string_procs/wayto/2545_2544.rb"
+    },
+    "2546": {
+      "file": "string_procs/wayto/2545_2546.rb"
+    }
+  },
+  "timeto": {
+    "2544": 0.2,
+    "2546": 0.2
+  },
+  "image": "imt-trail-1264234799.png",
   "image_coords": [
     782,
     679,
     792,
     689
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Small openings in the ceiling allow rays of light to shine in, illuminating the trail beneath you.  Being careful not to slip on the icy floor, you look down through thin ice and see what you can only assume to be the river, moving under your feet.",
-    "Small openings in the ceiling allow rays of moonlight to shine in, illuminating the trail beneath you.  Being careful not to slip on the icy floor, you look down through thin ice and see what you can only assume to be the river, moving under your feet."
-  ],
-  "image": "imt-trail-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Glatoph, Icy Passage]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2544": 0.2,
-    "2546": 0.2
-  },
-  "id": 2545,
-  "location": "the Icemule Trail",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

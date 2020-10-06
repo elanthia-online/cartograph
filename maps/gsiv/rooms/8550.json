@@ -1,40 +1,30 @@
 {
-  "wayto": {
-    "8549": {
-      "stringproc": "5a00abf0aba49ca5cb2ff4b344beccc3"
-    },
-    "8551": "south"
-  },
+  "id": 8550,
+  "title": [
+    "[Rubble Pile]"
+  ],
+  "description": [
+    "You are standing on the northern edge of the huge rubble pile.  It is much wider up here than you expected and you can easily travel several yards to the south with little difficulty.  To reach the floor of the narrow canyon to the north, you'll have to climb down the rubble pile."
+  ],
   "paths": [
     "Obvious paths: south"
   ],
+  "location": "the foothills of Zeltoph",
+  "wayto": {
+    "8549": {
+      "file": "string_procs/wayto/8550_8549.rb"
+    },
+    "8551": "south"
+  },
+  "timeto": {
+    "8549": 5.2,
+    "8551": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     1266,
     621,
     1276,
     631
-  ],
-  "terrain": "missing",
-  "description": [
-    "You are standing on the northern edge of the huge rubble pile.  It is much wider up here than you expected and you can easily travel several yards to the south with little difficulty.  To reach the floor of the narrow canyon to the north, you'll have to climb down the rubble pile."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "missing",
-  "title": [
-    "[Rubble Pile]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8549": 5.2,
-    "8551": 0.2
-  },
-  "id": 8550,
-  "location": "the foothills of Zeltoph",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

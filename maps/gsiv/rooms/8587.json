@@ -1,43 +1,36 @@
 {
+  "id": 8587,
+  "title": [
+    "[Field, Exterior]"
+  ],
+  "description": [
+    "You are due west of the castle and the path runs right along the sharp drop-off of the moat.  You take care not to slide down into the water, as the bank has been eroded or dug away here.  It almost looks like something was clawing at the earth from the water below.  From such close range, the stagnant water looks murky and venomous.  The dark tower in the southwest corner of the castle lies southeast.  The curves of the keep loom northeast."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "8593": "go moat",
     "8586": "north",
     "8588": "south"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "8593": 15.0,
+    "8586": 0.2,
+    "8588": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     1114,
     190,
     1124,
     200
   ],
-  "terrain": null,
-  "description": [
-    "You are due west of the castle and the path runs right along the sharp drop-off of the moat.  You take care not to slide down into the water, as the bank has been eroded or dug away here.  It almost looks like something was clawing at the earth from the water below.  From such close range, the stagnant water looks murky and venomous.  The dark tower in the southwest corner of the castle lies southeast.  The curves of the keep loom northeast."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Field, Exterior]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8593": 15.0,
-    "8586": 0.2,
-    "8588": 0.2
-  },
-  "id": 8587,
-  "location": "the Upper Trollfang",
   "tags": [
     "small flower",
     "small daisy",
     "spearmint leaf",
-    "some sovyn clove",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some sovyn clove"
   ]
 }

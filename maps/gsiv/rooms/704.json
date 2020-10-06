@@ -1,41 +1,31 @@
 {
-  "wayto": {
-    "13325": "go gate",
-    "703": "south"
-  },
-  "paths": [
-    "Obvious paths: south"
+  "id": 704,
+  "title": [
+    "[Ta'Illistim, Sylvar Wey]"
   ],
-  "image_coords": [
-    1258,
-    155,
-    1280,
-    178
-  ],
-  "terrain": "hard, flat",
   "description": [
     "The wey ends at a broad wrought iron gate framed with large arbor bearing a mature lavender climbing rose.  A small plaque is mounted on the fence next to the gate.  Twin lanterns stand sentinel on either side of the gate, keeping the darkness at bay within their small spheres of glowing amber.",
     "The wey ends at a broad wrought iron gate framed with large arbor bearing a mature lavender climbing rose.  A small plaque is mounted on the fence next to the gate.",
     "The wey ends at a broad wrought iron gate.  Mature white climbing roses twine around and through the metal slats, largely obscuring them from view.  A small plaque is mounted on the fence next to the gate.  Twin lanterns stand sentinel on either side of the gate, keeping the darkness at bay within their small spheres of glowing blue.",
     "The wey ends at a broad wrought iron gate.  Mature white climbing roses twine around and through the metal slats, largely obscuring them from view.  A small plaque is mounted on the fence next to the gate."
   ],
-  "image": "en-ta_illistim-new.jpg",
-  "climate": "temperate",
-  "title": [
-    "[Ta'Illistim, Sylvar Wey]"
+  "paths": [
+    "Obvious paths: south"
   ],
-  "check_location": null,
+  "location": "Ta'Illistim",
+  "wayto": {
+    "13325": "go gate",
+    "703": "south"
+  },
   "timeto": {
     "13325": 0.2,
     "703": 0.2
   },
-  "id": 704,
-  "location": "Ta'Illistim",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-ta_illistim-new.jpg",
+  "image_coords": [
+    1258,
+    155,
+    1280,
+    178
   ]
 }

@@ -1,37 +1,25 @@
 {
-  "wayto": {
-    "23171": "southwest",
-    "23173": {
-      "stringproc": "88db04c5491c4f0175dab395539ecf2f"
-    },
-    "23166": "southeast"
-  },
-  "paths": [
-    "Obvious paths: southeast, southwest, out"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "The carousel shudders from time to time, no more than the slight shiver of a slow gear or a momentary kink in the mechanics that twirl the massive ride ever onward.  Old carnival posters are stuck to the wooden floor between the slowly bobbing wooden carousel creatures, as well as the center column, their corners ripped and folded, some damaged beyond usefulness.  The glass globes on the lights overhead tink together occasionally, and the sound they create fits right in with the haunting melody of the carousel."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 23165,
   "title": [
     "[Halfway Midway, Carousel]"
   ],
-  "check_location": null,
+  "description": [
+    "The carousel shudders from time to time, no more than the slight shiver of a slow gear or a momentary kink in the mechanics that twirl the massive ride ever onward.  Old carnival posters are stuck to the wooden floor between the slowly bobbing wooden carousel creatures, as well as the center column, their corners ripped and folded, some damaged beyond usefulness.  The glass globes on the lights overhead tink together occasionally, and the sound they create fits right in with the haunting melody of the carousel."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest, out"
+  ],
+  "location": "the Feywrot Mire",
+  "wayto": {
+    "23171": "southwest",
+    "23173": {
+      "file": "string_procs/wayto/23165_23173.rb"
+    },
+    "23166": "southeast"
+  },
   "timeto": {
     "23171": 0.2,
     "23173": 0.2,
     "23166": 0.2
-  },
-  "id": 23165,
-  "location": "the Feywrot Mire",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
-  ]
+  }
 }

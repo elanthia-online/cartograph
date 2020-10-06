@@ -1,35 +1,28 @@
 {
+  "id": 26336,
+  "title": [
+    "[Barracks, Darkness]"
+  ],
+  "description": [
+    "The room is full of darkness, making it impossible to see."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast"
+  ],
+  "location": "Talador",
   "wayto": {
     "26337": "southeast",
     "26335": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southeast"
-  ],
+  "timeto": {
+    "26337": 0.2,
+    "26335": 0.2
+  },
+  "image": "wl-lichs_landing-1500800742.png",
   "image_coords": [
     1112,
     246,
     1138,
     272
-  ],
-  "terrain": null,
-  "description": [
-    "The room is full of darkness, making it impossible to see."
-  ],
-  "image": "wl-lichs_landing-1500800742.png",
-  "climate": null,
-  "title": [
-    "[Barracks, Darkness]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26337": 0.2,
-    "26335": 0.2
-  },
-  "id": 26336,
-  "location": "Talador",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

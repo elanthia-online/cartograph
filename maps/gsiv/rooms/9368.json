@@ -1,38 +1,31 @@
 {
+  "id": 9368,
+  "title": [
+    "[Lower Caves]"
+  ],
+  "description": [
+    "The faint sound of sobbing seems to echo from all directions in a disconcerting way.  It is occasionally interrupted by deep male chuckles, though there is something as cold and chilling about the sound as there is about the air in the cave."
+  ],
+  "paths": [
+    "Obvious exits: north, southwest"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "9367": "southwest",
     "9369": "north"
   },
-  "paths": [
-    "Obvious exits: north, southwest"
-  ],
+  "timeto": {
+    "9367": 0.2,
+    "9369": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     1060,
     141,
     1072,
     153
   ],
-  "terrain": "indoors",
-  "description": [
-    "The faint sound of sobbing seems to echo from all directions in a disconcerting way.  It is occasionally interrupted by deep male chuckles, though there is something as cold and chilling about the sound as there is about the air in the cave."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Lower Caves]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9367": 0.2,
-    "9369": 0.2
-  },
-  "id": 9368,
-  "location": "the Cairnfang",
   "tags": [
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

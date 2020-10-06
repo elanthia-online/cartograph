@@ -1,37 +1,30 @@
 {
+  "id": 26300,
+  "title": [
+    "[Lich Citadel, Outer Chamber]"
+  ],
+  "description": [
+    "The faint, saddening tune of a flute drifts through the chamber.  Shadows dance along the wall, as if responding to the melody.  Set into the side of a wall is a pair of looming black ora doors."
+  ],
+  "paths": [
+    "Obvious exits: east, northwest"
+  ],
+  "location": "Talador",
   "wayto": {
     "26301": "go doors",
     "26302": "northwest",
     "26299": "east"
   },
-  "paths": [
-    "Obvious exits: east, northwest"
-  ],
-  "image_coords": [
-    1292,
-    677,
-    1317,
-    703
-  ],
-  "terrain": null,
-  "description": [
-    "The faint, saddening tune of a flute drifts through the chamber.  Shadows dance along the wall, as if responding to the melody.  Set into the side of a wall is a pair of looming black ora doors."
-  ],
-  "image": "wl-lichs_landing-1500800742.png",
-  "climate": null,
-  "title": [
-    "[Lich Citadel, Outer Chamber]"
-  ],
-  "check_location": null,
   "timeto": {
     "26301": 0.2,
     "26302": 0.2,
     "26299": 0.2
   },
-  "id": 26300,
-  "location": "Talador",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  "image": "wl-lichs_landing-1500800742.png",
+  "image_coords": [
+    1292,
+    677,
+    1317,
+    703
+  ]
 }

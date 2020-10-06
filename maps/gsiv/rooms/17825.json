@@ -1,41 +1,32 @@
 {
-  "wayto": {
-    "17826": "east",
-    "10434": {
-      "stringproc": "5e7d77b9f1504d25414a2c6a30ad3bf1"
-    },
-    "17811": "west"
-  },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
-  "image_coords": [
-    1015,
-    633,
-    1055,
-    673
-  ],
-  "terrain": null,
-  "description": [
-    "A few shattered crates and empty barrels are the only thing of note here, all of them empty and discarded.  A horrible attempt to mimic a birdcall can be heard coming from above."
-  ],
-  "image": "en-vaalor-rogue-guild.png",
-  "climate": null,
+  "id": 17825,
   "title": [
     "[Alley]"
   ],
-  "check_location": null,
+  "description": [
+    "A few shattered crates and empty barrels are the only thing of note here, all of them empty and discarded.  A horrible attempt to mimic a birdcall can be heard coming from above."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Ta'Vaalor",
+  "wayto": {
+    "17826": "east",
+    "10434": {
+      "file": "string_procs/wayto/17825_10434.rb"
+    },
+    "17811": "west"
+  },
   "timeto": {
     "17826": 0.2,
     "10434": 3.2,
     "17811": 0.2
   },
-  "id": 17825,
-  "location": "Ta'Vaalor",
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "en-vaalor-rogue-guild.png",
+  "image_coords": [
+    1015,
+    633,
+    1055,
+    673
   ]
 }

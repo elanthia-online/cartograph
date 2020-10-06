@@ -1,33 +1,29 @@
 {
+  "id": 11689,
+  "title": [
+    "[Millah's Fen, Stream Bank]"
+  ],
+  "description": [
+    "The remnants of a cobbled stone road emerge from a wide stream and climb over the bank in the direction of a rocky hill.  The hill stands tall and alone, its rock-strewn sides covered in moss and patches of brown grass, rising out of the patchy fog, oblivious to the surrounding flat fens and marshes.  Pale, gnarled sycamores bend over the stream and surround the area with moss-draped ghostly white forms."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
   "wayto": {
     "11688": "go stream",
     "16214": "climb hill"
   },
-  "paths": [
-    "Obvious paths: none"
-  ],
+  "timeto": {
+    "11688": 0.2,
+    "16214": 0.2
+  },
+  "image": "rr-marsh_keep-1266356986.png",
   "image_coords": [
     277,
     807,
     287,
     817
   ],
-  "terrain": "riparian",
-  "description": [
-    "The remnants of a cobbled stone road emerge from a wide stream and climb over the bank in the direction of a rocky hill.  The hill stands tall and alone, its rock-strewn sides covered in moss and patches of brown grass, rising out of the patchy fog, oblivious to the surrounding flat fens and marshes.  Pale, gnarled sycamores bend over the stream and surround the area with moss-draped ghostly white forms."
-  ],
-  "image": "rr-marsh_keep-1266356986.png",
-  "climate": "moist",
-  "title": [
-    "[Millah's Fen, Stream Bank]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11688": 0.2,
-    "16214": 0.2
-  },
-  "id": 11689,
-  "location": "the Marsh Keep",
   "tags": [
     "water chestnut",
     "some talneo root",
@@ -41,18 +37,6 @@
     "striped heart mushroom",
     "some calamia fruit",
     "stalk of cattail",
-    "blue trafel mushroom",
-    "acantha leaf",
-    "calamia fruit",
-    "aloeas stem",
-    "soft white mushroom",
-    "daggerstalk mushroom",
-    "murdroot",
-    "wavepetal blossom",
-    "talneo root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "blue trafel mushroom"
   ]
 }

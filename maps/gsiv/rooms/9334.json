@@ -1,38 +1,28 @@
 {
+  "id": 9334,
+  "title": [
+    "[Underway, Cavern]"
+  ],
+  "description": [
+    "Sloping more steeply downhill to the southwest, the cavern floor wears a thicker layer of mud and the sound of running water echoes loudly off the cavern walls."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "the Central Caravansary",
   "wayto": {
     "9333": "northeast",
     "9335": "southwest"
   },
-  "paths": [
-    "Obvious exits: northeast, southwest"
-  ],
+  "timeto": {
+    "9333": 0.2,
+    "9335": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     338,
     870,
     347,
     880
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Sloping more steeply downhill to the southwest, the cavern floor wears a thicker layer of mud and the sound of running water echoes loudly off the cavern walls."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Underway, Cavern]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9333": 0.2,
-    "9335": 0.2
-  },
-  "id": 9334,
-  "location": "the Central Caravansary",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

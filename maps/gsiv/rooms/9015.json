@@ -1,48 +1,38 @@
 {
-  "wayto": {
-    "13748": "go gallery",
-    "9014": "northeast",
-    "13749": "go shop",
-    "13750": "go shelter",
-    "9016": "go steps",
-    "13752": "go boutique",
-    "21233": "go building"
-  },
+  "id": 9015,
+  "title": [
+    "[Solhaven, Spiral Passageway]"
+  ],
+  "description": [
+    "Wind whistles around the corner and down the steps, as it creeps in through the opening at street level.  A torn and dirty copy of the Elanthia Journal turns cartwheels over the cobblestones, making its way deeper into the cavern-like passageway."
+  ],
   "paths": [
     "Obvious paths: northeast"
   ],
+  "location": "Solhaven",
+  "wayto": {
+    "9014": "northeast",
+    "9016": "go steps",
+    "13752": "go boutique",
+    "28748": "go shop",
+    "28754": "go parlor",
+    "28755": "go storefront",
+    "28756": "go quoins-faced store"
+  },
+  "timeto": {
+    "9014": 0.2,
+    "9016": 0.2,
+    "13752": 0.2,
+    "28748": 0.2,
+    "28754": 0.2,
+    "28755": 0.2,
+    "28756": 0.2
+  },
+  "image": "vo-solhaven-1263764670.png",
   "image_coords": [
     1446,
     361,
     1458,
     373
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "Wind whistles around the corner and down the steps, as it creeps in through the opening at street level.  A torn and dirty copy of the Elanthia Journal turns cartwheels over the cobblestones, making its way deeper into the cavern-like passageway."
-  ],
-  "image": "vo-solhaven-1263764670.png",
-  "climate": "temperate",
-  "title": [
-    "[Solhaven, Spiral Passageway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "13748": 0.2,
-    "9014": 0.2,
-    "13749": 0.2,
-    "13750": 0.2,
-    "9016": 0.2,
-    "13752": 0.2,
-    "21233": 0.2
-  },
-  "id": 9015,
-  "location": "Solhaven",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

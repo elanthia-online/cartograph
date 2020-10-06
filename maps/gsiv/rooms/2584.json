@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "2585": "southwest",
-    "12208": {
-      "stringproc": "a0576f0215d746452e7afb93c1ee082c"
-    },
-    "2635": {
-      "stringproc": "01b8924575c8d70e4ed7eea7ed00be84"
-    },
-    "12101": {
-      "stringproc": "cf4b8e5b125b22b01c9349827d02c9fd"
-    },
-    "2583": "east"
-  },
+  "id": 2584,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "Mist swirls and flows around a small monument here.  A man lies on the ground face down, quite dead.  There are ten longswords protruding from his back, from the tip of the neck to the back of the knees.  Small rivulets of blood have dried as they left the body, forming an unusual pattern in the dirt."
+  ],
   "paths": [
     "Obvious exits: east, southwest",
     "Obvious paths: east, southwest"
   ],
-  "image_coords": [
-    160,
-    643,
-    168,
-    651
-  ],
-  "terrain": null,
-  "description": [
-    "Mist swirls and flows around a small monument here.  A man lies on the ground face down, quite dead.  There are ten longswords protruding from his back, from the tip of the neck to the back of the knees.  Small rivulets of blood have dried as they left the body, forming an unusual pattern in the dirt."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "2585": "southwest",
+    "12208": {
+      "file": "string_procs/wayto/2584_12208.rb"
+    },
+    "2635": {
+      "file": "string_procs/wayto/2584_2635.rb"
+    },
+    "12101": {
+      "file": "string_procs/wayto/2584_12101.rb"
+    },
+    "2583": "east"
+  },
   "timeto": {
     "2585": 0.2,
     "12208": 22.0,
@@ -39,8 +31,13 @@
     "12101": 26.0,
     "2583": 0.2
   },
-  "id": 2584,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    160,
+    643,
+    168,
+    651
+  ],
   "tags": [
     "mass of congealed slime",
     "withered deathblossom",
@@ -49,8 +46,5 @@
     "oozing fleshsore bulb",
     "twisted black mawflower",
     "slime-covered grave blossom"
-  ],
-  "links": [
-
   ]
 }

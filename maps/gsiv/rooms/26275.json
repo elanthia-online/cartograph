@@ -1,35 +1,28 @@
 {
+  "id": 26275,
+  "title": [
+    "[Lich Citadel, Darkway]"
+  ],
+  "description": [
+    "The citadel opens up into a massive chamber, where shadows eerily shift from wall to wall.  A low, humming sound reverberates from somewhere close by."
+  ],
+  "paths": [
+    "Obvious exits: north, out"
+  ],
+  "location": "Talador",
   "wayto": {
     "26274": "out",
     "26290": "north"
   },
-  "paths": [
-    "Obvious exits: north, out"
-  ],
+  "timeto": {
+    "26274": 0.2,
+    "26290": 0.2
+  },
+  "image": "wl-lichs_landing-1500800742.png",
   "image_coords": [
     1251,
     924,
     1277,
     951
-  ],
-  "terrain": null,
-  "description": [
-    "The citadel opens up into a massive chamber, where shadows eerily shift from wall to wall.  A low, humming sound reverberates from somewhere close by."
-  ],
-  "image": "wl-lichs_landing-1500800742.png",
-  "climate": null,
-  "title": [
-    "[Lich Citadel, Darkway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26274": 0.2,
-    "26290": 0.2
-  },
-  "id": 26275,
-  "location": "Talador",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "13022": "south"
-  },
+  "id": 13023,
+  "title": [
+    "[Bonespear Tower, Vault]"
+  ],
+  "description": [
+    "Curiously, unlike every other area in the keep, bone was not used to build this room.  The walls and ceilings are made of thick wooden planks, and have been further fortified by wide bands of iron.  Whatever valuables that might have been stored here were plundered from this vault long ago however."
+  ],
   "paths": [
     "Obvious exits: south"
   ],
+  "location": "Bonespear Tower",
+  "wayto": {
+    "13022": "south"
+  },
+  "timeto": {
+    "13022": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     1100,
     1017,
     1110,
     1027
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Curiously, unlike every other area in the keep, bone was not used to build this room.  The walls and ceilings are made of thick wooden planks, and have been further fortified by wide bands of iron.  Whatever valuables that might have been stored here were plundered from this vault long ago however."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Bonespear Tower, Vault]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "13022": 0.2
-  },
-  "id": 13023,
-  "location": "Bonespear Tower",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

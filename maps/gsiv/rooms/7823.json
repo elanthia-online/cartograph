@@ -1,34 +1,31 @@
 {
+  "id": 7823,
+  "title": [
+    "[Upper Trollfang, Glatoph]"
+  ],
+  "description": [
+    "Here, within a thousand feet of the summit, you see a tunnel leading into the mountain.  The tunnel mouth is a perfectly rectangular patch of pure black against the cliff face.  A thick steel door, its twisted and mangled hinges bright in the moonlight, lies on the ground in front of the opening like a bridge or a welcome mat.",
+    "Here, within a thousand feet of the summit, you see a tunnel leading into the mountain.  The tunnel mouth is perfectly rectangular, as though it were deliberately carved out.  A thick steel door lies on the ground in front of the opening like a bridge or a welcome mat, its hinges and bolt twisted and mangled."
+  ],
+  "paths": [
+    "Obvious paths: down"
+  ],
+  "location": "Glatoph",
   "wayto": {
     "7822": "down",
     "7824": "go door"
   },
-  "paths": [
-    "Obvious paths: down"
-  ],
+  "timeto": {
+    "7822": 0.2,
+    "7824": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     573,
     654,
     583,
     664
   ],
-  "terrain": "mountainous",
-  "description": [
-    "Here, within a thousand feet of the summit, you see a tunnel leading into the mountain.  The tunnel mouth is a perfectly rectangular patch of pure black against the cliff face.  A thick steel door, its twisted and mangled hinges bright in the moonlight, lies on the ground in front of the opening like a bridge or a welcome mat.",
-    "Here, within a thousand feet of the summit, you see a tunnel leading into the mountain.  The tunnel mouth is perfectly rectangular, as though it were deliberately carved out.  A thick steel door lies on the ground in front of the opening like a bridge or a welcome mat, its hinges and bolt twisted and mangled."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Upper Trollfang, Glatoph]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7822": 0.2,
-    "7824": 0.2
-  },
-  "id": 7823,
-  "location": "Glatoph",
   "tags": [
     "golden aster",
     "marallis berry",
@@ -46,10 +43,6 @@
     "wild pink geranium",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

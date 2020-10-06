@@ -1,42 +1,34 @@
 {
+  "id": 16159,
+  "title": [
+    "[Outpost, Courtyard]"
+  ],
+  "description": [
+    "A large dirt courtyard is enclosed by a stucco and timber building that wraps around the open space hugging the large, thick wall that guards the outpost.  A covered walkway serves as protection from the elements to those passing in between doorways and archways that open directly on to the courtyard.  A row of sun-bleached orc skulls arc over a large gateway set into the wall, gazing downward on those coming and going with frozen grins and dark, lifeless eye sockets."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the Guardians of Sunfist outpost",
+  "climate": "temperate",
+  "terrain": "hard, flat ",
   "wayto": {
     "16161": "go doorway",
     "16162": "east",
     "16021": "go gateway",
     "16160": "go archway"
   },
-  "paths": [
-    "Obvious paths: east"
-  ],
-  "image_coords": [
-    751,
-    1021,
-    761,
-    1031
-  ],
-  "terrain": "hard, flat ",
-  "description": [
-    "A large dirt courtyard is enclosed by a stucco and timber building that wraps around the open space hugging the large, thick wall that guards the outpost.  A covered walkway serves as protection from the elements to those passing in between doorways and archways that open directly on to the courtyard.  A row of sun-bleached orc skulls arc over a large gateway set into the wall, gazing downward on those coming and going with frozen grins and dark, lifeless eye sockets."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "temperate",
-  "title": [
-    "[Outpost, Courtyard]"
-  ],
-  "check_location": null,
   "timeto": {
     "16161": 0.2,
     "16162": 0.2,
     "16021": 0.2,
     "16160": 0.2
   },
-  "id": 16159,
-  "location": "the Guardians of Sunfist outpost",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-rivers_rest-1266350289.png",
+  "image_coords": [
+    751,
+    1021,
+    761,
+    1031
   ]
 }

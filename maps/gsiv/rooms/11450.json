@@ -1,47 +1,38 @@
 {
-  "wayto": {
-    "11458": {
-      "stringproc": "c5de6a93c272509e579c13cc8cd916bf"
-    },
-    "11447": {
-      "stringproc": "edcc0cccbc99a29a586ead6328949de9"
-    },
-    "11438": {
-      "stringproc": "d1ab0fc82426b99746caa62b1f882697"
-    },
-    "16054": {
-      "stringproc": "e874f03e7b4c2d51bbdcaccf4bb927c8"
-    },
-    "11439": {
-      "stringproc": "fca73c0fdfb5b02d3b95efa24885592a"
-    },
-    "11451": {
-      "stringproc": "e874f03e7b4c2d51bbdcaccf4bb927c8"
-    },
-    "11455": {
-      "stringproc": "6ec0d3f2602af819251801455c03b9d7"
-    }
-  },
-  "paths": [
-    "Obvious paths: north, south, southwest, west, northwest, down"
+  "id": 11450,
+  "title": [
+    "[Maelstrom Bay, Surface]"
   ],
-  "image_coords": [
-    729,
-    1261,
-    739,
-    1271
-  ],
-  "terrain": null,
   "description": [
     "The sea swells break lazily against the stony base of the steep cliff wall.  Birds whirl and screech overhead as they fight for nesting places among the few tufts of scrub brush that cling to the sheer cliff.  The green waters of Maelstrom Bay, muted by the bright moonlight, stretch out to the west.",
     "The sea swells break lazily against the stony base of the steep cliff wall.  Birds whirl and screech overhead as they fight for nesting places among the few tufts of scrub brush that cling to the sheer cliff.  The green waters of Maelstrom Bay, bright in the sunlight, stretch out to the west."
   ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": null,
-  "title": [
-    "[Maelstrom Bay, Surface]"
+  "paths": [
+    "Obvious paths: north, south, southwest, west, northwest, down"
   ],
-  "check_location": null,
+  "wayto": {
+    "11458": {
+      "file": "string_procs/wayto/11450_11458.rb"
+    },
+    "11447": {
+      "file": "string_procs/wayto/11450_11447.rb"
+    },
+    "11438": {
+      "file": "string_procs/wayto/11450_11438.rb"
+    },
+    "16054": {
+      "file": "string_procs/wayto/11450_16054.rb"
+    },
+    "11439": {
+      "file": "string_procs/wayto/11450_11439.rb"
+    },
+    "11451": {
+      "file": "string_procs/wayto/11450_11451.rb"
+    },
+    "11455": {
+      "file": "string_procs/wayto/11450_11455.rb"
+    }
+  },
   "timeto": {
     "11458": 3.0,
     "11447": 2.0,
@@ -51,12 +42,11 @@
     "11451": 2.0,
     "11455": 2.0
   },
-  "id": 11450,
-  "location": null,
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "rr-maelstrom-1266390501.png",
+  "image_coords": [
+    729,
+    1261,
+    739,
+    1271
   ]
 }

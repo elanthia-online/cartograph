@@ -1,35 +1,32 @@
 {
+  "id": 3280,
+  "title": [
+    "[Ice Plains, Hill Side]"
+  ],
+  "description": [
+    "The staircase leads onto a smooth pathway that has been excavated from the side of the hill.  A thin layer of snow covers the ground along the path but stops short of an opening hidden behind a drift of snow.  The entrance leads north into a tunnel that was not formed naturally.  As you get closer to the opening, a waft of warm air against your face reminds you how cold you are."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the Ice Plains",
   "wayto": {
     "3281": "east",
     "3264": "climb stair",
     "3287": "go open"
   },
-  "paths": [
-    "Obvious paths: east"
-  ],
+  "timeto": {
+    "3281": 0.2,
+    "3264": 0.2,
+    "3287": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     444,
     410,
     454,
     420
   ],
-  "terrain": "hilly",
-  "description": [
-    "The staircase leads onto a smooth pathway that has been excavated from the side of the hill.  A thin layer of snow covers the ground along the path but stops short of an opening hidden behind a drift of snow.  The entrance leads north into a tunnel that was not formed naturally.  As you get closer to the opening, a waft of warm air against your face reminds you how cold you are."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Ice Plains, Hill Side]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3281": 0.2,
-    "3264": 0.2,
-    "3287": 0.2
-  },
-  "id": 3280,
-  "location": "the Ice Plains",
   "tags": [
     "pale thornberry",
     "winter rose",
@@ -40,19 +37,6 @@
     "calamintha blossom",
     "handful of snowberries",
     "sassafras leaf",
-    "some arctic moss",
-    "sticks",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "arctic moss",
-    "snowberries",
-    "frostflower",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some arctic moss"
   ]
 }

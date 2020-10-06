@@ -1,47 +1,28 @@
 {
+  "id": 8218,
+  "title": [
+    "[Sea Caverns, Spider Lair]"
+  ],
+  "description": [
+    "The yellow-green fungi covering the eastern wall give off a soft, sickly glow.  Webs drape down from a ceiling lost in darkness above, the silky strands dancing gently in the still air.  Small white bones litter the floor below, some of them large enough to be humanoid."
+  ],
+  "paths": [
+    "Obvious exits: southwest, west"
+  ],
+  "location": "the sea caverns",
   "wayto": {
     "8217": "west",
     "8219": "southwest"
   },
-  "paths": [
-    "Obvious exits: southwest, west"
-  ],
+  "timeto": {
+    "8217": 0.2,
+    "8219": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     487,
     283,
     497,
     293
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The yellow-green fungi covering the eastern wall give off a soft, sickly glow.  Webs drape down from a ceiling lost in darkness above, the silky strands dancing gently in the still air.  Small white bones litter the floor below, some of them large enough to be humanoid."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Caverns, Spider Lair]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8217": 0.2,
-    "8219": 0.2
-  },
-  "id": 8218,
-  "location": "the sea caverns",
-  "tags": [
-    "soft white mushroom",
-    "withered black mushroom",
-    "black hook mushroom",
-    "white hook mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

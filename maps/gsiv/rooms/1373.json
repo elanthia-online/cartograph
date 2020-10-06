@@ -1,33 +1,30 @@
 {
+  "id": 1373,
+  "title": [
+    "[Cairnfang Uplands]"
+  ],
+  "description": [
+    "The trail reaches the edge of the marsh grass, then turns.  Running northwest, it climbs a grassy ridge and disappears over the top.  Scaling rockier ground to the east, the trail enters a stand of stunted modwirs."
+  ],
+  "paths": [
+    "Obvious paths: east, northwest"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "1372": "northwest",
     "1374": "east"
   },
-  "paths": [
-    "Obvious paths: east, northwest"
-  ],
+  "timeto": {
+    "1372": 0.2,
+    "1374": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     931,
     404,
     941,
     414
   ],
-  "terrain": "grassland",
-  "description": [
-    "The trail reaches the edge of the marsh grass, then turns.  Running northwest, it climbs a grassy ridge and disappears over the top.  Scaling rockier ground to the east, the trail enters a stand of stunted modwirs."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Cairnfang Uplands]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1372": 0.2,
-    "1374": 0.2
-  },
-  "id": 1373,
-  "location": "the Cairnfang",
   "tags": [
     "some sovyn clove",
     "some ambrominas leaf",
@@ -92,10 +89,6 @@
     "wavepetal blossom",
     "ironfern root",
     "nightbloom blossom",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

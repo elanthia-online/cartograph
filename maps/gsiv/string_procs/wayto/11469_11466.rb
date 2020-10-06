@@ -1,1 +1,2 @@
-move 'swim southwest'; waitrt?
+move 'swim southwest'
+ waitrt?

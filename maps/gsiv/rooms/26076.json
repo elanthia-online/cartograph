@@ -1,34 +1,25 @@
 {
-  "wayto": {
-    "26077": {
-      "stringproc": "2be5e1713fd441fb9d96ee2c6b6c09c0"
-    },
-    "26075": {
-      "stringproc": "b0be0d51fa1a6a17201f92c65e8511c2"
-    }
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Shadows jump across the wall, their forms created by the flickering candles that are recessed within fist-sized alcoves that ring the chamber.  Stylized flames carved into the wall appear to dance beneath the erratic patterns of the wavering light.  Standing at an angle so that her stony gaze rests upon both the upward and downward spiraling stairs, a female stone statue dominates the center of the chamber, while beyond her, a niche housing a large donation bowl basks in her silhouette."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 26076,
   "title": [
     "[Ancient Passage, Niche]"
   ],
-  "check_location": null,
+  "description": [
+    "Shadows jump across the wall, their forms created by the flickering candles that are recessed within fist-sized alcoves that ring the chamber.  Stylized flames carved into the wall appear to dance beneath the erratic patterns of the wavering light.  Standing at an angle so that her stony gaze rests upon both the upward and downward spiraling stairs, a female stone statue dominates the center of the chamber, while beyond her, a niche housing a large donation bowl basks in her silhouette."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Zul Logoth",
+  "wayto": {
+    "26077": {
+      "file": "string_procs/wayto/26076_26077.rb"
+    },
+    "26075": {
+      "file": "string_procs/wayto/26076_26075.rb"
+    }
+  },
   "timeto": {
     "26077": 12.0,
     "26075": 24.0
-  },
-  "id": 26076,
-  "location": "Zul Logoth",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  }
 }

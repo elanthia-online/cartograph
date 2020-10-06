@@ -1,97 +1,35 @@
 {
+  "id": 5005,
+  "title": [
+    "[Yegharren Valley, Forest]"
+  ],
+  "description": [
+    "A thick canopy of leafy branches conceals most of the sky, making this low-lying thicket even darker than the rest of the night.  Thick bushes fill the gaps between the massive trunks of the trees, and earthworms and beetles crawl in and out of the deep, soft carpet of decaying leaves on the ground.",
+    "A thick canopy of leafy branches makes this low-lying thicket nearly as dark as night.  Thick bushes fill the gaps between the massive trunks of the trees, and earthworms and beetles crawl in and out of the deep, soft carpet of decaying leaves on the ground."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "the Yegharren Plains",
   "wayto": {
     "5004": "south",
     "9929": "go bush"
   },
-  "paths": [
-    "Obvious paths: south"
-  ],
+  "timeto": {
+    "5004": 0.2,
+    "9929": 0.2
+  },
+  "image": "en-sylvarraend-1264234799.png",
   "image_coords": [
     918,
     502,
     928,
     512
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "A thick canopy of leafy branches conceals most of the sky, making this low-lying thicket even darker than the rest of the night.  Thick bushes fill the gaps between the massive trunks of the trees, and earthworms and beetles crawl in and out of the deep, soft carpet of decaying leaves on the ground.",
-    "A thick canopy of leafy branches makes this low-lying thicket nearly as dark as night.  Thick bushes fill the gaps between the massive trunks of the trees, and earthworms and beetles crawl in and out of the deep, soft carpet of decaying leaves on the ground."
-  ],
-  "image": "en-sylvarraend-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Yegharren Valley, Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5004": 0.2,
-    "9929": 0.2
-  },
-  "id": 5005,
-  "location": "the Yegharren Plains",
   "tags": [
     "some torban leaf",
     "some haphip root",
     "wild chokecherry",
-    "wolfsbane root",
-    "acantha leaf",
-    "torban leaf",
-    "calamia fruit",
-    "haphip root",
-    "basal moss",
-    "tkaro root",
-    "sticks",
-    "angelica root",
-    "trollfear mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "blueberries",
-    "elderberries",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "wild grapes",
-    "broken twig",
-    "stalk of bluebells",
-    "golden buttercup",
-    "wild pink geranium",
-    "stalk of goldenrod",
-    "small wild rose",
-    "sprig of wild lilac",
-    "wild beechnut",
-    "stalk of burdock",
-    "silver-edged fern",
-    "lady slipper blossom",
-    "wild orchid",
-    "wood violet",
-    "sprig of mistletoe",
-    "tree bark",
-    "murkweed",
-    "white lily",
-    "pink rain lily",
-    "coppery rain lily",
-    "oxblood lily",
-    "blue whortleberry",
-    "white baneberry",
-    "bloodwood twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "nightbloom blossom",
-    "twisted twig",
-    "slender twig",
-    "ebony twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wolfsbane root"
   ]
 }

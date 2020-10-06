@@ -1,38 +1,28 @@
 {
+  "id": 8808,
+  "title": [
+    "[Dragonsclaw Arms, Third Floor]"
+  ],
+  "description": [
+    "Faint footsteps echo on the hardwood floor from somewhere around a corner.  A gold-framed painting of a rotund but not unattractive human woman reclining on a couch in a state of semi-undress is mounted on the beige-painted wall."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "8809": "east",
     "8807": "west"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "8809": 0.2,
+    "8807": 0.2
+  },
+  "image": "wl-homes-1-1264234799.png",
   "image_coords": [
     615,
     780,
     633,
     798
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Faint footsteps echo on the hardwood floor from somewhere around a corner.  A gold-framed painting of a rotund but not unattractive human woman reclining on a couch in a state of semi-undress is mounted on the beige-painted wall."
-  ],
-  "image": "wl-homes-1-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dragonsclaw Arms, Third Floor]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8809": 0.2,
-    "8807": 0.2
-  },
-  "id": 8808,
-  "location": "Wehnimer's Landing",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

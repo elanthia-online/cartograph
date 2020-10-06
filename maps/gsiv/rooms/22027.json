@@ -1,40 +1,30 @@
 {
-  "wayto": {
-    "22028": "go pool",
-    "14674": {
-      "stringproc": "74aa5b03dbc4d5e982104f3d5e89b431"
-    }
-  },
+  "id": 22027,
+  "title": [
+    "[Silvergate, Jungle Room]"
+  ],
+  "description": [
+    "The warm humid air of this tropical retreat invites you to cast away your worries and cares.  Flowering vines creep up the carved posts of a four-poster bed which provides support for a canopy of rustling ferns.  Water trickles from a fountain, cunningly crafted to resemble a waterfall, and fills a small bathing pool near the fireplace.  Several colorful cushions are scattered on the floor near the hearth."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "Wehnimer's Landing",
+  "wayto": {
+    "22028": "go pool",
+    "14674": {
+      "file": "string_procs/wayto/22027_14674.rb"
+    }
+  },
+  "timeto": {
+    "22028": 0.2,
+    "14674": 3.2
+  },
+  "image": "wl-silvergate_inn-1487242763.png",
   "image_coords": [
     833,
     7,
     890,
     62
-  ],
-  "terrain": null,
-  "description": [
-    "The warm humid air of this tropical retreat invites you to cast away your worries and cares.  Flowering vines creep up the carved posts of a four-poster bed which provides support for a canopy of rustling ferns.  Water trickles from a fountain, cunningly crafted to resemble a waterfall, and fills a small bathing pool near the fireplace.  Several colorful cushions are scattered on the floor near the hearth."
-  ],
-  "image": "wl-silvergate_inn-1487242763.png",
-  "climate": null,
-  "title": [
-    "[Silvergate, Jungle Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "22028": 0.2,
-    "14674": 3.2
-  },
-  "id": 22027,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

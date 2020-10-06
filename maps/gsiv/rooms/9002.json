@@ -1,38 +1,28 @@
 {
+  "id": 9002,
+  "title": [
+    "[Mill Tower, Second Floor]"
+  ],
+  "description": [
+    "Great gears and pulleys nearly fill the room.  A bewildering assortment of ropes and pulleys for hauling grain to the hoppers on the floor above is in one corner."
+  ],
+  "paths": [
+    "Obvious exits: up"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "9001": "climb staircase",
     "9003": "up"
   },
-  "paths": [
-    "Obvious exits: up"
-  ],
+  "timeto": {
+    "9001": 0.2,
+    "9003": 0.2
+  },
+  "image": "imt-icemule-1474811966.png",
   "image_coords": [
     139,
     1233,
     175,
     1269
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Great gears and pulleys nearly fill the room.  A bewildering assortment of ropes and pulleys for hauling grain to the hoppers on the floor above is in one corner."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "indoors",
-  "title": [
-    "[Mill Tower, Second Floor]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9001": 0.2,
-    "9003": 0.2
-  },
-  "id": 9002,
-  "location": "Icemule Trace",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,95 +1,38 @@
 {
+  "id": 16744,
+  "title": [
+    "[Aradhul Road, Forest Trail]"
+  ],
+  "description": [
+    "Tall trees press in on the narrow trail, threatening to overtake it and return the forest to its completely natural state.  Enough light filters through the thick canopy of leaves, branches, and vines to aid in the growth of dense greenery that carpets the forest floor."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south"
+  ],
+  "location": "Aradhul Road",
   "wayto": {
     "16745": "south",
     "16743": "northeast",
     "24675": {
-      "stringproc": "31c9e7dbad84a6544c6c25c146359221"
+      "file": "string_procs/wayto/16744_24675.rb"
     }
   },
-  "paths": [
-    "Obvious paths: northeast, south"
-  ],
+  "timeto": {
+    "16745": 0.2,
+    "16743": 0.2,
+    "24675": 0.2
+  },
+  "image": "en-aradhul-road-1308194332.png",
   "image_coords": [
     652,
     706,
     676,
     729
   ],
-  "terrain": "missing",
-  "description": [
-    "Tall trees press in on the narrow trail, threatening to overtake it and return the forest to its completely natural state.  Enough light filters through the thick canopy of leaves, branches, and vines to aid in the growth of dense greenery that carpets the forest floor."
-  ],
-  "image": "en-aradhul-road-1308194332.png",
-  "climate": "temperate",
-  "title": [
-    "[Aradhul Road, Forest Trail]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "16745": 0.2,
-    "16743": 0.2,
-    "24675": 0.2
-  },
-  "id": 16744,
-  "location": "Aradhul Road",
   "tags": [
     "some calamia fruit",
     "some acantha leaf",
     "some torban leaf",
-    "yew twig",
-    "acantha leaf",
-    "torban leaf",
-    "calamia fruit",
-    "haphip root",
-    "basal moss",
-    "tkaro root",
-    "sticks",
-    "angelica root",
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "blueberries",
-    "elderberries",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "wild grapes",
-    "broken twig",
-    "stalk of bluebells",
-    "golden buttercup",
-    "wild pink geranium",
-    "stalk of goldenrod",
-    "small wild rose",
-    "sprig of wild lilac",
-    "wild beechnut",
-    "wild chokecherry",
-    "lady slipper blossom",
-    "wild orchid",
-    "wood violet",
-    "wolfsbane root",
-    "sprig of mistletoe",
-    "tree bark",
-    "mistweed",
-    "white lily",
-    "pink rain lily",
-    "coppery rain lily",
-    "white baneberry",
-    "bloodwood twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "twisted twig",
-    "slender twig",
-    "ebony twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "yew twig"
   ]
 }

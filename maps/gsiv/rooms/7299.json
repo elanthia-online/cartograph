@@ -1,38 +1,28 @@
 {
+  "id": 7299,
+  "title": [
+    "[Graveyard, Anteroom]"
+  ],
+  "description": [
+    "This stone chamber is elaborately decorated and furnished.  One wall contains a doorway leading north and another is covered with rich embroideries and gilt-framed paintings.  In one corner is a statue formed from various precious minerals and metals.  You notice the same thin bands of ahnver embedded along the walls, shedding enough light for you to realize that fabulous treasures once must have filled this room to the rafters.  A long stone ramp leads down, its destination cloaked in darkness."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7298": "north",
     "7300": "go ramp"
   },
-  "paths": [
-    "Obvious exits: north"
-  ],
+  "timeto": {
+    "7298": 0.2,
+    "7300": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     447,
     608,
     457,
     618
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This stone chamber is elaborately decorated and furnished.  One wall contains a doorway leading north and another is covered with rich embroideries and gilt-framed paintings.  In one corner is a statue formed from various precious minerals and metals.  You notice the same thin bands of ahnver embedded along the walls, shedding enough light for you to realize that fabulous treasures once must have filled this room to the rafters.  A long stone ramp leads down, its destination cloaked in darkness."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Graveyard, Anteroom]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7298": 0.2,
-    "7300": 0.2
-  },
-  "id": 7299,
-  "location": "the Graveyard",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

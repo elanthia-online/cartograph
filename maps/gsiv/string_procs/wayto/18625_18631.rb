@@ -1,1 +1,2 @@
-move 'west'; move 'go annex'
+move 'west'
+ move 'go annex'

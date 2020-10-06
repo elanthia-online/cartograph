@@ -1,1 +1,4 @@
-while Room.current.id == 18823;fput 'row southeast';waitrt?;end
+while Room.current.id == 18823
+fput 'row southeast'
+waitrt?
+end

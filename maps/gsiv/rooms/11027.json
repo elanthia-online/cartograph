@@ -1,35 +1,34 @@
 {
+  "id": 11027,
+  "title": [
+    "[Grassland Path]"
+  ],
+  "description": [
+    "Freshly shorn grass contrasts the chaotic tangle of greenery surrounding this path.  The twists and turns of the trail make it impossible to see much in either direction, a glance forward or back revealing nothing but a wall of trees and bushes."
+  ],
+  "paths": [
+    "Obvious paths: north, east, southwest"
+  ],
+  "location": "the South River Road",
+  "climate": "temperate",
+  "terrain": "grassland",
   "wayto": {
     "16018": "east",
     "11025": "north",
     "11028": "southwest"
   },
-  "paths": [
-    "Obvious paths: north, east, southwest"
-  ],
+  "timeto": {
+    "16018": 0.2,
+    "11025": 0.2,
+    "11028": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     608,
     985,
     618,
     995
   ],
-  "terrain": "grassland",
-  "description": [
-    "Freshly shorn grass contrasts the chaotic tangle of greenery surrounding this path.  The twists and turns of the trail make it impossible to see much in either direction, a glance forward or back revealing nothing but a wall of trees and bushes."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "temperate",
-  "title": [
-    "[Grassland Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "16018": 0.2,
-    "11025": 0.2,
-    "11028": 0.2
-  },
-  "id": 11027,
-  "location": "the South River Road",
   "tags": [
     "some sovyn clove",
     "some ambrominas leaf",
@@ -94,13 +93,6 @@
     "murdroot",
     "wavepetal blossom",
     "ironfern root",
-    "sunburst blossom",
-    "trollfear mushroom",
-    "fire lily",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sunburst blossom"
   ]
 }

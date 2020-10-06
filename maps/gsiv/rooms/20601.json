@@ -1,50 +1,31 @@
 {
+  "id": 20601,
+  "title": [
+    "[Wehnimer's, Burrow Way]"
+  ],
+  "description": [
+    "The tapered walls give way to a greater area, as the distance between torches stretches, expanding the cover of darkness.  Two old barrels sit to the side of the tunnel, their labels faded, but depicting an image of a skull and bones."
+  ],
+  "paths": [
+    "Obvious exits: east, southwest"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "20600": "east",
     "20602": "southwest"
   },
-  "paths": [
-    "Obvious exits: east, southwest"
-  ],
+  "timeto": {
+    "20600": 0.2,
+    "20602": 0.2
+  },
+  "image": "wl-burrow_way-1360361110.png",
   "image_coords": [
     470,
     150,
     497,
     177
   ],
-  "terrain": "indoors",
-  "description": [
-    "The tapered walls give way to a greater area, as the distance between torches stretches, expanding the cover of darkness.  Two old barrels sit to the side of the tunnel, their labels faded, but depicting an image of a skull and bones."
-  ],
-  "image": "wl-burrow_way-1360361110.png",
-  "climate": "indoors",
-  "title": [
-    "[Wehnimer's, Burrow Way]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "20600": 0.2,
-    "20602": 0.2
-  },
-  "id": 20601,
-  "location": "the town of Wehnimer's Landing",
   "tags": [
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null,
-  "links": [
-
+    "soft white mushroom"
   ]
 }

@@ -1,54 +1,32 @@
 {
-  "wayto": {
-    "20643": {
-      "stringproc": "2a8b56ec14cc750880de435db96f4db0"
-    },
-    "20645": {
-      "stringproc": "19fc2819df3ba7118e2e66e8573b3ef8"
-    }
-  },
+  "id": 20644,
+  "title": [
+    "[Wehnimer's, Burrow Way]"
+  ],
+  "description": [
+    "The tunnel here is almost entirely engulfed in darkness, and the walls are jagged and stained.  An old, musty smell hangs heavily in the air."
+  ],
   "paths": [
     "Obvious exits: north, south"
   ],
+  "location": "the town of Wehnimer's Landing",
+  "wayto": {
+    "20643": {
+      "file": "string_procs/wayto/20644_20643.rb"
+    },
+    "20645": {
+      "file": "string_procs/wayto/20644_20645.rb"
+    }
+  },
+  "timeto": {
+    "20643": 0.8,
+    "20645": 0.8
+  },
+  "image": "wl-burrow_way-1360361110.png",
   "image_coords": [
     820,
     495,
     845,
     521
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The tunnel here is almost entirely engulfed in darkness, and the walls are jagged and stained.  An old, musty smell hangs heavily in the air."
-  ],
-  "image": "wl-burrow_way-1360361110.png",
-  "climate": "indoors",
-  "title": [
-    "[Wehnimer's, Burrow Way]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "20643": 0.8,
-    "20645": 0.8
-  },
-  "id": 20644,
-  "location": "the town of Wehnimer's Landing",
-  "tags": [
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

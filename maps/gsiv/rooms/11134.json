@@ -1,44 +1,30 @@
 {
+  "id": 11134,
+  "title": [
+    "[River Tunnels]"
+  ],
+  "description": [
+    "The tunnel here levels off to the east and a side passage leads sharply down.  The distant sounds of the river can be faintly heard as echoes along with a mysterious slurping sound that sends shivers up your spine and sets the short hairs on your neck standing straight up."
+  ],
+  "paths": [
+    "Obvious exits: east, west, down"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11123": "west",
     "11135": "e",
     "11138": "down"
   },
-  "paths": [
-    "Obvious exits: east, west, down"
-  ],
-  "image_coords": [
-    639,
-    7,
-    649,
-    17
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The tunnel here levels off to the east and a side passage leads sharply down.  The distant sounds of the river can be faintly heard as echoes along with a mysterious slurping sound that sends shivers up your spine and sets the short hairs on your neck standing straight up."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "indoors",
-  "title": [
-    "[River Tunnels]"
-  ],
-  "check_location": null,
   "timeto": {
     "11138": 0.2,
     "11123": 0.2,
     "11135": 0.2
   },
-  "id": 11134,
-  "location": "the Citadel",
-  "tags": [
-    "withered black mushroom",
-    "cave moss",
-    "murdroot",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-rivers_rest-1266350289.png",
+  "image_coords": [
+    639,
+    7,
+    649,
+    17
   ]
 }

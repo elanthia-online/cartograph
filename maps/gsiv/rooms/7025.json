@@ -1,35 +1,32 @@
 {
+  "id": 7025,
+  "title": [
+    "[Castle Darkstone, Outer Ward]"
+  ],
+  "description": [
+    "Two huge D-shaped towers here form a massive gatehouse which guards the entrance to the inner keep.  The walls here are much heavier in their construction than the outer curtain, and much higher.  To the north is the much smaller gatehouse."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7031": "go gatehouse",
     "7000": "north",
     "7026": "south"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "7031": 0.2,
+    "7000": 0.2,
+    "7026": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     488,
     509,
     498,
     519
   ],
-  "terrain": null,
-  "description": [
-    "Two huge D-shaped towers here form a massive gatehouse which guards the entrance to the inner keep.  The walls here are much heavier in their construction than the outer curtain, and much higher.  To the north is the much smaller gatehouse."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Castle Darkstone, Outer Ward]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7031": 0.2,
-    "7000": 0.2,
-    "7026": 0.2
-  },
-  "id": 7025,
-  "location": "Darkstone Castle",
   "tags": [
     "some wingstem root",
     "some pennyroyal stem",
@@ -38,19 +35,6 @@
     "bright red cranberry",
     "some acantha leaf",
     "heath aster",
-    "cuctucae berry",
-    "acantha leaf",
-    "wolifrew lichen",
-    "sassafras leaf",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "stalk of chicory",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "cuctucae berry"
   ]
 }

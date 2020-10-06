@@ -1,68 +1,35 @@
 {
+  "id": 3879,
+  "title": [
+    "[Helden Hall, Outside the Gate]"
+  ],
+  "description": [
+    "Rough-hewn stone walls tower above a wrought-iron gate, the only entrance.  As you peer through the gate, you see an immense structure at the end of a vast bailey."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "280": "go cobblestone path",
     "3881": "go wrought-iron gate",
     "17599": "go path"
   },
-  "paths": [
-    "Obvious paths: none"
-  ],
+  "timeto": {
+    "280": 0.2,
+    "3881": 0.2,
+    "17599": 0.2
+  },
+  "image": "wl-wehnimers-1264234799.png",
   "image_coords": [
     510,
     86,
     546,
     122
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "Rough-hewn stone walls tower above a wrought-iron gate, the only entrance.  As you peer through the gate, you see an immense structure at the end of a vast bailey."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Helden Hall, Outside the Gate]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "280": 0.2,
-    "3881": 0.2,
-    "17599": 0.2
-  },
-  "id": 3879,
-  "location": "Wehnimer's Landing",
   "tags": [
     "wlhelden",
     "helden",
-    "helden hall",
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "small flower",
-    "small rose",
-    "small daisy",
-    "angelica root",
-    "withered black mushroom",
-    "stalk of chicory",
-    "sprig of alyssum",
-    "heath aster",
-    "stalk of goldenrod",
-    "yellow primrose",
-    "small wild rose",
-    "wild carrot",
-    "ginger root",
-    "wild chokecherry",
-    "motherwort",
-    "murkweed",
-    "blue whortleberry",
-    "white baneberry",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "helden hall"
   ]
 }

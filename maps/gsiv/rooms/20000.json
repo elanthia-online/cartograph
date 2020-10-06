@@ -1,39 +1,30 @@
 {
+  "id": 20000,
+  "title": [
+    "[Cavernhold, Lower Passage]"
+  ],
+  "description": [
+    "There is very little clearance between the rough floor and the jagged stones in the roof of this tunnel section.  Shadowy recesses to either side appear to be quite large enough to hold a hidden enemy or an unsavory cavern-dwelling lower life form.  The low clearance and jagged stones above your head, however, make rapid movement impossible."
+  ],
+  "paths": [
+    "Obvious exits: northeast, south"
+  ],
+  "location": "the foothills of Zeltoph",
   "wayto": {
     "19999": "northeast",
     "20001": "go recess",
     "20003": "south"
   },
-  "paths": [
-    "Obvious exits: northeast, south"
-  ],
-  "image_coords": [
-    1077,
-    790,
-    1089,
-    798
-  ],
-  "terrain": null,
-  "description": [
-    "There is very little clearance between the rough floor and the jagged stones in the roof of this tunnel section.  Shadowy recesses to either side appear to be quite large enough to hold a hidden enemy or an unsavory cavern-dwelling lower life form.  The low clearance and jagged stones above your head, however, make rapid movement impossible."
-  ],
-  "image": "wl-cavernhold-1295073688.png",
-  "climate": null,
-  "title": [
-    "[Cavernhold, Lower Passage]"
-  ],
-  "check_location": null,
   "timeto": {
     "19999": 0.2,
     "20001": 0.2,
     "20003": 0.2
   },
-  "id": 20000,
-  "location": "the foothills of Zeltoph",
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "wl-cavernhold-1295073688.png",
+  "image_coords": [
+    1077,
+    790,
+    1089,
+    798
   ]
 }

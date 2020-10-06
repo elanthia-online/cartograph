@@ -1,36 +1,33 @@
 {
+  "id": 1319,
+  "title": [
+    "[Plateau, Flynth River]"
+  ],
+  "description": [
+    "Fallen leaves covering the ground cavort in the breeze, resting again as the wind dies down.  The trees hide the north-south trail from the moons' gaze overhead, where the river gently curves towards the trail forming a wide bank.",
+    "Fallen leaves covering the ground cavort in the breeze, resting again as the wind dies down.  The trees shade the north-south trail from the fierce sun overhead, where the river gently curves towards the trail forming a wide bank."
+  ],
+  "paths": [
+    "Obvious paths: north, south, west"
+  ],
+  "location": "the foothills of Zeltoph",
   "wayto": {
     "1320": "south",
     "9311": "west",
     "1318": "north"
   },
-  "paths": [
-    "Obvious paths: north, south, west"
-  ],
+  "timeto": {
+    "1320": 0.2,
+    "9311": 0.2,
+    "1318": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     105,
     636,
     115,
     646
   ],
-  "terrain": "grassland",
-  "description": [
-    "Fallen leaves covering the ground cavort in the breeze, resting again as the wind dies down.  The trees hide the north-south trail from the moons' gaze overhead, where the river gently curves towards the trail forming a wide bank.",
-    "Fallen leaves covering the ground cavort in the breeze, resting again as the wind dies down.  The trees shade the north-south trail from the fierce sun overhead, where the river gently curves towards the trail forming a wide bank."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Plateau, Flynth River]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1320": 0.2,
-    "9311": 0.2,
-    "1318": 0.2
-  },
-  "id": 1319,
-  "location": "the foothills of Zeltoph",
   "tags": [
     "some wolifrew lichen",
     "sprig of larkspur",
@@ -51,10 +48,6 @@
     "moonlight cactus-bloom",
     "luckbloom blossom",
     "ironfern root",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

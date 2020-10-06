@@ -1,0 +1,30 @@
+{
+  "id": 29169,
+  "title": [
+    "[Basalt Cliff, Face]"
+  ],
+  "description": [
+    "A way to the crater rim can be seen above, but only the most careful and patient climbers may make it to the top.  Progress further east is hindered by an unclimbable rocky buttress, and downward is a fall so great it would surely kill the most hearty of adventurers.  Though the basalt is crumbling it may be possible to shimmy west across the exposed rock."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "the volcanic flats",
+  "wayto": {
+    "29168": {
+      "file": "string_procs/wayto/29169_29168.rb"
+    },
+    "29170": "go crater rim"
+  },
+  "timeto": {
+    "29168": 0.2,
+    "29170": 0.2
+  },
+  "image": "ti-feyrie-1599500894.png",
+  "image_coords": [
+    388,
+    392,
+    401,
+    402
+  ]
+}

@@ -1,68 +1,36 @@
 {
+  "id": 321,
+  "title": [
+    "[Wehnimer's, Taarna Rd.]"
+  ],
+  "description": [
+    "A small house is set back from the curve in the road, in the midst of a carefully tended garden of strange plants.  A twisting path leading to the door is lined with carved wooden pots in which grow many species of pungent herbs.  Two modwir saplings entwine over the door, forming a leafy arch."
+  ],
+  "paths": [
+    "Obvious paths: north, west"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "325": "go house",
     "272": "west",
     "322": "north"
   },
-  "paths": [
-    "Obvious paths: north, west"
-  ],
+  "timeto": {
+    "325": 0.2,
+    "272": 0.2,
+    "322": 0.2
+  },
+  "image": "wl-wehnimers-1264234799.png",
   "image_coords": [
     812,
     438,
     848,
     474
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "A small house is set back from the curve in the road, in the midst of a carefully tended garden of strange plants.  A twisting path leading to the door is lined with carved wooden pots in which grow many species of pungent herbs.  Two modwir saplings entwine over the door, forming a leafy arch."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Wehnimer's, Taarna Rd.]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "325": 0.2,
-    "272": 0.2,
-    "322": 0.2
-  },
-  "id": 321,
-  "location": "the town of Wehnimer's Landing",
   "tags": [
     "some acantha leaf",
     "blue whortleberry",
     "some bur-clover root",
-    "some sovyn clove",
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "small flower",
-    "small rose",
-    "small daisy",
-    "angelica root",
-    "withered black mushroom",
-    "stalk of chicory",
-    "sprig of alyssum",
-    "heath aster",
-    "stalk of goldenrod",
-    "yellow primrose",
-    "small wild rose",
-    "wild carrot",
-    "ginger root",
-    "wild chokecherry",
-    "motherwort",
-    "murkweed",
-    "white baneberry",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some sovyn clove"
   ]
 }

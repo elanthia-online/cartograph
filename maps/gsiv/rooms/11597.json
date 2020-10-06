@@ -1,38 +1,27 @@
 {
+  "id": 11597,
+  "title": [
+    "[Smuggler's Lair, Storage]"
+  ],
+  "description": [
+    "A group of large iron-banded barrels, all lying on their sides, are aligned in one corner of the room.  A line of smaller barrels is stacked from floor to ceiling against the west wall.  An oval table stands in the middle of the room, with four small kegs placed around it like stools.  A layer of fine dust covers everything."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
   "wayto": {
     "11596": "east",
     "11598": "south"
   },
-  "paths": [
-    "Obvious exits: east, south"
-  ],
+  "timeto": {
+    "11596": 0.2,
+    "11598": 0.2
+  },
+  "image": "rr-maelstrom-1266390501.png",
   "image_coords": [
     168,
     645,
     178,
     655
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A group of large iron-banded barrels, all lying on their sides, are aligned in one corner of the room.  A line of smaller barrels is stacked from floor to ceiling against the west wall.  An oval table stands in the middle of the room, with four small kegs placed around it like stools.  A layer of fine dust covers everything."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "indoors",
-  "title": [
-    "[Smuggler's Lair, Storage]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11596": 0.2,
-    "11598": 0.2
-  },
-  "id": 11597,
-  "location": "the Shattered Moors",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

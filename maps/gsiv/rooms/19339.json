@@ -1,38 +1,30 @@
 {
-  "wayto": {
-    "14121": "south",
-    "5692": {
-      "stringproc": "2a8ae81efc1e03f55c705690d59c92ef"
-    },
-    "5410": {
-      "stringproc": "d49f68db42585e2b2383f7c7f502fa1a"
-    }
-  },
-  "paths": [
-    "Obvious exits: east, south, west"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Tight and cramped, the second floor of the warehouse is new construction.  Underfoot, unfinished wooden floors sport frequent bent nails, and whitewashed panels of unanded pine make up the walls.  Narrow, low hallways lead off to the east, south, and west."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 19339,
   "title": [
     "[Warehouse, Second Floor Hall]"
   ],
-  "check_location": null,
+  "description": [
+    "Tight and cramped, the second floor of the warehouse is new construction.  Underfoot, unfinished wooden floors sport frequent bent nails, and whitewashed panels of unanded pine make up the walls.  Narrow, low hallways lead off to the east, south, and west."
+  ],
+  "paths": [
+    "Obvious exits: east, south, west"
+  ],
+  "location": "Solhaven",
+  "wayto": {
+    "14121": "south",
+    "5692": {
+      "file": "string_procs/wayto/19339_5692.rb"
+    },
+    "5410": {
+      "file": "string_procs/wayto/19339_5410.rb"
+    }
+  },
   "timeto": {
     "14121": 0.2,
     "5692": 0.4,
     "5410": 0.4
   },
-  "id": 19339,
-  "location": "Solhaven",
   "tags": [
     "no-auto-map"
-  ],
-  "links": [
-
   ]
 }

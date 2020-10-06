@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "6580": "climb staircase"
-  },
+  "id": 6581,
+  "title": [
+    "[Turret]"
+  ],
+  "description": [
+    "A narrow staircase ends here in the tower's summit.  Large shapes, crates and boxes that miraculously survived time lurk against sloping walls that form an arch overhead.  Little sounds in the shadows give evidence of mice scurrying about."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "Castle Anwyn",
+  "wayto": {
+    "6580": "climb staircase"
+  },
+  "timeto": {
+    "6580": 0.2
+  },
+  "image": "wl-lysierian-1264234799.png",
   "image_coords": [
     1017,
     423,
     1027,
     433
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A narrow staircase ends here in the tower's summit.  Large shapes, crates and boxes that miraculously survived time lurk against sloping walls that form an arch overhead.  Little sounds in the shadows give evidence of mice scurrying about."
-  ],
-  "image": "wl-lysierian-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Turret]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6580": 0.2
-  },
-  "id": 6581,
-  "location": "Castle Anwyn",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

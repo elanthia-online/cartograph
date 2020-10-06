@@ -1,33 +1,30 @@
 {
+  "id": 967,
+  "title": [
+    "[Whistler's Pass]"
+  ],
+  "description": [
+    "The rocky cleft narrows and twists, a massive shard of stone partially blocking the already tight passage.  Apparently having dislodged from one of the walls, the enormous shard leans precariously across the cleft, its fractured base surrounded by a small field of broken and slivered rocks which crunch and grate underfoot."
+  ],
+  "paths": [
+    "Obvious paths: southwest, northwest"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "966": "northwest",
     "968": "southwest"
   },
-  "paths": [
-    "Obvious paths: southwest, northwest"
-  ],
+  "timeto": {
+    "966": 0.2,
+    "968": 0.2
+  },
+  "image": "en-whistlers_pass-1264234799.png",
   "image_coords": [
     296,
     1378,
     306,
     1388
   ],
-  "terrain": "mountainous",
-  "description": [
-    "The rocky cleft narrows and twists, a massive shard of stone partially blocking the already tight passage.  Apparently having dislodged from one of the walls, the enormous shard leans precariously across the cleft, its fractured base surrounded by a small field of broken and slivered rocks which crunch and grate underfoot."
-  ],
-  "image": "en-whistlers_pass-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Whistler's Pass]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "966": 0.2,
-    "968": 0.2
-  },
-  "id": 967,
-  "location": "Whistler's Pass",
   "tags": [
     "marallis berry",
     "cuctucae berry",
@@ -42,10 +39,6 @@
     "cluster of butterflyweed",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

@@ -1,42 +1,32 @@
 {
-  "wayto": {
-    "15992": "climb ladder",
-    "14070": {
-      "stringproc": "6edf79dc52b959138f812d805e6ecca5"
-    },
-    "16807": "go stairs"
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": [
-    512,
-    225,
-    522,
-    235
-  ],
-  "terrain": "indoors",
-  "description": [
-    "You find yourself in a small roughly hewn stone room.  Moss and lichen carpet the walls and floor, giving the area a musty scent.  In the south corner of the room you see some moss covered stairs heading down into the gloom, the sound of dripping water echoing up to you.  A rusty iron ladder leads up through the ceiling into darkness."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "indoors",
+  "id": 15991,
   "title": [
     "[Hidden Tunnel]"
   ],
-  "check_location": null,
+  "description": [
+    "You find yourself in a small roughly hewn stone room.  Moss and lichen carpet the walls and floor, giving the area a musty scent.  In the south corner of the room you see some moss covered stairs heading down into the gloom, the sound of dripping water echoing up to you.  A rusty iron ladder leads up through the ceiling into darkness."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Castle Varunar",
+  "wayto": {
+    "15992": "climb ladder",
+    "14070": {
+      "file": "string_procs/wayto/15991_14070.rb"
+    },
+    "16807": "go stairs"
+  },
   "timeto": {
     "15992": 0.2,
     "14070": 0.4,
     "16807": 0.2
   },
-  "id": 15991,
-  "location": "Castle Varunar",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "vo-trail-1264234799.png",
+  "image_coords": [
+    512,
+    225,
+    522,
+    235
   ]
 }

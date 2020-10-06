@@ -1,38 +1,28 @@
 {
+  "id": 5404,
+  "title": [
+    "[Ruined Courtyard]"
+  ],
+  "description": [
+    "The pale form of the tall ivory spire dwarfs all else within the courtyard, but while it is clearly visible, a gnarled mass of thorns and bushes is blocking any path towards the tower.  It is almost as if those who designed the structure only wished there to be the one point of entrance."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Bonespear Tower",
   "wayto": {
     "5403": "north",
     "5405": "south"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "5403": 0.2,
+    "5405": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     1250,
     933,
     1260,
     943
-  ],
-  "terrain": "missing",
-  "description": [
-    "The pale form of the tall ivory spire dwarfs all else within the courtyard, but while it is clearly visible, a gnarled mass of thorns and bushes is blocking any path towards the tower.  It is almost as if those who designed the structure only wished there to be the one point of entrance."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "missing",
-  "title": [
-    "[Ruined Courtyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5403": 0.2,
-    "5405": 0.2
-  },
-  "id": 5404,
-  "location": "Bonespear Tower",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

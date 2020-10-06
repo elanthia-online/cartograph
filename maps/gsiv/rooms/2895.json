@@ -1,66 +1,37 @@
 {
-  "wayto": {
-    "2894": {
-      "stringproc": "a5f9e65f5c52ab3a318505b4145618cc"
-    },
-    "2896": {
-      "stringproc": "3e154b8c4cde86b26a253f1601170992"
-    }
-  },
+  "id": 2895,
+  "title": [
+    "[Southern Slopes, Icy Climb]"
+  ],
+  "description": [
+    "Wind carved cornices stretch across the snow filled basin, as if frozen ripples in a shimmering white pond.  Formed by snow packed high upon flat spots in the slope, one will occasionally crack, sending a rush of powder sliding downwards.  Luckily, none of these avalanches are large enough to be dangerous.",
+    "Wind carved cornices stretch across the snow filled basin, as if frozen ripples in a shadowy white pond.  Formed by snow packed high upon flat spots in the slope, one will occasionally crack, sending a rush of powder sliding downwards.  Luckily, none of these avalanches are large enough to be dangerous."
+  ],
   "paths": [
     "Obvious paths: up, down"
   ],
+  "location": "the Sleeping Lady Mountains",
+  "wayto": {
+    "2894": {
+      "file": "string_procs/wayto/2895_2894.rb"
+    },
+    "2896": {
+      "file": "string_procs/wayto/2895_2896.rb"
+    }
+  },
+  "timeto": {
+    "2894": 7.0,
+    "2896": 7.0
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     1105,
     259,
     1115,
     269
   ],
-  "terrain": "mountainous",
-  "description": [
-    "Wind carved cornices stretch across the snow filled basin, as if frozen ripples in a shimmering white pond.  Formed by snow packed high upon flat spots in the slope, one will occasionally crack, sending a rush of powder sliding downwards.  Luckily, none of these avalanches are large enough to be dangerous.",
-    "Wind carved cornices stretch across the snow filled basin, as if frozen ripples in a shadowy white pond.  Formed by snow packed high upon flat spots in the slope, one will occasionally crack, sending a rush of powder sliding downwards.  Luckily, none of these avalanches are large enough to be dangerous."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Southern Slopes, Icy Climb]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2894": 7.0,
-    "2896": 7.0
-  },
-  "id": 2895,
-  "location": "the Sleeping Lady Mountains",
   "tags": [
     "sweetfern stalk",
-    "small loganberry",
-    "sassafras leaf",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "edelweiss",
-    "iceblossoms",
-    "snow lily",
-    "winter rose",
-    "arctic moss",
-    "tundra grass",
-    "golden aster",
-    "calamintha blossom",
-    "snowberries",
-    "pale thornberry",
-    "red winterberry",
-    "rockberry",
-    "crowberry",
-    "lingonberry",
-    "orange rowanberry",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "small loganberry"
   ]
 }

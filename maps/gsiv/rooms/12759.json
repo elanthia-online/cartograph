@@ -1,38 +1,28 @@
 {
+  "id": 12759,
+  "title": [
+    "[Ruined Temple, Second Floor]"
+  ],
+  "description": [
+    "The sounds of the sea echo fiercely through the hallway, and a chilled breeze swirls through the area.  The walls are scorched and burned more severely here, and several portions of them are covered by a thick layer of ash."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "the Ruined Temple",
   "wayto": {
     "12758": "north",
     "12761": "west"
   },
-  "paths": [
-    "Obvious exits: north, west"
-  ],
+  "timeto": {
+    "12758": 0.2,
+    "12761": 0.2
+  },
+  "image": "ti-nelemar-1262373036.png",
   "image_coords": [
     945,
     303,
     981,
     339
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The sounds of the sea echo fiercely through the hallway, and a chilled breeze swirls through the area.  The walls are scorched and burned more severely here, and several portions of them are covered by a thick layer of ash."
-  ],
-  "image": "ti-nelemar-1262373036.png",
-  "climate": "indoors",
-  "title": [
-    "[Ruined Temple, Second Floor]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "12758": 0.2,
-    "12761": 0.2
-  },
-  "id": 12759,
-  "location": "the Ruined Temple",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,46 +1,31 @@
 {
+  "id": 8451,
+  "title": [
+    "[Upper Trollfang, Sentoph]"
+  ],
+  "description": [
+    "A great rounded chunk of the mountain is missing, as though some giant took a bite out of it.  You pick your way around the arc, careful not to lose your footing lest you follow the path of the broken rocks to the shattered bottom."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "8450": "northeast",
     "8452": "south"
   },
-  "paths": [
-    "Obvious paths: northeast, south"
-  ],
+  "timeto": {
+    "8450": 0.2,
+    "8452": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     508,
     637,
     518,
     647
   ],
-  "terrain": "mountainous",
-  "description": [
-    "A great rounded chunk of the mountain is missing, as though some giant took a bite out of it.  You pick your way around the arc, careful not to lose your footing lest you follow the path of the broken rocks to the shattered bottom."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Upper Trollfang, Sentoph]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8450": 0.2,
-    "8452": 0.2
-  },
-  "id": 8451,
-  "location": "the Upper Trollfang",
   "tags": [
-    "some angelica root",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "sprig of holly",
-    "ironfern root",
-    "sunburst blossom",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some angelica root"
   ]
 }

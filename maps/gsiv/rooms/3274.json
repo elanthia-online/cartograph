@@ -1,38 +1,28 @@
 {
+  "id": 3274,
+  "title": [
+    "[Ice Plains, Dark Cavern]"
+  ],
+  "description": [
+    "The tunnel is cramped as years of ice have accumulated around the somewhat cylindrical walls.  Although slippery and dangerous, the passage is still passable and leads deeper under the hill."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the Ice Plains",
   "wayto": {
     "3275": "north",
     "3264": "go open"
   },
-  "paths": [
-    "Obvious exits: north"
-  ],
+  "timeto": {
+    "3275": 0.2,
+    "3264": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     316,
     353,
     326,
     363
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The tunnel is cramped as years of ice have accumulated around the somewhat cylindrical walls.  Although slippery and dangerous, the passage is still passable and leads deeper under the hill."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Ice Plains, Dark Cavern]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3275": 0.2,
-    "3264": 0.2
-  },
-  "id": 3274,
-  "location": "the Ice Plains",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

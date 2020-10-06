@@ -1,34 +1,31 @@
 {
+  "id": 793,
+  "title": [
+    "[Whistler's Pass, Icy Crags]"
+  ],
+  "description": [
+    "A row of ice-laden crags forms a precarious staircase on the side of the mountain leading to the rocky ledge above.  The view from the steps is breathtaking, the distant peaks of the DragonSpine glistening in the moonlight, though your attention is better placed at your feet.",
+    "A row of ice-laden crags forms a precarious staircase on the side of the mountain leading to the rocky ledge above.  The view from the steps is breathtaking, the distant peaks of the DragonSpine shining in the distance, though your attention is better placed at your feet."
+  ],
+  "paths": [
+    "Obvious paths: south, up"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "792": "up",
     "794": "south"
   },
-  "paths": [
-    "Obvious paths: south, up"
-  ],
+  "timeto": {
+    "792": 0.2,
+    "794": 0.2
+  },
+  "image": "en-whistlers_pass-1264234799.png",
   "image_coords": [
     870,
     297,
     880,
     307
   ],
-  "terrain": "mountainous",
-  "description": [
-    "A row of ice-laden crags forms a precarious staircase on the side of the mountain leading to the rocky ledge above.  The view from the steps is breathtaking, the distant peaks of the DragonSpine glistening in the moonlight, though your attention is better placed at your feet.",
-    "A row of ice-laden crags forms a precarious staircase on the side of the mountain leading to the rocky ledge above.  The view from the steps is breathtaking, the distant peaks of the DragonSpine shining in the distance, though your attention is better placed at your feet."
-  ],
-  "image": "en-whistlers_pass-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Whistler's Pass, Icy Crags]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "792": 0.2,
-    "794": 0.2
-  },
-  "id": 793,
-  "location": "Whistler's Pass",
   "tags": [
     "sassafras leaf",
     "sweetfern stalk",
@@ -36,10 +33,6 @@
     "valerian root",
     "pennyroyal stem",
     "sprig of holly",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

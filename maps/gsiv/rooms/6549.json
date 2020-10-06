@@ -1,65 +1,34 @@
 {
+  "id": 6549,
+  "title": [
+    "[Shores of Lough Ne'halin]"
+  ],
+  "description": [
+    "The path meanders closer to the lake, rocks covered in moss and moisture, making for treacherous footing.  Water laps gently against the stones, the sound a quiet refrain.  To the south, a copse of trees stands in silent vigil, a guardian to this shore."
+  ],
+  "paths": [
+    "Obvious paths: south, southwest, west"
+  ],
+  "location": "Noralgar Forest",
   "wayto": {
     "6547": "southwest",
     "6548": "south",
     "6550": "west"
   },
-  "paths": [
-    "Obvious paths: south, southwest, west"
-  ],
+  "timeto": {
+    "6547": 0.2,
+    "6548": 0.2,
+    "6550": 0.2
+  },
+  "image": "wl-lysierian-1264234799.png",
   "image_coords": [
     960,
     914,
     970,
     924
   ],
-  "terrain": "grassland",
-  "description": [
-    "The path meanders closer to the lake, rocks covered in moss and moisture, making for treacherous footing.  Water laps gently against the stones, the sound a quiet refrain.  To the south, a copse of trees stands in silent vigil, a guardian to this shore."
-  ],
-  "image": "wl-lysierian-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Shores of Lough Ne'halin]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6547": 0.2,
-    "6548": 0.2,
-    "6550": 0.2
-  },
-  "id": 6549,
-  "location": "Noralgar Forest",
   "tags": [
     "cuctucae berry",
-    "golden aster",
-    "acantha leaf",
-    "wolifrew lichen",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "soft white mushroom",
-    "withered black mushroom",
-    "white hook mushroom",
-    "blue trafel mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "wild strawberry",
-    "stalk of chicory",
-    "sprig of larkspur",
-    "small wild rose",
-    "wild chokecherry",
-    "bright red cranberry",
-    "luckbloom blossom",
-    "murdroot",
-    "wavepetal blossom",
-    "ironfern root",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "golden aster"
   ]
 }

@@ -1,33 +1,30 @@
 {
+  "id": 13998,
+  "title": [
+    "[Castle Varunar, Outer Ward]"
+  ],
+  "description": [
+    "As you look across the inner ward, gritty dirt gives way to a living granite platform that rises thirty feet above your head.  The sheer granite incline ends in another set of walls and appears to be some sort of inner keep."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Castle Varunar",
   "wayto": {
     "13988": "west",
     "13999": "east"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "13988": 0.2,
+    "13999": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     700,
     393,
     710,
     403
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "As you look across the inner ward, gritty dirt gives way to a living granite platform that rises thirty feet above your head.  The sheer granite incline ends in another set of walls and appears to be some sort of inner keep."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Castle Varunar, Outer Ward]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "13988": 0.2,
-    "13999": 0.2
-  },
-  "id": 13998,
-  "location": "Castle Varunar",
   "tags": [
     "some sovyn clove",
     "some acantha leaf",
@@ -44,23 +41,6 @@
     "small daisy",
     "yellow primrose",
     "small flower",
-    "white baneberry",
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "angelica root",
-    "withered black mushroom",
-    "sprig of alyssum",
-    "heath aster",
-    "motherwort",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "white baneberry"
   ]
 }

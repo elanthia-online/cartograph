@@ -1,4 +1,15 @@
 {
+  "id": 6200,
+  "title": [
+    "[Labyrinth, Crossroads]"
+  ],
+  "description": [
+    "Dimly glowing firepits rest along the base of the wall with increased regularity, vastly improving area visibility.  The path opens at a large granite archway carved into the stone walls, though what lies beyond is shrouded in darkness."
+  ],
+  "paths": [
+    "Obvious exits: east, southwest, west, northwest"
+  ],
+  "location": "The Hidden Plateau",
   "wayto": {
     "6201": "northwest",
     "6247": "go archway",
@@ -6,25 +17,6 @@
     "6199": "west",
     "6211": "southwest"
   },
-  "paths": [
-    "Obvious exits: east, southwest, west, northwest"
-  ],
-  "image_coords": [
-    943,
-    401,
-    979,
-    437
-  ],
-  "terrain": null,
-  "description": [
-    "Dimly glowing firepits rest along the base of the wall with increased regularity, vastly improving area visibility.  The path opens at a large granite archway carved into the stone walls, though what lies beyond is shrouded in darkness."
-  ],
-  "image": "wl-wehntoph-1310775397.png",
-  "climate": null,
-  "title": [
-    "[Labyrinth, Crossroads]"
-  ],
-  "check_location": null,
   "timeto": {
     "6201": 0.2,
     "6247": 0.2,
@@ -32,8 +24,13 @@
     "6199": 0.2,
     "6211": 0.2
   },
-  "id": 6200,
-  "location": "The Hidden Plateau",
+  "image": "wl-wehntoph-1310775397.png",
+  "image_coords": [
+    943,
+    401,
+    979,
+    437
+  ],
   "tags": [
     "some cave moss",
     "black hook mushroom",
@@ -41,8 +38,5 @@
     "blue trafel mushroom",
     "red trafel mushroom",
     "foe:minotaur warrior"
-  ],
-  "links": [
-
   ]
 }

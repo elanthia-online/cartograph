@@ -1,53 +1,30 @@
 {
-  "wayto": {
-    "1024": {
-      "stringproc": "9590942d1a88b2181668d041e5f982d5"
-    },
-    "1026": "southeast"
-  },
+  "id": 1025,
+  "title": [
+    "[Western DragonSpine, Slope]"
+  ],
+  "description": [
+    "The thin ledge slowly disappears against the mountain towards the northwest, leaving the ledge to the southeast or the sheer rock cliff leading upward the only directions of travel.  The damp, cold air creates a raw atmosphere, its heavy mist blanketing the area.  Green and brown moss clings to many of the jagged rocks forming the ledge and wall of the mountain."
+  ],
   "paths": [
     "Obvious paths: southeast"
   ],
+  "location": "between Wehnimer's Landing and Zul Logoth",
+  "wayto": {
+    "1024": {
+      "file": "string_procs/wayto/1025_1024.rb"
+    },
+    "1026": "southeast"
+  },
+  "timeto": {
+    "1024": 0.2,
+    "1026": 0.2
+  },
+  "image": "en-trail-1264234799.png",
   "image_coords": [
     1294,
     338,
     1304,
     348
-  ],
-  "terrain": "mountainous",
-  "description": [
-    "The thin ledge slowly disappears against the mountain towards the northwest, leaving the ledge to the southeast or the sheer rock cliff leading upward the only directions of travel.  The damp, cold air creates a raw atmosphere, its heavy mist blanketing the area.  Green and brown moss clings to many of the jagged rocks forming the ledge and wall of the mountain."
-  ],
-  "image": "en-trail-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Western DragonSpine, Slope]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1024": 0.2,
-    "1026": 0.2
-  },
-  "id": 1025,
-  "location": "Khazar's Hold",
-  "tags": [
-    "marallis berry",
-    "cuctucae berry",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "sprig of larkspur",
-    "ironfern root",
-    "sunburst blossom",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

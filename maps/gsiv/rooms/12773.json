@@ -1,35 +1,32 @@
 {
+  "id": 12773,
+  "title": [
+    "[Eye of V'Tull, Inner Circle]"
+  ],
+  "description": [
+    "A lava flow blocks the passage to the southwest, yet you can see the cavern continues further on the other side.  The pouring stream of fresh lava builds a wall of heat that would turn back all but those of great resolve.  The ash shifts beneath your feet the closer you edge towards the lava flow."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast"
+  ],
+  "location": "the Eye of V'Tull",
   "wayto": {
     "12771": "north",
     "12772": "northeast",
     "2207": "jump flow"
   },
-  "paths": [
-    "Obvious exits: north, northeast"
-  ],
+  "timeto": {
+    "12771": 0.2,
+    "12772": 0.2,
+    "2207": 2.0
+  },
+  "image": "ti-vtull-1264234799.png",
   "image_coords": [
     688,
     735,
     696,
     743
   ],
-  "terrain": "indoors",
-  "description": [
-    "A lava flow blocks the passage to the southwest, yet you can see the cavern continues further on the other side.  The pouring stream of fresh lava builds a wall of heat that would turn back all but those of great resolve.  The ash shifts beneath your feet the closer you edge towards the lava flow."
-  ],
-  "image": "ti-vtull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Eye of V'Tull, Inner Circle]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "12771": 0.2,
-    "12772": 0.2,
-    "2207": 2.0
-  },
-  "id": 12773,
-  "location": "the Eye of V'Tull",
   "tags": [
     "withered black mushroom",
     "some bolmara lichen",
@@ -39,13 +36,6 @@
     "black trafel mushroom",
     "daggerstalk mushroom",
     "some cave moss",
-    "pepperthorn root",
-    "cave moss",
-    "murdroot",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "pepperthorn root"
   ]
 }

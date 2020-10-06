@@ -1,33 +1,30 @@
 {
+  "id": 3113,
+  "title": [
+    "[Bramble Ravine]"
+  ],
+  "description": [
+    "Without a covering of greenery or a redeeming offering of berries, the brambles twist and grope like writhing snakes.  A cold mist rises from the ground in a chilly caress."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Abandoned Farm",
   "wayto": {
     "3112": "south",
     "3114": "north"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "3112": 0.2,
+    "3114": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     883,
     407,
     893,
     417
   ],
-  "terrain": "rough",
-  "description": [
-    "Without a covering of greenery or a redeeming offering of berries, the brambles twist and grope like writhing snakes.  A cold mist rises from the ground in a chilly caress."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Bramble Ravine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3112": 0.2,
-    "3114": 0.2
-  },
-  "id": 3113,
-  "location": "the Abandoned Farm",
   "tags": [
     "wild strawberry",
     "stalk of chicory",
@@ -40,14 +37,6 @@
     "wintergreen leaf",
     "bright red teaberry",
     "wild chokecherry",
-    "wraith",
-    "blueberries",
-    "bearberries",
-    "broken twig",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wraith"
   ]
 }

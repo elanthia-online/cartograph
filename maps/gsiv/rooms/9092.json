@@ -1,41 +1,31 @@
 {
+  "id": 9092,
+  "title": [
+    "[Infested Tunnels, Rat's Nest]"
+  ],
+  "description": [
+    "A crack in the ceiling lets a glimmer of light into the gloom.  The light draws a line along the ground like an arrow pointing upward.  Perhaps some kind of deity is suggesting the way out."
+  ],
+  "paths": [
+    "Obvious exits: southwest, up"
+  ],
+  "location": "the subterranean tunnels",
   "wayto": {
     "9088": "southwest",
     "9091": "up"
   },
-  "paths": [
-    "Obvious exits: southwest, up"
-  ],
+  "timeto": {
+    "9088": 0.2,
+    "9091": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     1350,
     278,
     1360,
     288
   ],
-  "terrain": "indoors",
-  "description": [
-    "A crack in the ceiling lets a glimmer of light into the gloom.  The light draws a line along the ground like an arrow pointing upward.  Perhaps some kind of deity is suggesting the way out."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Infested Tunnels, Rat's Nest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9088": 0.2,
-    "9091": 0.2
-  },
-  "id": 9092,
-  "location": "the subterranean tunnels",
   "tags": [
-    "some wolifrew lichen",
-    "wolifrew lichen",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wolifrew lichen"
   ]
 }

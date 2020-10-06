@@ -1,35 +1,32 @@
 {
+  "id": 7256,
+  "title": [
+    "[Wormwood Slough, Burial Pits]"
+  ],
+  "description": [
+    "Stinking mud seeps into the large rectangular depressions sunk here and there into the relatively dry ground of this rise.  Some of the filled pits to the south of the path bear markers, but no names grace the stones above the mass graves.  Those who lie beneath the markers were likely nameless even in life, and clearly none there are lamented now."
+  ],
+  "paths": [
+    "Obvious paths: north, east, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7261": "west",
     "7255": "east",
     "7257": "north"
   },
-  "paths": [
-    "Obvious paths: north, east, west"
-  ],
+  "timeto": {
+    "7261": 0.2,
+    "7255": 0.2,
+    "7257": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     81,
     559,
     91,
     569
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "Stinking mud seeps into the large rectangular depressions sunk here and there into the relatively dry ground of this rise.  Some of the filled pits to the south of the path bear markers, but no names grace the stones above the mass graves.  Those who lie beneath the markers were likely nameless even in life, and clearly none there are lamented now."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "humid",
-  "title": [
-    "[Wormwood Slough, Burial Pits]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7261": 0.2,
-    "7255": 0.2,
-    "7257": 0.2
-  },
-  "id": 7256,
-  "location": "the Graveyard",
   "tags": [
     "some pothinir grass",
     "wintergreen leaf",
@@ -55,10 +52,6 @@
     "wild chokecherry",
     "murkweed",
     "blue whortleberry",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

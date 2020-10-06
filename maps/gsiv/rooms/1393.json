@@ -1,33 +1,30 @@
 {
+  "id": 1393,
+  "title": [
+    "[Cairnfang Pineforest]"
+  ],
+  "description": [
+    "Beneath the shadow of tall pines, a small log-and-plank bridge spans a tributary of the Cairnfang River."
+  ],
+  "paths": [
+    "Obvious paths: southwest"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "1392": "go bridge",
     "1394": "southwest"
   },
-  "paths": [
-    "Obvious paths: southwest"
-  ],
+  "timeto": {
+    "1392": 0.2,
+    "1394": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     1258,
     622,
     1268,
     632
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "Beneath the shadow of tall pines, a small log-and-plank bridge spans a tributary of the Cairnfang River."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Cairnfang Pineforest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1392": 0.2,
-    "1394": 0.2
-  },
-  "id": 1393,
-  "location": "the Cairnfang",
   "tags": [
     "oxblood lily",
     "some brostheras grass",
@@ -72,10 +69,6 @@
     "twisted twig",
     "ebony twig",
     "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

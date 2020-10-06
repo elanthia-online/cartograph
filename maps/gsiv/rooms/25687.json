@@ -1,37 +1,30 @@
 {
-  "wayto": {
-    "21323": {
-      "stringproc": "f79ad86ac670a5e24068f467e6bad456"
-    },
-    "25688": "go opening"
-  },
+  "id": 25687,
+  "title": [
+    "[House Brigatta, Secret Tunnel]"
+  ],
+  "description": [
+    "The tunnel is quite dry and has a hard dirt floor.  It ends against a blank wall with no way to get out.  At the other end is a curtained opening."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "Wehnimer's Landing",
+  "wayto": {
+    "21323": {
+      "file": "string_procs/wayto/25687_21323.rb"
+    },
+    "25688": "go opening"
+  },
+  "timeto": {
+    "21323": 0.6,
+    "25688": 0.2
+  },
+  "image": "wl-brigatta.jpg",
   "image_coords": [
     51,
     290,
     133,
     342
-  ],
-  "terrain": null,
-  "description": [
-    "The tunnel is quite dry and has a hard dirt floor.  It ends against a blank wall with no way to get out.  At the other end is a curtained opening."
-  ],
-  "image": "wl-brigatta.jpg",
-  "climate": null,
-  "title": [
-    "[House Brigatta, Secret Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "21323": 0.6,
-    "25688": 0.2
-  },
-  "id": 25687,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  ]
 }

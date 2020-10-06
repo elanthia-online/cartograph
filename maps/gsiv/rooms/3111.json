@@ -1,39 +1,31 @@
 {
+  "id": 3111,
+  "title": [
+    "[Abandoned Farm, Yard]"
+  ],
+  "description": [
+    "The ravine has swallowed up the remains of the wooden fencing, while its companion brambles rear up to climb the lowest branches of the trees at the edge of the yard."
+  ],
+  "paths": [
+    "Obvious paths: southeast"
+  ],
+  "location": "the Abandoned Farm",
   "wayto": {
     "3110": "southeast",
     "24519": "go brambles"
   },
-  "paths": [
-    "Obvious paths: southeast"
-  ],
+  "timeto": {
+    "3110": 0.2,
+    "24519": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     756,
     408,
     766,
     418
   ],
-  "terrain": "hard, flat",
-  "description": [
-    "The ravine has swallowed up the remains of the wooden fencing, while its companion brambles rear up to climb the lowest branches of the trees at the edge of the yard."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Abandoned Farm, Yard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3110": 0.2,
-    "24519": 0.2
-  },
-  "id": 3111,
-  "location": "the Abandoned Farm",
   "tags": [
-    "wraith",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wraith"
   ]
 }

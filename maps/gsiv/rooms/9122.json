@@ -1,42 +1,34 @@
 {
+  "id": 9122,
+  "title": [
+    "[Subterranean Lake, Shore]"
+  ],
+  "description": [
+    "Before you stretches a vast underground lake.  The ceiling and the far shore are lost in darkness and mist, but there is enough water here to create small waves lapping at your feet.  As elsewhere in the great cavern, stalagmites rise out of the murky water.  Beyond them huddles the dark form of an island."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast, west"
+  ],
+  "location": "the subterranean tunnels",
   "wayto": {
     "9118": "north",
     "9123": "west",
     "9124": "southeast"
   },
-  "paths": [
-    "Obvious exits: north, southeast, west"
-  ],
+  "timeto": {
+    "9118": 0.2,
+    "9123": 0.2,
+    "9124": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     197,
     808,
     207,
     818
   ],
-  "terrain": "indoors",
-  "description": [
-    "Before you stretches a vast underground lake.  The ceiling and the far shore are lost in darkness and mist, but there is enough water here to create small waves lapping at your feet.  As elsewhere in the great cavern, stalagmites rise out of the murky water.  Beyond them huddles the dark form of an island."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Subterranean Lake, Shore]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9118": 0.2,
-    "9123": 0.2,
-    "9124": 0.2
-  },
-  "id": 9122,
-  "location": "the subterranean tunnels",
   "tags": [
     "murdroot",
-    "some orchil lichen",
-    "orchil lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some orchil lichen"
   ]
 }

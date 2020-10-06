@@ -1,38 +1,31 @@
 {
+  "id": 11404,
+  "title": [
+    "[Cavern]"
+  ],
+  "description": [
+    "The walls of the cavern slope randomly in various directions, leaving no secure path to navigate the tunnel.  Water drips down the rocky walls of the interior, and a louder continuous splashing sound can be heard from the north."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the Hidden Vale",
   "wayto": {
     "11403": "south",
     "11405": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "11403": 0.2,
+    "11405": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     747,
     1417,
     757,
     1427
   ],
-  "terrain": "indoors",
-  "description": [
-    "The walls of the cavern slope randomly in various directions, leaving no secure path to navigate the tunnel.  Water drips down the rocky walls of the interior, and a louder continuous splashing sound can be heard from the north."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Cavern]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11403": 0.2,
-    "11405": 0.2
-  },
-  "id": 11404,
-  "location": "the Hidden Vale",
   "tags": [
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

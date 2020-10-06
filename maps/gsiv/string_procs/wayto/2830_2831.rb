@@ -1,1 +1,2 @@
-empty_hands; move 'climb slope'
+empty_hands
+ move 'climb slope'

@@ -1,4 +1,15 @@
 {
+  "id": 3810,
+  "title": [
+    "[A Dark Cavern]"
+  ],
+  "description": [
+    "Though you feel the immense open space of this cavern, the darkness succeeds in hiding its boundaries.  Somewhere in the distance, a steady dripping joins the chorus of your echoing footsteps."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east, southeast, south, west"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "3815": "northeast",
     "3816": "south",
@@ -7,25 +18,6 @@
     "3813": "west",
     "3814": "north"
   },
-  "paths": [
-    "Obvious exits: north, northeast, east, southeast, south, west"
-  ],
-  "image_coords": [
-    542,
-    1269,
-    552,
-    1279
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Though you feel the immense open space of this cavern, the darkness succeeds in hiding its boundaries.  Somewhere in the distance, a steady dripping joins the chorus of your echoing footsteps."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[A Dark Cavern]"
-  ],
-  "check_location": null,
   "timeto": {
     "3815": 0.2,
     "3816": 0.2,
@@ -34,8 +26,13 @@
     "3813": 0.2,
     "3814": 0.2
   },
-  "id": 3810,
-  "location": "Darkstone Castle",
+  "image": "wl-darkstone-1264234799.png",
+  "image_coords": [
+    542,
+    1269,
+    552,
+    1279
+  ],
   "tags": [
     "red trafel mushroom",
     "withered black mushroom",
@@ -43,16 +40,6 @@
     "soft white mushroom",
     "some cave moss",
     "Sheruvian herbringer",
-    "nightmare steed",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "nightmare steed"
   ]
 }

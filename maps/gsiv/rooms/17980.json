@@ -1,39 +1,33 @@
 {
+  "id": 17980,
+  "title": [
+    "[Rogue Guild, Bar]"
+  ],
+  "description": [
+    "The tunnel opens out into a wide room, dimly lit by the flickering light of candles that burn on the dozen small oaken tables that have been set around the room, with a variety of cloth-covered crates and half-barrels serving as chairs.  A private curtained booth and a dark booth are set into one wall, and a long oaken bar runs along the north end of the room."
+  ],
+  "paths": [
+    "Obvious exits: south"
+  ],
+  "location": "the town of Icemule Trace",
   "wayto": {
     "17969": "south",
     "17981": "go dark booth",
     "17982": "go booth"
   },
-  "paths": [
-    "Obvious exits: south"
-  ],
+  "timeto": {
+    "17969": 0.2,
+    "17981": 0.2,
+    "17982": 0.2
+  },
+  "image": "imt-rogue_guild-1305438533.png",
   "image_coords": [
     412,
     175,
     440,
     201
   ],
-  "terrain": null,
-  "description": [
-    "The tunnel opens out into a wide room, dimly lit by the flickering light of candles that burn on the dozen small oaken tables that have been set around the room, with a variety of cloth-covered crates and half-barrels serving as chairs.  A private curtained booth and a dark booth are set into one wall, and a long oaken bar runs along the north end of the room."
-  ],
-  "image": "imt-rogue_guild-1305438533.png",
-  "climate": null,
-  "title": [
-    "[Rogue Guild, Bar]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "17969": 0.2,
-    "17981": 0.2,
-    "17982": 0.2
-  },
-  "id": 17980,
-  "location": "the town of Icemule Trace",
   "tags": [
     "rogue guild bar"
-  ],
-  "links": [
-
   ]
 }

@@ -1,38 +1,31 @@
 {
+  "id": 21998,
+  "title": [
+    "[The Murkwoods]"
+  ],
+  "description": [
+    "Towering trees surround the only passage through the woodlands, and the repeating scenery is troublesome for navigation, even for the most skilled woodsmen.  A lone wolf s howl echoes in the distance."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south"
+  ],
+  "location": "Talador",
   "wayto": {
     "21997": "northeast",
     "21999": "south"
   },
-  "paths": [
-    "Obvious paths: northeast, south"
-  ],
+  "timeto": {
+    "21997": 0.2,
+    "21999": 0.2
+  },
+  "image": "wl-talador-west-1392305660.png",
   "image_coords": [
     123,
     403,
     138,
     416
   ],
-  "terrain": null,
-  "description": [
-    "Towering trees surround the only passage through the woodlands, and the repeating scenery is troublesome for navigation, even for the most skilled woodsmen.  A lone wolf s howl echoes in the distance."
-  ],
-  "image": "wl-talador-west-1392305660.png",
-  "climate": null,
-  "title": [
-    "[The Murkwoods]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "21997": 0.2,
-    "21999": 0.2
-  },
-  "id": 21998,
-  "location": "Talador",
   "tags": [
     "set desc on; peer northeast =~ /^A fur-matted, four-legged creature scurries/"
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

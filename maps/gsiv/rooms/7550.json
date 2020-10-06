@@ -1,51 +1,35 @@
 {
+  "id": 7550,
+  "title": [
+    "[Catacombs, Dark Cavern]"
+  ],
+  "description": [
+    "The floor is littered with rubble and debris that varies in size from small rocks to huge boulders.  The perpetually dripping water mixes with dirt on the floor to make moving about extremely difficult without slipping.  A large gap on the northern wall recedes into the darkness beyond."
+  ],
+  "paths": [
+    "Obvious exits: north, east, southeast"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "7546": "east",
     "7551": "north",
     "7545": "southeast"
   },
-  "paths": [
-    "Obvious exits: north, east, southeast"
-  ],
+  "timeto": {
+    "7546": 0.2,
+    "7551": 0.2,
+    "7545": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     286,
     1068,
     296,
     1078
   ],
-  "terrain": "indoors",
-  "description": [
-    "The floor is littered with rubble and debris that varies in size from small rocks to huge boulders.  The perpetually dripping water mixes with dirt on the floor to make moving about extremely difficult without slipping.  A large gap on the northern wall recedes into the darkness beyond."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Catacombs, Dark Cavern]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7546": 0.2,
-    "7551": 0.2,
-    "7545": 0.2
-  },
-  "id": 7550,
-  "location": "the catacombs",
   "tags": [
     "some wingstem root",
     "some cave moss",
-    "black hook mushroom",
-    "red trafel mushroom",
-    "soft white mushroom",
-    "withered black mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "black hook mushroom"
   ]
 }

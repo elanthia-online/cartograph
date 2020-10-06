@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "6871": "south"
-  },
+  "id": 6872,
+  "title": [
+    "[Abandoned Inn, Gaming Room]"
+  ],
+  "description": [
+    "Card tables, dice bowls, and other implements for games of skill and chance sit about the room for public use.  Lanterns hang from the ceiling, giving off plenty of light to play games by.  Brightly colored rugs cover the floor with a gentle cacophony of shades."
+  ],
   "paths": [
     "Obvious exits: south"
   ],
+  "location": "the Abandoned Inn",
+  "wayto": {
+    "6871": "south"
+  },
+  "timeto": {
+    "6871": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     772,
     969,
     782,
     979
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Card tables, dice bowls, and other implements for games of skill and chance sit about the room for public use.  Lanterns hang from the ceiling, giving off plenty of light to play games by.  Brightly colored rugs cover the floor with a gentle cacophony of shades."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abandoned Inn, Gaming Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6871": 0.2
-  },
-  "id": 6872,
-  "location": "the Abandoned Inn",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

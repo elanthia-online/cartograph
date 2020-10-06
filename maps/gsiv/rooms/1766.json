@@ -1,45 +1,33 @@
 {
+  "id": 1766,
+  "title": [
+    "[Gossamer Valley, Blind Canyon]"
+  ],
+  "description": [
+    "A chasm crosses the glacier from wall to wall, cutting off movement to the north.  On the other side of the chasm a wide, sheltered cavern snuggles into the mountain face.  Many small bones, fur, and patches of frozen blood are scattered among the confused animal tracks in the snow, testimony to creatures that got trapped and killed by something much bigger.  The glacier descends to the southwest, narrowing as the mountains close in on it."
+  ],
+  "paths": [
+    "Obvious paths: down"
+  ],
+  "location": "Gossamer Valley",
   "wayto": {
     "9691": "jump chasm",
     "1765": "down"
   },
-  "paths": [
-    "Obvious paths: down"
-  ],
+  "timeto": {
+    "9691": 0.2,
+    "1765": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     338,
     438,
     348,
     448
   ],
-  "terrain": "mountainous",
-  "description": [
-    "A chasm crosses the glacier from wall to wall, cutting off movement to the north.  On the other side of the chasm a wide, sheltered cavern snuggles into the mountain face.  Many small bones, fur, and patches of frozen blood are scattered among the confused animal tracks in the snow, testimony to creatures that got trapped and killed by something much bigger.  The glacier descends to the southwest, narrowing as the mountains close in on it."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Gossamer Valley, Blind Canyon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9691": 0.2,
-    "1765": 0.2
-  },
-  "id": 1766,
-  "location": "Gossamer Valley",
   "tags": [
     "sweetfern stalk",
     "sprig of holly",
-    "some pennyroyal stem",
-    "sassafras leaf",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some pennyroyal stem"
   ]
 }

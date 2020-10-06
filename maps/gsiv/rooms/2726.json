@@ -1,33 +1,30 @@
 {
+  "id": 2726,
+  "title": [
+    "[Top of the World, Frozen Tundra]"
+  ],
+  "description": [
+    "The frozen tundra comes to an end here, at an arch of ice standing defiantly against the savage elements.  The arch leads into the largest mountain in the world, beyond it steps lead up the mountain before disappearing from sight.  To the west, the wasteland stretches on endlessly."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "the great mountain Aenatumgana",
   "wayto": {
     "2709": "go arch",
     "2727": "west"
   },
-  "paths": [
-    "Obvious paths: west"
-  ],
+  "timeto": {
+    "2709": 0.2,
+    "2727": 0.2
+  },
+  "image": "imt-pinefar-1264234799.png",
   "image_coords": [
     873,
     690,
     883,
     700
   ],
-  "terrain": "mountainous",
-  "description": [
-    "The frozen tundra comes to an end here, at an arch of ice standing defiantly against the savage elements.  The arch leads into the largest mountain in the world, beyond it steps lead up the mountain before disappearing from sight.  To the west, the wasteland stretches on endlessly."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "glacial",
-  "title": [
-    "[Top of the World, Frozen Tundra]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2709": 0.2,
-    "2727": 0.2
-  },
-  "id": 2726,
-  "location": "the great mountain Aenatumgana",
   "tags": [
     "sassafras leaf",
     "some angelica root",
@@ -41,18 +38,6 @@
     "some valerian root",
     "some red lichen",
     "some wyrmwood bark",
-    "red winterberry",
-    "red lichen",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "wyrmwood bark",
-    "daggit root",
-    "arctic moss",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "red winterberry"
   ]
 }

@@ -1,35 +1,32 @@
 {
+  "id": 10612,
+  "title": [
+    "[Lunule Weald, Zealot Village]"
+  ],
+  "description": [
+    "The blackened, skeletal remains of a burnt-out shack stand amongst its ashes and partially burned boards.  The roof and walls were burned and caved in, and only a couple of the corner posts still stand.  An acrid, burnt odor mingles with the musty smell of the fungus overtaking the decay of this small building."
+  ],
+  "paths": [
+    "Obvious paths: north, south, southwest"
+  ],
+  "location": "the Lunule Weald",
   "wayto": {
     "10611": "north",
     "10614": "south",
     "10615": "southwest"
   },
-  "paths": [
-    "Obvious paths: north, south, southwest"
-  ],
+  "timeto": {
+    "10611": 0.2,
+    "10614": 0.2,
+    "10615": 0.2
+  },
+  "image": "en-cemetery-1264234799.png",
   "image_coords": [
     1016,
     1391,
     1026,
     1401
   ],
-  "terrain": null,
-  "description": [
-    "The blackened, skeletal remains of a burnt-out shack stand amongst its ashes and partially burned boards.  The roof and walls were burned and caved in, and only a couple of the corner posts still stand.  An acrid, burnt odor mingles with the musty smell of the fungus overtaking the decay of this small building."
-  ],
-  "image": "en-cemetery-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Lunule Weald, Zealot Village]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10611": 0.2,
-    "10614": 0.2,
-    "10615": 0.2
-  },
-  "id": 10612,
-  "location": "the Lunule Weald",
   "tags": [
     "some bolmara lichen",
     "acantha leaf",
@@ -73,8 +70,5 @@
     "ebony twig",
     "bolmara lichen",
     "brostheras grass"
-  ],
-  "links": [
-
   ]
 }

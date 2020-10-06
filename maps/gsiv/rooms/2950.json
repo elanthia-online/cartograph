@@ -1,43 +1,34 @@
 {
-  "wayto": {
-    "2949": "west",
-    "2951": "south",
-    "2966": "east",
-    "2967": "north"
-  },
-  "paths": [
-    "Obvious paths: north, east, south, west"
-  ],
-  "image_coords": [
-    832,
-    644,
-    842,
-    654
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "The cloister arcade ends in an overgrown garden to the west.  The entrances to the abbey and to the chapel are in excellent condition, probably due to the protective covering of the high, vaulted covering."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "cold, dry",
+  "id": 2950,
   "title": [
     "[Abbey Cloistered Walk]"
   ],
-  "check_location": null,
+  "description": [
+    "The cloister arcade bends northward toward the abbey chapel and east toward the cells of the dorter.  To the west is a cultivated garden, from which the music of falling water and the perfume of wild roses beckons."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south, west",
+    "Obvious paths: north, east, west"
+  ],
+  "location": "the Abbey",
+  "wayto": {
+    "2949": "west",
+    "2966": "east",
+    "28867": "north"
+  },
   "timeto": {
     "2949": 0.2,
-    "2951": 0.2,
     "2966": 0.2,
-    "2967": 0.2
+    "28867": 0.2
   },
-  "id": 2950,
-  "location": "the Abbey",
-  "tags": [
-    "calmintha flower",
-    "nedum vereri",
-    "meta:forage-sensed"
+  "image": "imt-Abbey Map-51200831.png",
+  "image_coords": [
+    1658,
+    1058,
+    1762,
+    1166
   ],
-  "links": [
-
+  "tags": [
+    "calmintha flower"
   ]
 }

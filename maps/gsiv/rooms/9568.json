@@ -1,33 +1,30 @@
 {
+  "id": 9568,
+  "title": [
+    "[Czeroth Caverns, Tunnel]"
+  ],
+  "description": [
+    "With the exception of an occasional crevice, the redstone walls are worn smooth here.  Small piles of rubble on the floor make travel through the area slow."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest"
+  ],
+  "location": "the Czeroth Caverns",
   "wayto": {
     "9569": "southwest",
     "9567": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, southwest"
-  ],
+  "timeto": {
+    "9569": 0.2,
+    "9567": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     1213,
     213,
     1223,
     223
   ],
-  "terrain": "indoors",
-  "description": [
-    "With the exception of an occasional crevice, the redstone walls are worn smooth here.  Small piles of rubble on the floor make travel through the area slow."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Czeroth Caverns, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9569": 0.2,
-    "9567": 0.2
-  },
-  "id": 9568,
-  "location": "the Czeroth Caverns",
   "tags": [
     "some bolmara lichen",
     "genkew mushroom",
@@ -37,14 +34,6 @@
     "daggerstalk mushroom",
     "withered black mushroom",
     "pepperthorn root",
-    "some wingstem root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

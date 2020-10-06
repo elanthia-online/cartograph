@@ -1,4 +1,15 @@
 {
+  "id": 7052,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "Several tunnels intersect at this point, branching off in all directions.  You begin to wonder if any of the brave, desperate souls who dug them ever saw daylight."
+  ],
+  "paths": [
+    "Obvious exits: northeast, east, south, west, northwest"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "7053": "northwest",
     "7054": "northeast",
@@ -6,25 +17,6 @@
     "7059": "east",
     "7051": "west"
   },
-  "paths": [
-    "Obvious exits: northeast, east, south, west, northwest"
-  ],
-  "image_coords": [
-    295,
-    819,
-    305,
-    829
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Several tunnels intersect at this point, branching off in all directions.  You begin to wonder if any of the brave, desperate souls who dug them ever saw daylight."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
   "timeto": {
     "7053": 0.2,
     "7054": 0.2,
@@ -32,22 +24,18 @@
     "7059": 0.2,
     "7051": 0.2
   },
-  "id": 7052,
-  "location": "Darkstone Castle",
+  "image": "wl-darkstone-1264234799.png",
+  "image_coords": [
+    295,
+    819,
+    305,
+    829
+  ],
   "tags": [
     "some cave moss",
     "withered black mushroom",
     "some wingstem root",
     "some wolifrew lichen",
-    "roa'ter",
-    "wolifrew lichen",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "roa'ter"
   ]
 }

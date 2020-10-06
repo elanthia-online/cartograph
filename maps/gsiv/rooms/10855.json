@@ -1,40 +1,32 @@
 {
-  "wayto": {
-    "10856": "southeast"
-  },
+  "id": 10855,
+  "title": [
+    "[River's Rest, Sanctuary]"
+  ],
+  "description": [
+    "Deep in the forest rests a small shrine lovingly carved of the silvery haon wood that surrounds you.  Crickets chirping and the gentle rustling of leaves fill the air with a strong sense of life.  From somewhere nearby the gentle sound of running water completes the quiet symphony.  Little else disturbs the peace save for an occasional muted voice drifting on the breeze.",
+    "Deep in the forest rests a small shrine lovingly carved of the silvery haon wood that surrounds you.  Birdsong and the gentle rustling of leaves fill the air with a strong sense of life.  From somewhere nearby the gentle sound of running water completes the quiet symphony.  Little else disturbs the peace save for an occasional muted voice drifting on the breeze."
+  ],
   "paths": [
     "Obvious paths: southeast"
   ],
+  "location": "the town of River's Rest",
+  "wayto": {
+    "10856": "southeast"
+  },
+  "timeto": {
+    "10856": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     54,
     514,
     92,
     552
   ],
-  "terrain": "hard, flat",
-  "description": [
-    "Deep in the forest rests a small shrine lovingly carved of the silvery haon wood that surrounds you.  Crickets chirping and the gentle rustling of leaves fill the air with a strong sense of life.  From somewhere nearby the gentle sound of running water completes the quiet symphony.  Little else disturbs the peace save for an occasional muted voice drifting on the breeze.",
-    "Deep in the forest rests a small shrine lovingly carved of the silvery haon wood that surrounds you.  Birdsong and the gentle rustling of leaves fill the air with a strong sense of life.  From somewhere nearby the gentle sound of running water completes the quiet symphony.  Little else disturbs the peace save for an occasional muted voice drifting on the breeze."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "temperate",
-  "title": [
-    "[River's Rest, Sanctuary]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10856": 0.2
-  },
-  "id": 10855,
-  "location": "the town of River's Rest",
   "tags": [
     "node",
     "supernode",
-    "sanctuary",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sanctuary"
   ]
 }

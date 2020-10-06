@@ -1,38 +1,28 @@
 {
+  "id": 11315,
+  "title": [
+    "[Alchemist, Bedroom]"
+  ],
+  "description": [
+    "A large maoral table dominates the room, making the narrow bed in the corner seem almost an afterthought.  Shards of crystal litter the floor from the remains of a broken vase, which probably once contained the dead lilies scattered beside a small, ornate trunk.  Dried ink glues several scrolls and diagrams to the table's scarred surface, but the same ink that holds the scrolls has stained them into illegibility."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11314": "east",
     "11316": "south"
   },
-  "paths": [
-    "Obvious exits: east, south"
-  ],
+  "timeto": {
+    "11314": 0.2,
+    "11316": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     807,
     752,
     817,
     762
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A large maoral table dominates the room, making the narrow bed in the corner seem almost an afterthought.  Shards of crystal litter the floor from the remains of a broken vase, which probably once contained the dead lilies scattered beside a small, ornate trunk.  Dried ink glues several scrolls and diagrams to the table's scarred surface, but the same ink that holds the scrolls has stained them into illegibility."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Alchemist, Bedroom]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11314": 0.2,
-    "11316": 0.2
-  },
-  "id": 11315,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

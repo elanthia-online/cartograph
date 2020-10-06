@@ -1,38 +1,28 @@
 {
+  "id": 9612,
+  "title": [
+    "[Tregg's Tavern]"
+  ],
+  "description": [
+    "Half-rotten beams precariously hold up the old roof of the tavern.  Bursts of air rush through the open windows and cracks in the walls, creating a chilly draft.  Grimy unfinished tables and chairs are scattered across the uneven floor.  Glasses of different shapes, sizes and colors sit on top of a shoddy rough shelf on the back wall."
+  ],
+  "paths": [
+    "Obvious exits: out"
+  ],
+  "location": "between Wehnimer's Landing and Zul Logoth",
   "wayto": {
     "9613": "go door",
     "1017": "out"
   },
-  "paths": [
-    "Obvious exits: out"
-  ],
+  "timeto": {
+    "9613": 0.2,
+    "1017": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     42,
     460,
     52,
     470
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Half-rotten beams precariously hold up the old roof of the tavern.  Bursts of air rush through the open windows and cracks in the walls, creating a chilly draft.  Grimy unfinished tables and chairs are scattered across the uneven floor.  Glasses of different shapes, sizes and colors sit on top of a shoddy rough shelf on the back wall."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Tregg's Tavern]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9613": 0.2,
-    "1017": 0.2
-  },
-  "id": 9612,
-  "location": "Khazar's Hold",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

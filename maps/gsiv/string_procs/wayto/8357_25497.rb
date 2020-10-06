@@ -1,1 +1,3 @@
-fput 'search'; waitrt?; move 'go tunnel'
+fput 'search'
+ waitrt?
+ move 'go tunnel'

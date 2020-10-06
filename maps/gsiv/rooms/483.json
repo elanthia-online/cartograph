@@ -1,33 +1,30 @@
 {
+  "id": 483,
+  "title": [
+    "[Coastal Cliffs]"
+  ],
+  "description": [
+    "Gravel from boulders ground down by time and harsh elements crunches beneath your feet.  Tiny saplings thrive in the shelter of old growth as the forest seems to close in around you."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "481": "east",
     "484": "west"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "481": 0.2,
+    "484": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     524,
     812,
     534,
     822
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "Gravel from boulders ground down by time and harsh elements crunches beneath your feet.  Tiny saplings thrive in the shelter of old growth as the forest seems to close in around you."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Coastal Cliffs]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "481": 0.2,
-    "484": 0.2
-  },
-  "id": 483,
-  "location": "the Coastal Cliffs",
   "tags": [
     "some acantha leaf",
     "some angelica root",
@@ -75,10 +72,6 @@
     "twisted twig",
     "slender twig",
     "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

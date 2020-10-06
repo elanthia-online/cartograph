@@ -1,33 +1,30 @@
 {
+  "id": 2282,
+  "title": [
+    "[Abandoned Mine]"
+  ],
+  "description": [
+    "The passage here is narrow, and care must be taken to avoid the sharp outcroppings jutting from the abrasive walls.  Despite the cramped space, the cargo railway continues on in both directions unimpeded.  To the east, a faintly flickering light can be seen further along the tunnel."
+  ],
+  "paths": [
+    "Obvious exits: east, southwest"
+  ],
+  "location": "the Abandoned Mine",
   "wayto": {
     "2280": "east",
     "2275": "southwest"
   },
-  "paths": [
-    "Obvious exits: east, southwest"
-  ],
+  "timeto": {
+    "2280": 0.2,
+    "2275": 0.2
+  },
+  "image": "ti-teras-1264234799.png",
   "image_coords": [
     693,
     1027,
     703,
     1037
   ],
-  "terrain": "indoors",
-  "description": [
-    "The passage here is narrow, and care must be taken to avoid the sharp outcroppings jutting from the abrasive walls.  Despite the cramped space, the cargo railway continues on in both directions unimpeded.  To the east, a faintly flickering light can be seen further along the tunnel."
-  ],
-  "image": "ti-teras-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Abandoned Mine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2280": 0.2,
-    "2275": 0.2
-  },
-  "id": 2282,
-  "location": "the Abandoned Mine",
   "tags": [
     "some cave moss",
     "flathead mushroom",
@@ -35,17 +32,6 @@
     "black hook mushroom",
     "daggerstalk mushroom",
     "withered black mushroom",
-    "some wingstem root",
-    "red trafel mushroom",
-    "soft white mushroom",
-    "genkew mushroom",
-    "cave moss",
-    "murdroot",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

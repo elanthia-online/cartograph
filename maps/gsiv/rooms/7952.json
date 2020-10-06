@@ -1,44 +1,31 @@
 {
-  "wayto": {
-    "7951": "west"
-  },
+  "id": 7952,
+  "title": [
+    "[Burrows, Guard Post]"
+  ],
+  "description": [
+    "Set down a short tunnel, this small room looks out onto the entry to the burrows.  From the look of heavy footprints in the dirt, it appears as if this is where guards stand, awaiting intruders as they enter the burrows.  Crude weapons stand in one corner, as well as a rough chair and bones left over from dinners taken on watch."
+  ],
   "paths": [
     "Obvious exits: west"
   ],
+  "location": "Melgorehn's Valley",
+  "wayto": {
+    "7951": "west"
+  },
+  "timeto": {
+    "7951": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     844,
     432,
     852,
     440
   ],
-  "terrain": "indoors",
-  "description": [
-    "Set down a short tunnel, this small room looks out onto the entry to the burrows.  From the look of heavy footprints in the dirt, it appears as if this is where guards stand, awaiting intruders as they enter the burrows.  Crude weapons stand in one corner, as well as a rough chair and bones left over from dinners taken on watch."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Burrows, Guard Post]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7951": 0.2
-  },
-  "id": 7952,
-  "location": "Melgorehn's Valley",
   "tags": [
     "some wolifrew lichen",
     "some cave moss",
-    "some wingstem root",
-    "wolifrew lichen",
-    "withered black mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

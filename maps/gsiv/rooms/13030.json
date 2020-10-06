@@ -1,39 +1,31 @@
 {
-  "wayto": {
-    "13029": "up"
-  },
+  "id": 13030,
+  "title": [
+    "[Bonespear Tower, Lever Room]"
+  ],
+  "description": [
+    "A gigantic metal lever is inset into the wall, but it seems to have no apparent use.  It does however make a very nice footstep to help crawl back up to the next floor."
+  ],
   "paths": [
     "Obvious exits: up"
   ],
+  "location": "Bonespear Tower",
+  "wayto": {
+    "13029": "up"
+  },
+  "timeto": {
+    "13029": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     871,
     929,
     881,
     939
   ],
-  "terrain": "indoors",
-  "description": [
-    "A gigantic metal lever is inset into the wall, but it seems to have no apparent use.  It does however make a very nice footstep to help crawl back up to the next floor."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Bonespear Tower, Lever Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "13029": 0.2
-  },
-  "id": 13030,
-  "location": "Bonespear Tower",
   "tags": [
     "waern",
     "dybbuk",
-    "eidolon",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "eidolon"
   ]
 }

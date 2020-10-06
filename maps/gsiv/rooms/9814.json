@@ -1,38 +1,28 @@
 {
+  "id": 9814,
+  "title": [
+    "[Maaghara Labyrinth]"
+  ],
+  "description": [
+    "Dark clay walls ascend toward the high ceiling, their rich brown hue mottled with countless tiny vein-like cracks.  A smooth earthen floor spreads out beneath you, featureless except for a few thin roots, which are barely visible beneath the dirt.  The steady drip of water can be heard in the distance, the echoes playing off the twists and turns of the labyrinth."
+  ],
+  "paths": [
+    "Obvious exits: southeast, southwest"
+  ],
+  "location": "the Maaghara Tower",
   "wayto": {
     "9811": "southwest",
     "9813": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast, southwest"
-  ],
+  "timeto": {
+    "9811": 0.2,
+    "9813": 0.2
+  },
+  "image": "en-tower-1264234799.png",
   "image_coords": [
     1150,
     409,
     1160,
     419
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Dark clay walls ascend toward the high ceiling, their rich brown hue mottled with countless tiny vein-like cracks.  A smooth earthen floor spreads out beneath you, featureless except for a few thin roots, which are barely visible beneath the dirt.  The steady drip of water can be heard in the distance, the echoes playing off the twists and turns of the labyrinth."
-  ],
-  "image": "en-tower-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Maaghara Labyrinth]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9811": 0.2,
-    "9813": 0.2
-  },
-  "id": 9814,
-  "location": "the Maaghara Tower",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

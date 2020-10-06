@@ -1,42 +1,32 @@
 {
+  "id": 5815,
+  "title": [
+    "[Zaerthu Tunnels, Narrow Pass]"
+  ],
+  "description": [
+    "A fallen wall support lies to one side of the tunnel, its replacement easily differentiated from its companions by its sharply squared corners and the faint scent of pitch still clinging to it.  The walls press close on either side, though the tunnel is still large enough to allow two burly men to walk abreast."
+  ],
+  "paths": [
+    "Obvious exits: northeast, west"
+  ],
+  "location": "the Zaerthu Tunnels",
   "wayto": {
     "5814": "west",
     "5816": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, west"
-  ],
+  "timeto": {
+    "5814": 0.2,
+    "5816": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     343,
     1002,
     353,
     1012
   ],
-  "terrain": "indoors",
-  "description": [
-    "A fallen wall support lies to one side of the tunnel, its replacement easily differentiated from its companions by its sharply squared corners and the faint scent of pitch still clinging to it.  The walls press close on either side, though the tunnel is still large enough to allow two burly men to walk abreast."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Zaerthu Tunnels, Narrow Pass]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5814": 0.2,
-    "5816": 0.2
-  },
-  "id": 5815,
-  "location": "the Zaerthu Tunnels",
   "tags": [
     "some wolifrew lichen",
-    "some wingstem root",
-    "wolifrew lichen",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

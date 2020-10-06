@@ -1,38 +1,28 @@
 {
+  "id": 9329,
+  "title": [
+    "[Underway, Tunnel]"
+  ],
+  "description": [
+    "Downhill the tunnel opens out into a cavern, the expanse hinted at by isolated patches of golden light.  Eastward the tunnel narrows, and enchanted sunstones light the carved stone floor at regular intervals."
+  ],
+  "paths": [
+    "Obvious exits: east, down"
+  ],
+  "location": "the Central Caravansary",
   "wayto": {
     "9328": "east",
     "9330": "down"
   },
-  "paths": [
-    "Obvious exits: east, down"
-  ],
+  "timeto": {
+    "9328": 0.2,
+    "9330": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     415,
     765,
     425,
     775
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Downhill the tunnel opens out into a cavern, the expanse hinted at by isolated patches of golden light.  Eastward the tunnel narrows, and enchanted sunstones light the carved stone floor at regular intervals."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Underway, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9328": 0.2,
-    "9330": 0.2
-  },
-  "id": 9329,
-  "location": "the Central Caravansary",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

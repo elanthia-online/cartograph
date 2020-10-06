@@ -1,41 +1,35 @@
 {
+  "id": 10686,
+  "title": [
+    "[Catacomb, Hall]"
+  ],
+  "description": [
+    "This small hall is merely the nexus leading to the adjacent rooms.  Void of all furnishings, the smallest sound is magnified and echoes hollowly through the room.  Dim candlelight from a pair of wall sconces illuminates the hall."
+  ],
+  "paths": [
+    "Obvious exits: north, east, south, west"
+  ],
+  "location": "the Glaise Cnoc Cemetary",
   "wayto": {
     "10685": "south",
     "10687": "north",
     "10690": "west",
     "10691": "east"
   },
-  "paths": [
-    "Obvious exits: north, east, south, west"
-  ],
-  "image_coords": [
-    661,
-    491,
-    671,
-    501
-  ],
-  "terrain": null,
-  "description": [
-    "This small hall is merely the nexus leading to the adjacent rooms.  Void of all furnishings, the smallest sound is magnified and echoes hollowly through the room.  Dim candlelight from a pair of wall sconces illuminates the hall."
-  ],
-  "image": "en-cemetery-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Catacomb, Hall]"
-  ],
-  "check_location": null,
   "timeto": {
     "10685": 0.2,
     "10687": 0.2,
     "10690": 0.2,
     "10691": 0.2
   },
-  "id": 10686,
-  "location": "the Glaise Cnoc Cemetary",
+  "image": "en-cemetery-1264234799.png",
+  "image_coords": [
+    661,
+    491,
+    671,
+    501
+  ],
   "tags": [
     "dark apparition"
-  ],
-  "links": [
-
   ]
 }

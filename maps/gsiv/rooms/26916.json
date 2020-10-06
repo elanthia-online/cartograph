@@ -1,30 +1,25 @@
 {
-  "wayto": {
-    "15953": {
-      "stringproc": "325c7e41ab9d30ccb94812827f14b668"
-    }
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "This is a secluded alcove toward the rear of the vault.  One of the lockers has been removed for you and rests open on a stone counter."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 26916,
   "title": [
     "[Paupers, Vault]"
   ],
-  "check_location": true,
+  "description": [
+    "This is a secluded alcove toward the rear of the vault.  One of the lockers has been removed for you and rests open on a stone counter."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "wayto": {
+    "15953": {
+      "file": "string_procs/wayto/26916_15953.rb"
+    }
+  },
   "timeto": {
     "15953": 0.2
   },
-  "id": 26916,
-  "location": "Wehnimer's Landing",
   "tags": [
     "peer opening =~ /^\\[Paupers, Hallway\\]/"
   ],
-  "unique_loot": null
+  "check_location": true
 }

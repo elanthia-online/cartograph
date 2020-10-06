@@ -1,42 +1,32 @@
 {
+  "id": 1600,
+  "title": [
+    "[Solhaven]",
+    "[Solhaven, Zoo Approach]"
+  ],
+  "description": [
+    "Colorful rounded tiles curve through this grassy park in a serpentine fashion, the path guarded on both sides by a variety of large hedge animals.  Several children scurry along the path, most of them eagerly heading toward the Solindago Anox zoo grounds."
+  ],
+  "paths": [
+    "Obvious paths: north, west",
+    "Obvious paths: north, east, west"
+  ],
+  "location": "the free port of Solhaven",
   "wayto": {
     "1599": "north",
     "1603": "west",
     "1504": "east"
   },
-  "paths": [
-    "Obvious paths: north, west",
-    "Obvious paths: north, east, west"
-  ],
-  "image_coords": [
-    1002,
-    828,
-    1026,
-    852
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "Colorful rounded tiles curve through this grassy park in a serpentine fashion, the path guarded on both sides by a variety of large hedge animals.  Several children scurry along the path, most of them eagerly heading toward the Solindago Anox zoo grounds."
-  ],
-  "image": "vo-solhaven-1263764670.png",
-  "climate": "temperate",
-  "title": [
-    "[Solhaven]",
-    "[Solhaven, Zoo Approach]"
-  ],
-  "check_location": null,
   "timeto": {
     "1599": 0.2,
     "1603": 0.2,
     "1504": 0.2
   },
-  "id": 1600,
-  "location": "the free port of Solhaven",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "vo-solhaven-1263764670.png",
+  "image_coords": [
+    1002,
+    828,
+    1026,
+    852
   ]
 }

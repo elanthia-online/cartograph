@@ -1,38 +1,28 @@
 {
+  "id": 11737,
+  "title": [
+    "[Marsh Keep, Dungeon Hallway]"
+  ],
+  "description": [
+    "Darkness shrouds this corner of the hallway.  The only light comes from a vaulted chamber to the west and a single torch, neither strong enough to completely pierce the vell of blackness over this portion of the dungeon.  Underfoot, something crunches with every step."
+  ],
+  "paths": [
+    "Obvious exits: north, west"
+  ],
+  "location": "the Marsh Keep",
   "wayto": {
     "11736": "west",
     "11740": "north"
   },
-  "paths": [
-    "Obvious exits: north, west"
-  ],
+  "timeto": {
+    "11736": 0.2,
+    "11740": 0.2
+  },
+  "image": "rr-marsh_keep-1266356986.png",
   "image_coords": [
     711,
     622,
     721,
     632
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Darkness shrouds this corner of the hallway.  The only light comes from a vaulted chamber to the west and a single torch, neither strong enough to completely pierce the vell of blackness over this portion of the dungeon.  Underfoot, something crunches with every step."
-  ],
-  "image": "rr-marsh_keep-1266356986.png",
-  "climate": "indoors",
-  "title": [
-    "[Marsh Keep, Dungeon Hallway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11736": 0.2,
-    "11740": 0.2
-  },
-  "id": 11737,
-  "location": "the Marsh Keep",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

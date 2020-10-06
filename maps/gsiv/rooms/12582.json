@@ -1,40 +1,30 @@
 {
+  "id": 12582,
+  "title": [
+    "[Hog's Pen]"
+  ],
+  "description": [
+    "This rugged tavern is a single great hall, windowless and choked with smoke from its blazing hearth and the long pipes favored by many of the local dwarves.  Tables and benches are scattered about, clumped here and there in bunches where a large group of miners or a logging team has staked a claim.  A row of barrels set on end near the fire and tended by a gruff bearded fellow seems to serve as a bar.  Around it, rain and ale have softened the dirt floor to mud."
+  ],
+  "paths": [
+    "Obvious exits: north"
+  ],
+  "location": "the old Logging Road",
   "wayto": {
     "12583": "north",
     "2053": "go flap",
     "28709": "go staircase"
   },
-  "paths": [
-    "Obvious exits: north"
-  ],
-  "image_coords": [
-    419,
-    315,
-    429,
-    325
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This rugged tavern is a single great hall, windowless and choked with smoke from its blazing hearth and the long pipes favored by many of the local dwarves.  Tables and benches are scattered about, clumped here and there in bunches where a large group of miners or a logging team has staked a claim.  A row of barrels set on end near the fire and tended by a gruff bearded fellow seems to serve as a bar.  Around it, rain and ale have softened the dirt floor to mud."
-  ],
-  "image": "ti-wilds-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Hog's Pen]"
-  ],
-  "check_location": null,
   "timeto": {
     "12583": 0.2,
     "2053": 0.2,
     "28709": 0.2
   },
-  "id": 12582,
-  "location": "the old Logging Road",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "ti-wilds-1264234799.png",
+  "image_coords": [
+    419,
+    315,
+    429,
+    325
   ]
 }

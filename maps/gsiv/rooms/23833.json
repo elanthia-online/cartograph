@@ -1,33 +1,34 @@
 {
-  "wayto": {
-    "23834": "go inner courtyard",
-    "3757": "go ironwood gates"
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "This long, covered passageway, entered at either end through carved ironwood gates featuring a pair of intricately carved dragons, runs between the road and a large inner courtyard.  The space is lit by rush lamps set into the whitewashed walls, and shadows flicker along its length.  A faint, though not unpleasant, musty odor permeates the night.  Sounds from outside are muffled by the walls and the enclosing darkness.  The faces of those who pass by are barely discernible."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 23833,
   "title": [
     "[Baile Dragan, Gateway]"
   ],
-  "check_location": null,
+  "description": [
+    "This long, covered passageway, entered at either end through carved ironwood gates featuring a pair of intricately carved dragons, runs between the road and a large inner courtyard.  The space is lit by rush lamps set into the whitewashed walls, and shadows flicker along its length.  A faint, though not unpleasant, musty odor permeates the night.  Sounds from outside are muffled by the walls and the enclosing darkness.  The faces of those who pass by are barely discernible."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Wehnimer's Landing",
+  "wayto": {
+    "23834": "go courtyard",
+    "3757": "go gates"
+  },
   "timeto": {
     "23834": 0.2,
     "3757": 0.2
   },
-  "id": 23833,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
+  "image": "wl-Ord_An_Dragan.Map-5120-0901.png",
+  "image_coords": [
+    583,
+    528,
+    750,
+    626
   ],
-  "unique_loot": null,
-  "links": [
-
+  "tags": [
+    "meta:mapname:Baile Dragan",
+    "meta:mapcategory:MHO",
+    "meta:mapshortname:Baile Dragan",
+    "meta:mapcategory:Wehnimer's Landing"
   ]
 }

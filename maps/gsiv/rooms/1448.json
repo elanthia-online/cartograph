@@ -1,4 +1,15 @@
 {
+  "id": 1448,
+  "title": [
+    "[Solhaven, North Market NE]"
+  ],
+  "description": [
+    "The northeast corner of the market is somewhat quieter than the bustling center.  A steady stream of customers flows through the door of an elegant stone building.  Windowboxes burst with bright red begonias.  A gleaming brass plaque is affixed to the bright blue front door."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south, southwest, west"
+  ],
+  "location": "the free port of Solhaven",
   "wayto": {
     "1453": "south",
     "5719": "go door",
@@ -7,28 +18,9 @@
     "1438": "southwest",
     "1449": "east",
     "3668": {
-      "stringproc": "1d41454a8ce526999afe00d553b29bee"
+      "file": "string_procs/wayto/1448_3668.rb"
     }
   },
-  "paths": [
-    "Obvious paths: north, east, south, southwest, west"
-  ],
-  "image_coords": [
-    1002,
-    513,
-    1026,
-    537
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "The northeast corner of the market is somewhat quieter than the bustling center.  A steady stream of customers flows through the door of an elegant stone building.  Windowboxes burst with bright red begonias.  A gleaming brass plaque is affixed to the bright blue front door."
-  ],
-  "image": "vo-solhaven-1263764670.png",
-  "climate": "temperate",
-  "title": [
-    "[Solhaven, North Market NE]"
-  ],
-  "check_location": null,
   "timeto": {
     "1453": 0.2,
     "5719": 0.2,
@@ -37,16 +29,14 @@
     "1438": 0.2,
     "1449": 0.2,
     "3668": {
-      "stringproc": "61acd23da00379e24457740bfb0b0b29"
+      "file": "string_procs/timeto/1448_3668.rb"
     }
   },
-  "id": 1448,
-  "location": "the free port of Solhaven",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "vo-solhaven-1263764670.png",
+  "image_coords": [
+    1002,
+    513,
+    1026,
+    537
   ]
 }

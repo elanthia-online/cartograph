@@ -1,65 +1,33 @@
 {
+  "id": 7899,
+  "title": [
+    "[Tree Statue]"
+  ],
+  "description": [
+    "You find yourself at the foot of a giant tree, which towers over your head rising about fifty feet into the air.  It is shaped in the form of an elf dressed in feathers with arms outstretched in front of it, holding something you cannot quite make out from here.  The forest surrounding the area is strangely silent except for the wind, which sings softly as it moves through the treetops above."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "7898": "north",
     "7900": "climb tree"
   },
-  "paths": [
-    "Obvious paths: north"
-  ],
+  "timeto": {
+    "7898": 0.2,
+    "7900": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     1001,
     1369,
     1011,
     1379
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "You find yourself at the foot of a giant tree, which towers over your head rising about fifty feet into the air.  It is shaped in the form of an elf dressed in feathers with arms outstretched in front of it, holding something you cannot quite make out from here.  The forest surrounding the area is strangely silent except for the wind, which sings softly as it moves through the treetops above."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Tree Statue]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7898": 0.2,
-    "7900": 0.2
-  },
-  "id": 7899,
-  "location": "the Upper Trollfang",
   "tags": [
     "some wolifrew lichen",
     "ayana'al leaf",
-    "wintergreen leaf",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "tkaro root",
-    "sticks",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "white hook mushroom",
-    "bright red teaberry",
-    "broken twig",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "bright red cranberry",
-    "tree bark",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wintergreen leaf"
   ]
 }

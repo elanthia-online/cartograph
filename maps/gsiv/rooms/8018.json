@@ -1,45 +1,26 @@
 {
-  "wayto": {
-    "8016": "northwest"
-  },
+  "id": 8018,
+  "title": [
+    "[Kobold Mines, Grooved Wall]"
+  ],
+  "description": [
+    "You are standing before a smooth wall crisscrossed by a number of long, deep grooves.  The grooves are scratched and pitted, with no pattern at all, as far as you can tell.  Near the floor, the grooves disappear, only to be replaced by finger-sized holes drilled straight into the rock.  Some rusted tools are piled against the wall and a thick layer of dust coats the floor, casting up swirling clouds every time you move your feet."
+  ],
   "paths": [
     "Obvious exits: northwest"
   ],
+  "location": "the old Mine Road",
+  "wayto": {
+    "8016": "northwest"
+  },
+  "timeto": {
+    "8016": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     119,
     997,
     129,
     1007
-  ],
-  "terrain": "indoors",
-  "description": [
-    "You are standing before a smooth wall crisscrossed by a number of long, deep grooves.  The grooves are scratched and pitted, with no pattern at all, as far as you can tell.  Near the floor, the grooves disappear, only to be replaced by finger-sized holes drilled straight into the rock.  Some rusted tools are piled against the wall and a thick layer of dust coats the floor, casting up swirling clouds every time you move your feet."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Kobold Mines, Grooved Wall]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8016": 0.2
-  },
-  "id": 8018,
-  "location": "the old Mine Road",
-  "tags": [
-    "soft white mushroom",
-    "withered black mushroom",
-    "black hook mushroom",
-    "white hook mushroom",
-    "blue trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

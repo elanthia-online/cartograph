@@ -1,44 +1,36 @@
 {
+  "id": 2185,
+  "title": [
+    "[Eye of V'Tull, Outer Caverns]"
+  ],
+  "description": [
+    "Pillars of crystal stretch to the ceiling, providing an eerie blue light throughout.  Piles of fresh igneous rock protrude from beneath the cloak of ash revealing recent activity while thunderous groans and crashes can be heard deeper into the heart of V'Tull."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast, southwest"
+  ],
+  "location": "the Eye of V'Tull",
   "wayto": {
     "2184": "north",
     "2186": "southwest",
     "2187": "southeast"
   },
-  "paths": [
-    "Obvious exits: north, southeast, southwest"
-  ],
+  "timeto": {
+    "2184": 0.2,
+    "2186": 0.2,
+    "2187": 0.2
+  },
+  "image": "ti-vtull-1264234799.png",
   "image_coords": [
     762,
     469,
     770,
     477
   ],
-  "terrain": "indoors",
-  "description": [
-    "Pillars of crystal stretch to the ceiling, providing an eerie blue light throughout.  Piles of fresh igneous rock protrude from beneath the cloak of ash revealing recent activity while thunderous groans and crashes can be heard deeper into the heart of V'Tull."
-  ],
-  "image": "ti-vtull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Eye of V'Tull, Outer Caverns]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2184": 0.2,
-    "2186": 0.2,
-    "2187": 0.2
-  },
-  "id": 2185,
-  "location": "the Eye of V'Tull",
   "tags": [
     "pepperthorn root",
     "daggerstalk mushroom",
     "black trafel mushroom",
-    "some cave moss",
-    "cave moss",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

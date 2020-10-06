@@ -1,34 +1,31 @@
 {
+  "id": 5920,
+  "title": [
+    "[Catacombs, Tunnel]"
+  ],
+  "description": [
+    "Stones and larger rocks are scattered across the uneven floor.",
+    "Stones and larger rocks are scattered across the uneven floor.  Occasionally, the distant sound of splashing drifts in from a far cavern.  Strands of light filter through the iron gratings above and stretch across the rough stone wall.  The smell of musty mildew wafts across the damp air that fills the corridor."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "5919": "south",
     "5921": "north"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "5919": 0.2,
+    "5921": 0.2
+  },
+  "image": "en-tavaalor-1565907614.png",
   "image_coords": [
     260,
     1016,
     269,
     1024
   ],
-  "terrain": null,
-  "description": [
-    "Stones and larger rocks are scattered across the uneven floor.",
-    "Stones and larger rocks are scattered across the uneven floor.  Occasionally, the distant sound of splashing drifts in from a far cavern.  Strands of light filter through the iron gratings above and stretch across the rough stone wall.  The smell of musty mildew wafts across the damp air that fills the corridor."
-  ],
-  "image": "en-tavaalor-1565907614.png",
-  "climate": null,
-  "title": [
-    "[Catacombs, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5919": 0.2,
-    "5921": 0.2
-  },
-  "id": 5920,
-  "location": "the catacombs",
   "tags": [
     "blue trafel mushroom",
     "withered black mushroom",
@@ -40,8 +37,5 @@
     "murdroot",
     "bolmara lichen",
     "wingstem root"
-  ],
-  "links": [
-
   ]
 }

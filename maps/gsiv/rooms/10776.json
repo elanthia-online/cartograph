@@ -1,47 +1,33 @@
 {
+  "id": 10776,
+  "title": [
+    "[Calelith Villa, Barn]"
+  ],
+  "description": [
+    "The barn is large and open.  An old wooden plow sits along the northern wall.  The yoke used to pull it hangs from hooks on the wall above.  Assorted pitchforks, hoes and garden implements are neatly hanging from pegs on the wall."
+  ],
+  "paths": [
+    "Obvious exits: west"
+  ],
+  "location": "Gyldemar Forest",
   "wayto": {
     "4820": "go door",
     "10777": "west",
     "10778": "climb ladder"
   },
-  "paths": [
-    "Obvious exits: west"
-  ],
+  "timeto": {
+    "4820": 0.2,
+    "10777": 0.2,
+    "10778": 0.2
+  },
+  "image": "en-gyldemar-1264234799.png",
   "image_coords": [
     64,
     449,
     74,
     459
   ],
-  "terrain": "indoors",
-  "description": [
-    "The barn is large and open.  An old wooden plow sits along the northern wall.  The yoke used to pull it hangs from hooks on the wall above.  Assorted pitchforks, hoes and garden implements are neatly hanging from pegs on the wall."
-  ],
-  "image": "en-gyldemar-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Calelith Villa, Barn]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4820": 0.2,
-    "10777": 0.2,
-    "10778": 0.2
-  },
-  "id": 10776,
-  "location": "Gyldemar Forest",
   "tags": [
-    "some cave moss",
-    "withered black mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

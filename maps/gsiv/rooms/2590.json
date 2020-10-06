@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "12208": {
-      "stringproc": "a0576f0215d746452e7afb93c1ee082c"
-    },
-    "2589": "east",
-    "2591": "west",
-    "2635": {
-      "stringproc": "01b8924575c8d70e4ed7eea7ed00be84"
-    },
-    "12101": {
-      "stringproc": "cf4b8e5b125b22b01c9349827d02c9fd"
-    }
-  },
+  "id": 2590,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "Screaming wind tears through this area, filling the air with a dreadful howling.  Just ahead a cavern looms, offering a bit of solace from the biting wind.  As you move closer to the safehaven, you see that the cavern is actually the open mouth of a massive, long-fallen statue."
+  ],
   "paths": [
     "Obvious exits: east, west",
     "Obvious paths: east, west"
   ],
-  "image_coords": [
-    212,
-    696,
-    222,
-    706
-  ],
-  "terrain": null,
-  "description": [
-    "Screaming wind tears through this area, filling the air with a dreadful howling.  Just ahead a cavern looms, offering a bit of solace from the biting wind.  As you move closer to the safehaven, you see that the cavern is actually the open mouth of a massive, long-fallen statue."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12208": {
+      "file": "string_procs/wayto/2590_12208.rb"
+    },
+    "2589": "east",
+    "2591": "west",
+    "2635": {
+      "file": "string_procs/wayto/2590_2635.rb"
+    },
+    "12101": {
+      "file": "string_procs/wayto/2590_12101.rb"
+    }
+  },
   "timeto": {
     "12208": 22.0,
     "2589": 0.2,
@@ -39,8 +31,13 @@
     "2635": 22.0,
     "12101": 26.0
   },
-  "id": 2590,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    212,
+    696,
+    222,
+    706
+  ],
   "tags": [
     "mass of congealed slime",
     "oozing fleshsore bulb",
@@ -49,8 +46,5 @@
     "slime-covered grave blossom",
     "twisted black mawflower",
     "withered deathblossom"
-  ],
-  "links": [
-
   ]
 }

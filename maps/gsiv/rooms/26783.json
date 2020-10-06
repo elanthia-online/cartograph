@@ -1,35 +1,28 @@
 {
+  "id": 26783,
+  "title": [
+    "[Catacombs, Dark Tunnels]"
+  ],
+  "description": [
+    "This section of the tunnel has stood up remarkably well and no signs of decay are evident in the shoring.  Some of the timbers have been replaced recently and new torch sconces have been installed along the entire passage."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "26784": "west",
     "26782": "east"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "26784": 0.2,
+    "26782": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     980,
     1358,
     990,
     1369
-  ],
-  "terrain": null,
-  "description": [
-    "This section of the tunnel has stood up remarkably well and no signs of decay are evident in the shoring.  Some of the timbers have been replaced recently and new torch sconces have been installed along the entire passage."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Catacombs, Dark Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26784": 0.2,
-    "26782": 0.2
-  },
-  "id": 26783,
-  "location": "the catacombs",
-  "tags": [
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+  ]
 }

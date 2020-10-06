@@ -1,38 +1,28 @@
 {
+  "id": 9636,
+  "title": [
+    "[Hall of the Marred]"
+  ],
+  "description": [
+    "Part of the north wall has succumbed to the spreading roots of vegetation growing along its outer surface, allowing a glimpse of starry sky and the courtyard beyond.  The mural's colors are still visible in the flickering candlelight even where the elements have spoiled some of its detail."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "9635": "east",
     "9637": "west"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
+  "timeto": {
+    "9635": 0.2,
+    "9637": 0.2
+  },
+  "image": "en-trail-1264234799.png",
   "image_coords": [
     662,
     738,
     672,
     748
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Part of the north wall has succumbed to the spreading roots of vegetation growing along its outer surface, allowing a glimpse of starry sky and the courtyard beyond.  The mural's colors are still visible in the flickering candlelight even where the elements have spoiled some of its detail."
-  ],
-  "image": "en-trail-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Hall of the Marred]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9635": 0.2,
-    "9637": 0.2
-  },
-  "id": 9636,
-  "location": "Wehnimer's Landing",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

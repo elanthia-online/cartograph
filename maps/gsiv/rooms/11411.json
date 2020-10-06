@@ -1,35 +1,34 @@
 {
+  "id": 11411,
+  "title": [
+    "[Hidden Vale, Slopes]"
+  ],
+  "description": [
+    "A stand of thick and sturdy trees cuts across from east to west where the valley floor begins to level off.  The hills rise to the south, reaching upwards towards the mountains.  Small animals can be seen dashing from place to place."
+  ],
+  "paths": [
+    "Obvious paths: east, south, west"
+  ],
+  "location": "the Hidden Vale",
+  "climate": "moist",
+  "terrain": "hilly ",
   "wayto": {
     "11409": "south",
     "11410": "east",
     "11412": "west"
   },
-  "paths": [
-    "Obvious paths: east, south, west"
-  ],
+  "timeto": {
+    "11409": 0.2,
+    "11410": 0.2,
+    "11412": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     842,
     1194,
     852,
     1204
   ],
-  "terrain": "hilly ",
-  "description": [
-    "A stand of thick and sturdy trees cuts across from east to west where the valley floor begins to level off.  The hills rise to the south, reaching upwards towards the mountains.  Small animals can be seen dashing from place to place."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "moist",
-  "title": [
-    "[Hidden Vale, Slopes]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11409": 0.2,
-    "11410": 0.2,
-    "11412": 0.2
-  },
-  "id": 11411,
-  "location": "the Hidden Vale",
   "tags": [
     "soft white mushroom",
     "some motherwort",
@@ -59,11 +58,6 @@
     "murkweed",
     "twisted twig",
     "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bolmara lichen"
   ]
 }

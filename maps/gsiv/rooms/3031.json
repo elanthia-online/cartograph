@@ -1,33 +1,30 @@
 {
+  "id": 3031,
+  "title": [
+    "[A Steep Trail]"
+  ],
+  "description": [
+    "A chilling wind whips down from above, stirring the dirt along this narrow trail.  The vegetation grows sparse here, only a few scrawny firs cling to the mountain side, their branches bent and gnarled."
+  ],
+  "paths": [
+    "Obvious paths: up, down"
+  ],
+  "location": "the High Plains",
   "wayto": {
     "3030": "up",
     "3032": "down"
   },
-  "paths": [
-    "Obvious paths: up, down"
-  ],
+  "timeto": {
+    "3030": 0.2,
+    "3032": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     272,
     979,
     282,
     989
   ],
-  "terrain": "mountainous",
-  "description": [
-    "A chilling wind whips down from above, stirring the dirt along this narrow trail.  The vegetation grows sparse here, only a few scrawny firs cling to the mountain side, their branches bent and gnarled."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[A Steep Trail]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3030": 0.2,
-    "3032": 0.2
-  },
-  "id": 3031,
-  "location": "the High Plains",
   "tags": [
     "sweetfern stalk",
     "sprig of larkspur",
@@ -53,16 +50,6 @@
     "lingonberry",
     "silverback orc",
     "snowberries",
-    "crowberry",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "tundra grass",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "crowberry"
   ]
 }

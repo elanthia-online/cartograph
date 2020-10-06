@@ -1,38 +1,28 @@
 {
-  "wayto": {
-    "14674": {
-      "stringproc": "4a01a95b9625e5cdf26fca9bebfb7fea"
-    }
-  },
+  "id": 22031,
+  "title": [
+    "[Silvergate, Dragon Room]"
+  ],
+  "description": [
+    "Smelling the fragrance of fresh cedar, you glance up and notice that the ceiling of this simply furnished room has been paneled with the reddish wood.  A simple arrangement of flowering blossoms is displayed in a niche centered in one of the cream colored walls.  The window opposite the door is covered by a delicate carved screen, through which you hear the sound of chimes blowing in the wind.  Thick straw matting covers most of the floor, rising several inches above the entry to this room."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "Wehnimer's Landing",
+  "wayto": {
+    "14674": {
+      "file": "string_procs/wayto/22031_14674.rb"
+    }
+  },
+  "timeto": {
+    "14674": 3.2
+  },
+  "image": "wl-silvergate_inn-1487242763.png",
   "image_coords": [
     766,
     8,
     820,
     62
-  ],
-  "terrain": null,
-  "description": [
-    "Smelling the fragrance of fresh cedar, you glance up and notice that the ceiling of this simply furnished room has been paneled with the reddish wood.  A simple arrangement of flowering blossoms is displayed in a niche centered in one of the cream colored walls.  The window opposite the door is covered by a delicate carved screen, through which you hear the sound of chimes blowing in the wind.  Thick straw matting covers most of the floor, rising several inches above the entry to this room."
-  ],
-  "image": "wl-silvergate_inn-1487242763.png",
-  "climate": null,
-  "title": [
-    "[Silvergate, Dragon Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "14674": 3.2
-  },
-  "id": 22031,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

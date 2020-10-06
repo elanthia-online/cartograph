@@ -1,38 +1,28 @@
 {
+  "id": 7509,
+  "title": [
+    "[Catacombs, Uneven Stair]"
+  ],
+  "description": [
+    "A wide, very uneven stair leads downward and southwest from here.  You wonder as you look at the floor and walls how many centuries these catacombs have been in use.  Deep footholds have been worn into the steps, and the center of the tunnel leading northeast has developed a slight trough in the bare, polished stone.  Graves lining the tunnel here seem to have been well-cared for, most still sealed."
+  ],
+  "paths": [
+    "Obvious exits: northeast, down"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "7508": "northeast",
     "7510": "down"
   },
-  "paths": [
-    "Obvious exits: northeast, down"
-  ],
+  "timeto": {
+    "7508": 0.2,
+    "7510": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     634,
     1153,
     644,
     1163
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A wide, very uneven stair leads downward and southwest from here.  You wonder as you look at the floor and walls how many centuries these catacombs have been in use.  Deep footholds have been worn into the steps, and the center of the tunnel leading northeast has developed a slight trough in the bare, polished stone.  Graves lining the tunnel here seem to have been well-cared for, most still sealed."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Catacombs, Uneven Stair]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7508": 0.2,
-    "7510": 0.2
-  },
-  "id": 7509,
-  "location": "the catacombs",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

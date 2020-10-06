@@ -1,35 +1,32 @@
 {
+  "id": 2100,
+  "title": [
+    "[Teras Isle, Fhorian Village]"
+  ],
+  "description": [
+    "Large bushes slap at your face and hands as you move slowly on these overgrown paths.  The dense tangle of vines on the ground obscures nearly every trace of the once well-tended walkways leading through the village, and makes travel extremely difficult."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Fhorian Village",
   "wayto": {
     "2101": "north",
     "2093": "south",
     "2106": "go warehouse"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "2101": 0.2,
+    "2093": 0.2,
+    "2106": 0.2
+  },
+  "image": "ti-wilds-1264234799.png",
   "image_coords": [
     755,
     1285,
     765,
     1295
   ],
-  "terrain": null,
-  "description": [
-    "Large bushes slap at your face and hands as you move slowly on these overgrown paths.  The dense tangle of vines on the ground obscures nearly every trace of the once well-tended walkways leading through the village, and makes travel extremely difficult."
-  ],
-  "image": "ti-wilds-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Teras Isle, Fhorian Village]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2101": 0.2,
-    "2093": 0.2,
-    "2106": 0.2
-  },
-  "id": 2100,
-  "location": "the Fhorian Village",
   "tags": [
     "withered black mushroom",
     "yabathilium fruit",
@@ -56,17 +53,6 @@
     "sprig of wild lilac",
     "some talneo root",
     "some acantha leaf",
-    "wild chokecherry",
-    "acantha leaf",
-    "calamia fruit",
-    "small wild rose",
-    "Imaera's Lace",
-    "murdroot",
-    "wavepetal blossom",
-    "talneo root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wild chokecherry"
   ]
 }

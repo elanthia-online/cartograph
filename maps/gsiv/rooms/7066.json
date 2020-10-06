@@ -1,45 +1,33 @@
 {
-  "wayto": {
-    "7065": "northeast"
-  },
+  "id": 7066,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "The tunnel ends in a crumbling pile of dirt and rock.  The rat-gnawed bones of would-be escapees lie disjointed against the crude walls and you begin to wonder if the poor souls were finally overcome by exhaustion and lack of air."
+  ],
   "paths": [
     "Obvious exits: northeast"
   ],
+  "location": "Darkstone Castle",
+  "wayto": {
+    "7065": "northeast"
+  },
+  "timeto": {
+    "7065": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     164,
     1006,
     174,
     1016
   ],
-  "terrain": "indoors",
-  "description": [
-    "The tunnel ends in a crumbling pile of dirt and rock.  The rat-gnawed bones of would-be escapees lie disjointed against the crude walls and you begin to wonder if the poor souls were finally overcome by exhaustion and lack of air."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7065": 0.2
-  },
-  "id": 7066,
-  "location": "Darkstone Castle",
   "tags": [
     "some cave moss",
     "withered black mushroom",
     "some wolifrew lichen",
     "roa'ter",
-    "some wingstem root",
-    "wolifrew lichen",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

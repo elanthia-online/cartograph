@@ -1,40 +1,30 @@
 {
-  "wayto": {
-    "38": "north",
-    "40": "south"
-  },
-  "paths": [
-    "Obvious paths: north, south"
+  "id": 39,
+  "title": [
+    "[Ta'Illistim, Portcullis Tunnel]"
   ],
-  "image_coords": [
-    1614,
-    902,
-    1639,
-    924
-  ],
-  "terrain": "hard, flat",
   "description": [
     "Carved on either side of the tunnel with the crest of House Illistim, the tunnel walls otherwise appear impossibly smooth, the dark grey-blue granite ground to a velvet-like finish.  Several city guards stand to the side, casually observing passersby in the dim light of the tunnel's amber lanterns.",
     "Carved on either side of the tunnel with the crest of Ta'Illistim, the tunnel walls otherwise appear impossibly smooth, the silvery blue granite ground to a velvet-like finish.  Lanterns, spaced out evenly in a lattice pattern, put out a bright, unflickering blue light.",
     "Carved on either side of the tunnel with the crest of Ta'Illistim, the tunnel walls otherwise appear impossibly smooth, the silvery blue granite ground to a velvet-like finish.  Lanterns, spaced out evenly in a lattice pattern, put out a dim, unflickering blue light."
   ],
-  "image": "en-ta_illistim-new.jpg",
-  "climate": "temperate",
-  "title": [
-    "[Ta'Illistim, Portcullis Tunnel]"
+  "paths": [
+    "Obvious paths: north, south"
   ],
-  "check_location": null,
+  "location": "Whistler's Pass",
+  "wayto": {
+    "38": "north",
+    "40": "south"
+  },
   "timeto": {
     "38": 0.2,
     "40": 0.2
   },
-  "id": 39,
-  "location": "Whistler's Pass",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-ta_illistim-new.jpg",
+  "image_coords": [
+    1614,
+    902,
+    1639,
+    924
   ]
 }

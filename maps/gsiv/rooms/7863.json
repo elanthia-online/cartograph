@@ -1,39 +1,32 @@
 {
+  "id": 7863,
+  "title": [
+    "[Inside the Glacier]"
+  ],
+  "description": [
+    "Light from somewhere on the surface refracts through the walls and shines in this room, dimly illuminating it.  Your eyes adjust to the reflected moonlight and you see multicolored streaks of light dancing along the walls.",
+    "Light from somewhere on the surface refracts through the walls and shines in this room, sending shimmering rainbows across the walls.  Your eyes are dazzled by the sight, and you can see multicolored stars even when you close them."
+  ],
+  "paths": [
+    "Obvious exits: southwest, northwest"
+  ],
+  "location": "Glatoph",
   "wayto": {
     "7862": "northwest",
     "7864": "southwest"
   },
-  "paths": [
-    "Obvious exits: southwest, northwest"
-  ],
+  "timeto": {
+    "7862": 0.2,
+    "7864": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     1127,
     713,
     1137,
     723
   ],
-  "terrain": "indoors",
-  "description": [
-    "Light from somewhere on the surface refracts through the walls and shines in this room, dimly illuminating it.  Your eyes adjust to the reflected moonlight and you see multicolored streaks of light dancing along the walls.",
-    "Light from somewhere on the surface refracts through the walls and shines in this room, sending shimmering rainbows across the walls.  Your eyes are dazzled by the sight, and you can see multicolored stars even when you close them."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Inside the Glacier]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7862": 0.2,
-    "7864": 0.2
-  },
-  "id": 7863,
-  "location": "Glatoph",
   "tags": [
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

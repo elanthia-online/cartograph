@@ -1,44 +1,34 @@
 {
+  "id": 196,
+  "title": [
+    "[Ta'Illistim, BriarStone Court]",
+    "[Ta'Illistim, Moonglae Var]"
+  ],
+  "description": [
+    "Several small shops surround the cobblestoned court.  From one of the smaller establishments, a low greystone building with colored glaes windows and pleasant yellow curtains, a rich, sugary smell wafts into the square.  A slight smile comes to the face of many elves as they pass by.",
+    "Several small shops surround the cobblestoned court.  From one of the smaller establishments, a low marble building with colored glass windows and pale blue curtains, a rich, sugary smell wafts into the square.  Above the shop's blue door hangs a polished oak signboard."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, south"
+  ],
+  "location": "Ta'Illistim",
   "wayto": {
     "171": "south",
     "7": "northeast",
     "624": "go building",
     "208": "north"
   },
-  "paths": [
-    "Obvious paths: north, northeast, south"
-  ],
-  "image_coords": [
-    481,
-    500,
-    503,
-    520
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "Several small shops surround the cobblestoned court.  From one of the smaller establishments, a low greystone building with colored glaes windows and pleasant yellow curtains, a rich, sugary smell wafts into the square.  A slight smile comes to the face of many elves as they pass by.",
-    "Several small shops surround the cobblestoned court.  From one of the smaller establishments, a low marble building with colored glass windows and pale blue curtains, a rich, sugary smell wafts into the square.  Above the shop's blue door hangs a polished oak signboard."
-  ],
-  "image": "en-ta_illistim-new.jpg",
-  "climate": "temperate",
-  "title": [
-    "[Ta'Illistim, BriarStone Court]",
-    "[Ta'Illistim, Moonglae Var]"
-  ],
-  "check_location": null,
   "timeto": {
     "171": 0.2,
     "7": 0.2,
     "624": 0.2,
     "208": 0.2
   },
-  "id": 196,
-  "location": "Ta'Illistim",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-ta_illistim-new.jpg",
+  "image_coords": [
+    481,
+    500,
+    503,
+    520
   ]
 }

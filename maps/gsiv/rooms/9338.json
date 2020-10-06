@@ -1,33 +1,30 @@
 {
+  "id": 9338,
+  "title": [
+    "[Cairnfang, East Valley]"
+  ],
+  "description": [
+    "The grass waves gently in the breeze coming across the valley.  To the south a sheer cliff rises sharply to the blue sky, preventing any travel in that direction.  To the west the valley slopes down to a rocky ford."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the Cairnfang",
   "wayto": {
     "9339": "east",
     "9337": "go ford"
   },
-  "paths": [
-    "Obvious paths: east"
-  ],
+  "timeto": {
+    "9339": 0.2,
+    "9337": 0.2
+  },
+  "image": "vo-trail-1264234799.png",
   "image_coords": [
     1083,
     404,
     1093,
     414
   ],
-  "terrain": "grassland",
-  "description": [
-    "The grass waves gently in the breeze coming across the valley.  To the south a sheer cliff rises sharply to the blue sky, preventing any travel in that direction.  To the west the valley slopes down to a rocky ford."
-  ],
-  "image": "vo-trail-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Cairnfang, East Valley]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9339": 0.2,
-    "9337": 0.2
-  },
-  "id": 9338,
-  "location": "the Cairnfang",
   "tags": [
     "bunch of wild grapes",
     "sprig of ivy",
@@ -85,10 +82,6 @@
     "wavepetal blossom",
     "ironfern root",
     "nightbloom blossom",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

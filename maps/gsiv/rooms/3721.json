@@ -1,35 +1,32 @@
 {
+  "id": 3721,
+  "title": [
+    "[Darkstone, Winding Tunnel]"
+  ],
+  "description": [
+    "Suddenly the tunnel widens and branches in several directions.  A dark foreboding incline leads upward to the north.  To the northwest, a small cavity looks to have been dug out of the wall by some unknown creature."
+  ],
+  "paths": [
+    "Obvious exits: north, east, northwest"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "3720": "east",
     "3819": "north",
     "3722": "northwest"
   },
-  "paths": [
-    "Obvious exits: north, east, northwest"
-  ],
+  "timeto": {
+    "3720": 0.2,
+    "3819": 0.2,
+    "3722": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     623,
     1268,
     633,
     1278
   ],
-  "terrain": "indoors",
-  "description": [
-    "Suddenly the tunnel widens and branches in several directions.  A dark foreboding incline leads upward to the north.  To the northwest, a small cavity looks to have been dug out of the wall by some unknown creature."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Winding Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3720": 0.2,
-    "3819": 0.2,
-    "3722": 0.2
-  },
-  "id": 3721,
-  "location": "Darkstone Castle",
   "tags": [
     "black hook mushroom",
     "some cave moss",
@@ -38,16 +35,6 @@
     "blue trafel mushroom",
     "some bolmara lichen",
     "some wingstem root",
-    "massive troll king",
-    "red trafel mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "massive troll king"
   ]
 }

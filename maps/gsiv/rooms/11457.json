@@ -1,49 +1,39 @@
 {
-  "wayto": {
-    "11458": {
-      "stringproc": "e531eb47f19700d00ac81ca15d619ca8"
-    },
-    "11438": {
-      "stringproc": "84803c6220b0581d4151763c46ccdbbc"
-    },
-    "11461": {
-      "stringproc": "9eaa131926e46e6090f2390aa24f278f"
-    },
-    "11456": {
-      "stringproc": "83255565d617dbe7b0ecdb04e9a96925"
-    }
-  },
-  "paths": [
-    "Obvious exits: north, west, northwest, up"
-  ],
-  "image_coords": [
-    815,
-    1288,
-    825,
-    1298
-  ],
-  "terrain": null,
-  "description": [
-    "Light green water above, gold-colored sand below, green water all around.  Bladder rockweed, growing thickly in the rocky wall to the east, sways rhythmically.  The shimmering surface of the bay rolls sinuously overhead."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": null,
+  "id": 11457,
   "title": [
     "[Maelstrom Bay, Underwater]"
   ],
-  "check_location": null,
+  "description": [
+    "Light green water above, gold-colored sand below, green water all around.  Bladder rockweed, growing thickly in the rocky wall to the east, sways rhythmically.  The shimmering surface of the bay rolls sinuously overhead."
+  ],
+  "paths": [
+    "Obvious exits: north, west, northwest, up"
+  ],
+  "wayto": {
+    "11458": {
+      "file": "string_procs/wayto/11457_11458.rb"
+    },
+    "11438": {
+      "file": "string_procs/wayto/11457_11438.rb"
+    },
+    "11461": {
+      "file": "string_procs/wayto/11457_11461.rb"
+    },
+    "11456": {
+      "file": "string_procs/wayto/11457_11456.rb"
+    }
+  },
   "timeto": {
     "11458": 2.0,
     "11438": 3.0,
     "11461": 2.0,
     "11456": 2.0
   },
-  "id": 11457,
-  "location": null,
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "rr-maelstrom-1266390501.png",
+  "image_coords": [
+    815,
+    1288,
+    825,
+    1298
   ]
 }

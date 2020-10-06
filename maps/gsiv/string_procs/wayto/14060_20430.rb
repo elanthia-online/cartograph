@@ -1,5 +1,4 @@
-
-	fput "open door"
+fput "open door"
 	while line = get
 		if line =~ /That is already open\./
 			break
@@ -8,7 +7,8 @@
 				fput "put ##{GameObj.right_hand.id} in vaalorn door"
 				break
 			else
-				echo "In order to get past this door you must sacrifice a gem.\n Place a cheap gem in your right hand and unpause the script (;unpause) to continue."
+				echo "In order to get past this door you must sacrifice a gem.\n Place a cheap gem in your right hand and unpause the script (
+unpause) to continue."
 				pause_script
 				wait_until{GameObj.right_hand.name !~ /Empty/}
 				fput "put ##{GameObj.right_hand.id} in vaalorn door"

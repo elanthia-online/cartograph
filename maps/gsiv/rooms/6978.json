@@ -1,38 +1,28 @@
 {
+  "id": 6978,
+  "title": [
+    "[Cavern]"
+  ],
+  "description": [
+    "This passageway slopes downward slightly as it curves gently to the southeast.  A small stream flows across the cavern here, out one wall and on down a hole in the floor, near the other.  Although the stream is quite small, ominous stains on the wall left by the water in past floods reach almost to the top of the arched ceiling."
+  ],
+  "paths": [
+    "Obvious exits: southeast, west"
+  ],
+  "location": "Darkstone Castle",
   "wayto": {
     "6977": "west",
     "6979": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast, west"
-  ],
+  "timeto": {
+    "6977": 0.2,
+    "6979": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     123,
     595,
     133,
     605
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This passageway slopes downward slightly as it curves gently to the southeast.  A small stream flows across the cavern here, out one wall and on down a hole in the floor, near the other.  Although the stream is quite small, ominous stains on the wall left by the water in past floods reach almost to the top of the arched ceiling."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Cavern]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6977": 0.2,
-    "6979": 0.2
-  },
-  "id": 6978,
-  "location": "Darkstone Castle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

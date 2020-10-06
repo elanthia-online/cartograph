@@ -1,42 +1,32 @@
 {
+  "id": 9812,
+  "title": [
+    "[Maaghara Labyrinth]"
+  ],
+  "description": [
+    "Sconces line the walls in neatly ordered rows, their bright orange flames casting flickering shadows across the smooth earthen floor.  The dank air holds a faint scent of decay, the smell hardly noticeable through the moist air.  A deep pit has been dug into the middle of the floor, the iron bars of an oubliette barely discernable in the murky shadows."
+  ],
+  "paths": [
+    "Obvious exits: east, southeast, southwest, west"
+  ],
+  "location": "the Maaghara Tower",
   "wayto": {
     "9811": "west",
     "9813": "east",
     "9815": "southwest",
     "9816": "southeast"
   },
-  "paths": [
-    "Obvious exits: east, southeast, southwest, west"
-  ],
-  "image_coords": [
-    1150,
-    438,
-    1160,
-    448
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Sconces line the walls in neatly ordered rows, their bright orange flames casting flickering shadows across the smooth earthen floor.  The dank air holds a faint scent of decay, the smell hardly noticeable through the moist air.  A deep pit has been dug into the middle of the floor, the iron bars of an oubliette barely discernable in the murky shadows."
-  ],
-  "image": "en-tower-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Maaghara Labyrinth]"
-  ],
-  "check_location": null,
   "timeto": {
     "9811": 0.2,
     "9813": 0.2,
     "9815": 0.2,
     "9816": 0.2
   },
-  "id": 9812,
-  "location": "the Maaghara Tower",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "en-tower-1264234799.png",
+  "image_coords": [
+    1150,
+    438,
+    1160,
+    448
   ]
 }

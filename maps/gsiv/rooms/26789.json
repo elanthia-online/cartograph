@@ -1,35 +1,28 @@
 {
+  "id": 26789,
+  "title": [
+    "[Catacombs, Dark Tunnels]"
+  ],
+  "description": [
+    "The passage along this route straightens out and you are able to see that the tunnel ends towards the southeast.  All along the passageway you see small piles of rotting clothing and other debris that have been undisturbed for quite some time.  Hidden by one of the timber supports is a dried-out skull and several large bones."
+  ],
+  "paths": [
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "26786": "northwest",
     "26790": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast, northwest"
-  ],
+  "timeto": {
+    "26786": 0.2,
+    "26790": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     1034,
     1439,
     1044,
     1449
-  ],
-  "terrain": null,
-  "description": [
-    "The passage along this route straightens out and you are able to see that the tunnel ends towards the southeast.  All along the passageway you see small piles of rotting clothing and other debris that have been undisturbed for quite some time.  Hidden by one of the timber supports is a dried-out skull and several large bones."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Catacombs, Dark Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26786": 0.2,
-    "26790": 0.2
-  },
-  "id": 26789,
-  "location": "the catacombs",
-  "tags": [
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+  ]
 }

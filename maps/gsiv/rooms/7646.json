@@ -1,38 +1,28 @@
 {
+  "id": 7646,
+  "title": [
+    "[Sailors' Haven, Inside]"
+  ],
+  "description": [
+    "Inside, out of the wind and spray, it feels warmer, almost cheerful.  Broken bits of furniture litter the wooden floor and sand has piled up in the corners.  Old bits of netting still dangle from the rafters and some antique glass fishing floats lie in a heap on the floor.  An old hatch cover serves as a door to the outside and a passage leads further back into the building."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Coastal Cliffs",
   "wayto": {
     "7613": "go hatch",
     "7647": "go passage"
   },
-  "paths": [
-    "Obvious exits: none"
-  ],
+  "timeto": {
+    "7613": 0.2,
+    "7647": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     300,
     556,
     310,
     566
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Inside, out of the wind and spray, it feels warmer, almost cheerful.  Broken bits of furniture litter the wooden floor and sand has piled up in the corners.  Old bits of netting still dangle from the rafters and some antique glass fishing floats lie in a heap on the floor.  An old hatch cover serves as a door to the outside and a passage leads further back into the building."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Sailors' Haven, Inside]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7613": 0.2,
-    "7647": 0.2
-  },
-  "id": 7646,
-  "location": "the Coastal Cliffs",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

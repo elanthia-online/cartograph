@@ -1,40 +1,30 @@
 {
+  "id": 4153,
+  "title": [
+    "[Hall of the Dead, Common Crypt]"
+  ],
+  "description": [
+    "Bodies are falling from the crypts carved into the wall and bones litter the floor.  As you walk along you unknowingly kick the skull of some poor unfortunate person who perished long ago.  It skitters across the room to shatter against the far wall."
+  ],
+  "paths": [
+    "Obvious exits: north, south, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "4152": "west",
     "4154": "north",
     "4155": "south"
   },
-  "paths": [
-    "Obvious exits: north, south, west"
-  ],
-  "image_coords": [
-    942,
-    759,
-    952,
-    769
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Bodies are falling from the crypts carved into the wall and bones litter the floor.  As you walk along you unknowingly kick the skull of some poor unfortunate person who perished long ago.  It skitters across the room to shatter against the far wall."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Hall of the Dead, Common Crypt]"
-  ],
-  "check_location": null,
   "timeto": {
     "4152": 0.2,
     "4154": 0.2,
     "4155": 0.2
   },
-  "id": 4153,
-  "location": "the Graveyard",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-graveyard-1264234799.png",
+  "image_coords": [
+    942,
+    759,
+    952,
+    769
   ]
 }

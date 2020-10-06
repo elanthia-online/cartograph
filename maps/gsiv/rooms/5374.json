@@ -1,46 +1,35 @@
 {
+  "id": 5374,
+  "title": [
+    "[Noman's Land, Cave]"
+  ],
+  "description": [
+    "Bugs swarm about piles of urgh hides scattered here as beds.  The fire pit in the center is cold.  The walls are covered with huge, crudely done paintings in a rust-colored dye.  They appear to depict a group of cyclopes dancing around a bonfire."
+  ],
+  "paths": [
+    "Obvious exits: northeast, west, northwest"
+  ],
+  "location": "Noman's Land",
   "wayto": {
     "5371": "northwest",
     "5373": "west",
     "5375": "northeast"
   },
-  "paths": [
-    "Obvious exits: northeast, west, northwest"
-  ],
+  "timeto": {
+    "5371": 0.2,
+    "5373": 0.2,
+    "5375": 0.2
+  },
+  "image": "vo-caravansary-1264234799.png",
   "image_coords": [
     213,
     664,
     223,
     674
   ],
-  "terrain": "indoors",
-  "description": [
-    "Bugs swarm about piles of urgh hides scattered here as beds.  The fire pit in the center is cold.  The walls are covered with huge, crudely done paintings in a rust-colored dye.  They appear to depict a group of cyclopes dancing around a bonfire."
-  ],
-  "image": "vo-caravansary-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Noman's Land, Cave]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5371": 0.2,
-    "5373": 0.2,
-    "5375": 0.2
-  },
-  "id": 5374,
-  "location": "Noman's Land",
   "tags": [
     "withered black mushroom",
     "some wolifrew lichen",
-    "cyclops",
-    "wolifrew lichen",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "cyclops"
   ]
 }

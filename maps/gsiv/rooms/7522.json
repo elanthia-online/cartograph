@@ -1,39 +1,31 @@
 {
+  "id": 7522,
+  "title": [
+    "[Temple Crypt, Black Stair]"
+  ],
+  "description": [
+    "A narrow landing here is lit by dim rays which filter through a crack in the stonework.  The crack is barely wide enough to allow a supple person to slip through."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "the catacombs",
   "wayto": {
     "7521": "down",
     "7523": "go crack"
   },
-  "paths": [
-    "Obvious exits: down"
-  ],
+  "timeto": {
+    "7521": 0.2,
+    "7523": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     567,
     1154,
     577,
     1164
   ],
-  "terrain": "indoors",
-  "description": [
-    "A narrow landing here is lit by dim rays which filter through a crack in the stonework.  The crack is barely wide enough to allow a supple person to slip through."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Temple Crypt, Black Stair]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7521": 0.2,
-    "7523": 0.2
-  },
-  "id": 7522,
-  "location": "the catacombs",
   "tags": [
-    "meta:noteleport:fwi",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:noteleport:fwi"
   ]
 }

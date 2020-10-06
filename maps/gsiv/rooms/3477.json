@@ -1,39 +1,32 @@
 {
-  "wayto": {
-    "3476": {
-      "stringproc": "a1bd023500a3a9633d7c708d74ed9e8f"
-    }
-  },
+  "id": 3477,
+  "title": [
+    "[Deep Freeze, Cave of Ice]"
+  ],
+  "description": [
+    "There is scarcely enough room to move about in this frightfully cold recess.  Yet, it is evident that something ventures into this tiny area.  Your breath forms a frosty mist as you shudder violently at the thought of being trapped in this confining space."
+  ],
   "paths": [
     "Obvious exits: south"
   ],
+  "location": "the Icemule Trail",
+  "wayto": {
+    "3476": {
+      "file": "string_procs/wayto/3477_3476.rb"
+    }
+  },
+  "timeto": {
+    "3476": 0.2
+  },
+  "image": "imt-trail-1264234799.png",
   "image_coords": [
     852,
     669,
     862,
     679
   ],
-  "terrain": "indoors",
-  "description": [
-    "There is scarcely enough room to move about in this frightfully cold recess.  Yet, it is evident that something ventures into this tiny area.  Your breath forms a frosty mist as you shudder violently at the thought of being trapped in this confining space."
-  ],
-  "image": "imt-trail-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Deep Freeze, Cave of Ice]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3476": 0.2
-  },
-  "id": 3477,
-  "location": "the Icemule Trail",
   "tags": [
     "arctic moss",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ironfern root"
   ]
 }

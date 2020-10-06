@@ -1,1 +1,2 @@
-fput 'unhide' if checkspell(916); move 'go gate'
+fput 'unhide' if checkspell(916)
+ move 'go gate'

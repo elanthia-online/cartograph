@@ -1,40 +1,31 @@
 {
+  "id": 9160,
+  "title": [
+    "[Thurfel's Island]"
+  ],
+  "description": [
+    "Large fins slice through the water, circling a tiny raft that bobs in the waves just offshore.  A huddled shape is visible on the raft, but the fog and spray of the surf make it difficult to see clearly.  An occasional shrieking pierces the air, the noise drowned out by the pounding waves."
+  ],
+  "paths": [
+    "Obvious exits: east, southwest"
+  ],
+  "location": "Thurfel's Island",
   "wayto": {
     "9159": "east",
     "9161": "southwest"
   },
-  "paths": [
-    "Obvious exits: east, southwest"
-  ],
+  "timeto": {
+    "9159": 0.2,
+    "9161": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     383,
     776,
     393,
     786
   ],
-  "terrain": "indoors",
-  "description": [
-    "Large fins slice through the water, circling a tiny raft that bobs in the waves just offshore.  A huddled shape is visible on the raft, but the fog and spray of the surf make it difficult to see clearly.  An occasional shrieking pierces the air, the noise drowned out by the pounding waves."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thurfel's Island]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9159": 0.2,
-    "9161": 0.2
-  },
-  "id": 9160,
-  "location": "Thurfel's Island",
   "tags": [
-    "some bur-clover root",
-    "murdroot",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some bur-clover root"
   ]
 }

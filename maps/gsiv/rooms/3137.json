@@ -1,52 +1,38 @@
 {
+  "id": 3137,
+  "title": [
+    "[Abandoned Farm, Forest]"
+  ],
+  "description": [
+    "Snowbanks form a maze of hills here, obscuring vision, and quiet white flakes scatter in the moderate breeze, decreasing visibility still further.  Darkened forms flicker in the distance, and the flurries swirling about foil attempts to focus on the distant shapes."
+  ],
+  "paths": [
+    "Obvious paths: east, southeast, southwest"
+  ],
+  "location": "the Abandoned Farm",
   "wayto": {
     "3136": "southwest",
     "3138": "southeast",
     "3139": "east"
   },
-  "paths": [
-    "Obvious paths: east, southeast, southwest"
-  ],
+  "timeto": {
+    "3136": 0.2,
+    "3138": 0.2,
+    "3139": 0.2
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     965,
     659,
     975,
     669
   ],
-  "terrain": "cultivated",
-  "description": [
-    "Snowbanks form a maze of hills here, obscuring vision, and quiet white flakes scatter in the moderate breeze, decreasing visibility still further.  Darkened forms flicker in the distance, and the flurries swirling about foil attempts to focus on the distant shapes."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Abandoned Farm, Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3136": 0.2,
-    "3138": 0.2,
-    "3139": 0.2
-  },
-  "id": 3137,
-  "location": "the Abandoned Farm",
   "tags": [
     "wavepetal blossom",
     "winter rose",
     "some pennyroyal stem",
     "moonflower",
     "some angelica root",
-    "some valerian root",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "ice tulip",
-    "frostflower",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some valerian root"
   ]
 }

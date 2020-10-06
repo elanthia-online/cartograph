@@ -1,33 +1,30 @@
 {
+  "id": 847,
+  "title": [
+    "[Whistler's Pass, Alpine Tundra]"
+  ],
+  "description": [
+    "The trail descends sharply from south to north.  To the south and west immense mountains block the sky, while to the east a dense forest stretches to the horizon."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "Whistler's Pass",
   "wayto": {
     "846": "north",
     "848": "south"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "846": 0.2,
+    "848": 0.2
+  },
+  "image": "en-whistlers_pass-1264234799.png",
   "image_coords": [
     1044,
     971,
     1054,
     981
   ],
-  "terrain": "mountainous",
-  "description": [
-    "The trail descends sharply from south to north.  To the south and west immense mountains block the sky, while to the east a dense forest stretches to the horizon."
-  ],
-  "image": "en-whistlers_pass-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Whistler's Pass, Alpine Tundra]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "846": 0.2,
-    "848": 0.2
-  },
-  "id": 847,
-  "location": "Whistler's Pass",
   "tags": [
     "marallis berry",
     "cuctucae berry",
@@ -42,10 +39,6 @@
     "cluster of butterflyweed",
     "ironfern root",
     "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

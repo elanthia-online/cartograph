@@ -1,40 +1,29 @@
 {
+  "id": 11521,
+  "title": [
+    "[Ruined Dungeon, Passageway]"
+  ],
+  "description": [
+    "The rough, utilitarian workmanship of the tenebrous dungeon corridor emphasizes the grim environment.  From the southwest a slight breeze filters in, tinging the barely perceptible odor of rotting wood with the brackish scent of saltwater."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southwest, northwest"
+  ],
   "wayto": {
     "11523": "northeast",
     "11519": "southwest",
     "11522": "northwest"
   },
-  "paths": [
-    "Obvious exits: northeast, southwest, northwest"
-  ],
-  "image_coords": [
-    1008,
-    982,
-    1018,
-    992
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The rough, utilitarian workmanship of the tenebrous dungeon corridor emphasizes the grim environment.  From the southwest a slight breeze filters in, tinging the barely perceptible odor of rotting wood with the brackish scent of saltwater."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "indoors",
-  "title": [
-    "[Ruined Dungeon, Passageway]"
-  ],
-  "check_location": null,
   "timeto": {
     "11523": 0.2,
     "11519": 0.2,
     "11522": 0.2
   },
-  "id": 11521,
-  "location": "the Ruined Tower",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-maelstrom-1266390501.png",
+  "image_coords": [
+    1008,
+    982,
+    1018,
+    992
   ]
 }

@@ -1,34 +1,23 @@
 {
-  "wayto": {
-    "18891": "go steps",
-    "13441": {
-      "stringproc": "d24083839d6c6b4e5109459e6ddc6e93"
-    }
-  },
-  "paths": [
-    "Obvious paths: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "An old, dusty altar is set in the center of this small raised area.  The wall behind the altar is bare except for a row of five rickety levers connected to a thick rope that leads upward.  Each lever has been painted a different color: yellow, blue, brown, red, and green.  The torch light flickers ominously across the walls and pillars that brace the heavy stone ceiling."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 18893,
   "title": [
     "[Cavern, Altar]"
   ],
-  "check_location": null,
+  "description": [
+    "An old, dusty altar is set in the center of this small raised area.  The wall behind the altar is bare except for a row of five rickety levers connected to a thick rope that leads upward.  Each lever has been painted a different color: yellow, blue, brown, red, and green.  The torch light flickers ominously across the walls and pillars that brace the heavy stone ceiling."
+  ],
+  "paths": [
+    "Obvious paths: none"
+  ],
+  "location": "Ta'Illistim",
+  "wayto": {
+    "18891": "go steps",
+    "13441": {
+      "file": "string_procs/wayto/18893_13441.rb"
+    }
+  },
   "timeto": {
     "18891": 0.2,
     "13441": 5.0
-  },
-  "id": 18893,
-  "location": "Ta'Illistim",
-  "tags": [
-
-  ],
-  "links": [
-
-  ]
+  }
 }

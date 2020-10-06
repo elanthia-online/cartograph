@@ -1,75 +1,40 @@
 {
-  "wayto": {
-    "3203": {
-      "stringproc": "772292a1c8028d611db96d119c7f9bba"
-    },
-    "3205": {
-      "stringproc": "8a4792ea44dca4d5b2ff06f449b35c8a"
-    }
-  },
+  "id": 3204,
+  "title": [
+    "[Snowflake Vale, Forest]"
+  ],
+  "description": [
+    "Occasionally, a clump of snow falls from somewhere above you, cascading down the branches and snapping twigs as it gathers momentum.  Several trails converge here, but only two of them seem well-used."
+  ],
   "paths": [
     "Obvious paths: north, northeast, east, southeast, south, southwest, west, northwest"
   ],
+  "location": "the southern snowfields",
+  "wayto": {
+    "3203": {
+      "file": "string_procs/wayto/3204_3203.rb"
+    },
+    "3205": {
+      "file": "string_procs/wayto/3204_3205.rb"
+    }
+  },
+  "timeto": {
+    "3203": 0.4,
+    "3205": 0.4
+  },
+  "image": "imt-south_gate-1264234799.png",
   "image_coords": [
     216,
     1118,
     252,
     1154
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "Occasionally, a clump of snow falls from somewhere above you, cascading down the branches and snapping twigs as it gathers momentum.  Several trails converge here, but only two of them seem well-used."
-  ],
-  "image": "imt-south_gate-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Snowflake Vale, Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3203": 0.4,
-    "3205": 0.4
-  },
-  "id": 3204,
-  "location": "the southern snowfields",
   "tags": [
     "tkaro root",
     "orange rowanberry",
     "snow lily",
     "mountain snowcat",
     "hobgoblin",
-    "some bolmara lichen",
-    "sticks",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "iceblossoms",
-    "winter rose",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "handful of pinenuts",
-    "broken twig",
-    "pine cone",
-    "pine needles",
-    "frostweed",
-    "snowberries",
-    "pale thornberry",
-    "red winterberry",
-    "small loganberry",
-    "tree bark",
-    "frostflower",
-    "rockberry",
-    "crowberry",
-    "lingonberry",
-    "ironfern root",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some bolmara lichen"
   ]
 }

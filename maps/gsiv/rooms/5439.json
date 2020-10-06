@@ -1,39 +1,31 @@
 {
-  "wayto": {
-    "5438": "southwest"
-  },
+  "id": 5439,
+  "title": [
+    "[Bonespear Tower, Sitting Room]"
+  ],
+  "description": [
+    "This small room must have served as a spot to meditate or ponder.  A sturdy wooden chair placed near a small window is all that remains in this alcove, and it has been pointed to face a small open window."
+  ],
   "paths": [
     "Obvious exits: southwest"
   ],
+  "location": "Bonespear Tower",
+  "wayto": {
+    "5438": "southwest"
+  },
+  "timeto": {
+    "5438": 0.2
+  },
+  "image": "vo-foggy_valley-1264234799.png",
   "image_coords": [
     1030,
     769,
     1040,
     779
   ],
-  "terrain": "indoors",
-  "description": [
-    "This small room must have served as a spot to meditate or ponder.  A sturdy wooden chair placed near a small window is all that remains in this alcove, and it has been pointed to face a small open window."
-  ],
-  "image": "vo-foggy_valley-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Bonespear Tower, Sitting Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5438": 0.2
-  },
-  "id": 5439,
-  "location": "Bonespear Tower",
   "tags": [
     "waern",
     "dybbuk",
-    "eidolon",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "eidolon"
   ]
 }

@@ -1,35 +1,32 @@
 {
+  "id": 7257,
+  "title": [
+    "[Wormwood Slough, Burial Pits]"
+  ],
+  "description": [
+    "A dank mist rises from the depths of the bog, seeping along even the highest points of the creek bank to collect in the sunken patches of ground that mark age-old graves.  The high ground continues to the east, dropping off steeply into the effluvium of the slough, the precipitous path held together only by the glistening black roots of the ancient trees."
+  ],
+  "paths": [
+    "Obvious paths: east, south, southwest"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7261": "southwest",
     "7256": "south",
     "7258": "east"
   },
-  "paths": [
-    "Obvious paths: east, south, southwest"
-  ],
+  "timeto": {
+    "7261": 0.2,
+    "7256": 0.2,
+    "7258": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     82,
     533,
     92,
     543
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "A dank mist rises from the depths of the bog, seeping along even the highest points of the creek bank to collect in the sunken patches of ground that mark age-old graves.  The high ground continues to the east, dropping off steeply into the effluvium of the slough, the precipitous path held together only by the glistening black roots of the ancient trees."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "humid",
-  "title": [
-    "[Wormwood Slough, Burial Pits]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7261": 0.2,
-    "7256": 0.2,
-    "7258": 0.2
-  },
-  "id": 7257,
-  "location": "the Graveyard",
   "tags": [
     "some pothinir grass",
     "golden hook mushroom",
@@ -54,10 +51,6 @@
     "wild chokecherry",
     "murkweed",
     "blue whortleberry",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

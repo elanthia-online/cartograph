@@ -1,44 +1,34 @@
 {
+  "id": 6626,
+  "title": [
+    "[The Broken Lands, South Hall]"
+  ],
+  "description": [
+    "Incandescent globes hung from the ceiling cast gloomy lights on the large stone chair at the south end of the room, deepening the shadows of the bas relief above it.  The floor is pitted and marred by long deep gouges."
+  ],
+  "paths": [
+    "Obvious exits: north, east, west"
+  ],
+  "location": "the Broken Lands",
   "wayto": {
     "7436": {
-      "stringproc": "1bef4dc3f7b0741e5bcb405a481adca8"
+      "file": "string_procs/wayto/6626_7436.rb"
     },
     "6622": "north",
     "6627": "west",
     "6628": "east"
   },
-  "paths": [
-    "Obvious exits: north, east, west"
-  ],
-  "image_coords": [
-    501,
-    843,
-    511,
-    853
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Incandescent globes hung from the ceiling cast gloomy lights on the large stone chair at the south end of the room, deepening the shadows of the bas relief above it.  The floor is pitted and marred by long deep gouges."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[The Broken Lands, South Hall]"
-  ],
-  "check_location": null,
   "timeto": {
     "7436": 0.2,
     "6622": 0.2,
     "6627": 0.2,
     "6628": 0.2
   },
-  "id": 6626,
-  "location": "the Broken Lands",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-broken-1264234799.png",
+  "image_coords": [
+    501,
+    843,
+    511,
+    853
   ]
 }

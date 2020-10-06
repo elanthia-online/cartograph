@@ -1,46 +1,33 @@
 {
+  "id": 8175,
+  "title": [
+    "[Mine]"
+  ],
+  "description": [
+    "A pick axe is embedded in a large rock of hard stone.  It is difficult to comprehend the strength needed to bury the shaft of that tool so deeply into the rock.  Another vein of ore has been worked on the northern edge of this room."
+  ],
+  "paths": [
+    "Obvious exits: south, southwest, west"
+  ],
+  "location": "the crystal caves",
   "wayto": {
     "8174": "west",
     "8176": "south",
     "8177": "southwest"
   },
-  "paths": [
-    "Obvious exits: south, southwest, west"
-  ],
+  "timeto": {
+    "8174": 0.2,
+    "8176": 0.2,
+    "8177": 0.2
+  },
+  "image": "wl-mineroad-1264234799.png",
   "image_coords": [
     860,
     497,
     870,
     507
   ],
-  "terrain": "indoors",
-  "description": [
-    "A pick axe is embedded in a large rock of hard stone.  It is difficult to comprehend the strength needed to bury the shaft of that tool so deeply into the rock.  Another vein of ore has been worked on the northern edge of this room."
-  ],
-  "image": "wl-mineroad-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Mine]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8174": 0.2,
-    "8176": 0.2,
-    "8177": 0.2
-  },
-  "id": 8175,
-  "location": "the crystal caves",
   "tags": [
-    "some wolifrew lichen",
-    "wolifrew lichen",
-    "withered black mushroom",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wolifrew lichen"
   ]
 }

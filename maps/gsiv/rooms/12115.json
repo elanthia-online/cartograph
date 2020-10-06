@@ -1,38 +1,30 @@
 {
-  "wayto": {
-    "12144": "south",
-    "12112": "north",
-    "2635": {
-      "stringproc": "f88a5ac335110328444947aa8fdfa490"
-    },
-    "12093": {
-      "stringproc": "dc0110972ab7e067d5fec20ece15581c"
-    },
-    "12137": "southeast",
-    "2605": {
-      "stringproc": "317c6eedd1ea40322b9b26b259a3053f"
-    }
-  },
+  "id": 12115,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "A small, faded festival tent has been set up in a patch of grass here.  The tent covers several long tables with cakes and pastries arranged on them.  Behind and to the sides of the tent, couples dance together, completely oblivious to your presence.  The crowd of revelers moves stiffly, like puppets under the hand of a new master.  Slowly they all turn and look at you, lifeless eyes pleading for release from this grim masquerade, then return to their partners in resignation as the dance continues."
+  ],
   "paths": [
     "Obvious paths: north, southeast, south",
     "Obvious exits: north, southeast, south"
   ],
-  "image_coords": [
-    868,
-    672,
-    878,
-    682
-  ],
-  "terrain": null,
-  "description": [
-    "A small, faded festival tent has been set up in a patch of grass here.  The tent covers several long tables with cakes and pastries arranged on them.  Behind and to the sides of the tent, couples dance together, completely oblivious to your presence.  The crowd of revelers moves stiffly, like puppets under the hand of a new master.  Slowly they all turn and look at you, lifeless eyes pleading for release from this grim masquerade, then return to their partners in resignation as the dance continues."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12144": "south",
+    "12112": "north",
+    "2635": {
+      "file": "string_procs/wayto/12115_2635.rb"
+    },
+    "12093": {
+      "file": "string_procs/wayto/12115_12093.rb"
+    },
+    "12137": "southeast",
+    "2605": {
+      "file": "string_procs/wayto/12115_2605.rb"
+    }
+  },
   "timeto": {
     "12144": 0.2,
     "12112": 0.2,
@@ -41,8 +33,13 @@
     "12137": 0.2,
     "2605": 16.0
   },
-  "id": 12115,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    868,
+    672,
+    878,
+    682
+  ],
   "tags": [
     "withered deathblossom",
     "mass of congealed slime",
@@ -51,8 +48,5 @@
     "discolored fleshbinder bud",
     "slime-covered grave blossom",
     "rotting bile green fleshbulb"
-  ],
-  "links": [
-
   ]
 }

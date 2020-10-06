@@ -1,55 +1,42 @@
 {
-  "wayto": {
-    "2948": "north",
-    "2946": "up"
-  },
-  "paths": [
-    "Obvious paths: north, up"
-  ],
-  "image_coords": [
-    779,
-    695,
-    789,
-    705
-  ],
-  "terrain": "cultivated",
-  "description": [
-    "Hedges of evergreens fill the air with their spicy, piney scent.  One side of this garden is bordered by the walls of the abbey, while the other is framed by the edge of the cliff upon which the abbey stands."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "cold, dry",
+  "id": 2947,
   "title": [
     "[Abbey Evergreen Garden]"
   ],
-  "check_location": null,
+  "description": [
+    "At the base of some broad stone steps, cultivated cousins of wild local trees form a small arbor.  The bite of pine resin is cool and clean on the frigid air, rising off of Olbin pine and Ossian spruce.  One side of the garden is bordered by the facade of abbey, while the other is framed by the edge of the cliff upon which the compound is built."
+  ],
+  "paths": [
+    "Obvious paths: north, up",
+    "Obvious paths: north"
+  ],
+  "location": "the Abbey",
+  "wayto": {
+    "2948": "north",
+    "2946": "go steps"
+  },
   "timeto": {
     "2948": 0.2,
     "2946": 0.2
   },
-  "id": 2947,
-  "location": "the Abbey",
+  "image": "imt-Abbey Map-51200831.png",
+  "image_coords": [
+    1210,
+    1280,
+    1312,
+    1396
+  ],
   "tags": [
-    "luckbloom blossom",
-    "moonflower",
-    "bright red cranberry",
-    "white hook mushroom",
-    "frostflower",
-    "some valerian root",
-    "sweetfern stalk",
-    "some pennyroyal stem",
     "sassafras leaf",
-    "some angelica root",
-    "winter rose",
-    "nedum vereri",
-    "dark shambler",
-    "arctic puma",
+    "sweetfern stalk",
     "angelica root",
     "valerian root",
     "pennyroyal stem",
+    "winter rose",
+    "bright red cranberry",
+    "frostflower",
     "yew twig",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "luckbloom blossom",
+    "sunburst blossom"
   ]
 }

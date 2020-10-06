@@ -1,1 +1,2 @@
-move 'go opening'; fill_hands
+move 'go opening'
+ fill_hands

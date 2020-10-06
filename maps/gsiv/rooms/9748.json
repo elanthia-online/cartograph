@@ -1,38 +1,28 @@
 {
+  "id": 9748,
+  "title": [
+    "[Maaghara Tower, Stair]"
+  ],
+  "description": [
+    "The smooth, polished stair circles eastward up the bole of the great tree, climbing upward into the distance.  Flickering lights from far above shine down to strike the floor and the wall in random, dancing patterns.  To the west, the staircase sweeps down the trunk to a landing farther below."
+  ],
+  "paths": [
+    "Obvious exits: west, up"
+  ],
+  "location": "Ta'Illistim",
   "wayto": {
     "9747": "west",
     "9749": "up"
   },
-  "paths": [
-    "Obvious exits: west, up"
-  ],
+  "timeto": {
+    "9747": 0.2,
+    "9749": 0.2
+  },
+  "image": "en-tower-1264234799.png",
   "image_coords": [
     834,
     518,
     844,
     528
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The smooth, polished stair circles eastward up the bole of the great tree, climbing upward into the distance.  Flickering lights from far above shine down to strike the floor and the wall in random, dancing patterns.  To the west, the staircase sweeps down the trunk to a landing farther below."
-  ],
-  "image": "en-tower-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Maaghara Tower, Stair]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9747": 0.2,
-    "9749": 0.2
-  },
-  "id": 9748,
-  "location": "Ta'Illistim",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

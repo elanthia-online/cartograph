@@ -1,40 +1,30 @@
 {
+  "id": 11220,
+  "title": [
+    "[Armory, Living Room]"
+  ],
+  "description": [
+    "The only evidence that this room once was used by officers is the cracked plaster on the walls, a token bit of civilization for this outpost.  The furnishings that remain after the sacking of the armory are so battered, it's impossible to tell what purpose they had once served."
+  ],
+  "paths": [
+    "Obvious exits: north, east, west"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11219": "east",
     "11221": "north",
     "11222": "west"
   },
-  "paths": [
-    "Obvious exits: north, east, west"
-  ],
-  "image_coords": [
-    196,
-    260,
-    206,
-    270
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The only evidence that this room once was used by officers is the cracked plaster on the walls, a token bit of civilization for this outpost.  The furnishings that remain after the sacking of the armory are so battered, it's impossible to tell what purpose they had once served."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Armory, Living Room]"
-  ],
-  "check_location": null,
   "timeto": {
     "11219": 0.2,
     "11221": 0.2,
     "11222": 0.2
   },
-  "id": 11220,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-citadel-1267238976.png",
+  "image_coords": [
+    196,
+    260,
+    206,
+    270
   ]
 }

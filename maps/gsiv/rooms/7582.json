@@ -1,42 +1,28 @@
 {
+  "id": 7582,
+  "title": [
+    "[Dark Cavern, Tunnels]"
+  ],
+  "description": [
+    "A beam of light filters through a crack in the stone above, throwing a bright patch on the floor.  A breeze of fresh air helps to dissipate the unpleasant acrid smell that seems to come from a deep tunnel that winds down into the dirt floor.  Faint clicking noises echo on the rock walls, but you cannot tell their source."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "the dark caverns",
   "wayto": {
     "7581": "southwest",
     "7584": "go tunnel"
   },
-  "paths": [
-    "Obvious exits: southwest"
-  ],
+  "timeto": {
+    "7581": 0.2,
+    "7584": 0.2
+  },
+  "image": "wl-catacombs-1264234799.png",
   "image_coords": [
     198,
     1048,
     208,
     1058
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A beam of light filters through a crack in the stone above, throwing a bright patch on the floor.  A breeze of fresh air helps to dissipate the unpleasant acrid smell that seems to come from a deep tunnel that winds down into the dirt floor.  Faint clicking noises echo on the rock walls, but you cannot tell their source."
-  ],
-  "image": "wl-catacombs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Dark Cavern, Tunnels]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7581": 0.2,
-    "7584": 0.2
-  },
-  "id": 7582,
-  "location": "the dark caverns",
-  "tags": [
-    "withered black mushroom",
-    "cave moss",
-    "murdroot",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

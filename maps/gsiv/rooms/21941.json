@@ -1,38 +1,31 @@
 {
+  "id": 21941,
+  "title": [
+    "[Talador Mines, Dark Tunnel]"
+  ],
+  "description": [
+    "The tunnel descends sharply, the depths of the underground cavern blanketing the area in darkness.  Tiny claw marks move in all directions through the dirt."
+  ],
+  "paths": [
+    "Obvious exits: southeast, up"
+  ],
+  "location": "Talador",
   "wayto": {
     "21982": "up",
     "21942": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast, up"
-  ],
+  "timeto": {
+    "21982": 0.2,
+    "21942": 0.2
+  },
+  "image": "wl-talador-east-1392305660.png",
   "image_coords": [
     636,
     494,
     649,
     506
   ],
-  "terrain": null,
-  "description": [
-    "The tunnel descends sharply, the depths of the underground cavern blanketing the area in darkness.  Tiny claw marks move in all directions through the dirt."
-  ],
-  "image": "wl-talador-east-1392305660.png",
-  "climate": null,
-  "title": [
-    "[Talador Mines, Dark Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "21982": 0.2,
-    "21942": 0.2
-  },
-  "id": 21941,
-  "location": "Talador",
   "tags": [
     "peer up =~ /^Obvious exits: up, down/"
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

@@ -1,38 +1,28 @@
 {
+  "id": 6432,
+  "title": [
+    "[Lysierian Hills, Store Porch]"
+  ],
+  "description": [
+    "The porch is long and narrow, spanning the entire length of the building.  Some of the boards are badly worn and rotten, probably ready to collapse at any moment.  At one end, a path meanders back toward the village, and in the center, you see a doorway leading into the store."
+  ],
+  "paths": [
+    "Obvious paths: down"
+  ],
+  "location": "the Lysierian Hills",
   "wayto": {
     "6433": "go doorway",
     "6428": "down"
   },
-  "paths": [
-    "Obvious paths: down"
-  ],
+  "timeto": {
+    "6433": 0.2,
+    "6428": 0.2
+  },
+  "image": "wl-lysierian-1264234799.png",
   "image_coords": [
     1031,
     66,
     1041,
     76
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "The porch is long and narrow, spanning the entire length of the building.  Some of the boards are badly worn and rotten, probably ready to collapse at any moment.  At one end, a path meanders back toward the village, and in the center, you see a doorway leading into the store."
-  ],
-  "image": "wl-lysierian-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Lysierian Hills, Store Porch]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "6433": 0.2,
-    "6428": 0.2
-  },
-  "id": 6432,
-  "location": "the Lysierian Hills",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

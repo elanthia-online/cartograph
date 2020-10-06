@@ -1,61 +1,37 @@
 {
+  "id": 7901,
+  "title": [
+    "[Hidden Settlement]"
+  ],
+  "description": [
+    "Two small birds sit silently on a tree branch high above you, watching you with a disturbingly uncharacteristic curiosity.  The scent of fresh baked goods draws your attention to a small tent that sits along side of the path."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast"
+  ],
+  "location": "the Upper Trollfang",
   "wayto": {
     "7895": "northeast",
     "7897": "southeast",
     "28653": "go tent"
   },
-  "paths": [
-    "Obvious paths: northeast, southeast"
-  ],
+  "timeto": {
+    "7895": 0.2,
+    "7897": 0.2,
+    "28653": 0.2
+  },
+  "image": "wl-danjirland-1264234799.png",
   "image_coords": [
     974,
     1290,
     984,
     1300
   ],
-  "terrain": "grassland",
-  "description": [
-    "Two small birds sit silently on a tree branch high above you, watching you with a disturbingly uncharacteristic curiosity.  The scent of fresh baked goods draws your attention to a small tent that sits along side of the path."
-  ],
-  "image": "wl-danjirland-1264234799.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Hidden Settlement]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7895": 0.2,
-    "7897": 0.2,
-    "28653": 0.2
-  },
-  "id": 7901,
-  "location": "the Upper Trollfang",
   "tags": [
     "stalk of chicory",
     "moonlight cactus-bloom",
     "sprig of larkspur",
     "some wolifrew lichen",
-    "ayana weed",
-    "acantha leaf",
-    "wolifrew lichen",
-    "cuctucae berry",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "white hook mushroom",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "heath aster",
-    "bright red cranberry",
-    "ayana leaf",
-    "luckbloom blossom",
-    "ironfern root",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "ayana weed"
   ]
 }

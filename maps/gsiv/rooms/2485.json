@@ -1,32 +1,20 @@
 {
-  "wayto": {
-    "2440": {
-      "stringproc": "429696e6b88f72d86fe3746c70286127"
-    }
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "You are standing in a cramped room filled with short stacks of lockers.  One of these lockers has been removed for you and placed on a tiny wooden counter."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 2485,
   "title": [
     "[Clovertooth Hall, Locker Booth]"
   ],
-  "check_location": null,
+  "description": [
+    "You are standing in a cramped room filled with short stacks of lockers.  One of these lockers has been removed for you and placed on a tiny wooden counter."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "wayto": {
+    "2440": {
+      "file": "string_procs/wayto/2485_2440.rb"
+    }
+  },
   "timeto": {
     "2440": 0.2
-  },
-  "id": 2485,
-  "location": null,
-  "tags": [
-
-  ],
-  "links": [
-
-  ]
+  }
 }

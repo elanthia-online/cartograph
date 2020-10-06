@@ -1,51 +1,36 @@
 {
-  "wayto": {
-    "12217": "southeast",
-    "12151": {
-      "stringproc": "c01b87e914b9cdeee3471070ec5e96d5"
-    },
-    "12229": "north",
-    "12231": "east"
-  },
-  "paths": [
-    "Obvious exits: north, east, southeast",
-    "Obvious paths: north, east, southeast"
+  "id": 12220,
+  "title": [
+    "[The Rift, Scatter]"
   ],
-  "image_coords": [
-    127,
-    266,
-    151,
-    290
-  ],
-  "terrain": null,
   "description": [
     "Mirrors upon mirrors crowd the stone floor, with barely enough room to navigate around the obstacles.  Each mirrored surface is framed in light frost with tiny dangling icicles.  A shadowy figure flits between the mirrors, though its form is not visible in any of the other countless reflections in the room.",
     "Mirrors upon mirrors crowd the stone floor, with barely enough room to navigate around the obstacles.  Each mirrored surface shows a hellish inferno with flames of brilliant red; the fiery environment is not visible within the physical room.  A shadowy figure flits between the mirrors, though its form is not visible in any of the other countless reflections."
   ],
-  "image": "imt-scatter-1264234799.png",
-  "climate": null,
-  "title": [
-    "[The Rift, Scatter]"
+  "paths": [
+    "Obvious exits: north, east, southeast",
+    "Obvious paths: north, east, southeast"
   ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12217": "southeast",
+    "12151": {
+      "file": "string_procs/wayto/12220_12151.rb"
+    },
+    "12229": "north",
+    "12231": "east"
+  },
   "timeto": {
     "12217": 0.2,
     "12151": 11.4,
     "12229": 0.2,
     "12231": 0.2
   },
-  "id": 12220,
-  "location": "the Rift",
-  "tags": [
-    "mass of congealed slime",
-    "oozing fleshsore bulb",
-    "withered deathblossom",
-    "rotting bile green fleshbulb",
-    "slime-covered grave blossom",
-    "discolored fleshbinder bud",
-    "twisted black mawflower"
-  ],
-  "links": [
-
+  "image": "imt-scatter-1264234799.png",
+  "image_coords": [
+    127,
+    266,
+    151,
+    290
   ]
 }

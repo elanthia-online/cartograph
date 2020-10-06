@@ -1,33 +1,30 @@
 {
+  "id": 7173,
+  "title": [
+    "[Graveyard, Burial Grounds]"
+  ],
+  "description": [
+    "Bits of broken bone are strewn across the uneven ground.  Cracked, uprooted headstones mark graves violated by some unknown occurence.  The graves remain as hunks of overturned earth grown over by sparse grass.  The rough stone wall stretches to the north and south, dividing this area from the rest of the graveyard.  Thick undergrowth borders the grounds, growing up to dense woods to the north and south."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7174": "east",
     "7172": "go opening"
   },
-  "paths": [
-    "Obvious paths: east"
-  ],
+  "timeto": {
+    "7174": 0.2,
+    "7172": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     412,
     834,
     422,
     844
   ],
-  "terrain": "barren scrub",
-  "description": [
-    "Bits of broken bone are strewn across the uneven ground.  Cracked, uprooted headstones mark graves violated by some unknown occurence.  The graves remain as hunks of overturned earth grown over by sparse grass.  The rough stone wall stretches to the north and south, dividing this area from the rest of the graveyard.  Thick undergrowth borders the grounds, growing up to dense woods to the north and south."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Graveyard, Burial Grounds]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7174": 0.2,
-    "7172": 0.2
-  },
-  "id": 7173,
-  "location": "the Graveyard",
   "tags": [
     "small wild rose",
     "sprig of larkspur",
@@ -44,10 +41,6 @@
     "wild chokecherry",
     "blue whortleberry",
     "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wingstem root"
   ]
 }

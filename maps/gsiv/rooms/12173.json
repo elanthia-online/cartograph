@@ -1,40 +1,37 @@
 {
-  "wayto": {
-    "12206": "southeast",
-    "12208": "west",
-    "2579": {
-      "stringproc": "8770ecf721b2f46d9bc09a8706aab02e"
-    },
-    "12160": "northeast"
-  },
+  "id": 12173,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "The floor beneath you gives way, nearly trapping your foot in the stringy substance.  Looking down, you see a pocket of blackened tissue, destroyed by the hungry mouths of the worms.  Black ooze wells up from it, and the smell is horrible, making you choke and gag."
+  ],
   "paths": [
     "Obvious paths: northeast, southeast, west",
     "Obvious exits: northeast, southeast, west"
   ],
-  "image_coords": [
-    937,
-    1108,
-    947,
-    1118
-  ],
-  "terrain": null,
-  "description": [
-    "The floor beneath you gives way, nearly trapping your foot in the stringy substance.  Looking down, you see a pocket of blackened tissue, destroyed by the hungry mouths of the worms.  Black ooze wells up from it, and the smell is horrible, making you choke and gag."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12206": "southeast",
+    "12208": "west",
+    "2579": {
+      "file": "string_procs/wayto/12173_2579.rb"
+    },
+    "12160": "northeast"
+  },
   "timeto": {
     "12206": 0.2,
     "12208": 0.2,
     "2579": 6.8,
     "12160": 0.2
   },
-  "id": 12173,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    937,
+    1108,
+    947,
+    1118
+  ],
   "tags": [
     "rotting bile green fleshbulb",
     "twisted black mawflower",
@@ -42,10 +39,6 @@
     "fleshsore bulb",
     "oozing fleshsore bulb",
     "withered deathblossom",
-    "discolored fleshbinder bud",
-    "slime-covered grave blossom"
-  ],
-  "links": [
-
+    "discolored fleshbinder bud"
   ]
 }

@@ -1,36 +1,25 @@
 {
-  "wayto": {
-    "11096": "west"
-  },
+  "id": 11097,
+  "title": [
+    "[Krol Ship, Chart Room]"
+  ],
+  "description": [
+    "This small room is almost filled with the massive chart table located in its center.  Numerous charts and maps cover the table, and navigational instruments are stored in lockers on either side of the room."
+  ],
   "paths": [
     "Obvious exits: west"
   ],
+  "wayto": {
+    "11096": "west"
+  },
+  "timeto": {
+    "11096": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     1337,
     505,
     1347,
     515
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This small room is almost filled with the massive chart table located in its center.  Numerous charts and maps cover the table, and navigational instruments are stored in lockers on either side of the room."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "indoors",
-  "title": [
-    "[Krol Ship, Chart Room]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11096": 0.2
-  },
-  "id": 11097,
-  "location": "the Sea Caves",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

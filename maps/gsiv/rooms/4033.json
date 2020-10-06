@@ -1,61 +1,55 @@
 {
+  "id": 4033,
+  "title": [
+    "[Hall of Patrons, Vestibule]"
+  ],
+  "description": [
+    "Cool marble floors and frescoed walls enclose this spacious entryway.  Candlelight flickers brightly from brass wall sconces, illuminating the area and seamless marble columns support a large archway to the north, opening into a large rotunda.  To the south, large gated doors stand open."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "Ta'Illistim",
   "wayto": {
     "9823": {
-      "stringproc": "8ceec65658c162f2d1a8a5dc2d98f440"
+      "file": "string_procs/wayto/4033_9823.rb"
     },
     "745": "north",
     "4038": "go doors",
     "1830": {
-      "stringproc": "517fbefef3b0d628266b15bf0b92678e"
+      "file": "string_procs/wayto/4033_1830.rb"
     },
     "10010": {
-      "stringproc": "4915709b780e2cba7bd8fe3d4834afd7"
+      "file": "string_procs/wayto/4033_10010.rb"
     },
     "4034": "east"
   },
-  "paths": [
-    "Obvious exits: north, east"
-  ],
+  "timeto": {
+    "9823": {
+      "file": "string_procs/timeto/4033_9823.rb"
+    },
+    "745": 0.2,
+    "4038": 0.2,
+    "1830": {
+      "file": "string_procs/timeto/4033_1830.rb"
+    },
+    "10010": {
+      "file": "string_procs/timeto/4033_10010.rb"
+    },
+    "4034": 0.2
+  },
+  "image": "en-ta_illistim_buildings.png",
   "image_coords": [
     368,
     2138,
     503,
     2191
   ],
-  "terrain": null,
-  "description": [
-    "Cool marble floors and frescoed walls enclose this spacious entryway.  Candlelight flickers brightly from brass wall sconces, illuminating the area and seamless marble columns support a large archway to the north, opening into a large rotunda.  To the south, large gated doors stand open."
-  ],
-  "image": "en-ta_illistim_buildings.png",
-  "climate": null,
-  "title": [
-    "[Hall of Patrons, Vestibule]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9823": {
-      "stringproc": "467966f8c6d8ca28fdc846eaec1daeaa"
-    },
-    "745": 0.2,
-    "4038": 0.2,
-    "1830": {
-      "stringproc": "467966f8c6d8ca28fdc846eaec1daeaa"
-    },
-    "10010": {
-      "stringproc": "467966f8c6d8ca28fdc846eaec1daeaa"
-    },
-    "4034": 0.2
-  },
-  "id": 4033,
-  "location": "Ta'Illistim",
   "tags": [
     "node",
     "voln",
     "meta:mapname:Elven Nations - Ta'Illistim Buildings",
     "meta:mapshortname:Ta'Illistim Buildings",
     "meta:mapcategory:Elven Nations"
-  ],
-  "links": [
-
   ]
 }

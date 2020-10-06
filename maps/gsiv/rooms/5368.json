@@ -1,33 +1,30 @@
 {
+  "id": 5368,
+  "title": [
+    "[Noman's Land, Cave Mouth]"
+  ],
+  "description": [
+    "The ledge here at the mouth of the cave provides a splendid view of the valley below in all its mud-spattered, ill-smelling beauty.  The cave entrance itself is at least twenty feet high, and a dank, sickly-sweet smoke wafts from it.  To the southwest, a dimly lit passage leads deeper into the hillside."
+  ],
+  "paths": [
+    "Obvious paths: southwest"
+  ],
+  "location": "Noman's Land",
   "wayto": {
     "5369": "southwest",
     "5363": "go path"
   },
-  "paths": [
-    "Obvious paths: southwest"
-  ],
+  "timeto": {
+    "5369": 0.2,
+    "5363": 0.2
+  },
+  "image": "vo-caravansary-1264234799.png",
   "image_coords": [
     186,
     585,
     196,
     595
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The ledge here at the mouth of the cave provides a splendid view of the valley below in all its mud-spattered, ill-smelling beauty.  The cave entrance itself is at least twenty feet high, and a dank, sickly-sweet smoke wafts from it.  To the southwest, a dimly lit passage leads deeper into the hillside."
-  ],
-  "image": "vo-caravansary-1264234799.png",
-  "climate": "moist",
-  "title": [
-    "[Noman's Land, Cave Mouth]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "5369": 0.2,
-    "5363": 0.2
-  },
-  "id": 5368,
-  "location": "Noman's Land",
   "tags": [
     "some wingstem root",
     "some acantha leaf",
@@ -36,19 +33,6 @@
     "some bur-clover root",
     "some aloeas stem",
     "some calamia fruit",
-    "cyclops",
-    "acantha leaf",
-    "calamia fruit",
-    "aloeas stem",
-    "wild chokecherry",
-    "bright red cranberry",
-    "motherwort",
-    "murdroot",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "cyclops"
   ]
 }

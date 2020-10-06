@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "13105": "go door"
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": [
-    1010,
-    189,
-    1022,
-    202
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Illuminated by dozens of copper-wrapped glass lanterns, the room is a constant bustle of traffic that flows in and out of the office.  A worn track in the polished oak floors forms a triangle around the room from the carved mahogany desk, a series of waxy parchment maps covering the western wall, and the open sturdy oak door.  Several wooden chairs are made available for the scouts and runners that briefly visit."
-  ],
-  "image": "Map-GuardiansOfSunfist.png",
-  "climate": "indoors",
+  "id": 13127,
   "title": [
     "[Sunfist Outpost, War Room]"
   ],
-  "check_location": null,
+  "description": [
+    "Illuminated by dozens of copper-wrapped glass lanterns, the room is a constant bustle of traffic that flows in and out of the office.  A worn track in the polished oak floors forms a triangle around the room from the carved mahogany desk, a series of waxy parchment maps covering the western wall, and the open sturdy oak door.  Several wooden chairs are made available for the scouts and runners that briefly visit."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "the Guardians of Sunfist outpost",
+  "wayto": {
+    "13105": "go door"
+  },
   "timeto": {
     "13105": 0.2
   },
-  "id": 13127,
-  "location": "the Guardians of Sunfist outpost",
-  "tags": [
-    "sunfist",
-    "no forageables",
-    "meta:forage-sensed"
+  "image": "vo-outlands-1264234799.png",
+  "image_coords": [
+    550,
+    866,
+    560,
+    876
   ],
-  "links": [
-
+  "tags": [
+    "sunfist"
   ]
 }

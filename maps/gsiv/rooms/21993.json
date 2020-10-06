@@ -1,38 +1,31 @@
 {
+  "id": 21993,
+  "title": [
+    "[The Murkwoods]"
+  ],
+  "description": [
+    "A fur-matted, four-legged creature scurries across the path, rustling across dead leaves as it disappears into the thick undergrowth.  A faint ray of light bleeds in from overhead, but offers little more than a modicum of illumination."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "Talador",
   "wayto": {
     "21994": "west",
     "21992": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, west"
-  ],
+  "timeto": {
+    "21994": 0.2,
+    "21992": 0.2
+  },
+  "image": "wl-talador-west-1392305660.png",
   "image_coords": [
     223,
     271,
     237,
     285
   ],
-  "terrain": null,
-  "description": [
-    "A fur-matted, four-legged creature scurries across the path, rustling across dead leaves as it disappears into the thick undergrowth.  A faint ray of light bleeds in from overhead, but offers little more than a modicum of illumination."
-  ],
-  "image": "wl-talador-west-1392305660.png",
-  "climate": null,
-  "title": [
-    "[The Murkwoods]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "21994": 0.2,
-    "21992": 0.2
-  },
-  "id": 21993,
-  "location": "Talador",
   "tags": [
     "set desc on; peer northeast =~ /^Moving deeper into the woodlands/"
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

@@ -1,35 +1,29 @@
 {
+  "id": 26848,
+  "title": [
+    "[Bloodriven Village, Exterior]"
+  ],
+  "description": [
+    "A tall black iron gate stands as a lone entry beyond an uneven cobblestone wall that marks the border of the town, with a darkened bronze plaque set into the uneven mortar.  Sharpened tree trunks jut out of the top of the wall, providing some defense along an otherwise underwhelming line of protection.  Visible beyond the gate are rows of tall buildings with a mix of stone and metallic roofing, while the road itself is made up of uneven cobblestones."
+  ],
+  "paths": [
+    "Obvious paths: south"
+  ],
+  "location": "the sewers of Bloodriven Village",
   "wayto": {
     "26847": "go gate",
     "26903": "south"
   },
-  "paths": [
-    "Obvious paths: south"
-  ],
+  "timeto": {
+    "26847": 0.2,
+    "26903": 0.2
+  },
+  "image": "fest-duskruin-1503606263.png",
   "image_coords": [
     109,
     612,
     137,
     639
   ],
-  "terrain": null,
-  "description": [
-    "A tall black iron gate stands as a lone entry beyond an uneven cobblestone wall that marks the border of the town, with a darkened bronze plaque set into the uneven mortar.  Sharpened tree trunks jut out of the top of the wall, providing some defense along an otherwise underwhelming line of protection.  Visible beyond the gate are rows of tall buildings with a mix of stone and metallic roofing, while the road itself is made up of uneven cobblestones."
-  ],
-  "image": "fest-duskruin-1503606263.png",
-  "climate": null,
-  "title": [
-    "[Bloodriven Village, Exterior]"
-  ],
-  "check_location": false,
-  "timeto": {
-    "26847": 0.2,
-    "26903": 0.2
-  },
-  "id": 26848,
-  "location": "the sewers of Bloodriven Village",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  "check_location": false
 }

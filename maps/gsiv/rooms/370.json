@@ -1,67 +1,34 @@
 {
+  "id": 370,
+  "title": [
+    "[East Row, Fel Road]"
+  ],
+  "description": [
+    "Fel trees are planted widely apart, though their massive tops overlap to create natural cover from above.  Small white stones mark the edge of the road, distinguishing the dirt of the walkway from the entryway to the shops scattered throughout"
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "371": "east",
     "338": "west",
     "15018": "go store"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
+  "timeto": {
+    "371": 0.2,
+    "338": 0.2,
+    "15018": 0.2
+  },
+  "image": "wl-wehnimers-1264234799.png",
   "image_coords": [
     1370,
     197,
     1380,
     207
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "Fel trees are planted widely apart, though their massive tops overlap to create natural cover from above.  Small white stones mark the edge of the road, distinguishing the dirt of the walkway from the entryway to the shops scattered throughout"
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[East Row, Fel Road]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "371": 0.2,
-    "338": 0.2,
-    "15018": 0.2
-  },
-  "id": 370,
-  "location": "Wehnimer's Landing",
   "tags": [
     "some acantha leaf",
-    "some sovyn clove",
-    "acantha leaf",
-    "calamia fruit",
-    "sovyn clove",
-    "small flower",
-    "small rose",
-    "small daisy",
-    "angelica root",
-    "withered black mushroom",
-    "stalk of chicory",
-    "sprig of alyssum",
-    "heath aster",
-    "stalk of goldenrod",
-    "yellow primrose",
-    "small wild rose",
-    "wild carrot",
-    "ginger root",
-    "wild chokecherry",
-    "motherwort",
-    "murkweed",
-    "blue whortleberry",
-    "white baneberry",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some sovyn clove"
   ]
 }

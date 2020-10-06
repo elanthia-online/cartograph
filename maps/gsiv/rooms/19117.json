@@ -1,37 +1,26 @@
 {
-  "wayto": {
-    "23456": {
-      "stringproc": "875e7508be278b4a832e860c2a3afb76"
-    },
-    "19114": "out",
-    "19150": "east"
-  },
-  "paths": [
-    "Obvious exits: east, out"
+  "id": 19117,
+  "title": [
+    "[Chortel's Chuckles]"
   ],
-  "image_coords": null,
-  "terrain": null,
   "description": [
     "Garishly painted in a nightmare of orange and yellow, this cluttered and claustrophobic closet of a room is filled with an amazing conglomeration of puzzles, tricks and novelties.  A dented tin tub dangles from the ceiling, a badly frayed rope the only thing keeping it from plummeting to the floor.  On one wall, a small wooden shelf hangs between two flickering oil lanterns, each gathering filmy cobwebs that have turned grey with many layers of collected dust.",
     "Garishly painted in a nightmare of orange and yellow, this cluttered and claustrophobic closet of a room is filled with an amazing conglomeration of puzzles, tricks, and novelties.  A dented tin tub dangles from the ceiling, a badly frayed rope the only thing keeping it from plummeting to the floor.  On one wall, a small wooden shelf hangs between two flickering oil lanterns, each gathering filmy cobwebs that have turned grey with many layers of collected dust."
   ],
-  "image": null,
-  "climate": null,
-  "title": [
-    "[Chortel's Chuckles]"
+  "paths": [
+    "Obvious exits: east, out"
   ],
-  "check_location": null,
+  "location": "Wehnimer's Landing",
+  "wayto": {
+    "23456": {
+      "file": "string_procs/wayto/19117_23456.rb"
+    },
+    "19114": "out",
+    "19150": "east"
+  },
   "timeto": {
     "23456": 0.2,
     "19114": 0.2,
     "19150": 0.2
-  },
-  "id": 19117,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "links": [
-
-  ]
+  }
 }

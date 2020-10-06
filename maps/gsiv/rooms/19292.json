@@ -1,42 +1,33 @@
 {
-  "wayto": {
-    "21302": {
-      "stringproc": "b90892d83f073020e8a3a4d8b1280cc4"
-    },
-    "19290": "go path",
-    "19293": "go door"
-  },
-  "paths": [
-    "Obvious exits: none"
+  "id": 19292,
+  "title": [
+    "[Willow Hall, Sun Room]"
   ],
-  "image_coords": [
-    905,
-    528,
-    947,
-    568
-  ],
-  "terrain": null,
   "description": [
     "The vaulted crystal ceiling of the glass-enclosed room soars over massive hand-hewn oak beams.  Large clay pots planted with colorful wildflowers and greenery, and baskets of ivy hanging from the beams frame a breathtaking view of Willow Hall's garden.  The south wall is solid stone with a cascade of water falling over it into a pool at its base.  White wicker chairs and tables invite one to gaze up at the celestial beauty of the night sky overhead.",
     "The vaulted crystal ceiling of the glass-enclosed room soars over massive hand-hewn oak beams.  Large clay pots planted with colorful wildflowers and greenery, and baskets of ivy hanging from the beams frame a breathtaking view of Willow Hall's garden.  The south wall is solid stone with a cascade of water falling over it into a pool at its base.  White wicker chairs and tables invite one to bask in the warm sunlight streaming into the chamber."
   ],
-  "image": "wl-willow_hall-1308424874.png",
-  "climate": null,
-  "title": [
-    "[Willow Hall, Sun Room]"
+  "paths": [
+    "Obvious exits: none"
   ],
-  "check_location": null,
+  "location": "Willow Hall",
+  "wayto": {
+    "21302": {
+      "file": "string_procs/wayto/19292_21302.rb"
+    },
+    "19290": "go path",
+    "19293": "go door"
+  },
   "timeto": {
     "21302": 0.2,
     "19290": 0.2,
     "19293": 0.2
   },
-  "id": 19292,
-  "location": "Willow Hall",
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "wl-willow_hall-1308424874.png",
+  "image_coords": [
+    905,
+    528,
+    947,
+    568
   ]
 }

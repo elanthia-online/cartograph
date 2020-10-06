@@ -1,35 +1,32 @@
 {
+  "id": 216,
+  "title": [
+    "[Lower Dragonsclaw, Forest]"
+  ],
+  "description": [
+    "You release the scents of the various herbs growing on the forest floor with your steps.  They mingle with the breeze that courses through the trees to create an ever-changing, but always pleasant, aroma."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, southwest"
+  ],
+  "location": "the Lower Dragonsclaw",
   "wayto": {
     "215": "southwest",
     "217": "north",
     "218": "northeast"
   },
-  "paths": [
-    "Obvious paths: north, northeast, southwest"
-  ],
+  "timeto": {
+    "215": 0.2,
+    "217": 0.2,
+    "218": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     577,
     329,
     587,
     339
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "You release the scents of the various herbs growing on the forest floor with your steps.  They mingle with the breeze that courses through the trees to create an ever-changing, but always pleasant, aroma."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Lower Dragonsclaw, Forest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "215": 0.2,
-    "217": 0.2,
-    "218": 0.2
-  },
-  "id": 216,
-  "location": "the Lower Dragonsclaw",
   "tags": [
     "blue trafel mushroom",
     "some bolmara lichen",
@@ -85,10 +82,6 @@
     "kylan berry",
     "blue whortleberry",
     "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

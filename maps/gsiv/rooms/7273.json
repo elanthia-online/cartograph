@@ -1,33 +1,30 @@
 {
+  "id": 7273,
+  "title": [
+    "[Graveyard, Natural Dam]"
+  ],
+  "description": [
+    "A pile of uprooted trees lying across the creek creates this natural dam that holds back the scummy green waters.  The waters contain the slimy remains of putrifying vegetation and carcasses.  A dragonfly skims the surface, causing concentric ripples to radiate out from its landing spot.  Looking down, you see the dry remnants of the creek bed."
+  ],
+  "paths": [
+    "Obvious paths: down"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7274": "down",
     "7200": "go bank"
   },
-  "paths": [
-    "Obvious paths: down"
-  ],
+  "timeto": {
+    "7274": 0.2,
+    "7200": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     212,
     329,
     222,
     339
   ],
-  "terrain": "missing",
-  "description": [
-    "A pile of uprooted trees lying across the creek creates this natural dam that holds back the scummy green waters.  The waters contain the slimy remains of putrifying vegetation and carcasses.  A dragonfly skims the surface, causing concentric ripples to radiate out from its landing spot.  Looking down, you see the dry remnants of the creek bed."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "freshwater",
-  "title": [
-    "[Graveyard, Natural Dam]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7274": 0.2,
-    "7200": 0.2
-  },
-  "id": 7273,
-  "location": "the Graveyard",
   "tags": [
     "some bolmara lichen",
     "sticks",
@@ -36,10 +33,6 @@
     "blue whortleberry",
     "yew twig",
     "murdroot",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bolmara lichen"
   ]
 }

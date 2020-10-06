@@ -1,40 +1,30 @@
 {
+  "id": 21349,
+  "title": [
+    "[House Sylvanfair, Alcove]"
+  ],
+  "description": [
+    "The leafy ceiling is low here, which doesn't leave much room to move about.  A thin green curtain leads to a small locker room."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "21346": "north",
     "21347": "go curtain",
     "21350": "northeast"
   },
-  "paths": [
-    "Obvious exits: north, northeast"
-  ],
-  "image_coords": [
-    644,
-    420,
-    685,
-    460
-  ],
-  "terrain": null,
-  "description": [
-    "The leafy ceiling is low here, which doesn't leave much room to move about.  A thin green curtain leads to a small locker room."
-  ],
-  "image": "wl-sylvanfair.jpg",
-  "climate": null,
-  "title": [
-    "[House Sylvanfair, Alcove]"
-  ],
-  "check_location": null,
   "timeto": {
     "21346": 0.2,
     "21347": 0.2,
     "21350": 0.2
   },
-  "id": 21349,
-  "location": "Wehnimer's Landing",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
+  "image": "wl-sylvanfair.jpg",
+  "image_coords": [
+    644,
+    420,
+    685,
+    460
   ]
 }

@@ -1,38 +1,27 @@
 {
+  "id": 11217,
+  "title": [
+    "[Armory, Training Area]"
+  ],
+  "description": [
+    "This large open area was used for the training of soldiers.  The thick stone walls still bear colorful mosaics demonstrating various throws and holds.  Jumbled on the floor are several musty woven mats, stone weights, and a large tackling dummy."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
   "wayto": {
     "11216": "east",
     "11218": "south"
   },
-  "paths": [
-    "Obvious exits: east, south"
-  ],
+  "timeto": {
+    "11216": 0.2,
+    "11218": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     223,
     178,
     233,
     188
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This large open area was used for the training of soldiers.  The thick stone walls still bear colorful mosaics demonstrating various throws and holds.  Jumbled on the floor are several musty woven mats, stone weights, and a large tackling dummy."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "indoors",
-  "title": [
-    "[Armory, Training Area]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11216": 0.2,
-    "11218": 0.2
-  },
-  "id": 11217,
-  "location": "the Citadel",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,56 +1,36 @@
 {
-  "wayto": {
-    "1238": {
-      "stringproc": "bc2fb965c9a439748210ccc9740e3fd4"
-    },
-    "1240": "northwest"
-  },
+  "id": 1239,
+  "title": [
+    "[Vipershroud, Brackish Stream]"
+  ],
+  "description": [
+    "The air is thick with moisture, and water dripping from the trees delivers a hot, unsatisfying rain.  The moist moss squishes loudly underfoot, and clouds of biting insects buzz around hungrily, attempting to feast on some fresh blood.  The trail, coming from the northwest, ends abruptly at a shallow, brackish stream.  To the northeast, the stream disappears under a thick clump of brambles, but to the southwest it is passable, if one doesn't mind tromping through heavy mud."
+  ],
   "paths": [
     "Obvious paths: northwest"
   ],
+  "location": "the Vipershroud",
+  "wayto": {
+    "1238": {
+      "file": "string_procs/wayto/1239_1238.rb"
+    },
+    "1240": "northwest"
+  },
+  "timeto": {
+    "1238": 10.0,
+    "1240": 0.2
+  },
+  "image": "en-trail-1264234799.png",
   "image_coords": [
     188,
     598,
     198,
     608
   ],
-  "terrain": "missing",
-  "description": [
-    "The air is thick with moisture, and water dripping from the trees delivers a hot, unsatisfying rain.  The moist moss squishes loudly underfoot, and clouds of biting insects buzz around hungrily, attempting to feast on some fresh blood.  The trail, coming from the northwest, ends abruptly at a shallow, brackish stream.  To the northeast, the stream disappears under a thick clump of brambles, but to the southwest it is passable, if one doesn't mind tromping through heavy mud."
-  ],
-  "image": "en-trail-1264234799.png",
-  "climate": "freshwater",
-  "title": [
-    "[Vipershroud, Brackish Stream]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1238": 10.0,
-    "1240": 0.2
-  },
-  "id": 1239,
-  "location": "the Vipershroud",
   "tags": [
     "yellow water lily",
     "stalk of cattail",
     "some aloeas stem",
-    "some wingstem root",
-    "aloeas stem",
-    "wild gooseberry",
-    "water chestnut",
-    "reeds",
-    "white water lily",
-    "blue water lily",
-    "blue whortleberry",
-    "murdroot",
-    "wavepetal blossom",
-    "sunburst blossom",
-    "bolmara lichen",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }

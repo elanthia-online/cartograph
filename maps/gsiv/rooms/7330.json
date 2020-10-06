@@ -1,47 +1,37 @@
 {
+  "id": 7330,
+  "title": [
+    "[Shadow Valley]"
+  ],
+  "description": [
+    "The lack of color throughout the valley creates an odd feeling of unreality within you, as if you were reliving a long forgotten memory.  Sharp grey stones mark the ground in the few spots where the black mist thins."
+  ],
+  "paths": [
+    "Obvious paths: north, northeast, east, northwest"
+  ],
+  "location": "the Shadow Valley",
   "wayto": {
     "7326": "north",
     "7327": "northeast",
     "7329": "east",
     "7325": "northwest"
   },
-  "paths": [
-    "Obvious paths: north, northeast, east, northwest"
-  ],
-  "image_coords": [
-    1347,
-    631,
-    1357,
-    641
-  ],
-  "terrain": "barren scrub",
-  "description": [
-    "The lack of color throughout the valley creates an odd feeling of unreality within you, as if you were reliving a long forgotten memory.  Sharp grey stones mark the ground in the few spots where the black mist thins."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "cold, damp",
-  "title": [
-    "[Shadow Valley]"
-  ],
-  "check_location": null,
   "timeto": {
     "7326": 0.2,
     "7327": 0.2,
     "7329": 0.2,
     "7325": 0.2
   },
-  "id": 7330,
-  "location": "the Shadow Valley",
+  "image": "wl-graveyard-1264234799.png",
+  "image_coords": [
+    1347,
+    631,
+    1357,
+    641
+  ],
   "tags": [
     "some longgrass",
     "black-tipped wyrm thorn",
-    "some petrified shadowstalk",
-    "longgrass",
-    "wyrm thorn",
-    "petrified shadowstalk",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some petrified shadowstalk"
   ]
 }

@@ -1,49 +1,34 @@
 {
-  "wayto": {
-    "12151": {
-      "stringproc": "c01b87e914b9cdeee3471070ec5e96d5"
-    },
-    "12229": "northeast",
-    "12219": "southwest"
-  },
-  "paths": [
-    "Obvious exits: northeast, southwest",
-    "Obvious paths: northeast, southwest"
+  "id": 12228,
+  "title": [
+    "[The Rift, Scatter]"
   ],
-  "image_coords": [
-    73,
-    266,
-    97,
-    290
-  ],
-  "terrain": null,
   "description": [
     "Countless variety and number of tattered sock puppets have been impaled upon steel pikes planted in an icy field.  A few frozen patches of the once lush wildflowers can be seen; islands upon the sea of cold, packed earth.  Button eyes and some of the stitching have been torn forcefully from the toys, lying scattered around the barren ground.",
     "Countless variety and number of tattered sock puppets have been impaled upon steel pikes planted in a burnt field.  Only a few patches of the once lush wildflowers remain; islands upon the sea of scorched earth.  Button eyes and some of the stitching have been torn forcefully from the toys, lying scattered around the barren ground."
   ],
-  "image": "imt-scatter-1264234799.png",
-  "climate": null,
-  "title": [
-    "[The Rift, Scatter]"
+  "paths": [
+    "Obvious exits: northeast, southwest",
+    "Obvious paths: northeast, southwest"
   ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12151": {
+      "file": "string_procs/wayto/12228_12151.rb"
+    },
+    "12229": "northeast",
+    "12219": "southwest"
+  },
   "timeto": {
     "12151": 11.4,
     "12229": 0.2,
     "12219": 0.2
   },
-  "id": 12228,
-  "location": "the Rift",
-  "tags": [
-    "mass of congealed slime",
-    "oozing fleshsore bulb",
-    "withered deathblossom",
-    "rotting bile green fleshbulb",
-    "slime-covered grave blossom",
-    "discolored fleshbinder bud",
-    "twisted black mawflower"
-  ],
-  "links": [
-
+  "image": "imt-scatter-1264234799.png",
+  "image_coords": [
+    73,
+    266,
+    97,
+    290
   ]
 }

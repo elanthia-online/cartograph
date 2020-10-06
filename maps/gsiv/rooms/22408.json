@@ -1,34 +1,25 @@
 {
-  "wayto": {
-    "22407": {
-      "stringproc": "9680ca767a2d1ea934e564f72d1a6602"
-    }
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "You are standing in a secluded alcove facing a wall of small, locked doors.  One of the lockers has been removed for you and placed on a marble counter."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 22408,
   "title": [
     "[Annex, Booth]"
   ],
-  "check_location": null,
+  "description": [
+    "You are standing in a secluded alcove facing a wall of small, locked doors.  One of the lockers has been removed for you and placed on a marble counter."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Mist Harbor",
+  "wayto": {
+    "22407": {
+      "file": "string_procs/wayto/22408_22407.rb"
+    }
+  },
   "timeto": {
     "22407": 0.2
   },
-  "id": 22408,
-  "location": "Mist Harbor",
   "tags": [
     "peer curtain =~ /^\\[Annex, Beacon Hall Lobby\\]$/",
     "bhalocker"
-  ],
-  "unique_loot": null,
-  "links": [
-
   ]
 }

@@ -1,50 +1,36 @@
 {
-  "wayto": {
-    "3993": {
-      "stringproc": "3157bbb118c54a6236859635e57fcbb9"
-    },
-    "3995": {
-      "stringproc": "9e4da08482f40ad3b7912f194ff7af3d"
-    }
-  },
+  "id": 3994,
+  "title": [
+    "[Griffin's Keen, Switchbacks]"
+  ],
+  "description": [
+    "Chunks of rock and ice have fallen away from the wall, leaving a gap in the trail.  Iced over pegs and broken scraps of rope show where someone had once constructed a bridge here--or had tried."
+  ],
   "paths": [
     "Obvious paths: southwest, northwest"
   ],
+  "location": "Griffin's Keen",
+  "wayto": {
+    "3993": {
+      "file": "string_procs/wayto/3994_3993.rb"
+    },
+    "3995": {
+      "file": "string_procs/wayto/3994_3995.rb"
+    }
+  },
+  "timeto": {
+    "3993": 4.2,
+    "3995": 4.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     826,
     276,
     836,
     286
   ],
-  "terrain": null,
-  "description": [
-    "Chunks of rock and ice have fallen away from the wall, leaving a gap in the trail.  Iced over pegs and broken scraps of rope show where someone had once constructed a bridge here--or had tried."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Griffin's Keen, Switchbacks]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3993": 4.2,
-    "3995": 4.2
-  },
-  "id": 3994,
-  "location": "Griffin's Keen",
   "tags": [
     "some valerian root",
-    "some angelica root",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "sprig of holly",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some angelica root"
   ]
 }

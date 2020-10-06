@@ -1,42 +1,32 @@
 {
+  "id": 8500,
+  "title": [
+    "[Temple, Crypt]"
+  ],
+  "description": [
+    "Not a breath of wind stirs the air here.  Faint light issues from the walls, the source unknown, illuminating rows of biers leading to the south.  Upon each bier rests a shrouded form, slim and delicate, a silver symbol clutched in dead hands upon each chest.  They seem to be priestesses of the order this temple is dedicated to, long passed on into time.  Some marble stairs lead upward from the crypt."
+  ],
+  "paths": [
+    "Obvious exits: east, south, west"
+  ],
+  "location": "the Temple of Love",
   "wayto": {
     "8503": "south",
     "8505": "west",
     "8499": "go stairs",
     "8501": "east"
   },
-  "paths": [
-    "Obvious exits: east, south, west"
-  ],
-  "image_coords": [
-    359,
-    576,
-    369,
-    586
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Not a breath of wind stirs the air here.  Faint light issues from the walls, the source unknown, illuminating rows of biers leading to the south.  Upon each bier rests a shrouded form, slim and delicate, a silver symbol clutched in dead hands upon each chest.  They seem to be priestesses of the order this temple is dedicated to, long passed on into time.  Some marble stairs lead upward from the crypt."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Temple, Crypt]"
-  ],
-  "check_location": null,
   "timeto": {
     "8503": 0.2,
     "8505": 0.2,
     "8499": 0.2,
     "8501": 0.2
   },
-  "id": 8500,
-  "location": "the Temple of Love",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-trollfang-1264234799.png",
+  "image_coords": [
+    359,
+    576,
+    369,
+    586
   ]
 }

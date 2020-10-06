@@ -1,34 +1,31 @@
 {
+  "id": 10723,
+  "title": [
+    "[Plains of Bone, Boneyard]"
+  ],
+  "description": [
+    "To the south some crude bone steps lead down into a small pond, ominously dark in the night.  A pair of short stakes flank the steps, each capped with a humanoid skull.  The skulls rock on the posts as the wind blows, like heads nodding.  A nearby tree spreads its bare limbs partially over the lake.",
+    "To the south some crude bone steps lead down into a small pond.  A pair of short stakes flank the steps, each capped with a humanoid skull.  The skulls rock on the posts as the wind blows, like heads nodding.  A nearby tree spreads its bare limbs partially over the lake."
+  ],
+  "paths": [
+    "Obvious paths: north, south"
+  ],
+  "location": "the Plains of Bone",
   "wayto": {
     "10722": "north",
     "10724": "south"
   },
-  "paths": [
-    "Obvious paths: north, south"
-  ],
+  "timeto": {
+    "10722": 0.2,
+    "10724": 0.2
+  },
+  "image": "en-cemetery-1264234799.png",
   "image_coords": [
     640,
     177,
     650,
     187
   ],
-  "terrain": null,
-  "description": [
-    "To the south some crude bone steps lead down into a small pond, ominously dark in the night.  A pair of short stakes flank the steps, each capped with a humanoid skull.  The skulls rock on the posts as the wind blows, like heads nodding.  A nearby tree spreads its bare limbs partially over the lake.",
-    "To the south some crude bone steps lead down into a small pond.  A pair of short stakes flank the steps, each capped with a humanoid skull.  The skulls rock on the posts as the wind blows, like heads nodding.  A nearby tree spreads its bare limbs partially over the lake."
-  ],
-  "image": "en-cemetery-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Plains of Bone, Boneyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "10722": 0.2,
-    "10724": 0.2
-  },
-  "id": 10723,
-  "location": "the Plains of Bone",
   "tags": [
     "small daisy",
     "some acantha leaf",
@@ -59,8 +56,5 @@
     "ironfern root",
     "wingstem root",
     "bur-clover root"
-  ],
-  "links": [
-
   ]
 }

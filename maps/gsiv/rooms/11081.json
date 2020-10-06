@@ -1,38 +1,27 @@
 {
+  "id": 11081,
+  "title": [
+    "[Sea Caves]"
+  ],
+  "description": [
+    "A jumble of boulders blocks what might have once been an adjunct to this cave to the west, indicating a recent cave-in here.  The walls in this section of cave are cracked and flaking, as if under great stress."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast"
+  ],
   "wayto": {
     "11080": "southeast",
     "11082": "north"
   },
-  "paths": [
-    "Obvious exits: north, southeast"
-  ],
+  "timeto": {
+    "11080": 0.2,
+    "11082": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     1215,
     165,
     1225,
     175
-  ],
-  "terrain": "indoors",
-  "description": [
-    "A jumble of boulders blocks what might have once been an adjunct to this cave to the west, indicating a recent cave-in here.  The walls in this section of cave are cracked and flaking, as if under great stress."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Caves]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11080": 0.2,
-    "11082": 0.2
-  },
-  "id": 11081,
-  "location": "the Sea Caves",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,36 +1,33 @@
 {
+  "id": 2123,
+  "title": [
+    "[Lava Flows, Black Rocks]"
+  ],
+  "description": [
+    "Black rock, as far as the eye can see, is yet unsoftened by wind or rain, with edges that snag clothing and tear flesh.  It seems to have thrust up from the island's gut, offering no purpose other than that.  Yet the marks are plain that something dwells in this wasteland.",
+    "Black rock, as far as the eye can see, is yet unsoftened by wind or rain, with edges that snag clothing and tear flesh.  It seems to have thrust up from the island's gut and left to smoulder in the sunshine, offering no purpose other than that.  Yet the marks are plain that something dwells in this wasteland."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southwest, northwest"
+  ],
+  "location": "the volcano",
   "wayto": {
     "2124": "northwest",
     "2150": "northeast",
     "2122": "southwest"
   },
-  "paths": [
-    "Obvious paths: northeast, southwest, northwest"
-  ],
+  "timeto": {
+    "2124": 0.2,
+    "2150": 0.2,
+    "2122": 0.2
+  },
+  "image": "ti-vtull-1264234799.png",
   "image_coords": [
     1184,
     624,
     1192,
     632
   ],
-  "terrain": null,
-  "description": [
-    "Black rock, as far as the eye can see, is yet unsoftened by wind or rain, with edges that snag clothing and tear flesh.  It seems to have thrust up from the island's gut, offering no purpose other than that.  Yet the marks are plain that something dwells in this wasteland.",
-    "Black rock, as far as the eye can see, is yet unsoftened by wind or rain, with edges that snag clothing and tear flesh.  It seems to have thrust up from the island's gut and left to smoulder in the sunshine, offering no purpose other than that.  Yet the marks are plain that something dwells in this wasteland."
-  ],
-  "image": "ti-vtull-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Lava Flows, Black Rocks]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2124": 0.2,
-    "2150": 0.2,
-    "2122": 0.2
-  },
-  "id": 2123,
-  "location": "the volcano",
   "tags": [
     "purple poppy",
     "red poppy",
@@ -46,11 +43,6 @@
     "stalk of drakefern",
     "small wild rose",
     "stalk of chicory",
-    "heath aster",
-    "broken twig",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "heath aster"
   ]
 }

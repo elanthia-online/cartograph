@@ -1,4 +1,15 @@
 {
+  "id": 8898,
+  "title": [
+    "[Wehnimer's, South Wharf]"
+  ],
+  "description": [
+    "Dockworkers curse you and each other as they carry their loads from the great trade ships to the warehouses of Wehnimer's Landing.  Intermixed with the dockworkers are the crews of ships from various exotic and faraway ports."
+  ],
+  "paths": [
+    "Obvious paths: west"
+  ],
+  "location": "the town of Wehnimer's Landing",
   "wayto": {
     "8899": "go office",
     "23492": "go wagon",
@@ -6,25 +17,6 @@
     "23178": "go dock",
     "246": "west"
   },
-  "paths": [
-    "Obvious paths: west"
-  ],
-  "image_coords": [
-    1053,
-    525,
-    1091,
-    563
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "Dockworkers curse you and each other as they carry their loads from the great trade ships to the warehouses of Wehnimer's Landing.  Intermixed with the dockworkers are the crews of ships from various exotic and faraway ports."
-  ],
-  "image": "wl-wehnimers-1264234799.png",
-  "climate": "moist",
-  "title": [
-    "[Wehnimer's, South Wharf]"
-  ],
-  "check_location": null,
   "timeto": {
     "8899": 0.2,
     "23492": 0.2,
@@ -32,14 +24,14 @@
     "23178": 0.2,
     "246": 0.2
   },
-  "id": 8898,
-  "location": "the town of Wehnimer's Landing",
-  "tags": [
-    "alchemy sea water",
-    "no forageables",
-    "meta:forage-sensed"
+  "image": "wl-wehnimers-1264234799.png",
+  "image_coords": [
+    1053,
+    525,
+    1091,
+    563
   ],
-  "links": [
-
+  "tags": [
+    "alchemy sea water"
   ]
 }

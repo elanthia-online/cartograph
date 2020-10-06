@@ -1,49 +1,34 @@
 {
-  "wayto": {
-    "12151": {
-      "stringproc": "c01b87e914b9cdeee3471070ec5e96d5"
-    },
-    "12229": "southwest",
-    "12232": "down"
-  },
-  "paths": [
-    "Obvious exits: southwest, down",
-    "Obvious paths: southwest, down"
+  "id": 12240,
+  "title": [
+    "[The Rift, Scatter]"
   ],
-  "image_coords": [
-    183,
-    155,
-    207,
-    179
-  ],
-  "terrain": null,
   "description": [
     "A plain of snow and ice stretches out as far as the eye can see.  In the twilight sky, shimmering golds, pinks, and blues dance across the heavens.  The colorful lights reflect off of the tiny flakes of snow that fall all around.",
     "A plain of porous black rock stretches out as far as the eye can see.  The sky is an angry red near the horizon, fading into washed out pinks and blues overhead.  Steam rises out of the ground, hissing violently as some of the larger pockets of superheated vapor are released from below."
   ],
-  "image": "imt-scatter-1264234799.png",
-  "climate": null,
-  "title": [
-    "[The Rift, Scatter]"
+  "paths": [
+    "Obvious exits: southwest, down",
+    "Obvious paths: southwest, down"
   ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "12151": {
+      "file": "string_procs/wayto/12240_12151.rb"
+    },
+    "12229": "southwest",
+    "12232": "down"
+  },
   "timeto": {
     "12151": 11.4,
     "12229": 0.2,
     "12232": 0.2
   },
-  "id": 12240,
-  "location": "the Rift",
-  "tags": [
-    "mass of congealed slime",
-    "oozing fleshsore bulb",
-    "withered deathblossom",
-    "rotting bile green fleshbulb",
-    "slime-covered grave blossom",
-    "discolored fleshbinder bud",
-    "twisted black mawflower"
-  ],
-  "links": [
-
+  "image": "imt-scatter-1264234799.png",
+  "image_coords": [
+    183,
+    155,
+    207,
+    179
   ]
 }

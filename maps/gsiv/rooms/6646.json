@@ -1,40 +1,30 @@
 {
+  "id": 6646,
+  "title": [
+    "[Monastery, Dining Hall]"
+  ],
+  "description": [
+    "Five long tables, a row of chairs to either side of each, dominate this room waiting for someone to sit down and take their place at them.  A dozen cast iron chandeliers hang from the ceiling with a multitude of small candles casting their light down upon the room.  A large serving table runs the length of the west wall, while a pair of swinging doors leads to the north, and a smaller black modwir door leads to the south."
+  ],
+  "paths": [
+    "Obvious exits: east"
+  ],
+  "location": "the Broken Lands",
   "wayto": {
     "6645": "east",
     "6647": "go swinging doors",
     "6650": "go black door"
   },
-  "paths": [
-    "Obvious exits: east"
-  ],
-  "image_coords": [
-    141,
-    1154,
-    151,
-    1164
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Five long tables, a row of chairs to either side of each, dominate this room waiting for someone to sit down and take their place at them.  A dozen cast iron chandeliers hang from the ceiling with a multitude of small candles casting their light down upon the room.  A large serving table runs the length of the west wall, while a pair of swinging doors leads to the north, and a smaller black modwir door leads to the south."
-  ],
-  "image": "wl-broken-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Monastery, Dining Hall]"
-  ],
-  "check_location": null,
   "timeto": {
     "6645": 0.2,
     "6647": 0.2,
     "6650": 0.2
   },
-  "id": 6646,
-  "location": "the Broken Lands",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "wl-broken-1264234799.png",
+  "image_coords": [
+    141,
+    1154,
+    151,
+    1164
   ]
 }

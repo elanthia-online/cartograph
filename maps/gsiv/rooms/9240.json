@@ -1,40 +1,30 @@
 {
+  "id": 9240,
+  "title": [
+    "[Thurfel's Cellar]"
+  ],
+  "description": [
+    "Three huge cages dominate this room, two of which are empty.  The third, made of sturdy iron, imprisons a dangerous looking beast.  A smoke-spewing metal contraption rattles nearby, and although its purpose isn't clear, it's quite obviously doing something."
+  ],
+  "paths": [
+    "Obvious exits: east, south"
+  ],
+  "location": "Thurfel's Island",
   "wayto": {
     "9239": "east",
     "9237": "south",
     "3781": "climb ladder"
   },
-  "paths": [
-    "Obvious exits: east, south"
-  ],
-  "image_coords": [
-    1087,
-    651,
-    1097,
-    661
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Three huge cages dominate this room, two of which are empty.  The third, made of sturdy iron, imprisons a dangerous looking beast.  A smoke-spewing metal contraption rattles nearby, and although its purpose isn't clear, it's quite obviously doing something."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thurfel's Cellar]"
-  ],
-  "check_location": null,
   "timeto": {
     "9239": 0.2,
     "9237": 0.2,
     "3781": 0.2
   },
-  "id": 9240,
-  "location": "Thurfel's Island",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "imt-underground-1264234799.png",
+  "image_coords": [
+    1087,
+    651,
+    1097,
+    661
   ]
 }

@@ -1,46 +1,36 @@
 {
+  "id": 9140,
+  "title": [
+    "[Thurfel's Island]"
+  ],
+  "description": [
+    "A very large statue of a very squat halfling has been constructed on the tip of the island.  It stands upon a pedestal of polished pink coral, and is made completely from eroded chunks of seaglass.  In spite of the odd material used to create the artwork, the piece is quite detailed."
+  ],
+  "paths": [
+    "Obvious paths: east, south, northwest"
+  ],
+  "location": "Thurfel's Island",
   "wayto": {
     "9141": "northwest",
     "9148": "east",
     "9139": "south"
   },
-  "paths": [
-    "Obvious paths: east, south, northwest"
-  ],
+  "timeto": {
+    "9141": 0.2,
+    "9148": 0.2,
+    "9139": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     386,
     963,
     396,
     973
   ],
-  "terrain": "sandy",
-  "description": [
-    "A very large statue of a very squat halfling has been constructed on the tip of the island.  It stands upon a pedestal of polished pink coral, and is made completely from eroded chunks of seaglass.  In spite of the odd material used to create the artwork, the piece is quite detailed."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "hot, damp",
-  "title": [
-    "[Thurfel's Island]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9141": 0.2,
-    "9148": 0.2,
-    "9139": 0.2
-  },
-  "id": 9140,
-  "location": "Thurfel's Island",
   "tags": [
     "yabathilium fruit",
     "some acantha leaf",
     "yellow primrose",
-    "some bur-clover root",
-    "acantha leaf",
-    "murdroot",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some bur-clover root"
   ]
 }

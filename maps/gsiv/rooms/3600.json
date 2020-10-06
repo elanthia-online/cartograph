@@ -1,84 +1,81 @@
 {
-  "wayto": {
-    "3629": "go spring",
-    "1213": {
-      "stringproc": "b24650361b3c81d15d082bc298161296"
-    },
-    "3686": {
-      "stringproc": "1860fd685b2d8a480f3c421afca415f4"
-    },
-    "7673": {
-      "stringproc": "028bf040380808994173f2d0e9c8455e"
-    },
-    "4141": {
-      "stringproc": "dcda2676c0e7ad7cc1f638bf5a4d6441"
-    },
-    "3601": "west",
-    "6615": {
-      "stringproc": "4d7e720cf8c4d6b50257b4761ebe1b81"
-    },
-    "6505": {
-      "stringproc": "6fa494282d27fe79782787bec98f3c1a"
-    },
-    "14072": {
-      "stringproc": "a762e61a6af704cf80f0fd6ca15fb878"
-    },
-    "3683": "go gate",
-    "24715": {
-      "stringproc": "5f8d90c4a3f67b40364b30dfcd62d742"
-    }
-  },
+  "id": 3600,
+  "title": [
+    "[Courtyard]"
+  ],
+  "description": [
+    "A well maintained and healthy garden occupies the entirety of the courtyard.  The air here is cool and crisp, though the sun's strong rays beat back any feelings of cold.  In the center of the garden is a natural spring bubbling up several inches above the surface of the encircling pool of crystal clear water.  A large stone and iron gate blocks the entrance to the monastery flanked by a statue of a woman carrying a crystal staff and a set of crystalline keys facing a second statue of a kneeling young man bedecked in battle-worn black chain armor.",
+    "A well maintained and healthy garden occupies the entirety of the courtyard.  The air here is cool and crisp, but the bulk of the monastery shelters you from wind and makes the air bracing instead of chilling.  In the center of the garden is a natural spring bubbling up several inches above the surface of the encircling pool of crystal clear water.  A large stone and iron gate blocks the entrance to the monastery flanked by a statue of a woman carrying a crystal staff and a set of crystalline keys facing a second statue of a kneeling young man bedecked in battle-worn black chain armor."
+  ],
   "paths": [
     "Obvious paths: west"
   ],
+  "location": "the Graveyard",
+  "wayto": {
+    "3629": "go spring",
+    "1213": {
+      "file": "string_procs/wayto/3600_1213.rb"
+    },
+    "3686": {
+      "file": "string_procs/wayto/3600_3686.rb"
+    },
+    "7673": {
+      "file": "string_procs/wayto/3600_7673.rb"
+    },
+    "4141": {
+      "file": "string_procs/wayto/3600_4141.rb"
+    },
+    "3601": "west",
+    "6615": {
+      "file": "string_procs/wayto/3600_6615.rb"
+    },
+    "6505": {
+      "file": "string_procs/wayto/3600_6505.rb"
+    },
+    "14072": {
+      "file": "string_procs/wayto/3600_14072.rb"
+    },
+    "3683": "go gate",
+    "24715": {
+      "file": "string_procs/wayto/3600_24715.rb"
+    }
+  },
+  "timeto": {
+    "3629": 0.2,
+    "1213": {
+      "file": "string_procs/timeto/3600_1213.rb"
+    },
+    "3686": {
+      "file": "string_procs/timeto/3600_3686.rb"
+    },
+    "7673": {
+      "file": "string_procs/timeto/3600_7673.rb"
+    },
+    "4141": {
+      "file": "string_procs/timeto/3600_4141.rb"
+    },
+    "3601": 0.2,
+    "6615": {
+      "file": "string_procs/timeto/3600_6615.rb"
+    },
+    "6505": {
+      "file": "string_procs/timeto/3600_6505.rb"
+    },
+    "14072": {
+      "file": "string_procs/timeto/3600_14072.rb"
+    },
+    "3683": 0.2,
+    "24715": {
+      "file": "string_procs/timeto/3600_24715.rb"
+    }
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     1163,
     66,
     1173,
     76
   ],
-  "terrain": "missing",
-  "description": [
-    "A well maintained and healthy garden occupies the entirety of the courtyard.  The air here is cool and crisp, though the sun's strong rays beat back any feelings of cold.  In the center of the garden is a natural spring bubbling up several inches above the surface of the encircling pool of crystal clear water.  A large stone and iron gate blocks the entrance to the monastery flanked by a statue of a woman carrying a crystal staff and a set of crystalline keys facing a second statue of a kneeling young man bedecked in battle-worn black chain armor.",
-    "A well maintained and healthy garden occupies the entirety of the courtyard.  The air here is cool and crisp, but the bulk of the monastery shelters you from wind and makes the air bracing instead of chilling.  In the center of the garden is a natural spring bubbling up several inches above the surface of the encircling pool of crystal clear water.  A large stone and iron gate blocks the entrance to the monastery flanked by a statue of a woman carrying a crystal staff and a set of crystalline keys facing a second statue of a kneeling young man bedecked in battle-worn black chain armor."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "missing",
-  "title": [
-    "[Courtyard]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3629": 0.2,
-    "1213": {
-      "stringproc": "6bed4d7c950aca8ac34138fa5ff23783"
-    },
-    "3686": {
-      "stringproc": "6bed4d7c950aca8ac34138fa5ff23783"
-    },
-    "7673": {
-      "stringproc": "6bed4d7c950aca8ac34138fa5ff23783"
-    },
-    "4141": {
-      "stringproc": "6bed4d7c950aca8ac34138fa5ff23783"
-    },
-    "3601": 0.2,
-    "6615": {
-      "stringproc": "6bed4d7c950aca8ac34138fa5ff23783"
-    },
-    "6505": {
-      "stringproc": "6bed4d7c950aca8ac34138fa5ff23783"
-    },
-    "14072": {
-      "stringproc": "6bed4d7c950aca8ac34138fa5ff23783"
-    },
-    "3683": 0.2,
-    "24715": {
-      "stringproc": "6bed4d7c950aca8ac34138fa5ff23783"
-    }
-  },
-  "id": 3600,
-  "location": "the Graveyard",
   "tags": [
     "some pothinir grass",
     "some calamia fruit",
@@ -115,10 +112,6 @@
     "onion skin",
     "meta:mapname:Wehnimer's Landing - Outside Gates",
     "meta:mapshortname:Outside Gates",
-    "meta:mapcategory:Wehnimer's Landing",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "meta:mapcategory:Wehnimer's Landing"
   ]
 }

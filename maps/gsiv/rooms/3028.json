@@ -1,33 +1,30 @@
 {
+  "id": 3028,
+  "title": [
+    "[Arctic Tundra, High Plain]"
+  ],
+  "description": [
+    "High snow drifts line both sides of the faint trail here, encroaching upon it in spots.  They serve as a reminder that nothing is permanent on the high plains, but merely tolerated."
+  ],
+  "paths": [
+    "Obvious paths: northeast, west"
+  ],
+  "location": "the High Plains",
   "wayto": {
     "3027": "west",
     "3029": "northeast"
   },
-  "paths": [
-    "Obvious paths: northeast, west"
-  ],
+  "timeto": {
+    "3027": 0.2,
+    "3029": 0.2
+  },
+  "image": "imt-east_west_north_gates-1264234799.png",
   "image_coords": [
     593,
     917,
     603,
     927
   ],
-  "terrain": "mountainous",
-  "description": [
-    "High snow drifts line both sides of the faint trail here, encroaching upon it in spots.  They serve as a reminder that nothing is permanent on the high plains, but merely tolerated."
-  ],
-  "image": "imt-east_west_north_gates-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Arctic Tundra, High Plain]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "3027": 0.2,
-    "3029": 0.2
-  },
-  "id": 3028,
-  "location": "the High Plains",
   "tags": [
     "red winterberry",
     "some valerian root",
@@ -55,14 +52,6 @@
     "lingonberry",
     "ironfern root",
     "bolmara lichen",
-    "sprig of edelweiss",
-    "valerian root",
-    "pennyroyal stem",
-    "arctic moss",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "sprig of edelweiss"
   ]
 }

@@ -1,31 +1,23 @@
 {
+  "id": 28403,
+  "title": [
+    "[Windfellow Tower, Third Floor]"
+  ],
+  "description": [
+    "The staircase on this level is not quite even with the floor, as a pair of the steps actually continue above the floor, creating an awkward step down.  Many signs of heavy impact can be seen on the protruding steps, as if someone or something had attempted to hammer them into place after they had been placed.  A staircase formed of the same stones found in the rest of the tower stretches upwards, though these particular stones are polished to a high sheen."
+  ],
+  "paths": [
+    "Obvious exits: southwest"
+  ],
+  "location": "Mist Harbor",
   "wayto": {
     "28406": "go pale door",
     "28409": "go fissure",
     "28410": "go cinnamon door",
-    "28405": "southwest",
+    "28405": "sw",
     "28402": "go step",
     "28443": "go staircase"
   },
-  "paths": [
-    "Obvious exits: southwest"
-  ],
-  "image_coords": [
-    600,
-    1429,
-    674,
-    1500
-  ],
-  "terrain": null,
-  "description": [
-    "The staircase on this level is not quite even with the floor, as a pair of the steps actually continue above the floor, creating an awkward step down.  Many signs of heavy impact can be seen on the protruding steps, as if someone or something had attempted to hammer them into place after they had been placed.  A staircase formed of the same stones found in the rest of the tower stretches upwards, though these particular stones are polished to a high sheen."
-  ],
-  "image": "fest-windfellows_retreat-1566674846.jpg",
-  "climate": null,
-  "title": [
-    "[Windfellow Tower, Third Floor]"
-  ],
-  "check_location": null,
   "timeto": {
     "28402": 0.2,
     "28405": 0.2,
@@ -34,10 +26,11 @@
     "28410": 0.2,
     "28443": 0.2
   },
-  "id": 28403,
-  "location": "Mist Harbor",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  "image": "fest-windfellows_retreat-1566674846.jpg",
+  "image_coords": [
+    600,
+    1429,
+    674,
+    1500
+  ]
 }

@@ -1,37 +1,29 @@
 {
-  "wayto": {
-    "7662": "up"
-  },
+  "id": 7663,
+  "title": [
+    "[Sea Cave, Abandoned Lair]"
+  ],
+  "description": [
+    "As you drop through the crevice, your senses are assaulted by the foul stench that fills this cavernous room.  A pile of dried weeds and straw lies on the floor, and several stone shelves line the walls.  Water drips from a crack in the ceiling into a shallow basin carved into a rock."
+  ],
   "paths": [
     "Obvious exits: up"
   ],
+  "location": "the Coastal Cliffs",
+  "wayto": {
+    "7662": "up"
+  },
+  "timeto": {
+    "7662": 0.2
+  },
+  "image": "wl-coastal_cliffs-1264234799.png",
   "image_coords": [
     753,
     403,
     763,
     413
   ],
-  "terrain": "indoors",
-  "description": [
-    "As you drop through the crevice, your senses are assaulted by the foul stench that fills this cavernous room.  A pile of dried weeds and straw lies on the floor, and several stone shelves line the walls.  Water drips from a crack in the ceiling into a shallow basin carved into a rock."
-  ],
-  "image": "wl-coastal_cliffs-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Sea Cave, Abandoned Lair]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7662": 0.2
-  },
-  "id": 7663,
-  "location": "the Coastal Cliffs",
   "tags": [
-    "shelfae chieftain",
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "shelfae chieftain"
   ]
 }

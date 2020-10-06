@@ -1,35 +1,32 @@
 {
-  "wayto": {
-    "18821": "southwest",
-    "18823": {
-      "stringproc": "52a801c947de0398fe12c576bf73d966"
-    }
-  },
+  "id": 18822,
+  "title": [
+    "[Sorcerer's Isle, Shore]"
+  ],
+  "description": [
+    "Wavelets from the river lap incessantly against the pebbly beach created by an outwash of a small creek flowing in from the heart of the island.  A pair of large pine trees frame the beach, their ancient roots clinging to the eroding soil like gnarled fingers.  The creek-bed wends its way to the river through a dense thicket of reeds to the southwest."
+  ],
   "paths": [
     "Obvious paths: southwest"
   ],
+  "location": "Sorcerer's Isle",
+  "wayto": {
+    "18821": "southwest",
+    "18823": {
+      "file": "string_procs/wayto/18822_18823.rb"
+    }
+  },
+  "timeto": {
+    "18821": 0.2,
+    "18823": 0.2
+  },
+  "image": "en-ravelin.png",
   "image_coords": [
     1239,
     286,
     1267,
     311
   ],
-  "terrain": null,
-  "description": [
-    "Wavelets from the river lap incessantly against the pebbly beach created by an outwash of a small creek flowing in from the heart of the island.  A pair of large pine trees frame the beach, their ancient roots clinging to the eroding soil like gnarled fingers.  The creek-bed wends its way to the river through a dense thicket of reeds to the southwest."
-  ],
-  "image": "en-ravelin.png",
-  "climate": null,
-  "title": [
-    "[Sorcerer's Isle, Shore]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "18821": 0.2,
-    "18823": 0.2
-  },
-  "id": 18822,
-  "location": "Sorcerer's Isle",
   "tags": [
     "wood violet",
     "some orchil lichen",
@@ -42,8 +39,5 @@
     "wavepetal blossom",
     "sunburst blossom",
     "orchil lichen"
-  ],
-  "links": [
-
   ]
 }

@@ -1,38 +1,28 @@
 {
+  "id": 16772,
+  "title": [
+    "[Temple Wyneb, Effluentorium]"
+  ],
+  "description": [
+    "Water drips from the ceiling and the walls are slick with condensation.  Traveling steadily along the floor, the stream has cut its own channel over the accumulated years."
+  ],
+  "paths": [
+    "Obvious exits: north, south"
+  ],
+  "location": "Temple Wyneb",
   "wayto": {
     "16771": "north",
     "16773": "south"
   },
-  "paths": [
-    "Obvious exits: north, south"
-  ],
+  "timeto": {
+    "16771": 0.2,
+    "16773": 0.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     689,
     626,
     699,
     636
-  ],
-  "terrain": "indoors",
-  "description": [
-    "Water drips from the ceiling and the walls are slick with condensation.  Traveling steadily along the floor, the stream has cut its own channel over the accumulated years."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Temple Wyneb, Effluentorium]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "16771": 0.2,
-    "16773": 0.2
-  },
-  "id": 16772,
-  "location": "Temple Wyneb",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

@@ -1,48 +1,36 @@
 {
+  "id": 8407,
+  "title": [
+    "[Thanatoph Bowels, North Lobe]"
+  ],
+  "description": [
+    "At the northernmost point of the quatrefoil, a series of carved glyphs dabbed with greenish-black soot stand out against the pale stone surface of the walls.  Emptied sacks of grain lie scattered on the floor, as though ransacked by something unspeakably powerful."
+  ],
+  "paths": [
+    "Obvious exits: southeast, south, southwest"
+  ],
+  "location": "the bowels of Thanatoph",
   "wayto": {
     "8374": "southeast",
     "8406": "southwest",
     "8408": "south"
   },
-  "paths": [
-    "Obvious exits: southeast, south, southwest"
-  ],
+  "timeto": {
+    "8374": 0.2,
+    "8406": 0.2,
+    "8408": 0.2
+  },
+  "image": "wl-stronghold-1264234799.png",
   "image_coords": [
     1258,
     484,
     1268,
     494
   ],
-  "terrain": "indoors",
-  "description": [
-    "At the northernmost point of the quatrefoil, a series of carved glyphs dabbed with greenish-black soot stand out against the pale stone surface of the walls.  Emptied sacks of grain lie scattered on the floor, as though ransacked by something unspeakably powerful."
-  ],
-  "image": "wl-stronghold-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Thanatoph Bowels, North Lobe]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8374": 0.2,
-    "8406": 0.2,
-    "8408": 0.2
-  },
-  "id": 8407,
-  "location": "the bowels of Thanatoph",
   "tags": [
     "some wolifrew lichen",
     "some wingstem root",
     "withered black mushroom",
-    "some cave moss",
-    "wolifrew lichen",
-    "cave moss",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

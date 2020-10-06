@@ -1,34 +1,31 @@
 {
+  "id": 9672,
+  "title": [
+    "[Cysaegir, Dragonfly Aqueduct]"
+  ],
+  "description": [
+    "A gurgling stream runs through a small aqueduct capped with thick solid crystal that reflects a prismatic hue of colors in the gleaming sunlight.  Over the rushing streamhead stands a short drawbridge leading to a curving wall approximately twenty feet in height, running east and west with the stream, as far as the eye can see.  Rising above the wall are identical round towers with pointed domes from which nondescript banners flutter on a gentle breeze.",
+    "A gurgling stream runs through a small aqueduct capped with thick solid crystal that reflects a prismatic hue of colors under the pale moonlight.  Over the rushing streamhead stands a short drawbridge leading to a curving wall approximately twenty feet in height, running east and west with the stream, as far as the eye can see.  Rising above the wall are identical round towers with pointed domes from which nondescript banners flutter on a gentle breeze."
+  ],
+  "paths": [
+    "Obvious paths: east"
+  ],
+  "location": "the village of Cysaegir",
   "wayto": {
     "9673": "east",
     "4638": "go drawbridge"
   },
-  "paths": [
-    "Obvious paths: east"
-  ],
+  "timeto": {
+    "9673": 0.2,
+    "4638": 0.2
+  },
+  "image": "en-cysaegir-1264234799.png",
   "image_coords": [
     281,
     641,
     317,
     677
   ],
-  "terrain": "grassland",
-  "description": [
-    "A gurgling stream runs through a small aqueduct capped with thick solid crystal that reflects a prismatic hue of colors in the gleaming sunlight.  Over the rushing streamhead stands a short drawbridge leading to a curving wall approximately twenty feet in height, running east and west with the stream, as far as the eye can see.  Rising above the wall are identical round towers with pointed domes from which nondescript banners flutter on a gentle breeze.",
-    "A gurgling stream runs through a small aqueduct capped with thick solid crystal that reflects a prismatic hue of colors under the pale moonlight.  Over the rushing streamhead stands a short drawbridge leading to a curving wall approximately twenty feet in height, running east and west with the stream, as far as the eye can see.  Rising above the wall are identical round towers with pointed domes from which nondescript banners flutter on a gentle breeze."
-  ],
-  "image": "en-cysaegir-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Cysaegir, Dragonfly Aqueduct]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9673": 0.2,
-    "4638": 0.2
-  },
-  "id": 9672,
-  "location": "the village of Cysaegir",
   "tags": [
     "some acantha leaf",
     "some ambrominas leaf",
@@ -107,10 +104,6 @@
     "wavepetal blossom",
     "ironfern root",
     "nightbloom blossom",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "brostheras grass"
   ]
 }

@@ -1,49 +1,35 @@
 {
-  "wayto": {
-    "4578": {
-      "stringproc": "573c73ebd09b0d814e23e234ae1865da"
-    },
-    "4580": {
-      "stringproc": "395b361a16c8a355265cda519abf9fe5"
-    }
-  },
+  "id": 4579,
+  "title": [
+    "[Griffin's Keen, Topaz Point]"
+  ],
+  "description": [
+    "This steeply curved ledge winds around an ice-slicked bend and ends against the side of an uneven stone spire.  The craggy tops of other spires can be seen beyond it, forming a nearly straight line.  Where the spire and the mountainside meet, a long dark crevice looks wide enough to provide shelter."
+  ],
   "paths": [
     "Obvious paths: down"
   ],
+  "location": "Griffin's Keen",
+  "wayto": {
+    "4578": {
+      "file": "string_procs/wayto/4579_4578.rb"
+    },
+    "4580": {
+      "file": "string_procs/wayto/4579_4580.rb"
+    }
+  },
+  "timeto": {
+    "4578": 4.2,
+    "4580": 4.2
+  },
+  "image": "en-skull-1264234799.png",
   "image_coords": [
     528,
     170,
     538,
     180
   ],
-  "terrain": null,
-  "description": [
-    "This steeply curved ledge winds around an ice-slicked bend and ends against the side of an uneven stone spire.  The craggy tops of other spires can be seen beyond it, forming a nearly straight line.  Where the spire and the mountainside meet, a long dark crevice looks wide enough to provide shelter."
-  ],
-  "image": "en-skull-1264234799.png",
-  "climate": null,
-  "title": [
-    "[Griffin's Keen, Topaz Point]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "4578": 4.2,
-    "4580": 4.2
-  },
-  "id": 4579,
-  "location": "Griffin's Keen",
   "tags": [
-    "some angelica root",
-    "sassafras leaf",
-    "sweetfern stalk",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "sprig of holly",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some angelica root"
   ]
 }

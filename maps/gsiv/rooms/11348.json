@@ -1,33 +1,32 @@
 {
+  "id": 11348,
+  "title": [
+    "[Citadel, Walkway]"
+  ],
+  "description": [
+    "The pathway twists, blocking your vision both forward and back, making it seem as if you are entirely isolated from the rest of the world.  The shrubbery here is so thick that no sound or light reaches you, except for the buzzing and glowing of the many fireflies in the air."
+  ],
+  "paths": [
+    "Obvious paths: northeast, southeast"
+  ],
+  "location": "the Citadel",
+  "climate": "humid",
+  "terrain": "cultivated",
   "wayto": {
     "11347": "northeast",
     "11349": "southeast"
   },
-  "paths": [
-    "Obvious paths: northeast, southeast"
-  ],
+  "timeto": {
+    "11347": 0.2,
+    "11349": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     601,
     1417,
     611,
     1427
   ],
-  "terrain": "cultivated",
-  "description": [
-    "The pathway twists, blocking your vision both forward and back, making it seem as if you are entirely isolated from the rest of the world.  The shrubbery here is so thick that no sound or light reaches you, except for the buzzing and glowing of the many fireflies in the air."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "humid",
-  "title": [
-    "[Citadel, Walkway]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11347": 0.2,
-    "11349": 0.2
-  },
-  "id": 11348,
-  "location": "the Citadel",
   "tags": [
     "some pothinir grass",
     "withered black mushroom",
@@ -60,12 +59,6 @@
     "pink passionflower",
     "white passionflower",
     "yellow passionflower",
-    "blue passionflower",
-    "spider lily",
-    "onion skin",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "blue passionflower"
   ]
 }

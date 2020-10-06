@@ -1,33 +1,30 @@
 {
+  "id": 1716,
+  "title": [
+    "[Trail Ascent]"
+  ],
+  "description": [
+    "The path, if it could even be called that, plunges down a hillside into the dense forest below.  Barely discernible traces of passage also lead off to the south, following a ridgeline that drops steeply on the eastern side of the forest.  The footing in both directions appears tricky, but it also looks much easier to navigate than plunging directly into several feet of powdery snow underneath the trees to the north and west."
+  ],
+  "paths": [
+    "Obvious paths: south, down"
+  ],
+  "location": "Gossamer Valley",
   "wayto": {
     "1717": "south",
     "1715": "down"
   },
-  "paths": [
-    "Obvious paths: south, down"
-  ],
+  "timeto": {
+    "1717": 0.2,
+    "1715": 0.2
+  },
+  "image": "en-sapphire-1264234799.png",
   "image_coords": [
     391,
     837,
     401,
     847
   ],
-  "terrain": "coniferous forest",
-  "description": [
-    "The path, if it could even be called that, plunges down a hillside into the dense forest below.  Barely discernible traces of passage also lead off to the south, following a ridgeline that drops steeply on the eastern side of the forest.  The footing in both directions appears tricky, but it also looks much easier to navigate than plunging directly into several feet of powdery snow underneath the trees to the north and west."
-  ],
-  "image": "en-sapphire-1264234799.png",
-  "climate": "snowy, arctic",
-  "title": [
-    "[Trail Ascent]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "1717": 0.2,
-    "1715": 0.2
-  },
-  "id": 1716,
-  "location": "Gossamer Valley",
   "tags": [
     "some pennyroyal stem",
     "tkaro root",
@@ -44,19 +41,6 @@
     "slender twig",
     "twisted twig",
     "pine cone",
-    "handful of pinenuts",
-    "sticks",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "broken twig",
-    "pine needles",
-    "tree bark",
-    "ironfern root",
-    "bolmara lichen",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "handful of pinenuts"
   ]
 }

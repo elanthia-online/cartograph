@@ -1,66 +1,37 @@
 {
+  "id": 8457,
+  "title": [
+    "[A Faint Path]"
+  ],
+  "description": [
+    "In the distance, you can make out a black, ominous tower.  It looms over the hills like a dark sentinel, the walls shimmering faintly despite the absence of light created by the stormclouds above.  A faint path winds towards the tower, almost completely hidden by brambles.",
+    "In the distance, you can make out a black, ominous tower.  It looms over the hills like a dark sentinel, the walls shimmering faintly despite the absence of light.  A faint path winds towards the tower, almost completely hidden by brambles."
+  ],
+  "paths": [
+    "Obvious paths: southwest"
+  ],
+  "location": "Wehnimer's Landing",
   "wayto": {
     "8458": "go path",
     "8456": "southwest"
   },
-  "paths": [
-    "Obvious paths: southwest"
-  ],
+  "timeto": {
+    "8458": 0.2,
+    "8456": 0.2
+  },
+  "image": "wl-trollfang-1264234799.png",
   "image_coords": [
     562,
     610,
     572,
     620
   ],
-  "terrain": "rough",
-  "description": [
-    "In the distance, you can make out a black, ominous tower.  It looms over the hills like a dark sentinel, the walls shimmering faintly despite the absence of light created by the stormclouds above.  A faint path winds towards the tower, almost completely hidden by brambles.",
-    "In the distance, you can make out a black, ominous tower.  It looms over the hills like a dark sentinel, the walls shimmering faintly despite the absence of light.  A faint path winds towards the tower, almost completely hidden by brambles."
-  ],
-  "image": "wl-trollfang-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[A Faint Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "8458": 0.2,
-    "8456": 0.2
-  },
-  "id": 8457,
-  "location": "Wehnimer's Landing",
   "tags": [
     "sprig of alyssum",
     "heath aster",
     "yellow primrose",
     "wild strawberry",
     "white baneberry",
-    "wintergreen leaf",
-    "bright red teaberry",
-    "blueberries",
-    "stalk of chicory",
-    "handful of currants",
-    "elderberries",
-    "wild gooseberry",
-    "fiddlehead fern",
-    "wild grapes",
-    "broken twig",
-    "golden buttercup",
-    "red clover blossom",
-    "pink clover blossom",
-    "white clover blossom",
-    "purple clover blossom",
-    "yellow clover blossom",
-    "stalk of goldenrod",
-    "sprig of larkspur",
-    "small wild rose",
-    "wild chokecherry",
-    "motherwort",
-    "pepperthorn root",
-    "ironfern root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "wintergreen leaf"
   ]
 }

@@ -1,51 +1,38 @@
 {
+  "id": 6894,
+  "title": [
+    "[Smuggling Tunnels, Storage]"
+  ],
+  "description": [
+    "The broken remnants of several iron bound chests stand shakily against the east wall.  Whatever they once held has long gone the way of the swallow, but the trunks still remain, wood mostly rotted from them and the iron gone totally to rust.  A small rat scurries through them, looking for something shiny to take back to his nest."
+  ],
+  "paths": [
+    "Obvious exits: north, south, southwest, west"
+  ],
+  "location": "the smuggling tunnels",
   "wayto": {
     "6895": "west",
     "6898": "southwest",
     "6900": "south",
     "6893": "north"
   },
-  "paths": [
-    "Obvious exits: north, south, southwest, west"
-  ],
-  "image_coords": [
-    1102,
-    1328,
-    1112,
-    1338
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The broken remnants of several iron bound chests stand shakily against the east wall.  Whatever they once held has long gone the way of the swallow, but the trunks still remain, wood mostly rotted from them and the iron gone totally to rust.  A small rat scurries through them, looking for something shiny to take back to his nest."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Smuggling Tunnels, Storage]"
-  ],
-  "check_location": null,
   "timeto": {
     "6895": 0.2,
     "6898": 0.2,
     "6900": 0.2,
     "6893": 0.2
   },
-  "id": 6894,
-  "location": "the smuggling tunnels",
+  "image": "wl-gates-1264234799.png",
+  "image_coords": [
+    1102,
+    1328,
+    1112,
+    1338
+  ],
   "tags": [
     "withered black mushroom",
     "some wingstem root",
     "some bur-clover root",
-    "some cave moss",
-    "cave moss",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

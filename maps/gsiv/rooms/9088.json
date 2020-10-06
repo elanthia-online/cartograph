@@ -1,43 +1,33 @@
 {
+  "id": 9088,
+  "title": [
+    "[Infested Tunnels, Rat's Nest]"
+  ],
+  "description": [
+    "The tunnels wind featurelessly through the earth.  For a moment you cannot recall which you entered through.  A cold sweat breaks out on your brow at the thought of being lost down here forever."
+  ],
+  "paths": [
+    "Obvious exits: northeast, west, northwest"
+  ],
+  "location": "the subterranean tunnels",
   "wayto": {
     "9085": "west",
     "9092": "northeast",
     "9084": "northwest"
   },
-  "paths": [
-    "Obvious exits: northeast, west, northwest"
-  ],
+  "timeto": {
+    "9085": 0.2,
+    "9092": 0.2,
+    "9084": 0.2
+  },
+  "image": "imt-underground-1264234799.png",
   "image_coords": [
     1323,
     305,
     1333,
     315
   ],
-  "terrain": "indoors",
-  "description": [
-    "The tunnels wind featurelessly through the earth.  For a moment you cannot recall which you entered through.  A cold sweat breaks out on your brow at the thought of being lost down here forever."
-  ],
-  "image": "imt-underground-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Infested Tunnels, Rat's Nest]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9085": 0.2,
-    "9092": 0.2,
-    "9084": 0.2
-  },
-  "id": 9088,
-  "location": "the subterranean tunnels",
   "tags": [
-    "some wolifrew lichen",
-    "wolifrew lichen",
-    "ironfern root",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wolifrew lichen"
   ]
 }

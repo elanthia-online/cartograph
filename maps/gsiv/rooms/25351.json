@@ -1,32 +1,23 @@
 {
-  "wayto": {
-    "25352": "north",
-    "25360": {
-      "stringproc": "d5dd5356dee73bd4fb49655100119f37"
-    }
-  },
-  "paths": [
-    "Obvious paths: north"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Meticulously manicured grass and narrow rows of wildflowers line the edges of this path between the front gate and the manor.  Relatively open, this vantage point provides a clear view of the ground's enormity.  Anxious visitors scuttle up and down the pathway, some toward the front lawn area and others toward the front gate."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 25351,
   "title": [
     "[Delirium Manor, Path]"
   ],
-  "check_location": null,
+  "description": [
+    "Meticulously manicured grass and narrow rows of wildflowers line the edges of this path between the front gate and the manor.  Relatively open, this vantage point provides a clear view of the ground's enormity.  Anxious visitors scuttle up and down the pathway, some toward the front lawn area and others toward the front gate."
+  ],
+  "paths": [
+    "Obvious paths: north"
+  ],
+  "location": "Delirium Manor",
+  "wayto": {
+    "25352": "north",
+    "25360": {
+      "file": "string_procs/wayto/25351_25360.rb"
+    }
+  },
   "timeto": {
     "25352": 0.2,
     "25360": 0.2
-  },
-  "id": 25351,
-  "location": "Delirium Manor",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  }
 }

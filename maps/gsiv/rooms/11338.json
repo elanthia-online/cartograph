@@ -1,33 +1,30 @@
 {
+  "id": 11338,
+  "title": [
+    "[Citadel, Outside]"
+  ],
+  "description": [
+    "The smooth ebony wall of the wizard's Citadel rises above you, with no obvious openings.  The grasses growing around the base of the citadel are verdant and a pleasant warmth emanates from the wall."
+  ],
+  "paths": [
+    "Obvious paths: northeast, south"
+  ],
+  "location": "the Citadel",
   "wayto": {
     "11327": "ne",
     "11339": "s"
   },
-  "paths": [
-    "Obvious paths: northeast, south"
-  ],
+  "timeto": {
+    "11327": 0.2,
+    "11339": 0.2
+  },
+  "image": "rr-citadel-1267238976.png",
   "image_coords": [
     601,
     1141,
     611,
     1151
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "The smooth ebony wall of the wizard's Citadel rises above you, with no obvious openings.  The grasses growing around the base of the citadel are verdant and a pleasant warmth emanates from the wall."
-  ],
-  "image": "rr-citadel-1267238976.png",
-  "climate": "moist",
-  "title": [
-    "[Citadel, Outside]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11327": 0.2,
-    "11339": 0.2
-  },
-  "id": 11338,
-  "location": "the Citadel",
   "tags": [
     "some aloeas stem",
     "bright red cranberry",
@@ -39,17 +36,6 @@
     "some wingstem root",
     "some calamia fruit",
     "wild chokecherry",
-    "some motherwort",
-    "acantha leaf",
-    "calamia fruit",
-    "aloeas stem",
-    "motherwort",
-    "murkweed",
-    "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some motherwort"
   ]
 }

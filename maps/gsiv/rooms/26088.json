@@ -1,34 +1,25 @@
 {
-  "wayto": {
-    "26089": {
-      "stringproc": "2be5e1713fd441fb9d96ee2c6b6c09c0"
-    },
-    "26087": {
-      "stringproc": "b0be0d51fa1a6a17201f92c65e8511c2"
-    }
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "Thin and wide, the corridor is a straight line that leads from a set of upward spiraling stairs to a set of downward ones.  Carved into the eastern wall is a mural of an enormous forge that is illuminated by crimson toadstools set before it, while the western wall houses a large niche.  Candles litter the floor beneath the alcove, many of which show eminent signs of expiring."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 26088,
   "title": [
     "[Ancient Passage, Niche]"
   ],
-  "check_location": null,
+  "description": [
+    "Thin and wide, the corridor is a straight line that leads from a set of upward spiraling stairs to a set of downward ones.  Carved into the eastern wall is a mural of an enormous forge that is illuminated by crimson toadstools set before it, while the western wall houses a large niche.  Candles litter the floor beneath the alcove, many of which show eminent signs of expiring."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Zul Logoth",
+  "wayto": {
+    "26089": {
+      "file": "string_procs/wayto/26088_26089.rb"
+    },
+    "26087": {
+      "file": "string_procs/wayto/26088_26087.rb"
+    }
+  },
   "timeto": {
     "26089": 12.0,
     "26087": 24.0
-  },
-  "id": 26088,
-  "location": "Zul Logoth",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  }
 }

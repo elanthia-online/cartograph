@@ -1,35 +1,32 @@
 {
-  "wayto": {
-    "26834": {
-      "stringproc": "de2361cc27eb3a891ef246282dc27502"
-    },
-    "26061": "go gate"
-  },
+  "id": 25985,
+  "title": [
+    "[Journey's End, Lawn]"
+  ],
+  "description": [
+    "Surrounded by a low grey stone wall, a rolling green lawn spreads out before a beautiful alabaster stone manor.  Both elegant and charming, the building's design synthesizes the beauty of the landscape.  A cobbled walkway separates a grove of apple trees and blossoming beds of colorful flowers."
+  ],
   "paths": [
     "Obvious paths: none"
   ],
+  "location": "Ta'Illistim",
+  "wayto": {
+    "26834": {
+      "file": "string_procs/wayto/25985_26834.rb"
+    },
+    "26061": "go gate"
+  },
+  "timeto": {
+    "26834": 0.2,
+    "26061": 0.2
+  },
+  "image": "JourneysEnd.jpg",
   "image_coords": [
     377,
     731,
     434,
     773
   ],
-  "terrain": null,
-  "description": [
-    "Surrounded by a low grey stone wall, a rolling green lawn spreads out before a beautiful alabaster stone manor.  Both elegant and charming, the building's design synthesizes the beauty of the landscape.  A cobbled walkway separates a grove of apple trees and blossoming beds of colorful flowers."
-  ],
-  "image": "JourneysEnd.jpg",
-  "climate": null,
-  "title": [
-    "[Journey's End, Lawn]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "26834": 0.2,
-    "26061": 0.2
-  },
-  "id": 25985,
-  "location": "Ta'Illistim",
   "tags": [
     "cactacae spine",
     "calamia fruit",
@@ -106,6 +103,5 @@
     "wavepetal blossom",
     "nightbloom blossom",
     "onion skin"
-  ],
-  "unique_loot": null
+  ]
 }

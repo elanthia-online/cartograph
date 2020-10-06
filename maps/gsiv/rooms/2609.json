@@ -1,38 +1,30 @@
 {
-  "wayto": {
-    "2608": "west",
-    "2610": "east",
-    "12208": {
-      "stringproc": "a0576f0215d746452e7afb93c1ee082c"
-    },
-    "2635": {
-      "stringproc": "01b8924575c8d70e4ed7eea7ed00be84"
-    },
-    "12101": {
-      "stringproc": "cf4b8e5b125b22b01c9349827d02c9fd"
-    },
-    "2604": "northeast"
-  },
+  "id": 2609,
+  "title": [
+    "[The Rift]"
+  ],
+  "description": [
+    "A circular marble pillar sits in the middle of a room with thick grey tapestries for walls.  Above this pillar floats a large skull that appears to be serpentine or lizardlike in nature, slowly rotating in a sphere of blue energy.  The skull rotates, morphing into an elven one, then gently spinning again and changing into a human one, then a krolvin skull, then a giant one, and finally back to the serpent one."
+  ],
   "paths": [
     "Obvious exits: northeast, east, west",
     "Obvious paths: northeast, east, west"
   ],
-  "image_coords": [
-    146,
-    779,
-    154,
-    787
-  ],
-  "terrain": null,
-  "description": [
-    "A circular marble pillar sits in the middle of a room with thick grey tapestries for walls.  Above this pillar floats a large skull that appears to be serpentine or lizardlike in nature, slowly rotating in a sphere of blue energy.  The skull rotates, morphing into an elven one, then gently spinning again and changing into a human one, then a krolvin skull, then a giant one, and finally back to the serpent one."
-  ],
-  "image": "imt-rift-1554575848.png",
-  "climate": null,
-  "title": [
-    "[The Rift]"
-  ],
-  "check_location": null,
+  "location": "the Rift",
+  "wayto": {
+    "2608": "west",
+    "2610": "east",
+    "12208": {
+      "file": "string_procs/wayto/2609_12208.rb"
+    },
+    "2635": {
+      "file": "string_procs/wayto/2609_2635.rb"
+    },
+    "12101": {
+      "file": "string_procs/wayto/2609_12101.rb"
+    },
+    "2604": "northeast"
+  },
   "timeto": {
     "2608": 0.2,
     "2610": 0.2,
@@ -41,8 +33,13 @@
     "12101": 26.0,
     "2604": 0.2
   },
-  "id": 2609,
-  "location": "the Rift",
+  "image": "imt-rift-1554575848.png",
+  "image_coords": [
+    146,
+    779,
+    154,
+    787
+  ],
   "tags": [
     "mass of congealed slime",
     "oozing fleshsore bulb",
@@ -51,8 +48,5 @@
     "slime-covered grave blossom",
     "twisted black mawflower",
     "withered deathblossom"
-  ],
-  "links": [
-
   ]
 }

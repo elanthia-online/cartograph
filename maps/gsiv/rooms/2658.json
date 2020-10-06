@@ -1,50 +1,40 @@
 {
-  "wayto": {
-    "2647": {
-      "stringproc": "8f09e92a312abbfe4990b6f075cc5e03"
-    },
-    "2660": {
-      "stringproc": "9b43ea9c809cec2aa88f529dc66dbba8"
-    },
-    "2659": {
-      "stringproc": "604bae693c6209c4a2dab363bba1a61a"
-    },
-    "2661": {
-      "stringproc": "33e72e29910d8857225ffcc676b7ce0a"
-    }
-  },
-  "paths": [
-    "Obvious exits: none"
-  ],
-  "image_coords": [
-    363,
-    433,
-    373,
-    443
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The stairs grow more pitched and hazardous with each step.  To each side, sheer walls rise up toward the arched ceiling, their surfaces covered with archaic sigils punctuated with pictographs.  Many of these portray drakes, in a multitude of postures."
-  ],
-  "image": "imt-pinefar-1264234799.png",
-  "climate": "indoors",
+  "id": 2658,
   "title": [
     "[Stairs of Ice]"
   ],
-  "check_location": null,
+  "description": [
+    "The stairs grow more pitched and hazardous with each step.  To each side, sheer walls rise up toward the arched ceiling, their surfaces covered with archaic sigils punctuated with pictographs.  Many of these portray drakes, in a multitude of postures."
+  ],
+  "paths": [
+    "Obvious exits: none"
+  ],
+  "location": "Koar's Shrine",
+  "wayto": {
+    "2647": {
+      "file": "string_procs/wayto/2658_2647.rb"
+    },
+    "2660": {
+      "file": "string_procs/wayto/2658_2660.rb"
+    },
+    "2659": {
+      "file": "string_procs/wayto/2658_2659.rb"
+    },
+    "2661": {
+      "file": "string_procs/wayto/2658_2661.rb"
+    }
+  },
   "timeto": {
     "2647": 1.0,
     "2660": 1.0,
     "2659": 1.0,
     "2661": 1.0
   },
-  "id": 2658,
-  "location": "Koar's Shrine",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "imt-pinefar-1264234799.png",
+  "image_coords": [
+    363,
+    433,
+    373,
+    443
   ]
 }

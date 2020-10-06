@@ -1,1 +1,2 @@
-fput 'look barrel' ; move 'go chute'
+fput 'look barrel' 
+ move 'go chute'

@@ -1,4 +1,16 @@
 {
+  "id": 3442,
+  "title": [
+    "[Icemule, Bootlegger's Alley]"
+  ],
+  "description": [
+    "Snow accumulates against the South Wall, which leans over the alley and casts a long shadow over its stores.  An empty cask abandoned at the side of the alley, its staves kicked in by some tremendous force, spreads a faint odor of hops over the cobblestones.",
+    "Snow accumulates against the South Wall, casting a gloomy dark shadow over the alley and its stores.  At the side of the alley lies an empty cask, its staves kicked in by some tremendous force.  A faint odor of hops rises from the cobblestones beneath your feet."
+  ],
+  "paths": [
+    "Obvious paths: east, west"
+  ],
+  "location": "Icemule Trace",
   "wayto": {
     "16008": "go emporium",
     "3443": "west",
@@ -7,26 +19,6 @@
     "17659": "go simple shop",
     "3441": "east"
   },
-  "paths": [
-    "Obvious paths: east, west"
-  ],
-  "image_coords": [
-    174,
-    1399,
-    192,
-    1417
-  ],
-  "terrain": "hard, flat",
-  "description": [
-    "Snow accumulates against the South Wall, which leans over the alley and casts a long shadow over its stores.  An empty cask abandoned at the side of the alley, its staves kicked in by some tremendous force, spreads a faint odor of hops over the cobblestones.",
-    "Snow accumulates against the South Wall, casting a gloomy dark shadow over the alley and its stores.  At the side of the alley lies an empty cask, its staves kicked in by some tremendous force.  A faint odor of hops rises from the cobblestones beneath your feet."
-  ],
-  "image": "imt-icemule-1474811966.png",
-  "climate": "cold, dry",
-  "title": [
-    "[Icemule, Bootlegger's Alley]"
-  ],
-  "check_location": null,
   "timeto": {
     "16008": 0.2,
     "3443": 0.2,
@@ -35,13 +27,11 @@
     "17659": 0.2,
     "3441": 0.2
   },
-  "id": 3442,
-  "location": "Icemule Trace",
-  "tags": [
-    "calmintha flower",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "imt-icemule-1474811966.png",
+  "image_coords": [
+    174,
+    1399,
+    192,
+    1417
   ]
 }

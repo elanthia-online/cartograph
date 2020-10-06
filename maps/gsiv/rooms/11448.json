@@ -1,50 +1,39 @@
 {
-  "wayto": {
-    "11447": {
-      "stringproc": "6ec0d3f2602af819251801455c03b9d7"
-    },
-    "11437": {
-      "stringproc": "311ee2488122f711ecdb848822003512"
-    },
-    "11438": {
-      "stringproc": "e874f03e7b4c2d51bbdcaccf4bb927c8"
-    },
-    "11449": {
-      "stringproc": "ecb29216e38b2eccfa243d0a331e41b2"
-    }
-  },
-  "paths": [
-    "Obvious paths: north, east, southeast, northwest"
-  ],
-  "image_coords": [
-    729,
-    1314,
-    739,
-    1324
-  ],
-  "terrain": "missing",
-  "description": [
-    "The slow-moving swells of the bay disguise the swift currents that make it impossible to move to the west.  A tall, sheer cliff rises from the water, forming a steep wall to the east and northeast.  Clumps of scrub brush cling tenaciously to the sides of the cliff.  The water is deep, but clear enough that the sandy bottom is visible below."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": "missing",
+  "id": 11448,
   "title": [
     "[Tempest River, Bay Mouth]"
   ],
-  "check_location": null,
+  "description": [
+    "The slow-moving swells of the bay disguise the swift currents that make it impossible to move to the west.  A tall, sheer cliff rises from the water, forming a steep wall to the east and northeast.  Clumps of scrub brush cling tenaciously to the sides of the cliff.  The water is deep, but clear enough that the sandy bottom is visible below."
+  ],
+  "paths": [
+    "Obvious paths: north, east, southeast, northwest"
+  ],
+  "wayto": {
+    "11447": {
+      "file": "string_procs/wayto/11448_11447.rb"
+    },
+    "11437": {
+      "file": "string_procs/wayto/11448_11437.rb"
+    },
+    "11438": {
+      "file": "string_procs/wayto/11448_11438.rb"
+    },
+    "11449": {
+      "file": "string_procs/wayto/11448_11449.rb"
+    }
+  },
   "timeto": {
     "11447": 2.0,
     "11437": 2.0,
     "11438": 2.0,
     "11449": 2.0
   },
-  "id": 11448,
-  "location": "Maelstrom Bay",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+  "image": "rr-maelstrom-1266390501.png",
+  "image_coords": [
+    729,
+    1314,
+    739,
+    1324
   ]
 }

@@ -1,37 +1,30 @@
 {
+  "id": 25121,
+  "title": [
+    "[Reim Castle, East Wing]"
+  ],
+  "description": [
+    "Ethereal light surrounds a steel door leading into the royal court.  The thick, gold-edged crimson carpet continues down the hall shadowed by structural wooden beams overhead.  Elegantly carved gold banisters rise and fall along the walls in a wave-like motion.  A pair of carved wooden mantles hold a collection of paintings on either side of the door."
+  ],
+  "paths": [
+    "Obvious exits: east, west"
+  ],
+  "location": "the Settlement of Reim",
   "wayto": {
     "25120": "west",
     "25122": "east",
     "25130": "go door"
   },
-  "paths": [
-    "Obvious exits: east, west"
-  ],
-  "image_coords": [
-    374,
-    342,
-    386,
-    354
-  ],
-  "terrain": null,
-  "description": [
-    "Ethereal light surrounds a steel door leading into the royal court.  The thick, gold-edged crimson carpet continues down the hall shadowed by structural wooden beams overhead.  Elegantly carved gold banisters rise and fall along the walls in a wave-like motion.  A pair of carved wooden mantles hold a collection of paintings on either side of the door."
-  ],
-  "image": "imt-Reim-1260914759.png",
-  "climate": null,
-  "title": [
-    "[Reim Castle, East Wing]"
-  ],
-  "check_location": null,
   "timeto": {
     "25120": 0.2,
     "25122": 0.2,
     "25130": 0.2
   },
-  "id": 25121,
-  "location": "the Settlement of Reim",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  "image": "imt-Reim-1260914759.png",
+  "image_coords": [
+    374,
+    342,
+    386,
+    354
+  ]
 }

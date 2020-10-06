@@ -1,33 +1,30 @@
 {
+  "id": 24718,
+  "title": [
+    "[Red Forest, Derelict Village]"
+  ],
+  "description": [
+    "The ancient ground here holds an almost ruddy hue, as if copious amounts of blood once stained the dirt and time itself could not fully cleanse it.  A withering field stretches along the eastern outskirts of the village, enclosed by broken segments of bones fashioned together to resemble a macabre fence."
+  ],
+  "paths": [
+    "Obvious paths: southeast, southwest"
+  ],
+  "location": "the Red Forest",
   "wayto": {
     "24716": "southwest",
     "24722": "southeast"
   },
-  "paths": [
-    "Obvious paths: southeast, southwest"
-  ],
+  "timeto": {
+    "24716": 0.2,
+    "24722": 0.2
+  },
+  "image": "red_forest-1260914757.png",
   "image_coords": [
     138,
     439,
     151,
     453
   ],
-  "terrain": null,
-  "description": [
-    "The ancient ground here holds an almost ruddy hue, as if copious amounts of blood once stained the dirt and time itself could not fully cleanse it.  A withering field stretches along the eastern outskirts of the village, enclosed by broken segments of bones fashioned together to resemble a macabre fence."
-  ],
-  "image": "red_forest-1260914757.png",
-  "climate": null,
-  "title": [
-    "[Red Forest, Derelict Village]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "24716": 0.2,
-    "24722": 0.2
-  },
-  "id": 24718,
-  "location": "the Displaced Red Forest",
   "tags": [
     "wild chokecherry",
     "some brostheras grass",
@@ -45,35 +42,6 @@
     "some wolifrew lichen",
     "sprig of wild lilac",
     "some angelica root",
-    "some tree bark",
-    "acantha leaf",
-    "wolifrew lichen",
-    "ephlox moss",
-    "sticks",
-    "sassafras leaf",
-    "angelica root",
-    "valerian root",
-    "pennyroyal stem",
-    "soft white mushroom",
-    "bright red teaberry",
-    "blueberries",
-    "fiddlehead fern",
-    "broken twig",
-    "stalk of bluebells",
-    "wild pink geranium",
-    "small wild rose",
-    "tree bark",
-    "mistweed",
-    "willow twig",
-    "yew twig",
-    "oak twig",
-    "luckbloom blossom",
-    "murdroot",
-    "twisted twig",
-    "slender twig",
-    "bolmara lichen",
-    "brostheras grass",
-    "meta:forage-sensed"
-  ],
-  "unique_loot": null
+    "some tree bark"
+  ]
 }

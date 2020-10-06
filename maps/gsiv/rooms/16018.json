@@ -1,34 +1,33 @@
 {
+  "id": 16018,
+  "title": [
+    "[Grassland Path]"
+  ],
+  "description": [
+    "The thick vegetation retreats as the path grows wider and the underbrush gives way to towering trees which block out patches of moonlight with an expansive canopy of green.  The calls of animals and birds fill the night air, interrupted by the occasional distant roar of a troll to the south.  As the path continues to the southeast, a trail of beaten dirt emerges from the closely shorn grass.",
+    "The thick vegetation retreats as the path grows wider and the underbrush gives way to towering trees which block out patches of sunlight with an expansive canopy of green.  The calls of animals and birds fill the air, interrupted by the occasional distant roar of a troll to the south.  As the path continues to the southeast, a trail of beaten dirt emerges from the closely shorn grass."
+  ],
+  "paths": [
+    "Obvious paths: southeast, west"
+  ],
+  "location": "the Guardians of Sunfist outpost",
+  "climate": "temperate",
+  "terrain": "deciduous forest",
   "wayto": {
     "11027": "west",
     "16021": "southeast"
   },
-  "paths": [
-    "Obvious paths: southeast, west"
-  ],
+  "timeto": {
+    "11027": 0.2,
+    "16021": 0.2
+  },
+  "image": "rr-rivers_rest-1266350289.png",
   "image_coords": [
     633,
     985,
     643,
     995
   ],
-  "terrain": "deciduous forest",
-  "description": [
-    "The thick vegetation retreats as the path grows wider and the underbrush gives way to towering trees which block out patches of moonlight with an expansive canopy of green.  The calls of animals and birds fill the night air, interrupted by the occasional distant roar of a troll to the south.  As the path continues to the southeast, a trail of beaten dirt emerges from the closely shorn grass.",
-    "The thick vegetation retreats as the path grows wider and the underbrush gives way to towering trees which block out patches of sunlight with an expansive canopy of green.  The calls of animals and birds fill the air, interrupted by the occasional distant roar of a troll to the south.  As the path continues to the southeast, a trail of beaten dirt emerges from the closely shorn grass."
-  ],
-  "image": "rr-rivers_rest-1266350289.png",
-  "climate": "temperate",
-  "title": [
-    "[Grassland Path]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11027": 0.2,
-    "16021": 0.2
-  },
-  "id": 16018,
-  "location": "the Guardians of Sunfist outpost",
   "tags": [
     "stick",
     "some murkweed",
@@ -80,14 +79,6 @@
     "ebony twig",
     "bolmara lichen",
     "brostheras grass",
-    "walnuts,",
-    "trollfear mushroom",
-    "oxblood lily",
-    "walnuts",
-    "alder bark",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "walnuts,"
   ]
 }

@@ -1,36 +1,26 @@
 {
-  "wayto": {
-    "7105": "go door"
-  },
+  "id": 7106,
+  "title": [
+    "[Darkstone, Dungeon]"
+  ],
+  "description": [
+    "This is an absolutely bare room.  There's not even any dust on the floor."
+  ],
   "paths": [
     "Obvious exits: none"
   ],
+  "location": "Darkstone Castle",
+  "wayto": {
+    "7105": "go door"
+  },
+  "timeto": {
+    "7105": 0.2
+  },
+  "image": "wl-darkstone-1264234799.png",
   "image_coords": [
     1056,
     1078,
     1066,
     1088
-  ],
-  "terrain": "indoors",
-  "description": [
-    "This is an absolutely bare room.  There's not even any dust on the floor."
-  ],
-  "image": "wl-darkstone-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Darkstone, Dungeon]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7105": 0.2
-  },
-  "id": 7106,
-  "location": "Darkstone Castle",
-  "tags": [
-    "no forageables",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

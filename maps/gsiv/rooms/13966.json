@@ -1,43 +1,35 @@
 {
-  "wayto": {
-    "13923": {
-      "stringproc": "0f18c4c51ae2dcb7490d64fdd6901777"
-    },
-    "18842": {
-      "stringproc": "55e60f0e1b63b2c7c3e74f98bcc5667d"
-    },
-    "25621": {
-      "stringproc": "fc83243ffecbbb39c0c3ad0bf5c56ca9"
-    },
-    "25620": {
-      "stringproc": "c31bdde8939f0aaf07d0320f63b0ce9c"
-    },
-    "25619": {
-      "stringproc": "c95d2a1b43271ae403c229f919b21cf0"
-    },
-    "25638": {
-      "stringproc": "567cb5c259f4d044bc534b9234cc5bd2"
-    }
-  },
-  "paths": [
-    "Obvious paths: north, east, southeast, south, southwest, northwest, down"
-  ],
-  "image_coords": [
-    1124,
-    690,
-    1142,
-    709
-  ],
-  "terrain": null,
-  "description": [
-    "Nature's harmony is undisturbed as the river rolls along its course.  Breezes whisper amidst the trees on either side of the embankment while the river gurgles in quiet counterpoint.  To the southwest, a well-built dock overhangs the water's edge and numerous boats jostle each other as they try to slip free of their rope moorings."
-  ],
-  "image": "en-ravelin.png",
-  "climate": null,
+  "id": 13966,
   "title": [
     "[Mistydeep, Ravelin]"
   ],
-  "check_location": null,
+  "description": [
+    "Nature's harmony is undisturbed as the river rolls along its course.  Breezes whisper amidst the trees on either side of the embankment while the river gurgles in quiet counterpoint.  To the southwest, a well-built dock overhangs the water's edge and numerous boats jostle each other as they try to slip free of their rope moorings."
+  ],
+  "paths": [
+    "Obvious paths: north, east, southeast, south, southwest, northwest, down"
+  ],
+  "location": "the northern reaches of the Mistydeep River",
+  "wayto": {
+    "13923": {
+      "file": "string_procs/wayto/13966_13923.rb"
+    },
+    "18842": {
+      "file": "string_procs/wayto/13966_18842.rb"
+    },
+    "25621": {
+      "file": "string_procs/wayto/13966_25621.rb"
+    },
+    "25620": {
+      "file": "string_procs/wayto/13966_25620.rb"
+    },
+    "25619": {
+      "file": "string_procs/wayto/13966_25619.rb"
+    },
+    "25638": {
+      "file": "string_procs/wayto/13966_25638.rb"
+    }
+  },
   "timeto": {
     "13923": 10.0,
     "18842": 0.2,
@@ -46,12 +38,11 @@
     "25619": 0.2,
     "25638": 0.2
   },
-  "id": 13966,
-  "location": "the northern reaches of the Mistydeep River",
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "en-ravelin.png",
+  "image_coords": [
+    1124,
+    690,
+    1142,
+    709
   ]
 }

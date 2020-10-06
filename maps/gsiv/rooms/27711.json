@@ -1,34 +1,25 @@
 {
-  "wayto": {
-    "27710": {
-      "stringproc": "96166631e16e39e71dc1c4aa11b37727"
-    },
-    "27712": {
-      "stringproc": "5dd959750d0121980290722e0ca6c781"
-    }
-  },
-  "paths": [
-    "Obvious exits: down"
-  ],
-  "image_coords": null,
-  "terrain": null,
-  "description": [
-    "The shallow steps of the winding stairway taper off at a round room marked by a group of narrow slitted windows.  Pale starlight shines through the narrow gaps in the stone, shimmering wanly against the bits of ice formed along their edges.  A steel grommet fixed beneath one of the wider windows holds a long length of rope."
-  ],
-  "image": null,
-  "climate": null,
+  "id": 27711,
   "title": [
     "[South Barbican, West Tower]"
   ],
-  "check_location": null,
+  "description": [
+    "The shallow steps of the winding stairway taper off at a round room marked by a group of narrow slitted windows.  Pale starlight shines through the narrow gaps in the stone, shimmering wanly against the bits of ice formed along their edges.  A steel grommet fixed beneath one of the wider windows holds a long length of rope."
+  ],
+  "paths": [
+    "Obvious exits: down"
+  ],
+  "location": "Icemule Trace",
+  "wayto": {
+    "27710": {
+      "file": "string_procs/wayto/27711_27710.rb"
+    },
+    "27712": {
+      "file": "string_procs/wayto/27711_27712.rb"
+    }
+  },
   "timeto": {
     "27710": 10.2,
     "27712": 5.2
-  },
-  "id": 27711,
-  "location": "Icemule Trace",
-  "tags": [
-
-  ],
-  "unique_loot": null
+  }
 }

@@ -1,33 +1,25 @@
 {
+  "id": 21386,
+  "title": [
+    "[Feywrot Mire, Diseased Banyan]"
+  ],
+  "description": [
+    "Dim moonlight shines down, filtering through the shrivelled, broken stumps of limbs overhead.  Patches of shadow mingle and shift over small tracts of dying, diseased foliage that creep outward from the enormous blight-encroached banyan in vein-like tendrils.  Branches that once reached high into the sky now lay fallen and twisted among rotting heaps of debris at the base of the massive trunk, a startling contrast to the brightly colored flags that ring the diseased banyan.",
+    "Bright sunlight shines down, filtering through the shrivelled, broken stumps of limbs overhead.  Patches of shadow mingle and shift over small tracts of dying, diseased foliage that creep outward from the enormous blight-encroached banyan in vein-like tendrils.  Branches that once reached high into the sky now lay fallen and twisted among rotting heaps of debris at the base of the massive trunk, a startling contrast to the brightly colored flags that ring the diseased banyan."
+  ],
+  "paths": [
+    "Obvious paths: north, east, south, west"
+  ],
+  "location": "the Feywrot Mire",
   "wayto": {
     "20128": "west",
     "20164": "north",
     "20165": "south",
     "20167": "east",
     "23157": {
-      "stringproc": "a11119473f19d7c792f21531bdfa6b70"
+      "file": "string_procs/wayto/21386_23157.rb"
     }
   },
-  "paths": [
-    "Obvious paths: north, east, south, west"
-  ],
-  "image_coords": [
-    619,
-    522,
-    633,
-    536
-  ],
-  "terrain": null,
-  "description": [
-    "Dim moonlight shines down, filtering through the shrivelled, broken stumps of limbs overhead.  Patches of shadow mingle and shift over small tracts of dying, diseased foliage that creep outward from the enormous blight-encroached banyan in vein-like tendrils.  Branches that once reached high into the sky now lay fallen and twisted among rotting heaps of debris at the base of the massive trunk, a startling contrast to the brightly colored flags that ring the diseased banyan.",
-    "Bright sunlight shines down, filtering through the shrivelled, broken stumps of limbs overhead.  Patches of shadow mingle and shift over small tracts of dying, diseased foliage that creep outward from the enormous blight-encroached banyan in vein-like tendrils.  Branches that once reached high into the sky now lay fallen and twisted among rotting heaps of debris at the base of the massive trunk, a startling contrast to the brightly colored flags that ring the diseased banyan."
-  ],
-  "image": "fest-ebon_gate-1445214445.png",
-  "climate": null,
-  "title": [
-    "[Feywrot Mire, Diseased Banyan]"
-  ],
-  "check_location": null,
   "timeto": {
     "20128": 0.2,
     "20164": 0.2,
@@ -35,13 +27,11 @@
     "20167": 0.2,
     "23157": 0.2
   },
-  "id": 21386,
-  "location": "the Feywrot Mire",
-  "tags": [
-
-  ],
-  "unique_loot": null,
-  "links": [
-
+  "image": "fest-ebon_gate-1445214445.png",
+  "image_coords": [
+    619,
+    522,
+    633,
+    536
   ]
 }

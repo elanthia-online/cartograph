@@ -1,42 +1,33 @@
 {
+  "id": 2191,
+  "title": [
+    "[Eye of V'Tull, Outer Caverns]"
+  ],
+  "description": [
+    "The cavern slopes deeply to the southeast where a soft orange glow casts long black shadows from fresh igneous formations.  Heat wafts off the walls and floor, forming small whirlwinds of ash that dance chaotically for several moments before dispersing."
+  ],
+  "paths": [
+    "Obvious exits: north, southeast"
+  ],
+  "location": "the Eye of V'Tull",
   "wayto": {
     "2190": "north",
     "2192": "southeast"
   },
-  "paths": [
-    "Obvious exits: north, southeast"
-  ],
+  "timeto": {
+    "2190": 0.2,
+    "2192": 0.2
+  },
+  "image": "ti-vtull-1264234799.png",
   "image_coords": [
     868,
     520,
     878,
     530
   ],
-  "terrain": "indoors",
-  "description": [
-    "The cavern slopes deeply to the southeast where a soft orange glow casts long black shadows from fresh igneous formations.  Heat wafts off the walls and floor, forming small whirlwinds of ash that dance chaotically for several moments before dispersing."
-  ],
-  "image": "ti-vtull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Eye of V'Tull, Outer Caverns]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2190": 0.2,
-    "2192": 0.2
-  },
-  "id": 2191,
-  "location": "the Eye of V'Tull",
   "tags": [
     "daggerstalk mushroom",
     "black trafel mushroom",
-    "some cave moss",
-    "cave moss",
-    "pepperthorn root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some cave moss"
   ]
 }

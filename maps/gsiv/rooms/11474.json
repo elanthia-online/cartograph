@@ -1,43 +1,34 @@
 {
-  "wayto": {
-    "11470": {
-      "stringproc": "b9248cfc9b113e5b3c9341af010fa35e"
-    },
-    "11471": {
-      "stringproc": "2475b19f394c069e111c2fa06831c1f7"
-    },
-    "11473": {
-      "stringproc": "2475b19f394c069e111c2fa06831c1f7"
-    },
-    "11475": {
-      "stringproc": "84803c6220b0581d4151763c46ccdbbc"
-    },
-    "11477": {
-      "stringproc": "84d7e9c5466c56efd7dc0ac337b0a9ea"
-    },
-    "11478": {
-      "stringproc": "e531eb47f19700d00ac81ca15d619ca8"
-    }
-  },
-  "paths": [
-    "Obvious exits: north, east, southeast, south, up"
-  ],
-  "image_coords": [
-    922,
-    1180,
-    932,
-    1190
-  ],
-  "terrain": null,
-  "description": [
-    "A strong current prevents swimming to the west.  The current makes the long strands of broad-leafed kelp undulate like underwater belly-dancers.  Crabs and lobsters have scuttled along the sandy floor of the bay, leaving tiny dimple-like tracks."
-  ],
-  "image": "rr-maelstrom-1266390501.png",
-  "climate": null,
+  "id": 11474,
   "title": [
     "[Maelstrom Bay, Bottom]"
   ],
-  "check_location": null,
+  "description": [
+    "A strong current prevents swimming to the west.  The current makes the long strands of broad-leafed kelp undulate like underwater belly-dancers.  Crabs and lobsters have scuttled along the sandy floor of the bay, leaving tiny dimple-like tracks."
+  ],
+  "paths": [
+    "Obvious exits: north, east, southeast, south, up"
+  ],
+  "wayto": {
+    "11470": {
+      "file": "string_procs/wayto/11474_11470.rb"
+    },
+    "11471": {
+      "file": "string_procs/wayto/11474_11471.rb"
+    },
+    "11473": {
+      "file": "string_procs/wayto/11474_11473.rb"
+    },
+    "11475": {
+      "file": "string_procs/wayto/11474_11475.rb"
+    },
+    "11477": {
+      "file": "string_procs/wayto/11474_11477.rb"
+    },
+    "11478": {
+      "file": "string_procs/wayto/11474_11478.rb"
+    }
+  },
   "timeto": {
     "11470": 2.0,
     "11471": 2.0,
@@ -46,12 +37,11 @@
     "11477": 2.0,
     "11478": 2.0
   },
-  "id": 11474,
-  "location": null,
-  "tags": [
-
-  ],
-  "links": [
-
+  "image": "rr-maelstrom-1266390501.png",
+  "image_coords": [
+    922,
+    1180,
+    932,
+    1190
   ]
 }

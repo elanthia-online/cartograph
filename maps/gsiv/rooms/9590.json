@@ -1,48 +1,28 @@
 {
+  "id": 9590,
+  "title": [
+    "[Czeroth Caverns, Tunnel]"
+  ],
+  "description": [
+    "The walls close in and the grade is much steeper, making passage perilous.  Odd scratching sounds can be heard, but it is impossible to tell where they originate."
+  ],
+  "paths": [
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "the Czeroth Caverns",
   "wayto": {
     "9591": "northwest",
     "9589": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast, northwest"
-  ],
+  "timeto": {
+    "9591": 0.2,
+    "9589": 0.2
+  },
+  "image": "en-zul_logoth-1264234799.png",
   "image_coords": [
     1338,
     274,
     1348,
     284
-  ],
-  "terrain": "indoors",
-  "description": [
-    "The walls close in and the grade is much steeper, making passage perilous.  Odd scratching sounds can be heard, but it is impossible to tell where they originate."
-  ],
-  "image": "en-zul_logoth-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Czeroth Caverns, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "9591": 0.2,
-    "9589": 0.2
-  },
-  "id": 9590,
-  "location": "the Czeroth Caverns",
-  "tags": [
-    "soft white mushroom",
-    "withered black mushroom",
-    "daggerstalk mushroom",
-    "flathead mushroom",
-    "genkew mushroom",
-    "blue trafel mushroom",
-    "pepperthorn root",
-    "murdroot",
-    "ironfern root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
   ]
 }

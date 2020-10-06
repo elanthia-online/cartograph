@@ -1,70 +1,62 @@
 {
-  "wayto": {
-    "6191": {
-      "stringproc": "6488f2de2ac1f16e1e678978e3d43d9b"
-    },
-    "6192": {
-      "stringproc": "cbc782a156acbe679e8083420b86ff25"
-    },
-    "6193": {
-      "stringproc": "4e8a0ed042c01e77364a59c6111b08ae"
-    },
-    "6248": {
-      "stringproc": "2152c2bcbe7b40bf86242ee7bd463fe6"
-    },
-    "6194": {
-      "stringproc": "4ce52f907ee6ef6a1d2421e8775da4ad"
-    },
-    "6250": {
-      "stringproc": "a652b3aa8d9b98bff8df1e9949345fbf"
-    },
-    "6249": {
-      "stringproc": "f7a0413bf172d7042b63fcff3befef26"
-    },
-    "6195": {
-      "stringproc": "9749ec1278d739350591dfe09325c1cf"
-    },
-    "6251": {
-      "stringproc": "edd83ecb54e7986e5dd96442d147ca58"
-    },
-    "6196": {
-      "stringproc": "50d9979f8292126c445c0afc9eeca324"
-    },
-    "6252": {
-      "stringproc": "48546a9286e307ab266c12d601c98295"
-    },
-    "6197": {
-      "stringproc": "4ac7e781dd01b4f04cad44550ad099a0"
-    },
-    "6253": {
-      "stringproc": "3c0e66cb9a159243e7f1efe11c3b4f02"
-    },
-    "6198": {
-      "stringproc": "335ceadad023ef7d476822b25c0ad5eb"
-    },
-    "6199": {
-      "stringproc": "3f05b1ad85f331b2e109a0fdc9484937"
-    }
-  },
-  "paths": [
-    "Obvious exits: north, northeast, east, southeast, south, southwest, west, northwest"
-  ],
-  "image_coords": [
-    686,
-    452,
-    704,
-    470
-  ],
-  "terrain": null,
-  "description": [
-    "The floor shifts from a flat stone path to a cracked and bumpy cobblestone.  Thick, dark mosses and lichens spread through the cracks in the stone, adding slickness to the already uneven terrain."
-  ],
-  "image": "wl-wehntoph-1310775397.png",
-  "climate": null,
+  "id": 6254,
   "title": [
     "[Labyrinth]"
   ],
-  "check_location": null,
+  "description": [
+    "The floor shifts from a flat stone path to a cracked and bumpy cobblestone.  Thick, dark mosses and lichens spread through the cracks in the stone, adding slickness to the already uneven terrain."
+  ],
+  "paths": [
+    "Obvious exits: north, northeast, east, southeast, south, southwest, west, northwest"
+  ],
+  "location": "The Hidden Plateau",
+  "wayto": {
+    "6191": {
+      "file": "string_procs/wayto/6254_6191.rb"
+    },
+    "6192": {
+      "file": "string_procs/wayto/6254_6192.rb"
+    },
+    "6193": {
+      "file": "string_procs/wayto/6254_6193.rb"
+    },
+    "6248": {
+      "file": "string_procs/wayto/6254_6248.rb"
+    },
+    "6194": {
+      "file": "string_procs/wayto/6254_6194.rb"
+    },
+    "6250": {
+      "file": "string_procs/wayto/6254_6250.rb"
+    },
+    "6249": {
+      "file": "string_procs/wayto/6254_6249.rb"
+    },
+    "6195": {
+      "file": "string_procs/wayto/6254_6195.rb"
+    },
+    "6251": {
+      "file": "string_procs/wayto/6254_6251.rb"
+    },
+    "6196": {
+      "file": "string_procs/wayto/6254_6196.rb"
+    },
+    "6252": {
+      "file": "string_procs/wayto/6254_6252.rb"
+    },
+    "6197": {
+      "file": "string_procs/wayto/6254_6197.rb"
+    },
+    "6253": {
+      "file": "string_procs/wayto/6254_6253.rb"
+    },
+    "6198": {
+      "file": "string_procs/wayto/6254_6198.rb"
+    },
+    "6199": {
+      "file": "string_procs/wayto/6254_6199.rb"
+    }
+  },
   "timeto": {
     "6191": 0.5,
     "6192": 0.5,
@@ -82,14 +74,16 @@
     "6198": 0.5,
     "6199": 0.5
   },
-  "id": 6254,
-  "location": "The Hidden Plateau",
+  "image": "wl-wehntoph-1310775397.png",
+  "image_coords": [
+    686,
+    452,
+    704,
+    470
+  ],
   "tags": [
     "withered black mushroom",
     "black hook mushroom",
     "foe:minotaur warrior"
-  ],
-  "links": [
-
   ]
 }

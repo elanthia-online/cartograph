@@ -1,35 +1,32 @@
 {
+  "id": 17685,
+  "title": [
+    "[Smuggler's Tunnels, Tunnel]"
+  ],
+  "description": [
+    "A cool breeze, laden with the scent of river reeds and mud, flows into the tunnel from the east.  In addition to the gentle wind, the tunnel eastwards appears to have a source of light other than torchlight.  Meanwhile, to the southeast is a dark sloping tunnel entrance absent of light and the source of a slow, steady roar."
+  ],
+  "paths": [
+    "Obvious exits: north, east"
+  ],
+  "location": "River's Rest",
   "wayto": {
     "17683": "north",
     "17686": "go entrance",
     "17687": "east"
   },
-  "paths": [
-    "Obvious exits: north, east"
-  ],
+  "timeto": {
+    "17683": 0.2,
+    "17686": 0.2,
+    "17687": 0.2
+  },
+  "image": "rr-warrens-1266380776.png",
   "image_coords": [
     780,
     1214,
     818,
     1252
   ],
-  "terrain": "indoors",
-  "description": [
-    "A cool breeze, laden with the scent of river reeds and mud, flows into the tunnel from the east.  In addition to the gentle wind, the tunnel eastwards appears to have a source of light other than torchlight.  Meanwhile, to the southeast is a dark sloping tunnel entrance absent of light and the source of a slow, steady roar."
-  ],
-  "image": "rr-warrens-1266380776.png",
-  "climate": "indoors",
-  "title": [
-    "[Smuggler's Tunnels, Tunnel]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "17683": 0.2,
-    "17686": 0.2,
-    "17687": 0.2
-  },
-  "id": 17685,
-  "location": "River's Rest",
   "tags": [
     "withered black mushroom",
     "genkew mushroom",
@@ -41,11 +38,6 @@
     "blue trafel mushroom",
     "cave moss",
     "murdroot",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bolmara lichen"
   ]
 }

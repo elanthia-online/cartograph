@@ -1,33 +1,30 @@
 {
+  "id": 7262,
+  "title": [
+    "[Graveyard, Bog]"
+  ],
+  "description": [
+    "Strangely carved tombstones with fiendish faces and creatures incised upon them bear epitaphs in long-forgotten scripts.  Mute testament to slain heroes and fallen villains, the unearthly silence is broken only by the eerie rustlings of the sirenflower plants growing among the gravesites."
+  ],
+  "paths": [
+    "Obvious paths: south, west"
+  ],
+  "location": "the Graveyard",
   "wayto": {
     "7263": "south",
     "7252": "west"
   },
-  "paths": [
-    "Obvious paths: south, west"
-  ],
+  "timeto": {
+    "7263": 0.2,
+    "7252": 0.2
+  },
+  "image": "wl-graveyard-1264234799.png",
   "image_coords": [
     236,
     559,
     246,
     569
   ],
-  "terrain": "rough",
-  "description": [
-    "Strangely carved tombstones with fiendish faces and creatures incised upon them bear epitaphs in long-forgotten scripts.  Mute testament to slain heroes and fallen villains, the unearthly silence is broken only by the eerie rustlings of the sirenflower plants growing among the gravesites."
-  ],
-  "image": "wl-graveyard-1264234799.png",
-  "climate": "moist",
-  "title": [
-    "[Graveyard, Bog]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "7263": 0.2,
-    "7252": 0.2
-  },
-  "id": 7262,
-  "location": "the Graveyard",
   "tags": [
     "yellow passionflower",
     "white passionflower",
@@ -35,10 +32,6 @@
     "golden hook mushroom",
     "broken twig",
     "wild chokecherry",
-    "motherwort",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "motherwort"
   ]
 }

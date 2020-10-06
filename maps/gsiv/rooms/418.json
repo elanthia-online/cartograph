@@ -1,33 +1,30 @@
 {
+  "id": 418,
+  "title": [
+    "[Wehnimer's, Exterior]"
+  ],
+  "description": [
+    "You are on the merchant road that leads to and from Wehnimer's Landing.  The path continues there to the southeast.  The merchant road continues along the coast, leading to other parts of Elanthia.  To go that way is to trust to luck and your own skills."
+  ],
+  "paths": [
+    "Obvious paths: southeast"
+  ],
+  "location": "the Lower Dragonsclaw",
   "wayto": {
     "417": "southeast",
     "478": "go road"
   },
-  "paths": [
-    "Obvious paths: southeast"
-  ],
+  "timeto": {
+    "417": 0.2,
+    "478": 0.2
+  },
+  "image": "wl-gates-1264234799.png",
   "image_coords": [
     519,
     112,
     529,
     122
   ],
-  "terrain": "plain dirt",
-  "description": [
-    "You are on the merchant road that leads to and from Wehnimer's Landing.  The path continues there to the southeast.  The merchant road continues along the coast, leading to other parts of Elanthia.  To go that way is to trust to luck and your own skills."
-  ],
-  "image": "wl-gates-1264234799.png",
-  "climate": "temperate",
-  "title": [
-    "[Wehnimer's, Exterior]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "417": 0.2,
-    "478": 0.2
-  },
-  "id": 418,
-  "location": "the Lower Dragonsclaw",
   "tags": [
     "some sovyn clove",
     "some acantha leaf",
@@ -60,10 +57,6 @@
     "blue whortleberry",
     "murdroot",
     "wingstem root",
-    "bur-clover root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "bur-clover root"
   ]
 }

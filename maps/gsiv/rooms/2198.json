@@ -1,42 +1,33 @@
 {
+  "id": 2198,
+  "title": [
+    "[Eye of V'Tull, Inner Circle]"
+  ],
+  "description": [
+    "Ash drifts heavily in the air, and the continued formation of crystals causes the glowing rock to intensify the light as it bounces and compounds itself off the walls.  The thick layer of soot on the floor does little to insulate the heat that rises from beneath its surface."
+  ],
+  "paths": [
+    "Obvious exits: southeast, northwest"
+  ],
+  "location": "the Eye of V'Tull",
   "wayto": {
     "2197": "northwest",
     "2199": "southeast"
   },
-  "paths": [
-    "Obvious exits: southeast, northwest"
-  ],
+  "timeto": {
+    "2197": 0.2,
+    "2199": 0.2
+  },
+  "image": "ti-vtull-1264234799.png",
   "image_coords": [
     795,
     628,
     803,
     636
   ],
-  "terrain": "indoors",
-  "description": [
-    "Ash drifts heavily in the air, and the continued formation of crystals causes the glowing rock to intensify the light as it bounces and compounds itself off the walls.  The thick layer of soot on the floor does little to insulate the heat that rises from beneath its surface."
-  ],
-  "image": "ti-vtull-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Eye of V'Tull, Inner Circle]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "2197": 0.2,
-    "2199": 0.2
-  },
-  "id": 2198,
-  "location": "the Eye of V'Tull",
   "tags": [
     "black trafel mushroom",
     "some cave moss",
-    "daggerstalk mushroom",
-    "cave moss",
-    "pepperthorn root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "daggerstalk mushroom"
   ]
 }

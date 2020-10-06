@@ -1,43 +1,34 @@
 {
+  "id": 11883,
+  "title": [
+    "[Aqueduct]"
+  ],
+  "description": [
+    "A convergence of streams occurs, with a larger body of water rushing in from the southeast to collide with a smaller flow from the northeast.  The two flows intermix violently, buffeting each other and anything in their path, then seem to agree on a point of exit and move off peaceably to the west, less agitated but also considerably deeper than before.  Likewise, the air following the streams whistles and howls as it is forced to accommodate an additional volume in a more constricted space."
+  ],
+  "paths": [
+    "Obvious exits: northeast, southeast, west"
+  ],
+  "location": "Old Ta'Faendryl",
   "wayto": {
     "11875": "southeast",
     "11882": "northeast",
     "11884": "west"
   },
-  "paths": [
-    "Obvious exits: northeast, southeast, west"
-  ],
+  "timeto": {
+    "11875": 0.2,
+    "11882": 0.2,
+    "11884": 0.2
+  },
+  "image": "en-old_ta_faendryl-1264234799.png",
   "image_coords": [
     1107,
     1069,
     1117,
     1079
   ],
-  "terrain": "indoors",
-  "description": [
-    "A convergence of streams occurs, with a larger body of water rushing in from the southeast to collide with a smaller flow from the northeast.  The two flows intermix violently, buffeting each other and anything in their path, then seem to agree on a point of exit and move off peaceably to the west, less agitated but also considerably deeper than before.  Likewise, the air following the streams whistles and howls as it is forced to accommodate an additional volume in a more constricted space."
-  ],
-  "image": "en-old_ta_faendryl-1264234799.png",
-  "climate": "indoors",
-  "title": [
-    "[Aqueduct]"
-  ],
-  "check_location": null,
-  "timeto": {
-    "11875": 0.2,
-    "11882": 0.2,
-    "11884": 0.2
-  },
-  "id": 11883,
-  "location": "Old Ta'Faendryl",
   "tags": [
     "murdroot",
-    "some wingstem root",
-    "bolmara lichen",
-    "wingstem root",
-    "meta:forage-sensed"
-  ],
-  "links": [
-
+    "some wingstem root"
   ]
 }
