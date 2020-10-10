@@ -8,7 +8,7 @@ map_changes = commited_changes
   .select {|change| change.start_with?(PREFIX)}
 # without any map changes, we should not make a release
 if map_changes.empty?
-  pp "no map changes detected"
+  puts "no map changes detected"
   exit 
 end
 # useful for perhaps generating automatic semver releases in the future
@@ -25,5 +25,3 @@ require_relative "./common/cartograph"
 bundle_checksum = Cartograph.export_bundle()
 release_tag = PREFIX + bundle_checksum
 puts("creating release tag %s" % release_tag)
-pp %x(export TRAVIS_TAG=#{release_tag})
-pp %x(git tag $TRAVIS_TAG)

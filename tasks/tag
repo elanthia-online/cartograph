@@ -1,5 +1,8 @@
 #!/usr/bin/env ruby
-require_relative "./common/mapdb"
-
-# util to create the tag
-$stdout.puts "map/gsiv/%s" % MapDB.checksum
+require 'digest'
+require_relative './common/cartograph'
+if File.exists? Cartograph.cartograph_file
+  $stdout.puts "map/gsiv/%s" % Digest::MD5.hexdigest(File.read(Cartograph.cartograph_file))
+else
+  exit 0
+end
