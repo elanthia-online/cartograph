@@ -1,0 +1,19 @@
+#!/usr/bin/env ruby
+###
+# this script is meant to import the MapDB from the repo
+###
+require_relative "./common/repo"
+require_relative "./common/mapdb"
+require_relative "./common/dry-run"
+
+dirty = Dry.x(%[git status --porcelain], "").strip.split("\n")
+  .select {|pending| pending.split("\s").last.start_with?("maps/") }
+  .size > 0
+
+fail "maps/ has pending changes, please clean them up before proposing new changes" if dirty and not Opts.force
+
+Dry.x(%[git pull origin master]) unless ENV["CI"] or dirty
+
+Repo.download_mapdb() unless Opts["no-download"]
+MapDB.import_mapdb()
+Repo.lock_with_checksum()

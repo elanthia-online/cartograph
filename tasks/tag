@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+require_relative "./common/mapdb"
 
 # util to create the tag
-$stdout.puts "map/gsiv/%s" % File.read("checksum")
+$stdout.puts "map/gsiv/%s" % MapDB.checksum
