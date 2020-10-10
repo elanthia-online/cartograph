@@ -23,5 +23,4 @@ puts("generating new bundle for %s changed rooms and %s changed stringprocs" %
 # for travis to upload as a Github release
 require_relative "./common/cartograph"
 bundle_checksum = Cartograph.export_bundle()
-release_tag = PREFIX + bundle_checksum
-puts("creating release tag %s" % release_tag)
+puts("generated bundle with checksum=%s" % bundle_checksum)

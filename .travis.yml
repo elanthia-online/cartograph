@@ -17,7 +17,7 @@ deploy:
   on:
     repo: elanthia-online/cartograph
     tags: true
-    condition: $TRAVIS_TAG =~ ^(map\/)$
+    condition: $TRAVIS_TAG =~ ^map/gsiv
     branches:
       only:
         - master
