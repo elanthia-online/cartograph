@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 require_relative "./common/travis"
+ARGV[0] or fail "must pass game instance"
 PREFIX = "maps/#{ARGV[0]}/"
 puts("using file prefix: %s" % PREFIX)
 commited_changes = Travis.git_changes
