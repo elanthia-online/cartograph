@@ -5,8 +5,7 @@ before_install: gem update --system
 script: 
   - tasks/test
 before_deploy:
-  - mkdir -p tmp
-  - tasks/bundle
+  - tasks/before-deploy
 deploy:
   provider: releases
   skip_cleanup: true

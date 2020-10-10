@@ -1,0 +1,28 @@
+#!/usr/bin/env ruby
+require_relative "./common/travis"
+PREFIX = "maps/#{ARGV[0]}/"
+puts("using file prefix: %s" % PREFIX)
+commited_changes = Travis.git_changes
+map_changes = commited_changes
+  .select {|change| change.start_with?(PREFIX)}
+# without any map changes, we should not make a release
+if map_changes.empty?
+  pp "no map changes detected"
+  exit 
+end
+# useful for perhaps generating automatic semver releases in the future
+changed_string_procs = map_changes
+  .select {|change| change.start_with?(PREFIX + "string_procs/")}
+changed_rooms = map_changes
+  .select {|change| change.start_with?(PREFIX + "rooms/")}
+# write some useful info about this build to STDOUT
+puts("generating new bundle for %s changed rooms and %s changed stringprocs" % 
+  [changed_rooms.size, changed_string_procs.size])
+# output the cartograph.json file to tmp/cartograph.json
+# for travis to upload as a Github release
+require_relative "./common/cartograph"
+bundle_checksum = Cartograph.export_bundle()
+release_tag = PREFIX + bundle_checksum
+puts("creating release tag %s" % release_tag)
+puts("THIS WAS ONLY A DRY RUN")
+exit

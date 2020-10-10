@@ -1,3 +1,5 @@
+require 'fileutils'
+require 'digest'
 require_relative "./mapdb"
 
 module Cartograph
@@ -26,8 +28,8 @@ module Cartograph
   end
 
   def self.export_bundle(pretty: Opts.pretty)
-  
     runtime = Benchmark.realtime { 
+      FileUtils.mkdir_p(File.join(Dir.pwd, "tmp"))
       cartograph_db = load_files(Cartograph.rooms) {|f| JSON.parse(f) }
       cartograph_db.each { |room|
         load_procs(room, "wayto")
@@ -38,6 +40,8 @@ module Cartograph
         pretty ? JSON.pretty_generate(cartograph_db) : cartograph_db.to_json)
     }
 
-    puts "mapdb bundled in #{runtime}s to #{cartograph_file}"
+    puts "cartographdb bundled in #{runtime}s to #{cartograph_file}"
+
+    Digest::MD5.hexdigest(File.read(cartograph_file))
   end
 end
