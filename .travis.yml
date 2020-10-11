@@ -3,7 +3,6 @@ rvm:
 - 2.6
 before_install: gem update --system
 script:
-  - tasks/bundle
   - tasks/verify-git-range $TRAVIS_COMMIT_RANGE
   - tasks/prepare-deploy gsiv
   - export TRAVIS_TAG=${TRAVIS_TAG:-$(tasks/tag)}
