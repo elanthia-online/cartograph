@@ -3,8 +3,12 @@ require 'digest'
 require_relative "./mapdb"
 
 module Cartograph
+  def self.dist()
+    File.join(Dir.pwd, "dist")
+  end
+
   def self.cartograph_file()
-    File.join Dir.pwd, "tmp", "cartograph.json"
+    File.join dist, "gsiv.json"
   end
 
   def self.load_files(files)
@@ -29,7 +33,7 @@ module Cartograph
 
   def self.export_bundle(pretty: Opts.pretty)
     runtime = Benchmark.realtime { 
-      FileUtils.mkdir_p(File.join(Dir.pwd, "tmp"))
+      FileUtils.mkdir_p(dist)
       cartograph_db = load_files(Cartograph.rooms) {|f| JSON.parse(f) }
       cartograph_db.each { |room|
         load_procs(room, "wayto")
