@@ -6,7 +6,7 @@ script:
   - tasks/verify-git-range $TRAVIS_COMMIT_RANGE
   - tasks/prepare-deploy gsiv
   - export TRAVIS_TAG=${TRAVIS_TAG:-$(tasks/tag)}
-  - if [ -z "$TRAVIS_TAG" ]; then exit 0; else git tag $TRAVIS_TAG; fi
+  - if [ -z "$TRAVIS_TAG" ]; then echo "skipping release"; else git tag $TRAVIS_TAG; fi
 deploy:
   provider: releases
   skip_cleanup: true
