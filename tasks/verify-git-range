@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+require_relative "../util/color"
+require_relative "../util/log"
+require_relative "../util/git"
+
+changed_files = Git.diff_range ARGV[0]
+
+if changed_files.grep(%r[^maps/]).size and changed_files.grep(%r[^lib/cartograph/version\.rb$]).empty?
+  raise StandardError, <<~ERROR
+    mapdb changed without incrementing the version
+  ERROR
+end

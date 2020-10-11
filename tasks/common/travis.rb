@@ -1,5 +1,7 @@
+require_relative "../../util/git"
+
 module Travis
   def self.git_changes()
-    %x{git diff --name-only #{ENV.fetch("TRAVIS_COMMIT_RANGE")}}.split(" ")
+    Git.diff_range ENV.fetch("TRAVIS_COMMIT_RANGE")
   end
 end
