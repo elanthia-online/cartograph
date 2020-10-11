@@ -5,8 +5,11 @@ require_relative "../util/git"
 
 changed_files = Git.diff_range ARGV[0]
 
-if changed_files.grep(%r[^maps/]).size and changed_files.grep(%r[^lib/cartograph/version\.rb$]).empty?
+if changed_files.grep(%r[^maps/]).size > 0 and changed_files.grep(%r[^lib/cartograph/version\.rb$]).empty?
   raise StandardError, <<~ERROR
-    mapdb changed without incrementing the version
+    VERSION ERROR
+    mapdb has #{changed_files.grep(%r[^maps/]).size} changes 
+    but there was not a corresponding change to lib/cartograph/version.rb
+    within the commit range #{ARGV[0]}
   ERROR
 end
