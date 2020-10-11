@@ -1,13 +1,13 @@
 PATH
   remote: .
   specs:
-    cartograph (0.1.0)
+    eol-cartograph (0.1.0)
 
 GEM
   remote: https://rubygems.org/
   specs:
     diff-lcs (1.2.5)
-    rake (12.3.2)
+    rake (12.3.3)
     rspec (3.5.0)
       rspec-core (~> 3.5.0)
       rspec-expectations (~> 3.5.0)
@@ -26,8 +26,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  cartograph!
-  rake (~> 12.0)
+  eol-cartograph!
+  rake (~> 12.3)
   rspec (~> 3.0)
 
 BUNDLED WITH
