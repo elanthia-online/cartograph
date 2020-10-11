@@ -18,12 +18,11 @@ Gem::Specification.new do |spec|
   spec.files         = (Dir.chdir(File.expand_path('..', __FILE__)) do
     ["dist/gsiv.json"] + `git ls-files -z`.split("\x0")
       .reject { |f| 
-        f.match(%r{^(test|spec|util|features|shims|tasks)/}) or 
+        f.match(%r{^(bin|test|spec|util|features|shims|tasks)/}) or 
         f.match(%r{^maps/gsiv/rooms}) or
         f.match(%r{/checksum$})
       }
   end)
-  pp spec.files.reject {|f| f.include?("string_procs")}
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib", "dist"]
