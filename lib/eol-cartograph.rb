@@ -1,6 +1,6 @@
 require "file"
 require "json"
-require "cartograph/version"
+require "eol-cartograph/version"
 
 module Cartograph
   class Error < StandardError; end

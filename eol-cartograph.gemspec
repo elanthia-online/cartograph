@@ -1,4 +1,4 @@
-require_relative 'lib/cartograph/version'
+require_relative 'lib/eol-cartograph/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "eol-cartograph"
