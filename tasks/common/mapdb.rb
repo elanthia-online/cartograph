@@ -10,7 +10,7 @@ require_relative "../../util/color"
 require_relative "../../util/log"
 
 module MapDB
-  GAME = "gsiv"
+  GAME = Opts.game || "gsiv"
   STRING_PROC_PREAMBLE = %[;e]
   SYNTAX_OK = "Syntax OK\n"
 
@@ -38,14 +38,7 @@ module MapDB
     File.read checksum_file
   end
 
-  def self.cleanup_dirs()
-    puts "pruning #{env_dir("string_procs")}"
-    FileUtils.rm_rf env_dir("string_procs")
-    puts "pruning #{env_dir("rooms")}"
-    FileUtils.rm_rf env_dir("rooms")
-  end
-
-  def self.setup_dirs()
+  def self.ensure_setup_dirs()
     FileUtils.mkdir_p env_dir("string_procs/wayto")
     FileUtils.mkdir_p env_dir("string_procs/timeto")
     FileUtils.mkdir_p env_dir("rooms")
@@ -96,14 +89,13 @@ module MapDB
 
   def self.import_mapdb()
     runtime = Benchmark.realtime { 
-      cleanup_dirs
-      setup_dirs
+      ensure_setup_dirs
       # import stringprocs to filesystem first 
       # so they can modify the room object
       import_string_procs
       import_rooms
     }
 
-    puts "mapdb synced in #{runtime}s"
+    puts "mapdb imported from lich repository in #{runtime.round(2)}s"
   end
 end
