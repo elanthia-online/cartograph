@@ -1,23 +1,25 @@
 language: ruby
 rvm:
 - 2.6
-before_install: gem update --system
+before_install:
+- gem update --system
+- gem install gem-release
 script:
-  - tasks/verify-git-range $TRAVIS_COMMIT_RANGE
-  - tasks/prepare-deploy gsiv
-  - export TRAVIS_TAG=${TRAVIS_TAG:-$(tasks/tag)}
-  - if [ -z "$TRAVIS_TAG" ]; then echo "skipping release"; else git tag $TRAVIS_TAG; fi
+- tasks/verify-git-range $TRAVIS_COMMIT_RANGE
+after_success:
+- tasks/prepare-deploy gsiv
+- export TRAVIS_TAG=${TRAVIS_TAG:-$(tasks/tag)}
+- if [ -z "$TRAVIS_TAG" ]; then echo "skipping release"; else git tag $TRAVIS_TAG;
+  fi
 deploy:
-  provider: releases
-  skip_cleanup: true
+  provider: rubygems
   api_key:
-    secure: lZCyr6sflieqXfsUC7rTEABz9jkaHcPENjx3jVzLteBRY7CdtcQpCpDZkibYvVmvjXgypcJWmP5FOoeYMZtkhpSmRZxI81HB3Zc/G2dLx3eiSKtWeb1DOoc4I8EXzd+bYtYekmX9/GqJ+7g7HySFb0zG3a8WOLV1gqPAoIx5eiUKDGDpn0w9Q/tof3iwrbXq/xdgWHN970fZKcZaXORG9pU7KCFP+sTYvOaZ9L0YYdpz+G5SqJqiLeMP1TQtZQ1ncgrWmSUP2vzer8CHwSZhdZP+IbDJazoRgPg9udepHn4Wa6cWCyWRepvG8ELclXYDtGPmNdRfgZxSfYK0nh7QtLewF8nLRTTLp5JF9qCpZEIUFTUyA8eW8jeJ98O7IQ6LiiBP+A1GvisggoGrsAsuGkcfBJ3nxcK03Y+zc7bkpVy74WX/xFlHgiZDa8h7XxH6+GKIP3KoA4cHtRicUkklMdv6W4qd48nzjByOu14R0Xt9avchAE40yxnJ+anxy0bE+SPz4Pg1WddHUxEnMU2pzUPQikFN8BaOOb93Z32yG3ewBRqyqyR6FL5of5R73eZEiIET2SgDcbMgm4FMmD8yFkIBQ5POlZ4cYAmDgLUpNjJieE2VldKwoWswsyKBrbYaOcJzIzRiOSipFIkq5FxvnOblQMx9O3q2Y/61gAFMM+E=
-  file: 
-    - tmp/cartograph.json
+    secure: LC0AD4g/Ew87/86C1joTvOjqgf6VuSD/5RcHau/ye/nkLlw9ljx3nxkoEIxrDKrZlGkrHjI3ziL0YQpWkQAiF1pr6cNMg61Nb8IeMGm93GLvuoJNh+dIX6QnLgMF71jpCmmlnMqQ8Fu4USqzO+I97dBJYGxUWrczcu514r2hLJXvYbeRwkLG2pJiXIcqgiwcIM1v1dNsnb8At6HTwrnueedJO/GLbM/yTyW8As9a5ytBqL8guUi0yW/SAC7idxoRiQ9poX9ZhLridUfwCS/NUgQB8CTiKNjTMGRzoIMjkDAJaOL9iztfCDcwS9isuAkR3Cx9bt8MNVwZA9iOf9DYZzYq+ffZ2YNVBRXrOgyakaSfixPGoswr95bQNxx0hVxq/EmqHyNDoiwydfJ/LcLEkUWHRqlGbVBMZ5c5ifERrk05EXejR8ofxzy2LLsMmCHm76QB3fxPxxLBxNBykQTwQYdj3G1LXq/BxvAEQ9ydAEh/BsXEXkXNxgySbNyB9R9ZG4UsvhoNB7DjAiLqNm/X1THyTiX5jqtzuYlxNrko9rV4tr/EFNSetKJwnEYhbXcu92P6XSyj8XD2uW5LFxg49R2em9oUKmD9ajjjZKp5qPBNH0HYJ5f8FXy5M7/6fgveKm8NihDyEQtmfAZBgbYZAEbFw7twN/FUu736BHxxGFE=
+  gem: eol-cartograph
   on:
-    repo: elanthia-online/cartograph
     tags: true
-    condition: $TRAVIS_TAG =~ ^map/gsiv
+    repo: elanthia-online/cartograph
     branches:
       only:
         - master
+  skip_cleanup: 'true'
