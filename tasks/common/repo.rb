@@ -69,10 +69,6 @@ module Repo
 	end
 
 	def self.download_mapdb()
-		download_dir = File.join(Dir.pwd, "tmp")
-		FileUtils.mkdir_p File.dirname(download_dir)
-		mapdb_out_file = File.join(download_dir, "mapdb.json")
-		checksum_out_file = File.join(download_dir, "checksum")
 		ssl_socket, _socket = Repo.dial()
 		ssl_socket.puth(DOWNLOAD_REQUEST)
 		response = ssl_socket.geth
@@ -81,6 +77,12 @@ module Repo
 		puts response["warning"] if response['warning']
 		fail response["error"] if response["error"]
 		bail() if response["md5sum"].eql? MapDB.checksum
+		download_dir = File.join(Dir.pwd, "tmp")
+		FileUtils.mkdir_p(download_dir,
+			verbose: true)
+		mapdb_out_file = File.join(download_dir, "mapdb.json")
+		checksum_out_file = File.join(download_dir, "checksum")
+		puts "downloading mapdb to %s" % download_dir
 		inflated = Zlib::GzipReader.new(ssl_socket)
 		file = File.new(mapdb_out_file, 'wb')
 		file.write(inflated.read)
